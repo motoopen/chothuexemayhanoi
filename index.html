@@ -7,12 +7,19 @@
   <meta name="description" content="Dịch vụ thuê xe máy Hà Nội uy tín – Cho thuê xe máy ở Hà Nội giá rẻ, thuê xe máy tháng, giao tận nơi, thủ tục nhanh chóng." />
   <meta name="keywords" content="thuê xe máy Hà Nội, thuê xe máy tháng, thuê xe máy giao tận nơi, thuê xe máy không cọc, cho thuê xe máy ở hà nội" />
 
+  <!-- Open Graph -->
+  <meta property="og:title" content="Thuê Xe Máy Hà Nội – Motoopen" />
+  <meta property="og:description" content="Thuê xe máy Hà Nội giá rẻ, giao tận nơi. Xe số, xe ga, xe điện. Thủ tục nhanh chóng. Liên hệ 0857255868." />
+  <meta property="og:image" content="https://thuexemaynguyentu.com/wp-content/uploads/2025/10/Bang-gia-cho-thue-xe-may-Ha-Noi.jpeg" />
+  <meta property="og:url" content="https://thuexemaynguyentu.com" />
+  <meta property="og:type" content="website" />
+
   <style>
     :root {
-      --accent: #1e90ff; /* màu xanh lam */
-      --dark: #222;
-      --muted: #666;
-      --maxw: 1100px;
+      --accent:#1e90ff;
+      --dark:#222;
+      --muted:#666;
+      --maxw:1100px;
       font-family:"Segoe UI",Roboto,Arial,sans-serif;
     }
     body{margin:0;padding:0;background:#fff;color:var(--dark);}
@@ -35,27 +42,59 @@
     footer a{color:var(--accent);text-decoration:none;font-weight:600;}
     @media(max-width:768px){h1{font-size:30px}ul.features li{font-size:18px}}
 
-    .fade-in {
-      opacity: 0;
-      transform: translateY(30px);
-      transition: all 0.8s ease-out;
-    }
-    .fade-in.show {
-      opacity: 1;
-      transform: translateY(0);
-    }
+    .fade-in {opacity:0; transform:translateY(30px); transition: all 0.8s ease-out;}
+    .fade-in.show {opacity:1; transform:translateY(0);}
 
+    /* Bảng giá */
     table {border-collapse: collapse; margin: 20px auto; width: 100%; max-width: 900px;}
-    th, td {border: 1px solid #ddd; padding: 10px; text-align: center;}
-    th {background: var(--accent); color: #fff;}
+    th, td {border:1px solid #ddd; padding:10px; text-align:center;}
+    th {background: var(--accent); color:#fff; position: sticky; top:0; z-index:2;}
 
-    /* Nút liên hệ footer */
+    /* Footer buttons */
     .footer-buttons {margin-top:20px; display:flex; justify-content:center; gap:15px; flex-wrap:wrap;}
     .footer-buttons .btn{padding:12px 20px;}
   </style>
-</head>
-<body>
 
+  <!-- Schema LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"LocalBusiness",
+    "name":"Thuê Xe Máy Motoopen",
+    "image":"https://thuexemaynguyentu.com/wp-content/uploads/2025/10/Bang-gia-cho-thue-xe-may-Ha-Noi.jpeg",
+    "telephone":"+84857255868",
+    "email":"motoopen@gmail.com",
+    "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"114 Nguyễn Văn Cừ, Bồ Đề",
+      "addressLocality":"Long Biên",
+      "addressRegion":"Hà Nội",
+      "addressCountry":"VN"
+    },
+    "openingHours":"Mo-Su 09:00-21:00",
+    "url":"https://thuexemaynguyentu.com",
+    "priceRange":"150000-200000VND",
+    "areaServed":["Hà Nội","Long Biên","Phố Cổ","Hoàn Kiếm","Tây Hồ","Ba Đình","Gia Lâm"],
+    "sameAs":["https://m.facebook.com/chothuexemaycongtan/"]
+  }
+  </script>
+
+  <!-- FAQ Schema -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {"@type":"Question","name":"Tôi cần giấy tờ gì để thuê xe máy?","acceptedAnswer":{"@type":"Answer","text":"CMND/CCCD hoặc hộ chiếu, giấy phép lái xe A1 trở lên, tiền đặt cọc từ 2-5 triệu, số điện thoại và địa chỉ lưu trú."}},
+      {"@type":"Question","name":"Có dịch vụ thuê xe máy giao tận nơi không?","acceptedAnswer":{"@type":"Answer","text":"Có. Chúng tôi giao xe có phí đến Long Biên, Phố Cổ, Hoàn Kiếm, Tây Hồ, Ba Đình và bến xe Gia Lâm."}},
+      {"@type":"Question","name":"Giá thuê xe máy tháng tại Hà Nội thế nào?","acceptedAnswer":{"@type":"Answer","text":"Giá thuê xe máy tháng tại Hà Nội chỉ từ 1 – 2 triệu đồng/tháng, tùy loại xe số, xe ga hoặc xe điện."}}
+    ]
+  }
+  </script>
+
+</head>
+
+<body>
   <nav>
     <ul>
       <li><a href="#gioithieu">Giới thiệu</a></li>
@@ -169,6 +208,5 @@
       elements.forEach(el => observer.observe(el));
     });
   </script>
-
 </body>
 </html>
