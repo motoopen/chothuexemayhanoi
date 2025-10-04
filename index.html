@@ -44,6 +44,9 @@
     footer a{color:var(--accent);text-decoration:none;font-weight:600;}
     .footer-buttons {margin-top:20px; display:flex; justify-content:center; gap:15px; flex-wrap:wrap;}
     .footer-buttons .btn{padding:12px 20px;}
+    table{border-collapse:collapse; width:100%; text-align:center;}
+    table th, table td{border:1px solid #ddd; padding:8px;}
+    table th{background:var(--accent); color:#fff;}
     @media(max-width:768px){h1{font-size:30px}ul.features li{font-size:18px}}
 
     .fade-in {opacity:0; transform:translateY(30px); transition: all 0.8s ease-out;}
@@ -118,9 +121,59 @@
     </section>
 
     <section id="gia" class="fade-in">
-      <h2>📋 Giá Cho Thuê Xe Máy Hà Nội</h2>
-      <div style="overflow-x:auto; max-width:900px; margin:0 auto; border:1px solid #ddd; border-radius:8px;">
-        <img src="https://thuexemaynguyentu.com/wp-content/uploads/2025/10/Bang-gia-cho-thue-xe-may-Ha-Noi.jpeg" alt="Bảng giá thuê xe máy Hà Nội" style="width:100%; display:block; border-radius:8px;" />
+      <h2>📋 Giá Thuê Xe Máy Hà Nội</h2>
+      <div style="overflow-x:auto; max-width:900px; margin:0 auto; border:1px solid #ddd; border-radius:8px; padding:10px;">
+        <table>
+          <thead>
+            <tr>
+              <th>Loại Xe</th>
+              <th>Giá 1 Ngày</th>
+              <th>Giá 2 Ngày</th>
+              <th>Giá 3 Ngày</th>
+              <th>Giá 1 Tuần</th>
+              <th>Giá 1 Tháng</th>
+              <th>Thủ Tục Đặt Cọc</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Xe số Honda Wave</td>
+              <td>150k</td>
+              <td>300k</td>
+              <td>400k</td>
+              <td>1000k</td>
+              <td>1200k</td>
+              <td>2-3 triệu</td>
+            </tr>
+            <tr>
+              <td>Xe ga Honda Vision</td>
+              <td>200k</td>
+              <td>350k</td>
+              <td>500k</td>
+              <td>800k - 1000k</td>
+              <td>1400k - 2000k</td>
+              <td>4-5 triệu</td>
+            </tr>
+            <tr>
+              <td>Xe ga Air Blade</td>
+              <td>200k</td>
+              <td>350k</td>
+              <td>500k</td>
+              <td>800k - 1000k</td>
+              <td>1400k - 2000k</td>
+              <td>3 triệu</td>
+            </tr>
+            <tr>
+              <td>Xe ga giá rẻ (Honda Click/Mio)</td>
+              <td>150k</td>
+              <td>300k</td>
+              <td>400k</td>
+              <td>600k - 700k</td>
+              <td>1000k - 1200k</td>
+              <td>2 triệu</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </section>
 
