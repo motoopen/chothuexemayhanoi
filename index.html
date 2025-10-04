@@ -4,12 +4,12 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Thuê Xe Máy Hà Nội | Motoopen – Giá Rẻ, Giao Tận Nơi</title>
-  <meta name="description" content="Dịch vụ thuê xe máy Hà Nội uy tín – Cho thuê xe máy ở Hà Nội giá rẻ, thuê xe máy tháng, giao tận nơi, thủ tục nhanh chóng." />
+  <meta name="description" content="Dịch vụ thuê xe máy Hà Nội uy tín – Cho thuê xe máy giá rẻ, thuê xe máy tháng, giao tận nơi, thủ tục nhanh chóng." />
   <meta name="keywords" content="thuê xe máy Hà Nội, thuê xe máy tháng, thuê xe máy giao tận nơi, thuê xe máy không cọc, cho thuê xe máy ở hà nội" />
 
   <!-- Open Graph -->
   <meta property="og:title" content="Thuê Xe Máy Hà Nội – Motoopen" />
-  <meta property="og:description" content="Thuê xe máy Hà Nội giá rẻ, giao tận nơi. Xe số, xe ga, xe điện. Thủ tục nhanh chóng. Liên hệ 0857255868." />
+  <meta property="og:description" content="Thuê xe máy Hà Nội giá rẻ, giao tận nơi. Xe số, xe ga, xe điện. Liên hệ 0857255868." />
   <meta property="og:image" content="https://thuexemaynguyentu.com/wp-content/uploads/2025/10/Bang-gia-cho-thue-xe-may-Ha-Noi.jpeg" />
   <meta property="og:url" content="https://thuexemaynguyentu.com" />
   <meta property="og:type" content="website" />
@@ -36,23 +36,18 @@
     ul.features li{padding:10px 0;font-size:20px;border-bottom:1px solid #eee;}
     ul.features li::before{content:"✓";color:var(--accent);margin-right:10px;}
     .cta-row{margin:20px 0;display:flex;flex-wrap:wrap;justify-content:center;gap:15px;}
-    .btn{padding:14px 22px;border-radius:8px;border:2px solid var(--accent);background:var(--accent);color:#fff;text-decoration:none;font-weight:600;}
+    .btn{padding:14px 22px;border-radius:8px;border:2px solid var(--accent);background:var(--accent);color:#fff;text-decoration:none;font-weight:600;transition: all 0.3s ease;}
+    .btn:hover{background:#fff;color:var(--accent);}
     .btn.ghost{background:transparent;color:var(--accent);}
+    .btn.ghost:hover{background:var(--accent);color:#fff;}
     footer{background:#333;color:#fff;text-align:center;padding:30px 10px;margin-top:30px;}
     footer a{color:var(--accent);text-decoration:none;font-weight:600;}
+    .footer-buttons {margin-top:20px; display:flex; justify-content:center; gap:15px; flex-wrap:wrap;}
+    .footer-buttons .btn{padding:12px 20px;}
     @media(max-width:768px){h1{font-size:30px}ul.features li{font-size:18px}}
 
     .fade-in {opacity:0; transform:translateY(30px); transition: all 0.8s ease-out;}
     .fade-in.show {opacity:1; transform:translateY(0);}
-
-    /* Bảng giá */
-    table {border-collapse: collapse; margin: 20px auto; width: 100%; max-width: 900px;}
-    th, td {border:1px solid #ddd; padding:10px; text-align:center;}
-    th {background: var(--accent); color:#fff; position: sticky; top:0; z-index:2;}
-
-    /* Footer buttons */
-    .footer-buttons {margin-top:20px; display:flex; justify-content:center; gap:15px; flex-wrap:wrap;}
-    .footer-buttons .btn{padding:12px 20px;}
   </style>
 
   <!-- Schema LocalBusiness -->
@@ -124,57 +119,9 @@
 
     <section id="gia" class="fade-in">
       <h2>📋 Giá Cho Thuê Xe Máy Hà Nội</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Loại Xe</th>
-            <th>Giá 1 Ngày</th>
-            <th>Giá 2 Ngày</th>
-            <th>Giá 3 Ngày</th>
-            <th>Giá 1 Tuần</th>
-            <th>Giá 1 Tháng</th>
-            <th>Thủ Tục Đặt Cọc</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Xe số Honda Wave</td>
-            <td>150k</td>
-            <td>300k</td>
-            <td>400k</td>
-            <td>1000k</td>
-            <td>1200k</td>
-            <td>2-3 triệu</td>
-          </tr>
-          <tr>
-            <td>Xe ga Honda Vision</td>
-            <td>200k</td>
-            <td>350k</td>
-            <td>500k</td>
-            <td>800k - 1000k</td>
-            <td>1400k - 2000k</td>
-            <td>4-5 triệu</td>
-          </tr>
-          <tr>
-            <td>Xe ga Air Blade</td>
-            <td>200k</td>
-            <td>350k</td>
-            <td>500k</td>
-            <td>800k - 1000k</td>
-            <td>1400k - 2000k</td>
-            <td>3 triệu</td>
-          </tr>
-          <tr>
-            <td>Xe ga giá rẻ (Honda Click/Mio)</td>
-            <td>150k</td>
-            <td>300k</td>
-            <td>400k</td>
-            <td>600k - 700k</td>
-            <td>1000k - 1200k</td>
-            <td>2 triệu</td>
-          </tr>
-        </tbody>
-      </table>
+      <div style="overflow-x:auto; max-width:900px; margin:0 auto; border:1px solid #ddd; border-radius:8px;">
+        <img src="https://thuexemaynguyentu.com/wp-content/uploads/2025/10/Bang-gia-cho-thue-xe-may-Ha-Noi.jpeg" alt="Bảng giá thuê xe máy Hà Nội" style="width:100%; display:block; border-radius:8px;" />
+      </div>
     </section>
 
     <section id="uutai" class="fade-in">
