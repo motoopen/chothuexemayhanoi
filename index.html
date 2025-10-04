@@ -10,7 +10,7 @@
   <!-- Open Graph -->
   <meta property="og:title" content="Thuê Xe Máy Hà Nội – Motoopen" />
   <meta property="og:description" content="Thuê xe máy Hà Nội giá rẻ, giao tận nơi. Xe số, xe ga, xe điện. Liên hệ 0857255868." />
-  <meta property="og:image" content="https://thuexemaynguyentu.com/wp-content/uploads/2025/10/Bang-gia-cho-thue-xe-may.png" />
+  <meta property="og:image" content="https://thuexemaynguyentu.com/wp-content/uploads/2025/10/Bang-gia-cho-thue-xe-may-Ha-Noi.jpeg" />
   <meta property="og:url" content="https://thuexemaynguyentu.com" />
   <meta property="og:type" content="website" />
 
@@ -31,7 +31,7 @@
     nav ul{margin:0;padding:10px;list-style:none;display:flex;justify-content:center;gap:20px;}
     nav a{color:#fff;text-decoration:none;font-weight:600;}
     .hero{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:20px;margin:20px 0;}
-    .hero img{width:100%;max-width:480px;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.1);}
+    .hero img{width:100%;max-width:480px;height:auto;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.1);}
     ul.features{list-style:none;padding:0;margin:20px 0;text-align:left;display:inline-block;}
     ul.features li{padding:10px 0;font-size:20px;border-bottom:1px solid #eee;}
     ul.features li::before{content:"✓";color:var(--accent);margin-right:10px;}
@@ -89,7 +89,6 @@
     ]
   }
   </script>
-
 </head>
 
 <body>
@@ -111,7 +110,7 @@
       <img src="https://thuexemaynguyentu.com/wp-content/uploads/2025/10/Bang-gia-cho-thue-xe-may-Ha-Noi.jpeg" alt="Thuê xe máy Hà Nội - Motoopen" />
       <div>
         <ul class="features">
-          <li>Thời Gian Làm Việc: 8h-21 </li>
+          <li>Thời Gian Làm Việc: 8h-21h</li>
           <li>Xe số, xe ga, xe điện đầy đủ</li>
           <li>Giá thuê từ 150.000đ/ngày</li>
           <li>Ưu đãi thuê tháng từ 1–2 triệu</li>
@@ -143,7 +142,7 @@
               <td>300k</td>
               <td>400k</td>
               <td>600k - 700k</td>
-              <td>1200k</td>
+              <td>1.200k</td>
               <td>2-3 triệu</td>
             </tr>
             <tr>
@@ -151,8 +150,8 @@
               <td>200k</td>
               <td>350k</td>
               <td>500k</td>
-              <td>800k - 1000k</td>
-              <td>1400k - 2000k</td>
+              <td>800k - 1.000k</td>
+              <td>1.400k - 2.000k</td>
               <td>4-5 triệu</td>
             </tr>
             <tr>
@@ -160,8 +159,8 @@
               <td>200k</td>
               <td>350k</td>
               <td>500k</td>
-              <td>800k - 1000k</td>
-              <td>1400k - 2000k</td>
+              <td>800k - 1.000k</td>
+              <td>1.400k - 2.000k</td>
               <td>3 triệu</td>
             </tr>
             <tr>
@@ -170,7 +169,7 @@
               <td>300k</td>
               <td>400k</td>
               <td>600k - 700k</td>
-              <td>1000k - 1200k</td>
+              <td>1.000k - 1.200k</td>
               <td>2 triệu</td>
             </tr>
           </tbody>
@@ -190,7 +189,7 @@
       <div class="footer-buttons">
         <a class="btn" href="tel:0857255868">📞 Gọi ngay</a>
         <a class="btn ghost" href="https://m.facebook.com/chothuexemaycongtan/">💬 Fanpage</a>
-        <a class="btn ghost" href="https://share.google/kqEknnaMlV62Gma1L">📍 Xem bản đồ</a>
+        <a class="btn ghost" href="https://www.google.com/maps?q=114+Nguyen+Van+Cu,+Bo+De,+Long+Bien,+Ha+Noi">📍 Xem bản đồ</a>
       </div>
       <p style="margin-top:15px;">© 2025 Thuê Xe Máy Hà Nội – Motoopen | <a href="https://thuexemaynguyentu.com">Website</a></p>
     </footer>
@@ -201,9 +200,7 @@
       const elements = document.querySelectorAll('.fade-in');
       const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('show');
-          }
+          if (entry.isIntersecting) entry.target.classList.add('show');
         });
       }, { threshold: 0.2 });
       elements.forEach(el => observer.observe(el));
