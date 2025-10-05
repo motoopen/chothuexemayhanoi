@@ -243,6 +243,33 @@
       scrollBtn.addEventListener("click", function(){ window.scrollTo({top:0, behavior:"smooth"}); });
     });
   </script>
+
+  <!-- Nút Zalo nổi góc -->
+<a href="https://zalo.me/0857255868" target="_blank" id="zaloFloatBtn" title="Chat Zalo">
+  💬
+</a>
+
+<style>
+  #zaloFloatBtn {
+    position: fixed;
+    bottom: 80px; /* cách nút lên đầu trang nếu có */
+    right: 30px;
+    z-index: 9999;
+    background:#ff6f61;
+    color:#fff;
+    font-size:24px;
+    padding:12px;
+    border-radius:50%;
+    box-shadow:0 4px 12px rgba(0,0,0,0.3);
+    text-align:center;
+    line-height:24px;
+    transition: transform 0.3s;
+  }
+  #zaloFloatBtn:hover {
+    transform: scale(1.1);
+    background:#1e90ff;
+  }
+</style>
  
 </body>
 </html>
