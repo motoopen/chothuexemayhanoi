@@ -268,7 +268,7 @@ tbody tr:hover{background:#fff6f6}
   50%{transform:scale(1.1);}
 }
 
-/* --- BIKE TRAIL STYLES --- */
+/* --- BIKE TRAIL STYLES (TỐI ƯU OBJECT POOLING) --- */
 .bike-multi {
   display: inline-block;
   animation: bounce-bike 0.5s infinite alternate;
@@ -277,6 +277,7 @@ tbody tr:hover{background:#fff6f6}
   0% {transform: translateY(0);}
   100% {transform: translateY(-4px);}
 }
+
 .bike-smoke {
   position: absolute;
   width: 40px;
@@ -285,12 +286,10 @@ tbody tr:hover{background:#fff6f6}
   background: rgba(230,0,18,0.3);
   filter: blur(6px);
   pointer-events: none;
-  animation: riseSmoke 1.2s linear forwards;
-  z-index: 1000; 
-}
-@keyframes riseSmoke {
-  0% {opacity:0.3; transform:translate(0,0) scale(1);}
-  100% {opacity:0; transform:translate(-10px,-50px) scale(0.5);}
+  /* Sử dụng transition cho hiệu ứng khói bay lên */
+  transition: transform 0.8s linear, opacity 0.8s linear; 
+  opacity: 0; /* Mặc định ẩn, sẽ được hiển thị khi tái sử dụng */
+  transform: translate(0, 0) scale(1); /* Mặc định */
 }
 /* --- END BIKE TRAIL STYLES --- */
 
@@ -347,7 +346,7 @@ tbody tr:hover{background:#fff6f6}
     </div>
   </div>
 
-  <div id="bikeTrailContainer" style="position:absolute;bottom:12px;left:-50px;font-size:32px;z-index: 1001; transition: left 0.06s linear;">
+  <div id="bikeTrailContainer" style="position:absolute;bottom:12px;left:-50px;font-size:32px;z-index: 1001; transition: none; will-change: transform;">
     <span class="bike-multi">🏍️</span>
   </div>
 </section>
@@ -451,47 +450,52 @@ tbody tr:hover{background:#fff6f6}
   </div>
 </div>
 
+<div id="smokePool" style="position:fixed; top:0; left:0; pointer-events:none; z-index:10000;">
+    <div class="bike-smoke" data-smoke-id="1"></div>
+    <div class="bike-smoke" data-smoke-id="2"></div>
+    <div class="bike-smoke" data-smoke-id="3"></div>
+    <div class="bike-smoke" data-smoke-id="4"></div>
+    <div class="bike-smoke" data-smoke-id="5"></div>
+</div>
+
+
 <script>
   // Page fade-in
   window.addEventListener('DOMContentLoaded', () => {
     document.body.style.opacity = 1;
     document.body.style.transform = 'translateY(0)';
+    
+    // Khởi tạo Bike Trail sau khi DOM đã load
+    initBikeTrail();
   });
 
   /* -------------------------------------- */
-  /* --- MOBILE DRAWER SCRIPTS (NÂNG CẤP) --- */
+  /* --- MOBILE DRAWER SCRIPTS (GIỮ NGUYÊN) --- */
   /* -------------------------------------- */
   const drawer = document.getElementById('drawer');
   const hambtn = document.getElementById('hambtn');
   const closeDrawer = document.getElementById('closeDrawer');
-  // Lấy tất cả các thẻ a trong drawer, trừ nút đóng
   const drawerLinks = document.querySelectorAll('.drawer a'); 
 
-  // Mở drawer
   hambtn?.addEventListener('click', () => { 
     drawer.classList.add('open'); 
     drawer.setAttribute('aria-hidden','false'); 
   });
-  // Đóng drawer
   closeDrawer?.addEventListener('click', () => { 
     drawer.classList.remove('open'); 
     drawer.setAttribute('aria-hidden','true'); 
   });
 
-  // Click link drawer: neon effect + scroll (Logic mới)
   drawerLinks.forEach(link => {
     const icon = link.querySelector('i');
     link.addEventListener('click', e => {
       e.preventDefault();
-      // Thêm hiệu ứng bounce/neon cho icon
       if(icon){
         icon.style.transition='0.15s ease';
         icon.style.transform='scale(1.5)';
         icon.style.textShadow='0 0 12px #ff66cc,0 0 24px #ff0044';
         setTimeout(() => {icon.style.transform=''; icon.style.textShadow='';}, 300);
       }
-      
-      // Đóng drawer và cuộn/chuyển hướng
       setTimeout(() => {
         drawer.classList.remove('open');
         drawer.setAttribute('aria-hidden','true'); 
@@ -506,7 +510,6 @@ tbody tr:hover{background:#fff6f6}
     });
   });
 
-  // Click ngoài drawer đóng
   document.addEventListener('click', e => {
     if(drawer.classList.contains('open') && !drawer.contains(e.target) && !hambtn.contains(e.target)){
       drawer.classList.remove('open');
@@ -515,7 +518,7 @@ tbody tr:hover{background:#fff6f6}
   });
 
 
-  // Hero typed effect
+  // Hero typed effect (GIỮ NGUYÊN)
   const phrases = [
     "Thuê Xe Máy Hà Nội — Giá Rẻ, Giao Tận Nơi.",
     "Xe số từ 150k/ngày — Xe ga từ 200k/ngày.",
@@ -545,7 +548,7 @@ tbody tr:hover{background:#fff6f6}
   }
   tick();
 
-  // FAQ accordion
+  // FAQ accordion (GIỮ NGUYÊN)
   document.querySelectorAll('.faq .q').forEach(q => {
     q.addEventListener('click', () => {
       const nxt = q.nextElementSibling;
@@ -559,7 +562,7 @@ tbody tr:hover{background:#fff6f6}
     });
   });
 
-  // Reviews auto scroll
+  // Reviews auto scroll (GIỮ NGUYÊN)
   (function(){
     const c = document.getElementById('carousel');
     if(!c) return;
@@ -573,8 +576,7 @@ tbody tr:hover{background:#fff6f6}
     }, 2800);
   })();
 
-  // --- FLOATING ACTIONS VIP SCRIPTS ---
-  // Hiển thị Back to Top khi scroll
+  // --- FLOATING ACTIONS VIP SCRIPTS (GIỮ NGUYÊN) ---
   const backTop = document.getElementById('backTop');
   window.addEventListener('scroll', () => {
     if(backTop) backTop.style.display = window.scrollY > 200 ? 'block' : 'none';
@@ -585,7 +587,6 @@ tbody tr:hover{background:#fff6f6}
       });
   }
 
-  // Toggle quick actions
   const mainFloatBtn = document.getElementById('mainFloatBtn');
   const moreBtns = document.querySelector('.float-actions .more');
   if(mainFloatBtn && moreBtns) {
@@ -594,51 +595,86 @@ tbody tr:hover{background:#fff6f6}
       });
   }
 
-  // --- BIKE TRAIL SCRIPTS ---
-  const bikeTrailContainer = document.getElementById('bikeTrailContainer');
-  const bike = document.querySelector('.bike-multi');
-  const heroSection = document.querySelector('.hero');
-  
-  if(bike && bikeTrailContainer && heroSection){
-    let pos = -50;
-    // Lấy tọa độ Y của khu vực tạo khói (dựa vào bikeTrailContainer)
-    const heroRect = heroSection.getBoundingClientRect();
-    const smokeYBase = heroRect.bottom - 20; 
+  /* -------------------------------------- */
+  /* --- BIKE TRAIL SCRIPTS (TỐI ƯU OBJECT POOLING + RAF) --- */
+  /* -------------------------------------- */
+  function initBikeTrail() {
+    const bikeTrailContainer = document.getElementById('bikeTrailContainer');
+    const heroSection = document.querySelector('.hero');
+    const smokeElements = document.querySelectorAll('#smokePool .bike-smoke');
+    
+    if (!bikeTrailContainer || !heroSection || smokeElements.length === 0) return;
 
-    // Hàm tạo khói
-    function createSmoke(x, y) {
-        const smoke = document.createElement('div');
-        smoke.className = 'bike-smoke';
-        // Đặt vị trí tuyệt đối so với body
-        smoke.style.top = (y + window.scrollY) + 'px';
+    const MAX_SMOKE = 5;
+    const SMOKE_INTERVAL_FRAMES = 10; // Tốc độ tạo khói (~6 lần/giây)
+    let pos = -50;
+    let frameCount = 0;
+    let smokeIndex = 0; // Index của khói đang được tái sử dụng
+
+    // Hàm tái sử dụng khói (Object Pooling)
+    function activateSmoke(smoke, x, y) {
+        // 1. Reset thuộc tính (trả về trạng thái ban đầu)
+        smoke.style.transition = 'none'; // Tắt transition tạm thời
+        smoke.style.opacity = '0';
+        smoke.style.transform = 'translate(0, 0) scale(1)';
+
+        // 2. Ép trình duyệt nhận diện reset (quan trọng cho việc reset CSS transition)
+        smoke.offsetHeight; 
+
+        // 3. Đặt vị trí ban đầu (x, y)
         smoke.style.left = x + 'px';
-        document.body.appendChild(smoke);
-        // Xóa khói sau khi animation kết thúc
-        setTimeout(() => smoke.remove(), 1200);
+        smoke.style.top = y + 'px';
+
+        // 4. Kích hoạt animation mới
+        // Bật transition trở lại
+        smoke.style.transition = 'transform 0.8s linear, opacity 0.8s linear'; 
+        // Đặt opacity và transform cuối cùng (bắt đầu hiệu ứng khói bay lên)
+        smoke.style.opacity = '0';
+        smoke.style.transform = 'translate(-10px, -50px) scale(0.5)';
+        
+        // Hiện khói sau khi reset xong
+        setTimeout(() => {
+          smoke.style.opacity = '0.3';
+        }, 10);
     }
 
-    setInterval(() => {
-      const viewportWidth = window.innerWidth;
-      pos += 4; // tốc độ chạy
-      if(pos > viewportWidth){
-        pos = -50;
-      }
-      
-      // Cập nhật vị trí của container xe máy
-      bikeTrailContainer.style.left = pos + 'px';
-      
-      // Chỉ tạo khói khi xe máy hiển thị trong tầm nhìn (trong phạm vi Hero Section)
-      // Sử dụng `getBoundingClientRect()` để lấy vị trí hiện tại của hero, tránh lỗi khi cuộn
-      const currentHeroRect = heroSection.getBoundingClientRect();
-      const currentSmokeYBase = currentHeroRect.bottom - 20; 
+    function animateBikeTrail() {
+        const viewportWidth = window.innerWidth;
+        const speed = 4;
+        
+        pos += speed;
+        if (pos > viewportWidth) {
+            pos = -50; // Quay lại đầu
+        }
+        
+        // Cập nhật vị trí xe bằng transform (cực nhẹ và mượt)
+        bikeTrailContainer.style.transform = `translateX(${pos}px)`;
+        
+        const currentHeroRect = heroSection.getBoundingClientRect();
 
-      if (pos > 0 && pos < (currentHeroRect.width - 20) && currentHeroRect.bottom > 0) {
-          // Tính toán vị trí tạo khói
-          const smokeX = pos + 10; // offset so với container
-          // Tạo khói
-          createSmoke(smokeX, currentSmokeYBase);
-      }
-    }, 60);
+        // Chỉ tạo khói khi xe máy hiển thị trong khu vực Hero
+        if (pos > 0 && pos < (currentHeroRect.width - 20) && currentHeroRect.bottom > 0 && currentHeroRect.top < window.innerHeight) {
+            frameCount++;
+            if (frameCount % SMOKE_INTERVAL_FRAMES === 0) {
+                // Tính toán vị trí tuyệt đối của khói
+                const smokeX = pos + currentHeroRect.left + 10; 
+                const smokeY = currentHeroRect.bottom - 20 + window.scrollY;
+
+                // Lấy phần tử khói từ pool và tái sử dụng
+                const smokeToReuse = smokeElements[smokeIndex];
+                activateSmoke(smokeToReuse, smokeX, smokeY);
+                
+                // Di chuyển đến smoke tiếp theo trong pool
+                smokeIndex = (smokeIndex + 1) % MAX_SMOKE;
+                frameCount = 0;
+            }
+        }
+
+        requestAnimationFrame(animateBikeTrail);
+    }
+
+    // Bắt đầu hoạt ảnh
+    requestAnimationFrame(animateBikeTrail);
   }
 </script>
 
