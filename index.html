@@ -626,71 +626,75 @@ tbody tr:hover{background:#fff6f6}
     
     // Khởi tạo Bike Trail và Typed Effect sau khi DOM đã load
     initBikeTrail();
-    initTypedEffect(); // Khởi tạo Typed Effect bằng RAF
+    initTypedEffect();
   });
 
   /* -------------------------------------- */
-  /* --- MOBILE DRAWER SCRIPTS (TỐI ƯU: LOẠI BỎ e.preventDefault() CHO LINK NGOÀI) --- */
+  /* --- MOBILE DRAWER SCRIPTS (TỐI ƯU: DÙNG setTimeout NGẮN CHO HIỆU ỨNG ICON) --- */
   /* -------------------------------------- */
   const drawer = document.getElementById('drawer');
   const hambtn = document.getElementById('hambtn');
   const closeDrawer = document.getElementById('closeDrawer');
-  const drawerLinks = document.querySelectorAll('.drawer a'); 
+  const drawerLinks = document.querySelectorAll('.drawer a');
+
+  const closeDrawerMenu = () => {
+    drawer.classList.remove('open'); 
+    drawer.setAttribute('aria-hidden', 'true'); 
+  };
 
   hambtn?.addEventListener('click', () => { 
     drawer.classList.add('open'); 
-    drawer.setAttribute('aria-hidden','false'); 
+    drawer.setAttribute('aria-hidden', 'false'); 
   });
-  closeDrawer?.addEventListener('click', () => { 
-    drawer.classList.remove('open'); 
-    drawer.setAttribute('aria-hidden','true'); 
-  });
+  closeDrawer?.addEventListener('click', closeDrawerMenu);
 
   drawerLinks.forEach(link => {
     const href = link.getAttribute('href');
     const isInternalLink = href && href.startsWith('#');
+    const icon = link.querySelector('i');
 
     link.addEventListener('click', e => {
-      // Logic chung cho tất cả các link
-      const icon = link.querySelector('i');
-      if(icon){
-        icon.style.transition='0.15s ease';
-        icon.style.transform='scale(1.5)';
-        icon.style.textShadow='0 0 12px #ff66cc,0 0 24px #ff0044';
-        setTimeout(() => {icon.style.transform=''; icon.style.textShadow='';}, 300);
+      // 1. Kích hoạt hoạt ảnh icon ngay lập tức
+      if (icon) {
+        icon.style.transition = '0.15s ease';
+        icon.style.transform = 'scale(1.5)';
+        icon.style.textShadow = '0 0 12px #ff66cc,0 0 24px #ff0044';
       }
       
-      if(isInternalLink){
-        // 1. Link nội bộ: Chặn hành vi mặc định (nhảy)
+      if (isInternalLink) {
         e.preventDefault(); 
-        // 2. Chờ icon animation xong rồi cuộn và đóng
+        
+        // 2. Chờ hoạt ảnh icon kết thúc (350ms) rồi đóng và cuộn
+        // Giữ setTimeout ngắn này là chấp nhận được để đồng bộ việc đóng menu và cuộn trang
         setTimeout(() => {
-          drawer.classList.remove('open');
-          drawer.setAttribute('aria-hidden','true'); 
+          closeDrawerMenu();
           const target = document.querySelector(href);
-          if(target) target.scrollIntoView({behavior:'smooth'});
-        }, 350);
-      } else {
-        // 3. Link ngoài (tel, mail, zalo): Không chặn, mở link và đóng drawer ngay
-        setTimeout(() => {
-          drawer.classList.remove('open');
-          drawer.setAttribute('aria-hidden','true'); 
+          if (target) target.scrollIntoView({ behavior: 'smooth' });
         }, 350); 
-        // Link sẽ tự mở sau khi animation icon bắt đầu
+      } else {
+        // 3. Link ngoài: Đóng ngay lập tức để không cản trở hành vi mặc định
+        setTimeout(closeDrawerMenu, 350); 
       }
+      
+      // 4. Reset hoạt ảnh icon
+      setTimeout(() => {
+          if (icon) {
+              icon.style.transform = ''; 
+              icon.style.textShadow = '';
+          }
+      }, 300);
     });
   });
 
   document.addEventListener('click', e => {
     if(drawer.classList.contains('open') && !drawer.contains(e.target) && !hambtn.contains(e.target)){
-      drawer.classList.remove('open');
-      drawer.setAttribute('aria-hidden','true');
+      closeDrawerMenu();
     }
   });
 
 
   /* -------------------------------------- */
-  /* --- TYPED EFFECT SCRIPTS (TỐI ƯU: SỬ DỤNG requestAnimationFrame) --- */
+  /* --- TYPED EFFECT SCRIPTS (TỐI ƯU: requestAnimationFrame + TIME CHECK) --- */
   /* -------------------------------------- */
   function initTypedEffect() {
       const phrases = [
@@ -701,20 +705,37 @@ tbody tr:hover{background:#fff6f6}
       const typed = document.getElementById('typed');
       if (!typed) return;
 
-      let tIndex = 0, chIndex = 0, forward = true;
+      let tIndex = 0, chIndex = 0;
+      let forward = true; // true: gõ, false: xóa
+      let isPaused = false;
       let lastTime = 0;
-      const TYPE_SPEED = 60; // ms/character
-      const ERASE_SPEED = 28; // ms/character
-      const PAUSE_DURATION = 1000; // ms
+      
+      // Tốc độ (ms/ký tự) và thời gian tạm dừng (ms)
+      const TYPE_SPEED = 60; 
+      const ERASE_SPEED = 28; 
+      const PAUSE_DURATION = 1000; 
+      let pauseStartTime = 0;
 
       function tick(currentTime) {
+          requestAnimationFrame(tick);
+
           if (!lastTime) lastTime = currentTime;
           const deltaTime = currentTime - lastTime;
           
+          // --- Logic Tạm dừng ---
+          if (isPaused) {
+              if (currentTime - pauseStartTime > PAUSE_DURATION) {
+                  isPaused = false;
+                  lastTime = currentTime; // Reset lastTime sau khi tạm dừng
+              }
+              return; 
+          }
+          
+          // --- Logic Gõ/Xóa ---
           let actionSpeed = forward ? TYPE_SPEED : ERASE_SPEED;
           
-          if (deltaTime < actionSpeed && chIndex !== 0) { // Giảm tần suất cập nhật khi đang gõ/xóa
-              requestAnimationFrame(tick);
+          // Kiểm tra xem đã đủ thời gian để chuyển ký tự chưa
+          if (deltaTime < actionSpeed) {
               return;
           }
 
@@ -727,25 +748,23 @@ tbody tr:hover{background:#fff6f6}
               chIndex++;
               if (chIndex > word.length) {
                   forward = false;
-                  // Tạm dừng trước khi xóa
-                  setTimeout(() => requestAnimationFrame(tick), PAUSE_DURATION);
+                  isPaused = true;
+                  pauseStartTime = currentTime; // Bắt đầu tính thời gian tạm dừng
                   return;
               }
-          } else {
+          } else { // Xóa
               chIndex--;
               if (chIndex === 0) {
                   forward = true;
                   tIndex = (tIndex + 1) % phrases.length;
               }
           }
-          
-          requestAnimationFrame(tick);
       }
 
       requestAnimationFrame(tick);
   }
 
-  // FAQ accordion (GIỮ NGUYÊN)
+  // FAQ accordion (Giữ nguyên)
   document.querySelectorAll('.faq .q').forEach(q => {
     q.addEventListener('click', () => {
       const nxt = q.nextElementSibling;
@@ -759,11 +778,12 @@ tbody tr:hover{background:#fff6f6}
     });
   });
 
-  // Reviews auto scroll (GIỮ NGUYÊN)
+  // Reviews auto scroll (Giữ nguyên)
   (function(){
     const c = document.getElementById('carousel');
     if(!c) return;
     let m = 0;
+    // Dùng setInterval/setTimeout là cách tiếp cận phổ biến cho auto scroll không phải là animation liên tục 60fps
     setInterval(()=> { 
       m += 240; 
       if(m > c.scrollWidth - c.clientWidth) { 
@@ -773,7 +793,7 @@ tbody tr:hover{background:#fff6f6}
     }, 2800);
   })();
 
-  // --- FLOATING ACTIONS VIP SCRIPTS (GIỮ NGUYÊN) ---
+  // --- FLOATING ACTIONS VIP SCRIPTS (Giữ nguyên) ---
   const backTop = document.getElementById('backTop');
   window.addEventListener('scroll', () => {
     if(backTop) backTop.style.display = window.scrollY > 200 ? 'block' : 'none';
@@ -793,7 +813,7 @@ tbody tr:hover{background:#fff6f6}
   }
 
   /* -------------------------------------- */
-  /* --- BIKE TRAIL SCRIPTS (TỐI ƯU: OBJECT POOLING + GỘP TRANSITION + RAF) --- */
+  /* --- BIKE TRAIL SCRIPTS (TỐI ƯU: requestAnimationFrame + TIME CHECK VÀ OBJECT POOLING) --- */
   /* -------------------------------------- */
   function initBikeTrail() {
     const bikeTrailContainer = document.getElementById('bikeTrailContainer');
@@ -802,53 +822,62 @@ tbody tr:hover{background:#fff6f6}
     
     if (!bikeTrailContainer || !heroSection || smokeElements.length === 0) return;
 
-    const MAX_SMOKE = 5;
-    const SMOKE_INTERVAL_FRAMES = 10; // Tốc độ tạo khói (~6 lần/giây ở 60fps)
-    let pos = -50;
-    let frameCount = 0;
+    const MAX_SMOKE = smokeElements.length;
+    const SMOKE_INTERVAL = 160; // ms (Tạo khói mỗi 160ms ~ 6.25 lần/giây)
+    const SPEED = 0.000004 * window.innerWidth; // Vận tốc di chuyển (pixel/ms)
+
+    let pos = -50; // Vị trí ban đầu (-50px)
+    let lastTime = 0;
+    let lastSmokeTime = 0;
     let smokeIndex = 0; 
 
     function activateSmoke(smoke, x, y) {
-        // 1. Reset thuộc tính (trả về trạng thái ban đầu)
+        // 1. Reset (tắt transition, reset transform và opacity)
         smoke.style.transition = 'none'; 
         smoke.style.opacity = '0';
         smoke.style.transform = 'translate(0, 0) scale(1)';
+        smoke.offsetHeight; // Ép trình duyệt nhận diện reset (reflow/repaint)
 
-        // 2. Ép trình duyệt nhận diện reset (Critical for CSS transition reset/reflow)
-        // Việc này đảm bảo transition được reset ngay lập tức.
-        smoke.offsetHeight; 
-
-        // 3. Đặt vị trí ban đầu (fixed position)
+        // 2. Đặt vị trí ban đầu (fixed position)
         smoke.style.left = x + 'px';
         smoke.style.top = y + 'px';
 
-        // 4. Bật transition trở lại
+        // 3. Bật transition trở lại
         smoke.style.transition = 'transform 0.8s linear, opacity 0.8s linear'; 
         
-        // 5. Kích hoạt animation mới (gộp transform và opacity)
+        // 4. Kích hoạt animation mới
         smoke.style.opacity = '0.3';
         smoke.style.transform = 'translate(-10px, -50px) scale(0.5)';
     }
 
-    function animateBikeTrail() {
+    function animateBikeTrail(currentTime) {
+        requestAnimationFrame(animateBikeTrail);
+
+        if (!lastTime) lastTime = currentTime;
+        const deltaTime = currentTime - lastTime;
+        lastTime = currentTime;
+
         const viewportWidth = window.innerWidth;
-        const speed = 4;
         
-        pos += speed;
+        // 1. Cập nhật vị trí xe
+        // Tính toán khoảng cách di chuyển dựa trên thời gian thực (delta time)
+        pos += (SPEED * deltaTime);
+        
         if (pos > viewportWidth) {
             pos = -50; // Quay lại đầu
         }
         
-        // Cập nhật vị trí xe bằng transform (cực nhẹ và mượt)
+        // Cập nhật vị trí xe
         bikeTrailContainer.style.transform = `translateX(${pos}px)`;
         
+        // 2. Logic tạo khói
         const currentHeroRect = heroSection.getBoundingClientRect();
-
-        // Chỉ tạo khói khi xe máy hiển thị trong khu vực Hero
+        
+        // Chỉ tạo khói khi xe máy hiển thị trong khu vực Hero VÀ đã đủ thời gian
         if (pos > 0 && pos < (currentHeroRect.width - 20) && currentHeroRect.bottom > 0 && currentHeroRect.top < window.innerHeight) {
-            frameCount++;
-            if (frameCount % SMOKE_INTERVAL_FRAMES === 0) {
-                // Tính toán vị trí tuyệt đối của khói (smokePool dùng fixed, nên vị trí tuyệt đối = vị trí xe máy)
+            
+            if (currentTime - lastSmokeTime > SMOKE_INTERVAL) {
+                // Tính toán vị trí tuyệt đối của khói (smokePool dùng fixed)
                 const smokeX = currentHeroRect.left + pos + 10; 
                 const smokeY = currentHeroRect.bottom - 20; 
 
@@ -858,11 +887,9 @@ tbody tr:hover{background:#fff6f6}
                 
                 // Di chuyển đến smoke tiếp theo trong pool
                 smokeIndex = (smokeIndex + 1) % MAX_SMOKE;
-                frameCount = 0;
+                lastSmokeTime = currentTime; // Cập nhật thời điểm tạo khói cuối
             }
         }
-
-        requestAnimationFrame(animateBikeTrail);
     }
 
     // Bắt đầu hoạt ảnh
