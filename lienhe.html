@@ -76,7 +76,7 @@ tbody tr:hover{background:#fff6f6}
 .faq .q{background:#fff;padding:12px;border-radius:10px;border:1px solid #eee;margin-bottom:8px;cursor:pointer;display:flex;justify-content:space-between;align-items:center}
 .faq .a{padding:12px;border-left:3px solid var(--honda-red);margin-bottom:12px;background:#fff;display:none;border-radius:8px}
 
-/* FOOTER NEW STYLE */
+/* --- FOOTER VIP LED + MARQUEE STYLES --- */
 .footer-new {
     background:#111;
     color:#eee;
@@ -108,59 +108,80 @@ tbody tr:hover{background:#fff6f6}
 
 /* Mini LED blinking */
 .leds span {
-  display:inline-block; margin:0 4px;
+  display:inline-block; 
   animation: blink 1.2s infinite;
 }
 .leds span:nth-child(2){animation-delay:0.4s;}
 .leds span:nth-child(3){animation-delay:0.8s;}
+.leds span:nth-child(4){animation-delay:1.2s;}
+.leds span:nth-child(5){animation-delay:1.6s;}
 @keyframes blink {0%,50%,100%{opacity:1}25%,75%{opacity:0.2}}
 
-/* Floating VIP Glow */
-.float-actions-vip{
-  position:fixed; right:18px; bottom:20px; display:flex; flex-direction:column; gap:10px; z-index:1600;
+/* Marquee LED */
+@keyframes marquee {
+  0%{transform:translateX(100%)}
+  100%{transform:translateX(-100%)}
 }
-.float-actions-vip > button{
-  width:56px; height:56px; border-radius:999px; border:none; background:var(--honda-red); color:#fff; font-size:24px;
-  box-shadow:0 0 10px rgba(230,0,18,0.5), 0 0 20px rgba(230,0,18,0.4), 0 0 30px rgba(230,0,18,0.3);
-  cursor:pointer; animation:glowPulse 2s infinite alternate; transition:transform 0.2s ease;
-}
-@keyframes glowPulse{
-  0%{box-shadow:0 0 8px rgba(230,0,18,0.4),0 0 18px rgba(230,0,18,0.3),0 0 28px rgba(230,0,18,0.2);}
-  100%{box-shadow:0 0 12px rgba(230,0,18,0.8),0 0 24px rgba(230,0,18,0.6),0 0 36px rgba(230,0,18,0.4);}
-}
-.float-actions-vip > button:hover{transform:scale(1.1);}
-.float-actions-vip .more{
-  display:none; flex-direction:column; gap:10px; margin-bottom:10px;
-}
-.float-actions-vip .more a{
-  width:48px; height:48px; border-radius:999px; background:#fff; display:flex; align-items:center; justify-content:center;
-  color:var(--honda-red); font-size:20px; box-shadow:0 4px 12px rgba(0,0,0,0.12); transition:transform 0.2s ease, box-shadow 0.2s ease;
-  position:relative; overflow:hidden; text-decoration: none; /* đảm bảo không có gạch chân cho link */
-}
-.float-actions-vip .more a:hover{transform:scale(1.2); box-shadow:0 0 18px rgba(230,0,18,0.5);}
-.float-actions-vip .more a::after{
-  content:""; position:absolute; top:0; left:0; width:100%; height:100%;
-  border-radius:999px; background:linear-gradient(45deg,#ff3b3b,#e60012,#ff6f61,#ff3b3b);
-  opacity:0.6; filter:blur(6px); animation:shine 3s linear infinite;
-}
-@keyframes shine{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
 
-/* Footer LED Glow (Dành cho Social Icons) */
-footer .socials a{
-  position:relative; overflow:hidden; transition:transform 0.2s;
-  /* Đặt lại style cơ bản cho social icons trong footer để phù hợp với hiệu ứng mới */
-  display:inline-flex; align-items:center; justify-content:center;
-  width: 40px; height: 40px; border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+/* Floating actions VIP */
+.float-actions{
+  position:fixed;
+  right:18px;
+  bottom:20px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:12px;
+  z-index:1600;
 }
-footer .socials a::after{
-  content:""; position:absolute; top:-50%; left:-50%; width:200%; height:200%;
-  background:linear-gradient(45deg,#ff3b3b,#e60012,#ff6f61,#ff3b3b);
-  animation:shine 4s linear infinite;
-  opacity:0.5; filter:blur(8px); z-index:-1;
-  border-radius:12px;
+.float-actions > button{
+  border:none;
+  background:#ff0044;
+  color:#fff;
+  width:56px;
+  height:56px;
+  border-radius:50%;
+  cursor:pointer;
+  font-size:28px;
+  box-shadow:0 0 8px #ff0044,0 0 16px #ff66cc;
+  animation: pulse-float 1.8s infinite;
 }
-footer .socials a:hover{transform:scale(1.2);}
+.float-actions #backTop {
+  /* Điều chỉnh vị trí của BackTop để nó ở trên nút chính */
+  position: static; 
+  display: none; /* ban đầu ẩn, sẽ hiện khi scroll */
+}
+.float-actions .more{
+  display:none;
+  flex-direction:column;
+  gap:10px;
+  margin-bottom:10px;
+}
+.float-actions a{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background:#ff0044;
+  color:#fff;
+  font-size:22px;
+  text-decoration:none;
+  box-shadow:0 0 8px #ff0044,0 0 16px #ff66cc;
+  transition:0.3s ease;
+  animation: pulse-float 1.8s infinite;
+}
+.float-actions a:hover{
+  transform:scale(1.2);
+  box-shadow:0 0 12px #ff66cc,0 0 24px #ff3399;
+}
+
+@keyframes pulse-float{
+  0%,100%{transform:scale(1);}
+  50%{transform:scale(1.1);}
+}
+
 
 @media(max-width:720px){
     .footer-new .wrap {grid-template-columns:1fr;}
@@ -268,7 +289,6 @@ footer .socials a:hover{transform:scale(1.2);}
 
 <footer class="footer-new">
   <div class="wrap">
-    
     <div>
       <h3>Thuê Xe Máy Motoopen</h3>
       <p>114 Nguyễn Văn Cừ — Long Biên — Hà Nội</p>
@@ -287,25 +307,31 @@ footer .socials a:hover{transform:scale(1.2);}
       <div class="footer-social" style="display:flex;gap:12px;margin-top:10px">
         <a class="socials" href="https://m.facebook.com/HanoiRentalMotorbike.NguyenTu/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
         <a class="socials" href="https://wa.me/84857255868" target="_blank" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-        <a class="socials" href="https://zalo.me/0857255868" target="_blank" title="Zalo"><i class="fa-solid fa-comment-dots"></i></a> 
+        <a class="socials" href="https://zalo.me/0857255868" target="_blank" title="Zalo"><i class="fa-solid fa-comment-dots"></i></a>
       </div>
-      <div class="leds" style="margin-top:12px;font-size:18px;">
-        <span>⚡</span><span>🔴</span><span>💡</span>
+      <div class="leds" style="margin-top:12px;font-size:18px;display:flex;gap:6px;overflow:hidden;white-space:nowrap;">
+        <span>⚡</span><span>🔴</span><span>💡</span><span>🚀</span><span>🔥</span>
       </div>
     </div>
   </div>
 
   <hr style="border:none;border-top:1px solid #333;margin:20px 0;">
   <p style="text-align:center;color:#777;font-size:0.9rem">© 2025 Motoopen — Designed in Hanoi</p>
+
+  <div style="overflow:hidden;white-space:nowrap;background:#111;padding:8px 0;margin-top:12px;">
+    <div style="display:inline-block;padding-left:100%;animation:marquee 12s linear infinite;color:#ff66cc;font-weight:700;">
+      ⚡ Thuê Xe Máy Hà Nội Giá Rẻ • Giao Tận Nơi • Xe số từ 150k/ngày • Xe ga từ 200k/ngày • Đặt cọc 2-5 triệu ⚡
+    </div>
+  </div>
 </footer>
 
-<div class="float-actions-vip">
-  <button id="mainFloatBtn"><i class="fa-solid fa-plus"></i></button>
+<div class="float-actions">
+  <button id="backTop" title="Lên đầu trang">⬆️</button>
+  <button id="mainFloatBtn" title="Tùy chọn liên hệ">+</button>
   <div class="more">
-    <a href="tel:0857255868" title="Gọi ngay"><i class="fa-solid fa-phone"></i></a>
-    <a href="https://zalo.me/0857255868" target="_blank" title="Zalo"><i class="fa-brands fa-hubspot"></i></a>
-    <a href="https://maps.app.goo.gl/2icTBTxAToyvKTE78" target="_blank" title="Map"><i class="fa-solid fa-map-location-dot"></i></a>
-    <a href="#" id="floatBackTop" title="Lên đầu trang"><i class="fa-solid fa-arrow-up"></i></a>
+    <a class="call" href="tel:0857255868" title="Gọi điện">📞</a>
+    <a class="zalo" href="https://zalo.me/0857255868" target="_blank" title="Chat Zalo">💬</a>
+    <a class="map" href="https://maps.app.goo.gl/2icTBTxAToyvKTE78" target="_blank" title="Xem bản đồ">🗺️</a>
   </div>
 </div>
 
@@ -393,21 +419,24 @@ footer .socials a:hover{transform:scale(1.2);}
     }, 2800);
   })();
 
-  // Floating quick actions toggle (VIP Glow)
-  const mainFloatBtnVIP = document.getElementById('mainFloatBtn');
-  const moreBtnsVIP = document.querySelector('.float-actions-vip .more');
-  if (mainFloatBtnVIP && moreBtnsVIP) {
-      mainFloatBtnVIP.addEventListener('click', () => { 
-          moreBtnsVIP.style.display = moreBtnsVIP.style.display === 'flex' ? 'none' : 'flex'; 
+  // --- FLOATING ACTIONS VIP SCRIPTS ---
+  // Hiển thị Back to Top khi scroll
+  const backTop = document.getElementById('backTop');
+  window.addEventListener('scroll', () => {
+    if(backTop) backTop.style.display = window.scrollY > 200 ? 'block' : 'none';
+  });
+  if(backTop) {
+      backTop.addEventListener('click', () => {
+          window.scrollTo({top:0, behavior:'smooth'});
       });
   }
 
-  // Back to top (VIP Glow)
-  const floatBackTop = document.getElementById('floatBackTop');
-  if (floatBackTop) {
-      floatBackTop.addEventListener('click', (e) => { 
-          e.preventDefault(); // Ngăn chặn nhảy trang do href="#"
-          window.scrollTo({top:0, behavior:'smooth'}); 
+  // Toggle quick actions
+  const mainFloatBtn = document.getElementById('mainFloatBtn');
+  const moreBtns = document.querySelector('.float-actions .more');
+  if(mainFloatBtn && moreBtns) {
+      mainFloatBtn.addEventListener('click', () => {
+          moreBtns.style.display = moreBtns.style.display==='flex'?'none':'flex';
       });
   }
 </script>
