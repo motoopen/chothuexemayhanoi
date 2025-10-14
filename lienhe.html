@@ -76,17 +76,85 @@ tbody tr:hover{background:#fff6f6}
 .faq .q{background:#fff;padding:12px;border-radius:10px;border:1px solid #eee;margin-bottom:8px;cursor:pointer;display:flex;justify-content:space-between;align-items:center}
 .faq .a{padding:12px;border-left:3px solid var(--honda-red);margin-bottom:12px;background:#fff;display:none;border-radius:8px}
 
-/* Footer 3 cột + quick actions */
-footer{margin-top:20px;padding:18px 0;color:var(--muted);font-size:0.95rem;background:#fdfdfd;border-top:1px solid #eee;}
-.footer-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;align-items:start;line-height:1.5;}
-.socials a{display:inline-block;margin-right:8px;color:var(--honda-black);text-decoration:none;padding:8px;border-radius:8px;border:1px solid #f0f0f0}
+/* FOOTER NEW STYLE */
+.footer-new {
+    background:#111;
+    color:#eee;
+    padding:40px 18px;
+    position:relative;
+    overflow:hidden;
+}
+.footer-new .wrap {
+    max-width:1100px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:20px;
+}
+.footer-new h3 {
+    color:#ff0044;
+    text-shadow:0 0 5px #ff0044,0 0 10px #ff66cc;
+}
+.footer-social a i {
+  font-size:22px;
+  color:#ff0044;
+  text-shadow:0 0 5px #ff0044,0 0 10px #ff66cc;
+  transition:0.3s ease;
+}
+.footer-social a:hover i {
+  text-shadow:0 0 15px #ff66cc,0 0 30px #ff3399,0 0 45px #ff0044;
+  transform:scale(1.3);
+}
 
-/* Floating actions */
+/* Mini LED blinking */
+.leds span {
+  display:inline-block; margin:0 4px;
+  animation: blink 1.2s infinite;
+}
+.leds span:nth-child(2){animation-delay:0.4s;}
+.leds span:nth-child(3){animation-delay:0.8s;}
+@keyframes blink {0%,50%,100%{opacity:1}25%,75%{opacity:0.2}}
+
+/* Floating actions NEW STYLE */
 .float-actions{position:fixed;right:18px;bottom:20px;display:flex;flex-direction:column;gap:10px;z-index:1500}
-.float-actions > button{border:none;background:var(--honda-red);color:#fff;width:56px;height:56px;border-radius:999px;cursor:pointer;font-size:24px}
+.float-actions > button{border:none;background:#ff0044;color:#fff;width:56px;height:56px;border-radius:999px;cursor:pointer;font-size:28px;}
 .float-actions .more{display:none;flex-direction:column;gap:10px;margin-bottom:10px}
+.float-actions a {
+  transition:0.3s ease;
+  animation: pulse-float 1.8s infinite;
+}
 
-@media(max-width:720px){.footer-grid{grid-template-columns:1fr}.hero-left{text-align:center}}
+/* BACK TO TOP & FLOAT ACTIONS PULSE */
+#backTop {
+    position:fixed;
+    right:20px;
+    bottom:90px;
+    width:50px;
+    height:50px;
+    border:none;
+    border-radius:50%;
+    background:#ff0044;
+    color:#fff;
+    font-size:22px;
+    cursor:pointer;
+    box-shadow:0 0 8px #ff0044,0 0 16px #ff66cc;
+    display:none;
+    z-index:1600;
+    animation: pulse-top 2s infinite;
+}
+@keyframes pulse-float {
+  0%,100%{transform:scale(1)}
+  50%{transform:scale(1.1)}
+}
+@keyframes pulse-top {
+  0%,100%{transform:scale(1)}
+  50%{transform:scale(1.2)}
+}
+
+@media(max-width:720px){
+    .footer-new .wrap {grid-template-columns:1fr;}
+    .hero-left{text-align:center;}
+}
 </style>
 </head>
 <body>
@@ -136,7 +204,6 @@ footer{margin-top:20px;padding:18px 0;color:var(--muted);font-size:0.95rem;backg
   </div>
 </section>
 
-<!-- PRICING -->
 <section class="pricing" id="gia">
   <h2>📋 Bảng Giá Thuê Xe Máy Hà Nội</h2>
   <div class="table-wrap">
@@ -153,7 +220,6 @@ footer{margin-top:20px;padding:18px 0;color:var(--muted);font-size:0.95rem;backg
   <img src="https://i.postimg.cc/kGSRG17f/IMG-5268.jpg" alt="Ảnh bảng giá" style="width:100%;margin-top:12px;border-radius:12px;">
 </section>
 
-<!-- REVIEWS -->
 <section id="review">
   <h2>⭐ Review Khách Hàng</h2>
   <div class="reviews" id="carousel">
@@ -164,7 +230,6 @@ footer{margin-top:20px;padding:18px 0;color:var(--muted);font-size:0.95rem;backg
   </div>
 </section>
 
-<!-- FAQ -->
 <section id="faq" class="faq">
   <h2>❓ Câu hỏi thường gặp</h2>
   <div class="q"><div>Giá thuê xe máy bao nhiêu?</div><div class="muted">+</div></div>
@@ -177,7 +242,6 @@ footer{margin-top:20px;padding:18px 0;color:var(--muted);font-size:0.95rem;backg
   <div class="a">Có, hỗ trợ giao xe tại Long Biên, Phố Cổ, Hoàn Kiếm, Tây Hồ, Ba Đình, Gia Lâm.</div>
 </section>
 
-<!-- CONTACT -->
 <section id="lienhe" style="margin-top:18px;background:#fff;padding:18px;border-radius:12px;border:1px solid #f2f2f2">
   <h2>📌 Liên hệ Thuê Xe Máy Motoopen</h2>
   <p>Địa chỉ: 114 Nguyễn Văn Cừ, Bồ Đề, Long Biên, Hà Nội, Việt Nam</p>
@@ -191,42 +255,49 @@ footer{margin-top:20px;padding:18px 0;color:var(--muted);font-size:0.95rem;backg
 
 </main>
 
-<!-- FOOTER -->
-<footer>
+<footer class="footer-new">
   <div class="wrap">
-    <div class="footer-grid">
-      <div>
-        <strong>Thuê Xe Máy Motoopen</strong>
-        <div>114 Nguyễn Văn Cừ — Long Biên — Hà Nội</div>
-      </div>
-      <div>
-        <strong>Liên hệ</strong>
-        <div>📞 0857 255 868</div>
-        <div>💬 Zalo / WhatsApp</div>
-        <div>✉️ motoopen@gmail.com</div>
-        <strong>Mạng xã hội</strong>
-        <div class="socials">
-          <a href="https://zalo.me/0857255868" target="_blank">Zalo</a>
-          <a href="https://wa.me/84857255868" target="_blank">WhatsApp</a>
-          <a href="https://m.facebook.com/HanoiRentalMotorbike.NguyenTu/" target="_blank">Facebook</a>
-        </div>
+    
+    <div>
+      <h3>Thuê Xe Máy Motoopen</h3>
+      <p>114 Nguyễn Văn Cừ — Long Biên — Hà Nội</p>
+      <p>⏰ 8:00 - 21:00</p>
+    </div>
+
+    <div>
+      <h3>Liên hệ</h3>
+      <p>📞 <a href="tel:0857255868" style="color:#ff66cc;text-decoration:none;">0857 255 868</a></p>
+      <p>✉️ <a href="mailto:motoopen@gmail.com" style="color:#ff66cc;text-decoration:none;">motoopen@gmail.com</a></p>
+      <p>💬 Zalo / WhatsApp</p>
+    </div>
+
+    <div>
+      <h3>Mạng xã hội</h3>
+      <div class="footer-social" style="display:flex;gap:12px;margin-top:10px">
+        <a href="https://m.facebook.com/HanoiRentalMotorbike.NguyenTu/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://wa.me/84857255868" target="_blank" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://zalo.me/0857255868" target="_blank" title="Zalo"><i class="fa-solid fa-comment-dots"></i></a> </div>
+      <div class="leds" style="margin-top:12px;font-size:18px;">
+        <span>⚡</span><span>🔴</span><span>💡</span>
       </div>
     </div>
-    <hr style="margin:14px 0;border:none;border-top:1px solid #f1f1f1" />
-    <div style="text-align:center;color:var(--muted)">© 2025 Motoopen — Designed in Hanoi</div>
   </div>
+
+  <hr style="border:none;border-top:1px solid #333;margin:20px 0;">
+  <p style="text-align:center;color:#777;font-size:0.9rem">© 2025 Motoopen — Designed in Hanoi</p>
 </footer>
-<!-- FLOATING ACTIONS -->
-<div class="float-actions" aria-hidden="false">
-  <button id="mainFloatBtn">+</button>
+
+<button id="backTop" title="Lên đầu trang">⬆️</button>
+
+<div class="float-actions">
+  <button id="mainFloatBtn" title="Tùy chọn liên hệ">+</button>
   <div class="more">
-    <a class="call" href="tel:0857255868" title="Call"><i class="fa-solid fa-phone"></i></a>
-    <a class="zalo" href="https://zalo.me/0857255868" target="_blank" title="Zalo"><i class="fa-brands fa-hubspot"></i></a>
-    <a class="map" href="https://maps.app.goo.gl/2icTBTxAToyvKTE78" target="_blank" title="Map"><i class="fa-solid fa-map-location-dot"></i></a>
+    <a class="call" href="tel:0857255868" title="Gọi điện">📞</a>
+    <a class="zalo" href="https://zalo.me/0857255868" target="_blank" title="Chat Zalo">💬</a>
+    <a class="map" href="https://maps.app.goo.gl/2icTBTxAToyvKTE78" target="_blank" title="Xem bản đồ">🗺️</a>
   </div>
 </div>
 
-<!-- SCRIPTS -->
 <script>
   // Page fade-in
   window.addEventListener('DOMContentLoaded', () => {
@@ -253,7 +324,7 @@ footer{margin-top:20px;padding:18px 0;color:var(--muted);font-size:0.95rem;backg
     }
   });
 
-  // Hero typed effect (mượt hơn, không giật)
+  // Hero typed effect
   const phrases = [
     "Thuê Xe Máy Hà Nội — Giá Rẻ, Giao Tận Nơi.",
     "Xe số từ 150k/ngày — Xe ga từ 200k/ngày.",
@@ -311,11 +382,18 @@ footer{margin-top:20px;padding:18px 0;color:var(--muted);font-size:0.95rem;backg
     }, 2800);
   })();
 
-  // Floating quick actions toggle
+  // Floating quick actions toggle (Dùng logic của Footer Xịn Xò)
   const mainFloatBtn = document.getElementById('mainFloatBtn');
   const moreBtns = document.querySelector('.float-actions .more');
   mainFloatBtn.addEventListener('click', () => { 
     moreBtns.style.display = moreBtns.style.display==='flex'?'none':'flex'; 
-    moreBtns.style.flexDirection='column'; 
   });
+
+  // Back to top (Logic của Footer Xịn Xò)
+  const backTop = document.getElementById('backTop');
+  window.addEventListener('scroll', () => { backTop.style.display = window.scrollY > 200 ? 'block' : 'none'; });
+  backTop.addEventListener('click', () => { window.scrollTo({top:0,behavior:'smooth'}); });
 </script>
+
+</body>
+</html>
