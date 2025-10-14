@@ -1,18 +1,15 @@
 <!doctype html>
 <html lang="vi">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Thuê Xe Máy Hà Nội | Motoopen – Giá Rẻ, Giao Tận Nơi</title>
+<meta name="description" content="Thuê Xe Máy Hà Nội – Motoopen. Xe số, xe ga, giao tận nơi Long Biên & khu vực trung tâm Hà Nội. Giá từ 150k/ngày. Liên hệ 0857 255 868.">
+<meta name="keywords" content="thuê xe máy hà nội, thuê xe máy, motorbike hanoi, motoopen, thuê xe long bien">
+<link rel="icon" href="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" type="image/jpeg">
 
-<meta name="description" content="Thuê Xe Máy Hà Nội – Motoopen. Xe số, xe ga, giao tận nơi Long Biên & khu vực trung tâm Hà Nội. Giá từ 150k/ngày. Liên hệ 0857 255 868." />
-<meta name="keywords" content="thuê xe máy hà nội, thuê xe máy, motorbike hanoi, motoopen, thuê xe long bien" />
-<link rel="canonical" href="https://motoopen.github.io/chothuexemayhanoi.index.html/" />
-<link rel="icon" href="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" type="image/jpeg" />
-
-<!-- Fonts + icons -->
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 
 <style>
 :root{
@@ -24,122 +21,66 @@
   --radius:10px;
 }
 *{box-sizing:border-box}
-html,body{height:100%}
-body{
-  margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;
-  background:linear-gradient(180deg,#fff 0%, #fff 60%, #f8f8f8 100%);
-  color:var(--honda-black);
-  -webkit-font-smoothing:antialiased;
-  -moz-osx-font-smoothing:grayscale;
-  line-height:1.45;
-}
-
-/* TOP NAV */
-.topbar{
-  position:sticky;top:0;z-index:1200;
-  background:var(--honda-black);color:var(--white);
-  box-shadow:0 6px 18px rgba(3,3,3,0.25);
-  display:flex;align-items:center;justify-content:center;padding:10px 16px;
-}
-.nav {
-  width:100%;max-width:var(--maxw);display:flex;align-items:center;justify-content:space-between;gap:16px;
-}
+html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;line-height:1.45;color:var(--honda-black);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;background:#fff;}
+.fade-in{opacity:0;transform:translateY(20px);transition:opacity 0.9s ease, transform 0.9s ease;}
+.fade-in.show{opacity:1;transform:translateY(0);}
+.topbar{position:sticky;top:0;z-index:1200;background:var(--honda-black);color:var(--white);display:flex;align-items:center;justify-content:center;padding:10px 16px;box-shadow:0 6px 18px rgba(3,3,3,0.25);}
+.nav{width:100%;max-width:var(--maxw);display:flex;align-items:center;justify-content:space-between;gap:16px;}
 .brand{display:flex;align-items:center;gap:12px}
 .brand img{width:56px;height:56px;object-fit:cover;border-radius:8px;border:2px solid rgba(255,255,255,0.06)}
 .brand h3{margin:0;font-size:1.05rem;font-weight:800;letter-spacing:0.2px}
 .nav-links{display:flex;gap:10px;align-items:center}
-.nav-links a{
-  color:var(--white);text-decoration:none;padding:8px 12px;border-radius:8px;font-weight:600;display:inline-flex;gap:8px;align-items:center;
-  transition:transform .18s ease, background .18s ease;
-}
+.nav-links a{color:var(--white);text-decoration:none;padding:8px 12px;border-radius:8px;font-weight:600;display:inline-flex;gap:8px;align-items:center;transition:transform .18s ease, background .18s ease;}
 .nav-links a:hover{transform:translateY(-3px);background:linear-gradient(90deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02));}
 .cta {background:var(--honda-red);color:var(--white);padding:8px 14px;border-radius:999px;box-shadow:0 8px 20px rgba(230,0,18,0.18)}
 .icon-bounce{display:inline-block;animation: bounce 1.6s infinite;transform-origin:center}
 @keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
-
-/* Mobile Hamburger */
 .hamburger{display:none;background:none;border:0;color:var(--white);font-size:22px;padding:8px;border-radius:8px}
-@media(max-width:900px){
-  .nav-links{display:none}
-  .hamburger{display:inline-flex}
-  .brand h3{font-size:0.95rem}
-}
-
-/* Mobile drawer */
+@media(max-width:900px){.nav-links{display:none}.hamburger{display:inline-flex}.brand h3{font-size:0.95rem}}
 .drawer{position:fixed;right:0;top:0;height:100vh;width:280px;background:linear-gradient(180deg,var(--honda-black),#1f1f1f);color:#fff;padding:20px;transform:translateX(100%);transition:transform .28s cubic-bezier(.2,.9,.2,1);z-index:1400}
 .drawer.open{transform:translateX(0)}
 .drawer a{display:block;color:#fff;padding:12px 10px;border-radius:8px;margin-bottom:6px;text-decoration:none}
 .drawer .close{display:flex;justify-content:flex-end;margin-bottom:12px}
-
-/* Container */
 .wrap{max-width:var(--maxw);margin:18px auto;padding:0 18px;}
-
-/* HERO */
-.hero{
-  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;
-  background:linear-gradient(90deg, rgba(230,0,18,0.04), rgba(0,0,0,0.02));
-  border-radius:14px;padding:28px;margin:6px 0 18px;box-shadow:0 10px 40px rgba(0,0,0,0.06);
-}
-.hero-top{display:flex;align-items:center;gap:18px;width:100%;justify-content:space-between}
-.hero-left{max-width:700px}
-.kicker{display:inline-block;background:var(--honda-red);color:#fff;padding:6px 10px;border-radius:999px;font-weight:700;font-size:0.88rem}
-.hero h1{margin:12px 0 6px;font-size:clamp(24px,4.5vw,42px);color:var(--honda-black);line-height:1.05}
-.hero p.lead{margin:0;color:var(--muted);font-size:1.02rem}
-.hero-actions{display:flex;gap:12px;margin-top:12px;flex-wrap:wrap;align-items:center}
-.btn{
-  border:0;padding:12px 18px;border-radius:999px;font-weight:800;cursor:pointer;text-decoration:none;display:inline-flex;gap:10px;align-items:center;
-  transition:transform .18s ease, box-shadow .18s ease;
-}
-.btn.primary{background:linear-gradient(90deg,var(--honda-red),#ff3b3b);color:#fff;box-shadow:0 10px 30px rgba(230,0,18,0.18)}
-.btn.ghost{background:transparent;border:1px solid rgba(0,0,0,0.06);color:var(--honda-black)}
+.hero{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;padding:28px;margin:6px 0 18px;border-radius:14px;box-shadow:0 10px 40px rgba(0,0,0,0.06);background:linear-gradient(90deg, rgba(230,0,18,0.04), rgba(0,0,0,0.02));text-align:center;}
+.kicker{display:inline-block;background:var(--honda-red);color:#fff;padding:6px 12px;border-radius:999px;font-weight:700;font-size:0.88rem;margin-bottom:12px;}
+.hero h1{margin:12px 0 12px;font-size:clamp(28px,5vw,48px);color:var(--honda-black);line-height:1.05;font-weight:800;}
+.hero p.lead{margin:0;color:var(--muted);font-size:1.08rem;line-height:1.5;}
+.hero-actions{display:flex;gap:12px;margin-top:16px;flex-wrap:wrap;justify-content:center;}
+.btn{border:0;padding:12px 18px;border-radius:999px;font-weight:800;cursor:pointer;text-decoration:none;display:inline-flex;gap:10px;align-items:center;transition:transform .18s ease, box-shadow .18s ease;}
+.btn.primary{background:linear-gradient(90deg,var(--honda-red),#ff3b3b);color:#fff;box-shadow:0 10px 30px rgba(230,0,18,0.18);}
+.btn.secondary{background:#2bc76f;color:#fff;box-shadow:0 8px 20px rgba(43,199,111,0.18);}
+.btn.ghost{background:transparent;border:1px solid rgba(0,0,0,0.06);color:var(--honda-black);}
 .btn:hover{transform:translateY(-4px)}
-.hero-right{min-width:120px;display:flex;align-items:center;justify-content:center}
-.logo-hero{width:120px;height:120px;border-radius:12px;overflow:hidden;border:6px solid rgba(0,0,0,0.04);box-shadow:0 10px 30px rgba(0,0,0,0.08)}
-.logo-hero img{width:100%;height:100%;object-fit:cover;display:block}
-
-/* Pricing table */
 .pricing{margin:18px 0}
 .table-wrap{overflow:auto;border-radius:10px;border:1px solid #eee}
 table{width:100%;border-collapse:collapse}
 th,td{padding:12px;border-bottom:1px solid #f1f1f1;text-align:center}
 th{background:var(--honda-black);color:#fff;font-weight:700}
 tbody tr:hover{background:#fff6f6}
-
-/* Reviews carousel */
 .reviews{display:flex;gap:12px;overflow:hidden;padding:12px 0}
 .review{min-width:220px;padding:12px;border-radius:12px;background:#fff;border:1px solid #eee}
-
-/* FAQ */
 .faq .q{background:#fff;padding:12px;border-radius:10px;border:1px solid #eee;margin-bottom:8px;cursor:pointer;display:flex;justify-content:space-between;align-items:center}
 .faq .a{padding:12px;border-left:3px solid var(--honda-red);margin-bottom:12px;background:#fff;display:none;border-radius:8px}
-
-/* Footer */
-footer{margin-top:20px;font-size:0.95rem;color:var(--muted)}
-footer a{color:var(--honda-black);text-decoration:none}
-footer a:hover{text-decoration:underline}
-
-/* Floating quick actions */
-.float-actions{position:fixed;right:18px;bottom:20px;display:flex;flex-direction:column;gap:10px;z-index:1500}
-.float-actions a{display:inline-flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:999px;text-decoration:none;color:#fff;font-weight:800;box-shadow:0 8px 20px rgba(0,0,0,0.12)}
+footer{margin-top:20px;padding:18px 0;color:var(--muted);font-size:0.95rem;}
+.footer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;align-items:start;}
+.socials a{display:inline-block;margin-right:8px;color:var(--honda-black);text-decoration:none;padding:8px;border-radius:8px;border:1px solid #f0f0f0;}
+.float-actions{position:fixed;right:18px;bottom:20px;display:flex;flex-direction:column;gap:10px;z-index:1500;transition:all 0.3s ease;}
+.float-actions a{display:inline-flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:999px;text-decoration:none;color:#fff;font-weight:800;box-shadow:0 8px 20px rgba(0,0,0,0.12);transition:transform .3s;}
 .float-actions a.call{background:linear-gradient(90deg,var(--honda-red),#ff4b4b)}
 .float-actions a.zalo{background:#2bc76f}
 .float-actions a.map{background:#ffa500}
-.float-actions a.price{background:#ff6f61}
-
-/* tiny helpers */
+.float-actions a.extra{background:#ff8c00}
+.quick-extra{display:none;flex-direction:column;gap:10px;margin-bottom:10px;}
+.show-extra{display:flex;}
 .muted{color:var(--muted)}
-@media(max-width:720px){
-  .hero-top{flex-direction:column;align-items:center;gap:12px}
-  .hero-left{text-align:center}
-  .logo-hero{width:96px;height:96px}
-}
+@media(max-width:720px){.footer-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 
-<!-- TOP NAV -->
-<header class="topbar" role="banner">
-  <nav class="nav" role="navigation" aria-label="Main">
+<header class="topbar fade-in">
+  <nav class="nav">
     <div class="brand">
       <a href="#" style="display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff">
         <div style="width:56px;height:56px;border-radius:8px;overflow:hidden;border:2px solid rgba(255,255,255,0.06)">
@@ -152,19 +93,17 @@ footer a:hover{text-decoration:underline}
       </a>
     </div>
 
-    <div class="nav-links" role="menubar" aria-label="Menu">
+    <div class="nav-links">
       <a href="#gioithieu"><i class="fa-solid fa-house icon-bounce"></i> Home</a>
       <a href="#gia"><i class="fa-solid fa-money-bill-wave"></i> Bảng giá</a>
       <a href="#faq"><i class="fa-solid fa-circle-question"></i> FAQ</a>
       <a href="#lienhe" class="cta"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
     </div>
-
-    <button class="hamburger" id="hambtn" aria-label="Open menu"><i class="fa-solid fa-bars"></i></button>
+    <button class="hamburger" id="hambtn"><i class="fa-solid fa-bars"></i></button>
   </nav>
 </header>
 
-<!-- Mobile Drawer -->
-<div class="drawer" id="drawer" aria-hidden="true">
+<div class="drawer" id="drawer">
   <div class="close"><button id="closeDrawer" style="background:none;border:0;color:#fff;font-size:20px">✕</button></div>
   <a href="#gioithieu">🏠 Giới thiệu</a>
   <a href="#gia">💰 Bảng giá</a>
@@ -173,36 +112,21 @@ footer a:hover{text-decoration:underline}
   <a href="https://zalo.me/0857255868" target="_blank" style="background:#ff6f61;color:#fff;display:block;padding:10px;border-radius:8px;text-align:center;margin-top:12px">💬 Chat Zalo</a>
 </div>
 
-<!-- MAIN -->
-<main class="wrap" id="gioithieu">
+<main class="wrap">
 
-  <!-- HERO -->
-  <section class="hero" role="region" aria-label="Hero">
-    <div class="hero-top">
-      <div class="hero-left">
-        <span class="kicker">Motoopen</span>
-        <h1><span id="typed"></span></h1>
-        <p class="lead">Dịch vụ thuê xe máy Hà Nội uy tín, giá rẻ. Xe số, xe ga, giao tận nơi Long Biên & khu vực trung tâm. ⏰ 8:00 - 21:00. Liên hệ ngay để nhận tư vấn.</p>
-
-        <div class="hero-actions" role="group" aria-label="Actions">
-          <a href="tel:0857255868" class="btn primary"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
-          <a href="https://zalo.me/0857255868" target="_blank" class="btn" style="background:#2bc76f;color:#fff">💬 Chat Zalo</a>
-          <a href="#gia" class="btn ghost">📋 Xem bảng giá</a>
-        </div>
-      </div>
-
-      <div class="hero-right">
-        <div class="logo-hero" aria-hidden="true">
-          <img src="https://i.postimg.cc/kGSRG17f/IMG-5268.jpg" alt="Bảng giá Motoopen">
-        </div>
-      </div>
+  <section class="hero fade-in" id="gioithieu">
+    <span class="kicker">Motoopen</span>
+    <h1><span id="typed"></span></h1>
+    <p class="lead">Dịch vụ thuê xe máy Hà Nội uy tín, giá rẻ. Xe số, xe ga, giao tận nơi Long Biên & khu vực trung tâm. ⏰ 8:00 - 21:00. Liên hệ ngay để nhận tư vấn.</p>
+    <div class="hero-actions">
+      <a href="tel:0857255868" class="btn primary"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
+      <a href="https://zalo.me/0857255868" target="_blank" class="btn secondary">💬 Chat Zalo</a>
     </div>
   </section>
 
-  <!-- PRICING -->
-  <section class="pricing" id="gia" aria-label="Bảng giá">
+  <section class="pricing fade-in" id="gia">
     <h2>📋 Bảng Giá Thuê Xe Máy Hà Nội</h2>
-    <div class="table-wrap" role="table" aria-label="Bảng giá thuê xe">
+    <div class="table-wrap">
       <table>
         <thead>
           <tr><th>Loại Xe</th><th>Giá 1 Ngày</th><th>Giá 1 Tuần</th><th>Giá 1 Tháng</th><th>Đặt Cọc</th></tr>
@@ -215,10 +139,10 @@ footer a:hover{text-decoration:underline}
         </tbody>
       </table>
     </div>
+    <img src="https://i.postimg.cc/kGSRG17f/IMG-5268.jpg" alt="Bảng giá xe máy" style="width:100%;margin-top:12px;border-radius:10px;">
   </section>
 
-  <!-- REVIEWS -->
-  <section id="review" aria-label="Review khách hàng">
+  <section class="reviews fade-in" id="review">
     <h2>⭐ Review Khách Hàng</h2>
     <div class="reviews" id="carousel">
       <div class="review"><p>"Dịch vụ thuê xe máy Hà Nội chuyên nghiệp, giá rẻ, giao tận nơi!" – Minh H.</p></div>
@@ -228,154 +152,128 @@ footer a:hover{text-decoration:underline}
     </div>
   </section>
 
-  <!-- FAQ -->
-  <section id="faq" class="faq" aria-label="Câu hỏi thường gặp">
+  <section class="faq fade-in" id="faq">
     <h2>❓ Câu hỏi thường gặp</h2>
-
-    <div class="q" tabindex="0">
-      <div>Giá thuê xe máy bao nhiêu?</div><div class="muted">+</div>
-    </div>
+    <div class="q" tabindex="0"><div>Giá thuê xe máy bao nhiêu?</div><div class="muted">+</div></div>
     <div class="a">Xe số từ 150k/ngày, xe ga từ 200k/ngày, thuê theo tuần/tháng có ưu đãi.</div>
-
-    <div class="q" tabindex="0">
-      <div>Cần đặt cọc bao nhiêu?</div><div class="muted">+</div>
-    </div>
+    <div class="q" tabindex="0"><div>Cần đặt cọc bao nhiêu?</div><div class="muted">+</div></div>
     <div class="a">Đặt cọc từ 2-5 triệu, thủ tục nhanh chóng, giao xe tận nơi.</div>
-
-    <div class="q" tabindex="0">
-      <div>Có giao xe tận nơi không?</div><div class="muted">+</div>
-    </div>
+    <div class="q" tabindex="0"><div>Có giao xe tận nơi không?</div><div class="muted">+</div></div>
     <div class="a">Có, hỗ trợ giao xe tại Long Biên, Phố Cổ, Hoàn Kiếm, Tây Hồ, Ba Đình, Gia Lâm (có phí với đơn thuê dưới 5 ngày).</div>
   </section>
 
-  <!-- CONTACT -->
-  <section id="lienhe" aria-label="Liên hệ" style="margin-top:18px;background:#fff;padding:18px;border-radius:12px;border:1px solid #f2f2f2">
+  <section id="lienhe" class="fade-in" style="margin-top:18px;background:#fff;padding:18px;border-radius:12px;border:1px solid #f2f2f2">
     <h2>📌 Liên hệ Thuê Xe Máy Motoopen</h2>
     <p>Địa chỉ: 114 Nguyễn Văn Cừ, Bồ Đề, Long Biên, Hà Nội, Việt Nam</p>
     <p>Điện thoại: <a href="tel:0857255868" style="color:var(--honda-red);font-weight:700">0857255868</a> | Email: <a href="mailto:motoopen@gmail.com">motoopen@gmail.com</a></p>
-
-<div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:12px">
-  <a href="tel:0857255868" class="btn primary"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
-  <a href="https://zalo.me/0857255868" target="_blank" class="btn" style="background:#2bc76f;color:#fff">💬 Zalo</a>
-  <a href="https://maps.app.goo.gl/2icTBTxAToyvKTE78" target="_blank" class="btn ghost">🗺️ Xem bản đồ</a>
-  <a href="#gia" class="btn ghost" onclick="scrollToPricing()">📋 Xem bảng giá</a>
-</div>
-<p class="muted" style="margin-top:12px">© 2025 Thuê Xe Máy Hà Nội – Motoopen</p>
-</section>
+  </section>
 
 </main>
 
-<!-- Floating Quick Actions Nâng Cao -->
-<div class="float-actions" aria-hidden="false">
-  <a class="call" id="quickMain" href="javascript:void(0)" title="Menu nhanh"><i class="fa-solid fa-plus"></i></a>
-  <a class="zalo" id="quickZalo" href="https://zalo.me/0857255868" target="_blank" title="Chat Zalo" style="display:none"><i class="fa-brands fa-hubspot"></i></a>
-  <a class="map" id="quickMap" href="https://maps.app.goo.gl/2icTBTxAToyvKTE78" target="_blank" title="Map" style="display:none"><i class="fa-solid fa-map-location-dot"></i></a>
-  <a class="price" id="quickPrice" href="#gia" title="Xem bảng giá" style="display:none"><i class="fa-solid fa-money-bill-wave"></i></a>
+<div class="float-actions">
+  <div class="quick-extra" id="quickExtra">
+    <a class="zalo" href="https://zalo.me/0857255868" target="_blank"><i class="fa-brands fa-hubspot"></i></a>
+    <a class="map" href="https://maps.app.goo.gl/2icTBTxAToyvKTE78" target="_blank"><i class="fa-solid fa-map-location-dot"></i></a>
+    <a class="extra" href="https://motoopen.github.io/chothuexemayhanoi.index.html/" target="_blank"><i class="fa-solid fa-file-invoice"></i></a>
+  </div>
+  <a class="call" href="tel:0857255868" id="mainQuick"><i class="fa-solid fa-phone"></i></a>
 </div>
 
-<!-- FOOTER 3 cột -->
-<footer>
+<footer class="fade-in">
   <div class="wrap">
-    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;align-items:start;">
-      
+    <div class="footer-grid">
       <div>
-        <strong>Thông tin công ty</strong>
-        <p>Thuê Xe Máy Motoopen</p>
-        <p>114 Nguyễn Văn Cừ, Long Biên, Hà Nội</p>
-        <p>Điện thoại: <a href="tel:0857255868">0857255868</a></p>
-        <p>Email: <a href="mailto:motoopen@gmail.com">motoopen@gmail.com</a></p>
+        <strong>Thuê Xe Máy Motoopen</strong>
+        <p class="muted">114 Nguyễn Văn Cừ — Long Biên — Hà Nội</p>
+        <p class="muted">Điện thoại: 0857 255 868</p>
       </div>
-      
       <div>
         <strong>Liên kết nhanh</strong>
-        <ul style="list-style:none;padding:0;margin:0">
-          <li><a href="#gioithieu">🏠 Giới thiệu</a></li>
-          <li><a href="#gia">💰 Bảng giá</a></li>
-          <li><a href="#faq">❓ FAQ</a></li>
-          <li><a href="#lienhe">📞 Liên hệ</a></li>
-        </ul>
+        <p><a href="#gioithieu">Giới thiệu</a></p>
+        <p><a href="#gia">Bảng giá</a></p>
+        <p><a href="#faq">FAQ</a></p>
+        <p><a href="#lienhe">Liên hệ</a></p>
       </div>
-      
       <div>
         <strong>Mạng xã hội</strong>
-        <p><a href="https://zalo.me/0857255868" target="_blank">Zalo</a></p>
-        <p><a href="https://wa.me/84857255868" target="_blank">WhatsApp</a></p>
-        <p><a href="https://m.facebook.com/HanoiRentalMotorbike.NguyenTu/" target="_blank">Facebook</a></p>
+        <div class="socials">
+          <a href="https://zalo.me/0857255868" target="_blank">Zalo</a>
+          <a href="https://wa.me/84857255868" target="_blank">WhatsApp</a>
+          <a href="https://m.facebook.com/HanoiRentalMotorbike.NguyenTu/" target="_blank">Facebook</a>
+        </div>
       </div>
-      
     </div>
     <hr style="margin:14px 0;border:none;border-top:1px solid #f1f1f1" />
     <div style="text-align:center;color:var(--muted)">© 2025 Motoopen — Designed in Hanoi</div>
   </div>
 </footer>
 
-<!-- Scripts -->
 <script>
-  // Drawer mobile
+  // Mobile drawer
   const hambtn = document.getElementById('hambtn');
   const drawer = document.getElementById('drawer');
   const closeDrawer = document.getElementById('closeDrawer');
-  hambtn && hambtn.addEventListener('click', ()=> { drawer.classList.add('open'); drawer.setAttribute('aria-hidden','false'); });
-  closeDrawer && closeDrawer.addEventListener('click', ()=> { drawer.classList.remove('open'); drawer.setAttribute('aria-hidden','true'); });
+  hambtn && hambtn.addEventListener('click', ()=>{drawer.classList.add('open');drawer.setAttribute('aria-hidden','false');});
+  closeDrawer && closeDrawer.addEventListener('click', ()=>{drawer.classList.remove('open');drawer.setAttribute('aria-hidden','true');});
 
   // Typed effect
-  const phrases = [
-    "Thuê Xe Máy Hà Nội — Giá Rẻ, Giao Tận Nơi.",
-    "Xe số từ 150k/ngày — Xe ga từ 200k/ngày.",
-    "Đặt cọc 2-5 triệu • Hỗ trợ giao tận nơi."
-  ];
-  let tIndex=0, chIndex=0, forward=true;
-  const typed = document.getElementById('typed');
+  const phrases=["Thuê Xe Máy Hà Nội — Giá Rẻ, Giao Tận Nơi.","Xe số từ 150k/ngày — Xe ga từ 200k/ngày.","Đặt cọc 2-5 triệu • Hỗ trợ giao tận nơi."];
+  let tIndex=0,chIndex=0,forward=true;
+  const typed=document.getElementById('typed');
   function tick(){
     if(!typed) return;
-    const word = phrases[tIndex];
-    typed.textContent = word.slice(0,chIndex);
-    if(forward){ chIndex++; if(chIndex>word.length){ forward=false; setTimeout(tick,1100); return; } }
-    else{ chIndex--; if(chIndex===0){ forward=true; tIndex=(tIndex+1)%phrases.length; } }
-    setTimeout(tick, forward?60:28);
+    const word=phrases[tIndex];
+    typed.textContent=word.slice(0,chIndex);
+    if(forward){chIndex++;if(chIndex>word.length){forward=false;setTimeout(tick,1100);return;}}
+    else{chIndex--;if(chIndex===0){forward=true;tIndex=(tIndex+1)%phrases.length;}}
+    setTimeout(tick,forward?60:28);
   }
   tick();
 
   // FAQ accordion
   document.querySelectorAll('.faq .q').forEach(q=>{
-    q.addEventListener('click', ()=> {
-      const nxt = q.nextElementSibling;
-      const icon = q.querySelector('.muted');
+    q.addEventListener('click',()=>{
+      const nxt=q.nextElementSibling;
+      const icon=q.querySelector('.muted');
       if(!nxt) return;
-      if(nxt.style.display === 'block'){ nxt.style.display='none'; icon.textContent='+'; }
-      else { nxt.style.display='block'; icon.textContent='−'; }
+      if(nxt.style.display==='block'){nxt.style.display='none';icon.textContent='+';} 
+      else {nxt.style.display='block';icon.textContent='−';}
     });
   });
 
-  // Reviews carousel auto scroll
+  // Reviews auto scroll
   (function(){
-    const c = document.getElementById('carousel');
-    if(!c) return;
-    let m = 0;
-    setInterval(()=> { m += 240; if(m > c.scrollWidth - c.clientWidth) { m = 0; c.scrollTo({left:0, behavior:'smooth'}) } else c.scrollTo({left:m, behavior:'smooth'}); }, 2800);
+    const c=document.getElementById('carousel'); if(!c) return;
+    let m=0;
+    setInterval(()=>{m+=240;if(m>c.scrollWidth-c.clientWidth){m=0;c.scrollTo({left:0,behavior:'smooth'});}else c.scrollTo({left:m,behavior:'smooth'});},2800);
   })();
 
-  // Quick actions toggle
-  const quickMain = document.getElementById('quickMain');
-  const quickZalo = document.getElementById('quickZalo');
-  const quickMap = document.getElementById('quickMap');
-  const quickPrice = document.getElementById('quickPrice');
-  quickMain.addEventListener('click', ()=>{
-    [quickZalo, quickMap, quickPrice].forEach(el=>{
-      el.style.display = el.style.display==='flex'?'none':'flex';
-    });
+  // Quick action toggle
+  const mainQuick=document.getElementById('mainQuick');
+  const quickExtra=document.getElementById('quickExtra');
+  mainQuick.addEventListener('click',()=>{
+    quickExtra.classList.toggle('show-extra');
   });
+
+  // Fade-in on scroll
+  const faders=document.querySelectorAll('.fade-in');
+  const appearOptions={threshold:0.1,rootMargin:"0px 0px -50px 0px"};
+  const appearOnScroll=new IntersectionObserver((entries,observer)=>{
+    entries.forEach(entry=>{
+      if(!entry.isIntersecting) return;
+      entry.target.classList.add('show');
+      observer.unobserve(entry.target);
+    });
+  },appearOptions);
+  faders.forEach(f=>appearOnScroll.observe(f));
 
   // Close drawer on outside click
-  document.addEventListener('click', (e)=>{
-    if(drawer.classList.contains('open') && !drawer.contains(e.target) && !hambtn.contains(e.target)){
+  document.addEventListener('click',(e)=>{
+    if(drawer.classList.contains('open')&&!drawer.contains(e.target)&&!hambtn.contains(e.target)){
       drawer.classList.remove('open');
+      drawer.setAttribute('aria-hidden','true');
     }
   });
-
-  // Scroll to pricing
-  function scrollToPricing(){ document.getElementById('gia').scrollIntoView({behavior:'smooth'}); }
 </script>
-
 </body>
 </html>
