@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="vi">
+<html lang="vi" style="scroll-behavior: smooth;">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,6 +12,7 @@
 
 <meta name="robots" content="index, follow">
 
+<link rel="icon" href="/favicon.ico" type="image/x-icon"> 
 <link rel="icon" href="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" type="image/jpeg">
 
 <meta property="og:type" content="website">
@@ -169,12 +170,19 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <style>
+/* CSS Variables bổ sung (Nâng cấp) */
 :root{
   --honda-red:#e60012;
   --honda-black:#0b0b0b;
   --white:#fff;
   --muted:#777;
   --maxw:1100px;
+  /* Thêm biến cho neon effect */
+  --neon-start: #ff0044;
+  --neon-end: #ff66cc;
+  --neon-shadow: 0 0 12px var(--neon-end), 0 0 24px var(--neon-start);
+  --cta-gradient: linear-gradient(90deg,var(--honda-red),#ff3b3b);
+  --social-shadow: 0 0 8px var(--neon-start), 0 0 16px var(--neon-end);
 }
 *{box-sizing:border-box}
 body{
@@ -184,7 +192,7 @@ body{
 }
 
 /* -------------------------------------- */
-/* --- TOP NAV STICKY + BRAND (NÂNG CẤP) --- */
+/* --- TOP NAV STICKY + BRAND --- */
 /* -------------------------------------- */
 .topbar{
   position:sticky;
@@ -196,7 +204,7 @@ body{
   justify-content:center;
   box-shadow:0 6px 18px rgba(3,3,3,0.25);
   padding:10px 16px;
-  backdrop-filter:blur(4px); /* Thêm hiệu ứng kính mờ */
+  backdrop-filter:blur(4px);
 }
 .nav{
   width:100%;
@@ -210,7 +218,7 @@ body{
 .brand img{width:56px;height:56px;object-fit:cover;border-radius:8px;border:2px solid rgba(255,255,255,0.06);}
 .brand h3{margin:0;font-size:1.05rem;font-weight:800;letter-spacing:0.2px;}
 
-/* Nav Links Desktop (NÂNG CẤP) */
+/* Nav Links Desktop (Sử dụng biến CSS) */
 .nav-links{
   display:flex;
   gap:10px;
@@ -220,7 +228,7 @@ body{
   color:#fff;
   text-decoration:none;
   padding:8px 12px;
-  border-radius:12px; /* bo tròn hơn */
+  border-radius:12px;
   font-weight:600;
   display:inline-flex;
   gap:8px;
@@ -235,7 +243,7 @@ body{
   left:0;top:0;
   width:0%;
   height:100%;
-  background:linear-gradient(90deg,#ff0044,#ff66cc);
+  background:linear-gradient(90deg,var(--neon-start),var(--neon-end)); /* Dùng biến */
   border-radius:12px;
   transition:0.35s ease;
   z-index:-1;
@@ -249,7 +257,7 @@ body{
 .hamburger{display:none;background:none;border:0;color:#fff;font-size:22px;padding:8px;border-radius:8px;cursor:pointer;}
 @media(max-width:900px){.nav-links{display:none}.hamburger{display:inline-flex}.brand h3{font-size:0.95rem;}}
 
-/* Mobile drawer (NÂNG CẤP APP) */
+/* Mobile drawer (Sử dụng biến CSS) */
 .drawer{
   position:fixed;
   right:0;top:0;
@@ -259,23 +267,23 @@ body{
   color:#fff;
   padding:20px;
   transform:translateX(100%);
-  transition:transform 0.35s cubic-bezier(.22,1,.36,1); /* Animation mượt hơn */
+  transition:transform 0.35s cubic-bezier(.22,1,.36,1);
   backdrop-filter:blur(6px);
   z-index:1400;
 }
 .drawer.open{transform:translateX(0);}
 .drawer .close{display:flex;justify-content:flex-end;margin-bottom:12px;}
-.drawer a{ /* Hiệu ứng slide-in từng bước */
+.drawer a{
   display:block;color:#fff;padding:12px 10px;border-radius:12px;margin-bottom:10px;text-decoration:none;font-weight:600;opacity:0;transform:translateX(20px);transition:0.35s ease, transform 0.35s ease;
-  display:flex; gap: 8px; align-items: center; /* Để icon hiển thị đẹp hơn */
+  display:flex; gap: 8px; align-items: center;
 }
 .drawer.open a{opacity:1;transform:translateX(0);}
-.drawer.open a:nth-child(2){transition-delay:0.05s;} /* Bắt đầu từ link đầu tiên */
+.drawer.open a:nth-child(2){transition-delay:0.05s;}
 .drawer.open a:nth-child(3){transition-delay:0.1s;}
 .drawer.open a:nth-child(4){transition-delay:0.15s;}
 .drawer.open a:nth-child(5){transition-delay:0.2s;}
-.drawer.open a:nth-child(6){transition-delay:0.25s;} /* Cho link Zalo */
-.drawer a:hover i{transform:scale(1.3);text-shadow:0 0 12px #ff66cc,0 0 24px #ff0044;}
+.drawer.open a:nth-child(6){transition-delay:0.25s;}
+.drawer a:hover i{transform:scale(1.3);text-shadow:var(--neon-shadow);} /* Dùng biến */
 
 /* Container */
 .wrap{max-width:var(--maxw);margin:18px auto;padding:0 18px;}
@@ -301,7 +309,7 @@ body{
 .hero p.lead{margin:0;color:#555;font-size:1.05rem;line-height:1.5;}
 .hero-actions{display:flex;gap:12px;margin-top:12px;flex-wrap:wrap;align-items:center;}
 .btn{border:0;padding:12px 18px;border-radius:999px;font-weight:800;cursor:pointer;text-decoration:none;display:inline-flex;gap:10px;align-items:center;transition:transform .18s ease, box-shadow .18s ease;}
-.btn.primary{background:linear-gradient(90deg,var(--honda-red),#ff3b3b);color:#fff;box-shadow:0 10px 30px rgba(230,0,18,0.18);}
+.btn.primary{background:var(--cta-gradient);color:#fff;box-shadow:0 10px 30px rgba(230,0,18,0.18);} /* Dùng biến */
 .btn.ghost{background:transparent;border:1px solid rgba(0,0,0,0.06);color:var(--honda-black);}
 .btn:hover{transform:translateY(-4px)}
 
@@ -321,7 +329,7 @@ tbody tr:hover{background:#fff6f6}
 .faq .q{background:#fff;padding:12px;border-radius:10px;border:1px solid #eee;margin-bottom:8px;cursor:pointer;display:flex;justify-content:space-between;align-items:center}
 .faq .a{padding:12px;border-left:3px solid var(--honda-red);margin-bottom:12px;background:#fff;display:none;border-radius:8px}
 
-/* --- FOOTER VIP LED + MARQUEE STYLES --- */
+/* --- FOOTER VIP LED + MARQUEE STYLES (Sử dụng biến CSS) --- */
 .footer-new {
     background:#111;
     color:#eee;
@@ -337,17 +345,17 @@ tbody tr:hover{background:#fff6f6}
     gap:20px;
 }
 .footer-new h3 {
-    color:#ff0044;
-    text-shadow:0 0 5px #ff0044,0 0 10px #ff66cc;
+    color:var(--neon-start); /* Dùng biến */
+    text-shadow:0 0 5px var(--neon-start),0 0 10px var(--neon-end); /* Dùng biến */
 }
 .footer-social a i {
   font-size:22px;
-  color:#ff0044;
-  text-shadow:0 0 5px #ff0044,0 0 10px #ff66cc;
+  color:var(--neon-start); /* Dùng biến */
+  text-shadow:0 0 5px var(--neon-start),0 0 10px var(--neon-end); /* Dùng biến */
   transition:0.3s ease;
 }
 .footer-social a:hover i {
-  text-shadow:0 0 15px #ff66cc,0 0 30px #ff3399,0 0 45px #ff0044;
+  text-shadow:0 0 15px var(--neon-end),0 0 30px #ff3399,0 0 45px var(--neon-start); /* Dùng biến */
   transform:scale(1.3);
 }
 
@@ -368,7 +376,7 @@ tbody tr:hover{background:#fff6f6}
   100%{transform:translateX(-100%)}
 }
 
-/* Floating actions VIP */
+/* Floating actions VIP (Sử dụng biến CSS) */
 .float-actions{
   position:fixed;
   right:18px;
@@ -381,20 +389,19 @@ tbody tr:hover{background:#fff6f6}
 }
 .float-actions > button{
   border:none;
-  background:#ff0044;
+  background:var(--neon-start); /* Dùng biến */
   color:#fff;
   width:56px;
   height:56px;
   border-radius:50%;
   cursor:pointer;
   font-size:28px;
-  box-shadow:0 0 8px #ff0044,0 0 16px #ff66cc;
+  box-shadow:var(--social-shadow); /* Dùng biến */
   animation: pulse-float 1.8s infinite;
 }
 .float-actions #backTop {
-  /* Điều chỉnh vị trí của BackTop để nó ở trên nút chính */
   position: static; 
-  display: none; /* ban đầu ẩn, sẽ hiện khi scroll */
+  display: none;
 }
 .float-actions .more{
   display:none;
@@ -409,17 +416,17 @@ tbody tr:hover{background:#fff6f6}
   width:50px;
   height:50px;
   border-radius:50%;
-  background:#ff0044;
+  background:var(--neon-start); /* Dùng biến */
   color:#fff;
   font-size:22px;
   text-decoration:none;
-  box-shadow:0 0 8px #ff0044,0 0 16px #ff66cc;
+  box-shadow:var(--social-shadow); /* Dùng biến */
   transition:0.3s ease;
   animation: pulse-float 1.8s infinite;
 }
 .float-actions a:hover{
   transform:scale(1.2);
-  box-shadow:0 0 12px #ff66cc,0 0 24px #ff3399;
+  box-shadow:0 0 12px var(--neon-end), 0 0 24px #ff3399; /* Dùng biến */
 }
 
 @keyframes pulse-float{
@@ -427,7 +434,7 @@ tbody tr:hover{background:#fff6f6}
   50%{transform:scale(1.1);}
 }
 
-/* --- BIKE TRAIL STYLES (TỐI ƯU OBJECT POOLING) --- */
+/* --- BIKE TRAIL STYLES --- */
 .bike-multi {
   display: inline-block;
   animation: bounce-bike 0.5s infinite alternate;
@@ -445,7 +452,6 @@ tbody tr:hover{background:#fff6f6}
   background: rgba(230,0,18,0.3);
   filter: blur(6px);
   pointer-events: none;
-  /* Đã gộp opacity và transform transition để mượt mà hơn */
   transition: transform 0.8s linear, opacity 0.8s linear; 
   opacity: 0; 
   transform: translate(0, 0) scale(1); 
@@ -523,7 +529,7 @@ tbody tr:hover{background:#fff6f6}
       </tbody>
     </table>
   </div>
-  <img src="https://i.postimg.cc/kGSRG17f/IMG-5268.jpg" alt="Ảnh bảng giá" style="width:100%;margin-top:12px;border-radius:12px;">
+  <img src="https://i.postimg.cc/kGSRG17f/IMG-5268.jpg" alt="Ảnh bảng giá" style="width:100%;margin-top:12px;border-radius:12px;" loading="lazy">
 </section>
 
 <section id="review">
@@ -665,7 +671,6 @@ tbody tr:hover{background:#fff6f6}
         e.preventDefault(); 
         
         // 2. Chờ hoạt ảnh icon kết thúc (350ms) rồi đóng và cuộn
-        // Giữ setTimeout ngắn này là chấp nhận được để đồng bộ việc đóng menu và cuộn trang
         setTimeout(() => {
           closeDrawerMenu();
           const target = document.querySelector(href);
@@ -694,7 +699,7 @@ tbody tr:hover{background:#fff6f6}
 
 
   /* -------------------------------------- */
-  /* --- TYPED EFFECT SCRIPTS (TỐI ƯU: requestAnimationFrame + TIME CHECK) --- */
+  /* --- TYPED EFFECT SCRIPTS (requestAnimationFrame + TIME CHECK) --- */
   /* -------------------------------------- */
   function initTypedEffect() {
       const phrases = [
@@ -783,7 +788,6 @@ tbody tr:hover{background:#fff6f6}
     const c = document.getElementById('carousel');
     if(!c) return;
     let m = 0;
-    // Dùng setInterval/setTimeout là cách tiếp cận phổ biến cho auto scroll không phải là animation liên tục 60fps
     setInterval(()=> { 
       m += 240; 
       if(m > c.scrollWidth - c.clientWidth) { 
@@ -800,7 +804,8 @@ tbody tr:hover{background:#fff6f6}
   });
   if(backTop) {
       backTop.addEventListener('click', () => {
-          window.scrollTo({top:0, behavior:'smooth'});
+          // scroll-behavior: smooth; đã được thêm vào thẻ <html> nên không cần behavior:'smooth' ở đây
+          window.scrollTo({top:0}); 
       });
   }
 
@@ -813,7 +818,7 @@ tbody tr:hover{background:#fff6f6}
   }
 
   /* -------------------------------------- */
-  /* --- BIKE TRAIL SCRIPTS (TỐI ƯU: requestAnimationFrame + TIME CHECK VÀ OBJECT POOLING) --- */
+  /* --- BIKE TRAIL SCRIPTS (requestAnimationFrame + OBJECT POOLING) --- */
   /* -------------------------------------- */
   function initBikeTrail() {
     const bikeTrailContainer = document.getElementById('bikeTrailContainer');
@@ -823,20 +828,20 @@ tbody tr:hover{background:#fff6f6}
     if (!bikeTrailContainer || !heroSection || smokeElements.length === 0) return;
 
     const MAX_SMOKE = smokeElements.length;
-    const SMOKE_INTERVAL = 160; // ms (Tạo khói mỗi 160ms ~ 6.25 lần/giây)
-    const SPEED = 0.000004 * window.innerWidth; // Vận tốc di chuyển (pixel/ms)
+    const SMOKE_INTERVAL = 160; 
+    const SPEED = 0.000004 * window.innerWidth; 
 
-    let pos = -50; // Vị trí ban đầu (-50px)
+    let pos = -50; 
     let lastTime = 0;
     let lastSmokeTime = 0;
     let smokeIndex = 0; 
 
     function activateSmoke(smoke, x, y) {
-        // 1. Reset (tắt transition, reset transform và opacity)
+        // 1. Reset
         smoke.style.transition = 'none'; 
         smoke.style.opacity = '0';
         smoke.style.transform = 'translate(0, 0) scale(1)';
-        smoke.offsetHeight; // Ép trình duyệt nhận diện reset (reflow/repaint)
+        smoke.offsetHeight; 
 
         // 2. Đặt vị trí ban đầu (fixed position)
         smoke.style.left = x + 'px';
@@ -860,11 +865,10 @@ tbody tr:hover{background:#fff6f6}
         const viewportWidth = window.innerWidth;
         
         // 1. Cập nhật vị trí xe
-        // Tính toán khoảng cách di chuyển dựa trên thời gian thực (delta time)
         pos += (SPEED * deltaTime);
         
         if (pos > viewportWidth) {
-            pos = -50; // Quay lại đầu
+            pos = -50; 
         }
         
         // Cập nhật vị trí xe
@@ -873,21 +877,19 @@ tbody tr:hover{background:#fff6f6}
         // 2. Logic tạo khói
         const currentHeroRect = heroSection.getBoundingClientRect();
         
-        // Chỉ tạo khói khi xe máy hiển thị trong khu vực Hero VÀ đã đủ thời gian
         if (pos > 0 && pos < (currentHeroRect.width - 20) && currentHeroRect.bottom > 0 && currentHeroRect.top < window.innerHeight) {
             
             if (currentTime - lastSmokeTime > SMOKE_INTERVAL) {
-                // Tính toán vị trí tuyệt đối của khói (smokePool dùng fixed)
+                // Tính toán vị trí tuyệt đối
                 const smokeX = currentHeroRect.left + pos + 10; 
                 const smokeY = currentHeroRect.bottom - 20; 
 
-                // Lấy phần tử khói từ pool và tái sử dụng
+                // Tái sử dụng smoke từ pool
                 const smokeToReuse = smokeElements[smokeIndex];
                 activateSmoke(smokeToReuse, smokeX, smokeY);
                 
-                // Di chuyển đến smoke tiếp theo trong pool
                 smokeIndex = (smokeIndex + 1) % MAX_SMOKE;
-                lastSmokeTime = currentTime; // Cập nhật thời điểm tạo khói cuối
+                lastSmokeTime = currentTime; 
             }
         }
     }
