@@ -470,8 +470,8 @@ tbody tr:hover{background:#fff6f6}
 <header class="topbar">
 <nav class="nav">
   <div class="brand">
-    <a href="#" style="display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff">
-      <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen">
+    <a href="#" style="display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff" aria-label="Về trang chủ Thuê Xe Máy Motoopen">
+      <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Logo Motoopen">
       <div>
         <h3>Thuê Xe Máy <span style="color:var(--honda-red)">Motoopen</span></h3>
         <div style="font-size:12px;color:rgba(255,255,255,0.7);margin-top:2px">114 Nguyễn Văn Cừ — 0857 255 868</div>
@@ -479,22 +479,24 @@ tbody tr:hover{background:#fff6f6}
     </a>
   </div>
   <div class="nav-links">
-    <a href="#gioithieu"><i class="fa-solid fa-house icon-bounce"></i> Home</a>
-    <a href="#gia"><i class="fa-solid fa-money-bill-wave"></i> Bảng giá</a>
-    <a href="#faq"><i class="fa-solid fa-circle-question"></i> FAQ</a>
-    <a href="#lienhe" class="cta"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
+    <a href="#gioithieu" aria-label="Đi tới mục Giới thiệu"><i class="fa-solid fa-house icon-bounce"></i> Home</a>
+    <a href="#gia" aria-label="Đi tới mục Bảng giá"><i class="fa-solid fa-money-bill-wave"></i> Bảng giá</a>
+    <a href="#faq" aria-label="Đi tới mục Câu hỏi thường gặp"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+    <a href="#lienhe" class="cta" aria-label="Gọi điện thoại ngay"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
   </div>
-  <button class="hamburger" id="hambtn"><i class="fa-solid fa-bars"></i></button>
+  <button class="hamburger" id="hambtn" aria-label="Mở menu di động"><i class="fa-solid fa-bars"></i></button>
 </nav>
 </header>
 
 <div class="drawer" id="drawer" aria-hidden="true">
-  <div class="close"><button id="closeDrawer" style="background:none;border:none;color:white;font-size:1.5rem;cursor:pointer;">✕</button></div>
-  <a href="#gioithieu"><i class="fa-solid fa-house"></i> Giới thiệu</a>
-  <a href="#gia"><i class="fa-solid fa-money-bill-wave"></i> Bảng giá</a>
-  <a href="#faq"><i class="fa-solid fa-circle-question"></i> FAQ</a>
-  <a href="#lienhe"><i class="fa-solid fa-phone"></i> Liên hệ</a>
-  <a href="https://zalo.me/0857255868" target="_blank" style="background:#2bc76f;color:#fff;text-align:center"><i class="fa-brands fa-whatsapp"></i> Chat Zalo</a>
+  <div class="close">
+    <button id="closeDrawer" style="background:none;border:none;color:white;font-size:1.5rem;cursor:pointer;" aria-label="Đóng menu">✕</button>
+  </div>
+  <a href="#gioithieu" aria-label="Giới thiệu"><i class="fa-solid fa-house"></i> Giới thiệu</a>
+  <a href="#gia" aria-label="Bảng giá"><i class="fa-solid fa-money-bill-wave"></i> Bảng giá</a>
+  <a href="#faq" aria-label="Câu hỏi thường gặp"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+  <a href="#lienhe" aria-label="Liên hệ"><i class="fa-solid fa-phone"></i> Liên hệ</a>
+  <a href="https://zalo.me/0857255868" target="_blank" style="background:#2bc76f;color:#fff;text-align:center" aria-label="Chat qua Zalo"><i class="fa-brands fa-whatsapp"></i> Chat Zalo</a>
 </div>
 
 <main class="wrap" id="gioithieu">
@@ -506,13 +508,13 @@ tbody tr:hover{background:#fff6f6}
       Dịch vụ <strong>thuê xe máy Hà Nội</strong> uy tín, giá rẻ. Xe số, xe ga, giao tận nơi <strong>Long Biên</strong> & trung tâm. ⏰ <strong>8:00 - 21:00</strong>.
     </p>
     <div class="hero-actions">
-      <a href="tel:0857255868" class="btn primary"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
-      <a href="https://zalo.me/0857255868" target="_blank" class="btn" style="background:#2bc76f;color:#fff">💬 Chat Zalo</a>
+      <a href="tel:0857255868" class="btn primary" aria-label="Gọi điện thoại ngay 0857 255 868"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
+      <a href="https://zalo.me/0857255868" target="_blank" class="btn" style="background:#2bc76f;color:#fff" aria-label="Chat Zalo với Motoopen">💬 Chat Zalo</a>
     </div>
   </div>
 
   <div id="bikeTrailContainer" style="position:absolute;bottom:12px;left:-50px;font-size:32px;z-index: 1001; transition: none; will-change: transform;">
-    <span class="bike-multi">🏍️</span>
+    <span class="bike-multi" role="img" aria-label="Biểu tượng xe máy đang chạy">🏍️</span>
   </div>
 </section>
 
@@ -529,7 +531,7 @@ tbody tr:hover{background:#fff6f6}
       </tbody>
     </table>
   </div>
-  <img src="https://i.postimg.cc/kGSRG17f/IMG-5268.jpg" alt="Ảnh bảng giá" style="width:100%;margin-top:12px;border-radius:12px;" loading="lazy">
+  <img src="https://i.postimg.cc/kGSRG17f/IMG-5268.jpg" alt="Ảnh bảng giá thuê xe máy chi tiết" style="width:100%;margin-top:12px;border-radius:12px;" loading="lazy">
 </section>
 
 <section id="review">
@@ -544,24 +546,24 @@ tbody tr:hover{background:#fff6f6}
 
 <section id="faq" class="faq">
   <h2>❓ Câu hỏi thường gặp</h2>
-  <div class="q"><div>Giá thuê xe máy bao nhiêu?</div><div class="muted">+</div></div>
+  <div class="q" role="button" aria-expanded="false" tabindex="0"><div>Giá thuê xe máy bao nhiêu?</div><div class="muted">+</div></div>
   <div class="a">Xe số từ 150k/ngày, xe ga từ 200k/ngày, thuê theo tuần/tháng có ưu đãi.</div>
 
-  <div class="q"><div>Cần đặt cọc bao nhiêu?</div><div class="muted">+</div></div>
+  <div class="q" role="button" aria-expanded="false" tabindex="0"><div>Cần đặt cọc bao nhiêu?</div><div class="muted">+</div></div>
   <div class="a">Đặt cọc từ 2-5 triệu, thủ tục nhanh chóng, giao xe tận nơi.</div>
 
-  <div class="q"><div>Có giao xe tận nơi không?</div><div class="muted">+</div></div>
+  <div class="q" role="button" aria-expanded="false" tabindex="0"><div>Có giao xe tận nơi không?</div><div class="muted">+</div></div>
   <div class="a">Có, hỗ trợ giao xe tại Long Biên, Phố Cổ, Hoàn Kiếm, Tây Hồ, Ba Đình, Gia Lâm.</div>
 </section>
 
 <section id="lienhe" style="margin-top:18px;background:#fff;padding:18px;border-radius:12px;border:1px solid #f2f2f2">
   <h2>📌 Liên hệ Thuê Xe Máy Motoopen</h2>
   <p>Địa chỉ: 114 Nguyễn Văn Cừ, Bồ Đề, Long Biên, Hà Nội, Việt Nam</p>
-  <p>Điện thoại: <a href="tel:0857255868" style="color:var(--honda-red);font-weight:700">0857255868</a> | Email: <a href="mailto:motoopen12@gmail.com">motoopen12@gmail.com</a></p>
+  <p>Điện thoại: <a href="tel:0857255868" style="color:var(--honda-red);font-weight:700" aria-label="Số điện thoại liên hệ 0857 255 868">0857255868</a> | Email: <a href="mailto:motoopen12@gmail.com" aria-label="Gửi email tới motoopen12@gmail.com">motoopen12@gmail.com</a></p>
   <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:12px">
-    <a href="tel:0857255868" class="btn primary"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
-    <a href="https://zalo.me/0857255868" target="_blank" class="btn" style="background:#2bc76f;color:#fff">💬 Zalo</a>
-    <a href="https://maps.app.goo.gl/2icTBTxAToyvKTE78" target="_blank" class="btn ghost">🗺️ Xem bản đồ</a>
+    <a href="tel:0857255868" class="btn primary" aria-label="Gọi điện thoại ngay 0857 255 868"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
+    <a href="https://zalo.me/0857255868" target="_blank" class="btn" style="background:#2bc76f;color:#fff" aria-label="Chat Zalo"><i class="fa-solid fa-comment-dots"></i> Zalo</a>
+    <a href="https://maps.app.goo.gl/2icTBTxAToyvKTE78" target="_blank" class="btn ghost" aria-label="Xem địa chỉ trên bản đồ">🗺️ Xem bản đồ</a>
   </div>
 </section>
 
@@ -577,20 +579,24 @@ tbody tr:hover{background:#fff6f6}
 
     <div>
       <h3>Liên hệ</h3>
-      <p>📞 <a href="tel:0857255868" style="color:#ff66cc;text-decoration:none;">0857 255 868</a></p>
-      <p>✉️ <a href="mailto:motoopen12@gmail.com" style="color:#ff66cc;text-decoration:none;">motoopen12@gmail.com</a></p>
+      <p>📞 <a href="tel:0857255868" style="color:#ff66cc;text-decoration:none;" aria-label="Số điện thoại 0857 255 868">0857 255 868</a></p>
+      <p>✉️ <a href="mailto:motoopen12@gmail.com" style="color:#ff66cc;text-decoration:none;" aria-label="Email motoopen12@gmail.com">motoopen12@gmail.com</a></p>
       <p>💬 Zalo / WhatsApp</p>
     </div>
 
     <div>
       <h3>Mạng xã hội</h3>
       <div class="footer-social" style="display:flex;gap:12px;margin-top:10px">
-        <a class="socials" href="https://m.facebook.com/HanoiRentalMotorbike.NguyenTu/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-        <a class="socials" href="https://wa.me/84857255868" target="_blank" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-        <a class="socials" href="https://zalo.me/0857255868" target="_blank" title="Zalo"><i class="fa-solid fa-comment-dots"></i></a>
+        <a class="socials" href="https://m.facebook.com/HanoiRentalMotorbike.NguyenTu/" target="_blank" title="Facebook" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a class="socials" href="https://wa.me/84857255868" target="_blank" title="WhatsApp" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        <a class="socials" href="https://zalo.me/0857255868" target="_blank" title="Zalo" aria-label="Zalo"><i class="fa-solid fa-comment-dots"></i></a>
       </div>
       <div class="leds" style="margin-top:12px;font-size:18px;display:flex;gap:6px;overflow:hidden;white-space:nowrap;">
-        <span>⚡</span><span>🔴</span><span>💡</span><span>🚀</span><span>🔥</span>
+        <span role="img" aria-label="Biểu tượng sấm sét">⚡</span>
+        <span role="img" aria-label="Biểu tượng chấm đỏ">🔴</span>
+        <span role="img" aria-label="Biểu tượng bóng đèn">💡</span>
+        <span role="img" aria-label="Biểu tượng tên lửa">🚀</span>
+        <span role="img" aria-label="Biểu tượng lửa">🔥</span>
       </div>
     </div>
   </div>
@@ -606,12 +612,12 @@ tbody tr:hover{background:#fff6f6}
 </footer>
 
 <div class="float-actions">
-  <button id="backTop" title="Lên đầu trang">⬆️</button>
-  <button id="mainFloatBtn" title="Tùy chọn liên hệ">+</button>
+  <button id="backTop" title="Lên đầu trang" aria-label="Cuộn lên đầu trang">⬆️</button>
+  <button id="mainFloatBtn" title="Tùy chọn liên hệ" aria-label="Mở menu tùy chọn liên hệ">+</button>
   <div class="more">
-    <a class="call" href="tel:0857255868" title="Gọi điện">📞</a>
-    <a class="zalo" href="https://zalo.me/0857255868" target="_blank" title="Chat Zalo">💬</a>
-    <a class="map" href="https://maps.app.goo.gl/2icTBTxAToyvKTE78" target="_blank" title="Xem bản đồ">🗺️</a>
+    <a class="call" href="tel:0857255868" title="Gọi điện" role="button" aria-label="Gọi điện thoại ngay 0857 255 868">📞</a>
+    <a class="zalo" href="https://zalo.me/0857255868" target="_blank" title="Chat Zalo" role="button" aria-label="Chat qua Zalo">💬</a>
+    <a class="map" href="https://maps.app.goo.gl/2icTBTxAToyvKTE78" target="_blank" title="Xem bản đồ" role="button" aria-label="Xem địa chỉ trên bản đồ">🗺️</a>
   </div>
 </div>
 
@@ -769,17 +775,28 @@ tbody tr:hover{background:#fff6f6}
       requestAnimationFrame(tick);
   }
 
-  // FAQ accordion (Giữ nguyên)
+  // FAQ accordion (Đã thêm aria-expanded và role="button" vào HTML)
   document.querySelectorAll('.faq .q').forEach(q => {
     q.addEventListener('click', () => {
       const nxt = q.nextElementSibling;
       const icon = q.querySelector('.muted');
       if(!nxt) return;
       if(nxt.style.display === 'block'){
-        nxt.style.display='none'; icon.textContent='+';
+        nxt.style.display='none'; 
+        icon.textContent='+';
+        q.setAttribute('aria-expanded', 'false'); // Cập nhật ARIA
       } else {
-        nxt.style.display='block'; icon.textContent='−';
+        nxt.style.display='block'; 
+        icon.textContent='−';
+        q.setAttribute('aria-expanded', 'true'); // Cập nhật ARIA
       }
+    });
+    // Thêm hỗ trợ phím Enter/Space cho mục FAQ
+    q.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            q.click();
+        }
     });
   });
 
@@ -813,8 +830,13 @@ tbody tr:hover{background:#fff6f6}
   const moreBtns = document.querySelector('.float-actions .more');
   if(mainFloatBtn && moreBtns) {
       mainFloatBtn.addEventListener('click', () => {
-          moreBtns.style.display = moreBtns.style.display==='flex'?'none':'flex';
+          const isVisible = moreBtns.style.display==='flex';
+          moreBtns.style.display = isVisible?'none':'flex';
+          // Cập nhật ARIA cho nút chính
+          mainFloatBtn.setAttribute('aria-expanded', isVisible ? 'false' : 'true'); 
       });
+      // Đặt trạng thái ARIA mặc định
+      mainFloatBtn.setAttribute('aria-expanded', 'false'); 
   }
 
   /* -------------------------------------- */
