@@ -445,10 +445,10 @@ tbody tr:hover{background:#fff6f6}
   background: rgba(230,0,18,0.3);
   filter: blur(6px);
   pointer-events: none;
-  /* Sử dụng transition cho hiệu ứng khói bay lên */
+  /* Đã gộp opacity và transform transition để mượt mà hơn */
   transition: transform 0.8s linear, opacity 0.8s linear; 
-  opacity: 0; /* Mặc định ẩn, sẽ được hiển thị khi tái sử dụng */
-  transform: translate(0, 0) scale(1); /* Mặc định */
+  opacity: 0; 
+  transform: translate(0, 0) scale(1); 
 }
 /* --- END BIKE TRAIL STYLES --- */
 
@@ -488,7 +488,7 @@ tbody tr:hover{background:#fff6f6}
   <a href="#gia"><i class="fa-solid fa-money-bill-wave"></i> Bảng giá</a>
   <a href="#faq"><i class="fa-solid fa-circle-question"></i> FAQ</a>
   <a href="#lienhe"><i class="fa-solid fa-phone"></i> Liên hệ</a>
-  <a href="https://zalo.me/0857255868" target="_blank" style="background:#ff6f61;color:#fff;text-align:center"><i class="fa-brands fa-whatsapp"></i> Chat Zalo</a>
+  <a href="https://zalo.me/0857255868" target="_blank" style="background:#2bc76f;color:#fff;text-align:center"><i class="fa-brands fa-whatsapp"></i> Chat Zalo</a>
 </div>
 
 <main class="wrap" id="gioithieu">
@@ -624,12 +624,13 @@ tbody tr:hover{background:#fff6f6}
     document.body.style.opacity = 1;
     document.body.style.transform = 'translateY(0)';
     
-    // Khởi tạo Bike Trail sau khi DOM đã load
+    // Khởi tạo Bike Trail và Typed Effect sau khi DOM đã load
     initBikeTrail();
+    initTypedEffect(); // Khởi tạo Typed Effect bằng RAF
   });
 
   /* -------------------------------------- */
-  /* --- MOBILE DRAWER SCRIPTS (GIỮ NGUYÊN) --- */
+  /* --- MOBILE DRAWER SCRIPTS (TỐI ƯU: LOẠI BỎ e.preventDefault() CHO LINK NGOÀI) --- */
   /* -------------------------------------- */
   const drawer = document.getElementById('drawer');
   const hambtn = document.getElementById('hambtn');
@@ -646,26 +647,37 @@ tbody tr:hover{background:#fff6f6}
   });
 
   drawerLinks.forEach(link => {
-    const icon = link.querySelector('i');
+    const href = link.getAttribute('href');
+    const isInternalLink = href && href.startsWith('#');
+
     link.addEventListener('click', e => {
-      e.preventDefault();
+      // Logic chung cho tất cả các link
+      const icon = link.querySelector('i');
       if(icon){
         icon.style.transition='0.15s ease';
         icon.style.transform='scale(1.5)';
         icon.style.textShadow='0 0 12px #ff66cc,0 0 24px #ff0044';
         setTimeout(() => {icon.style.transform=''; icon.style.textShadow='';}, 300);
       }
-      setTimeout(() => {
-        drawer.classList.remove('open');
-        drawer.setAttribute('aria-hidden','true'); 
-        const href = link.getAttribute('href');
-        if(href.startsWith('#')){
+      
+      if(isInternalLink){
+        // 1. Link nội bộ: Chặn hành vi mặc định (nhảy)
+        e.preventDefault(); 
+        // 2. Chờ icon animation xong rồi cuộn và đóng
+        setTimeout(() => {
+          drawer.classList.remove('open');
+          drawer.setAttribute('aria-hidden','true'); 
           const target = document.querySelector(href);
           if(target) target.scrollIntoView({behavior:'smooth'});
-        } else { 
-          window.open(href,'_blank'); 
-        }
-      }, 350);
+        }, 350);
+      } else {
+        // 3. Link ngoài (tel, mail, zalo): Không chặn, mở link và đóng drawer ngay
+        setTimeout(() => {
+          drawer.classList.remove('open');
+          drawer.setAttribute('aria-hidden','true'); 
+        }, 350); 
+        // Link sẽ tự mở sau khi animation icon bắt đầu
+      }
     });
   });
 
@@ -677,35 +689,61 @@ tbody tr:hover{background:#fff6f6}
   });
 
 
-  // Hero typed effect (GIỮ NGUYÊN)
-  const phrases = [
-    "Thuê Xe Máy Hà Nội — Giá Rẻ, Giao Tận Nơi.",
-    "Xe số từ 150k/ngày — Xe ga từ 200k/ngày.",
-    "Đặt cọc 2-5 triệu • Hỗ trợ giao tận nơi."
-  ];
-  let tIndex = 0, chIndex = 0, forward = true;
-  const typed = document.getElementById('typed');
-  function tick(){
-    if(!typed) return;
-    const word = phrases[tIndex];
-    typed.textContent = word.slice(0, chIndex);
-    if(forward){
-      chIndex++;
-      if(chIndex > word.length){
-        forward = false;
-        setTimeout(tick, 1000);
-        return;
+  /* -------------------------------------- */
+  /* --- TYPED EFFECT SCRIPTS (TỐI ƯU: SỬ DỤNG requestAnimationFrame) --- */
+  /* -------------------------------------- */
+  function initTypedEffect() {
+      const phrases = [
+          "Thuê Xe Máy Hà Nội — Giá Rẻ, Giao Tận Nơi.",
+          "Xe số từ 150k/ngày — Xe ga từ 200k/ngày.",
+          "Đặt cọc 2-5 triệu • Hỗ trợ giao tận nơi."
+      ];
+      const typed = document.getElementById('typed');
+      if (!typed) return;
+
+      let tIndex = 0, chIndex = 0, forward = true;
+      let lastTime = 0;
+      const TYPE_SPEED = 60; // ms/character
+      const ERASE_SPEED = 28; // ms/character
+      const PAUSE_DURATION = 1000; // ms
+
+      function tick(currentTime) {
+          if (!lastTime) lastTime = currentTime;
+          const deltaTime = currentTime - lastTime;
+          
+          let actionSpeed = forward ? TYPE_SPEED : ERASE_SPEED;
+          
+          if (deltaTime < actionSpeed && chIndex !== 0) { // Giảm tần suất cập nhật khi đang gõ/xóa
+              requestAnimationFrame(tick);
+              return;
+          }
+
+          lastTime = currentTime; // Cập nhật thời điểm cuối cùng
+
+          const word = phrases[tIndex];
+          typed.textContent = word.slice(0, chIndex);
+
+          if (forward) {
+              chIndex++;
+              if (chIndex > word.length) {
+                  forward = false;
+                  // Tạm dừng trước khi xóa
+                  setTimeout(() => requestAnimationFrame(tick), PAUSE_DURATION);
+                  return;
+              }
+          } else {
+              chIndex--;
+              if (chIndex === 0) {
+                  forward = true;
+                  tIndex = (tIndex + 1) % phrases.length;
+              }
+          }
+          
+          requestAnimationFrame(tick);
       }
-    } else {
-      chIndex--;
-      if(chIndex === 0){
-        forward = true;
-        tIndex = (tIndex + 1) % phrases.length;
-      }
-    }
-    setTimeout(tick, forward ? 60 : 28);
+
+      requestAnimationFrame(tick);
   }
-  tick();
 
   // FAQ accordion (GIỮ NGUYÊN)
   document.querySelectorAll('.faq .q').forEach(q => {
@@ -755,7 +793,7 @@ tbody tr:hover{background:#fff6f6}
   }
 
   /* -------------------------------------- */
-  /* --- BIKE TRAIL SCRIPTS (TỐI ƯU OBJECT POOLING + RAF) --- */
+  /* --- BIKE TRAIL SCRIPTS (TỐI ƯU: OBJECT POOLING + GỘP TRANSITION + RAF) --- */
   /* -------------------------------------- */
   function initBikeTrail() {
     const bikeTrailContainer = document.getElementById('bikeTrailContainer');
@@ -765,35 +803,31 @@ tbody tr:hover{background:#fff6f6}
     if (!bikeTrailContainer || !heroSection || smokeElements.length === 0) return;
 
     const MAX_SMOKE = 5;
-    const SMOKE_INTERVAL_FRAMES = 10; // Tốc độ tạo khói (~6 lần/giây)
+    const SMOKE_INTERVAL_FRAMES = 10; // Tốc độ tạo khói (~6 lần/giây ở 60fps)
     let pos = -50;
     let frameCount = 0;
-    let smokeIndex = 0; // Index của khói đang được tái sử dụng
+    let smokeIndex = 0; 
 
-    // Hàm tái sử dụng khói (Object Pooling)
     function activateSmoke(smoke, x, y) {
         // 1. Reset thuộc tính (trả về trạng thái ban đầu)
-        smoke.style.transition = 'none'; // Tắt transition tạm thời
+        smoke.style.transition = 'none'; 
         smoke.style.opacity = '0';
         smoke.style.transform = 'translate(0, 0) scale(1)';
 
-        // 2. Ép trình duyệt nhận diện reset (quan trọng cho việc reset CSS transition)
+        // 2. Ép trình duyệt nhận diện reset (Critical for CSS transition reset/reflow)
+        // Việc này đảm bảo transition được reset ngay lập tức.
         smoke.offsetHeight; 
 
-        // 3. Đặt vị trí ban đầu (x, y)
+        // 3. Đặt vị trí ban đầu (fixed position)
         smoke.style.left = x + 'px';
         smoke.style.top = y + 'px';
 
-        // 4. Kích hoạt animation mới
-        // Bật transition trở lại
+        // 4. Bật transition trở lại
         smoke.style.transition = 'transform 0.8s linear, opacity 0.8s linear'; 
-        // Đặt transform cuối cùng (bắt đầu hiệu ứng khói bay lên)
-        smoke.style.transform = 'translate(-10px, -50px) scale(0.5)';
         
-        // Hiện khói sau khi reset xong
-        setTimeout(() => {
-          smoke.style.opacity = '0.3';
-        }, 10);
+        // 5. Kích hoạt animation mới (gộp transform và opacity)
+        smoke.style.opacity = '0.3';
+        smoke.style.transform = 'translate(-10px, -50px) scale(0.5)';
     }
 
     function animateBikeTrail() {
@@ -811,13 +845,12 @@ tbody tr:hover{background:#fff6f6}
         const currentHeroRect = heroSection.getBoundingClientRect();
 
         // Chỉ tạo khói khi xe máy hiển thị trong khu vực Hero
-        // currentHeroRect.top < window.innerHeight: đảm bảo hero đang trong viewport
         if (pos > 0 && pos < (currentHeroRect.width - 20) && currentHeroRect.bottom > 0 && currentHeroRect.top < window.innerHeight) {
             frameCount++;
             if (frameCount % SMOKE_INTERVAL_FRAMES === 0) {
-                // Tính toán vị trí tuyệt đối của khói
-                const smokeX = currentHeroRect.left + pos + 10; // Tọa độ x tuyệt đối = tọa độ hero + vị trí xe trong hero + offset
-                const smokeY = currentHeroRect.bottom - 20; // Tọa độ y tuyệt đối (không cần cộng scrollY vì smokePool dùng fixed)
+                // Tính toán vị trí tuyệt đối của khói (smokePool dùng fixed, nên vị trí tuyệt đối = vị trí xe máy)
+                const smokeX = currentHeroRect.left + pos + 10; 
+                const smokeY = currentHeroRect.bottom - 20; 
 
                 // Lấy phần tử khói từ pool và tái sử dụng
                 const smokeToReuse = smokeElements[smokeIndex];
