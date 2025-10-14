@@ -114,15 +114,77 @@ footer{margin-top:20px;padding:18px 0;color:var(--muted);font-size:0.95rem;}
 
 <main class="wrap">
 
-  <section class="hero fade-in" id="gioithieu">
-    <span class="kicker">Motoopen</span>
-    <h1><span id="typed"></span></h1>
-    <p class="lead">Dịch vụ thuê xe máy Hà Nội uy tín, giá rẻ. Xe số, xe ga, giao tận nơi Long Biên & khu vực trung tâm. ⏰ 8:00 - 21:00. Liên hệ ngay để nhận tư vấn.</p>
-    <div class="hero-actions">
-      <a href="tel:0857255868" class="btn primary"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
-      <a href="https://zalo.me/0857255868" target="_blank" class="btn secondary">💬 Chat Zalo</a>
+  <!-- HERO -->
+<section class="hero" role="region" aria-label="Hero">
+  <div class="hero-top" style="opacity:0; animation: fadeInUp 0.9s forwards;">
+    <div class="hero-left">
+      <span class="kicker">Motoopen</span>
+      <h1><span id="typed"></span></h1>
+      <p class="lead">
+        🏍️ Dịch vụ <strong style="color:#e60012">thuê xe máy Hà Nội</strong> uy tín, giá rẻ.<br>
+        🚗 Xe số, xe ga, <strong>giao tận nơi</strong> Long Biên & trung tâm.<br>
+        ⏰ <span style="color:#ff4b4b;font-weight:700">08:00 - 21:00</span>. 📞 Liên hệ ngay!
+      </p>
+
+      <div class="hero-actions" role="group" aria-label="Actions">
+        <a href="tel:0857255868" class="btn primary"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
+        <a href="https://zalo.me/0857255868" target="_blank" class="btn" style="background:#2bc76f;color:#fff">💬 Chat Zalo</a>
+      </div>
     </div>
-  </section>
+
+    <!-- Hero Right (bỏ ảnh nếu muốn) -->
+    <!--<div class="hero-right">
+      <div class="logo-hero" aria-hidden="true">
+        <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen logo">
+      </div>
+    </div>-->
+  </div>
+</section>
+
+<!-- CSS bổ sung -->
+<style>
+.hero p.lead {
+  background: rgba(230,0,18,0.05); /* nền hồng nhạt */
+  padding: 14px 18px;
+  border-radius: 14px;
+  line-height: 1.5;
+  font-size: 1.05rem;
+  color: #333;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Fade-in animation */
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(12px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+</style>
+
+<!-- Typed JS -->
+<script>
+  const phrases = [
+    "Thuê Xe Máy Hà Nội — Giá Rẻ, Giao Tận Nơi.",
+    "Xe số từ 150k/ngày — Xe ga từ 200k/ngày.",
+    "Đặt cọc 2-5 triệu • Hỗ trợ giao tận nơi."
+  ];
+  let tIndex=0, chIndex=0, forward=true;
+  const typed = document.getElementById('typed');
+  function tick(){
+    if(!typed) return;
+    const word = phrases[tIndex];
+    typed.textContent = word.slice(0,chIndex);
+    if(forward){
+      chIndex++;
+      if(chIndex>word.length){ forward=false; setTimeout(tick,1100); return; }
+    } else {
+      chIndex--;
+      if(chIndex===0){ forward=true; tIndex=(tIndex+1)%phrases.length; }
+    }
+    setTimeout(tick, forward?60:28);
+  }
+  tick();
+</script>
 
   <section class="pricing fade-in" id="gia">
     <h2>📋 Bảng Giá Thuê Xe Máy Hà Nội</h2>
