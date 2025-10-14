@@ -116,14 +116,12 @@ footer{margin-top:20px;padding:18px 0;color:var(--muted);font-size:0.95rem;}
 
   <!-- HERO -->
 <section class="hero" role="region" aria-label="Hero">
-  <div class="hero-top" style="opacity:0; animation: fadeInUp 0.9s forwards;">
+  <div class="hero-top">
     <div class="hero-left">
       <span class="kicker">Motoopen</span>
       <h1><span id="typed"></span></h1>
-      <p class="lead">
-        🏍️ Dịch vụ <strong style="color:#e60012">thuê xe máy Hà Nội</strong> uy tín, giá rẻ.<br>
-        🚗 Xe số, xe ga, <strong>giao tận nơi</strong> Long Biên & trung tâm.<br>
-        ⏰ <span style="color:#ff4b4b;font-weight:700">08:00 - 21:00</span>. 📞 Liên hệ ngay!
+      <p class="lead" style="font-size:1.05rem;line-height:1.5;color:#555">
+        Dịch vụ <strong>thuê xe máy Hà Nội</strong> uy tín, giá rẻ. Xe số, xe ga, giao tận nơi <strong>Long Biên</strong> & khu vực trung tâm. ⏰ <strong>8:00 - 21:00</strong>. Liên hệ ngay để nhận tư vấn!
       </p>
 
       <div class="hero-actions" role="group" aria-label="Actions">
@@ -131,15 +129,42 @@ footer{margin-top:20px;padding:18px 0;color:var(--muted);font-size:0.95rem;}
         <a href="https://zalo.me/0857255868" target="_blank" class="btn" style="background:#2bc76f;color:#fff">💬 Chat Zalo</a>
       </div>
     </div>
-
-    <!-- Hero Right (bỏ ảnh nếu muốn) -->
-    <!--<div class="hero-right">
-      <div class="logo-hero" aria-hidden="true">
-        <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen logo">
-      </div>
-    </div>-->
   </div>
 </section>
+
+<script>
+  // Typed effect mượt cho mobile & desktop
+  const phrases = [
+    "Thuê Xe Máy Hà Nội — Giá Rẻ, Giao Tận Nơi.",
+    "Xe số từ 150k/ngày — Xe ga từ 200k/ngày.",
+    "Đặt cọc 2-5 triệu • Hỗ trợ giao tận nơi."
+  ];
+  let tIndex = 0, chIndex = 0, forward = true;
+  const typed = document.getElementById('typed');
+
+  function tick() {
+    if(!typed) return;
+    const word = phrases[tIndex];
+    typed.textContent = word.slice(0, chIndex);
+
+    if(forward) {
+      chIndex++;
+      if(chIndex > word.length) {
+        forward = false;
+        setTimeout(tick, 1000); // nghỉ 1s sau khi xong từ
+        return;
+      }
+    } else {
+      chIndex--;
+      if(chIndex === 0) {
+        forward = true;
+        tIndex = (tIndex + 1) % phrases.length;
+      }
+    }
+    setTimeout(tick, forward ? 80 : 40); // tăng thời gian giữa ký tự -> mượt
+  }
+  tick();
+</script>
 
 <!-- CSS bổ sung -->
 <style>
