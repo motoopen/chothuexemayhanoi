@@ -3,53 +3,90 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Landing Page Chatbot Nâng Cao</title>
+<title>Landing Page Cho Thuê Xe Máy</title>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Cho Thuê Xe Máy Hà Nội",
+  "image": "https://i.imgur.com/3cXnUuT.png",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 Phố Tràng Tiền",
+    "addressLocality": "Hà Nội",
+    "postalCode": "100000",
+    "addressCountry": "VN"
+  },
+  "telephone": "+84 912 345 678",
+  "priceRange": "150k - 2 triệu/ngày",
+  "url": "https://github.com/yourrepo",
+  "sameAs": [
+    "https://www.facebook.com/yourpage",
+    "https://zalo.me/yourzalo"
+  ],
+  "serviceType": "Cho thuê xe máy",
+  "review": [
+    {
+      "@type": "Review",
+      "author": "Nguyen T.",
+      "datePublished": "2025-01-01",
+      "reviewBody": "Dịch vụ tốt, xe mới, giá hợp lý",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 5,
+        "bestRating": 5
+      }
+    }
+  ]
+}
+</script>
+
 <style>
 body { font-family: Arial; margin:0; padding:0; background:#f0f0f0; }
-#chatbotIcon {
-  position: fixed; bottom:20px; left:20px;
-  width:50px; height:50px;
-  background:#ff4081; border-radius:50%;
-  display:flex; align-items:center; justify-content:center;
-  color:#fff; font-size:24px; cursor:pointer;
-  z-index:9999; transition: transform 0.2s;
-}
+h1,h2,h3{margin:0 0 10px 0;}
+.container{max-width:900px;margin:20px auto;padding:10px;background:#fff;border-radius:10px;box-shadow:0 4px 15px rgba(0,0,0,0.1);}
+ul{padding-left:20px;}
+/* Chatbot */
+#chatbotIcon { position: fixed; bottom: 20px; left: 20px; width:50px;height:50px; background:#ff4081; border-radius:50%; cursor:pointer; z-index:9999; display:flex; align-items:center; justify-content:center; color:#fff; font-size:24px; box-shadow:0 4px 15px rgba(0,0,0,0.2); transition: transform 0.2s;}
 #chatbotIcon:active { transform: scale(0.9); }
-
-#chatbot {
-  position: fixed; bottom:20px; left:20px;
-  width:320px; max-width:90%; height:450px;
-  background:#fff; border-radius:20px;
-  display:flex; flex-direction:column;
-  overflow:hidden; transform:translateY(100%);
-  transition: transform 0.4s cubic-bezier(0.4,0,0.2,1);
-  z-index:9999;
-}
+#chatbot { position: fixed; bottom: 20px; left: 20px; width:320px; max-width:90%; height:450px; background:#fff; border-radius:20px; box-shadow:0 4px 25px rgba(0,0,0,0.25); display:flex; flex-direction:column; overflow:hidden; transform:translateY(100%); transition: transform 0.4s cubic-bezier(0.4,0,0.2,1); z-index:9999;}
 #chatbot.show { transform:translateY(0); }
-
-#chatHeader { background:#ff4081; color:#fff; padding:10px; display:flex; align-items:center; border-bottom:1px solid #ddd; cursor:grab;}
-#chatHeader img { width:40px; height:40px; border-radius:50%; margin-right:10px; transition: transform 0.1s; }
-#closeChat { margin-left:auto; cursor:pointer; font-weight:bold; font-size:18px; }
-
-#chatMessages { flex:1; padding:10px; overflow-y:auto; display:flex; flex-direction:column; }
-.bot,.user { padding:10px 15px; margin:5px 0; border-radius:20px; max-width:80%; position:relative; }
-.bot { background:#e1f5fe; align-self:flex-start; }
-.user { background:#c8e6c9; align-self:flex-end; }
-
-#chatInput { display:flex; border-top:1px solid #ddd; }
-#chatInput input { flex:1; border:none; padding:10px; outline:none; }
-#chatInput button { padding:10px 15px; background:#ff4081; color:#fff; border:none; cursor:pointer; }
-
-.ballon { position:absolute; font-size:20px; animation:fly 1s ease-out forwards; }
-@keyframes fly {0%{opacity:1; transform:translateY(0);}100%{opacity:0; transform:translateY(-40px);}}
+#chatHeader { background:#ff4081;color:#fff; padding:10px;font-weight:bold; display:flex; align-items:center;border-bottom:1px solid #ddd; cursor:grab;}
+#chatHeader:active { cursor:grabbing; }
+#chatHeader img{width:40px;height:40px;border-radius:50%;margin-right:10px;transition:transform 0.1s;}
+#closeChat{margin-left:auto;cursor:pointer;font-weight:bold;font-size:18px;}
+#chatMessages{flex:1;padding:10px;overflow-y:auto; display:flex; flex-direction:column;}
+.bot, .user { padding:10px 15px; margin:5px 0; border-radius:20px; max-width:80%; position:relative;}
+.bot{background:#e1f5fe;align-self:flex-start;}
+.user{background:#c8e6c9;align-self:flex-end;}
+#chatInput{display:flex;border-top:1px solid #ddd;}
+#chatInput input{flex:1;border:none;padding:10px;outline:none;border-radius:0;}
+#chatInput button{padding:10px 15px;background:#ff4081;color:#fff;border:none;cursor:pointer;}
+.ballon{position:absolute;font-size:20px; animation:fly 1s ease-out forwards;}
+@keyframes fly{0%{opacity:1;transform:translateY(0);}100%{opacity:0;transform:translateY(-40px);}}
 </style>
 </head>
 <body>
 
+<div class="container">
+  <h1>Cho Thuê Xe Máy Hà Nội</h1>
+  <p>Dịch vụ thuê xe máy nhanh chóng, tiện lợi, uy tín. Giá từ 150k/ngày.</p>
+  <h2>Danh sách xe và giá tham khảo</h2>
+  <ul>
+    <li>Xe 50cc: 200k/ngày, 800k/tuần, 1.8 triệu/tháng</li>
+    <li>Xe số: 150k/ngày, 600k/tuần, 1.2 triệu/tháng</li>
+    <li>Xe ga: 200k/ngày, 900k/tuần, 2 triệu/tháng</li>
+    <li>Wave/Sirius: 150k/ngày, 600k/tuần, 1.2 triệu/tháng</li>
+    <li>Honda Vision/Airblade: 200k/ngày, 900k/tuần, 2 triệu/tháng</li>
+    <li>Xe điện: 200k/ngày, 800k/tuần, 1.5 triệu/tháng</li>
+  </ul>
+</div>
+
 <div id="chatbotIcon">💬</div>
 <div id="chatbot">
   <div id="chatHeader">
-    <img id="botIcon" src="https://i.imgur.com/3cXnUuT.png">
+    <img id="botIcon" src="https://i.imgur.com/3cXnUuT.png" alt="Bot">
     ChatGPT Bot
     <span id="closeChat">×</span>
   </div>
@@ -61,6 +98,7 @@ body { font-family: Arial; margin:0; padding:0; background:#f0f0f0; }
 </div>
 
 <script>
+// --- Chatbot ---
 const chatbot = document.getElementById('chatbot');
 const chatbotIcon = document.getElementById('chatbotIcon');
 const closeChat = document.getElementById('closeChat');
@@ -69,34 +107,35 @@ const input = document.querySelector('#chatInput input');
 const button = document.querySelector('#chatInput button');
 const botIcon = document.getElementById('botIcon');
 
-// Bảng giá xe
-const xeList = [
-  {xe:"Honda Vision", day:200, week:900, month:2000, type:"xe ga"},
-  {xe:"Air Blade", day:200, week:800, month:1500, type:"xe ga"},
-  {xe:"Xe 50cc", day:200, week:800, month:1800, type:"xe số"},
-  {xe:"Wave", day:150, week:600, month:1200, type:"xe số"},
-  {xe:"Sirius", day:150, week:600, month:1200, type:"xe số"},
-  {xe:"Xe điện", day:200, week:800, month:1500, type:"xe điện"}
+const priceData = [
+  { xe:"50cc", day:200, week:800, month:1800 },
+  { xe:"xe số", day:150, week:600, month:1200 },
+  { xe:"xe ga", day:200, week:900, month:2000 },
+  { xe:"xe điện", day:200, week:800, month:1500 },
+  { xe:"wave", day:150, week:600, month:1200 },
+  { xe:"sirius", day:150, week:600, month:1200 },
+  { xe:"honda vision", day:200, week:900, month:2000 },
+  { xe:"airblade", day:200, week:900, month:2000 } // Đã sửa giá Airblade để khớp với Xe ga
 ];
 
-// Mở/đóng chatbot
 chatbotIcon.addEventListener('click', ()=>{
   chatbot.classList.add('show');
   showBotMessage("Chào bạn! Tôi là ChatGPT phiên bản Việt Nam 😎. Tôi có thể giúp gì cho bạn?");
 });
 closeChat.addEventListener('click', ()=>{ chatbot.classList.remove('show'); });
 
-// Hiển thị tin nhắn bot
 function showBotMessage(msg){
+  // Hiệu ứng "nháy" cho icon bot
   botIcon.style.transform="scaleY(0.1)";
   setTimeout(()=>{botIcon.style.transform="scaleY(1)";},150);
-
+  
   const div=document.createElement('div');
   div.className='bot';
   div.textContent=msg;
   messages.appendChild(div);
   messages.scrollTop=messages.scrollHeight;
-
+  
+  // Hiệu ứng bong bóng 🎉
   const balloon=document.createElement('div');
   balloon.className='ballon';
   balloon.textContent="🎈✨";
@@ -105,11 +144,10 @@ function showBotMessage(msg){
   setTimeout(()=>{div.removeChild(balloon);},1000);
 }
 
-// Phân tích câu hỏi
 function handleInput(){
   const userMsg=input.value.trim().toLowerCase();
   if(!userMsg) return;
-
+  
   const div=document.createElement('div');
   div.className='user';
   div.textContent=input.value.trim();
@@ -117,56 +155,82 @@ function handleInput(){
   messages.scrollTop=messages.scrollHeight;
 
   let found=false;
+  
+  // 1. Tìm loại xe
+  const selectedXe = priceData.find(x=> userMsg.includes(x.xe));
+  
+  // 2. Tìm số lượng và loại thời gian (ngày/tuần/tháng)
+  const regex = /(\d+)\s*(ngày|tuần|tháng)/i;
+  const match = userMsg.match(regex);
+  let qty = match ? parseInt(match[1]) : 1;
+  let type = match ? match[2] : "ngày"; // Mặc định là 1 ngày nếu không tìm thấy
 
-  // Tìm từ khoá xe
-  let selectedXe=null;
-  for(let xe of xeList){
-    if(userMsg.includes(xe.xe.toLowerCase()) || userMsg.includes(xe.type)){
-      selectedXe=xe; break;
+  if(userMsg.includes("thuê") || selectedXe){
+    if(selectedXe){
+      let price=0;
+      let unitPrice = 0;
+      
+      // Tính toán giá thuê
+      if(type==="ngày") {
+        price=selectedXe.day*qty;
+        unitPrice = selectedXe.day;
+      }
+      else if(type==="tuần") {
+        price=selectedXe.week*qty;
+        unitPrice = selectedXe.week;
+      }
+      else if(type==="tháng") {
+        price=selectedXe.month*qty;
+        unitPrice = selectedXe.month;
+      }
+      
+      // Chuyển đơn vị giá từ "k" (nghìn) thành "triệu" nếu cần
+      let priceText = price >= 1000 ? (price/1000).toFixed(1).replace(/\.0$/, '') + " triệu" : price + "k";
+      
+      showBotMessage(`Giá thuê ${selectedXe.xe} trong ${qty} ${type} là **${priceText}**. (Giá đơn vị: ${unitPrice}k/${type.slice(0, -1)}).
+Bạn liên hệ qua Zalo hoặc Hotline để chúng tôi báo giá chính xác và ưu đãi khi thuê dài ngày hơn!`);
+      found=true;
+
+    } else if (userMsg.includes("thuê")){
+      // Nếu có từ "thuê" nhưng chưa rõ xe, trả lời chung chung
+      showBotMessage("Bạn muốn thuê xe loại nào (xe ga, xe số, 50cc...) và thuê trong bao lâu (mấy ngày, tuần, tháng)?");
+      found=true;
     }
   }
 
-  // Tìm số lượng & loại thời gian
-  let qty=1, type='day';
-  const regex=/(\d+)\s*(ngày|tuần|tháng)/i;
-  const match=userMsg.match(regex);
-  if(match){ qty=parseInt(match[1]); type=match[2]; }
-
-  if(userMsg.includes("thuê") && selectedXe){
-    let price=selectedXe.day;
-    if(type==="ngày") price=selectedXe.day*qty;
-    else if(type==="tuần") price=selectedXe.week*qty;
-    else if(type==="tháng") price=selectedXe.month*qty;
-
-    showBotMessage(`Giá thuê ${selectedXe.xe} ${qty} ${type} là ${price}k. 
-Bạn liên hệ Zalo để báo giá chính xác và nhiều ưu đãi khi thuê nhiều ngày. (Phiên bản ChatGPT Việt, có thể báo giá sai)`);
-    found=true;
-  }
-
   if(!found){
-    if(userMsg.includes("xin chào") || userMsg.includes("hello"))
+    // Nhận diện các từ khoá đơn giản
+    if(userMsg.includes("xin chào") || userMsg.includes("hello") || userMsg.includes("hi")){
       showBotMessage("Chào bạn! Tôi là ChatGPT phiên bản Việt Nam 😎. Tôi có thể giúp gì cho bạn?");
-    else if(userMsg.includes("còn thức không"))
+    } else if(userMsg.includes("giá") || userMsg.includes("bảng giá")){
+      showBotMessage("Chúng tôi có: Xe số (150k/ngày), Xe ga (200k/ngày), Xe 50cc (200k/ngày), Xe điện (200k/ngày). Bạn muốn thuê loại nào và trong bao lâu?");
+    } else if(userMsg.includes("còn thức không")){
       showBotMessage("Tôi là ChatGPT phiên bản không bao giờ ngủ 😏");
-    else
-      showBotMessage("Hmm… tôi chưa hiểu câu hỏi này 😅");
+    } else if(userMsg.includes("cảm ơn")){
+      showBotMessage("Rất vui được phục vụ bạn! Chúc bạn một ngày tốt lành. 😊");
+    } else {
+      showBotMessage("Hmm… tôi chưa hiểu câu hỏi này 😅. Bạn có thể hỏi về **giá xe**, **thuê xe ga** hay **thuê xe số** không?");
+    }
   }
-
   input.value='';
 }
 
 button.addEventListener('click', handleInput);
 input.addEventListener('keydown',(e)=>{if(e.key==='Enter') handleInput();});
 
-// Kéo thả
+// ================= Kéo thả Chatbot (Drag Functionality) =================
 let isDragging=false, offsetX=0, offsetY=0;
 const header=document.getElementById('chatHeader');
+
 header.addEventListener('mousedown', startDrag);
 header.addEventListener('touchstart', startDrag);
 
 function startDrag(e){
+  // Ngăn chặn việc chọn văn bản khi kéo
+  e.preventDefault(); 
   isDragging=true;
   const rect=chatbot.getBoundingClientRect();
+  
   if(e.type==='touchstart'){
     offsetX=e.touches[0].clientX-rect.left;
     offsetY=e.touches[0].clientY-rect.top;
@@ -174,27 +238,38 @@ function startDrag(e){
     offsetX=e.clientX-rect.left;
     offsetY=e.clientY-rect.top;
   }
+  
+  // Thiết lập vị trí tuyệt đối (absolute) để có thể di chuyển
+  chatbot.style.position = 'fixed'; 
+  chatbot.style.bottom = 'auto'; // Vô hiệu hóa 'bottom'
+  chatbot.style.left = rect.left + 'px';
+  chatbot.style.top = rect.top + 'px';
+
   document.addEventListener('mousemove', dragMove);
   document.addEventListener('mouseup', stopDrag);
-  document.addEventListener('touchmove', dragMove);
+  document.addEventListener('touchmove', dragMove, {passive: false}); // passive: false để ngăn chặn cuộn trang
   document.addEventListener('touchend', stopDrag);
 }
 
 function dragMove(e){
   if(!isDragging) return;
+  
   let x, y;
   if(e.type.startsWith('touch')){
+    e.preventDefault(); // Ngăn chặn cuộn trang khi chạm
     x=e.touches[0].clientX-offsetX;
     y=e.touches[0].clientY-offsetY;
   } else {
     x=e.clientX-offsetX;
     y=e.clientY-offsetY;
   }
+  
   const maxX=window.innerWidth-chatbot.offsetWidth;
   const maxY=window.innerHeight-chatbot.offsetHeight;
+  
+  // Giới hạn vùng di chuyển
   chatbot.style.left=Math.min(Math.max(0,x),maxX)+'px';
   chatbot.style.top=Math.min(Math.max(0,y),maxY)+'px';
-  chatbot.style.bottom='auto';
 }
 
 function stopDrag(){
