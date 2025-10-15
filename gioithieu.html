@@ -818,11 +818,18 @@
       }
       .topbar .brand { order: 1; }
       .topbar .hamburger { order: 3; }
-      .topbar .toggle-dark { order: 2; margin: 0 10px 0 auto; } /* căn giữa 2 bên */
-
-      .hero{margin-top:20px;padding:36px 16px}
-      .reviews-section{padding:28px 12px}
-      .price-table{min-width:600px}
+      /* CHỈ GIỮ 1 NÚT DARK MODE: đưa nó ra khỏi nav-links */
+      .toggle-dark {
+          order: 2; 
+          margin: 0 10px 0 auto; 
+          display: inline-flex; /* Đảm bảo nó luôn hiển thị trên mobile */
+      }
+    }
+    @media (min-width:901px) {
+        /* Trên desktop, nút toggle-dark nằm trong nav-links */
+        .toggle-dark {
+            margin-left: 8px; /* Tách khỏi CTA */
+        }
     }
     @media (max-width:520px){
       .price-table{min-width:480px}
@@ -861,13 +868,11 @@
       <a href="#banggia"><i class="fa-solid fa-tags"></i> Bảng giá</a>
       <a href="#danhgia"><i class="fa-solid fa-star"></i> Review</a>
       <a href="#faq"><i class="fa-solid fa-circle-question"></i> FAQ</a>
-      <button class="toggle-dark" id="desktop-toggle-dark" aria-label="Chuyển đổi chế độ tối">
-        <i class="fa-solid fa-moon"></i> 
+      <button class="toggle-dark" id="main-toggle-dark" aria-label="Chuyển đổi chế độ tối">
+        <i class="fa-solid fa-moon"></i>
       </button>
     </nav>
-    <button class="toggle-dark" id="mobile-toggle-dark" aria-label="Chuyển đổi chế độ tối">
-        <i class="fa-solid fa-moon"></i>
-    </button>
+    <button class="toggle-dark" id="mobile-toggle-dark-outside" aria-label="Chuyển đổi chế độ tối" style="display: none;"></button>
     <button class="hamburger" id="hamburger" aria-label="Mở menu" aria-expanded="false" aria-controls="drawer">
       <span class="bar"></span><span class="bar"></span><span class="bar"></span>
     </button>
@@ -1109,26 +1114,11 @@
       const overlay = document.getElementById('drawerOverlay');
       const reviewsBg = document.getElementById('reviewsBg');
       const body = document.body;
-      const desktopToggle = document.getElementById('desktop-toggle-dark');
-      const mobileToggle = document.getElementById('mobile-toggle-dark');
+      const mainToggle = document.getElementById('main-toggle-dark'); // Nút duy nhất trong nav-links
       const backTop = document.querySelector('.back-top');
 
       // === DARK MODE LOGIC ===
       const DARK_MODE_KEY = 'darkModeEnabled';
-
-      function updateToggleIcon(isEnabled) {
-        // Sử dụng một biến để tạo HTML icon
-        const iconSun = '<i class="fa-solid fa-sun"></i>';
-        const iconMoon = '<i class="fa-solid fa-moon"></i>';
-        const targetIcon = isEnabled ? iconSun : iconMoon;
-        
-        // Cập nhật ICON trên cả 2 nút (desktop và mobile)
-        [desktopToggle, mobileToggle].forEach(toggle => {
-            if (toggle) {
-                toggle.innerHTML = targetIcon;
-            }
-        });
-      }
 
       function applyDarkMode(isEnabled) {
         if (isEnabled) {
@@ -1138,8 +1128,14 @@
           body.classList.remove('dark');
           localStorage.setItem(DARK_MODE_KEY, 'false');
         }
-        // Gọi hàm cập nhật icon sau khi thay đổi trạng thái body
-        updateToggleIcon(isEnabled); 
+        updateToggleIcon(isEnabled);
+      }
+
+      function updateToggleIcon(isEnabled) {
+        // Chỉ cần cập nhật icon của nút chính
+        if (mainToggle) {
+          mainToggle.innerHTML = isEnabled ? '<i class="fa-solid fa-sun"></i>' : '<i class="fa-solid fa-moon"></i>';
+        }
       }
 
       // Check for user preference on load (localStorage or system)
@@ -1154,19 +1150,13 @@
       applyDarkMode(isDarkModeEnabled);
 
 
-      // Toggle listener - ĐÃ ĐƯỢC CHỈNH SỬA ĐỂ ĐỒNG BỘ 100%
-      [desktopToggle, mobileToggle].forEach(toggle => {
-        if (toggle) {
-          toggle.addEventListener('click', (e) => {
-            e.stopPropagation(); // Ngăn chặn sự kiện click lan truyền
-            const currentMode = body.classList.contains('dark');
-            const newMode = !currentMode;
-            
-            // Chỉ cần gọi applyDarkMode, hàm này sẽ cập nhật cả body và cả 2 nút icon
-            applyDarkMode(newMode);
-          });
-        }
-      });
+      // Toggle listener
+      if (mainToggle) {
+        mainToggle.addEventListener('click', () => {
+          const currentMode = body.classList.contains('dark');
+          applyDarkMode(!currentMode);
+        });
+      }
 
       // === END DARK MODE LOGIC ===
 
