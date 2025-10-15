@@ -1,284 +1,382 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Motoopen - Thuê xe máy Hà Nội</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title> Motoopen — Thuê Xe Máy Hà Nội (Apple Vision Motion)</title>
+  <meta name="description" content="Thuê Xe Máy Hà Nội — Motoopen. Xe số, xe ga, giao tận nơi."/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   <style>
-    :root {
-      --maxw: 1100px;
-    }
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
-      background: #fff;
-      color: #1d1d1f;
-      padding-top: 76px; /* tránh menu đè hero */
+    :root{
+      --maxw:1100px;
+      --bg:#f5f5f7;
+      --surface:#fff;
+      --text:#1d1d1f;
+      --muted:#6e6e73;
+      --accent:#007aff;
+      --accent-2:#2bc76f;
+      --nav-h:76px; /* fallback, JS will calibrate */
     }
 
-    /* === MENU APPLE BLUR === */
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background:var(--bg);
+      color:var(--text);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      /* padding-top is set by JS to nav height for perfect overlap prevention */
+      transition: background .3s;
+    }
+
+    .container{max-width:var(--maxw);margin:0 auto;padding:0 20px;}
+
+    /* -------------------- NAV (Apple-style) -------------------- */
     .topbar {
-      position: fixed;
-      top: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 100%;
-      max-width: var(--maxw);
-      z-index: 1200;
-      background: rgba(255, 255, 255, 0.8);
-      backdrop-filter: blur(14px) saturate(180%);
-      border-bottom: 1px solid rgba(210, 210, 215, 0.6);
-      padding: 12px 22px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.04);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      transition: all 0.4s ease;
+      position:fixed;
+      top:0;
+      left:50%;
+      transform:translateX(-50%);
+      width:100%;
+      max-width:var(--maxw);
+      z-index:1400;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+      padding:12px 22px;
+      background:rgba(255,255,255,0.72);
+      backdrop-filter: blur(12px) saturate(160%);
+      border-bottom:1px solid rgba(210,210,215,0.5);
+      box-shadow:0 4px 12px rgba(0,0,0,0.04);
+      transition: all 320ms cubic-bezier(.2,.9,.2,1);
+      border-radius:0; /* flat with top edge */
+      pointer-events:auto;
+    }
+    /* nav when scrolled */
+    .topbar.scrolled {
+      background: rgba(255,255,255,0.92);
+      backdrop-filter: blur(16px) saturate(180%);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+      border-bottom: 1px solid rgba(200,200,210,0.6);
+      padding:10px 20px;
     }
 
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .brand img {
-      width: 38px;
-      height: 38px;
-      border-radius: 10px;
-    }
-    .brand h3 {
-      margin: 0;
-      font-size: 1.1rem;
-      font-weight: 700;
-    }
+    .brand{display:flex;align-items:center;gap:10px}
+    .brand img{width:38px;height:38px;border-radius:8px;object-fit:cover}
+    .brand h3{margin:0;font-size:1.05rem;font-weight:700;color:var(--text)}
 
-    .nav-links {
-      display: flex;
-      gap: 20px;
-      align-items: center;
-    }
+    .nav-links{display:flex;align-items:center;gap:16px}
+    .nav-links a{color:var(--text);text-decoration:none;font-weight:500;padding:8px 12px;border-radius:10px;display:inline-flex;gap:8px;align-items:center;transition:all .18s ease}
+    .nav-links a:hover{color:var(--accent);background:rgba(0,122,255,0.06)}
 
-    .nav-links a {
-      text-decoration: none;
-      color: #1d1d1f;
-      font-weight: 500;
-      transition: all 0.3s ease;
-    }
+    .cta{background:var(--accent);color:#fff;padding:8px 16px;border-radius:999px;font-weight:700;box-shadow:0 6px 20px rgba(0,122,255,0.12)}
+    .cta:hover{background:#0066e5}
 
-    .nav-links a:hover {
-      color: #007aff;
-    }
+    /* hamburger */
+    .hamburger{display:none;background:none;border:0;cursor:pointer;padding:8px;border-radius:8px}
+    .hamburger .bar{display:block;width:22px;height:2px;background:var(--text);margin:4px 0;border-radius:2px;transition:all .28s}
+    .hamburger.active .bar:nth-child(1){transform:translateY(6px) rotate(45deg)}
+    .hamburger.active .bar:nth-child(2){opacity:0}
+    .hamburger.active .bar:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
 
-    .nav-links .cta {
-      background: #007aff;
-      color: #fff !important;
-      padding: 8px 18px;
-      border-radius: 999px;
-      font-weight: 600;
-    }
+    /* drawer + overlay */
+    .drawer-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.28);backdrop-filter:blur(2px);opacity:0;pointer-events:none;transition:opacity .28s;z-index:1300}
+    .drawer-overlay.active{opacity:1;pointer-events:auto}
 
-    /* === HAMBURGER === */
-    .hamburger {
-      display: none;
-      flex-direction: column;
-      gap: 4px;
-      background: none;
-      border: none;
-      cursor: pointer;
+    .drawer{
+      position:fixed;top:0;right:0;height:100vh;width:340px;max-width:84vw;
+      background:linear-gradient(180deg, rgba(255,255,255,0.98), rgba(250,250,252,0.96));
+      backdrop-filter: blur(18px) saturate(150%);
+      box-shadow:-18px 0 40px rgba(0,0,0,0.12);
+      transform: translateX(110%);
+      transition: transform .42s cubic-bezier(.2,.9,.2,1);
+      z-index:1350;padding:84px 22px 22px;border-left:1px solid rgba(210,210,215,0.5)
     }
-    .bar {
-      width: 22px;
-      height: 2px;
-      background: #1d1d1f;
-      border-radius: 2px;
-      transition: all 0.3s ease;
-    }
+    .drawer.open{transform:translateX(0)}
+    .drawer a{display:block;padding:12px 6px;color:var(--text);text-decoration:none;font-weight:600;border-radius:8px}
+    .drawer a.cta{margin-top:18px;background:var(--accent);color:#fff;padding:12px;text-align:center;border-radius:999px}
 
-    /* === DRAWER === */
-    .drawer {
-      position: fixed;
-      top: 0;
-      right: -100%;
-      width: 70%;
-      height: 100vh;
-      background: rgba(255,255,255,0.95);
-      backdrop-filter: blur(20px);
-      box-shadow: -10px 0 20px rgba(0,0,0,0.1);
-      display: flex;
-      flex-direction: column;
-      padding: 80px 20px;
-      transition: right 0.4s ease;
-      z-index: 1100;
-    }
-    .drawer a {
-      padding: 14px 0;
-      color: #1d1d1f;
-      text-decoration: none;
-      font-weight: 500;
-      font-size: 1.1rem;
-    }
-    .drawer a.cta {
-      background: #007aff;
-      color: white;
-      text-align: center;
-      border-radius: 999px;
-      margin-top: 20px;
-      padding: 12px 0;
-    }
-    .drawer.open {
-      right: 0;
-    }
-
-    /* === HERO CINEMATIC === */
+    /* -------------------- HERO (with moving gradient) -------------------- */
     .hero {
-      background: linear-gradient(180deg, #ffffff 0%, #f5f5f7 100%);
-      border-radius: 28px;
-      text-align: center;
-      padding: 120px 20px;
-      max-width: var(--maxw);
-      margin: 0 auto 80px;
-      border: 1px solid rgba(210, 210, 215, 0.5);
-      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-      overflow: hidden;
+      position:relative;
+      margin: 24px auto;
+      max-width:var(--maxw);
+      border-radius:20px;
+      overflow:hidden;
+      border:1px solid rgba(210,210,215,0.45);
+      box-shadow:0 12px 36px rgba(12,18,24,0.06);
+      background: linear-gradient(180deg, rgba(255,255,255,0.98), rgba(245,245,247,0.98));
+      padding:80px 22px;
     }
 
-    .hero h1 {
-      font-size: clamp(40px, 7vw, 72px);
-      font-weight: 800;
-      color: #1d1d1f;
-      margin-bottom: 18px;
-      letter-spacing: -0.02em;
-      opacity: 0;
-      transform: translateY(25px);
-      filter: blur(8px);
-      animation: blurFade 1s ease forwards 0.2s;
+    /* subtle animated gradient layer (pseudo-element implemented as child for easier control) */
+    .hero .grad-layer{
+      position:absolute; inset:-30% -40% auto -40%; height:260%; pointer-events:none; z-index:0;
+      background:
+        radial-gradient(700px 300px at 10% 30%, rgba(0,122,255,0.06), transparent 12%),
+        radial-gradient(600px 260px at 80% 70%, rgba(43,199,127,0.045), transparent 12%);
+      transform:translateZ(0);
+      animation:gradMove 12s linear infinite;
+      mix-blend-mode:screen;
+      opacity:0.95;
     }
 
-    .hero p {
-      font-size: 1.25rem;
-      color: #6e6e73;
-      line-height: 1.7;
-      margin-bottom: 40px;
-      opacity: 0;
-      transform: translateY(25px);
-      filter: blur(8px);
-      animation: blurFade 1s ease forwards 0.6s;
+    @keyframes gradMove{
+      0%{transform:translate3d(-6%,0,0) rotate(0deg) scale(1)}
+      50%{transform:translate3d(6%,2%,0) rotate(2deg) scale(1.02)}
+      100%{transform:translate3d(-6%,0,0) rotate(0deg) scale(1)}
     }
 
-    .hero-actions {
-      display: flex;
-      justify-content: center;
-      gap: 16px;
-      flex-wrap: wrap;
-      opacity: 0;
-      transform: translateY(25px);
-      filter: blur(8px);
-      animation: blurFade 1s ease forwards 1s;
+    .hero .content{position:relative;z-index:2;max-width:920px;margin:0 auto;text-align:center;padding:6px 20px}
+    .hero .kicker{display:inline-block;background:var(--accent);color:#fff;padding:6px 12px;border-radius:999px;font-weight:700;margin-bottom:12px}
+    .hero h1{margin:10px 0 16px;font-size:clamp(36px,6.5vw,56px);line-height:1.02;font-weight:800;color:var(--text);z-index:2}
+    .hero p.lead{color:var(--muted);font-size:1.08rem;line-height:1.6;max-width:760px;margin:0 auto 22px}
+
+    .hero-actions{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+    .btn{display:inline-flex;gap:10px;align-items:center;padding:12px 20px;border-radius:999px;border:0;font-weight:700;cursor:pointer}
+    .btn.primary{background:var(--accent);color:#fff;box-shadow:0 8px 26px rgba(0,122,255,0.14)}
+    .btn.alt{background:transparent;border:1px solid rgba(0,0,0,0.06);color:var(--text)}
+
+    /* animated initial appearance already present (blurFade via CSS) */
+    .hero h1,.hero p.lead,.hero .kicker,.hero-actions{opacity:0;transform:translateY(18px);filter:blur(6px);animation:blurFade .9s ease forwards}
+    .hero .kicker{animation-delay:.12s}
+    .hero h1{animation-delay:.22s}
+    .hero p.lead{animation-delay:.58s}
+    .hero-actions{animation-delay:.9s}
+
+    @keyframes blurFade{
+      0%{opacity:0;transform:translateY(18px);filter:blur(6px)}
+      60%{opacity:1;filter:blur(2px)}
+      100%{opacity:1;transform:none;filter:blur(0)}
     }
 
-    .btn {
-      border: none;
-      border-radius: 999px;
-      padding: 14px 26px;
-      font-weight: 600;
-      text-decoration: none;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      font-size: 1rem;
-    }
-    .btn.primary {
-      background: #007aff;
-      color: white;
-      box-shadow: 0 5px 15px rgba(0,122,255,0.25);
-    }
-    .btn.primary:hover {
-      background: #0066e5;
-      transform: translateY(-2px);
-    }
+    /* -------------------- Reveal + Parallax sections -------------------- */
+    section{max-width:var(--maxw);margin:64px auto;padding:0 20px}
+    .reveal {opacity:0;transform:translateY(36px);filter:blur(6px);transition:transform .8s cubic-bezier(.2,.9,.2,1),opacity .7s,filter .7s}
+    .reveal.active{opacity:1;transform:none;filter:blur(0)}
+    /* parallax helper - elements with data-parallax will move slightly */
+    .parallax{will-change:transform}
 
-    @keyframes blurFade {
-      0% {
-        opacity: 0;
-        transform: translateY(25px);
-        filter: blur(8px);
-      }
-      60% {
-        opacity: 1;
-        filter: blur(2px);
-      }
-      100% {
-        opacity: 1;
-        transform: translateY(0);
-        filter: blur(0);
-      }
-    }
+    /* simple cards to demo */
+    .card-row{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:20px}
+    .card{background:var(--surface);padding:18px;border-radius:14px;border:1px solid rgba(220,220,225,0.6);box-shadow:0 8px 22px rgba(0,0,0,0.04)}
 
-    /* === RESPONSIVE === */
-    @media (max-width: 768px) {
-      .nav-links {
-        display: none;
-      }
-      .hamburger {
-        display: flex;
-      }
+    /* responsive */
+    @media (max-width: 900px){
+      .card-row{grid-template-columns:repeat(1,1fr)}
+      .nav-links{display:none}
+      .hamburger{display:block}
+      .hero{padding:56px 16px}
+      .hero h1{font-size:clamp(28px,8vw,40px)}
+      .topbar{padding:10px 14px}
     }
   </style>
 </head>
 <body>
 
-  <!-- 🌟 MENU APPLE -->
-  <header class="topbar">
-    <div class="brand">
-      <img src="images/logo.png" alt="Motoopen">
+  <!-- NAV -->
+  <header class="topbar" id="topbar" role="banner">
+    <div class="brand" aria-hidden="false">
+      <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen logo">
       <h3>Motoopen</h3>
     </div>
-    <div class="nav-links">
-      <a href="#"><i class="fa-solid fa-house"></i> Trang chủ</a>
+
+    <nav class="nav-links" role="navigation" aria-label="Main navigation">
+      <a href="#gioithieu"><i class="fa-solid fa-house"></i> Trang chủ</a>
       <a href="#xe"><i class="fa-solid fa-motorcycle"></i> Dòng xe</a>
       <a href="#banggia"><i class="fa-solid fa-tags"></i> Bảng giá</a>
-      <a href="#lienhe"><i class="fa-solid fa-phone"></i> Liên hệ</a>
-      <a href="tel:0857255868" class="cta"><i class="fa-solid fa-bolt"></i> Đặt xe</a>
-    </div>
-    <button class="hamburger" aria-label="Menu">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
+      <a href="#faq"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+      <a class="cta" href="tel:0857255868"><i class="fa-solid fa-phone"></i> Đặt xe</a>
+    </nav>
+
+    <button class="hamburger" id="hamburger" aria-label="Mở menu" aria-expanded="false" aria-controls="drawer">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
     </button>
   </header>
 
-  <!-- 🌙 DRAWER MOBILE -->
-  <div class="drawer">
-    <a href="#"><i class="fa-solid fa-house"></i> Trang chủ</a>
-    <a href="#xe"><i class="fa-solid fa-motorcycle"></i> Dòng xe</a>
-    <a href="#banggia"><i class="fa-solid fa-tags"></i> Bảng giá</a>
-    <a href="#lienhe"><i class="fa-solid fa-phone"></i> Liên hệ</a>
-    <a href="tel:0857255868" class="cta"><i class="fa-solid fa-bolt"></i> Gọi ngay</a>
-  </div>
+  <!-- Drawer + overlay -->
+  <div class="drawer-overlay" id="drawerOverlay" aria-hidden="true"></div>
+  <aside class="drawer" id="drawer" role="menu" aria-hidden="true">
+    <a href="#gioithieu" role="menuitem">Trang chủ</a>
+    <a href="#xe" role="menuitem">Dòng xe</a>
+    <a href="#banggia" role="menuitem">Bảng giá</a>
+    <a href="#faq" role="menuitem">FAQ</a>
+    <a class="cta" href="tel:0857255868" role="menuitem">Gọi ngay</a>
+  </aside>
 
-  <!-- ✨ HERO -->
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Thuê Xe Máy Hà Nội</h1>
-      <p>Dịch vụ <strong>Motoopen</strong> – xe số, xe ga, giao tận nơi <strong>Long Biên & trung tâm Hà Nội</strong>.<br>
-      Xe mới, chạy êm, giá chỉ từ <strong>150k/ngày</strong>.</p>
+  <!-- HERO -->
+  <main id="main" class="container" role="main">
+    <section class="hero" id="gioithieu" aria-labelledby="hero-title">
+      <div class="grad-layer" aria-hidden="true"></div>
+      <div class="content">
+        <div class="kicker">Motoopen</div>
+        <h1 id="hero-title">Thuê Xe Máy Hà Nội</h1>
+        <p class="lead">Dịch vụ <strong>thuê xe máy</strong> uy tín, giá rẻ — xe số, xe ga; giao tận nơi <strong>Long Biên & trung tâm Hà Nội</strong>. Giá từ <strong>150k/ngày</strong>.</p>
 
-      <div class="hero-actions">
-        <a href="tel:0857255868" class="btn primary"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
-        <a href="https://zalo.me/0857255868" target="_blank" class="btn primary" style="background:#2bc76f;"><i class="fa-solid fa-comment-dots"></i> Chat Zalo</a>
+        <div class="hero-actions">
+          <a class="btn primary" href="tel:0857255868" aria-label="Gọi ngay 0857 255 868"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
+          <a class="btn primary" href="https://zalo.me/0857255868" style="background:var(--accent-2)" aria-label="Chat Zalo"><i class="fa-solid fa-comment-dots"></i> Chat Zalo</a>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
+    <!-- Demo sections with reveal + parallax -->
+    <section class="reveal" id="xe" aria-labelledby="xe-title">
+      <h2 id="xe-title">Dòng xe phổ biến</h2>
+      <p class="parallax" data-parallax-speed="0.12">Chúng tôi có Honda Wave, Vision, Air Blade... tất cả đã được bảo dưỡng trước khi giao.</p>
+      <div class="card-row" aria-hidden="false">
+        <div class="card reveal" data-parallax-speed="0.06">
+          <strong>Wave</strong>
+          <p>Tiết kiệm nhiên liệu, phù hợp di chuyển trong thành phố.</p>
+        </div>
+        <div class="card reveal" data-parallax-speed="0.08">
+          <strong>Vision</strong>
+          <p>Xe ga tiện lợi, phù hợp đi lại nhiều.</p>
+        </div>
+        <div class="card reveal" data-parallax-speed="0.05">
+          <strong>Air Blade</strong>
+          <p>Thể thao, mạnh mẽ, vị trí ngồi thoải mái.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="reveal" id="banggia" aria-labelledby="price-title">
+      <h2 id="price-title">Bảng giá (tham khảo)</h2>
+      <p>Xe số: 150k/ngày — Xe ga: 200k/ngày. Hỗ trợ giao tận nơi.</p>
+    </section>
+
+    <section class="reveal" id="faq" aria-labelledby="faq-title">
+      <h2 id="faq-title">Câu hỏi thường gặp</h2>
+      <div class="card-row" style="grid-template-columns:1fr;gap:12px">
+        <div class="card reveal">
+          <strong>Đặt cọc bao nhiêu?</strong>
+          <p>Thông thường 2-5 triệu, tùy loại xe.</p>
+        </div>
+        <div class="card reveal">
+          <strong>Giao tận nơi không?</strong>
+          <p>Có — hỗ trợ giao trong Hà Nội (phí tuỳ khu vực).</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="reveal" id="lienhe" aria-labelledby="contact-title" style="margin-bottom:120px">
+      <h2 id="contact-title">Liên hệ</h2>
+      <p><strong>Hotline:</strong> <a href="tel:0857255868">0857 255 868</a></p>
+    </section>
+  </main>
+
+  <footer style="text-align:center;padding:32px 12px;color:var(--muted)">
+    © 2025 Motoopen — Designed in Hanoi
+  </footer>
+
+  <!-- JS: nav sizing, drawer, scroll effects, parallax, reveal -->
   <script>
-    const hamburger = document.querySelector('.hamburger');
-    const drawer = document.querySelector('.drawer');
+    (function(){
+      const topbar = document.getElementById('topbar');
+      const hamburger = document.getElementById('hamburger');
+      const drawer = document.getElementById('drawer');
+      const overlay = document.getElementById('drawerOverlay');
+      const hero = document.querySelector('.hero');
+      const reveals = document.querySelectorAll('.reveal');
+      const parallaxItems = document.querySelectorAll('[data-parallax-speed]');
 
-    hamburger.addEventListener('click', () => {
-      drawer.classList.toggle('open');
-      hamburger.classList.toggle('active');
-    });
+      // 1) Calculate nav height and set body padding-top so nav won't overlap hero on any device
+      function setBodyTopPadding(){
+        const navHeight = topbar.getBoundingClientRect().height;
+        document.documentElement.style.setProperty('--nav-h', navHeight + 'px');
+        document.body.style.paddingTop = navHeight + 10 + 'px'; // small extra gap
+      }
+      setBodyTopPadding();
+      window.addEventListener('resize', () => { requestAnimationFrame(setBodyTopPadding); });
+
+      // 2) Drawer open/close
+      function openDrawer(open){
+        if(open){
+          drawer.classList.add('open');
+          overlay.classList.add('active');
+          drawer.setAttribute('aria-hidden','false');
+          hamburger.setAttribute('aria-expanded','true');
+        } else {
+          drawer.classList.remove('open');
+          overlay.classList.remove('active');
+          drawer.setAttribute('aria-hidden','true');
+          hamburger.setAttribute('aria-expanded','false');
+        }
+      }
+      hamburger.addEventListener('click', () => openDrawer(!drawer.classList.contains('open')));
+      overlay.addEventListener('click', ()=> openDrawer(false));
+      // close drawer when link inside clicked (smooth)
+      drawer.querySelectorAll('a').forEach(a=>a.addEventListener('click', ()=> openDrawer(false)));
+
+      // 3) Scroll listener (uses rAF for perf) - handle nav scrolled state and parallax
+      let lastScroll = 0;
+      let ticking = false;
+      function onScroll(){
+        lastScroll = window.scrollY || window.pageYOffset;
+        if(!ticking){
+          requestAnimationFrame(()=> {
+            handleScrollEffects(lastScroll);
+            ticking = false;
+          });
+          ticking = true;
+        }
+      }
+      function handleScrollEffects(scrollY){
+        // nav blur change: when scrolled past 8px make it more opaque
+        if(scrollY > 8){
+          topbar.classList.add('scrolled');
+        } else {
+          topbar.classList.remove('scrolled');
+        }
+
+        // Parallax small translation for elements
+        parallaxItems.forEach(el => {
+          const speed = parseFloat(el.getAttribute('data-parallax-speed')) || 0.06;
+          // compute movement relative to viewport center
+          const rect = el.getBoundingClientRect();
+          const offset = (window.innerHeight/2 - rect.top) * speed;
+          el.style.transform = `translateY(${offset}px)`;
+        });
+      }
+      window.addEventListener('scroll', onScroll, {passive:true});
+      // initialize positions
+      handleScrollEffects(window.scrollY || window.pageYOffset);
+
+      // 4) IntersectionObserver for reveal (efficient)
+      const obsOptions = {root:null,rootMargin:'0px',threshold:0.12};
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach(ent => {
+          if(ent.isIntersecting){
+            ent.target.classList.add('active');
+            // unobserve once visible to save cycles
+            io.unobserve(ent.target);
+          }
+        });
+      }, obsOptions);
+
+      // Observe hero content pieces? we use reveal class already on sections
+      document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+      // also animate each child of hero content (already animated via CSS)
+
+      // 5) Preference: reduce motion respect
+      const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if(reduce){
+        // disable animations if user prefers reduced motion
+        document.querySelectorAll('*').forEach(n => n.style.transition = 'none');
+      }
+
+      // small accessibility: keyboard close overlay with Esc
+      window.addEventListener('keydown', (e) => {
+        if(e.key === 'Escape'){
+          openDrawer(false);
+        }
+      });
+    })();
   </script>
-
 </body>
 </html>
