@@ -311,6 +311,16 @@
     body.dark .toggle-dark:hover {
         background: rgba(255,255,255,0.2);
     }
+    
+    /* Hiển thị nút Dark Mode DUY NHẤT ở mọi kích thước */
+    /* Trong nav-links (desktop/tablet), nó sẽ ở cuối */
+    .nav-links .toggle-dark {
+        display: inline-flex; /* Luôn hiển thị */
+    }
+    /* Ngoài nav-links (mobile), nó sẽ ở giữa brand và hamburger */
+    #main-toggle-dark-mobile { /* DÙNG ĐÚNG ID */
+        display: none; /* Mặc định ẩn, chỉ bật trong media query cho mobile */
+    }
 
     /* hamburger */
     .hamburger{display:none;background:none;border:0;cursor:pointer;padding:8px;border-radius:8px}
@@ -804,6 +814,10 @@
 
     /* responsive */
     @media (max-width:900px){
+      /* Bỏ nút Dark Mode ra khỏi nav-links để hiển thị cho mobile/tablet */
+      .nav-links .toggle-dark {
+          display: none; 
+      }
       .nav-links{display:none}
       .hamburger{display:block}
       /* Đặt Dark Mode Toggle bên cạnh Hamburger */
@@ -818,11 +832,30 @@
       }
       .topbar .brand { order: 1; }
       .topbar .hamburger { order: 3; }
-      .topbar .toggle-dark { order: 2; margin: 0 10px 0 auto; } /* căn giữa 2 bên */
+      /* HIỂN THỊ NÚT DUY NHẤT Ở VỊ TRÍ NÀY CHO MOBILE/TABLET */
+      /* ĐÃ SỬA ID: #main-toggle-dark-mobile */
+      #main-toggle-dark-mobile { 
+          display: inline-flex; /* HIỂN THỊ CHO MỌI THIẾT BỊ < 900px */
+          order: 2; 
+          margin: 0 10px 0 auto; /* căn giữa 2 bên */
+      }
+
 
       .hero{margin-top:20px;padding:36px 16px}
       .reviews-section{padding:28px 12px}
       .price-table{min-width:600px}
+    }
+    @media (min-width: 901px) {
+        /* HIỂN THỊ NÚT DUY NHẤT Ở VỊ TRÍ NÀY CHO DESKTOP */
+        .nav-links .toggle-dark {
+            display: inline-flex; /* HIỂN THỊ CHO MỌI THIẾT BỊ > 900px */
+            order: initial;
+            margin-left: 8px;
+        }
+        /* ĐÃ SỬA: Ẩn nút mobile khi là desktop */
+        #main-toggle-dark-mobile {
+            display: none !important; /* Đảm bảo ẩn nút mobile */
+        }
     }
     @media (max-width:520px){
       .price-table{min-width:480px}
@@ -861,12 +894,12 @@
       <a href="#banggia"><i class="fa-solid fa-tags"></i> Bảng giá</a>
       <a href="#danhgia"><i class="fa-solid fa-star"></i> Review</a>
       <a href="#faq"><i class="fa-solid fa-circle-question"></i> FAQ</a>
-      <button class="toggle-dark" id="desktop-toggle-dark" aria-label="Chuyển đổi chế độ tối">
+      <button class="toggle-dark" id="main-toggle-dark-desktop" aria-label="Chuyển đổi chế độ tối">
         <i class="fa-solid fa-sun" style="display: none;"></i>
         <i class="fa-solid fa-moon"></i>
       </button>
     </nav>
-    <button class="toggle-dark" id="mobile-toggle-dark" aria-label="Chuyển đổi chế độ tối">
+    <button class="toggle-dark" id="main-toggle-dark-mobile" aria-label="Chuyển đổi chế độ tối">
         <i class="fa-solid fa-sun" style="display: none;"></i>
         <i class="fa-solid fa-moon"></i>
     </button>
@@ -1111,8 +1144,8 @@
       const overlay = document.getElementById('drawerOverlay');
       const reviewsBg = document.getElementById('reviewsBg');
       const body = document.body;
-      const desktopToggle = document.getElementById('desktop-toggle-dark');
-      const mobileToggle = document.getElementById('mobile-toggle-dark');
+      const desktopToggle = document.getElementById('main-toggle-dark-desktop'); // Nút duy nhất (đặt trong nav-links)
+      const mobileToggle = document.getElementById('main-toggle-dark-mobile');   // Nút duy nhất (đặt ngoài nav-links)
       const backTop = document.querySelector('.back-top');
 
       // === DARK MODE LOGIC ===
@@ -1133,14 +1166,11 @@
         const iconSun = '<i class="fa-solid fa-sun"></i>';
         const iconMoon = '<i class="fa-solid fa-moon"></i>';
         const targetIcon = isEnabled ? iconSun : iconMoon;
-        const otherIcon = isEnabled ? iconMoon : iconSun;
         
         [desktopToggle, mobileToggle].forEach(toggle => {
             if (toggle) {
+                // Đảm bảo cả hai nút (chỉ 1 nút hiển thị tại 1 thời điểm) đều được cập nhật
                 toggle.innerHTML = targetIcon;
-                // Nếu muốn giữ 2 icon và ẩn hiện
-                // toggle.querySelector('.fa-sun').style.display = isEnabled ? 'inline-block' : 'none';
-                // toggle.querySelector('.fa-moon').style.display = isEnabled ? 'none' : 'inline-block';
             }
         });
       }
@@ -1157,7 +1187,7 @@
       applyDarkMode(isDarkModeEnabled);
 
 
-      // Toggle listener
+      // Toggle listener - Áp dụng cho cả hai ID (chỉ một ID có display:inline-flex tại một thời điểm)
       [desktopToggle, mobileToggle].forEach(toggle => {
         if (toggle) {
           toggle.addEventListener('click', () => {
