@@ -1,230 +1,516 @@
 <!doctype html>
-<html lang="vi">
+<html lang="vi" style="scroll-behavior: smooth;">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <title>Thuê Xe Máy Hà Nội | Motoopen – Giá Rẻ, Giao Tận Nơi</title>
-<meta name="description" content="Thuê Xe Máy Hà Nội – Motoopen. Xe số, xe ga, giao tận nơi Long Biên & trung tâm. Giá từ 150k/ngày. Liên hệ 0857 255 868." />
-<link rel="icon" href="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" type="image/jpeg" />
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<meta name="description" content="Thuê Xe Máy Hà Nội – Motoopen. Xe số, xe ga, giao tận nơi Long Biên & trung tâm. Giá từ 150k/ngày. Liên hệ 0857 255 868.">
+<meta name="keywords" content="thuê xe máy hà nội, thuê xe ga honda, thuê xe số honda, xe máy giao tận nơi, motoopen, thuê xe wave, thuê xe vision, thuê xe air blade, bảng giá thuê xe máy, dịch vụ thuê xe uy tín">
+
+<link rel="canonical" href="https://motoopen.github.io/chothuexemayhanoi/">
+
+<meta name="robots" content="index, follow">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon"> 
+<link rel="icon" href="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" type="image/jpeg">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Thuê Xe Máy Hà Nội | Motoopen – Giá Rẻ, Giao Tận Nơi">
+<meta property="og:description" content="Thuê Xe Máy Hà Nội – Motoopen. Xe số, xe ga, giao tận nơi Long Biên & trung tâm. Giá từ 150k/ngày. Liên hệ 0857 255 868.">
+<meta property="og:url" content="https://motoopen.github.io/chothuexemayhanoi">
+<meta property="og:image" content="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg">
+<meta property="og:site_name" content="Motoopen">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Thuê Xe Máy Hà Nội | Motoopen – Giá Rẻ, Giao Tận Nơi">
+<meta name="twitter:description" content="Thuê Xe Máy Hà Nội – Motoopen. Xe số, xe ga, giao tận nơi Long Biên & trung tâm. Giá từ 150k/ngày. Liên hệ 0857 255 868.">
+<meta name="twitter:image" content="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <style>
-:root{
-  --honda-red:#e60012;
-  --honda-black:#0b0b0b;
-  --white:#fff;
-  --muted:#777;
-  --maxw:1100px;
+/* 🌟 Apple Style Full UI (Light Mode) 🌟 */
+:root {
+  /* Màu sắc cơ bản Apple */
+  --apple-bg: #f5f5f7;        /* Nền chung (Gần như trắng) */
+  --apple-surface: #ffffff;   /* Nền thành phần nổi (Trắng tinh) */
+  --apple-text: #1d1d1f;      /* Chữ chính (Gần như đen) */
+  --apple-subtext: #6e6e73;   /* Chữ phụ, mô tả (Xám đậm) */
+  --apple-accent: #007aff;    /* Màu nhấn (Blue) */
+  --apple-accent-hover: #0066cc; /* Màu nhấn khi hover */
+  --apple-border: #d2d2d7;    /* Đường viền, phân cách (Xám nhạt) */
+  --apple-shadow: 0 4px 16px rgba(0, 0, 0, 0.08); /* Bóng tinh tế */
+  
+  /* Cấu trúc */
+  --maxw: 1100px;
+  --radius: 12px; /* Độ cong góc hiện đại */
+  --radius-lg: 18px;
 }
-*{box-sizing:border-box}
-body{
-  margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;
-  background:#fff; color:var(--honda-black); line-height:1.45;
+
+/* Reset và Font */
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent; /* Loại bỏ hiệu ứng nhấn mặc định trên mobile */
+}
+
+body {
+  margin: 0;
+  /* Sử dụng Inter hoặc font hệ thống */
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: var(--apple-bg);
+  color: var(--apple-text);
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+  /* Giữ hiệu ứng fade-in ban đầu */
   opacity:0; transform:translateY(20px); transition:opacity 0.9s ease, transform 0.9s ease;
 }
 
-/* TOP NAV */
-.topbar{position:sticky;top:0;z-index:1200;background:var(--honda-black);color:var(--white);display:flex;justify-content:center;box-shadow:0 6px 18px rgba(3,3,3,0.25);padding:10px 16px;}
-.nav{width:100%;max-width:var(--maxw);display:flex;justify-content:space-between;align-items:center;gap:16px;}
-.brand{display:flex;align-items:center;gap:12px}
-.brand img{width:56px;height:56px;object-fit:cover;border-radius:8px;border:2px solid rgba(255,255,255,0.06)}
-.brand h3{margin:0;font-size:1.05rem;font-weight:800;letter-spacing:0.2px}
-.nav-links{display:flex;gap:10px;align-items:center}
-.nav-links a{color:#fff;text-decoration:none;padding:8px 12px;border-radius:8px;font-weight:600;display:inline-flex;gap:8px;align-items:center;transition:transform .18s ease, background .18s ease;}
-.nav-links a:hover{transform:translateY(-3px);background:linear-gradient(90deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02));}
-.cta{background:var(--honda-red);color:#fff;padding:8px 14px;border-radius:999px;box-shadow:0 8px 20px rgba(230,0,18,0.18);}
-.icon-bounce{display:inline-block;animation:bounce 1.6s infinite;transform-origin:center}
-@keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
-.hamburger{display:none;background:none;border:0;color:#fff;font-size:22px;padding:8px;border-radius:8px}
-@media(max-width:900px){.nav-links{display:none}.hamburger{display:inline-flex}.brand h3{font-size:0.95rem}}
-
-/* Mobile drawer */
-.drawer{position:fixed;right:0;top:0;height:100vh;width:280px;background:linear-gradient(180deg,var(--honda-black),#1f1f1f);color:#fff;padding:20px;transform:translateX(100%);transition:transform .28s cubic-bezier(.2,.9,.2,1);z-index:1400;}
-.drawer.open{transform:translateX(0)}
-.drawer a{display:block;color:#fff;padding:12px 10px;border-radius:8px;margin-bottom:6px;text-decoration:none}
-.drawer .close{display:flex;justify-content:flex-end;margin-bottom:12px}
+/* Thẻ tiêu đề */
+h1, h2, h3 {
+  letter-spacing: -0.01em; /* Tinh chỉnh khoảng cách chữ */
+}
 
 /* Container */
-.wrap{max-width:var(--maxw);margin:18px auto;padding:0 18px;}
-
-/* HERO */
-.hero{
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:center;
-  gap:16px;
-  background:linear-gradient(90deg, rgba(230,0,18,0.04), rgba(0,0,0,0.02));
-  border-radius:14px;
-  padding:28px;
-  margin:6px 0 18px;
-  box-shadow:0 10px 40px rgba(0,0,0,0.06);
-  position:relative; /* Quan trọng cho hiệu ứng xe máy chạy qua */
-  overflow:hidden; /* Quan trọng để che khuất xe máy khi ngoài khung */
+.wrap{
+  max-width:var(--maxw);
+  margin:24px auto; /* Tăng khoảng cách */
+  padding:0 20px;
 }
-.hero-left{max-width:700px;}
-.kicker{display:inline-block;background:var(--honda-red);color:#fff;padding:6px 10px;border-radius:999px;font-weight:700;font-size:0.88rem;}
-.hero h1{margin:12px 0 6px;font-size:clamp(24px,4.5vw,42px);color:var(--honda-black);line-height:1.05;}
-.hero p.lead{margin:0;color:#555;font-size:1.05rem;line-height:1.5;}
-.hero-actions{display:flex;gap:12px;margin-top:12px;flex-wrap:wrap;align-items:center;}
-.btn{border:0;padding:12px 18px;border-radius:999px;font-weight:800;cursor:pointer;text-decoration:none;display:inline-flex;gap:10px;align-items:center;transition:transform .18s ease, box-shadow .18s ease;}
-.btn.primary{background:linear-gradient(90deg,var(--honda-red),#ff3b3b);color:#fff;box-shadow:0 10px 30px rgba(230,0,18,0.18);}
-.btn.ghost{background:transparent;border:1px solid rgba(0,0,0,0.06);color:var(--honda-black);}
-.btn:hover{transform:translateY(-4px)}
 
-/* Pricing table */
-.pricing{margin:18px 0}
-.table-wrap{overflow:auto;border-radius:10px;border:1px solid #eee}
+/* -------------------------------------- */
+/* --- HEADER & NAVIGATION --- */
+/* -------------------------------------- */
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 1200;
+  /* Màu nền trắng mờ và blur */
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--apple-border);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset; /* Hiệu ứng ánh sáng nhẹ */
+  padding: 8px 20px;
+}
+
+.nav {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.brand img {
+  width: 42px; /* Kích thước nhỏ hơn */
+  height: 42px;
+  border-radius: 8px; /* Góc bo nhẹ */
+  border: none;
+}
+.brand h3 {
+  margin: 0;
+  font-weight: 600; /* Dùng 600 thay vì 800 */
+  font-size: 1.1rem;
+  color: var(--apple-text);
+}
+.brand a { text-decoration: none; color: var(--apple-text); } /* Đảm bảo link không có gạch chân */
+.brand div { color: var(--apple-subtext) !important; font-size: 0.8rem !important; }
+
+/* Nav Links Desktop */
+.nav-links {
+  display: flex;
+  gap: 6px; /* Giảm khoảng cách */
+  align-items: center;
+}
+.nav-links a {
+  text-decoration: none;
+  color: var(--apple-subtext);
+  padding: 8px 12px;
+  border-radius: 8px; /* Góc bo nhẹ */
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s, transform 0.2s;
+  position: relative;
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+}
+/* Xóa hiệu ứng hover cũ và thay bằng hiệu ứng Apple */
+.nav-links a::before { content: none; }
+.nav-links a:hover {
+  background: rgba(0, 0, 0, 0.04);
+  color: var(--apple-text);
+  transform: none; 
+}
+.icon-bounce { animation: none !important; } /* Bỏ hiệu ứng bounce */
+
+/* CTA - Nút Call to Action */
+.cta {
+  background: var(--apple-accent);
+  color: #fff !important;
+  font-weight: 600 !important;
+  padding: 8px 16px !important;
+  border-radius: 999px !important;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.cta:hover {
+  background: var(--apple-accent-hover);
+  box-shadow: 0 2px 8px rgba(0, 122, 255, 0.2);
+}
+
+.hamburger {
+  display: none;
+  border: none;
+  background: none;
+  font-size: 20px;
+  color: var(--apple-text);
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+@media (max-width: 900px) {
+  .nav-links { display: none; }
+  .hamburger { display: inline-flex; }
+  .brand h3 { font-size: 1rem; }
+}
+
+/* Mobile drawer - Màu sắc và hiệu ứng Apple */
+.drawer{
+  position:fixed;
+  right:0;top:0;
+  height:100vh;
+  width:300px; /* Rộng hơn một chút */
+  background:var(--apple-surface);
+  color:var(--apple-text);
+  padding:20px;
+  transform:translateX(100%);
+  transition:transform 0.35s cubic-bezier(.22,1,.36,1);
+  box-shadow: -4px 0 16px rgba(0, 0, 0, 0.1);
+  z-index:1400;
+  backdrop-filter: none; /* Bỏ blur trên drawer */
+}
+.drawer a{
+  color:var(--apple-text);
+  border-bottom: 1px solid var(--apple-border); /* Thêm đường viền phân cách */
+  transition: background 0.2s, transform 0.2s, opacity 0.2s;
+  text-decoration: none;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 12px 10px;
+  border-radius: 8px;
+  margin-bottom: 6px;
+  opacity:0;
+  transform:translateX(20px);
+}
+.drawer a:hover {
+    background: rgba(0, 0, 0, 0.04);
+    transform: none;
+}
+.drawer a i {
+    color: var(--apple-accent); /* Màu icon đồng nhất */
+    text-shadow: none; /* Bỏ neon */
+    transition: transform 0.2s;
+}
+.drawer a:hover i {
+    transform: scale(1.1);
+}
+.drawer a[href*="zalo"] {
+  background: var(--apple-accent); /* Thay Zalo xanh bằng Apple Blue */
+  color: #fff !important;
+  font-weight: 600;
+  border: none;
+  margin-top: 10px;
+  text-align: center;
+}
+.drawer a[href*="zalo"] i {
+    color: #fff;
+}
+.drawer .close {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 12px;
+}
+
+
+/* -------------------------------------- */
+/* --- HERO SECTION --- */
+/* -------------------------------------- */
+.hero{
+  background: var(--apple-surface); /* Nền trắng */
+  border-radius: var(--radius-lg); /* Góc bo lớn */
+  /* Bóng mờ Apple */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06); 
+  padding: 40px; /* Đệm lớn hơn */
+  margin: 24px 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--apple-border);
+}
+.kicker{
+  background: var(--apple-accent);
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}
+.hero h1{
+  font-size: clamp(30px, 4.5vw, 48px); /* Kích thước lớn, linh hoạt */
+  margin: 10px 0 8px;
+  font-weight: 800;
+  color: var(--apple-text);
+  line-height: 1.1;
+}
+.hero p.lead{
+  color: var(--apple-subtext);
+  font-size: 1.1rem;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+.hero-actions{
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.btn{
+  border: none;
+  border-radius: 999px;
+  padding: 14px 24px; /* Kích thước nút lớn hơn */
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  transition: all 0.2s ease;
+  transform: none !important; /* Bỏ hiệu ứng translateY */
+}
+.btn.primary{
+  background: var(--apple-accent);
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 122, 255, 0.2);
+}
+.btn.primary:hover{
+  background: var(--apple-accent-hover);
+  box-shadow: 0 6px 16px rgba(0, 122, 255, 0.3);
+}
+.btn.ghost{
+  background: transparent;
+  border: 1px solid var(--apple-border);
+  color: var(--apple-text);
+}
+.btn.ghost:hover{
+  background: rgba(0, 0, 0, 0.04);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+/* Loại bỏ hiệu ứng xe máy (Bike Trail) */
+#bikeTrailContainer, .bike-multi, .bike-smoke {
+  display: none !important;
+}
+
+
+/* -------------------------------------- */
+/* --- TABLE, REVIEWS, FAQ --- */
+/* -------------------------------------- */
+.table-wrap{
+  overflow: auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--apple-border);
+  box-shadow: var(--apple-shadow);
+  background: var(--apple-surface);
+}
 table{width:100%;border-collapse:collapse}
-th,td{padding:12px;border-bottom:1px solid #f1f1f1;text-align:center}
-th{background:var(--honda-black);color:#fff;font-weight:700}
-tbody tr:hover{background:#fff6f6}
+th,td{
+  padding:14px 16px;
+  border-bottom:1px solid var(--apple-border);
+  text-align:left; /* Căn trái */
+}
+th{
+  background: #f8f8f8; /* Nền xám nhạt Apple */
+  color: var(--apple-text);
+  font-weight: 600;
+  text-align: center; /* Tiêu đề căn giữa */
+}
+tbody tr:hover{background: rgba(0, 122, 255, 0.03)} /* Highlight nhẹ màu xanh */
+td:first-child { font-weight: 500; } /* Highlight cột đầu tiên */
 
-/* Reviews carousel */
-.reviews{display:flex;gap:12px;overflow:hidden;padding:12px 0}
-.review{min-width:220px;padding:12px;border-radius:12px;background:#fff;border:1px solid #eee}
 
-/* FAQ */
-.faq .q{background:#fff;padding:12px;border-radius:10px;border:1px solid #eee;margin-bottom:8px;cursor:pointer;display:flex;justify-content:space-between;align-items:center}
-.faq .a{padding:12px;border-left:3px solid var(--honda-red);margin-bottom:12px;background:#fff;display:none;border-radius:8px}
+/* Reviews carousel - Thẻ nổi */
+.reviews{
+  display: flex;
+  gap: 16px;
+  overflow-x: auto; /* Dùng scroll ngang */
+  padding: 12px 0;
+}
+.review{
+  min-width: 250px;
+  padding: 16px;
+  border-radius: var(--radius);
+  background: var(--apple-surface);
+  border: 1px solid var(--apple-border);
+  box-shadow: var(--apple-shadow);
+  color: var(--apple-subtext);
+  font-style: italic;
+}
+.review p { margin: 0; }
 
-/* --- FOOTER VIP LED + MARQUEE STYLES --- */
+/* FAQ - Accordion */
+.faq .q{
+  background: var(--apple-surface);
+  padding: 16px;
+  border-radius: var(--radius);
+  border: 1px solid var(--apple-border);
+  margin-bottom: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  transition: background 0.2s, border-color 0.2s;
+}
+.faq .q:hover{
+  background: #fcfcfc;
+  border-color: #c9c9cf;
+}
+.faq .a{
+  padding: 16px;
+  border-left: 3px solid var(--apple-accent);
+  margin-bottom: 12px;
+  background: #fcfcfc;
+  border-radius: 0 0 var(--radius) var(--radius);
+  color: var(--apple-subtext);
+}
+
+/* -------------------------------------- */
+/* --- FOOTER & FLOATING BUTTONS --- */
+/* -------------------------------------- */
 .footer-new {
-    background:#111;
-    color:#eee;
-    padding:40px 18px;
-    position:relative;
-    overflow:hidden;
+    background: var(--apple-surface); /* Nền trắng */
+    color: var(--apple-text);
+    padding: 50px 20px 40px;
+    border-top: 1px solid var(--apple-border);
+    margin-top: 40px;
 }
 .footer-new .wrap {
-    max-width:1100px;
-    margin:0 auto;
-    display:grid;
-    grid-template-columns:1fr 1fr 1fr;
-    gap:20px;
+    max-width: var(--maxw);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
 }
 .footer-new h3 {
-    color:#ff0044;
-    text-shadow:0 0 5px #ff0044,0 0 10px #ff66cc;
+    color: var(--apple-text);
+    font-weight: 600;
+    font-size: 1.05rem;
+    text-shadow: none; /* Bỏ hiệu ứng Neon */
+    margin-bottom: 15px;
+}
+.footer-new a {
+    color: var(--apple-subtext);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.footer-new a:hover {
+    color: var(--apple-accent);
 }
 .footer-social a i {
-  font-size:22px;
-  color:#ff0044;
-  text-shadow:0 0 5px #ff0044,0 0 10px #ff66cc;
-  transition:0.3s ease;
+  font-size: 20px;
+  color: var(--apple-subtext);
+  text-shadow: none; /* Bỏ hiệu ứng Neon */
+  transition: color 0.3s, transform 0.3s;
 }
 .footer-social a:hover i {
-  text-shadow:0 0 15px #ff66cc,0 0 30px #ff3399,0 0 45px #ff0044;
-  transform:scale(1.3);
+  color: var(--apple-accent);
+  transform: scale(1.1);
+}
+/* Loại bỏ hiệu ứng LED và Marquee (không phải Apple Style) */
+.leds, .footer-new > div:last-child {
+  display: none !important;
+}
+.footer-new hr {
+  border: none;
+  border-top: 1px solid var(--apple-border);
+  margin: 20px 0;
+}
+.footer-new p {
+  color: var(--apple-subtext);
+  font-size: 0.95rem;
+  line-height: 1.5;
 }
 
-/* Mini LED blinking */
-.leds span {
-  display:inline-block; 
-  animation: blink 1.2s infinite;
-}
-.leds span:nth-child(2){animation-delay:0.4s;}
-.leds span:nth-child(3){animation-delay:0.8s;}
-.leds span:nth-child(4){animation-delay:1.2s;}
-.leds span:nth-child(5){animation-delay:1.6s;}
-@keyframes blink {0%,50%,100%{opacity:1}25%,75%{opacity:0.2}}
 
-/* Marquee LED */
-@keyframes marquee {
-  0%{transform:translateX(100%)}
-  100%{transform:translateX(-100%)}
-}
-
-/* Floating actions VIP */
+/* Floating actions (Đã tinh chỉnh) */
 .float-actions{
   position:fixed;
-  right:18px;
-  bottom:20px;
+  right: 20px;
+  bottom: 20px;
   display:flex;
   flex-direction:column;
   align-items:center;
-  gap:12px;
-  z-index:1600;
+  gap: 10px;
+  z-index: 1600;
 }
-.float-actions > button{
-  border:none;
-  background:#ff0044;
-  color:#fff;
-  width:56px;
-  height:56px;
-  border-radius:50%;
-  cursor:pointer;
-  font-size:28px;
-  box-shadow:0 0 8px #ff0044,0 0 16px #ff66cc;
-  animation: pulse-float 1.8s infinite;
+.float-actions > button, .float-actions a{
+  background: var(--apple-accent);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  box-shadow: 0 4px 10px rgba(0, 122, 255, 0.2);
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  animation: none; /* Bỏ hiệu ứng pulse-float */
+}
+.float-actions > button:hover, .float-actions a:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 122, 255, 0.3);
 }
 .float-actions #backTop {
-  /* Điều chỉnh vị trí của BackTop để nó ở trên nút chính */
   position: static; 
-  display: none; /* ban đầu ẩn, sẽ hiện khi scroll */
+  display: none;
 }
-.float-actions .more{
-  display:none;
-  flex-direction:column;
-  gap:10px;
-  margin-bottom:10px;
+.float-actions .more {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
 }
-.float-actions a{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  width:50px;
-  height:50px;
-  border-radius:50%;
-  background:#ff0044;
-  color:#fff;
-  font-size:22px;
-  text-decoration:none;
-  box-shadow:0 0 8px #ff0044,0 0 16px #ff66cc;
-  transition:0.3s ease;
-  animation: pulse-float 1.8s infinite;
+.float-actions .more a {
+    background: #555 !important; /* Màu xám tối giản hơn */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
-.float-actions a:hover{
-  transform:scale(1.2);
-  box-shadow:0 0 12px #ff66cc,0 0 24px #ff3399;
+.float-actions .more a:hover {
+    background: #444 !important;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
-
-@keyframes pulse-float{
-  0%,100%{transform:scale(1);}
-  50%{transform:scale(1.1);}
-}
-
-/* --- BIKE TRAIL STYLES --- */
-.bike-multi {
-  display: inline-block;
-  animation: bounce-bike 0.5s infinite alternate;
-}
-@keyframes bounce-bike {
-  0% {transform: translateY(0);}
-  100% {transform: translateY(-4px);}
-}
-.bike-smoke {
-  position: absolute;
-  width: 40px;
-  height: 20px;
-  border-radius: 50%;
-  background: rgba(230,0,18,0.3);
-  filter: blur(6px);
-  pointer-events: none;
-  animation: riseSmoke 1.2s linear forwards;
-  z-index: 1000; /* Đảm bảo khói nằm trên Hero */
-}
-@keyframes riseSmoke {
-  0% {opacity:0.3; transform:translate(0,0) scale(1);}
-  100% {opacity:0; transform:translate(-10px,-50px) scale(0.5);}
-}
-/* --- END BIKE TRAIL STYLES --- */
 
 
 @media(max-width:720px){
     .footer-new .wrap {grid-template-columns:1fr;}
     .hero-left{text-align:center;}
+    .hero { padding: 30px 20px; }
+    /* Căn giữa nút hành động trên mobile */
+    .hero-actions { justify-content: center; } 
+    /* Đảm bảo bảng giá hiển thị tốt */
+    th, td { padding: 10px 12px; font-size: 0.9rem; }
 }
 </style>
 </head>
@@ -233,31 +519,33 @@ tbody tr:hover{background:#fff6f6}
 <header class="topbar">
 <nav class="nav">
   <div class="brand">
-    <a href="#" style="display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff">
-      <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen">
+    <a href="#" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--apple-text)" aria-label="Về trang chủ Thuê Xe Máy Motoopen">
+      <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Logo Motoopen">
       <div>
-        <h3>Thuê Xe Máy <span style="color:var(--honda-red)">Motoopen</span></h3>
-        <div style="font-size:12px;color:rgba(255,255,255,0.7);margin-top:2px">114 Nguyễn Văn Cừ — 0857 255 868</div>
+        <h3>Thuê Xe Máy <span style="color:var(--apple-accent)">Motoopen</span></h3>
+        <div style="font-size:12px;color:var(--apple-subtext);margin-top:2px">114 Nguyễn Văn Cừ — 0857 255 868</div>
       </div>
     </a>
   </div>
   <div class="nav-links">
-    <a href="#gioithieu"><i class="fa-solid fa-house icon-bounce"></i> Home</a>
-    <a href="#gia"><i class="fa-solid fa-money-bill-wave"></i> Bảng giá</a>
-    <a href="#faq"><i class="fa-solid fa-circle-question"></i> FAQ</a>
-    <a href="#lienhe" class="cta"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
+    <a href="#gioithieu" aria-label="Đi tới mục Giới thiệu"><i class="fa-solid fa-house"></i> Home</a>
+    <a href="#gia" aria-label="Đi tới mục Bảng giá"><i class="fa-solid fa-money-bill-wave"></i> Bảng giá</a>
+    <a href="#faq" aria-label="Đi tới mục Câu hỏi thường gặp"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+    <a href="#lienhe" class="cta" aria-label="Gọi điện thoại ngay"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
   </div>
-  <button class="hamburger" id="hambtn"><i class="fa-solid fa-bars"></i></button>
+  <button class="hamburger" id="hambtn" aria-label="Mở menu di động"><i class="fa-solid fa-bars"></i></button>
 </nav>
 </header>
 
-<div class="drawer" id="drawer">
-  <div class="close"><button id="closeDrawer">✕</button></div>
-  <a href="#gioithieu">🏠 Giới thiệu</a>
-  <a href="#gia">💰 Bảng giá</a>
-  <a href="#faq">❓ FAQ</a>
-  <a href="#lienhe">📞 Liên hệ</a>
-  <a href="https://zalo.me/0857255868" target="_blank" style="background:#ff6f61;color:#fff;text-align:center">💬 Chat Zalo</a>
+<div class="drawer" id="drawer" aria-hidden="true">
+  <div class="close">
+    <button id="closeDrawer" style="background:none;border:none;color:var(--apple-text);font-size:1.5rem;cursor:pointer;" aria-label="Đóng menu">✕</button>
+  </div>
+  <a href="#gioithieu" aria-label="Giới thiệu"><i class="fa-solid fa-house"></i> Giới thiệu</a>
+  <a href="#gia" aria-label="Bảng giá"><i class="fa-solid fa-money-bill-wave"></i> Bảng giá</a>
+  <a href="#faq" aria-label="Câu hỏi thường gặp"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+  <a href="#lienhe" aria-label="Liên hệ"><i class="fa-solid fa-phone"></i> Liên hệ</a>
+  <a href="https://zalo.me/0857255868" target="_blank" aria-label="Chat qua Zalo"><i class="fa-brands fa-whatsapp"></i> Chat Zalo</a>
 </div>
 
 <main class="wrap" id="gioithieu">
@@ -266,37 +554,34 @@ tbody tr:hover{background:#fff6f6}
     <span class="kicker">Motoopen</span>
     <h1><span id="typed"></span></h1>
     <p class="lead">
-      Dịch vụ <strong>thuê xe máy Hà Nội</strong> uy tín, giá rẻ. Xe số, xe ga, giao tận nơi <strong>Long Biên</strong> & trung tâm. ⏰ <strong>8:00 - 21:00</strong>.
+      Dịch vụ <strong>thuê xe máy Hà Nội</strong> uy tín, giá rẻ. Xe số, xe ga, giao tận nơi <strong>Long Biên</strong> & trung tâm. <span role="img" aria-label="Biểu tượng đồng hồ">⏰</span> <strong>8:00 - 21:00</strong>.
     </p>
     <div class="hero-actions">
-      <a href="tel:0857255868" class="btn primary"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
-      <a href="https://zalo.me/0857255868" target="_blank" class="btn" style="background:#2bc76f;color:#fff">💬 Chat Zalo</a>
+      <a href="tel:0857255868" class="btn primary" aria-label="Gọi điện thoại ngay 0857 255 868"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
+      <a href="https://zalo.me/0857255868" target="_blank" class="btn primary" style="background:#2bc76f;color:#fff" aria-label="Chat Zalo với Motoopen"><span role="img" aria-label="Biểu tượng tin nhắn">💬</span> Chat Zalo</a>
     </div>
   </div>
 
-  <div id="bikeTrailContainer" style="position:absolute;bottom:12px;left:-50px;font-size:32px;z-index: 1001; transition: left 0.06s linear;">
-    <span class="bike-multi">🏍️</span>
-  </div>
-</section>
+  </section>
 
 <section class="pricing" id="gia">
-  <h2>📋 Bảng Giá Thuê Xe Máy Hà Nội</h2>
+  <h2><span role="img" aria-label="Biểu tượng bảng kê">📋</span> Bảng Giá Thuê Xe Máy Hà Nội</h2>
   <div class="table-wrap">
     <table>
       <thead><tr><th>Loại Xe</th><th>1 Ngày</th><th>1 Tuần</th><th>1 Tháng</th><th>Đặt Cọc</th></tr></thead>
       <tbody>
-        <tr><td>Xe số Honda Wave</td><td>150k</td><td>600k-700k</td><td>1.200k</td><td>2-3 triệu</td></tr>
-        <tr><td>Xe ga Honda Vision</td><td>200k</td><td>800k-1.000k</td><td>1.800k-2.000k</td><td>4-5 triệu</td></tr>
-        <tr><td>Xe ga Air Blade</td><td>200k</td><td>800k</td><td>1.400k</td><td>3 triệu</td></tr>
-        <tr><td>Xe ga giá rẻ (Click/Mio)</td><td>150k</td><td>600k-700k</td><td>1.000k-1.200k</td><td>2 triệu</td></tr>
+        <tr><td>Xe số Honda Wave</td><td style="text-align:center">150k</td><td style="text-align:center">600k-700k</td><td style="text-align:center">1.200k</td><td style="text-align:center">2-3 triệu</td></tr>
+        <tr><td>Xe ga Honda Vision</td><td style="text-align:center">200k</td><td style="text-align:center">800k-1.000k</td><td style="text-align:center">1.800k-2.000k</td><td style="text-align:center">4-5 triệu</td></tr>
+        <tr><td>Xe ga Air Blade</td><td style="text-align:center">200k</td><td style="text-align:center">800k</td><td style="text-align:center">1.400k</td><td style="text-align:center">3 triệu</td></tr>
+        <tr><td>Xe ga giá rẻ (Click/Mio)</td><td style="text-align:center">150k</td><td style="text-align:center">600k-700k</td><td style="text-align:center">1.000k-1.200k</td><td style="text-align:center">2 triệu</td></tr>
       </tbody>
     </table>
   </div>
-  <img src="https://i.postimg.cc/kGSRG17f/IMG-5268.jpg" alt="Ảnh bảng giá" style="width:100%;margin-top:12px;border-radius:12px;">
+  <img src="https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg" alt="Ảnh bảng giá thuê xe máy chi tiết" style="width:100%;margin-top:12px;border-radius:var(--radius);" loading="lazy">
 </section>
 
 <section id="review">
-  <h2>⭐ Review Khách Hàng</h2>
+  <h2><span role="img" aria-label="Biểu tượng ngôi sao">⭐</span> Review Khách Hàng</h2>
   <div class="reviews" id="carousel">
     <div class="review"><p>"Dịch vụ thuê xe máy Hà Nội chuyên nghiệp, giá rẻ, giao tận nơi!" – Minh H.</p></div>
     <div class="review"><p>"Thuê xe nhanh chóng, giá rẻ, nhân viên thân thiện." – Lan T.</p></div>
@@ -306,25 +591,25 @@ tbody tr:hover{background:#fff6f6}
 </section>
 
 <section id="faq" class="faq">
-  <h2>❓ Câu hỏi thường gặp</h2>
-  <div class="q"><div>Giá thuê xe máy bao nhiêu?</div><div class="muted">+</div></div>
+  <h2><span role="img" aria-label="Biểu tượng dấu hỏi">❓</span> Câu hỏi thường gặp</h2>
+  <div class="q" role="button" aria-expanded="false" tabindex="0"><div>Giá thuê xe máy bao nhiêu?</div><div class="muted">+</div></div>
   <div class="a">Xe số từ 150k/ngày, xe ga từ 200k/ngày, thuê theo tuần/tháng có ưu đãi.</div>
 
-  <div class="q"><div>Cần đặt cọc bao nhiêu?</div><div class="muted">+</div></div>
+  <div class="q" role="button" aria-expanded="false" tabindex="0"><div>Cần đặt cọc bao nhiêu?</div><div class="muted">+</div></div>
   <div class="a">Đặt cọc từ 2-5 triệu, thủ tục nhanh chóng, giao xe tận nơi.</div>
 
-  <div class="q"><div>Có giao xe tận nơi không?</div><div class="muted">+</div></div>
+  <div class="q" role="button" aria-expanded="false" tabindex="0"><div>Có giao xe tận nơi không?</div><div class="muted">+</div></div>
   <div class="a">Có, hỗ trợ giao xe tại Long Biên, Phố Cổ, Hoàn Kiếm, Tây Hồ, Ba Đình, Gia Lâm.</div>
 </section>
 
-<section id="lienhe" style="margin-top:18px;background:#fff;padding:18px;border-radius:12px;border:1px solid #f2f2f2">
-  <h2>📌 Liên hệ Thuê Xe Máy Motoopen</h2>
+<section id="lienhe" style="margin-top:18px;background:var(--apple-surface);padding:24px;border-radius:var(--radius);border:1px solid var(--apple-border); box-shadow: 0 4px 12px rgba(0,0,0,0.04);">
+  <h2><span role="img" aria-label="Biểu tượng ghim địa điểm">📌</span> Liên hệ Thuê Xe Máy Motoopen</h2>
   <p>Địa chỉ: 114 Nguyễn Văn Cừ, Bồ Đề, Long Biên, Hà Nội, Việt Nam</p>
-  <p>Điện thoại: <a href="tel:0857255868" style="color:var(--honda-red);font-weight:700">0857255868</a> | Email: <a href="mailto:motoopen12@gmail.com">motoopen12@gmail.com</a></p>
-  <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:12px">
-    <a href="tel:0857255868" class="btn primary"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
-    <a href="https://zalo.me/0857255868" target="_blank" class="btn" style="background:#2bc76f;color:#fff">💬 Zalo</a>
-    <a href="https://maps.app.goo.gl/2icTBTxAToyvKTE78" target="_blank" class="btn ghost">🗺️ Xem bản đồ</a>
+  <p>Điện thoại: <a href="tel:0857255868" style="color:var(--apple-accent);font-weight:700" aria-label="Số điện thoại liên hệ 0857 255 868">0857255868</a> | Email: <a href="mailto:motoopen12@gmail.com" style="color:var(--apple-accent);" aria-label="Gửi email tới motoopen12@gmail.com">motoopen12@gmail.com</a></p>
+  <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:16px">
+    <a href="tel:0857255868" class="btn primary" aria-label="Gọi điện thoại ngay 0857 255 868"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
+    <a href="https://zalo.me/0857255868" target="_blank" class="btn primary" style="background:#2bc76f;color:#fff" aria-label="Chat Zalo"><i class="fa-solid fa-comment-dots"></i> Zalo</a>
+    <a href="https://maps.app.goo.gl/2icTBTxAToyvKTE78" target="_blank" class="btn ghost" aria-label="Xem địa chỉ trên bản đồ"><span role="img" aria-label="Biểu tượng bản đồ">🗺️</span> Xem bản đồ</a>
   </div>
 </section>
 
@@ -335,46 +620,38 @@ tbody tr:hover{background:#fff6f6}
     <div>
       <h3>Thuê Xe Máy Motoopen</h3>
       <p>114 Nguyễn Văn Cừ — Long Biên — Hà Nội</p>
-      <p>⏰ 8:00 - 21:00</p>
+      <p><span role="img" aria-label="Biểu tượng đồng hồ">⏰</span> 8:00 - 21:00</p>
     </div>
 
     <div>
       <h3>Liên hệ</h3>
-      <p>📞 <a href="tel:0857255868" style="color:#ff66cc;text-decoration:none;">0857 255 868</a></p>
-      <p>✉️ <a href="mailto:motoopen@gmail.com" style="color:#ff66cc;text-decoration:none;">motoopen@gmail.com</a></p>
-      <p>💬 Zalo / WhatsApp</p>
+      <p><span role="img" aria-label="Biểu tượng điện thoại">📞</span> <a href="tel:0857255868" aria-label="Số điện thoại 0857 255 868">0857 255 868</a></p>
+      <p><span role="img" aria-label="Biểu tượng phong thư">✉️</span> <a href="mailto:motoopen12@gmail.com" aria-label="Email motoopen12@gmail.com">motoopen12@gmail.com</a></p>
+      <p><span role="img" aria-label="Biểu tượng bong bóng chat">💬</span> Zalo / WhatsApp</p>
     </div>
 
     <div>
       <h3>Mạng xã hội</h3>
       <div class="footer-social" style="display:flex;gap:12px;margin-top:10px">
-        <a class="socials" href="https://m.facebook.com/HanoiRentalMotorbike.NguyenTu/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-        <a class="socials" href="https://wa.me/84857255868" target="_blank" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-        <a class="socials" href="https://zalo.me/0857255868" target="_blank" title="Zalo"><i class="fa-solid fa-comment-dots"></i></a>
+        <a class="socials" href="https://m.facebook.com/HanoiRentalMotorbike.NguyenTu/" target="_blank" title="Facebook" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a class="socials" href="https://wa.me/84857255868" target="_blank" title="WhatsApp" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        <a class="socials" href="https://zalo.me/0857255868" target="_blank" title="Zalo" aria-label="Zalo"><i class="fa-solid fa-comment-dots"></i></a>
       </div>
-      <div class="leds" style="margin-top:12px;font-size:18px;display:flex;gap:6px;overflow:hidden;white-space:nowrap;">
-        <span>⚡</span><span>🔴</span><span>💡</span><span>🚀</span><span>🔥</span>
       </div>
-    </div>
   </div>
 
-  <hr style="border:none;border-top:1px solid #333;margin:20px 0;">
-  <p style="text-align:center;color:#777;font-size:0.9rem">© 2025 Motoopen — Designed in Hanoi</p>
+  <hr>
+  <p style="text-align:center;">© 2025 Motoopen12 — Designed in Hanoi</p>
 
-  <div style="overflow:hidden;white-space:nowrap;background:#111;padding:8px 0;margin-top:12px;">
-    <div style="display:inline-block;padding-left:100%;animation:marquee 12s linear infinite;color:#ff66cc;font-weight:700;">
-      ⚡ Thuê Xe Máy Hà Nội Giá Rẻ • Giao Tận Nơi • Xe số từ 150k/ngày • Xe ga từ 200k/ngày • Đặt cọc 2-5 triệu ⚡
-    </div>
-  </div>
-</footer>
+  </footer>
 
 <div class="float-actions">
-  <button id="backTop" title="Lên đầu trang">⬆️</button>
-  <button id="mainFloatBtn" title="Tùy chọn liên hệ">+</button>
-  <div class="more">
-    <a class="call" href="tel:0857255868" title="Gọi điện">📞</a>
-    <a class="zalo" href="https://zalo.me/0857255868" target="_blank" title="Chat Zalo">💬</a>
-    <a class="map" href="https://maps.app.goo.gl/2icTBTxAToyvKTE78" target="_blank" title="Xem bản đồ">🗺️</a>
+  <button id="backTop" title="Lên đầu trang" aria-label="Cuộn lên đầu trang"><span role="img" aria-label="Biểu tượng mũi tên hướng lên">⬆️</span></button>
+  <button id="mainFloatBtn" title="Tùy chọn liên hệ" aria-label="Mở menu tùy chọn liên hệ" aria-controls="floatMenuMore">+</button>
+  <div class="more" id="floatMenuMore">
+    <a class="call" href="tel:0857255868" title="Gọi điện" role="button" aria-label="Gọi điện thoại ngay 0857 255 868"><span role="img" aria-label="Biểu tượng điện thoại">📞</span></a>
+    <a class="zalo" href="https://zalo.me/0857255868" target="_blank" title="Chat Zalo" role="button" aria-label="Chat qua Zalo"><span role="img" aria-label="Biểu tượng bong bóng chat">💬</span></a>
+    <a class="map" href="https://maps.app.goo.gl/2icTBTxAToyvKTE78" target="_blank" title="Xem bản đồ" role="button" aria-label="Xem địa chỉ trên bản đồ"><span role="img" aria-label="Biểu tượng bản đồ">🗺️</span></a>
   </div>
 </div>
 
@@ -383,56 +660,144 @@ tbody tr:hover{background:#fff6f6}
   window.addEventListener('DOMContentLoaded', () => {
     document.body.style.opacity = 1;
     document.body.style.transform = 'translateY(0)';
+    
+    // Chỉ khởi tạo Typed Effect (Bike Trail đã bị loại bỏ)
+    initTypedEffect();
   });
 
-  // Mobile drawer
-  const hambtn = document.getElementById('hambtn');
+  /* -------------------------------------- */
+  /* --- MOBILE DRAWER SCRIPTS --- */
+  /* -------------------------------------- */
   const drawer = document.getElementById('drawer');
+  const hambtn = document.getElementById('hambtn');
   const closeDrawer = document.getElementById('closeDrawer');
+  const drawerLinks = document.querySelectorAll('.drawer a');
+
+  const closeDrawerMenu = () => {
+    drawer.classList.remove('open'); 
+    drawer.setAttribute('aria-hidden', 'true'); 
+  };
+
   hambtn?.addEventListener('click', () => { 
     drawer.classList.add('open'); 
-    drawer.setAttribute('aria-hidden','false'); 
+    drawer.setAttribute('aria-hidden', 'false'); 
   });
-  closeDrawer?.addEventListener('click', () => { 
-    drawer.classList.remove('open'); 
-    drawer.setAttribute('aria-hidden','true'); 
+  closeDrawer?.addEventListener('click', closeDrawerMenu);
+
+  drawerLinks.forEach(link => {
+    const href = link.getAttribute('href');
+    const isInternalLink = href && href.startsWith('#');
+    const icon = link.querySelector('i');
+
+    link.addEventListener('click', e => {
+      // Kích hoạt hoạt ảnh icon ngay lập tức
+      if (icon) {
+        icon.style.transition = '0.15s ease';
+        icon.style.transform = 'scale(1.2)';
+        icon.style.color = '#007aff'; // Nhấn mạnh màu xanh Apple
+      }
+      
+      if (isInternalLink) {
+        e.preventDefault(); 
+        
+        // Chờ hoạt ảnh icon kết thúc rồi đóng và cuộn
+        setTimeout(() => {
+          closeDrawerMenu();
+          const target = document.querySelector(href);
+          if (target) target.scrollIntoView({ behavior: 'smooth' });
+        }, 200); 
+      } else {
+        // Link ngoài: Đóng ngay lập tức để không cản trở hành vi mặc định
+        setTimeout(closeDrawerMenu, 200); 
+      }
+      
+      // Reset hoạt ảnh icon
+      setTimeout(() => {
+          if (icon) {
+              icon.style.transform = ''; 
+              icon.style.color = 'var(--apple-accent)'; // Trả về màu ban đầu
+          }
+      }, 180);
+    });
   });
-  document.addEventListener('click', (e) => {
-    if(drawer.classList.contains('open') && !drawer.contains(e.target) && !hambtn.contains(e.target)) {
-      drawer.classList.remove('open'); 
-      drawer.setAttribute('aria-hidden','true');
+
+  document.addEventListener('click', e => {
+    if(drawer.classList.contains('open') && !drawer.contains(e.target) && !hambtn.contains(e.target)){
+      closeDrawerMenu();
     }
   });
 
-  // Hero typed effect
-  const phrases = [
-    "Thuê Xe Máy Hà Nội — Giá Rẻ, Giao Tận Nơi.",
-    "Xe số từ 150k/ngày — Xe ga từ 200k/ngày.",
-    "Đặt cọc 2-5 triệu • Hỗ trợ giao tận nơi."
-  ];
-  let tIndex = 0, chIndex = 0, forward = true;
-  const typed = document.getElementById('typed');
-  function tick(){
-    if(!typed) return;
-    const word = phrases[tIndex];
-    typed.textContent = word.slice(0, chIndex);
-    if(forward){
-      chIndex++;
-      if(chIndex > word.length){
-        forward = false;
-        setTimeout(tick, 1000);
-        return;
+
+  /* -------------------------------------- */
+  /* --- TYPED EFFECT SCRIPTS --- */
+  /* -------------------------------------- */
+  function initTypedEffect() {
+      const phrases = [
+          "Thuê Xe Máy Hà Nội — Giá Rẻ, Giao Tận Nơi.",
+          "Xe số từ 150k/ngày — Xe ga từ 200k/ngày.",
+          "Đặt cọc 1-5 triệu • Hỗ trợ giao tận nơi."
+      ];
+      const typed = document.getElementById('typed');
+      if (!typed) return;
+
+      let tIndex = 0, chIndex = 0;
+      let forward = true; // true: gõ, false: xóa
+      let isPaused = false;
+      let lastTime = 0;
+      
+      // Tốc độ (ms/ký tự) và thời gian tạm dừng (ms)
+      const TYPE_SPEED = 60; 
+      const ERASE_SPEED = 28; 
+      const PAUSE_DURATION = 1000; 
+      let pauseStartTime = 0;
+
+      function tick(currentTime) {
+          requestAnimationFrame(tick);
+
+          if (!lastTime) lastTime = currentTime;
+          const deltaTime = currentTime - lastTime;
+          
+          // --- Logic Tạm dừng ---
+          if (isPaused) {
+              if (currentTime - pauseStartTime > PAUSE_DURATION) {
+                  isPaused = false;
+                  lastTime = currentTime; // Reset lastTime sau khi tạm dừng
+              }
+              return; 
+          }
+          
+          // --- Logic Gõ/Xóa ---
+          let actionSpeed = forward ? TYPE_SPEED : ERASE_SPEED;
+          
+          // Kiểm tra xem đã đủ thời gian để chuyển ký tự chưa
+          if (deltaTime < actionSpeed) {
+              return;
+          }
+
+          lastTime = currentTime; // Cập nhật thời điểm cuối cùng
+
+          const word = phrases[tIndex];
+          typed.textContent = word.slice(0, chIndex);
+
+          if (forward) {
+              chIndex++;
+              if (chIndex > word.length) {
+                  forward = false;
+                  isPaused = true;
+                  pauseStartTime = currentTime; // Bắt đầu tính thời gian tạm dừng
+                  return;
+              }
+          } else { // Xóa
+              chIndex--;
+              if (chIndex === 0) {
+                  forward = true;
+                  tIndex = (tIndex + 1) % phrases.length;
+              }
+          }
       }
-    } else {
-      chIndex--;
-      if(chIndex === 0){
-        forward = true;
-        tIndex = (tIndex + 1) % phrases.length;
-      }
-    }
-    setTimeout(tick, forward ? 60 : 28);
+
+      requestAnimationFrame(tick);
   }
-  tick();
 
   // FAQ accordion
   document.querySelectorAll('.faq .q').forEach(q => {
@@ -441,10 +806,21 @@ tbody tr:hover{background:#fff6f6}
       const icon = q.querySelector('.muted');
       if(!nxt) return;
       if(nxt.style.display === 'block'){
-        nxt.style.display='none'; icon.textContent='+';
+        nxt.style.display='none'; 
+        icon.textContent='+';
+        q.setAttribute('aria-expanded', 'false');
       } else {
-        nxt.style.display='block'; icon.textContent='−';
+        nxt.style.display='block'; 
+        icon.textContent='−';
+        q.setAttribute('aria-expanded', 'true');
       }
+    });
+    // Thêm hỗ trợ phím Enter/Space cho mục FAQ
+    q.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            q.click();
+        }
     });
   });
 
@@ -454,7 +830,7 @@ tbody tr:hover{background:#fff6f6}
     if(!c) return;
     let m = 0;
     setInterval(()=> { 
-      m += 240; 
+      m += 266; // Điều chỉnh bước nhảy theo min-width của review card
       if(m > c.scrollWidth - c.clientWidth) { 
         m = 0; 
         c.scrollTo({left:0, behavior:'smooth'}) 
@@ -462,69 +838,36 @@ tbody tr:hover{background:#fff6f6}
     }, 2800);
   })();
 
-  // --- FLOATING ACTIONS VIP SCRIPTS ---
-  // Hiển thị Back to Top khi scroll
+  // --- FLOATING ACTIONS SCRIPTS ---
   const backTop = document.getElementById('backTop');
+  const mainFloatBtn = document.getElementById('mainFloatBtn');
+  const moreBtns = document.getElementById('floatMenuMore'); 
+  
   window.addEventListener('scroll', () => {
-    if(backTop) backTop.style.display = window.scrollY > 200 ? 'block' : 'none';
+    if(backTop) backTop.style.display = window.scrollY > 200 ? 'flex' : 'none'; // Đổi từ block sang flex
   });
+  
   if(backTop) {
       backTop.addEventListener('click', () => {
-          window.scrollTo({top:0, behavior:'smooth'});
+          window.scrollTo({top:0, behavior: 'smooth'}); 
       });
   }
 
-  // Toggle quick actions
-  const mainFloatBtn = document.getElementById('mainFloatBtn');
-  const moreBtns = document.querySelector('.float-actions .more');
   if(mainFloatBtn && moreBtns) {
+      mainFloatBtn.setAttribute('aria-expanded', 'false'); 
+      moreBtns.setAttribute('aria-hidden', 'true'); 
+
       mainFloatBtn.addEventListener('click', () => {
-          moreBtns.style.display = moreBtns.style.display==='flex'?'none':'flex';
+          const isVisible = moreBtns.style.display === 'flex';
+          moreBtns.style.display = isVisible ? 'none' : 'flex';
+          
+          mainFloatBtn.setAttribute('aria-expanded', isVisible ? 'false' : 'true'); 
+          moreBtns.setAttribute('aria-hidden', isVisible ? 'true' : 'false'); 
+          mainFloatBtn.textContent = isVisible ? '+' : '✕'; // Đổi ký hiệu
       });
   }
 
-  // --- BIKE TRAIL SCRIPTS ---
-  const bikeTrailContainer = document.getElementById('bikeTrailContainer');
-  const bike = document.querySelector('.bike-multi');
-  const heroSection = document.querySelector('.hero');
-  
-  if(bike && bikeTrailContainer && heroSection){
-    let pos = -50;
-    // Lấy tọa độ Y của khu vực tạo khói (dựa vào bikeTrailContainer)
-    const heroRect = heroSection.getBoundingClientRect();
-    const smokeYBase = heroRect.top + heroRect.height - 20; 
-
-    // Hàm tạo khói
-    function createSmoke(x, y) {
-        const smoke = document.createElement('div');
-        smoke.className = 'bike-smoke';
-        // Đặt vị trí tuyệt đối so với body
-        smoke.style.top = (y + window.scrollY) + 'px';
-        smoke.style.left = x + 'px';
-        document.body.appendChild(smoke);
-        // Xóa khói sau khi animation kết thúc
-        setTimeout(() => smoke.remove(), 1200);
-    }
-
-    setInterval(() => {
-      const viewportWidth = window.innerWidth;
-      pos += 4; // tốc độ chạy
-      if(pos > viewportWidth){
-        pos = -50;
-      }
-      
-      // Cập nhật vị trí của container xe máy
-      bikeTrailContainer.style.left = pos + 'px';
-      
-      // Chỉ tạo khói khi xe máy hiển thị trong tầm nhìn (trong phạm vi Hero Section)
-      if (pos > 0 && pos < (heroRect.width - 20)) {
-          // Tính toán vị trí tạo khói
-          const smokeX = pos + 10; // offset so với container
-          // Tạo khói
-          createSmoke(smokeX, smokeYBase);
-      }
-    }, 60);
-  }
+  // --- BIKE TRAIL SCRIPTS (ĐÃ LOẠI BỎ) ---
 </script>
 
 </body>
