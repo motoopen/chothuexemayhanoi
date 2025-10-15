@@ -3,75 +3,53 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Landing Page Chatbot Demo</title>
+<title>Landing Page Chatbot Nâng Cao</title>
 <style>
 body { font-family: Arial; margin:0; padding:0; background:#f0f0f0; }
-
-/* Icon chatbot */
 #chatbotIcon {
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-  width: 50px; height: 50px;
-  background: #ff4081; border-radius: 50%;
-  cursor: pointer; z-index: 9999;
-  display: flex; align-items: center; justify-content: center;
-  color: #fff; font-size: 24px;
-  box-shadow:0 4px 15px rgba(0,0,0,0.2);
-  transition: transform 0.2s;
+  position: fixed; bottom:20px; left:20px;
+  width:50px; height:50px;
+  background:#ff4081; border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  color:#fff; font-size:24px; cursor:pointer;
+  z-index:9999; transition: transform 0.2s;
 }
 #chatbotIcon:active { transform: scale(0.9); }
 
-/* Chatbot container */
 #chatbot {
-  position: fixed; bottom: 20px; left: 20px;
-  width: 320px; max-width: 90%; height: 450px;
-  background: #fff; border-radius: 20px;
-  box-shadow: 0 4px 25px rgba(0,0,0,0.25);
-  display: flex; flex-direction: column;
-  overflow: hidden;
-  z-index: 9999;
-  transform: translateY(100%);
-  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: fixed; bottom:20px; left:20px;
+  width:320px; max-width:90%; height:450px;
+  background:#fff; border-radius:20px;
+  display:flex; flex-direction:column;
+  overflow:hidden; transform:translateY(100%);
+  transition: transform 0.4s cubic-bezier(0.4,0,0.2,1);
+  z-index:9999;
 }
-#chatbot.show { transform: translateY(0); }
+#chatbot.show { transform:translateY(0); }
 
-/* Header */
-#chatHeader {
-  background: #ff4081; color:#fff;
-  padding:10px; font-weight:bold;
-  display:flex; align-items:center;
-  border-bottom:1px solid #ddd;
-  cursor: grab;
-}
-#chatHeader:active { cursor: grabbing; }
+#chatHeader { background:#ff4081; color:#fff; padding:10px; display:flex; align-items:center; border-bottom:1px solid #ddd; cursor:grab;}
 #chatHeader img { width:40px; height:40px; border-radius:50%; margin-right:10px; transition: transform 0.1s; }
 #closeChat { margin-left:auto; cursor:pointer; font-weight:bold; font-size:18px; }
 
-/* Messages */
 #chatMessages { flex:1; padding:10px; overflow-y:auto; display:flex; flex-direction:column; }
-.bot, .user { padding: 10px 15px; margin:5px 0; border-radius:20px; max-width:80%; position:relative; }
+.bot,.user { padding:10px 15px; margin:5px 0; border-radius:20px; max-width:80%; position:relative; }
 .bot { background:#e1f5fe; align-self:flex-start; }
 .user { background:#c8e6c9; align-self:flex-end; }
 
-/* Input */
 #chatInput { display:flex; border-top:1px solid #ddd; }
-#chatInput input { flex:1; border:none; padding:10px; outline:none; border-radius:0; }
+#chatInput input { flex:1; border:none; padding:10px; outline:none; }
 #chatInput button { padding:10px 15px; background:#ff4081; color:#fff; border:none; cursor:pointer; }
 
-/* Balloon animation */
-.ballon { position: absolute; font-size:20px; animation: fly 1s ease-out forwards; }
-@keyframes fly { 0% {opacity:1; transform:translateY(0);} 100% {opacity:0; transform:translateY(-40px);}}
+.ballon { position:absolute; font-size:20px; animation:fly 1s ease-out forwards; }
+@keyframes fly {0%{opacity:1; transform:translateY(0);}100%{opacity:0; transform:translateY(-40px);}}
 </style>
+</head>
 <body>
 
-<!-- Chatbot icon -->
 <div id="chatbotIcon">💬</div>
-
-<!-- Chatbot container -->
 <div id="chatbot">
   <div id="chatHeader">
-    <img id="botIcon" src="https://i.imgur.com/3cXnUuT.png" alt="Bot">
+    <img id="botIcon" src="https://i.imgur.com/3cXnUuT.png">
     ChatGPT Bot
     <span id="closeChat">×</span>
   </div>
@@ -83,20 +61,6 @@ body { font-family: Arial; margin:0; padding:0; background:#f0f0f0; }
 </div>
 
 <script>
-// ----------------- Config -----------------
-const prices = {
-  "50cc": {ngay:200, tuan:800, thang:1800},
-  "xe-ga": {ngay:200, tuan:900, thang:2000},
-  "honda-vision": {ngay:200, tuan:900, thang:2000},
-  "airblade": {ngay:200, tuan:800, thang:1500},
-  "wave": {ngay:150, tuan:600, thang:1200},
-  "sirius": {ngay:150, tuan:600, thang:1200},
-  "xe-dien": {ngay:200, tuan:800, thang:1500}
-};
-
-const keywords = ["thuê","xe","ngày","tuần","tháng","honda","vision","airblade","50cc","wave","sirius","xe điện"];
-
-// ----------------- DOM -----------------
 const chatbot = document.getElementById('chatbot');
 const chatbotIcon = document.getElementById('chatbotIcon');
 const closeChat = document.getElementById('closeChat');
@@ -105,9 +69,25 @@ const input = document.querySelector('#chatInput input');
 const button = document.querySelector('#chatInput button');
 const botIcon = document.getElementById('botIcon');
 
-// ----------------- Bot hiển thị -----------------
+// Bảng giá xe
+const xeList = [
+  {xe:"Honda Vision", day:200, week:900, month:2000, type:"xe ga"},
+  {xe:"Air Blade", day:200, week:800, month:1500, type:"xe ga"},
+  {xe:"Xe 50cc", day:200, week:800, month:1800, type:"xe số"},
+  {xe:"Wave", day:150, week:600, month:1200, type:"xe số"},
+  {xe:"Sirius", day:150, week:600, month:1200, type:"xe số"},
+  {xe:"Xe điện", day:200, week:800, month:1500, type:"xe điện"}
+];
+
+// Mở/đóng chatbot
+chatbotIcon.addEventListener('click', ()=>{
+  chatbot.classList.add('show');
+  showBotMessage("Chào bạn! Tôi là ChatGPT phiên bản Việt Nam 😎. Tôi có thể giúp gì cho bạn?");
+});
+closeChat.addEventListener('click', ()=>{ chatbot.classList.remove('show'); });
+
+// Hiển thị tin nhắn bot
 function showBotMessage(msg){
-  // Nháy mắt
   botIcon.style.transform="scaleY(0.1)";
   setTimeout(()=>{botIcon.style.transform="scaleY(1)";},150);
 
@@ -125,83 +105,104 @@ function showBotMessage(msg){
   setTimeout(()=>{div.removeChild(balloon);},1000);
 }
 
-// ----------------- Mở/đóng chatbot -----------------
-chatbotIcon.addEventListener('click', ()=>{
-  chatbot.classList.add('show');
-  showBotMessage("Chào bạn! Tôi là ChatGPT phiên bản Việt Nam 😎. Tôi có thể giúp gì cho bạn?");
-});
-closeChat.addEventListener('click', ()=>{ chatbot.classList.remove('show'); });
-
-// ----------------- Xử lý input -----------------
-function handleInput(msgInput){
-  let userMsg = msgInput || input.value.trim();
+// Phân tích câu hỏi
+function handleInput(){
+  const userMsg=input.value.trim().toLowerCase();
   if(!userMsg) return;
+
   const div=document.createElement('div');
   div.className='user';
-  div.textContent=userMsg;
+  div.textContent=input.value.trim();
   messages.appendChild(div);
   messages.scrollTop=messages.scrollHeight;
 
-  let xe='', thoigian='';
+  let found=false;
 
-  // Nhận diện xe
-  for(let key in prices){
-    if(userMsg.toLowerCase().includes(key)) xe=key;
-  }
-  // Nhận diện thời gian
-  if(userMsg.toLowerCase().includes("ngay")) thoigian='ngay';
-  if(userMsg.toLowerCase().includes("tuần") || userMsg.toLowerCase().includes("tuan")) thoigian='tuan';
-  if(userMsg.toLowerCase().includes("tháng") || userMsg.toLowerCase().includes("thang")) thoigian='thang';
-
-  let reply='';
-  if(userMsg.toLowerCase().includes("thuê") || userMsg.toLowerCase().includes("xe")){
-    if(xe && thoigian){
-      reply=`Giá thuê ${xe.replace(/-/g,' ')} ${thoigian}: ${prices[xe][thoigian]}k. Liên hệ Zalo để báo giá chính xác và nhiều ưu đãi khi thuê nhiều ngày.`;
-    } else {
-      reply='Bạn muốn thuê xe nào? 1 ngày, 1 tuần hay 1 tháng?';
+  // Tìm từ khoá xe
+  let selectedXe=null;
+  for(let xe of xeList){
+    if(userMsg.includes(xe.xe.toLowerCase()) || userMsg.includes(xe.type)){
+      selectedXe=xe; break;
     }
-  } else {
-    reply="Hmm… tôi chưa hiểu câu hỏi này 😅";
   }
 
-  setTimeout(()=>showBotMessage(reply),300);
+  // Tìm số lượng & loại thời gian
+  let qty=1, type='day';
+  const regex=/(\d+)\s*(ngày|tuần|tháng)/i;
+  const match=userMsg.match(regex);
+  if(match){ qty=parseInt(match[1]); type=match[2]; }
+
+  if(userMsg.includes("thuê") && selectedXe){
+    let price=selectedXe.day;
+    if(type==="ngày") price=selectedXe.day*qty;
+    else if(type==="tuần") price=selectedXe.week*qty;
+    else if(type==="tháng") price=selectedXe.month*qty;
+
+    showBotMessage(`Giá thuê ${selectedXe.xe} ${qty} ${type} là ${price}k. 
+Bạn liên hệ Zalo để báo giá chính xác và nhiều ưu đãi khi thuê nhiều ngày. (Phiên bản ChatGPT Việt, có thể báo giá sai)`);
+    found=true;
+  }
+
+  if(!found){
+    if(userMsg.includes("xin chào") || userMsg.includes("hello"))
+      showBotMessage("Chào bạn! Tôi là ChatGPT phiên bản Việt Nam 😎. Tôi có thể giúp gì cho bạn?");
+    else if(userMsg.includes("còn thức không"))
+      showBotMessage("Tôi là ChatGPT phiên bản không bao giờ ngủ 😏");
+    else
+      showBotMessage("Hmm… tôi chưa hiểu câu hỏi này 😅");
+  }
+
   input.value='';
 }
 
-button.addEventListener('click', ()=>handleInput());
+button.addEventListener('click', handleInput);
 input.addEventListener('keydown',(e)=>{if(e.key==='Enter') handleInput();});
 
-// ----------------- Kéo thả -----------------
+// Kéo thả
 let isDragging=false, offsetX=0, offsetY=0;
-const header = document.getElementById('chatHeader');
+const header=document.getElementById('chatHeader');
 header.addEventListener('mousedown', startDrag);
 header.addEventListener('touchstart', startDrag);
+
 function startDrag(e){
   isDragging=true;
   const rect=chatbot.getBoundingClientRect();
-  if(e.type==='touchstart'){ offsetX=e.touches[0].clientX-rect.left; offsetY=e.touches[0].clientY-rect.top;}
-  else{ offsetX=e.clientX-rect.left; offsetY=e.clientY-rect.top; }
+  if(e.type==='touchstart'){
+    offsetX=e.touches[0].clientX-rect.left;
+    offsetY=e.touches[0].clientY-rect.top;
+  } else {
+    offsetX=e.clientX-rect.left;
+    offsetY=e.clientY-rect.top;
+  }
   document.addEventListener('mousemove', dragMove);
   document.addEventListener('mouseup', stopDrag);
   document.addEventListener('touchmove', dragMove);
   document.addEventListener('touchend', stopDrag);
 }
+
 function dragMove(e){
   if(!isDragging) return;
-  let x,y;
-  if(e.type.startsWith('touch')){ x=e.touches[0].clientX-offsetX; y=e.touches[0].clientY-offsetY; }
-  else{ x=e.clientX-offsetX; y=e.clientY-offsetY; }
+  let x, y;
+  if(e.type.startsWith('touch')){
+    x=e.touches[0].clientX-offsetX;
+    y=e.touches[0].clientY-offsetY;
+  } else {
+    x=e.clientX-offsetX;
+    y=e.clientY-offsetY;
+  }
   const maxX=window.innerWidth-chatbot.offsetWidth;
   const maxY=window.innerHeight-chatbot.offsetHeight;
   chatbot.style.left=Math.min(Math.max(0,x),maxX)+'px';
   chatbot.style.top=Math.min(Math.max(0,y),maxY)+'px';
   chatbot.style.bottom='auto';
 }
-function stopDrag(){ isDragging=false;
-  document.removeEventListener('mousemove', dragMove);
-  document.removeEventListener('mouseup', stopDrag);
-  document.removeEventListener('touchmove', dragMove);
-  document.removeEventListener('touchend', stopDrag);
+
+function stopDrag(){
+  isDragging=false;
+  document.removeEventListener('mousemove',dragMove);
+  document.removeEventListener('mouseup',stopDrag);
+  document.removeEventListener('touchmove',dragMove);
+  document.removeEventListener('touchend',stopDrag);
 }
 </script>
 </body>
