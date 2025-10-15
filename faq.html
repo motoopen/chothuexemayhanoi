@@ -299,8 +299,9 @@
       backdrop-filter: blur(14px) saturate(150%);
       border-top: 1px solid rgba(220,220,225,0.4);
       padding: 48px 20px 32px;
+      /* Thay thế footer-container bằng grid trực tiếp */
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+      grid-template-columns: repeat(auto-fit, minmax(180px,1fr)); 
       gap: 24px;
       font-family: Inter, sans-serif;
       color: #1d1d1f;
@@ -310,12 +311,15 @@
       border-radius: 16px 16px 0 0;
       margin-top: 0; 
       padding-bottom: 50px; 
+      text-align: left; /* Đặt lại mặc định là left */
     }
 
     footer.premium h4 {
       margin-bottom: 12px;
       font-weight: 700;
       font-size: 1.05rem;
+      text-transform: uppercase;
+      color: var(--accent); /* Đổi màu tiêu đề */
     }
 
     footer.premium a {
@@ -325,19 +329,66 @@
       text-decoration: none;
       transition: all 0.2s ease;
       text-align: left;
+      position: relative;
     }
 
+    /* Hiệu ứng gạch chân (tùy chọn) */
+    footer.premium a::after {
+      content:'';
+      position:absolute;
+      left:0; bottom:0;
+      width:0; height:2px;
+      background: linear-gradient(90deg,var(--accent),var(--quick-main-end));
+      transition: width 0.3s ease;
+      border-radius:1px;
+    }
+
+    footer.premium a:hover::after { width:100%; }
     footer.premium a:hover {
-      color: #007aff;
+      color: var(--accent);
       transform: translateX(4px);
     }
+    
+    /* Icon style */
+    footer.premium a i {
+        margin-right: 6px;
+        width: 18px;
+        text-align: center;
+    }
 
-    footer .author {
-      margin-top: 12px;
+
+    footer .author, footer.premium p {
+      margin-top: 6px;
       font-size: 0.85rem;
       color: #6e6e73;
-      text-align: left;
+      display: flex; 
+      align-items: center; 
+      gap: 6px;
     }
+
+    /* Style cho social icons */
+    .footer-social {
+        display: flex;
+        gap: 12px;
+        margin-top: 10px;
+    }
+    .footer-social a {
+        display: inline-flex;
+        width: 32px;
+        height: 32px;
+        background: var(--accent);
+        color: #fff;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+        transition: transform 0.2s, background 0.2s;
+    }
+    .footer-social a:hover {
+        transform: scale(1.1);
+        background: var(--quick-main-end);
+    }
+
 
     /* Xóa style cũ của .quick-call đơn giản (góc trái) */
     .quick-call { display: none !important; }
@@ -423,7 +474,7 @@
       width: 48px;
       height: 48px;
       border-radius: 50%;
-      display: flex;
+      display: none; /* Mặc định ẩn, JS sẽ bật */
       justify-content: center;
       align-items: center;
       font-size: 1.2rem;
@@ -453,9 +504,10 @@
       align-items: center;
       font-weight: 700;
       font-size: 1rem;
-      color: #007aff;
+      color: var(--accent);
       background: rgba(255,255,255,0.72); 
       padding: 0 0 0 20px;
+      border-top: 1px solid rgba(220,220,225,0.4);
     }
     .footer-tagline .inner {
       display: inline-flex;
@@ -463,6 +515,7 @@
       gap: 12px;
       animation: marquee 15s linear infinite alternate;
       padding-right: 40px; 
+      text-shadow: 0 0 4px #00d4ff, 0 0 10px #00d4ff; /* Thêm hiệu ứng glow nhẹ */
     }
     .footer-tagline img {
       width: 28px;
@@ -471,9 +524,9 @@
     }
     .footer-tagline:hover .inner { animation-play-state: paused; }
 
+    /* Đổi animation để vòng lặp 2 chiều, mượt hơn */
     @keyframes marquee {
-      0% { transform: translateX(-100%); }
-      50% { transform: translateX(100%); }
+      0% { transform: translateX(100%); }
       100% { transform: translateX(-100%); }
     }
 
@@ -484,8 +537,13 @@
         padding-left: 10px;
         padding-right: 10px;
       }
-      footer.premium a, footer .author {
+      /* Căn giữa cho mobile */
+      footer.premium a, footer .author, footer.premium p {
         text-align: center; 
+        justify-content: center;
+      }
+      .footer-social {
+        justify-content: center;
       }
       .footer-tagline { 
         font-size: 0.9rem; 
@@ -675,29 +733,47 @@
 
   <footer class="premium">
     <div>
-      <h4>Liên hệ</h4>
-      <a href="tel:0857255868"><i class="fa-solid fa-phone"></i> 0857 255 868</a>
-      <a href="https://zalo.me/84857255868" target="_blank"><i class="fa-solid fa-comment-dots"></i> Zalo Chat</a>
+      <h4>Trang</h4>
+      <a href="#gioithieu"><i class="fa-solid fa-house"></i> Trang chủ</a>
+      <a href="#banggia"><i class="fa-solid fa-tags"></i> Bảng giá</a>
+      <a href="#danhgia"><i class="fa-solid fa-star"></i> Review</a>
+      <a href="#faq"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+    </div>
+
+    <div>
+      <h4>Dòng xe</h4>
+      <a href="#xe"><i class="fa-solid fa-motorcycle"></i> Xe số</a>
+      <a href="#xe"><i class="fa-solid fa-motorcycle"></i> Xe ga</a>
+      <a href="#xe"><i class="fa-solid fa-bolt"></i> Xe điện</a>
+    </div>
+    
+    <div>
+      <h4>Liên hệ nhanh</h4>
+      <a href="tel:0857255868"><i class="fa-solid fa-phone"></i> Gọi ngay: 0857 255 868</a>
+      <a href="https://zalo.me/84857255868" target="_blank"><i class="fa-solid fa-comment-dots"></i> Chat Zalo</a>
       <a href="mailto:motoopen12@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
     </div>
+
     <div>
-      <h4>Mạng xã hội</h4>
-      <a href="https://m.facebook.com/motoopenvn/" target="_blank"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
-      <a href="https://www.instagram.com/motoopen/" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
-      <a href="https://www.pinterest.com/motoopen12/" target="_blank"><i class="fa-brands fa-pinterest"></i> Pinterest</a>
+      <h4>Địa chỉ & Giờ làm việc</h4>
+      <a href="https://maps.app.goo.gl/dTLAo1aHMvytByf99?g_st=ipc" target="_blank">
+        <i class="fa-solid fa-location-dot"></i> 114 Nguyễn Văn Cừ, Long Biên, Hà Nội
+      </a>
+      <p><i class="fa-solid fa-clock"></i> 9:00 - 21:00 (Tất cả các ngày)</p>
+      
+      <div class="footer-social">
+        <a href="https://m.facebook.com/motoopenvn/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/motoopen/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.pinterest.com/motoopen12/" target="_blank" title="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
+      </div>
     </div>
+
     <div>
-      <h4>Địa chỉ & Bản đồ</h4>
-      <a href="https://maps.app.goo.gl/dTLAo1aHMvytByf99?g_st=ipc" target="_blank"><i class="fa-solid fa-location-dot"></i> Xem trên Maps</a>
-      <p class="author">114 Nguyễn Văn Cừ, Long Biên, Hà Nội, Việt Nam</p>
-      <p class="author">Giờ làm việc: 9:00 - 21:00</p>
-    </div>
-    <div>
-      <h4>Tác giả</h4>
+      <h4>Tác giả & Bản quyền</h4>
       <a href="https://motoopen.github.io/chothuexemayhanoi.index.html/" target="_blank">
         Thuê xe máy Hà Nội - Motoopen
       </a>
-      <p class="author">© 2025 Motoopen</p>
+      <p class="author"><i class="fa-solid fa-copyright"></i> 2025 Motoopen. All Rights Reserved.</p>
     </div>
 
     <div class="footer-tagline">
@@ -707,7 +783,6 @@
       </div>
     </div>
   </footer>
-
   <div class="quick-call-game">
     <button class="quick-main" aria-label="Mở menu gọi nhanh" title="Menu gọi nhanh">
       <i class="fa-solid fa-phone"></i>
@@ -765,6 +840,7 @@
       // 3) Scroll effects: nav style and parallax background
       let lastY = window.scrollY || 0;
       let ticking = false;
+      const backTop = document.querySelector('.back-top'); // Thêm backTop element
       function onScroll(){
         lastY = window.scrollY || 0;
         if(!ticking){
@@ -777,6 +853,8 @@
       }
       function handleScroll(y){
         if(y > 8) topbar.classList.add('scrolled'); else topbar.classList.remove('scrolled');
+        if(y > 300 && backTop) backTop.style.display = 'flex'; else if(backTop) backTop.style.display = 'none'; // Hiển thị/Ẩn Back to Top
+
         // small parallax for reviews background (move slower)
         if(reviewsBg){
           // apply small translate based on page offset
@@ -850,28 +928,26 @@
         });
       });
 
-      // ** Quick Call Menu logic NÂNG CẤP (Đã Tích Hợp) **
+      // ** Quick Call Menu logic NÂNG CẤP **
       const quickGame = document.querySelector('.quick-call-game');
       const mainBtn = document.querySelector('.quick-call-game .quick-main');
-      const backTop = document.querySelector('.back-top');
-      // Lấy giá trị bottom mặc định từ CSS hoặc set cố định (90px)
-      const backTopBottomDefault = window.matchMedia('(max-width: 520px)').matches ? 80 : 90; 
-      const backTopBottomOpen = window.matchMedia('(max-width: 520px)').matches ? 220 : 230; 
-
+      
+      // Lấy giá trị bottom mặc định cho Back to Top
+      const getBackTopDefaultBottom = () => window.matchMedia('(max-width: 520px)').matches ? 80 : 90; 
+      const getBackTopOpenBottom = () => window.matchMedia('(max-width: 520px)').matches ? 220 : 230; 
 
       function updateBackTopPosition(isOpen) {
           if (!backTop) return;
           if (isOpen) {
-              backTop.style.bottom = backTopBottomOpen + 'px'; // Đẩy lên khi menu mở
+              backTop.style.bottom = getBackTopOpenBottom() + 'px'; // Đẩy lên khi menu mở
           } else {
-              // Cập nhật giá trị mặc định cho mobile/desktop
-              const currentDefault = window.matchMedia('(max-width: 520px)').matches ? 80 : 90; 
-              backTop.style.bottom = currentDefault + 'px'; // Vị trí mặc định
+              backTop.style.bottom = getBackTopDefaultBottom() + 'px'; // Vị trí mặc định
           }
       }
       
       if (quickGame && mainBtn) {
-          mainBtn.addEventListener('click', () => {
+          mainBtn.addEventListener('click', (e) => {
+              e.stopPropagation(); // Ngăn chặn sự kiện click lan truyền đến document
               const isOpen = quickGame.classList.toggle('open');
               updateBackTopPosition(isOpen);
           });
