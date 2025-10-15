@@ -29,6 +29,8 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 
 <style>
 /* 🌟 Apple Style Full UI (Light Mode) 🌟 */
@@ -80,22 +82,29 @@ h1, h2, h3 {
 }
 
 /* -------------------------------------- */
-/* --- HEADER & NAVIGATION --- */
+/* --- 🚀 HEADER & NAVIGATION (NEW PREMIUM STYLE) 🚀 --- */
 /* -------------------------------------- */
+
+/* === APP PREMIUM NAVBAR === */
 .topbar {
-  position: sticky;
-  top: 0;
+  position: fixed; /* Thay thế sticky bằng fixed */
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 32px);
+  max-width: var(--maxw);
   z-index: 1200;
-  /* Màu nền trắng mờ và blur */
-  background: rgba(255, 255, 255, 0.88);
-  backdrop-filter: blur(14px);
-  border-bottom: 1px solid var(--apple-border);
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset; /* Hiệu ứng ánh sáng nhẹ */
-  padding: 8px 20px;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(14px) saturate(180%);
+  border: 1px solid rgba(210, 210, 215, 0.6);
+  border-radius: 18px;
+  padding: 12px 22px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+  transition: all 0.4s ease;
 }
 
 .nav {
-  max-width: var(--maxw);
+  /* Đã tối ưu cho Fixed Bar */
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -108,135 +117,150 @@ h1, h2, h3 {
   gap: 10px;
 }
 .brand img {
-  width: 42px; /* Kích thước nhỏ hơn */
-  height: 42px;
-  border-radius: 8px; /* Góc bo nhẹ */
+  width: 40px; /* Kích thước mới */
+  height: 40px;
+  border-radius: 10px; /* Góc bo mới */
   border: none;
 }
 .brand h3 {
   margin: 0;
-  font-weight: 600; /* Dùng 600 thay vì 800 */
-  font-size: 1.1rem;
+  font-weight: 700; /* Dùng 700 theo style mới */
+  font-size: 1.15rem;
   color: var(--apple-text);
 }
-.brand a { text-decoration: none; color: var(--apple-text); } /* Đảm bảo link không có gạch chân */
-.brand div { color: var(--apple-subtext) !important; font-size: 0.8rem !important; }
+.brand a { text-decoration: none; color: var(--apple-text); }
+.brand div { display: none; } /* Ẩn subtext dưới logo trong style Premium mới */
 
 /* Nav Links Desktop */
 .nav-links {
   display: flex;
-  gap: 6px; /* Giảm khoảng cách */
   align-items: center;
+  gap: 8px; /* Khoảng cách mới */
 }
 .nav-links a {
   text-decoration: none;
-  color: var(--apple-subtext);
-  padding: 8px 12px;
-  border-radius: 8px; /* Góc bo nhẹ */
-  font-weight: 500;
-  transition: background 0.2s, color 0.2s, transform 0.2s;
-  position: relative;
-  display: inline-flex;
-  gap: 8px;
-  align-items: center;
-}
-/* Xóa hiệu ứng hover cũ và thay bằng hiệu ứng Apple */
-.nav-links a::before { content: none; }
-.nav-links a:hover {
-  background: rgba(0, 0, 0, 0.04);
   color: var(--apple-text);
+  padding: 8px 14px;
+  border-radius: 12px; /* Góc bo mới */
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: 0.25s;
+}
+
+.nav-links a:hover {
+  background: rgba(0, 0, 0, 0.05);
+  color: var(--apple-accent);
   transform: none; 
 }
-.icon-bounce { animation: none !important; } /* Bỏ hiệu ứng bounce */
+.nav-links a i { font-size: 1rem; }
 
 /* CTA - Nút Call to Action */
 .cta {
   background: var(--apple-accent);
   color: #fff !important;
   font-weight: 600 !important;
-  padding: 8px 16px !important;
+  padding: 10px 18px !important; /* Kích thước mới */
   border-radius: 999px !important;
-  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 12px rgba(0, 122, 255, 0.25);
+  transition: 0.25s;
 }
-.cta:hover {
-  background: var(--apple-accent-hover);
-  box-shadow: 0 2px 8px rgba(0, 122, 255, 0.2);
-}
+.cta:hover { background: #0066e5; }
 
+
+/* === HAMBURGER (NEW) === */
 .hamburger {
   display: none;
+  position: relative;
+  width: 26px;
+  height: 22px;
   border: none;
   background: none;
-  font-size: 20px;
-  color: var(--apple-text);
-  padding: 8px;
-  border-radius: 8px;
   cursor: pointer;
+  z-index: 1300;
 }
+.hamburger .bar {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: var(--apple-text);
+  border-radius: 3px;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hamburger .bar:nth-child(1) { top: 0; }
+.hamburger .bar:nth-child(2) { top: 9px; }
+.hamburger .bar:nth-child(3) { top: 18px; }
+
+.hamburger.active .bar:nth-child(1) { transform: translateY(9px) rotate(45deg); }
+.hamburger.active .bar:nth-child(2) { opacity: 0; }
+.hamburger.active .bar:nth-child(3) { transform: translateY(-9px) rotate(-45deg); }
+
 @media (max-width: 900px) {
   .nav-links { display: none; }
-  .hamburger { display: inline-flex; }
+  .hamburger { display: inline-block; }
   .brand h3 { font-size: 1rem; }
+  .topbar { padding: 8px 16px; } /* Giảm padding trên mobile */
 }
 
-/* Mobile drawer - Màu sắc và hiệu ứng Apple */
-.drawer{
-  position:fixed;
-  right:0;top:0;
-  height:100vh;
-  width:300px; /* Rộng hơn một chút */
-  background:var(--apple-surface);
-  color:var(--apple-text);
-  padding:20px;
-  transform:translateX(100%);
-  transition:transform 0.35s cubic-bezier(.22,1,.36,1);
-  box-shadow: -4px 0 16px rgba(0, 0, 0, 0.1);
-  z-index:1400;
-  backdrop-filter: none; /* Bỏ blur trên drawer */
+/* === DRAWER (NEW) === */
+.drawer-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(4px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+  z-index: 1199;
 }
-.drawer a{
-  color:var(--apple-text);
-  border-bottom: 1px solid var(--apple-border); /* Thêm đường viền phân cách */
-  transition: background 0.2s, transform 0.2s, opacity 0.2s;
-  text-decoration: none;
+.drawer-overlay.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+.drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 300px;
+  background: rgba(255,255,255,0.9);
+  backdrop-filter: blur(18px) saturate(180%);
+  border-left: 1px solid rgba(210,210,215,0.5);
+  box-shadow: -10px 0 30px rgba(0,0,0,0.1);
+  transform: translateX(100%);
+  transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  padding: 60px 30px 30px;
+  z-index: 1200;
+}
+.drawer.open { transform: translateX(0); }
+.drawer a {
   display: flex;
-  gap: 8px;
   align-items: center;
-  padding: 12px 10px;
-  border-radius: 8px;
-  margin-bottom: 6px;
-  opacity:0;
-  transform:translateX(20px);
+  gap: 12px;
+  text-decoration: none;
+  color: var(--apple-text);
+  font-weight: 500;
+  font-size: 1.05rem;
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(210, 210, 215, 0.4);
+  transition: color 0.25s;
 }
-.drawer a:hover {
-    background: rgba(0, 0, 0, 0.04);
-    transform: none;
-}
-.drawer a i {
-    color: var(--apple-accent); /* Màu icon đồng nhất */
-    text-shadow: none; /* Bỏ neon */
-    transition: transform 0.2s;
-}
-.drawer a:hover i {
-    transform: scale(1.1);
-}
-.drawer a[href*="zalo"] {
-  background: var(--apple-accent); /* Thay Zalo xanh bằng Apple Blue */
-  color: #fff !important;
-  font-weight: 600;
-  border: none;
-  margin-top: 10px;
+.drawer a i { font-size: 1.1rem; color: var(--apple-accent); }
+.drawer a:hover { color: var(--apple-accent); }
+.drawer .cta {
+  display: inline-flex; /* Đổi từ block để căn giữa tốt hơn */
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  margin-top: 25px;
+  padding: 13px 0;
+  width: 100%;
+  border-radius: 999px;
+  box-shadow: 0 4px 15px rgba(0, 122, 255, 0.2);
+  color: #fff !important;
 }
-.drawer a[href*="zalo"] i {
-    color: #fff;
-}
-.drawer .close {
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 12px;
-}
-
 
 /* -------------------------------------- */
 /* --- HERO SECTION --- */
@@ -247,7 +271,7 @@ h1, h2, h3 {
   /* Bóng mờ Apple */
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06); 
   padding: 40px; /* Đệm lớn hơn */
-  margin: 24px 0;
+  margin: 100px 0 24px 0; /* Tăng margin-top để tránh Navbar fixed */
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -407,6 +431,7 @@ td:first-child { font-weight: 500; } /* Highlight cột đầu tiên */
     max-width: var(--maxw);
     margin: 0 auto;
     display: grid;
+    /* Dùng lại cấu trúc grid cũ */
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
 }
@@ -517,35 +542,35 @@ td:first-child { font-weight: 500; } /* Highlight cột đầu tiên */
 <body>
 
 <header class="topbar">
-<nav class="nav">
-  <div class="brand">
-    <a href="#" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--apple-text)" aria-label="Về trang chủ Thuê Xe Máy Motoopen">
-      <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Logo Motoopen">
-      <div>
-        <h3>Thuê Xe Máy <span style="color:var(--apple-accent)">Motoopen</span></h3>
-        <div style="font-size:12px;color:var(--apple-subtext);margin-top:2px">114 Nguyễn Văn Cừ — 0857 255 868</div>
-      </div>
-    </a>
-  </div>
-  <div class="nav-links">
-    <a href="#gioithieu" aria-label="Đi tới mục Giới thiệu"><i class="fa-solid fa-house"></i> Home</a>
-    <a href="#gia" aria-label="Đi tới mục Bảng giá"><i class="fa-solid fa-money-bill-wave"></i> Bảng giá</a>
-    <a href="#faq" aria-label="Đi tới mục Câu hỏi thường gặp"><i class="fa-solid fa-circle-question"></i> FAQ</a>
-    <a href="#lienhe" class="cta" aria-label="Gọi điện thoại ngay"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
-  </div>
-  <button class="hamburger" id="hambtn" aria-label="Mở menu di động"><i class="fa-solid fa-bars"></i></button>
-</nav>
+  <nav class="nav">
+    <div class="brand">
+      <a href="#" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--apple-text)" aria-label="Về trang chủ Thuê Xe Máy Motoopen">
+        <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Logo Motoopen">
+        <h3>Motoopen</h3>
+      </a>
+    </div>
+
+    <div class="nav-links">
+      <a href="#gioithieu" aria-label="Đi tới mục Trang chủ"><i class="fa-solid fa-house"></i> Trang chủ</a>
+      <a href="#gia" aria-label="Đi tới mục Bảng giá"><i class="fa-solid fa-tags"></i> Bảng giá</a>
+      <a href="#faq" aria-label="Đi tới mục Câu hỏi thường gặp"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+      <a href="#lienhe" class="cta" aria-label="Gọi điện thoại ngay"><i class="fa-solid fa-bolt"></i> Đặt xe</a>
+    </div>
+
+    <button class="hamburger" id="hambtn" aria-label="Menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+  </nav>
 </header>
 
-<div class="drawer" id="drawer" aria-hidden="true">
-  <div class="close">
-    <button id="closeDrawer" style="background:none;border:none;color:var(--apple-text);font-size:1.5rem;cursor:pointer;" aria-label="Đóng menu">✕</button>
-  </div>
-  <a href="#gioithieu" aria-label="Giới thiệu"><i class="fa-solid fa-house"></i> Giới thiệu</a>
-  <a href="#gia" aria-label="Bảng giá"><i class="fa-solid fa-money-bill-wave"></i> Bảng giá</a>
+<div class="drawer" id="drawer">
+  <a href="#gioithieu" aria-label="Trang chủ"><i class="fa-solid fa-house"></i> Trang chủ</a>
+  <a href="#gia" aria-label="Bảng giá"><i class="fa-solid fa-tags"></i> Bảng giá</a>
   <a href="#faq" aria-label="Câu hỏi thường gặp"><i class="fa-solid fa-circle-question"></i> FAQ</a>
   <a href="#lienhe" aria-label="Liên hệ"><i class="fa-solid fa-phone"></i> Liên hệ</a>
-  <a href="https://zalo.me/0857255868" target="_blank" aria-label="Chat qua Zalo"><i class="fa-brands fa-whatsapp"></i> Chat Zalo</a>
+  <a href="https://zalo.me/0857255868" target="_blank" class="cta" style="background:#2bc76f;"><i class="fa-solid fa-comment-dots"></i> Chat Zalo</a>
 </div>
 
 <main class="wrap" id="gioithieu">
@@ -563,7 +588,6 @@ td:first-child { font-weight: 500; } /* Highlight cột đầu tiên */
   </div>
 
   </section>
-
 <section class="pricing" id="gia">
   <h2><span role="img" aria-label="Biểu tượng bảng kê">📋</span> Bảng Giá Thuê Xe Máy Hà Nội</h2>
   <div class="table-wrap">
@@ -663,69 +687,63 @@ td:first-child { font-weight: 500; } /* Highlight cột đầu tiên */
     
     // Chỉ khởi tạo Typed Effect (Bike Trail đã bị loại bỏ)
     initTypedEffect();
+
+    // 🌟 KHỞI TẠO OVERLAY MỚI 🌟
+    const overlay = document.createElement('div');
+    overlay.classList.add('drawer-overlay');
+    document.body.appendChild(overlay);
+
+    // BẬT LOGIC MENU MỚI
+    initNewDrawerLogic(overlay);
   });
 
   /* -------------------------------------- */
-  /* --- MOBILE DRAWER SCRIPTS --- */
+  /* --- 🚀 NEW MOBILE DRAWER SCRIPTS 🚀 --- */
   /* -------------------------------------- */
-  const drawer = document.getElementById('drawer');
-  const hambtn = document.getElementById('hambtn');
-  const closeDrawer = document.getElementById('closeDrawer');
-  const drawerLinks = document.querySelectorAll('.drawer a');
+  function initNewDrawerLogic(overlay) {
+    const hamburger = document.getElementById('hambtn');
+    const drawer = document.getElementById('drawer');
+    const drawerLinks = document.querySelectorAll('.drawer a');
 
-  const closeDrawerMenu = () => {
-    drawer.classList.remove('open'); 
-    drawer.setAttribute('aria-hidden', 'true'); 
-  };
+    const closeDrawerMenu = () => {
+      drawer.classList.remove('open'); 
+      hamburger.classList.remove('active');
+      overlay.classList.remove('active');
+    };
 
-  hambtn?.addEventListener('click', () => { 
-    drawer.classList.add('open'); 
-    drawer.setAttribute('aria-hidden', 'false'); 
-  });
-  closeDrawer?.addEventListener('click', closeDrawerMenu);
-
-  drawerLinks.forEach(link => {
-    const href = link.getAttribute('href');
-    const isInternalLink = href && href.startsWith('#');
-    const icon = link.querySelector('i');
-
-    link.addEventListener('click', e => {
-      // Kích hoạt hoạt ảnh icon ngay lập tức
-      if (icon) {
-        icon.style.transition = '0.15s ease';
-        icon.style.transform = 'scale(1.2)';
-        icon.style.color = '#007aff'; // Nhấn mạnh màu xanh Apple
-      }
-      
-      if (isInternalLink) {
-        e.preventDefault(); 
-        
-        // Chờ hoạt ảnh icon kết thúc rồi đóng và cuộn
-        setTimeout(() => {
-          closeDrawerMenu();
-          const target = document.querySelector(href);
-          if (target) target.scrollIntoView({ behavior: 'smooth' });
-        }, 200); 
-      } else {
-        // Link ngoài: Đóng ngay lập tức để không cản trở hành vi mặc định
-        setTimeout(closeDrawerMenu, 200); 
-      }
-      
-      // Reset hoạt ảnh icon
-      setTimeout(() => {
-          if (icon) {
-              icon.style.transform = ''; 
-              icon.style.color = 'var(--apple-accent)'; // Trả về màu ban đầu
-          }
-      }, 180);
+    hamburger?.addEventListener('click', () => {
+      const isOpen = drawer.classList.toggle('open');
+      hamburger.classList.toggle('active');
+      overlay.classList.toggle('active', isOpen);
     });
-  });
 
-  document.addEventListener('click', e => {
-    if(drawer.classList.contains('open') && !drawer.contains(e.target) && !hambtn.contains(e.target)){
-      closeDrawerMenu();
-    }
-  });
+    overlay.addEventListener('click', closeDrawerMenu);
+
+    drawerLinks.forEach(link => {
+      const href = link.getAttribute('href');
+      const isInternalLink = href && href.startsWith('#');
+
+      link.addEventListener('click', e => {
+        if (isInternalLink) {
+          e.preventDefault(); 
+          
+          setTimeout(() => {
+            closeDrawerMenu();
+            const target = document.querySelector(href);
+            if (target) {
+              // Tinh chỉnh cuộn để tính thêm chiều cao của navbar fixed
+              const navHeight = 90; // Khoảng cách an toàn cho navbar
+              const offsetTop = target.offsetTop - navHeight; 
+              window.scrollTo({top: offsetTop, behavior: 'smooth'});
+            }
+          }, 200); 
+        } else {
+          // Link ngoài, đóng menu và để link chạy hành vi mặc định
+          setTimeout(closeDrawerMenu, 200);
+        }
+      });
+    });
+  }
 
 
   /* -------------------------------------- */
@@ -862,12 +880,10 @@ td:first-child { font-weight: 500; } /* Highlight cột đầu tiên */
           moreBtns.style.display = isVisible ? 'none' : 'flex';
           
           mainFloatBtn.setAttribute('aria-expanded', isVisible ? 'false' : 'true'); 
-          moreBtns.setAttribute('aria-hidden', isVisible ? 'true' : 'false'); 
           mainFloatBtn.textContent = isVisible ? '+' : '✕'; // Đổi ký hiệu
+          moreBtns.setAttribute('aria-hidden', isVisible ? 'true' : 'false'); 
       });
   }
-
-  // --- BIKE TRAIL SCRIPTS (ĐÃ LOẠI BỎ) ---
 </script>
 
 </body>
