@@ -286,8 +286,8 @@
       .price-image-container { padding: 10px; }
     }
     
-    /* ===== Footer Premium v5.2 Apple Glass + Quick Call + Back Top ===== */
-    /* ** Cập nhật CSS cho Footer, Quick Call, Back Top tại đây ** */
+    /* ===== Footer Premium v5.2 Apple Glass + Quick Call + Back Top (CSS Nâng Cấp) ===== */
+    
     /* Footer Apple Glass */
     footer.premium {
       background: rgba(255,255,255,0.72);
@@ -320,7 +320,7 @@
       color: #1d1d1f;
       text-decoration: none;
       transition: all 0.2s ease;
-      text-align: left; /* Đặt lại text-align cho link */
+      text-align: left;
     }
 
     footer.premium a:hover {
@@ -332,51 +332,91 @@
       margin-top: 12px;
       font-size: 0.85rem;
       color: #6e6e73;
-      text-align: left; /* Đặt lại text-align cho p.author */
+      text-align: left;
     }
 
-    /* Quick Call Game */
-    .quick-call {
+    /* Xóa style cũ của .quick-call đơn giản (góc trái) */
+    .quick-call { display: none !important; }
+
+    /* Quick Call Neon Glow (Góc phải) - BẮT ĐẦU */
+    .quick-call-game {
       position: fixed;
-      left: 12px;
-      bottom: 12px;
+      bottom: 16px;
+      right: 16px;
       display: flex;
       flex-direction: column;
-      gap: 12px;
+      align-items: flex-end;
       z-index: 1600;
-      animation: bounce 2s infinite alternate;
     }
-    @keyframes bounce {
-      0% { transform: translateY(0); }
-      100% { transform: translateY(-8px); }
-    }
-    .quick-call a {
-      background: #007aff;
+
+    .quick-main {
+      background: linear-gradient(135deg,#007aff,#00d4ff);
       color: #fff;
-      padding: 12px;
-      border-radius: 999px;
-      text-align: center;
-      width: 52px;
-      height: 52px;
+      border: none;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      box-shadow: 0 0 15px #007aff, 0 0 30px #00d4ff, 0 0 50px #007aff;
+      cursor: pointer;
       display: flex;
       justify-content: center;
       align-items: center;
-      font-size: 1.3rem;
-      box-shadow: 0 8px 18px rgba(0,122,255,0.2);
+      font-size: 1.5rem;
       transition: all 0.2s ease;
-      text-decoration: none; /* đảm bảo không có gạch chân */
-      margin: 0; /* loại bỏ margin cũ */
+      animation: float 2s infinite alternate, neonGlow 1.8s infinite alternate;
     }
-    .quick-call a:hover {
-      transform: scale(1.1) rotate(-10deg);
-      box-shadow: 0 12px 24px rgba(0,122,255,0.3);
+    .quick-main:hover {
+      transform: scale(1.15) rotate(-12deg);
+      box-shadow: 0 0 25px #007aff, 0 0 50px #00d4ff, 0 0 70px #007aff;
+    }
+    @keyframes float {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-10px); }
+    }
+    @keyframes neonGlow {
+      0% { box-shadow: 0 0 15px #007aff, 0 0 30px #00d4ff, 0 0 50px #007aff; }
+      50% { box-shadow: 0 0 25px #007aff, 0 0 45px #00d4ff, 0 0 70px #007aff; }
+      100% { box-shadow: 0 0 15px #007aff, 0 0 30px #00d4ff, 0 0 50px #007aff; }
     }
 
-    /* Back to top */
+    .quick-sub {
+      display: none;
+      flex-direction: column;
+      margin-bottom: 12px; 
+      gap: 12px;
+    }
+    .quick-sub a {
+      width: 50px; height: 50px;
+      border-radius: 50%;
+      display: flex; justify-content: center; align-items: center;
+      background: linear-gradient(135deg,#2bc76f,#5aff9e);
+      color: #fff;
+      font-size: 1.2rem;
+      box-shadow: 0 0 12px #2bc76f, 0 0 25px #5aff9e;
+      transition: all 0.2s ease;
+      text-decoration: none;
+    }
+    .quick-sub a:hover {
+      transform: scale(1.15) rotate(-10deg);
+      box-shadow: 0 0 20px #2bc76f, 0 0 35px #5aff9e;
+    }
+
+    .quick-call-game.open .quick-sub {
+      display: flex;
+      animation: subAppear 0.3s ease forwards;
+    }
+    @keyframes subAppear {
+      0% { opacity:0; transform: translateY(12px); }
+      100% { opacity:1; transform: translateY(0); }
+    }
+    /* Quick Call Neon Glow - KẾT THÚC */
+
+
+    /* Back to top (Đẩy lên cao hơn để không đè Quick Call) */
     .back-top {
       position: fixed;
       right: 16px;
-      bottom: 16px;
+      bottom: 90px; /* Điều chỉnh vị trí để không đè lên Quick Call */
       background: #2bc76f;
       color: #fff;
       width: 48px;
@@ -391,6 +431,13 @@
       transition: all 0.2s ease;
       z-index: 1600;
       text-align: center;
+    }
+    .quick-call-game.open ~ .back-top {
+        bottom: 230px; /* Nếu menu Quick Call mở, đẩy Back to Top lên cao hơn */
+    }
+    @media (max-width: 520px) {
+        .back-top { bottom: 80px; }
+        .quick-call-game.open ~ .back-top { bottom: 220px; }
     }
     .back-top:hover { transform: scale(1.1); }
 
@@ -661,7 +708,7 @@
       <a href="https://motoopen.github.io/chothuexemayhanoi.index.html/" target="_blank">
         Thuê xe máy Hà Nội - Motoopen
       </a>
-      <p class="author">© 2025 Thuê xe máy Hà Nội - Motoopen</p>
+      <p class="author">© 2025 Motoopen</p>
     </div>
 
     <div class="footer-tagline">
@@ -672,10 +719,15 @@
     </div>
   </footer>
 
-  <div class="quick-call">
-    <a href="tel:0857255868" aria-label="Gọi ngay"><i class="fa-solid fa-phone"></i></a>
-    <a href="https://zalo.me/84857255868" target="_blank" aria-label="Chat Zalo"><i class="fa-solid fa-comment-dots"></i></a>
-    <a href="https://maps.app.goo.gl/dTLAo1aHMvytByf99?g_st=ipc" target="_blank" aria-label="Bản đồ"><i class="fa-solid fa-location-dot"></i></a>
+  <div class="quick-call-game">
+    <button class="quick-main" aria-label="Mở menu gọi nhanh" title="Menu gọi nhanh">
+      <i class="fa-solid fa-phone"></i>
+    </button>
+    <div class="quick-sub">
+      <a href="tel:0857255868" aria-label="Gọi ngay 0857 255 868" title="Gọi ngay"><i class="fa-solid fa-phone"></i></a>
+      <a href="https://zalo.me/84857255868" target="_blank" aria-label="Chat Zalo +84857255868" title="Chat Zalo"><i class="fa-solid fa-comment-dots"></i></a>
+      <a href="https://maps.app.goo.gl/dTLAo1aHMvytByf99?g_st=ipc" target="_blank" aria-label="Bản đồ" title="Bản đồ"><i class="fa-solid fa-location-dot"></i></a>
+    </div>
   </div>
 
   <div class="back-top" title="Back to Top">
@@ -762,9 +814,6 @@
       // Targets: .reveal, .fade-up, .slide-left, .slide-right
       document.querySelectorAll('.reveal, .fade-up, .slide-left, .slide-right').forEach(el => motionObserver.observe(el));
 
-      // Reviews: combine with general motionObserver
-      // The original review card logic is now integrated with the new motionObserver by adding 'fade-up' to each card.
-      
       // 5) FAQ accordion behavior with keyboard support
       const faqs = document.querySelectorAll('.faq .q');
       faqs.forEach(q => {
@@ -812,12 +861,52 @@
         });
       });
 
-      // ** Back to top logic **
+      // ** Quick Call Menu logic NÂNG CẤP **
+      const quickGame = document.querySelector('.quick-call-game');
+      const mainBtn = document.querySelector('.quick-call-game .quick-main');
       const backTop = document.querySelector('.back-top');
+      const backTopBottomDefault = 90; // Giá trị mặc định cho back-top
+
+      function updateBackTopPosition(isOpen) {
+          if (!backTop) return;
+          if (isOpen) {
+              backTop.style.bottom = '230px'; // Đẩy lên khi menu mở
+          } else {
+              backTop.style.bottom = backTopBottomDefault + 'px'; // Vị trí mặc định
+          }
+      }
+      
+      if (quickGame && mainBtn) {
+          mainBtn.addEventListener('click', () => {
+              const isOpen = quickGame.classList.toggle('open');
+              updateBackTopPosition(isOpen);
+          });
+
+          // Tự động đóng menu khi click ra ngoài
+          document.addEventListener('click', (e) => {
+              if (!quickGame.contains(e.target) && quickGame.classList.contains('open')) {
+                  quickGame.classList.remove('open');
+                  updateBackTopPosition(false);
+              }
+          });
+
+          // Đóng menu khi click vào một nút con
+          document.querySelectorAll('.quick-call-game .quick-sub a').forEach(a => {
+              a.addEventListener('click', () => {
+                  setTimeout(() => {
+                    quickGame.classList.remove('open');
+                    updateBackTopPosition(false);
+                  }, 100); 
+              });
+          });
+      }
+
+
+      // ** Back to top logic **
       if (backTop) {
         backTop.addEventListener('click', () => window.scrollTo({top:0,behavior:'smooth'}));
       }
-
+      
     })();
   </script>
 </body>
