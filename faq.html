@@ -20,6 +20,11 @@
       --glass-border: rgba(220,220,225,0.6);
       --card-radius:14px;
       --nav-gap:12px;
+      /* Biến màu cho Quick Call */
+      --quick-main-start: #007aff;
+      --quick-main-end: #00d4ff;
+      --quick-sub-start: #2bc76f;
+      --quick-sub-end: #5aff9e;
     }
     *{box-sizing:border-box}
     html,body{height:100%}
@@ -286,7 +291,7 @@
       .price-image-container { padding: 10px; }
     }
     
-    /* ===== Footer Premium v5.2 Apple Glass + Quick Call + Back Top (CSS Nâng Cấp) ===== */
+    /* ** CSS Nâng Cấp: Footer Premium v5.2 Apple Glass + Quick Call + Back Top ** */
     
     /* Footer Apple Glass */
     footer.premium {
@@ -303,9 +308,8 @@
       overflow: hidden;
       box-shadow: 0 -8px 32px rgba(0,0,0,0.06);
       border-radius: 16px 16px 0 0;
-      /* Đảm bảo style footer cũ không bị áp dụng nếu có */
       margin-top: 0; 
-      padding-bottom: 50px; /* Thêm padding để không che Tagline */
+      padding-bottom: 50px; 
     }
 
     footer.premium h4 {
@@ -338,7 +342,7 @@
     /* Xóa style cũ của .quick-call đơn giản (góc trái) */
     .quick-call { display: none !important; }
 
-    /* Quick Call Neon Glow (Góc phải) - BẮT ĐẦU */
+    /* Quick Call Neon Glow (Góc phải) - TỐI ƯU HÓA */
     .quick-call-game {
       position: fixed;
       bottom: 16px;
@@ -350,13 +354,13 @@
     }
 
     .quick-main {
-      background: linear-gradient(135deg,#007aff,#00d4ff);
+      background: linear-gradient(135deg,var(--quick-main-start),var(--quick-main-end));
       color: #fff;
       border: none;
       width: 60px;
       height: 60px;
       border-radius: 50%;
-      box-shadow: 0 0 15px #007aff, 0 0 30px #00d4ff, 0 0 50px #007aff;
+      box-shadow: 0 0 15px var(--quick-main-start), 0 0 30px var(--quick-main-end), 0 0 50px var(--quick-main-start);
       cursor: pointer;
       display: flex;
       justify-content: center;
@@ -367,16 +371,15 @@
     }
     .quick-main:hover {
       transform: scale(1.15) rotate(-12deg);
-      box-shadow: 0 0 25px #007aff, 0 0 50px #00d4ff, 0 0 70px #007aff;
+      box-shadow: 0 0 25px var(--quick-main-start), 0 0 50px var(--quick-main-end), 0 0 70px var(--quick-main-start);
     }
     @keyframes float {
       0% { transform: translateY(0); }
       100% { transform: translateY(-10px); }
     }
     @keyframes neonGlow {
-      0% { box-shadow: 0 0 15px #007aff, 0 0 30px #00d4ff, 0 0 50px #007aff; }
-      50% { box-shadow: 0 0 25px #007aff, 0 0 45px #00d4ff, 0 0 70px #007aff; }
-      100% { box-shadow: 0 0 15px #007aff, 0 0 30px #00d4ff, 0 0 50px #007aff; }
+      0%, 100% { box-shadow: 0 0 15px var(--quick-main-start), 0 0 30px var(--quick-main-end), 0 0 50px var(--quick-main-start); }
+      50% { box-shadow: 0 0 25px var(--quick-main-start), 0 0 45px var(--quick-main-end), 0 0 70px var(--quick-main-start); }
     }
 
     .quick-sub {
@@ -389,16 +392,16 @@
       width: 50px; height: 50px;
       border-radius: 50%;
       display: flex; justify-content: center; align-items: center;
-      background: linear-gradient(135deg,#2bc76f,#5aff9e);
+      background: linear-gradient(135deg,var(--quick-sub-start),var(--quick-sub-end));
       color: #fff;
       font-size: 1.2rem;
-      box-shadow: 0 0 12px #2bc76f, 0 0 25px #5aff9e;
+      box-shadow: 0 0 12px var(--quick-sub-start), 0 0 25px var(--quick-sub-end);
       transition: all 0.2s ease;
       text-decoration: none;
     }
     .quick-sub a:hover {
       transform: scale(1.15) rotate(-10deg);
-      box-shadow: 0 0 20px #2bc76f, 0 0 35px #5aff9e;
+      box-shadow: 0 0 20px var(--quick-sub-start), 0 0 35px var(--quick-sub-end);
     }
 
     .quick-call-game.open .quick-sub {
@@ -409,14 +412,12 @@
       0% { opacity:0; transform: translateY(12px); }
       100% { opacity:1; transform: translateY(0); }
     }
-    /* Quick Call Neon Glow - KẾT THÚC */
 
-
-    /* Back to top (Đẩy lên cao hơn để không đè Quick Call) */
+    /* Back to top (Điều chỉnh vị trí) */
     .back-top {
       position: fixed;
       right: 16px;
-      bottom: 90px; /* Điều chỉnh vị trí để không đè lên Quick Call */
+      bottom: 90px; /* Mặc định */
       background: #2bc76f;
       color: #fff;
       width: 48px;
@@ -432,12 +433,11 @@
       z-index: 1600;
       text-align: center;
     }
-    .quick-call-game.open ~ .back-top {
-        bottom: 230px; /* Nếu menu Quick Call mở, đẩy Back to Top lên cao hơn */
-    }
+    /* JS sẽ điều chỉnh: quick-call-game.open ~ .back-top */
+
     @media (max-width: 520px) {
         .back-top { bottom: 80px; }
-        .quick-call-game.open ~ .back-top { bottom: 220px; }
+        /* JS sẽ điều chỉnh: quick-call-game.open ~ .back-top */
     }
     .back-top:hover { transform: scale(1.1); }
 
@@ -454,7 +454,7 @@
       font-weight: 700;
       font-size: 1rem;
       color: #007aff;
-      background: rgba(255,255,255,0.72); /* Tạo nền trùng với footer */
+      background: rgba(255,255,255,0.72); 
       padding: 0 0 0 20px;
     }
     .footer-tagline .inner {
@@ -462,7 +462,7 @@
       align-items: center;
       gap: 12px;
       animation: marquee 15s linear infinite alternate;
-      padding-right: 40px; /* Thêm padding để tránh bị cắt chữ cuối */
+      padding-right: 40px; 
     }
     .footer-tagline img {
       width: 28px;
@@ -485,7 +485,7 @@
         padding-right: 10px;
       }
       footer.premium a, footer .author {
-        text-align: center; /* Đảm bảo căn giữa trên mobile */
+        text-align: center; 
       }
       .footer-tagline { 
         font-size: 0.9rem; 
@@ -850,18 +850,23 @@
         });
       });
 
-      // ** Quick Call Menu logic NÂNG CẤP **
+      // ** Quick Call Menu logic NÂNG CẤP (Đã Tích Hợp) **
       const quickGame = document.querySelector('.quick-call-game');
       const mainBtn = document.querySelector('.quick-call-game .quick-main');
       const backTop = document.querySelector('.back-top');
-      const backTopBottomDefault = 90; // Giá trị mặc định cho back-top
+      // Lấy giá trị bottom mặc định từ CSS hoặc set cố định (90px)
+      const backTopBottomDefault = window.matchMedia('(max-width: 520px)').matches ? 80 : 90; 
+      const backTopBottomOpen = window.matchMedia('(max-width: 520px)').matches ? 220 : 230; 
+
 
       function updateBackTopPosition(isOpen) {
           if (!backTop) return;
           if (isOpen) {
-              backTop.style.bottom = '230px'; // Đẩy lên khi menu mở
+              backTop.style.bottom = backTopBottomOpen + 'px'; // Đẩy lên khi menu mở
           } else {
-              backTop.style.bottom = backTopBottomDefault + 'px'; // Vị trí mặc định
+              // Cập nhật giá trị mặc định cho mobile/desktop
+              const currentDefault = window.matchMedia('(max-width: 520px)').matches ? 80 : 90; 
+              backTop.style.bottom = currentDefault + 'px'; // Vị trí mặc định
           }
       }
       
