@@ -318,7 +318,7 @@
         display: inline-flex; /* Luôn hiển thị */
     }
     /* Ngoài nav-links (mobile), nó sẽ ở giữa brand và hamburger */
-    #mobile-toggle-dark { 
+    #main-toggle-dark-mobile { /* DÙNG ĐÚNG ID */
         display: none; /* Mặc định ẩn, chỉ bật trong media query cho mobile */
     }
 
@@ -833,7 +833,8 @@
       .topbar .brand { order: 1; }
       .topbar .hamburger { order: 3; }
       /* HIỂN THỊ NÚT DUY NHẤT Ở VỊ TRÍ NÀY CHO MOBILE/TABLET */
-      #mobile-toggle-dark { 
+      /* ĐÃ SỬA ID: #main-toggle-dark-mobile */
+      #main-toggle-dark-mobile { 
           display: inline-flex; /* HIỂN THỊ CHO MỌI THIẾT BỊ < 900px */
           order: 2; 
           margin: 0 10px 0 auto; /* căn giữa 2 bên */
@@ -851,8 +852,9 @@
             order: initial;
             margin-left: 8px;
         }
-        #mobile-toggle-dark {
-            display: none; /* Ẩn nút mobile khi là desktop */
+        /* ĐÃ SỬA: Ẩn nút mobile khi là desktop */
+        #main-toggle-dark-mobile {
+            display: none !important; /* Đảm bảo ẩn nút mobile */
         }
     }
     @media (max-width:520px){
