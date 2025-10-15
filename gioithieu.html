@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   
   <title>Thuê Xe Máy Hà Nội Giá Rẻ | Motoopen - Giao Tận Nơi</title>
 
@@ -173,6 +173,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
     :root{
+      /* LIGHT MODE */
       --maxw:1100px;
       --bg:#f5f5f7;
       --surface:#ffffff;
@@ -180,7 +181,7 @@
       --muted:#6e6e73;
       --accent:#007aff;
       --accent-2:#2bc76f;
-      --glass-border: rgba(220,220,225,0.6);
+      --glass-border: rgba(220,220,215,0.6);
       --card-radius:14px;
       --nav-gap:12px;
       /* Biến màu cho Quick Call */
@@ -188,7 +189,46 @@
       --quick-main-end: #00d4ff;
       --quick-sub-start: #2bc76f;
       --quick-sub-end: #5aff9e;
+      --topbar-bg: rgba(255,255,255,0.78);
+      --topbar-scrolled-bg: rgba(255,255,255,0.92);
+      --drawer-bg: linear-gradient(180deg, rgba(255,255,255,0.98), rgba(250,250,252,0.96));
+      --hero-bg: linear-gradient(180deg, rgba(255,255,255,0.98), rgba(245,245,247,0.98));
+      --table-wrap-bg: rgba(255,255,255,0.74);
+      --table-head-bg: rgba(250,250,252,0.9);
+      --review-card-bg: linear-gradient(180deg, rgba(255,255,255,0.98), rgba(250,250,252,0.98));
+      --review-overlay-bg: linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.85));
+      --faq-a-bg: linear-gradient(180deg, #fff, #fcfcfd);
+      --footer-bg: rgba(255,255,255,0.72);
+      
+      /* Biến bổ sung cho Price Card Hover */
+      --card-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      --card-shadow-hover: 0 20px 45px rgba(0,0,0,0.18);
     }
+    /* DARK MODE OVERRIDES */
+    body.dark {
+      --bg: #1C1C1E; /* Apple Dark */
+      --surface: #2C2C2E;
+      --text: #F2F2F7;
+      --muted: #8E8E93;
+      --accent: #0A84FF; /* Apple Blue Dark */
+      --accent-2: #30D158; /* Apple Green Dark */
+      --glass-border: rgba(60,60,67,0.6);
+      --topbar-bg: rgba(28,28,30,0.78);
+      --topbar-scrolled-bg: rgba(28,28,30,0.92);
+      --drawer-bg: linear-gradient(180deg, rgba(28,28,30,0.98), rgba(35,35,37,0.96));
+      --hero-bg: linear-gradient(180deg, rgba(28,28,30,0.98), rgba(35,35,37,0.98));
+      --table-wrap-bg: rgba(28,28,30,0.74);
+      --table-head-bg: rgba(35,35,37,0.9);
+      --review-card-bg: linear-gradient(180deg, rgba(44,44,46,0.98), rgba(35,35,37,0.98));
+      --review-overlay-bg: linear-gradient(180deg, rgba(28,28,30,0.6), rgba(28,28,30,0.85));
+      --faq-a-bg: linear-gradient(180deg, var(--surface), #3A3A3C);
+      --footer-bg: rgba(28,28,30,0.72);
+      
+      /* Dark Mode Card Shadow */
+      --card-shadow: 0 10px 30px rgba(0,0,0,0.4);
+      --card-shadow-hover: 0 20px 45px rgba(0,0,0,0.8);
+    }
+
     *{box-sizing:border-box}
     html,body{height:100%}
     body{
@@ -198,8 +238,7 @@
       color:var(--text);
       -webkit-font-smoothing:antialiased;
       -moz-osx-font-smoothing:grayscale;
-      transition: background .25s, color .25s;
-      /* padding-top will be set by JS to avoid nav overlapping hero */
+      transition: background .3s, color .3s; 
     }
 
     a{color:inherit}
@@ -219,18 +258,26 @@
       justify-content:space-between;
       gap:var(--nav-gap);
       padding:10px 18px;
-      background:rgba(255,255,255,0.78);
+      background:var(--topbar-bg);
       backdrop-filter: blur(12px) saturate(150%);
-      border:1px solid rgba(210,210,215,0.6);
+      border:1px solid var(--glass-border);
       border-radius:14px;
       box-shadow:0 8px 24px rgba(0,0,0,0.06);
       transition: all 280ms cubic-bezier(.2,.9,.2,1);
     }
     .topbar.scrolled{
-      background:rgba(255,255,255,0.92);
+      background:var(--topbar-scrolled-bg);
       box-shadow:0 10px 30px rgba(0,0,0,0.08);
       padding:8px 16px;
     }
+    /* Dark mode shadow adjustment */
+    body.dark .topbar.scrolled {
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
+    body.dark .topbar {
+      box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+    }
+
 
     .brand{display:flex;align-items:center;gap:12px}
     .brand img{width:40px;height:40px;border-radius:8px;object-fit:cover}
@@ -242,9 +289,36 @@
     }
     .nav-links a i{width:18px;text-align:center}
     .nav-links a:hover{color:var(--accent);background:rgba(0,122,255,0.06)}
+    /* Dark Mode hover */
+    body.dark .nav-links a:hover{background:rgba(10,132,255,0.12);}
+
 
     .cta{background:var(--accent);color:#fff;padding:8px 16px;border-radius:999px;font-weight:700;box-shadow:0 8px 22px rgba(0,122,255,0.12)}
     .cta:hover{background:#0066e5}
+
+    /* Dark Mode Toggle Button */
+    .toggle-dark {
+        cursor: pointer;
+        padding: 8px 12px;
+        border-radius: 10px;
+        background: rgba(0,0,0,0.04);
+        transition: background 0.3s, transform 0.2s, color 0.3s;
+        font-size: 1.1rem;
+        display: inline-flex;
+        align-items: center;
+        margin-left: 8px; /* Tách khỏi CTA */
+    }
+    .toggle-dark:hover {
+        background: rgba(0,0,0,0.1);
+        transform: scale(1.05);
+    }
+    body.dark .toggle-dark {
+        background: rgba(255,255,255,0.1);
+        color: var(--text);
+    }
+    body.dark .toggle-dark:hover {
+        background: rgba(255,255,255,0.2);
+    }
 
     /* hamburger */
     .hamburger{display:none;background:none;border:0;cursor:pointer;padding:8px;border-radius:8px}
@@ -258,7 +332,7 @@
     .drawer-overlay.active{opacity:1;pointer-events:auto}
     .drawer{
       position:fixed;top:0;right:0;height:100vh;width:340px;max-width:90vw;
-      background:linear-gradient(180deg, rgba(255,255,255,0.98), rgba(250,250,252,0.96));
+      background:var(--drawer-bg);
       backdrop-filter: blur(18px) saturate(150%);
       box-shadow:-18px 0 40px rgba(0,0,0,0.12);
       transform: translateX(110%);
@@ -277,10 +351,13 @@
       max-width:var(--maxw);
       border-radius:18px;
       overflow:hidden;
-      border:1px solid rgba(210,210,215,0.45);
+      border:1px solid var(--glass-border);
       box-shadow:0 12px 36px rgba(12,18,24,0.06);
-      background: linear-gradient(180deg, rgba(255,255,255,0.98), rgba(245,245,247,0.98));
+      background: var(--hero-bg);
       padding:48px 28px 36px;
+    }
+    body.dark .hero {
+      box-shadow: 0 12px 36px rgba(0,0,0,0.4);
     }
 
     /* gradient moving layer under hero content */
@@ -293,10 +370,12 @@
       animation:gradMove 12s linear infinite;
       mix-blend-mode:screen;opacity:0.95;
     }
-    @keyframes gradMove{
-      0%{transform:translate3d(-6%,0,0) rotate(0deg) scale(1)}
-      50%{transform:translate3d(6%,2%,0) rotate(2deg) scale(1.02)}
-      100%{transform:translate3d(-6%,0,0) rotate(0deg) scale(1)}
+    /* Dark mode grad layer color adjust */
+    body.dark .hero .grad-layer {
+       background:
+        radial-gradient(700px 300px at 10% 30%, rgba(10,132,255,0.1), transparent 12%),
+        radial-gradient(600px 260px at 80% 70%, rgba(48,209,88,0.08), transparent 12%);
+        mix-blend-mode: color-dodge;
     }
 
     .hero .content{position:relative;z-index:2;max-width:920px;margin:0 auto;text-align:center}
@@ -316,6 +395,14 @@
     .btn.primary{background:var(--accent);color:#fff;box-shadow:0 8px 26px rgba(0,122,255,0.14)}
     .btn.primary.alt{background:var(--accent-2);box-shadow:0 8px 26px rgba(43,199,127,0.12)}
     .btn.alt{background:transparent;border:1px solid rgba(0,0,0,0.06);color:var(--text)}
+    /* Dark mode button adjustments */
+    body.dark .btn.alt{
+        border:1px solid rgba(255,255,255,0.12);
+        color:var(--text);
+    }
+    body.dark .btn.alt:hover{
+        background: rgba(255,255,255,0.08);
+    }
 
     /* MỚI: CTA Scroll xuống */
     .btn-scroll-down{
@@ -326,7 +413,6 @@
       0% { transform: translateY(0); box-shadow: 0 4px 8px rgba(0,0,0,0.08); }
       100% { transform: translateY(-3px); box-shadow: 0 6px 12px rgba(0,0,0,0.1); }
     }
-
 
     /* entrance */
     .hero h1,.hero p.lead,.hero .kicker,.hero .desc,.hero-actions{opacity:0;transform:translateY(18px);filter:blur(6px);animation:blurFade .9s ease forwards}
@@ -341,16 +427,20 @@
       100%{opacity:1;transform:none;filter:blur(0)}
     }
 
-    /* ===== PRICE TABLE (glass) ===== */
+    /* ===== PRICE TABLE (with card hover) ===== */
     .price-section{margin-top:30px}
     .price-table-wrap {
       margin-top: 12px;
       overflow-x: auto;
       border-radius: 14px;
-      background: rgba(255,255,255,0.74);
+      background: var(--table-wrap-bg);
       backdrop-filter: blur(10px) saturate(150%);
       border: 1px solid var(--glass-border);
       box-shadow: 0 12px 36px rgba(0,0,0,0.04);
+    }
+    /* Dark mode price table */
+    body.dark .price-table-wrap {
+        box-shadow: 0 12px 36px rgba(0,0,0,0.4);
     }
     .price-table {
       width: 100%;
@@ -362,14 +452,44 @@
     }
     .price-table th, .price-table td {
       padding: 14px 16px;
-      border-bottom: 1px solid rgba(0,0,0,0.05);
+      border-bottom: 1px solid var(--glass-border); /* Sử dụng glass-border */
+      transition: background 0.3s ease; /* Thêm transition cho background */
     }
     .price-table th {
-      background: rgba(250,250,252,0.9);
+      background: var(--table-head-bg);
       font-weight: 700;
     }
-    .price-table tr:hover td { background: rgba(0,122,255,0.03) }
     .price-table td:first-child { text-align:left;padding-left:20px;font-weight:600 }
+    
+    /* 1. HIỆU ỨNG CARD HOVER NÂNG LÊN VÀ BÓNG MƯỢT */
+    .price-table tbody tr {
+      transition: transform 0.35s cubic-bezier(0.2, 0.9, 0.2, 1), box-shadow 0.35s cubic-bezier(0.2, 0.9, 0.2, 1);
+      /* Cần làm cho mỗi hàng hoạt động như một "card" */
+      position: relative;
+      background: var(--surface); /* Mặc định cho hàng */
+      z-index: 1;
+    }
+    /* Loại bỏ border cho hàng cuối cùng */
+    .price-table tbody tr:last-child td {
+        border-bottom: none;
+    }
+    .price-table tbody tr:hover {
+      transform: translateY(-5px); /* Nâng lên */
+      box-shadow: var(--card-shadow-hover); /* Bóng mượt hơn */
+      background: var(--surface); /* Giữ background trắng/dark cho card hover */
+      z-index: 2; /* Đẩy lên trên */
+    }
+    /* Đảm bảo bóng không bị cắt trong .price-table-wrap */
+    .price-table-wrap { overflow: visible; padding-bottom: 2px; } /* Đặt padding để không cắt bóng */
+    .price-table { margin-bottom: -2px; } /* Đẩy lại lề dưới */
+    /* Điều chỉnh border-bottom khi hover (nếu cần) */
+    .price-table tbody tr:hover td {
+        background: var(--surface); /* Đảm bảo màu nền đồng nhất */
+    }
+    body.dark .price-table tbody tr:hover {
+      background: var(--surface);
+    }
+
 
     /* ===== IMAGE UNDER PRICE TABLE (with frame) ===== */
     .price-image-container {
@@ -381,8 +501,13 @@
       border-radius: 18px;
       background: var(--surface);
       box-shadow: 0 12px 36px rgba(12, 18, 24, 0.1);
-      border: 1px solid rgba(210, 210, 215, 0.6);
+      border: 1px solid var(--glass-border);
     }
+    /* Dark mode image container */
+    body.dark .price-image-container {
+        box-shadow: 0 12px 36px rgba(0,0,0,0.4);
+    }
+
     .price-image {
       display: block;
       width: 100%;
@@ -391,16 +516,31 @@
       object-fit: cover;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     }
+    /* Dark mode image shadow */
+    body.dark .price-image {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    }
 
     /* ===== REVIEWS (cards sliding from sides) with parallax background ===== */
     .reviews-section{position:relative;margin:40px auto;padding:48px 20px;border-radius:18px;overflow:hidden}
+    /* 2. HIỆU ỨNG PARALLAX NHẸ TRÊN BACKGROUND */
     .reviews-bg{
       position:absolute;inset:0;background-image:url('https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg');background-size:cover;background-position:center;
-      opacity:0.18;transform:translateY(0);will-change:transform;filter:grayscale(10%) brightness(1.05);
+      opacity:0.18;
+      transform:translateY(0); /* JS sẽ điều chỉnh giá trị này */
+      will-change:transform; /* Khuyến khích GPU tăng tốc */
+      filter:grayscale(10%) brightness(1.05);
+      transition: filter 0.3s; /* Làm mượt chuyển đổi dark mode */
     }
+    /* Dark mode reviews bg */
+    body.dark .reviews-bg {
+        filter: grayscale(80%) brightness(0.6);
+        opacity: 0.25;
+    }
+
     /* overlay for subtle gradient */
     .reviews-overlay{
-      position:absolute;inset:0;background:linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.85));pointer-events:none;
+      position:absolute;inset:0;background:var(--review-overlay-bg);pointer-events:none;
     }
     .reviews-wrap{position:relative;z-index:2;max-width:var(--maxw);margin:0 auto;padding:20px}
     .reviews-wrap h2{margin:0 0 10px;font-size:1.25rem}
@@ -408,17 +548,22 @@
       display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:18px;
     }
     .review-card{
-      background:linear-gradient(180deg, rgba(255,255,255,0.98), rgba(250,250,252,0.98));
-      border:1px solid rgba(220,220,225,0.6);
+      background:var(--review-card-bg);
+      border:1px solid var(--glass-border);
       padding:18px;border-radius:14px;box-shadow:0 12px 30px rgba(12,18,24,0.06);
       /* Initial state for animation */
       opacity:0; transform:translateX(0); filter:blur(6px);
       transition:opacity .72s ease, transform .72s cubic-bezier(.2,.9,.2,1), filter .36s;
     }
+    /* Dark mode review card */
+    body.dark .review-card {
+        box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+    }
+
     /* State after being observed */
     .review-card.visible{opacity:1;transform:translateX(0);filter:blur(0)}
 
-    /* ===== MOTION LUXE EDITION SCROLL EFFECTS ===== */
+    /* ===== MOTION LUXE EDITION SCROLL EFFECTS (dùng chung cho các section) ===== */
     .fade-up, .slide-left, .slide-right {
       opacity: 0;
       transition: all 0.8s cubic-bezier(.2,.9,.2,1);
@@ -431,7 +576,7 @@
       opacity: 1;
       transform: translate(0, 0);
     }
-    /* Override for existing review cards */
+    /* Override cho review cards (tối ưu tốc độ) */
     .review-card.slide-from-left { transform: translateX(-80px); }
     .review-card.slide-from-right { transform: translateX(80px); }
     .review-card.slide-from-left.visible, .review-card.slide-from-right.visible {
@@ -443,89 +588,67 @@
     .faq .q{
       background:var(--surface);padding:14px;border-radius:12px;border:1px solid var(--glass-border);display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;cursor:pointer;font-weight:700;
     }
+    body.dark .faq .q{
+        background: var(--surface);
+    }
     .faq .q:focus{outline:3px solid rgba(0,122,255,0.12)}
-    .faq .a{display:none;padding:14px 16px;border-left:3px solid var(--accent);margin-bottom:12px;background:linear-gradient(180deg, #fff, #fcfcfd);border-radius:0 12px 12px 12px;color:var(--muted)}
+    body.dark .faq .q:focus{outline:3px solid rgba(10,132,255,0.25)}
+
+    .faq .a{display:none;padding:14px 16px;border-left:3px solid var(--accent);margin-bottom:12px;background:var(--faq-a-bg);border-radius:0 12px 12px 12px;color:var(--muted)}
     .faq .a.open{display:block}
 
-    /* ===== FOOTER ===== */
-    footer{padding:28px 12px;text-align:center;color:var(--muted);margin-top:20px}
-
-    /* ** CSS Nâng Cấp: Footer Premium v5.2 Apple Glass + Quick Call + Back Top ** */
+    /* ===== FOOTER & QUICK CALL (CTA) ===== */
     
-    /* Footer Apple Glass */
+    /* Footer Apple Glass (Giữ nguyên) */
     footer.premium {
-      background: rgba(255,255,255,0.72);
+      background: var(--footer-bg);
       backdrop-filter: blur(14px) saturate(150%);
-      border-top: 1px solid rgba(220,220,225,0.4);
+      border-top: 1px solid var(--glass-border);
       padding: 48px 20px 32px;
-      /* Thay thế footer-container bằng grid trực tiếp */
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(180px,1fr)); 
       gap: 24px;
       font-family: Inter, sans-serif;
-      color: #1d1d1f;
+      color: var(--text);
       position: relative;
       overflow: hidden;
       box-shadow: 0 -8px 32px rgba(0,0,0,0.06);
       border-radius: 16px 16px 0 0;
       margin-top: 0; 
       padding-bottom: 50px; 
-      text-align: left; /* Đặt lại mặc định là left */
+      text-align: left;
     }
-
+    body.dark footer.premium {
+        box-shadow: 0 -8px 32px rgba(0,0,0,0.3);
+    }
     footer.premium h4 {
       margin-bottom: 12px;
       font-weight: 700;
       font-size: 1.05rem;
       text-transform: uppercase;
-      color: var(--accent); /* Đổi màu tiêu đề */
+      color: var(--accent);
     }
-
     footer.premium a {
       display: block;
       margin: 6px 0;
-      color: #1d1d1f;
+      color: var(--text);
       text-decoration: none;
       transition: all 0.2s ease;
       text-align: left;
       position: relative;
     }
-
-    /* Hiệu ứng gạch chân (tùy chọn) */
-    footer.premium a::after {
-      content:'';
-      position:absolute;
-      left:0; bottom:0;
-      width:0; height:2px;
-      background: linear-gradient(90deg,var(--accent),var(--quick-main-end));
-      transition: width 0.3s ease;
-      border-radius:1px;
-    }
-
-    footer.premium a:hover::after { width:100%; }
     footer.premium a:hover {
       color: var(--accent);
       transform: translateX(4px);
     }
-    
-    /* Icon style */
-    footer.premium a i {
-        margin-right: 6px;
-        width: 18px;
-        text-align: center;
-    }
-
-
     footer .author, footer.premium p {
       margin-top: 6px;
       font-size: 0.85rem;
-      color: #6e6e73;
+      color: var(--muted);
       display: flex; 
       align-items: center; 
       gap: 6px;
     }
-
-    /* Style cho social icons */
     .footer-social {
         display: flex;
         gap: 12px;
@@ -547,12 +670,37 @@
         transform: scale(1.1);
         background: var(--quick-main-end);
     }
+    .footer-tagline {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 36px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      font-weight: 700;
+      font-size: 1rem;
+      color: var(--accent);
+      background: var(--footer-bg); 
+      padding: 0 0 0 20px;
+      border-top: 1px solid var(--glass-border);
+    }
+    .footer-tagline .inner {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      animation: marquee 15s linear infinite alternate;
+      padding-right: 40px; 
+      text-shadow: 0 0 4px #00d4ff, 0 0 10px #00d4ff;
+    }
+    @keyframes marquee {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
 
 
-    /* Xóa style cũ của .quick-call đơn giản (góc trái) */
-    .quick-call { display: none !important; }
-
-    /* Quick Call Neon Glow (Góc phải) - TỐI ƯU HÓA */
+    /* 3. NÚT CTA GỌI/CHAT ZALO (QUICK CALL) Ở GÓC DƯỚI PHẢI */
     .quick-call-game {
       position: fixed;
       bottom: 16px;
@@ -561,6 +709,17 @@
       flex-direction: column;
       align-items: flex-end;
       z-index: 1600;
+      /* Trạng thái mặc định: ẨN */
+      opacity: 0; 
+      visibility: hidden;
+      transform: translateY(20px);
+      transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+    }
+    .quick-call-game.visible {
+      /* Trạng thái hiển thị */
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
     }
 
     .quick-main {
@@ -570,6 +729,7 @@
       width: 60px;
       height: 60px;
       border-radius: 50%;
+      /* Bóng cho hiệu ứng neon glow */
       box-shadow: 0 0 15px var(--quick-main-start), 0 0 30px var(--quick-main-end), 0 0 50px var(--quick-main-start);
       cursor: pointer;
       display: flex;
@@ -577,19 +737,20 @@
       align-items: center;
       font-size: 1.5rem;
       transition: all 0.2s ease;
-      animation: float 2s infinite alternate, neonGlow 1.8s infinite alternate;
+      animation: float 2s infinite alternate, neonGlow 1.8s infinite alternate; /* Pulse nhẹ */
     }
     .quick-main:hover {
       transform: scale(1.15) rotate(-12deg);
-      box-shadow: 0 0 25px var(--quick-main-start), 0 0 50px var(--quick-main-end), 0 0 70px var(--quick-main-start);
+    }
+    
+    /* Hiệu ứng nhấp nháy (Pulse/Neon Glow) */
+    @keyframes neonGlow {
+      0%, 100% { box-shadow: 0 0 15px var(--quick-main-start), 0 0 30px var(--quick-main-end), 0 0 50px var(--quick-main-start); }
+      50% { box-shadow: 0 0 25px var(--quick-main-start), 0 0 45px var(--quick-main-end), 0 0 70px var(--quick-main-start); }
     }
     @keyframes float {
       0% { transform: translateY(0); }
       100% { transform: translateY(-10px); }
-    }
-    @keyframes neonGlow {
-      0%, 100% { box-shadow: 0 0 15px var(--quick-main-start), 0 0 30px var(--quick-main-end), 0 0 50px var(--quick-main-start); }
-      50% { box-shadow: 0 0 25px var(--quick-main-start), 0 0 45px var(--quick-main-end), 0 0 70px var(--quick-main-start); }
     }
 
     .quick-sub {
@@ -627,73 +788,42 @@
     .back-top {
       position: fixed;
       right: 16px;
-      bottom: 90px; /* Mặc định */
+      bottom: 90px;
       background: #2bc76f;
       color: #fff;
       width: 48px;
       height: 48px;
       border-radius: 50%;
-      display: none; /* Mặc định ẩn, JS sẽ bật */
+      display: none;
       justify-content: center;
       align-items: center;
       font-size: 1.2rem;
       cursor: pointer;
       box-shadow: 0 8px 18px rgba(43,199,111,0.3);
-      transition: all 0.2s ease;
+      transition: all 0.3s ease; /* Thêm transition cho bottom */
       z-index: 1600;
       text-align: center;
     }
-    /* JS sẽ điều chỉnh: quick-call-game.open ~ .back-top */
-
-    @media (max-width: 520px) {
-        .back-top { bottom: 80px; }
-        /* JS sẽ điều chỉnh: quick-call-game.open ~ .back-top */
-    }
     .back-top:hover { transform: scale(1.1); }
-
-    /* Tagline xe máy loop 2 chiều */
-    .footer-tagline {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 36px;
-      overflow: hidden;
-      display: flex;
-      align-items: center;
-      font-weight: 700;
-      font-size: 1rem;
-      color: var(--accent);
-      background: rgba(255,255,255,0.72); 
-      padding: 0 0 0 20px;
-      border-top: 1px solid rgba(220,220,225,0.4);
-    }
-    .footer-tagline .inner {
-      display: inline-flex;
-      align-items: center;
-      gap: 12px;
-      animation: marquee 15s linear infinite alternate;
-      padding-right: 40px; 
-      text-shadow: 0 0 4px #00d4ff, 0 0 10px #00d4ff; /* Thêm hiệu ứng glow nhẹ */
-    }
-    .footer-tagline img {
-      width: 28px;
-      height: 28px;
-      border-radius: 4px;
-    }
-    .footer-tagline:hover .inner { animation-play-state: paused; }
-
-    /* Đổi animation để vòng lặp 2 chiều, mượt hơn */
-    @keyframes marquee {
-      0% { transform: translateX(100%); }
-      100% { transform: translateX(-100%); }
-    }
+    
 
     /* responsive */
     @media (max-width:900px){
       .nav-links{display:none}
       .hamburger{display:block}
-      .topbar{left:0;transform:none;width:100%;border-radius:0;max-width:none;justify-content:space-between;padding:8px 14px}
+      .topbar{
+        left:0;
+        transform:none;
+        width:100%;
+        border-radius:0;
+        max-width:none;
+        justify-content:space-between;
+        padding:8px 14px
+      }
+      .topbar .brand { order: 1; }
+      .topbar .hamburger { order: 3; }
+      .topbar .toggle-dark { order: 2; margin: 0 10px 0 auto; }
+
       .hero{margin-top:20px;padding:36px 16px}
       .reviews-section{padding:28px 12px}
       .price-table{min-width:600px}
@@ -708,7 +838,6 @@
         padding-left: 10px;
         padding-right: 10px;
       }
-      /* Căn giữa cho mobile */
       footer.premium a, footer .author, footer.premium p {
         text-align: center; 
         justify-content: center;
@@ -720,6 +849,7 @@
         font-size: 0.9rem; 
         padding-left: 10px;
       }
+      .back-top { bottom: 80px; }
     }
   </style>
 </head>
@@ -736,8 +866,15 @@
       <a href="#danhgia"><i class="fa-solid fa-star"></i> Review</a>
       <a href="#faq"><i class="fa-solid fa-circle-question"></i> FAQ</a>
       <a class="cta" href="tel:0857255868"><i class="fa-solid fa-phone"></i> Đặt xe</a>
+      <button class="toggle-dark" id="desktop-toggle-dark" aria-label="Chuyển đổi chế độ tối">
+        <i class="fa-solid fa-sun" style="display: none;"></i>
+        <i class="fa-solid fa-moon"></i>
+      </button>
     </nav>
-
+    <button class="toggle-dark" id="mobile-toggle-dark" aria-label="Chuyển đổi chế độ tối">
+        <i class="fa-solid fa-sun" style="display: none;"></i>
+        <i class="fa-solid fa-moon"></i>
+    </button>
     <button class="hamburger" id="hamburger" aria-label="Mở menu" aria-expanded="false" aria-controls="drawer">
       <span class="bar"></span><span class="bar"></span><span class="bar"></span>
     </button>
@@ -900,7 +1037,7 @@
       <div tabindex="0" class="q fade-up" role="button" aria-expanded="false">
         <div>Giá thuê xe máy theo loại phổ biến?</div><div class="sign">+</div>
       </div>
-      <div class="a">Xe số: ~150k/ngày; Xe ga (Vision/AirBlade): ~200k/ngày. Thuê tháng: 1 triệu – 2 triệu. Liên hệ để báo giá chính xác.</div>
+      <div class="a">Xe số: ~150k/ngày; Xe ga (Vision/AirBlade): ~200k/ngày. Thuê tháng: 1 triệu – 2 triệu. Thuê tuần: 600k - 1 triệu. Liên hệ để báo giá chính xác.</div>
     </section>
     
   </main>
@@ -957,18 +1094,18 @@
       </div>
     </div>
   </footer>
-  <div class="quick-call-game">
+  
+  <div class="quick-call-game" id="quickCallCta">
     <button class="quick-main" aria-label="Mở menu gọi nhanh" title="Menu gọi nhanh">
       <i class="fa-solid fa-phone"></i>
     </button>
     <div class="quick-sub">
       <a href="tel:0857255868" aria-label="Gọi ngay 0857 255 868" title="Gọi ngay: 0857 255 868"><i class="fa-solid fa-phone"></i></a>
-      <a href="https://zalo.me/84857255868" target="_blank" aria-label="Chat Zalo +84857255868" title="Chat Zalo: +84857255868"><i class="fa-solid fa-comment-dots"></i></a>
-      <a href="https://maps.app.goo.gl/dTLAo1aHMvytByf99?g_st=ipc" target="_blank" aria-label="Bản đồ" title="Địa chỉ: 114 Nguyễn Văn Cừ"><i class="fa-solid fa-location-dot"></i></a>
+      <a href="https://zalo.me/84857255868" target="_blank" aria-label="Chat Zalo +84857255868" title="Chat Zalo: +84857255868"><i class="fa-brands fa-whatsapp"></i></a> <a href="https://maps.app.goo.gl/dTLAo1aHMvytByf99?g_st=ipc" target="_blank" aria-label="Bản đồ" title="Địa chỉ: 114 Nguyễn Văn Cừ"><i class="fa-solid fa-location-dot"></i></a>
     </div>
   </div>
 
-  <div class="back-top" title="Back to Top">
+  <div class="back-top" id="backTop" title="Back to Top">
     <i class="fa-solid fa-arrow-up"></i>
   </div>
 
@@ -980,8 +1117,62 @@
       const drawer = document.getElementById('drawer');
       const overlay = document.getElementById('drawerOverlay');
       const reviewsBg = document.getElementById('reviewsBg');
-      const backTop = document.querySelector('.back-top'); // Thêm backTop element
+      const body = document.body;
+      const desktopToggle = document.getElementById('desktop-toggle-dark');
+      const mobileToggle = document.getElementById('mobile-toggle-dark');
+      const backTop = document.getElementById('backTop');
+      const quickCallCta = document.getElementById('quickCallCta'); // Nút CTA Quick Call
+      const heroSection = document.getElementById('gioithieu'); // Hero section
+
+      // === DARK MODE LOGIC ===
+      const DARK_MODE_KEY = 'darkModeEnabled';
+
+      function applyDarkMode(isEnabled) {
+        if (isEnabled) {
+          body.classList.add('dark');
+          localStorage.setItem(DARK_MODE_KEY, 'true');
+        } else {
+          body.classList.remove('dark');
+          localStorage.setItem(DARK_MODE_KEY, 'false');
+        }
+        updateToggleIcon(isEnabled);
+      }
+
+      function updateToggleIcon(isEnabled) {
+        const iconSun = '<i class="fa-solid fa-sun"></i>';
+        const iconMoon = '<i class="fa-solid fa-moon"></i>';
+        const targetIcon = isEnabled ? iconSun : iconMoon;
+        
+        [desktopToggle, mobileToggle].forEach(toggle => {
+          if (toggle) {
+              toggle.innerHTML = targetIcon;
+          }
+        });
+      }
+
+      // Check for user preference on load (localStorage or system)
+      const isDarkModePreferred = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      let isDarkModeEnabled = localStorage.getItem(DARK_MODE_KEY) === 'true';
+
+      if (localStorage.getItem(DARK_MODE_KEY) === null) {
+          isDarkModeEnabled = isDarkModePreferred;
+      }
       
+      applyDarkMode(isDarkModeEnabled);
+
+      // Toggle listener
+      [desktopToggle, mobileToggle].forEach(toggle => {
+        if (toggle) {
+          toggle.addEventListener('click', () => {
+            const currentMode = body.classList.contains('dark');
+            applyDarkMode(!currentMode);
+          });
+        }
+      });
+
+      // === END DARK MODE LOGIC ===
+
+
       // 1) Prevent overlap: set body padding-top to nav height (calibrated)
       function setBodyTopPadding(){
         const navRect = topbar.getBoundingClientRect();
@@ -1009,13 +1200,11 @@
       }
       hamburger.addEventListener('click', ()=> openDrawer(!drawer.classList.contains('open')));
       overlay.addEventListener('click', ()=> openDrawer(false));
-      // close drawer when clicking a link inside
       drawer.querySelectorAll('a').forEach(a => a.addEventListener('click', ()=> openDrawer(false)));
 
-      // 3) Scroll effects: nav style and parallax background + Back to Top visibility
+      // 3) Scroll effects: nav style and parallax background
       let lastY = window.scrollY || 0;
       let ticking = false;
-      
       function onScroll(){
         lastY = window.scrollY || 0;
         if(!ticking){
@@ -1032,11 +1221,10 @@
 
         // small parallax for reviews background (move slower)
         if(reviewsBg){
-          // apply small translate based on page offset
           const rect = reviewsBg.parentElement.getBoundingClientRect();
           const center = (rect.top + rect.bottom) / 2;
           const winCenter = window.innerHeight / 2;
-          const diff = (winCenter - center) * 0.06; // softer
+          const diff = (winCenter - center) * 0.06; // softer parallax
           reviewsBg.style.transform = `translateY(${diff}px)`;
         }
       }
@@ -1053,10 +1241,32 @@
         });
       }, {threshold:0.12});
 
-      // Targets: .reveal, .fade-up, .slide-left, .slide-right
       document.querySelectorAll('.reveal, .fade-up, .slide-left, .slide-right').forEach(el => motionObserver.observe(el));
 
-      // 5) FAQ accordion behavior (Hoàn thành theo yêu cầu)
+      // ** IntersectionObserver for Quick Call CTA **
+      if (quickCallCta && heroSection) {
+        // Chỉ hiện CTA khi phần tử *sau* Hero xuất hiện, tức là đã cuộn qua Hero.
+        const ctaObserver = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            // entry.rootBounds là viewport.
+            // Nếu Hero đã hoàn toàn khuất khỏi viewport (boundingClientRect.bottom < 0), thì hiển thị CTA.
+            // Ngưỡng 0.1: CTA sẽ hiện ra khi 10% Hero còn lại phía trên.
+            if (!entry.isIntersecting && entry.boundingClientRect.bottom < 0) {
+                quickCallCta.classList.add('visible');
+            } else if (entry.isIntersecting && entry.intersectionRatio > 0.1) {
+                // Nếu Hero đang hiển thị hơn 10%
+                quickCallCta.classList.remove('visible');
+            } else if (window.scrollY < 10) {
+                // Đảm bảo ẩn khi ở đầu trang
+                quickCallCta.classList.remove('visible');
+            }
+          });
+        }, { threshold: 0.1 });
+
+        ctaObserver.observe(heroSection);
+      }
+      
+      // 5) FAQ accordion behavior
       const faqs = document.querySelectorAll('.faq .q');
       faqs.forEach(q => {
         q.addEventListener('click', () => toggleFaq(q));
@@ -1065,30 +1275,68 @@
         });
       });
       function toggleFaq(q){
-        const a = q.nextElementSibling;
-        if(a){ // Kiểm tra sự tồn tại của phần trả lời
-          const isOpen = a.classList.contains('open');
-          a.classList.toggle('open');
-          q.setAttribute('aria-expanded', !isOpen);
-          // Sử dụng q.querySelector('.sign') vì dấu '+'/'−' nằm trong thẻ con
-          const sign = q.querySelector('.sign');
-          if (sign) {
-              sign.textContent = isOpen ? '+' : '−';
+        const next = q.nextElementSibling;
+        const expanded = q.getAttribute('aria-expanded') === 'true';
+        if(next){
+          if(expanded){
+            next.classList.remove('open');
+            q.setAttribute('aria-expanded','false');
+            q.querySelector('.sign').textContent = '+';
+          } else {
+            next.classList.add('open');
+            q.setAttribute('aria-expanded','true');
+            q.querySelector('.sign').textContent = '−';
           }
         }
       }
 
-      // 6) Respect reduced motion
-      if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){
-        document.querySelectorAll('*').forEach(n => n.style.transition = 'none');
+      // 6) Quick Call Menu logic
+      const quickGame = document.querySelector('.quick-call-game');
+      const mainBtn = document.querySelector('.quick-call-game .quick-main');
+      
+      const getBackTopDefaultBottom = () => window.matchMedia('(max-width: 520px)').matches ? 80 : 90; 
+      const getBackTopOpenBottom = () => window.matchMedia('(max-width: 520px)').matches ? 220 : 230; 
+
+      function updateBackTopPosition(isOpen) {
+          if (!backTop) return;
+          if (isOpen) {
+              backTop.style.bottom = getBackTopOpenBottom() + 'px';
+          } else {
+              backTop.style.bottom = getBackTopDefaultBottom() + 'px';
+          }
+      }
+      
+      if (quickGame && mainBtn) {
+          mainBtn.addEventListener('click', (e) => {
+              e.stopPropagation();
+              const isOpen = quickGame.classList.toggle('open');
+              updateBackTopPosition(isOpen);
+          });
+
+          document.addEventListener('click', (e) => {
+              if (!quickGame.contains(e.target) && quickGame.classList.contains('open')) {
+                  quickGame.classList.remove('open');
+                  updateBackTopPosition(false);
+              }
+          });
+
+          document.querySelectorAll('.quick-call-game .quick-sub a').forEach(a => {
+              a.addEventListener('click', () => {
+                  setTimeout(() => {
+                    quickGame.classList.remove('open');
+                    updateBackTopPosition(false);
+                  }, 100); 
+              });
+          });
       }
 
-      // accessibility: esc closes drawer
-      window.addEventListener('keydown', (e) => {
-        if(e.key === 'Escape') openDrawer(false);
-      });
 
-      // tiny improvement: smooth scroll for internal links with offset (nav height)
+      // 7) Back to top logic
+      if (backTop) {
+        backTop.addEventListener('click', () => window.scrollTo({top:0,behavior:'smooth'}));
+      }
+      
+      // 8) smooth scroll for internal links with offset (nav height)
       document.querySelectorAll('a[href^="#"]').forEach(a=>{
         a.addEventListener('click', (e)=>{
           const href = a.getAttribute('href');
@@ -1101,53 +1349,15 @@
         });
       });
 
-      // ** Quick Call Menu logic NÂNG CẤP **
-      const quickGame = document.querySelector('.quick-call-game');
-      const mainBtn = document.querySelector('.quick-call-game .quick-main');
-      
-      // Lấy giá trị bottom mặc định cho Back to Top
-      const getBackTopDefaultBottom = () => window.matchMedia('(max-width: 520px)').matches ? 80 : 90; 
-      const getBackTopOpenBottom = () => window.matchMedia('(max-width: 520px)').matches ? 220 : 230; 
-
-      function updateBackTopPosition(isOpen) {
-          if (!backTop) return;
-          if (isOpen) {
-              backTop.style.bottom = getBackTopOpenBottom() + 'px'; // Đẩy lên khi menu mở
-          } else {
-              backTop.style.bottom = getBackTopDefaultBottom() + 'px'; // Vị trí mặc định
-          }
-      }
-      
-      if (quickGame && mainBtn) {
-          mainBtn.addEventListener('click', (e) => {
-              e.stopPropagation(); // Ngăn chặn sự kiện click lan truyền đến document
-              const isOpen = quickGame.classList.toggle('open');
-              updateBackTopPosition(isOpen);
-          });
-
-          // Tự động đóng menu khi click ra ngoài
-          document.addEventListener('click', (e) => {
-              if (!quickGame.contains(e.target) && quickGame.classList.contains('open')) {
-                  quickGame.classList.remove('open');
-                  updateBackTopPosition(false);
-              }
-          });
-
-          // Đóng menu khi click vào một nút con
-          document.querySelectorAll('.quick-call-game .quick-sub a').forEach(a => {
-              a.addEventListener('click', () => {
-                  setTimeout(() => {
-                    quickGame.classList.remove('open');
-                    updateBackTopPosition(false);
-                  }, 100); 
-              });
-          });
+      // 9) Respect reduced motion
+      if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+        document.querySelectorAll('*').forEach(n => n.style.transition = 'none');
       }
 
-      // 1️⃣ Thêm JS hoàn thiện cho: Back to Top (theo yêu cầu)
-      if (backTop) {
-        backTop.addEventListener('click', () => window.scrollTo({top:0,behavior:'smooth'}));
-      }
+      // accessibility: esc closes drawer
+      window.addEventListener('keydown', (e) => {
+        if(e.key === 'Escape') openDrawer(false);
+      });
       
     })();
   </script>
