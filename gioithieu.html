@@ -28,7 +28,6 @@
 <meta name="twitter:image" content="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg">
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 
@@ -54,12 +53,11 @@
 /* Reset và Font */
 * {
   box-sizing: border-box;
-  -webkit-tap-highlight-color: transparent; /* Loại bỏ hiệu ứng nhấn mặc định trên mobile */
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
   margin: 0;
-  /* Sử dụng Inter hoặc font hệ thống */
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   background: var(--apple-bg);
   color: var(--apple-text);
@@ -71,23 +69,21 @@ body {
 
 /* Thẻ tiêu đề */
 h1, h2, h3 {
-  letter-spacing: -0.01em; /* Tinh chỉnh khoảng cách chữ */
+  letter-spacing: -0.01em;
 }
 
 /* Container */
 .wrap{
   max-width:var(--maxw);
-  margin:24px auto; /* Tăng khoảng cách */
+  margin:24px auto;
   padding:0 20px;
 }
 
 /* -------------------------------------- */
-/* --- 🚀 HEADER & NAVIGATION (NEW PREMIUM STYLE) 🚀 --- */
+/* --- 🚀 HEADER & NAVIGATION (PREMIUM STYLE) 🚀 --- */
 /* -------------------------------------- */
-
-/* === APP PREMIUM NAVBAR === */
 .topbar {
-  position: fixed; /* Thay thế sticky bằng fixed */
+  position: fixed;
   top: 16px;
   left: 50%;
   transform: translateX(-50%);
@@ -104,7 +100,6 @@ h1, h2, h3 {
 }
 
 .nav {
-  /* Đã tối ưu cho Fixed Bar */
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -117,31 +112,30 @@ h1, h2, h3 {
   gap: 10px;
 }
 .brand img {
-  width: 40px; /* Kích thước mới */
+  width: 40px;
   height: 40px;
-  border-radius: 10px; /* Góc bo mới */
+  border-radius: 10px;
   border: none;
 }
 .brand h3 {
   margin: 0;
-  font-weight: 700; /* Dùng 700 theo style mới */
+  font-weight: 700;
   font-size: 1.15rem;
   color: var(--apple-text);
 }
 .brand a { text-decoration: none; color: var(--apple-text); }
-.brand div { display: none; } /* Ẩn subtext dưới logo trong style Premium mới */
 
 /* Nav Links Desktop */
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 8px; /* Khoảng cách mới */
+  gap: 8px;
 }
 .nav-links a {
   text-decoration: none;
   color: var(--apple-text);
   padding: 8px 14px;
-  border-radius: 12px; /* Góc bo mới */
+  border-radius: 12px;
   font-weight: 500;
   display: flex;
   align-items: center;
@@ -154,22 +148,20 @@ h1, h2, h3 {
   color: var(--apple-accent);
   transform: none; 
 }
-.nav-links a i { font-size: 1rem; }
 
 /* CTA - Nút Call to Action */
 .cta {
   background: var(--apple-accent);
   color: #fff !important;
   font-weight: 600 !important;
-  padding: 10px 18px !important; /* Kích thước mới */
+  padding: 10px 18px !important;
   border-radius: 999px !important;
   box-shadow: 0 4px 12px rgba(0, 122, 255, 0.25);
   transition: 0.25s;
 }
 .cta:hover { background: #0066e5; }
 
-
-/* === HAMBURGER (NEW) === */
+/* === HAMBURGER & DRAWER (NEW) === */
 .hamburger {
   display: none;
   position: relative;
@@ -201,10 +193,9 @@ h1, h2, h3 {
   .nav-links { display: none; }
   .hamburger { display: inline-block; }
   .brand h3 { font-size: 1rem; }
-  .topbar { padding: 8px 16px; } /* Giảm padding trên mobile */
+  .topbar { padding: 8px 16px; }
 }
 
-/* === DRAWER (NEW) === */
 .drawer-overlay {
   position: fixed;
   inset: 0;
@@ -247,36 +238,31 @@ h1, h2, h3 {
   border-bottom: 1px solid rgba(210, 210, 215, 0.4);
   transition: color 0.25s;
 }
-.drawer a i { font-size: 1.1rem; color: var(--apple-accent); }
 .drawer a:hover { color: var(--apple-accent); }
 .drawer .cta {
-  display: inline-flex; /* Đổi từ block để căn giữa tốt hơn */
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  display: inline-flex;
   margin-top: 25px;
   padding: 13px 0;
   width: 100%;
-  border-radius: 999px;
-  box-shadow: 0 4px 15px rgba(0, 122, 255, 0.2);
-  color: #fff !important;
 }
 
+
 /* -------------------------------------- */
-/* --- HERO SECTION --- */
+/* --- 🎬 HERO SECTION (W/ CINEMATIC BLUR FADE) 🎬 --- */
 /* -------------------------------------- */
 .hero{
-  background: var(--apple-surface); /* Nền trắng */
-  border-radius: var(--radius-lg); /* Góc bo lớn */
-  /* Bóng mờ Apple */
+  background: var(--apple-surface);
+  border-radius: var(--radius-lg);
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06); 
-  padding: 40px; /* Đệm lớn hơn */
-  margin: 100px 0 24px 0; /* Tăng margin-top để tránh Navbar fixed */
+  padding: 40px;
+  margin: 100px 0 24px 0;
   text-align: center;
   position: relative;
   overflow: hidden;
   border: 1px solid var(--apple-border);
 }
+
+/* Kicker */
 .kicker{
   background: var(--apple-accent);
   color: #fff;
@@ -285,32 +271,60 @@ h1, h2, h3 {
   font-weight: 600;
   font-size: 0.85rem;
   letter-spacing: 0.5px;
+  /* Kicker animation */
+  opacity: 0;
+  transform: translateY(15px);
+  filter: blur(5px);
+  animation: blurFade 1s ease forwards 0.1s; /* Thêm animation cho kicker */
 }
+
+/* Title */
 .hero h1{
-  font-size: clamp(30px, 4.5vw, 48px); /* Kích thước lớn, linh hoạt */
+  font-size: clamp(30px, 4.5vw, 48px);
   margin: 10px 0 8px;
   font-weight: 800;
   color: var(--apple-text);
   line-height: 1.1;
+  /* Ghi đè để áp dụng animation */
+  opacity: 0;
+  transform: translateY(25px);
+  filter: blur(8px);
+  animation: blurFade 1s ease forwards 0.4s;
 }
+
+/* Subtext */
 .hero p.lead{
   color: var(--apple-subtext);
   font-size: 1.1rem;
   line-height: 1.5;
   max-width: 600px;
   margin: 0 auto 20px;
+  /* Ghi đè để áp dụng animation */
+  opacity: 0;
+  transform: translateY(25px);
+  filter: blur(8px);
+  animation: blurFade 1s ease forwards 0.8s;
 }
+
+/* Actions */
 .hero-actions{
   display: flex;
   gap: 16px;
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 20px;
+  /* Ghi đè để áp dụng animation */
+  opacity: 0;
+  transform: translateY(25px);
+  filter: blur(8px);
+  animation: blurFade 1s ease forwards 1.2s;
 }
+
+/* Button */
 .btn{
   border: none;
   border-radius: 999px;
-  padding: 14px 24px; /* Kích thước nút lớn hơn */
+  padding: 14px 24px;
   font-weight: 600;
   font-size: 1rem;
   cursor: pointer;
@@ -319,7 +333,7 @@ h1, h2, h3 {
   gap: 10px;
   align-items: center;
   transition: all 0.2s ease;
-  transform: none !important; /* Bỏ hiệu ứng translateY */
+  transform: none; /* Đảm bảo không bị ảnh hưởng bởi animation khác */
 }
 .btn.primary{
   background: var(--apple-accent);
@@ -329,6 +343,7 @@ h1, h2, h3 {
 .btn.primary:hover{
   background: var(--apple-accent-hover);
   box-shadow: 0 6px 16px rgba(0, 122, 255, 0.3);
+  transform: translateY(-2px); /* Giữ lại hiệu ứng hover */
 }
 .btn.ghost{
   background: transparent;
@@ -344,9 +359,27 @@ h1, h2, h3 {
   display: none !important;
 }
 
+/* --- ANIMATION KEYFRAMES (Cinematic Blur Fade) --- */
+@keyframes blurFade {
+  0% {
+    opacity: 0;
+    transform: translateY(25px);
+    filter: blur(8px);
+  }
+  60% {
+    opacity: 1;
+    filter: blur(2px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
 
 /* -------------------------------------- */
-/* --- TABLE, REVIEWS, FAQ --- */
+/* --- TABLE, REVIEWS, FAQ & FOOTER --- */
 /* -------------------------------------- */
 .table-wrap{
   overflow: auto;
@@ -359,23 +392,23 @@ table{width:100%;border-collapse:collapse}
 th,td{
   padding:14px 16px;
   border-bottom:1px solid var(--apple-border);
-  text-align:left; /* Căn trái */
+  text-align:left;
 }
 th{
-  background: #f8f8f8; /* Nền xám nhạt Apple */
+  background: #f8f8f8;
   color: var(--apple-text);
   font-weight: 600;
-  text-align: center; /* Tiêu đề căn giữa */
+  text-align: center;
 }
-tbody tr:hover{background: rgba(0, 122, 255, 0.03)} /* Highlight nhẹ màu xanh */
-td:first-child { font-weight: 500; } /* Highlight cột đầu tiên */
+tbody tr:hover{background: rgba(0, 122, 255, 0.03)}
+td:first-child { font-weight: 500; }
 
 
 /* Reviews carousel - Thẻ nổi */
 .reviews{
   display: flex;
   gap: 16px;
-  overflow-x: auto; /* Dùng scroll ngang */
+  overflow-x: auto;
   padding: 12px 0;
 }
 .review{
@@ -417,11 +450,9 @@ td:first-child { font-weight: 500; } /* Highlight cột đầu tiên */
   color: var(--apple-subtext);
 }
 
-/* -------------------------------------- */
-/* --- FOOTER & FLOATING BUTTONS --- */
-/* -------------------------------------- */
+/* Footer */
 .footer-new {
-    background: var(--apple-surface); /* Nền trắng */
+    background: var(--apple-surface);
     color: var(--apple-text);
     padding: 50px 20px 40px;
     border-top: 1px solid var(--apple-border);
@@ -431,7 +462,6 @@ td:first-child { font-weight: 500; } /* Highlight cột đầu tiên */
     max-width: var(--maxw);
     margin: 0 auto;
     display: grid;
-    /* Dùng lại cấu trúc grid cũ */
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
 }
@@ -439,7 +469,6 @@ td:first-child { font-weight: 500; } /* Highlight cột đầu tiên */
     color: var(--apple-text);
     font-weight: 600;
     font-size: 1.05rem;
-    text-shadow: none; /* Bỏ hiệu ứng Neon */
     margin-bottom: 15px;
 }
 .footer-new a {
@@ -453,16 +482,11 @@ td:first-child { font-weight: 500; } /* Highlight cột đầu tiên */
 .footer-social a i {
   font-size: 20px;
   color: var(--apple-subtext);
-  text-shadow: none; /* Bỏ hiệu ứng Neon */
   transition: color 0.3s, transform 0.3s;
 }
 .footer-social a:hover i {
   color: var(--apple-accent);
   transform: scale(1.1);
-}
-/* Loại bỏ hiệu ứng LED và Marquee (không phải Apple Style) */
-.leds, .footer-new > div:last-child {
-  display: none !important;
 }
 .footer-new hr {
   border: none;
@@ -476,7 +500,7 @@ td:first-child { font-weight: 500; } /* Highlight cột đầu tiên */
 }
 
 
-/* Floating actions (Đã tinh chỉnh) */
+/* Floating actions */
 .float-actions{
   position:fixed;
   right: 20px;
@@ -502,7 +526,6 @@ td:first-child { font-weight: 500; } /* Highlight cột đầu tiên */
   cursor: pointer;
   text-decoration: none;
   transition: all 0.2s ease;
-  animation: none; /* Bỏ hiệu ứng pulse-float */
 }
 .float-actions > button:hover, .float-actions a:hover{
   transform: translateY(-2px);
@@ -519,7 +542,7 @@ td:first-child { font-weight: 500; } /* Highlight cột đầu tiên */
     margin-bottom: 10px;
 }
 .float-actions .more a {
-    background: #555 !important; /* Màu xám tối giản hơn */
+    background: #555 !important;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 .float-actions .more a:hover {
@@ -532,9 +555,7 @@ td:first-child { font-weight: 500; } /* Highlight cột đầu tiên */
     .footer-new .wrap {grid-template-columns:1fr;}
     .hero-left{text-align:center;}
     .hero { padding: 30px 20px; }
-    /* Căn giữa nút hành động trên mobile */
     .hero-actions { justify-content: center; } 
-    /* Đảm bảo bảng giá hiển thị tốt */
     th, td { padding: 10px 12px; font-size: 0.9rem; }
 }
 </style>
@@ -586,8 +607,8 @@ td:first-child { font-weight: 500; } /* Highlight cột đầu tiên */
       <a href="https://zalo.me/0857255868" target="_blank" class="btn primary" style="background:#2bc76f;color:#fff" aria-label="Chat Zalo với Motoopen"><span role="img" aria-label="Biểu tượng tin nhắn">💬</span> Chat Zalo</a>
     </div>
   </div>
+</section>
 
-  </section>
 <section class="pricing" id="gia">
   <h2><span role="img" aria-label="Biểu tượng bảng kê">📋</span> Bảng Giá Thuê Xe Máy Hà Nội</h2>
   <div class="table-wrap">
@@ -685,7 +706,7 @@ td:first-child { font-weight: 500; } /* Highlight cột đầu tiên */
     document.body.style.opacity = 1;
     document.body.style.transform = 'translateY(0)';
     
-    // Chỉ khởi tạo Typed Effect (Bike Trail đã bị loại bỏ)
+    // Chỉ khởi tạo Typed Effect 
     initTypedEffect();
 
     // 🌟 KHỞI TẠO OVERLAY MỚI 🌟
@@ -731,14 +752,12 @@ td:first-child { font-weight: 500; } /* Highlight cột đầu tiên */
             closeDrawerMenu();
             const target = document.querySelector(href);
             if (target) {
-              // Tinh chỉnh cuộn để tính thêm chiều cao của navbar fixed
-              const navHeight = 90; // Khoảng cách an toàn cho navbar
+              const navHeight = 90; 
               const offsetTop = target.offsetTop - navHeight; 
               window.scrollTo({top: offsetTop, behavior: 'smooth'});
             }
           }, 200); 
         } else {
-          // Link ngoài, đóng menu và để link chạy hành vi mặc định
           setTimeout(closeDrawerMenu, 200);
         }
       });
@@ -759,11 +778,10 @@ td:first-child { font-weight: 500; } /* Highlight cột đầu tiên */
       if (!typed) return;
 
       let tIndex = 0, chIndex = 0;
-      let forward = true; // true: gõ, false: xóa
+      let forward = true; 
       let isPaused = false;
       let lastTime = 0;
       
-      // Tốc độ (ms/ký tự) và thời gian tạm dừng (ms)
       const TYPE_SPEED = 60; 
       const ERASE_SPEED = 28; 
       const PAUSE_DURATION = 1000; 
@@ -775,24 +793,21 @@ td:first-child { font-weight: 500; } /* Highlight cột đầu tiên */
           if (!lastTime) lastTime = currentTime;
           const deltaTime = currentTime - lastTime;
           
-          // --- Logic Tạm dừng ---
           if (isPaused) {
               if (currentTime - pauseStartTime > PAUSE_DURATION) {
                   isPaused = false;
-                  lastTime = currentTime; // Reset lastTime sau khi tạm dừng
+                  lastTime = currentTime;
               }
               return; 
           }
           
-          // --- Logic Gõ/Xóa ---
           let actionSpeed = forward ? TYPE_SPEED : ERASE_SPEED;
           
-          // Kiểm tra xem đã đủ thời gian để chuyển ký tự chưa
           if (deltaTime < actionSpeed) {
               return;
           }
 
-          lastTime = currentTime; // Cập nhật thời điểm cuối cùng
+          lastTime = currentTime;
 
           const word = phrases[tIndex];
           typed.textContent = word.slice(0, chIndex);
@@ -802,10 +817,10 @@ td:first-child { font-weight: 500; } /* Highlight cột đầu tiên */
               if (chIndex > word.length) {
                   forward = false;
                   isPaused = true;
-                  pauseStartTime = currentTime; // Bắt đầu tính thời gian tạm dừng
+                  pauseStartTime = currentTime;
                   return;
               }
-          } else { // Xóa
+          } else { 
               chIndex--;
               if (chIndex === 0) {
                   forward = true;
@@ -833,7 +848,7 @@ td:first-child { font-weight: 500; } /* Highlight cột đầu tiên */
         q.setAttribute('aria-expanded', 'true');
       }
     });
-    // Thêm hỗ trợ phím Enter/Space cho mục FAQ
+    // Thêm hỗ trợ phím Enter/Space 
     q.addEventListener('keydown', (e) => {
         if (e.key === 'Enter' || e.key === ' ') {
             e.preventDefault();
@@ -848,7 +863,7 @@ td:first-child { font-weight: 500; } /* Highlight cột đầu tiên */
     if(!c) return;
     let m = 0;
     setInterval(()=> { 
-      m += 266; // Điều chỉnh bước nhảy theo min-width của review card
+      m += 266; 
       if(m > c.scrollWidth - c.clientWidth) { 
         m = 0; 
         c.scrollTo({left:0, behavior:'smooth'}) 
@@ -862,7 +877,7 @@ td:first-child { font-weight: 500; } /* Highlight cột đầu tiên */
   const moreBtns = document.getElementById('floatMenuMore'); 
   
   window.addEventListener('scroll', () => {
-    if(backTop) backTop.style.display = window.scrollY > 200 ? 'flex' : 'none'; // Đổi từ block sang flex
+    if(backTop) backTop.style.display = window.scrollY > 200 ? 'flex' : 'none'; 
   });
   
   if(backTop) {
@@ -880,7 +895,7 @@ td:first-child { font-weight: 500; } /* Highlight cột đầu tiên */
           moreBtns.style.display = isVisible ? 'none' : 'flex';
           
           mainFloatBtn.setAttribute('aria-expanded', isVisible ? 'false' : 'true'); 
-          mainFloatBtn.textContent = isVisible ? '+' : '✕'; // Đổi ký hiệu
+          mainFloatBtn.textContent = isVisible ? '+' : '✕';
           moreBtns.setAttribute('aria-hidden', isVisible ? 'true' : 'false'); 
       });
   }
