@@ -1,17 +1,9 @@
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Chatbot Thuê Xe</title>
 <style>
 body { font-family: Arial; margin:0; padding:0; background:#f0f0f0; }
 
 /* Icon chatbot */
 #chatbotIcon {
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
+  position: fixed; bottom: 20px; left: 20px;
   width: 50px; height: 50px;
   background: #ff4081; border-radius: 50%;
   cursor: pointer; z-index: 9999;
@@ -49,7 +41,9 @@ body { font-family: Arial; margin:0; padding:0; background:#f0f0f0; }
 #closeChat { margin-left:auto; cursor:pointer; font-weight:bold; font-size:18px; }
 
 /* Messages */
-#chatMessages { flex:1; padding:10px; overflow-y:auto; display:flex; flex-direction:column; }
+#chatMessages {
+  flex:1; padding:10px; overflow-y:auto; display:flex; flex-direction:column;
+}
 .bot, .user { padding: 10px 15px; margin:5px 0; border-radius:20px; max-width:80%; position:relative; }
 .bot { background:#e1f5fe; align-self:flex-start; }
 .user { background:#c8e6c9; align-self:flex-end; }
@@ -60,11 +54,9 @@ body { font-family: Arial; margin:0; padding:0; background:#f0f0f0; }
 #chatInput button { padding:10px 15px; background:#ff4081; color:#fff; border:none; cursor:pointer; }
 
 /* Balloon animation */
-.ballon { position: absolute; font-size:20px; animation: fly 1s ease-out forwards; }
+.ballon { position:absolute; font-size:20px; animation: fly 1s ease-out forwards; }
 @keyframes fly { 0% {opacity:1; transform:translateY(0);} 100% {opacity:0; transform:translateY(-40px);} }
 </style>
-</head>
-<body>
 
 <div id="chatbotIcon">💬</div>
 
@@ -90,14 +82,14 @@ const input = document.querySelector('#chatInput input');
 const button = document.querySelector('#chatInput button');
 const botIcon = document.getElementById('botIcon');
 
-// Bảng giá xe
+// Giá xe
 const xeGia = {
-  "50cc": {ngay:200000, tuan:800000, thang:1800000},
-  "wave": {ngay:150000, tuan:600000, thang:1200000},
-  "sirius": {ngay:150000, tuan:600000, thang:1200000},
-  "vision": {ngay:200000, tuan:900000, thang:2000000},
-  "airblade": {ngay:200000, tuan:900000, thang:1500000},
-  "xe điện": {ngay:200000, tuan:800000, thang:1500000}
+  "50cc": {ngay:200, tuan:800, thang:1800},
+  "wave": {ngay:150, tuan:600, thang:1200},
+  "sirius": {ngay:150, tuan:600, thang:1200},
+  "vision": {ngay:200, tuan:900, thang:2000},
+  "airblade": {ngay:200, tuan:900, thang:1500},
+  "xe điện": {ngay:200, tuan:800, thang:1500}
 };
 
 // Mở/đóng chatbot
@@ -111,60 +103,51 @@ closeChat.addEventListener('click', ()=>{ chatbot.classList.remove('show'); });
 function showBotMessage(msg){
   botIcon.style.transform="scaleY(0.1)";
   setTimeout(()=>{botIcon.style.transform="scaleY(1)";},150);
-  const div=document.createElement('div');
-  div.className='bot';
-  div.textContent=msg;
-  messages.appendChild(div);
-  messages.scrollTop=messages.scrollHeight;
-
-  const balloon=document.createElement('div');
-  balloon.className='ballon';
-  balloon.textContent="🎈✨";
-  balloon.style.left=Math.random()*80+"%";
-  div.appendChild(balloon);
+  const div=document.createElement('div'); div.className='bot'; div.textContent=msg;
+  messages.appendChild(div); messages.scrollTop=messages.scrollHeight;
+  const balloon=document.createElement('div'); balloon.className='ballon'; balloon.textContent="🎈✨";
+  balloon.style.left=Math.random()*80+"%"; div.appendChild(balloon);
   setTimeout(()=>{div.removeChild(balloon);},1000);
 }
 
-// Nhận tin nhắn người dùng
+// Xử lý input
 function handleInput(){
-  const userMsg=input.value.trim().toLowerCase();
-  if(!userMsg) return;
-  const div=document.createElement('div');
-  div.className='user';
-  div.textContent=input.value;
-  messages.appendChild(div);
-  messages.scrollTop=messages.scrollHeight;
+  const msg = input.value.trim().toLowerCase();
+  if(!msg) return;
+  const div=document.createElement('div'); div.className='user'; div.textContent=input.value;
+  messages.appendChild(div); messages.scrollTop=messages.scrollHeight;
 
-  // Kiểm tra từ khóa "thuê" hoặc "xe"
-  const triggerKeywords = ["thuê","xe"];
-  let triggered = triggerKeywords.some(k=>userMsg.includes(k));
+  // Nhận dạng từ khoá
+  const tuKhoas = ["thuê","xe","ngày","tuần","tháng","50cc","wave","sirius","vision","airblade","xe điện","ga","số"];
+  let hasKeyword = tuKhoas.some(k=>msg.includes(k));
 
-  // Lấy loại xe
-  let loaiXe = null;
-  for(let x in xeGia){ if(userMsg.includes(x)) {loaiXe=x; break;} }
+  // Kiểm tra loại xe
+  let xeChon = null;
+  Object.keys(xeGia).forEach(x=>{
+    if(msg.includes(x)) xeChon=x;
+  });
 
-  // Lấy số ngày/tuần/tháng
-  let soNgay=0, soTuan=0, soThang=0;
-  const reNgay=userMsg.match(/(\d+)\s*ngày/);
-  const reTuan=userMsg.match(/(\d+)\s*tuần/);
-  const reThang=userMsg.match(/(\d+)\s*tháng/);
-  if(reNgay) soNgay=parseInt(reNgay[1]);
-  if(reTuan) soTuan=parseInt(reTuan[1]);
-  if(reThang) soThang=parseInt(reThang[1]);
+  // Kiểm tra số lượng ngày/tuần/tháng
+  let soNgay = msg.match(/(\d+)\s*ngày/);
+  let soTuan = msg.match(/(\d+)\s*tuần/);
+  let soThang = msg.match(/(\d+)\s*tháng/);
 
-  if(triggered){
-    if(loaiXe && (soNgay || soTuan || soThang)){
-      let gia=0;
-      if(soNgay) gia+=soNgay*xeGia[loaiXe].ngay;
-      if(soTuan) gia+=soTuan*xeGia[loaiXe].tuan;
-      if(soThang) gia+=soThang*xeGia[loaiXe].thang;
-      showBotMessage(`Giá thuê ${loaiXe} là ${gia.toLocaleString()} VNĐ. Bạn liên hệ Zalo để nhận báo giá chính xác và nhiều ưu đãi khi thuê nhiều ngày.`);
-    } else {
-      showBotMessage("Bạn muốn thuê xe ga hay xe số và mấy ngày, tuần, tháng?");
-    }
-  } else {
+  // Nếu đủ thông tin tính tiền
+  if(xeChon && (soNgay || soTuan || soThang)){
+    let gia='';
+    if(soNgay) gia += `${soNgay[1]} ngày x ${xeGia[xeChon].ngay}k = ${soNgay[1]*xeGia[xeChon].ngay}k\n`;
+    if(soTuan) gia += `${soTuan[1]} tuần x ${xeGia[xeChon].tuan}k = ${soTuan[1]*xeGia[xeChon].tuan}k\n`;
+    if(soThang) gia += `${soThang[1]} tháng x ${xeGia[xeChon].thang}k = ${soThang[1]*xeGia[xeChon].thang}k\n`;
+    showBotMessage(`Giá tham khảo cho ${xeChon}:\n${gia}Vui lòng liên hệ Zalo để báo giá chính xác và ưu đãi thuê nhiều ngày.`);
+  }
+  // Nếu khách nói "thuê" hoặc "xe" nhưng chưa đủ info
+  else if(hasKeyword){
+    showBotMessage("Bạn muốn thuê xe ga hay xe số và mấy ngày, tuần, tháng?");
+  }
+  else{
     showBotMessage("Hmm… tôi chưa hiểu câu hỏi này 😅");
   }
+
   input.value='';
 }
 
@@ -174,30 +157,28 @@ input.addEventListener('keydown',(e)=>{if(e.key==='Enter') handleInput();});
 // ================= Kéo thả =================
 let isDragging = false, offsetX=0, offsetY=0;
 const header = document.getElementById('chatHeader');
-header.addEventListener('mousedown', startDrag);
-header.addEventListener('touchstart', startDrag);
+header.addEventListener('mousedown', startDrag); header.addEventListener('touchstart', startDrag);
 function startDrag(e){
   isDragging=true;
   const rect=chatbot.getBoundingClientRect();
-  if(e.type==='touchstart'){offsetX=e.touches[0].clientX-rect.left; offsetY=e.touches[0].clientY-rect.top;}
-  else {offsetX=e.clientX-rect.left; offsetY=e.clientY-rect.top;}
-  document.addEventListener('mousemove', dragMove);
-  document.addEventListener('mouseup', stopDrag);
-  document.addEventListener('touchmove', dragMove);
-  document.addEventListener('touchend', stopDrag);
+  if(e.type==='touchstart'){ offsetX=e.touches[0].clientX-rect.left; offsetY=e.touches[0].clientY-rect.top; }
+  else { offsetX=e.clientX-rect.left; offsetY=e.clientY-rect.top; }
+  document.addEventListener('mousemove', dragMove); document.addEventListener('mouseup', stopDrag);
+  document.addEventListener('touchmove', dragMove); document.addEventListener('touchend', stopDrag);
 }
 function dragMove(e){
   if(!isDragging) return;
-  let x,y;
-  if(e.type.startsWith('touch')) {x=e.touches[0].clientX-offsetX; y=e.touches[0].clientY-offsetY;}
-  else {x=e.clientX-offsetX; y=e.clientY-offsetY;}
+  let x, y;
+  if(e.type.startsWith('touch')){ x=e.touches[0].clientX-offsetX; y=e.touches[0].clientY-offsetY; }
+  else{ x=e.clientX-offsetX; y=e.clientY-offsetY; }
   const maxX=window.innerWidth-chatbot.offsetWidth;
   const maxY=window.innerHeight-chatbot.offsetHeight;
   chatbot.style.left=Math.min(Math.max(0,x),maxX)+'px';
   chatbot.style.top=Math.min(Math.max(0,y),maxY)+'px';
   chatbot.style.bottom='auto';
 }
-function stopDrag(){ isDragging=false; document.removeEventListener('mousemove',dragMove); document.removeEventListener('mouseup',stopDrag); document.removeEventListener('touchmove',dragMove); document.removeEventListener('touchend',stopDrag); }
+function stopDrag(){ isDragging=false;
+  document.removeEventListener('mousemove', dragMove); document.removeEventListener('mouseup', stopDrag);
+  document.removeEventListener('touchmove', dragMove); document.removeEventListener('touchend', stopDrag);
+}
 </script>
-</body>
-</html>
