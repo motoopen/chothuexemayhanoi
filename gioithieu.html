@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   
   <title>Thuê Xe Máy Hà Nội Giá Rẻ | Motoopen - Giao Tận Nơi</title>
 
@@ -980,7 +980,8 @@
       const drawer = document.getElementById('drawer');
       const overlay = document.getElementById('drawerOverlay');
       const reviewsBg = document.getElementById('reviewsBg');
-
+      const backTop = document.querySelector('.back-top'); // Thêm backTop element
+      
       // 1) Prevent overlap: set body padding-top to nav height (calibrated)
       function setBodyTopPadding(){
         const navRect = topbar.getBoundingClientRect();
@@ -1011,10 +1012,10 @@
       // close drawer when clicking a link inside
       drawer.querySelectorAll('a').forEach(a => a.addEventListener('click', ()=> openDrawer(false)));
 
-      // 3) Scroll effects: nav style and parallax background
+      // 3) Scroll effects: nav style and parallax background + Back to Top visibility
       let lastY = window.scrollY || 0;
       let ticking = false;
-      const backTop = document.querySelector('.back-top'); // Thêm backTop element
+      
       function onScroll(){
         lastY = window.scrollY || 0;
         if(!ticking){
@@ -1055,7 +1056,7 @@
       // Targets: .reveal, .fade-up, .slide-left, .slide-right
       document.querySelectorAll('.reveal, .fade-up, .slide-left, .slide-right').forEach(el => motionObserver.observe(el));
 
-      // 5) FAQ accordion behavior with keyboard support
+      // 5) FAQ accordion behavior (Hoàn thành theo yêu cầu)
       const faqs = document.querySelectorAll('.faq .q');
       faqs.forEach(q => {
         q.addEventListener('click', () => toggleFaq(q));
@@ -1064,17 +1065,15 @@
         });
       });
       function toggleFaq(q){
-        const next = q.nextElementSibling;
-        const expanded = q.getAttribute('aria-expanded') === 'true';
-        if(next){
-          if(expanded){
-            next.classList.remove('open');
-            q.setAttribute('aria-expanded','false');
-            q.querySelector('.sign').textContent = '+';
-          } else {
-            next.classList.add('open');
-            q.setAttribute('aria-expanded','true');
-            q.querySelector('.sign').textContent = '−';
+        const a = q.nextElementSibling;
+        if(a){ // Kiểm tra sự tồn tại của phần trả lời
+          const isOpen = a.classList.contains('open');
+          a.classList.toggle('open');
+          q.setAttribute('aria-expanded', !isOpen);
+          // Sử dụng q.querySelector('.sign') vì dấu '+'/'−' nằm trong thẻ con
+          const sign = q.querySelector('.sign');
+          if (sign) {
+              sign.textContent = isOpen ? '+' : '−';
           }
         }
       }
@@ -1145,8 +1144,7 @@
           });
       }
 
-
-      // ** Back to top logic **
+      // 1️⃣ Thêm JS hoàn thiện cho: Back to Top (theo yêu cầu)
       if (backTop) {
         backTop.addEventListener('click', () => window.scrollTo({top:0,behavior:'smooth'}));
       }
