@@ -1,0 +1,16 @@
+# robots.txt tối ưu cho GitHub Pages Landing Page
+
+User-agent: *
+# Chặn các folder nhạy cảm (nếu có)
+Disallow: /admin/
+Disallow: /config/
+Disallow: /private/
+
+# Cho phép tất cả file còn lại crawl
+Allow: /
+
+# Sitemap chính
+Sitemap: https://motoopen.github.io/chothuexemayhanoi/sitemap.xml
+
+# Crawl delay (tùy chọn, GitHub Pages ít cần nhưng vẫn để an toàn)
+Crawl-delay: 5
