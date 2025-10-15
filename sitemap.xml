@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <!-- URL chính landing page -->
   <url>
     <loc>https://motoopen.github.io/chothuexemayhanoi/</loc>
     <lastmod>2025-10-15</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
+  <!-- Anchor sections (tăng khả năng Google hiểu nội dung) -->
   <url>
     <loc>https://motoopen.github.io/chothuexemayhanoi/#gioithieu</loc>
     <lastmod>2025-10-15</lastmod>
@@ -23,17 +25,10 @@
   </url>
 
   <url>
-    <loc>https://motoopen.github.io/chothuexemayhanoi/#danhgia</loc>
+    <loc>https://motoopen.github.io/chothuexemayhanoi/#lienhe</loc>
     <lastmod>2025-10-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://motoopen.github.io/chothuexemayhanoi/#faq</loc>
-    <lastmod>2025-10-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
 
 </urlset>
