@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Landing Page Chatbot</title>
+<style>
+body { font-family: Arial; margin:0; padding:0; background:#f0f0f0; }
+
+/* Icon chatbot */
+#chatbotIcon {
+  position: fixed; bottom: 20px; left: 20px;
+  width: 50px; height: 50px; background: #ff4081; border-radius: 50%;
+  cursor: pointer; z-index: 9999;
+  display: flex; align-items: center; justify-content: center;
+  color: #fff; font-size: 24px;
+  box-shadow:0 4px 15px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+#chatbotIcon:active { transform: scale(0.9); }
+
+/* Chatbot container */
+#chatbot {
+  position: fixed; bottom: 20px; left: 20px;
+  width: 320px; max-width: 90%; height: 450px;
+  background: #fff; border-radius: 20px;
+  box-shadow: 0 4px 25px rgba(0,0,0,0.25);
+  display: flex; flex-direction: column;
+  overflow: hidden;
+  z-index: 9999;
+  transform: translateY(100%);
+  transition: transform 0.4s cubic-bezier(0.4,0,0.2,1);
+}
+#chatbot.show { transform: translateY(0); }
+
+/* Header */
+#chatHeader {
+  background: #ff4081; color:#fff; padding:10px; font-weight:bold;
+  display:flex; align-items:center; border-bottom:1px solid #ddd;
+  cursor: grab;
+}
+#chatHeader:active { cursor: grabbing; }
+#chatHeader img { width:40px; height:40px; border-radius:50%; margin-right:10px; transition: transform 0.1s; }
+#closeChat { margin-left:auto; cursor:pointer; font-weight:bold; font-size:18px; }
+
+/* Messages */
+#chatMessages {
+  flex:1; padding:10px; overflow-y:auto; display:flex; flex-direction:column;
+}
+.bot, .user { padding: 10px 15px; margin:5px 0; border-radius:20px; max-width:80%; position:relative; }
+.bot { background:#e1f5fe; align-self:flex-start; }
+.user { background:#c8e6c9; align-self:flex-end; }
+
+/* Input */
+#chatInput { display:flex; border-top:1px solid #ddd; }
+#chatInput input { flex:1; border:none; padding:10px; outline:none; border-radius:0; }
+#chatInput button { padding:10px 15px; background:#ff4081; color:#fff; border:none; cursor:pointer; }
+
+/* Balloon animation */
+.ballon { position: absolute; font-size:20px; animation: fly 1s ease-out forwards; }
+@keyframes fly { 0% {opacity:1; transform:translateY(0);} 100% {opacity:0; transform:translateY(-40px);} }
+</style>
+</head>
+<body>
+
+<div id="chatbotIcon">💬</div>
+
+<div id="chatbot">
+  <div id="chatHeader">
+    <img id="botIcon" src="https://i.imgur.com/3cXnUuT.png" alt="Bot">
+    ChatGPT Bot
+    <span id="closeChat">×</span>
+  </div>
+  <div id="chatMessages"></div>
+  <div id="chatInput">
+    <input type="text" placeholder="Nhập tin nhắn...">
+    <button>Gửi</button>
+  </div>
+</div>
+
+<script>
+const chatbot = document.getElementById('chatbot');
+const chatbotIcon = document.getElementById('chatbotIcon');
+const closeChat = document.getElementById('closeChat');
+const messages = document.getElementById('chatMessages');
+const input = document.querySelector('#chatInput input');
+const button = document.querySelector('#chatInput button');
+const botIcon = document.getElementById('botIcon');
+
+// Bảng giá xe
+const xeList = [
+  {name:["50cc"], day:200000, week:800000, month:1800000},
+  {name:["xe số"], day:150000, week:600000, month:1000000},
+  {name:["airblade","xe ga"], day:200000, week:900000, month:1500000},
+  {name:["honda vision","vision"], day:200000, week:900000, month:2000000},
+  {name:["xe điện","xe đạp điện"], day:200000, week:800000, month:1500000},
+  {name:["wave"], day:150000, week:600000, month:1200000},
+  {name:["sirius"], day:150000, week:600000, month:1200000}
+];
+
+// Từ khóa & câu trả lời
+const qaList = [
+  { q: "xin chào", a: "Chào bạn! Tôi là ChatGPT phiên bản Việt Nam 😎. Tôi có thể giúp gì cho bạn?" },
+  { q: "tôi cần thuê xe máy", a: "Bạn thuê xe ga hay xe số và mấy ngày, tuần, tháng?" },
+  { q: "đặt cọc", a: "Bên mình yêu cầu đặt cọc từ 1 triệu đến 5 triệu và CCCD, thanh toán khi ký hợp đồng." },
+  { q: "còn thức không", a: "Tôi là ChatGPT phiên bản không bao giờ ngủ 😏" }
+];
+
+// Mở/đóng chatbot
+chatbotIcon.addEventListener('click', ()=>{
+  chatbot.classList.add('show');
+  showBotMessage("Chào bạn! Tôi là ChatGPT phiên bản Việt Nam 😎. Tôi có thể giúp gì cho bạn?");
+});
+closeChat.addEventListener('click', ()=>{ chatbot.classList.remove('show'); });
+
+// Hiển thị tin nhắn bot
+function showBotMessage(msg){
+  botIcon.style.transform="scaleY(0.1)";
+  setTimeout(()=>{botIcon.style.transform="scaleY(1)";},150);
+  const div=document.createElement('div');
+  div.className='bot';
+  div.textContent=msg;
+  messages.appendChild(div);
+  messages.scrollTop=messages.scrollHeight;
+
+  const balloon=document.createElement('div');
+  balloon.className='ballon';
+  balloon.textContent="🎈✨";
+  balloon.style.left=Math.random()*80+"%";
+  div.appendChild(balloon);
+  setTimeout(()=>{div.removeChild(balloon);},1000);
+}
+
+// Nhận tin nhắn người dùng & xử lý tính tiền
+function handleInput(){
+  const userMsg=input.value.trim();
+  if(!userMsg) return;
+  const div=document.createElement('div');
+  div.className='user';
+  div.textContent=userMsg;
+  messages.appendChild(div);
+  messages.scrollTop=messages.scrollHeight;
+
+  // Kiểm tra xe + số ngày/tuần/tháng
+  const lowerMsg = userMsg.toLowerCase();
+  let foundXe = false;
+
+  for(const xe of xeList){
+    for(const n of xe.name){
+      if(lowerMsg.includes(n)){
+        foundXe = true;
+        let qty = 0; let type="";
+        if(lowerMsg.match(/(\d+)\s*ngày/)) { qty=parseInt(lowerMsg.match(/(\d+)\s*ngày/)[1]); type="day"; }
+        else if(lowerMsg.match(/(\d+)\s*tuần/)) { qty=parseInt(lowerMsg.match(/(\d+)\s*tuần/)[1]); type="week"; }
+        else if(lowerMsg.match(/(\d+)\s*tháng/)) { qty=parseInt(lowerMsg.match(/(\d+)\s*tháng/)[1]); type="month"; }
+
+        if(type){
+          const price = xe[type]*qty;
+          showBotMessage(`Giá thuê ${n} ${qty} ${type} là ${price.toLocaleString()}₫. Bạn liên hệ Zalo để báo giá chính xác và ưu đãi khi thuê nhiều ngày.`);
+        } else {
+          showBotMessage(`Bạn muốn thuê ${n} mấy ngày, tuần hay tháng?`);
+        }
+        break;
+      }
+    }
+    if(foundXe) break;
+  }
+
+  if(!foundXe){
+    let foundQA=false;
+    for(const item of qaList){
+      if(lowerMsg.includes(item.q.toLowerCase())){ showBotMessage(item.a); foundQA=true; break; }
+    }
+    if(!foundQA) showBotMessage("Hmm… tôi chưa hiểu câu hỏi này 😅");
+  }
+
+  input.value='';
+}
+
+button.addEventListener('click', handleInput);
+input.addEventListener('keydown',(e)=>{if(e.key==='Enter') handleInput();});
+
+// ================= Kéo thả =================
+let isDragging = false, offsetX=0, offsetY=0;
+const header = document.getElementById('chatHeader');
+header.addEventListener('mousedown', startDrag);
+header.addEventListener('touchstart', startDrag);
+
+function startDrag(e){
+  isDragging = true;
+  const rect = chatbot.getBoundingClientRect();
+  if(e.type==='touchstart'){ offsetX=e.touches[0].clientX - rect.left; offsetY=e.touches[0].clientY - rect.top; }
+  else{ offsetX=e.clientX - rect.left; offsetY=e.clientY - rect.top; }
+  document.addEventListener('mousemove', dragMove);
+  document.addEventListener('mouseup', stopDrag);
+  document.addEventListener('touchmove', dragMove);
+  document.addEventListener('touchend', stopDrag);
+}
+function dragMove(e){
+  if(!isDragging) return;
+  let x, y;
+  if(e.type.startsWith('touch')){ x=e.touches[0].clientX - offsetX; y=e.touches[0].clientY - offsetY; }
+  else{ x=e.clientX - offsetX; y=e.clientY - offsetY; }
+  const maxX = window.innerWidth - chatbot.offsetWidth;
+  const maxY = window.innerHeight - chatbot.offsetHeight;
+  chatbot.style.left = Math.min(Math.max(0,x), maxX) + 'px';
+  chatbot.style.top = Math.min(Math.max(0,y), maxY) + 'px';
+  chatbot.style.bottom = 'auto';
+}
+function stopDrag(){ isDragging=false;
+  document.removeEventListener('mousemove', dragMove);
+  document.removeEventListener('mouseup', stopDrag);
+  document.removeEventListener('touchmove', dragMove);
+  document.removeEventListener('touchend', stopDrag);
+}
+</script>
+</body>
+</html>
