@@ -868,12 +868,15 @@
 </head>
 <body>
 <header class="topbar" id="topbar" role="banner" aria-label="Trang điều hướng chính">
-    <a href="./" class="brand-link" style="text-decoration:none; color:inherit;">
+    <!-- Logo về trang chủ -->
+    <a href="/" class="brand-link" style="text-decoration:none; color:inherit;">
         <div class="brand" aria-hidden="false">
           <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen logo">
           <h3>Motoopen</h3>
         </div>
     </a>
+
+    <!-- Menu điều hướng -->
     <nav class="nav-links" role="navigation" aria-label="Main navigation">
       <a href="#gioithieu"><i class="fa-solid fa-house"></i> Trang chủ</a>
       <a href="#banggia"><i class="fa-solid fa-tags"></i> Bảng giá</a>
@@ -884,10 +887,14 @@
         <i class="fa-solid fa-moon"></i>
       </button>
     </nav>
+
+    <!-- Nút chế độ tối (di động) -->
     <button class="toggle-dark" id="mobile-toggle-dark" aria-label="Chuyển đổi chế độ tối">
         <i class="fa-solid fa-sun" style="display: none;"></i>
         <i class="fa-solid fa-moon"></i>
     </button>
+
+    <!-- Hamburger menu (di động) -->
     <button class="hamburger" id="hamburger" aria-label="Mở menu" aria-expanded="false" aria-controls="drawer">
       <span class="bar"></span><span class="bar"></span><span class="bar"></span>
     </button>
