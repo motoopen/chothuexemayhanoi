@@ -1,259 +1,255 @@
 <!doctype html>
 <html lang="vi">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Motoopen — Thuê Xe Máy Hà Nội (VisionOS Level+)</title>
-<meta name="description" content="Thuê Xe Máy Hà Nội — Motoopen. Xe số, xe ga, giao tận nơi.">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Thuê Xe Máy Hà Nội | Motoopen — Giá Rẻ, Giao Tận Nơi</title>
+  <meta name="description" content="Thuê xe máy giá rẻ Hà Nội. Xe số, xe ga, giao tận nơi, cọc nhẹ. Liên hệ Zalo +84857255868" />
+  <link rel="icon" href="https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    :root{
+      --maxw:1100px;
+      --bg:#f5f5f7;
+      --surface:#ffffff;
+      --text:#1d1d1f;
+      --muted:#6e6e73;
+      --accent:#007aff;
+      --accent-2:#2bc76f;
+      --glass-border: rgba(220,220,225,0.6);
+      --card-radius:14px;
+      --nav-gap:12px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background:var(--bg);
+      color:var(--text);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      transition: background .25s, color .25s;
+      /* padding-top will be set by JS to avoid nav overlapping hero */
+    }
 
-<style>
-  :root{
-    --maxw:1120px;
-    --bg-1:#f8f9fb;
-    --bg-2:#ffffff;
-    --surface: rgba(255,255,255,0.86);
-    --text:#111216;
-    --muted:#6e6e73;
-    --accent:#007aff;
-    --accent-2:#2bc76f;
-    --glass-border: rgba(210,210,215,0.55);
-    --nav-gap:22px;
-    --nav-radius:18px;
-    --nav-elev: 18px;
-  }
+    a{color:inherit}
+    .container{max-width:var(--maxw);margin:0 auto;padding:0 20px}
 
-  /* ---------- Base ---------- */
-  *{box-sizing:border-box}
-  html,body{height:100%}
-  body{
-    margin:0;
-    font-family:Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-    color:var(--text);
-    background: linear-gradient(140deg,var(--bg-1),var(--bg-2));
-    background-size:400% 400%;
-    animation: bodyLightShift 24s linear infinite;
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale;
-    overflow-x:hidden;
-    /* Padding-top set by JS to nav height to prevent overlap */
-    transition: background .4s ease, color .3s;
-  }
+    /* ===== NAVBAR (Apple-like premium) ===== */
+    .topbar {
+      position: fixed;
+      top:12px;
+      left:50%;
+      transform:translateX(-50%);
+      width: calc(100% - 32px);
+      max-width:var(--maxw);
+      z-index:1600;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:var(--nav-gap);
+      padding:10px 18px;
+      background:rgba(255,255,255,0.78);
+      backdrop-filter: blur(12px) saturate(150%);
+      border:1px solid rgba(210,210,215,0.6);
+      border-radius:14px;
+      box-shadow:0 8px 24px rgba(0,0,0,0.06);
+      transition: all 280ms cubic-bezier(.2,.9,.2,1);
+    }
+    .topbar.scrolled{
+      background:rgba(255,255,255,0.92);
+      box-shadow:0 10px 30px rgba(0,0,0,0.08);
+      padding:8px 16px;
+    }
 
-  @keyframes bodyLightShift{
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-  }
+    .brand{display:flex;align-items:center;gap:12px}
+    .brand img{width:40px;height:40px;border-radius:8px;object-fit:cover}
+    .brand h3{margin:0;font-size:1.05rem;font-weight:700;color:var(--text)}
 
-  .container{max-width:var(--maxw);margin:0 auto;padding:0 20px;}
+    .nav-links{display:flex;align-items:center;gap:8px}
+    .nav-links a{
+      color:var(--text);text-decoration:none;font-weight:600;padding:8px 12px;border-radius:10px;display:inline-flex;gap:8px;align-items:center;transition:all .16s;
+    }
+    .nav-links a i{width:18px;text-align:center}
+    .nav-links a:hover{color:var(--accent);background:rgba(0,122,255,0.06)}
 
-  /* subtle noise overlay for premium feel */
-  body::before{
-    content:"";
-    position:fixed;inset:0;pointer-events:none;z-index:0;
-    background-image:
-      radial-gradient(rgba(255,255,255,0.02) 1px, transparent 1px);
-    background-size:14px 14px;
-    opacity:0.55;
-    mix-blend-mode:overlay;
-  }
+    .cta{background:var(--accent);color:#fff;padding:8px 16px;border-radius:999px;font-weight:700;box-shadow:0 8px 22px rgba(0,122,255,0.12)}
+    .cta:hover{background:#0066e5}
 
-  /* ---------- NAVBAR (floating, premium) ---------- */
-  .topbar{
-    position:fixed;
-    top:12px;
-    left:50%;
-    transform:translateX(-50%);
-    width:calc(100% - 32px);
-    max-width:var(--maxw);
-    z-index:1400;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    gap:12px;
-    padding:12px 20px;
-    background: linear-gradient(180deg, rgba(255,255,255,0.66), rgba(255,255,255,0.86));
-    backdrop-filter: blur(12px) saturate(150%);
-    border:1px solid var(--glass-border);
-    border-radius:var(--nav-radius);
-    box-shadow:0 10px 30px rgba(12,20,30,0.06);
-    transition:transform .28s ease, box-shadow .28s ease, background .28s ease;
-    pointer-events:auto;
-  }
-  .topbar.scrolled{
-    transform:translateX(-50%) translateY(-6px) scale(.995);
-    box-shadow:0 14px 36px rgba(12,20,30,0.08);
-    background: linear-gradient(180deg, rgba(255,255,255,0.86), rgba(255,255,255,0.98));
-  }
+    /* hamburger */
+    .hamburger{display:none;background:none;border:0;cursor:pointer;padding:8px;border-radius:8px}
+    .hamburger .bar{display:block;width:22px;height:2px;background:var(--text);margin:4px 0;border-radius:2px;transition:all .28s}
+    .hamburger.active .bar:nth-child(1){transform:translateY(6px) rotate(45deg)}
+    .hamburger.active .bar:nth-child(2){opacity:0}
+    .hamburger.active .bar:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
 
-  .brand{display:flex;align-items:center;gap:12px;z-index:1402}
-  .brand img{width:40px;height:40px;border-radius:10px;object-fit:cover}
-  .brand h3{margin:0;font-size:1.05rem;font-weight:700;color:var(--text)}
+    /* drawer + overlay */
+    .drawer-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.28);backdrop-filter:blur(2px);opacity:0;pointer-events:none;transition:opacity .28s;z-index:1500}
+    .drawer-overlay.active{opacity:1;pointer-events:auto}
+    .drawer{
+      position:fixed;top:0;right:0;height:100vh;width:340px;max-width:90vw;
+      background:linear-gradient(180deg, rgba(255,255,255,0.98), rgba(250,250,252,0.96));
+      backdrop-filter: blur(18px) saturate(150%);
+      box-shadow:-18px 0 40px rgba(0,0,0,0.12);
+      transform: translateX(110%);
+      transition: transform .42s cubic-bezier(.2,.9,.2,1);
+      z-index:1550;padding:84px 22px 22px;border-left:1px solid var(--glass-border)
+    }
+    .drawer.open{transform:translateX(0)}
+    .drawer a{display:block;padding:12px 6px;color:var(--text);text-decoration:none;font-weight:700;border-radius:8px}
+    .drawer a.icon{display:flex;gap:12px;align-items:center}
+    .drawer a.cta{margin-top:18px;background:var(--accent);color:#fff;padding:12px;text-align:center;border-radius:999px}
 
-  .nav-links{display:flex;align-items:center;gap:14px;z-index:1402}
-  .nav-links a{
-    color:var(--muted);
-    text-decoration:none;
-    font-weight:600;
-    padding:8px 12px;
-    border-radius:12px;
-    display:inline-flex;gap:8px;align-items:center;
-    transition: all .18s ease;
-  }
-  .nav-links a i{font-size:0.98rem;color:var(--accent)}
-  .nav-links a:hover{color:var(--text);background:rgba(0,0,0,0.04);transform:none}
+    /* ===== HERO (Apple Vision Motion) ===== */
+    .hero {
+      position:relative;
+      margin: 24px auto;
+      max-width:var(--maxw);
+      border-radius:18px;
+      overflow:hidden;
+      border:1px solid rgba(210,210,215,0.45);
+      box-shadow:0 12px 36px rgba(12,18,24,0.06);
+      background: linear-gradient(180deg, rgba(255,255,255,0.98), rgba(245,245,247,0.98));
+      padding:48px 28px 36px;
+    }
 
-  .cta{
-    background:var(--accent);
-    color:#fff;padding:8px 16px;border-radius:999px;font-weight:700;
-    box-shadow:0 8px 28px rgba(0,122,255,0.12);
-  }
-  .cta:hover{background:#0066e5}
+    /* gradient moving layer under hero content */
+    .hero .grad-layer{
+      position:absolute; inset:-30% -40% auto -40%; height:260%; pointer-events:none; z-index:0;
+      background:
+        radial-gradient(700px 300px at 10% 30%, rgba(0,122,255,0.06), transparent 12%),
+        radial-gradient(600px 260px at 80% 70%, rgba(43,199,127,0.045), transparent 12%);
+      transform:translateZ(0);
+      animation:gradMove 12s linear infinite;
+      mix-blend-mode:screen;opacity:0.95;
+    }
+    @keyframes gradMove{
+      0%{transform:translate3d(-6%,0,0) rotate(0deg) scale(1)}
+      50%{transform:translate3d(6%,2%,0) rotate(2deg) scale(1.02)}
+      100%{transform:translate3d(-6%,0,0) rotate(0deg) scale(1)}
+    }
 
-  /* hamburger */
-  .hamburger{
-    display:none;background:none;border:0;padding:8px;border-radius:10px;cursor:pointer;
-  }
-  .hamburger .bar{display:block;width:22px;height:2px;background:var(--text);margin:4px 0;border-radius:2px;transition:all .28s}
-  .hamburger.active .bar:nth-child(1){transform:translateY(6px) rotate(45deg)}
-  .hamburger.active .bar:nth-child(2){opacity:0;transform:scale(.8)}
-  .hamburger.active .bar:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+    .hero .content{position:relative;z-index:2;max-width:920px;margin:0 auto;text-align:center}
+    .hero .kicker{display:inline-block;background:var(--accent);color:#fff;padding:6px 12px;border-radius:999px;font-weight:700;margin-bottom:12px}
+    .hero h1{margin:10px 0 12px;font-size:clamp(30px,6.5vw,48px);line-height:1.02;font-weight:800;color:var(--text)}
+    .hero p.lead{color:var(--muted);font-size:1.05rem;line-height:1.5;max-width:760px;margin:0 auto 18px}
 
-  @media(max-width:920px){
-    .nav-links{display:none}
-    .hamburger{display:block}
-    .topbar{padding:10px 14px;left:8px;right:8px;transform:none;width:calc(100% - 16px)}
-    .topbar.scrolled{transform:none}
-  }
+    /* hero description ~350 chars block (kept concise) */
+    .hero .desc {
+      margin-top:12px;color:var(--muted);font-size:0.96rem;line-height:1.45;max-width:820px;margin-left:auto;margin-right:auto;
+      background: linear-gradient(180deg, rgba(255,255,255,0.0), rgba(255,255,255,0.0));
+      padding:10px 14px;border-radius:10px;
+    }
 
-  /* overlay + drawer */
-  .drawer-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.28);backdrop-filter: blur(2px);opacity:0;pointer-events:none;transition:opacity .28s;z-index:1350}
-  .drawer-overlay.active{opacity:1;pointer-events:auto}
+    .hero-actions{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:18px}
+    .btn{display:inline-flex;gap:10px;align-items:center;padding:12px 20px;border-radius:999px;border:0;font-weight:700;cursor:pointer}
+    .btn.primary{background:var(--accent);color:#fff;box-shadow:0 8px 26px rgba(0,122,255,0.14)}
+    .btn.primary.alt{background:var(--accent-2);box-shadow:0 8px 26px rgba(43,199,127,0.12)}
+    .btn.alt{background:transparent;border:1px solid rgba(0,0,0,0.06);color:var(--text)}
 
-  .drawer{
-    position:fixed;top:0;right:0;height:100vh;width:340px;max-width:92vw;
-    background: linear-gradient(180deg, rgba(255,255,255,0.98), rgba(250,250,252,0.98));
-    backdrop-filter: blur(18px) saturate(160%);
-    box-shadow:-20px 0 50px rgba(0,0,0,0.12);
-    transform:translateX(110%);
-    transition:transform .42s cubic-bezier(.2,.9,.2,1);
-    z-index:1360;padding:96px 22px 22px;border-left:1px solid var(--glass-border)
-  }
-  .drawer.open{transform:translateX(0)}
-  .drawer a{display:block;padding:14px 10px;color:var(--text);text-decoration:none;font-weight:700;border-radius:10px}
-  .drawer a.cta{margin-top:18px;background:var(--accent);color:#fff;padding:12px;text-align:center;border-radius:999px}
+    /* entrance */
+    .hero h1,.hero p.lead,.hero .kicker,.hero .desc,.hero-actions{opacity:0;transform:translateY(18px);filter:blur(6px);animation:blurFade .9s ease forwards}
+    .hero .kicker{animation-delay:.08s}
+    .hero h1{animation-delay:.18s}
+    .hero p.lead{animation-delay:.4s}
+    .hero .desc{animation-delay:.6s}
+    .hero-actions{animation-delay:.9s}
+    @keyframes blurFade{
+      0%{opacity:0;transform:translateY(18px);filter:blur(6px)}
+      60%{opacity:1;filter:blur(2px)}
+      100%{opacity:1;transform:none;filter:blur(0)}
+    }
 
-  /* ---------- HERO (no image) ---------- */
-  .hero{
-    position:relative;margin:18px auto;border-radius:20px;overflow:hidden;
-    border:1px solid rgba(210,210,215,0.45);
-    box-shadow:0 20px 60px rgba(12,18,24,0.06);
-    background: linear-gradient(180deg,var(--surface), rgba(250,250,252,0.96));
-    padding:110px 28px 72px; /* top padding leaves room for nav */
-    max-width:1120px;
-    z-index:1;
-  }
+    /* ===== PRICE TABLE (glass) ===== */
+    .price-section{margin-top:30px}
+    .price-table-wrap {
+      margin-top: 12px;
+      overflow-x: auto;
+      border-radius: 14px;
+      background: rgba(255,255,255,0.74);
+      backdrop-filter: blur(10px) saturate(150%);
+      border: 1px solid var(--glass-border);
+      box-shadow: 0 12px 36px rgba(0,0,0,0.04);
+    }
+    .price-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: center;
+      font-size: 1rem;
+      color: var(--text);
+      min-width: 720px;
+    }
+    .price-table th, .price-table td {
+      padding: 14px 16px;
+      border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
+    .price-table th {
+      background: rgba(250,250,252,0.9);
+      font-weight: 700;
+    }
+    .price-table tr:hover td { background: rgba(0,122,255,0.03) }
+    .price-table td:first-child { text-align:left;padding-left:20px;font-weight:600 }
 
-  /* moving gradient layer (aura + soft color) */
-  .grad-layer{
-    position:absolute;inset:-30% -40% auto -40%;height:260%;pointer-events:none;z-index:0;
-    background:
-      radial-gradient(700px 300px at 8% 30%, rgba(0,122,255,0.06), transparent 12%),
-      radial-gradient(600px 260px at 82% 70%, rgba(43,199,127,0.045), transparent 12%);
-    transform:translateZ(0);
-    animation:gradMove 12s linear infinite;
-    mix-blend-mode:screen;
-    opacity:0.95;
-    transition:transform .2s ease;
-  }
-  @keyframes gradMove{
-    0%{transform:translate3d(-6%,0,0) rotate(0deg) scale(1)}
-    50%{transform:translate3d(6%,2%,0) rotate(2deg) scale(1.02)}
-    100%{transform:translate3d(-6%,0,0) rotate(0deg) scale(1)}
-  }
+    /* ===== REVIEWS (cards sliding from sides) with parallax background ===== */
+    .reviews-section{position:relative;margin:40px auto;padding:48px 20px;border-radius:18px;overflow:hidden}
+    .reviews-bg{
+      position:absolute;inset:0;background-image:url('https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg');background-size:cover;background-position:center;
+      opacity:0.18;transform:translateY(0);will-change:transform;filter:grayscale(10%) brightness(1.05);
+    }
+    /* overlay for subtle gradient */
+    .reviews-overlay{
+      position:absolute;inset:0;background:linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.85));pointer-events:none;
+    }
+    .reviews-wrap{position:relative;z-index:2;max-width:var(--maxw);margin:0 auto;padding:20px}
+    .reviews-wrap h2{margin:0 0 10px;font-size:1.25rem}
+    .review-cards{
+      display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:18px;
+    }
+    .review-card{
+      background:linear-gradient(180deg, rgba(255,255,255,0.98), rgba(250,250,252,0.98));
+      border:1px solid rgba(220,220,225,0.6);
+      padding:18px;border-radius:14px;box-shadow:0 12px 30px rgba(12,18,24,0.06);
+      opacity:0; transform:translateX(0); filter:blur(6px);
+      transition:opacity .72s ease, transform .72s cubic-bezier(.2,.9,.2,1), filter .36s;
+    }
+    .review-card.visible{opacity:1;transform:translateX(0);filter:blur(0)}
+    .slide-from-left{transform:translateX(-80px)}
+    .slide-from-right{transform:translateX(80px)}
+    .review-card p{margin:0 0 10px;color:var(--text);font-weight:600}
+    .review-card .author{font-size:0.92rem;color:var(--muted);font-weight:700}
 
-  /* aura light that follows cursor/touch */
-  .aura {
-    position:absolute; z-index:1; inset:0; pointer-events:none;
-    background: radial-gradient(circle at var(--mx,50%) var(--my,50%), rgba(0,122,255,0.12) 0px, rgba(0,122,255,0.06) 120px, transparent 320px);
-    mix-blend-mode:screen;
-    transition: background 0.12s linear;
-    opacity:0.95;
-    filter: blur(24px);
-  }
+    /* ===== FAQ accordion ===== */
+    .faq { margin-top:20px }
+    .faq .q{
+      background:var(--surface);padding:14px;border-radius:12px;border:1px solid var(--glass-border);display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;cursor:pointer;font-weight:700;
+    }
+    .faq .q:focus{outline:3px solid rgba(0,122,255,0.12)}
+    .faq .a{display:none;padding:14px 16px;border-left:3px solid var(--accent);margin-bottom:12px;background:linear-gradient(180deg, #fff, #fcfcfd);border-radius:0 12px 12px 12px;color:var(--muted)}
+    .faq .a.open{display:block}
 
-  .hero .content{position:relative;z-index:2;max-width:930px;margin:0 auto;text-align:center}
-  .hero .kicker{display:inline-block;background:var(--accent);color:#fff;padding:8px 14px;border-radius:999px;font-weight:700;margin-bottom:12px}
-  .hero h1{margin:10px 0 16px;font-size:clamp(36px,6.5vw,56px);line-height:1.02;font-weight:800;color:var(--text)}
-  .hero p.lead{color:var(--muted);font-size:1.08rem;line-height:1.6;max-width:760px;margin:0 auto 22px}
+    /* ===== FOOTER ===== */
+    footer{padding:28px 12px;text-align:center;color:var(--muted);margin-top:20px}
 
-  .hero-actions{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
-  .btn{display:inline-flex;gap:10px;align-items:center;padding:12px 20px;border-radius:999px;border:0;font-weight:700;cursor:pointer}
-  .btn.primary{background:var(--accent);color:#fff;box-shadow:0 10px 30px rgba(0,122,255,0.14)}
-  .btn.alt{background:transparent;border:1px solid rgba(0,0,0,0.06);color:var(--text)}
-
-  /* particles canvas sits above grad but below content */
-  .particles-canvas { position:absolute; inset:0; z-index:1; pointer-events:none; }
-
-  /* animated reveal */
-  .hero h1,.hero p.lead,.hero .kicker,.hero-actions{opacity:0;transform:translateY(18px);filter:blur(6px);animation:blurFade .9s ease forwards}
-  .hero .kicker{animation-delay:.12s}
-  .hero h1{animation-delay:.22s}
-  .hero p.lead{animation-delay:.58s}
-  .hero-actions{animation-delay:.9s}
-
-  @keyframes blurFade{
-    0%{opacity:0;transform:translateY(18px);filter:blur(6px)}
-    60%{opacity:1;filter:blur(2px)}
-    100%{opacity:1;transform:none;filter:blur(0)}
-  }
-
-  /* ---------- TESTIMONIALS (high-end cards) ---------- */
-  .testimonials{
-    margin-top:34px;padding:46px;border-radius:20px;background:linear-gradient(180deg, rgba(255,255,255,0.9), rgba(250,250,252,0.95));
-    border:1px solid rgba(220,220,225,0.6);box-shadow:0 12px 36px rgba(8,12,18,0.04);
-  }
-  .review-cards{
-    display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:18px;
-  }
-  .review-card{
-    padding:18px;border-radius:14px;background:linear-gradient(180deg, rgba(255,255,255,0.96), rgba(245,245,250,0.98));
-    border:1px solid rgba(215,215,220,0.5);box-shadow:0 8px 28px rgba(0,0,0,0.04);transition:transform .36s cubic-bezier(.2,.9,.2,1),box-shadow .36s;
-  }
-  .review-card:hover{transform:translateY(-8px);box-shadow:0 18px 46px rgba(0,0,0,0.08)}
-  .review-card p{margin:0;color:var(--text);line-height:1.6}
-  .review-card .author{margin-top:12px;color:var(--muted);font-weight:600}
-
-  /* ---------- FAQ (accordion) ---------- */
-  .faq{
-    margin-top:34px;padding:34px;border-radius:20px;background:linear-gradient(180deg, rgba(255,255,255,0.9), rgba(250,250,252,0.95));
-    border:1px solid rgba(220,220,225,0.6);box-shadow:0 12px 36px rgba(8,12,18,0.04);
-  }
-  .faq-item{border-bottom:1px solid rgba(220,220,230,0.65);padding:12px 0}
-  .faq-q{
-    width:100%;background:none;border:0;padding:14px 0;font-size:1.02rem;font-weight:700;display:flex;align-items:center;justify-content:space-between;cursor:pointer;color:var(--text)
-  }
-  .faq-q i{transition:transform .28s}
-  .faq-a{max-height:0;overflow:hidden;transition:max-height .42s cubic-bezier(.2,.9,.2,1),padding .28s;color:var(--muted);line-height:1.6}
-  .faq-item.active .faq-a{max-height:240px;padding-top:10px}
-  .faq-item.active .faq-q i{transform:rotate(180deg)}
-
-  /* ---------- Footer / small ---------- */
-  footer{padding:40px 12px;text-align:center;color:var(--muted)}
-
-  /* responsive */
-  @media(max-width:920px){
-    .hero{padding:84px 18px 56px}
-    .grad-layer{display:none} /* save perf on mobile */
-  }
-</style>
+    /* responsive */
+    @media (max-width:900px){
+      .nav-links{display:none}
+      .hamburger{display:block}
+      .topbar{left:0;transform:none;width:100%;border-radius:0;max-width:none;justify-content:space-between;padding:8px 14px}
+      .hero{margin-top:20px;padding:36px 16px}
+      .reviews-section{padding:28px 12px}
+      .price-table{min-width:600px}
+    }
+    @media (max-width:520px){
+      .price-table{min-width:480px}
+      .brand h3{font-size:0.98rem}
+    }
+  </style>
 </head>
 <body>
-
   <!-- NAV -->
-  <header class="topbar" id="topbar" role="banner" aria-label="Motoopen navigation">
+  <header class="topbar" id="topbar" role="banner" aria-label="Trang điều hướng chính">
     <div class="brand" aria-hidden="false">
       <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen logo">
       <h3>Motoopen</h3>
@@ -261,8 +257,8 @@
 
     <nav class="nav-links" role="navigation" aria-label="Main navigation">
       <a href="#gioithieu"><i class="fa-solid fa-house"></i> Trang chủ</a>
-      <a href="#xe"><i class="fa-solid fa-motorcycle"></i> Dòng xe</a>
       <a href="#banggia"><i class="fa-solid fa-tags"></i> Bảng giá</a>
+      <a href="#danhgia"><i class="fa-solid fa-star"></i> Review</a>
       <a href="#faq"><i class="fa-solid fa-circle-question"></i> FAQ</a>
       <a class="cta" href="tel:0857255868"><i class="fa-solid fa-phone"></i> Đặt xe</a>
     </nav>
@@ -274,279 +270,323 @@
 
   <!-- Drawer + overlay -->
   <div class="drawer-overlay" id="drawerOverlay" aria-hidden="true"></div>
-  <aside class="drawer" id="drawer" role="menu" aria-hidden="true" aria-label="Mobile menu">
-    <a href="#gioithieu" role="menuitem"><i class="fa-solid fa-house"></i> Trang chủ</a>
-    <a href="#xe" role="menuitem"><i class="fa-solid fa-motorcycle"></i> Dòng xe</a>
-    <a href="#banggia" role="menuitem"><i class="fa-solid fa-tags"></i> Bảng giá</a>
-    <a href="#faq" role="menuitem"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+  <aside class="drawer" id="drawer" role="menu" aria-hidden="true">
+    <a class="icon" href="#gioithieu" role="menuitem"><i class="fa-solid fa-house"></i> Trang chủ</a>
+    <a class="icon" href="#xe" role="menuitem"><i class="fa-solid fa-motorcycle"></i> Dòng xe</a>
+    <a class="icon" href="#banggia" role="menuitem"><i class="fa-solid fa-tags"></i> Bảng giá</a>
+    <a class="icon" href="#danhgia" role="menuitem"><i class="fa-solid fa-star"></i> Review</a>
+    <a class="icon" href="#faq" role="menuitem"><i class="fa-solid fa-circle-question"></i> FAQ</a>
     <a class="cta" href="tel:0857255868" role="menuitem"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
+    <a class="icon" href="https://m.facebook.com/motoopenvn/" target="_blank" rel="noopener" role="menuitem"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+    <a class="icon" href="https://www.instagram.com/motoopen/" target="_blank" rel="noopener" role="menuitem"><i class="fa-brands fa-instagram"></i> Instagram</a>
+    <a class="icon" href="https://www.pinterest.com/motoopen12/" target="_blank" rel="noopener" role="menuitem"><i class="fa-brands fa-pinterest"></i> Pinterest</a>
   </aside>
 
   <!-- MAIN -->
   <main id="main" class="container" role="main">
+    <!-- HERO -->
     <section class="hero" id="gioithieu" aria-labelledby="hero-title">
       <div class="grad-layer" aria-hidden="true"></div>
-
-      <!-- aura: follows pointer via CSS variable updated by JS -->
-      <div class="aura" id="aura" aria-hidden="true"></div>
-
-      <!-- particles canvas -->
-      <canvas class="particles-canvas" id="particles"></canvas>
-
       <div class="content">
         <div class="kicker">Motoopen</div>
-        <h1 id="hero-title">Thuê Xe Máy Hà Nội — Uy tín & Giao Tận Nơi</h1>
-        <p class="lead">Dịch vụ thuê xe máy giá rẻ, xe số/xe ga — giao tận nơi Long Biên & trung tâm Hà Nội. Giá từ <strong>150k/ngày</strong>.</p>
+        <h1 id="hero-title">Thuê Xe Máy Hà Nội — Giá Rẻ, Giao Tận Nơi</h1>
+
+        <!-- 350 ký tự mô tả (phiên bản như bạn yêu cầu) -->
+        <p class="lead">Dịch vụ cho thuê xe máy giá rẻ tại Hà Nội - Ưu đãi đặc biệt khi thuê theo tháng! Đa dạng dòng xe Honda, Yamaha, xe 50cc với mức cọc nhẹ nhàng. Giao xe tận nơi nhanh chóng, tiện lợi. Quy trình thuê đơn giản, xe chất lượng được bảo dưỡng định kỳ. Phục vụ 9:00 - 21:00. Liên hệ Zalo: +84857255868</p>
 
         <div class="hero-actions">
-          <a class="btn primary" href="tel:0857255868" aria-label="Gọi ngay"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
-          <a class="btn primary" href="https://zalo.me/0857255868" style="background:var(--accent-2)" aria-label="Chat Zalo"><i class="fa-solid fa-comment-dots"></i> Chat Zalo</a>
+          <a class="btn primary" href="tel:0857255868" aria-label="Gọi ngay 0857 255 868"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
+          <a class="btn primary alt" href="https://zalo.me/84857255868" aria-label="Chat Zalo"><i class="fa-solid fa-comment-dots"></i> Chat Zalo</a>
         </div>
+      </div>
+    </section>
 
-        <!-- Testimonials -->
-        <div class="testimonials" aria-labelledby="review-title">
-          <h2 id="review-title">Khách hàng nói gì</h2>
-          <div class="review-cards" id="reviewCards">
-            <div class="review-card">
-              <p>“Xe mới, giao nhanh và rất nhiệt tình. Mình sẽ thuê lại.”</p>
-              <div class="author">— <strong>Trung Lê</strong></div>
-            </div>
-            <div class="review-card">
-              <p>“Giá tốt, thủ tục gọn. Dịch vụ chu đáo, recommend!”</p>
-              <div class="author">— <strong>Mai Phương</strong></div>
-            </div>
-            <div class="review-card">
-              <p>“Giao tận nơi, chất lượng xe ổn. Cảm ơn Motoopen!”</p>
-              <div class="author">— <strong>Hải Nguyễn</strong></div>
-            </div>
+    <!-- PRICE TABLE -->
+    <section class="price-section reveal" id="banggia" aria-labelledby="price-title">
+      <h2 id="price-title">Bảng giá thuê xe máy Hà Nội</h2>
+      <p style="color:var(--muted);margin:6px 0 8px">Giá thuê xe máy từ 150k/ngày đến 200k/ngày. Giá tháng từ 1 triệu đến 2 triệu. Liên hệ để biết chi tiết.</p>
+
+      <div class="price-table-wrap" role="table" aria-label="Bảng giá thuê xe">
+        <table class="price-table" aria-hidden="false">
+          <thead>
+            <tr>
+              <th>Loại Xe</th>
+              <th>1 Ngày</th>
+              <th>1 Tuần</th>
+              <th>1 Tháng</th>
+              <th>Đặt Cọc</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Xe số Honda Wave</td>
+              <td>150k</td>
+              <td>600k - 700k</td>
+              <td>1.200k</td>
+              <td>2 - 3 triệu</td>
+            </tr>
+            <tr>
+              <td>Xe ga Honda Vision</td>
+              <td>200k</td>
+              <td>800k - 1.000k</td>
+              <td>1.800k - 2.000k</td>
+              <td>4 - 5 triệu</td>
+            </tr>
+            <tr>
+              <td>Xe ga Air Blade</td>
+              <td>200k</td>
+              <td>800k</td>
+              <td>1.400k</td>
+              <td>3 triệu</td>
+            </tr>
+            <tr>
+              <td>Xe ga giá rẻ (Click / Mio)</td>
+              <td>150k</td>
+              <td>600k - 700k</td>
+              <td>1.000k - 1.200k</td>
+              <td>2 triệu</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p style="color:var(--muted);margin-top:12px">Giá có thể biến động theo thời điểm. Liên hệ <a href="tel:0857255868">0857 255 868</a> (Zalo: +84857255868) để nhận báo giá chính xác và giao tận nơi tại Long Biên, Ba Đình, Hoàn Kiếm, Tây Hồ, Gia Lâm.</p>
+    </section>
+
+    <!-- REVIEWS with parallax background -->
+    <section class="reviews-section" id="danhgia" aria-labelledby="review-title">
+      <div class="reviews-bg" id="reviewsBg" aria-hidden="true"></div>
+      <div class="reviews-overlay" aria-hidden="true"></div>
+
+      <div class="reviews-wrap">
+        <h2 id="review-title">Khách hàng tại Hà Nội nói gì</h2>
+        <div class="review-cards" aria-live="polite">
+          <div class="review-card slide-from-left">
+            <p>“Thuê xe Vision 3 ngày, xe chạy êm — giao tận nơi phố cổ nhanh, phí nhẹ.”</p>
+            <div class="author">— <strong>Thu Hà</strong> · Phố Cổ</div>
           </div>
-        </div>
 
-        <!-- FAQ -->
-        <div class="faq" id="faq" aria-labelledby="faq-title">
-          <h2 id="faq-title">Câu hỏi thường gặp</h2>
-
-          <div class="faq-item">
-            <button class="faq-q" aria-expanded="false">Đặt cọc bao nhiêu? <i class="fa-solid fa-chevron-down"></i></button>
-            <div class="faq-a">Thông thường 2–5 triệu, tuỳ loại xe. Hỗ trợ giấy tờ CMND/CCCD hoặc hộ chiếu.</div>
+          <div class="review-card slide-from-right">
+            <p>“Giá thuê xe máy hợp lý, cọc nhẹ, nhân viên thân thiện. Ở Long Biên rất tiện.”</p>
+            <div class="author">— <strong>Quang Lâm</strong> · Long Biên</div>
           </div>
 
-          <div class="faq-item">
-            <button class="faq-q" aria-expanded="false">Có giao tận nơi không?</button>
-            <div class="faq-a">Có — giao tận nơi trong Hà Nội (có thể tính phí khu vực ngoại thành).</div>
+          <div class="review-card slide-from-left">
+            <p>“Mình thuê xe ga theo tháng ở Tây Hồ — giá tốt, xe mới, bảo dưỡng kỹ.”</p>
+            <div class="author">— <strong>Gia Nội</strong> · Tây Hồ</div>
           </div>
 
-          <div class="faq-item">
-            <button class="faq-q" aria-expanded="false">Thời gian mở cửa?</button>
-            <div class="faq-a">8:00 - 21:00 hàng ngày. Liên hệ hotline nếu cần giao ngoài giờ.</div>
+          <div class="review-card slide-from-right">
+            <p>“Thuê xe máy Hà Nội dễ, nhận xe nhanh, giao tận nơi đúng giờ — rất đáng tiền.”</p>
+            <div class="author">— <strong>Lan Tây</strong> · Ba Đình</div>
+          </div>
+
+          <div class="review-card slide-from-left">
+            <p>“Giá thuê xe máy 150k/ngày, thuê tháng từ 1 triệu — quá hợp lý, xe cực mới.”</p>
+            <div class="author">— <strong>Hồ Đức</strong> · Hoàn Kiếm</div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Demo Sections below -->
-    <section class="reveal" id="xe">
-      <h2>Dòng xe phổ biến</h2>
-      <p>Wave, Vision, Air Blade — tất cả đều được bảo dưỡng trước khi giao.</p>
-      <div class="card-row" aria-hidden="false" style="display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:18px">
-        <div class="card"><strong>Wave</strong><p>Tiết kiệm nhiên liệu, phù hợp thành phố.</p></div>
-        <div class="card"><strong>Vision</strong><p>Xe ga tiện lợi, phù hợp đi nhiều.</p></div>
-        <div class="card"><strong>Air Blade</strong><p>Mạnh mẽ, ngồi thoải mái.</p></div>
+    <!-- FAQ (7 câu) -->
+    <section class="reveal faq" id="faq" aria-labelledby="faq-title">
+      <h2 id="faq-title">Câu hỏi thường gặp</h2>
+
+      <div tabindex="0" class="q" role="button" aria-expanded="false">
+        <div>Giá thuê xe máy theo ngày Hà Nội bao nhiêu?</div><div class="sign">+</div>
       </div>
+      <div class="a">Giá thuê xe máy từ <strong>150k</strong> đến <strong>200k/ngày</strong>, tùy loại xe.</div>
+
+      <div tabindex="0" class="q" role="button" aria-expanded="false">
+        <div>Giá thuê xe máy theo tuần?</div><div class="sign">+</div>
+      </div>
+      <div class="a">Giá thuê 1 tuần thường khoảng <strong>600k – 900k</strong> tuỳ loại xe và thời điểm.</div>
+
+      <div tabindex="0" class="q" role="button" aria-expanded="false">
+        <div>Giá thuê xe máy tháng bao nhiêu?</div><div class="sign">+</div>
+      </div>
+      <div class="a">Giá thuê theo tháng khá rẻ: <strong>từ 1 triệu đến 2 triệu/tháng</strong>, phù hợp khách thuê dài hạn.</div>
+
+      <div tabindex="0" class="q" role="button" aria-expanded="false">
+        <div>Thủ tục thuê xe máy là gì?</div><div class="sign">+</div>
+      </div>
+      <div class="a">Đặt cọc: từ <strong>1 triệu đến 5 triệu</strong> tùy loại xe; CMND/CCCD hoặc hộ chiếu, hợp đồng thuê đơn giản, giao xe tận nơi nếu cần.</div>
+
+      <div tabindex="0" class="q" role="button" aria-expanded="false">
+        <div>Thuê xe máy Hà Nội có giao tận nơi không?</div><div class="sign">+</div>
+      </div>
+      <div class="a">Có — giao quanh khu vực Hà Nội: Phố Cổ, Hoàn Kiếm, Long Biên, Gia Lâm, Tây Hồ, Ba Đình. Không giao đến sân bay Nội Bài. Có tính phí giao nhưng nhanh và tiện.</div>
+
+      <div tabindex="0" class="q" role="button" aria-expanded="false">
+        <div>Thuê xe máy có cần bằng lái không?</div><div class="sign">+</div>
+      </div>
+      <div class="a">Nếu không có bằng lái, chúng tôi có phương án: xe 50cc giá rẻ hoặc xe điện (tùy khu vực). Tuy nhiên, xin lưu ý luật giao thông địa phương.</div>
+
+      <div tabindex="0" class="q" role="button" aria-expanded="false">
+        <div>Giá thuê xe máy theo loại phổ biến?</div><div class="sign">+</div>
+      </div>
+      <div class="a">Xe số: ~150k/ngày; Xe ga (Vision/AirBlade): ~200k/ngày. Thuê tháng: 1 triệu – 2 triệu. Liên hệ để báo giá chính xác.</div>
     </section>
 
-    <section class="reveal" id="banggia">
-      <h2>Bảng giá (tham khảo)</h2>
-      <p>Xe số: 150k/ngày — Xe ga: 200k/ngày — Liên hệ để có giá theo tuần/tháng.</p>
+    <!-- Contact / Info -->
+    <section style="margin-top:28px;padding:18px;border-radius:12px;background:linear-gradient(180deg,#fff,#fcfcfd);border:1px solid var(--glass-border);box-shadow:0 10px 30px rgba(12,18,24,0.04)">
+      <h3>Liên hệ & Thông tin</h3>
+      <p style="color:var(--muted);margin:6px 0">Hotline / Zalo: <a href="tel:0857255868">0857 255 868</a> — Gmail: <a href="mailto:motoopen12@gmail.com">motoopen12@gmail.com</a></p>
+      <p style="color:var(--muted);margin:6px 0">Mạng xã hội: 
+        <a href="https://m.facebook.com/motoopenvn/" target="_blank" rel="noopener">Facebook</a> · 
+        <a href="https://www.instagram.com/motoopen/" target="_blank" rel="noopener">Instagram</a> · 
+        <a href="https://www.pinterest.com/motoopen12/" target="_blank" rel="noopener">Pinterest</a>
+      </p>
+      <p style="color:var(--muted);margin:6px 0">Giờ làm việc: 9:00 - 21:00 · Địa chỉ / Bản đồ: <a href="https://maps.app.goo.gl/mtck2qozyAgJaxXt5?g_st=ipc" target="_blank">Xem trên Maps</a></p>
     </section>
 
-    <section style="height:120px"></section>
   </main>
 
-  <footer>© 2025 Motoopen — Designed in Hanoi</footer>
+  <footer>
+    © 2025 Motoopen — Designed in Hanoi
+  </footer>
 
-<script>
-(function(){
-  // ====== Helpers & DOM
-  const topbar = document.getElementById('topbar');
-  const hamburger = document.getElementById('hamburger');
-  const drawer = document.getElementById('drawer');
-  const overlay = document.getElementById('drawerOverlay');
-  const aura = document.getElementById('aura');
-  const particlesCanvas = document.getElementById('particles');
-  const hero = document.querySelector('.hero');
+  <!-- JS: nav sizing, drawer, scroll effects, parallax, reveal, FAQ accordion, reviews reveal -->
+  <script>
+    (function(){
+      // Elements
+      const topbar = document.getElementById('topbar');
+      const hamburger = document.getElementById('hamburger');
+      const drawer = document.getElementById('drawer');
+      const overlay = document.getElementById('drawerOverlay');
+      const reviewsBg = document.getElementById('reviewsBg');
 
-  // ========== 1) ensure body padding-top = nav height (prevent nav covering hero)
-  function calibrateNavPadding(){
-    const navHeight = topbar.getBoundingClientRect().height;
-    document.documentElement.style.setProperty('--nav-h', navHeight + 'px');
-    // small extra gap
-    document.body.style.paddingTop = (navHeight + 10) + 'px';
-  }
-  calibrateNavPadding();
-  window.addEventListener('resize', () => requestAnimationFrame(calibrateNavPadding));
+      // 1) Prevent overlap: set body padding-top to nav height (calibrated)
+      function setBodyTopPadding(){
+        const navRect = topbar.getBoundingClientRect();
+        const height = navRect.height + 10; // small gap
+        document.body.style.paddingTop = height + 'px';
+      }
+      setBodyTopPadding();
+      window.addEventListener('resize', () => requestAnimationFrame(setBodyTopPadding));
 
-  // ========== 2) hamburger / drawer logic (accessible)
-  function openDrawer(open){
-    if(open){
-      drawer.classList.add('open');
-      overlay.classList.add('active');
-      drawer.setAttribute('aria-hidden','false');
-      hamburger.classList.add('active');
-      hamburger.setAttribute('aria-expanded','true');
-    } else {
-      drawer.classList.remove('open');
-      overlay.classList.remove('active');
-      drawer.setAttribute('aria-hidden','true');
-      hamburger.classList.remove('active');
-      hamburger.setAttribute('aria-expanded','false');
-    }
-  }
-  hamburger.addEventListener('click', ()=> openDrawer(!drawer.classList.contains('open')));
-  overlay.addEventListener('click', ()=> openDrawer(false));
-  // close when link inside clicked
-  drawer.querySelectorAll('a').forEach(a => a.addEventListener('click', ()=> openDrawer(false)));
-  window.addEventListener('keydown', (e)=> { if(e.key==='Escape') openDrawer(false); });
+      // 2) Drawer open/close logic
+      function openDrawer(open){
+        if(open){
+          drawer.classList.add('open');
+          overlay.classList.add('active');
+          drawer.setAttribute('aria-hidden','false');
+          hamburger.classList.add('active');
+          hamburger.setAttribute('aria-expanded','true');
+        } else {
+          drawer.classList.remove('open');
+          overlay.classList.remove('active');
+          drawer.setAttribute('aria-hidden','true');
+          hamburger.classList.remove('active');
+          hamburger.setAttribute('aria-expanded','false');
+        }
+      }
+      hamburger.addEventListener('click', ()=> openDrawer(!drawer.classList.contains('open')));
+      overlay.addEventListener('click', ()=> openDrawer(false));
+      // close drawer when clicking a link inside
+      drawer.querySelectorAll('a').forEach(a => a.addEventListener('click', ()=> openDrawer(false)));
 
-  // ========== 3) topbar scroll effects (small)
-  let lastScroll = 0, ticking=false;
-  function handleScroll(y){
-    if(y > 8) topbar.classList.add('scrolled'); else topbar.classList.remove('scrolled');
-  }
-  window.addEventListener('scroll', ()=> {
-    lastScroll = window.scrollY || window.pageYOffset;
-    if(!ticking){ requestAnimationFrame(()=> { handleScroll(lastScroll); ticking=false }); ticking=true; }
-  });
+      // 3) Scroll effects: nav style and parallax background
+      let lastY = window.scrollY || 0;
+      let ticking = false;
+      function onScroll(){
+        lastY = window.scrollY || 0;
+        if(!ticking){
+          requestAnimationFrame(()=> {
+            handleScroll(lastY);
+            ticking = false;
+          });
+          ticking = true;
+        }
+      }
+      function handleScroll(y){
+        if(y > 8) topbar.classList.add('scrolled'); else topbar.classList.remove('scrolled');
+        // small parallax for reviews background (move slower)
+        if(reviewsBg){
+          // apply small translate based on page offset
+          const rect = reviewsBg.parentElement.getBoundingClientRect();
+          const center = (rect.top + rect.bottom) / 2;
+          const winCenter = window.innerHeight / 2;
+          const diff = (winCenter - center) * 0.06; // softer
+          reviewsBg.style.transform = `translateY(${diff}px)`;
+        }
+      }
+      window.addEventListener('scroll', onScroll, {passive:true});
+      handleScroll(window.scrollY || 0);
 
-  // ========== 4) Aura that follows pointer (mouse & touch + subtle motion)
-  // We'll set CSS variables --mx and --my in % used by .aura background
-  function updateAura(xPerc, yPerc){
-    aura.style.setProperty('--mx', xPerc + '%');
-    aura.style.setProperty('--my', yPerc + '%');
-    // subtle tweak to background radial for stronger feel
-    aura.style.background = `radial-gradient(circle at ${xPerc}% ${yPerc}%, rgba(0,122,255,0.14) 0px, rgba(0,122,255,0.06) 120px, transparent 320px)`;
-  }
-
-  // pointer move on hero area
-  hero.addEventListener('mousemove', (e) => {
-    const rect = hero.getBoundingClientRect();
-    const x = ((e.clientX - rect.left) / rect.width) * 100;
-    const y = ((e.clientY - rect.top) / rect.height) * 100;
-    updateAura(x, y);
-  });
-  // touch
-  hero.addEventListener('touchmove', (e) => {
-    if(!e.touches || !e.touches[0]) return;
-    const t = e.touches[0];
-    const rect = hero.getBoundingClientRect();
-    const x = ((t.clientX - rect.left) / rect.width) * 100;
-    const y = ((t.clientY - rect.top) / rect.height) * 100;
-    updateAura(x, y);
-  }, {passive:true});
-  // reset to center on leave
-  hero.addEventListener('mouseleave', ()=> updateAura(50,50));
-  hero.addEventListener('touchend', ()=> updateAura(50,50));
-
-  // ========== 5) Floating particles (canvas) - adaptive to viewport
-  (function particles(){
-    const ctx = particlesCanvas.getContext('2d');
-    let w = 0, h = 0, particles = [], animId;
-    const DPR = Math.max(1, window.devicePixelRatio || 1);
-
-    function resize(){
-      w = particlesCanvas.clientWidth;
-      h = particlesCanvas.clientHeight;
-      particlesCanvas.width = Math.floor(w * DPR);
-      particlesCanvas.height = Math.floor(h * DPR);
-      particlesCanvas.style.width = w + 'px';
-      particlesCanvas.style.height = h + 'px';
-      ctx.scale(DPR, DPR);
-      // recreate particles count based on size (keep light on mobile)
-      const area = w * h;
-      const base = Math.max(6, Math.floor(area / 90000)); // one per ~90k px
-      initParticles(base);
-    }
-
-    function initParticles(count){
-      particles = [];
-      const max = Math.min(48, Math.round(count)); // cap
-      for(let i=0;i<max;i++){
-        particles.push({
-          x: Math.random()*w,
-          y: Math.random()*h,
-          r: 0.9 + Math.random()*3.2,
-          vx: (Math.random()-0.5) * 0.25,
-          vy: -0.05 - Math.random()*0.25,
-          alpha: 0.08 + Math.random()*0.22,
-          tc: 200 + Math.random()*600
+      // 4) Reveal & reviews cards animation with IntersectionObserver
+      const io = new IntersectionObserver((entries, obs) => {
+        entries.forEach(en => {
+          if(en.isIntersecting){
+            en.target.classList.add('active');
+            obs.unobserve(en.target);
+          }
         });
-      }
-    }
+      }, {threshold:0.12});
 
-    function tick(){
-      ctx.clearRect(0,0,w,h);
-      // subtle parallax based on scroll & pointer (optional)
-      const scroll = window.scrollY || 0;
-      particles.forEach(p=>{
-        p.x += p.vx;
-        p.y += p.vy;
-        // drift wrap
-        if(p.y < -20) p.y = h + 20;
-        if(p.x < -30) p.x = w + 30;
-        if(p.x > w + 30) p.x = -30;
-        // draw
-        ctx.beginPath();
-        ctx.globalAlpha = p.alpha;
-        // soft glow: radial gradient
-        const grad = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, p.r*6);
-        grad.addColorStop(0, 'rgba(255,255,255,0.9)');
-        grad.addColorStop(0.2, 'rgba(255,255,255,0.6)');
-        grad.addColorStop(1, 'rgba(255,255,255,0)');
-        ctx.fillStyle = grad;
-        ctx.arc(p.x, p.y, p.r*6, 0, Math.PI*2);
-        ctx.fill();
-        ctx.globalAlpha = 1;
+      document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+      // Reviews: observe each card to add 'visible'
+      const reviewObserver = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+          if(entry.isIntersecting){
+            entry.target.classList.add('visible');
+            obs.unobserve(entry.target);
+          }
+        });
+      }, {threshold: 0.18});
+
+      document.querySelectorAll('.review-card').forEach(card => reviewObserver.observe(card));
+
+      // 5) FAQ accordion behavior with keyboard support
+      const faqs = document.querySelectorAll('.faq .q');
+      faqs.forEach(q => {
+        q.addEventListener('click', () => toggleFaq(q));
+        q.addEventListener('keydown', (e) => {
+          if(e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleFaq(q); }
+        });
       });
-      animId = requestAnimationFrame(tick);
-    }
-
-    window.addEventListener('resize', ()=> { cancelAnimationFrame(animId); resize(); });
-    // initialize after slight delay to ensure layout
-    setTimeout(()=>{ resize(); tick(); }, 120);
-  })();
-
-  // ========== 6) FAQ accordion
-  document.querySelectorAll('.faq-q').forEach(btn=>{
-    btn.addEventListener('click', ()=> {
-      const item = btn.parentElement;
-      const expanded = item.classList.toggle('active');
-      btn.setAttribute('aria-expanded', expanded ? 'true' : 'false');
-    });
-  });
-
-  // ========== 7) Reveal animations for sections (IntersectionObserver)
-  const reveals = document.querySelectorAll('.reveal');
-  const io = new IntersectionObserver((entries) => {
-    entries.forEach(ent => {
-      if(ent.isIntersecting){
-        ent.target.classList.add('active');
-        io.unobserve(ent.target);
+      function toggleFaq(q){
+        const next = q.nextElementSibling;
+        const expanded = q.getAttribute('aria-expanded') === 'true';
+        if(next){
+          if(expanded){
+            next.classList.remove('open');
+            q.setAttribute('aria-expanded','false');
+            q.querySelector('.sign').textContent = '+';
+          } else {
+            next.classList.add('open');
+            q.setAttribute('aria-expanded','true');
+            q.querySelector('.sign').textContent = '−';
+          }
+        }
       }
-    });
-  }, {root:null, threshold:0.12});
-  reveals.forEach(r => io.observe(r));
 
-  // small performance: respect reduced motion
-  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){
-    document.querySelectorAll('*').forEach(n => {
-      n.style.animation = 'none';
-      n.style.transition = 'none';
-    });
-  }
+      // 6) Respect reduced motion
+      if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+        document.querySelectorAll('*').forEach(n => n.style.transition = 'none');
+      }
 
-  // center aura initially
-  updateAura(50,50);
-})();
-</script>
+      // accessibility: esc closes drawer
+      window.addEventListener('keydown', (e) => {
+        if(e.key === 'Escape') openDrawer(false);
+      });
+
+      // tiny improvement: smooth scroll for internal links with offset (nav height)
+      document.querySelectorAll('a[href^="#"]').forEach(a=>{
+        a.addEventListener('click', (e)=>{
+          const href = a.getAttribute('href');
+          if(href.length > 1 && document.querySelector(href)){
+            e.preventDefault();
+            const navHeight = topbar.getBoundingClientRect().height + 8;
+            const targetTop = document.querySelector(href).offsetTop - navHeight;
+            window.scrollTo({top: targetTop, behavior:'smooth'});
+          }
+        });
+      });
+
+    })();
+  </script>
 </body>
 </html>
