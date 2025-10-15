@@ -191,7 +191,25 @@
       --quick-main-end: #00d4ff;
       --quick-sub-start: #2bc76f;
       --quick-sub-end: #5aff9e;
+      /* Biến cho Top Bar */
+      --topbar-height: 44px; /* chiều cao ước tính của top-bar */
     }
+    /* DARK MODE */
+    html[data-theme='dark'] {
+      --bg: #1c1c1e;
+      --surface: #2c2c2e;
+      --text: #ffffff;
+      --muted: #a0a0a2;
+      --glass-border: rgba(70, 70, 75, 0.6);
+      /* Cập nhật màu glass cho topbar/nav */
+      --topbar-bg: rgba(44, 44, 46, 0.78);
+      --topbar-bg-scrolled: rgba(44, 44, 46, 0.92);
+      /* Đảo màu cho Hero/Review */
+      --hero-bg: linear-gradient(180deg, rgba(44, 44, 46, 0.98), rgba(40, 40, 42, 0.98));
+      --review-card-bg: linear-gradient(180deg, rgba(44, 44, 46, 0.98), rgba(40, 40, 42, 0.98));
+      --price-table-bg: rgba(44, 44, 46, 0.74);
+    }
+
     *{box-sizing:border-box}
     html,body{height:100%}
     body{
@@ -208,10 +226,78 @@
     a{color:inherit}
     .container{max-width:var(--maxw);margin:0 auto;padding:0 20px}
 
+    /* ===== NEW TOP BAR (Sub Navigation/Settings) ===== */
+    .top-bar {
+      position: sticky;
+      top: 0;
+      width: 100%;
+      background: var(--surface);
+      border-bottom: 1px solid var(--glass-border);
+      z-index: 1000;
+      padding: 8px 16px;
+      display: flex;
+      justify-content: center;
+      transition: background .25s, border-bottom .25s;
+    }
+    .top-bar nav {
+      max-width: var(--maxw);
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 16px;
+    }
+    .top-bar a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 500;
+      padding: 4px 8px;
+      border-radius: 8px;
+      transition: color 0.16s, background 0.16s;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .top-bar a:hover {
+      color: var(--text);
+      background: rgba(0,0,0,0.03);
+    }
+    html[data-theme='dark'] .top-bar a:hover {
+      background: rgba(255,255,255,0.06);
+    }
+    .top-bar .icon { font-size: 1rem; }
+    
+    /* Theme Toggle Button */
+    #theme-toggle {
+      background: var(--bg);
+      border: 1px solid var(--glass-border);
+      color: var(--text);
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.1rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    #theme-toggle:hover {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+    #theme-toggle.active {
+      transform: rotate(360deg);
+    }
+
+
     /* ===== NAVBAR (Apple-like premium) ===== */
     .topbar {
       position: fixed;
-      top:12px;
+      /* top:12px; */ /* Bỏ top 12px vì đã có top-bar */
+      top: var(--topbar-height); /* Dưới top-bar */
       left:50%;
       transform:translateX(-50%);
       width: calc(100% - 32px);
@@ -229,6 +315,17 @@
       box-shadow:0 8px 24px rgba(0,0,0,0.06);
       transition: all 280ms cubic-bezier(.2,.9,.2,1);
     }
+    /* Dark Mode Navbar */
+    html[data-theme='dark'] .topbar {
+        background: var(--topbar-bg);
+        border: 1px solid var(--glass-border);
+        box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    }
+    html[data-theme='dark'] .topbar.scrolled {
+        background: var(--topbar-bg-scrolled);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    }
+    /* Scrolled state */
     .topbar.scrolled{
       background:rgba(255,255,255,0.92);
       box-shadow:0 10px 30px rgba(0,0,0,0.08);
@@ -245,9 +342,13 @@
     }
     .nav-links a i{width:18px;text-align:center}
     .nav-links a:hover{color:var(--accent);background:rgba(0,122,255,0.06)}
+    html[data-theme='dark'] .nav-links a:hover {
+      background: rgba(0,122,255,0.18);
+    }
 
     .cta{background:var(--accent);color:#fff;padding:8px 16px;border-radius:999px;font-weight:700;box-shadow:0 8px 22px rgba(0,122,255,0.12)}
     .cta:hover{background:#0066e5}
+    html[data-theme='dark'] .cta { box-shadow:0 8px 22px rgba(0,122,255,0.3) }
 
     /* hamburger */
     .hamburger{display:none;background:none;border:0;cursor:pointer;padding:8px;border-radius:8px}
@@ -268,11 +369,15 @@
       transition: transform .42s cubic-bezier(.2,.9,.2,1);
       z-index:1550;padding:84px 22px 22px;border-left:1px solid var(--glass-border)
     }
+    html[data-theme='dark'] .drawer {
+        background:linear-gradient(180deg, rgba(44,44,46,0.98), rgba(35,35,37,0.96));
+        box-shadow:-18px 0 40px rgba(0,0,0,0.4);
+    }
     .drawer.open{transform:translateX(0)}
     .drawer a{display:block;padding:12px 6px;color:var(--text);text-decoration:none;font-weight:700;border-radius:8px}
     .drawer a.icon{display:flex;gap:12px;align-items:center}
     .drawer a.cta{margin-top:18px;background:var(--accent);color:#fff;padding:12px;text-align:center;border-radius:999px}
-
+    
     /* ===== HERO (Apple Vision Motion) ===== */
     .hero {
       position:relative;
@@ -285,7 +390,11 @@
       background: linear-gradient(180deg, rgba(255,255,255,0.98), rgba(245,245,247,0.98));
       padding:48px 28px 36px;
     }
-
+    html[data-theme='dark'] .hero {
+      border:1px solid rgba(70, 70, 75, 0.45);
+      box-shadow:0 12px 36px rgba(0,0,0,0.2);
+      background: var(--hero-bg);
+    }
     /* gradient moving layer under hero content */
     .hero .grad-layer{
       position:absolute; inset:-30% -40% auto -40%; height:260%; pointer-events:none; z-index:0;
@@ -296,6 +405,15 @@
       animation:gradMove 12s linear infinite;
       mix-blend-mode:screen;opacity:0.95;
     }
+    /* Dark Mode gradient needs adjustment */
+    html[data-theme='dark'] .hero .grad-layer {
+        background:
+            radial-gradient(700px 300px at 10% 30%, rgba(0,122,255,0.2), transparent 12%),
+            radial-gradient(600px 260px at 80% 70%, rgba(43,199,127,0.15), transparent 12%);
+        mix-blend-mode: normal;
+        opacity: 0.3;
+    }
+
     @keyframes gradMove{
       0%{transform:translate3d(-6%,0,0) rotate(0deg) scale(1)}
       50%{transform:translate3d(6%,2%,0) rotate(2deg) scale(1.02)}
@@ -318,7 +436,10 @@
     .btn{display:inline-flex;gap:10px;align-items:center;padding:12px 20px;border-radius:999px;border:0;font-weight:700;cursor:pointer}
     .btn.primary{background:var(--accent);color:#fff;box-shadow:0 8px 26px rgba(0,122,255,0.14)}
     .btn.primary.alt{background:var(--accent-2);box-shadow:0 8px 26px rgba(43,199,127,0.12)}
+    html[data-theme='dark'] .btn.primary { box-shadow:0 8px 26px rgba(0,122,255,0.3) }
+    html[data-theme='dark'] .btn.primary.alt { box-shadow:0 8px 26px rgba(43,199,127,0.3) }
     .btn.alt{background:transparent;border:1px solid rgba(0,0,0,0.06);color:var(--text)}
+    html[data-theme='dark'] .btn.alt { background:var(--surface); border:1px solid var(--glass-border); }
 
     /* MỚI: CTA Scroll xuống */
     .btn-scroll-down{
@@ -355,6 +476,10 @@
       border: 1px solid var(--glass-border);
       box-shadow: 0 12px 36px rgba(0,0,0,0.04);
     }
+    html[data-theme='dark'] .price-table-wrap {
+      background: var(--price-table-bg);
+      box-shadow: 0 12px 36px rgba(0,0,0,0.2);
+    }
     .price-table {
       width: 100%;
       border-collapse: collapse;
@@ -367,11 +492,21 @@
       padding: 14px 16px;
       border-bottom: 1px solid rgba(0,0,0,0.05);
     }
+    html[data-theme='dark'] .price-table th, 
+    html[data-theme='dark'] .price-table td {
+        border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
     .price-table th {
       background: rgba(250,250,252,0.9);
       font-weight: 700;
     }
+    html[data-theme='dark'] .price-table th {
+        background: rgba(30, 30, 32, 0.9);
+    }
     .price-table tr:hover td { background: rgba(0,122,255,0.03) }
+    html[data-theme='dark'] .price-table tr:hover td { background: rgba(0,122,255,0.1) }
+
     .price-table td:first-child { text-align:left;padding-left:20px;font-weight:600 }
 
     /* ===== IMAGE UNDER PRICE TABLE (with frame) ===== */
@@ -385,6 +520,10 @@
       background: var(--surface);
       box-shadow: 0 12px 36px rgba(12, 18, 24, 0.1);
       border: 1px solid rgba(210, 210, 215, 0.6);
+    }
+    html[data-theme='dark'] .price-image-container {
+      box-shadow: 0 12px 36px rgba(0, 0, 0, 0.25);
+      border: 1px solid var(--glass-border);
     }
     .price-image {
       display: block;
@@ -405,6 +544,10 @@
     .reviews-overlay{
       position:absolute;inset:0;background:linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.85));pointer-events:none;
     }
+    html[data-theme='dark'] .reviews-overlay {
+        background:linear-gradient(180deg, rgba(28, 28, 30, 0.6), rgba(28, 28, 30, 0.85));
+    }
+
     .reviews-wrap{position:relative;z-index:2;max-width:var(--maxw);margin:0 auto;padding:20px}
     .reviews-wrap h2{margin:0 0 10px;font-size:1.25rem}
     .review-cards{
@@ -417,6 +560,11 @@
       /* Initial state for animation */
       opacity:0; transform:translateX(0); filter:blur(6px);
       transition:opacity .72s ease, transform .72s cubic-bezier(.2,.9,.2,1), filter .36s;
+    }
+    html[data-theme='dark'] .review-card {
+        background: var(--review-card-bg);
+        border:1px solid var(--glass-border);
+        box-shadow:0 12px 30px rgba(0,0,0,0.2);
     }
     /* State after being observed */
     .review-card.visible{opacity:1;transform:translateX(0);filter:blur(0)}
@@ -448,6 +596,9 @@
     }
     .faq .q:focus{outline:3px solid rgba(0,122,255,0.12)}
     .faq .a{display:none;padding:14px 16px;border-left:3px solid var(--accent);margin-bottom:12px;background:linear-gradient(180deg, #fff, #fcfcfd);border-radius:0 12px 12px 12px;color:var(--muted)}
+    html[data-theme='dark'] .faq .a {
+        background:linear-gradient(180deg, #2c2c2e, #3a3a3c);
+    }
     .faq .a.open{display:block}
 
     /* ** CSS Tích hợp Footer MỚI (Dạng tối) ** */
@@ -458,6 +609,10 @@
       text-align: center;
       font-family: Arial, sans-serif;
       margin-top: 20px; /* Thêm margin-top cho Footer mới */
+    }
+    html[data-theme='dark'] footer {
+        background-color: #000000;
+        border-top: 1px solid #333;
     }
 
     .footer-container {
@@ -592,10 +747,15 @@
     @media (max-width:900px){
       .nav-links{display:none}
       .hamburger{display:block}
-      .topbar{left:0;transform:none;width:100%;border-radius:0;max-width:none;justify-content:space-between;padding:8px 14px}
+      /* Cập nhật topbar position */
+      .topbar{left:0;transform:none;width:100%;border-radius:0;max-width:none;justify-content:space-between;padding:8px 14px; top: var(--topbar-height); }
       .hero{margin-top:20px;padding:36px 16px}
       .reviews-section{padding:28px 12px}
       .price-table{min-width:600px}
+      
+      /* Ẩn link phụ trên mobile để đỡ chật */
+      .top-bar a:not(:last-child) { display: none; }
+      .top-bar nav { justify-content: flex-end; }
     }
     @media (max-width:520px){
       .price-table{min-width:480px}
@@ -605,6 +765,58 @@
   </style>
 </head>
 <body>
+  
+  <header class="top-bar">
+    <nav>
+      <a href="https://motoopen.github.io/chothuexemayhanoi.index.html/dieukhoansudung.html">
+        <span class="icon">📄</span> Điều khoản sử dụng
+      </a>
+      <a href="https://motoopen.github.io/chothuexemayhanoi.index.html/chinhsachbaomat.html">
+        <span class="icon">🔒</span> Chính sách bảo mật
+      </a>
+      <button id="theme-toggle" aria-label="Chuyển đổi giao diện Sáng/Tối">
+        <span id="theme-icon">🌞</span>
+      </button>
+    </nav>
+  </header>
+  <script>
+    const toggleBtn = document.getElementById('theme-toggle');
+    const themeIcon = document.getElementById('theme-icon');
+    const root = document.documentElement;
+
+    // Lấy chiều cao của top-bar để tính toán padding-top cho body
+    const topBarHeight = document.querySelector('.top-bar').offsetHeight;
+    root.style.setProperty('--topbar-height', `${topBarHeight}px`);
+
+    // Kiểm tra theme đã lưu trong localStorage
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+      root.setAttribute('data-theme', savedTheme);
+      themeIcon.textContent = savedTheme === 'dark' ? '🌙' : '🌞';
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        // Mặc định theo hệ thống nếu chưa có theme lưu
+        root.setAttribute('data-theme', 'dark');
+        themeIcon.textContent = '🌙';
+    }
+
+
+    toggleBtn.addEventListener('click', () => {
+      const currentTheme = root.getAttribute('data-theme') || 'light';
+      if (currentTheme === 'dark') {
+        root.setAttribute('data-theme', 'light');
+        themeIcon.textContent = '🌞';
+        localStorage.setItem('theme', 'light');
+      } else {
+        root.setAttribute('data-theme', 'dark');
+        themeIcon.textContent = '🌙';
+        localStorage.setItem('theme', 'dark');
+      }
+
+      // Xoay icon nhẹ khi toggle
+      toggleBtn.classList.add('active');
+      setTimeout(() => toggleBtn.classList.remove('active'), 300);
+    });
+  </script>
   <header class="topbar" id="topbar" role="banner" aria-label="Trang điều hướng chính">
     <div class="brand" aria-hidden="false">
       <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen logo">
@@ -635,6 +847,8 @@
     <a class="icon" href="https://m.facebook.com/motoopenvn/" target="_blank" rel="noopener" role="menuitem"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
     <a class="icon" href="https://www.instagram.com/motoopen/" target="_blank" rel="noopener" role="menuitem"><i class="fa-brands fa-instagram"></i> Instagram</a>
     <a class="icon" href="https://www.pinterest.com/motoopen12/" target="_blank" rel="noopener" role="menuitem"><i class="fa-brands fa-pinterest"></i> Pinterest</a>
+    <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi.index.html/dieukhoansudung.html" role="menuitem"><span class="icon">📄</span> Điều khoản</a>
+    <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi.index.html/chinhsachbaomat.html" role="menuitem"><span class="icon">🔒</span> Bảo mật</a>
   </aside>
 
   <main id="main" class="container" role="main">
@@ -822,13 +1036,18 @@
       const drawer = document.getElementById('drawer');
       const overlay = document.getElementById('drawerOverlay');
       const reviewsBg = document.getElementById('reviewsBg');
-      const backTop = document.querySelector('.back-top'); // Thêm backTop element
+      const backTop = document.querySelector('.back-top'); 
+      const topBar = document.querySelector('.top-bar'); // Lấy element top-bar
       
       // 1) Prevent overlap: set body padding-top to nav height (calibrated)
       function setBodyTopPadding(){
+        const topBarRect = topBar.getBoundingClientRect(); // Lấy chiều cao của top-bar
         const navRect = topbar.getBoundingClientRect();
-        const height = navRect.height + 10; // small gap
-        document.body.style.paddingTop = height + 'px';
+        // Tổng chiều cao: top-bar + topbar chính + gap
+        const totalHeight = topBarRect.height + navRect.height + 10; 
+        document.body.style.paddingTop = totalHeight + 'px';
+        // Cập nhật biến CSS --topbar-height
+        document.documentElement.style.setProperty('--topbar-height', `${topBarRect.height}px`);
       }
       setBodyTopPadding();
       window.addEventListener('resize', () => requestAnimationFrame(setBodyTopPadding));
@@ -869,6 +1088,7 @@
         }
       }
       function handleScroll(y){
+        // y > 8: đã cuộn xuống 1 chút
         if(y > 8) topbar.classList.add('scrolled'); else topbar.classList.remove('scrolled');
         if(y > 300 && backTop) backTop.style.display = 'flex'; else if(backTop) backTop.style.display = 'none'; // Hiển thị/Ẩn Back to Top
 
@@ -936,8 +1156,10 @@
           const href = a.getAttribute('href');
           if(href.length > 1 && document.querySelector(href)){
             e.preventDefault();
-            const navHeight = topbar.getBoundingClientRect().height + 8;
-            const targetTop = document.querySelector(href).offsetTop - navHeight;
+            const topBarHeight = topBar.offsetHeight; // Lấy lại chiều cao topBar
+            const navHeight = topbar.offsetHeight; // Lấy lại chiều cao topbar chính
+            const offset = topBarHeight + navHeight + 8; // Tổng offset
+            const targetTop = document.querySelector(href).offsetTop - offset;
             window.scrollTo({top: targetTop, behavior:'smooth'});
           }
         });
