@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>4D Soundboard</title>
+<title>4D Soundboard Nổi</title>
 <style>
   body {
     display: grid;
@@ -19,8 +19,8 @@
     width: 100px;
     height: 100px;
     border-radius: 20px;
-    background: linear-gradient(145deg, #ff4500, #ff6347);
-    box-shadow: 0 5px #b03a2e;
+    background: linear-gradient(145deg, #ff4500, #ff7f50);
+    box-shadow: 0 4px #b03a2e, 0 8px 15px rgba(0,0,0,0.3);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,26 +32,35 @@
     user-select: none;
     position: relative;
   }
-  .button:active {
-    transform: translateY(4px) scale(0.95);
-    box-shadow: 0 2px #b03a2e;
-    background: linear-gradient(145deg, #ff6347, #ff7f50);
-  }
-  .glow {
+  .button .glow {
     position: absolute;
     top:0; left:0; right:0; bottom:0;
     border-radius: 20px;
-    box-shadow: 0 0 20px 5px #ff7f50;
+    box-shadow: 0 0 30px 10px #ff7f50;
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.2s;
   }
   .button.active .glow { opacity: 1; }
+
+  .button:active {
+    transform: translateY(4px) scale(0.95);
+    box-shadow: 0 2px #b03a2e, 0 4px 8px rgba(0,0,0,0.2);
+    background: linear-gradient(145deg, #ff6347, #ff8c69);
+  }
+
+  @keyframes bounce {
+    0%,100% { transform: translateY(0) scale(1); }
+    50% { transform: translateY(-5px) scale(1.05); }
+  }
+  .button.active {
+    animation: bounce 0.2s;
+  }
 </style>
 </head>
 <body>
 
-<!-- 16 nút demo -->
+<!-- 16 nút -->
 <div class="button" data-sound="sound1.mp3">1<div class="glow"></div></div>
 <div class="button" data-sound="sound2.mp3">2<div class="glow"></div></div>
 <div class="button" data-sound="sound3.mp3">3<div class="glow"></div></div>
@@ -79,12 +88,8 @@ buttons.forEach(btn => {
     audio.currentTime = 0;
     audio.play();
   });
-  btn.addEventListener('mouseup', () => {
-    btn.classList.remove('active');
-  });
-  btn.addEventListener('mouseleave', () => {
-    btn.classList.remove('active');
-  });
+  btn.addEventListener('mouseup', () => btn.classList.remove('active'));
+  btn.addEventListener('mouseleave', () => btn.classList.remove('active'));
 });
 </script>
 
