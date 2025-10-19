@@ -1190,10 +1190,10 @@
   });
   </script>
 </section>
-
-<!-- 🚘 SECTION: TRẮC NGHIỆM CHỌN XE PHÙ HỢP (Apple Style, Emoji, fade-in 0.9s, auto hide quiz) -->
+<!-- 🚘 SECTION: TRẮC NGHIỆM CHỌN XE PHÙ HỢP (Apple Style, Emoji, fade-in 0.9s, Zalo chuẩn) -->
 <section id="quiz-section" style="padding:60px 20px;max-width:600px;margin:auto;text-align:center;font-family:'Inter',sans-serif;transition:background 0.6s,color 0.6s;">
   <h2 style="font-size:1.8rem;font-weight:600;margin-bottom:25px;animation:fadeIn 0.9s ease;">🧭 Trắc nghiệm chọn xe phù hợp</h2>
+
   <div id="quiz-container">
     <div class="question active" style="animation:fadeIn 0.9s ease;">
       <p style="font-size:1.1rem;margin-bottom:15px;">1️⃣ Bạn thuê xe để làm gì?</p>
@@ -1214,14 +1214,15 @@
       <button class="answer">1 người</button>
       <button class="answer">2 người</button>
     </div>
+  </div>
 
-    <div id="result" style="display:none;animation:fadeIn 0.9s ease; transform: scale(0); padding:20px; border-radius:15px; box-shadow:0 4px 12px rgba(0,0,0,0.15); transition: transform 0.4s, box-shadow 0.4s;">
-      <h3 id="bike-result" style="margin:20px 0;font-size:1.4rem;font-weight:600;"></h3>
-      <a href="https://zalo.me/0857255868" target="_blank" 
-         style="display:inline-block;background:#4285F4;color:#fff;padding:12px 24px;border-radius:8px;font-weight:600;text-decoration:none;transition:all 0.3s;">
-         💬 Liên hệ Zalo 0857255868
-      </a>
-    </div>
+  <!-- Thẻ result ngoài container để Zalo luôn hiện -->
+  <div id="result" style="display:none;animation:fadeIn 0.9s ease; transform: scale(0); padding:20px; border-radius:15px; box-shadow:0 4px 12px rgba(0,0,0,0.15); transition: transform 0.4s, box-shadow 0.4s;">
+    <h3 id="bike-result" style="margin:20px 0;font-size:1.4rem;font-weight:600;"></h3>
+    <a href="https://zalo.me/0857255868" target="_blank" 
+       style="display:inline-block;background:#4285F4;color:#fff;padding:12px 24px;border-radius:8px;font-weight:600;text-decoration:none;transition:all 0.3s;">
+       💬 Liên hệ Zalo 0857255868
+    </a>
   </div>
 
   <style>
@@ -1282,12 +1283,10 @@
     document.querySelectorAll('#quiz-container .answer').forEach(btn => {
       btn.addEventListener('click', () => {
         answers.push(btn.textContent);
-        questions[currentQuestion].classList.remove('active');
         questions[currentQuestion].style.display = 'none';
         currentQuestion++;
         if (currentQuestion < questions.length) {
           questions[currentQuestion].style.display = 'block';
-          questions[currentQuestion].classList.add('active');
         } else {
           showResult();
         }
@@ -1295,7 +1294,6 @@
     });
 
     function showResult() {
-      const container = document.getElementById('quiz-container');
       const result = document.getElementById('result');
       const text = document.getElementById('bike-result');
       let suggestion = '';
@@ -1313,17 +1311,13 @@
 
       text.textContent = `🚘 Xe phù hợp với bạn là: ${suggestion}`;
 
-      // Ẩn toàn bộ quiz
-      container.style.display = 'none';
-
-      // Hiển thị kết quả
+      // Hiển thị result
       result.style.display = 'block';
       result.style.transform = 'scale(1.05)';
       setTimeout(() => result.style.transform = 'scale(1)', 300);
     }
   </script>
 </section>
-
     <section class="reviews-section" id="danhgia" aria-labelledby="review-title">
       <div class="reviews-bg" id="reviewsBg" aria-hidden="true"></div>
       <div class="reviews-overlay" aria-hidden="true"></div>
