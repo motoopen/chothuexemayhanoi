@@ -992,10 +992,96 @@
       <p style="color:var(--muted);margin-top:12px" class="fade-up">Giá có thể biến động theo thời điểm. Liên hệ <a href="tel:0857255868">0857 255 868</a> (Zalo: +84857255868) để nhận báo giá chính xác và giao tận nơi tại Long Biên, Ba Đình, Hoàn Kiếm, Tây Hồ, Gia Lâm.</p>
     </section>
 
-    <!-- 🎰 SLOT MACHINE PHONG CÁCH APPLE -->
-<section id="slot-section">
-  <h2>🎰 Quay nhận ưu đãi thuê xe máy</h2>
-  <h3>Trúng thưởng giảm giá <b>25%</b> khi thuê xe máy Nguyễn Tú! 🎁</h3>
+<section id="slot-section" style="font-family:sans-serif; padding:20px; background:var(--bg); color:var(--text); text-align:center; border-radius:15px; max-width:500px; margin:20px auto; position:relative; overflow:hidden; transition: background 0.3s, color 0.3s;">
+  <style>
+    :root {
+      --bg: #f5f5f7;
+      --text: #111;
+      --gold: linear-gradient(45deg, #E3E3E3, #BDBDBD);
+      --highlight: #000;
+    }
+    [data-theme="dark"] {
+      --bg: #000;
+      --text: #fff;
+      --gold: linear-gradient(45deg, #444, #111);
+      --highlight: #fff;
+    }
+    #slot-section h2 {
+      color: var(--highlight);
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+    #slot-section h3 {
+      font-size: 1rem;
+      margin-bottom: 20px;
+      color: var(--text);
+    }
+    .reel {
+      width: 80px;
+      height: 80px;
+      margin: 5px;
+      border-radius: 15px;
+      background: var(--gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      color: var(--highlight);
+      text-shadow: 0 0 5px rgba(0,0,0,0.2);
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    #slot {
+      display: flex;
+      justify-content: center;
+      flex-wrap: nowrap;
+      margin-bottom: 20px;
+      gap: 10px;
+    }
+    #spinBtn {
+      padding: 10px 20px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      background: var(--highlight);
+      border: none;
+      border-radius: 10px;
+      color: var(--bg);
+      font-weight: bold;
+      margin-bottom: 10px;
+      transition: transform 0.2s, background 0.3s;
+    }
+    #spinBtn:hover {
+      transform: scale(1.05);
+    }
+    #result {
+      margin-top: 20px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: var(--highlight);
+      text-shadow: 0 0 5px rgba(0,0,0,0.2);
+      transition: all 0.3s;
+    }
+    #reward {
+      margin-top: 10px;
+      font-size: 1rem;
+      font-weight: bold;
+      color: var(--highlight);
+      display: none;
+      transform: scale(0);
+      transition: transform 0.5s;
+    }
+    @media(max-width:600px){
+      #slot-section {padding:15px;}
+      .reel {width:70px;height:70px;font-size:1.8rem;}
+      #slot {gap:5px;}
+    }
+  </style>
+
+  <h2>🎰 Quay để nhận giảm giá thuê xe máy</h2>
+  <h3>Chơi ngay để nhận ưu đãi 25%! Quay trúng – chụp màn hình là xong!</h3>
 
   <div id="slot">
     <div class="reel" id="reel1"><span>🏍️</span></div>
@@ -1003,267 +1089,108 @@
     <div class="reel" id="reel3"><span>🛢️</span></div>
   </div>
 
-  <button id="spinBtn">🎡 Quay ngay</button>
+  <button id="spinBtn">🎯 Quay Slot</button>
+
   <div id="result"></div>
-  <div id="reward">🎁 Giảm 5% khi thuê xe máy theo tháng!</div>
+  <div id="reward">🎁 Giảm ngay 5% khi thuê xe tháng!</div>
+
   <canvas id="confetti-canvas" style="position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;"></canvas>
-</section>
 
-<style>
-/* 🌈 Giao diện Metallic Apple */
-#slot-section {
-  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
-  padding:25px;
-  border-radius:20px;
-  max-width:500px;
-  margin:40px auto;
-  text-align:center;
-  position:relative;
-  overflow:hidden;
-  box-shadow:0 10px 30px rgba(0,0,0,0.4), inset 1px 1px 0 rgba(255,255,255,0.08);
-  transition:all 0.4s ease;
-}
+  <script>
+  const spinBtn = document.getElementById('spinBtn');
+  const reels = [document.getElementById('reel1'), document.getElementById('reel2'), document.getElementById('reel3')];
+  const resultDiv = document.getElementById('result');
+  const rewardDiv = document.getElementById('reward');
+  const canvas = document.getElementById('confetti-canvas');
+  const ctx = canvas.getContext('2d');
+  canvas.width = canvas.offsetWidth;
+  canvas.height = canvas.offsetHeight;
 
-/* 🌞 Light mode */
-#slot-section {
-  background:linear-gradient(145deg,#f5f5f7,#dcdcdc);
-  color:#1c1c1e;
-}
-#slot-section .reel {
-  background:linear-gradient(160deg,#ffffff,#d0d0d0);
-  color:#111;
-  box-shadow:inset 2px 2px 5px rgba(255,255,255,0.8),
-              4px 4px 15px rgba(0,0,0,0.2);
-}
+  const symbols = ["🏍️","🛞","🛢️"];
+  let confettiParticles = [];
 
-/* 🌚 Dark mode */
-.dark-mode #slot-section {
-  background:linear-gradient(145deg,#1c1c1e,#2c2c2e);
-  color:#f5f5f7;
-  box-shadow:0 10px 30px rgba(0,0,0,0.6), inset 1px 1px 0 rgba(255,255,255,0.05);
-}
-.dark-mode #slot-section .reel {
-  background:linear-gradient(160deg,#2a2a2c,#1c1c1e);
-  color:#fff;
-  box-shadow:inset 2px 2px 5px rgba(255,255,255,0.05),
-              4px 4px 15px rgba(0,0,0,0.5);
-}
+  const spinSound = new Audio("https://raw.githubusercontent.com/motorbikenguyenha/chothuexemay50cc/refs/heads/main/asian-gong-music.mp3");
+  const winSound = new Audio("https://raw.githubusercontent.com/motorbikenguyenha/chothuexemay50cc/refs/heads/main/notification_o14egLP.mp3");
 
-/* 🎰 Container slot */
-#slot {
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  gap:10px;
-  flex-wrap:nowrap;
-  margin-bottom:25px;
-}
-
-/* ✨ Ô quay phản kim loại */
-#slot-section .reel {
-  width:85px;
-  height:85px;
-  border-radius:18px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  font-size:2rem;
-  position:relative;
-  overflow:hidden;
-  transition:transform 0.3s, box-shadow 0.3s;
-}
-#slot-section .reel::after {
-  content:"";
-  position:absolute;
-  top:0;
-  left:-75%;
-  width:50%;
-  height:100%;
-  background:linear-gradient(120deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0.6) 50%,rgba(255,255,255,0) 100%);
-  transform:skewX(-25deg);
-  transition:all 0.7s ease;
-  pointer-events:none;
-}
-#slot-section .reel:hover::after {
-  left:130%;
-  transition:all 0.8s ease;
-}
-#slot-section .reel:hover {
-  transform:scale(1.05);
-}
-
-/* 🔘 Nút quay */
-#slot-section button {
-  padding:12px 28px;
-  font-size:1.1rem;
-  border:none;
-  border-radius:12px;
-  font-weight:600;
-  cursor:pointer;
-  margin-bottom:15px;
-  background:linear-gradient(145deg,#e5e5ea,#ffffff);
-  color:#000;
-  box-shadow:0 4px 10px rgba(0,0,0,0.2);
-  transition:transform 0.2s, box-shadow 0.3s;
-}
-.dark-mode #slot-section button {
-  background:linear-gradient(145deg,#f2f2f7,#d1d1d6);
-  color:#111;
-  box-shadow:0 4px 15px rgba(255,255,255,0.25);
-}
-#slot-section button:hover {
-  transform:scale(1.05);
-  box-shadow:0 6px 20px rgba(0,0,0,0.3);
-}
-
-/* 🔤 Text */
-#slot-section h2 {
-  margin-bottom:10px;
-  text-shadow:0 0 10px rgba(0,0,0,0.2);
-  letter-spacing:0.5px;
-}
-#slot-section h3 {
-  font-size:1rem;
-  margin-bottom:25px;
-}
-#slot-section #result {
-  margin-top:20px;
-  font-size:1.2rem;
-  font-weight:600;
-  transition:all 0.3s;
-}
-#slot-section #reward {
-  margin-top:10px;
-  font-size:1rem;
-  font-weight:600;
-  color:#00ff9d;
-  display:none;
-  transform:scale(0);
-  transition:transform 0.5s;
-}
-
-/* 📱 Responsive cho điện thoại */
-@media (max-width:480px) {
-  #slot {
-    flex-wrap:nowrap;
-    gap:6px;
-  }
-  #slot-section .reel {
-    width:70px;
-    height:70px;
-    font-size:1.8rem;
-  }
-  #slot-section {
-    padding:20px;
-    margin:20px auto;
-  }
-}
-</style>
-
-<script>
-// 🎰 JS Slot Apple Metallic (Responsive)
-const spinBtn = document.getElementById('spinBtn');
-const reels = [document.getElementById('reel1'), document.getElementById('reel2'), document.getElementById('reel3')];
-const resultDiv = document.getElementById('result');
-const rewardDiv = document.getElementById('reward');
-const canvas = document.getElementById('confetti-canvas');
-const ctx = canvas.getContext('2d');
-canvas.width = canvas.offsetWidth;
-canvas.height = canvas.offsetHeight;
-
-const symbols = ["🏍️","🛞","🛢️"];
-let confettiParticles = [];
-
-// 🎵 Âm thanh
-const spinSound = new Audio("https://raw.githubusercontent.com/motorbikenguyenha/chothuexemay50cc/refs/heads/main/asian-gong-music.mp3");
-const winSound = new Audio("https://raw.githubusercontent.com/motorbikenguyenha/chothuexemay50cc/refs/heads/main/notification_o14egLP.mp3");
-
-function spinReel(reel, duration){
-  return new Promise(resolve=>{
-    const span = reel.querySelector('span');
-    const start = performance.now();
-    spinSound.play();
-
-    // ánh sáng chạy qua khi quay
-    reel.classList.add('spinning');
-    function animate(now){
-      const elapsed = now - start;
-      if(elapsed < duration){
-        const index = Math.floor(Math.random() * symbols.length);
-        span.textContent = symbols[index];
-        reel.style.transform = `rotate(${Math.random()*20-10}deg)`;
-        requestAnimationFrame(animate);
-      } else {
-        const finalIndex = Math.floor(Math.random() * symbols.length);
-        span.textContent = symbols[finalIndex];
-        reel.style.transform = `rotate(0deg)`;
-        reel.classList.remove('spinning');
-        resolve(finalIndex);
+  function spinReel(reel, duration){
+    return new Promise(resolve=>{
+      const span = reel.querySelector('span');
+      const start = performance.now();
+      spinSound.play();
+      function animate(now){
+        const elapsed = now - start;
+        if(elapsed < duration){
+          const index = Math.floor(Math.random() * symbols.length);
+          span.textContent = symbols[index];
+          reel.style.transform = `rotate(${Math.random()*20-10}deg)`; 
+          requestAnimationFrame(animate);
+        } else {
+          const finalIndex = Math.floor(Math.random() * symbols.length);
+          span.textContent = symbols[finalIndex];
+          reel.style.transform = `rotate(0deg)`; 
+          resolve(finalIndex);
+        }
       }
-    }
-    animate(performance.now());
-  });
-}
-
-// 🎊 Confetti hiệu ứng
-function createConfetti(){
-  confettiParticles = [];
-  for(let i=0;i<80;i++){
-    confettiParticles.push({
-      x: Math.random()*canvas.width,
-      y: Math.random()*canvas.height - canvas.height,
-      r: Math.random()*6+2,
-      d: Math.random()*10+5,
-      color: `hsl(${Math.random()*360},100%,50%)`,
-      tilt: Math.random()*10-10,
-      tiltAngleIncrement: Math.random()*0.07+0.05,
-      tiltAngle: 0
+      animate(performance.now());
     });
   }
-}
-function drawConfetti(){
-  ctx.clearRect(0,0,canvas.width,canvas.height);
-  confettiParticles.forEach((p)=>{
-    ctx.beginPath();
-    ctx.lineWidth = p.r;
-    ctx.strokeStyle = p.color;
-    ctx.moveTo(p.x + p.tilt + p.r/2, p.y);
-    ctx.lineTo(p.x + p.tilt, p.y + p.tilt + p.r/2);
-    ctx.stroke();
-    p.tiltAngle += p.tiltAngleIncrement;
-    p.x += Math.sin(p.tiltAngle) * 2;
-    p.y += Math.cos(p.tiltAngle + p.d) + 1;
-    if(p.y > canvas.height){ p.y = -10; p.x = Math.random()*canvas.width; }
-  });
-  requestAnimationFrame(drawConfetti);
-}
 
-// 🌀 Khi bấm quay
-spinBtn.addEventListener('click', async ()=>{
-  spinBtn.disabled = true;
-  resultDiv.textContent = "";
-  rewardDiv.style.display = "none";
-  rewardDiv.style.transform = "scale(0)";
-
-  const results = await Promise.all(reels.map((r,i)=>spinReel(r,4000 + i*1000)));
-  const win = results.every(s => s === results[0]);
-
-  if(win){
-    winSound.play();
-    rewardDiv.style.display = "block";
-    setTimeout(()=>{
-      rewardDiv.style.transform = "scale(1.2) rotate(-5deg)";
-      setTimeout(()=>rewardDiv.style.transform="scale(1)",200);
-    },50);
-    createConfetti();
-    drawConfetti();
+  function createConfetti(){
+    confettiParticles = [];
+    for(let i=0;i<100;i++){
+      confettiParticles.push({
+        x: Math.random()*canvas.width,
+        y: Math.random()*canvas.height - canvas.height,
+        r: Math.random()*6+2,
+        d: Math.random()*10+5,
+        color: `hsl(${Math.random()*360}, 10%, 20%)`, // đen bóng nhẹ
+        tilt: Math.random()*10-10,
+        tiltAngleIncrement: Math.random()*0.07+0.05,
+        tiltAngle: 0
+      });
+    }
   }
 
-  resultDiv.textContent = win ? `🎉 Chúc mừng! Bạn trúng ${results[0]}!` : `😅 Thua rồi, thử lần sau nhé!`;
-  spinBtn.disabled = false;
-});
-</script>
+  function drawConfetti(){
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+    confettiParticles.forEach((p)=>{
+      ctx.beginPath();
+      ctx.lineWidth = p.r;
+      ctx.strokeStyle = p.color;
+      ctx.moveTo(p.x + p.tilt + p.r/2, p.y);
+      ctx.lineTo(p.x + p.tilt, p.y + p.tilt + p.r/2);
+      ctx.stroke();
+      p.tiltAngle += p.tiltAngleIncrement;
+      p.x += Math.sin(p.tiltAngle) * 2;
+      p.y += Math.cos(p.tiltAngle + p.d) + 1;
+      if(p.y > canvas.height){ p.y = -10; p.x = Math.random()*canvas.width; }
+    });
+    requestAnimationFrame(drawConfetti);
+  }
 
+  spinBtn.addEventListener('click', async ()=>{
+    spinBtn.disabled = true;
+    resultDiv.textContent = "";
+    rewardDiv.style.display = "none";
+    rewardDiv.style.transform = "scale(0)";
+    
+    const results = await Promise.all(reels.map((r,i)=>spinReel(r,4000 + i*1000)));
+    const win = results.every(s => s === results[0]);
+
+    if(win){
+      winSound.play();
+      rewardDiv.style.display = "block";
+      setTimeout(()=>{ rewardDiv.style.transform = "scale(1.2)"; setTimeout(()=>rewardDiv.style.transform="scale(1)",200); },50);
+      createConfetti();
+      drawConfetti();
+    }
+
+    resultDiv.textContent = win ? `🎉 Chúc mừng! Bạn trúng ${results[0]}!` : `😅 Thua rồi, thử lại nhé!`;
+    spinBtn.disabled = false;
+  });
+  </script>
+</section>
+    
     <section class="reviews-section" id="danhgia" aria-labelledby="review-title">
       <div class="reviews-bg" id="reviewsBg" aria-hidden="true"></div>
       <div class="reviews-overlay" aria-hidden="true"></div>
