@@ -1049,11 +1049,20 @@
               4px 4px 15px rgba(0,0,0,0.5);
 }
 
+/* 🎰 Container slot */
+#slot {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:10px;
+  flex-wrap:nowrap;
+  margin-bottom:25px;
+}
+
 /* ✨ Ô quay phản kim loại */
 #slot-section .reel {
   width:85px;
   height:85px;
-  margin:6px;
   border-radius:18px;
   display:flex;
   align-items:center;
@@ -1132,10 +1141,27 @@
   transform:scale(0);
   transition:transform 0.5s;
 }
+
+/* 📱 Responsive cho điện thoại */
+@media (max-width:480px) {
+  #slot {
+    flex-wrap:nowrap;
+    gap:6px;
+  }
+  #slot-section .reel {
+    width:70px;
+    height:70px;
+    font-size:1.8rem;
+  }
+  #slot-section {
+    padding:20px;
+    margin:20px auto;
+  }
+}
 </style>
 
 <script>
-// 🎰 JS Slot Apple Metallic
+// 🎰 JS Slot Apple Metallic (Responsive)
 const spinBtn = document.getElementById('spinBtn');
 const reels = [document.getElementById('reel1'), document.getElementById('reel2'), document.getElementById('reel3')];
 const resultDiv = document.getElementById('result');
@@ -1160,8 +1186,6 @@ function spinReel(reel, duration){
 
     // ánh sáng chạy qua khi quay
     reel.classList.add('spinning');
-    const highlight = reel.querySelector('::after');
-
     function animate(now){
       const elapsed = now - start;
       if(elapsed < duration){
@@ -1214,7 +1238,7 @@ function drawConfetti(){
   requestAnimationFrame(drawConfetti);
 }
 
-// 🌀 Xử lý khi bấm quay
+// 🌀 Khi bấm quay
 spinBtn.addEventListener('click', async ()=>{
   spinBtn.disabled = true;
   resultDiv.textContent = "";
