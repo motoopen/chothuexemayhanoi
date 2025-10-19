@@ -1191,7 +1191,7 @@
   </script>
 </section>
 
-    <!-- 🚘 SECTION: TRẮC NGHIỆM CHỌN XE PHÙ HỢP (Apple Style, Emoji, fade-in 0.9s) -->
+<!-- 🚘 SECTION: TRẮC NGHIỆM CHỌN XE PHÙ HỢP (Apple Style, Emoji, fade-in 0.9s, auto hide quiz) -->
 <section id="quiz-section" style="padding:60px 20px;max-width:600px;margin:auto;text-align:center;font-family:'Inter',sans-serif;transition:background 0.6s,color 0.6s;">
   <h2 style="font-size:1.8rem;font-weight:600;margin-bottom:25px;animation:fadeIn 0.9s ease;">🧭 Trắc nghiệm chọn xe phù hợp</h2>
   <div id="quiz-container">
@@ -1225,7 +1225,6 @@
   </div>
 
   <style>
-    /* Fade-in mờ ảo */
     @keyframes fadeIn { from {opacity:0;transform:translateY(10px);} to {opacity:1;transform:translateY(0);} }
 
     #quiz-section button.answer,
@@ -1296,6 +1295,7 @@
     });
 
     function showResult() {
+      const container = document.getElementById('quiz-container');
       const result = document.getElementById('result');
       const text = document.getElementById('bike-result');
       let suggestion = '';
@@ -1312,6 +1312,11 @@
       } else suggestion = '🛴 Honda Vision – lựa chọn an toàn và phổ biến.';
 
       text.textContent = `🚘 Xe phù hợp với bạn là: ${suggestion}`;
+
+      // Ẩn toàn bộ quiz
+      container.style.display = 'none';
+
+      // Hiển thị kết quả
       result.style.display = 'block';
       result.style.transform = 'scale(1.05)';
       setTimeout(() => result.style.transform = 'scale(1)', 300);
