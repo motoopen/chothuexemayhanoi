@@ -1190,35 +1190,36 @@
   });
   </script>
 </section>
-<!-- 🚘 SECTION: TRẮC NGHIỆM CHỌN XE PHÙ HỢP (Apple Style, Emoji, fade-in 0.9s, Zalo chuẩn) -->
-<section id="quiz-section" style="padding:60px 20px;max-width:600px;margin:auto;text-align:center;font-family:'Inter',sans-serif;transition:background 0.6s,color 0.6s;">
+
+<!-- 🚘 SECTION: TRẮC NGHIỆM CHỌN XE (Namespace mới, safe với index.html cũ) -->
+<section id="quiz-wrapper-new" style="padding:60px 20px;max-width:600px;margin:auto;text-align:center;font-family:'Inter',sans-serif;transition:background 0.6s,color 0.6s;">
   <h2 style="font-size:1.8rem;font-weight:600;margin-bottom:25px;animation:fadeIn 0.9s ease;">🧭 Trắc nghiệm chọn xe phù hợp</h2>
 
-  <div id="quiz-container">
-    <div class="question active" style="animation:fadeIn 0.9s ease;">
+  <div id="quiz-container-new">
+    <div class="question-new active" style="animation:fadeIn 0.9s ease;">
       <p style="font-size:1.1rem;margin-bottom:15px;">1️⃣ Bạn thuê xe để làm gì?</p>
-      <button class="answer">Đi làm / Đi học</button>
-      <button class="answer">Đi chơi / Đi dạo</button>
-      <button class="answer">Đi xa / Phượt</button>
+      <button class="answer-new">Đi làm / Đi học</button>
+      <button class="answer-new">Đi chơi / Đi dạo</button>
+      <button class="answer-new">Đi xa / Phượt</button>
     </div>
 
-    <div class="question">
+    <div class="question-new">
       <p style="font-size:1.1rem;margin-bottom:15px;">2️⃣ Bạn thích loại xe nào?</p>
-      <button class="answer">Xe số</button>
-      <button class="answer">Xe tay ga</button>
-      <button class="answer">Xe điện</button>
+      <button class="answer-new">Xe số</button>
+      <button class="answer-new">Xe tay ga</button>
+      <button class="answer-new">Xe điện</button>
     </div>
 
-    <div class="question">
+    <div class="question-new">
       <p style="font-size:1.1rem;margin-bottom:15px;">3️⃣ Bạn thường đi mấy người?</p>
-      <button class="answer">1 người</button>
-      <button class="answer">2 người</button>
+      <button class="answer-new">1 người</button>
+      <button class="answer-new">2 người</button>
     </div>
   </div>
 
-  <!-- Thẻ result ngoài container để Zalo luôn hiện -->
-  <div id="result" style="display:none;animation:fadeIn 0.9s ease; transform: scale(0); padding:20px; border-radius:15px; box-shadow:0 4px 12px rgba(0,0,0,0.15); transition: transform 0.4s, box-shadow 0.4s;">
-    <h3 id="bike-result" style="margin:20px 0;font-size:1.4rem;font-weight:600;"></h3>
+  <!-- Result ngoài quiz container -->
+  <div id="quiz-result-new" style="display:none;animation:fadeIn 0.9s ease; transform: scale(0); padding:20px; border-radius:15px; box-shadow:0 4px 12px rgba(0,0,0,0.15); transition: transform 0.4s, box-shadow 0.4s;">
+    <h3 id="bike-result-new" style="margin:20px 0;font-size:1.4rem;font-weight:600;"></h3>
     <a href="https://zalo.me/0857255868" target="_blank" 
        style="display:inline-block;background:#4285F4;color:#fff;padding:12px 24px;border-radius:8px;font-weight:600;text-decoration:none;transition:all 0.3s;">
        💬 Liên hệ Zalo 0857255868
@@ -1228,8 +1229,8 @@
   <style>
     @keyframes fadeIn { from {opacity:0;transform:translateY(10px);} to {opacity:1;transform:translateY(0);} }
 
-    #quiz-section button.answer,
-    #quiz-section a {
+    #quiz-wrapper-new button.answer-new,
+    #quiz-wrapper-new a {
       display:block;
       width:100%;
       margin:10px 0;
@@ -1246,58 +1247,58 @@
       animation:fadeIn 0.9s ease;
     }
 
-    #quiz-section button.answer:hover,
-    #quiz-section a:hover {
+    #quiz-wrapper-new button.answer-new:hover,
+    #quiz-wrapper-new a:hover {
       transform: scale(1.03);
       box-shadow:0 0 15px rgba(66, 133, 244, 0.6);
     }
 
     /* Dark mode */
     @media (prefers-color-scheme: dark) {
-      #quiz-section { background:#000; color:#fff; }
-      #quiz-section button.answer,
-      #quiz-section a {
+      #quiz-wrapper-new { background:#000; color:#fff; }
+      #quiz-wrapper-new button.answer-new,
+      #quiz-wrapper-new a {
         background:#4285F4;
         color:#fff;
         box-shadow:0 2px 6px rgba(66, 133, 244, 0.5);
       }
-      #quiz-section button.answer:hover,
-      #quiz-section a:hover {
+      #quiz-wrapper-new button.answer-new:hover,
+      #quiz-wrapper-new a:hover {
         box-shadow:0 0 15px rgba(66, 133, 244, 0.8);
       }
     }
 
     /* Mobile tối ưu */
     @media (max-width:480px) {
-      #quiz-section h2 { font-size:1.5rem; }
-      #quiz-section button.answer { font-size:0.95rem; padding:12px 14px; }
-      #quiz-section a { padding:10px 20px; font-size:0.95rem; }
+      #quiz-wrapper-new h2 { font-size:1.5rem; }
+      #quiz-wrapper-new button.answer-new { font-size:0.95rem; padding:12px 14px; }
+      #quiz-wrapper-new a { padding:10px 20px; font-size:0.95rem; }
     }
   </style>
 
   <script>
-    const questions = document.querySelectorAll('#quiz-container .question');
-    let currentQuestion = 0;
-    let answers = [];
+    const questionsNew = document.querySelectorAll('#quiz-container-new .question-new');
+    let currentQuestionNew = 0;
+    let answersNew = [];
 
-    document.querySelectorAll('#quiz-container .answer').forEach(btn => {
+    document.querySelectorAll('#quiz-container-new .answer-new').forEach(btn => {
       btn.addEventListener('click', () => {
-        answers.push(btn.textContent);
-        questions[currentQuestion].style.display = 'none';
-        currentQuestion++;
-        if (currentQuestion < questions.length) {
-          questions[currentQuestion].style.display = 'block';
+        answersNew.push(btn.textContent);
+        questionsNew[currentQuestionNew].style.display = 'none';
+        currentQuestionNew++;
+        if (currentQuestionNew < questionsNew.length) {
+          questionsNew[currentQuestionNew].style.display = 'block';
         } else {
-          showResult();
+          showResultNew();
         }
       });
     });
 
-    function showResult() {
-      const result = document.getElementById('result');
-      const text = document.getElementById('bike-result');
+    function showResultNew() {
+      const result = document.getElementById('quiz-result-new');
+      const text = document.getElementById('bike-result-new');
       let suggestion = '';
-      const [purpose, type, people] = answers;
+      const [purpose, type, people] = answersNew;
 
       if (type === 'Xe điện') suggestion = '⚡🛵 Xe điện – tiện lợi và tiết kiệm trong phố.';
       else if (type === 'Xe tay ga') {
@@ -1310,14 +1311,13 @@
       } else suggestion = '🛴 Honda Vision – lựa chọn an toàn và phổ biến.';
 
       text.textContent = `🚘 Xe phù hợp với bạn là: ${suggestion}`;
-
-      // Hiển thị result
       result.style.display = 'block';
       result.style.transform = 'scale(1.05)';
       setTimeout(() => result.style.transform = 'scale(1)', 300);
     }
   </script>
 </section>
+    
     <section class="reviews-section" id="danhgia" aria-labelledby="review-title">
       <div class="reviews-bg" id="reviewsBg" aria-hidden="true"></div>
       <div class="reviews-overlay" aria-hidden="true"></div>
