@@ -890,9 +890,11 @@
         grid-template-columns: 1fr;
         text-align: center;
       }
-      /* Căn giữa link và icon cho mobile */
+      /* === SỬA ĐỔI THEO YÊU CẦU === */
+      /* Hiển thị link dạng block (flex), căn giữa (icon+text) cho mobile */
       footer.premium.luxury a {
-        justify-content: center;
+        display: flex; /* Ghi đè 'inline-flex' để thành 'block-level flex' (tự xuống dòng) */
+        justify-content: center; /* Căn giữa nội dung (icon+text) */
       }
       .footer-social { justify-content: center; }
     }
@@ -1074,10 +1076,6 @@
     <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/dieukhoansudung.html" role="menuitem"><i class="fa-solid fa-file-contract"></i> Điều khoản</a>
     <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html" role="menuitem"><i class="fa-solid fa-shield-halved"></i> Chính sách</a>
     
-    <a class="icon" href="https://m.facebook.com/motoopenvn/" target="_blank" rel="noopener" role="menuitem" style="margin-top: 15px; border-top: 1px solid var(--glass-border); padding-top: 12px;"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
-    <a class="icon" href="https://www.instagram.com/motoopen/" target="_blank" rel="noopener" role="menuitem"><i class="fa-brands fa-instagram"></i> Instagram</a>
-    <a class="icon" href="https://www.pinterest.com/motoopen12/" target="_blank" rel="noopener" role="menuitem"><i class="fa-brands fa-pinterest"></i> Pinterest</a>
-  
     <script>
       (function() {
         // Đặt script bên trong <aside> để đảm bảo nó được chèn cùng
