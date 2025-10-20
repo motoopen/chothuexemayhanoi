@@ -3,11 +3,12 @@
 <head>
   <meta charset="utf-8" />
   <meta name="google-site-verification" content="uyOY7KYlP7yQOypX5W3i_z-ffZoVvA2_SgldeoXqXmE" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" /><title>Giới thiệu Motoopen | Thuê Xe Máy Hà Nội</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Giới thiệu Motoopen | Thuê Xe Máy Hà Nội</title>
 
   <meta name="robots" content="index, follow">
 
-  <meta name="description" content="Giới thiệu về Motoopen - dịch vụ cho thuê xe máy tại Hà Nội. Địa chỉ 114 Nguyễn Văn Cừ, Long Biên. Cam kết xe chất lượng, thủ tục đơn giản, giao tận nơi. Liên hệ Zalo/điện thoại 0857 255 868." />
+  <meta name="description" content="Giới thiệu về Motoopen - dịch vụ cho thuê xe máy tại Hà Nội. Địa chỉ 114 Nguyễn Văn Cừ, Long Biên. Liên hệ Zalo/điện thoại 0857 255 868." />
 
   <meta name="keywords" content="giới thiệu Motoopen, về chúng tôi, thuê xe máy Hà Nội, cho thuê xe máy, Motoopen" />
 
@@ -21,7 +22,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   
   <meta property="og:title" content="Giới thiệu Motoopen | Thuê Xe Máy Hà Nội">
-  <meta property="og:description" content="Giới thiệu về Motoopen - dịch vụ cho thuê xe máy tại Hà Nội. Địa chỉ 114 Nguyễn Văn Cừ, Long Biên. Cam kết xe chất lượng, thủ tục đơn giản, giao tận nơi. Liên hệ Zalo/điện thoại 0857 255 868.">
+  <meta property="og:description" content="Giới thiệu về Motoopen - dịch vụ cho thuê xe máy tại Hà Nội. Địa chỉ 114 Nguyễn Văn Cừ, Long Biên. Liên hệ Zalo/điện thoại 0857 255 868.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://motoopen.github.io/chothuexemayhanoi/gioithieu.html">
   <meta property="og:image" content="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg">
@@ -29,7 +30,7 @@
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Giới thiệu Motoopen | Thuê Xe Máy Hà Nội">
-  <meta name="twitter:description" content="Giới thiệu về Motoopen - dịch vụ cho thuê xe máy tại Hà Nội. Địa chỉ 114 Nguyễn Văn Cừ, Long Biên. Cam kết xe chất lượng, thủ tục đơn giản, giao tận nơi. Liên hệ Zalo/điện thoại 0857 255 868.">
+  <meta name="twitter:description" content="Giới thiệu về Motoopen - dịch vụ cho thuê xe máy tại Hà Nội. Địa chỉ 114 Nguyễn Văn Cừ, Long Biên. Liên hệ Zalo/điện thoại 0857 255 868.">
   <meta name="twitter:image" content="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg">
   <meta name="twitter:site" content="@MotoopenVN">
   
@@ -104,7 +105,7 @@
       "@type": "AboutPage",
       "name": "Giới thiệu về Motoopen - Thuê Xe Máy Hà Nội",
       "url": "https://motoopen.github.io/chothuexemayhanoi/gioithieu.html",
-      "description": "Giới thiệu về Motoopen - dịch vụ cho thuê xe máy tại Hà Nội. Cam kết xe chất lượng, thủ tục đơn giản, giao tận nơi.",
+      "description": "Giới thiệu về Motoopen - dịch vụ cho thuê xe máy tại Hà Nội. Địa chỉ 114 Nguyễn Văn Cừ, Long Biên. Liên hệ Zalo/điện thoại 0857 255 868.",
       "about": {
         "@type": "Organization",
         "name": "Motoopen",
@@ -298,6 +299,66 @@
     .drawer a.icon{display:flex;gap:12px;align-items:center}
     .drawer a.cta{margin-top:18px;background:var(--accent);color:#fff;padding:12px;text-align:center;border-radius:999px}
 
+    /* NEW: Breadcrumb Style */
+    .breadcrumb {
+        max-width: var(--maxw);
+        margin: 24px auto 0;
+        padding: 8px 20px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 0.95rem;
+        /* Breadcrumb Responsive Styling */
+        background: var(--surface);
+        border: 1px solid var(--glass-border);
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+        width: calc(100% - 32px); /* Kích thước tương đương topbar */
+        transition: all 0.3s;
+    }
+    body.dark .breadcrumb {
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .breadcrumb a {
+        color: var(--muted);
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-weight: 500;
+        transition: color 0.2s;
+        padding: 4px 0;
+    }
+    .breadcrumb a:hover {
+        color: var(--accent);
+    }
+    .breadcrumb i.fa-angle-right {
+        color: #BDBDBD; /* Xám nhạt */
+        font-size: 0.8em;
+    }
+    .breadcrumb .current-page {
+        color: var(--accent);
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+    .breadcrumb .current-page i {
+        color: var(--accent);
+    }
+    @media (max-width: 900px) {
+        .breadcrumb {
+            width: 100%;
+            margin: 20px auto 0;
+            border-radius: 0;
+            padding: 10px 16px;
+            box-shadow: none;
+            border-left: none;
+            border-right: none;
+        }
+    }
+    /* END NEW: Breadcrumb Style */
+
     /* ===== HERO (Apple Vision Motion) (Dùng cho mọi trang chính) ===== */
     .hero {
       position:relative;
@@ -323,6 +384,10 @@
       transform:translateZ(0);
       animation:gradMove 12s linear infinite;
       mix-blend-mode:screen;opacity:0.95;
+    }
+    @keyframes gradMove {
+        0% { transform: translate(-50%, -50%) rotate(0deg) scale(1.1); }
+        100% { transform: translate(50%, 50%) rotate(360deg) scale(0.9); }
     }
     /* Dark mode grad layer color adjust */
     body.dark .hero .grad-layer {
@@ -542,15 +607,25 @@
       .price-table{min-width:480px}
       .brand h3{font-size:0.98rem}
       .price-image-container { padding: 10px; }
+      
+      /* Yêu cầu Footer Căn Giữa trên mobile */
       footer.premium { 
         grid-template-columns: 1fr; 
         text-align: center; 
         padding-left: 10px;
         padding-right: 10px;
       }
-      footer.premium a, footer .author, footer.premium p { text-align: center; justify-content: center; }
+      footer.premium h4 { text-align: center; } /* Căn giữa tiêu đề */
+      footer.premium a { 
+        text-align: center; 
+        display: inline-flex; 
+        justify-content: center;
+        margin: 6px auto; /* Để center link block */
+      }
+      footer.premium a::after { left: 50%; transform: translateX(-50%); } /* Căn giữa gạch chân */
+      footer .author, footer.premium p { text-align: center; justify-content: center; }
       .footer-social { justify-content: center; }
-      .footer-tagline { font-size: 0.9rem; padding-left: 10px; }
+      .footer-tagline { font-size: 0.9rem; padding: 0 10px; }
       
       .cta-grid {
         grid-template-columns: 1fr; /* Xếp dọc hoàn toàn trên mobile */
@@ -746,6 +821,12 @@
       padding: 0 0 0 20px;
       border-top: 1px solid var(--glass-border);
     }
+    @media (max-width: 520px) {
+        .footer-tagline {
+            padding: 0 10px; /* Căn lề padding cho mobile */
+            justify-content: center; /* Căn giữa nội dung */
+        }
+    }
     .footer-tagline .inner {
       display: inline-flex;
       align-items: center;
@@ -753,6 +834,12 @@
       animation: marquee 15s linear infinite alternate;
       padding-right: 40px; 
       text-shadow: 0 0 4px #00d4ff, 0 0 10px #00d4ff;
+    }
+    @media (max-width: 520px) {
+        .footer-tagline .inner {
+            animation: marquee-mobile 15s linear infinite alternate;
+            /* Giữ nguyên Marquee, nhưng căn lề tốt hơn */
+        }
     }
     .footer-tagline img {
       width: 28px;
@@ -764,6 +851,12 @@
       0% { transform: translateX(100%); }
       100% { transform: translateX(-100%); }
     }
+    @keyframes marquee-mobile {
+      /* Cần điều chỉnh Marquee cho màn hình nhỏ, có thể để đơn giản hơn */
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+
 
   </style>
 </head>
@@ -966,6 +1059,16 @@
   </aside>
 
   <main id="main" class="container" role="main">
+    
+    <div class="breadcrumb" aria-label="Breadcrumb navigation">
+        <a href="https://motoopen.github.io/chothuexemayhanoi/">
+            <i class="fa-solid fa-house"></i> Trang chủ
+        </a>
+        <i class="fa-solid fa-angle-right"></i>
+        <span class="current-page">
+            <i class="fa-solid fa-circle-info"></i> Giới thiệu
+        </span>
+    </div>
     <section class="hero" id="gioithieu-main" aria-labelledby="hero-title">
       <div class="grad-layer" aria-hidden="true"></div>
       <div class="content">
@@ -991,7 +1094,7 @@
             <h4>THÔNG TIN LIÊN HỆ & ĐỊA CHỈ (NAP)</h4>
             <p><i class="fa-solid fa-building"></i> <strong>Tên công ty:</strong> Motoopen - Thuê Xe Máy Hà Nội</p>
             <p><i class="fa-solid fa-map-marker-alt"></i> <strong>Địa chỉ:</strong> 114 Nguyễn Văn Cừ, Long Biên, Hà Nội</p>
-            <p><i class="fa-solid fa-phone"></i> <strong>Điện thoại/Zalo:</strong> <a href="tel:0857255868" style="text-decoration:none;">0857 255 868</a></p>
+            <p><i class="fa-solid fa-phone"></i> <strong>Điện thoại/Zalo:</strong> <a href="tel:0857255868" style="text-decoration:none; color:inherit;">0857 255 868</a></p>
             <p><i class="fa-solid fa-envelope"></i> <strong>Email:</strong> motoopen12@gmail.com</p>
             <p><i class="fa-solid fa-clock"></i> <strong>Giờ làm việc:</strong> 09:00 – 21:00 (Hàng ngày)</p>
         </div>
@@ -1007,15 +1110,17 @@
         <h2 id="cta-cluster-title" class="slide-left">TÌM HIỂU THÊM VỀ DỊCH VỤ CỦA CHÚNG TÔI</h2>
         <div class="cta-grid">
             <a href="https://motoopen.github.io/chothuexemayhanoi/" class="fade-up" style="animation-delay: 0.1s;"><i class="fa-solid fa-house"></i> Trang Chủ</a>
-            <a href="https://motoopen.github.io/chothuexemayhanoi/gioithieu.html" class="fade-up" style="animation-delay: 0.2s;"><i class="fa-solid fa-circle-info"></i> Giới thiệu</a>
-            <a href="https://motoopen.github.io/chothuexemayhanoi/dichvu.html" class="fade-up" style="animation-delay: 0.3s;"><i class="fa-solid fa-handshake"></i> Dịch vụ</a>
-            <a href="https://motoopen.github.io/chothuexemayhanoi/banggia.html" class="fade-up" style="animation-delay: 0.4s;"><i class="fa-solid fa-tags"></i> Bảng giá</a>
-            <a href="https://motoopen.github.io/chothuexemayhanoi/thutuc.html" class="fade-up" style="animation-delay: 0.5s;"><i class="fa-solid fa-file-signature"></i> Thủ tục thuê xe</a>
-            <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html" class="fade-up" style="animation-delay: 0.6s;"><i class="fa-solid fa-motorcycle"></i> Loại xe</a>
-            <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html/huongdan.html" class="fade-up" style="animation-delay: 0.7s;"><i class="fa-solid fa-book"></i> Hướng dẫn thuê</a>
-            <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html/kinhnghiem.html" class="fade-up" style="animation-delay: 0.8s;"><i class="fa-solid fa-lightbulb"></i> Kinh nghiệm</a>
-            <a href="https://motoopen.github.io/chothuexemayhanoi/faq.html" class="fade-up" style="animation-delay: 0.9s;"><i class="fa-solid fa-circle-question"></i> FAQ</a>
-            <a href="https://motoopen.github.io/chothuexemayhanoi/lienhe.html" class="fade-up" style="animation-delay: 1.0s;"><i class="fa-solid fa-phone"></i> Liên hệ</a>
+            <a href="https://motoopen.github.io/chothuexemayhanoi/gioithieu.html" class="fade-up" style="animation-delay: 0.2s; color:var(--accent);"><i class="fa-solid fa-circle-info"></i> Giới thiệu</a>
+            <a href="https://motoopen.github.io/chothuexemayhanoi/lienhe.html" class="fade-up" style="animation-delay: 0.3s;"><i class="fa-solid fa-phone"></i> Liên hệ</a>
+            
+            <a href="https://motoopen.github.io/chothuexemayhanoi/dichvu.html" class="fade-up" style="animation-delay: 0.4s;"><i class="fa-solid fa-handshake"></i> Dịch vụ</a>
+            <a href="https://motoopen.github.io/chothuexemayhanoi/banggia.html" class="fade-up" style="animation-delay: 0.5s;"><i class="fa-solid fa-tags"></i> Bảng giá</a>
+            <a href="https://motoopen.github.io/chothuexemayhanoi/thutuc.html" class="fade-up" style="animation-delay: 0.6s;"><i class="fa-solid fa-file-signature"></i> Thủ tục</a>
+            <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html" class="fade-up" style="animation-delay: 0.7s;"><i class="fa-solid fa-motorcycle"></i> Loại xe</a>
+            <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html/huongdan.html" class="fade-up" style="animation-delay: 0.8s;"><i class="fa-solid fa-book"></i> Hướng dẫn</a>
+            <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html/kinhnghiem.html" class="fade-up" style="animation-delay: 0.9s;"><i class="fa-solid fa-lightbulb"></i> Kinh nghiệm</a>
+            
+            <a href="https://motoopen.github.io/chothuexemayhanoi/faq.html" class="fade-up" style="animation-delay: 1.0s;"><i class="fa-solid fa-circle-question"></i> FAQ</a>
             <a href="https://motoopen.github.io/chothuexemayhanoi/dieukhoansudung.html" class="fade-up" style="animation-delay: 1.1s;"><i class="fa-solid fa-file-contract"></i> Điều khoản</a>
             <a href="https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html" class="fade-up" style="animation-delay: 1.2s;"><i class="fa-solid fa-shield-halved"></i> Chính sách</a>
         </div>
@@ -1201,7 +1306,7 @@
       window.addEventListener('scroll', onScroll, {passive:true});
       handleScroll(window.scrollY || 0);
 
-      // 4) Reveal & reviews cards animation with IntersectionObserver
+      // 4) Reveal & cards animation with IntersectionObserver
       const motionObserver = new IntersectionObserver((entries, obs) => {
         entries.forEach(en => {
           if(en.isIntersecting){
@@ -1213,10 +1318,8 @@
 
       // Targets: .reveal, .fade-up, .slide-left, .slide-right
       document.querySelectorAll('.reveal, .fade-up, .slide-left, .slide-right').forEach(el => motionObserver.observe(el));
-
-      // 5) FAQ accordion behavior (Removed since there is no FAQ section)
       
-      // 6) Respect reduced motion
+      // 5) Respect reduced motion
       if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){
         document.querySelectorAll('*').forEach(n => n.style.transition = 'none');
       }
@@ -1288,9 +1391,6 @@
               toggleBtn.classList.toggle('open', isOpen);
               toggleBtn.setAttribute('aria-expanded', String(isOpen));
             });
-            // Auto open for this page to show the current selected item (optional)
-            // LƯU Ý: Không nên tự động mở accordion trong drawer vì trang này không phải là trang con.
-            // Để nguyên trạng thái đóng.
           }
         }
       })();
