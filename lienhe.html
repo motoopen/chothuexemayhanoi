@@ -558,9 +558,12 @@
     }
 
     /* CSS RIÊNG CHO LIENHE.HTML */
+    
+    /* 1. Breadcrumb style */
     .breadcrumb {
       font-size:14px;
       margin:15px 0 25px;
+      padding: 0 10px; /* Thêm padding ngang */
       display:flex;
       align-items:center;
       gap:8px;
@@ -572,64 +575,187 @@
       font-weight:500;
     }
     .breadcrumb span { color:var(--text-light); }
-    .fanpage-grid {
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-      gap:12px;
-      margin-top:12px;
+    .breadcrumb i.fa-house, .breadcrumb i.fa-phone {
+        font-size: 0.9em;
     }
-    .fanpage-grid a {
-      display:flex;
-      align-items:center;
-      gap:8px;
-      background:var(--surface);
-      padding:10px 14px;
-      border-radius:10px;
-      text-decoration:none;
-      font-weight:600;
-      color:var(--text);
-      border:1px solid var(--glass-border);
-      transition:all 0.2s ease;
+    
+    /* 2. NAP Card style */
+    .contact-card {
+        padding: 25px;
+        border-radius: var(--card-radius);
+        background: var(--surface);
+        border: 1px solid var(--glass-border);
+        box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+        margin-bottom: 30px;
     }
-    .fanpage-grid a:hover {
-      background:rgba(0,122,255,0.06);
-      color:var(--accent);
-      transform:translateY(-2px);
+    .contact-card h1 { 
+        font-size: clamp(24px, 5vw, 32px); 
+        font-weight: 800; 
+        color: var(--accent); 
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
     }
-    /* Dark mode hover fanpage */
-    body.dark .fanpage-grid a:hover {
-        background:rgba(10,132,255,0.12);
-        color:var(--accent);
+    .contact-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 12px;
+        font-size: 1.05rem;
+        font-weight: 500;
     }
-    .fanpage-grid a i {
-      color:#1877F2;
-      width:20px;
-      text-align:center;
+    .contact-item i {
+        color: var(--accent);
+        width: 24px;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .contact-item a {
+        color: var(--text);
+        text-decoration: none;
+        transition: color 0.2s;
+    }
+    .contact-item a:hover {
+        color: var(--accent);
+    }
+    
+    /* 3. Form style */
+    .form-card {
+        padding: 25px;
+        border-radius: var(--card-radius);
+        background: var(--surface);
+        border: 1px solid var(--glass-border);
+        box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+        margin-top: 30px; /* Thêm khoảng cách */
+    }
+    .form-card h2 { margin-top: 0; margin-bottom: 20px; font-size: clamp(20px, 4vw, 28px); font-weight: 700; }
+    form {
+        display:grid;
+        gap:12px;
     }
     form input, form textarea {
-      padding:12px;
-      border-radius:10px;
-      border:1px solid var(--glass-border);
-      background: var(--surface);
-      color: var(--text);
+        width: 100%;
+        padding:12px;
+        border-radius:10px;
+        border:1px solid var(--glass-border);
+        background: var(--bg); /* Nền nhẹ hơn surface */
+        color: var(--text);
+        font-family: inherit;
+        font-size: 1rem;
+        transition: border-color 0.2s;
+    }
+    form input:focus, form textarea:focus {
+        border-color: var(--accent);
+        outline: none;
     }
     form button {
-      padding:14px;
-      border:none;
-      border-radius:10px;
-      background:#007aff;
-      color:#fff;
-      font-weight:600;
-      cursor:pointer;
-      transition: background 0.2s;
+        padding:14px;
+        border:none;
+        border-radius:10px;
+        background:var(--accent);
+        color:#fff;
+        font-weight:700;
+        cursor:pointer;
+        transition: background 0.2s, transform 0.2s;
+        font-size: 1rem;
     }
     form button:hover {
         background: #0066e5;
+        transform: translateY(-1px);
     }
-    section.container h1 { font-size: clamp(24px, 5vw, 32px); font-weight: 700; color: var(--text); }
-    section.container h2 { font-size: clamp(20px, 4vw, 28px); font-weight: 600; color: var(--text); }
-    section.container p { margin-bottom: 8px; color: var(--text); }
-    section.container p a { color: var(--accent); font-weight: 500; }
+    body.dark form input, body.dark form textarea {
+        background: #3A3A3C;
+    }
+    
+    /* 4. Social/Fanpage Grid */
+    .social-links-card {
+        padding: 25px;
+        border-radius: var(--card-radius);
+        background: var(--surface);
+        border: 1px solid var(--glass-border);
+        box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+        margin-top: 30px;
+    }
+    .social-links-card h2 { margin-top: 0; margin-bottom: 20px; font-size: clamp(20px, 4vw, 28px); font-weight: 700; }
+
+    .social-links-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 12px;
+    }
+
+    .social-card {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 14px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.25s ease;
+      color: #fff;
+      font-size: 0.95rem;
+    }
+
+    .social-card i {
+      width: 20px;
+      text-align: center;
+      font-size: 1.1rem;
+    }
+
+    /* Facebook style */
+    .social-card.facebook {
+      background: #1877f2;
+    }
+    .social-card.facebook:hover {
+      background: #0d5dc6;
+      transform: translateY(-2px);
+    }
+
+    /* Instagram style */
+    .social-card.instagram {
+      background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888, #8a2be2);
+    }
+    .social-card.instagram:hover {
+      background: linear-gradient(45deg, #e6683c, #dc2743, #cc2366, #bc1888, #8a2be2, #6a5acd);
+      transform: translateY(-2px);
+    }
+
+    /* Pinterest style */
+    .social-card.pinterest {
+      background: #e60023;
+    }
+    .social-card.pinterest:hover {
+      background: #bd081c;
+      transform: translateY(-2px);
+    }
+
+    /* TripAdvisor style */
+    .social-card.tripadvisor {
+      background: #34e0a1;
+    }
+    .social-card.tripadvisor:hover {
+      background: #28b883;
+      transform: translateY(-2px);
+    }
+    
+    /* 5. Google Maps Iframe */
+    .map-card {
+        padding: 0; /* Loại bỏ padding */
+        border-radius: var(--card-radius);
+        overflow: hidden; /* Cần thiết để bo góc iframe */
+        border: 1px solid var(--glass-border);
+        box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+        margin-top: 30px;
+    }
+    .map-card iframe {
+        display: block; /* Loại bỏ khoảng trắng dưới iframe */
+        width: 100%;
+        height: 400px;
+        border: 0;
+    }
+    
   </style>
 </head>
 <body>
@@ -839,60 +965,129 @@
     <nav class="breadcrumb" aria-label="Breadcrumb">
       <a href="index.html"><i class="fa-solid fa-house"></i> Trang chủ</a>
       <span>›</span>
-      <span><i class="fa-solid fa-phone"></i> Liên hệ</span>
+      <span>Liên hệ</span>
     </nav>
 
-    <section class="container" style="padding:40px 20px;max-width:900px;margin:auto;">
-      <h1>📞 Liên hệ Motoopen</h1>
-      
-      <p><strong>Địa chỉ:</strong> 114 Nguyễn Văn Cừ, Long Biên, Hà Nội 
-        <a href="https://maps.app.goo.gl/dTLAo1aHMvytByf99?g_st=icp" target="_blank">📍 Xem bản đồ</a>
-      </p>
-      <p><strong>Điện thoại/Zalo:</strong> 
-        <a href="tel:0857255868">0857 255 868</a> · 
-        <a href="https://zalo.me/0857255868" target="_blank">💬 Chat Zalo</a>
-      </p>
-      <p><strong>Email:</strong> 
-        <a href="mailto:motoopen12@gmail.com">motoopen12@gmail.com</a>
-      </p>
+    <div class="container" style="max-width:900px;margin:auto; padding-bottom: 40px;">
+        
+        <div class="contact-card">
+            <h1><i class="fa-solid fa-motorcycle"></i> Motoopen - Thuê Xe Máy Hà Nội</h1>
+            
+            <div class="contact-item">
+                <i class="fa-solid fa-globe"></i>
+                <a href="https://motoopen.github.io/chothuexemayhanoi/" target="_blank" rel="noopener">
+                    Trang chủ: https://motoopen.github.io/chothuexemayhanoi/
+                </a>
+            </div>
+            
+            <div class="contact-item">
+                <i class="fa-solid fa-location-dot"></i>
+                Địa chỉ: 114 Nguyễn Văn Cừ, Long Biên, Hà Nội 
+                <a href="https://www.google.com/maps/search/114+Nguyễn+Văn+Cừ,+Long+Biên,+Hà+Nội" target="_blank" rel="noopener" style="color: var(--text-light); font-size: 0.9em; font-weight: 400; margin-left: 8px;">
+                    (Xem bản đồ)
+                </a>
+            </div>
+            
+            <div class="contact-item">
+                <i class="fa-solid fa-phone"></i>
+                Điện thoại/Zalo: 
+                <a href="tel:0857255868">0857 255 868</a>
+            </div>
+            
+            <div class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                Email: 
+                <a href="mailto:motoopen12@gmail.com">motoopen12@gmail.com</a>
+            </div>
+        </div>
 
-      <h2 style="margin-top:30px;">🌐 Facebook chi nhánh</h2>
-      <div class="fanpage-grid">
-        <a href="https://m.facebook.com/chothuexemayphoco/" target="_blank"><i class="fa-brands fa-facebook"></i> Phố Cổ</a>
-        <a href="https://m.facebook.com/chothuexemay0857255868/" target="_blank"><i class="fa-brands fa-facebook-messenger"></i> Hotline 0857</a>
-        <a href="https://m.facebook.com/chothuexemaycongtan/" target="_blank"><i class="fa-solid fa-location-dot"></i> Cộng Tân</a>
-        <a href="https://m.facebook.com/chothuexemaythanhxuan/" target="_blank"><i class="fa-solid fa-location-dot"></i> Thanh Xuân</a>
-        <a href="https://m.facebook.com/chothuexemayquanhaibatrung/" target="_blank"><i class="fa-solid fa-location-dot"></i> Hai Bà Trưng</a>
-        <a href="https://m.facebook.com/chothuexemaycaugiay/" target="_blank"><i class="fa-solid fa-location-dot"></i> Cầu Giấy</a>
-        <a href="https://m.facebook.com/chothuexemayquanhoangmai/" target="_blank"><i class="fa-solid fa-location-dot"></i> Hoàng Mai</a>
-        <a href="https://m.facebook.com/chothuexemayhoankiem/" target="_blank"><i class="fa-solid fa-location-dot"></i> Hoàn Kiếm</a>
-        <a href="https://m.facebook.com/chothuexemaylongbien/" target="_blank"><i class="fa-solid fa-location-dot"></i> Long Biên</a>
-        <a href="https://m.facebook.com/chothuexemaytayho/" target="_blank"><i class="fa-solid fa-location-dot"></i> Tây Hồ</a>
-        <a href="https://m.facebook.com/chothuexemayohanoi1/" target="_blank"><i class="fa-solid fa-location-dot"></i> Ô Hà Nội 1</a>
-        <a href="https://m.facebook.com/chothuexeganmayhanoi/" target="_blank"><i class="fa-solid fa-motorcycle"></i> Xe Ga Hà Nội</a>
-        <a href="https://m.facebook.com/chothuexemaydongda/" target="_blank"><i class="fa-solid fa-location-dot"></i> Đống Đa</a>
-        <a href="https://m.facebook.com/chothuexemaygiareohanoi/" target="_blank"><i class="fa-solid fa-coins"></i> Giá Rẻ HN</a>
-        <a href="https://m.facebook.com/motoopenvn/" target="_blank"><i class="fa-brands fa-facebook"></i> Motoopen VN</a>
-        <a href="https://m.facebook.com/xemayhanoi/" target="_blank"><i class="fa-solid fa-motorcycle"></i> Xe Máy Hà Nội</a>
-      </div>
+        <div class="form-card">
+            <h2>✍️ Gửi yêu cầu/Đặt xe nhanh</h2>
+            <form action="mailto:motoopen12@gmail.com" method="post" enctype="text/plain">
+                <input type="text" name="Họ tên" placeholder="Họ và tên" required>
+                <input type="tel" name="Số điện thoại" placeholder="Số điện thoại" required>
+                <input type="email" name="Email" placeholder="Email (để nhận phản hồi)" required>
+                <textarea name="Nội dung" placeholder="Nội dung/Yêu cầu đặt xe (Loại xe, ngày thuê, ngày trả, địa điểm giao/nhận...)" rows="5" required></textarea>
+                <button type="submit">Gửi ngay</button>
+            </form>
+        </div>
+        
+        <div class="social-links-card">
+            <h2>🔗 Mạng xã hội & Backlink</h2>
+            <div class="social-links-grid">
+                <a href="https://m.facebook.com/chothuexemayphoco/" target="_blank" class="social-card facebook">
+                    <i class="fa-brands fa-facebook-f"></i> Phố Cổ
+                </a>
+                <a href="https://m.facebook.com/chothuexemay0857255868/" target="_blank" class="social-card facebook">
+                    <i class="fa-brands fa-facebook-f"></i> Hotline 0857
+                </a>
+                <a href="https://m.facebook.com/chothuexemaycongtan/" target="_blank" class="social-card facebook">
+                    <i class="fa-brands fa-facebook-f"></i> Cộng Tân
+                </a>
+                <a href="https://m.facebook.com/chothuexemaythanhxuan/" target="_blank" class="social-card facebook">
+                    <i class="fa-brands fa-facebook-f"></i> Thanh Xuân
+                </a>
+                <a href="https://m.facebook.com/chothuexemayquanhaibatrung/" target="_blank" class="social-card facebook">
+                    <i class="fa-brands fa-facebook-f"></i> Hai Bà Trưng
+                </a>
+                <a href="https://m.facebook.com/chothuexemaycaugiay/" target="_blank" class="social-card facebook">
+                    <i class="fa-brands fa-facebook-f"></i> Cầu Giấy
+                </a>
+                <a href="https://m.facebook.com/chothuexemayquanhoangmai/" target="_blank" class="social-card facebook">
+                    <i class="fa-brands fa-facebook-f"></i> Hoàng Mai
+                </a>
+                <a href="https://m.facebook.com/chothuexemayhoankiem/" target="_blank" class="social-card facebook">
+                    <i class="fa-brands fa-facebook-f"></i> Hoàn Kiếm
+                </a>
+                <a href="https://m.facebook.com/chothuexemaylongbien/" target="_blank" class="social-card facebook">
+                    <i class="fa-brands fa-facebook-f"></i> Long Biên
+                </a>
+                <a href="https://m.facebook.com/chothuexemaytayho/" target="_blank" class="social-card facebook">
+                    <i class="fa-brands fa-facebook-f"></i> Tây Hồ
+                </a>
+                <a href="https://m.facebook.com/chothuexemayohanoi1/" target="_blank" class="social-card facebook">
+                    <i class="fa-brands fa-facebook-f"></i> Ô Hà Nội
+                </a>
+                <a href="https://m.facebook.com/chothuexeganmayhanoi/" target="_blank" class="social-card facebook">
+                    <i class="fa-brands fa-facebook-f"></i> Xe gắn máy
+                </a>
+                <a href="https://m.facebook.com/chothuexemaydongda/" target="_blank" class="social-card facebook">
+                    <i class="fa-brands fa-facebook-f"></i> Đống Đa
+                </a>
+                <a href="https://m.facebook.com/chothuexemaygiareohanoi/" target="_blank" class="social-card facebook">
+                    <i class="fa-brands fa-facebook-f"></i> Giá rẻ
+                </a>
+                <a href="https://m.facebook.com/motoopenvn/" target="_blank" class="social-card facebook">
+                    <i class="fa-brands fa-facebook-f"></i> Motoopen VN
+                </a>
+                <a href="https://m.facebook.com/xemayhanoi/" target="_blank" class="social-card facebook">
+                    <i class="fa-brands fa-facebook-f"></i> Xe máy Hà Nội
+                </a>
+                
+                <a href="https://www.instagram.com/motoopen/" target="_blank" class="social-card instagram">
+                    <i class="fa-brands fa-instagram"></i> Instagram Motoopen
+                </a>
+                <a href="https://www.pinterest.com/motoopen12/" target="_blank" class="social-card pinterest">
+                    <i class="fa-brands fa-pinterest"></i> Pinterest Motoopen
+                </a>
+                <a href="https://www.tripadvisor.com.vn/Attraction_Review-g293924-d17515297-Reviews-Cho_Thue_Xe_May_Cong_Tan-Hanoi.html" target="_blank" class="social-card tripadvisor">
+                    <i class="fa-brands fa-tripadvisor"></i> TripAdvisor
+                </a>
+            </div>
+        </div>
 
-      <h2 style="margin-top:30px;">✍️ Gửi liên hệ nhanh</h2>
-      <form style="display:grid;gap:12px;max-width:600px;">
-        <input type="text" placeholder="Họ và tên" required>
-        <input type="tel" placeholder="Số điện thoại" required>
-        <input type="email" placeholder="Email" required>
-        <textarea placeholder="Nội dung" rows="4" required></textarea>
-        <button type="submit">Gửi ngay</button>
-      </form>
-
-      <h2 style="margin-top:30px;">📍 Bản đồ Google Maps</h2>
-      <div style="margin-top:10px;border-radius:12px;overflow:hidden;">
-        <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.581848191631!2d105.86701441540224!3d21.040927792735824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab8d21aaf18f%3A0x2a5b8d27b8d5f1a7!2zMTE0IE5ndXnhu4VuIFbEg24gQ-G7qywgTG9uZyBCacOqbiwgSMOgIE7hu5lp!5e0!3m2!1svi!2s!4v1678938487234!5m2!1svi!2s" 
-          width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
-        </iframe>
-      </div>
-    </section>
+        <h2 style="margin-top:40px; font-size: clamp(20px, 4vw, 28px); font-weight: 700;">📍 Bản đồ vị trí</h2>
+        <div class="map-card">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.846506307993!2d105.8753235759715!3d20.99849228945638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac57e8412033%3A0x6b490403328d844c!2zMTE0IE5ndXnhu4VuIFbEg24gQ+G7qywgTmfMfKAgQsawdSBNdSwgTG9uZyBCacOqbiwgSMOgIE7hu5lp!5e0!3m2!1svi!2sbd!4v1700000000000!5m2!1svi!2sbd" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Bản đồ địa chỉ 114 Nguyễn Văn Cừ, Long Biên, Hà Nội">
+            </iframe>
+        </div>
+        
+    </div>
     
   </main>
 
@@ -956,7 +1151,7 @@
     <div class="quick-sub">
       <a href="tel:0857255868" aria-label="Gọi ngay 0857 255 868" title="Gọi ngay: 0857 255 868"><i class="fa-solid fa-phone"></i></a>
       <a href="https://zalo.me/0857255868" target="_blank" aria-label="Chat Zalo 0857255868" title="Chat Zalo: 0857255868"><i class="fa-solid fa-comment-dots"></i></a>
-      <a href="https://maps.app.goo.gl/dTLAo1aHMvytByf99?g_st=ipc" target="_blank" aria-label="Bản đồ" title="Địa chỉ: 114 Nguyễn Văn Cừ"><i class="fa-solid fa-location-dot"></i></a>
+      <a href="https://www.google.com/maps/search/114+Nguyễn+Văn+Cừ,+Long+Biên,+Hà+Nội" target="_blank" aria-label="Bản đồ" title="Địa chỉ: 114 Nguyễn Văn Cừ"><i class="fa-solid fa-location-dot"></i></a>
     </div>
   </div>
 
