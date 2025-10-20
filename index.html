@@ -176,17 +176,10 @@
         background: rgba(255,255,255,0.2);
     }
     
-    /* Hiển thị nút Dark Mode DUY NHẤT ở mọi kích thước */
-    /* Trong nav-links (desktop/tablet), nó sẽ ở cuối */
-    .nav-links .toggle-dark {
-        display: inline-flex; /* Luôn hiển thị */
-    }
-    /* Ngoài nav-links (mobile), nó sẽ ở giữa brand và hamburger */
-    /* SỬA: Sử dụng selector cấu trúc thay vì ID */
-    .topbar > .toggle-dark { 
-        display: none; /* Mặc định ẩn, chỉ bật trong media query cho mobile */
-    }
-
+    /* CẬP NHẬT: CSS cho Dark Mode Toggle */
+    #toggle-dark-desktop { display:inline-flex; }
+    #toggle-dark-mobile { display:none; }
+    
     /* hamburger */
     .hamburger{display:none;background:none;border:0;cursor:pointer;padding:8px;border-radius:8px}
     .hamburger .bar{display:block;width:22px;height:2px;background:var(--text);margin:4px 0;border-radius:2px;transition:all .28s}
@@ -679,13 +672,16 @@
 
     /* responsive */
     @media (max-width:900px){
-      /* Bỏ nút Dark Mode ra khỏi nav-links để hiển thị cho mobile/tablet */
-      .nav-links .toggle-dark {
-          display: none; 
+      /* CẬP NHẬT: CSS CHO DARK MODE TOGGLE */
+      #toggle-dark-desktop { display:none; }
+      #toggle-dark-mobile { 
+        display:inline-flex;
+        order: 2; 
+        margin: 0 10px 0 auto;
       }
+
       .nav-links{display:none}
       .hamburger{display:block}
-      /* Đặt Dark Mode Toggle bên cạnh Hamburger */
       .topbar{
         left:0;
         transform:none;
@@ -697,30 +693,10 @@
       }
       .topbar .brand { order: 1; }
       .topbar .hamburger { order: 3; }
-      /* HIỂN THỊ NÚT DUY NHẤT Ở VỊ TRÍ NÀY CHO MOBILE/TABLET */
-      /* SỬA: Sử dụng selector cấu trúc thay vì ID */
-      .topbar > .toggle-dark { 
-          display: inline-flex; /* HIỂN THỊ CHO MỌI THIẾT BỊ < 900px */
-          order: 2; 
-          margin: 0 10px 0 auto; /* căn giữa 2 bên */
-      }
-
 
       .hero{margin-top:20px;padding:36px 16px}
       .reviews-section{padding:28px 12px}
       .price-table{min-width:600px}
-    }
-    @media (min-width: 901px) {
-        /* HIỂN THỊ NÚT DUY NHẤT Ở VỊ TRÍ NÀY CHO DESKTOP */
-        .nav-links .toggle-dark {
-            display: inline-flex; /* HIỂN THỊ CHO MỌI THIẾT BỊ > 900px */
-            order: initial;
-            margin-left: 8px;
-        }
-        /* SỬA: Ẩn nút mobile khi là desktop */
-        .topbar > .toggle-dark {
-            display: none !important; /* Đảm bảo ẩn nút mobile */
-        }
     }
     @media (max-width:520px){
       .price-table{min-width:480px}
@@ -938,16 +914,10 @@
       <a href="https://motoopen.github.io/chothuexemayhanoi/dieukhoansudung.html"><i class="fa-solid fa-file-contract"></i> Điều khoản</a>
       <a href="https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html"><i class="fa-solid fa-shield-halved"></i> Chính sách</a>
       
-      <button class="toggle-dark" id="main-toggle-dark" aria-label="Chuyển đổi chế độ tối">
-        <i class="fa-solid fa-sun" style="display: none;"></i>
-        <i class="fa-solid fa-moon"></i>
-      </button>
+      <button class="toggle-dark" id="toggle-dark-desktop" aria-label="Chuyển đổi chế độ tối"></button>
     </nav>
     
-    <button class="toggle-dark" id="main-toggle-dark" aria-label="Chuyển đổi chế độ tối">
-        <i class="fa-solid fa-sun" style="display: none;"></i>
-        <i class="fa-solid fa-moon"></i>
-    </button>
+    <button class="toggle-dark" id="toggle-dark-mobile" aria-label="Chuyển đổi chế độ tối"></button>
     <button class="hamburger" id="hamburger" aria-label="Mở menu" aria-expanded="false" aria-controls="drawer">
       <span class="bar"></span><span class="bar"></span><span class="bar"></span>
     </button>
@@ -1454,63 +1424,50 @@
       const drawer = document.getElementById('drawer');
       const overlay = document.getElementById('drawerOverlay');
       const reviewsBg = document.getElementById('reviewsBg');
-      const body = document.body;
-      // YÊU CẦU 4: CẬP NHẬT JAVASCRIPT
-      const allToggles = document.querySelectorAll('#main-toggle-dark');
       const backTop = document.querySelector('.back-top');
-
-      // === DARK MODE LOGIC ===
+      
+      // === CẬP NHẬT: DARK MODE LOGIC ===
+      const body = document.body;
       const DARK_MODE_KEY = 'darkModeEnabled';
+      const desktopToggle = document.getElementById('toggle-dark-desktop');
+      const mobileToggle = document.getElementById('toggle-dark-mobile');
 
-      function applyDarkMode(isEnabled) {
-        if (isEnabled) {
+      function applyDarkMode(enabled){
+        if(enabled){
           body.classList.add('dark');
-          localStorage.setItem(DARK_MODE_KEY, 'true');
+          localStorage.setItem(DARK_MODE_KEY,'true');
         } else {
           body.classList.remove('dark');
-          localStorage.setItem(DARK_MODE_KEY, 'false');
+          localStorage.setItem(DARK_MODE_KEY,'false');
         }
-        updateToggleIcon(isEnabled);
+        updateIcons(enabled);
       }
 
-      function updateToggleIcon(isEnabled) {
-        const iconSun = '<i class="fa-solid fa-sun"></i>';
-        const iconMoon = '<i class="fa-solid fa-moon"></i>';
-        const targetIcon = isEnabled ? iconSun : iconMoon;
-        
-        // YÊU CẦU 4: CẬP NHẬT JAVASCRIPT
-        document.querySelectorAll('#main-toggle-dark').forEach(toggle => {
-            if (toggle) {
-                // Đảm bảo cả hai nút (chỉ 1 nút hiển thị tại 1 thời điểm) đều được cập nhật
-                toggle.innerHTML = targetIcon;
-            }
-        });
+      function updateIcons(enabled){
+        const sun = '<i class="fa-solid fa-sun"></i>';
+        const moon = '<i class="fa-solid fa-moon"></i>';
+        const icon = enabled ? sun : moon;
+        if(desktopToggle) desktopToggle.innerHTML = icon;
+        if(mobileToggle) mobileToggle.innerHTML = icon;
       }
 
-      // Check for user preference on load (localStorage or system)
-      const isDarkModePreferred = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      let isDarkModeEnabled = localStorage.getItem(DARK_MODE_KEY) === 'true';
-
-      if (localStorage.getItem(DARK_MODE_KEY) === null) {
-          // No saved preference, use system preference
-          isDarkModeEnabled = isDarkModePreferred;
+      // Load preference
+      let darkEnabled = localStorage.getItem(DARK_MODE_KEY);
+      if(darkEnabled===null){
+        darkEnabled = window.matchMedia('(prefers-color-scheme:dark)').matches;
+      } else {
+        darkEnabled = darkEnabled === 'true';
       }
-      
-      applyDarkMode(isDarkModeEnabled);
+      applyDarkMode(darkEnabled);
 
-
-      // Toggle listener - Áp dụng cho cả hai ID (chỉ một ID có display:inline-flex tại một thời điểm)
-      // YÊU CẦU 4: CẬP NHẬT JAVASCRIPT
-      allToggles.forEach(toggle => {
-        if (toggle) {
-          toggle.addEventListener('click', () => {
-            const currentMode = body.classList.contains('dark');
-            applyDarkMode(!currentMode);
+      [desktopToggle, mobileToggle].forEach(btn=>{
+        if(btn){
+          btn.addEventListener('click',()=>{
+            applyDarkMode(!body.classList.contains('dark'));
           });
         }
       });
-
-      // === END DARK MODE LOGIC ===
+      // === KẾT THÚC CẬP NHẬT DARK MODE ===
 
 
       // 1) Prevent overlap: set body padding-top to nav height (calibrated)
