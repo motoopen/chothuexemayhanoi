@@ -4,30 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  
-  <title>Motoopen - Cho Thuê Xe Máy Hà Nội Giá Rẻ</title>
-  <meta name="description" content="Motoopen - dịch vụ cho thuê xe máy Hà Nội giá rẻ, nhanh chóng, uy tín. Gọi ngay +84 857 255 868 để đặt xe chỉ từ 150k/ngày hoặc gói thuê tháng.">
 
-  <!-- Canonical (đồng bộ có dấu / cuối) -->
+  <title>Motoopen - Cho Thuê Xe Máy Hà Nội Giá Rẻ</title>
+  <meta name="description" content="Motoopen - dịch vụ cho thuê xe máy Hà Nội giá rẻ, nhanh chóng, uy tín. Gọi ngay 0857 255 868 để đặt xe chỉ từ 150k/ngày hoặc gói thuê tháng.">
+
+  <!-- Canonical -->
   <link rel="canonical" href="https://motoopen.github.io/chothuexemayhanoi/">
   <meta name="robots" content="index, follow">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="Motoopen - Cho Thuê Xe Máy Hà Nội Giá Rẻ">
-  <meta property="og:description" content="Dịch vụ cho thuê xe máy tại Hà Nội giá rẻ, chỉ từ 150k/ngày. Liên hệ ngay +84 857 255 868">
+  <meta property="og:description" content="Dịch vụ cho thuê xe máy tại Hà Nội giá rẻ, chỉ từ 150k/ngày. Liên hệ ngay 0857 255 868">
   <meta property="og:url" content="https://motoopen.github.io/chothuexemayhanoi/">
   <meta property="og:site_name" content="Motoopen">
-  <meta property="og:image" content="https://i.postimg.cc/xyz.jpg">
+  <meta property="og:image" content="https://i.postimg.cc/your-logo.png">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Motoopen - Cho Thuê Xe Máy Hà Nội Giá Rẻ">
   <meta name="twitter:description" content="Dịch vụ cho thuê xe máy tại Hà Nội giá rẻ, chỉ từ 150k/ngày.">
-  <meta name="twitter:image" content="https://i.postimg.cc/xyz.jpg">
+  <meta name="twitter:image" content="https://i.postimg.cc/your-logo.png">
 
-  <!-- Favicon -->
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <!-- Favicon & Apple -->
+  <link rel="icon" href="https://i.postimg.cc/your-logo.png" type="image/png">
+  <link rel="apple-touch-icon" href="https://i.postimg.cc/your-logo.png">
 
   <!-- Google Fonts preload -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,13 +48,14 @@
       margin: 0;
       padding: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background-color: var(--light);
+      background: var(--light);
       color: var(--secondary);
       line-height: 1.6;
+      transition: background 0.3s, color 0.3s;
     }
 
     [data-theme="dark"] {
-      background-color: #121212;
+      background: #121212;
       color: #e5e5e5;
     }
 
@@ -76,10 +78,8 @@
       padding: 0.8rem 1.5rem;
     }
 
-    .logo {
-      font-weight: 700;
-      font-size: 1.2rem;
-      color: var(--primary);
+    .logo img {
+      height: 40px;
     }
 
     .nav-links {
@@ -97,15 +97,56 @@
       padding: 0.5rem 1rem;
       border-radius: 6px;
       transition: 0.3s;
+      display: inline-block;
     }
 
     .btn-primary:hover {
       opacity: 0.9;
     }
 
+    /* Hero */
+    .hero {
+      background: linear-gradient(135deg, #ff5c00, #ff9a3d);
+      color: white;
+      text-align: center;
+      padding: 3rem 1.5rem;
+    }
+    .hero h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    /* Section */
+    section {
+      padding: 2rem 1.5rem;
+    }
+
+    /* Glass Footer */
+    footer {
+      padding: 2rem;
+      text-align: center;
+      background: rgba(255,255,255,0.6);
+      backdrop-filter: blur(10px);
+      border-top: 1px solid #eee;
+    }
+
     /* Mobile menu */
     .drawer {
       display: none;
+      font-size: 1.5rem;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+
+    #mobileDrawer {
+      display: none;
+      background: white;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      padding: 1rem;
+      border: 1px solid #ddd;
     }
 
     @media (max-width: 768px) {
@@ -119,39 +160,43 @@
     <!-- Header -->
   <header>
     <nav>
-      <div class="logo">Motoopen</div>
+      <div class="logo">
+        <a href="/">
+          <img src="https://i.postimg.cc/your-logo.png" alt="Motoopen Logo">
+        </a>
+      </div>
       <div class="nav-links">
         <a href="#pricing">Bảng giá</a>
         <a href="#quiz">Chọn xe</a>
         <a href="#reviews">Đánh giá</a>
         <a href="#faq">FAQ</a>
-        <a href="tel:+84857255868" class="btn-primary">Gọi ngay</a>
+        <a href="tel:0857255868" class="btn-primary">Gọi ngay</a>
       </div>
       <button id="menuToggle" class="drawer" aria-label="Mở menu">&#9776;</button>
     </nav>
   </header>
 
   <!-- Drawer Menu -->
-  <div id="mobileDrawer" hidden>
+  <div id="mobileDrawer">
     <nav>
       <a href="#pricing">Bảng giá</a>
       <a href="#quiz">Chọn xe</a>
       <a href="#reviews">Đánh giá</a>
       <a href="#faq">FAQ</a>
-      <a href="tel:+84857255868" class="btn-primary">Gọi ngay</a>
+      <a href="tel:0857255868" class="btn-primary">Gọi ngay</a>
       <button id="darkModeToggleMobile" aria-label="Chế độ tối">🌙</button>
     </nav>
   </div>
 
   <!-- Hero -->
-  <section class="hero" style="text-align:center; padding: 2rem 1rem;">
+  <section class="hero">
     <h1>Cho Thuê Xe Máy Hà Nội Giá Rẻ</h1>
     <p>Giá chỉ từ <strong>150.000đ/ngày</strong> - Thuê tháng chỉ từ <strong>1-2 triệu</strong>.</p>
-    <a href="tel:+84857255868" class="btn-primary">📞 Gọi ngay +84 857 255 868</a>
+    <a href="tel:0857255868" class="btn-primary">📞 Gọi ngay 0857 255 868</a>
   </section>
 
   <!-- Pricing -->
-  <section id="pricing" style="padding:2rem; background:#f8f8f8;">
+  <section id="pricing" style="background:#f8f8f8;">
     <h2>Bảng giá thuê xe</h2>
     <ul>
       <li>Xe số: 150.000đ/ngày</li>
@@ -161,14 +206,14 @@
   </section>
 
   <!-- Mini Game Slot -->
-  <section id="slot" style="padding:2rem; text-align:center;">
+  <section id="slot" style="text-align:center;">
     <h2>Mini Game: Quay Ngay Nhận Ưu Đãi</h2>
     <button id="slotButton" aria-label="Quay thưởng" class="btn-primary">🎰 Quay thưởng</button>
     <p id="slotResult" aria-live="polite"></p>
   </section>
 
   <!-- Quiz -->
-  <section id="quiz" style="padding:2rem;">
+  <section id="quiz">
     <h2>Quiz: Chọn Xe Phù Hợp</h2>
     <p>Bạn thích xe số hay tay ga?</p>
     <button class="btn-primary" aria-label="Tôi chọn xe số">Xe số</button>
@@ -176,30 +221,30 @@
   </section>
 
   <!-- Reviews -->
-  <section id="reviews" style="padding:2rem; background:#f8f8f8;">
+  <section id="reviews" style="background:#f8f8f8;">
     <h2>Khách hàng nói gì?</h2>
     <blockquote>"Xe mới, chạy êm, thủ tục nhanh gọn." – Huy</blockquote>
     <blockquote>"Dịch vụ rất uy tín, giá hợp lý." – Trang</blockquote>
   </section>
 
   <!-- FAQ -->
-  <section id="faq" style="padding:2rem;">
+  <section id="faq">
     <h2>Câu hỏi thường gặp</h2>
     <details>
-      <summary aria-expanded="false">Có cần đặt cọc không?</summary>
+      <summary>Có cần đặt cọc không?</summary>
       <p>Có, đặt cọc từ 500k tùy loại xe.</p>
     </details>
     <details>
-      <summary aria-expanded="false">Có giao xe tận nơi không?</summary>
+      <summary>Có giao xe tận nơi không?</summary>
       <p>Có, hỗ trợ giao xe nội thành Hà Nội.</p>
     </details>
   </section>
 
   <!-- Footer -->
-  <footer style="padding:2rem; text-align:center; background:rgba(255,255,255,0.6); backdrop-filter:blur(10px);">
+  <footer>
     <p>&copy; 2025 Motoopen. Địa chỉ: 114 Nguyễn Văn Cừ, Long Biên, Hà Nội</p>
     <p>📧 Email: <a href="mailto:motoopen12@gmail.com">motoopen12@gmail.com</a></p>
-    <p>📞 Hotline/Zalo: <a href="tel:+84857255868">+84 857 255 868</a></p>
+    <p>📞 Hotline/Zalo: <a href="tel:0857255868">0857 255 868</a></p>
     <button id="darkModeToggle" aria-label="Chuyển chế độ tối">🌙</button>
   </footer>
 
@@ -212,15 +257,10 @@
     const menuToggle = document.getElementById('menuToggle');
     const mobileDrawer = document.getElementById('mobileDrawer');
     menuToggle.addEventListener('click', () => {
-      const isOpen = !mobileDrawer.hasAttribute('hidden');
-      if (isOpen) {
-        mobileDrawer.setAttribute('hidden', '');
-      } else {
-        mobileDrawer.removeAttribute('hidden');
-      }
+      mobileDrawer.style.display = mobileDrawer.style.display === 'block' ? 'none' : 'block';
     });
 
-    // Dark mode (desktop & mobile)
+    // Dark mode
     function toggleDarkMode() {
       document.body.dataset.theme =
         document.body.dataset.theme === 'dark' ? 'light' : 'dark';
