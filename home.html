@@ -9,8 +9,6 @@
 
   <meta name="description" content="Thuê xe máy Hà Nội giá rẻ tại Motoopen. Xe số, xe ga, xe điện, giao tận nơi, cọc nhẹ, bảo dưỡng định kỳ. Giá thuê từ 150k/ngày, phù hợp khách du lịch và dài hạn." />
 
-  <meta name="keywords" content="thuê xe máy Hà Nội, cho thuê xe máy, thuê xe ga, thuê xe số, giao xe tận nơi, Motoopen, giá thuê xe máy Hà Nội, dịch vụ thuê xe máy" />
-
   <link rel="canonical" href="https://motoopen.github.io/chothuexemayhanoi/">
 
   <link rel="icon" href="https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg" />
@@ -35,7 +33,7 @@
   
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  
+
   <style>
     :root{
       /* LIGHT MODE */
@@ -746,157 +744,73 @@
         padding-left: 10px;
       }
     }
-    
-    
-    //*** CSS FOOTER LUXURY MỚI ĐƯỢC THÊM VÀO ĐÂY ***/
-    
-    footer.premium.luxury {
-      background: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(240,248,255,0.85));
-      backdrop-filter: blur(18px) saturate(180%);
-      border-top: 1px solid var(--glass-border);
-      padding: 50px 20px 70px; /* Thêm padding-bottom để tagline không đè */
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px,1fr));
-      gap: 28px;
-      font-family: Inter, sans-serif;
-      color: var(--text);
-      border-radius: 28px 28px 0 0;
-      position: relative;
-      overflow: hidden;
-      box-shadow: 0 -12px 40px rgba(0,0,0,0.12);
-      margin-top: 20px; /* Thêm margin-top để tách khỏi FAQ */
-      text-align: left; /* Đảm bảo text căn trái mặc định */
+
+    /* CSS FIX LỖI CHO SLOT GAME (ĐÃ DI CHUYỂN VÀO HEAD) */
+    #slot-section {
+      font-family:sans-serif;
+      padding:20px;
+      background:var(--bg);
+      color:var(--text);
+      text-align:center;
+      border-radius:15px;
+      max-width:500px;
+      margin:20px auto;
+      position:relative;
+      overflow:hidden;
+      transition: background 0.3s, color 0.3s;
     }
-    body.dark footer.premium.luxury {
-      background: linear-gradient(135deg, rgba(28,28,30,0.95), rgba(44,44,46,0.92));
-      box-shadow: 0 -12px 50px rgba(0,0,0,0.6);
+    #slot-section h2 { color: var(--accent); margin-bottom:10px; font-weight:600; }
+    #slot-section h3 { font-size:1rem; margin-bottom:20px; color:var(--muted); }
+    #slot-section .reel {
+      width:80px; height:80px; margin:5px; border-radius:15px;
+      background: linear-gradient(45deg,#E3E3E3,#BDBDBD);
+      display:flex; align-items:center; justify-content:center;
+      font-size:2rem; color:#000; box-shadow:0 0 15px rgba(0,0,0,0.2);
     }
-    
-    footer.premium.luxury h4 {
-      margin-bottom: 14px;
-      font-weight: 700;
-      font-size: 1.1rem;
-      text-transform: uppercase;
-      color: var(--accent);
-      letter-spacing: 1px;
-    }
-    
-    footer.premium.luxury a {
-      display: block;
-      margin: 8px 0;
-      color: var(--text);
-      text-decoration: none;
-      font-weight: 500;
-      transition: all 0.3s ease;
-      text-align: left; /* Đảm bảo link căn trái */
-      display: inline-flex; /* Để icon và text thẳng hàng */
-      align-items: center;
-      gap: 8px; /* Khoảng cách giữa icon và text */
-    }
-    footer.premium.luxury a:hover {
-      color: var(--accent);
-      text-shadow: 0 0 6px rgba(0,122,255,0.5);
-      transform: translateX(4px);
-    }
-    
-    /* Ghi đè icon style cũ (nếu có) */
-    footer.premium.luxury a i {
-      margin-right: 0; /* Xóa margin cũ */
-      width: 18px;
-      text-align: center;
-    }
-    
-    .footer-social {
-        display: flex;
-        gap: 12px;
-        margin-top: 10px;
-    }
-    .footer-social a {
-      display: inline-flex;
-      width: 40px;
-      height: 40px;
-      background: linear-gradient(135deg, var(--accent), var(--quick-main-end));
+    /* Thêm CSS cho dark mode của reel */
+    body.dark #slot-section .reel {
+      background: linear-gradient(45deg, #444, #111);
       color: #fff;
-      border-radius: 50%;
-      justify-content: center;
-      align-items: center;
-      font-size: 1rem;
-      transition: all 0.3s ease;
-      box-shadow: 0 0 15px rgba(0,122,255,0.3);
-      margin: 0; /* Reset margin */
-      transform: none; /* Reset transform */
     }
-    .footer-social a:hover {
-      transform: scale(1.2) rotate(-8deg);
-      background: linear-gradient(135deg, var(--quick-main-end), var(--accent));
-      box-shadow: 0 0 25px rgba(0,212,255,0.6);
-      text-shadow: none; /* Xóa text-shadow từ rule a:hover chung */
+
+    #slot { display:flex; justify-content:center; gap:10px; margin-bottom:20px; }
+    #spinBtn {
+      padding:10px 20px; font-size:1.1rem; cursor:pointer;
+      background: var(--accent); border:none; border-radius:10px;
+      color:#fff; font-weight:bold;
     }
+    #result { margin-top:20px; font-size:1.2rem; font-weight:bold; }
+    #reward { margin-top:10px; font-size:1rem; font-weight:bold; display:none; }
     
-    .footer-bottom {
-      grid-column: 1 / -1;
-      text-align: center;
-      margin-top: 20px;
-      padding-bottom: 40px; /* Thêm padding-bottom để tagline không đè */
+    /* CSS gốc của slot game (đã bị xóa khỏi inline) */
+    /* Điều chỉnh lại cho phù hợp với var() */
+    body.dark #slot-section h2 {
+      color: var(--text); /* highlight */
     }
-    .footer-bottom .author {
-      font-size: 0.95rem;
-      color: var(--muted);
-      font-weight: 600;
-      justify-content: center; /* Căn giữa */
+    body.dark #slot-section h3 {
+      color: var(--text);
     }
-    .footer-bottom .author strong {
-      color: var(--accent);
+    body.dark #slot-section .reel {
+      color: var(--text); /* highlight */
     }
-    
-    .footer-tagline {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 40px; /* Tăng chiều cao */
-      display: flex;
-      align-items: center;
-      font-weight: 700;
-      font-size: 1rem;
-      color: var(--accent);
-      background: var(--footer-bg); /* Sử dụng biến cho dark/light mode */
-      border-top: 1px solid var(--glass-border);
-      overflow: hidden;
-      padding: 0; /* Reset padding */
+    #spinBtn {
+      background: var(--accent); /* highlight */
+      color: #fff; /* bg */
     }
-    .footer-tagline .inner {
-      display: inline-flex;
-      align-items: center;
-      gap: 12px;
-      animation: marquee 16s linear infinite;
-      padding-right: 50px; /* Đảm bảo có khoảng cách khi lặp */
-      text-shadow: 0 0 5px #00d4ff, 0 0 12px #00d4ff;
+    body.dark #spinBtn {
+      background: var(--accent); /* highlight */
+      color: var(--bg);
     }
-    .footer-tagline img {
-      width: 30px; /* Tăng kích thước ảnh */
-      height: 30px;
-      border-radius: 6px;
+    #result {
+      color: var(--text); /* highlight */
     }
-    .footer-tagline:hover .inner { animation-play-state: paused; }
-    
-    @keyframes marquee {
-      0% { transform: translateX(100%); }
-      100% { transform: translateX(-100%); }
+    #reward {
+      color: var(--text); /* highlight */
     }
-    
-    @media (max-width:520px) {
-      footer.premium.luxury {
-        grid-template-columns: 1fr;
-        text-align: center;
-      }
-      /* === SỬA ĐỔI THEO YÊU CẦU === */
-      /* Hiển thị link dạng block (flex), căn giữa (icon+text) cho mobile */
-      footer.premium.luxury a {
-        display: flex; /* Ghi đè 'inline-flex' để thành 'block-level flex' (tự xuống dòng) */
-        justify-content: center; /* Căn giữa nội dung (icon+text) */
-      }
-      .footer-social { justify-content: center; }
+    @media(max-width:600px){
+      #slot-section {padding:15px;}
+      .reel {width:70px;height:70px;font-size:1.8rem;}
+      #slot {gap:5px;}
     }
 
   </style>
@@ -1076,6 +990,10 @@
     <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/dieukhoansudung.html" role="menuitem"><i class="fa-solid fa-file-contract"></i> Điều khoản</a>
     <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html" role="menuitem"><i class="fa-solid fa-shield-halved"></i> Chính sách</a>
     
+    <a class="icon" href="https://m.facebook.com/motoopenvn/" target="_blank" rel="noopener" role="menuitem" style="margin-top: 15px; border-top: 1px solid var(--glass-border); padding-top: 12px;"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+    <a class="icon" href="https://www.instagram.com/motoopen/" target="_blank" rel="noopener" role="menuitem"><i class="fa-brands fa-instagram"></i> Instagram</a>
+    <a class="icon" href="https://www.pinterest.com/motoopen12/" target="_blank" rel="noopener" role="menuitem"><i class="fa-brands fa-pinterest"></i> Pinterest</a>
+  
     <script>
       (function() {
         // Đặt script bên trong <aside> để đảm bảo nó được chèn cùng
@@ -1171,204 +1089,117 @@
       <p style="color:var(--muted);margin-top:12px" class="fade-up">Giá có thể biến động theo thời điểm. Liên hệ <a href="tel:0857255868">0857 255 868</a> (Zalo: 0857255868) để nhận báo giá chính xác và giao tận nơi tại Long Biên, Ba Đình, Hoàn Kiếm, Tây Hồ, Gia Lâm.</p>
     </section>
 
-    <section id="slot-section" style="font-family:sans-serif; padding:20px; background:var(--bg); color:var(--text); text-align:center; border-radius:15px; max-width:500px; margin:20px auto; position:relative; overflow:hidden; transition: background 0.3s, color 0.3s;">
-  <style>
-    :root {
-      --bg: #f5f5f7;
-      --text: #111;
-      --gold: linear-gradient(45deg, #E3E3E3, #BDBDBD);
-      --highlight: #000;
-    }
-    [data-theme="dark"] {
-      --bg: #000;
-      --text: #fff;
-      --gold: linear-gradient(45deg, #444, #111);
-      --highlight: #fff;
-    }
-    #slot-section h2 {
-      color: var(--highlight);
-      text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
-      margin-bottom: 10px;
-      font-weight: 600;
-    }
-    #slot-section h3 {
-      font-size: 1rem;
-      margin-bottom: 20px;
-      color: var(--text);
-    }
-    .reel {
-      width: 80px;
-      height: 80px;
-      margin: 5px;
-      border-radius: 15px;
-      background: var(--gold);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 2rem;
-      color: var(--highlight);
-      text-shadow: 0 0 5px rgba(0,0,0,0.2);
-      box-shadow: 0 0 15px rgba(0,0,0,0.2);
-      position: relative;
-      overflow: hidden;
-      transition: transform 0.3s;
-    }
-    #slot {
-      display: flex;
-      justify-content: center;
-      flex-wrap: nowrap;
-      margin-bottom: 20px;
-      gap: 10px;
-    }
-    #spinBtn {
-      padding: 10px 20px;
-      font-size: 1.1rem;
-      cursor: pointer;
-      background: var(--highlight);
-      border: none;
-      border-radius: 10px;
-      color: var(--bg);
-      font-weight: bold;
-      margin-bottom: 10px;
-      transition: transform 0.2s, background 0.3s;
-    }
-    #spinBtn:hover {
-      transform: scale(1.05);
-    }
-    #result {
-      margin-top: 20px;
-      font-size: 1.2rem;
-      font-weight: bold;
-      color: var(--highlight);
-      text-shadow: 0 0 5px rgba(0,0,0,0.2);
-      transition: all 0.3s;
-    }
-    #reward {
-      margin-top: 10px;
-      font-size: 1rem;
-      font-weight: bold;
-      color: var(--highlight);
-      display: none;
-      transform: scale(0);
-      transition: transform 0.5s;
-    }
-    @media(max-width:600px){
-      #slot-section {padding:15px;}
-      .reel {width:70px;height:70px;font-size:1.8rem;}
-      #slot {gap:5px;}
-    }
-  </style>
+    <section id="slot-section">
+      <h2>🎰 Quay để nhận giảm giá thuê xe máy Hà Nội</h2>
+      <h3>Chơi ngay để nhận ưu đãi 25%! Quay là trúng nhưng phần thưởng không cộng dồn – chụp màn hình để giảm giá khi kí hợp đồng thuê xe máy của chúng tôi!</h3>
 
-  <h2>🎰 Quay để nhận giảm giá thuê xe máy Hà Nội</h2>
-  <h3>Chơi ngay để nhận ưu đãi 25%! Quay là trúng nhưng phần thưởng không cộng dồn – chụp màn hình để giảm giá khi kí hợp đồng thuê xe máy của chúng tôi!</h3>
+      <div id="slot">
+        <div class="reel" id="reel1"><span>🏍️</span></div>
+        <div class="reel" id="reel2"><span>🛞</span></div>
+        <div class="reel" id="reel3"><span>🛢️</span></div>
+      </div>
 
-  <div id="slot">
-    <div class="reel" id="reel1"><span>🏍️</span></div>
-    <div class="reel" id="reel2"><span>🛞</span></div>
-    <div class="reel" id="reel3"><span>🛢️</span></div>
-  </div>
+      <button id="spinBtn">🎯 Quay Slot</button>
 
-  <button id="spinBtn">🎯 Quay Slot</button>
+      <div id="result"></div>
+      <div id="reward">🎁 Giảm ngay 5% khi thuê xe tháng!</div>
 
-  <div id="result"></div>
-  <div id="reward">🎁 Giảm ngay 5% khi thuê xe tháng!</div>
+      <canvas id="confetti-canvas" style="position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;"></canvas>
 
-  <canvas id="confetti-canvas" style="position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;"></canvas>
+      <script>
+      const spinBtn = document.getElementById('spinBtn');
+      const reels = [document.getElementById('reel1'), document.getElementById('reel2'), document.getElementById('reel3')];
+      const resultDiv = document.getElementById('result');
+      const rewardDiv = document.getElementById('reward');
+      const canvas = document.getElementById('confetti-canvas');
+      const ctx = canvas.getContext('2d');
+      canvas.width = canvas.offsetWidth;
+      canvas.height = canvas.offsetHeight;
 
-  <script>
-  const spinBtn = document.getElementById('spinBtn');
-  const reels = [document.getElementById('reel1'), document.getElementById('reel2'), document.getElementById('reel3')];
-  const resultDiv = document.getElementById('result');
-  const rewardDiv = document.getElementById('reward');
-  const canvas = document.getElementById('confetti-canvas');
-  const ctx = canvas.getContext('2d');
-  canvas.width = canvas.offsetWidth;
-  canvas.height = canvas.offsetHeight;
+      const symbols = ["🏍️","🛞","🛢️"];
+      let confettiParticles = [];
 
-  const symbols = ["🏍️","🛞","🛢️"];
-  let confettiParticles = [];
+      const spinSound = new Audio("https://raw.githubusercontent.com/motorbikenguyenha/chothuexemay50cc/refs/heads/main/asian-gong-music.mp3");
+      const winSound = new Audio("https://raw.githubusercontent.com/motorbikenguyenha/chothuexemay50cc/refs/heads/main/notification_o14egLP.mp3");
 
-  const spinSound = new Audio("https://raw.githubusercontent.com/motorbikenguyenha/chothuexemay50cc/refs/heads/main/asian-gong-music.mp3");
-  const winSound = new Audio("https://raw.githubusercontent.com/motorbikenguyenha/chothuexemay50cc/refs/heads/main/notification_o14egLP.mp3");
+      function spinReel(reel, duration){
+        return new Promise(resolve=>{
+          const span = reel.querySelector('span');
+          const start = performance.now();
+          spinSound.play();
+          function animate(now){
+            const elapsed = now - start;
+            if(elapsed < duration){
+              const index = Math.floor(Math.random() * symbols.length);
+              span.textContent = symbols[index];
+              reel.style.transform = `rotate(${Math.random()*20-10}deg)`; 
+              requestAnimationFrame(animate);
+            } else {
+              const finalIndex = Math.floor(Math.random() * symbols.length);
+              span.textContent = symbols[finalIndex];
+              reel.style.transform = `rotate(0deg)`; 
+              resolve(finalIndex);
+            }
+          }
+          animate(performance.now());
+        });
+      }
 
-  function spinReel(reel, duration){
-    return new Promise(resolve=>{
-      const span = reel.querySelector('span');
-      const start = performance.now();
-      spinSound.play();
-      function animate(now){
-        const elapsed = now - start;
-        if(elapsed < duration){
-          const index = Math.floor(Math.random() * symbols.length);
-          span.textContent = symbols[index];
-          reel.style.transform = `rotate(${Math.random()*20-10}deg)`; 
-          requestAnimationFrame(animate);
-        } else {
-          const finalIndex = Math.floor(Math.random() * symbols.length);
-          span.textContent = symbols[finalIndex];
-          reel.style.transform = `rotate(0deg)`; 
-          resolve(finalIndex);
+      function createConfetti(){
+        confettiParticles = [];
+        for(let i=0;i<100;i++){
+          confettiParticles.push({
+            x: Math.random()*canvas.width,
+            y: Math.random()*canvas.height - canvas.height,
+            r: Math.random()*6+2,
+            d: Math.random()*10+5,
+            color: `hsl(${Math.random()*360}, 10%, 20%)`, // đen bóng nhẹ
+            tilt: Math.random()*10-10,
+            tiltAngleIncrement: Math.random()*0.07+0.05,
+            tiltAngle: 0
+          });
         }
       }
-      animate(performance.now());
-    });
-  }
 
-  function createConfetti(){
-    confettiParticles = [];
-    for(let i=0;i<100;i++){
-      confettiParticles.push({
-        x: Math.random()*canvas.width,
-        y: Math.random()*canvas.height - canvas.height,
-        r: Math.random()*6+2,
-        d: Math.random()*10+5,
-        color: `hsl(${Math.random()*360}, 10%, 20%)`, // đen bóng nhẹ
-        tilt: Math.random()*10-10,
-        tiltAngleIncrement: Math.random()*0.07+0.05,
-        tiltAngle: 0
+      function drawConfetti(){
+        ctx.clearRect(0,0,canvas.width,canvas.height);
+        confettiParticles.forEach((p)=>{
+          ctx.beginPath();
+          ctx.lineWidth = p.r;
+          ctx.strokeStyle = p.color;
+          ctx.moveTo(p.x + p.tilt + p.r/2, p.y);
+          ctx.lineTo(p.x + p.tilt, p.y + p.tilt + p.r/2);
+          ctx.stroke();
+          p.tiltAngle += p.tiltAngleIncrement;
+          p.x += Math.sin(p.tiltAngle) * 2;
+          p.y += Math.cos(p.tiltAngle + p.d) + 1;
+          if(p.y > canvas.height){ p.y = -10; p.x = Math.random()*canvas.width; }
+        });
+        requestAnimationFrame(drawConfetti);
+      }
+
+      spinBtn.addEventListener('click', async ()=>{
+        spinBtn.disabled = true;
+        resultDiv.textContent = "";
+        rewardDiv.style.display = "none";
+        rewardDiv.style.transform = "scale(0)";
+        
+        const results = await Promise.all(reels.map((r,i)=>spinReel(r,4000 + i*1000)));
+        const win = results.every(s => s === results[0]);
+
+        if(win){
+          winSound.play();
+          rewardDiv.style.display = "block";
+          setTimeout(()=>{ rewardDiv.style.transform = "scale(1.2)"; setTimeout(()=>rewardDiv.style.transform="scale(1)",200); },50);
+          createConfetti();
+          drawConfetti();
+        }
+
+        resultDiv.textContent = win ? `🎉 Chúc mừng! Bạn trúng ${results[0]}!` : `😅 Thua rồi, thử lại nhé!`;
+        spinBtn.disabled = false;
       });
-    }
-  }
-
-  function drawConfetti(){
-    ctx.clearRect(0,0,canvas.width,canvas.height);
-    confettiParticles.forEach((p)=>{
-      ctx.beginPath();
-      ctx.lineWidth = p.r;
-      ctx.strokeStyle = p.color;
-      ctx.moveTo(p.x + p.tilt + p.r/2, p.y);
-      ctx.lineTo(p.x + p.tilt, p.y + p.tilt + p.r/2);
-      ctx.stroke();
-      p.tiltAngle += p.tiltAngleIncrement;
-      p.x += Math.sin(p.tiltAngle) * 2;
-      p.y += Math.cos(p.tiltAngle + p.d) + 1;
-      if(p.y > canvas.height){ p.y = -10; p.x = Math.random()*canvas.width; }
-    });
-    requestAnimationFrame(drawConfetti);
-  }
-
-  spinBtn.addEventListener('click', async ()=>{
-    spinBtn.disabled = true;
-    resultDiv.textContent = "";
-    rewardDiv.style.display = "none";
-    rewardDiv.style.transform = "scale(0)";
-    
-    const results = await Promise.all(reels.map((r,i)=>spinReel(r,4000 + i*1000)));
-    const win = results.every(s => s === results[0]);
-
-    if(win){
-      winSound.play();
-      rewardDiv.style.display = "block";
-      setTimeout(()=>{ rewardDiv.style.transform = "scale(1.2)"; setTimeout(()=>rewardDiv.style.transform="scale(1)",200); },50);
-      createConfetti();
-      drawConfetti();
-    }
-
-    resultDiv.textContent = win ? `🎉 Chúc mừng! Bạn trúng ${results[0]}!` : `😅 Thua rồi, thử lại nhé!`;
-    spinBtn.disabled = false;
-  });
-  </script>
-</section>
+      </script>
+    </section>
 
 <section id="quiz-wrapper-new" style="padding:60px 20px;max-width:600px;margin:auto;text-align:center;font-family:'Inter',sans-serif;transition:background 0.6s,color 0.6s;">
   <h2 style="font-size:1.8rem;font-weight:600;margin-bottom:25px;animation:fadeIn 0.9s ease;">🧭 Trắc nghiệm chọn xe phù hợp</h2>
@@ -1431,18 +1262,16 @@
     }
 
     /* Dark mode */
-    @media (prefers-color-scheme: dark) {
-      #quiz-wrapper-new { background:#000; color:#fff; }
-      #quiz-wrapper-new button.answer-new,
-      #quiz-wrapper-new a {
-        background:#4285F4;
+    body.dark #quiz-wrapper-new { background:var(--bg); color:var(--text); }
+    body.dark #quiz-wrapper-new button.answer-new,
+    body.dark #quiz-wrapper-new a {
+        background:var(--accent);
         color:#fff;
-        box-shadow:0 2px 6px rgba(66, 133, 244, 0.5);
-      }
-      #quiz-wrapper-new button.answer-new:hover,
-      #quiz-wrapper-new a:hover {
-        box-shadow:0 0 15px rgba(66, 133, 244, 0.8);
-      }
+        box-shadow:0 2px 6px rgba(10, 132, 255, 0.5);
+    }
+    body.dark #quiz-wrapper-new button.answer-new:hover,
+    body.dark #quiz-wrapper-new a:hover {
+        box-shadow:0 0 15px rgba(10, 132, 255, 0.8);
     }
 
     /* Mobile tối ưu */
@@ -1571,59 +1400,58 @@
     
   </main>
 
-  <footer class="premium luxury">
-    <div>
-      <h4>Trang</h4>
-      <a href="https://motoopen.github.io/chothuexemayhanoi/"><i class="fa-solid fa-house"></i> Trang chủ</a>
-      <a href="https://motoopen.github.io/chothuexemayhanoi/banggia.html"><i class="fa-solid fa-tags"></i> Bảng giá</a>
-      <a href="https://motoopen.github.io/chothuexemayhanoi/dichvu.html"><i class="fa-solid fa-handshake"></i> Dịch vụ</a>
-      <a href="https://motoopen.github.io/chothuexemayhanoi/faq.html"><i class="fa-solid fa-circle-question"></i> FAQ</a>
-    </div>
+  <footer class="premium">
+  <div>
+    <h4>Trang</h4>
+    <a href="https://motoopen.github.io/chothuexemayhanoi/"><i class="fa-solid fa-house"></i> Trang chủ</a>
+    <a href="https://motoopen.github.io/chothuexemayhanoi/gioithieu.html"><i class="fa-solid fa-circle-info"></i> Giới thiệu</a>
+    <a href="https://motoopen.github.io/chothuexemayhanoi/banggia.html"><i class="fa-solid fa-tags"></i> Bảng giá</a>
+    <a href="https://motoopen.github.io/chothuexemayhanoi/dichvu.html"><i class="fa-solid fa-briefcase"></i> Dịch vụ</a>
+    <a href="https://motoopen.github.io/chothuexemayhanoi/faq.html"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+  </div>
+
+  <div>
+    <h4>Dịch vụ</h4>
+    <a href="https://motoopen.github.io/chothuexemayhanoi/thutuc.html"><i class="fa-solid fa-file-signature"></i> Thủ tục</a>
+    <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html"><i class="fa-solid fa-motorcycle"></i> Loại xe</a>
+    <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html/huongdan.html"><i class="fa-solid fa-book"></i> Hướng dẫn</a>
+    <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html/kinhnghiem.html"><i class="fa-solid fa-lightbulb"></i> Kinh nghiệm</a>
+  </div>
   
-    <div>
-      <h4>Dịch vụ</h4>
-      <a href="https://motoopen.github.io/chothuexemayhanoi/thutuc.html"><i class="fa-solid fa-file-signature"></i> Thủ tục</a>
-      <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html"><i class="fa-solid fa-motorcycle"></i> Loại xe</a>
-      <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html/huongdan.html"><i class="fa-solid fa-book"></i> Hướng dẫn</a>
-      <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html/kinhnghiem.html"><i class="fa-solid fa-lightbulb"></i> Kinh nghiệm</a>
+  <div>
+    <h4>Liên hệ</h4>
+    <a href="tel:0857255868"><i class="fa-solid fa-phone"></i> Gọi 0857 255 868</a>
+    <a href="https://zalo.me/0857255868" target="_blank"><i class="fa-solid fa-comment-dots"></i> Chat Zalo</a>
+    <a href="mailto:motoopen12@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+    <a href="https://motoopen.github.io/chothuexemayhanoi/lienhe.html"><i class="fa-solid fa-address-book"></i> Liên hệ</a>
+  </div>
+
+  <div>
+    <h4>Thông tin</h4>
+    <a href="https://motoopen.github.io/chothuexemayhanoi/dieukhoansudung.html"><i class="fa-solid fa-file-contract"></i> Điều khoản</a>
+    <a href="https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html"><i class="fa-solid fa-shield-halved"></i> Chính sách bảo mật</a>
+  </div>
+
+  <div>
+    <h4>Kết nối</h4>
+    <div class="footer-social">
+      <a href="https://m.facebook.com/motoopenvn/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/motoopen/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.pinterest.com/motoopen12/" target="_blank" title="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
     </div>
     
-    <div>
-      <h4>Liên hệ</h4>
-      <a href="tel:0857255868"><i class="fa-solid fa-phone"></i> Gọi 0857 255 868</a>
-      <a href="https://zalo.me/0857255868" target="_blank"><i class="fa-solid fa-comment-dots"></i> Chat Zalo</a>
-      <a href="mailto:motoopen12@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
-      <a href="https://motoopen.github.io/chothuexemayhanoi/lienhe.html"><i class="fa-solid fa-address-book"></i> Liên hệ</a>
+    <p class="author" style="margin-top: 6px;">
+      <i class="fa-solid fa-copyright"></i> 2025 Motoopen – Cho thuê xe máy Hà Nội. All Rights Reserved.
+    </p>
+  </div>
+
+  <div class="footer-tagline">
+    <div class="inner">
+      <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen xe">
+      Thuê xe máy Hà Nội - Motoopen - giao tận nơi - cọc nhẹ ✨
     </div>
-  
-    <div>
-      <h4>Thông tin</h4>
-      <a href="https://motoopen.github.io/chothuexemayhanoi/dieukhoansudung.html"><i class="fa-solid fa-file-contract"></i> Điều khoản</a>
-      <a href="https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html"><i class="fa-solid fa-shield-halved"></i> Chính sách bảo mật</a>
-    </div>
-  
-    <div>
-      <h4>Kết nối</h4>
-      <div class="footer-social">
-        <a href="https://m.facebook.com/motoopenvn/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com/motoopen/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.pinterest.com/motoopen12/" target="_blank" title="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
-      </div>
-    </div>
-  
-    <div class="footer-bottom">
-      <p class="author">
-        <i class="fa-solid fa-copyright"></i> 2025 <strong>Motoopen – Cho thuê xe máy Hà Nội</strong>. All Rights Reserved.
-      </p>
-    </div>
-  
-    <div class="footer-tagline">
-      <div class="inner">
-        <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen xe">
-        ✨ Thuê xe máy Hà Nội - Motoopen - Xe đời mới, giao tận nơi, cọc nhẹ ✨
-      </div>
-    </div>
-  </footer>
+  </div>
+</footer>
   <div class="quick-call-game">
     <button class="quick-main" aria-label="Mở menu gọi nhanh" title="Menu gọi nhanh">
       <i class="fa-solid fa-phone"></i>
