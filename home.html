@@ -976,28 +976,24 @@
     <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/dieukhoansudung.html" role="menuitem"><i class="fa-solid fa-file-contract"></i> Điều khoản</a>
     <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html" role="menuitem"><i class="fa-solid fa-shield-halved"></i> Chính sách</a>
     
-      (function() {
-        // Đặt script bên trong <aside> để đảm bảo nó được chèn cùng
-        // và tìm đúng phần tử ngay cả khi DOM chưa load hết
-        // (mặc dù nên đặt ở cuối <body>, nhưng làm vầy cho nó "self-contained")
-        
-        // Tìm button và submenu trong phạm vi của drawer này
-        const drawer = document.getElementById('drawer');
-        if (drawer) {
-          const toggleBtn = drawer.querySelector('#drawer-service-toggle');
-          const submenu = drawer.querySelector('#drawer-submenu');
+<script>
+(function() {
+  const drawer = document.getElementById('drawer');
+  if (!drawer) return;
 
-          if (toggleBtn && submenu) {
-            toggleBtn.addEventListener('click', function() {
-              const isOpen = submenu.classList.toggle('open');
-              toggleBtn.classList.toggle('open', isOpen);
-              toggleBtn.setAttribute('aria-expanded', String(isOpen));
-            });
-          }
-        }
-      })();
-    </script>
-  </aside>
+  const toggleBtn = drawer.querySelector('#drawer-service-toggle');
+  const submenu = drawer.querySelector('#drawer-submenu');
+
+  if (toggleBtn && submenu) {
+    toggleBtn.addEventListener('click', function() {
+      const isOpen = submenu.classList.toggle('open');
+      toggleBtn.classList.toggle('open', isOpen);
+      toggleBtn.setAttribute('aria-expanded', String(isOpen));
+    });
+  }
+})();
+</script>
+</aside>
   <main id="main" class="container" role="main">
     <section class="hero" id="gioithieu" aria-labelledby="hero-title">
       <div class="grad-layer" aria-hidden="true"></div>
