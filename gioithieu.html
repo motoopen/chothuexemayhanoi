@@ -542,6 +542,8 @@
       grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
       gap: 12px;
     }
+    
+    /* === SỬA LỖI STYLE CTA CLUSTER THEO YÊU CẦU === */
     .cta-grid a {
       display: flex;
       align-items: center;
@@ -550,33 +552,33 @@
       padding: 12px 18px;
       border-radius: 12px;
       text-decoration: none;
-      font-weight: 600;
-      color: var(--text);
-      background: var(--bg);
-      border: 1px solid var(--glass-border);
-      box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+      font-weight: 700; /* Bolder */
+      color: #ffffff; /* Chữ trắng */
+      background: linear-gradient(135deg, var(--accent), var(--quick-main-end)); /* Gradient */
+      border: none; /* Bỏ border */
+      box-shadow: 0 6px 18px rgba(0,122,255,0.2); /* Shadow đẹp hơn */
       transition: all 0.25s cubic-bezier(.2,.9,.2,1);
     }
-    body.dark .cta-grid a {
-      background: var(--surface);
-      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-    }
+    /* Dark mode ko cần override vì đã dùng --accent */
     .cta-grid a:hover {
-      background: var(--surface);
-      color: var(--accent);
+      background: linear-gradient(135deg, var(--accent), var(--quick-main-end)); /* Giữ nguyên gradient */
+      color: #ffffff; /* Giữ chữ trắng */
       transform: translateY(-3px) scale(1.02);
-      box-shadow: 0 8px 20px rgba(0,122,255,0.1);
+      box-shadow: 0 8px 25px rgba(0,122,255,0.3); /* Shadow sáng hơn */
+      filter: brightness(1.15); /* Sáng hơn */
     }
     .cta-grid a i {
       transition: transform 0.4s;
-      color: var(--muted);
+      color: #ffffff; /* Icon trắng */
       width: 18px;
       text-align: center;
     }
     .cta-grid a:hover i {
-      transform: rotate(3deg);
-      color: var(--accent);
+      transform: rotate(10deg); /* Xoay nhẹ */
+      color: #ffffff; /* Giữ icon trắng */
     }
+    /* === KẾT THÚC SỬA LỖI STYLE === */
+    
     /* --- END CTA Cluster --- */
 
     /* Responsive */
@@ -1079,11 +1081,11 @@
         <div class="kicker">VỀ CHÚNG TÔI</div>
         <h1 id="hero-title">Giới thiệu Motoopen — Dịch vụ Thuê Xe Máy Hà Nội Uy Tín</h1>
 
-        <p class="lead" style="text-align:center;">Motoopen tự hào là đơn vị cung cấp dịch vụ cho <strong>thuê xe máy</strong> chất lượng cao và uy tín hàng đầu tại Hà Nội. Với phương châm **"Xe chất lượng, dịch vụ tận tâm"**, chúng tôi cam kết mang đến trải nghiệm di chuyển an toàn, tiện lợi và tiết kiệm nhất cho mọi du khách và người dân.</p>
+        <p class="lead" style="text-align:center;">Motoopen tự hào là đơn vị cung cấp dịch vụ cho <strong>thuê xe máy</strong> chất lượng cao và uy tín hàng đầu tại Hà Nội. Với phương châm "Xe chất lượng, dịch vụ tận tâm", chúng tôi cam kết mang đến trải nghiệm di chuyển an toàn, tiện lợi và tiết kiệm nhất cho mọi du khách và người dân.</p>
 
         <p>Thành lập với mục tiêu trở thành người bạn đồng hành tin cậy trên mọi nẻo đường Hà Nội, Motoopen không ngừng nâng cấp đội xe và cải thiện quy trình dịch vụ. Chúng tôi cung cấp đa dạng các dòng xe ga (Vision, Air Blade), xe số (Wave, Sirius) và cả xe điện/xe 50cc, tất cả đều được bảo dưỡng định kỳ, đảm bảo trạng thái hoạt động tốt nhất.</p>
         
-        <p>Thủ tục thuê xe tại Motoopen vô cùng đơn giản, cọc nhẹ (tùy loại xe), và chúng tôi có dịch vụ <strong>Giao xe tận nơi</strong> tại các khu vực nội thành như Phố Cổ, Hoàn Kiếm, Long Biên, Tây Hồ, Cầu Giấy... giúp bạn tiết kiệm thời gian tối đa.</p>
+        <p>Thủ tục thuê xe tại Motoopen vô cùng đơn giản, cọc nhẹ (tùy loại xe), và chúng tôi có dịch vụ <strong>giao xe tận nơi</strong> tại các khu vực nội thành như Phố Cổ, Hoàn Kiếm, Long Biên, Tây Hồ, Cầu Giấy... giúp bạn tiết kiệm thời gian tối đa.</p>
 
         <h2 style="font-size:1.5rem;font-weight:700;margin-top:20px;text-align:center;">Lý do chọn Motoopen:</h2>
         <ul>
@@ -1114,20 +1116,14 @@
         <h2 id="cta-cluster-title" class="slide-left">TÌM HIỂU THÊM VỀ DỊCH VỤ CỦA CHÚNG TÔI</h2>
         <div class="cta-grid">
             <a href="https://motoopen.github.io/chothuexemayhanoi/" class="fade-up" style="animation-delay: 0.1s;"><i class="fa-solid fa-house"></i> Trang Chủ</a>
-            <a href="https://motoopen.github.io/chothuexemayhanoi/gioithieu.html" class="fade-up" style="animation-delay: 0.2s; color:var(--accent);"><i class="fa-solid fa-circle-info"></i> Giới thiệu</a>
-            <a href="https://motoopen.github.io/chothuexemayhanoi/lienhe.html" class="fade-up" style="animation-delay: 0.3s;"><i class="fa-solid fa-phone"></i> Liên hệ</a>
+            <a href="https://motoopen.github.io/chothuexemayhanoi/gioithieu.html" class="fade-up" style="animation-delay: 0.2s; filter: brightness(1.1); box-shadow: 0 8px 25px rgba(0,122,255,0.3);"><i class="fa-solid fa-circle-info"></i> Giới thiệu</a>
+            <a href="https://motoopen.github.io/chothuexemayhanoi/dichvu.html" class="fade-up" style="animation-delay: 0.3s;"><i class="fa-solid fa-handshake"></i> Dịch vụ</a>
+            <a href="https://motoopen.github.io/chothuexemayhanoi/faq.html" class="fade-up" style="animation-delay: 0.4s;"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+            <a href="https://motoopen.github.io/chothuexemayhanoi/lienhe.html" class="fade-up" style="animation-delay: 0.5s;"><i class="fa-solid fa-phone"></i> Liên hệ</a>
+            <a href="https://motoopen.github.io/chothuexemayhanoi/dieukhoansudung.html" class="fade-up" style="animation-delay: 0.6s;"><i class="fa-solid fa-file-contract"></i> Điều khoản</a>
+            <a href="https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html" class="fade-up" style="animation-delay: 0.7s;"><i class="fa-solid fa-shield-halved"></i> Chính sách</a>
             
-            <a href="https://motoopen.github.io/chothuexemayhanoi/dichvu.html" class="fade-up" style="animation-delay: 0.4s;"><i class="fa-solid fa-handshake"></i> Dịch vụ</a>
-            <a href="https://motoopen.github.io/chothuexemayhanoi/banggia.html" class="fade-up" style="animation-delay: 0.5s;"><i class="fa-solid fa-tags"></i> Bảng giá</a>
-            <a href="https://motoopen.github.io/chothuexemayhanoi/thutuc.html" class="fade-up" style="animation-delay: 0.6s;"><i class="fa-solid fa-file-signature"></i> Thủ tục</a>
-            <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html" class="fade-up" style="animation-delay: 0.7s;"><i class="fa-solid fa-motorcycle"></i> Loại xe</a>
-            <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html/huongdan.html" class="fade-up" style="animation-delay: 0.8s;"><i class="fa-solid fa-book"></i> Hướng dẫn</a>
-            <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html/kinhnghiem.html" class="fade-up" style="animation-delay: 0.9s;"><i class="fa-solid fa-lightbulb"></i> Kinh nghiệm</a>
-            
-            <a href="https://motoopen.github.io/chothuexemayhanoi/faq.html" class="fade-up" style="animation-delay: 1.0s;"><i class="fa-solid fa-circle-question"></i> FAQ</a>
-            <a href="https://motoopen.github.io/chothuexemayhanoi/dieukhoansudung.html" class="fade-up" style="animation-delay: 1.1s;"><i class="fa-solid fa-file-contract"></i> Điều khoản</a>
-            <a href="https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html" class="fade-up" style="animation-delay: 1.2s;"><i class="fa-solid fa-shield-halved"></i> Chính sách</a>
-        </div>
+            </div>
     </section>
     </main>
 
