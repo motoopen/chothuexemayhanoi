@@ -746,6 +746,157 @@
         padding-left: 10px;
       }
     }
+    
+    
+    //*** CSS FOOTER LUXURY MỚI ĐƯỢC THÊM VÀO ĐÂY ***/
+    
+    footer.premium.luxury {
+      background: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(240,248,255,0.85));
+      backdrop-filter: blur(18px) saturate(180%);
+      border-top: 1px solid var(--glass-border);
+      padding: 50px 20px 70px; /* Thêm padding-bottom để tagline không đè */
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px,1fr));
+      gap: 28px;
+      font-family: Inter, sans-serif;
+      color: var(--text);
+      border-radius: 28px 28px 0 0;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 -12px 40px rgba(0,0,0,0.12);
+      margin-top: 20px; /* Thêm margin-top để tách khỏi FAQ */
+      text-align: left; /* Đảm bảo text căn trái mặc định */
+    }
+    body.dark footer.premium.luxury {
+      background: linear-gradient(135deg, rgba(28,28,30,0.95), rgba(44,44,46,0.92));
+      box-shadow: 0 -12px 50px rgba(0,0,0,0.6);
+    }
+    
+    footer.premium.luxury h4 {
+      margin-bottom: 14px;
+      font-weight: 700;
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      color: var(--accent);
+      letter-spacing: 1px;
+    }
+    
+    footer.premium.luxury a {
+      display: block;
+      margin: 8px 0;
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 500;
+      transition: all 0.3s ease;
+      text-align: left; /* Đảm bảo link căn trái */
+      display: inline-flex; /* Để icon và text thẳng hàng */
+      align-items: center;
+      gap: 8px; /* Khoảng cách giữa icon và text */
+    }
+    footer.premium.luxury a:hover {
+      color: var(--accent);
+      text-shadow: 0 0 6px rgba(0,122,255,0.5);
+      transform: translateX(4px);
+    }
+    
+    /* Ghi đè icon style cũ (nếu có) */
+    footer.premium.luxury a i {
+      margin-right: 0; /* Xóa margin cũ */
+      width: 18px;
+      text-align: center;
+    }
+    
+    .footer-social {
+        display: flex;
+        gap: 12px;
+        margin-top: 10px;
+    }
+    .footer-social a {
+      display: inline-flex;
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, var(--accent), var(--quick-main-end));
+      color: #fff;
+      border-radius: 50%;
+      justify-content: center;
+      align-items: center;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 15px rgba(0,122,255,0.3);
+      margin: 0; /* Reset margin */
+      transform: none; /* Reset transform */
+    }
+    .footer-social a:hover {
+      transform: scale(1.2) rotate(-8deg);
+      background: linear-gradient(135deg, var(--quick-main-end), var(--accent));
+      box-shadow: 0 0 25px rgba(0,212,255,0.6);
+      text-shadow: none; /* Xóa text-shadow từ rule a:hover chung */
+    }
+    
+    .footer-bottom {
+      grid-column: 1 / -1;
+      text-align: center;
+      margin-top: 20px;
+      padding-bottom: 40px; /* Thêm padding-bottom để tagline không đè */
+    }
+    .footer-bottom .author {
+      font-size: 0.95rem;
+      color: var(--muted);
+      font-weight: 600;
+      justify-content: center; /* Căn giữa */
+    }
+    .footer-bottom .author strong {
+      color: var(--accent);
+    }
+    
+    .footer-tagline {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 40px; /* Tăng chiều cao */
+      display: flex;
+      align-items: center;
+      font-weight: 700;
+      font-size: 1rem;
+      color: var(--accent);
+      background: var(--footer-bg); /* Sử dụng biến cho dark/light mode */
+      border-top: 1px solid var(--glass-border);
+      overflow: hidden;
+      padding: 0; /* Reset padding */
+    }
+    .footer-tagline .inner {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      animation: marquee 16s linear infinite;
+      padding-right: 50px; /* Đảm bảo có khoảng cách khi lặp */
+      text-shadow: 0 0 5px #00d4ff, 0 0 12px #00d4ff;
+    }
+    .footer-tagline img {
+      width: 30px; /* Tăng kích thước ảnh */
+      height: 30px;
+      border-radius: 6px;
+    }
+    .footer-tagline:hover .inner { animation-play-state: paused; }
+    
+    @keyframes marquee {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+    
+    @media (max-width:520px) {
+      footer.premium.luxury {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+      /* Căn giữa link và icon cho mobile */
+      footer.premium.luxury a {
+        justify-content: center;
+      }
+      .footer-social { justify-content: center; }
+    }
+
   </style>
 </head>
 <body>
@@ -1422,58 +1573,59 @@
     
   </main>
 
-  <footer class="premium">
-  <div>
-    <h4>Trang</h4>
-    <a href="https://motoopen.github.io/chothuexemayhanoi/"><i class="fa-solid fa-house"></i> Trang chủ</a>
-    <a href="https://motoopen.github.io/chothuexemayhanoi/gioithieu.html"><i class="fa-solid fa-circle-info"></i> Giới thiệu</a>
-    <a href="https://motoopen.github.io/chothuexemayhanoi/banggia.html"><i class="fa-solid fa-tags"></i> Bảng giá</a>
-    <a href="https://motoopen.github.io/chothuexemayhanoi/dichvu.html"><i class="fa-solid fa-briefcase"></i> Dịch vụ</a>
-    <a href="https://motoopen.github.io/chothuexemayhanoi/faq.html"><i class="fa-solid fa-circle-question"></i> FAQ</a>
-  </div>
-
-  <div>
-    <h4>Dịch vụ</h4>
-    <a href="https://motoopen.github.io/chothuexemayhanoi/thutuc.html"><i class="fa-solid fa-file-signature"></i> Thủ tục</a>
-    <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html"><i class="fa-solid fa-motorcycle"></i> Loại xe</a>
-    <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html/huongdan.html"><i class="fa-solid fa-book"></i> Hướng dẫn</a>
-    <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html/kinhnghiem.html"><i class="fa-solid fa-lightbulb"></i> Kinh nghiệm</a>
-  </div>
+  <footer class="premium luxury">
+    <div>
+      <h4>Trang</h4>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/"><i class="fa-solid fa-house"></i> Trang chủ</a>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/banggia.html"><i class="fa-solid fa-tags"></i> Bảng giá</a>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/dichvu.html"><i class="fa-solid fa-handshake"></i> Dịch vụ</a>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/faq.html"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+    </div>
   
-  <div>
-    <h4>Liên hệ</h4>
-    <a href="tel:0857255868"><i class="fa-solid fa-phone"></i> Gọi 0857 255 868</a>
-    <a href="https://zalo.me/0857255868" target="_blank"><i class="fa-solid fa-comment-dots"></i> Chat Zalo</a>
-    <a href="mailto:motoopen12@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
-    <a href="https://motoopen.github.io/chothuexemayhanoi/lienhe.html"><i class="fa-solid fa-address-book"></i> Liên hệ</a>
-  </div>
-
-  <div>
-    <h4>Thông tin</h4>
-    <a href="https://motoopen.github.io/chothuexemayhanoi/dieukhoansudung.html"><i class="fa-solid fa-file-contract"></i> Điều khoản</a>
-    <a href="https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html"><i class="fa-solid fa-shield-halved"></i> Chính sách bảo mật</a>
-  </div>
-
-  <div>
-    <h4>Kết nối</h4>
-    <div class="footer-social">
-      <a href="https://m.facebook.com/motoopenvn/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-      <a href="https://www.instagram.com/motoopen/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
-      <a href="https://www.pinterest.com/motoopen12/" target="_blank" title="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
+    <div>
+      <h4>Dịch vụ</h4>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/thutuc.html"><i class="fa-solid fa-file-signature"></i> Thủ tục</a>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html"><i class="fa-solid fa-motorcycle"></i> Loại xe</a>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html/huongdan.html"><i class="fa-solid fa-book"></i> Hướng dẫn</a>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html/kinhnghiem.html"><i class="fa-solid fa-lightbulb"></i> Kinh nghiệm</a>
     </div>
     
-    <p class="author" style="margin-top: 6px;">
-      <i class="fa-solid fa-copyright"></i> 2025 Motoopen – Cho thuê xe máy Hà Nội. All Rights Reserved.
-    </p>
-  </div>
-
-  <div class="footer-tagline">
-    <div class="inner">
-      <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen xe">
-      Thuê xe máy Hà Nội - Motoopen - giao tận nơi - cọc nhẹ ✨
+    <div>
+      <h4>Liên hệ</h4>
+      <a href="tel:0857255868"><i class="fa-solid fa-phone"></i> Gọi 0857 255 868</a>
+      <a href="https://zalo.me/0857255868" target="_blank"><i class="fa-solid fa-comment-dots"></i> Chat Zalo</a>
+      <a href="mailto:motoopen12@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/lienhe.html"><i class="fa-solid fa-address-book"></i> Liên hệ</a>
     </div>
-  </div>
-</footer>
+  
+    <div>
+      <h4>Thông tin</h4>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/dieukhoansudung.html"><i class="fa-solid fa-file-contract"></i> Điều khoản</a>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html"><i class="fa-solid fa-shield-halved"></i> Chính sách bảo mật</a>
+    </div>
+  
+    <div>
+      <h4>Kết nối</h4>
+      <div class="footer-social">
+        <a href="https://m.facebook.com/motoopenvn/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/motoopen/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.pinterest.com/motoopen12/" target="_blank" title="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p class="author">
+        <i class="fa-solid fa-copyright"></i> 2025 <strong>Motoopen – Cho thuê xe máy Hà Nội</strong>. All Rights Reserved.
+      </p>
+    </div>
+  
+    <div class="footer-tagline">
+      <div class="inner">
+        <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen xe">
+        ✨ Thuê xe máy Hà Nội - Motoopen - Xe đời mới, giao tận nơi, cọc nhẹ ✨
+      </div>
+    </div>
+  </footer>
   <div class="quick-call-game">
     <button class="quick-main" aria-label="Mở menu gọi nhanh" title="Menu gọi nhanh">
       <i class="fa-solid fa-phone"></i>
