@@ -974,16 +974,119 @@
   <div class="drawer-overlay" id="drawerOverlay" aria-hidden="true"></div>
   
   <aside class="drawer" id="drawer" role="menu" aria-hidden="true">
+    <style>
+      /* Nút accordion (giả lập style của .drawer a và .drawer a.icon) */
+      .drawer .drawer-accordion-toggle {
+        /* Reset button styles */
+        background: none;
+        border: none;
+        text-align: left;
+        cursor: pointer;
+        
+        /* .drawer a styles */
+        display: block;
+        padding: 12px 6px;
+        color: var(--text);
+        text-decoration: none;
+        font-weight: 700;
+        border-radius: 8px;
+        
+        /* .drawer a.icon styles */
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        
+        /* Thêm style flex cho toggle */
+        justify-content: space-between;
+        width: 100%;
+        font-family: inherit; /* Đảm bảo font giống */
+        font-size: 1rem; /* Đảm bảo font-size giống */
+        line-height: 1.5; /* Đảm bảo line-height giống */
+      }
+      .drawer .drawer-accordion-toggle:hover {
+         background: rgba(0,0,0,0.04); /* Thêm hover giống link */
+      }
+      body.dark .drawer .drawer-accordion-toggle:hover {
+         background: rgba(255,255,255,0.08);
+      }
+      
+      /* Icon caret */
+      .drawer .drawer-accordion-toggle .caret-icon {
+        transition: transform 0.3s cubic-bezier(.2,.9,.2,1);
+        font-size: 0.9rem;
+        color: var(--muted);
+        padding: 0 8px; /* Thêm vùng đệm để dễ bấm */
+      }
+      
+      /* Khi mở accordion */
+      .drawer .drawer-accordion-toggle.open .caret-icon {
+        transform: rotate(180deg);
+        color: var(--accent);
+      }
+      .drawer .drawer-accordion-toggle.open {
+        color: var(--accent);
+        background: rgba(0,122,255,0.05);
+      }
+      body.dark .drawer .drawer-accordion-toggle.open {
+        background: rgba(10,132,255,0.1);
+      }
+      
+      /* Container cho submenu */
+      .drawer .drawer-submenu {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease-out;
+        
+        /* Thụt lề và border */
+        margin-left: 20px; /* Thụt vào so với icon DỊCH VỤ */
+        padding-left: 14px; /* Padding bên trong border */
+        border-left: 2px solid var(--glass-border);
+        margin-top: -5px; /* Giảm khoảng cách */
+        margin-bottom: 5px;
+      }
+      
+      /* Khi submenu mở */
+      .drawer .drawer-submenu.open {
+        max-height: 400px; /* Đủ lớn để chứa 5 items */
+        border-left: 2px solid var(--accent);
+      }
+      
+      /* Style cho các link submenu */
+      .drawer .drawer-submenu a.icon {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 0; /* Đã có padding ở container */
+        font-size: 0.95rem;
+        font-weight: 600;
+        color: var(--muted);
+      }
+      .drawer .drawer-submenu a.icon:hover {
+        color: var(--text);
+        background: none;
+      }
+      .drawer .drawer-submenu a.icon i {
+        width: 22px; /* Đảm bảo icon thẳng hàng */
+        text-align: center;
+      }
+    </style>
+  
     <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/" role="menuitem"><i class="fa-solid fa-house"></i> Trang chủ</a>
     <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/gioithieu.html" role="menuitem"><i class="fa-solid fa-circle-info"></i> Giới thiệu</a>
     
-    <a class="icon" href="javascript:void(0);" style="font-weight: 800; color: var(--accent); cursor: default; background: rgba(0,122,255,0.05); margin-top: 8px; margin-bottom: 0; padding-bottom: 8px;" role="menuitem"><i class="fa-solid fa-motorcycle"></i> DỊCH VỤ</a>
-    <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/banggia.html" role="menuitem" style="padding-left: 44px;"><i class="fa-solid fa-tags"></i> Bảng giá</a>
-    <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/thutuc.html" role="menuitem" style="padding-left: 44px;"><i class="fa-solid fa-file-signature"></i> Thủ tục thuê xe</a>
-    <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html" role="menuitem" style="padding-left: 44px;"><i class="fa-solid fa-motorcycle"></i> Loại xe</a>
-    <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html/huongdan.html" role="menuitem" style="padding-left: 44px;"><i class="fa-solid fa-book"></i> Hướng dẫn thuê xe</a>
-    <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html/kinhnghiem.html" role="menuitem" style="padding-left: 44px; padding-bottom: 12px;"><i class="fa-solid fa-lightbulb"></i> Kinh nghiệm thuê xe</a>
+    <button type="button" class="icon drawer-accordion-toggle" id="drawer-service-toggle" aria-expanded="false" aria-controls="drawer-submenu">
+      <span style="display: flex; align-items: center; gap: 12px;">
+        <i class="fa-solid fa-motorcycle" style="width: 18px; text-align: center;"></i> DỊCH VỤ
+      </span>
+      <i class="fa-solid fa-chevron-down caret-icon"></i>
+    </button>
     
+    <div class="drawer-submenu" id="drawer-submenu" role="region" aria-labelledby="drawer-service-toggle">
+      <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/banggia.html" role="menuitem"><i class="fa-solid fa-tags"></i> Bảng giá</a>
+      <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/thutuc.html" role="menuitem"><i class="fa-solid fa-file-signature"></i> Thủ tục thuê xe</a>
+      <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html" role="menuitem"><i class="fa-solid fa-motorcycle"></i> Loại xe</a>
+      <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html/huongdan.html" role="menuitem"><i class="fa-solid fa-book"></i> Hướng dẫn thuê xe</a>
+      <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html/kinhnghiem.html" role="menuitem"><i class="fa-solid fa-lightbulb"></i> Kinh nghiệm thuê xe</a>
+    </div>
     <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/faq.html" role="menuitem" style="margin-top: 8px; border-top: 1px solid var(--glass-border); padding-top: 12px;"><i class="fa-solid fa-circle-question"></i> FAQ</a>
     <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/lienhe.html" role="menuitem"><i class="fa-solid fa-phone"></i> Liên hệ</a>
     <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/dieukhoansudung.html" role="menuitem"><i class="fa-solid fa-file-contract"></i> Điều khoản</a>
@@ -992,6 +1095,29 @@
     <a class="icon" href="https://m.facebook.com/motoopenvn/" target="_blank" rel="noopener" role="menuitem" style="margin-top: 15px; border-top: 1px solid var(--glass-border); padding-top: 12px;"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
     <a class="icon" href="https://www.instagram.com/motoopen/" target="_blank" rel="noopener" role="menuitem"><i class="fa-brands fa-instagram"></i> Instagram</a>
     <a class="icon" href="https://www.pinterest.com/motoopen12/" target="_blank" rel="noopener" role="menuitem"><i class="fa-brands fa-pinterest"></i> Pinterest</a>
+  
+    <script>
+      (function() {
+        // Đặt script bên trong <aside> để đảm bảo nó được chèn cùng
+        // và tìm đúng phần tử ngay cả khi DOM chưa load hết
+        // (mặc dù nên đặt ở cuối <body>, nhưng làm vầy cho nó "self-contained")
+        
+        // Tìm button và submenu trong phạm vi của drawer này
+        const drawer = document.getElementById('drawer');
+        if (drawer) {
+          const toggleBtn = drawer.querySelector('#drawer-service-toggle');
+          const submenu = drawer.querySelector('#drawer-submenu');
+
+          if (toggleBtn && submenu) {
+            toggleBtn.addEventListener('click', function() {
+              const isOpen = submenu.classList.toggle('open');
+              toggleBtn.classList.toggle('open', isOpen);
+              toggleBtn.setAttribute('aria-expanded', String(isOpen));
+            });
+          }
+        }
+      })();
+    </script>
   </aside>
   <main id="main" class="container" role="main">
     <section class="hero" id="gioithieu" aria-labelledby="hero-title">
@@ -1624,8 +1750,13 @@
       }
       hamburger.addEventListener('click', ()=> openDrawer(!drawer.classList.contains('open')));
       overlay.addEventListener('click', ()=> openDrawer(false));
-      // close drawer when clicking a link inside
-      drawer.querySelectorAll('a').forEach(a => a.addEventListener('click', ()=> openDrawer(false)));
+      
+      // close drawer when clicking a link inside (NGOẠI TRỪ NÚT ACCORDION)
+      drawer.querySelectorAll('a').forEach(a => {
+        a.addEventListener('click', ()=> openDrawer(false));
+      });
+      // Logic cho nút accordion đã được thêm riêng trong <aside>
+      // nên không cần thêm vào đây
 
       // 3) Scroll effects: nav style and parallax background
       let lastY = window.scrollY || 0;
