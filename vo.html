@@ -640,7 +640,7 @@
     }
     .back-top:hover { transform: scale(1.1); }
 
-    /* Tagline xe máy loop 2 chiều */
+    /* Tagline xe máy loop 2 chiều (ĐOẠN NÀY SẼ BỊ THAY THẾ) */
   .footer-tagline {
   position: relative;   /* 👈 thay absolute bằng relative */
   bottom: auto;         /* reset lại */
@@ -673,7 +673,7 @@
     }
     .footer-tagline:hover .inner { animation-play-state: paused; }
 
-    /* Đổi animation để vòng lặp 2 chiều, mượt hơn */
+    /* Đổi animation để vòng lặp 2 chiều, mượt hơn (ĐOẠN NÀY SẼ BỊ THAY THẾ) */
     @keyframes marquee {
       0% { transform: translateX(100%); }
       100% { transform: translateX(-100%); }
@@ -833,61 +833,71 @@
       box-shadow: 0 0 25px rgba(0,212,255,0.6);
       text-shadow: none; /* Xóa text-shadow từ rule a:hover chung */
     }
+
+    /* ==== BẮT ĐẦU KHỐI CSS THAY THẾ ==== */
+
+    /* ==== FOOTER BOTTOM & TAGLINE FIX ==== */
     .footer-bottom {
-  grid-column: 1 / -1;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 60px; /* tạo khoảng cách để tagline không bị che */
-}
-      /* padding-bottom: 40px; */ /* Đã thay thế bằng margin-bottom theo yêu cầu */
-      margin-bottom: 40px; /* Sửa theo yêu cầu để tạo khoảng cách với tagline */
+      grid-column: 1 / -1;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 50px;   /* 👈 tạo khoảng trắng tránh tagline che chữ */
     }
+
     .footer-bottom .author {
       font-size: 0.95rem;
       color: var(--muted);
       font-weight: 600;
-      justify-content: center; /* Căn giữa */
+      justify-content: center;
     }
+
     .footer-bottom .author strong {
       color: var(--accent);
     }
-    
+
+    /* Tagline chạy ngang */
     .footer-tagline {
-      position: absolute;
-      bottom: 0;
-      left: 0;
+      position: relative;  /* không dính đáy nữa */
       width: 100%;
-      height: 40px; /* Tăng chiều cao */
+      height: 40px;
       display: flex;
       align-items: center;
       font-weight: 700;
       font-size: 1rem;
       color: var(--accent);
-      background: var(--footer-bg); /* Sử dụng biến cho dark/light mode */
+      background: var(--footer-bg);
       border-top: 1px solid var(--glass-border);
       overflow: hidden;
-      padding: 0; /* Reset padding */
+      padding: 0 10px;
+      margin-top: 10px;   /* cách nhẹ với bản quyền */
     }
+
     .footer-tagline .inner {
       display: inline-flex;
       align-items: center;
       gap: 12px;
       animation: marquee 16s linear infinite;
-      padding-right: 50px; /* Đảm bảo có khoảng cách khi lặp */
+      padding-right: 50px;
       text-shadow: 0 0 5px #00d4ff, 0 0 12px #00d4ff;
     }
+
     .footer-tagline img {
-      width: 30px; /* Tăng kích thước ảnh */
-      height: 30px;
-      border-radius: 6px;
+      width: 28px;
+      height: 28px;
+      border-radius: 4px;
     }
+
     .footer-tagline:hover .inner { animation-play-state: paused; }
-    
+
+    /* Animation cho tagline */
     @keyframes marquee {
-      0% { transform: translateX(100%); }
+      0%   { transform: translateX(100%); }
       100% { transform: translateX(-100%); }
     }
     
+    /* ==== KẾT THÚC KHỐI CSS THAY THẾ ==== */
+
+
     @media (max-width:520px) {
       footer.premium.luxury {
         grid-template-columns: 1fr;
