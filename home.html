@@ -602,7 +602,7 @@
     .faq .a{display:none;padding:14px 16px;border-left:3px solid var(--accent);margin-bottom:12px;background:var(--faq-a-bg);border-radius:0 12px 12px 12px;color:var(--muted)}
     .faq .a.open{display:block}
 
-    /* ===== FOOTER (ĐÃ SỬA VÀ TỐI ƯU HÓA) ===== */
+    /* ===== FOOTER ===== */
     footer{padding:28px 12px;text-align:center;color:var(--muted);margin-top:20px}
 
     /* ** CSS Nâng Cấp: Footer Premium v5.2 Apple Glass + Quick Call + Back Top ** */
@@ -830,15 +830,9 @@
       display: inline-flex;
       align-items: center;
       gap: 12px;
-      /* Đổi animation sang marquee */
-      animation: marquee 15s linear infinite;
+      animation: marquee 15s linear infinite alternate;
       padding-right: 40px; 
-      text-shadow: 0 0 4px rgba(0,122,255,0.1), 0 0 10px rgba(0,122,255,0.05); /* Thêm hiệu ứng glow nhẹ */
-      white-space: nowrap; /* Giữ nội dung trên một hàng */
-      padding-left: 100%; /* Bắt đầu từ ngoài cùng bên phải */
-    }
-    body.dark .footer-tagline .inner {
-        text-shadow: 0 0 4px rgba(10,132,255,0.2), 0 0 10px rgba(10,132,255,0.1);
+      text-shadow: 0 0 4px #00d4ff, 0 0 10px #00d4ff; /* Thêm hiệu ứng glow nhẹ */
     }
     .footer-tagline img {
       width: 28px;
@@ -847,14 +841,12 @@
     }
     .footer-tagline:hover .inner { animation-play-state: paused; }
 
-    /* Animation marquee mới: chạy từ phải sang trái liên tục */
+    /* Đổi animation để vòng lặp 2 chiều, mượt hơn */
     @keyframes marquee {
-      0% { transform: translateX(0%); }
+      0% { transform: translateX(100%); }
       100% { transform: translateX(-100%); }
     }
-    /* ĐẢM BẢO TAGLINE ĐƯỢC LẶP LẠI ĐỦ DÀI ĐỂ TRÁNH KHOẢNG TRỐNG */
-    /* Điều này thường được thực hiện bằng cách nhân đôi nội dung trong HTML/JS */
-    
+
     /* responsive */
     @media (max-width:900px){
       /* Bỏ nút Dark Mode ra khỏi nav-links để hiển thị cho mobile/tablet */
@@ -1600,70 +1592,57 @@
   </main>
 
   <footer class="premium">
-    <div>
-      <h4>Trang</h4>
-      <a href="https://motoopen.github.io/chothuexemayhanoi/"><i class="fa-solid fa-house"></i> Trang chủ</a>
-      <a href="https://motoopen.github.io/chothuexemayhanoi/gioithieu.html"><i class="fa-solid fa-circle-info"></i> Giới thiệu</a>
-      <a href="https://motoopen.github.io/chothuexemayhanoi/banggia.html"><i class="fa-solid fa-tags"></i> Bảng giá</a>
-      <a href="https://motoopen.github.io/chothuexemayhanoi/dichvu.html"><i class="fa-solid fa-star"></i> Dịch vụ</a>
-      <a href="https://motoopen.github.io/chothuexemayhanoi/faq.html"><i class="fa-solid fa-circle-question"></i> FAQ</a>
-    </div>
+  <div>
+    <h4>Trang</h4>
+    <a href="https://motoopen.github.io/chothuexemayhanoi/"><i class="fa-solid fa-house"></i> Trang chủ</a>
+    <a href="https://motoopen.github.io/chothuexemayhanoi/gioithieu.html"><i class="fa-solid fa-circle-info"></i> Giới thiệu</a>
+    <a href="https://motoopen.github.io/chothuexemayhanoi/banggia.html"><i class="fa-solid fa-tags"></i> Bảng giá</a>
+    <a href="https://motoopen.github.io/chothuexemayhanoi/dichvu.html"><i class="fa-solid fa-briefcase"></i> Dịch vụ</a>
+    <a href="https://motoopen.github.io/chothuexemayhanoi/faq.html"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+  </div>
+
+  <div>
+    <h4>Dịch vụ</h4>
+    <a href="https://motoopen.github.io/chothuexemayhanoi/thutuc.html"><i class="fa-solid fa-file-signature"></i> Thủ tục</a>
+    <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html"><i class="fa-solid fa-motorcycle"></i> Loại xe</a>
+    <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html/huongdan.html"><i class="fa-solid fa-book"></i> Hướng dẫn</a>
+    <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html/kinhnghiem.html"><i class="fa-solid fa-lightbulb"></i> Kinh nghiệm</a>
+  </div>
   
-    <div>
-      <h4>Dịch vụ</h4>
-      <a href="https://motoopen.github.io/chothuexemayhanoi/thutuc.html"><i class="fa-solid fa-file-signature"></i> Thủ tục</a>
-      <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html"><i class="fa-solid fa-motorcycle"></i> Loại xe</a>
-      <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html/huongdan.html"><i class="fa-solid fa-book"></i> Hướng dẫn</a>
-      <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html/kinhnghiem.html"><i class="fa-solid fa-lightbulb"></i> Kinh nghiệm</a>
+  <div>
+    <h4>Liên hệ</h4>
+    <a href="tel:0857255868"><i class="fa-solid fa-phone"></i> Gọi 0857 255 868</a>
+    <a href="https://zalo.me/0857255868" target="_blank"><i class="fa-solid fa-comment-dots"></i> Chat Zalo</a>
+    <a href="mailto:motoopen12@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+    <a href="https://motoopen.github.io/chothuexemayhanoi/lienhe.html"><i class="fa-solid fa-address-book"></i> Liên hệ</a>
+  </div>
+
+  <div>
+    <h4>Thông tin</h4>
+    <a href="https://motoopen.github.io/chothuexemayhanoi/dieukhoansudung.html"><i class="fa-solid fa-file-contract"></i> Điều khoản</a>
+    <a href="https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html"><i class="fa-solid fa-shield-halved"></i> Chính sách bảo mật</a>
+  </div>
+
+  <div>
+    <h4>Kết nối</h4>
+    <div class="footer-social">
+      <a href="https://m.facebook.com/motoopenvn/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/motoopen/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.pinterest.com/motoopen12/" target="_blank" title="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
     </div>
     
-    <div>
-      <h4>Liên hệ</h4>
-      <a href="tel:0857255868"><i class="fa-solid fa-phone"></i> Gọi 0857 255 868</a>
-      <a href="https://zalo.me/0857255868" target="_blank"><i class="fa-solid fa-comment-dots"></i> Chat Zalo</a>
-      <a href="mailto:motoopen12@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
-      <a href="https://motoopen.github.io/chothuexemayhanoi/lienhe.html"><i class="fa-solid fa-address-book"></i> Liên hệ</a>
+    <p class="author" style="margin-top: 6px;">
+      <i class="fa-solid fa-copyright"></i> 2025 Motoopen – Cho thuê xe máy Hà Nội. All Rights Reserved.
+    </p>
+  </div>
+
+  <div class="footer-tagline">
+    <div class="inner">
+      <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen xe">
+      Thuê xe máy Hà Nội - Motoopen - giao tận nơi - cọc nhẹ ✨
     </div>
-  
-    <div>
-      <h4>Thông tin</h4>
-      <a href="https://motoopen.github.io/chothuexemayhanoi/dieukhoansudung.html"><i class="fa-solid fa-file-contract"></i> Điều khoản</a>
-      <a href="https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html"><i class="fa-solid fa-shield-halved"></i> Chính sách bảo mật</a>
-    </div>
-  
-    <div>
-      <h4>Kết nối</h4>
-      <div class="footer-social">
-        <a href="https://m.facebook.com/motoopenvn/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com/motoopen/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.pinterest.com/motoopen12/" target="_blank" title="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
-      </div>
-      
-      <a href="https://motoopen.github.io/chothuexemayhanoi/" style="margin-top: 16px; text-decoration: none; transform: none; cursor: default;">
-        <p class="author" style="margin-top: 6px; cursor: default;">
-          <i class="fa-solid fa-copyright"></i> **2025 Motoopen - Cho thuê xe máy Hà Nội. All Rights Reserved.**
-        </p>
-      </a>
-    </div>
-  
-    <div class="footer-tagline">
-      <div class="inner">
-        <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen xe">
-        Thuê xe máy Hà Nội - Motoopen - giao tận nơi - cọc nhẹ ✨
-        <span style="margin-left: 20px;">|</span>
-        <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen xe">
-        Thuê xe máy Hà Nội - Motoopen - giao tận nơi - cọc nhẹ ✨
-      </div>
-      <script>
-        // Tự động nhân đôi nội dung để đảm bảo marquee lặp mượt mà
-        const taglineInner = document.querySelector('.footer-tagline .inner');
-        if (taglineInner) {
-            const content = taglineInner.innerHTML;
-            taglineInner.innerHTML = content + '<span style="margin-left: 20px;">|</span>' + content;
-        }
-    </script>
-    </div>
-  </footer>
+  </div>
+</footer>
   <div class="quick-call-game">
     <button class="quick-main" aria-label="Mở menu gọi nhanh" title="Menu gọi nhanh">
       <i class="fa-solid fa-phone"></i>
