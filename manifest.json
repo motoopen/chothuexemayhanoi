@@ -1,2 +1,15 @@
-"background_color": "#ffffff",
-"theme_color": "#007aff"
+{
+  "name": "Motoopen - Thuê xe máy Hà Nội",
+  "short_name": "Motoopen",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007aff",
+  "icons": [
+    {
+      "src": "https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
