@@ -603,36 +603,19 @@
     }
     
     /* === BẮT ĐẦU SỬA FOOTER CSS (THEO YÊU CẦU MỚI) === */
+    /* Mobile fix */
     @media (max-width: 768px) {
-      /* Yêu cầu Footer Căn Giữa trên mobile (max-width: 768px) - Đã cập nhật */
       footer.premium {
         grid-template-columns: 1fr;
         text-align: center;
-        padding-left: 10px; /* Giữ lại từ code cũ */
-        padding-right: 10px; /* Giữ lại từ code cũ */
-      }
-      footer.premium h4 {
-        text-align: center;
       }
       footer.premium a {
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%; /* Mới */
-        text-align: center;
-        margin: 6px 0; /* Thêm margin dọc, bỏ auto ngang */
-      }
-      footer.premium a::after { 
-          left: 50%; 
-          transform: translateX(-50%); /* Giữ lại từ code cũ */
-      }
-      footer .author { /* Tách ra từ .author, p */
-        justify-content: center;
-        text-align: center;
-      }
-      footer.premium p { /* Giữ lại P rule */
-        text-align: center; 
-        justify-content: center; 
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+        width: 100%;
+        margin: 6px 0;
       }
       .footer-social {
         justify-content: center;
@@ -658,60 +641,63 @@
 
     /* Các style khác (footer, quick-call, animation) giữ nguyên từ index.html */
     /* ** CSS Nâng Cấp: Footer Premium v5.2 Apple Glass + Quick Call + Back Top ** */
+    
+    /* === FOOTER NÂNG CẤP === */
     footer.premium {
-      background: var(--footer-bg);
+      background: linear-gradient(135deg, rgba(255,255,255,0.8), rgba(245,245,247,0.85));
       backdrop-filter: blur(14px) saturate(150%);
       border-top: 1px solid var(--glass-border);
       padding: 48px 20px 32px;
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px,1fr)); 
+      grid-template-columns: repeat(auto-fit, minmax(180px,1fr));
       gap: 24px;
       font-family: Inter, sans-serif;
       color: var(--text);
       position: relative;
       overflow: hidden;
       box-shadow: 0 -8px 32px rgba(0,0,0,0.06);
-      border-radius: 16px 16px 0 0;
-      margin-top: 0; 
+      border-radius: 18px 18px 0 0;
+      animation: footerFade 0.8s ease-in-out;
+      /* Thêm padding-bottom 50px từ code cũ để không bị tagline đè */
       padding-bottom: 50px; 
-      text-align: left; 
     }
-    body.dark footer.premium { box-shadow: 0 -8px 32px rgba(0,0,0,0.3); }
+    body.dark footer.premium {
+      background: linear-gradient(135deg, rgba(28,28,30,0.9), rgba(44,44,46,0.92));
+      box-shadow: 0 -8px 32px rgba(0,0,0,0.3);
+    }
+
+    @keyframes footerFade {
+      from {opacity:0; transform: translateY(20px);}
+      to {opacity:1; transform: translateY(0);}
+    }
+
     footer.premium h4 {
       margin-bottom: 12px;
       font-weight: 700;
       font-size: 1.05rem;
       text-transform: uppercase;
-      color: var(--accent); 
+      color: var(--accent);
     }
+
     footer.premium a {
       display: block;
       margin: 6px 0;
       color: var(--text);
       text-decoration: none;
-      transition: all 0.2s ease;
-      text-align: left;
+      transition: all 0.25s ease;
       position: relative;
     }
-    footer.premium a::after {
-      content:'';
-      position:absolute;
-      left:0; bottom:0;
-      width:0; height:2px;
-      background: linear-gradient(90deg,var(--accent),var(--quick-main-end));
-      transition: width 0.3s ease;
-      border-radius:1px;
-    }
-    footer.premium a:hover::after { width:100%; }
     footer.premium a:hover {
       color: var(--accent);
-      transform: translateX(4px);
+      transform: translateX(6px) scale(1.05);
+      text-shadow: 0 0 8px rgba(0,122,255,0.5);
     }
     footer.premium a i {
-        margin-right: 6px;
-        width: 18px;
-        text-align: center;
+      margin-right: 6px;
+      width: 18px;
+      text-align: center;
     }
+    
     footer .author, footer.premium p {
       margin-top: 6px;
       font-size: 0.85rem;
@@ -725,22 +711,27 @@
         gap: 12px;
         margin-top: 10px;
     }
+    
+    /* Icon mạng xã hội */
     .footer-social a {
-        display: inline-flex;
-        width: 32px;
-        height: 32px;
-        background: var(--accent);
-        color: #fff;
-        border-radius: 50%;
-        justify-content: center;
-        align-items: center;
-        font-size: 1rem;
-        transition: transform 0.2s, background 0.2s;
+      display: inline-flex;
+      width: 36px;
+      height: 36px;
+      background: var(--accent);
+      color: #fff;
+      border-radius: 50%;
+      justify-content: center;
+      align-items: center;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 10px rgba(0,122,255,0.3);
     }
     .footer-social a:hover {
-        transform: scale(1.1);
-        background: var(--quick-main-end);
+      transform: scale(1.2) rotate(-10deg);
+      background: var(--quick-main-end);
+      box-shadow: 0 0 20px rgba(0,212,255,0.6);
     }
+    
     .quick-call { display: none !important; }
     .quick-call-game {
       position: fixed;
@@ -1210,7 +1201,7 @@
     </button>
     <div class="quick-sub">
       <a href="tel:0857255868" aria-label="Gọi ngay 0857 255 868" title="Gọi ngay: 0857 255 868"><i class="fa-solid fa-phone"></i></a>
-      <a href="https://zalo.me/0857255868" target="_blank" aria-label="Chat Zalo 0857255868" title="Chat Zalo: 0857255868"><i class="fa-solid fa-comment-dots"></i></a>
+      <a href="https://zalo.me/0857255868" target="_blank" aria-label="Chat Zalo 0857255868" title="Chat Zalo: 0857 255 868"><i class="fa-solid fa-comment-dots"></i></a>
       <a href="https://maps.app.goo.gl/dTLAo1aHMvytByf99?g_st=ipc" target="_blank" aria-label="Bản đồ" title="Địa chỉ: 114 Nguyễn Văn Cừ"><i class="fa-solid fa-location-dot"></i></a>
     </div>
   </div>
