@@ -925,10 +925,38 @@
     </div>
 
     <nav class="nav-links" role="navigation" aria-label="Main navigation">
-      <a href="#gioithieu"><i class="fa-solid fa-house"></i> Trang chủ</a>
-      <a href="#banggia"><i class="fa-solid fa-tags"></i> Bảng giá</a>
-      <a href="#danhgia"><i class="fa-solid fa-star"></i> Review</a>
-      <a href="#faq"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/"><i class="fa-solid fa-house"></i> Trang chủ</a>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/gioithieu.html"><i class="fa-solid fa-circle-info"></i> Giới thiệu</a>
+      
+      <div class="nav-dropdown" style="position: relative; display: inline-block;" onmouseover="this.querySelector('.dropdown-menu').style.display='block'" onmouseout="this.querySelector('.dropdown-menu').style.display='none'">
+        <a href="javascript:void(0);" class="dropdown-toggle" style="cursor: default; color:var(--text);text-decoration:none;font-weight:600;padding:8px 12px;border-radius:10px;display:inline-flex;gap:8px;align-items:center;" onmouseover="this.style.color='var(--accent)'; this.style.background='rgba(0,122,255,0.06)'" onmouseout="this.style.color='var(--text)'; this.style.background='transparent'">
+            <i class="fa-solid fa-motorcycle" style="width:18px;text-align:center"></i> Dịch vụ <i class="fa-solid fa-caret-down" style="font-size: 0.8em; margin-left: 4px;"></i>
+        </a>
+        <div class="dropdown-menu" style="display: none; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); min-width: 220px; background: var(--topbar-scrolled-bg); border: 1px solid var(--glass-border); border-radius: 12px; padding: 8px; margin-top: 8px; box-shadow: 0 8px 24px rgba(0,0,0,0.1); backdrop-filter: blur(12px) saturate(150%); z-index: 1700;">
+            
+            <a href="https://motoopen.github.io/chothuexemayhanoi/banggia.html" style="display: flex; gap: 8px; align-items: center; width: 100%; padding: 8px 12px; border-radius: 8px; text-decoration: none; color: var(--text); font-weight: 600;" onmouseover="this.style.color='var(--accent)'; this.style.background='rgba(0,122,255,0.06)'" onmouseout="this.style.color='var(--text)'; this.style.background='transparent'">
+                <i class="fa-solid fa-tags" style="width: 18px; text-align: center;"></i> Bảng giá
+            </a>
+            <a href="https://motoopen.github.io/chothuexemayhanoi/thutuc.html" style="display: flex; gap: 8px; align-items: center; width: 100%; padding: 8px 12px; border-radius: 8px; text-decoration: none; color: var(--text); font-weight: 600;" onmouseover="this.style.color='var(--accent)'; this.style.background='rgba(0,122,255,0.06)'" onmouseout="this.style.color='var(--text)'; this.style.background='transparent'">
+                <i class="fa-solid fa-file-signature" style="width: 18px; text-align: center;"></i> Thủ tục thuê xe
+            </a>
+            <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html" style="display: flex; gap: 8px; align-items: center; width: 100%; padding: 8px 12px; border-radius: 8px; text-decoration: none; color: var(--text); font-weight: 600;" onmouseover="this.style.color='var(--accent)'; this.style.background='rgba(0,122,255,0.06)'" onmouseout="this.style.color='var(--text)'; this.style.background='transparent'">
+                <i class="fa-solid fa-motorcycle" style="width: 18px; text-align: center;"></i> Loại xe
+            </a>
+            <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html/huongdan.html" style="display: flex; gap: 8px; align-items: center; width: 100%; padding: 8px 12px; border-radius: 8px; text-decoration: none; color: var(--text); font-weight: 600;" onmouseover="this.style.color='var(--accent)'; this.style.background='rgba(0,122,255,0.06)'" onmouseout="this.style.color='var(--text)'; this.style.background='transparent'">
+                <i class="fa-solid fa-book" style="width: 18px; text-align: center;"></i> Hướng dẫn thuê xe
+            </a>
+            <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html/kinhnghiem.html" style="display: flex; gap: 8px; align-items: center; width: 100%; padding: 8px 12px; border-radius: 8px; text-decoration: none; color: var(--text); font-weight: 600;" onmouseover="this.style.color='var(--accent)'; this.style.background='rgba(0,122,255,0.06)'" onmouseout="this.style.color='var(--text)'; this.style.background='transparent'">
+                <i class="fa-solid fa-lightbulb" style="width: 18px; text-align: center;"></i> Kinh nghiệm thuê xe
+            </a>
+        </div>
+      </div>
+      
+      <a href="https://motoopen.github.io/chothuexemayhanoi/faq.html"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/lienhe.html"><i class="fa-solid fa-phone"></i> Liên hệ</a>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/dieukhoansudung.html"><i class="fa-solid fa-file-contract"></i> Điều khoản</a>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html"><i class="fa-solid fa-shield-halved"></i> Chính sách</a>
+
       <button class="toggle-dark" id="main-toggle-dark-desktop" aria-label="Chuyển đổi chế độ tối">
         <i class="fa-solid fa-sun" style="display: none;"></i>
         <i class="fa-solid fa-moon"></i>
@@ -944,17 +972,153 @@
   </header>
 
   <div class="drawer-overlay" id="drawerOverlay" aria-hidden="true"></div>
+  
   <aside class="drawer" id="drawer" role="menu" aria-hidden="true">
-    <a class="icon" href="#gioithieu" role="menuitem"><i class="fa-solid fa-house"></i> Trang chủ</a>
-    <a class="icon" href="#xe" role="menuitem"><i class="fa-solid fa-motorcycle"></i> Dòng xe</a>
-    <a class="icon" href="#banggia" role="menuitem"><i class="fa-solid fa-tags"></i> Bảng giá</a>
-    <a class="icon" href="#danhgia" role="menuitem"><i class="fa-solid fa-star"></i> Review</a>
-    <a class="icon" href="#faq" role="menuitem"><i class="fa-solid fa-circle-question"></i> FAQ</a>
-    <a class="icon" href="https://m.facebook.com/motoopenvn/" target="_blank" rel="noopener" role="menuitem"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+    <style>
+      /* Nút accordion (giả lập style của .drawer a và .drawer a.icon) */
+      .drawer .drawer-accordion-toggle {
+        /* Reset button styles */
+        background: none;
+        border: none;
+        text-align: left;
+        cursor: pointer;
+        
+        /* .drawer a styles */
+        display: block;
+        padding: 12px 6px;
+        color: var(--text);
+        text-decoration: none;
+        font-weight: 700;
+        border-radius: 8px;
+        
+        /* .drawer a.icon styles */
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        
+        /* Thêm style flex cho toggle */
+        justify-content: space-between;
+        width: 100%;
+        font-family: inherit; /* Đảm bảo font giống */
+        font-size: 1rem; /* Đảm bảo font-size giống */
+        line-height: 1.5; /* Đảm bảo line-height giống */
+      }
+      .drawer .drawer-accordion-toggle:hover {
+         background: rgba(0,0,0,0.04); /* Thêm hover giống link */
+      }
+      body.dark .drawer .drawer-accordion-toggle:hover {
+         background: rgba(255,255,255,0.08);
+      }
+      
+      /* Icon caret */
+      .drawer .drawer-accordion-toggle .caret-icon {
+        transition: transform 0.3s cubic-bezier(.2,.9,.2,1);
+        font-size: 0.9rem;
+        color: var(--muted);
+        padding: 0 8px; /* Thêm vùng đệm để dễ bấm */
+      }
+      
+      /* Khi mở accordion */
+      .drawer .drawer-accordion-toggle.open .caret-icon {
+        transform: rotate(180deg);
+        color: var(--accent);
+      }
+      .drawer .drawer-accordion-toggle.open {
+        color: var(--accent);
+        background: rgba(0,122,255,0.05);
+      }
+      body.dark .drawer .drawer-accordion-toggle.open {
+        background: rgba(10,132,255,0.1);
+      }
+      
+      /* Container cho submenu */
+      .drawer .drawer-submenu {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease-out;
+        
+        /* Thụt lề và border */
+        margin-left: 20px; /* Thụt vào so với icon DỊCH VỤ */
+        padding-left: 14px; /* Padding bên trong border */
+        border-left: 2px solid var(--glass-border);
+        margin-top: -5px; /* Giảm khoảng cách */
+        margin-bottom: 5px;
+      }
+      
+      /* Khi submenu mở */
+      .drawer .drawer-submenu.open {
+        max-height: 400px; /* Đủ lớn để chứa 5 items */
+        border-left: 2px solid var(--accent);
+      }
+      
+      /* Style cho các link submenu */
+      .drawer .drawer-submenu a.icon {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 0; /* Đã có padding ở container */
+        font-size: 0.95rem;
+        font-weight: 600;
+        color: var(--muted);
+      }
+      .drawer .drawer-submenu a.icon:hover {
+        color: var(--text);
+        background: none;
+      }
+      .drawer .drawer-submenu a.icon i {
+        width: 22px; /* Đảm bảo icon thẳng hàng */
+        text-align: center;
+      }
+    </style>
+  
+    <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/" role="menuitem"><i class="fa-solid fa-house"></i> Trang chủ</a>
+    <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/gioithieu.html" role="menuitem"><i class="fa-solid fa-circle-info"></i> Giới thiệu</a>
+    
+    <button type="button" class="icon drawer-accordion-toggle" id="drawer-service-toggle" aria-expanded="false" aria-controls="drawer-submenu">
+      <span style="display: flex; align-items: center; gap: 12px;">
+        <i class="fa-solid fa-motorcycle" style="width: 18px; text-align: center;"></i> DỊCH VỤ
+      </span>
+      <i class="fa-solid fa-chevron-down caret-icon"></i>
+    </button>
+    
+    <div class="drawer-submenu" id="drawer-submenu" role="region" aria-labelledby="drawer-service-toggle">
+      <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/banggia.html" role="menuitem"><i class="fa-solid fa-tags"></i> Bảng giá</a>
+      <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/thutuc.html" role="menuitem"><i class="fa-solid fa-file-signature"></i> Thủ tục thuê xe</a>
+      <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html" role="menuitem"><i class="fa-solid fa-motorcycle"></i> Loại xe</a>
+      <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html/huongdan.html" role="menuitem"><i class="fa-solid fa-book"></i> Hướng dẫn thuê xe</a>
+      <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html/kinhnghiem.html" role="menuitem"><i class="fa-solid fa-lightbulb"></i> Kinh nghiệm thuê xe</a>
+    </div>
+    <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/faq.html" role="menuitem" style="margin-top: 8px; border-top: 1px solid var(--glass-border); padding-top: 12px;"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+    <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/lienhe.html" role="menuitem"><i class="fa-solid fa-phone"></i> Liên hệ</a>
+    <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/dieukhoansudung.html" role="menuitem"><i class="fa-solid fa-file-contract"></i> Điều khoản</a>
+    <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html" role="menuitem"><i class="fa-solid fa-shield-halved"></i> Chính sách</a>
+    
+    <a class="icon" href="https://m.facebook.com/motoopenvn/" target="_blank" rel="noopener" role="menuitem" style="margin-top: 15px; border-top: 1px solid var(--glass-border); padding-top: 12px;"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
     <a class="icon" href="https://www.instagram.com/motoopen/" target="_blank" rel="noopener" role="menuitem"><i class="fa-brands fa-instagram"></i> Instagram</a>
     <a class="icon" href="https://www.pinterest.com/motoopen12/" target="_blank" rel="noopener" role="menuitem"><i class="fa-brands fa-pinterest"></i> Pinterest</a>
-  </aside>
+  
+    <script>
+      (function() {
+        // Đặt script bên trong <aside> để đảm bảo nó được chèn cùng
+        // và tìm đúng phần tử ngay cả khi DOM chưa load hết
+        // (mặc dù nên đặt ở cuối <body>, nhưng làm vầy cho nó "self-contained")
+        
+        // Tìm button và submenu trong phạm vi của drawer này
+        const drawer = document.getElementById('drawer');
+        if (drawer) {
+          const toggleBtn = drawer.querySelector('#drawer-service-toggle');
+          const submenu = drawer.querySelector('#drawer-submenu');
 
+          if (toggleBtn && submenu) {
+            toggleBtn.addEventListener('click', function() {
+              const isOpen = submenu.classList.toggle('open');
+              toggleBtn.classList.toggle('open', isOpen);
+              toggleBtn.setAttribute('aria-expanded', String(isOpen));
+            });
+          }
+        }
+      })();
+    </script>
+  </aside>
   <main id="main" class="container" role="main">
     <section class="hero" id="gioithieu" aria-labelledby="hero-title">
       <div class="grad-layer" aria-hidden="true"></div>
@@ -1430,48 +1594,49 @@
   <footer class="premium">
     <div>
       <h4>Trang</h4>
-      <a href="#gioithieu"><i class="fa-solid fa-house"></i> Trang chủ</a>
-      <a href="#banggia"><i class="fa-solid fa-tags"></i> Bảng giá</a>
-      <a href="#danhgia"><i class="fa-solid fa-star"></i> Review</a>
-      <a href="#faq"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+      <a href="/index.html"><i class="fa-solid fa-house"></i> Trang chủ</a>
+      <a href="/banggia.html"><i class="fa-solid fa-tags"></i> Bảng giá</a>
+      <a href="/danhgia.html"><i class="fa-solid fa-star"></i> Review</a>
+      <a href="/faq.html"><i class="fa-solid fa-circle-question"></i> FAQ</a>
     </div>
-
+  
     <div>
-      <h4>Dòng xe</h4>
-      <a href="#xe"><i class="fa-solid fa-motorcycle"></i> Xe số</a>
-      <a href="#xe"><i class="fa-solid fa-motorcycle"></i> Xe ga</a>
-      <a href="#xe"><i class="fa-solid fa-bolt"></i> Xe điện</a>
+      <h4>Dịch vụ</h4>
+      <a href="/thutuc.html"><i class="fa-solid fa-file-signature"></i> Thủ tục</a>
+      <a href="/loaixe.html"><i class="fa-solid fa-motorcycle"></i> Loại xe</a>
+      <a href="/loaixe.html/huongdan.html"><i class="fa-solid fa-book"></i> Hướng dẫn</a>
+      <a href="/loaixe.html/kinhnghiem.html"><i class="fa-solid fa-lightbulb"></i> Kinh nghiệm</a>
     </div>
     
     <div>
-      <h4>Liên hệ nhanh</h4>
-      <a href="tel:0857255868"><i class="fa-solid fa-phone"></i> Gọi ngay: 0857 255 868</a>
+      <h4>Liên hệ</h4>
+      <a href="tel:0857255868"><i class="fa-solid fa-phone"></i> Gọi 0857 255 868</a>
       <a href="https://zalo.me/0857255868" target="_blank"><i class="fa-solid fa-comment-dots"></i> Chat Zalo</a>
       <a href="mailto:motoopen12@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+      <a href="/lienhe.html"><i class="fa-solid fa-address-book"></i> Liên hệ</a>
     </div>
-
+  
     <div>
-      <h4>Địa chỉ & Giờ làm việc</h4>
-      <a href="https://maps.app.goo.gl/dTLAo1aHMvytByf99?g_st=ipc" target="_blank">
-        <i class="fa-solid fa-location-dot"></i> 114 Nguyễn Văn Cừ, Long Biên, Hà Nội
-      </a>
-      <p><i class="fa-solid fa-clock"></i> 9:00 - 21:00 (Tất cả các ngày)</p>
-      
+      <h4>Thông tin</h4>
+      <a href="/dieukhoansudung.html"><i class="fa-solid fa-file-contract"></i> Điều khoản</a>
+      <a href="/chinhsachbaomat.html"><i class="fa-solid fa-shield-halved"></i> Chính sách bảo mật</a>
+    </div>
+  
+    <div>
+      <h4>Kết nối</h4>
       <div class="footer-social">
         <a href="https://m.facebook.com/motoopenvn/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
         <a href="https://www.instagram.com/motoopen/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
         <a href="https://www.pinterest.com/motoopen12/" target="_blank" title="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
       </div>
-    </div>
-
-    <div>
-      <h4>Tác giả & Bản quyền</h4>
-      <a href="https://motoopen.github.io/chothuexemayhanoi/" target="_blank">
-        Thuê xe máy Hà Nội - Motoopen
+      
+      <a href="/index.html" style="margin-top: 16px; text-decoration: none; transform: none; cursor: default;">
+        <p class="author" style="margin-top: 6px; cursor: pointer;" onclick="window.location.href='/index.html'">
+          <i class="fa-solid fa-copyright"></i> 2025 Motoopen. All Rights Reserved.
+        </p>
       </a>
-      <p class="author"><i class="fa-solid fa-copyright"></i> 2025 Motoopen. All Rights Reserved.</p>
     </div>
-
+  
     <div class="footer-tagline">
       <div class="inner">
         <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen xe">
@@ -1586,8 +1751,13 @@
       }
       hamburger.addEventListener('click', ()=> openDrawer(!drawer.classList.contains('open')));
       overlay.addEventListener('click', ()=> openDrawer(false));
-      // close drawer when clicking a link inside
-      drawer.querySelectorAll('a').forEach(a => a.addEventListener('click', ()=> openDrawer(false)));
+      
+      // close drawer when clicking a link inside (NGOẠI TRỪ NÚT ACCORDION)
+      drawer.querySelectorAll('a').forEach(a => {
+        a.addEventListener('click', ()=> openDrawer(false));
+      });
+      // Logic cho nút accordion đã được thêm riêng trong <aside>
+      // nên không cần thêm vào đây
 
       // 3) Scroll effects: nav style and parallax background
       let lastY = window.scrollY || 0;
@@ -1667,17 +1837,18 @@
       });
 
       // tiny improvement: smooth scroll for internal links with offset (nav height)
-      document.querySelectorAll('a[href^="#"]').forEach(a=>{
-        a.addEventListener('click', (e)=>{
-          const href = a.getAttribute('href');
-          if(href.length > 1 && document.querySelector(href)){
-            e.preventDefault();
-            const navHeight = topbar.getBoundingClientRect().height + 8;
-            const targetTop = document.querySelector(href).offsetTop - navHeight;
-            window.scrollTo({top: targetTop, behavior:'smooth'});
-          }
-        });
-      });
+      // *** ĐÃ TẮT TÍNH NĂNG NÀY ĐỂ ƯU TIÊN LINK ĐA TRANG ***
+      // document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      //   a.addEventListener('click', (e)=>{
+      //     const href = a.getAttribute('href');
+      //     if(href.length > 1 && document.querySelector(href)){
+      //       e.preventDefault();
+      //       const navHeight = topbar.getBoundingClientRect().height + 8;
+      //       const targetTop = document.querySelector(href).offsetTop - navHeight;
+      //       window.scrollTo({top: targetTop, behavior:'smooth'});
+      //     }
+      //   });
+      // });
 
       // ** Quick Call Menu logic NÂNG CẤP **
       const quickGame = document.querySelector('.quick-call-game');
