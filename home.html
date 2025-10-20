@@ -61,6 +61,15 @@
       --review-overlay-bg: linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.85));
       --faq-a-bg: linear-gradient(180deg, #fff, #fcfcfd);
       --footer-bg: rgba(255,255,255,0.72);
+      
+      /* MỚI: Màu cho Hero Buttons */
+      --hero-btn-start: #007aff;
+      --hero-btn-end: #00d4ff;
+      --hero-btn-hover-start: #0066e5;
+      --hero-btn-hover-end: #00aaff;
+      /* MỚI: Màu cho Quick Links (giống Quick Call) */
+      --quick-main-start: #007aff;
+      --quick-main-end: #00d4ff;
     }
     /* DARK MODE OVERRIDES */
     body.dark {
@@ -81,6 +90,15 @@
       --review-overlay-bg: linear-gradient(180deg, rgba(28,28,30,0.6), rgba(28,28,30,0.85));
       --faq-a-bg: linear-gradient(180deg, var(--surface), #3A3A3C);
       --footer-bg: rgba(28,28,30,0.72);
+
+      /* DARK MODE: Màu cho Hero Buttons */
+      --hero-btn-start: #0A84FF;
+      --hero-btn-end: #00aaff;
+      --hero-btn-hover-start: #0066e5;
+      --hero-btn-hover-end: #007aff;
+      /* DARK MODE: Màu cho Quick Links (giống Quick Call) */
+      --quick-main-start: #0A84FF;
+      --quick-main-end: #00aaff;
     }
 
     *{box-sizing:border-box}
@@ -250,24 +268,45 @@
     }
 
     .hero-actions{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:18px}
-    .btn{display:inline-flex;gap:10px;align-items:center;padding:12px 20px;border-radius:999px;border:0;font-weight:700;cursor:pointer}
-    .btn.primary{background:var(--accent);color:#fff;box-shadow:0 8px 26px rgba(0,122,255,0.14)}
-    .btn.primary.alt{background:var(--accent-2);box-shadow:0 8px 26px rgba(43,199,127,0.12)}
-    .btn.alt{background:transparent;border:1px solid rgba(0,0,0,0.06);color:var(--text)}
-    /* Dark mode button adjustments */
-    body.dark .btn.alt{
-        border:1px solid rgba(255,255,255,0.12);
-        color:var(--text);
+    .btn{display:inline-flex;gap:10px;align-items:center;padding:12px 20px;border-radius:999px;border:0;font-weight:700;cursor:pointer;transition:transform .2s, box-shadow .2s, background .2s;}
+    
+    /* Yêu cầu 2: Hero Button Styles */
+    .btn.quick-style {
+      background: linear-gradient(135deg,var(--hero-btn-start),var(--hero-btn-end));
+      color: #fff;
+      box-shadow: 0 0 14px var(--hero-btn-start), 0 0 24px var(--hero-btn-end);
+      transition: transform .25s, box-shadow .25s, background .25s;
     }
-    body.dark .btn.alt:hover{
-        background: rgba(255,255,255,0.08);
+    .btn.quick-style:hover {
+      transform: scale(1.05);
+      background: linear-gradient(135deg,var(--hero-btn-hover-start),var(--hero-btn-hover-end));
+      box-shadow: 0 0 20px var(--hero-btn-hover-start), 0 0 34px var(--hero-btn-hover-end);
     }
-
+    /* Điều chỉnh các button cũ để phù hợp */
+    .btn.primary{background:var(--accent);color:#fff;box-shadow:0 8px 26px rgba(0,122,255,0.14); display:none;} /* Ẩn button cũ */
+    .btn.primary.alt{background:var(--accent-2);box-shadow:0 8px 26px rgba(43,199,127,0.12); display:none;} /* Ẩn button cũ */
+    .btn.alt{background:transparent;border:1px solid rgba(0,0,0,0.06);color:var(--text); display:none;} /* Ẩn button cũ */
+    
+    /* Apple Glass Hover Effect cho buttons CTA (Đã bị override bởi quick-style) */
+    .btn:hover { transform: translateY(-2px); }
+    
     /* MỚI: CTA Scroll xuống */
     .btn-scroll-down{
       background:none; border:1px solid var(--accent); color:var(--accent);
       animation: floatScroll 1.5s infinite alternate; /* Hiệu ứng nhẹ */
+      display: inline-flex !important; /* Đảm bảo nút này hiển thị */
     }
+    .btn-scroll-down:hover { /* Override hover cho nút scroll down */
+        transform: translateY(-2px);
+        background: rgba(0,122,255,0.04);
+        box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+        border-color: var(--accent);
+    }
+    body.dark .btn-scroll-down:hover {
+        background: rgba(10,132,255,0.1);
+        border-color: var(--accent);
+    }
+    
     @keyframes floatScroll {
       0% { transform: translateY(0); box-shadow: 0 4px 8px rgba(0,0,0,0.08); }
       100% { transform: translateY(-3px); box-shadow: 0 6px 12px rgba(0,0,0,0.1); }
@@ -354,6 +393,7 @@
     }
 
     /* ===== REVIEWS (cards sliding from sides) with parallax background ===== */
+    /* PHẦN NÀY ĐÃ BỊ XÓA KHỎI HTML */
     .reviews-section{position:relative;margin:40px auto;padding:48px 20px;border-radius:18px;overflow:hidden}
     .reviews-bg{
       position:absolute;inset:0;background-image:url('https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg');background-size:cover;background-position:center;
@@ -838,6 +878,86 @@
         font-size: 1.1rem;
         margin-top: 2px;
     }
+    /* Yêu cầu 1: CSS cho Breadcrumb */
+    .breadcrumb {
+      padding: 10px 0;
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin-bottom: 15px;
+    }
+    .breadcrumb a {
+      text-decoration: none;
+      color: var(--accent); /* Màu xanh dương (var(--accent)) */
+      transition: color 0.2s;
+    }
+    .breadcrumb a:hover {
+      color: #0066e5; /* Màu hover tối hơn */
+    }
+    body.dark .breadcrumb a {
+        color: var(--accent);
+    }
+    body.dark .breadcrumb a:hover {
+        color: #3399ff;
+    }
+    .breadcrumb .separator {
+      margin: 0 8px;
+      color: var(--glass-border);
+    }
+    .breadcrumb .current {
+      color: var(--text);
+      font-weight: 600;
+    }
+    body.dark .breadcrumb .separator {
+        color: var(--muted);
+    }
+    
+    /* Yêu cầu 3 & 4: Quick Links CSS (Được giữ nguyên) */
+    .quick-links-card {
+      margin: 40px auto;
+      padding: 24px;
+      border-radius: 16px;
+      background: var(--surface);
+      border: 1px solid var(--glass-border);
+      box-shadow: 0 8px 28px rgba(0,0,0,0.08);
+      backdrop-filter: blur(14px) saturate(150%);
+      max-width: var(--maxw);
+    }
+    body.dark .quick-links-card {
+        box-shadow: 0 8px 28px rgba(0,0,0,0.4);
+    }
+    .quick-links-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 14px;
+      justify-items: center;
+    }
+    @media (min-width: 768px) {
+      .quick-links-grid { grid-template-columns: repeat(4, 1fr); }
+    }
+    @media (max-width: 767px) {
+      .quick-links-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    .quick-links-grid a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 14px;
+      border-radius: 14px;
+      /* Dùng biến quick-main cho neon gradient */
+      background: linear-gradient(135deg,var(--quick-main-start),var(--quick-main-end));
+      color: #fff;
+      box-shadow: 0 0 12px var(--quick-main-start), 0 0 22px var(--quick-main-end);
+      transition: transform .25s, box-shadow .25s;
+      text-align: center;
+    }
+    .quick-links-grid a i { font-size: 1.4rem; }
+    .quick-links-grid a:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 18px var(--quick-main-start), 0 0 34px var(--quick-main-end);
+    }
   </style>
   
   <style>
@@ -1017,6 +1137,12 @@
 </aside>
   <main id="main" class="container" role="main">
     
+    <div class="breadcrumb fade-up">
+        <a href="https://motoopen.github.io/chothuexemayhanoi/"><i class="fa-solid fa-house"></i> Trang chủ</a>
+        <span class="separator"><i class="fa-solid fa-chevron-right"></i></span>
+        <a href="https://motoopen.github.io/chothuexemayhanoi/gioithieu.html"><i class="fa-solid fa-circle-info"></i> Giới thiệu</a>
+    </div>
+    
     <section class="hero" id="gioithieu" aria-labelledby="hero-title">
       <div class="grad-layer" aria-hidden="true"></div>
       <div class="content">
@@ -1026,10 +1152,10 @@
         <p class="lead">Hơn cả một dịch vụ thuê xe, Motoopen là người bạn đồng hành tin cậy trên mọi cung đường Hà Nội. Chúng tôi cam kết mang đến những chiếc xe được bảo dưỡng tốt nhất, thủ tục thuê nhanh chóng và dịch vụ giao xe tận nơi tiện lợi, đảm bảo trải nghiệm di chuyển an toàn và thoải mái nhất cho bạn.</p>
 
         <div class="hero-actions">
-          <a class="btn primary" href="tel:0857255868" aria-label="Gọi ngay 0857 255 868"><i class="fa-solid fa-phone"></i> Liên hệ</a>
-          <a class="btn primary alt" href="https://zalo.me/0857255868" aria-label="Chat Zalo"><i class="fa-solid fa-comment-dots"></i> Chat Zalo</a>
-          <a class="btn alt btn-scroll-down" href="#thongtin" aria-label="Xem thêm thông tin">
-            <i class="fa-solid fa-building"></i> Xem chi tiết
+          <a class="btn quick-style" href="tel:0857255868" aria-label="Đặt xe ngay - Gọi 0857 255 868"><i class="fa-solid fa-motorcycle"></i> Đặt xe ngay</a>
+          <a class="btn quick-style" href="https://zalo.me/0857255868" target="_blank" aria-label="Chat Zalo"><i class="fa-solid fa-comment-dots"></i> Chat Zalo</a>
+          <a class="btn quick-style" href="https://motoopen.github.io/chothuexemayhanoi/banggia.html" aria-label="Xem bảng giá thuê xe"><i class="fa-solid fa-tags"></i> Xem Bảng Giá</a>
+          <a class="btn alt btn-scroll-down" href="#thongtin" aria-label="Xem thêm thông tin"><i class="fa-solid fa-building"></i> Xem chi tiết
           </a>
         </div>
       </div>
@@ -1040,8 +1166,8 @@
 
       <div class="about-card fade-up">
         <h3><i class="fa-solid fa-users-gear"></i> Đội ngũ & Dịch vụ</h3>
-        <p>Motoopen được thành lập từ những người trẻ đam mê du lịch và am hiểu về xe máy. Chúng tôi hiểu rõ những vấn đề mà khách du lịch hoặc người thuê dài hạn gặp phải, từ đó xây dựng dịch vụ hướng đến sự **tiện lợi, minh bạch và tin cậy**.</p>
-        <p><strong>Dịch vụ cốt lõi:</strong></p>
+        <p>Motoopen được thành lập từ những người trẻ đam mê du lịch và am hiểu về xe máy. Chúng tôi hiểu rõ những vấn đề mà khách du lịch hoặc người thuê dài hạn gặp phải, từ đó xây dựng dịch vụ hướng đến sự <b>tiện lợi, minh bạch và tin cậy</b>.</p>
+        <p><b>Dịch vụ cốt lõi:</b></p>
         <ul>
             <li><i class="fa-solid fa-circle-check"></i> Cho thuê xe máy, xe ga, xe số, xe 50cc, xe điện đời mới.</li>
             <li><i class="fa-solid fa-circle-check"></i> Giao và nhận xe tận nơi tại các quận trung tâm Hà Nội (Long Biên, Hoàn Kiếm, Tây Hồ, Ba Đình, Gia Lâm).</li>
@@ -1053,98 +1179,81 @@
         <h3><i class="fa-solid fa-medal"></i> Cam kết chất lượng</h3>
         <p>Chất lượng xe là ưu tiên số một. Motoopen cam kết:</p>
         <ul>
-            <li><i class="fa-solid fa-wrench"></i> **Bảo dưỡng định kỳ nghiêm ngặt:** Tất cả xe đều được kiểm tra an toàn kỹ thuật trước mỗi lần thuê.</li>
-            <li><i class="fa-solid fa-shield-halved"></i> **Giá thuê minh bạch:** Không phát sinh phụ phí ẩn, giá cọc nhẹ nhàng.</li>
-            <li><i class="fa-solid fa-headset"></i> **Hỗ trợ chuyên nghiệp:** Đội ngũ luôn sẵn lòng tư vấn tuyến đường, kinh nghiệm di chuyển tại Hà Nội.</li>
+            <li><i class="fa-solid fa-wrench"></i> <b>Bảo dưỡng định kỳ nghiêm ngặt:</b> Tất cả xe đều được kiểm tra an toàn kỹ thuật trước mỗi lần thuê.</li>
+            <li><i class="fa-solid fa-shield-halved"></i> <b>Giá thuê minh bạch:</b> Không phát sinh phụ phí ẩn, giá cọc nhẹ nhàng.</li>
+            <li><i class="fa-solid fa-headset"></i> <b>Hỗ trợ chuyên nghiệp:</b> Đội ngũ luôn sẵn lòng tư vấn tuyến đường, kinh nghiệm di chuyển tại Hà Nội.</li>
         </ul>
       </div>
       
       <div class="about-card fade-up">
         <h3><i class="fa-solid fa-chart-line"></i> Tầm nhìn</h3>
-        <p>Trở thành đơn vị cho thuê xe máy hàng đầu tại Hà Nội, được nhận diện là dịch vụ **thuận tiện nhất và đáng tin cậy nhất** cho cả khách du lịch quốc tế và người dân địa phương. Chúng tôi không ngừng mở rộng danh mục xe, nâng cao chất lượng dịch vụ để đáp ứng mọi nhu cầu di chuyển.</p>
+        <p>Trở thành đơn vị cho thuê xe máy hàng đầu tại Hà Nội, được nhận diện là dịch vụ <b>thuận tiện nhất và đáng tin cậy nhất</b> cho cả khách du lịch quốc tế và người dân địa phương. Chúng tôi không ngừng mở rộng danh mục xe, nâng cao chất lượng dịch vụ để đáp ứng mọi nhu cầu di chuyển.</p>
       </div>
 
       <div class="hero-actions" style="margin-top: 30px;">
-          <a class="btn primary" href="https://motoopen.github.io/chothuexemayhanoi/banggia.html" aria-label="Xem bảng giá"><i class="fa-solid fa-tags"></i> Xem Bảng Giá</a>
-          <a class="btn alt" href="https://motoopen.github.io/chothuexemayhanoi/lienhe.html" aria-label="Chuyển đến trang liên hệ"><i class="fa-solid fa-phone"></i> Liên hệ chi tiết</a>
-      </div>
-    </section>
-
-    <section class="reviews-section" id="danhgia" aria-labelledby="review-title">
-      <div class="reviews-bg" id="reviewsBg" aria-hidden="true"></div>
-      <div class="reviews-overlay" aria-hidden="true"></div>
-
-      <div class="reviews-wrap">
-        <h2 id="review-title" class="slide-left">Khách hàng tại Hà Nội nói gì</h2>
-        <div class="review-cards" aria-live="polite">
-          <div class="review-card slide-from-left fade-up">
-            <p>“Thuê xe Vision 3 ngày, xe chạy êm — giao tận nơi phố cổ nhanh, phí nhẹ.”</p>
-            <div class="author">— <strong>Thu Hà</strong> · Phố Cổ</div>
-          </div>
-
-          <div class="review-card slide-from-right fade-up">
-            <p>“Giá thuê xe máy hợp lý, cọc nhẹ, nhân viên thân thiện. Ở Long Biên rất tiện.”</p>
-            <div class="author">— <strong>Quang Lâm</strong> · Long Biên</div>
-          </div>
-
-          <div class="review-card slide-from-left fade-up">
-            <p>“Mình thuê xe ga theo tháng ở Tây Hồ — giá tốt, xe mới, bảo dưỡng kỹ.”</p>
-            <div class="author">— <strong>Gia Nội</strong> · Tây Hồ</div>
-          </div>
-
-          <div class="review-card slide-from-right fade-up">
-            <p>“Thuê xe máy Hà Nội dễ, nhận xe nhanh, giao tận nơi đúng giờ — rất đáng tiền.”</p>
-            <div class="author">— <strong>Lan Tây</strong> · Ba Đình</div>
-          </div>
-
-          <div class="review-card slide-from-left fade-up">
-            <p>“Giá thuê xe máy 150k/ngày, thuê tháng từ 1 triệu — quá hợp lý, xe cực mới.”</p>
-            <div class="author">— <strong>Hồ Đức</strong> · Hoàn Kiếm</div>
-          </div>
-        </div>
+          <a class="btn quick-style" href="https://motoopen.github.io/chothuexemayhanoi/banggia.html" aria-label="Xem bảng giá"><i class="fa-solid fa-tags"></i> Xem Bảng Giá</a>
+          <a class="btn quick-style" href="https://motoopen.github.io/chothuexemayhanoi/lienhe.html" aria-label="Chuyển đến trang liên hệ"><i class="fa-solid fa-phone"></i> Liên hệ chi tiết</a>
       </div>
     </section>
 
     <section class="reveal faq" id="faq" aria-labelledby="faq-title">
-      <h2 id="faq-title" class="slide-right">Câu hỏi thường gặp</h2>
+      <h2 id="faq-title" class="slide-right">Câu hỏi về Motoopen</h2>
 
       <div tabindex="0" class="q fade-up" role="button" aria-expanded="false">
-        <div>Giá thuê xe máy theo ngày Hà Nội bao nhiêu?</div><div class="sign">+</div>
+        <div>Motoopen hoạt động trong lĩnh vực gì?</div><div class="sign">+</div>
       </div>
-      <div class="a">Giá thuê xe máy từ <strong>150k</strong> đến <strong>200k/ngày</strong>, tùy loại xe.</div>
+      <div class="a">Chúng tôi là dịch vụ chuyên <b>cho thuê xe máy (xe ga, xe số, xe điện) ngắn hạn và dài hạn tại Hà Nội</b>, tập trung vào chất lượng xe và sự tiện lợi của khách hàng.</div>
 
       <div tabindex="0" class="q fade-up" role="button" aria-expanded="false">
-        <div>Giá thuê xe máy theo tuần?</div><div class="sign">+</div>
+        <div>Điểm khác biệt của Motoopen so với các dịch vụ khác?</div><div class="sign">+</div>
       </div>
-      <div class="a">Giá thuê 1 tuần thường khoảng <strong>600k – 900k</strong> tuỳ loại xe và thời điểm.</div>
+      <div class="a">Điểm khác biệt chính là cam kết <b>xe đời mới được bảo dưỡng định kỳ nghiêm ngặt</b> và dịch vụ <b>giao nhận xe tận nơi nhanh chóng</b> tại khu vực trung tâm/phố cổ Hà Nội.</div>
 
       <div tabindex="0" class="q fade-up" role="button" aria-expanded="false">
-        <div>Giá thuê xe máy tháng bao nhiêu?</div><div class="sign">+</div>
+        <div>Làm thế nào để tôi liên hệ Motoopen?</div><div class="sign">+</div>
       </div>
-      <div class="a">Giá thuê theo tháng khá rẻ: <strong>từ 1 triệu đến 2 triệu/tháng</strong>, phù hợp khách thuê dài hạn.</div>
+      <div class="a">Bạn có thể gọi trực tiếp đến hotline <b>0857 255 868</b>, chat qua <b>Zalo (cùng số)</b> hoặc điền form liên hệ trên trang <a href="https://motoopen.github.io/chothuexemayhanoi/lienhe.html" style="color:var(--accent);text-decoration:underline;">Liên hệ</a> của chúng tôi.</div>
       
       <div tabindex="0" class="q fade-up" role="button" aria-expanded="false">
-        <div>Thủ tục thuê xe máy là gì?</div><div class="sign">+</div>
+        <div>Tôi có thể tìm địa chỉ cửa hàng ở đâu?</div><div class="sign">+</div>
       </div>
-      <div class="a">Đặt cọc: từ <strong>1 triệu đến 5 triệu</strong> tùy loại xe; CMND/CCCD hoặc hộ chiếu, hợp đồng thuê đơn giản, giao xe tận nơi nếu cần.</div>
+      <div class="a">Motoopen hoạt động theo mô hình giao nhận xe linh hoạt, nhưng địa chỉ giao dịch chính của chúng tôi là <b>114 Nguyễn Văn Cừ, Long Biên, Hà Nội</b>.</div>
 
       <div tabindex="0" class="q fade-up" role="button" aria-expanded="false">
-        <div>Thuê xe máy Hà Nội có giao tận nơi không?</div><div class="sign">+</div>
+        <div>Motoopen có giao xe tận nơi không?</div><div class="sign">+</div>
       </div>
-      <div class="a">Có — giao quanh khu vực Hà Nội: Phố Cổ, Hoàn Kiếm, Long Biên, Gia Lâm, Tây Hồ, Ba Đình. Không giao đến sân bay Nội Bài. Có tính phí giao nhưng nhanh và tiện.</div>
-
-      <div tabindex="0" class="q fade-up" role="button" aria-expanded="false">
-        <div>Thuê xe máy có cần bằng lái không?</div><div class="sign">+</div>
+      <div class="a">Có, chúng tôi hỗ trợ giao và nhận xe tại các quận trung tâm như Hoàn Kiếm, Long Biên, Tây Hồ, Ba Đình, Gia Lâm. Vui lòng liên hệ để xác nhận phí giao nhận cụ thể.</div>
+    </section>
+    
+    <section class="quick-links-card fade-up">
+      <h2 style="text-align:center;margin-bottom:18px;">🔗 Liên kết nhanh</h2>
+      <div class="quick-links-grid">
+        <a href="https://motoopen.github.io/chothuexemayhanoi/"><i class="fa-solid fa-house"></i><span>Trang chủ</span></a>
+        <a href="https://motoopen.github.io/chothuexemayhanoi/gioithieu.html"><i class="fa-solid fa-circle-info"></i><span>Giới thiệu</span></a>
+        <a href="https://motoopen.github.io/chothuexemayhanoi/banggia.html"><i class="fa-solid fa-tags"></i><span>Bảng giá</span></a>
+        <a href="https://motoopen.github.io/chothuexemayhanoi/thutuc.html"><i class="fa-solid fa-file-signature"></i><span>Thủ tục</span></a>
+        <a href="https://motoopen.github.io/chothuexemayhanoi/dichvu.html"><i class="fa-solid fa-briefcase"></i><span>Dịch vụ</span></a>
+        <a href="https://motoopen.github.io/chothuexemayhanoi/faq.html"><i class="fa-solid fa-circle-question"></i><span>FAQ</span></a>
+        <a href="https://motoopen.github.io/chothuexemayhanoi/lienhe.html"><i class="fa-solid fa-phone"></i><span>Liên hệ</span></a>
+        <a href="https://motoopen.github.io/chothuexemayhanoi/dieukhoansudung.html"><i class="fa-solid fa-file-contract"></i><span>Điều khoản</span></a>
       </div>
-      <div class="a">Nếu không có bằng lái, chúng tôi có phương án: xe 50cc giá rẻ hoặc xe điện (tùy khu vực). Tuy nhiên, xin lưu ý luật giao thông địa phương.</div>
-
-      <div tabindex="0" class="q fade-up" role="button" aria-expanded="false">
-        <div>Giá thuê xe máy theo loại phổ biến?</div><div class="sign">+</div>
-      </div>
-      <div class="a">Xe số: ~150k/ngày; Xe ga (Vision/AirBlade): ~200k/ngày. Thuê tháng: 1 triệu – 2 triệu. Liên hệ để báo giá chính xác.</div>
     </section>
     
   </main>
+
+  <section class="quick-links-card fade-up" style="margin-top:0; border-radius: 16px 16px 0 0;">
+    <h2 style="text-align:center;margin-bottom:18px;">🚀 Bắt đầu ngay</h2>
+    <div class="quick-links-grid">
+      <a href="https://motoopen.github.io/chothuexemayhanoi/"><i class="fa-solid fa-house"></i><span>Trang chủ</span></a>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/gioithieu.html"><i class="fa-solid fa-circle-info"></i><span>Giới thiệu</span></a>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/banggia.html"><i class="fa-solid fa-tags"></i><span>Bảng giá</span></a>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/thutuc.html"><i class="fa-solid fa-file-signature"></i><span>Thủ tục</span></a>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/dichvu.html"><i class="fa-solid fa-briefcase"></i><span>Dịch vụ</span></a>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/faq.html"><i class="fa-solid fa-circle-question"></i><span>FAQ</span></a>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/lienhe.html"><i class="fa-solid fa-phone"></i><span>Liên hệ</span></a>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/dieukhoansudung.html"><i class="fa-solid fa-file-contract"></i><span>Điều khoản</span></a>
+    </div>
+  </section>
 
   <footer class="premium">
   <div>
@@ -1219,7 +1328,6 @@
       const hamburger = document.getElementById('hamburger');
       const drawer = document.getElementById('drawer');
       const overlay = document.getElementById('drawerOverlay');
-      const reviewsBg = document.getElementById('reviewsBg');
       const backTop = document.querySelector('.back-top');
       
       // === CẬP NHẬT: DARK MODE LOGIC ===
@@ -1319,14 +1427,14 @@
         if(y > 300 && backTop) backTop.style.display = 'flex'; else if(backTop) backTop.style.display = 'none'; // Hiển thị/Ẩn Back to Top
 
         // small parallax for reviews background (move slower)
-        if(reviewsBg){
-          // apply small translate based on page offset
-          const rect = reviewsBg.parentElement.getBoundingClientRect();
-          const center = (rect.top + rect.bottom) / 2;
-          const winCenter = window.innerHeight / 2;
-          const diff = (winCenter - center) * 0.06; // softer
-          reviewsBg.style.transform = `translateY(${diff}px)`;
-        }
+        /* ĐÃ XÓA PHẦN NÀY */
+        // if(reviewsBg){
+        //   const rect = reviewsBg.parentElement.getBoundingClientRect();
+        //   const center = (rect.top + rect.bottom) / 2;
+        //   const winCenter = window.innerHeight / 2;
+        //   const diff = (winCenter - center) * 0.06; // softer
+        //   reviewsBg.style.transform = `translateY(${diff}px)`;
+        // }
       }
       window.addEventListener('scroll', onScroll, {passive:true});
       handleScroll(window.scrollY || 0);
@@ -1361,6 +1469,18 @@
             q.setAttribute('aria-expanded','false');
             q.querySelector('.sign').textContent = '+';
           } else {
+            // Đóng tất cả các FAQ khác trước khi mở cái mới
+            faqs.forEach(otherQ => {
+                if (otherQ !== q) {
+                    const otherA = otherQ.nextElementSibling;
+                    if (otherA && otherA.classList.contains('open')) {
+                        otherA.classList.remove('open');
+                        otherQ.setAttribute('aria-expanded', 'false');
+                        otherQ.querySelector('.sign').textContent = '+';
+                    }
+                }
+            });
+
             next.classList.add('open');
             q.setAttribute('aria-expanded','true');
             q.querySelector('.sign').textContent = '−';
@@ -1377,20 +1497,6 @@
       window.addEventListener('keydown', (e) => {
         if(e.key === 'Escape') openDrawer(false);
       });
-
-      // tiny improvement: smooth scroll for internal links with offset (nav height)
-      // *** ĐÃ TẮT TÍNH NĂNG NÀY ĐỂ ƯU TIÊN LINK ĐA TRANG ***
-      // document.querySelectorAll('a[href^="#"]').forEach(a=>{
-      //   a.addEventListener('click', (e)=>{
-      //     const href = a.getAttribute('href');
-      //     if(href.length > 1 && document.querySelector(href)){
-      //       e.preventDefault();
-      //       const navHeight = topbar.getBoundingClientRect().height + 8;
-      //       const targetTop = document.querySelector(href).offsetTop - navHeight;
-      //       window.scrollTo({top: targetTop, behavior:'smooth'});
-      //     }
-      //   });
-      // });
 
       // ** Quick Call Menu logic NÂNG CẤP **
       const quickGame = document.querySelector('.quick-call-game');
