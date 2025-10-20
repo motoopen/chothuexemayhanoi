@@ -37,7 +37,7 @@
   {
     "@context": "https://schema.org",
     "@type": "ContactPage",
-    "@id": "https://motoopen.github.io/chothuexemayhanoi/lienhe.html",
+    "@id": "https://motoopen.github.io/chothuexemayhanoi/lienhe.html#contactpage",
     "url": "https://motoopen.github.io/chothuexemayhanoi/lienhe.html",
     "name": "Liên hệ Motoopen - Thuê Xe Máy Hà Nội",
     "description": "Trang liên hệ Motoopen. Hotline: 0857 255 868, Email: motoopen12@gmail.com, Địa chỉ: 114 Nguyễn Văn Cừ, Long Biên, Hà Nội.",
@@ -50,8 +50,7 @@
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "114 Nguyễn Văn Cừ",
-        "addressLocality": "Long Biên",
-        "addressRegion": "Hà Nội",
+        "addressLocality": "Long Biên, Hà Nội",
         "postalCode": "100000",
         "addressCountry": "VN"
       },
@@ -96,9 +95,8 @@
       --accent:#007aff;
       --accent-2:#2bc76f;
       --glass-border: rgba(220,220,215,0.6);
-      --card-radius:14px;
+      --card-radius:18px;
       --nav-gap:12px;
-      /* Biến màu cho Quick Call */
       --quick-main-start: #007aff;
       --quick-main-end: #00d4ff;
       --quick-sub-start: #2bc76f;
@@ -106,33 +104,23 @@
       --topbar-bg: rgba(255,255,255,0.78);
       --topbar-scrolled-bg: rgba(255,255,255,0.92);
       --drawer-bg: linear-gradient(180deg, rgba(255,255,255,0.98), rgba(250,250,252,0.96));
-      --hero-bg: linear-gradient(180deg, rgba(255,255,255,0.98), rgba(245,245,247,0.98));
-      --table-wrap-bg: rgba(255,255,255,0.74);
-      --table-head-bg: rgba(250,250,252,0.9);
-      --review-card-bg: linear-gradient(180deg, rgba(255,255,255,0.98), rgba(250,250,252,0.98));
-      --review-overlay-bg: linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.85));
-      --faq-a-bg: linear-gradient(180deg, #fff, #fcfcfd);
       --footer-bg: rgba(255,255,255,0.72);
+      --card-bg: rgba(255,255,255,0.7);
     }
     /* DARK MODE OVERRIDES */
     body.dark {
-      --bg: #1C1C1E; /* Apple Dark */
+      --bg: #1C1C1E;
       --surface: #2C2C2E;
       --text: #F2F2F7;
       --muted: #8E8E93;
-      --accent: #0A84FF; /* Apple Blue Dark */
-      --accent-2: #30D158; /* Apple Green Dark */
+      --accent: #0A84FF;
+      --accent-2: #30D158;
       --glass-border: rgba(60,60,67,0.6);
       --topbar-bg: rgba(28,28,30,0.78);
       --topbar-scrolled-bg: rgba(28,28,30,0.92);
       --drawer-bg: linear-gradient(180deg, rgba(28,28,30,0.98), rgba(35,35,37,0.96));
-      --hero-bg: linear-gradient(180deg, rgba(28,28,30,0.98), rgba(35,35,37,0.98));
-      --table-wrap-bg: rgba(28,28,30,0.74);
-      --table-head-bg: rgba(35,35,37,0.9);
-      --review-card-bg: linear-gradient(180deg, rgba(44,44,46,0.98), rgba(35,35,37,0.98));
-      --review-overlay-bg: linear-gradient(180deg, rgba(28,28,30,0.6), rgba(28,28,30,0.85));
-      --faq-a-bg: linear-gradient(180deg, var(--surface), #3A3A3C);
       --footer-bg: rgba(28,28,30,0.72);
+      --card-bg: rgba(28,28,30,0.7);
     }
 
     *{box-sizing:border-box}
@@ -150,898 +138,353 @@
     a{color:var(--accent); text-decoration: none;}
     a:hover { text-decoration: underline; }
     .container{max-width:var(--maxw);margin:0 auto;padding:0 20px}
-    .topbar {
-      position: fixed;
-      top:12px;
-      left:50%;
-      transform:translateX(-50%);
-      width: calc(100% - 32px);
-      max-width:var(--maxw);
-      z-index:1600;
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:var(--nav-gap);
-      padding:10px 18px;
-      background:var(--topbar-bg);
-      backdrop-filter: blur(12px) saturate(150%);
-      border:1px solid var(--glass-border);
-      border-radius:14px;
-      box-shadow:0 8px 24px rgba(0,0,0,0.06);
-      transition: all 280ms cubic-bezier(.2,.9,.2,1);
-    }
-    .topbar.scrolled{
-      background:var(--topbar-scrolled-bg);
-      box-shadow:0 10px 30px rgba(0,0,0,0.08);
-      padding:8px 16px;
-    }
-    body.dark .topbar.scrolled {
-      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
-    }
-    body.dark .topbar {
-      box-shadow: 0 8px 24px rgba(0,0,0,0.3);
-    }
-    .brand{display:flex;align-items:center;gap:12px}
-    .brand img{width:40px;height:40px;border-radius:8px;object-fit:cover}
-    .brand h3{margin:0;font-size:1.05rem;font-weight:700;color:var(--text)}
-    .nav-links{display:flex;align-items:center;gap:8px}
-    .nav-links a{
-      color:var(--text);text-decoration:none;font-weight:600;padding:8px 12px;border-radius:10px;display:inline-flex;gap:8px;align-items:center;transition:all .16s;
-    }
-    .nav-links a i{width:18px;text-align:center}
-    .nav-links a:hover{color:var(--accent);background:rgba(0,122,255,0.06)}
-    body.dark .nav-links a:hover{background:rgba(10,132,255,0.12);}
-    .toggle-dark {
-        cursor: pointer;
-        padding: 8px 12px;
-        border-radius: 10px;
-        background: rgba(0,0,0,0.04);
-        transition: background 0.3s, transform 0.2s, color 0.3s;
-        font-size: 1.1rem;
-        display: inline-flex;
-        align-items: center;
-        margin-left: 8px; /* Tách khỏi CTA */
-    }
-    .toggle-dark:hover {
-        background: rgba(0,0,0,0.1);
-        transform: scale(1.05);
-    }
-    body.dark .toggle-dark {
-        background: rgba(255,255,255,0.1);
-        color: var(--text);
-    }
-    body.dark .toggle-dark:hover {
-        background: rgba(255,255,255,0.2);
-    }
-    #toggle-dark-desktop { display:inline-flex; }
-    #toggle-dark-mobile { display:none; }
-    .hamburger{display:none;background:none;border:0;cursor:pointer;padding:8px;border-radius:8px}
-    .hamburger .bar{display:block;width:22px;height:2px;background:var(--text);margin:4px 0;border-radius:2px;transition:all .28s}
-    .hamburger.active .bar:nth-child(1){transform:translateY(6px) rotate(45deg)}
-    .hamburger.active .bar:nth-child(2){opacity:0}
-    .hamburger.active .bar:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
-    .drawer-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.28);backdrop-filter:blur(2px);opacity:0;pointer-events:none;transition:opacity .28s;z-index:1500}
-    .drawer-overlay.active{opacity:1;pointer-events:auto}
-    .drawer{
-      position:fixed;top:0;right:0;height:100vh;width:340px;max-width:90vw;
-      background:var(--drawer-bg);
-      backdrop-filter: blur(18px) saturate(150%);
-      box-shadow:-18px 0 40px rgba(0,0,0,0.12);
-      transform: translateX(110%);
-      transition: transform .42s cubic-bezier(.2,.9,.2,1);
-      z-index:1550;padding:84px 22px 22px;border-left:1px solid var(--glass-border)
-    }
-    .drawer.open{transform:translateX(0)}
-    .drawer a{display:block;padding:12px 6px;color:var(--text);text-decoration:none;font-weight:700;border-radius:8px}
-    .drawer a.icon{display:flex;gap:12px;align-items:center}
+
+    /* ===== NAVBAR (Copied from index.html) ===== */
+    .topbar{position:fixed;top:12px;left:50%;transform:translateX(-50%);width:calc(100% - 32px);max-width:var(--maxw);z-index:1600;display:flex;align-items:center;justify-content:space-between;gap:var(--nav-gap);padding:10px 18px;background:var(--topbar-bg);backdrop-filter:blur(12px) saturate(150%);border:1px solid var(--glass-border);border-radius:14px;box-shadow:0 8px 24px rgba(0,0,0,0.06);transition:all 280ms cubic-bezier(.2,.9,.2,1)}.topbar.scrolled{background:var(--topbar-scrolled-bg);box-shadow:0 10px 30px rgba(0,0,0,0.08);padding:8px 16px}body.dark .topbar.scrolled{box-shadow:0 10px 30px rgba(0,0,0,0.4)}body.dark .topbar{box-shadow:0 8px 24px rgba(0,0,0,0.3)}.brand{display:flex;align-items:center;gap:12px}.brand img{width:40px;height:40px;border-radius:8px;object-fit:cover}.brand h3{margin:0;font-size:1.05rem;font-weight:700;color:var(--text)}.nav-links{display:flex;align-items:center;gap:8px}.nav-links a{color:var(--text);text-decoration:none;font-weight:600;padding:8px 12px;border-radius:10px;display:inline-flex;gap:8px;align-items:center;transition:all .16s}.nav-links a i{width:18px;text-align:center}.nav-links a:hover{color:var(--accent);background:rgba(0,122,255,0.06)}body.dark .nav-links a:hover{background:rgba(10,132,255,0.12)}.toggle-dark{cursor:pointer;padding:8px 12px;border-radius:10px;background:rgba(0,0,0,0.04);transition:background .3s,transform .2s,color .3s;font-size:1.1rem;display:inline-flex;align-items:center;margin-left:8px}.toggle-dark:hover{background:rgba(0,0,0,0.1);transform:scale(1.05)}body.dark .toggle-dark{background:rgba(255,255,255,0.1);color:var(--text)}body.dark .toggle-dark:hover{background:rgba(255,255,255,0.2)}#toggle-dark-desktop{display:inline-flex}#toggle-dark-mobile{display:none}.hamburger{display:none;background:none;border:0;cursor:pointer;padding:8px;border-radius:8px}.hamburger .bar{display:block;width:22px;height:2px;background:var(--text);margin:4px 0;border-radius:2px;transition:all .28s}.hamburger.active .bar:nth-child(1){transform:translateY(6px) rotate(45deg)}.hamburger.active .bar:nth-child(2){opacity:0}.hamburger.active .bar:nth-child(3){transform:translateY(-6px) rotate(-45deg)}.drawer-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.28);backdrop-filter:blur(2px);opacity:0;pointer-events:none;transition:opacity .28s;z-index:1500}.drawer-overlay.active{opacity:1;pointer-events:auto}.drawer{position:fixed;top:0;right:0;height:100vh;width:340px;max-width:90vw;background:var(--drawer-bg);backdrop-filter:blur(18px) saturate(150%);box-shadow:-18px 0 40px rgba(0,0,0,0.12);transform:translateX(110%);transition:transform .42s cubic-bezier(.2,.9,.2,1);z-index:1550;padding:84px 22px 22px;border-left:1px solid var(--glass-border)}.drawer.open{transform:translateX(0)}.drawer a{display:block;padding:12px 6px;color:var(--text);text-decoration:none;font-weight:700;border-radius:8px}.drawer a.icon{display:flex;gap:12px;align-items:center}.drawer .drawer-accordion-toggle{background:none;border:none;text-align:left;cursor:pointer;display:block;padding:12px 6px;color:var(--text);text-decoration:none;font-weight:700;border-radius:8px;display:flex;gap:12px;align-items:center;justify-content:space-between;width:100%;font-family:inherit;font-size:1rem;line-height:1.5}.drawer .drawer-accordion-toggle:hover{background:rgba(0,0,0,0.04)}body.dark .drawer .drawer-accordion-toggle:hover{background:rgba(255,255,255,0.08)}.drawer .drawer-accordion-toggle .caret-icon{transition:transform .3s cubic-bezier(.2,.9,.2,1);font-size:.9rem;color:var(--muted);padding:0 8px}.drawer .drawer-accordion-toggle.open .caret-icon{transform:rotate(180deg);color:var(--accent)}.drawer .drawer-accordion-toggle.open{color:var(--accent);background:rgba(0,122,255,0.05)}body.dark .drawer .drawer-accordion-toggle.open{background:rgba(10,132,255,0.1)}.drawer .drawer-submenu{max-height:0;overflow:hidden;transition:max-height .4s ease-out;margin-left:20px;padding-left:14px;border-left:2px solid var(--glass-border);margin-top:-5px;margin-bottom:5px}.drawer .drawer-submenu.open{max-height:400px;border-left:2px solid var(--accent)}.drawer .drawer-submenu a.icon{padding-top:10px;padding-bottom:10px;padding-left:0;font-size:.95rem;font-weight:600;color:var(--muted)}.drawer .drawer-submenu a.icon:hover{color:var(--text);background:none}.drawer .drawer-submenu a.icon i{width:22px;text-align:center}
+
+    /* ===== FOOTER & QUICK CALL (Copied from index.html) ===== */
+    footer.premium{background:var(--footer-bg);backdrop-filter:blur(14px) saturate(150%);border-top:1px solid var(--glass-border);padding:48px 20px 32px;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:24px;font-family:Inter,sans-serif;color:var(--text);position:relative;overflow:hidden;box-shadow:0 -8px 32px rgba(0,0,0,0.06);border-radius:16px 16px 0 0;margin-top:40px;padding-bottom:50px;text-align:left}body.dark footer.premium{box-shadow:0 -8px 32px rgba(0,0,0,0.3)}footer.premium h4{margin-bottom:12px;font-weight:700;font-size:1.05rem;text-transform:uppercase;color:var(--accent)}footer.premium a{display:block;margin:6px 0;color:var(--text);text-decoration:none;transition:all .2s ease;text-align:left;position:relative}footer.premium a::after{content:'';position:absolute;left:0;bottom:0;width:0;height:2px;background:linear-gradient(90deg,var(--accent),var(--quick-main-end));transition:width .3s ease;border-radius:1px}footer.premium a:hover::after{width:100%}footer.premium a:hover{color:var(--accent);transform:translateX(4px)}footer.premium a i{margin-right:6px;width:18px;text-align:center}footer .author,footer.premium p{margin-top:6px;font-size:.85rem;color:var(--muted);display:flex;align-items:center;gap:6px}.footer-social{display:flex;gap:12px;margin-top:10px}.footer-social a{display:inline-flex;width:32px;height:32px;background:var(--accent);color:#fff;border-radius:50%;justify-content:center;align-items:center;font-size:1rem;transition:transform .2s,background .2s}.footer-social a:hover{transform:scale(1.1);background:var(--quick-main-end)}.quick-call-game{position:fixed;bottom:16px;right:16px;display:flex;flex-direction:column;align-items:flex-end;z-index:1600}.quick-main{background:linear-gradient(135deg,var(--quick-main-start),var(--quick-main-end));color:#fff;border:none;width:60px;height:60px;border-radius:50%;box-shadow:0 0 15px var(--quick-main-start),0 0 30px var(--quick-main-end),0 0 50px var(--quick-main-start);cursor:pointer;display:flex;justify-content:center;align-items:center;font-size:1.5rem;transition:all .2s ease;animation:float 2s infinite alternate,neonGlow 1.8s infinite alternate}.quick-main:hover{transform:scale(1.15) rotate(-12deg);box-shadow:0 0 25px var(--quick-main-start),0 0 50px var(--quick-main-end),0 0 70px var(--quick-main-start)}@keyframes float{0%{transform:translateY(0)}100%{transform:translateY(-10px)}}@keyframes neonGlow{0%,100%{box-shadow:0 0 15px var(--quick-main-start),0 0 30px var(--quick-main-end),0 0 50px var(--quick-main-start)}50%{box-shadow:0 0 25px var(--quick-main-start),0 0 45px var(--quick-main-end),0 0 70px var(--quick-main-start)}}.quick-sub{display:none;flex-direction:column;margin-bottom:12px;gap:12px}.quick-sub a{width:50px;height:50px;border-radius:50%;display:flex;justify-content:center;align-items:center;background:linear-gradient(135deg,var(--quick-sub-start),var(--quick-sub-end));color:#fff;font-size:1.2rem;box-shadow:0 0 12px var(--quick-sub-start),0 0 25px var(--quick-sub-end);transition:all .2s ease;text-decoration:none}.quick-sub a:hover{transform:scale(1.15) rotate(-10deg);box-shadow:0 0 20px var(--quick-sub-start),0 0 35px var(--quick-sub-end)}.quick-call-game.open .quick-sub{display:flex;animation:subAppear .3s ease forwards}@keyframes subAppear{0%{opacity:0;transform:translateY(12px)}100%{opacity:1;transform:translateY(0)}}.back-top{position:fixed;right:16px;bottom:90px;background:#2bc76f;color:#fff;width:48px;height:48px;border-radius:50%;display:none;justify-content:center;align-items:center;font-size:1.2rem;cursor:pointer;box-shadow:0 8px 18px rgba(43,199,111,0.3);transition:all .2s ease;z-index:1600;text-align:center}.back-top:hover{transform:scale(1.1)}.footer-tagline{position:absolute;bottom:0;left:0;width:100%;height:36px;overflow:hidden;display:flex;align-items:center;font-weight:700;font-size:1rem;color:var(--accent);background:var(--footer-bg);padding:0 0 0 20px;border-top:1px solid var(--glass-border)}.footer-tagline .inner{display:inline-flex;align-items:center;gap:12px;animation:marquee 15s linear infinite alternate;padding-right:40px;text-shadow:0 0 4px #00d4ff,0 0 10px #00d4ff}.footer-tagline img{width:28px;height:28px;border-radius:4px}.footer-tagline:hover .inner{animation-play-state:paused}@keyframes marquee{0%{transform:translateX(100%)}100%{transform:translateX(-100%)}}
     
-    footer.premium {
-      background: var(--footer-bg);
+    /* ===== NEW STYLES FOR LIENHE.HTML ===== */
+    .page-title { font-size: clamp(28px, 5vw, 42px); font-weight: 800; text-align: center; margin-bottom: 2rem; }
+    .breadcrumb { margin-bottom: 2rem; font-size: 0.9rem; color: var(--muted); text-align: center; }
+    .breadcrumb a { color: var(--accent); font-weight: 600; }
+    .breadcrumb i { margin: 0 4px; }
+    .section-title { font-size: 1.8rem; font-weight: 700; text-align: center; margin: 3rem 0 1.5rem 0; color: var(--text); }
+    
+    /* NAP Card */
+    .contact-nap-card {
+      background: var(--card-bg);
       backdrop-filter: blur(14px) saturate(150%);
-      border-top: 1px solid var(--glass-border);
-      padding: 48px 20px 32px;
+      border: 1px solid var(--glass-border);
+      border-radius: var(--card-radius);
+      padding: 2rem;
+      box-shadow: 0 12px 36px rgba(0,0,0,0.06);
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px,1fr)); 
-      gap: 24px;
-      font-family: Inter, sans-serif;
-      color: var(--text);
-      position: relative;
-      overflow: hidden;
-      box-shadow: 0 -8px 32px rgba(0,0,0,0.06);
-      border-radius: 16px 16px 0 0;
-      margin-top: 40px; 
-      padding-bottom: 50px; 
-      text-align: left;
+      gap: 1.5rem;
     }
-    body.dark footer.premium {
-        box-shadow: 0 -8px 32px rgba(0,0,0,0.3);
-    }
-
-    footer.premium h4 {
-      margin-bottom: 12px;
-      font-weight: 700;
-      font-size: 1.05rem;
-      text-transform: uppercase;
-      color: var(--accent);
-    }
-
-    footer.premium a {
-      display: block;
-      margin: 6px 0;
-      color: var(--text);
-      transition: all 0.2s ease;
-      text-align: left;
-      position: relative;
-    }
-    footer.premium a:hover {
-      color: var(--accent);
-      transform: translateX(4px);
-      text-decoration: none;
-    }
-    footer.premium a i {
-        margin-right: 6px;
-        width: 18px;
-        text-align: center;
-    }
-    footer .author, footer.premium p {
-      margin-top: 6px;
-      font-size: 0.85rem;
-      color: var(--muted);
-      display: flex; 
-      align-items: center; 
-      gap: 6px;
-    }
-    .footer-social {
-        display: flex;
-        gap: 12px;
-        margin-top: 10px;
-    }
-    .footer-social a {
-        display: inline-flex;
-        width: 32px;
-        height: 32px;
-        background: var(--accent);
-        color: #fff;
-        border-radius: 50%;
-        justify-content: center;
-        align-items: center;
-        font-size: 1rem;
-        transition: transform 0.2s, background 0.2s;
-    }
-    .footer-social a:hover {
-        transform: scale(1.1);
-        background: var(--quick-main-end);
-    }
-    .quick-call-game {
-      position: fixed;
-      bottom: 16px;
-      right: 16px;
+    body.dark .contact-nap-card { box-shadow: 0 12px 36px rgba(0,0,0,0.4); }
+    .nap-item { display: flex; align-items: center; gap: 1rem; }
+    .nap-item .icon-wrapper {
+      flex-shrink: 0;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
       display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      z-index: 1600;
-    }
-    .quick-main {
-      background: linear-gradient(135deg,var(--quick-main-start),var(--quick-main-end));
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, var(--quick-main-start), var(--quick-main-end));
       color: #fff;
-      border: none;
+      font-size: 1.2rem;
+      box-shadow: 0 6px 16px rgba(0,122,255,0.2);
+    }
+    .nap-item .text-content { font-size: 1rem; line-height: 1.5; }
+    .nap-item .text-content strong { display: block; font-weight: 700; color: var(--text); margin-bottom: 2px; }
+    .nap-item .text-content span, .nap-item .text-content a { color: var(--muted); }
+    .nap-item .text-content a { color: var(--accent); font-weight: 500; }
+    .nap-item .text-content a:hover { text-decoration: underline; }
+
+    /* Map Section */
+    .map-container {
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      border: 1px solid var(--glass-border);
+      margin-top: 1rem;
+    }
+    body.dark .map-container { box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+    .map-container iframe {
+      display: block;
+      border: 0;
+      width: 100%;
+      height: 450px;
+    }
+
+    /* Social Links Grid */
+    .social-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+      justify-content: center;
+      gap: 1rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .social-grid a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       width: 60px;
       height: 60px;
       border-radius: 50%;
-      box-shadow: 0 0 15px var(--quick-main-start), 0 0 30px var(--quick-main-end), 0 0 50px var(--quick-main-start);
-      cursor: pointer;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: #fff;
       font-size: 1.5rem;
-      transition: all 0.2s ease;
-      animation: float 2s infinite alternate, neonGlow 1.8s infinite alternate;
-    }
-    .quick-main:hover {
-      transform: scale(1.15) rotate(-12deg);
-      box-shadow: 0 0 25px var(--quick-main-start), 0 0 50px var(--quick-main-end), 0 0 70px var(--quick-main-start);
-    }
-    @keyframes float {
-      0% { transform: translateY(0); }
-      100% { transform: translateY(-10px); }
-    }
-    @keyframes neonGlow {
-      0%, 100% { box-shadow: 0 0 15px var(--quick-main-start), 0 0 30px var(--quick-main-end), 0 0 50px var(--quick-main-start); }
-      50% { box-shadow: 0 0 25px var(--quick-main-start), 0 0 45px var(--quick-main-end), 0 0 70px var(--quick-main-start); }
-    }
-    .quick-sub {
-      display: none;
-      flex-direction: column;
-      margin-bottom: 12px; 
-      gap: 12px;
-    }
-    .quick-sub a {
-      width: 50px; height: 50px;
-      border-radius: 50%;
-      display: flex; justify-content: center; align-items: center;
-      background: linear-gradient(135deg,var(--quick-sub-start),var(--quick-sub-end));
-      color: #fff;
-      font-size: 1.2rem;
-      box-shadow: 0 0 12px var(--quick-sub-start), 0 0 25px var(--quick-sub-end);
-      transition: all 0.2s ease;
-      text-decoration: none;
-    }
-    .quick-sub a:hover {
-      transform: scale(1.15) rotate(-10deg);
-      box-shadow: 0 0 20px var(--quick-sub-start), 0 0 35px var(--quick-sub-end);
-    }
-    .quick-call-game.open .quick-sub {
-      display: flex;
-      animation: subAppear 0.3s ease forwards;
-    }
-    @keyframes subAppear {
-      0% { opacity:0; transform: translateY(12px); }
-      100% { opacity:1; transform: translateY(0); }
-    }
-    .back-top {
-      position: fixed;
-      right: 16px;
-      bottom: 90px;
-      background: #2bc76f;
-      color: #fff;
-      width: 48px;
-      height: 48px;
-      border-radius: 50%;
-      display: none;
-      justify-content: center;
-      align-items: center;
-      font-size: 1.2rem;
-      cursor: pointer;
-      box-shadow: 0 8px 18px rgba(43,199,111,0.3);
-      transition: all 0.2s ease;
-      z-index: 1600;
-      text-align: center;
-    }
-    .back-top:hover { transform: scale(1.1); }
-
-    .footer-tagline {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 36px;
-      overflow: hidden;
-      display: flex;
-      align-items: center;
-      font-weight: 700;
-      font-size: 1rem;
-      color: var(--accent);
-      background: var(--footer-bg); 
-      padding: 0 0 0 20px;
-      border-top: 1px solid var(--glass-border);
-    }
-    .footer-tagline .inner {
-      display: inline-flex;
-      align-items: center;
-      gap: 12px;
-      animation: marquee 15s linear infinite alternate;
-      padding-right: 40px; 
-      text-shadow: 0 0 4px #00d4ff, 0 0 10px #00d4ff;
-    }
-    .footer-tagline img {
-      width: 28px;
-      height: 28px;
-      border-radius: 4px;
-    }
-    .footer-tagline:hover .inner { animation-play-state: paused; }
-
-    @keyframes marquee {
-      0% { transform: translateX(100%); }
-      100% { transform: translateX(-100%); }
-    }
-    @media (max-width:900px){
-      #toggle-dark-desktop { display:none; }
-      #toggle-dark-mobile { 
-        display:inline-flex;
-        order: 2; 
-        margin: 0 10px 0 auto;
-      }
-      .nav-links{display:none}
-      .hamburger{display:block}
-      .topbar{
-        left:0;
-        transform:none;
-        width:100%;
-        border-radius:0;
-        max-width:none;
-        justify-content:space-between;
-        padding:8px 14px
-      }
-      .topbar .brand { order: 1; }
-      .topbar .hamburger { order: 3; }
-    }
-    @media (max-width:520px){
-      .brand h3{font-size:0.98rem}
-      footer.premium { 
-        grid-template-columns: 1fr; 
-        text-align: center; 
-        padding-left: 10px;
-        padding-right: 10px;
-      }
-      footer.premium a, footer .author, footer.premium p {
-        text-align: center; 
-        justify-content: center;
-      }
-      .footer-social {
-        justify-content: center;
-      }
-      .footer-tagline { 
-        font-size: 0.9rem; 
-        padding-left: 10px;
-      }
-      .back-top { bottom: 80px; }
-    }
-  </style>
-
-  <style>
-    .contact-main {
-        max-width: 800px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .breadcrumb-nav {
-        padding: 16px 0;
-        font-size: 0.95rem;
-        color: var(--muted);
-    }
-    .breadcrumb-nav a {
-        color: var(--accent);
-        text-decoration: none;
-        display: inline-flex;
-        align-items: center;
-        gap: 6px;
-    }
-    .breadcrumb-nav .current-page {
-        display: inline-flex;
-        align-items: center;
-        gap: 6px;
-    }
-    .breadcrumb-nav i {
-        font-size: 0.9rem;
-    }
-
-    /* NAP Card - Apple Glass */
-    .contact-card {
-        background: var(--table-wrap-bg);
-        backdrop-filter: blur(12px) saturate(150%);
-        border: 1px solid var(--glass-border);
-        border-radius: 18px;
-        padding: 28px 32px;
-        box-shadow: 0 12px 36px rgba(0,0,0,0.06);
-        margin-bottom: 30px;
-    }
-    body.dark .contact-card {
-      box-shadow: 0 12px 36px rgba(0,0,0,0.4);
-    }
-
-    .contact-card h1 {
-        margin: 0 0 20px;
-        font-size: 2rem;
-        font-weight: 700;
-        color: var(--text);
-    }
-
-    .contact-list {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-    .contact-list li {
-        display: flex;
-        align-items: center;
-        gap: 16px;
-    }
-    .contact-list .icon-circle {
-        flex-shrink: 0;
-        width: 48px;
-        height: 48px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 1.2rem;
-        color: #fff;
-        background: linear-gradient(135deg, var(--quick-main-start), var(--quick-main-end));
-        box-shadow: 0 6px 15px rgba(0,122,255,0.2);
-    }
-    body.dark .contact-list .icon-circle {
-        box-shadow: 0 6px 15px rgba(10,132,255,0.3);
-    }
-
-    .contact-list .contact-text {
-        font-size: 1.05rem;
-        color: var(--text);
-        font-weight: 500;
-    }
-    .contact-list .contact-text a {
-        color: var(--accent);
-        font-weight: 600;
-        text-decoration: none;
-        word-break: break-all;
-    }
-    .contact-list .contact-text a:hover {
-        text-decoration: underline;
-    }
-    
-    /* Map & Social Sections */
-    .contact-section {
-        margin-bottom: 30px;
-    }
-    .contact-section h2 {
-        font-size: 1.5rem;
-        font-weight: 600;
-        margin-bottom: 16px;
-    }
-    .map-container {
-        border-radius: 14px;
-        overflow: hidden;
-        box-shadow: 0 8px 24px rgba(0,0,0,0.1);
-        border: 1px solid var(--glass-border);
-    }
-    body.dark .map-container {
-      box-shadow: 0 8px 24px rgba(0,0,0,0.4);
-    }
-    .map-container iframe {
-        display: block;
-        width: 100%;
-        height: 400px;
-        border: 0;
-    }
-
-    .social-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-        gap: 16px;
-        max-width: 600px;
-    }
-    .social-grid a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        background: linear-gradient(135deg, var(--quick-sub-start), var(--quick-sub-end));
-        color: white;
-        font-size: 1.3rem;
-        text-decoration: none;
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-        box-shadow: 0 4px 12px rgba(43,199,127,0.2);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      box-shadow: 0 4px 12px rgba(0,122,255,0.2);
     }
     .social-grid a:hover {
-        transform: scale(1.1);
-        box-shadow: 0 0 15px var(--quick-sub-end), 0 0 25px var(--quick-sub-start);
-    }
-    
-    /* Contact Form */
-    .contact-form {
-      background: var(--table-wrap-bg);
-      backdrop-filter: blur(12px) saturate(150%);
-      border: 1px solid var(--glass-border);
-      border-radius: 18px;
-      padding: 28px 32px;
-      box-shadow: 0 12px 36px rgba(0,0,0,0.06);
-    }
-    body.dark .contact-form {
-      box-shadow: 0 12px 36px rgba(0,0,0,0.4);
-    }
-    .form-group {
-        margin-bottom: 16px;
-    }
-    .form-group label {
-        display: block;
-        font-weight: 600;
-        margin-bottom: 6px;
-        color: var(--text);
-    }
-    .form-group input, .form-group textarea {
-        width: 100%;
-        padding: 12px 14px;
-        border-radius: 10px;
-        border: 1px solid var(--glass-border);
-        background: var(--surface);
-        color: var(--text);
-        font-family: inherit;
-        font-size: 1rem;
-        transition: border-color 0.2s, box-shadow 0.2s;
-    }
-    .form-group input:focus, .form-group textarea:focus {
-        outline: none;
-        border-color: var(--accent);
-        box-shadow: 0 0 0 3px rgba(0,122,255,0.15);
-    }
-    body.dark .form-group input:focus, body.dark .form-group textarea:focus {
-        box-shadow: 0 0 0 3px rgba(10,132,255,0.25);
-    }
-    .form-group textarea {
-        min-height: 120px;
-        resize: vertical;
+      transform: scale(1.1);
+      box-shadow: 0 8px 20px rgba(0,122,255,0.3);
     }
 
+    /* Contact Form */
+    .contact-form-glass {
+      background: var(--card-bg);
+      backdrop-filter: blur(14px) saturate(150%);
+      border: 1px solid var(--glass-border);
+      border-radius: var(--card-radius);
+      padding: 2rem;
+      box-shadow: 0 12px 36px rgba(0,0,0,0.06);
+    }
+    body.dark .contact-form-glass { box-shadow: 0 12px 36px rgba(0,0,0,0.4); }
+    .form-group { margin-bottom: 1.25rem; }
+    .form-group label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      color: var(--muted);
+    }
+    .form-group input, .form-group textarea {
+      width: 100%;
+      padding: 0.9rem 1rem;
+      border-radius: 10px;
+      border: 1px solid var(--glass-border);
+      background: rgba(255,255,255,0.5);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      font-size: 1rem;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .form-group input:focus, .form-group textarea:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(0,122,255,0.15);
+    }
+    body.dark .form-group input, body.dark .form-group textarea {
+      background: rgba(44,44,46,0.5);
+    }
+    body.dark .form-group input:focus, body.dark .form-group textarea:focus {
+      box-shadow: 0 0 0 3px rgba(10,132,255,0.25);
+    }
+    .form-group textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
     .submit-btn {
-        display: inline-flex;
-        align-items: center;
-        gap: 10px;
-        padding: 12px 24px;
-        border: none;
-        border-radius: 999px;
-        background: var(--accent);
-        color: #fff;
-        font-size: 1rem;
-        font-weight: 700;
-        cursor: pointer;
-        transition: background 0.2s, transform 0.2s;
-        box-shadow: 0 8px 22px rgba(0,122,255,0.12);
+      display: inline-flex;
+      gap: 10px;
+      align-items: center;
+      padding: 12px 24px;
+      border-radius: 999px;
+      border: 0;
+      font-weight: 700;
+      cursor: pointer;
+      background: var(--accent);
+      color: #fff;
+      box-shadow: 0 8px 26px rgba(0,122,255,0.14);
+      width: 100%;
+      justify-content: center;
+      font-size: 1.05rem;
+      transition: background 0.2s, transform 0.2s;
     }
     .submit-btn:hover {
-        background: #0066e5;
-        transform: translateY(-2px);
+      background: #0066e5;
+      transform: translateY(-2px);
     }
 
     /* Responsive adjustments */
-    @media (max-width: 600px) {
-        .contact-card { padding: 24px; }
-        .contact-card h1 { font-size: 1.6rem; }
-        .contact-list li { flex-direction: column; text-align: center; gap: 8px; }
-        .social-grid { justify-items: center; }
-        .contact-form { padding: 24px; }
+    @media (max-width:900px){#toggle-dark-desktop{display:none}#toggle-dark-mobile{display:inline-flex;order:2;margin:0 10px 0 auto}.nav-links{display:none}.hamburger{display:block}.topbar{left:0;transform:none;width:100%;border-radius:0;max-width:none;justify-content:space-between;padding:8px 14px}.topbar .brand{order:1}.topbar .hamburger{order:3}}
+    @media (max-width:768px) {
+      .contact-nap-card, .contact-form-glass { padding: 1.5rem; }
+      .page-title { font-size: 2rem; }
+      .section-title { font-size: 1.5rem; }
     }
+    @media (max-width:520px){.brand h3{font-size:.98rem}footer.premium{grid-template-columns:1fr;text-align:center;padding-left:10px;padding-right:10px}footer.premium a,footer .author,footer.premium p{text-align:center;justify-content:center}.footer-social{justify-content:center}.footer-tagline{font-size:.9rem;padding-left:10px}.nap-item{flex-direction:column;align-items:flex-start;text-align:left}.back-top{bottom:80px}}
   </style>
-    <style>
-      /* Style for Accordion in Drawer (COPIED FROM INDEX) */
-      .drawer .drawer-accordion-toggle {
-        background: none; border: none; text-align: left; cursor: pointer; display: block; padding: 12px 6px; color: var(--text); text-decoration: none; font-weight: 700; border-radius: 8px; display: flex; gap: 12px; align-items: center; justify-content: space-between; width: 100%; font-family: inherit; font-size: 1rem; line-height: 1.5;
-      }
-      .drawer .drawer-accordion-toggle:hover { background: rgba(0,0,0,0.04); }
-      body.dark .drawer .drawer-accordion-toggle:hover { background: rgba(255,255,255,0.08); }
-      .drawer .drawer-accordion-toggle .caret-icon { transition: transform 0.3s cubic-bezier(.2,.9,.2,1); font-size: 0.9rem; color: var(--muted); padding: 0 8px; }
-      .drawer .drawer-accordion-toggle.open .caret-icon { transform: rotate(180deg); color: var(--accent); }
-      .drawer .drawer-accordion-toggle.open { color: var(--accent); background: rgba(0,122,255,0.05); }
-      body.dark .drawer .drawer-accordion-toggle.open { background: rgba(10,132,255,0.1); }
-      .drawer .drawer-submenu { max-height: 0; overflow: hidden; transition: max-height 0.4s ease-out; margin-left: 20px; padding-left: 14px; border-left: 2px solid var(--glass-border); margin-top: -5px; margin-bottom: 5px; }
-      .drawer .drawer-submenu.open { max-height: 400px; border-left: 2px solid var(--accent); }
-      .drawer .drawer-submenu a.icon { padding-top: 10px; padding-bottom: 10px; padding-left: 0; font-size: 0.95rem; font-weight: 600; color: var(--muted); }
-      .drawer .drawer-submenu a.icon:hover { color: var(--text); background: none; }
-      .drawer .drawer-submenu a.icon i { width: 22px; text-align: center; }
-    </style>
 </head>
 <body>
   <header class="topbar" id="topbar" role="banner" aria-label="Trang điều hướng chính">
-    <div class="brand" aria-hidden="false">
-      <a href="https://motoopen.github.io/chothuexemayhanoi/" style="display: contents; color: inherit; text-decoration: none;">
-        <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen logo">
-        <h3>Motoopen</h3>
-      </a>
+    <div class="brand">
+      <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen logo">
+      <h3>Motoopen</h3>
     </div>
-
-    <nav class="nav-links" role="navigation" aria-label="Main navigation">
-      <a href="https://motoopen.github.io/chothuexemayhanoi/"><i class="fa-solid fa-house"></i> Trang chủ</a>
-      <a href="https://motoopen.github.io/chothuexemayhanoi/gioithieu.html"><i class="fa-solid fa-circle-info"></i> Giới thiệu</a>
-      <a href="https://motoopen.github.io/chothuexemayhanoi/banggia.html"><i class="fa-solid fa-tags"></i> Bảng giá</a>
-      <a href="https://motoopen.github.io/chothuexemayhanoi/faq.html"><i class="fa-solid fa-circle-question"></i> FAQ</a>
-      <a href="https://motoopen.github.io/chothuexemayhanoi/lienhe.html"><i class="fa-solid fa-phone"></i> Liên hệ</a>
+    <nav class="nav-links" role="navigation">
+        <a href="https://motoopen.github.io/chothuexemayhanoi/"><i class="fa-solid fa-house"></i> Trang chủ</a>
+        <a href="https://motoopen.github.io/chothuexemayhanoi/gioithieu.html"><i class="fa-solid fa-circle-info"></i> Giới thiệu</a>
+        <a href="https://motoopen.github.io/chothuexemayhanoi/banggia.html"><i class="fa-solid fa-tags"></i> Bảng giá</a>
+        <a href="https://motoopen.github.io/chothuexemayhanoi/faq.html"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+        <a href="https://motoopen.github.io/chothuexemayhanoi/lienhe.html"><i class="fa-solid fa-phone"></i> Liên hệ</a>
       <button class="toggle-dark" id="toggle-dark-desktop" aria-label="Chuyển đổi chế độ tối"></button>
     </nav>
-    
     <button class="toggle-dark" id="toggle-dark-mobile" aria-label="Chuyển đổi chế độ tối"></button>
     <button class="hamburger" id="hamburger" aria-label="Mở menu" aria-expanded="false" aria-controls="drawer">
       <span class="bar"></span><span class="bar"></span><span class="bar"></span>
     </button>
   </header>
 
-  <div class="drawer-overlay" id="drawerOverlay" aria-hidden="true"></div>
+  <div class="drawer-overlay" id="drawerOverlay"></div>
   
-  <aside class="drawer" id="drawer" role="menu" aria-hidden="true">
+  <aside class="drawer" id="drawer" role="menu">
     <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/" role="menuitem"><i class="fa-solid fa-house"></i> Trang chủ</a>
     <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/gioithieu.html" role="menuitem"><i class="fa-solid fa-circle-info"></i> Giới thiệu</a>
-    
-    <button type="button" class="icon drawer-accordion-toggle" id="drawer-service-toggle" aria-expanded="false" aria-controls="drawer-submenu">
-      <span style="display: flex; align-items: center; gap: 12px;">
-        <i class="fa-solid fa-motorcycle" style="width: 18px; text-align: center;"></i> DỊCH VỤ
-      </span>
-      <i class="fa-solid fa-chevron-down caret-icon"></i>
-    </button>
-    
-    <div class="drawer-submenu" id="drawer-submenu" role="region" aria-labelledby="drawer-service-toggle">
-      <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/banggia.html"><i class="fa-solid fa-tags"></i> Bảng giá</a>
-      <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/thutuc.html"><i class="fa-solid fa-file-signature"></i> Thủ tục</a>
-      <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html"><i class="fa-solid fa-motorcycle"></i> Loại xe</a>
-      <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/huongdan.html"><i class="fa-solid fa-book"></i> Hướng dẫn</a>
-      <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/kinhnghiem.html"><i class="fa-solid fa-lightbulb"></i> Kinh nghiệm</a>
-    </div>
-    <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/faq.html" role="menuitem" style="margin-top: 8px; border-top: 1px solid var(--glass-border); padding-top: 12px;"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+    <button type="button" class="icon drawer-accordion-toggle" id="drawer-service-toggle" aria-expanded="false" aria-controls="drawer-submenu"><span style="display:flex;align-items:center;gap:12px"><i class="fa-solid fa-motorcycle" style="width:18px;text-align:center"></i> DỊCH VỤ</span><i class="fa-solid fa-chevron-down caret-icon"></i></button>
+    <div class="drawer-submenu" id="drawer-submenu" role="region"><a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/banggia.html"><i class="fa-solid fa-tags"></i> Bảng giá</a> <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/thutuc.html"><i class="fa-solid fa-file-signature"></i> Thủ tục</a> <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html"><i class="fa-solid fa-motorcycle"></i> Loại xe</a> <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/huongdan.html"><i class="fa-solid fa-book"></i> Hướng dẫn</a> <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/kinhnghiem.html"><i class="fa-solid fa-lightbulb"></i> Kinh nghiệm</a></div>
+    <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/faq.html" role="menuitem" style="margin-top:8px;border-top:1px solid var(--glass-border);padding-top:12px"><i class="fa-solid fa-circle-question"></i> FAQ</a>
     <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/lienhe.html" role="menuitem"><i class="fa-solid fa-phone"></i> Liên hệ</a>
     <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/dieukhoansudung.html" role="menuitem"><i class="fa-solid fa-file-contract"></i> Điều khoản</a>
     <a class="icon" href="https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html" role="menuitem"><i class="fa-solid fa-shield-halved"></i> Chính sách</a>
   </aside>
 
   <main id="main" class="container" role="main">
-    <div class="contact-main">
-        <nav class="breadcrumb-nav" aria-label="breadcrumb">
-            <a href="https://motoopen.github.io/chothuexemayhanoi/"><i class="fa-solid fa-house"></i> Trang chủ</a>
-            <span> » </span>
-            <span class="current-page" aria-current="page"><i class="fa-solid fa-phone"></i> Liên hệ</span>
-        </nav>
-
-        <section class="contact-card" aria-labelledby="contact-info-heading">
-            <h1 id="contact-info-heading">Thông tin liên hệ</h1>
-            <ul class="contact-list">
-                <li>
-                    <div class="icon-circle"><i class="fa-solid fa-store"></i></div>
-                    <div class="contact-text"><a href="https://motoopen.github.io/chothuexemayhanoi/"><strong>Motoopen – Thuê Xe Máy Hà Nội</strong></a></div>
-                </li>
-                <li>
-                    <div class="icon-circle"><i class="fa-solid fa-location-dot"></i></div>
-                    <div class="contact-text">114 Nguyễn Văn Cừ, Long Biên, Hà Nội</div>
-                </li>
-                <li>
-                    <div class="icon-circle"><i class="fa-solid fa-phone"></i></div>
-                    <div class="contact-text"><a href="tel:0857255868">0857 255 868</a></div>
-                </li>
-                <li>
-                    <div class="icon-circle"><i class="fa-brands fa-rocketchat"></i></div>
-                    <div class="contact-text"><a href="https://zalo.me/0857255868" target="_blank" rel="noopener noreferrer">Chat qua Zalo</a></div>
-                </li>
-                <li>
-                    <div class="icon-circle"><i class="fa-solid fa-envelope"></i></div>
-                    <div class="contact-text"><a href="mailto:motoopen12@gmail.com">motoopen12@gmail.com</a></div>
-                </li>
-            </ul>
-        </section>
-
-        <section class="contact-section" aria-labelledby="map-heading">
-            <h2 id="map-heading">Bản đồ chỉ đường</h2>
-            <div class="map-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.882483808942!2d105.86666987595369!3d21.037373187216597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a9655618b137%3A0x3f63198f5a34e8e1!2zMTE0IMSQLiBOZ3V54buFbiBWxINuIEPhu6ssIEOR4buNYyBMw6JtLCBMb25nIEJpw6puLCBIw6AgTuG7mWksIFZp4buHdE5hbQ!5e0!3m2!1sen!2s!4v1729446658097!5m2!1sen!2s" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Bản đồ đến Motoopen"></iframe>
-            </div>
-        </section>
-
-        <section class="contact-section" aria-labelledby="form-heading">
-            <h2 id="form-heading">Gửi tin nhắn cho chúng tôi</h2>
-            <form class="contact-form" action="#" method="POST">
-                <div class="form-group">
-                    <label for="name">Họ và tên</label>
-                    <input type="text" id="name" name="name" placeholder="Nguyễn Văn A" required>
-                </div>
-                <div class="form-group">
-                    <label for="phone">Số điện thoại</label>
-                    <input type="tel" id="phone" name="phone" placeholder="09xxxxxxxx" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="email@example.com">
-                </div>
-                <div class="form-group">
-                    <label for="message">Nội dung</label>
-                    <textarea id="message" name="message" placeholder="Nội dung bạn muốn trao đổi..." required></textarea>
-                </div>
-                <button type="submit" class="submit-btn">
-                    <i class="fa-solid fa-paper-plane"></i> Gửi liên hệ
-                </button>
-            </form>
-        </section>
-
-        <section class="contact-section" aria-labelledby="social-heading">
-            <h2 id="social-heading">Kết nối với chúng tôi</h2>
-            <div class="social-grid">
-                <a href="https://m.facebook.com/motoopenvn/" target="_blank" title="Facebook Motoopen" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://www.tripadvisor.com.vn/Attraction_Review-g293924-d17515297-Reviews-Cho_Thue_Xe_May_Cong_Tan-Hanoi.html" target="_blank" title="TripAdvisor" aria-label="TripAdvisor"><i class="fa-brands fa-tripadvisor"></i></a>
-                <a href="https://m.facebook.com/chothuexemayphoco/" target="_blank" title="Thuê xe Phố Cổ" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://m.facebook.com/chothuexemayhoankiem/" target="_blank" title="Thuê xe Hoàn Kiếm" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://m.facebook.com/chothuexemaylongbien/" target="_blank" title="Thuê xe Long Biên" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://m.facebook.com/chothuexemaytayho/" target="_blank" title="Thuê xe Tây Hồ" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-            </div>
-        </section>
+    <div class="breadcrumb">
+      <a href="https://motoopen.github.io/chothuexemayhanoi/"><i class="fa-solid fa-house"></i> Trang chủ</a> &raquo; <span><i class="fa-solid fa-phone"></i> Liên hệ</span>
     </div>
+    <h1 class="page-title">Thông tin liên hệ</h1>
+    
+    <section id="contact-info">
+      <div class="contact-nap-card">
+        <div class="nap-item">
+          <div class="icon-wrapper"><i class="fa-solid fa-building"></i></div>
+          <div class="text-content">
+            <strong><a href="https://motoopen.github.io/chothuexemayhanoi/">Motoopen – Thuê Xe Máy Hà Nội</a></strong>
+            <span>Dịch vụ cho thuê xe máy uy tín, giá rẻ.</span>
+          </div>
+        </div>
+        <div class="nap-item">
+          <div class="icon-wrapper"><i class="fa-solid fa-location-dot"></i></div>
+          <div class="text-content">
+            <strong>Địa chỉ</strong>
+            <span>114 Nguyễn Văn Cừ, Long Biên, Hà Nội</span>
+          </div>
+        </div>
+        <div class="nap-item">
+          <div class="icon-wrapper"><i class="fa-solid fa-phone"></i></div>
+          <div class="text-content">
+            <strong>Điện thoại</strong>
+            <a href="tel:0857255868">0857 255 868</a>
+          </div>
+        </div>
+        <div class="nap-item">
+          <div class="icon-wrapper"><i class="fa-brands fa-rocketchat"></i></div>
+          <div class="text-content">
+            <strong>Zalo</strong>
+            <a href="https://zalo.me/0857255868" target="_blank" rel="noopener noreferrer">Chat với chúng tôi qua Zalo</a>
+          </div>
+        </div>
+        <div class="nap-item">
+          <div class="icon-wrapper"><i class="fa-solid fa-envelope"></i></div>
+          <div class="text-content">
+            <strong>Email</strong>
+            <a href="mailto:motoopen12@gmail.com">motoopen12@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="map">
+      <h2 class="section-title">Tìm chúng tôi trên bản đồ</h2>
+      <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.923011116631!2d105.86662787595471!3d21.04013998729579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a9683760e1d1%3A0x280f5a703d168533!2zMTE0IMSQLiBOZ3V54buFbiBWxINuIEPhu6ssIEPhu5EgS2jhu5EgMSwgTG9uZyBCacOqbiwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1721548175783!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+    <section id="contact-form">
+      <h2 class="section-title">Gửi tin nhắn cho chúng tôi</h2>
+      <div class="contact-form-glass">
+        <form action="#" method="POST">
+          <div class="form-group">
+            <label for="name">Họ và tên</label>
+            <input type="text" id="name" name="name" required placeholder="Nguyễn Văn A">
+          </div>
+          <div class="form-group">
+            <label for="phone">Số điện thoại</label>
+            <input type="tel" id="phone" name="phone" required placeholder="09xxxxxxxx">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="email@example.com">
+          </div>
+          <div class="form-group">
+            <label for="message">Nội dung</label>
+            <textarea id="message" name="message" required placeholder="Tôi muốn thuê xe..."></textarea>
+          </div>
+          <button type="submit" class="submit-btn">
+            <i class="fa-solid fa-paper-plane"></i> Gửi liên hệ
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <section id="social-links">
+      <h2 class="section-title">Kết nối với chúng tôi</h2>
+      <div class="social-grid">
+        <a href="https://m.facebook.com/motoopenvn/" target="_blank" rel="noopener noreferrer" aria-label="Facebook Motoopen"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://m.facebook.com/chothuexemayphoco/" target="_blank" rel="noopener noreferrer" aria-label="Facebook Phố Cổ"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://m.facebook.com/chothuexemaycongtan/" target="_blank" rel="noopener noreferrer" aria-label="Facebook Công Tân"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/motoopen/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.pinterest.com/motoopen12/" target="_blank" rel="noopener noreferrer" aria-label="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
+        <a href="https://www.tripadvisor.com.vn/Attraction_Review-g293924-d17515297-Reviews-Cho_Thue_Xe_May_Cong_Tan-Hanoi.html" target="_blank" rel="noopener noreferrer" aria-label="TripAdvisor"><i class="fa-brands fa-tripadvisor"></i></a>
+      </div>
+    </section>
+
   </main>
-  
+
   <footer class="premium">
     <div>
-        <h4>Trang</h4>
-        <a href="https://motoopen.github.io/chothuexemayhanoi/"><i class="fa-solid fa-house"></i> Trang chủ</a>
-        <a href="https://motoopen.github.io/chothuexemayhanoi/gioithieu.html"><i class="fa-solid fa-circle-info"></i> Giới thiệu</a>
-        <a href="https://motoopen.github.io/chothuexemayhanoi/banggia.html"><i class="fa-solid fa-tags"></i> Bảng giá</a>
-        <a href="https://motoopen.github.io/chothuexemayhanoi/faq.html"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+      <h4>Trang</h4>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/"><i class="fa-solid fa-house"></i> Trang chủ</a>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/gioithieu.html"><i class="fa-solid fa-circle-info"></i> Giới thiệu</a>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/banggia.html"><i class="fa-solid fa-tags"></i> Bảng giá</a>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/faq.html"><i class="fa-solid fa-circle-question"></i> FAQ</a>
     </div>
     <div>
-        <h4>Dịch vụ</h4>
-        <a href="https://motoopen.github.io/chothuexemayhanoi/thutuc.html"><i class="fa-solid fa-file-signature"></i> Thủ tục</a>
-        <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html"><i class="fa-solid fa-motorcycle"></i> Loại xe</a>
-        <a href="https://motoopen.github.io/chothuexemayhanoi/huongdan.html"><i class="fa-solid fa-book"></i> Hướng dẫn</a>
-        <a href="https://motoopen.github.io/chothuexemayhanoi/kinhnghiem.html"><i class="fa-solid fa-lightbulb"></i> Kinh nghiệm</a>
+      <h4>Dịch vụ</h4>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/thutuc.html"><i class="fa-solid fa-file-signature"></i> Thủ tục</a>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html"><i class="fa-solid fa-motorcycle"></i> Loại xe</a>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/huongdan.html"><i class="fa-solid fa-book"></i> Hướng dẫn</a>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/kinhnghiem.html"><i class="fa-solid fa-lightbulb"></i> Kinh nghiệm</a>
     </div>
     <div>
-        <h4>Liên hệ</h4>
-        <a href="tel:0857255868"><i class="fa-solid fa-phone"></i> Gọi 0857 255 868</a>
-        <a href="https://zalo.me/0857255868" target="_blank"><i class="fa-solid fa-comment-dots"></i> Chat Zalo</a>
-        <a href="mailto:motoopen12@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
-        <a href="https://motoopen.github.io/chothuexemayhanoi/lienhe.html"><i class="fa-solid fa-address-book"></i> Liên hệ</a>
+      <h4>Liên hệ</h4>
+      <a href="tel:0857255868"><i class="fa-solid fa-phone"></i> Gọi 0857 255 868</a>
+      <a href="https://zalo.me/0857255868" target="_blank"><i class="fa-solid fa-comment-dots"></i> Chat Zalo</a>
+      <a href="mailto:motoopen12@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/lienhe.html"><i class="fa-solid fa-address-book"></i> Liên hệ</a>
     </div>
     <div>
-        <h4>Thông tin</h4>
-        <a href="https://motoopen.github.io/chothuexemayhanoi/dieukhoansudung.html"><i class="fa-solid fa-file-contract"></i> Điều khoản</a>
-        <a href="https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html"><i class="fa-solid fa-shield-halved"></i> Chính sách bảo mật</a>
+      <h4>Thông tin</h4>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/dieukhoansudung.html"><i class="fa-solid fa-file-contract"></i> Điều khoản</a>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html"><i class="fa-solid fa-shield-halved"></i> Chính sách</a>
     </div>
     <div>
-        <h4>Kết nối</h4>
-        <div class="footer-social">
-          <a href="https://m.facebook.com/motoopenvn/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="https://www.instagram.com/motoopen/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
-          <a href="https://www.pinterest.com/motoopen12/" target="_blank" title="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
-        </div>
-        
-        <p class="author" style="margin-top: 6px;">
-          <i class="fa-solid fa-copyright"></i> 2025 Motoopen – Cho thuê xe máy Hà Nội. All Rights Reserved.
-        </p>
+      <h4>Kết nối</h4>
+      <div class="footer-social">
+        <a href="https://m.facebook.com/motoopenvn/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/motoopen/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.pinterest.com/motoopen12/" target="_blank" title="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
+      </div>
+      <p class="author" style="margin-top: 6px;"><i class="fa-solid fa-copyright"></i> 2025 Motoopen – Cho thuê xe máy Hà Nội. All Rights Reserved.</p>
     </div>
     <div class="footer-tagline">
-        <div class="inner">
-          <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen xe">
-          Thuê xe máy Hà Nội - Motoopen - giao tận nơi - cọc nhẹ ✨
-        </div>
+      <div class="inner">
+        <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen xe"> Thuê xe máy Hà Nội - Motoopen - giao tận nơi - cọc nhẹ ✨
+      </div>
     </div>
   </footer>
 
   <div class="quick-call-game">
-    <button class="quick-main" aria-label="Mở menu gọi nhanh" title="Menu gọi nhanh">
-      <i class="fa-solid fa-phone"></i>
-    </button>
+    <button class="quick-main" aria-label="Mở menu gọi nhanh" title="Menu gọi nhanh"><i class="fa-solid fa-phone"></i></button>
     <div class="quick-sub">
       <a href="tel:0857255868" aria-label="Gọi ngay 0857 255 868" title="Gọi ngay: 0857 255 868"><i class="fa-solid fa-phone"></i></a>
       <a href="https://zalo.me/0857255868" target="_blank" aria-label="Chat Zalo 0857255868" title="Chat Zalo: 0857255868"><i class="fa-solid fa-comment-dots"></i></a>
-      <a href="https://maps.app.goo.gl/g6z2B9p82186pQkS7" target="_blank" aria-label="Bản đồ" title="Địa chỉ: 114 Nguyễn Văn Cừ"><i class="fa-solid fa-location-dot"></i></a>
+      <a href="https://maps.app.goo.gl/o1bA8s6Q9c4F7YVdA" target="_blank" aria-label="Bản đồ" title="Địa chỉ: 114 Nguyễn Văn Cừ"><i class="fa-solid fa-location-dot"></i></a>
     </div>
   </div>
-
-  <div class="back-top" title="Back to Top">
-    <i class="fa-solid fa-arrow-up"></i>
-  </div>
+  <div class="back-top" title="Back to Top"><i class="fa-solid fa-arrow-up"></i></div>
 
   <script>
     (function(){
-      const topbar = document.getElementById('topbar');
-      const hamburger = document.getElementById('hamburger');
-      const drawer = document.getElementById('drawer');
-      const overlay = document.getElementById('drawerOverlay');
-      const backTop = document.querySelector('.back-top');
-      const body = document.body;
-      const DARK_MODE_KEY = 'darkModeEnabled';
-      const desktopToggle = document.getElementById('toggle-dark-desktop');
-      const mobileToggle = document.getElementById('toggle-dark-mobile');
-
-      function applyDarkMode(enabled){
-        if(enabled){
-          body.classList.add('dark');
-          localStorage.setItem(DARK_MODE_KEY,'true');
-        } else {
-          body.classList.remove('dark');
-          localStorage.setItem(DARK_MODE_KEY,'false');
-        }
-        updateIcons(enabled);
-      }
-
-      function updateIcons(enabled){
-        const sun = '<i class="fa-solid fa-sun"></i>';
-        const moon = '<i class="fa-solid fa-moon"></i>';
-        const icon = enabled ? sun : moon;
-        if(desktopToggle) desktopToggle.innerHTML = icon;
-        if(mobileToggle) mobileToggle.innerHTML = icon;
-      }
-
-      let darkEnabled = localStorage.getItem(DARK_MODE_KEY);
-      if(darkEnabled===null){
-        darkEnabled = window.matchMedia('(prefers-color-scheme:dark)').matches;
-      } else {
-        darkEnabled = darkEnabled === 'true';
-      }
-      applyDarkMode(darkEnabled);
-
-      [desktopToggle, mobileToggle].forEach(btn=>{
-        if(btn){
-          btn.addEventListener('click',()=>{
-            applyDarkMode(!body.classList.contains('dark'));
-          });
-        }
-      });
-      
-      // Drawer Accordion Script (from index.html)
-      const drawerAccordionToggle = document.getElementById('drawer-service-toggle');
-      const drawerSubmenu = document.getElementById('drawer-submenu');
-      if (drawerAccordionToggle && drawerSubmenu) {
-          drawerAccordionToggle.addEventListener('click', function() {
-              const isOpen = drawerSubmenu.classList.toggle('open');
-              this.classList.toggle('open', isOpen);
-              this.setAttribute('aria-expanded', String(isOpen));
-          });
-      }
-      
-      function setBodyTopPadding(){
-        if(!topbar) return;
-        const navRect = topbar.getBoundingClientRect();
-        const height = navRect.height + 10;
-        document.body.style.paddingTop = height + 'px';
-      }
-      setBodyTopPadding();
-      window.addEventListener('resize', () => requestAnimationFrame(setBodyTopPadding));
-      
-      function openDrawer(open){
-        if (!drawer || !overlay || !hamburger) return;
-        if(open){
-          drawer.classList.add('open');
-          overlay.classList.add('active');
-          drawer.setAttribute('aria-hidden','false');
-          hamburger.classList.add('active');
-          hamburger.setAttribute('aria-expanded','true');
-        } else {
-          drawer.classList.remove('open');
-          overlay.classList.remove('active');
-          drawer.setAttribute('aria-hidden','true');
-          hamburger.classList.remove('active');
-          hamburger.setAttribute('aria-expanded','false');
-        }
-      }
-      if(hamburger) hamburger.addEventListener('click', ()=> openDrawer(!drawer.classList.contains('open')));
-      if(overlay) overlay.addEventListener('click', ()=> openDrawer(false));
-      if(drawer) drawer.querySelectorAll('a').forEach(a => {
-        a.addEventListener('click', ()=> openDrawer(false));
-      });
-      
-      let lastY = window.scrollY || 0;
-      let ticking = false;
-      function onScroll(){
-        lastY = window.scrollY || 0;
-        if(!ticking){
-          requestAnimationFrame(()=> {
-            if(lastY > 8) topbar.classList.add('scrolled'); else topbar.classList.remove('scrolled');
-            if(lastY > 300 && backTop) backTop.style.display = 'flex'; else if(backTop) backTop.style.display = 'none';
-            ticking = false;
-          });
-          ticking = true;
-        }
-      }
-      window.addEventListener('scroll', onScroll, {passive:true});
-      onScroll();
-
-      const quickGame = document.querySelector('.quick-call-game');
-      const mainBtn = document.querySelector('.quick-call-game .quick-main');
-      const getBackTopDefaultBottom = () => window.matchMedia('(max-width: 520px)').matches ? 80 : 90; 
-      const getBackTopOpenBottom = () => window.matchMedia('(max-width: 520px)').matches ? 220 : 230; 
-      function updateBackTopPosition(isOpen) {
-          if (!backTop) return;
-          backTop.style.bottom = (isOpen ? getBackTopOpenBottom() : getBackTopDefaultBottom()) + 'px';
-      }
-      if (quickGame && mainBtn) {
-          mainBtn.addEventListener('click', (e) => {
-              e.stopPropagation();
-              const isOpen = quickGame.classList.toggle('open');
-              updateBackTopPosition(isOpen);
-          });
-          document.addEventListener('click', (e) => {
-              if (!quickGame.contains(e.target) && quickGame.classList.contains('open')) {
-                  quickGame.classList.remove('open');
-                  updateBackTopPosition(false);
-              }
-          });
-          document.querySelectorAll('.quick-call-game .quick-sub a').forEach(a => {
-              a.addEventListener('click', () => {
-                  setTimeout(() => {
-                    quickGame.classList.remove('open');
-                    updateBackTopPosition(false);
-                  }, 100); 
-              });
-          });
-      }
-      if (backTop) {
-        backTop.addEventListener('click', () => window.scrollTo({top:0,behavior:'smooth'}));
-      }
+      const topbar=document.getElementById('topbar'),hamburger=document.getElementById('hamburger'),drawer=document.getElementById('drawer'),overlay=document.getElementById('drawerOverlay'),backTop=document.querySelector('.back-top'),body=document.body,DARK_MODE_KEY='darkModeEnabled',desktopToggle=document.getElementById('toggle-dark-desktop'),mobileToggle=document.getElementById('toggle-dark-mobile');function applyDarkMode(e){e?(body.classList.add('dark'),localStorage.setItem(DARK_MODE_KEY,'true')):(body.classList.remove('dark'),localStorage.setItem(DARK_MODE_KEY,'false'));updateIcons(e)}function updateIcons(e){const o='<i class="fa-solid fa-sun"></i>',t='<i class="fa-solid fa-moon"></i>',a=e?o:t;desktopToggle&&(desktopToggle.innerHTML=a),mobileToggle&&(mobileToggle.innerHTML=a)}let darkEnabled=localStorage.getItem(DARK_MODE_KEY);function setBodyTopPadding(){const e=topbar.getBoundingClientRect().height+10;document.body.style.paddingTop=e+'px'}function openDrawer(e){e?(drawer.classList.add('open'),overlay.classList.add('active'),drawer.setAttribute('aria-hidden','false'),hamburger.classList.add('active'),hamburger.setAttribute('aria-expanded','true')):(drawer.classList.remove('open'),overlay.classList.remove('active'),drawer.setAttribute('aria-hidden','true'),hamburger.classList.remove('active'),hamburger.setAttribute('aria-expanded','false'))}null===darkEnabled?darkEnabled=window.matchMedia('(prefers-color-scheme:dark)').matches:darkEnabled='true'===darkEnabled,applyDarkMode(darkEnabled),[desktopToggle,mobileToggle].forEach(e=>{e&&e.addEventListener('click',()=>{applyDarkMode(!body.classList.contains('dark'))})}),setBodyTopPadding(),window.addEventListener('resize',()=>requestAnimationFrame(setBodyTopPadding)),hamburger.addEventListener('click',()=>openDrawer(!drawer.classList.contains('open'))),overlay.addEventListener('click',()=>openDrawer(false)),drawer.querySelectorAll('a').forEach(e=>{e.addEventListener('click',()=>openDrawer(false))});let lastY=window.scrollY||0,ticking=!1;function onScroll(){lastY=window.scrollY||0,ticking||(requestAnimationFrame(()=>{handleScroll(lastY),ticking=!1}),ticking=!0)}function handleScroll(e){8<e?topbar.classList.add('scrolled'):topbar.classList.remove('scrolled'),300<e&&backTop?backTop.style.display='flex':backTop&&(backTop.style.display='none')}window.addEventListener('scroll',onScroll,{passive:!0}),handleScroll(window.scrollY||0),window.matchMedia('(prefers-reduced-motion: reduce)').matches&&document.querySelectorAll('*').forEach(e=>e.style.transition='none'),window.addEventListener('keydown',e=>{'Escape'===e.key&&openDrawer(false)});const quickGame=document.querySelector('.quick-call-game'),mainBtn=document.querySelector('.quick-call-game .quick-main'),getBackTopDefaultBottom=()=>window.matchMedia('(max-width: 520px)').matches?80:90,getBackTopOpenBottom=()=>window.matchMedia('(max-width: 520px)').matches?220:230;function updateBackTopPosition(e){backTop&&(e?backTop.style.bottom=getBackTopOpenBottom()+'px':backTop.style.bottom=getBackTopDefaultBottom()+'px')}quickGame&&mainBtn&&(mainBtn.addEventListener('click',e=>{e.stopPropagation();const o=quickGame.classList.toggle('open');updateBackTopPosition(o)}),document.addEventListener('click',e=>{quickGame.contains(e.target)||!quickGame.classList.contains('open')||(quickGame.classList.remove('open'),updateBackTopPosition(!1))}),document.querySelectorAll('.quick-call-game .quick-sub a').forEach(e=>{e.addEventListener('click',()=>{setTimeout(()=>{quickGame.classList.remove('open'),updateBackTopPosition(!1)},100)})})),backTop&&backTop.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));const drawerToggle=document.getElementById('drawer-service-toggle'),submenu=document.getElementById('drawer-submenu');drawerToggle&&submenu&&drawerToggle.addEventListener('click',()=>{const e=submenu.classList.toggle('open');drawerToggle.classList.toggle('open',e),drawerToggle.setAttribute('aria-expanded',String(e))});
     })();
   </script>
 </body>
