@@ -39,57 +39,42 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "WebPage",
-      "@id": "https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html",
-      "url": "https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html",
-      "name": "Chính Sách Bảo Mật | Motoopen",
-      "description": "Chính sách bảo mật thông tin khách hàng khi thuê xe máy tại Motoopen Hà Nội. Cam kết bảo mật dữ liệu cá nhân và giao dịch an toàn.",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Trang chủ",
-            "item": "https://motoopen.github.io/chothuexemayhanoi/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Chính sách bảo mật"
-          }
-        ]
+      "@type": "WebSite",
+      "@id": "https://motoopen.github.io/chothuexemayhanoi/#website",
+      "url": "https://motoopen.github.io/chothuexemayhanoi/",
+      "name": "Motoopen - Thuê Xe Máy Hà Nội",
+      "publisher": {
+        "@id": "https://motoopen.github.io/chothuexemayhanoi/#organization"
       }
     },
     {
-      "@type": "LocalBusiness",
-      "@id": "https://motoopen.github.io/chothuexemayhanoi/#localbusiness",
-      "name": "Motoopen - Thuê Xe Máy Hà Nội",
-      "image": "https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg",
-      "url": "https://motoopen.github.io/chothuexemayhanoi/lienhe.html",
-      "telephone": "+84857255868",
-      "email": "motoopen12@gmail.com",
-      "priceRange": "₫150000-₫2000000",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "114 Nguyễn Văn Cừ, Long Biên",
-        "addressLocality": "Hà Nội",
-        "postalCode": "100000",
-        "addressCountry": "VN"
+      "@type": ["WebPage","PrivacyPolicy"],
+      "@id": "https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html",
+      "url": "https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html",
+      "name": "Chính Sách Bảo Mật | Motoopen",
+      "isPartOf": {
+        "@id": "https://motoopen.github.io/chothuexemayhanoi/#website"
       },
-      "openingHours": "Mo-Su 09:00-21:00",
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 21.0409278,
-        "longitude": 105.8692028
-      },
-      "contactPoint": [
+      "description": "Chính sách bảo mật thông tin khách hàng khi thuê xe máy tại Motoopen Hà Nội. Cam kết bảo mật dữ liệu cá nhân và giao dịch an toàn.",
+      "breadcrumb": {
+        "@id": "https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html#breadcrumb",
+      "itemListElement": [
         {
-          "@type": "ContactPoint",
-          "telephone": "+84857255868",
-          "contactType": "customer service",
-          "areaServed": "Hà Nội",
-          "availableLanguage": "Vietnamese"
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": "https://motoopen.github.io/chothuexemayhanoi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Chính sách bảo mật",
+          "item": "https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html"
         }
       ]
     }
