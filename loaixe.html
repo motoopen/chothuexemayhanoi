@@ -4,9 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   
-  <title>Các loại xe máy cho thuê tại Hà Nội | Motoopen</title>
+  <title>Các loại xe cho thuê tại Hà Nội | Motoopen</title>
   <meta name="robots" content="index, follow">
-  <meta name="description" content="Danh mục xe máy cho thuê tại Hà Nội: Xe số, xe ga, xe 50cc. Xe đời mới, tiết kiệm, giao tận nơi." />
+  <meta name="description" content="Danh mục xe cho thuê Hà Nội: xe số, xe ga, xe tay côn, xe 50cc. Xe đời mới, tiết kiệm xăng, giao tận nơi." />
   <link rel="canonical" href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html">
 
   <link rel="icon" href="https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg" />
@@ -16,16 +16,16 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   
-  <meta property="og:title" content="Các loại xe máy cho thuê tại Hà Nội | Motoopen">
-  <meta property="og:description" content="Danh mục xe máy cho thuê tại Hà Nội: Xe số, xe ga, xe 50cc. Xe đời mới, tiết kiệm, giao tận nơi.">
+  <meta property="og:title" content="Các loại xe cho thuê tại Hà Nội | Motoopen">
+  <meta property="og:description" content="Danh mục xe cho thuê Hà Nội: xe số, xe ga, xe tay côn, xe 50cc. Xe đời mới, tiết kiệm xăng, giao tận nơi.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://motoopen.github.io/chothuexemayhanoi/loaixe.html">
   <meta property="og:image" content="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg">
   <meta property="og:site_name" content="Motoopen">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Các loại xe máy cho thuê tại Hà Nội | Motoopen">
-  <meta name="twitter:description" content="Danh mục xe máy cho thuê tại Hà Nội: Xe số, xe ga, xe 50cc. Xe đời mới, tiết kiệm, giao tận nơi.">
+  <meta name="twitter:title" content="Các loại xe cho thuê tại Hà Nội | Motoopen">
+  <meta name="twitter:description" content="Danh mục xe cho thuê Hà Nội: xe số, xe ga, xe tay côn, xe 50cc. Xe đời mới, tiết kiệm xăng, giao tận nơi.">
   <meta name="twitter:image" content="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg">
   <meta name="twitter:site" content="@MotoopenVN">
   
@@ -869,6 +869,9 @@
         padding-bottom: 10px;
         margin-bottom: 15px;
     }
+    .about-card h3 i {
+      font-size: 1.25em; /* Icon to be slightly larger */
+    }
     .about-card p {
         color: var(--muted);
         line-height: 1.6;
@@ -876,6 +879,7 @@
     .about-card ul {
         list-style: none;
         padding-left: 0;
+        margin-top: 15px;
     }
     .about-card ul li {
         margin-bottom: 10px;
@@ -970,6 +974,13 @@
     .quick-links-grid a:hover {
       transform: scale(1.1);
       box-shadow: 0 0 18px var(--quick-main-start), 0 0 34px var(--quick-main-end);
+    }
+    /* MỚI: Grid cho danh sách loại xe */
+    .bike-type-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+        margin-top: 30px;
     }
   </style>
   
@@ -1070,7 +1081,6 @@
     </style>
 </head>
 <body>
-  
   <header class="topbar" id="topbar" role="banner" aria-label="Trang điều hướng chính">
     <div class="brand" aria-hidden="false">
       <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen logo">
@@ -1149,7 +1159,6 @@
 })();
 </script>
 </aside>
-
   <main id="main" class="container" role="main">
     
     <div class="breadcrumb fade-up">
@@ -1161,81 +1170,78 @@
     <section class="hero" id="dichvu-hero" aria-labelledby="hero-title">
       <div class="grad-layer" aria-hidden="true"></div>
       <div class="content">
-        <div class="kicker">Danh mục xe</div>
-        <h1 id="hero-title">Các loại xe máy cho thuê tại Hà Nội</h1>
+        <div class="kicker">Loại xe</div>
+        <h1 id="hero-title">Các loại xe cho thuê tại Hà Nội</h1>
 
-        <p class="lead">Từ xe số tiết kiệm xăng đến xe ga thời trang và xe 50cc không cần bằng lái. Lựa chọn phù hợp cho du lịch, công tác hay dài hạn.</p>
+        <p class="lead">Từ xe số bền bỉ, xe ga thời trang đến xe 50cc không cần bằng. Đủ lựa chọn phù hợp cho nhu cầu đi lại, công tác và du lịch.</p>
 
         <div class="hero-actions">
           <a class="btn quick-style" href="tel:0857255868" aria-label="Gọi ngay - 0857 255 868"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
           <a class="btn quick-style" href="https://zalo.me/0857255868" target="_blank" aria-label="Chat Zalo"><i class="fa-solid fa-comment-dots"></i> Chat Zalo</a>
-          <a class="btn quick-style" href="banggia.html" aria-label="Xem Bảng giá"><i class="fa-solid fa-tags"></i> Xem Bảng giá</a>
+          <a class="btn quick-style" href="lienhe.html" aria-label="Đặt xe ngay"><i class="fa-solid fa-motorcycle"></i> Đặt xe ngay</a>
         </div>
       </div>
     </section>
     
-    <section id="danh-muc-xe" class="reveal" aria-labelledby="xe-title-1">
-      <h2 id="xe-title-1" class="slide-left" style="font-size: 2rem; margin-bottom: 25px;">Các loại xe chính</h2>
+    <section id="cac-loai-xe" class="reveal" aria-labelledby="bike-types-title">
+      <h2 id="bike-types-title" class="slide-left" style="font-size: 2rem; margin-bottom: 25px;">Danh mục xe cho thuê phổ biến</h2>
       
-      <div class="about-card fade-up">
-        <h3><i class="fa-solid fa-motorcycle"></i> Xe số (Honda Wave, Future)</h3>
-        <p>Dòng xe số phổ thông, lựa chọn hàng đầu cho sự bền bỉ, tiết kiệm nhiên liệu và chi phí thuê rẻ. Phù hợp cho mọi nhu cầu di chuyển.</p>
-        <ul>
-            <li><i class="fa-solid fa-gas-pump"></i> <b>Tiết kiệm xăng:</b> Vận hành hiệu quả, chi phí nhiên liệu thấp.</li>
-            <li><i class="fa-solid fa-screwdriver-wrench"></i> <b>Bền bỉ:</b> Ít hỏng vặt, dễ dàng sửa chữa nếu gặp sự cố.</li>
-            <li><i class="fa-solid fa-gauge-simple"></i> <b>Linh hoạt:</b> Dễ điều khiển, luồn lách tốt trong phố đông.</li>
-        </ul>
-      </div>
-      <div class="price-image-container fade-up">
-        <img src="https://i.postimg.cc/q73Y6SgM/honda-wave-alpha-2023.jpg" alt="Cho thuê xe số Honda Wave" class="price-image">
-      </div>
-      
-      <div class="about-card fade-up" style="margin-top: 30px;">
-        <h3><i class="fa-solid fa-couch"></i> Xe ga (Vision, Air Blade, Lead)</h3>
-        <p>Dòng xe tay ga thời trang, vận hành êm ái và tiện lợi với cốp xe rộng. Lý tưởng cho việc di chuyển trong thành phố hoặc đi làm.</p>
-        <ul>
-            <li><i class="fa-solid fa-box-open"></i> <b>Cốp rộng:</b> Để được nhiều vật dụng cá nhân, mũ bảo hiểm.</li>
-            <li><i class="fa-solid fa-chair"></i> <b>Tiện lợi:</b> Dễ lái, không cần sang số, tư thế ngồi thoải mái.</li>
-            <li><i class="fa-solid fa-palette"></i> <b>Thời trang:</b> Kiểu dáng hiện đại, phù hợp với nhiều đối tượng.</li>
-        </ul>
-      </div>
-      <div class="price-image-container fade-up">
-        <img src="https://i.postimg.cc/FKk0b1xH/honda-vision-2023.jpg" alt="Cho thuê xe ga Honda Vision Air Blade" class="price-image">
-      </div>
+      <div class="bike-type-grid">
+          
+        <div class="about-card fade-up">
+          <h3><i class="fa-solid fa-gas-pump"></i> Xe Số (Xe máy)</h3>
+          <p>Dòng xe bền bỉ, dễ sử dụng và cực kỳ tiết kiệm nhiên liệu. Phù hợp cho việc đi lại hàng ngày và các chuyến đi đường dài.</p>
+          <ul>
+              <li><i class="fa-solid fa-check-circle"></i> <b>Đặc điểm:</b> Tiết kiệm xăng, ít hỏng vặt.</li>
+              <li><i class="fa-solid fa-check-circle"></i> <b>Phù hợp:</b> Đi công tác, phượt ngoại thành, khách thuê dài ngày.</li>
+              <li><i class="fa-solid fa-check-circle"></i> <b>Đại diện:</b> Honda Wave Alpha, Sirius, Yamaha Jupiter...</li>
+          </ul>
+        </div>
+        
+        <div class="about-card fade-up" style="animation-delay: 0.1s;">
+          <h3><i class="fa-solid fa-motorcycle"></i> Xe Ga (Xe tay ga)</h3>
+          <p>Thiết kế thời trang, cốp rộng tiện lợi và vận hành êm ái. Lựa chọn hàng đầu cho khách du lịch và đi lại trong nội đô.</p>
+          <ul>
+              <li><i class="fa-solid fa-check-circle"></i> <b>Đặc điểm:</b> Cốp rộng, lái nhẹ nhàng, thời trang.</li>
+              <li><i class="fa-solid fa-check-circle"></i> <b>Phù hợp:</b> Khách du lịch, di chuyển trong thành phố.</li>
+              <li><i class="fa-solid fa-check-circle"></i> <b>Đại diện:</b> Honda Vision, Air Blade, Yamaha Janus...</li>
+          </ul>
+        </div>
 
-      <div class="about-card fade-up" style="margin-top: 30px;">
-        <h3><i class="fa-solid fa-id-card-clip"></i> Xe 50cc (Không cần bằng lái)</h3>
-        <p>Giải pháp di chuyển an toàn và tiện lợi cho học sinh, sinh viên hoặc những người chưa có bằng lái xe A1.</p>
-        <ul>
-            <li><i class="fa-solid fa-graduation-cap"></i> <b>Không cần bằng lái:</b> Chỉ cần đủ 16 tuổi trở lên là có thể sử dụng.</li>
-            <li><i class="fa-solid fa-lightbulb"></i> <b>Dễ sử dụng:</b> Xe nhẹ, nhỏ gọn, tốc độ vừa phải, an toàn.</li>
-            <li><i class="fa-solid fa-dollar-sign"></i> <b>Chi phí thấp:</b> Tiết kiệm xăng và giá thuê ưu đãi.</li>
-        </ul>
-      </div>
-      <div class="price-image-container fade-up">
-        <img src="https://i.postimg.cc/WbFvQc05/xe-50cc-giorno.jpg" alt="Cho thuê xe 50cc không cần bằng lái" class="price-image">
+        <div class="about-card fade-up" style="animation-delay: 0.2s;">
+          <h3><i class="fa-solid fa-gears"></i> Xe Tay Côn (Xe thể thao)</h3>
+          <p>Dành cho những người yêu thích sự mạnh mẽ, cảm giác lái thể thao và muốn trải nghiệm tốc độ.</p>
+          <ul>
+              <li><i class="fa-solid fa-check-circle"></i> <b>Đặc điểm:</b> Động cơ mạnh mẽ, cảm giác lái phấn khích.</li>
+              <li><i class="fa-solid fa-check-circle"></i> <b>Phù hợp:</b> Người thích thể thao, đi phượt xa, tìm kiếm trải nghiệm lái.</li>
+              <li><i class="fa-solid fa-check-circle"></i> <b>Đại diện:</b> Yamaha Exciter, Honda Winner X (tùy thời điểm).</li>
+          </ul>
+        </div>
+        
+        <div class="about-card fade-up" style="animation-delay: 0.3s;">
+          <h3><i class="fa-solid fa-id-card"></i> Xe 50cc (Không bằng)</h3>
+          <p>Dòng xe không yêu cầu bằng lái (A1), hợp pháp và an toàn khi di chuyển trong nội thành cho học sinh, sinh viên.</p>
+          <ul>
+              <li><i class="fa-solid fa-check-circle"></i> <b>Đặc điểm:</b> Không cần bằng lái, nhỏ gọn, dễ kiểm soát.</li>
+              <li><i class="fa-solid fa-check-circle"></i> <b>Phù hợp:</b> Học sinh, người không có bằng, đi lại quãng ngắn.</li>
+              <li><i class="fa-solid fa-check-circle"></i> <b>Đại diện:</b> Xe ga 50cc, xe số 50cc (SYM, Kymco...).</li>
+          </ul>
+        </div>
+        
       </div>
       
-      <div class="about-card fade-up" style="margin-top: 30px;">
-        <h3><i class="fa-solid fa-charging-station"></i> Xe điện (Vinfast)</h3>
-        <p>Trải nghiệm di chuyển "xanh", êm ái tuyệt đối và không phát thải. Phù hợp cho các quãng đường ngắn và trung bình trong nội thành.</p>
-        <ul>
-            <li><i class="fa-solid fa-leaf"></i> <b>Bảo vệ môi trường:</b> Không khói bụi, không tiếng ồn động cơ.</li>
-            <li><i class="fa-solid fa-bolt"></i> <b>Vận hành êm ái:</b> Tăng tốc mượt mà, mang lại trải nghiệm lái khác biệt.</li>
-            <li><i class="fa-solid fa-wallet"></i> <b>Tiết kiệm:</b> Chi phí sạc điện rẻ hơn nhiều so với đổ xăng.</li>
-        </ul>
-      </div>
-      <div class="price-image-container fade-up">
-        <img src="https://i.postimg.cc/NMLN1h87/vinfast-evo200.jpg" alt="Cho thuê xe máy điện Vinfast" class="price-image">
-      </div>
+      <p class="lead fade-up" style="text-align: center; margin-top: 30px; font-size: 1.05rem;">
+        <i>Tất cả xe đều được bảo trì định kỳ, đời mới (tối thiểu 2020), đảm bảo an toàn và tiết kiệm xăng.</i>
+      </p>
     </section>
+
+    <section class="hero-actions fade-up" style="margin-top: 40px; margin-bottom: 20px;">
+      <a class="btn quick-style" href="tel:0857255868" aria-label="Gọi ngay để tư vấn loại xe"><i class="fa-solid fa-phone-volume"></i> Gọi ngay</a>
+      <a class="btn quick-style" href="https://zalo.me/0857255868" target="_blank" aria-label="Chat Zalo để đặt xe"><i class="fa-solid fa-comment-dots"></i> Chat Zalo</a>
+      <a class="btn quick-style" href="banggia.html" aria-label="Xem bảng giá chi tiết"><i class="fa-solid fa-tags"></i> Xem bảng giá</a>
+    </section>
+
     
-    <section class="hero-actions fade-up" style="margin-top: 30px; margin-bottom: 20px;">
-      <a class="btn quick-style" href="tel:0857255868" aria-label="Gọi đặt xe - 0857 255 868"><i class="fa-solid fa-phone-volume"></i> Gọi đặt xe</a>
-      <a class="btn quick-style" href="https://zalo.me/0857255868" target="_blank" aria-label="Chat Zalo"><i class="fa-solid fa-comment-dots"></i> Chat Zalo</a>
-      <a class="btn quick-style" href="banggia.html" aria-label="Xem Bảng giá"><i class="fa-solid fa-tags"></i> Xem Bảng giá</a>
-    </section>
-
     <section class="quick-links-card fade-up">
       <h2 style="text-align:center;margin-bottom:18px;">🔗 Dịch vụ liên quan</h2>
       <div class="quick-links-grid">
