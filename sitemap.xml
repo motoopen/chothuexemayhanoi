@@ -1,34 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- URL chính landing page -->
+  <!-- Mini site pages -->
   <url>
     <loc>https://motoopen.github.io/chothuexemayhanoi/</loc>
-    <lastmod>2025-10-15</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-
-  <!-- Anchor sections (tăng khả năng Google hiểu nội dung) -->
   <url>
-    <loc>https://motoopen.github.io/chothuexemayhanoi/#gioithieu</loc>
-    <lastmod>2025-10-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://motoopen.github.io/chothuexemayhanoi/gioithieu.html</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://motoopen.github.io/chothuexemayhanoi/dichvu.html</loc>
+  </url>
+  <url>
+    <loc>https://motoopen.github.io/chothuexemayhanoi/banggia.html</loc>
+  </url>
+  <url>
+    <loc>https://motoopen.github.io/chothuexemayhanoi/thutuc.html</loc>
+  </url>
+  <url>
+    <loc>https://motoopen.github.io/chothuexemayhanoi/loaixe.html</loc>
+  </url>
+  <url>
+    <loc>https://motoopen.github.io/chothuexemayhanoi/huongdan.html</loc>
+  </url>
+  <url>
+    <loc>https://motoopen.github.io/chothuexemayhanoi/kinhnghiem.html</loc>
+  </url>
+  <url>
+    <loc>https://motoopen.github.io/chothuexemayhanoi/faq.html</loc>
+  </url>
+  <url>
+    <loc>https://motoopen.github.io/chothuexemayhanoi/lienhe.html</loc>
   </url>
 
-  <url>
-    <loc>https://motoopen.github.io/chothuexemayhanoi/#banggia</loc>
-    <lastmod>2025-10-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://motoopen.github.io/chothuexemayhanoi/#lienhe</loc>
-    <lastmod>2025-10-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  <!-- Fanpage Facebook -->
+  <url><loc>https://m.facebook.com/chothuexemayphoco/</loc></url>
+  <url><loc>https://m.facebook.com/chothuexemay0857255868/</loc></url>
+  <url><loc>https://m.facebook.com/chothuexemaycongtan/</loc></url>
+  <url><loc>https://m.facebook.com/chothuexemaythanhxuan/</loc></url>
+  <url><loc>https://m.facebook.com/chothuexemayquanhaibatrung/</loc></url>
+  <url><loc>https://m.facebook.com/chothuexemaycaugiay/</loc></url>
+  <url><loc>https://m.facebook.com/chothuexemayquanhoangmai/</loc></url>
+  <url><loc>https://m.facebook.com/chothuexemayhoankiem/</loc></url>
+  <url><loc>https://m.facebook.com/chothuexemaylongbien/</loc></url>
+  <url><loc>https://m.facebook.com/chothuexemaytayho/</loc></url>
+  <url><loc>https://m.facebook.com/chothuexemayohanoi1/</loc></url>
+  <url><loc>https://m.facebook.com/chothuexeganmayhanoi/</loc></url>
+  <url><loc>https://m.facebook.com/chothuexemaydongda/</loc></url>
+  <url><loc>https://m.facebook.com/chothuexemaygiareohanoi/</loc></url>
+  <url><loc>https://m.facebook.com/motoopenvn/</loc></url>
+  <url><loc>https://m.facebook.com/xemayhanoi/</loc></url>
 
 </urlset>
