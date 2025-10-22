@@ -2119,6 +2119,97 @@ if(!document.querySelector('moto-toc')){
     </div>
   </div>
 </footer>
+
+ <script>
+  (function(){
+    const SESSION_MSG = 'motoai_v3_msgs';
+    const STATE_KEY = 'motoai_v3_open';
+    const $ = s => document.querySelector(s);
+    const state = { msgs: [] };
+
+    // content index
+    function buildCorpus(){
+      const txt = document.body.innerText || '';
+      const sentences = txt.replace(/\s+/g,' ').split(/(?<=[.?!])\s+(?=[A-ZÀ-Ỵ0-9"'])/).filter(s=>s.length>20);
+      return sentences;
+    }
+    const CORPUS = buildCorpus();
+    function embed(t){ const m=new Map(); const s=t.toLowerCase(); for(let i=0;i<=s.length-3;i++){const g=s.slice(i,i+3);m.set(g,(m.get(g)||0)+1);} return m;}
+    function sim(a,b){const ks=new Set([...a.keys(),...b.keys()]);let dot=0,na=0,nb=0;ks.forEach(k=>{const va=a.get(k)||0,vb=b.get(k)||0;dot+=va*vb;na+=va*va;nb+=vb*vb;});return dot/(Math.sqrt(na)*Math.sqrt(nb)+1e-12);}
+    function retrieve(q){const qv=embed(q);return CORPUS.map(s=>({text:s,score:sim(qv,embed(s))})).sort((a,b)=>b.score-a.score).slice(0,5);}
+
+    // elements
+    const bubble=$('#motoai-bubble'),card=$('#motoai-card'),backdrop=$('#motoai-backdrop');
+    const bodyEl=$('#motoai-body'),inputEl=$('#motoai-input-el'),sendBtn=$('#motoai-send'),handle=$('#motoai-handle');
+
+    function loadMsgs(){ try{state.msgs=JSON.parse(sessionStorage.getItem(SESSION_MSG))||[];}catch{state.msgs=[];} }
+    function saveMsgs(){ sessionStorage.setItem(SESSION_MSG,JSON.stringify(state.msgs)); }
+    function renderMsgs(){
+      bodyEl.innerHTML='';
+      for(const m of state.msgs){
+        const el=document.createElement('div');
+        el.className='m-msg '+(m.role==='user'?'user':'bot');
+        el.textContent=m.text;
+        bodyEl.appendChild(el);
+      }
+      bodyEl.scrollTop=bodyEl.scrollHeight;
+    }
+
+    function greet(){ if(state.msgs.some(m=>m.role==='bot'))return;
+      state.msgs.push({role:'bot',text:'Xin chào 👋! Mình là Motoopen AI — trợ lý của trang. Bạn cần hỏi gì về giá, xe hay giao tận nơi?'});
+      saveMsgs();renderMsgs();
+    }
+
+    async function ask(q){
+      if(!q.trim())return;
+      state.msgs.push({role:'user',text:q}); saveMsgs(); renderMsgs();
+      inputEl.value=''; sendBtn.disabled=true;
+
+      const typing=document.createElement('div'); typing.className='m-msg bot typing'; typing.textContent='Đang nhập...'; bodyEl.appendChild(typing);
+      bodyEl.scrollTop=bodyEl.scrollHeight;
+
+      await new Promise(r=>setTimeout(r,500+Math.random()*600));
+      const res=retrieve(q);
+      typing.remove();
+      const ans = res.length && res[0].score>0.03 ? res.slice(0,2).map(r=>r.text).join(' ') :
+        "Mình chưa tìm thấy thông tin rõ ràng 🤔. Bạn có thể hỏi chi tiết hơn hoặc liên hệ Zalo 0857 255 868 nhé!";
+      state.msgs.push({role:'bot',text:ans});
+      saveMsgs(); renderMsgs(); sendBtn.disabled=false;
+    }
+
+    function openCard(){
+      card.classList.add('open');backdrop.classList.add('show');bubble.classList.add('hidden');
+      localStorage.setItem(STATE_KEY,'1'); greet(); setTimeout(()=>inputEl.focus(),400);
+    }
+    function closeCard(){
+      card.classList.remove('open');backdrop.classList.remove('show');bubble.classList.remove('hidden');
+      localStorage.setItem(STATE_KEY,'0'); inputEl.blur();
+    }
+
+    sendBtn.onclick=()=>ask(inputEl.value);
+    inputEl.onkeydown=e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();ask(inputEl.value);}};
+
+    bubble.onclick=openCard; backdrop.onclick=closeCard;
+
+    // drag dismiss
+    let dragStartY=0; let dragging=false;
+    handle.addEventListener('touchstart',e=>{dragging=true;dragStartY=e.touches[0].clientY;card.style.transition='none';},{passive:true});
+    window.addEventListener('touchmove',e=>{
+      if(!dragging)return; const dy=e.touches[0].clientY-dragStartY;
+      if(dy>0){card.style.transform=`translateY(${dy}px)`;}},{passive:true});
+    window.addEventListener('touchend',e=>{
+      if(!dragging)return; dragging=false;card.style.transition='';
+      const dy=parseFloat(card.style.transform.replace(/[^0-9.]/g,''))||0;
+      if(dy>card.offsetHeight*0.3){closeCard();}else{card.style.transform='translateY(0)';}
+    });
+
+    // init
+    loadMsgs(); renderMsgs();
+    if(localStorage.getItem(STATE_KEY)==='1') openCard();
+    window.visualViewport?.addEventListener('resize',()=>{if(card.classList.contains('open'))bodyEl.scrollTop=bodyEl.scrollHeight;});
+  })();
+  </script>
+  
   <div class="quick-call-game">
     <button class="quick-main" aria-label="Mở menu gọi nhanh" title="Menu gọi nhanh">
       <i class="fa-solid fa-phone"></i>
