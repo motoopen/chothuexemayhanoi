@@ -2119,6 +2119,126 @@ if(!document.querySelector('moto-toc')){
     </div>
   </div>
 </footer>
+
+<script>
+(function(){
+  const $ = s => document.querySelector(s);
+  const root = $('#motoai-root');
+  const bubble = $('#motoai-bubble');
+  const card = $('#motoai-card');
+  const backdrop = $('#motoai-backdrop');
+  const bodyEl = $('#motoai-body');
+  const inputEl = $('#motoai-input-el');
+  const sendBtn = $('#motoai-send');
+  const themeToggle = $('#theme-toggle');
+
+  // --- Khởi tạo ---
+  const state = { msgs: [
+    { role:'bot', text: 'Chào bạn 👋! Thử hỏi mình điều gì đó nhé.' }
+  ]};
+
+  function renderMsgs(){
+    bodyEl.innerHTML = '';
+    state.msgs.forEach(m=>{
+      const d = document.createElement('div');
+      d.className = 'm-msg ' + (m.role==='user' ? 'user' : 'bot');
+      d.textContent = m.text;
+      bodyEl.appendChild(d);
+    });
+    bodyEl.scrollTop = bodyEl.scrollHeight;
+  }
+
+  // --- Xây dữ liệu mô phỏng ---
+  function buildCorpus(){
+    const txt = document.body.innerText || '';
+    const withSep = txt.replace(/([.?!])(\s)*(?=[A-ZÀ-Ỵ0-9"'])/g, '$1|');
+    return withSep.split('|').map(s => s.trim()).filter(s => s.length > 20);
+  }
+  const CORPUS = buildCorpus();
+  function dummyRetrieve(q){
+    for(const s of CORPUS){
+      if(q.split(' ').some(w => s.toLowerCase().includes(w.toLowerCase()))) return s;
+    }
+    return "Xin lỗi, mình chưa tìm thấy thông tin đó 🤔.";
+  }
+
+  // --- Hỏi/Trả lời ---
+  async function ask(q){
+    if(!q.trim()) return;
+    state.msgs.push({role:'user', text:q});
+    renderMsgs();
+    inputEl.value = '';
+    sendBtn.disabled = true;
+    await new Promise(r => setTimeout(r,250));
+    const ans = dummyRetrieve(q);
+    state.msgs.push({role:'bot', text:ans});
+    renderMsgs();
+    sendBtn.disabled = false;
+    inputEl.focus();
+  }
+
+  // --- Mở/Đóng khung chat ---
+  function openCard(){
+    card.classList.add('open');
+    backdrop.classList.add('show');
+    root.style.pointerEvents = 'auto'; // bật click cho input
+    bubble.style.display = 'none';
+    card.setAttribute('aria-hidden','false');
+    renderMsgs();
+    setTimeout(()=> inputEl.focus(), 250);
+  }
+  function closeCard(){
+    card.classList.remove('open');
+    backdrop.classList.remove('show');
+    root.style.pointerEvents = 'none'; // tắt click khi đóng
+    bubble.style.display = 'flex';
+    card.setAttribute('aria-hidden','true');
+    bubble.focus();
+  }
+
+  // --- Sự kiện ---
+  bubble.addEventListener('click', openCard);
+  backdrop.addEventListener('click', closeCard);
+  sendBtn.addEventListener('click', ()=> ask(inputEl.value));
+
+  inputEl.addEventListener('keydown', e => {
+    if(e.key === 'Enter' && !e.shiftKey){
+      e.preventDefault();
+      ask(inputEl.value);
+    }
+    if(e.key === 'Escape'){
+      closeCard();
+    }
+  });
+
+  document.addEventListener('keydown', e => {
+    if(e.key === 'Escape' && card.classList.contains('open')) closeCard();
+  });
+
+  // --- Chuyển theme (demo) ---
+  let forcedDark = false;
+  if(themeToggle){
+    themeToggle.addEventListener('click', () => {
+      forcedDark = !forcedDark;
+      if(forcedDark){
+        document.documentElement.style.setProperty('--card-bg', getComputedStyle(document.documentElement).getPropertyValue('--card-bg-dark') || '#141417');
+        document.body.style.background = '#071021';
+        themeToggle.textContent = 'Light mode';
+        themeToggle.setAttribute('aria-pressed','true');
+      } else {
+        document.documentElement.style.removeProperty('--card-bg');
+        document.body.style.background = '';
+        themeToggle.textContent = 'Chuyển theme';
+        themeToggle.setAttribute('aria-pressed','false');
+      }
+    });
+  }
+
+  // --- Khởi tạo hiển thị ---
+  renderMsgs();
+})();
+</script>
+  
   <div class="quick-call-game">
     <button class="quick-main" aria-label="Mở menu gọi nhanh" title="Menu gọi nhanh">
       <i class="fa-solid fa-phone"></i>
