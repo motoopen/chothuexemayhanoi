@@ -2120,255 +2120,156 @@ if(!document.querySelector('moto-toc')){
   </div>
 </footer>
 
-<!-- Motoopen AI Assistant — upgraded & fix (paste before </body>) -->
 <script>
 (function(){
-  // run after DOM ready to avoid builders that re-render body
+  // Khởi tạo khi DOM sẵn sàng
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initMotoAI);
+  } else {
+    initMotoAI();
+  }
+
   function initMotoAI(){
-    try {
-      const SESSION_MSG = 'motoai_v3_msgs';
-      const STATE_KEY = 'motoai_v3_open';
-      const $ = s => document.querySelector(s);
+    const $ = s => document.querySelector(s);
+    const state = { msgs: [] };
 
-      // create container only once
-      if(document.getElementById('motoai-root')) return;
-
-      // ===== UI Markup =====
-      const wrapper = document.createElement('div');
-      wrapper.id = 'motoai-wrapper';
-      wrapper.innerHTML = `
-        <div id="motoai-backdrop" aria-hidden="true"></div>
-        <div id="motoai-root" aria-hidden="false" role="region" aria-label="Motoopen AI widget">
-          <button id="motoai-bubble" aria-label="Mở Motoopen AI" title="Motoopen AI">👩‍💻</button>
-          <div id="motoai-card" role="dialog" aria-modal="true" aria-hidden="true">
-            <div id="motoai-handle" aria-hidden="true"></div>
-            <div id="motoai-header">Motoopen AI</div>
-            <div id="motoai-body" aria-live="polite"></div>
-            <div id="motoai-input">
-              <input id="motoai-input-el" type="text" placeholder="Nhập câu hỏi..." aria-label="Nhập câu hỏi" />
-              <button id="motoai-send" aria-label="Gửi tin nhắn">Gửi</button>
-            </div>
+    // Tạo UI chat
+    const el = document.createElement('div');
+    el.innerHTML = `
+      <div id="motoai-backdrop"></div>
+      <div id="motoai-root">
+        <div id="motoai-bubble" role="button">👩‍💻</div>
+        <div id="motoai-card" role="dialog" aria-modal="true">
+          <div id="motoai-handle"></div>
+          <div id="motoai-header">Motoopen AI</div>
+          <div id="motoai-body"></div>
+          <div id="motoai-input">
+            <input id="motoai-input-el" type="text" placeholder="Nhập câu hỏi..." />
+            <button id="motoai-send">Gửi</button>
           </div>
         </div>
-      `;
-      // append late-safe
-      document.body.appendChild(wrapper);
+      </div>
+    `;
+    document.body.appendChild(el);
 
-      // ===== Styles (kept local & safe; use !important where external CSS commonly overrides) =====
-      const style = document.createElement('style');
-      style.id = 'motoai-styles';
-      style.textContent = `
-        :root{--accent:#007aff;--card-bg:rgba(255,255,255,0.96);--card-bg-dark:rgba(20,20,22,0.92);--text:#111;}
-        @media(prefers-color-scheme:dark){:root{--card-bg:var(--card-bg-dark);--text:#eee;}}
-
-        /* container */
-        #motoai-root { position: fixed; left: 18px; bottom: 190px; z-index: 2147483000; pointer-events: none; font-family: Inter, -apple-system, system-ui, "Segoe UI", Roboto, Arial; }
-        #motoai-bubble { pointer-events: auto; width:58px; height:58px; border-radius:14px; display:flex; align-items:center; justify-content:center; font-size:28px; background:var(--accent); color:#fff; box-shadow:0 10px 28px rgba(0,0,0,0.24); cursor:pointer; border:0; }
-        #motoai-bubble:focus{ outline: 3px solid rgba(0,122,255,0.18); }
-
-        #motoai-backdrop { position: fixed; inset:0; background: rgba(0,0,0,0.18); backdrop-filter: blur(6px); opacity: 0; pointer-events: none; transition: opacity .28s ease; z-index:2147482999; }
-        #motoai-backdrop.show { opacity: 1 !important; pointer-events: auto !important; }
-
-        #motoai-card { pointer-events: auto; position: fixed; left:0; right:0; bottom:0; height: 80vh; max-height:820px; margin:0 auto; width: min(920px, calc(100% - 28px)); border-radius: 18px 18px 0 0; background: var(--card-bg); box-shadow: 0 -12px 40px rgba(10,20,30,0.18); transform: translateY(110%); opacity: 0; transition: transform .42s cubic-bezier(.2,.9,.2,1), opacity .28s ease; display:flex; flex-direction:column; overflow:hidden; z-index:2147483000; -webkit-overflow-scrolling: touch; }
-        #motoai-card.open { transform: translateY(0) !important; opacity: 1 !important; pointer-events: auto !important; }
-        #motoai-card[aria-hidden="false"] { transform: translateY(0) !important; opacity: 1 !important; }
-
-        #motoai-handle { width:54px; height:6px; background:#d0d6dc; border-radius:6px; margin:10px auto; cursor:grab; }
-        #motoai-header { padding:6px 14px; font-weight:700; color:var(--accent); text-align:center; user-select:none; }
-
-        #motoai-body { flex:1; overflow:auto; padding:12px 14px; font-size:15px; color: var(--text); background: transparent; }
-        .m-msg { margin:8px 0; padding:10px 12px; border-radius:12px; max-width:84%; line-height:1.35; word-wrap:break-word; }
-        .m-msg.bot { background: rgba(240,240,246,0.95); color: var(--text); margin-right:auto; }
-        .m-msg.user { background: linear-gradient(180deg,var(--accent), #00b6ff); color: #fff; margin-left:auto; }
-
-        #motoai-input { display:flex; gap:8px; padding:10px; border-top:1px solid rgba(0,0,0,0.06); background: linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.8)); }
-        #motoai-input input { flex:1; padding:12px; border-radius:12px; border:1px solid #d6dde6; font-size:16px; outline:none; background:transparent; color:inherit; caret-color: var(--accent); }
-        #motoai-input button { padding:10px 14px; border-radius:10px; border:none; background:var(--accent); color:#fff; font-weight:700; cursor:pointer; }
-
-        /* Dark mode input visibility fix */
-        @media (prefers-color-scheme: dark) {
-          #motoai-card { background: rgba(20,20,22,0.92); color: var(--text); }
-          #motoai-body { color: var(--text); }
-          .m-msg.bot { background: rgba(40,40,50,0.9); color: #f2f2f2; }
-          #motoai-input { background: rgba(25,25,30,0.92); border-top: 1px solid rgba(255,255,255,0.06); }
-          #motoai-input input { background: rgba(255,255,255,0.08); color:#fff; border:1px solid rgba(255,255,255,0.12); }
-          #motoai-input input::placeholder { color: rgba(255,255,255,0.55); }
-          #motoai-input input:focus { background: rgba(255,255,255,0.12); border-color: #0a84ff; outline: none; }
-        }
-
-        /* ensure priority vs page css that might hide */
-        #motoai-root, #motoai-card, #motoai-backdrop, #motoai-bubble { all: initial; font-family: Inter, -apple-system, system-ui, "Segoe UI", Roboto, Arial; }
-        /* reapply only needed properties after all:initial */
-        #motoai-root{ position: fixed; left: 18px; bottom: 190px; z-index: 2147483000; pointer-events: none; }
-        #motoai-bubble{ pointer-events:auto; width:58px; height:58px; border-radius:14px; display:flex; align-items:center; justify-content:center; font-size:28px; background:var(--accent); color:#fff; box-shadow:0 10px 28px rgba(0,0,0,0.24); cursor:pointer; border:0; }
-      `;
-      document.head.appendChild(style);
-
-      // ===== State & storage =====
-      let state = { msgs: [] };
-      try { const raw = sessionStorage.getItem(SESSION_MSG); state.msgs = raw ? JSON.parse(raw) : []; } catch(e){ state.msgs = []; }
-      const CORPUS = (function buildCorpus(){
-        try {
-          const txt = document.body.innerText || '';
-          return txt.replace(/\s+/g,' ').split(/(?<=[.?!])\s+(?=[A-ZÀ-Ỵ0-9"'])/).filter(s=>s.length>20);
-        } catch(e) { return []; }
-      })();
-
-      // simple trigram embed retrieval
-      function embed(t){
-        const m = new Map(); if(!t) return m;
-        const s = t.toLowerCase();
-        for(let i=0;i<=s.length-3;i++){ const g = s.slice(i,i+3); m.set(g,(m.get(g)||0)+1); }
-        return m;
+    // Thêm CSS
+    const style = document.createElement('style');
+    style.textContent = `
+      :root{--accent:#007aff; --card-bg:rgba(255,255,255,0.96); --card-bg-dark:rgba(20,20,22,0.92); --text:#111;}
+      @media(prefers-color-scheme:dark){:root{--card-bg:var(--card-bg-dark); --text:#eee;} body{background:#081018; color:#ddd;}}
+      #motoai-root{position:fixed; left:18px; bottom:190px; z-index:2147483000; pointer-events:none;}
+      #motoai-bubble{pointer-events:auto; width:58px; height:58px; border-radius:14px; display:flex; align-items:center; justify-content:center; font-size:28px; background:var(--accent); color:#fff; box-shadow:0 10px 28px rgba(0,0,0,0.24); cursor:pointer;}
+      #motoai-bubble.hidden{ display: none; }
+      #motoai-backdrop{position:fixed; inset:0; background:rgba(0,0,0,0.18); backdrop-filter:blur(6px); opacity:0; pointer-events:none; transition:opacity .28s ease; z-index:2147482999;}
+      #motoai-backdrop.show{opacity:1; pointer-events:auto;}
+      #motoai-card{position:fixed; left:0; right:0; bottom:0; height:80vh; max-height:820px; width:min(920px,calc(100% - 28px)); border-radius:18px 18px 0 0; background:var(--card-bg); box-shadow:0 -12px 40px rgba(10,20,30,0.18); transform:translateY(110%); opacity:0; transition:transform .42s cubic-bezier(.2,.9,.2,1), opacity .28s ease; display:flex; flex-direction:column; overflow:hidden; z-index:2147483000;}
+      #motoai-card.open{transform:translateY(0); opacity:1;}
+      #motoai-handle{width:54px; height:6px; background:#d0d6dc; border-radius:6px; margin:10px auto; cursor:grab;}
+      #motoai-header{padding:6px 14px; font-weight:700; color:var(--accent); text-align:center;}
+      #motoai-body{flex:1; overflow:auto; padding:12px 14px; font-size:15px;}
+      .m-msg{margin:8px 0; padding:10px 12px; border-radius:12px; max-width:84%; line-height:1.35; word-wrap:break-word;}
+      .m-msg.bot{background:rgba(240,240,246,0.95); color:var(--text);}
+      .m-msg.user{background:linear-gradient(180deg,var(--accent),#00b6ff); color:#fff; margin-left:auto;}
+      #motoai-input{display:flex; gap:8px; padding:10px; border-top:1px solid rgba(0,0,0,0.06); background:linear-gradient(180deg,rgba(255,255,255,0.6),rgba(255,255,255,0.8));}
+      #motoai-input input{flex:1; padding:12px; border-radius:12px; border:1px solid #d6dde6; font-size:16px; background:transparent; color:inherit;}
+      #motoai-input button{padding:10px 14px; border-radius:10px; border:none; background:var(--accent); color:#fff; font-weight:700; cursor:pointer;}
+      @media(prefers-color-scheme:dark){
+        .m-msg.bot{background:rgba(40,40,50,0.9); color:#f2f2f2;}
+        #motoai-input{background:rgba(25,25,30,0.9);}
+        #motoai-input input{background:rgba(255,255,255,0.12); color:#fff; border:1px solid rgba(255,255,255,0.2);}
+        #motoai-input input::placeholder{color:rgba(255,255,255,0.55);}
+        #motoai-input input:focus{background:rgba(255,255,255,0.18); border-color:#0a84ff; outline:none;}
       }
-      function sim(a,b){
-        const ks = new Set([...a.keys(), ...b.keys()]);
-        let dot=0, na=0, nb=0;
-        ks.forEach(k=>{ const va=a.get(k)||0, vb=b.get(k)||0; dot += va*vb; na += va*va; nb += vb*vb; });
-        return dot/(Math.sqrt(na)*Math.sqrt(nb)+1e-12);
-      }
-      function retrieve(q){
-        try {
-          const qv = embed(q);
-          return CORPUS.map(s => ({ text: s, score: sim(qv, embed(s)) }))
-                       .sort((a,b)=>b.score-a.score).slice(0,6);
-        } catch(e){ return []; }
-      }
+    `;
+    document.head.appendChild(style);
 
-      // ===== Elements =====
-      const bubble = document.getElementById('motoai-bubble');
-      const card = document.getElementById('motoai-card');
-      const backdrop = document.getElementById('motoai-backdrop');
-      const bodyEl = document.getElementById('motoai-body');
-      const inputEl = document.getElementById('motoai-input-el');
-      const sendBtn = document.getElementById('motoai-send');
-
-      // render messages
-      function saveMsgs(){ try { sessionStorage.setItem(SESSION_MSG, JSON.stringify(state.msgs)); } catch(e){} }
-      function renderMsgs(){
-        bodyEl.innerHTML = '';
-        state.msgs.forEach(m=>{
-          const d = document.createElement('div');
-          d.className = 'm-msg ' + (m.role === 'user' ? 'user' : 'bot');
-          d.textContent = m.text;
-          bodyEl.appendChild(d);
-        });
-        // small delay to allow layout then scroll
-        requestAnimationFrame(()=> { bodyEl.scrollTop = bodyEl.scrollHeight; });
-      }
-      // initial greeting
-      if(!state.msgs.find(m=>m.role==='bot')){
-        state.msgs.push({ role:'bot', text: 'Xin chào 👋! Mình là Motoopen AI — hỏi giá, loại xe hay giao tận nơi nhé?' });
-        saveMsgs();
-      }
-      renderMsgs();
-
-      // ===== UX helpers =====
-      function openCard(){
-        // prevent double toggle
-        if(card.classList.contains('open')) return;
-        card.classList.add('open');
-        card.setAttribute('aria-hidden','false');
-        backdrop.classList.add('show');
-        backdrop.setAttribute('aria-hidden','false');
-        bubble.classList.add('hidden');
-        // prevent body scroll
-        document.documentElement.style.overflow = 'hidden';
-        document.body.style.overflow = 'hidden';
-        // focus
-        setTimeout(()=> inputEl.focus(), 260);
-        localStorage.setItem(STATE_KEY, '1');
-      }
-      function closeCard(){
-        if(!card.classList.contains('open')) return;
-        card.classList.remove('open');
-        card.setAttribute('aria-hidden','true');
-        backdrop.classList.remove('show');
-        backdrop.setAttribute('aria-hidden','true');
-        bubble.classList.remove('hidden');
-        document.documentElement.style.overflow = '';
-        document.body.style.overflow = '';
-        localStorage.setItem(STATE_KEY, '0');
-      }
-
-      // retrieve answer and display
-      async function ask(q){
-        if(!q || !q.trim()) return;
-        state.msgs.push({ role:'user', text: q.trim() });
-        saveMsgs(); renderMsgs();
-        inputEl.value = '';
-        sendBtn.disabled = true;
-
-        const typingEl = document.createElement('div');
-        typingEl.className = 'm-msg bot';
-        typingEl.textContent = 'Đang nhập...';
-        bodyEl.appendChild(typingEl);
-        bodyEl.scrollTop = bodyEl.scrollHeight;
-
-        await new Promise(r => setTimeout(r, 420 + Math.random()*520));
-        const res = retrieve(q);
-        typingEl.remove();
-        const ans = (res.length && res[0].score > 0.03) ? res.slice(0,2).map(r=>r.text).join(' ') : 'Mình chưa tìm thấy thông tin rõ ràng trên trang 🤔. Gọi Zalo 0857 255 868 để nhanh hơn.';
-        state.msgs.push({ role:'bot', text: ans });
-        saveMsgs(); renderMsgs();
-        sendBtn.disabled = false;
-      }
-
-      // ===== Event wiring (robust) =====
-      // prevent click from bubbling to backdrop -> close
-      bubble.addEventListener('click', (e) => { e.stopPropagation(); openCard(); });
-
-      // stop clicks inside card from closing accidentally
-      card.addEventListener('click', (e) => { e.stopPropagation(); });
-
-      // backdrop closes
-      backdrop.addEventListener('click', (e) => { e.stopPropagation(); closeCard(); });
-
-      // send
-      sendBtn.addEventListener('click', () => ask(inputEl.value));
-      inputEl.addEventListener('keydown', (e) => { if(e.key === 'Enter' && !e.shiftKey){ e.preventDefault(); ask(inputEl.value); } });
-
-      // keyboard: Esc to close
-      window.addEventListener('keydown', (e) => { if(e.key === 'Escape') closeCard(); });
-
-      // re-open if last state was open
-      if(localStorage.getItem(STATE_KEY) === '1') { setTimeout(()=> openCard(), 260); }
-
-      // defensive: if something else removes element, try to reattach once
-      let reattachCount = 0;
-      const mo = new MutationObserver(() => {
-        if(reattachCount > 2) { mo.disconnect(); return; }
-        if(!document.getElementById('motoai-root')) {
-          reattachCount++;
-          // re-append wrapper if missing
-          try { document.body.appendChild(wrapper); } catch(e){}
-        }
-      });
-      mo.observe(document.documentElement, { childList: true, subtree: true });
-
-      // accessibility: focus trap minimal (close on focusout of card when open and click outside)
-      document.addEventListener('click', (e) => {
-        // if open and click outside card & bubble -> close
-        if(card.classList.contains('open') && !card.contains(e.target) && !bubble.contains(e.target) && !backdrop.contains(e.target)) {
-          closeCard();
-        }
-      }, { capture: true });
-
-    } catch(err){
-      // fail silently but log for debug
-      console.error('MotoAI init error', err);
+    // Logic
+    const CORPUS = buildCorpus();
+    function buildCorpus(){
+      const txt = document.body.innerText || '';
+      const withSep = txt.replace(/([.?!])(\s)*(?=[A-ZÀ-Ỵ0-9"'])/g, '$1|');
+      return withSep.split('|').map(s => s.trim()).filter(s => s.length > 20);
     }
-  } // end initMotoAI
+    function embed(t){
+      const m = new Map(), s = t.toLowerCase();
+      for(let i = 0; i <= s.length - 3; i++){
+        const g = s.slice(i, i+3);
+        m.set(g,(m.get(g)||0)+1);
+      }
+      return m;
+    }
+    function sim(a,b){
+      const ks = new Set([...a.keys(), ...b.keys()]);
+      let dot=0,na=0,nb=0;
+      ks.forEach(k=> {
+        const va = a.get(k)||0, vb = b.get(k)||0;
+        dot += va*vb;
+        na  += va*va;
+        nb  += vb*vb;
+      });
+      return dot/(Math.sqrt(na)*Math.sqrt(nb)+1e-12);
+    }
+    function retrieve(q){
+      const qv = embed(q);
+      return CORPUS.map(s => ({text:s, score:sim(qv, embed(s))}))
+                   .sort((a,b) => b.score - a.score)
+                   .slice(0,5);
+    }
 
-  if(document.readyState === 'loading'){
-    window.addEventListener('DOMContentLoaded', initMotoAI, { once:true });
-  } else {
-    // run asap
-    setTimeout(initMotoAI, 10);
+    const bubble = $('#motoai-bubble'),
+          card = $('#motoai-card'),
+          backdrop = $('#motoai-backdrop'),
+          bodyEl = $('#motoai-body'),
+          inputEl = $('#motoai-input-el'),
+          sendBtn = $('#motoai-send');
+
+    function renderMsgs(){
+      bodyEl.innerHTML = '';
+      state.msgs.forEach(m=>{
+        const d = document.createElement('div');
+        d.className = 'm-msg ' + (m.role==='user' ? 'user' : 'bot');
+        d.textContent = m.text;
+        bodyEl.appendChild(d);
+      });
+      bodyEl.scrollTop = bodyEl.scrollHeight;
+    }
+    async function ask(q){
+      if(!q.trim()) return;
+      state.msgs.push({role:'user', text:q});
+      renderMsgs();
+      inputEl.value = '';
+      sendBtn.disabled = true;
+      await new Promise(r => setTimeout(r,500));
+      const res = retrieve(q);
+      const ans = (res.length && res[0].score > 0.03) ? res[0].text : "Xin lỗi, mình chưa tìm thấy thông tin đó 🤔.";
+      state.msgs.push({role:'bot', text:ans});
+      renderMsgs();
+      sendBtn.disabled = false;
+    }
+    function openCard(){
+      card.classList.add('open');
+      backdrop.classList.add('show');
+      bubble.classList.add('hidden');
+    }
+    function closeCard(){
+      card.classList.remove('open');
+      backdrop.classList.remove('show');
+      bubble.classList.remove('hidden');
+    }
+
+    sendBtn.onclick = () => ask(inputEl.value);
+    inputEl.onkeydown = e => {
+      if(e.key==='Enter' && !e.shiftKey){
+        e.preventDefault();
+        ask(inputEl.value);
+      }
+    };
+    bubble.onclick = openCard;
+    backdrop.onclick = closeCard;
   }
 })();
 </script>
-  
+
   <div class="quick-call-game">
     <button class="quick-main" aria-label="Mở menu gọi nhanh" title="Menu gọi nhanh">
       <i class="fa-solid fa-phone"></i>
