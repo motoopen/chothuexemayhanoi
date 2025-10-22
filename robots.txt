@@ -1,4 +1,18 @@
+# ================================
+# 🤖 robots.txt for Motoopen Main Site
+# ================================
+# Site: https://motoopen.github.io/chothuexemayhanoi/
+# Purpose: Allow all bots, enable full indexing
+# ================================
+
 User-agent: *
 Allow: /
 
 Sitemap: https://motoopen.github.io/chothuexemayhanoi/sitemap.xml
+
+# Optional (Recommended)
+Host: https://motoopen.github.io/chothuexemayhanoi/
+
+# ================================
+# End of file
+# ================================
