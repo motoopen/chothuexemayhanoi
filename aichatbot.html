@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover" />
   <meta property="og:site_name" content="Motoopen">
-  <title>Motoopen AI v3.2 — iOS Chat Card</title>
+  <title>Motoopen AI v3.2.1 — iOS Chat Card</title>
   <style>
     :root{
       --accent:#007aff;
@@ -71,25 +71,30 @@
     .m-msg.user { background: linear-gradient(180deg,var(--accent), #00b6ff); color: #fff; margin-left:auto; }
     .typing { background: rgba(230,230,240,0.8); color:#555; font-style:italic; }
 
-    /* === Dark Mode Fix + Input polish === */
+    /* === Dark Mode Fix (3.2.1 Input Visibility) === */
     @media (prefers-color-scheme: dark) {
       .m-msg.bot { background: rgba(40,40,50,0.9); color: #f2f2f2; }
       .m-msg.user { background: linear-gradient(180deg, #0a84ff, #007aff); color: #fff; }
       .typing { background: rgba(50,50,60,0.9); color: #aaa; }
+
       #motoai-input {
-        background: linear-gradient(180deg, rgba(25,25,30,0.6), rgba(25,25,30,0.9));
+        background: rgba(25,25,30,0.9);
         border-top: 1px solid rgba(255,255,255,0.08);
       }
       #motoai-input input {
-        background: rgba(255,255,255,0.08);
-        color: #fff;
-        border: 1px solid rgba(255,255,255,0.15);
-        caret-color: #00b6ff;
-      }
-      #motoai-input input::placeholder { color: rgba(255,255,255,0.5); }
-      #motoai-input input:focus {
-        border-color: #0a84ff;
         background: rgba(255,255,255,0.12);
+        color: #fff;
+        border: 1px solid rgba(255,255,255,0.2);
+        border-radius: 12px;
+        caret-color: #0a84ff;
+        transition: border-color 0.2s ease, background-color 0.2s ease;
+      }
+      #motoai-input input::placeholder {
+        color: rgba(255,255,255,0.55);
+      }
+      #motoai-input input:focus {
+        background: rgba(255,255,255,0.18);
+        border-color: #0a84ff;
         outline: none;
       }
       #motoai-input button {
