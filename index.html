@@ -1055,6 +1055,553 @@
         text-align: center;
       }
     </style>
+  <!-- MotoTOC PRO v5.5 — full bundle (paste BEFORE </body>) -->
+<script type="module">
+/**
+ * MotoTOC PRO v5.5
+ * - Web Component <moto-toc> (open shadow)
+ * - Features: auto H2/H3, MutationObserver, IntersectionObserver, global progress bar,
+ *   command palette (Ctrl+K, /), keyboard (M / ArrowUp/Down / Esc), FAB + Drawer,
+ *   full-text search with highlight, voice commands (SpeechRecognition), config panel (Alt+M),
+ *   localStorage persistence, lazy init option (data-lazy / data-lazy-threshold)
+ *
+ * Usage:
+ *  - Paste this <script type="module"> before </body>
+ *  - It auto-inserts <moto-toc> if not present
+ *  - Public API: document.querySelector('moto-toc').open(), .close(), .refresh()
+ */
+
+class MotoToc extends HTMLElement {
+  constructor(){
+    super();
+    this._shadow = this.attachShadow({ mode: 'open' }); // open to allow debugging
+    this._id = 'moto-toc-v5-5';
+    this._headings = [];
+    this._observer = null;
+    this._mutObs = null;
+    this._currentIndex = 0;
+    this._openKey = this._id + '_open';
+    this._lastSeenKey = this._id + '_last';
+    this._usedKey = this._id + '_used';
+    this._lazyThreshold = parseInt(this.getAttribute('data-lazy-threshold')) || 150;
+    this._lazy = this.hasAttribute('data-lazy');
+    this._inited = false;
+    this._speech = null;
+    this._highlightEls = [];
+    this._config = {
+      motion: true,
+      remember: true,
+      fullTextSearch: true,
+      voice: false,
+      commandPalette: true
+    };
+    this._render();
+  }
+
+  connectedCallback(){
+    if(this._lazy){
+      this._onScrollLazy = () => {
+        if(window.scrollY > this._lazyThreshold){
+          window.removeEventListener('scroll', this._onScrollLazy);
+          this.init();
+        }
+      };
+      window.addEventListener('scroll', this._onScrollLazy, { passive: true });
+    } else this.init();
+  }
+
+  disconnectedCallback(){
+    this._destroy();
+  }
+
+  // public API
+  open(){ this._setDrawer(true); }
+  close(){ this._setDrawer(false); }
+  refresh(){ this._buildTOC(true); this._indexFullText(); }
+
+  // internal render
+  _render(){
+    const style = document.createElement('style');
+    style.textContent = `
+      :host { all: initial; font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+      .fab {
+        position: fixed; left: 16px; bottom: 90px; width:56px; height:56px; border-radius:50%;
+        display:flex;align-items:center;justify-content:center;
+        background: var(--surface, #fff); color: var(--accent, #007aff);
+        border:1px solid var(--glass-border, rgba(220,220,215,0.6));
+        box-shadow:0 10px 30px rgba(0,0,0,0.12); backdrop-filter: blur(12px);
+        z-index:18005; cursor:pointer; transition: transform .18s ease, background .18s;
+      }
+      .fab:hover{ transform: scale(1.07); background: var(--accent,#007aff); color:#fff; }
+      .drawer {
+        position: fixed; top:0; left:0; width:320px; max-width:85vw; height:100vh;
+        background: var(--drawer-bg, linear-gradient(180deg, rgba(255,255,255,0.98), rgba(245,245,247,0.98)));
+        border-right:1px solid var(--glass-border, rgba(220,220,215,0.6));
+        box-shadow:12px 0 36px rgba(0,0,0,0.12);
+        transform: translateX(-110%); transition: transform .36s cubic-bezier(.2,.9,.2,1);
+        z-index:18004; display:flex; flex-direction:column; padding:80px 18px 20px; -webkit-overflow-scrolling:touch;
+      }
+      .drawer.open{ transform: translateX(0); }
+      header { display:flex; align-items:center; justify-content:space-between; margin-bottom:12px; }
+      header h3 { margin:0; font-size:1.05rem; color:var(--accent,#007aff); font-weight:700; display:flex; gap:8px; align-items:center; }
+      header button { background:none; border:none; color:var(--muted,#6e6e73); font-size:1.15rem; cursor:pointer; }
+      .search { position:relative; margin-bottom:12px; }
+      .search input { width:100%; padding:10px 36px 10px 12px; border-radius:10px; border:1px solid var(--glass-border, rgba(220,220,215,0.6)); background:var(--surface,#fff); color:var(--text,#1d1d1f); }
+      .search i { position:absolute; right:12px; top:50%; transform: translateY(-50%); color:var(--muted,#6e6e73); pointer-events:none; }
+      ul.toc { list-style:none; padding:0; margin:0; overflow-y:auto; flex-grow:1; }
+      ul.toc li { margin:6px 0; }
+      ul.toc li a { display:block; padding:6px 8px; border-radius:8px; color:var(--text,#1d1d1f); text-decoration:none; font-weight:500; transition:all .14s; }
+      ul.toc li.h3 a { padding-left:18px; font-size:.95rem; color:var(--muted,#6e6e73); font-weight:600; }
+      ul.toc a:hover{ color:var(--accent,#007aff); background: rgba(0,122,255,0.06); transform: translateX(3px); }
+      ul.toc a.active{ color:var(--accent,#007aff); background: rgba(0,122,255,0.08); font-weight:700; }
+      .nav-buttons { display:flex; gap:8px; margin-top:12px; justify-content:center; }
+      .nav-buttons button { flex:1; padding:8px; border-radius:8px; border:1px solid var(--glass-border, rgba(220,220,215,0.6)); background:var(--surface,#fff); cursor:pointer; }
+      .nav-buttons button:hover{ background:var(--accent,#007aff); color:#fff; transform: translateY(-2px); }
+      .mini-bar { position: fixed; left: 50%; transform: translateX(-50%); bottom: 16px; padding:8px 14px; border-radius:20px; background: rgba(255,255,255,0.9); color:#111; box-shadow:0 4px 16px rgba(0,0,0,0.1); backdrop-filter: blur(8px); z-index:5000; opacity:0; pointer-events:none; transition: opacity .3s; }
+      .cmd { position: fixed; top:0; left:0; width:100%; height:100%; display:none; align-items:center; justify-content:center; background: rgba(0,0,0,0.45); z-index: 99999; }
+      .cmd.active{ display:flex; }
+      .cmd-inner { width:90%; max-width:640px; background:var(--surface,#fff); border-radius:12px; padding:12px; box-shadow:0 10px 40px rgba(0,0,0,0.25); backdrop-filter: blur(14px); }
+      .cmd-inner input { width:100%; padding:10px; border-radius:8px; border:1px solid var(--glass-border, rgba(220,220,215,0.6)); outline:none; }
+      .cmd-inner ul{ list-style:none; padding:0; margin:8px 0 0 0; max-height:260px; overflow:auto; }
+      .cmd-inner li{ padding:8px; border-radius:8px; cursor:pointer; }
+      .cmd-inner li:hover{ background: rgba(0,122,255,0.06); }
+      .config-panel { position: fixed; right: 16px; bottom: 90px; width:320px; max-width: 88vw; border-radius:12px; padding:12px; background:var(--surface,#fff); box-shadow:0 10px 30px rgba(0,0,0,0.12); z-index:18006; display:none; }
+      .config-panel.open { display:block; }
+      .config-panel h4 { margin:0 0 8px 0; font-size:1rem; color:var(--accent,#007aff); }
+      .highlight { background: rgba(255,235,59,0.45); padding:0; border-radius:2px; }
+      @media (max-width:520px){ .fab{ left:10px; bottom:80px; width:48px; height:48px; } .drawer{ width:260px; padding:70px 14px; } .config-panel{ width: 240px; right:8px; } }
+    `;
+    this._shadow.appendChild(style);
+
+    const container = document.createElement('div');
+    container.innerHTML = `
+      <button class="fab" part="fab" aria-label="Mục lục (M)" title="Mục lục">≡</button>
+      <nav class="drawer" part="drawer" aria-label="Mục lục" aria-hidden="true">
+        <header><h3>📚 Mục lục</h3><button class="close" aria-label="Đóng">✕</button></header>
+        <div class="search"><input type="search" placeholder="Tìm nội dung..." aria-label="Tìm trong mục lục"><i>🔎</i></div>
+        <ul class="toc" role="list"></ul>
+        <div class="nav-buttons" role="group"><button class="prev" title="Lên (↑)">↑</button><button class="next" title="Xuống (↓)">↓</button></div>
+      </nav>
+      <div class="mini-bar" part="mini"> </div>
+      <div class="cmd" part="cmd"><div class="cmd-inner"><input type="text" placeholder="Tìm hoặc nhảy đến mục..."><ul></ul></div></div>
+      <div class="config-panel" part="config"><h4>TOC Settings</h4>
+        <label><input type="checkbox" data-key="motion" checked> Motion animations</label><br>
+        <label><input type="checkbox" data-key="remember" checked> Remember last section</label><br>
+        <label><input type="checkbox" data-key="fullTextSearch" checked> Full-text search (highlight)</label><br>
+        <label><input type="checkbox" data-key="voice"> Voice commands</label><br>
+        <small>Shortcuts: <strong>M</strong> open, <strong>Ctrl/⌘+K</strong> palette, <strong>Alt+M</strong> settings</small>
+      </div>
+    `;
+    this._shadow.appendChild(container);
+
+    // global progress bar
+    if(!document.getElementById(this._id + '-progress')){
+      const p = document.createElement('div');
+      p.id = this._id + '-progress';
+      p.setAttribute('aria-hidden','true');
+      Object.assign(p.style, { position:'fixed', top:'0', left:'0', height:'4px', background: getComputedStyle(document.documentElement).getPropertyValue('--accent') || '#007aff', width:'0%', zIndex:'99999', transition:'width .12s linear' });
+      document.body.appendChild(p);
+      this._progressEl = p;
+    } else this._progressEl = document.getElementById(this._id + '-progress');
+
+    // refs
+    this._els = {
+      fab: this._shadow.querySelector('.fab'),
+      drawer: this._shadow.querySelector('.drawer'),
+      close: this._shadow.querySelector('.close'),
+      searchInput: this._shadow.querySelector('.search input'),
+      tocList: this._shadow.querySelector('ul.toc'),
+      prev: this._shadow.querySelector('.prev'),
+      next: this._shadow.querySelector('.next'),
+      miniBar: this._shadow.querySelector('.mini-bar'),
+      cmd: this._shadow.querySelector('.cmd'),
+      cmdInput: this._shadow.querySelector('.cmd-inner input'),
+      cmdList: this._shadow.querySelector('.cmd-inner ul'),
+      config: this._shadow.querySelector('.config-panel')
+    };
+  }
+
+  // init once
+  init(){
+    if(this._inited) return;
+    this._inited = true;
+    // load config from storage
+    this._loadConfig();
+    this._buildTOC();
+    this._bindUI();
+    this._observeMutations();
+    this._attachIntersectionObserver();
+    this._indexFullText();
+    this._updateFromStorage();
+    this._updateProgress();
+    // small hint
+    setTimeout(()=> { if(!localStorage.getItem(this._usedKey)) this._pulseFab(); }, 1400);
+  }
+
+  // pulse fab
+  _pulseFab(){
+    try{
+      this._els.fab.animate([{ transform:'scale(1)' }, { transform:'scale(1.08)' }, { transform:'scale(1)' }], { duration:1100, iterations:1 });
+    }catch(e){}
+  }
+
+  // build toc from main h2/h3
+  _buildTOC(force=false){
+    const main = document.querySelector('main') || document.body;
+    const nodes = Array.from(main.querySelectorAll('h2, h3'));
+    this._headings = nodes;
+    this._els.tocList.innerHTML = '';
+    nodes.forEach((el, idx)=>{
+      if(!el.id){
+        const base = (el.textContent || 'section-' + idx).trim().toLowerCase().replace(/\s+/g,'-').replace(/[^a-z0-9\-]/g,'');
+        let id = base || ('section-' + idx);
+        let i=1; while(document.getElementById(id)) id = base + '-' + (i++);
+        el.id = id;
+      }
+      const li = document.createElement('li');
+      li.className = el.tagName.toLowerCase();
+      const a = document.createElement('a');
+      a.href = '#' + el.id;
+      a.textContent = el.textContent.trim();
+      a.setAttribute('data-id', el.id);
+      a.addEventListener('click', (e)=>{
+        e.preventDefault();
+        this._setDrawer(false);
+        this._scrollToElement(el);
+      });
+      li.appendChild(a);
+      this._els.tocList.appendChild(li);
+    });
+    // reattach observer
+    this._attachIntersectionObserver();
+  }
+
+  // intersection observer
+  _attachIntersectionObserver(){
+    if(this._observer) { try{ this._observer.disconnect(); }catch(e){} this._observer = null; }
+    const opts = { root:null, rootMargin:'-60% 0px -30% 0px', threshold: 0.01 };
+    this._observer = new IntersectionObserver((entries)=>{
+      entries.forEach(entry=>{
+        const id = entry.target.id;
+        const link = this._els.tocList.querySelector(`a[data-id="${id}"]`);
+        if(!link) return;
+        if(entry.isIntersecting){
+          this._els.tocList.querySelectorAll('a').forEach(a=>a.classList.remove('active'));
+          link.classList.add('active');
+          this._currentIndex = this._headings.findIndex(h=>h.id===id);
+          if(this._config.remember) localStorage.setItem(this._lastSeenKey, id);
+          // announce
+          this._els.miniBarText = entry.target.textContent || id;
+          this._showMiniBar(this._els.miniBarText);
+          // ensure visible in drawer
+          if(this._els.drawer.classList.contains('open')){
+            const parent = link.parentElement, st = this._els.tocList.scrollTop, top = parent.offsetTop, bottom = top + parent.offsetHeight;
+            if(top < st || bottom > (st + this._els.tocList.clientHeight)) this._els.tocList.scrollTo({ top: Math.max(0, top - 80), behavior: 'smooth' });
+          }
+        }
+      });
+    }, opts);
+    this._headings.forEach(h => this._observer.observe(h));
+  }
+
+  // bind UI
+  _bindUI(){
+    // fab
+    this._els.fab.addEventListener('click', (e)=>{ e.stopPropagation(); localStorage.setItem(this._usedKey,'1'); this._setDrawer(!this._els.drawer.classList.contains('open')); });
+    this._els.close.addEventListener('click', ()=> this._setDrawer(false));
+    document.addEventListener('click', (e)=> { if(this._els.drawer.classList.contains('open') && !this.contains(e.target) && !this._shadowContains(e)) this._setDrawer(false); });
+
+    // search input (filter)
+    this._els.searchInput.addEventListener('input', (e)=> {
+      const q = e.target.value.trim().toLowerCase();
+      this._els.tocList.querySelectorAll('li').forEach(li => {
+        li.style.display = (li.textContent || '').toLowerCase().includes(q) ? '' : 'none';
+      });
+      if(this._config.fullTextSearch) this._fullTextSearch(q);
+    });
+
+    // nav buttons
+    this._els.prev.addEventListener('click', ()=> this._navRelative(-1));
+    this._els.next.addEventListener('click', ()=> this._navRelative(1));
+
+    // command palette
+    this._els.cmdInput.addEventListener('input', ()=> this._buildCmdList(this._els.cmdInput.value));
+    this._els.cmd.addEventListener('click', (e)=> { if(e.target === this._els.cmd) this._closeCmd(); });
+    this._els.cmdList.addEventListener('click', (e)=> {
+      const li = e.target.closest('li'); if(!li) return;
+      const id = li.dataset.id; const el = document.getElementById(id);
+      if(el){ this._scrollToElement(el); this._closeCmd(); }
+    });
+
+    // config panel toggles
+    this._shadow.querySelectorAll('.config-panel [data-key]').forEach(ch=>{
+      const key = ch.getAttribute('data-key');
+      ch.checked = !!this._config[key];
+      ch.addEventListener('change', (e)=> { this._config[key] = e.target.checked; this._storeConfig(); if(key==='voice') this._initVoiceIfNeeded(); });
+    });
+
+    // keyboard shortcuts
+    this._onKeydown = (e) => {
+      const tag = document.activeElement && document.activeElement.tagName && document.activeElement.tagName.toLowerCase();
+      if(tag === 'input' || tag === 'textarea') {
+        // allow ctrl/meta+k to work when typing (we'll override only when not input)
+      }
+      if(e.key && e.key.toLowerCase() === 'm' && !e.altKey) { e.preventDefault(); this._setDrawer(!this._els.drawer.classList.contains('open')); }
+      if((e.ctrlKey || e.metaKey) && e.key && e.key.toLowerCase() === 'k'){ e.preventDefault(); if(this._config.commandPalette) this._openCmd(); }
+      if(e.key === '/' && !this._isTyping()) { e.preventDefault(); if(this._config.commandPalette) this._openCmd(); }
+      if(e.key === 'ArrowUp') { e.preventDefault(); this._navRelative(-1); }
+      if(e.key === 'ArrowDown') { e.preventDefault(); this._navRelative(1); }
+      if(e.key === 'Escape') { this._setDrawer(false); this._closeCmd(); this._closeConfig(); }
+      if(e.altKey && e.key && e.key.toLowerCase() === 'm'){ e.preventDefault(); this._toggleConfig(); }
+    };
+    window.addEventListener('keydown', this._onKeydown, { passive: false });
+
+    // window scroll -> progress
+    this._onScroll = ()=> this._updateProgress();
+    window.addEventListener('scroll', this._onScroll, { passive: true });
+    window.addEventListener('resize', ()=> this._updateProgress(), { passive: true });
+
+    // init voice if enabled
+    if(this._config.voice) this._initVoiceIfNeeded();
+  }
+
+  // small helper to check if focused on typing
+  _isTyping(){ const tag = document.activeElement && document.activeElement.tagName && document.activeElement.tagName.toLowerCase(); return tag === 'input' || tag === 'textarea' || document.activeElement.isContentEditable; }
+
+  // open/close drawer
+  _setDrawer(open){
+    if(open){
+      this._els.drawer.classList.add('open');
+      this._els.drawer.setAttribute('aria-hidden','false');
+      localStorage.setItem(this._openKey,'true');
+      // motion hint
+      if(this._config.motion) try{ this._els.drawer.animate([{ transform:'translateX(-110%) scale(.98)', opacity:0 }, { transform:'translateX(0) scale(1)', opacity:1 }], { duration: 380, easing: 'cubic-bezier(.2,.9,.3,1)' }); } catch(e) {}
+    } else {
+      if(this._config.motion) try{ this._els.drawer.animate([{ transform:'translateX(0)', opacity:1 }, { transform:'translateX(-110%)', opacity:0 }], { duration: 260, easing: 'ease-in-out' }); } catch(e){}
+      this._els.drawer.classList.remove('open');
+      this._els.drawer.setAttribute('aria-hidden','true');
+      localStorage.setItem(this._openKey,'false');
+    }
+  }
+
+  // scroll to element with offset of topbar
+  _scrollToElement(el){
+    if(!el) return;
+    const nav = document.getElementById('topbar');
+    const offset = nav ? nav.getBoundingClientRect().height + 8 : 88;
+    const top = el.getBoundingClientRect().top + window.scrollY - offset;
+    window.scrollTo({ top, behavior: 'smooth' });
+  }
+
+  // nav relative
+  _navRelative(delta){
+    let idx = this._currentIndex + delta;
+    if(idx < 0) idx = 0;
+    if(idx >= this._headings.length) idx = this._headings.length - 1;
+    const el = this._headings[idx];
+    if(el) this._scrollToElement(el);
+  }
+
+  // update progress bar
+  _updateProgress(){
+    if(!this._progressEl) return;
+    const st = window.scrollY || window.pageYOffset;
+    const docH = document.body.scrollHeight - window.innerHeight;
+    const pct = Math.min(100, Math.max(0, (st / (docH || 1)) * 100));
+    this._progressEl.style.width = pct + '%';
+  }
+
+  // observe DOM mutations in main
+  _observeMutations(){
+    const main = document.querySelector('main') || document.body;
+    if(this._mutObs) this._mutObs.disconnect();
+    this._mutObs = new MutationObserver(() => {
+      if(this._mutTimeout) clearTimeout(this._mutTimeout);
+      this._mutTimeout = setTimeout(()=> { this._buildTOC(true); this._indexFullText(); }, 220);
+    });
+    this._mutObs.observe(main, { childList:true, subtree:true, characterData:true });
+  }
+
+  // index full text for search
+  _indexFullText(){
+    if(!this._config.fullTextSearch) return;
+    try{
+      // collect plain text nodes under main, map to heading anchors
+      const main = document.querySelector('main') || document.body;
+      const blocks = Array.from(main.querySelectorAll('p, li, h2, h3, h4, .lead, .desc, .price-image-container'));
+      // store mapping element -> text
+      this._fullIndex = blocks.map(b => ({ el: b, text: (b.textContent || '').trim() }));
+    }catch(e){ this._fullIndex = []; }
+  }
+
+  // full text search with highlight
+  _fullTextSearch(q){
+    // clear previous highlights
+    this._clearHighlights();
+    if(!q) return;
+    const main = document.querySelector('main') || document.body;
+    const textNodes = [];
+    function walk(node){
+      node.childNodes.forEach(n=>{
+        if(n.nodeType === 3 && n.nodeValue.trim()){
+          textNodes.push(n);
+        } else if(n.nodeType === 1 && !['SCRIPT','STYLE','NOSCRIPT'].includes(n.tagName)){
+          walk(n);
+        }
+      });
+    }
+    walk(main);
+    const qLower = q.toLowerCase();
+    const matches = [];
+    // naive highlight: wrap matched words in <mark class="moto-highlight">
+    textNodes.forEach(t=>{
+      const parent = t.parentElement;
+      const txt = t.nodeValue;
+      const idx = txt.toLowerCase().indexOf(qLower);
+      if(idx !== -1){
+        matches.push({node: t, idx});
+        // create highlighted fragment
+        const span = document.createElement('span');
+        const before = document.createTextNode(txt.slice(0, idx));
+        const matchText = document.createElement('mark');
+        matchText.className = 'moto-highlight';
+        matchText.textContent = txt.slice(idx, idx + q.length);
+        const after = document.createTextNode(txt.slice(idx + q.length));
+        span.appendChild(before); span.appendChild(matchText); span.appendChild(after);
+        parent.replaceChild(span, t);
+        this._highlightEls.push(matchText);
+      }
+    });
+    // remove highlights after 8s
+    setTimeout(()=> this._clearHighlights(), 8000);
+  }
+
+  _clearHighlights(){
+    this._highlightEls.forEach(h=>{
+      const parent = h.parentElement;
+      if(!parent) return;
+      const text = h.textContent;
+      const before = parent.childNodes[0] && parent.childNodes[0].nodeType === 3 ? parent.childNodes[0].nodeValue : '';
+      const after = parent.childNodes[parent.childNodes.length -1] && parent.childNodes[parent.childNodes.length -1].nodeType === 3 ? parent.childNodes[parent.childNodes.length -1].nodeValue : '';
+      // reconstruct
+      const whole = (before || '') + (text || '') + (after || '');
+      parent.replaceWith(document.createTextNode(whole));
+    });
+    this._highlightEls = [];
+  }
+
+  // command palette
+  _openCmd(){
+    this._els.cmd.classList.add('active');
+    this._els.cmdInput.focus();
+    this._buildCmdList('');
+  }
+  _closeCmd(){ this._els.cmd.classList.remove('active'); this._els.cmdInput.value = ''; this._els.cmdList.innerHTML = ''; }
+
+  _buildCmdList(q=''){
+    const items = this._headings.filter(h => h.textContent.toLowerCase().includes((q||'').toLowerCase()));
+    this._els.cmdList.innerHTML = items.map(h => `<li data-id="${h.id}">${h.textContent}</li>`).join('');
+  }
+
+  // voice commands (simple)
+  _initVoiceIfNeeded(){
+    if(!this._config.voice) return this._stopVoice();
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if(!SpeechRecognition) return console.warn('SpeechRecognition not supported.');
+    if(this._speech) return; // already
+    this._speech = new SpeechRecognition();
+    this._speech.lang = 'vi-VN';
+    this._speech.continuous = false;
+    this._speech.interimResults = false;
+    this._speech.onresult = (e) => {
+      const txt = (e.results && e.results[0] && e.results[0][0] && e.results[0][0].transcript) ? e.results[0][0].transcript.trim() : '';
+      if(txt){
+        // attempt to match heading by words
+        const matched = this._headings.find(h => (h.textContent || '').toLowerCase().includes(txt.toLowerCase()));
+        if(matched) this._scrollToElement(matched);
+      }
+    };
+    this._speech.onerror = (e)=> console.warn('Speech error', e);
+    // start on demand via toggling voice in config panel
+    // create voice control inside config
+    if(!this._voiceToggle) {
+      const vBtn = document.createElement('button');
+      vBtn.textContent = '🎤 Start Voice';
+      vBtn.style.marginTop = '8px';
+      vBtn.addEventListener('click', ()=> {
+        if(this._listening){ this._stopVoice(); vBtn.textContent = '🎤 Start Voice'; }
+        else { this._startVoice(); vBtn.textContent = '⏹️ Stop Voice'; }
+      });
+      this._shadow.querySelector('.config-panel').appendChild(vBtn);
+      this._voiceToggle = vBtn;
+    }
+  }
+
+  _startVoice(){
+    if(!this._speech) return;
+    try{ this._speech.start(); this._listening = true; } catch(e){ console.warn(e); }
+  }
+  _stopVoice(){
+    if(!this._speech) return;
+    try{ this._speech.stop(); this._listening = false; } catch(e){}
+  }
+
+  // storage for settings
+  _storeConfig(){ localStorage.setItem(this._id + '_cfg', JSON.stringify(this._config)); }
+  _loadConfig(){ const raw = localStorage.getItem(this._id + '_cfg'); if(raw) try{ this._config = Object.assign(this._config, JSON.parse(raw)); } catch(e){} }
+
+  // update from storage
+  _updateFromStorage(){
+    const wasOpen = localStorage.getItem(this._openKey);
+    if(wasOpen === 'true') this._setDrawer(true);
+    const last = localStorage.getItem(this._lastSeenKey);
+    if(last && this._config.remember){
+      const el = document.getElementById(last);
+      if(el) setTimeout(()=> this._scrollToElement(el), 600);
+    }
+  }
+
+  // check event target is inside shadow or host
+  _shadowContains(target){
+    const path = event && event.composedPath ? event.composedPath() : (target && target.composedPath ? target.composedPath() : []);
+    return path.some(n => n === this || n === this._shadow.host);
+  }
+
+  // index full text (store simple index)
+  _indexFullText(){
+    if(!this._config.fullTextSearch) { this._fullIndex = []; return; }
+    const main = document.querySelector('main') || document.body;
+    const blocks = Array.from(main.querySelectorAll('p, li, h2, h3, h4, .lead, .desc, .price-image-container'));
+    this._fullIndex = blocks.map(b => ({ el: b, text: (b.textContent||'').trim() }));
+  }
+
+  // destroy
+  _destroy(){
+    try{ if(this._observer) this._observer.disconnect(); }catch(e){}
+    try{ if(this._mutObs) this._mutObs.disconnect(); }catch(e){}
+    window.removeEventListener('keydown', this._onKeydown);
+    window.removeEventListener('scroll', this._onScroll);
+    window.removeEventListener('resize', this._onScroll);
+    if(this._onScrollLazy) window.removeEventListener('scroll', this._onScrollLazy);
+    if(this._speech) try{ this._speech.stop(); }catch(e){}
+  }
+
+}
+
+// define custom element if not yet
+if(!customElements.get('moto-toc')){
+  customElements.define('moto-toc', MotoToc);
+}
+
+// auto mount if not present
+if(!document.querySelector('moto-toc')){
+  const el = document.createElement('moto-toc');
+  // enable lazy if desired: el.setAttribute('data-lazy','true'); el.setAttribute('data-lazy-threshold','220');
+  document.body.appendChild(el);
+  // init (component will call init unless lazy)
+  setTimeout(()=> { try{ el.init(); } catch(e){} }, 80);
+}
+</script>
 </head>
 <body>
   <header class="topbar" id="topbar" role="banner" aria-label="Trang điều hướng chính">
