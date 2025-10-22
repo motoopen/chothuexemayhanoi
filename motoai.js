@@ -1,5 +1,6 @@
-// MotoAI Embed Script by Motoopen 😎 (v1.0.1)
-(function(){
+// MotoAI Embed by Motoopen (v1.1 stable CDN version)
+window.addEventListener('DOMContentLoaded', () => {
+
   // ====== Inject HTML ======
   const html = `
   <div id="motoai-root" aria-hidden="false">
@@ -26,30 +27,12 @@
     --text:#111;
   }
 
-  /* ✅ Apple Light Mode Fix */
-  body {
-    background:#f5f5f7;  /* Apple-style light gray */
-    color:#111;
-    transition: background .3s ease, color .3s ease;
-  }
-
-  @media(prefers-color-scheme:dark){
-    :root{--card-bg:var(--card-bg-dark); --text:#eee;}
-    body{background:#071021; color:#ddd;}
-  }
-
   #motoai-root{position:fixed; left:18px; bottom:90px; z-index:2147483000; pointer-events:none;}
   #motoai-bubble{pointer-events:auto; width:58px; height:58px; border-radius:14px; display:flex; align-items:center; justify-content:center; font-size:28px; background:var(--accent); color:#fff; box-shadow:0 10px 28px rgba(0,0,0,0.24); cursor:pointer;}
   #motoai-backdrop{position:fixed; inset:0; background:rgba(0,0,0,0.18); backdrop-filter:blur(6px); opacity:0; pointer-events:none; transition:opacity .28s ease; z-index:2147482999;}
   #motoai-backdrop.show{opacity:1; pointer-events:auto;}
-  #motoai-card{
-    position:fixed; left:0; right:0; bottom:0; height:70vh; max-height:720px;
-    width:min(920px,calc(100% - 28px)); margin:auto; border-radius:18px 18px 0 0;
-    background:var(--card-bg); box-shadow:0 -12px 40px rgba(10,20,30,0.18);
-    transform:translateY(110%); opacity:0; transition:transform .42s cubic-bezier(.2,.9,.2,1), opacity .28s ease;
-    display:flex; flex-direction:column; overflow:hidden; z-index:2147483000; pointer-events:auto;
-  }
-  #motoai-card.open{transform:translateY(0); opacity:1;}
+  #motoai-card{position:fixed; left:0; right:0; bottom:0; height:70vh; max-height:720px; width:min(920px,calc(100% - 28px)); margin:auto; border-radius:18px 18px 0 0; background:var(--card-bg); box-shadow:0 -12px 40px rgba(10,20,30,0.18); transform:translateY(110%); opacity:0; transition:transform .42s cubic-bezier(.2,.9,.2,1), opacity .28s ease; display:flex; flex-direction:column; overflow:hidden; z-index:2147483000; pointer-events:none;}
+  #motoai-card.open{transform:translateY(0); opacity:1; pointer-events:auto;}
   #motoai-handle{width:54px; height:6px; background:#d0d6dc; border-radius:6px; margin:10px auto; cursor:grab;}
   #motoai-header{padding:6px 14px; font-weight:700; color:var(--accent); text-align:center;}
   #motoai-body{flex:1; overflow:auto; padding:12px 14px; font-size:15px;}
@@ -60,6 +43,7 @@
   #motoai-input input{flex:1; padding:12px; border-radius:12px; border:1px solid #d6dde6; font-size:16px; background:transparent; color:inherit;}
   #motoai-input button{padding:10px 14px; border-radius:10px; border:none; background:var(--accent); color:#fff; font-weight:700; cursor:pointer;}
   @media(prefers-color-scheme:dark){
+    :root{--card-bg:var(--card-bg-dark); --text:#eee;}
     .m-msg.bot{background:rgba(40,40,50,0.9); color:#f2f2f2;}
     #motoai-input{background:rgba(25,25,30,0.9);}
     #motoai-input input{background:rgba(255,255,255,0.08); color:#fff; border:1px solid rgba(255,255,255,0.12);}
@@ -150,4 +134,5 @@
     if(e.key==='Escape'&&card.classList.contains('open'))closeCard();
   });
   renderMsgs();
-})();
+
+});
