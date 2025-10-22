@@ -886,6 +886,172 @@
         text-align: center;
       }
     </style>
+
+  <script>
+/*
+ MotoAI Assistant v1.0
+ © 2025 - Client-side Intelligent Assistant
+ Description:
+  - Works entirely on client
+  - Crawls page content, meta, schema (JSON-LD)
+  - Builds sentence-level index for retrieval
+  - Extractive synthesis QA (without LLM)
+  - Optional: connect to remote LLM/proxy
+
+ Usage:
+   Place before </body> in your HTML or inject dynamically.
+   MotoAI.setServer({ aiEndpoint: "https://your-proxy/ai" }) to enable remote inference.
+*/
+
+(function() {
+  const MotoAI = {
+    version: "1.0",
+    config: {
+      aiEndpoint: null,
+      maxSnippets: 8,
+      maxAnswerLength: 500,
+    },
+    corpus: [],
+    index: [],
+    ui: null,
+    setServer({ aiEndpoint }) {
+      this.config.aiEndpoint = aiEndpoint;
+      console.log("[MotoAI] Remote endpoint set:", aiEndpoint);
+    },
+    init() {
+      console.log("%c[MotoAI] Initializing v" + this.version, "color: #4ae;");
+      this.extractContent();
+      this.buildUI();
+    },
+    extractContent() {
+      const textNodes = [];
+      const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+      while (walker.nextNode()) {
+        const txt = walker.currentNode.nodeValue.trim();
+        if (txt.length > 30) textNodes.push(txt);
+      }
+
+      const metas = Array.from(document.querySelectorAll("meta[name], meta[property]"))
+        .map(m => `${m.getAttribute("name") || m.getAttribute("property")}: ${m.getAttribute("content")}`)
+        .filter(Boolean);
+
+      const jsonLD = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .map(s => {
+          try { return JSON.stringify(JSON.parse(s.textContent), null, 0); }
+          catch { return ""; }
+        })
+        .join("\n");
+
+      const allText = [document.title, ...metas, ...textNodes, jsonLD].join("\n\n");
+      const sentences = allText
+        .replace(/\s+/g, " ")
+        .split(/(?<=[.?!])\s+(?=[A-ZÀ-Ỵ])/)
+        .filter(s => s.length > 20);
+
+      this.corpus = sentences;
+      console.log("[MotoAI] Indexed", sentences.length, "sentences.");
+    },
+    embed(text) {
+      // Lightweight text embedding approximation (character trigram hashing)
+      const map = new Map();
+      const n = 3;
+      for (let i = 0; i < text.length - n; i++) {
+        const gram = text.slice(i, i + n).toLowerCase();
+        map.set(gram, (map.get(gram) || 0) + 1);
+      }
+      return map;
+    },
+    similarity(a, b) {
+      const keys = new Set([...a.keys(), ...b.keys()]);
+      let dot = 0, na = 0, nb = 0;
+      for (const k of keys) {
+        const va = a.get(k) || 0, vb = b.get(k) || 0;
+        dot += va * vb; na += va * va; nb += vb * vb;
+      }
+      return dot / (Math.sqrt(na) * Math.sqrt(nb) + 1e-9);
+    },
+    retrieve(query) {
+      const qvec = this.embed(query);
+      const scores = this.corpus.map((s, i) => ({
+        text: s,
+        score: this.similarity(qvec, this.embed(s))
+      }));
+      return scores.sort((a,b) => b.score - a.score).slice(0, this.config.maxSnippets);
+    },
+    synthesize(query, snippets) {
+      const combined = snippets.map(s => s.text).join(" ");
+      if (this.config.aiEndpoint) {
+        return fetch(this.config.aiEndpoint, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ prompt: query, context: combined })
+        })
+        .then(r => r.json())
+        .then(j => j.answer || JSON.stringify(j))
+        .catch(() => this.extractiveFallback(query, combined));
+      }
+      return Promise.resolve(this.extractiveFallback(query, combined));
+    },
+    extractiveFallback(query, text) {
+      const qWords = query.toLowerCase().split(/\W+/);
+      const sentences = text.split(/(?<=[.?!])\s+/);
+      const scored = sentences.map(s => {
+        const words = s.toLowerCase().split(/\W+/);
+        const overlap = qWords.filter(w => words.includes(w)).length;
+        return { s, score: overlap / (qWords.length + 1e-9) };
+      });
+      const best = scored.sort((a,b) => b.score - a.score).slice(0, 3).map(x => x.s).join(" ");
+      return best.length > this.config.maxAnswerLength ? best.slice(0, this.config.maxAnswerLength) + "..." : best;
+    },
+    ask(query) {
+      if (!query.trim()) return;
+      this.ui.output.innerHTML = "<div class='moto-loading'>Đang tìm câu trả lời...</div>";
+      const snippets = this.retrieve(query);
+      this.synthesize(query, snippets).then(ans => {
+        this.ui.output.innerHTML = `<div class='moto-answer'>${ans}</div>`;
+      });
+    },
+    buildUI() {
+      const box = document.createElement("div");
+      box.innerHTML = `
+        <style>
+          #motoai-box { position: fixed; bottom: 20px; right: 20px; width: 320px; background: #fff;
+            border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,.2);
+            font-family: system-ui, sans-serif; z-index: 999999; overflow: hidden; }
+          #motoai-header { background: #4ae; color: white; padding: 8px 12px; font-weight: bold;
+            display: flex; justify-content: space-between; align-items: center; cursor: move; }
+          #motoai-content { padding: 10px; max-height: 300px; overflow-y: auto; }
+          #motoai-input { display: flex; border-top: 1px solid #ccc; }
+          #motoai-input input { flex: 1; border: none; padding: 8px; outline: none; }
+          #motoai-input button { background: #4ae; border: none; color: #fff; padding: 8px 12px; cursor: pointer; }
+          .moto-answer { white-space: pre-wrap; }
+          .moto-loading { color: #888; font-style: italic; }
+        </style>
+        <div id="motoai-box">
+          <div id="motoai-header">MotoAI Assistant <span style="cursor:pointer" id="motoai-close">×</span></div>
+          <div id="motoai-content"><div class="moto-answer">Xin chào! Hỏi tôi bất cứ điều gì về trang này.</div></div>
+          <div id="motoai-input"><input type="text" placeholder="Nhập câu hỏi..."/><button>Hỏi</button></div>
+        </div>`;
+      document.body.appendChild(box);
+
+      const el = box.querySelector("#motoai-box");
+      const input = box.querySelector("input");
+      const btn = box.querySelector("button");
+      const output = box.querySelector("#motoai-content");
+      const close = box.querySelector("#motoai-close");
+
+      btn.onclick = () => this.ask(input.value);
+      input.onkeydown = e => e.key === "Enter" && this.ask(input.value);
+      close.onclick = () => el.remove();
+
+      this.ui = { el, input, btn, output };
+    }
+  };
+
+  window.MotoAI = MotoAI;
+  document.addEventListener("DOMContentLoaded", () => MotoAI.init());
+})();
+</script>
 </head>
 <body>
   <header class="topbar" id="topbar" role="banner" aria-label="Trang điều hướng chính">
