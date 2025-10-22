@@ -1,246 +1,239 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MotoAI Assistant Demo v1.0</title>
-  <style>
-    body {
-      font-family: system-ui, -apple-system, 'Inter', sans-serif;
-      background: #f9fafc;
-      color: #222;
-      margin: 0;
-      padding: 40px;
-      line-height: 1.6;
-    }
-    h1 {
-      color: #007aff;
-      text-align: center;
-      font-weight: 800;
-      margin-bottom: 10px;
-    }
-    p.lead {
-      text-align: center;
-      color: #555;
-      font-size: 1.1rem;
-      margin-bottom: 30px;
-    }
-    section {
-      max-width: 800px;
-      margin: 0 auto 40px;
-      background: white;
-      padding: 24px;
-      border-radius: 10px;
-      box-shadow: 0 4px 14px rgba(0,0,0,0.06);
-    }
-    footer {
-      text-align: center;
-      margin-top: 60px;
-      color: #888;
-      font-size: 0.9rem;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:site_name" content="Motoopen">
+<title>Thuê Xe Máy Hà Nội | Motoopen</title>
+
+<style>
+:root {
+  --accent: #007aff;
+  --bg-light: #ffffff;
+  --bg-dark: #1C1C1E;
+  --text-light: #1d1d1f;
+  --text-dark: #f2f2f7;
+}
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: var(--bg-light);
+  color: var(--text-light);
+  margin: 0;
+  padding: 0;
+  transition: background 0.3s, color 0.3s;
+}
+body.dark {
+  background: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+/* Demo content */
+main {
+  padding: 60px 20px;
+  text-align: center;
+}
+main h1 { color: var(--accent); }
+
+/* === MotoAI Styles === */
+#motoai-fab {
+  position: fixed;
+  bottom: 90px;
+  left: 20px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  z-index: 9999;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+#motoai-fab:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 26px rgba(0,122,255,0.4);
+}
+
+#motoai-box {
+  position: fixed;
+  bottom: 160px;
+  left: 20px;
+  width: 320px;
+  max-height: 420px;
+  background: var(--bg-light);
+  color: var(--text-light);
+  border-radius: 14px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  display: none;
+  flex-direction: column;
+  overflow: hidden;
+  transition: background 0.3s, color 0.3s;
+  z-index: 9999;
+}
+body.dark #motoai-box {
+  background: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+#motoai-header {
+  background: var(--accent);
+  color: #fff;
+  padding: 10px 12px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#motoai-content {
+  padding: 12px;
+  flex: 1;
+  overflow-y: auto;
+  font-size: 0.95rem;
+}
+#motoai-input {
+  display: flex;
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
+#motoai-input input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  font-size: 0.9rem;
+  outline: none;
+  background: transparent;
+  color: inherit;
+}
+#motoai-input button {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+.moto-msg {
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+.moto-user { text-align: right; color: var(--accent); font-weight: 600; }
+.moto-bot { text-align: left; }
+.moto-typing {
+  font-style: italic; color: gray; animation: blink 1s steps(2, start) infinite;
+}
+@keyframes blink { to { visibility: hidden; } }
+</style>
 </head>
-
 <body>
-  <h1>🧠 MotoAI Assistant v1.0</h1>
-  <p class="lead">Chatbot chạy 100% trên client — tự đọc nội dung trang và trả lời câu hỏi!</p>
+<main>
+  <h1>🚀 Demo MotoAI Assistant v1.8</h1>
+  <p>Mở góc trái bên dưới để thử chatbot tự động nhận diện website.</p>
+</main>
 
-  <section>
-    <h2>Giới thiệu</h2>
-    <p>
-      MotoAI Assistant là một chatbot hoàn toàn chạy phía client (client-side).  
-      Nó tự động cào nội dung trong trang, phân tích các thẻ <strong>meta</strong>,  
-      <strong>JSON-LD/schema</strong> và toàn bộ văn bản hiển thị để tạo chỉ mục câu (sentence-level index).  
-    </p>
-    <p>
-      Sau đó, khi bạn hỏi, nó sẽ thực hiện tìm kiếm truy hồi (retrieval)  
-      và tạo câu trả lời bằng phương pháp tổng hợp trích xuất (extractive synthesis).  
-      Không cần kết nối máy chủ hoặc AI thật — tất cả xử lý cục bộ trong trình duyệt.
-    </p>
-  </section>
+<!-- Floating Button -->
+<button id="motoai-fab" title="Mở MotoAI"><i class="fa-solid fa-robot"></i>🤖</button>
 
-  <section>
-    <h2>Demo nội dung</h2>
-    <p>Dưới đây là một số thông tin để MotoAI đọc và trả lời thử nghiệm:</p>
-    <ul>
-      <li>Xe máy Honda Wave là dòng xe phổ biến, bền bỉ và tiết kiệm nhiên liệu.</li>
-      <li>Xe Vision được nhiều khách hàng ưa chuộng nhờ thiết kế nhỏ gọn, dễ điều khiển.</li>
-      <li>Motoopen cung cấp dịch vụ thuê xe máy giá rẻ tại Hà Nội, giao tận nơi chỉ trong 30 phút.</li>
-      <li>Giá thuê xe số chỉ từ 150k/ngày, xe ga từ 200k/ngày.</li>
-      <li>Khách hàng có thể thanh toán qua tiền mặt hoặc chuyển khoản.</li>
-    </ul>
-  </section>
+<!-- Chat Box -->
+<div id="motoai-box">
+  <div id="motoai-header">
+    <span id="motoai-title">MotoAI Assistant</span>
+    <span id="motoai-close" style="cursor:pointer;">×</span>
+  </div>
+  <div id="motoai-content"></div>
+  <div id="motoai-input">
+    <input type="text" placeholder="Nhập câu hỏi...">
+    <button>Gửi</button>
+  </div>
+</div>
 
-  <footer>
-    © 2025 MotoAI Assistant — bản thử nghiệm độc lập.  
-    <br>Đặt file này cạnh website để test giao diện trước khi tích hợp.
-  </footer>
+<script>
+(function(){
+  const fab = document.getElementById('motoai-fab');
+  const box = document.getElementById('motoai-box');
+  const content = document.getElementById('motoai-content');
+  const input = box.querySelector('input');
+  const sendBtn = box.querySelector('button');
+  const closeBtn = document.getElementById('motoai-close');
 
-  <!-- === MotoAI Assistant v1.0 (standalone) === -->
-  <script>
-  (function() {
-    const MotoAI = {
-      version: "1.0",
-      config: {
-        aiEndpoint: null,
-        maxSnippets: 8,
-        maxAnswerLength: 500,
-      },
-      corpus: [],
-      index: [],
-      ui: null,
-      setServer({ aiEndpoint }) {
-        this.config.aiEndpoint = aiEndpoint;
-        console.log("[MotoAI] Remote endpoint set:", aiEndpoint);
-      },
-      init() {
-        console.log("%c[MotoAI] Initializing v" + this.version, "color: #4ae;");
-        this.extractContent();
-        this.buildUI();
-      },
-      extractContent() {
-        const textNodes = [];
-        const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
-        while (walker.nextNode()) {
-          const txt = walker.currentNode.nodeValue.trim();
-          if (txt.length > 30) textNodes.push(txt);
-        }
+  // Auto site name
+  const metaName = document.querySelector('meta[property="og:site_name"]')?.content ||
+                   document.querySelector('meta[name="application-name"]')?.content ||
+                   document.title.split('|')[0].trim() ||
+                   'Website này';
+  const siteName = metaName.replace(/\s+/g, ' ').trim();
+  document.getElementById('motoai-title').innerText = siteName + ' AI';
 
-        const metas = Array.from(document.querySelectorAll("meta[name], meta[property]"))
-          .map(m => `${m.getAttribute("name") || m.getAttribute("property")}: ${m.getAttribute("content")}`)
-          .filter(Boolean);
+  const dark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  if (dark) document.body.classList.add('dark');
 
-        const jsonLD = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
-          .map(s => {
-            try { return JSON.stringify(JSON.parse(s.textContent), null, 0); }
-            catch { return ""; }
-          })
-          .join("\n");
+  const addMsg = (msg, cls='moto-bot')=>{
+    const div = document.createElement('div');
+    div.className = 'moto-msg ' + cls;
+    div.textContent = msg;
+    content.appendChild(div);
+    content.scrollTop = content.scrollHeight;
+  };
 
-        const allText = [document.title, ...metas, ...textNodes, jsonLD].join("\n\n");
-        const sentences = allText
-          .replace(/\s+/g, " ")
-          .split(/(?<=[.?!])\s+(?=[A-ZÀ-Ỵ])/)
-          .filter(s => s.length > 20);
+  // Typing effect
+  const typeText = (text)=>{
+    let i=0;
+    const div = document.createElement('div');
+    div.className = 'moto-msg moto-bot';
+    content.appendChild(div);
+    const typing = setInterval(()=>{
+      div.textContent = text.slice(0,i++);
+      content.scrollTop = content.scrollHeight;
+      if(i>text.length) clearInterval(typing);
+    },25);
+  };
 
-        this.corpus = sentences;
-        console.log("[MotoAI] Indexed", sentences.length, "sentences.");
-      },
-      embed(text) {
-        const map = new Map();
-        const n = 3;
-        for (let i = 0; i < text.length - n; i++) {
-          const gram = text.slice(i, i + n).toLowerCase();
-          map.set(gram, (map.get(gram) || 0) + 1);
-        }
-        return map;
-      },
-      similarity(a, b) {
-        const keys = new Set([...a.keys(), ...b.keys()]);
-        let dot = 0, na = 0, nb = 0;
-        for (const k of keys) {
-          const va = a.get(k) || 0, vb = b.get(k) || 0;
-          dot += va * vb; na += va * va; nb += vb * vb;
-        }
-        return dot / (Math.sqrt(na) * Math.sqrt(nb) + 1e-9);
-      },
-      retrieve(query) {
-        const qvec = this.embed(query);
-        const scores = this.corpus.map(s => ({
-          text: s,
-          score: this.similarity(qvec, this.embed(s))
-        }));
-        return scores.sort((a,b) => b.score - a.score).slice(0, this.config.maxSnippets);
-      },
-      synthesize(query, snippets) {
-        const combined = snippets.map(s => s.text).join(" ");
-        if (this.config.aiEndpoint) {
-          return fetch(this.config.aiEndpoint, {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ prompt: query, context: combined })
-          })
-          .then(r => r.json())
-          .then(j => j.answer || JSON.stringify(j))
-          .catch(() => this.extractiveFallback(query, combined));
-        }
-        return Promise.resolve(this.extractiveFallback(query, combined));
-      },
-      extractiveFallback(query, text) {
-        const qWords = query.toLowerCase().split(/\W+/);
-        const sentences = text.split(/(?<=[.?!])\s+/);
-        const scored = sentences.map(s => {
-          const words = s.toLowerCase().split(/\W+/);
-          const overlap = qWords.filter(w => words.includes(w)).length;
-          return { s, score: overlap / (qWords.length + 1e-9) };
-        });
-        const best = scored.sort((a,b) => b.score - a.score).slice(0, 3).map(x => x.s).join(" ");
-        return best.length > this.config.maxAnswerLength ? best.slice(0, this.config.maxAnswerLength) + "..." : best;
-      },
-      ask(query) {
-        if (!query.trim()) return;
-        this.ui.output.innerHTML = "<div class='moto-loading'>Đang tìm câu trả lời...</div>";
-        const snippets = this.retrieve(query);
-        this.synthesize(query, snippets).then(ans => {
-          this.ui.output.innerHTML = `<div class='moto-answer'>${ans}</div>`;
-        });
-      },
-      buildUI() {
-        const box = document.createElement("div");
-        box.innerHTML = `
-          <style>
-            #motoai-box { position: fixed; bottom: 100px; right: 20px; width: 320px; background: #fff;
-              border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,.2);
-              font-family: system-ui, sans-serif; z-index: 99999; overflow: hidden; }
-            #motoai-header { background: #4ae; color: white; padding: 8px 12px; font-weight: bold;
-              display: flex; justify-content: space-between; align-items: center; cursor: move; }
-            #motoai-content { padding: 10px; max-height: 300px; overflow-y: auto; }
-            #motoai-input { display: flex; border-top: 1px solid #ccc; }
-            #motoai-input input { flex: 1; border: none; padding: 8px; outline: none; }
-            #motoai-input button { background: #4ae; border: none; color: #fff; padding: 8px 12px; cursor: pointer; }
-            .moto-answer { white-space: pre-wrap; }
-            .moto-loading { color: #888; font-style: italic; }
-          </style>
-          <div id="motoai-box">
-            <div id="motoai-header">MotoAI Assistant <span style="cursor:pointer" id="motoai-close">×</span></div>
-            <div id="motoai-content"><div class="moto-answer">Xin chào! Hỏi tôi bất cứ điều gì về trang này.</div></div>
-            <div id="motoai-input"><input type="text" placeholder="Nhập câu hỏi..."/><button>Hỏi</button></div>
-          </div>`;
-        document.body.appendChild(box);
+  // Load previous chat
+  const history = sessionStorage.getItem('motoai-chat');
+  if(history) content.innerHTML = history;
 
-        const el = box.querySelector("#motoai-box");
-        const input = box.querySelector("input");
-        const btn = box.querySelector("button");
-        const output = box.querySelector("#motoai-content");
-        const close = box.querySelector("#motoai-close");
+  // Greeting message
+  if(!history){
+    setTimeout(()=>{
+      typeText(`Xin chào 👋! Đây là ${siteName} AI — trợ lý ảo của trang này. Bạn muốn mình giúp gì nào? (ví dụ: giá thuê, loại xe, chính sách giao xe...)`);
+    },600);
+  }
 
-        btn.onclick = () => this.ask(input.value);
-        input.onkeydown = e => e.key === "Enter" && this.ask(input.value);
-        close.onclick = () => el.remove();
+  function saveChat(){ sessionStorage.setItem('motoai-chat', content.innerHTML); }
 
-        // Cho phép kéo hộp chat
-        let pos = { top: 0, left: 0, x: 0, y: 0 };
-        const header = box.querySelector("#motoai-header");
-        header.onmousedown = e => {
-          e.preventDefault();
-          pos = { x: e.clientX, y: e.clientY, top: el.offsetTop, left: el.offsetLeft };
-          document.onmousemove = e2 => {
-            const dx = e2.clientX - pos.x, dy = e2.clientY - pos.y;
-            el.style.top = pos.top + dy + "px";
-            el.style.left = pos.left + dx + "px";
-            el.style.bottom = "auto"; el.style.right = "auto";
-          };
-          document.onmouseup = () => (document.onmousemove = null);
-        };
+  function respond(query){
+    const text = query.toLowerCase();
+    let reply = '';
 
-        this.ui = { el, input, btn, output };
-      }
-    };
+    if(/(giá|bao nhiêu|cost)/.test(text)) reply = 'Giá thuê xe máy từ 150k/ngày, hoặc thuê tháng chỉ 1–2 triệu.';
+    else if(/(loại xe|xe gì|chọn xe)/.test(text)) reply = 'Hiện có xe số (Wave, Sirius), xe ga (Vision, Air Blade), và xe điện.';
+    else if(/(liên hệ|zalo|gọi|sdt|số điện thoại)/.test(text)) reply = 'Bạn có thể gọi 📞 0857 255 868 hoặc chat qua Zalo: zalo.me/0857255868';
+    else if(/(giao xe|tận nơi|delivery)/.test(text)) reply = 'Bọn mình giao xe tận nơi ở khu vực Hà Nội: Phố Cổ, Long Biên, Tây Hồ, Ba Đình...';
+    else reply = 'Mình chưa hiểu rõ lắm 😅 — bạn có thể hỏi lại chi tiết hơn được không?';
 
-    window.MotoAI = MotoAI;
-    document.addEventListener("DOMContentLoaded", () => MotoAI.init());
-  })();
-  </script>
+    setTimeout(()=>{ typeText(reply); saveChat(); },600);
+  }
+
+  sendBtn.onclick = ()=>{
+    const q = input.value.trim();
+    if(!q) return;
+    addMsg(q,'moto-user');
+    input.value = '';
+    addMsg('Đang nhập...','moto-typing');
+    setTimeout(()=>{
+      const typing = content.querySelector('.moto-typing');
+      if(typing) typing.remove();
+      respond(q);
+    },800);
+  };
+
+  input.addEventListener('keydown', e=>{ if(e.key==='Enter') sendBtn.click(); });
+
+  fab.onclick = ()=>{ box.style.display = 'flex'; fab.style.display = 'none'; };
+  closeBtn.onclick = ()=>{ box.style.display = 'none'; fab.style.display = 'flex'; saveChat(); };
+})();
+</script>
 </body>
 </html>
