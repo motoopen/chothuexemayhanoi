@@ -1,4 +1,4 @@
-// MotoAI Embed Script by Motoopen 😎
+// MotoAI Embed Script by Motoopen 😎 (v1.0.1)
 (function(){
   // ====== Inject HTML ======
   const html = `
@@ -25,10 +25,19 @@
     --card-bg-dark:rgba(20,20,22,0.94);
     --text:#111;
   }
+
+  /* ✅ Apple Light Mode Fix */
+  body {
+    background:#f5f5f7;  /* Apple-style light gray */
+    color:#111;
+    transition: background .3s ease, color .3s ease;
+  }
+
   @media(prefers-color-scheme:dark){
     :root{--card-bg:var(--card-bg-dark); --text:#eee;}
     body{background:#071021; color:#ddd;}
   }
+
   #motoai-root{position:fixed; left:18px; bottom:90px; z-index:2147483000; pointer-events:none;}
   #motoai-bubble{pointer-events:auto; width:58px; height:58px; border-radius:14px; display:flex; align-items:center; justify-content:center; font-size:28px; background:var(--accent); color:#fff; box-shadow:0 10px 28px rgba(0,0,0,0.24); cursor:pointer;}
   #motoai-backdrop{position:fixed; inset:0; background:rgba(0,0,0,0.18); backdrop-filter:blur(6px); opacity:0; pointer-events:none; transition:opacity .28s ease; z-index:2147482999;}
@@ -85,7 +94,7 @@
 
   function buildCorpus(){
     const txt=document.body.innerText||'';
-    const withSep=txt.replace(/([.?!])(\\s)*(?=[A-ZÀ-Ỵ0-9"'])/g,'$1|');
+    const withSep=txt.replace(/([.?!])(\s)*(?=[A-ZÀ-Ỵ0-9"'])/g,'$1|');
     return withSep.split('|').map(s=>s.trim()).filter(s=>s.length>20);
   }
   const CORPUS=buildCorpus();
