@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover" />
   <meta property="og:site_name" content="Motoopen">
-  <title>Motoopen AI v3.1 — iOS Chat Card (Demo)</title>
+  <title>Motoopen AI v3.1.1 — iOS Chat Card (Dark-mode Fix)</title>
   <style>
     :root{
       --accent:#007aff;
@@ -16,14 +16,15 @@
       :root{ --card-bg: var(--card-bg-dark); --text: #eee; }
       body{ background: #081018; color: #ddd; }
     }
+
     html,body{height:100%;margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial;}
     body{ background:#f5f7fb; color:var(--text); -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
     header,footer{padding:14px;text-align:center;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,0.04);}
     main{max-width:900px;margin:28px auto;padding:18px;background:#fff;border-radius:12px;box-shadow:0 6px 20px rgba(0,0,0,0.04);}
+
     /* ===== Motoopen AI styles ===== */
-    /* root anchor (left bottom dock) */
     #motoai-root { position: fixed; left: 18px; bottom: 190px; z-index: 2147483000; pointer-events: none; }
-    /* bubble */
+
     #motoai-bubble {
       pointer-events: auto;
       width:58px; height:58px; border-radius:14px;
@@ -36,13 +37,13 @@
       -webkit-user-select:none; user-select:none;
     }
     #motoai-bubble.hidden { opacity: 0; transform: scale(.88); pointer-events: none; }
-    /* backdrop blur when open */
+
     #motoai-backdrop {
       position: fixed; inset:0; background: rgba(0,0,0,0.18);
       backdrop-filter: blur(6px); opacity:0; pointer-events:none; transition: opacity .28s ease; z-index:2147482999;
     }
     #motoai-backdrop.show { opacity:1; pointer-events:auto; }
-    /* card (iOS sheet) */
+
     #motoai-card {
       position: fixed;
       left: 0; right: 0; bottom: 0;
@@ -59,20 +60,44 @@
       -webkit-overflow-scrolling: touch;
     }
     #motoai-card.open { transform: translateY(0); opacity:1; }
+
     #motoai-handle { width:54px;height:6px;background:#d0d6dc;border-radius:6px;margin:10px auto; cursor:grab; }
     #motoai-header { padding:6px 14px; font-weight:700; color:var(--accent); text-align:center; user-select:none; }
     #motoai-body { flex:1; overflow:auto; padding:12px 14px; font-size:15px; -webkit-overflow-scrolling:touch; }
+
     /* messages */
     .m-msg { margin:8px 0; padding:10px 12px; border-radius:12px; max-width:84%; line-height:1.35; word-wrap:break-word; }
     .m-msg.bot { background: rgba(240,240,246,0.95); color: var(--text); margin-right:auto; }
     .m-msg.user { background: linear-gradient(180deg,var(--accent), #00b6ff); color: #fff; margin-left:auto; }
+
+    /* === Dark Mode Fix === */
+    @media (prefers-color-scheme: dark) {
+      .m-msg.bot {
+        background: rgba(40,40,50,0.9);
+        color: #f2f2f2;
+      }
+      .m-msg.user {
+        background: linear-gradient(180deg, #0a84ff, #007aff);
+        color: #fff;
+      }
+      #motoai-input {
+        background: linear-gradient(180deg, rgba(25,25,30,0.6), rgba(25,25,30,0.9));
+        border-top: 1px solid rgba(255,255,255,0.08);
+      }
+      #motoai-input input {
+        background: rgba(255,255,255,0.1);
+        color: #fff;
+        border: 1px solid rgba(255,255,255,0.2);
+      }
+    }
+
     /* input row */
     #motoai-input { display:flex; gap:8px; padding:10px; border-top:1px solid rgba(0,0,0,0.06); background: linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.8)); }
     #motoai-input input { flex:1; padding:12px;border-radius:12px;border:1px solid #d6dde6; font-size:16px; outline:none; background:transparent; color:inherit; }
     #motoai-input button { padding:10px 14px; border-radius:10px; border:none; background:var(--accent); color:#fff; font-weight:700; cursor:pointer; }
-    /* prevent iOS zoom when focusing - ensure font-size >=16 */
+
     input, textarea, select, button { font-size:16px; }
-    /* small screens adjustments */
+
     @media(max-width:420px){
       #motoai-root { left: 12px; bottom: 180px; }
       #motoai-card { width: calc(100% - 20px); left:10px; right:10px; border-radius: 12px 12px 0 0; }
@@ -110,21 +135,16 @@
 
   <script>
   (function(){
-    /* v3.1: Stable UX + emoji 👩‍💻 + backdrop blur + keyboard handling */
     const STORAGE_KEY = 'motoai_v3_state';
     const SESSION_MSG = 'motoai_v3_msgs';
     const state = { msgs: [], isOpen: false };
 
-    // utilities
     const $ = sel => document.querySelector(sel);
-    const clamp = (v,a,b) => Math.max(a,Math.min(b,v));
 
-    // content extraction (simple sentence-level index from visible text)
     function buildCorpus(){
       try {
         const txt = document.body.innerText || '';
         const lines = txt.split(/\n+/).map(s=>s.trim()).filter(Boolean);
-        // sentences (simple split)
         const all = lines.join(' ');
         const sentences = all.replace(/\s+/g,' ').split(/(?<=[.?!])\s+(?=[A-ZÀ-Ỵ0-9"'])/).filter(s=>s.length>20);
         return sentences;
@@ -132,7 +152,6 @@
     }
     const CORPUS = buildCorpus();
 
-    // light trigram embed + sim (cheap)
     function embed(t){
       const m = new Map(); if(!t) return m;
       const s = t.toLowerCase();
@@ -152,7 +171,6 @@
       return scored.slice(0,6);
     }
 
-    // DOM
     const bubble = $('#motoai-bubble');
     const card = $('#motoai-card');
     const backdrop = $('#motoai-backdrop');
@@ -161,12 +179,9 @@
     const sendBtn = $('#motoai-send');
     const handle = $('#motoai-handle');
 
-    // load session messages
     function loadMsgs(){
-      try {
-        const raw = sessionStorage.getItem(SESSION_MSG);
-        state.msgs = raw ? JSON.parse(raw) : [];
-      } catch(e){ state.msgs = []; }
+      try { const raw = sessionStorage.getItem(SESSION_MSG); state.msgs = raw ? JSON.parse(raw) : []; }
+      catch(e){ state.msgs = []; }
     }
     function saveMsgs(){ try { sessionStorage.setItem(SESSION_MSG, JSON.stringify(state.msgs)); } catch(e){} }
 
@@ -178,11 +193,9 @@
         d.textContent = m.text;
         bodyEl.appendChild(d);
       });
-      // keep scroll to bottom, but avoid jumping when keyboard opens: do minimal smooth scroll
       requestAnimationFrame(()=> { bodyEl.scrollTop = bodyEl.scrollHeight; });
     }
 
-    // greeting if none
     function maybeGreet(){
       if(state.msgs.find(m => m.role === 'bot')) return;
       const greet = `Xin chào 👋! Mình là Motoopen AI — trợ lý của trang. Bạn cần biết gì về giá thuê, loại xe hoặc giao tận nơi?`;
@@ -190,17 +203,14 @@
       saveMsgs(); renderMsgs();
     }
 
-    // answer generation (local)
     async function generateAnswer(q){
       const cand = retrieve(q);
       if(!cand.length || cand[0].score < 0.03){
         return "Mình chưa tìm thấy thông tin rõ ràng trên trang 🤔. Bạn thử hỏi chi tiết hơn hoặc gọi 0857 255 868 (Zalo).";
       }
-      // combine top 2 sentences
       return cand.slice(0,2).map(c=>c.text).join(' ');
     }
 
-    // stable ask: don't change card transform/scale; only append message
     async function ask(q){
       if(!q || !q.trim()) return;
       const text = q.trim();
@@ -208,18 +218,12 @@
       saveMsgs(); renderMsgs();
       inputEl.value = '';
       sendBtn.disabled = true;
-
-      // Giả lập độ trễ khi bot "suy nghĩ"
       await new Promise(r => setTimeout(r, 400 + Math.random() * 400));
-      
       const answer = await generateAnswer(text);
       state.msgs.push({role:'bot', text: answer});
       saveMsgs(); renderMsgs();
-      
       sendBtn.disabled = false;
     }
-
-    // --- UI Handlers ---
 
     function openCard() {
       state.isOpen = true;
@@ -227,9 +231,8 @@
       backdrop.classList.add('show');
       bubble.classList.add('hidden');
       card.setAttribute('aria-hidden', 'false');
-      maybeGreet(); // Hiển thị chào mừng khi mở
-      // Tự động focus vào ô nhập liệu
-      setTimeout(() => inputEl.focus(), 450); // Chờ transition hoàn tất
+      maybeGreet();
+      setTimeout(() => inputEl.focus(), 450);
     }
 
     function closeCard() {
@@ -238,89 +241,48 @@
       backdrop.classList.remove('show');
       bubble.classList.remove('hidden');
       card.setAttribute('aria-hidden', 'true');
-      inputEl.blur(); // Tắt focus khi đóng
+      inputEl.blur();
     }
 
-    // --- Event Listeners ---
-    
-    // 1. Gửi tin nhắn
-    function handleSend() {
-      const q = inputEl.value;
-      if (q.trim()) {
-        ask(q);
-      }
-    }
-    sendBtn.addEventListener('click', handleSend);
-    inputEl.addEventListener('keydown', (e) => {
-      // Gửi khi nhấn Enter (không nhấn Shift)
-      if (e.key === 'Enter' && !e.shiftKey) {
-        e.preventDefault();
-        handleSend();
-      }
-    });
-
-    // 2. Mở/Đóng cơ bản
+    sendBtn.addEventListener('click', ()=> ask(inputEl.value));
+    inputEl.addEventListener('keydown', (e)=>{ if(e.key==='Enter'&&!e.shiftKey){e.preventDefault(); ask(inputEl.value);} });
     bubble.addEventListener('click', openCard);
     backdrop.addEventListener('click', closeCard);
 
-    // 3. Logic "Vuốt để đóng" (Drag-to-dismiss)
-    let dragStart = { y: 0, time: 0 };
-    let currentDragY = 0;
-
-    function onDragStart(e) {
-      // Chỉ bắt đầu kéo từ cái handle
-      dragStart.y = (e.touches ? e.touches[0] : e).clientY;
-      dragStart.time = Date.now();
-      card.style.transition = 'none'; // Tắt transition để kéo mượt
-      
+    let dragStart={y:0,time:0}, currentDragY=0;
+    function onDragStart(e){
+      dragStart.y=(e.touches?e.touches[0]:e).clientY;
+      dragStart.time=Date.now();
+      card.style.transition='none';
       document.addEventListener('mousemove', onDragMove);
-      document.addEventListener('touchmove', onDragMove, { passive: false });
+      document.addEventListener('touchmove', onDragMove, {passive:false});
       document.addEventListener('mouseup', onDragEnd);
       document.addEventListener('touchend', onDragEnd);
     }
-
-    function onDragMove(e) {
-      // Ngăn cuộn trang khi đang kéo card
-      e.preventDefault(); 
-      const y = (e.touches ? e.touches[0] : e).clientY;
-      const deltaY = y - dragStart.y;
-      
-      // Chỉ cho phép kéo xuống (deltaY > 0)
-      currentDragY = Math.max(0, deltaY);
-      card.style.transform = `translateY(${currentDragY}px)`;
+    function onDragMove(e){
+      e.preventDefault();
+      const y=(e.touches?e.touches[0]:e).clientY;
+      const deltaY=y-dragStart.y;
+      currentDragY=Math.max(0,deltaY);
+      card.style.transform=`translateY(${currentDragY}px)`;
     }
-
-    function onDragEnd() {
+    function onDragEnd(){
       document.removeEventListener('mousemove', onDragMove);
       document.removeEventListener('touchmove', onDragMove);
       document.removeEventListener('mouseup', onDragEnd);
       document.removeEventListener('touchend', onDragEnd);
-
-      card.style.transition = ''; // Bật lại transition
-
-      const dragDuration = Date.now() - dragStart.time;
-      const cardHeight = card.offsetHeight;
-      const velocity = currentDragY / dragDuration; // Tốc độ kéo (px/ms)
-
-      // Đóng nếu kéo quá 40% chiều cao card, HOẶC kéo nhanh (vận tốc > 0.8)
-      if (currentDragY > cardHeight * 0.4 || velocity > 0.8) {
-        closeCard();
-      } else {
-        // Nếu không thì trả về vị trí cũ
-        card.style.transform = 'translateY(0)';
-      }
-      currentDragY = 0;
+      card.style.transition='';
+      const dragDuration=Date.now()-dragStart.time;
+      const cardHeight=card.offsetHeight;
+      const velocity=currentDragY/dragDuration;
+      if(currentDragY>cardHeight*0.4||velocity>0.8){ closeCard(); }
+      else{ card.style.transform='translateY(0)'; }
+      currentDragY=0;
     }
-    
-    // Gắn sự kiện kéo/thả vào handle
     handle.addEventListener('mousedown', onDragStart);
-    handle.addEventListener('touchstart', onDragStart, { passive: false });
+    handle.addEventListener('touchstart', onDragStart, {passive:false});
 
-    // --- Initialization ---
-    loadMsgs();
-    renderMsgs();
-    // (Không tự động mở, chờ người dùng click vào bubble)
-
+    loadMsgs(); renderMsgs();
   })();
   </script>
 </body>
