@@ -2365,5 +2365,416 @@ if(!document.querySelector('moto-toc')){
       
     })();
   </script>
+
+  <!-- Motoopen AI v2.0.1 — Stable iOS Mini-App (Hotfix) -->
+<script>
+(function(){
+  const STORAGE_KEY = 'motoai_v2_state';
+  const MEM_KEY = 'motoai_v2_mem';
+  const STATE = {
+    config: { aiEndpoint: null, maxSnippets: 10, memorySize: 6, minScore: 0.04 },
+    corpus: [],
+    memory: []
+  };
+
+  // helpers
+  const clamp = (v,a,b) => Math.max(a, Math.min(b, v));
+  const q = s => document.querySelector(s);
+  const qa = s => Array.from(document.querySelectorAll(s));
+
+  // Corpus extraction (same as before)
+  function extractCorpus(){
+    try {
+      const texts=[];
+      const walker=document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+      while(walker.nextNode()){
+        const t = walker.currentNode.nodeValue.trim();
+        if(t.length > 30) texts.push(t.replace(/\s+/g,' '));
+      }
+      const metas = Array.from(document.querySelectorAll('meta[name],meta[property]'))
+        .map(m => (m.getAttribute('name')||m.getAttribute('property')) + ': ' + (m.content||''))
+        .filter(Boolean);
+      const jsonld = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .map(s => s.textContent || '').filter(Boolean);
+      const all = [document.title || '', ...metas, ...texts, ...jsonld].join(' ');
+      const sentences = all.replace(/\s+/g,' ').split(/(?<=[.?!])\s+(?=[A-ZÀ-Ỵ0-9"'])/).filter(s=>s.length>20);
+      STATE.corpus = sentences;
+    } catch(e) { STATE.corpus = []; console.warn('MotoAI v2 extract error', e); }
+  }
+
+  // embeddings & similarity (trigram)
+  function embed(text){ const m=new Map(); if(!text) return m; const s=text.toLowerCase(); for(let i=0;i<=s.length-3;i++){ const g=s.slice(i,i+3); m.set(g,(m.get(g)||0)+1);} return m; }
+  function sim(a,b){ const ks=new Set([...a.keys(),...b.keys()]); let dot=0,na=0,nb=0; for(const k of ks){ const va=a.get(k)||0, vb=b.get(k)||0; dot+=va*vb; na+=va*va; nb+=vb*vb; } return dot/(Math.sqrt(na)*Math.sqrt(nb)+1e-12); }
+  function retrieve(query){ const qv=embed(query); const scored=STATE.corpus.map(s=>({text:s, score:sim(qv, embed(s))})); scored.sort((a,b)=>b.score-a.score); return scored.slice(0, STATE.config.maxSnippets); }
+
+  // memory
+  function loadMemory(){ try{ STATE.memory = JSON.parse(sessionStorage.getItem(MEM_KEY) || '[]'); }catch{ STATE.memory = []; } }
+  function saveMemory(){ try{ sessionStorage.setItem(MEM_KEY, JSON.stringify(STATE.memory)); }catch{} }
+  function pushMemory(role, text){ STATE.memory.push({ role, text, ts: Date.now() }); const cap = STATE.config.memorySize*2; if(STATE.memory.length>cap) STATE.memory = STATE.memory.slice(-cap); saveMemory(); }
+
+  // detect site name & accent
+  function detectSiteName(){ return (document.querySelector('meta[property="og:site_name"]')?.content || document.querySelector('meta[name="application-name"]')?.content || (document.title||'').split('|')[0] || 'website này').trim(); }
+  function inheritAccent(){ const root = getComputedStyle(document.documentElement); const cand = root.getPropertyValue('--accent') || root.getPropertyValue('--primary') || root.getPropertyValue('--accent-color') || ''; if(cand && cand.trim()) document.documentElement.style.setProperty('--motoai-accent', cand.trim()); else document.documentElement.style.setProperty('--motoai-accent', '#007aff'); }
+
+  // answer generator (local extractive + optional remote)
+  async function generateAnswer(query){
+    const cand = retrieve(query);
+    if(!cand.length || cand[0].score < STATE.config.minScore){
+      return "Hmm... mình chưa tìm thấy thông tin rõ ràng trên trang 🤔. Bạn thử hỏi chi tiết hơn, hoặc liên hệ Zalo/SDT để Motoopen hỗ trợ nhé!";
+    }
+    const context = cand.map(c=>c.text).join(' ');
+    if(STATE.config.aiEndpoint){
+      try{
+        const payload = { prompt: query, context, memory: STATE.memory.slice(-STATE.config.memorySize) };
+        const res = await fetch(STATE.config.aiEndpoint, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(payload) });
+        if(res.ok){ const j = await res.json(); return j.answer || j.output || JSON.stringify(j); }
+      }catch(e){ console.warn('MotoAI remote error', e); }
+    }
+    // fallback extractive overlap
+    const qWords = query.toLowerCase().split(/\W+/).filter(Boolean);
+    const sentences = context.split(/(?<=[.?!])\s+/);
+    const scored = sentences.map(s=>{ const lw=s.toLowerCase(); const overlap=qWords.filter(w=>lw.includes(w)).length; return {s,overlap}; }).sort((a,b)=>b.overlap-a.overlap);
+    const best = scored.slice(0,3).map(x=>x.s).join(' ');
+    if(best && best.length>10) return best.slice(0, 800);
+    return "Mình hơi mơ hồ về điều này 🤔. Bạn thử hỏi lại cụ thể hơn, hoặc gọi 0857 255 868 (Zalo) để được hỗ trợ nhanh nhé!";
+  }
+
+  // UI build with stable fixes
+  function buildUI(){
+    extractCorpus();
+    loadMemory();
+    inheritAccent();
+    const site = detectSiteName();
+
+    // root container
+    let root = document.getElementById('motoai-root');
+    if(!root){ root = document.createElement('div'); root.id = 'motoai-root'; document.body.appendChild(root); }
+    root.innerHTML = '';
+
+    // stylesheet (scoped)
+    const STYLE = `
+      :root{ --m-ai-accent: var(--motoai-accent,#007aff); }
+      #motoai-root { position: fixed; left: 18px; bottom: 90px; z-index: 2147483000; pointer-events: none; }
+      #motoai-bubble { pointer-events:auto; width:64px;height:64px;border-radius:20px;background:var(--m-ai-accent); color:#fff; display:flex;align-items:center;justify-content:center;font-size:24px; cursor:grab; box-shadow:0 12px 36px rgba(0,0,0,0.18); border:1px solid rgba(255,255,255,0.06); transition: transform .18s ease; -webkit-user-select:none; user-select:none; position:fixed; }
+      #motoai-bubble:active{ cursor:grabbing; transform: scale(.98) }
+      #motoai-panel { pointer-events:auto; position:fixed; left:18px; bottom:170px; width:380px; max-height:620px; border-radius:16px; overflow:hidden; background: rgba(255,255,255,0.78); backdrop-filter: blur(8px) saturate(120%); box-shadow:0 18px 48px rgba(0,0,0,0.25); border:1px solid rgba(0,0,0,0.06); transform-origin:center center; opacity:0; transform: scale(.94) translateY(12px); transition: transform .32s cubic-bezier(.2,.9,.2,1), opacity .26s ease; }
+      @media (prefers-color-scheme: dark){ #motoai-panel{ background: rgba(16,16,18,0.58); border:1px solid rgba(255,255,255,0.04);} }
+      #motoai-panel.open{ opacity:1; transform: scale(1) translateY(0); }
+      #motoai-header{ display:flex; align-items:center; justify-content:space-between; padding:12px 14px; background: linear-gradient(90deg, var(--m-ai-accent), color-mix(in srgb, var(--m-ai-accent) 60%, #00d4ff)); color:#fff; font-weight:700; cursor:grab; }
+      #motoai-body{ padding:12px; overflow:auto; max-height:420px; background:transparent; color:inherit; }
+      #motoai-input{ display:flex; gap:8px; padding:10px; border-top:1px solid rgba(0,0,0,0.06); background: rgba(255,255,255,0.02); }
+      #motoai-input input{ flex:1; padding:10px 12px; border-radius:10px; border:1px solid rgba(0,0,0,0.06); outline:none; background:transparent; color:inherit; }
+      #motoai-input button{ background:var(--m-ai-accent); color:#fff; border:none; padding:10px 14px; border-radius:10px; cursor:pointer; font-weight:700; }
+      .m-msg{ margin:8px 0; padding:10px 12px; border-radius:12px; max-width:86%; font-size:0.95rem; line-height:1.38; box-shadow:0 6px 18px rgba(0,0,0,0.06); }
+      .m-msg.user{ margin-left:auto; background: linear-gradient(180deg, var(--m-ai-accent), color-mix(in srgb, var(--m-ai-accent) 60%, #00d4ff)); color:#fff; border-bottom-right-radius:6px; }
+      .m-msg.bot{ margin-right:auto; background: color-mix(in srgb, rgba(255,255,255,0.96), black 6%); color:inherit; border-bottom-left-radius:6px; }
+      @media (prefers-color-scheme: dark){ .m-msg.bot { background: rgba(255,255,255,0.04); } }
+      .m-typing{ font-style:italic; color:#888; }
+      .m-quick{ display:flex; gap:8px; padding:10px; flex-wrap:wrap; border-top:1px solid rgba(0,0,0,0.04); background:transparent; }
+      .m-quick button{ background:transparent; border:1px solid rgba(0,0,0,0.06); padding:8px 12px; border-radius:999px; cursor:pointer; color:var(--m-ai-accent); font-weight:600; }
+      .m-footer{ padding:8px 12px; font-size:12px; color:rgba(0,0,0,0.55); text-align:center; }
+      @media (prefers-color-scheme: dark){ .m-footer { color: rgba(255,255,255,0.6); } }
+      /* drag state: lock opacity & transitions while dragging to avoid 'vanish' */
+      #motoai-panel.dragging { transition: none !important; opacity: 1 !important; }
+      #motoai-bubble.dragging { transition: none !important; transform: none !important; }
+      @media(max-width:420px){ #motoai-panel{ width: calc(100% - 28px); left:14px; right:14px; bottom:120px; } }
+    `;
+
+    // create elements
+    const style = document.createElement('style'); style.textContent = STYLE;
+    root.appendChild(style);
+
+    const bubble = document.createElement('div');
+    bubble.id = 'motoai-bubble';
+    bubble.title = site + ' AI';
+    bubble.innerHTML = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden><path d="M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10z" fill="currentColor"/></svg>';
+
+    const panel = document.createElement('div'); panel.id = 'motoai-panel';
+    panel.innerHTML = `
+      <div id="motoai-header" aria-label="${site} AI header">
+        <div style="display:flex;gap:10px;align-items:center">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden><path d="M12 2a10 10 0 100 20 10 10 0 000-20z" fill="currentColor"/></svg>
+          <div><strong>${site} AI</strong></div>
+        </div>
+        <div style="display:flex;gap:8px;align-items:center">
+          <button id="motoai-min" title="Thu nhỏ" style="background:transparent;border:none;color:rgba(255,255,255,0.95);cursor:pointer">—</button>
+          <button id="motoai-close" title="Đóng" style="background:transparent;border:none;color:rgba(255,255,255,0.95);cursor:pointer">✕</button>
+        </div>
+      </div>
+      <div id="motoai-body" aria-live="polite"></div>
+      <div class="m-quick" id="motoai-quick">
+        <button data-q="Giá thuê xe máy">Giá thuê</button>
+        <button data-q="Loại xe có những gì">Loại xe</button>
+        <button data-q="Giao tận nơi không">Giao tận nơi</button>
+        <button data-q="Liên hệ Motoopen">Liên hệ</button>
+      </div>
+      <div id="motoai-input">
+        <input id="motoai-input-el" type="text" placeholder="Nhập câu hỏi... (ví dụ: Giá thuê bao nhiêu?)" aria-label="Nhập câu hỏi">
+        <button id="motoai-send">Gửi</button>
+      </div>
+      <div class="m-footer">Hoạt động offline — đọc nội dung trang • Zalo/SDT: 0857 255 868</div>
+    `;
+
+    root.appendChild(bubble);
+    root.appendChild(panel);
+
+    // restore saved state safely (clamped to viewport)
+    const savedState = (()=>{ try{ return JSON.parse(localStorage.getItem(STORAGE_KEY)||'{}'); }catch{return {}; } })();
+    // bubble position
+    if(savedState.bubblePos){
+      try{
+        const left = parseFloat(savedState.bubblePos.left);
+        const top = parseFloat(savedState.bubblePos.top);
+        const l = clamp(left, 8, window.innerWidth - 64 - 8);
+        const t = clamp(top, 8, window.innerHeight - 64 - 8);
+        bubble.style.left = l + 'px'; bubble.style.top = t + 'px'; bubble.style.bottom = 'auto';
+      }catch(e){}
+    } else {
+      // default near left-bottom
+      bubble.style.left = savedState?.bubblePos?.left || '18px';
+      bubble.style.bottom = '90px';
+    }
+    // panel position & open state
+    if(savedState.panelPos){
+      try{
+        const left = parseFloat(savedState.panelPos.left);
+        const top = parseFloat(savedState.panelPos.top);
+        const l = clamp(left, 8, window.innerWidth - 200 - 8);
+        const t = clamp(top, 8, window.innerHeight - 200 - 8);
+        panel.style.left = l + 'px'; panel.style.top = t + 'px'; panel.style.bottom = 'auto';
+      }catch(e){}
+    }
+    if(savedState.isOpen){
+      // open panel on load
+      bubble.style.display = 'none';
+      panel.classList.add('open');
+      panel.style.opacity = '1';
+      panel.style.transform = 'scale(1)';
+    } else {
+      panel.classList.remove('open');
+      panel.style.opacity = '';
+    }
+
+    // DOM refs
+    const bodyEl = panel.querySelector('#motoai-body');
+    const inputEl = panel.querySelector('#motoai-input-el');
+    const sendBtn = panel.querySelector('#motoai-send');
+    const quick = panel.querySelector('#motoai-quick');
+    const closeBtn = panel.querySelector('#motoai-close');
+    const minBtn = panel.querySelector('#motoai-min');
+
+    // memory render
+    function renderMemory(){
+      bodyEl.innerHTML = '';
+      (STATE.memory || []).slice(-STATE.config.memorySize*2).forEach(m=>{
+        const d = document.createElement('div');
+        d.className = 'm-msg ' + (m.role==='user' ? 'user' : 'bot');
+        d.textContent = m.text;
+        bodyEl.appendChild(d);
+      });
+      bodyEl.scrollTop = bodyEl.scrollHeight;
+    }
+    renderMemory();
+
+    // greeting
+    function maybeGreet(){
+      const hasAssistant = (STATE.memory||[]).some(m=>m.role==='assistant');
+      if(!hasAssistant){
+        const greet = `Xin chào 👋! Đây là ${site} AI — trợ lý ảo của trang này. Bạn muốn mình giúp gì nào? (ví dụ: giá thuê, loại xe, chính sách giao xe...)`;
+        const typingNode = document.createElement('div'); typingNode.className='m-msg bot m-typing'; typingNode.textContent='...';
+        bodyEl.appendChild(typingNode); bodyEl.scrollTop = bodyEl.scrollHeight;
+        setTimeout(()=>{ typingNode.remove(); const out = document.createElement('div'); out.className='m-msg bot'; bodyEl.appendChild(out); typeReveal(out, greet); pushMemory('assistant', greet); renderMemory(); }, 600);
+      }
+    }
+
+    // type reveal
+    function typeReveal(node, text){
+      let i=0;
+      node.textContent = '';
+      function step(){
+        const chunk = Math.max(1, Math.floor(Math.random()*6));
+        i = Math.min(text.length, i + chunk);
+        node.textContent = text.slice(0,i);
+        bodyEl.scrollTop = bodyEl.scrollHeight;
+        if(i < text.length) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    }
+
+    // ask flow
+    async function ask(qtext){
+      if(!qtext || !qtext.trim()) return;
+      pushMemory('user', qtext);
+      renderMemory();
+      inputEl.value = '';
+      const tnode = document.createElement('div'); tnode.className = 'm-msg bot m-typing'; tnode.textContent = 'Đang gõ…';
+      bodyEl.appendChild(tnode); bodyEl.scrollTop = bodyEl.scrollHeight;
+      try{
+        const ans = await generateAnswer(qtext);
+        tnode.remove();
+        const out = document.createElement('div'); out.className = 'm-msg bot'; bodyEl.appendChild(out);
+        typeReveal(out, ans);
+        pushMemory('assistant', ans);
+        renderMemory();
+      }catch(e){
+        tnode.remove();
+        const err = 'Xin lỗi, có lỗi khi xử lý. Thử lại nhé.';
+        const out = document.createElement('div'); out.className='m-msg bot'; out.textContent = err;
+        bodyEl.appendChild(out); pushMemory('assistant', err); renderMemory();
+        console.error(e);
+      }
+    }
+
+    // quick buttons
+    qa('.m-quick button', panel).forEach(btn=>{
+      btn.addEventListener('click', ()=> ask(btn.dataset.q));
+    });
+
+    // open panel from bubble with "scale from bubble" animation
+    function openPanelFromBubble(){
+      // freeze pointer transitions
+      panel.classList.remove('dragging');
+      bubble.style.display = 'none';
+      // place panel near bubble then animate to its existing position
+      const bRect = bubble.getBoundingClientRect();
+      const panelRect = panel.getBoundingClientRect();
+      // set starting pos near bubble
+      panel.style.left = (bRect.left) + 'px';
+      panel.style.top = (bRect.top - (panelRect.height || 360)) + 'px';
+      panel.style.bottom = 'auto';
+      // force layout
+      panel.getBoundingClientRect();
+      // animate to natural (stored) pos if exists, else to current left/top (no change)
+      requestAnimationFrame(()=>{
+        panel.classList.add('open');
+        panel.style.opacity = '1';
+        panel.style.transform = 'scale(1) translateY(0)';
+      });
+      panel.setAttribute('aria-hidden','false');
+      savePositions(); renderMemory(); maybeGreet(); inputEl.focus();
+    }
+
+    function closePanel(){
+      panel.classList.remove('open');
+      panel.setAttribute('aria-hidden','true');
+      bubble.style.display = 'flex';
+      savePositions();
+    }
+
+    // save positions into localStorage (clamped)
+    function savePositions(){
+      try{
+        const state = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+        const bRect = bubble.getBoundingClientRect();
+        state.bubblePos = { left: `${clamp(bRect.left,8,window.innerWidth - 64 - 8)}px`, top: `${clamp(bRect.top,8,window.innerHeight - 64 - 8)}px` };
+        const pRect = panel.getBoundingClientRect();
+        state.panelPos = { left: `${clamp(pRect.left,8,window.innerWidth - 200 - 8)}px`, top: `${clamp(pRect.top,8,window.innerHeight - 200 - 8)}px` };
+        state.isOpen = panel.classList.contains('open');
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+      }catch(e){ console.warn('savePositions', e); }
+    }
+
+    // dragging with robust cleanup (pointercapture, pointercancel, blur)
+    function enableDrag(el, handleEl){
+      let dragging = false;
+      let startX=0, startY=0, origLeft=0, origTop=0, pointerId = null;
+
+      const onDown = (ev) => {
+        // only left button or touch
+        ev.preventDefault();
+        dragging = true;
+        pointerId = ev.pointerId || null;
+        startX = ev.clientX;
+        startY = ev.clientY;
+        const rect = el.getBoundingClientRect();
+        origLeft = rect.left;
+        origTop = rect.top;
+        el.classList.add('dragging'); // lock transitions/opacity
+        el.setPointerCapture && el.setPointerCapture(pointerId);
+      };
+
+      const onMove = (ev) => {
+        if(!dragging) return;
+        const dx = ev.clientX - startX;
+        const dy = ev.clientY - startY;
+        const newLeft = clamp(origLeft + dx, 8, window.innerWidth - el.offsetWidth - 8);
+        const newTop = clamp(origTop + dy, 8, window.innerHeight - el.offsetHeight - 8);
+        el.style.left = newLeft + 'px';
+        el.style.top = newTop + 'px';
+        el.style.bottom = 'auto';
+      };
+
+      const endDrag = (ev) => {
+        if(!dragging) return;
+        dragging = false;
+        try{ el.releasePointerCapture && el.releasePointerCapture(pointerId); }catch(e){}
+        el.classList.remove('dragging');
+        // small clamp to ensure visible
+        const rect = el.getBoundingClientRect();
+        if(rect.left < 4 || rect.top < 4 || rect.left + rect.width > window.innerWidth - 4 || rect.top + rect.height > window.innerHeight - 4){
+          // push into viewport
+          el.style.left = clamp(rect.left, 8, window.innerWidth - el.offsetWidth - 8) + 'px';
+          el.style.top = clamp(rect.top, 8, window.innerHeight - el.offsetHeight - 8) + 'px';
+        }
+        savePositions();
+      };
+
+      // pointer events
+      handleEl.addEventListener('pointerdown', onDown);
+      window.addEventListener('pointermove', onMove);
+      window.addEventListener('pointerup', endDrag);
+      window.addEventListener('pointercancel', endDrag);
+      // safety: release when window loses focus
+      window.addEventListener('blur', endDrag);
+      // also on mouseleave of window
+      window.addEventListener('mouseleave', endDrag);
+    }
+
+    // init dragging for bubble & panel
+    (function initDrag(){
+      // bubble initial positioning (if not set above)
+      if(!bubble.style.left && !bubble.style.top){
+        bubble.style.left = '18px'; bubble.style.bottom = '90px';
+      }
+      // ensure fixed pos
+      bubble.style.position = 'fixed';
+      panel.style.position = 'fixed';
+      enableDrag(bubble, bubble);
+      // drag panel via header handle
+      const header = panel.querySelector('#motoai-header');
+      enableDrag(panel, header);
+    })();
+
+    // bind UI events
+    bubble.addEventListener('click', (e)=>{ openPanelFromBubble(); });
+    closeBtn.addEventListener('click', ()=>{ closePanel(); });
+    minBtn.addEventListener('click', ()=>{ quick.style.display = quick.style.display === 'none' ? 'flex' : 'none'; });
+    sendBtn.addEventListener('click', ()=> ask(inputEl.value));
+    inputEl.addEventListener('keydown', e => { if(e.key === 'Enter') ask(inputEl.value); });
+
+    // restore saved body html if any
+    try{ const prevHtml = sessionStorage.getItem('motoai_v2_html'); if(prevHtml) bodyEl.innerHTML = prevHtml; }catch(e){}
+    window.addEventListener('beforeunload', ()=> { try{ sessionStorage.setItem('motoai_v2_html', bodyEl.innerHTML); }catch{} });
+
+    // initial render & greet if panel open
+    renderMemory();
+    if(panel.classList.contains('open')) { maybeGreet(); inputEl.focus(); }
+
+    // expose API
+    window.MotoAI = {
+      setServer: ({ aiEndpoint }) => { STATE.config.aiEndpoint = aiEndpoint; console.log('MotoAI endpoint set', aiEndpoint); },
+      ask: (q) => { return (async ()=>{ await ask(q); })(); },
+      _state: STATE
+    };
+  } // end buildUI
+
+  // init
+  try{ extractCorpus(); }catch(e){ console.warn('extract fail', e); }
+  if(!document.getElementById('motoai-root')){ const r=document.createElement('div'); r.id='motoai-root'; document.body.appendChild(r); }
+  buildUI();
+
+  console.log('Motoopen AI v2.0.1 initialized — stable drag & restore enabled.');
+})();
+</script>
 </body>
 </html>
