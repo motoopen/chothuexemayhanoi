@@ -2120,157 +2120,123 @@ if(!document.querySelector('moto-toc')){
   </div>
 </footer>
 
-<!-- 👉 DÁN SCRIPT CỦA MOTOAI Ở ĐÂY -->
 <script>
-  // Code Motoopen AI Assistant v3.2.1
-  (function(){
-    const SESSION_MSG = 'motoai_v3_msgs';
-    const STATE_KEY = 'motoai_v3_open';
-    const $ = s => document.querySelector(s);
-    const state = { msgs: [] };
+(function(){
+  const $ = s => document.querySelector(s);
+  const root = $('#motoai-root');
+  const bubble = $('#motoai-bubble');
+  const card = $('#motoai-card');
+  const backdrop = $('#motoai-backdrop');
+  const bodyEl = $('#motoai-body');
+  const inputEl = $('#motoai-input-el');
+  const sendBtn = $('#motoai-send');
+  const themeToggle = $('#theme-toggle');
 
-    // ====== GIAO DIỆN NỘI DUNG ======
-    const el = document.createElement('div');
-    el.innerHTML = `
-      <div id="motoai-backdrop"></div>
-      <div id="motoai-root">
-        <div id="motoai-bubble" role="button">👩‍💻</div>
-        <div id="motoai-card" role="dialog" aria-modal="true">
-          <div id="motoai-handle"></div>
-          <div id="motoai-header">Motoopen AI</div>
-          <div id="motoai-body"></div>
-          <div id="motoai-input">
-            <input id="motoai-input-el" type="text" placeholder="Nhập câu hỏi..." />
-            <button id="motoai-send">Gửi</button>
-          </div>
-        </div>
-      </div>
-    `;
-    document.body.appendChild(el);
+  // --- Khởi tạo ---
+  const state = { msgs: [
+    { role:'bot', text: 'Chào bạn 👋! Thử hỏi mình điều gì đó nhé.' }
+  ]};
 
-    // ====== STYLE ======
-    const style = document.createElement('style');
-    style.textContent = `
-      :root{--accent:#007aff;--card-bg:rgba(255,255,255,0.96);--card-bg-dark:rgba(20,20,22,0.92);--text:#111;}
-      @media(prefers-color-scheme:dark){:root{--card-bg:var(--card-bg-dark);--text:#eee;}body{background:#081018;color:#ddd;}}
-      #motoai-root{position:fixed;left:18px;bottom:190px;z-index:2147483000;pointer-events:none;}
-      #motoai-bubble{pointer-events:auto;width:58px;height:58px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:28px;background:var(--accent);color:#fff;box-shadow:0 10px 28px rgba(0,0,0,0.24);cursor:pointer;}
-      #motoai-backdrop{position:fixed;inset:0;background:rgba(0,0,0,0.18);backdrop-filter:blur(6px);opacity:0;pointer-events:none;transition:opacity .28s ease;z-index:2147482999;}
-      #motoai-backdrop.show{opacity:1;pointer-events:auto;}
-      #motoai-card{position:fixed;left:0;right:0;bottom:0;height:80vh;max-height:820px;width:min(920px,calc(100% - 28px));border-radius:18px 18px 0 0;background:var(--card-bg);box-shadow:0 -12px 40px rgba(10,20,30,0.18);transform:translateY(110%);opacity:0;transition:transform .42s cubic-bezier(.2,.9,.2,1),opacity .28s ease;display:flex;flex-direction:column;overflow:hidden;z-index:2147483000;}
-      #motoai-card.open{transform:translateY(0);opacity:1;}
-      #motoai-handle{width:54px;height:6px;background:#d0d6dc;border-radius:6px;margin:10px auto;cursor:grab;}
-      #motoai-header{padding:6px 14px;font-weight:700;color:var(--accent);text-align:center;}
-      #motoai-body{flex:1;overflow:auto;padding:12px 14px;font-size:15px;}
-      .m-msg{margin:8px 0;padding:10px 12px;border-radius:12px;max-width:84%;line-height:1.35;word-wrap:break-word;}
-      .m-msg.bot{background:rgba(240,240,246,0.95);color:var(--text);}
-      .m-msg.user{background:linear-gradient(180deg,var(--accent),#00b6ff);color:#fff;margin-left:auto;}
-      #motoai-input{display:flex;gap:8px;padding:10px;border-top:1px solid rgba(0,0,0,0.06);background:linear-gradient(180deg,rgba(255,255,255,0.6),rgba(255,255,255,0.8));}
-      #motoai-input input{flex:1;padding:12px;border-radius:12px;border:1px solid #d6dde6;font-size:16px;background:transparent;color:inherit;}
-      #motoai-input button{padding:10px 14px;border-radius:10px;border:none;background:var(--accent);color:#fff;font-weight:700;cursor:pointer;}
-      @media(prefers-color-scheme:dark){
-        .m-msg.bot{background:rgba(40,40,50,0.9);color:#f2f2f2;}
-        #motoai-input{background:rgba(25,25,30,0.9);}
-        #motoai-input input{
-          background:rgba(255,255,255,0.12);
-          color:#fff;
-          border:1px solid rgba(255,255,255,0.2);
-        }
-        #motoai-input input::placeholder{color:rgba(255,255,255,0.55);}
-        #motoai-input input:focus{
-          background:rgba(255,255,255,0.18);
-          border-color:#0a84ff;
-          outline:none;
-        }
+  function renderMsgs(){
+    bodyEl.innerHTML = '';
+    state.msgs.forEach(m=>{
+      const d = document.createElement('div');
+      d.className = 'm-msg ' + (m.role==='user' ? 'user' : 'bot');
+      d.textContent = m.text;
+      bodyEl.appendChild(d);
+    });
+    bodyEl.scrollTop = bodyEl.scrollHeight;
+  }
+
+  // --- Xây dữ liệu mô phỏng ---
+  function buildCorpus(){
+    const txt = document.body.innerText || '';
+    const withSep = txt.replace(/([.?!])(\s)*(?=[A-ZÀ-Ỵ0-9"'])/g, '$1|');
+    return withSep.split('|').map(s => s.trim()).filter(s => s.length > 20);
+  }
+  const CORPUS = buildCorpus();
+  function dummyRetrieve(q){
+    for(const s of CORPUS){
+      if(q.split(' ').some(w => s.toLowerCase().includes(w.toLowerCase()))) return s;
+    }
+    return "Xin lỗi, mình chưa tìm thấy thông tin đó 🤔.";
+  }
+
+  // --- Hỏi/Trả lời ---
+  async function ask(q){
+    if(!q.trim()) return;
+    state.msgs.push({role:'user', text:q});
+    renderMsgs();
+    inputEl.value = '';
+    sendBtn.disabled = true;
+    await new Promise(r => setTimeout(r,250));
+    const ans = dummyRetrieve(q);
+    state.msgs.push({role:'bot', text:ans});
+    renderMsgs();
+    sendBtn.disabled = false;
+    inputEl.focus();
+  }
+
+  // --- Mở/Đóng khung chat ---
+  function openCard(){
+    card.classList.add('open');
+    backdrop.classList.add('show');
+    root.style.pointerEvents = 'auto'; // bật click cho input
+    bubble.style.display = 'none';
+    card.setAttribute('aria-hidden','false');
+    renderMsgs();
+    setTimeout(()=> inputEl.focus(), 250);
+  }
+  function closeCard(){
+    card.classList.remove('open');
+    backdrop.classList.remove('show');
+    root.style.pointerEvents = 'none'; // tắt click khi đóng
+    bubble.style.display = 'flex';
+    card.setAttribute('aria-hidden','true');
+    bubble.focus();
+  }
+
+  // --- Sự kiện ---
+  bubble.addEventListener('click', openCard);
+  backdrop.addEventListener('click', closeCard);
+  sendBtn.addEventListener('click', ()=> ask(inputEl.value));
+
+  inputEl.addEventListener('keydown', e => {
+    if(e.key === 'Enter' && !e.shiftKey){
+      e.preventDefault();
+      ask(inputEl.value);
+    }
+    if(e.key === 'Escape'){
+      closeCard();
+    }
+  });
+
+  document.addEventListener('keydown', e => {
+    if(e.key === 'Escape' && card.classList.contains('open')) closeCard();
+  });
+
+  // --- Chuyển theme (demo) ---
+  let forcedDark = false;
+  if(themeToggle){
+    themeToggle.addEventListener('click', () => {
+      forcedDark = !forcedDark;
+      if(forcedDark){
+        document.documentElement.style.setProperty('--card-bg', getComputedStyle(document.documentElement).getPropertyValue('--card-bg-dark') || '#141417');
+        document.body.style.background = '#071021';
+        themeToggle.textContent = 'Light mode';
+        themeToggle.setAttribute('aria-pressed','true');
+      } else {
+        document.documentElement.style.removeProperty('--card-bg');
+        document.body.style.background = '';
+        themeToggle.textContent = 'Chuyển theme';
+        themeToggle.setAttribute('aria-pressed','false');
       }
-    `;
-    document.head.appendChild(style);
+    });
+  }
 
-    // ====== LOGIC ======
-    function buildCorpus(){
-      const txt=document.body.innerText||'';
-      return txt.replace(/\s+/g,' ')
-                .split(/(?<=[.?!])\s+(?=[A-ZÀ-Ỵ0-9"'])/)
-                .filter(s=>s.length>20);
-    }
-    const CORPUS=buildCorpus();
-    function embed(t){
-      const m=new Map();const s=t.toLowerCase();
-      for(let i=0;i<=s.length-3;i++){
-        const g=s.slice(i,i+3);m.set(g,(m.get(g)||0)+1);
-      }
-      return m;
-    }
-    function sim(a,b){
-      const ks=new Set([...a.keys(),...b.keys()]);
-      let dot=0,na=0,nb=0;
-      ks.forEach(k=>{
-        const va=a.get(k)||0,vb=b.get(k)||0;
-        dot+=va*vb;na+=va*va;nb+=vb*vb;
-      });
-      return dot/(Math.sqrt(na)*Math.sqrt(nb)+1e-12);
-    }
-    function retrieve(q){
-      const qv=embed(q);
-      return CORPUS.map(s=>({text:s,score:sim(qv,embed(s))}))
-                   .sort((a,b)=>b.score-a.score)
-                   .slice(0,5);
-    }
-
-    const bubble=$('#motoai-bubble'),
-          card=$('#motoai-card'),
-          backdrop=$('#motoai-backdrop'),
-          bodyEl=$('#motoai-body'),
-          inputEl=$('#motoai-input-el'),
-          sendBtn=$('#motoai-send');
-
-    function renderMsgs(){
-      bodyEl.innerHTML='';
-      state.msgs.forEach(m=>{
-        const d=document.createElement('div');
-        d.className='m-msg '+(m.role==='user'?'user':'bot');
-        d.textContent=m.text;
-        bodyEl.appendChild(d);
-      });
-      bodyEl.scrollTop=bodyEl.scrollHeight;
-    }
-
-    async function ask(q){
-      if(!q.trim())return;
-      state.msgs.push({role:'user',text:q});
-      renderMsgs();
-      inputEl.value=''; sendBtn.disabled=true;
-      await new Promise(r=>setTimeout(r,500));
-      const res=retrieve(q);
-      const ans=res.length&&res[0].score>0.03
-        ? res[0].text
-        : "Xin lỗi, mình chưa tìm thấy thông tin đó 🤔.";
-      state.msgs.push({role:'bot',text:ans});
-      renderMsgs();
-      sendBtn.disabled=false;
-    }
-
-    function openCard(){
-      card.classList.add('open');
-      backdrop.classList.add('show');
-      bubble.classList.add('hidden');
-    }
-
-    function closeCard(){
-      card.classList.remove('open');
-      backdrop.classList.remove('show');
-      bubble.classList.remove('hidden');
-    }
-
-    sendBtn.onclick=()=>ask(inputEl.value);
-    inputEl.onkeydown=e=>{
-      if(e.key==='Enter'&&!e.shiftKey){
-        e.preventDefault(); ask(inputEl.value);
-      }
-    };
-    bubble.onclick=openCard;
-    backdrop.onclick=closeCard;
-  })();
+  // --- Khởi tạo hiển thị ---
+  renderMsgs();
+})();
 </script>
   
   <div class="quick-call-game">
