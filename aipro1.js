@@ -5,6 +5,8 @@
   window.MotoAI_v10_LOADED = true;
   console.log('✅ MotoAI v10.0 Hybrid Pro loaded');
 
+   console.log('✅ MotoAI v10.0 Hybrid Pro loaded');
+
   /* -------- CONFIG -------- */
   const CFG = {
     maxCorpusSentences: 600,    // cap sentences stored
@@ -17,7 +19,8 @@
     ],
     memoryKeyName: 'MotoAI_v10_user_name',
     corpusKey: 'MotoAI_v10_corpus',
-    sessionKey: 'MotoAI_v10_session_msgs'
+    sessionKey: 'MotoAI_v10_session_msgs',   // ✅ thêm dấu phẩy ở đây
+    sitemapPath: '/moto_sitemap.json'        // ✅ dòng mới thêm
   };
 
   /* --------- HTML inject ---------- */
