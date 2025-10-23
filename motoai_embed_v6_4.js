@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', function() {
   if (window.MotoAI_v6_4_LOADED) return;
   window.MotoAI_v6_4_LOADED = true;
 
-  const CORE_URL = "https://cdn.jsdelivr.net/gh/motoopen/chothuexemayhanoi@main/motoai_core_v6.js";
+  const CORE_URL = "https://cdn.jsdelivr.net/gh/motoopen/chothuexemayhanoi@main/motoai_core_v7.js";
 
   // === HTML ===
   const html = `
