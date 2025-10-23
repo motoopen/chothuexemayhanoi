@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MotoAI v9.8 Final UI – Apple Glass Test</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(180deg, #f4f7fa, #e8edf4);
+      color: #111;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      overflow-x: hidden;
+    }
+    h1 {
+      color: #007aff;
+      font-size: 2rem;
+      margin-bottom: 10px;
+      letter-spacing: -0.5px;
+    }
+    p {
+      max-width: 360px;
+      line-height: 1.6;
+      color: #333;
+      margin: 0 20px;
+    }
+    footer {
+      position: fixed;
+      bottom: 10px;
+      font-size: 13px;
+      color: #666;
+    }
+
+    /* Mô phỏng layout kiểu Apple */
+    .apple-box {
+      padding: 20px 24px;
+      background: rgba(255,255,255,0.6);
+      backdrop-filter: blur(20px) saturate(150%);
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      max-width: 360px;
+      margin-bottom: 24px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background: linear-gradient(180deg, #1a1a1c, #2b2b2e);
+        color: #eee;
+      }
+      .apple-box {
+        background: rgba(40,40,45,0.6);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+      }
+      footer { color: #aaa; }
+    }
+  </style>
+</head>
+<body>
+  <div class="apple-box">
+    <h1>🤖 MotoAI v9.8</h1>
+    <p>Phiên bản <strong>Final UI Apple Glass</strong> – giao diện dễ đọc, hiệu ứng mờ tinh tế.<br>
+       Nhấn 🤖 để mở chat, thử “Xe ga”, “Xe số”, “Xe 50cc”, hoặc “Thủ tục”.</p>
+  </div>
+
+  <footer>© 2025 Motoopen · MotoAI v9.8 Glass Edition</footer>
+
+  <!-- MotoAI v9.8 Final UI -->
+  <script src="https://cdn.jsdelivr.net/gh/motoopen/chothuexemayhanoi@main/motoai_embed_v9_8_ui.js?v=20251128" defer crossorigin="anonymous"></script>
+</body>
+</html>
