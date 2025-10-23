@@ -422,6 +422,15 @@
   /* ---------- Học toàn repo (Self-learn all pages) ---------- */
 async function learnFromRepo(){
   try{
+    // Thêm đoạn kiểm tra localStorage ở đây
+    const lastLearn = localStorage.getItem('MotoAI_lastLearn');
+    const threeDays = 3 * 24 * 60 * 60 * 1000;
+    if (lastLearn && (Date.now() - lastLearn) < threeDays) {
+      console.log('⏳ Bỏ qua học toàn repo: Chưa đủ 3 ngày kể từ lần học cuối.');
+      return;
+    }
+    // Kết thúc đoạn kiểm tra
+
     const sitemap = CFG.sitemapPath || '/moto_sitemap.json';
     const res = await fetch(sitemap, { cache: 'no-store' });
     if (!res.ok) {
@@ -467,6 +476,8 @@ async function learnFromRepo(){
 
     try {
       localStorage.setItem(CFG.corpusKey, JSON.stringify(corpus));
+      // Cập nhật thời điểm học cuối cùng
+      localStorage.setItem('MotoAI_lastLearn', Date.now()); 
     } catch (e) {
       console.warn('⚠️ Không thể lưu corpus vào localStorage:', e);
     }
