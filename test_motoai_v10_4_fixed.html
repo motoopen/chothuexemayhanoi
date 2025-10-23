@@ -102,5 +102,16 @@
   <!-- 🔽 Nhúng MotoAI -->
   <script src="https://cdn.jsdelivr.net/gh/motoopen/chothuexemayhanoi@main/motoai_embed_v10_4_stable_full_fixed.js" defer crossorigin="anonymous"></script>
 
+<script>
+window.addEventListener('load', ()=>{
+  console.log('🔥 Trang đã load xong');
+  if (!document.getElementById('motoai-root')) {
+    console.warn('⚠️ MotoAI chưa được inject!');
+  } else {
+    console.log('✅ MotoAI đã inject vào DOM');
+  }
+});
+</script>
+
 </body>
 </html>
