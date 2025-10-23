@@ -1,8 +1,8 @@
-// MotoAI v3.1 by Motoopen 😎
-// Phiên bản ổn định cho iPhone / Safari / macOS
+// MotoAI v3.2 by Motoopen 😎
+// FIXED: Không tự thu khung chat khi bấm gửi hoặc gõ chữ (iPhone/Safari bug)
 window.addEventListener("DOMContentLoaded", () => {
 
-  // ==== 1️⃣ Tạo giao diện ====
+  // ==== 1️⃣ Inject HTML ====
   const html = `
   <div id="motoai-root">
     <div id="motoai-bubble" role="button" aria-label="Mở chat">👩‍💻</div>
@@ -13,13 +13,13 @@ window.addEventListener("DOMContentLoaded", () => {
       <div id="motoai-body"></div>
       <div id="motoai-input">
         <input id="motoai-input-el" type="text" placeholder="Nhập câu hỏi..." />
-        <button id="motoai-send">Gửi</button>
+        <button id="motoai-send" type="button">Gửi</button>
       </div>
     </div>
   </div>`;
   document.body.insertAdjacentHTML("beforeend", html);
 
-  // ==== 2️⃣ CSS giao diện ====
+  // ==== 2️⃣ CSS ====
   const css = `
   :root {
     --accent:#007aff;
@@ -35,16 +35,15 @@ window.addEventListener("DOMContentLoaded", () => {
     z-index:2147483647 !important;
     pointer-events:none;
   }
+
   #motoai-bubble {
     pointer-events:auto;
     width:58px; height:58px;
     border-radius:16px;
     display:flex; align-items:center; justify-content:center;
-    font-size:28px;
-    background:var(--accent); color:#fff;
+    font-size:28px; background:var(--accent); color:#fff;
     box-shadow:0 10px 28px rgba(0,0,0,0.24);
-    cursor:pointer;
-    transition:transform .25s;
+    cursor:pointer; transition:transform .25s;
   }
   #motoai-bubble:hover { transform:scale(1.06); }
 
@@ -58,20 +57,15 @@ window.addEventListener("DOMContentLoaded", () => {
   #motoai-backdrop.show { opacity:1; pointer-events:auto; }
 
   #motoai-card {
-    position:fixed;
-    left:0; right:0; bottom:0;
+    position:fixed; left:0; right:0; bottom:0;
     width:min(900px,calc(100% - 28px));
-    height:70vh;
-    margin:auto;
+    height:70vh; margin:auto;
     border-radius:18px 18px 0 0;
-    background:var(--bg-light);
-    color:var(--text-light);
+    background:var(--bg-light); color:var(--text-light);
     box-shadow:0 -12px 40px rgba(0,0,0,0.18);
-    transform:translateY(110%);
-    opacity:0;
+    transform:translateY(110%); opacity:0;
     transition:transform .4s cubic-bezier(.2,.9,.2,1), opacity .3s;
-    display:flex; flex-direction:column;
-    overflow:hidden;
+    display:flex; flex-direction:column; overflow:hidden;
     pointer-events:none;
   }
   #motoai-card.open { transform:translateY(0); opacity:1; pointer-events:auto; }
@@ -81,34 +75,23 @@ window.addEventListener("DOMContentLoaded", () => {
   }
 
   #motoai-handle {
-    width:54px; height:6px;
-    background:#ccc; border-radius:4px;
-    margin:10px auto;
+    width:54px; height:6px; background:#ccc;
+    border-radius:4px; margin:10px auto;
   }
   #motoai-header {
-    text-align:center;
-    font-weight:700;
-    color:var(--accent);
-    padding:6px;
+    text-align:center; font-weight:700;
+    color:var(--accent); padding:6px;
   }
   #motoai-body {
-    flex:1;
-    overflow:auto;
-    padding:10px 14px;
+    flex:1; overflow:auto; padding:10px 14px;
     font-size:15px;
   }
-  .m-msg {
-    margin:6px 0;
-    padding:10px 12px;
-    border-radius:12px;
-    max-width:85%;
-    word-wrap:break-word;
-    line-height:1.4;
-  }
+  .m-msg { margin:6px 0; padding:10px 12px;
+    border-radius:12px; max-width:85%; word-wrap:break-word;
+    line-height:1.4; }
   .m-msg.user {
     background:linear-gradient(180deg,var(--accent),#00b6ff);
-    color:#fff;
-    margin-left:auto;
+    color:#fff; margin-left:auto;
   }
   .m-msg.bot {
     background:rgba(240,240,246,0.9);
@@ -116,27 +99,18 @@ window.addEventListener("DOMContentLoaded", () => {
   }
 
   #motoai-input {
-    display:flex;
-    gap:8px;
-    padding:10px;
+    display:flex; gap:8px; padding:10px;
     border-top:1px solid rgba(0,0,0,0.08);
     background:rgba(255,255,255,0.9);
   }
   #motoai-input input {
-    flex:1;
-    padding:12px;
-    border-radius:12px;
-    border:1px solid #d6dde6;
-    font-size:16px;
+    flex:1; padding:12px; border-radius:12px;
+    border:1px solid #d6dde6; font-size:16px;
   }
   #motoai-input button {
-    background:var(--accent);
-    color:#fff;
-    font-weight:600;
-    border:none;
-    border-radius:10px;
-    padding:0 16px;
-    cursor:pointer;
+    background:var(--accent); color:#fff;
+    font-weight:600; border:none; border-radius:10px;
+    padding:0 16px; cursor:pointer;
   }`;
   const style = document.createElement("style");
   style.textContent = css;
@@ -151,11 +125,7 @@ window.addEventListener("DOMContentLoaded", () => {
         inputEl = $('#motoai-input-el'),
         sendBtn = $('#motoai-send');
 
-  const state = {
-    msgs: [
-      { role: 'bot', text: 'Chào bạn 👋! Mình là MotoAI v3.1 — hỏi thử điều gì đó nhé.' }
-    ]
-  };
+  const state = { msgs: [{ role:'bot', text:'Chào bạn 👋! Mình là MotoAI v3.2 — hỏi thử điều gì đó nhé.' }] };
 
   function render() {
     bodyEl.innerHTML = '';
@@ -182,22 +152,27 @@ window.addEventListener("DOMContentLoaded", () => {
     bubble.style.display = 'flex';
   }
 
+  // ⚙️ Ngăn chặn backdrop tự đóng khi bấm vào input hoặc gửi
+  $('#motoai-card').addEventListener('click', e => e.stopPropagation());
+  $('#motoai-input').addEventListener('click', e => e.stopPropagation());
+
+  backdrop.addEventListener('click', closeCard);
+  bubble.addEventListener('click', openCard);
+
   async function ask(q) {
     if (!q.trim()) return;
-    state.msgs.push({ role: 'user', text: q });
+    state.msgs.push({ role:'user', text:q });
     render();
     inputEl.value = '';
     sendBtn.disabled = true;
 
-    // Giả lập phản hồi đơn giản (chưa dùng API)
     await new Promise(r => setTimeout(r, 500));
-    const answer = findAnswer(q);
-    state.msgs.push({ role: 'bot', text: answer });
+    const ans = findAnswer(q);
+    state.msgs.push({ role:'bot', text: ans });
     render();
     sendBtn.disabled = false;
   }
 
-  // ====== 4️⃣ Trả lời tạm theo nội dung trang ======
   function findAnswer(q) {
     const bodyText = document.body.innerText.toLowerCase();
     const qWords = q.toLowerCase().split(' ');
@@ -208,15 +183,15 @@ window.addEventListener("DOMContentLoaded", () => {
     return "Mình chưa rõ lắm 🤔, bạn thử hỏi cách khác nhé!";
   }
 
-  // ====== 5️⃣ Sự kiện ======
-  bubble.onclick = openCard;
-  backdrop.onclick = closeCard;
   sendBtn.onclick = () => ask(inputEl.value);
   inputEl.onkeydown = e => {
-    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); ask(inputEl.value); }
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      ask(inputEl.value);
+    }
     if (e.key === 'Escape') closeCard();
   };
 
   render();
-  console.log("✅ MotoAI v3.1 loaded successfully!");
+  console.log("✅ MotoAI v3.2 Loaded & fixed Safari click bug!");
 });
