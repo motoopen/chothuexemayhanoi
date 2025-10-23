@@ -416,62 +416,69 @@
   /* ---------- bootstrap ---------- */
   setTimeout(init, 160);
 
-  /* ---------- Học toàn repo (Self-learn all pages via moto_sitemap.json) ---------- */
-  async function learnFromRepo(){
-    try {
-      const sitemapUrl = '/moto_sitemap.json';
-      const res = await fetch(sitemapUrl, {cache: 'no-store'});
-      if(!res.ok){
-        console.log('⚠️ Không tìm thấy', sitemapUrl);
-        return;
-      }
-
-      const data = await res.json();
-      if(!data || !Array.isArray(data.pages)){
-        console.log('⚠️ moto_sitemap.json không hợp lệ (phải có mảng pages)');
-        return;
-      }
-
-      console.log(`📖 MotoAI đang học ${data.pages.length} trang trong repo...`);
-      let newCount = 0;
-
-      for(const path of data.pages){
-        try {
-          const r = await fetch(path, {cache: 'no-store'});
-          if(!r.ok) {
-            console.log(`⚠️ Không thể đọc ${path}`);
-            continue;
-          }
-
-          const txt = await r.text();
-          const lines = txt.split(/[\r\n]+/).map(l=>l.trim()).filter(l=>l.length>CFG.minSentenceLength);
-
-          lines.forEach(t=>{
-            if(!corpus.find(c=>c.text===t)){
-              corpus.push({id: corpus.length, text: t, tokens: tokenize(t)});
-              newCount++;
-            }
-          });
-
-          console.log(`📚 Đã học từ ${path}: +${lines.length} câu`);
-
-        } catch(err){
-          console.log('⚠️ Lỗi khi đọc', path, err);
-        }
-      }
-
-      try {
-        localStorage.setItem(CFG.corpusKey, JSON.stringify(corpus));
-        console.log(`✅ Học xong toàn repo (${corpus.length} mẫu, mới thêm ${newCount}).`);
-      } catch(e) {
-        console.error('❌ Lỗi khi lưu corpus sau khi học repo:', e);
-      }
-
-    } catch(e) {
-      console.error('❌ learnFromRepo() error:', e);
+  /* ---------- Học toàn repo (Self-learn all pages) ---------- */
+async function learnFromRepo(){
+  try{
+    const sitemap = CFG.sitemapPath || '/moto_sitemap.json';
+    const res = await fetch(sitemap, { cache: 'no-store' });
+    if (!res.ok) {
+      console.log('⚠️ Không tìm thấy file sitemap:', sitemap);
+      return;
     }
-  }
 
-  setTimeout(learnFromRepo, 2000);
+    const data = await res.json();
+    if (!data.pages || !Array.isArray(data.pages)) {
+      console.log('⚠️ Định dạng moto_sitemap.json không hợp lệ');
+      return;
+    }
+
+    console.log(`📖 AIPro1 đang đọc ${data.pages.length} trang trong repo...`);
+    let totalNew = 0;
+
+    for (const path of data.pages) {
+      try {
+        const r = await fetch(path, { cache: 'no-store' });
+        if (!r.ok) continue;
+
+        const txt = await r.text();
+        const lines = txt
+          .split(/[\r\n]+/)
+          .map(l => l.trim())
+          .filter(l => l.length > CFG.minSentenceLength);
+
+        lines.forEach(t => {
+          if (!corpus.find(c => c.text === t)) {
+            corpus.push({ id: corpus.length, text: t, tokens: tokenize(t) });
+            totalNew++;
+          }
+        });
+
+        console.log(`📚 Học từ ${path}: +${lines.length} câu`);
+      } catch (e) {
+        console.log('⚠️ Lỗi đọc trang', path, e);
+      }
+    }
+
+    // ✅ Log hoàn thành học repo — đặt ở đây
+    console.log('✅ Học xong toàn repo:', corpus.length, 'mẫu, mới thêm', totalNew);
+
+    try {
+      localStorage.setItem(CFG.corpusKey, JSON.stringify(corpus));
+    } catch (e) {
+      console.warn('⚠️ Không thể lưu corpus vào localStorage:', e);
+    }
+
+  } catch (e) {
+    console.error('❌ Lỗi learnFromRepo:', e);
+  }
+}
+
+/* ---------- Gọi tự động sau khi khởi động AI ---------- */
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    console.log('⏳ Bắt đầu học toàn repo sau khi trang load...');
+    learnFromRepo();
+  }, 2500);
+});
 
 })();
