@@ -417,3 +417,29 @@
   setTimeout(init, 160);
 
 })();
+// === 🧩 Global Light Mode Fix for MotoAI v10 (Menu Overlay Conflict) ===
+(function(){
+  const cssFix = `
+    /* Giảm z-index AI để không đè menu */
+    #motoai-root,
+    #motoai-overlay,
+    #motoai-card {
+      z-index: 9999 !important;
+    }
+
+    /* Giữ menu trên cùng */
+    header, nav, .site-header {
+      position: relative;
+      z-index: 10000 !important;
+    }
+
+    /* Khi Light Mode, giảm độ trắng overlay để không làm trắng màn hình */
+    body[data-theme="light"] #motoai-overlay.visible {
+      background: rgba(0,0,0,0.25) !important;
+    }
+  `;
+  const style = document.createElement('style');
+  style.textContent = cssFix;
+  document.head.appendChild(style);
+  console.log('%c✅ MotoAI v10 Light Mode Fix Applied (Menu Safe)', 'color:#0a84ff;font-weight:bold;');
+})();
