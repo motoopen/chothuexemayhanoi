@@ -216,37 +216,49 @@ window.addEventListener('MotoAI_v10_READY', () => {
 
 // 🔁 Tự động phát hiện & sửa lỗi chính tả nhẹ tiếng Việt
 (function(){
-  if(!window.MotoAI_v10) return;
-  const spellMap = {
-    'thue xe may': 'thuê xe máy',
-    'xe so': 'xe số',
-    'xe ga': 'xe ga',
-    'thu tuc': 'thủ tục',
-    'giay to': 'giấy tờ',
-    'bang gia': 'bảng giá',
-    'lien he': 'liên hệ',
-    'thue xe ha noi': 'thuê xe Hà Nội'
-  };
-  function autoFixSpelling(text){
-    let fixed = text.toLowerCase();
-    for(const [wrong, right] of Object.entries(spellMap)){
-      const regex = new RegExp(`\\b${wrong}\\b`, 'gi');
-      fixed = fixed.replace(regex, right);
+  // Check if v10 is ready, if not, wait for it.
+  const initSpellFix = () => {
+    if(!window.MotoAI_v10 || typeof window.MotoAI_v10.sendQuery !== 'function') {
+      console.log('MotoAI SpellFix: Waiting for v10 Core...');
+      return;
     }
-    return fixed;
-  }
-  const origSend = window.MotoAI_v10.sendQuery;
-  window.MotoAI_v10.sendQuery = function(text){
-    const fixed = autoFixSpelling(text);
-    if(fixed !== text){
-      console.log(`📝 Sửa chính tả: "${text}" → "${fixed}"`);
+    const spellMap = {
+      'thue xe may': 'thuê xe máy',
+      'xe so': 'xe số',
+      'xe ga': 'xe ga',
+      'thu tuc': 'thủ tục',
+      'giay to': 'giấy tờ',
+      'bang gia': 'bảng giá',
+      'lien he': 'liên hệ',
+      'thue xe ha noi': 'thuê xe Hà Nội'
+    };
+    function autoFixSpelling(text){
+      let fixed = text.toLowerCase();
+      for(const [wrong, right] of Object.entries(spellMap)){
+        const regex = new RegExp(`\\b${wrong}\\b`, 'gi');
+        fixed = fixed.replace(regex, right);
+      }
+      return fixed;
     }
-    origSend(fixed);
+    const origSend = window.MotoAI_v10.sendQuery;
+    window.MotoAI_v10.sendQuery = function(text){
+      const fixed = autoFixSpelling(text);
+      if(fixed !== text){
+        console.log(`📝 Sửa chính tả: "${text}" → "${fixed}"`);
+      }
+      origSend(fixed);
+    };
+    console.log('%cMotoAI SpellFix enabled ✅', 'color:#0a84ff;font-weight:bold;');
   };
-  console.log('%cMotoAI SpellFix enabled ✅', 'color:#0a84ff;font-weight:bold;');
+  
+  // Wait for the v10 core to be ready before attaching
+  window.addEventListener('MotoAI_v10_READY', initSpellFix);
 })();
 
-// 🌗 Bảo đảm Dark/Light mode đồng bộ ngay cả khi body chưa load
+
+// 🌗 (Original Patch) Bảo đảm Dark/Light mode đồng bộ ngay cả khi body chưa load
+// NOTE: This patch is problematic as it targets :root. 
+// It will be overridden by the new Scoped Patch at the end of the file.
 (function(){
   const setTheme = ()=>{
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -268,8 +280,18 @@ window.addEventListener('MotoAI_v10_READY', () => {
   setTheme();
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', setTheme);
   const obs = new MutationObserver(setTheme);
-  obs.observe(document.body,{attributes:true,attributeFilter:['class']});
+  // Observe body for class changes
+  try {
+    if(document.body) {
+      obs.observe(document.body,{attributes:true,attributeFilter:['class']});
+    } else {
+      window.addEventListener('load', () => {
+         obs.observe(document.body,{attributes:true,attributeFilter:['class']});
+      });
+    }
+  } catch(e) { console.warn("MotoAI: Body observer failed.", e); }
 })();
+
 
 // ⚙️ Vá lỗi chưa khởi động AI (ép init() nếu chưa kích hoạt)
 window.addEventListener('load', ()=>{
@@ -278,14 +300,20 @@ window.addEventListener('load', ()=>{
       console.log('⚙️ MotoAI v13Pro sẵn sàng 🚀');
     }else{
       console.warn('⚠️ MotoAI_v10 chưa khởi động, ép chạy lại init()...');
-      if(typeof init === 'function') init();
+      // We assume the init() function is globally available from the core script
+      if(typeof init === 'function') {
+        init();
+      } else if (window.MotoAI_v10 && typeof window.MotoAI_v10.bootstrap === 'function') {
+        // Fallback if init is not global but exposed
+        window.MotoAI_v10.bootstrap();
+      }
     }
   }catch(e){
     console.error('💥 Lỗi khởi động thủ công:', e);
   }
 });
 
-console.log('%c✅ MotoAI v13Pro Fixed Patch Installed Successfully', 'color:#0a84ff;font-weight:bold;');
+console.log('%c✅ MotoAI v13Pro Fixed Patch (Pre-Core) Installed', 'color:#0a84ff;font-weight:bold;');
 
 // ⭐️ END OF LOCAL SMART ENGINE / START OF MOTOAI V10.2 CORE ⭐️
 // =================================================================
@@ -338,10 +366,21 @@ console.log('%c✅ MotoAI v13Pro Fixed Patch Installed Successfully', 'color:#0a
       </div>
     </div>
   </div>`;
-  document.body.insertAdjacentHTML('beforeend', html);
+  // Inject HTML
+  (function injectHTML() {
+      if(document.body) {
+          document.body.insertAdjacentHTML('beforeend', html);
+      } else {
+          window.addEventListener('DOMContentLoaded', () => {
+              document.body.insertAdjacentHTML('beforeend', html);
+          });
+      }
+  })();
+
 
   /* ---------- CSS (Đã áp dụng Dark Mode Apple Style) ---------- */
   const css = `
+    /* These variables are the *defaults* and will be overridden by JS patches */
     :root{
       --m10-accent:#0a84ff; /* Xanh lam Apple */
       --m10-card-bg:#f5f7fa;
@@ -356,7 +395,11 @@ console.log('%c✅ MotoAI v13Pro Fixed Patch Installed Successfully', 'color:#0a
     }
 
     /* Vùng chính */
-    #motoai-root{position:fixed;left:16px;bottom:18px;z-index:2147483000;pointer-events:none}
+    #motoai-root{
+      /* Use variables defined *on this element* by the JS patch */
+      --m10-accent: #0a84ff;
+      position:fixed;left:16px;bottom:18px;z-index:2147483000;pointer-events:none
+    }
     #motoai-bubble{
       pointer-events:auto;width:56px;height:56px;border-radius:14px;
       display:flex;align-items:center;justify-content:center;
@@ -445,26 +488,44 @@ console.log('%c✅ MotoAI v13Pro Fixed Patch Installed Successfully', 'color:#0a
     .shake{animation:chatShake .25s linear;}
 
     /* 🌙 Dark Mode (Tự động và hỗ trợ body.dark) */
+    /* This section provides the *default* dark mode via media query */
+    /* The JS patch will override these variables if needed */
     body.dark #motoai-card{
-      background:linear-gradient(180deg,#0b0c0e,#060607);
+      background:linear-gradient(180deg, var(--m10-card-bg-dark), #060607);
       color:#f2f2f7;
       box-shadow:0 12px 36px rgba(0,0,0,0.4);
     }
     body.dark #motoai-header .tools button{color:#f2f2f7;} /* Fix tool button color in body.dark */
 
     @media (prefers-color-scheme:dark){
-      :root{
+      /* Set defaults for dark mode */
+      #motoai-root {
         --m10-card-bg:var(--m10-card-bg-dark);
         --glass-border:rgba(255,255,255,0.08);
         --footer-bg:rgba(25,25,30,0.9);
         --bg:#0f1113;
         --text:#f2f2f7;
       }
-      .m-msg.bot{background:rgba(35,37,39,0.9);color:#f2f2f7;}
-      .m-msg.user{background:linear-gradient(180deg,#0a84ff,#0071e3);}
-      #motoai-suggestions{background:rgba(25,25,30,0.9);}
-      #motoai-header .tools button{color:#f2f2f7;} /* Fix tool button color in media dark */
+      #motoai-root .m-msg.bot{background:rgba(35,37,39,0.9);color:#f2f2f7;}
+      #motoai-root .m-msg.user{background:linear-gradient(180deg,#0a84ff,#0071e3);}
+      #motoai-root #motoai-suggestions{background:rgba(25,25,30,0.9);}
+      #motoai-root #motoai-header .tools button{color:#f2f2f7;} /* Fix tool button color in media dark */
     }
+    
+    /* Override defaults for light scheme (if not dark) */
+    @media (prefers-color-scheme:light){
+      #motoai-root {
+         --m10-card-bg:#f5f7fa;
+         --glass-border:rgba(0,0,0,0.08);
+         --footer-bg:rgba(255,255,255,0.7);
+         --bg:#ffffff;
+         --text:#000000;
+      }
+      #motoai-root .m-msg.bot{background:rgba(255,255,255,0.9);color:#111;}
+      #motoai-root #motoai-suggestions{background:rgba(255,255,255,0.6);}
+      #motoai-root #motoai-header .tools button{color:#000000;}
+    }
+
     @media (max-width:520px){
       #motoai-card{width:calc(100% - 24px);height:78vh;}
     }
@@ -472,11 +533,22 @@ console.log('%c✅ MotoAI v13Pro Fixed Patch Installed Successfully', 'color:#0a
   const sN = document.createElement('style'); sN.textContent = css; document.head.appendChild(sN);
 
   /* ---------- Helpers & state ---------- */
-  const $ = sel => document.querySelector(sel);
-  const root = $('#motoai-root'), bubble = $('#motoai-bubble'), overlay = $('#motoai-overlay');
-  const card = $('#motoai-card'), bodyEl = $('#motoai-body'), inputEl = $('#motoai-input'), sendBtn = $('#motoai-send');
-  const closeBtn = $('#motoai-close'), clearBtn = $('#motoai-clear'), typingEl = $('#motoai-typing');
-  const suggestionsWrap = $('#motoai-suggestions');
+  // We need to ensure body is loaded before querying
+  let root, bubble, overlay, card, bodyEl, inputEl, sendBtn, closeBtn, clearBtn, typingEl, suggestionsWrap;
+  
+  function queryDOMElements() {
+    root = document.getElementById('motoai-root');
+    bubble = document.getElementById('motoai-bubble');
+    overlay = document.getElementById('motoai-overlay');
+    card = document.getElementById('motoai-card');
+    bodyEl = document.getElementById('motoai-body');
+    inputEl = document.getElementById('motoai-input');
+    sendBtn = document.getElementById('motoai-send');
+    closeBtn = document.getElementById('motoai-close');
+    clearBtn = document.getElementById('motoai-clear');
+    typingEl = document.getElementById('motoai-typing');
+    suggestionsWrap = document.getElementById('motoai-suggestions');
+  }
 
   let isOpen = false, sendLock = false;
   let corpus = []; // [{id, text, tokens[]}]
@@ -588,6 +660,7 @@ console.log('%c✅ MotoAI v13Pro Fixed Patch Installed Successfully', 'color:#0a
 
   /* -------- UI helpers -------- */
   function addMessage(role, text, opts){
+    if(!bodyEl) return; // Guard if bodyEl not ready
     const el = document.createElement('div');
     el.className = 'm-msg '+(role==='user'?'user':'bot');
     el.textContent = text;
@@ -600,13 +673,15 @@ console.log('%c✅ MotoAI v13Pro Fixed Patch Installed Successfully', 'color:#0a
   }
 
   function showTypingDots(){
+    if(!typingEl) return;
     typingEl.innerHTML = `<span class="dot">.</span><span class="dot">.</span><span class="dot">.</span>`;
     typingEl.style.opacity = '1';
   }
-  function hideTypingDots(){ typingEl.innerHTML=''; typingEl.style.opacity='0'; }
+  function hideTypingDots(){ if(typingEl) { typingEl.innerHTML=''; typingEl.style.opacity='0'; } }
 
   /* ---------- Build suggestion buttons ---------- */
   function buildSuggestions(){
+    if(!suggestionsWrap) return;
     suggestionsWrap.innerHTML = '';
     CFG.suggestionTags.forEach(s=>{
       const b = document.createElement('button');
@@ -621,7 +696,7 @@ console.log('%c✅ MotoAI v13Pro Fixed Patch Installed Successfully', 'color:#0a
 
   /* ---------- Open/close logic ---------- */
   function openChat(){
-    if(isOpen) return;
+    if(isOpen || !overlay || !card) return;
     overlay.classList.add('visible');
     card.setAttribute('aria-hidden','false'); overlay.setAttribute('aria-hidden','false');
     isOpen = true;
@@ -634,7 +709,7 @@ console.log('%c✅ MotoAI v13Pro Fixed Patch Installed Successfully', 'color:#0a
     adaptCardHeight();
   }
   function closeChat(){
-    if(!isOpen) return;
+    if(!isOpen || !overlay || !card) return;
     overlay.classList.remove('visible');
     card.setAttribute('aria-hidden','true'); overlay.setAttribute('aria-hidden','true');
     isOpen = false;
@@ -645,6 +720,7 @@ console.log('%c✅ MotoAI v13Pro Fixed Patch Installed Successfully', 'color:#0a
 
   /* ---------- Render saved session to UI ---------- */
   function renderSession(){
+    if(!bodyEl) return;
     bodyEl.innerHTML = '';
     if(sessionMsgs && sessionMsgs.length){
       sessionMsgs.forEach(m=>{
@@ -661,7 +737,7 @@ console.log('%c✅ MotoAI v13Pro Fixed Patch Installed Successfully', 'color:#0a
 
   /* ---------- sendQuery: Dùng Local Smart Engine, nếu không có mới fallback về Retrieval cũ ---------- */
   async function sendQuery(text){
-    if(!text || !text.trim()) return;
+    if(!text || !text.trim() || !sendBtn || !inputEl) return;
     if(sendLock) return;
     sendLock = true; sendBtn.disabled = true;
     hideTypingDots();
@@ -717,6 +793,7 @@ console.log('%c✅ MotoAI v13Pro Fixed Patch Installed Successfully', 'color:#0a
   function avoidOverlap(){
     try{
       const rootEl = root;
+      if(!rootEl) return;
       const selectors = ['.quick-call-game','.quick-call','#toc','.toc','.table-of-contents'];
       let found = [];
       selectors.forEach(s=>{
@@ -746,6 +823,7 @@ console.log('%c✅ MotoAI v13Pro Fixed Patch Installed Successfully', 'color:#0a
       let last = 0;
       visualViewport.addEventListener('resize', ()=>{
         try{
+          if(!card) return;
           const offset = Math.max(0, window.innerHeight - visualViewport.height);
           if(Math.abs(offset-last) < 6) return;
           last = offset;
@@ -757,12 +835,22 @@ console.log('%c✅ MotoAI v13Pro Fixed Patch Installed Successfully', 'color:#0a
         }catch(e){}
       });
     } else {
-      window.addEventListener('resize', ()=>{ card.style.bottom = ''; });
+      window.addEventListener('resize', ()=>{ if(card) card.style.bottom = ''; });
     }
   }
 
   /* ---------- initialization & bindings ---------- */
   function init(){
+    // Find all elements first
+    queryDOMElements();
+    
+    // Check if elements exist
+    if(!root || !bubble || !card || !bodyEl || !inputEl) {
+        console.error("MotoAI: Core elements not found. Retrying...");
+        setTimeout(init, 200); // Retry
+        return;
+    }
+
     // build UI suggestions
     buildSuggestions();
     // load session and corpus
@@ -779,7 +867,7 @@ console.log('%c✅ MotoAI v13Pro Fixed Patch Installed Successfully', 'color:#0a
       const dark = document.body.classList.contains('dark');
       if (dark) {
         // Trigger a change that might be needed if the style was computed before class change
-        card.style.opacity = getComputedStyle(card).opacity;
+        if(card) card.style.opacity = getComputedStyle(card).opacity;
       }
     });
     darkSyncObserver.observe(document.body, {attributes:true, attributeFilter:['class']});
@@ -856,11 +944,15 @@ console.log('%c✅ MotoAI v13Pro Fixed Patch Installed Successfully', 'color:#0a
     // periodic avoidOverlap
     setInterval(avoidOverlap, 1200);
     window.addEventListener('resize', ()=>{ adaptCardHeight(); setTimeout(avoidOverlap,260); });
+
+    // Gửi sự kiện cho Smart Engine biết v10 đã load
+    window.dispatchEvent(new Event('MotoAI_v10_READY'));
   }
 
   /* ---------- adapt card height responsive ---------- */
   function adaptCardHeight(){
     try{
+      if(!card) return;
       const vw = Math.max(document.documentElement.clientWidth, window.innerWidth||0);
       const vh = Math.max(document.documentElement.clientHeight, window.innerHeight||0);
       let h = Math.round(vh * (vw >= 900 ? 0.6 : vw >= 700 ? 0.68 : 0.78));
@@ -878,14 +970,18 @@ console.log('%c✅ MotoAI v13Pro Fixed Patch Installed Successfully', 'color:#0a
     clearMemory: ()=>{ try{ localStorage.removeItem(CFG.memoryKeyName); }catch(e){} },
     sendQuery: sendQuery, // Expose sendQuery (quan trọng cho người dùng nâng cao)
     tokenize: tokenize, // Expose tokenize cho Local Smart Engine
-    isSmart: false // Dùng để kiểm tra trạng thái
+    isSmart: false, // Dùng để kiểm tra trạng thái
+    bootstrap: init // Expose init
   });
 
   /* ---------- bootstrap ---------- */
-  setTimeout(init, 160);
+  // Wait for DOM content to be fully loaded before initializing
+  if(document.readyState === 'loading') {
+      window.addEventListener('DOMContentLoaded', () => setTimeout(init, 160));
+  } else {
+      setTimeout(init, 160);
+  }
   
-  // Gửi sự kiện cho Smart Engine biết v10 đã load
-  window.dispatchEvent(new Event('MotoAI_v10_READY'));
 
   /* ---------- Học từ website & landing page của bạn ---------- */
   async function learnFromMySites() {
@@ -901,7 +997,7 @@ console.log('%c✅ MotoAI v13Pro Fixed Patch Installed Successfully', 'color:#0a
       const currentCorpusTexts = new Set(corpus.map(c => c.text));
       for (const site of relatedSites) {
         // Sử dụng fetch với cache: "no-store" và mode: "cors" (nếu cần thiết, tuỳ thuộc vào môi trường)
-        const res = await fetch(site, { cache: "no-store", mode: "cors" }); 
+        const res = await fetch(site, { cache: "no-store" }); 
         if (!res.ok) continue;
         const html = await res.text();
         const tmp = document.createElement("div");
@@ -1004,36 +1100,111 @@ window.addEventListener('load', () => {
 });
 
 })();
-/* === 🌗 MotoAI v13 Pro Adaptive Patch === */
 
-// ⚙️ Tự động chọn theme (Dark / Light)
-(function(){
-  const setTheme = ()=>{
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const hasBodyDark = document.body.classList.contains('dark');
-    const isDark = prefersDark || hasBodyDark;
-    const r = document.documentElement;
-    if(isDark){
-      r.style.setProperty('--m10-card-bg','#0b0c0e');
-      r.style.setProperty('--bg','#0f1113');
-      r.style.setProperty('--text','#f2f2f7');
-      r.style.setProperty('--footer-bg','rgba(25,25,30,0.9)');
-      r.style.setProperty('--glass-border','rgba(255,255,255,0.08)');
-      document.body.dataset.theme='dark';
-    }else{
-      r.style.setProperty('--m10-card-bg','#ffffff');
-      r.style.setProperty('--bg','#ffffff');
-      r.style.setProperty('--text','#000000');
-      r.style.setProperty('--footer-bg','rgba(255,255,255,0.8)');
-      r.style.setProperty('--glass-border','rgba(0,0,0,0.08)');
-      document.body.dataset.theme='light';
+/* ==================================================================
+ * BEGINNING OF 🌗 MotoAI v13 Pro Adaptive Patch (Scoped Fix)
+ * This block replaces the old, problematic patches.
+ * ==================================================================
+ */
+
+// ⚙️ Tự động chọn theme (Dark / Light) - SCOPED VERSION
+// We wait for the Core to be ready, so we know #motoai-root exists.
+window.addEventListener('MotoAI_v10_READY', () => {
+  
+  const aiRoot = document.getElementById('motoai-root');
+  if (!aiRoot) {
+    console.error('MotoAI Scoped Patch: #motoai-root not found!');
+    return;
+  }
+
+  // 1. Define the theme function to apply styles ONLY to #motoai-root
+  const setTheme = () => {
+    try {
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const hasBodyDark = document.body.classList.contains('dark');
+      const isDark = prefersDark || hasBodyDark;
+
+      // Apply variables ONLY to the #motoai-root scope
+      if (isDark) {
+        // Dark Mode styles
+        aiRoot.style.setProperty('--m10-card-bg', '#0b0c0e');
+        aiRoot.style.setProperty('--bg', '#0f1113');
+        aiRoot.style.setProperty('--text', '#f2f2f7');
+        aiRoot.style.setProperty('--footer-bg', 'rgba(25,25,30,0.9)');
+        aiRoot.style.setProperty('--glass-border', 'rgba(255,255,255,0.08)');
+      } else {
+        // Light Mode styles (The fix)
+        // These styles are from the "✨ CSS Light Mode nâng cấp" patch
+        aiRoot.style.setProperty('--m10-card-bg', '#ffffff');
+        aiRoot.style.setProperty('--bg', '#ffffff'); // This is fine *inside* #motoai-root
+        aiRoot.style.setProperty('--text', '#000000');
+        aiRoot.style.setProperty('--footer-bg', 'rgba(255,255,255,0.85)'); // Brighter footer
+        aiRoot.style.setProperty('--glass-border', 'rgba(0,0,0,0.08)');
+      }
+    } catch (e) {
+        console.error("MotoAI Scoped Patch Error:", e);
     }
   };
+
+  // 2. Inject the non-variable CSS overrides (from "CSS Light Mode nâng cấp")
+  // We make them specific to light/dark mode *in coordination* with body.dark
+  const extraCSS = `
+    /* Scoped CSS patch for light/dark refinements */
+    
+    /* --- Light Mode Refinements --- */
+    /* Apply light mode styles ONLY when body.dark is NOT present */
+    @media (prefers-color-scheme: light) {
+      body:not(.dark) #motoai-root .m-msg.bot {
+        background: #f2f4f8; /* Brighter bot message */
+        color: #000;
+      }
+      body:not(.dark) #motoai-card {
+        box-shadow: 0 8px 28px rgba(0,0,0,0.1); /* Softer shadow */
+      }
+      body:not(.dark) #motoai-suggestions {
+        background: rgba(255,255,255,0.75); /* Brighter suggestions */
+      }
+    }
+    /* Handle case where OS is dark but user forces light (body:not(.dark)) */
+    @media (prefers-color-scheme: dark) {
+       body:not(.dark) #motoai-root .m-msg.bot {
+        background: #f2f4f8;
+        color: #000;
+      }
+      body:not(.dark) #motoai-card {
+        box-shadow: 0 8px 28px rgba(0,0,0,0.1);
+      }
+      body:not(.dark) #motoai-suggestions {
+        background: rgba(255,255,255,0.75);
+      }
+    }
+
+    /* --- Dark Mode Refinements --- */
+    /* Apply dark mode styles if EITHER media query OR body.dark is present */
+    @media (prefers-color-scheme: dark) {
+      #motoai-card {
+        /* This gradient was in the patch, let's keep it */
+        background: linear-gradient(180deg,#0b0c0e,#060607);
+      }
+    }
+    body.dark #motoai-card {
+       background: linear-gradient(180deg,#0b0c0e,#060607);
+    }
+  `;
+  const st = document.createElement('style');
+  st.textContent = extraCSS;
+  document.head.appendChild(st);
+
+  // 3. Run it once and attach listeners
   setTheme();
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', setTheme);
   const mo = new MutationObserver(setTheme);
-  mo.observe(document.body,{attributes:true,attributeFilter:['class']});
-})();
+  mo.observe(document.body, { attributes: true, attributeFilter: ['class'] });
+
+  // 4. Log success as requested
+  console.log('🌗 MotoAI Scoped Theme Patch applied');
+});
+
 
 // 💾 Nâng cấp caching + auto refresh corpus mỗi 72h
 (function(){
@@ -1042,35 +1213,19 @@ window.addEventListener('load', () => {
   const seventyTwoHrs = 72*60*60*1000;
   if(!last || (now-last)>seventyTwoHrs){
     console.log('🔁 Refresh corpus sau 72h...');
-    try{ if(window.MotoAI_v10 && window.MotoAI_v10.rebuildCorpus) window.MotoAI_v10.rebuildCorpus(); }catch(e){}
+    try{ 
+      if(window.MotoAI_v10 && window.MotoAI_v10.rebuildCorpus) {
+        window.MotoAI_v10.rebuildCorpus(); 
+      }
+    } catch(e){
+      console.error("MotoAI: Failed to refresh corpus.", e);
+    }
     localStorage.setItem('MotoAI_lastCorpusBuild',now);
   }
 })();
 
-// ✨ CSS Light Mode nâng cấp rõ nét hơn
-(function(){
-  const extraCSS = `
-  @media (prefers-color-scheme: light){
-    :root{
-      --m10-card-bg:#ffffff;
-      --text:#000000;
-      --footer-bg:rgba(255,255,255,0.85);
-    }
-    .m-msg.bot{background:#f2f4f8;color:#000;}
-    .m-msg.user{background:linear-gradient(180deg,#0a84ff,#0071e3);color:#fff;}
-    #motoai-card{box-shadow:0 8px 28px rgba(0,0,0,0.1);}
-    #motoai-suggestions{background:rgba(255,255,255,0.75);}
-  }
-  @media (prefers-color-scheme: dark){
-    #motoai-card{background:linear-gradient(180deg,#0b0c0e,#060607);}
-  }`;
-  const st = document.createElement('style');
-  st.textContent = extraCSS;
-  document.head.appendChild(st);
-})();
-
-// ⚡️ Thêm log để xác nhận bản build
-console.log('%cMotoAI v13 Pro Adaptive — Active (Dark + Light + Auto Learn)', 'color:#0a84ff;font-weight:bold;');
-
-})();
+/* ==================================================================
+ * END OF 🌗 MotoAI v13 Pro Adaptive Patch (Scoped Fix)
+ * ==================================================================
+ */
 
