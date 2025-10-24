@@ -1228,266 +1228,20 @@
   </div>
 
   <script>
-    (function(){
-      // Elements
-      const topbar = document.getElementById('topbar');
-      const hamburger = document.getElementById('hamburger');
-      const drawer = document.getElementById('drawer');
-      const overlay = document.getElementById('drawerOverlay');
-      const reviewsBg = document.getElementById('reviewsBg'); // Giữ lại cho đồng bộ nhưng sẽ null
-      const backTop = document.querySelector('.back-top');
-      
-      // === CẬP NHẬT: DARK MODE LOGIC ===
-      const body = document.body;
-      const DARK_MODE_KEY = 'darkModeEnabled';
-      const desktopToggle = document.getElementById('toggle-dark-desktop');
-      const mobileToggle = document.getElementById('toggle-dark-mobile');
-
-      function applyDarkMode(enabled){
-        if(enabled){
-          body.classList.add('dark');
-          localStorage.setItem(DARK_MODE_KEY,'true');
-        } else {
-          body.classList.remove('dark');
-          localStorage.setItem(DARK_MODE_KEY,'false');
-        }
-        updateIcons(enabled);
-      }
-
-      function updateIcons(enabled){
-        const sun = '<i class="fa-solid fa-sun"></i>';
-        const moon = '<i class="fa-solid fa-moon"></i>';
-        const icon = enabled ? sun : moon;
-        if(desktopToggle) desktopToggle.innerHTML = icon;
-        if(mobileToggle) mobileToggle.innerHTML = icon;
-      }
-
-      // Load preference
-      let darkEnabled = localStorage.getItem(DARK_MODE_KEY);
-      if(darkEnabled===null){
-        darkEnabled = window.matchMedia('(prefers-color-scheme:dark)').matches;
-      } else {
-        darkEnabled = darkEnabled === 'true';
-      }
-      applyDarkMode(darkEnabled);
-
-      [desktopToggle, mobileToggle].forEach(btn=>{
-        if(btn){
-          btn.addEventListener('click',()=>{
-            applyDarkMode(!body.classList.contains('dark'));
-          });
-        }
-      });
-      // === KẾT THÚC CẬP NHẬT DARK MODE ===
-
-
-      // 1) Prevent overlap: set body padding-top to nav height (calibrated)
-      function setBodyTopPadding(){
-        const navRect = topbar.getBoundingClientRect();
-        const height = navRect.height + 10; // small gap
-        document.body.style.paddingTop = height + 'px';
-      }
-      setBodyTopPadding();
-      window.addEventListener('resize', () => requestAnimationFrame(setBodyTopPadding));
-
-      // 2) Drawer open/close logic
-      function openDrawer(open){
-        if(open){
-          drawer.classList.add('open');
-          overlay.classList.add('active');
-          drawer.setAttribute('aria-hidden','false');
-          hamburger.classList.add('active');
-          hamburger.setAttribute('aria-expanded','true');
-        } else {
-          drawer.classList.remove('open');
-          overlay.classList.remove('active');
-          drawer.setAttribute('aria-hidden','true');
-          hamburger.classList.remove('active');
-          hamburger.setAttribute('aria-expanded','false');
-        }
-      }
-      hamburger.addEventListener('click', ()=> openDrawer(!drawer.classList.contains('open')));
-      overlay.addEventListener('click', ()=> openDrawer(false));
-      
-      // close drawer when clicking a link inside (NGOẠI TRỪ NÚT ACCORDION)
-      drawer.querySelectorAll('a').forEach(a => {
-        a.addEventListener('click', ()=> openDrawer(false));
-      });
-      // Logic cho nút accordion đã được thêm riêng trong <aside>
-      // nên không cần thêm vào đây
-
-      // 3) Scroll effects: nav style and parallax background
-      let lastY = window.scrollY || 0;
-      let ticking = false;
-      function onScroll(){
-        lastY = window.scrollY || 0;
-        if(!ticking){
-          requestAnimationFrame(()=> {
-            handleScroll(lastY);
-            ticking = false;
-          });
-          ticking = true;
-        }
-      }
-      function handleScroll(y){
-        if(y > 8) topbar.classList.add('scrolled'); else topbar.classList.remove('scrolled');
-        if(y > 300 && backTop) backTop.style.display = 'flex'; else if(backTop) backTop.style.display = 'none'; // Hiển thị/Ẩn Back to Top
-
-        // small parallax for reviews background (move slower) - Đã bị loại bỏ khỏi trang này
-        if(reviewsBg){
-          const rect = reviewsBg.parentElement.getBoundingClientRect();
-          const center = (rect.top + rect.bottom) / 2;
-          const winCenter = window.innerHeight / 2;
-          const diff = (winCenter - center) * 0.06; // softer
-          reviewsBg.style.transform = `translateY(${diff}px)`;
-        }
-      }
-      window.addEventListener('scroll', onScroll, {passive:true});
-      handleScroll(window.scrollY || 0);
-
-      // 4) Reveal & reviews cards animation with IntersectionObserver
-      const motionObserver = new IntersectionObserver((entries, obs) => {
-        entries.forEach(en => {
-          if(en.isIntersecting){
-            en.target.classList.add('visible');
-            obs.unobserve(en.target);
-          }
-        });
-      }, {threshold:0.12});
-
-      // Targets: .reveal, .fade-up, .slide-left, .slide-right
-      document.querySelectorAll('.reveal, .fade-up, .slide-left, .slide-right').forEach(el => motionObserver.observe(el));
-
-      // 5) FAQ accordion behavior with keyboard support (giữ lại cho đồng bộ, nhưng sẽ null)
-      const faqs = document.querySelectorAll('.faq .q');
-      faqs.forEach(q => {
-        q.addEventListener('click', () => toggleFaq(q));
-        q.addEventListener('keydown', (e) => {
-          if(e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleFaq(q); }
-        });
-      });
-      function toggleFaq(q){
-        const next = q.nextElementSibling;
-        const expanded = q.getAttribute('aria-expanded') === 'true';
-        if(next){
-          if(expanded){
-            next.classList.remove('open');
-            q.setAttribute('aria-expanded','false');
-            q.querySelector('.sign').textContent = '+';
-          } else {
-            next.classList.add('open');
-            q.setAttribute('aria-expanded','true');
-            q.querySelector('.sign').textContent = '−';
-          }
-        }
-      }
-
-      // 6) Respect reduced motion
-      if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){
-        document.querySelectorAll('*').forEach(n => n.style.transition = 'none');
-      }
-
-      // accessibility: esc closes drawer
-      window.addEventListener('keydown', (e) => {
-        if(e.key === 'Escape') openDrawer(false);
-      });
-
-      // ** Quick Call Menu logic NÂNG CẤP **
-      const quickGame = document.querySelector('.quick-call-game');
-      const mainBtn = document.querySelector('.quick-call-game .quick-main');
-      
-      // Lấy giá trị bottom mặc định cho Back to Top
-      const getBackTopDefaultBottom = () => window.matchMedia('(max-width: 520px)').matches ? 80 : 90; 
-      const getBackTopOpenBottom = () => window.matchMedia('(max-width: 520px)').matches ? 220 : 230; 
-
-      function updateBackTopPosition(isOpen) {
-          if (!backTop) return;
-          if (isOpen) {
-              backTop.style.bottom = getBackTopOpenBottom() + 'px'; // Đẩy lên khi menu mở
-          } else {
-              backTop.style.bottom = getBackTopDefaultBottom() + 'px'; // Vị trí mặc định
-          }
-      }
-      
-      if (quickGame && mainBtn) {
-          mainBtn.addEventListener('click', (e) => {
-              e.stopPropagation(); // Ngăn chặn sự kiện click lan truyền đến document
-              const isOpen = quickGame.classList.toggle('open');
-              updateBackTopPosition(isOpen);
-          });
-
-          // Tự động đóng menu khi click ra ngoài
-          document.addEventListener('click', (e) => {
-              if (!quickGame.contains(e.target) && quickGame.classList.contains('open')) {
-                  quickGame.classList.remove('open');
-                  updateBackTopPosition(false);
-              }
-          });
-
-          // Đóng menu khi click vào một nút con
-          document.querySelectorAll('.quick-call-game .quick-sub a').forEach(a => {
-              a.addEventListener('click', () => {
-                  setTimeout(() => {
-                    quickGame.classList.remove('open');
-                    updateBackTopPosition(false);
-                  }, 100); 
-              });
-          });
-      }
-
-
-      // ** Back to top logic **
-      if (backTop) {
-        backTop.addEventListener('click', () => window.scrollTo({top:0,behavior:'smooth'}));
-      }
-      
-    })();
-  </script>
-  
-<!-- === FIX LIGHT MODE CONFLICT === -->
+    <!-- === FIX LIGHT MODE CONFLICT + AUTO ROOT === -->
 <script>
-/* ===========================
-🚫 MotoAI v13 Patch: Fix Light Mode Conflict (by ChatGPT)
-=========================== */
+/* ✅ MotoAI v13 Pro Adaptive — Final Integrated Patch (by ChatGPT) */
 window.MotoAITheme = {
-  respectHostTheme: true,
-  disableAutoSwitch: true,
-  darkClass: 'dark',
-  lightClass: '',
-  preserveCSSVariables: true,
-  logMode: true
-};
-
-document.addEventListener("DOMContentLoaded", () => {
-  if (!document.getElementById("motoai-root")) {
-    const root = document.createElement("div");
-    root.id = "motoai-root";
-    root.style.all = "initial";
-    root.style.position = "fixed";
-    root.style.bottom = "0";
-    root.style.right = "0";
-    root.style.zIndex = "9999";
-    document.body.appendChild(root);
-  }
-
-  console.log("%c✅ MotoAI v13 Patch applied successfully!", "color:#0a84ff;font-weight:bold;");
-});
-</script>
-
-<!-- === FIX LIGHT MODE CONFLICT + AUTO ROOT === -->
-<script>
-/* ✅ MotoAI v13 Pro Adaptive — Patch + Safe Loader */
-window.MotoAITheme = {
-  respectHostTheme: true,
-  disableAutoSwitch: true,
-  darkClass: 'dark',
-  lightClass: '',
-  preserveCSSVariables: true,
-  logMode: true
+  respectHostTheme: true,     // Tôn trọng theme web gốc
+  disableAutoSwitch: true,    // Không tự đổi dark/light
+  darkClass: 'dark',          // Web bạn đang dùng class 'dark'
+  lightClass: '',             // Light mode mặc định
+  preserveCSSVariables: true, // Giữ nguyên biến màu gốc
+  logMode: true               // Hiển thị log trong console
 };
 
 (function(){
-  // Đảm bảo có vùng riêng cho AI
+  // Tạo vùng riêng cho AI nếu chưa có
   function ensureRoot(){
     if(!document.getElementById("motoai-root")){
       const root = document.createElement("div");
@@ -1502,7 +1256,7 @@ window.MotoAITheme = {
     }
   }
 
-  // Đảm bảo AI khởi động sau khi script tải xong
+  // Đợi script AI load xong mới khởi động
   function waitForMotoAI(){
     if(window.MotoAI && window.MotoAI.start){
       console.log("%c🤖 MotoAI detected, launching...", "color:#0a84ff");
