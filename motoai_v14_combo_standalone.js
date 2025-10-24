@@ -1,6 +1,8 @@
 /* motoai_v13_combo_standalone.js
    MotoAI v13 Combo Standalone — Full UI (v10) + Smart Engine (v13)
    NOTE: Paste Part 1, then Part 2, then Part 3 into a single file.
+   FIX: Removed input auto-focus to prevent iOS keyboard pop-up on bubble tap.
+   OPTIMIZED: Added CSS for smoother mobile scrolling and touch handling.
 */
 
 /* ===========================
@@ -86,6 +88,7 @@
       position:fixed;inset:0;display:flex;align-items:flex-end;justify-content:center;
       padding:12px;pointer-events:none;transition:background .24s ease;
       z-index:9998;
+      touch-action: pan-y; /* Optimization for mobile scroll */
     }
     #motoai-overlay.visible{background:rgba(0,0,0,0.4);pointer-events:auto}
     #motoai-card{
@@ -99,10 +102,16 @@
       transform:translateY(110%);opacity:0;pointer-events:auto;
       transition:transform .36s cubic-bezier(.2,.9,.2,1),opacity .28s;
       color:var(--text);
+      -webkit-overflow-scrolling: touch; /* iOS smooth scrolling */
+      overscroll-behavior: contain; /* Prevents background scroll */
     }
     #motoai-overlay.visible #motoai-card{transform:translateY(0);opacity:1}
     #motoai-handle{width:64px;height:6px;background:rgba(160,160,160,0.6);border-radius:6px;margin:10px auto}
-    #motoai-body{flex:1;overflow:auto;padding:12px 16px;font-size:15px;background:transparent}
+    #motoai-body{
+      flex:1;overflow:auto;padding:12px 16px;font-size:15px;background:transparent;
+      -webkit-overflow-scrolling: touch; /* iOS smooth scrolling */
+      overscroll-behavior: contain;
+    }
 
     #motoai-header{
       display:flex;align-items:center;justify-content:space-between;
@@ -332,7 +341,8 @@
     const name = getUserName();
     if(name) setTimeout(()=> addMessage('bot', `Chào ${name}! Mình nhớ bạn rồi 👋`), 400);
     renderSession();
-    setTimeout(()=> { try{ inputEl.focus(); }catch(e){} }, 320);
+    // FIX for iOS keyboard: Removed input auto-focus to prevent keyboard from popping up on bubble tap.
+    // setTimeout(()=> { try{ inputEl.focus(); }catch(e){} }, 320); 
     document.documentElement.style.overflow = 'hidden';
     adaptCardHeight();
   }
@@ -437,6 +447,7 @@
           if(Math.abs(offset-last) < 6) return;
           last = offset;
           if(offset > 120){
+            // This logic correctly pushes the card up above the iOS keyboard
             card.style.bottom = (offset - (navigator.userAgent.includes('iPhone')?4:0)) + 'px';
           } else {
             card.style.bottom = '';
@@ -954,3 +965,4 @@ window.addEventListener('load', ()=>{
 console.log('%c🚀 MotoAI v13 Combo Standalone — Full Smart + Adaptive + UI', 'color:#0a84ff;font-weight:bold;');
 
 })(); // end of whole combo IIFE
+
