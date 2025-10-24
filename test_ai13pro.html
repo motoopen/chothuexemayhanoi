@@ -3,52 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Demo MotoAI v13 Pro Adaptive</title>
-
+  <meta name="description" content="Test MotoAI v13 Pro Adaptive Final">
+  <title>🧠 Test MotoAI v13 Pro Adaptive Final</title>
   <style>
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      margin: 40px;
-      background: var(--bg, #ffffff);
-      color: var(--text, #000);
-      transition: background 0.3s, color 0.3s;
+      background: #0f1113;
+      color: #f2f2f7;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      transition: background .4s, color .4s;
     }
-    h1 {
-      font-size: 1.8rem;
-      color: var(--m10-accent, #0a84ff);
-    }
-    button.dark-toggle {
-      padding: 10px 16px;
+    h1 { font-size: 1.6rem; margin-bottom: 1rem; }
+    p { color: #9aa4b2; }
+    button {
+      padding: 12px 20px;
+      font-size: 16px;
       border: none;
-      border-radius: 8px;
-      background: #0a84ff;
-      color: white;
-      font-weight: 600;
+      border-radius: 12px;
       cursor: pointer;
-      margin-top: 16px;
+      background: linear-gradient(180deg,#0a84ff,#0071e3);
+      color: #fff;
+      transition: all .25s;
     }
+    button:hover { transform: scale(1.05); }
+    .light-mode {
+      background: #ffffff;
+      color: #000000;
+    }
+    .light-mode p { color: #444; }
   </style>
 </head>
-
 <body>
-  <h1>🤖 Demo MotoAI v13 Pro Adaptive</h1>
-  <p>Hỏi thử AI: <b>“Xe ga”, “Thủ tục thuê xe”, “Liên hệ”</b>...<br>
-  Hoặc bật <b>Dark Mode</b> bằng nút bên dưới để xem AI tự đổi giao diện.</p>
+  <h1>🚀 MotoAI v13 Pro Adaptive Final</h1>
+  <p>Trang thử nghiệm AI Chatbot — hỗ trợ Dark/Light mode & Auto Learn Repo.</p>
+  <button onclick="toggleMode()">🌗 Đổi giao diện Dark / Light</button>
 
-  <button class="dark-toggle" onclick="document.body.classList.toggle('dark')">
-    🌙 Bật / Tắt Dark Mode
-  </button>
-
-  <!-- MotoAI v13 Pro Adaptive -->
   <script>
-    (function(){
-      const s = document.createElement('script');
-      s.src = "https://motoopen.github.io/chothuexemayhanoi/ai13pro.js";
-      s.onload = ()=>console.log("✅ MotoAI v13Pro loaded!");
-      s.onerror = ()=>console.error("❌ Không load được AI13Pro.js");
-      document.body.appendChild(s);
-    })();
+    function toggleMode() {
+      document.body.classList.toggle('dark');
+      document.body.classList.toggle('light-mode');
+    }
   </script>
+
+  <!-- MotoAI v13 Pro Adaptive Final -->
+  <script src="https://motoopen.github.io/chothuexemayhanoi/ai13pro_adaptive_final.js"></script>
   <!-- /MotoAI -->
 </body>
 </html>
