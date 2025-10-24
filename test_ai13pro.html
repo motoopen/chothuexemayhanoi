@@ -3,52 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Test MotoAI v13 Pro Adaptive</title>
+  <title>Demo MotoAI v13 Pro Adaptive</title>
+
   <style>
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      margin: 0;
-      padding: 40px;
-      background: var(--bg, #fff);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin: 40px;
+      background: var(--bg, #ffffff);
       color: var(--text, #000);
       transition: background 0.3s, color 0.3s;
     }
     h1 {
-      text-align: center;
+      font-size: 1.8rem;
       color: var(--m10-accent, #0a84ff);
     }
-    .toggle-dark {
-      position: fixed;
-      top: 16px;
-      right: 16px;
-      background: var(--m10-accent, #0a84ff);
-      color: #fff;
-      border: none;
-      border-radius: 10px;
+    button.dark-toggle {
       padding: 10px 16px;
-      cursor: pointer;
+      border: none;
+      border-radius: 8px;
+      background: #0a84ff;
+      color: white;
       font-weight: 600;
-      box-shadow: 0 4px 14px rgba(0,0,0,0.2);
+      cursor: pointer;
+      margin-top: 16px;
     }
-    .toggle-dark:hover { transform: scale(1.05); }
   </style>
 </head>
-<body>
-  <h1>🧠 MotoAI v13 Pro Adaptive Demo</h1>
-  <p>Thử bật/tắt Dark Mode để xem AI tự đổi giao diện nhé.</p>
-  <button class="toggle-dark" id="toggleDark">🌙 Dark / ☀️ Light</button>
 
-  <!-- Mã nhúng AI -->
+<body>
+  <h1>🤖 Demo MotoAI v13 Pro Adaptive</h1>
+  <p>Hỏi thử AI: <b>“Xe ga”, “Thủ tục thuê xe”, “Liên hệ”</b>...<br>
+  Hoặc bật <b>Dark Mode</b> bằng nút bên dưới để xem AI tự đổi giao diện.</p>
+
+  <button class="dark-toggle" onclick="document.body.classList.toggle('dark')">
+    🌙 Bật / Tắt Dark Mode
+  </button>
+
+  <!-- MotoAI v13 Pro Adaptive -->
   <script src="https://motoopen.github.io/chothuexemayhanoi/ai13pro.js"></script>
   <!-- /MotoAI -->
-
-  <script>
-    const btn = document.getElementById('toggleDark');
-    btn.addEventListener('click', () => {
-      document.body.classList.toggle('dark');
-      const dark = document.body.classList.contains('dark');
-      btn.textContent = dark ? '☀️ Chuyển sáng' : '🌙 Chuyển tối';
-    });
-  </script>
 </body>
 </html>
