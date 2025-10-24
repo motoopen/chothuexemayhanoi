@@ -1474,7 +1474,19 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </script>
 
-<!-- === MOTOAI ENGINE === -->
+<!-- === FIX LIGHT MODE CONFLICT === -->
+<script>
+window.MotoAITheme = {
+  respectHostTheme: true,
+  disableAutoSwitch: true,
+  darkClass: 'dark',
+  lightClass: '',
+  preserveCSSVariables: true,
+  logMode: true
+};
+</script>
+
+<!-- === MOTOAI ENGINE (Pro Adaptive) === -->
 <script src="https://cdn.jsdelivr.net/gh/motoopen/chothuexemayhanoi@main/motoai_v13pro_adaptive.js" defer></script>
 </body>
 </html>
