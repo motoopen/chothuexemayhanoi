@@ -1094,3 +1094,21 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
 })();
 
+(function(){
+  document.addEventListener('DOMContentLoaded', ()=>{
+    const bubble = document.getElementById('motoai-bubble');
+    const overlay = document.getElementById('motoai-overlay');
+    const card = document.getElementById('motoai-card');
+    if(!bubble || !overlay || !card) return;
+    bubble.addEventListener('click', ()=>{
+      setTimeout(()=>{
+        if(!overlay.classList.contains('visible')){
+          overlay.classList.add('visible');
+          card.style.transform = 'translateY(0)';
+          card.style.opacity = '1';
+          console.log('💡 Auto-open patch applied (Light mode fix)');
+        }
+      },180);
+    });
+  });
+})();
