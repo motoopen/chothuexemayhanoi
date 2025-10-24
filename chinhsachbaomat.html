@@ -1228,52 +1228,5 @@
   <i class="fa-solid fa-arrow-up"></i>
 </div>
 
-<!-- === CHẶN AI GHI ĐÈ THEME === -->
-<style id="motoai-theme-lock">
-  :root {
-    --bg: initial !important;
-    --text: initial !important;
-    --surface: initial !important;
-    --accent: initial !important;
-  }
-</style>
-
-<!-- === FIX LIGHT MODE CONFLICT + AUTO ROOT === -->
-<script>
-window.MotoAITheme = {
-  respectHostTheme: true,
-  disableAutoSwitch: true,
-  darkClass: 'dark',
-  lightClass: '',
-  preserveCSSVariables: true,
-  logMode: true
-};
-
-(function(){
-  function ensureRoot(){
-    if(!document.getElementById("motoai-root")){
-      const root=document.createElement("div");
-      root.id="motoai-root";
-      root.style.all="initial";
-      root.style.position="fixed";
-      root.style.bottom="0";
-      root.style.right="0";
-      root.style.zIndex="9999";
-      document.body.appendChild(root);
-      console.log("%c✅ MotoAI root created","color:#0a84ff");
-    }
-  }
-  function waitForMotoAI(){
-    if(window.MotoAI&&window.MotoAI.start){
-      console.log("%c🤖 MotoAI detected, launching...","color:#0a84ff");
-      window.MotoAI.start();
-    }else setTimeout(waitForMotoAI,300);
-  }
-  document.addEventListener("DOMContentLoaded",()=>{ensureRoot();waitForMotoAI();});
-})();
-</script>
-
-<!-- === MOTOAI ENGINE (Pro Adaptive) === -->
-<script src="https://cdn.jsdelivr.net/gh/motoopen/chothuexemayhanoi@main/motoai_v13pro_adaptive.js" crossorigin="anonymous"></script>
 </body>
 </html>
