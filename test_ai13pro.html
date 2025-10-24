@@ -40,7 +40,15 @@
   </button>
 
   <!-- MotoAI v13 Pro Adaptive -->
-  <script src="https://motoopen.github.io/chothuexemayhanoi/ai13pro.js"></script>
+  <script>
+    (function(){
+      const s = document.createElement('script');
+      s.src = "https://motoopen.github.io/chothuexemayhanoi/ai13pro.js";
+      s.onload = ()=>console.log("✅ MotoAI v13Pro loaded!");
+      s.onerror = ()=>console.error("❌ Không load được AI13Pro.js");
+      document.body.appendChild(s);
+    })();
+  </script>
   <!-- /MotoAI -->
 </body>
 </html>
