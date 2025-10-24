@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MotoAI v13 Combo — Demo</title>
+  <meta name="description" content="Demo MotoAI v13 Combo Standalone (UI + Smart Engine)" />
+  <style>
+    :root{
+      --bg-light:#ffffff;
+      --text-light:#111;
+      --bg-dark:#0f1113;
+      --text-dark:#f2f2f7;
+      --accent:#0a84ff;
+      --glass: rgba(255,255,255,0.7);
+      --transition: 220ms ease;
+    }
+
+    html,body{height:100%;margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial;}
+    body{background:var(--bg-light);color:var(--text-light);transition:background var(--transition),color var(--transition);}
+    body.dark{background:var(--bg-dark);color:var(--text-dark);}
+
+    /* Header / menu (kept above AI) */
+    header.site-header{
+      position:sticky;top:0;z-index:10001;
+      display:flex;align-items:center;justify-content:space-between;
+      gap:12px;padding:14px 20px;background:linear-gradient(90deg,var(--accent),#0066d9);
+      color:#fff;backdrop-filter:blur(6px);
+    }
+    .brand{font-weight:700;display:flex;gap:10px;align-items:center;}
+    nav.site-nav a{color:rgba(255,255,255,0.95);text-decoration:none;margin:0 10px;font-weight:600;}
+    nav.site-nav a:hover{text-decoration:underline;opacity:0.95;}
+
+    .controls{display:flex;gap:8px;align-items:center;}
+    .btn{
+      appearance:none;border:0;padding:8px 12px;border-radius:10px;cursor:pointer;font-weight:600;
+      background:rgba(255,255,255,0.12);color:#fff;
+    }
+    .btn:active{transform:translateY(1px);}
+
+    main{max-width:980px;margin:36px auto;padding:0 20px;line-height:1.6;}
+    h1{margin:0 0 12px;font-size:28px;}
+    .note{margin-top:8px;color: #666;}
+
+    footer{padding:28px 20px;text-align:center;color: #8b95a3;font-size:14px;}
+
+    /* small helper so page content not covered by AI bubble */
+    @media (min-width:720px){
+      body { padding-bottom: 110px; } /* ensure content not hidden by chat bubble */
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <span style="font-size:20px">🏍️</span>
+      <div>
+        <div style="line-height:1">MotoAI Demo</div>
+        <div style="font-size:12px;opacity:0.9">v13 Combo Standalone</div>
+      </div>
+    </div>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#">Trang chủ</a>
+      <a href="#">Xe số</a>
+      <a href="#">Xe ga</a>
+      <a href="#">Liên hệ</a>
+    </nav>
+
+    <div class="controls">
+      <button id="themeToggle" class="btn" aria-label="Toggle theme">🌗 Dark</button>
+      <a class="btn" href="mailto:0857255868">☎️ 085.725.5868</a>
+    </div>
+  </header>
+
+  <main>
+    <h1>Chạy thử MotoAI v13 Combo Standalone</h1>
+    <p>Trang này tích hợp sẵn bản <b>motoai_v13_combo_standalone.js</b> — UI + Smart Engine trong 1 file duy nhất.</p>
+    <p class="note">Sau khi trang load, bạn sẽ thấy biểu tượng <b>🤖</b> ở góc dưới bên trái — bấm vào để mở chat. Thử hỏi: <i>"Giá thuê xe"</i>, <i>"Thủ tục"</i>, hoặc <i>"Xe 50cc"</i>.</p>
+
+    <section style="margin-top:18px;">
+      <h3>Mẹo test</h3>
+      <ul>
+        <li>Đổi Light / Dark bằng nút <b>🌗</b> ở góc phải trên cùng.</li>
+        <li>Trên iPhone: nếu cần xem console, dùng Web Inspector (kết nối với Mac) hoặc tạm bật Eruda debug (chỉ khi test).</li>
+        <li>Nếu menu bị che: đảm bảo header có class <code>site-header</code> (điều này đã được cấu hình để an toàn với AI).</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 MotoAI Demo — Chỉ dành cho test. Upload file JS lên repo và dùng jsDelivr để nhúng.
+  </footer>
+
+  <!-- === NHÚNG MOTOAI (1 file standalone) === -->
+  <script src="https://cdn.jsdelivr.net/gh/motoopen/chothuexemayhanoi@main/motoai_v13_combo_standalone.js" defer crossorigin="anonymous"></script>
+
+  <script>
+    // Theme toggle (keeps simple dataset flag for AI style)
+    (function(){
+      const btn = document.getElementById('themeToggle');
+      function setTheme(dark){
+        if(dark){
+          document.body.classList.add('dark');
+          btn.textContent = '☀️ Light';
+          document.body.dataset.theme = 'dark';
+        } else {
+          document.body.classList.remove('dark');
+          btn.textContent = '🌗 Dark';
+          document.body.dataset.theme = 'light';
+        }
+      }
+      // init by system prefer
+      try{
+        const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        setTheme(prefersDark);
+      }catch(e){ setTheme(false); }
+      btn.addEventListener('click', ()=> setTheme(!document.body.classList.contains('dark')));
+    })();
+  </script>
+</body>
+</html>
