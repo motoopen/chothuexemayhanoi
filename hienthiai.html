@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MotoAI v13 Pro Adaptive — Demo</title>
+<style>
+  :root {
+    --bg-light: #ffffff;
+    --text-light: #000000;
+    --bg-dark: #0f1113;
+    --text-dark: #f2f2f7;
+    --accent: #0a84ff;
+    --transition: 0.3s ease;
+  }
+
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg-light);
+    color: var(--text-light);
+    transition: background var(--transition), color var(--transition);
+  }
+
+  body.dark {
+    background: var(--bg-dark);
+    color: var(--text-dark);
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    background: var(--accent);
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+  }
+
+  nav a {
+    color: #fff;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  .theme-toggle {
+    background: rgba(255,255,255,0.15);
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    padding: 8px 14px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.25s;
+  }
+  .theme-toggle:hover {
+    background: rgba(255,255,255,0.3);
+  }
+
+  main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 16px;
+    line-height: 1.6;
+  }
+
+  h1 {
+    font-size: 2em;
+    margin-bottom: 12px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 24px;
+    font-size: 14px;
+    opacity: 0.7;
+  }
+
+  /* Nút bật/tắt theme nổi trên mobile */
+  @media (max-width: 600px) {
+    .theme-toggle {
+      padding: 8px 10px;
+      font-size: 14px;
+    }
+  }
+</style>
+</head>
+
+<body>
+  <header>
+    <div class="logo"><strong>🏍 MotoAI</strong> Demo</div>
+    <nav>
+      <a href="#">Trang chủ</a>
+      <a href="#">Xe số</a>
+      <a href="#">Xe ga</a>
+      <a href="#">Liên hệ</a>
+    </nav>
+    <button id="themeToggle" class="theme-toggle">🌗 Dark</button>
+  </header>
+
+  <main>
+    <h1>Chào mừng đến với MotoAI v13 Pro Adaptive</h1>
+    <p>
+      Đây là bản demo giao diện hỗ trợ <b>Dark/Light mode</b> và tích hợp 
+      <b>trợ lý AI MotoAI v13</b>. Bạn có thể bấm nút 🤖 góc dưới để trò chuyện!
+    </p>
+
+    <p>
+      MotoAI giúp bạn hỏi nhanh các thông tin như: <i>"Giá thuê xe", "Xe số", "Thủ tục", "Liên hệ cửa hàng"</i> v.v...
+    </p>
+
+    <p>
+      Hãy thử chuyển sang chế độ <b>Dark</b> để thấy giao diện tự động đồng bộ với AI!
+    </p>
+  </main>
+
+  <footer>
+    © 2025 MotoAI Demo — ThueXeMayNguyenTu.com
+  </footer>
+
+  <!-- ✅ Gắn MotoAI -->
+  <script src="motoai_v13pro_adaptive.js"></script>
+
+  <!-- 🌗 Dark/Light toggle script -->
+  <script>
+    const toggleBtn = document.getElementById('themeToggle');
+    function setTheme(dark) {
+      if (dark) {
+        document.body.classList.add('dark');
+        toggleBtn.textContent = '☀️ Light';
+      } else {
+        document.body.classList.remove('dark');
+        toggleBtn.textContent = '🌗 Dark';
+      }
+    }
+
+    // Sự kiện click đổi theme
+    toggleBtn.addEventListener('click', () => {
+      const isDark = document.body.classList.contains('dark');
+      setTheme(!isDark);
+    });
+
+    // Tự động nhận theme theo hệ thống
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      setTheme(true);
+    }
+  </script>
+</body>
+</html>
