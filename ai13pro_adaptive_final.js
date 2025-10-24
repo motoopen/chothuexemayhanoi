@@ -292,7 +292,7 @@ console.log('%c✅ MotoAI v13Pro Fixed Patch Installed Successfully', 'color:#0a
     suggestionTags: [
       {q:'Xe số', label:'🏍 Xe số'},
       {q:'Xe ga', label:'🛵 Xe ga'},
-      {q-'Thủ tục', label:'📄 Thủ tục'},
+      {q:'Thủ tục', label:'📄 Thủ tục'},
       {q:'Xe 50cc', label:'🚲 Xe 50cc'},
       {q:'Liên hệ 0857255868', label:'☎️ Liên hệ'} 
     ],
