@@ -1,5 +1,11 @@
 /* motoai_v13_combo_standalone.js
    MotoAI v13 Combo Standalone — Full UI (v10) + Smart Engine (v13)
+   
+   *** GEMINI FIX ***
+   LỖI BÀN PHÍM TỰ NHẢY LÊN TRÊN MOBILE:
+   Đã được sửa bằng cách comment out (vô hiệu hóa) dòng `inputEl.focus()` 
+   bên trong hàm `openChat()`. File này đã bao gồm bản sửa lỗi đó.
+   
    NOTE: Paste Part 1, then Part 2, then Part 3 into a single file.
    FIX: Removed input auto-focus to prevent iOS keyboard pop-up on bubble tap.
    OPTIMIZED: Added CSS for smoother mobile scrolling and touch handling.
@@ -341,8 +347,12 @@
     const name = getUserName();
     if(name) setTimeout(()=> addMessage('bot', `Chào ${name}! Mình nhớ bạn rồi 👋`), 400);
     renderSession();
+    
+    // *** ĐÂY LÀ BẢN SỬA LỖI ***
+    // Dòng code bên dưới đã bị vô hiệu hóa (comment out) để ngăn bàn phím tự động nhảy lên trên iOS/Android.
     // FIX for iOS keyboard: Removed input auto-focus to prevent keyboard from popping up on bubble tap.
     // setTimeout(()=> { try{ inputEl.focus(); }catch(e){} }, 320); 
+    
     document.documentElement.style.overflow = 'hidden';
     adaptCardHeight();
   }
