@@ -1,38 +1,57 @@
-/* motoai_v14_combo_standalone.js  — PART 1/3
-   MotoAI v14 Combo Standalone — Part 1: BOOT + UI CORE + SAFE INJECT
-   NOTE: This file is intended to be assembled from Part1 + Part2 + Part3 into one final file.
-   Copy Part1, then append Part2, then Part3 to produce motoai_v14_combo_standalone.js
-*/
+/* ============================================================
+  MotoAI v14 Combo Standalone — FULL (Part 1/3)
+  Phần 1: BOOT + SAFE UI INJECTION + HELPERS
+  LƯU Ý: KHÔNG đóng IIFE ở cuối phần này. Part 2 & Part 3 nối tiếp.
+============================================================ */
 (function(){
-  // guard: avoid double-load
-  if(window.MotoAI_v14_COMBO_LOADED){
+
+  // guard: tránh load 2 lần
+  if (window.MotoAI_v14_COMBO_LOADED) {
     console.log('MotoAI v14 Combo already loaded.');
     return;
   }
   window.MotoAI_v14_COMBO_LOADED = true;
-  console.log('%c✅ MotoAI v14 Combo — initializing (PART 1/3)...', 'color:#0a84ff;font-weight:bold;');
+  console.log('%c🚀 MotoAI v14 Combo — PART 1/3 initializing...', 'color:#0a84ff;font-weight:bold;');
 
   /* ---------- CONFIG ---------- */
   const CFG = {
-    maxCorpusSentences: 900,
+    uiZIndex: 9999999,
+    maxCorpusSentences: 1200,
     minSentenceLength: 18,
-    suggestionTags: [
-      {q:'Xe số', label:'🏍 Xe số'},
-      {q:'Xe ga', label:'🛵 Xe ga'},
-      {q:'Thủ tục', label:'📄 Thủ tục'},
-      {q:'Xe 50cc', label:'🚲 Xe 50cc'},
-      {q:'Liên hệ 0857255868', label:'☎️ Liên hệ'}
-    ],
-    memoryKeyName: 'MotoAI_v14_combo_user_name',
-    corpusKey: 'MotoAI_v14_combo_corpus',
-    sessionKey: 'MotoAI_v14_combo_session_msgs',
+    memoryKeyName: 'MotoAI_v14_user_name',
+    corpusKey: 'MotoAI_v14_corpus',
+    sessionKey: 'MotoAI_v14_session_msgs',
     sitemapPath: '/moto_sitemap.json',
-    uiZIndex: 9999999
+    learnIntervalMs: 72 * 60 * 60 * 1000, // 72 hours
+    relatedSites: [
+      "https://motoopen.github.io/chothuexemayhanoi/",
+      "https://motoopen.github.io/",
+      "https://motoai.motoopen.vn/"
+    ],
+    suggestionTags: [
+      { q: 'Xe số', label: '🏍 Xe số' },
+      { q: 'Xe ga', label: '🛵 Xe ga' },
+      { q: 'Thủ tục', label: '📄 Thủ tục' },
+      { q: 'Xe 50cc', label: '🚲 Xe 50cc' },
+      { q: 'Liên hệ 0857255868', label: '☎️ Liên hệ' }
+    ]
   };
 
-  /* ---------- SAFE INJECT: HTML + CSS ---------- */
-  const uiHtml = `
-  <div id="motoai-root" aria-hidden="false" data-motoai="v14" style="display:none">
+  /* ---------- GLOBAL STATE & API ---------- */
+  window.MotoAI_v14 = window.MotoAI_v14 || {};
+  window.MotoAI_v14_state = {
+    isOpen: false,
+    sendLock: false,
+    corpus: [],
+    sessionMsgs: []
+  };
+
+  // expose config
+  window.MotoAI_v14.cfg = CFG;
+
+  /* ---------- SAFE UI HTML ---------- */
+  const UI_HTML = `
+  <div id="motoai-root" aria-hidden="false" style="display:none" data-motoai="v14">
     <div id="motoai-bubble" role="button" aria-label="Mở MotoAI">🤖</div>
     <div id="motoai-overlay" aria-hidden="true">
       <div id="motoai-card" role="dialog" aria-modal="true" aria-hidden="true">
@@ -48,630 +67,614 @@
         <div id="motoai-suggestions" role="toolbar" aria-label="Gợi ý nhanh"></div>
         <footer id="motoai-footer">
           <div id="motoai-typing" aria-hidden="true"></div>
-          <input id="motoai-input" placeholder="Nhập câu hỏi..." autocomplete="off" aria-label="Nhập câu hỏi"/>
+          <input id="motoai-input" placeholder="Nhập câu hỏi..." autocomplete="off" aria-label="Nhập câu hỏi" />
           <button id="motoai-send" aria-label="Gửi">Gửi</button>
         </footer>
       </div>
     </div>
   </div>`;
 
-  const uiCss = `
+  /* ---------- SAFE UI CSS ---------- */
+  const UI_CSS = `
   :root{
     --m14-accent:#0a84ff;
-    --m14-card-bg: #f5f7fa;
+    --m14-card-bg:#f5f7fa;
     --m14-card-bg-dark:#0b0c0e;
-    --m14-blur: blur(10px) saturate(125%);
     --m14-radius:16px;
-    --m14-glass-border: rgba(0,0,0,0.06);
-    --m14-footer-bg: rgba(255,255,255,0.78);
-    --m14-text: #111;
-    --m14-bg: #fff;
+    --m14-blur: blur(10px) saturate(125%);
+    --m14-footer-bg: rgba(255,255,255,0.82);
+    --m14-text:#111;
+    --m14-bg:#ffffff;
   }
-
-  #motoai-root { position: fixed; left: 18px; bottom: 22px; z-index: ${CFG.uiZIndex}; pointer-events: none; font-family: -apple-system, Inter, system-ui, Roboto, "Helvetica Neue", Arial; }
-  #motoai-bubble {
-    pointer-events: auto; width:56px; height:56px; border-radius:14px;
-    display:flex;align-items:center;justify-content:center;font-size:26px;
-    background:var(--m14-accent); color:#fff; box-shadow:0 8px 28px rgba(2,6,23,0.35); cursor:pointer; transition:transform .14s ease;
-  }
-  #motoai-bubble:hover{ transform: scale(1.06); }
-
-  #motoai-overlay{
-    position:fixed; inset:0; display:flex; align-items:flex-end; justify-content:center;
-    padding:12px; pointer-events:none; transition:background .22s ease; z-index:${CFG.uiZIndex-1};
-  }
-  #motoai-overlay.visible{ background: rgba(0,0,0,0.36); pointer-events:auto; }
-
-  #motoai-card{
-    width:min(920px,calc(100% - 40px)); max-width:920px; border-radius: var(--m14-radius) var(--m14-radius) 10px 10px;
-    height:70vh; max-height:740px; min-height:300px; background:var(--m14-card-bg);
-    backdrop-filter: var(--m14-blur); box-shadow: 0 -18px 60px rgba(0,0,0,0.28);
-    display:flex; flex-direction:column; overflow:hidden; transform: translateY(110%); opacity:0; pointer-events:auto;
-    transition: transform .36s cubic-bezier(.2,.9,.2,1), opacity .28s;
-    color:var(--m14-text);
-  }
-  #motoai-overlay.visible #motoai-card { transform: translateY(0); opacity:1; }
-
-  #motoai-handle { width:64px; height:6px; background: rgba(160,160,160,0.6); border-radius:6px; margin:10px auto; }
-  #motoai-header{ display:flex; align-items:center; justify-content:space-between; padding:8px 14px; font-weight:700; color:var(--m14-accent); border-bottom:1px solid rgba(0,0,0,0.06); }
-  #motoai-header .tools button { background:none; border:none; font-size:18px; cursor:pointer; padding:6px 8px; color:var(--m14-text); }
-  #motoai-body{ flex:1; overflow:auto; padding:12px 16px; font-size:15px; background:transparent; -webkit-overflow-scrolling:touch; }
-  #motoai-suggestions{ display:flex; gap:8px; justify-content:center; padding:8px 12px; border-top:1px solid rgba(0,0,0,0.04); flex-wrap:wrap; background: rgba(255,255,255,0.62); backdrop-filter: blur(8px); }
-  #motoai-suggestions button { border:none; background: rgba(0,122,255,0.08); color:var(--m14-accent); padding:8px 12px; border-radius:12px; cursor:pointer; font-weight:600; }
-
-  #motoai-footer{ display:flex; align-items:center; gap:8px; padding:10px; border-top:1px solid var(--m14-glass-border); background:var(--m14-footer-bg); }
-  #motoai-input{ flex:1; padding:10px 12px; border-radius:12px; border:1px solid var(--m14-glass-border); font-size:15px; background:var(--m14-bg); color:var(--m14-text); }
-  #motoai-send{ background:var(--m14-accent); color:#fff; border:none; border-radius:12px; padding:10px 16px; cursor:pointer; flex-shrink:0; transition:transform .18s; }
-  #motoai-send:hover{ transform: scale(1.06); }
-
-  .m-msg{ margin:8px 0; padding:12px 14px; border-radius:14px; max-width:86%; line-height:1.4; word-break:break-word; box-shadow:0 6px 18px rgba(2,6,23,0.08); }
-  .m-msg.bot{ background: rgba(255,255,255,0.92); color:#111; }
-  .m-msg.user{ background: linear-gradient(180deg,var(--m14-accent),#0066d9); color:#fff; margin-left:auto; box-shadow:0 8px 22px rgba(10,132,255,0.15); }
-
+  #motoai-root{position:fixed;left:18px;bottom:22px;z-index:${CFG.uiZIndex};pointer-events:none;font-family:-apple-system,Inter,system-ui,Roboto,"Helvetica Neue",Arial}
+  #motoai-bubble{pointer-events:auto;width:56px;height:56px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:26px;background:var(--m14-accent);color:#fff;box-shadow:0 8px 28px rgba(2,6,23,0.35);cursor:pointer;transition:transform .14s}
+  #motoai-bubble:hover{transform:scale(1.06)}
+  #motoai-overlay{position:fixed;inset:0;display:flex;align-items:flex-end;justify-content:center;padding:12px;pointer-events:none;transition:background .22s ease;z-index:${CFG.uiZIndex-1}}
+  #motoai-overlay.visible{background:rgba(0,0,0,0.36);pointer-events:auto}
+  #motoai-card{width:min(920px,calc(100% - 40px));max-width:920px;border-radius:var(--m14-radius) var(--m14-radius) 10px 10px;height:72vh;max-height:760px;min-height:300px;background:var(--m14-card-bg);backdrop-filter:var(--m14-blur);box-shadow:0 -18px 60px rgba(0,0,0,0.28);display:flex;flex-direction:column;overflow:hidden;transform:translateY(110%);opacity:0;pointer-events:auto;transition:transform .36s cubic-bezier(.2,.9,.2,1),opacity .28s;color:var(--m14-text)}
+  #motoai-overlay.visible #motoai-card{transform:translateY(0);opacity:1}
+  #motoai-handle{width:64px;height:6px;background:rgba(160,160,160,0.6);border-radius:6px;margin:10px auto}
+  #motoai-header{display:flex;align-items:center;justify-content:space-between;padding:8px 14px;font-weight:700;color:var(--m14-accent);border-bottom:1px solid rgba(0,0,0,0.06)}
+  #motoai-header .tools button{background:none;border:none;font-size:18px;cursor:pointer;padding:6px 8px;color:var(--m14-text)}
+  #motoai-body{flex:1;overflow:auto;padding:12px 16px;font-size:15px;background:transparent}
+  .m-msg{margin:8px 0;padding:12px 14px;border-radius:16px;max-width:86%;line-height:1.4;word-break:break-word;box-shadow:0 6px 18px rgba(2,6,23,0.08)}
+  .m-msg.bot{background:rgba(255,255,255,0.92);color:#111}
+  .m-msg.user{background:linear-gradient(180deg,var(--m14-accent),#0066d9);color:#fff;margin-left:auto;box-shadow:0 8px 26px rgba(10,132,255,0.15)}
+  #motoai-suggestions{display:flex;gap:8px;justify-content:center;padding:8px 12px;border-top:1px solid rgba(0,0,0,0.04);flex-wrap:wrap;background:rgba(255,255,255,0.62);backdrop-filter:blur(8px)}
+  #motoai-suggestions button{border:none;background:rgba(0,122,255,0.08);color:var(--m14-accent);padding:8px 12px;border-radius:12px;cursor:pointer;font-weight:600}
+  #motoai-footer{display:flex;align-items:center;justify-content:center;gap:8px;padding:10px;border-top:1px solid rgba(0,0,0,0.06);background:var(--m14-footer-bg);backdrop-filter:blur(8px)}
+  #motoai-input{flex:1;padding:10px 12px;border-radius:12px;border:1px solid rgba(0,0,0,0.08);font-size:15px;background:var(--m14-bg);color:var(--m14-text)}
+  #motoai-send{background:var(--m14-accent);color:#fff;border:none;border-radius:12px;padding:10px 16px;cursor:pointer;flex-shrink:0;transition:transform .18s}
+  #motoai-send:hover{transform:scale(1.06)}
   @media (prefers-color-scheme:dark){
-    :root{ --m14-card-bg:var(--m14-card-bg-dark); --m14-footer-bg: rgba(16,16,18,0.9); --m14-text:#f2f2f7; }
-    .m-msg.bot{ background: rgba(30,31,33,0.9); color:#f2f2f7; }
-    .m-msg.user{ background: linear-gradient(180deg,#0a84ff,#0071e3); }
-    #motoai-suggestions{ background: rgba(20,20,22,0.9); }
-    #motoai-header .tools button{ color:#f2f2f7; }
+    :root{--m14-card-bg:var(--m14-card-bg-dark);--m14-footer-bg:rgba(16,16,18,0.9);--m14-text:#f2f2f7}
+    .m-msg.bot{background:rgba(35,37,39,0.9);color:var(--m14-text)}
+    .m-msg.user{background:linear-gradient(180deg,#0a84ff,#0071e3)}
+    #motoai-suggestions{background:rgba(20,20,22,0.9)}
+    #motoai-header .tools button{color:var(--m14-text)}
   }
-
   @media (max-width:520px){
-    #motoai-card{ width: calc(100% - 24px); height:78vh; min-height:260px; }
-    #motoai-bubble{ width:50px; height:50px; font-size:24px; border-radius:12px; }
+    #motoai-card{width:calc(100% - 24px);height:78vh;min-height:260px}
+    #motoai-bubble{width:50px;height:50px;font-size:24px;border-radius:12px}
   }
-
-  /* Force visible helpers (in case host site tries to hide) */
-  #motoai-root, #motoai-bubble, #motoai-overlay, #motoai-card { visibility: visible !important; }
+  /* Force visible helpers (in case host site hides things) */
+  #motoai-root,#motoai-bubble,#motoai-overlay,#motoai-card{visibility:visible!important}
   `;
 
-  // safely append HTML+CSS when DOM ready (avoids insert issues if script runs early)
+  /* ---------- Safe inject (DOM ready) ---------- */
   function safeInjectUI(){
-    if(document.getElementById('motoai-root')) return;
-    try {
-      // inject HTML at end of body
-      if(document.body){
-        document.body.insertAdjacentHTML('beforeend', uiHtml);
-        // create style element
-        const styleEl = document.createElement('style');
-        styleEl.setAttribute('data-motoai','v14-style');
-        styleEl.textContent = uiCss;
-        document.head.appendChild(styleEl);
-        // ensure element visible
-        const root = document.getElementById('motoai-root');
-        if(root) root.style.display = '';
-      } else {
-        console.warn('MotoAI v14: document.body not available yet.');
+    try{
+      if(document.getElementById('motoai-root')) return; // already injected
+      if(!document.body || !document.head){
+        console.warn('MotoAI v14: DOM not ready for UI injection.');
+        return;
       }
-    } catch (e){
-      console.error('MotoAI v14 — safeInjectUI error:', e);
+      document.body.insertAdjacentHTML('beforeend', UI_HTML);
+      const styleEl = document.createElement('style');
+      styleEl.setAttribute('data-motoai','v14-style');
+      styleEl.textContent = UI_CSS;
+      document.head.appendChild(styleEl);
+      // ensure visible
+      const root = document.getElementById('motoai-root');
+      if(root) root.style.display = '';
+      console.log('%c✅ MotoAI v14 UI injected (PART 1)', 'color:#0a84ff');
+    }catch(e){
+      console.error('MotoAI v14 safeInjectUI error:', e);
     }
   }
 
   if(document.readyState === 'loading'){
     document.addEventListener('DOMContentLoaded', safeInjectUI);
   } else {
-    safeInjectUI();
+    try { safeInjectUI(); } catch(e){ /* ignore */ }
   }
 
-  /* ---------- Basic refs (may be undefined until injected) ---------- */
-  // We'll re-query in later parts once UI exists
-  // Expose a helper to get elements safely
-  function $safe(sel){ return document.getElementById(sel.replace(/^#/,'')) || document.querySelector(sel); }
-
-  // Minimal initial state placeholders (will be populated by later parts)
-  window.MotoAI_v14_state = {
-    isOpen: false,
-    sendLock: false,
-    corpus: [],
-    sessionMsgs: []
-  };
-
-  // Provide light API so loader/other scripts can check readiness
-  window.MotoAI_v14 = window.MotoAI_v14 || {};
-  Object.assign(window.MotoAI_v14, {
-    cfg: CFG,
-    injectUI: safeInjectUI,
-    isReady: function(){ return !!document.getElementById('motoai-root'); },
-    uiZIndex: CFG.uiZIndex
-  });
-
-  console.log('%cℹ️ MotoAI v14 PART 1 injected UI shell (waiting for PART 2/3)...', 'color:#0a84ff');
-
-  /* ---------- Small utility helpers used by later parts ---------- */
-  // Robust tokenize with unicode fallback (safe for older browsers)
-  function tokenizeSafe(s){
-    try {
-      return String(s || '').toLowerCase().replace(/[^\p{L}\p{N}\s]+/gu,' ').split(/\s+/).filter(Boolean);
-    } catch(e) {
-      // fallback for browsers without \p support
-      return String(s || '').toLowerCase().replace(/[^a-z0-9\u00C0-\u024F\s]+/gi,' ').split(/\s+/).filter(Boolean);
-    }
-  }
-  window.MotoAI_v14.tokenizeSafe = tokenizeSafe;
-
-  // Lightweight normalize function for Vietnamese
-  function normalizeTextLite(text){
-    if(!text) return '';
-    return String(text).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/đ/g,'d').trim();
-  }
-  window.MotoAI_v14.normalizeTextLite = normalizeTextLite;
-
-  /* ---------- End of PART 1/3: UI core injected, helpers exposed ----------
-     Next: Part 2/3 will include retrieval, corpus, session persistence, UI wiring, and sendQuery core.
-     Then Part 3/3 will include Smart Engine rules, SpellFix, theme sync, learnFromRepo, and final bootstrap.
-  */
-/* motoai_v14_combo_standalone.js — PART 2/3
-   MotoAI v14 Combo — Core Logic, Corpus, Session, UI Wiring
-   (Append directly after Part 1, inside same IIFE)
-*/
-
-  console.log('%c⚙️ MotoAI v14 PART 2 — Core Logic loaded', 'color:#0a84ff');
-
-  const CFG = window.MotoAI_v14.cfg;
-  const ST = window.MotoAI_v14_state;
-  const $ = sel => document.querySelector(sel);
-
-  /* ---------- Corpus builder ---------- */
-  function buildCorpusFromDOM(){
+  /* ---------- Helpers (tokenize, normalize) ---------- */
+  function tokenizeSafe(str){
+    if(!str) return [];
     try{
-      let nodes = Array.from(document.querySelectorAll('main, article, section'));
-      if(!nodes.length) nodes = [document.body];
-      let texts = [];
-      nodes.forEach(n=>{
-        Array.from(n.querySelectorAll('h1,h2,h3')).forEach(h=>{
-          if(h.innerText && h.innerText.trim().length>10) texts.push(h.innerText.trim());
-        });
-        Array.from(n.querySelectorAll('p, li')).forEach(p=>{
-          const t = p.innerText.trim();
-          if(t.length >= CFG.minSentenceLength) texts.push(t);
-        });
-      });
-      if(!texts.length){
-        const meta = document.querySelector('meta[name="description"]');
-        if(meta && meta.content) texts.push(meta.content);
-      }
-      const uniqTexts = Array.from(new Set(texts)).slice(0, CFG.maxCorpusSentences);
-      const currentTexts = new Set(ST.corpus.map(c=>c.text));
-      uniqTexts.forEach(t=>{
-        if(!currentTexts.has(t)){
-          ST.corpus.push({id:ST.corpus.length, text:t, tokens:window.MotoAI_v14.tokenizeSafe(t)});
-        }
-      });
-      localStorage.setItem(CFG.corpusKey, JSON.stringify(ST.corpus));
-      console.log(`📚 MotoAI v14 built corpus: ${ST.corpus.length} items`);
+      return String(str).toLowerCase().replace(/[^\p{L}\p{N}\s]+/gu,' ').split(/\s+/).filter(Boolean);
     }catch(e){
-      console.error('MotoAI v14 buildCorpusFromDOM error:', e);
+      return String(str).toLowerCase().replace(/[^a-z0-9\u00C0-\u024F\s]+/gi,' ').split(/\s+/).filter(Boolean);
     }
   }
 
-  /* ---------- Corpus restore ---------- */
-  (function restoreCorpus(){
-    try{
-      const raw = localStorage.getItem(CFG.corpusKey);
-      if(raw){
-        const parsed = JSON.parse(raw);
-        if(Array.isArray(parsed) && parsed.length) ST.corpus = parsed;
+  function normalizeLite(s){
+    if(!s) return '';
+    return String(s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/đ/g,'d').trim();
+  }
+
+  // Expose helpers & minimal API for Part2/3
+  window.MotoAI_v14.tokenizeSafe = tokenizeSafe;
+  window.MotoAI_v14.normalizeLite = normalizeLite;
+  window.MotoAI_v14.safeInjectUI = safeInjectUI;
+  window.MotoAI_v14.isReady = function(){ return !!document.getElementById('motoai-root'); };
+
+  /* ---------- Small debug helper: ensure root exists by timeout (robust) ---------- */
+  (function ensureRootRetry(){
+    let tries = 0;
+    function tryIt(){
+      tries++;
+      if(window.MotoAI_v14.isReady()){
+        console.log('%cℹ️ MotoAI v14 root ready.', 'color:#0a84ff');
+        return;
       }
-    }catch(e){}
+      if(tries > 8) {
+        // try one last time but don't spam
+        if(document.body) safeInjectUI();
+        return;
+      }
+      setTimeout(()=>{ safeInjectUI(); tryIt(); }, 250);
+    }
+    tryIt();
   })();
 
-  /* ---------- Session persistence ---------- */
-  function loadSession(){
-    try{
-      const raw = sessionStorage.getItem(CFG.sessionKey);
-      if(raw){
-        ST.sessionMsgs = JSON.parse(raw);
+  /* ---------- placeholders for DOM refs (will be populated in Part2) ---------- */
+  // IDs used: #motoai-root, #motoai-bubble, #motoai-overlay, #motoai-card,
+  // #motoai-body, #motoai-input, #motoai-send, #motoai-close, #motoai-clear, #motoai-typing, #motoai-suggestions
+
+  /* ---------- End of PART 1/3 ----------
+     Next: Part 2/3 (corpus, session, UI wiring, open/close, sendQuery basic)
+     (DO NOT close the IIFE here; Part 2/3 will continue inside.)
+  */
+
+ /* ============================================================
+  MotoAI v14 Combo Standalone — FULL (Part 2/3)
+  Phần 2: SESSION + UI + BASIC ENGINE + GỢI Ý
+============================================================ */
+
+  const STATE = window.MotoAI_v14_state;
+  const CFG = window.MotoAI_v14.cfg;
+
+  /* ---------- DOM GETTERS ---------- */
+  function getEls() {
+    return {
+      root: document.getElementById("motoai-root"),
+      bubble: document.getElementById("motoai-bubble"),
+      overlay: document.getElementById("motoai-overlay"),
+      card: document.getElementById("motoai-card"),
+      body: document.getElementById("motoai-body"),
+      input: document.getElementById("motoai-input"),
+      send: document.getElementById("motoai-send"),
+      close: document.getElementById("motoai-close"),
+      clear: document.getElementById("motoai-clear"),
+      typing: document.getElementById("motoai-typing"),
+      sugWrap: document.getElementById("motoai-suggestions")
+    };
+  }
+
+  /* ---------- STORAGE ---------- */
+  function saveSession() {
+    try {
+      sessionStorage.setItem(CFG.sessionKey, JSON.stringify(STATE.sessionMsgs));
+    } catch {}
+  }
+  function loadSession() {
+    try {
+      const d = sessionStorage.getItem(CFG.sessionKey);
+      STATE.sessionMsgs = d ? JSON.parse(d) : [];
+    } catch { STATE.sessionMsgs = []; }
+  }
+
+  function saveCorpus() {
+    try {
+      localStorage.setItem(CFG.corpusKey, JSON.stringify(STATE.corpus));
+    } catch {}
+  }
+  function loadCorpus() {
+    try {
+      const d = localStorage.getItem(CFG.corpusKey);
+      STATE.corpus = d ? JSON.parse(d) : [];
+    } catch { STATE.corpus = []; }
+  }
+
+  /* ---------- CỘNG DỒN DỮ LIỆU HỌC TRÊN TRANG ---------- */
+  function buildCorpusFromDOM() {
+    try {
+      loadCorpus();
+      let texts = [];
+      const nodes = Array.from(document.querySelectorAll("main,article,section"));
+      nodes.forEach((n) => {
+        Array.from(n.querySelectorAll("p,li,h1,h2,h3")).forEach((el) => {
+          const t = (el.innerText || "").trim();
+          if (t.length > CFG.minSentenceLength) texts.push(t);
+        });
+      });
+      if (!texts.length) {
+        const all = document.body.innerText.split(/[.!?]\s+/);
+        texts = all.filter((t) => t.length > CFG.minSentenceLength);
       }
-    }catch(e){ ST.sessionMsgs=[]; }
-    if(!Array.isArray(ST.sessionMsgs)) ST.sessionMsgs=[];
-  }
-
-  function saveSession(){
-    try{
-      sessionStorage.setItem(CFG.sessionKey, JSON.stringify(ST.sessionMsgs));
-    }catch(e){}
-  }
-
-  /* ---------- Memory: name ---------- */
-  function saveUserName(name){
-    try{ localStorage.setItem(CFG.memoryKeyName,name);}catch(e){}
-  }
-  function getUserName(){
-    try{ return localStorage.getItem(CFG.memoryKeyName);}catch(e){return null;}
-  }
-  function detectNameFromText(txt){
-    if(!txt) return null;
-    const s = txt.replace(/\s+/g,' ').trim();
-    const patterns = [
-      /(?:tôi tên là|tên tôi là|mình tên là)\s+([A-Za-zÀ-ỹ\u00C0-\u024F0-9_\- ]{2,40})/i,
-      /(?:tôi là|mình là)\s+([A-Za-zÀ-ỹ\u00C0-\u024F0-9_\- ]{2,40})/i
-    ];
-    for(const p of patterns){
-      const m = s.match(p);
-      if(m && m[1]){ const nm=m[1].trim(); saveUserName(nm); return nm; }
+      const unique = Array.from(new Set(texts));
+      const current = new Set(STATE.corpus.map((c) => c.text));
+      unique.forEach((t) => {
+        if (!current.has(t)) {
+          STATE.corpus.push({ id: STATE.corpus.length, text: t, tokens: MotoAI_v14.tokenizeSafe(t) });
+        }
+      });
+      saveCorpus();
+      console.log(`📚 MotoAI: Corpus ${STATE.corpus.length} sentences.`);
+    } catch (e) {
+      console.error("MotoAI buildCorpusFromDOM error", e);
     }
-    return null;
   }
 
-  /* ---------- Retrieval basic ---------- */
-  function retrieveBestAnswer(query){
-    if(!query) return null;
-    const qTokens = window.MotoAI_v14.tokenizeSafe(query);
-    if(!qTokens.length || !ST.corpus.length) return null;
-    let best={score:0,text:null};
-    for(const c of ST.corpus){
-      let sc=0;
-      for(const qt of qTokens){
-        if(c.tokens.includes(qt)) sc+=1;
-      }
-      if(c.text.toLowerCase().includes(query.toLowerCase())) sc+=0.6;
-      if(sc>best.score) best={score:sc,text:c.text};
+  /* ---------- RETRIEVAL ---------- */
+  function retrieveBest(q) {
+    if (!q || !STATE.corpus.length) return null;
+    const qTokens = MotoAI_v14.tokenizeSafe(q);
+    let best = { score: 0, text: null };
+    for (const c of STATE.corpus) {
+      let sc = 0;
+      for (const t of qTokens) if (c.tokens && c.tokens.includes(t)) sc++;
+      if (c.text.toLowerCase().includes(q.toLowerCase())) sc += 0.5;
+      if (sc > best.score) best = { score: sc, text: c.text };
     }
-    return best.score>0?best.text:null;
+    return best.score ? best.text : null;
   }
 
-  /* ---------- UI helpers ---------- */
-  function addMessage(role, text){
-    const bodyEl = $('#motoai-body');
-    if(!bodyEl) return;
-    const el = document.createElement('div');
-    el.className = 'm-msg '+(role==='user'?'user':'bot');
-    el.textContent = text;
-    bodyEl.appendChild(el);
-    bodyEl.scrollTop = bodyEl.scrollHeight;
-    ST.sessionMsgs.push({role,text,t:Date.now()});
+  /* ---------- UI MESSAGE ---------- */
+  function addMsg(role, text) {
+    const el = getEls();
+    const div = document.createElement("div");
+    div.className = "m-msg " + (role === "user" ? "user" : "bot");
+    div.textContent = text;
+    el.body.appendChild(div);
+    el.body.scrollTop = el.body.scrollHeight;
+    STATE.sessionMsgs.push({ role, text, t: Date.now() });
     saveSession();
-    return el;
   }
 
-  function buildSuggestions(){
-    const wrap = $('#motoai-suggestions');
-    if(!wrap) return;
-    wrap.innerHTML='';
-    CFG.suggestionTags.forEach(s=>{
-      const b=document.createElement('button');
-      b.textContent=s.label;
-      b.dataset.q=s.q;
-      b.onclick=()=>{ if(!ST.isOpen) openChat(); setTimeout(()=> sendQuery(s.q), 100); };
+  function showTyping() {
+    const t = getEls().typing;
+    if (t) t.innerHTML = "<span>...</span>";
+  }
+  function hideTyping() {
+    const t = getEls().typing;
+    if (t) t.innerHTML = "";
+  }
+
+  /* ---------- GỢI Ý NHANH ---------- */
+  function buildSuggestions() {
+    const wrap = getEls().sugWrap;
+    if (!wrap) return;
+    wrap.innerHTML = "";
+    CFG.suggestionTags.forEach((s) => {
+      const b = document.createElement("button");
+      b.textContent = s.label;
+      b.addEventListener("click", () => {
+        openChat();
+        setTimeout(() => sendBasic(s.q), 200);
+      });
       wrap.appendChild(b);
     });
   }
 
-  function showTypingDots(){
-    const t=$('#motoai-typing');
-    if(t) t.innerHTML='<span class="dot">.</span><span class="dot">.</span><span class="dot">.</span>';
-  }
-  function hideTypingDots(){
-    const t=$('#motoai-typing');
-    if(t) t.innerHTML='';
-  }
-
-  /* ---------- Chat open/close ---------- */
-  function openChat(){
-    const overlay=$('#motoai-overlay'),card=$('#motoai-card');
-    if(ST.isOpen||!overlay||!card)return;
-    overlay.classList.add('visible');
-    card.setAttribute('aria-hidden','false');
-    ST.isOpen=true;
-    const name=getUserName();
-    if(name) setTimeout(()=>addMessage('bot',`Chào ${name}! Mình nhớ bạn rồi 👋`),400);
-    renderSession();
-    setTimeout(()=>{ try{$('#motoai-input').focus();}catch(e){} },320);
-    document.documentElement.style.overflow='hidden';
-  }
-
-  function closeChat(){
-    const overlay=$('#motoai-overlay'),card=$('#motoai-card');
-    if(!ST.isOpen||!overlay||!card)return;
-    overlay.classList.remove('visible');
-    card.setAttribute('aria-hidden','true');
-    ST.isOpen=false;
-    document.documentElement.style.overflow='';
-    hideTypingDots();
-  }
-
-  function renderSession(){
-    const bodyEl=$('#motoai-body');
-    if(!bodyEl)return;
-    bodyEl.innerHTML='';
-    if(ST.sessionMsgs.length){
-      ST.sessionMsgs.forEach(m=>{
-        const el=document.createElement('div');
-        el.className='m-msg '+(m.role==='user'?'user':'bot');
-        el.textContent=m.text;
-        bodyEl.appendChild(el);
-      });
-      bodyEl.scrollTop=bodyEl.scrollHeight;
-    }else{
-      addMessage('bot','👋 Xin chào! Mình là MotoAI v14 — hỏi thử “Xe ga”, “Xe số”, “Thủ tục”, hoặc “Xe 50cc” nhé!');
+  /* ---------- PHÁT HIỆN TÊN ---------- */
+  function detectName(text) {
+    const n = (text || "").trim();
+    const p = /(tên tôi là|mình tên là|tôi là)\s+([A-Za-zÀ-ỹ0-9 ]+)/i;
+    const m = n.match(p);
+    if (m && m[2]) {
+      const nm = m[2].trim();
+      localStorage.setItem(CFG.memoryKeyName, nm);
+      return nm;
     }
+    return null;
   }
 
-  /* ---------- SendQuery basic (will be enhanced by Smart Engine in Part 3) ---------- */
-  function sendQuery(text){
-    if(!text||!text.trim())return;
-    const inputEl=$('#motoai-input');
-    const sendBtn=$('#motoai-send');
-    if(ST.sendLock)return;
-    ST.sendLock=true;
-    if(sendBtn) sendBtn.disabled=true;
+  /* ---------- MỞ / ĐÓNG GIAO DIỆN ---------- */
+  function openChat() {
+    const el = getEls();
+    if (STATE.isOpen) return;
+    el.overlay.classList.add("visible");
+    el.card.setAttribute("aria-hidden", "false");
+    STATE.isOpen = true;
+    if (!STATE.sessionMsgs.length) addMsg("bot", "👋 Xin chào! Mình là MotoAI — hỏi thử “Xe ga”, “Xe số”, hoặc “Thủ tục” nhé!");
+    el.input.focus();
+  }
 
-    addMessage('user',text);
-    const name=detectNameFromText(text);
-    if(name){
-      addMessage('bot',`Đã nhớ tên: ${name} ✨`);
-      ST.sendLock=false;
-      if(sendBtn) sendBtn.disabled=false;
-      return;
-    }
+  function closeChat() {
+    const el = getEls();
+    el.overlay.classList.remove("visible");
+    el.card.setAttribute("aria-hidden", "true");
+    STATE.isOpen = false;
+    hideTyping();
+  }
 
-    showTypingDots();
-    setTimeout(()=>{
-      try{
-        const ans=retrieveBestAnswer(text);
-        hideTypingDots();
-        if(ans){
-          addMessage('bot',ans);
-        }else{
-          addMessage('bot','Xin lỗi, mình chưa tìm thấy nội dung cụ thể trên trang này. Bạn thử hỏi khác nhé!');
+  /* ---------- BASIC TRẢ LỜI ---------- */
+  function sendBasic(text) {
+    if (!text.trim()) return;
+    const el = getEls();
+    if (STATE.sendLock) return;
+    STATE.sendLock = true;
+    addMsg("user", text);
+    showTyping();
+    setTimeout(() => {
+      try {
+        const nm = detectName(text);
+        if (nm) {
+          addMsg("bot", `Đã nhớ tên bạn là ${nm} ✨`);
+        } else {
+          const ans = retrieveBest(text) || "Mình chưa tìm thấy câu trả lời. Bạn thử hỏi khác nha!";
+          addMsg("bot", ans);
         }
-      }catch(e){
-        console.error(e);
-        addMessage('bot','Lỗi khi xử lý câu trả lời.');
-      }finally{
-        ST.sendLock=false;
-        if(sendBtn) sendBtn.disabled=false;
+      } catch (e) {
+        addMsg("bot", "Lỗi xử lý câu hỏi.");
       }
-    },320);
+      hideTyping();
+      STATE.sendLock = false;
+    }, 300);
   }
 
-  /* ---------- Event wiring ---------- */
-  function bindUIEvents(){
-    const bubble=$('#motoai-bubble'),overlay=$('#motoai-overlay');
-    const closeBtn=$('#motoai-close'),clearBtn=$('#motoai-clear');
-    const sendBtn=$('#motoai-send'),inputEl=$('#motoai-input');
+  /* ---------- GẮN SỰ KIỆN UI ---------- */
+  function bindUI() {
+    const el = getEls();
+    if (!el.bubble) return;
 
-    if(bubble) bubble.onclick=()=>{ if(!ST.isOpen){ buildCorpusFromDOM(); openChat(); } else closeChat(); };
-    if(overlay) overlay.onclick=(e)=>{ if(e.target===overlay) closeChat(); };
-    if(closeBtn) closeBtn.onclick=closeChat;
-    if(clearBtn) clearBtn.onclick=()=>{ ST.sessionMsgs=[]; saveSession(); $('#motoai-body').innerHTML=''; addMessage('bot','🗑 Đã xóa hội thoại.'); };
-    if(sendBtn) sendBtn.onclick=()=>{ const v=inputEl.value.trim(); if(v){ inputEl.value=''; sendQuery(v);} };
-    if(inputEl) inputEl.addEventListener('keydown',(e)=>{ if(e.key==='Enter'&&!e.shiftKey){ e.preventDefault(); const v=inputEl.value.trim(); if(v){ inputEl.value=''; sendQuery(v);} }});
-    document.addEventListener('keydown',(e)=>{ if(e.key==='Escape'&&ST.isOpen) closeChat(); });
-  }
+    el.bubble.onclick = () => {
+      if (!STATE.isOpen) {
+        buildCorpusFromDOM();
+        openChat();
+      } else closeChat();
+    };
+    el.close.onclick = closeChat;
+    el.overlay.addEventListener("click", (e) => { if (e.target === el.overlay) closeChat(); });
+    el.clear.onclick = () => {
+      STATE.sessionMsgs = [];
+      el.body.innerHTML = "";
+      addMsg("bot", "🧹 Đã xóa hội thoại!");
+    };
+    el.send.onclick = () => {
+      const v = el.input.value.trim();
+      el.input.value = "";
+      sendBasic(v);
+    };
+    el.input.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" && !e.shiftKey) {
+        e.preventDefault();
+        const v = el.input.value.trim();
+        el.input.value = "";
+        sendBasic(v);
+      }
+    });
 
-  /* ---------- Init core ---------- */
-  function initCore(){
     buildSuggestions();
-    loadSession();
-    buildCorpusFromDOM();
-    bindUIEvents();
-    console.log('%c✅ MotoAI v14 Core ready (Part2/3 complete)', 'color:#0a84ff');
+    console.log("%c✅ MotoAI v14 UI bound (Part 2)", "color:#0a84ff");
   }
 
-  if(document.readyState==='loading'){
-    document.addEventListener('DOMContentLoaded',initCore);
-  }else initCore();
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", bindUI);
+  } else bindUI();
 
-  // Expose basic API for next part
-  Object.assign(window.MotoAI_v14,{
-    buildCorpusFromDOM,
-    sendQuery,
-    openChat,
-    closeChat,
-    addMessage,
-    getUserName,
-    detectNameFromText,
-    renderSession
-  });
+  /* ---------- GẮN API RA NGOÀI ---------- */
+  window.MotoAI_v14.open = openChat;
+  window.MotoAI_v14.close = closeChat;
+  window.MotoAI_v14.addMsg = addMsg;
+  window.MotoAI_v14.sendBasic = sendBasic;
+  window.MotoAI_v14.rebuildCorpus = buildCorpusFromDOM;
 
-/* ---------- End of PART 2/3 ----------
-   Next: Part 3/3 will include Smart Engine, SpellFix, Theme Sync, Auto Learn, and final bootstrap.
-*/
+  console.log("%c⚙️ MotoAI v14 Combo — Part 2/3 ready.", "color:#0a84ff");
 
- /* motoai_v14_combo_standalone.js — PART 3/3
-   MotoAI v14 Combo — Smart Engine, SpellFix, Theme Sync, Auto Learn, Final Bootstrap
-   (Append directly after Part 2)
-*/
+  /* ---------- End of PART 2/3 ----------
+     (Next: Part 3/3 — Smart Engine, LearnFromRepo, LearnFromSites, Auto Theme)
+  */
 
-  console.log('%c🤖 MotoAI v14 PART 3 — Smart Engine + Learn system loaded', 'color:#0a84ff');
+ /* ============================================================
+  MotoAI v14 Combo Standalone — FULL (Part 3/3)
+  Phần 3: SMART ENGINE + LEARN + THEME SYNC + FINAL BOOTSTRAP
+  (Paste trực tiếp sau Part 2, file kết thúc ở cuối phần này)
+============================================================ */
 
-  const CFG = window.MotoAI_v14.cfg;
-  const ST = window.MotoAI_v14_state;
-  const normalize = window.MotoAI_v14.normalizeTextLite;
+  // safe refs
+  const TOKENIZE = window.MotoAI_v14.tokenizeSafe;
+  const NORMALIZE = window.MotoAI_v14.normalizeLite || window.MotoAI_v14.normalizeText || (s=>String(s||'').toLowerCase());
 
-  /* ---------- Smart Engine Rules (v14, base from v13 but improved weight) ---------- */
-  const rules = [
-    { pattern: /^(chào|hi|hello|alo|xin chào|hỗ trợ|giúp|cứu|hỏi)$/i,
-      answer: [
-        "Chào bạn! Mình là MotoAI 🤖. Mình có thể giúp gì về thuê xe máy nhỉ?",
-        "Xin chào! Bạn muốn hỏi về xe số, xe ga, thủ tục hay bảng giá thuê xe?",
-        "MotoAI nghe! Bạn cần hỗ trợ thông tin gì ạ?"
-      ]
-    },
-    { pattern: /(xe số|wave|sirius|blade|future|exciter|winner|ex150|150cc)/i,
-      keywords: ['xe số','wave','sirius','future','exciter','winner'],
-      answer: [
-        "Xe số 🏍 tiết kiệm xăng, giá rẻ, phù hợp đi lại hàng ngày. Giá thuê chỉ từ 100k/ngày.",
-        "Dòng xe số rất bền và dễ đi — bạn muốn thuê loại nào để mình báo giá cụ thể?"
-      ]
-    },
-    { pattern: /(xe ga|tay ga|vision|lead|air blade|sh|vespa)/i,
-      keywords: ['xe ga','tay ga','vision','lead','airblade','vespa'],
-      answer: [
-        "Xe ga 🛵 êm ái, cốp rộng, phù hợp đi trong phố. Vision, Lead chỉ từ 120k/ngày.",
-        "Xe ga rất được ưa chuộng — bạn muốn xem bảng giá chi tiết không?"
-      ]
-    },
-    { pattern: /(50cc|không cần bằng|chưa có bằng|học sinh|sinh viên)/i,
-      keywords: ['50cc','không cần bằng','chưa có bằng'],
-      answer: [
-        "Xe 50cc không cần GPLX, chỉ cần CCCD 📋. Rất phù hợp cho học sinh, sinh viên!",
-        "Nếu bạn chưa có bằng, xe 50cc là lựa chọn hoàn hảo. Bạn muốn xem giá xe 50cc không?"
-      ]
-    },
-    { pattern: /(thủ tục|giấy tờ|cần gì|điều kiện|cọc|đặt cọc)/i,
-      answer: [
-        "Thủ tục thuê xe rất đơn giản! 📄 Chỉ cần CCCD và GPLX. Xe 50cc thì chỉ cần CCCD.",
-        "Về thủ tục, bạn chuẩn bị CCCD + bằng lái, không cần đặt cọc tiền mặt nhé."
-      ]
-    },
-    { pattern: /(giá|bảng giá|bao nhiêu|thuê bao nhiêu)/i,
-      answer: [
-        "Bảng giá thuê xe 💰:\n- Xe số: 100k–120k/ngày\n- Xe ga: 120k–150k/ngày\n- Xe côn: 200k–250k/ngày",
-        "Giá thuê xe dao động từ 100k đến 150k/ngày tùy loại. Thuê dài hạn giảm giá thêm nhé!"
-      ]
-    },
-    { pattern: /(liên hệ|hotline|zalo|sđt|địa chỉ|cửa hàng|ở đâu)/i,
-      answer: [
-        "Bạn liên hệ ☎️ 085.725.5868 (có Zalo) nhé!\nCửa hàng tại Nguyễn Văn Cừ — có giao xe tận nơi.",
-        "Liên hệ nhanh qua Zalo/Hotline: 0857255868. Hỗ trợ giao xe tận nơi 24/7!"
-      ]
-    },
-    { pattern: /(giao xe|ship|vận chuyển|sân bay|bến xe|tận nơi)/i,
-      answer: [
-        "Có ạ! 🚀 Giao xe tận nơi miễn phí trong nội thành Hà Nội, bến xe và sân bay.",
-        "Dịch vụ giao xe tận nơi hoàn toàn miễn phí — bạn gửi địa chỉ là có xe ngay!"
-      ]
-    },
-    { pattern: /^(cảm ơn|thanks|ok|oke|tốt quá|hay quá|tuyệt vời)$/i,
-      answer: [
-        "Không có gì ạ! 😊",
-        "Rất vui được hỗ trợ bạn!",
-        "Cảm ơn bạn, chúc bạn có chuyến đi an toàn 🚗✨"
-      ]
-    },
-    { pattern: /.+/i, isFallback:true,
-      answer: [
-        "Xin lỗi, mình chưa hiểu rõ câu hỏi này. Bạn thử hỏi 'Giá thuê xe', 'Xe ga', hoặc 'Thủ tục' nhé.",
-        "Mình chưa có dữ liệu câu hỏi này. Bạn có thể hỏi về bảng giá, loại xe, hoặc gọi 085.725.5868 nha."
-      ]
-    }
-  ];
-
-  /* ---------- SmartAnswer logic ---------- */
-  function smartAnswer(query){
-    const qn = normalize(query);
-    let best = null, bestScore = 0;
-    for(const rule of rules){
-      if(rule.isFallback) continue;
-      let score = 0;
-      if(rule.pattern.test(query) || rule.pattern.test(qn)) score += 2;
-      if(rule.keywords){
-        for(const kw of rule.keywords){
-          if(qn.includes(normalize(kw))) score += 1;
-        }
-      }
-      if(score > bestScore){ best = rule; bestScore = score; }
-    }
-    if(best && bestScore>0.5){
-      const a = best.answer[Math.floor(Math.random()*best.answer.length)];
-      return a;
-    }
-    // fallback
-    const fb = rules.find(r=>r.isFallback);
-    return fb? fb.answer[Math.floor(Math.random()*fb.answer.length)] : "Xin lỗi, mình chưa hiểu câu hỏi.";
-  }
-
-  /* ---------- SpellFix system ---------- */
-  const spellFixMap = {
-    'thue xe may':'thuê xe máy','xe so':'xe số','xe ga':'xe ga','thu tuc':'thủ tục',
-    'giay to':'giấy tờ','bang gia':'bảng giá','lien he':'liên hệ','thue xe ha noi':'thuê xe Hà Nội'
+  /* ---------- SpellFix map (extendable) ---------- */
+  const SPELL_FIX = {
+    'thue xe may': 'thuê xe máy',
+    'thue xe ha noi': 'thuê xe hà nội',
+    'xe so': 'xe số',
+    'xe ga': 'xe ga',
+    'thu tuc': 'thủ tục',
+    'giay to': 'giấy tờ',
+    'bang gia': 'bảng giá',
+    'lien he': 'liên hệ'
   };
-  function autoFix(text){
-    let t = text.toLowerCase();
-    for(const [wrong,right] of Object.entries(spellFixMap)){
-      const re = new RegExp(`\\b${wrong}\\b`,'gi');
-      t = t.replace(re,right);
-    }
+  function applySpellFix(text){
+    if(!text) return text;
+    let t = String(text);
+    Object.keys(SPELL_FIX).forEach(k=>{
+      const re = new RegExp('\\b'+k+'\\b','gi');
+      t = t.replace(re, SPELL_FIX[k]);
+    });
     return t;
   }
 
-  /* ---------- Theme sync (auto detect + body class) ---------- */
-  (function(){
-    function applyTheme(){
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      const dark = prefersDark || document.body.classList.contains('dark');
-      document.body.dataset.theme = dark?'dark':'light';
-    }
-    applyTheme();
-    try{ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change',applyTheme); }catch(e){}
-    const obs = new MutationObserver(applyTheme);
-    obs.observe(document.body,{attributes:true,attributeFilter:['class']});
-  })();
+  /* ---------- Smart Engine rules (v14 improved) ---------- */
+  const RULES = [
+    { pattern: /^(chào|hi|hello|alo|xin chào|hỗ trợ|giúp|hãy giúp|support)$/i,
+      answers: ["Chào bạn! Mình là MotoAI 🤖. Mình có thể giúp gì về thuê xe máy?", "Xin chào! Bạn cần hỏi về xe hay thủ tục?"] },
+    { pattern: /(xe số|wave|sirius|blade|future|exciter|winner|ex150)/i,
+      answers: ["Xe số tiết kiệm xăng, phù hợp đi phố và phượt nhẹ. Giá thuê từ ~100k/ngày.", "Bạn muốn xem bảng giá xe số hay thủ tục thuê?"] },
+    { pattern: /(xe ga|vision|lead|air blade|sh|vespa|grande)/i,
+      answers: ["Xe ga êm, cốp rộng; giá thuê thường 120k–150k/ngày.", "Bạn muốn mình gợi ý mẫu xe ga phù hợp không?"] },
+    { pattern: /(50cc|xe 50|không cần bằng|khong can bang|chua co bang)/i,
+      answers: ["Xe 50cc không cần GPLX (chỉ CCCD). Rất phù hợp học sinh/sinh viên.", "Bạn muốn xem giá hoặc mẫu 50cc?"] },
+    { pattern: /(thủ tục|thu tuc|giấy tờ|giay to|cần gì|can gi|điều kiện)/i,
+      answers: ["Thủ tục: CCCD + GPLX. Xe 50cc chỉ cần CCCD. Chúng tôi giữ giấy tờ gốc khi nhận xe.", "Bạn muốn mình gửi checklist thủ tục chi tiết?"] },
+    { pattern: /(giá|bảng giá|bao nhiêu|gia thue|bang gia)/i,
+      answers: ["Bảng giá: Xe số 100k–120k/ngày; Xe ga 120k–150k/ngày; Xe côn 200k–250k/ngày.", "Bạn cần báo giá theo ngày/tuần/tháng?"] },
+    { pattern: /(liên hệ|lien he|hotline|zalo|sđt|sdt|số điện thoại)/i,
+      answers: ["Liên hệ Hotline/Zalo: 085.725.5868. Gọi hoặc nhắn Zalo để đặt xe nhanh.", "Bạn muốn mình gọi giúp đặt xe (mô phỏng)?" ] },
+    { pattern: /(giao xe|ship|vận chuyển|van chuyen|sân bay|ben xe|tận nơi)/i,
+      answers: ["Chúng tôi giao xe tận nơi trong nội thành Hà Nội — miễn phí theo chính sách.", "Giao nhận tận nơi có hỗ trợ sân bay và bến xe. Bạn cần giao đến đâu?"] },
+    { pattern: /^(cảm ơn|cam on|thanks|ok|oke|tuyệt vời)$/i,
+      answers: ["Không có gì ạ! Rất vui được hỗ trợ bạn 😊", "Cảm ơn bạn — liên hệ 085.725.5868 khi cần nhé!"] }
+  ];
+  const FALLBACK = [
+    "Xin lỗi, mình chưa hiểu rõ. Bạn thử hỏi 'Giá thuê xe', 'Xe ga', 'Thủ tục' hoặc 'Liên hệ' nhé.",
+    "Mình chưa có dữ liệu cho câu hỏi này. Bạn thử đặt câu ngắn hơn hoặc hỏi về loại xe cụ thể."
+  ];
 
-  /* ---------- Learn (optional fetch from sitemap) ---------- */
-  async function learnFromRepo(){
-    try{
-      const sitemap = CFG.sitemapPath;
-      const res = await fetch(sitemap,{cache:'no-store'});
-      if(!res.ok) return;
-      const data = await res.json();
-      if(!data.pages) return;
-      const current = new Set(ST.corpus.map(c=>c.text));
-      let added=0;
-      for(const path of data.pages){
-        const r = await fetch(path,{cache:'no-store'});
-        if(!r.ok) continue;
-        const txt = await r.text();
-        const lines = txt.split(/[\r\n]+/).map(l=>l.trim()).filter(l=>l.length>CFG.minSentenceLength);
-        for(const t of lines){
-          if(!current.has(t)){
-            ST.corpus.push({id:ST.corpus.length,text:t,tokens:window.MotoAI_v14.tokenizeSafe(t)});
-            current.add(t); added++;
-          }
+  /* ---------- Smart answer function ---------- */
+  function smartAnswer(query){
+    if(!query) return null;
+    const qNorm = NORMALIZE(query);
+    let best = null; let bestScore = 0;
+    for(const r of RULES){
+      try{
+        if(r.pattern.test(query) || r.pattern.test(qNorm)) {
+          bestScore = 100; best = r; break;
         }
-      }
-      if(added>0) localStorage.setItem(CFG.corpusKey,JSON.stringify(ST.corpus));
-      console.log(`📘 MotoAI learned ${added} new texts.`);
-    }catch(e){ console.warn('MotoAI learnFromRepo error:',e); }
+      }catch(e){}
+    }
+    if(best){
+      const arr = best.answers || [];
+      if(arr.length) return arr[Math.floor(Math.random()*arr.length)];
+    }
+    // fallback to retrieval
+    const ret = retrieveBest(query);
+    if(ret) return ret;
+    // final fallback
+    return FALLBACK[Math.floor(Math.random()*FALLBACK.length)];
   }
 
-  /* ---------- Enhanced sendQuery (uses smartAnswer + spellfix + retrieval fallback) ---------- */
-  function smartSendQuery(text){
-    if(!text||!text.trim())return;
-    const inputEl=$('#motoai-input');
-    const sendBtn=$('#motoai-send');
-    if(ST.sendLock)return;
-    ST.sendLock=true;
-    if(sendBtn) sendBtn.disabled=true;
-    const fixed = autoFix(text);
-    window.MotoAI_v14.addMessage('user',fixed);
+  /* ---------- Learn from relatedSites (external domains) ---------- */
+  async function learnFromMySites(){
+    try{
+      console.log('%c🌐 MotoAI: learnFromMySites start', 'color:#0a84ff');
+      let added = 0;
+      const seen = new Set(STATE.corpus.map(c=>c.text));
+      for(const site of (CFG.relatedSites || [])){
+        try{
+          const res = await fetch(site, { cache: 'no-store', mode: 'cors' });
+          if(!res.ok){ console.warn('MotoAI: fetch failed', site, res.status); continue; }
+          const html = await res.text();
+          const tmp = document.createElement('div');
+          tmp.innerHTML = html;
+          const nodes = Array.from(tmp.querySelectorAll('p,h1,h2,h3,li,section,article'));
+          const texts = nodes.map(n => (n.textContent||'').trim()).filter(t => t.length > 40);
+          for(const t of texts){
+            if(!seen.has(t)){
+              STATE.corpus.push({ id: STATE.corpus.length, text: t, tokens: TOKENIZE(t), source: site });
+              seen.add(t);
+              added++;
+            }
+          }
+          console.log(`✅ MotoAI: learned ${texts.length} from ${site} (new +${added})`);
+        }catch(e){
+          // ignore CORS errors
+          console.warn('MotoAI: learnFromMySites error', site);
+        }
+      }
+      if(added>0) saveCorpus();
+      console.log('%c📘 MotoAI: learnFromMySites complete, new:', 'color:#0a84ff', added);
+    }catch(e){
+      console.error('MotoAI learnFromMySites error', e);
+    }
+  }
 
-    const name = window.MotoAI_v14.detectNameFromText(fixed);
+  /* ---------- Learn from repo sitemap ---------- */
+  async function learnFromRepo(){
+    try{
+      const last = parseInt(localStorage.getItem(CFG.lastLearnKey) || '0', 10);
+      if(last && (Date.now() - last) < CFG.learnIntervalMs){
+        console.log('MotoAI: skip learnFromRepo (recent)');
+        return;
+      }
+      const sitemap = CFG.sitemapPath;
+      console.log('%c📖 MotoAI: learnFromRepo reading', sitemap, '...', 'color:#0a84ff');
+      const res = await fetch(sitemap, { cache: 'no-store' });
+      if(!res.ok){ console.warn('MotoAI: sitemap fetch failed', sitemap); return; }
+      const data = await res.json();
+      if(!data || !Array.isArray(data.pages)){ console.warn('MotoAI: sitemap format invalid'); return; }
+      let added = 0;
+      const seen = new Set(STATE.corpus.map(c=>c.text));
+      for(const p of data.pages){
+        try{
+          const r = await fetch(p, { cache:'no-store' });
+          if(!r.ok) continue;
+          const txt = await r.text();
+          const tmp = document.createElement('div');
+          tmp.innerHTML = txt;
+          const nodes = Array.from(tmp.querySelectorAll('p,h1,h2,h3,li,section,article'));
+          const lines = nodes.map(n => (n.textContent||'').trim()).filter(t => t.length > CFG.minSentenceLength);
+          for(const t of lines){
+            if(!seen.has(t)){
+              STATE.corpus.push({ id: STATE.corpus.length, text: t, tokens: TOKENIZE(t), source: p });
+              seen.add(t);
+              added++;
+            }
+          }
+        }catch(e){}
+      }
+      if(added>0) saveCorpus();
+      localStorage.setItem(CFG.lastLearnKey, Date.now());
+      console.log('%c✅ MotoAI: learnFromRepo complete, new items:', 'color:#0a84ff', added);
+    }catch(e){
+      console.error('MotoAI learnFromRepo error', e);
+    }
+  }
+
+  /* ---------- Enhanced sendQuery (smart) ---------- */
+  function smartSendQuery(origText){
+    if(!origText || !origText.trim()) return;
+    const text = applySpellFix(origText);
+    const els = getEls();
+    if(STATE.sendLock) return;
+    STATE.sendLock = true;
+    if(els.send) els.send.disabled = true;
+
+    addMsg('user', text);
+
+    const name = detectName(text);
     if(name){
-      window.MotoAI_v14.addMessage('bot',`Đã nhớ tên: ${name} ✨`);
-      ST.sendLock=false;
-      if(sendBtn) sendBtn.disabled=false;
+      addMsg('bot', `Đã nhớ tên: ${name} ✨`);
+      STATE.sendLock = false;
+      if(els.send) els.send.disabled = false;
       return;
     }
 
-    showTypingDots();
+    showTyping();
     setTimeout(()=>{
       try{
-        let ans = smartAnswer(fixed);
-        if(!ans) ans = retrieveBestAnswer(fixed);
-        hideTypingDots();
-        window.MotoAI_v14.addMessage('bot', ans || 'Mình chưa có câu trả lời cho câu này.');
+        const reply = smartAnswer(text);
+        hideTyping();
+        if(reply) addMsg('bot', reply);
+        else addMsg('bot', 'Mình chưa tìm được câu trả lời, thử hỏi khác nhé.');
       }catch(e){
-        hideTypingDots();
-        window.MotoAI_v14.addMessage('bot','Lỗi khi xử lý câu hỏi.');
+        hideTyping();
+        addMsg('bot', 'Lỗi khi xử lý câu trả lời.');
         console.error(e);
       }finally{
-        ST.sendLock=false;
-        if(sendBtn) sendBtn.disabled=false;
+        STATE.sendLock = false;
+        if(els.send) els.send.disabled = false;
       }
-    }, 250);
+    }, 200);
   }
 
-  // override main send
+  // override basic send with smart
   window.MotoAI_v14.sendQuery = smartSendQuery;
 
-  /* ---------- Final bootstrap ---------- */
-  window.addEventListener('load', ()=>{
-    setTimeout(()=>{ learnFromRepo(); }, 1500);
-    console.log('%c🚀 MotoAI v14 Combo Standalone fully loaded — Ready!', 'color:#0a84ff;font-weight:bold;');
+  /* ---------- Bootstrap final actions ---------- */
+  function finalBoot(){
+    try{
+      // bind UI if not yet
+      try{ if(typeof bindUI === 'function') bindUI(); }catch(e){}
+      // load session & corpus, build corpus from DOM
+      try{ loadSession(); loadCorpus(); buildCorpusFromDOM(); }catch(e){}
+      // build suggestions UI
+      try{ buildSuggestions(); }catch(e){}
+      // bind smart send (already assigned)
+      // schedule learns
+      setTimeout(()=>{ learnFromMySites(); }, 900);
+      setTimeout(()=>{ learnFromRepo(); }, 1600);
+      // periodic rebuild guard
+      setInterval(()=>{ try{ buildCorpusFromDOM(); }catch(e){} }, 1000 * 60 * 60 * 6); // every 6h rebuild small
+      // small log
+      console.log('%c🚀 MotoAI v14 — Final bootstrap complete. AI ready!', 'color:#0a84ff;font-weight:bold;');
+    }catch(e){
+      console.error('MotoAI finalBoot error', e);
+    }
+  }
+
+  // run final boot when DOM fully loaded
+  if(document.readyState === 'loading'){
+    document.addEventListener('DOMContentLoaded', finalBoot);
+  } else {
+    setTimeout(finalBoot, 80);
+  }
+
+  // expose some API utilities
+  Object.assign(window.MotoAI_v14, {
+    smartAnswer,
+    learnFromMySites,
+    learnFromRepo,
+    applySpellFix,
+    getCorpus: ()=>STATE.corpus,
+    getSession: ()=>STATE.sessionMsgs,
+    rebuildCorpus: buildCorpusFromDOM
   });
 
-})(); // END of entire MotoAI v14 Combo Standalone
+  // final end of IIFE (Part 3 closes the whole file)
+})(); // END MotoAI v14 Combo Standalone — FULL (Parts 1+2+3)
