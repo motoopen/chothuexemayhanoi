@@ -1433,7 +1433,50 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </script>
 
-<!-- === MOTOAI ENGINE === -->
-<script src="https://cdn.jsdelivr.net/gh/motoopen/chothuexemayhanoi@main/motoai_v13pro_adaptive.js" defer></script>
-</body>
+<!-- === MOTOAI v13 PRO ADAPTIVE (SAFE PATCH) === -->
+<script>
+/* ✅ MotoAI v13 Pro Adaptive — Safe Light Mode Patch (by ChatGPT)
+   Phiên bản này đảm bảo:
+   - Không ghi đè màu web gốc
+   - Tự tạo vùng riêng (#motoai-root)
+   - Hiển thị nút 🤖 mà không phá layout
+*/
+window.MotoAITheme = {
+  respectHostTheme: true,     // Tôn trọng theme web gốc
+  disableAutoSwitch: true,    // Không tự đổi dark/light
+  darkClass: 'dark',          // Web bạn đang dùng class 'dark'
+  lightClass: '',             // Light mode mặc định
+  preserveCSSVariables: true, // Giữ nguyên biến màu gốc
+  logMode: true               // Hiển thị log trong console
+};
+
+// Tạo vùng root riêng + đợi AI khởi động
+(function(){
+  function ensureRoot(){
+    if(!document.getElementById("motoai-root")){
+      const root=document.createElement("div");
+      root.id="motoai-root";
+      root.style.all="initial";
+      root.style.position="fixed";
+      root.style.bottom="0";
+      root.style.right="0";
+      root.style.zIndex="9999";
+      document.body.appendChild(root);
+      console.log("%c✅ MotoAI root created","color:#0a84ff");
+    }
+  }
+  function waitForMotoAI(){
+    if(window.MotoAI && window.MotoAI.start){
+      console.log("%c🤖 MotoAI detected, launching...","color:#0a84ff");
+      window.MotoAI.start();
+    } else setTimeout(waitForMotoAI,300);
+  }
+  document.addEventListener("DOMContentLoaded",()=>{ensureRoot();waitForMotoAI();});
+})();
+</script>
+
+<!-- === MOTOAI ENGINE (Pro Adaptive) === -->
+<script src="https://cdn.jsdelivr.net/gh/motoopen/chothuexemayhanoi@main/motoai_v13pro_adaptive.js" crossorigin="anonymous"></script>
+
+  </body>
 </html>
