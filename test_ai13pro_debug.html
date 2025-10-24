@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🧠 MotoAI v13 Pro Adaptive — Debug Mode</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      padding: 40px;
+      background: var(--bg, #fff);
+      color: var(--text, #000);
+      transition: background 0.3s, color 0.3s;
+    }
+    h1 { color: #0a84ff; }
+    #status {
+      margin-top: 20px;
+      padding: 14px;
+      border-radius: 8px;
+      background: #f2f4f8;
+      font-size: 15px;
+      white-space: pre-wrap;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    button {
+      padding: 10px 16px;
+      border: none;
+      border-radius: 8px;
+      background: #0a84ff;
+      color: #fff;
+      cursor: pointer;
+      margin-top: 16px;
+      font-weight: 600;
+    }
+    .error { background: #ffecec; color: #d32f2f; }
+    .success { background: #e6fff2; color: #1b5e20; }
+  </style>
+</head>
+<body>
+  <h1>🤖 Demo MotoAI v13 Pro Adaptive (Debug)</h1>
+  <p>Hệ thống sẽ kiểm tra tự động xem file AI13Pro.js có load thành công không, và báo lỗi nếu có vấn đề.</p>
+
+  <button onclick="document.body.classList.toggle('dark')">🌗 Bật / Tắt Dark Mode</button>
+
+  <div id="status">⏳ Đang tải AI...</div>
+
+  <!-- MotoAI v13 Pro Adaptive -->
+  <script>
+    const statusBox = document.getElementById('status');
+    function setStatus(msg, ok){
+      statusBox.textContent = msg;
+      statusBox.className = ok ? 'success' : 'error';
+    }
+
+    (function(){
+      const s = document.createElement('script');
+      s.src = "https://motoopen.github.io/chothuexemayhanoi/ai13pro.js";
+      s.async = true;
+
+      s.onload = () => {
+        console.log("✅ MotoAI v13Pro loaded!");
+        setStatus("✅ MotoAI v13Pro đã tải thành công!\nHãy chờ 1–2 giây để bong bóng 🤖 xuất hiện.", true);
+
+        // kiểm tra hàm chính có tồn tại không
+        setTimeout(() => {
+          if (window.MotoAI_v10) {
+            setStatus("✅ MotoAI v13Pro hoạt động bình thường!\n🤖 Bạn sẽ thấy AI ở góc trái dưới.", true);
+          } else {
+            setStatus("⚠️ File JS tải được nhưng chưa khởi động được AI.\n→ Kiểm tra lại cú pháp file ai13pro.js hoặc xem Console (F12).", false);
+          }
+        }, 1500);
+      };
+
+      s.onerror = () => {
+        console.error("❌ Không load được AI13Pro.js");
+        setStatus("❌ Không thể tải file: ai13pro.js\n\nKiểm tra lại:\n- Đường dẫn script đúng chưa?\n- Có dư / thiếu dấu ngoặc hoặc dấu nháy không?\n- File có public trên GitHub Pages chưa?", false);
+      };
+
+      window.addEventListener("error", e => {
+        setStatus("💥 Lỗi khi chạy script: " + e.message + "\nTại: " + (e.filename||"") + ":" + (e.lineno||""), false);
+      });
+
+      document.body.appendChild(s);
+    })();
+  </script>
+  <!-- /MotoAI -->
+</body>
+</html>
