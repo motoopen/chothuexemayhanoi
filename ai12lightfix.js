@@ -715,68 +715,83 @@ window.addEventListener('load', () => {
 });
 
 })();
-/* === 🩹 MotoAI v12 — Safari iPhone Close Chat Fix (Final Stable JS) === */
+/* === 🚀 MotoAI v12 LightFix Sandbox (No Menu Conflict / iOS Safe) === */
 (function(){
-  document.addEventListener('DOMContentLoaded', ()=>{
-    const overlay = document.getElementById('motoai-overlay');
-    const card = document.getElementById('motoai-card');
-    const closeBtn = document.getElementById('motoai-close');
-    const input = document.getElementById('motoai-input');
+  window.addEventListener("load", () => {
+    console.log("⏳ Loading MotoAI v12 LightFix safely...");
 
-    if(!overlay || !card) return;
-
-    function closeChatBox(){
-      overlay.classList.remove('visible');
-      card.style.transform = 'translateY(110%)';
-      card.style.opacity = '0';
-      card.style.pointerEvents = 'none';
-      if(document.activeElement && typeof document.activeElement.blur === 'function'){
-        document.activeElement.blur(); // ngắt bàn phím ảo iOS
+    // === Sandbox Scope ===
+    const cssSandbox = `
+      #motoai-root, #motoai-root * {
+        all: unset;
+        box-sizing: border-box;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       }
-      document.body.style.overflow = '';
-      console.log('✅ MotoAI iOS close fix: chatbox closed');
-    }
-
-    if(closeBtn){
-      closeBtn.addEventListener('click', (e)=>{
-        e.preventDefault();
-        e.stopPropagation();
-        if(e.detail === 0) return;
-        closeChatBox();
-      });
-      closeBtn.addEventListener('touchend', (e)=>{
-        e.preventDefault();
-        e.stopPropagation();
-        closeChatBox();
-      });
-    }
-
-    overlay.addEventListener('click', (e)=>{
-      if(e.target === overlay){
-        e.preventDefault();
-        e.stopPropagation();
-        closeChatBox();
+      #motoai-root {
+        position: fixed !important;
+        left: 16px !important;
+        bottom: 18px !important;
+        z-index: 2147483647 !important;
+        pointer-events: none;
       }
-    });
+    `;
+    const sandboxStyle = document.createElement("style");
+    sandboxStyle.textContent = cssSandbox;
+    document.head.appendChild(sandboxStyle);
 
-    overlay.addEventListener('touchend', (e)=>{
-      if(e.target === overlay){
-        e.preventDefault();
-        e.stopPropagation();
-        closeChatBox();
-      }
-    });
+    // === Inject AI v12 core ===
+    const ai = document.createElement("script");
+    ai.src = "https://motoopen.github.io/chothuexemayhanoi/ai12core.js"; // file gốc v12
+    ai.defer = true;
+    ai.async = true;
+    ai.onload = () => {
+      console.log("✅ MotoAI v12 core loaded (sandboxed)");
 
-    document.addEventListener('keydown', (e)=>{
-      if(e.key === 'Escape') closeChatBox();
-    });
+      // iOS Safari close fix
+      const fixScript = document.createElement("script");
+      fixScript.textContent = `
+        (function(){
+          document.addEventListener('DOMContentLoaded', ()=>{
+            const overlay = document.getElementById('motoai-overlay');
+            const card = document.getElementById('motoai-card');
+            const closeBtn = document.getElementById('motoai-close');
+            const input = document.getElementById('motoai-input');
+            if(!overlay || !card) return;
 
-    if(input){
-      input.addEventListener('blur', ()=>{
-        setTimeout(()=>{
-          if(!document.activeElement || document.activeElement === document.body){}
-        }, 200);
-      });
-    }
+            function closeChatBox(){
+              overlay.classList.remove('visible');
+              card.style.transform = 'translateY(110%)';
+              card.style.opacity = '0';
+              card.style.pointerEvents = 'none';
+              if(document.activeElement && typeof document.activeElement.blur==='function')
+                document.activeElement.blur();
+              document.body.style.overflow = '';
+              console.log('✅ MotoAI iOS close fix: chatbox closed');
+            }
+
+            if(closeBtn){
+              ['click','touchend'].forEach(evt=>{
+                closeBtn.addEventListener(evt, e=>{
+                  e.preventDefault(); e.stopPropagation(); closeChatBox();
+                });
+              });
+            }
+            ['click','touchend'].forEach(evt=>{
+              overlay.addEventListener(evt, e=>{
+                if(e.target===overlay){ e.preventDefault(); e.stopPropagation(); closeChatBox(); }
+              });
+            });
+            document.addEventListener('keydown', e=>{
+              if(e.key==='Escape') closeChatBox();
+            });
+          });
+        })();
+      `;
+      document.body.appendChild(fixScript);
+
+      console.log("✅ MotoAI LightFix Sandbox ready (no conflict)");
+    };
+    ai.onerror = () => console.error("❌ Lỗi tải AI core (ai12core.js)");
+    document.body.appendChild(ai);
   });
 })();
