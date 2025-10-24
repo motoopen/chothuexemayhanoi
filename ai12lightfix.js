@@ -748,3 +748,36 @@ window.addEventListener('load', () => {
     });
   });
 })();
+
+/* === 🩹 MotoAI Light Mode — Close Chat Fix (Stable) === */
+(function(){
+  document.addEventListener('DOMContentLoaded', ()=>{
+    const overlay = document.getElementById('motoai-overlay');
+    const card = document.getElementById('motoai-card');
+    if(!overlay || !card) return;
+
+    // Khi click ra ngoài khung chat → đóng lại
+    overlay.addEventListener('click', (e)=>{
+      // Chỉ đóng nếu click chính overlay (không phải trong card)
+      if(e.target === overlay){
+        overlay.classList.remove('visible');
+        card.style.transform = 'translateY(110%)';
+        card.style.opacity = '0';
+        setTimeout(()=>{ card.style.pointerEvents = 'none'; }, 200);
+        console.log('💤 MotoAI đóng khung chat (overlay click)');
+      }
+    });
+
+    // Nút ✕ (nếu có)
+    const closeBtn = document.getElementById('motoai-close');
+    if(closeBtn){
+      closeBtn.addEventListener('click', ()=>{
+        overlay.classList.remove('visible');
+        card.style.transform = 'translateY(110%)';
+        card.style.opacity = '0';
+        setTimeout(()=>{ card.style.pointerEvents = 'none'; }, 200);
+        console.log('❌ MotoAI đóng khung chat (nút X)');
+      });
+    }
+  });
+})();
