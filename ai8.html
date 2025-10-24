@@ -1,39 +1,43 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Test MotoAI v8 — Demo</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MotoAI v13 Fix Test</title>
   <style>
-    :root{--accent:#007aff;--bg:#f5f7fa;--card:#fff;--text:#111}
-    html,body{height:100%;margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,Arial;background:var(--bg);color:var(--text)}
-    .wrap{max-width:900px;margin:36px auto;padding:20px}
-    h1{color:var(--accent);margin:0 0 8px}
-    .card{background:var(--card);border-radius:12px;padding:18px;box-shadow:0 8px 30px rgba(0,0,0,0.06)}
-    p{line-height:1.6;color:#333}
-    .note{margin-top:14px;color:#666;font-size:0.95rem}
-    @media(prefers-color-scheme:dark){
-      :root{--bg:#0b0c10;--card:#121215;--text:#e6e6e9}
-      .card{box-shadow:0 8px 30px rgba(0,0,0,0.6)}
-      p{color:#d8d8da}
-      .note{color:#a8a8ad}
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #111;
+      text-align: center;
+    }
+    header {
+      padding: 60px 20px;
+      font-size: 1.4rem;
+      font-weight: 600;
+    }
+    p { max-width: 640px; margin: 10px auto; line-height: 1.6; }
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      font-size: 0.9rem;
+      opacity: 0.7;
     }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <h1>Demo MotoAI v8</h1>
-    <div class="card">
-      <h2>Nội dung để AI học</h2>
-      <p><strong>Xe số:</strong> Honda Wave, Yamaha Sirius — bền, tiết kiệm xăng, phù hợp di chuyển xa và thuê dài ngày.</p>
-      <p><strong>Xe ga:</strong> Honda Vision, Air Blade — tiện lợi cho đi phố, mẫu mã đa dạng, dễ điều khiển cho người mới.</p>
-      <p><strong>Thủ tục thuê:</strong> Cần CCCD/CMND hoặc hộ chiếu, đặt cọc 1-3 triệu tùy loại xe, ký hợp đồng thuê, giao xe tận nơi trong nội thành.</p>
-      <p><strong>Giá:</strong> Từ 150k – 250k/ngày, thuê tháng ưu đãi từ 1 triệu – 2 triệu.</p>
-      <div class="note">Mở chat (góc trái dưới) và hỏi: "Giá thuê xe máy", "Thủ tục thuê xe" hoặc "Xe ga phù hợp ai".</div>
-    </div>
-  </div>
 
-  <!-- Nhúng MotoAI v8 -->
-  <script src="https://cdn.jsdelivr.net/gh/motoopen/chothuexemayhanoi@main/motoai_embed_v8.js?v=20251120" defer crossorigin="anonymous"></script>
+  <header>🚀 MotoAI v13 Fix Test Page</header>
+  <p>Trang này dùng để kiểm tra AI hoạt động ổn định ở <b>Dark / Light Mode</b> và trên Safari iPhone.</p>
+  <p>Bạn có thể ấn 🤖 ở góc trái để bật chat và thử gửi tin nhắn.</p>
+
+  <footer>© 2025 MotoAI Adaptive</footer>
+
+  <!-- MotoAI v13Fix -->
+  <script src="https://motoopen.github.io/chothuexemayhanoi/ai13fix.js"></script>
+  <!-- /MotoAI -->
+
 </body>
 </html>
