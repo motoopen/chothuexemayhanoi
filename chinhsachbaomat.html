@@ -1444,7 +1444,37 @@
     })();
   </script>
   
-<!-- MotoAI v13 Hybrid Pro -->
-<script src="https://cdn.jsdelivr.net/gh/motoopen/chothuexemayhanoi@main/motoai_v13_combo_standalone.js" defer></script>
+<!-- === FIX LIGHT MODE CONFLICT === -->
+<script>
+/* ===========================
+🚫 MotoAI v13 Patch: Fix Light Mode Conflict (by ChatGPT)
+=========================== */
+window.MotoAITheme = {
+  respectHostTheme: true,
+  disableAutoSwitch: true,
+  darkClass: 'dark',
+  lightClass: '',
+  preserveCSSVariables: true,
+  logMode: true
+};
+
+document.addEventListener("DOMContentLoaded", () => {
+  if (!document.getElementById("motoai-root")) {
+    const root = document.createElement("div");
+    root.id = "motoai-root";
+    root.style.all = "initial";
+    root.style.position = "fixed";
+    root.style.bottom = "0";
+    root.style.right = "0";
+    root.style.zIndex = "9999";
+    document.body.appendChild(root);
+  }
+
+  console.log("%c✅ MotoAI v13 Patch applied successfully!", "color:#0a84ff;font-weight:bold;");
+});
+</script>
+
+<!-- === MOTOAI ENGINE === -->
+<script src="https://cdn.jsdelivr.net/gh/motoopen/chothuexemayhanoi@main/motoai_v13pro_adaptive.js" defer></script>
 </body>
 </html>
