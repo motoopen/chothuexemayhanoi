@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Test MotoAI v13 Pro Adaptive - Light Mode Fix</title>
+
+  <style>
+    :root {
+      --bg: #f5f5f7;
+      --text: #1d1d1f;
+      --accent: #007aff;
+    }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, Inter, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 80px 20px;
+      transition: background .3s, color .3s;
+    }
+    h1 { color: var(--accent); }
+    button {
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 18px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    button:hover { opacity: 0.85; }
+    body.dark {
+      --bg: #1c1c1e;
+      --text: #f2f2f7;
+      --accent: #0a84ff;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>🚀 Test MotoAI v13 Pro Adaptive</h1>
+  <p>Kiểm tra lỗi Light / Dark Mode và tích hợp AI</p>
+  <button id="toggle">Đổi Dark / Light</button>
+
+  <script>
+    const body = document.body;
+    document.getElementById("toggle").onclick = () => {
+      body.classList.toggle("dark");
+    };
+  </script>
+
+  <!-- === FIX LIGHT MODE CONFLICT === -->
+  <script>
+  window.MotoAITheme = {
+    respectHostTheme: true,
+    disableAutoSwitch: true,
+    darkClass: 'dark',
+    lightClass: '',
+    preserveCSSVariables: true,
+    logMode: true
+  };
+
+  document.addEventListener("DOMContentLoaded", () => {
+    if (!document.getElementById("motoai-root")) {
+      const root = document.createElement("div");
+      root.id = "motoai-root";
+      root.style.all = "initial";
+      root.style.position = "fixed";
+      root.style.bottom = "0";
+      root.style.right = "0";
+      root.style.zIndex = "9999";
+      document.body.appendChild(root);
+    }
+
+    console.log("%c✅ MotoAI v13 Patch test active!", "color:#0a84ff;font-weight:bold;");
+  });
+  </script>
+
+  <!-- === MOTOAI ENGINE === -->
+  <script src="https://cdn.jsdelivr.net/gh/motoopen/chothuexemayhanoi@main/motoai_v13pro_adaptive.js" defer></script>
+</body>
+</html>
