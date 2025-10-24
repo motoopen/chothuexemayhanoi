@@ -1,5 +1,3 @@
-(function(){
-
 /* ==================================================================
 🧠 MotoAI v12/v13 Pro — LOCAL SMART ENGINE (Standalone)
 ==================================================================
@@ -1004,12 +1002,11 @@ window.addEventListener('load', () => {
   }, 2500);
 });
 
-// })(); // <-- ĐÃ GỠ BỎ IIFE LỒNG NHAU NÀY
 
-/* === 🌗 MotoAI v13 Pro Adaptive Patch === */
+/* === 🌗 MotoAI v13 Pro Adaptive Patch (Theme) === */
 
 // ⚙️ Tự động chọn theme (Dark / Light)
-// (function(){ // <-- ĐÃ GỠ BỎ IIFE LỒNG NHAU NÀY
+(function(){ 
   const setTheme_Adaptive = ()=>{ // Đổi tên biến để tránh xung đột
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     const hasBodyDark = document.body.classList.contains('dark');
@@ -1035,10 +1032,10 @@ window.addEventListener('load', () => {
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', setTheme_Adaptive);
   const mo = new MutationObserver(setTheme_Adaptive);
   mo.observe(document.body,{attributes:true,attributeFilter:['class']});
-// })(); // <-- ĐÃ GỠ BỎ IIFE LỒNG NHAU NÀY
+})(); 
 
 // 💾 Nâng cấp caching + auto refresh corpus mỗi 72h
-// (function(){ // <-- ĐÃ GỠ BỎ IIFE LỒNG NHAU NÀY
+(function(){ 
   const now = Date.now();
   const last = parseInt(localStorage.getItem('MotoAI_lastCorpusBuild')||'0',10);
   const seventyTwoHrs = 72*60*60*1000;
@@ -1047,10 +1044,10 @@ window.addEventListener('load', () => {
     try{ if(window.MotoAI_v10 && window.MotoAI_v10.rebuildCorpus) window.MotoAI_v10.rebuildCorpus(); }catch(e){}
     localStorage.setItem('MotoAI_lastCorpusBuild',now);
   }
-// })(); // <-- ĐÃ GỠ BỎ IIFE LỒNG NHAU NÀY
+})(); 
 
 // ✨ CSS Light Mode nâng cấp rõ nét hơn
-// (function(){ // <-- ĐÃ GỠ BỎ IIFE LỒNG NHAU NÀY
+(function(){ 
   const extraCSS = `
   @media (prefers-color-scheme: light){
     :root{
@@ -1069,14 +1066,12 @@ window.addEventListener('load', () => {
   const st = document.createElement('style');
   st.textContent = extraCSS;
   document.head.appendChild(st);
-// })(); // <-- ĐÃ GỠ BỎ IIFE LỒNG NHAU NÀY
+})(); 
 
 // ⚡️ Thêm log để xác nhận bản build
 console.log('%cMotoAI v13 Pro Adaptive — Active (Dark + Light + Auto Learn)', 'color:#0a84ff;font-weight:bold;');
 
 // ✅ Bắt buộc khởi động AI khi toàn bộ script load xong
-// ĐOẠN MÃ MỚI CỦA BẠN ĐƯỢC THÊM VÀO ĐÂY
-// (Và bây giờ nó sẽ hoạt động vì `init` đã ở cùng scope)
 window.addEventListener('DOMContentLoaded', ()=>{
   try{
     if(window.MotoAI_v10 && typeof window.MotoAI_v10.open === 'function'){
@@ -1092,23 +1087,33 @@ window.addEventListener('DOMContentLoaded', ()=>{
   }
 });
 
-})();
-
+// === 🩹 Light Mode Chat Open Fix (Bản vá của người dùng) ===
 (function(){
   document.addEventListener('DOMContentLoaded', ()=>{
     const bubble = document.getElementById('motoai-bubble');
     const overlay = document.getElementById('motoai-overlay');
     const card = document.getElementById('motoai-card');
+
     if(!bubble || !overlay || !card) return;
+
     bubble.addEventListener('click', ()=>{
       setTimeout(()=>{
-        if(!overlay.classList.contains('visible')){
+        // Nếu Light Mode mà chat chưa sổ => ép hiển thị
+        const computedVisible = overlay.classList.contains('visible');
+        const darkMode = window.matchMedia('(prefers-color-scheme: dark)').matches || document.body.classList.contains('dark');
+        
+        // Kiểm tra: Nếu chưa visible VÀ KHÔNG phải Dark Mode (tức là Light Mode)
+        if(!computedVisible && !darkMode){
           overlay.classList.add('visible');
           card.style.transform = 'translateY(0)';
           card.style.opacity = '1';
-          console.log('💡 Auto-open patch applied (Light mode fix)');
+          card.setAttribute('aria-hidden','false');
+          overlay.setAttribute('aria-hidden','false');
+          console.log('💡 Auto-open patch applied (Light mode fixed)');
         }
-      },180);
+      }, 200); // Đợi 200ms để đảm bảo click handler chính đã chạy xong
     });
   });
 })();
+// === END OF PATCH ===
+
