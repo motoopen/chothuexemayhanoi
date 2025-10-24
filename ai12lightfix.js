@@ -715,68 +715,67 @@ window.addEventListener('load', () => {
 });
 
 })();
-/* === 🩹 MotoAI Light Mode Display Fix — Stable Patch for ai12skin.js === */
+/* === 🩹 MotoAI v12 — Safari iPhone Close Chat Fix (Final Stable JS) === */
 (function(){
   document.addEventListener('DOMContentLoaded', ()=>{
-    const bubble = document.getElementById('motoai-bubble');
     const overlay = document.getElementById('motoai-overlay');
     const card = document.getElementById('motoai-card');
+    const closeBtn = document.getElementById('motoai-close');
     const input = document.getElementById('motoai-input');
-    if(!bubble || !overlay || !card) return;
 
-    bubble.addEventListener('click', ()=>{
-      const isVisible = overlay.classList.contains('visible');
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      const hasBodyDark = document.body.classList.contains('dark');
-      const isDark = prefersDark || hasBodyDark;
-
-      if(!isVisible){
-        overlay.classList.add('visible');
-        card.style.transform = 'translateY(0)';
-        card.style.opacity = '1';
-        card.style.pointerEvents = 'auto';
-        // ⚡️ Force reflow giúp Light Mode hiển thị ngay
-        void card.offsetHeight;
-        if(!isDark) card.style.background = 'rgba(255,255,255,0.98)';
-        setTimeout(()=>{ try{ input && input.focus(); }catch(e){} }, 280);
-      } else {
-        overlay.classList.remove('visible');
-        card.style.transform = 'translateY(110%)';
-        card.style.opacity = '0';
-        setTimeout(()=>{ card.style.pointerEvents = 'none'; }, 250);
-      }
-    });
-  });
-})();
-
-/* === 🩹 MotoAI Light Mode — Close Chat Fix (Stable) === */
-(function(){
-  document.addEventListener('DOMContentLoaded', ()=>{
-    const overlay = document.getElementById('motoai-overlay');
-    const card = document.getElementById('motoai-card');
     if(!overlay || !card) return;
 
-    // Khi click ra ngoài khung chat → đóng lại
+    function closeChatBox(){
+      overlay.classList.remove('visible');
+      card.style.transform = 'translateY(110%)';
+      card.style.opacity = '0';
+      card.style.pointerEvents = 'none';
+      if(document.activeElement && typeof document.activeElement.blur === 'function'){
+        document.activeElement.blur(); // ngắt bàn phím ảo iOS
+      }
+      document.body.style.overflow = '';
+      console.log('✅ MotoAI iOS close fix: chatbox closed');
+    }
+
+    if(closeBtn){
+      closeBtn.addEventListener('click', (e)=>{
+        e.preventDefault();
+        e.stopPropagation();
+        if(e.detail === 0) return;
+        closeChatBox();
+      });
+      closeBtn.addEventListener('touchend', (e)=>{
+        e.preventDefault();
+        e.stopPropagation();
+        closeChatBox();
+      });
+    }
+
     overlay.addEventListener('click', (e)=>{
-      // Chỉ đóng nếu click chính overlay (không phải trong card)
       if(e.target === overlay){
-        overlay.classList.remove('visible');
-        card.style.transform = 'translateY(110%)';
-        card.style.opacity = '0';
-        setTimeout(()=>{ card.style.pointerEvents = 'none'; }, 200);
-        console.log('💤 MotoAI đóng khung chat (overlay click)');
+        e.preventDefault();
+        e.stopPropagation();
+        closeChatBox();
       }
     });
 
-    // Nút ✕ (nếu có)
-    const closeBtn = document.getElementById('motoai-close');
-    if(closeBtn){
-      closeBtn.addEventListener('click', ()=>{
-        overlay.classList.remove('visible');
-        card.style.transform = 'translateY(110%)';
-        card.style.opacity = '0';
-        setTimeout(()=>{ card.style.pointerEvents = 'none'; }, 200);
-        console.log('❌ MotoAI đóng khung chat (nút X)');
+    overlay.addEventListener('touchend', (e)=>{
+      if(e.target === overlay){
+        e.preventDefault();
+        e.stopPropagation();
+        closeChatBox();
+      }
+    });
+
+    document.addEventListener('keydown', (e)=>{
+      if(e.key === 'Escape') closeChatBox();
+    });
+
+    if(input){
+      input.addEventListener('blur', ()=>{
+        setTimeout(()=>{
+          if(!document.activeElement || document.activeElement === document.body){}
+        }, 200);
       });
     }
   });
