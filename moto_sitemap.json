@@ -1,9 +1,28 @@
 {
   "pages": [
-    "/index.html",
-    "/gioithieu.html",
-    "/banggia.html",
-    "/lienhe.html",
-    "/moto_corpus.txt"
+    "https://motoopen.github.io/chothuexemayhanoi/index.html",
+    "https://motoopen.github.io/chothuexemayhanoi/gioithieu.html",
+    "https://motoopen.github.io/chothuexemayhanoi/dichvu.html",
+    "https://motoopen.github.io/chothuexemayhanoi/banggia.html",
+    "https://motoopen.github.io/chothuexemayhanoi/thutuc.html",
+    "https://motoopen.github.io/chothuexemayhanoi/loaixe.html",
+    "https://motoopen.github.io/chothuexemayhanoi/huongdan.html",
+    "https://motoopen.github.io/chothuexemayhanoi/kinhnghiem.html",
+    "https://motoopen.github.io/chothuexemayhanoi/faq.html",
+    "https://motoopen.github.io/chothuexemayhanoi/lienhe.html",
+    "https://motoopen.github.io/chothuexemayhanoi/dieukhoansudung.html",
+    "https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html",
+
+    /* 🌐 Dữ liệu dạng text trong thư mục /du-lieu/ */
+    "https://motoopen.github.io/chothuexemayhanoi/du-lieu/thuengay.txt",
+    "https://motoopen.github.io/chothuexemayhanoi/du-lieu/tuan.txt",
+    "https://motoopen.github.io/chothuexemayhanoi/du-lieu/thang.txt",
+    "https://motoopen.github.io/chothuexemayhanoi/du-lieu/xe50cc.txt",
+    "https://motoopen.github.io/chothuexemayhanoi/du-lieu/xeso.txt",
+    "https://motoopen.github.io/chothuexemayhanoi/du-lieu/xega.txt",
+    "https://motoopen.github.io/chothuexemayhanoi/du-lieu/diachi.txt",
+    "https://motoopen.github.io/chothuexemayhanoi/du-lieu/lienhe.txt",
+    "https://motoopen.github.io/chothuexemayhanoi/du-lieu/giathue.txt",
+    "https://motoopen.github.io/chothuexemayhanoi/du-lieu/huongdanthue.txt"
   ]
 }
