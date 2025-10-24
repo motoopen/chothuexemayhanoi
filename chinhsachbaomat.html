@@ -1161,7 +1161,7 @@
 
   </main>
 
-  <footer class="premium">
+<footer class="premium">
   <div>
     <h4>Trang</h4>
     <a href="https://motoopen.github.io/chothuexemayhanoi/"><i class="fa-solid fa-house"></i> Trang chủ</a>
@@ -1178,6 +1178,7 @@
     <a href="https://motoopen.github.io/chothuexemayhanoi/huongdan.html"><i class="fa-solid fa-book"></i> Hướng dẫn</a>
     <a href="https://motoopen.github.io/chothuexemayhanoi/kinhnghiem.html"><i class="fa-solid fa-lightbulb"></i> Kinh nghiệm</a>
   </div>
+
   <div>
     <h4>Liên hệ</h4>
     <a href="tel:0857255868"><i class="fa-solid fa-phone"></i> Gọi 0857 255 868</a>
@@ -1199,7 +1200,6 @@
       <a href="https://www.instagram.com/motoopen/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
       <a href="https://www.pinterest.com/motoopen12/" target="_blank" title="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
     </div>
-    
     <p class="author" style="margin-top: 6px;">
       <i class="fa-solid fa-copyright"></i> 2025 Motoopen – Cho thuê xe máy Hà Nội. All Rights Reserved.
     </p>
@@ -1212,20 +1212,56 @@
     </div>
   </div>
 </footer>
-  <div class="quick-call-game">
-    <button class="quick-main" aria-label="Mở menu gọi nhanh" title="Menu gọi nhanh">
-      <i class="fa-solid fa-phone"></i>
-    </button>
-    <div class="quick-sub">
-      <a href="tel:0857255868" aria-label="Gọi ngay 0857 255 868" title="Gọi ngay: 0857 255 868"><i class="fa-solid fa-phone"></i></a>
-      <a href="https://zalo.me/0857255868" target="_blank" aria-label="Chat Zalo 0857255868" title="Chat Zalo: 0857255868"><i class="fa-solid fa-comment-dots"></i></a>
-      <a href="https://maps.app.goo.gl/dTLAo1aHMvytByf99?g_st=ipc" target="_blank" aria-label="Bản đồ" title="Địa chỉ: 114 Nguyễn Văn Cừ"><i class="fa-solid fa-location-dot"></i></a>
-    </div>
-  </div>
 
-  <div class="back-top" title="Back to Top">
-    <i class="fa-solid fa-arrow-up"></i>
+<div class="quick-call-game">
+  <button class="quick-main" aria-label="Mở menu gọi nhanh" title="Menu gọi nhanh">
+    <i class="fa-solid fa-phone"></i>
+  </button>
+  <div class="quick-sub">
+    <a href="tel:0857255868" aria-label="Gọi ngay 0857 255 868" title="Gọi ngay: 0857 255 868"><i class="fa-solid fa-phone"></i></a>
+    <a href="https://zalo.me/0857255868" target="_blank" aria-label="Chat Zalo 0857255868" title="Chat Zalo: 0857255868"><i class="fa-solid fa-comment-dots"></i></a>
+    <a href="https://maps.app.goo.gl/dTLAo1aHMvytByf99?g_st=ipc" target="_blank" aria-label="Bản đồ" title="Địa chỉ: 114 Nguyễn Văn Cừ"><i class="fa-solid fa-location-dot"></i></a>
   </div>
+</div>
+
+<div class="back-top" title="Back to Top">
+  <i class="fa-solid fa-arrow-up"></i>
+</div>
+
+<!-- === FIX LIGHT MODE CONFLICT + AUTO ROOT === -->
+<script>
+/* ✅ MotoAI v13 Pro Adaptive — Final Integrated Patch (by ChatGPT) */
+window.MotoAITheme = {
+  respectHostTheme: true,
+  disableAutoSwitch: true,
+  darkClass: 'dark',
+  lightClass: '',
+  preserveCSSVariables: true,
+  logMode: true
+};
+
+(function(){
+  function ensureRoot(){
+    if(!document.getElementById("motoai-root")){
+      const root = document.createElement("div");
+      root.id = "motoai-root";
+      root.style.all = "initial";
+      root.style.position = "fixed";
+      root.style.bottom = "0";
+      root.style.right = "0";
+      root.style.zIndex = "9999";
+      document.body.appendChild(root);
+      console.log("%c✅ MotoAI root created","color:#0a84ff");
+    }
+  }
+  function waitForMotoAI(){
+    if(window.MotoAI && window.MotoAI.start){
+      console.log("%c🤖 MotoAI detected, launching...","color:#0a84ff");
+      window.MotoAI.start();
+    } else setTimeout(waitForMotoAI,300);
+  }
+  document.addEventListener("DOMContentLoaded",()=>{ ensureRoot(); waitForMotoAI(); });
+})();
 </script>
 
 <!-- === MOTOAI ENGINE (Pro Adaptive) === -->
