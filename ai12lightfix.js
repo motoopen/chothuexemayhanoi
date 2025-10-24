@@ -845,4 +845,52 @@ window.addEventListener('load', () => {
 
 // ⚡️ Thêm log để xác nhận bản build
 console.log('%cMotoAI v13 Pro Adaptive — Active (Dark + Light + Auto Learn)', 'color:#0a84ff;font-weight:bold;');})();
+// === 🩹 MotoAI v13Pro — Fix lỗi Light Mode không hiển thị khung chat (2025 Stable) ===
+(function(){
+  document.addEventListener('DOMContentLoaded', ()=>{
+    const bubble = document.getElementById('motoai-bubble');
+    const overlay = document.getElementById('motoai-overlay');
+    const card = document.getElementById('motoai-card');
+    const input = document.getElementById('motoai-input');
+    if(!bubble || !overlay || !card) return;
+
+    let opening = false;
+
+    bubble.addEventListener('click', ()=>{
+      if(opening) return;
+      opening = true;
+
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const hasBodyDark = document.body.classList.contains('dark');
+      const isDark = prefersDark || hasBodyDark;
+
+      requestAnimationFrame(()=>{
+        if(!isDark && !overlay.classList.contains('visible')){
+          overlay.classList.add('visible');
+          card.style.transform = 'translateY(0)';
+          card.style.opacity = '1';
+          card.style.pointerEvents = 'auto';
+          card.setAttribute('aria-hidden','false');
+          overlay.setAttribute('aria-hidden','false');
+
+          setTimeout(()=>{
+            try{ input && input.focus(); }catch(e){}
+          }, 300);
+          console.log('💡 MotoAI LightMode: khung chat hiển thị thủ công (fix)');
+        } 
+        else if(isDark && !overlay.classList.contains('visible')){
+          overlay.classList.add('visible');
+          card.style.transform = 'translateY(0)';
+          card.style.opacity = '1';
+        } else {
+          overlay.classList.remove('visible');
+          card.style.transform = 'translateY(110%)';
+          card.style.opacity = '0';
+        }
+
+        opening = false;
+      });
+    });
+  });
+})();
 
