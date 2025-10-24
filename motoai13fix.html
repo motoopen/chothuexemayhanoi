@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cho thuê xe máy Hà Nội — Test MotoAI</title>
+  <meta name="description" content="Trang demo để test MotoAI (fix13-1-new.js). Có menu đơn giản và chế độ Dark/Light." />
+  <style>
+    :root{
+      --bg:#ffffff; --text:#111;
+      --primary:#0a84ff; --muted:#667085;
+      --card:#fff; --footer-bg:rgba(255,255,255,0.9);
+    }
+    body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background:var(--bg); color:var(--text); transition:background .25s, color .25s; }
+    header{ display:flex; align-items:center; justify-content:space-between; gap:12px; padding:18px 20px; background:linear-gradient(90deg,var(--primary),#0066d9); color:white; }
+    header .brand { font-weight:800; font-size:1.05rem; }
+    nav { display:flex; gap:12px; align-items:center; }
+    nav a { color:rgba(255,255,255,0.95); text-decoration:none; font-weight:600; padding:6px 10px; border-radius:8px; }
+    nav a:hover { background:rgba(255,255,255,0.06); }
+
+    .topbar { display:flex; gap:12px; align-items:center; }
+    .toggle-btn { background:rgba(255,255,255,0.12); border:none; color:white; padding:6px 10px; border-radius:8px; cursor:pointer; }
+
+    main{ max-width:980px; margin:28px auto; padding:0 18px 80px; }
+    .hero{ background:var(--card); padding:22px; border-radius:12px; box-shadow:0 8px 24px rgba(2,6,23,0.06); }
+    h1{ margin:0 0 8px 0; font-size:1.5rem; }
+    p.lead{ margin:0 0 12px 0; color:var(--muted); }
+
+    section{ margin-top:20px; }
+    .grid{ display:grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap:12px; margin-top:12px; }
+    .card{ background:var(--card); padding:12px; border-radius:10px; box-shadow:0 6px 18px rgba(2,6,23,0.04); }
+
+    footer{ position:fixed; left:0; right:0; bottom:0; padding:10px 18px; background:var(--footer-bg); display:flex; justify-content:center; font-size:0.95rem; }
+    a.cta{ display:inline-block; background:var(--primary); color:#fff; padding:8px 12px; border-radius:10px; text-decoration:none; }
+
+    /* Dark mode */
+    body.dark{
+      --bg:#0f1113; --text:#e6e7ea; --card:#0b0c0f; --footer-bg:rgba(20,20,24,0.9); --muted:#97a1b7;
+    }
+    /* Ensure MotoAI variables don't get stomped */
+    :root { --moto-card-bg: var(--card); --moto-bg: var(--bg); --moto-text: var(--text); --moto-footer: var(--footer-bg); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">Cho thuê xe máy Hà Nội</div>
+    <div class="topbar">
+      <nav>
+        <a href="#home">Trang chủ</a>
+        <a href="#services">Dịch vụ</a>
+        <a href="#contact">Liên hệ</a>
+      </nav>
+      <button id="themeToggle" class="toggle-btn" aria-label="Chuyển chế độ">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <h1>Thuê xe máy nhanh — Giao tận nơi</h1>
+      <p class="lead">Test trang chứa nội dung để MotoAI quét và học. Hãy thử hỏi “Giá thuê”, “Thủ tục” khi chat với AI.</p>
+      <div class="grid">
+        <div class="card">
+          <h3>Xe số</h3>
+          <p>Xe số: Wave, Sirius — Giá thuê từ 100k/ngày. Thích hợp đi phố và phượt ngắn.</p>
+        </div>
+        <div class="card">
+          <h3>Xe ga</h3>
+          <p>Xe ga: Vision, Lead — Giá thuê từ 120k/ngày. Tiện lợi, cốp rộng, phù hợp đi trong nội thành.</p>
+        </div>
+        <div class="card">
+          <h3>Xe côn</h3>
+          <p>Exciter, Winner — Giá thuê cho phượt hoặc nhu cầu mạnh mẽ, giá cao hơn.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <h2>Dịch vụ</h2>
+      <p>Giao xe tận nơi trong nội thành Hà Nội. Thủ tục nhanh gọn: CCCD + GPLX (xe 50cc chỉ cần CCCD).</p>
+    </section>
+
+    <section id="contact">
+      <h2>Liên hệ</h2>
+      <p>Hotline/Zalo: <strong>0942467674</strong></p>
+      <p>Địa chỉ: 112 Nguyễn Văn Cừ, Bồ Đề, Long Biên, Hà Nội</p>
+    </section>
+  </main>
+
+  <footer>© 2025 Thuê Xe Máy — <a class="cta" href="#contact">Liên hệ</a></footer>
+
+  <script>
+    // Theme toggle with localStorage
+    (function(){
+      const btn = document.getElementById('themeToggle');
+      const root = document.documentElement;
+      function setMode(dark){
+        if(dark) document.body.classList.add('dark');
+        else document.body.classList.remove('dark');
+        localStorage.setItem('site-theme-dark',''+!!dark);
+        btn.textContent = dark ? '☀️' : '🌙';
+      }
+      // init from storage or prefers-color-scheme
+      const saved = localStorage.getItem('site-theme-dark');
+      if(saved === null){
+        const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        setMode(prefersDark);
+      } else {
+        setMode(saved === 'true');
+      }
+      btn.addEventListener('click', ()=> setMode(!document.body.classList.contains('dark')));
+    })();
+  </script>
+
+  <!-- Nhúng file AI của bạn -->
+  <script src="fix13-1-new.js"></script>
+</body>
+</html>
