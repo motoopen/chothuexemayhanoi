@@ -1,297 +1,58 @@
-/* ==================================================================
-🧠 MotoAI v12/v13 Pro — LOCAL SMART ENGINE (Standalone)
-==================================================================
-(This part provides window.MotoAI_v10.smartAnswer)
-*/
-
-// Định nghĩa các quy tắc và câu trả lời cố định
-const rules = [
-  // 1. Chào hỏi & Giới thiệu
-  { pattern: /^(chào|hi|hello|alo|xin chào|hỗ trợ|giúp|cứu|hỏi)$/i, 
-    answer: [
-      "Chào bạn! Mình là MotoAI 🤖. Mình có thể giúp gì về thuê xe máy nhỉ?",
-      "Xin chào! Bạn muốn hỏi về xe số, xe ga, thủ tục hay bảng giá thuê xe?",
-      "MotoAI nghe! Bạn cần hỗ trợ thông tin gì ạ?"
-    ] 
-  },
-  
-  // 2. Hỏi về "Xe số"
-  { pattern: /(xe số|xe wave|xe sirius|xe blade|vision|wave rsx|future|ex150|exciter 150|winner x|winner 150)/i, 
-    keywords: ['xe số', 'wave', 'sirius', 'blade', 'future', 'exciter', 'winner', 'ex150'],
-    answer: [
-      "Bạn tham khảo xe số nhé! 🏍️ Xe số thường tiết kiệm xăng, giá thuê rẻ, phù hợp đi lại hàng ngày hoặc đi phượt nhẹ nhàng. Bạn muốn xem bảng giá xe số không?",
-      "Xe số (như Wave, Sirius) có giá thuê rất tốt, chỉ từ 100k/ngày. Xe chạy bền bỉ và dễ điều khiển. Bạn muốn biết thủ tục thuê xe số?"
-    ] 
-  },
-  
-  // 3. Hỏi về "Xe ga"
-  { pattern: /(xe ga|xe tay ga|vision|lead|air blade|sh|grande|nvx|liberty|vespa)/i, 
-    keywords: ['xe ga', 'tay ga', 'vision', 'lead', 'air blade', 'sh', 'grande', 'nvx', 'liberty', 'vespa'],
-    answer: [
-      "Xe ga 🛵 chạy êm, cốp rộng, kiểu dáng đẹp, rất hợp đi trong thành phố. Giá thuê xe ga như Vision, Lead thường từ 120k-150k/ngày. Bạn muốn xem xe cụ thể nào?",
-      "Dòng xe ga rất được ưa chuộng! Xe Vision và Lead là 2 lựa chọn phổ biến nhất. Bạn có muốn mình tư vấn thêm về ưu điểm của xe ga không?"
-    ] 
-  },
-  
-  // 4. Hỏi về "Xe 50cc" (Xe không cần bằng lái)
-  { pattern: /(50cc|xe 50|không cần bằng|chưa có bằng|học sinh|sinh viên|bằng lái|giấy phép lái xe|gplx)/i, 
-    keywords: ['50cc', 'không cần bằng', 'chưa có bằng', 'học sinh', 'sinh viên', 'bằng lái', 'gplx'],
-    exclude: ['cần gì', 'thủ tục', 'giấy tờ'], // Loại trừ nếu đang hỏi thủ tục chung
-    answer: [
-      "Nếu bạn chưa có bằng lái, xe 50cc là lựa chọn tuyệt vời! 🚲 Xe 50cc không yêu cầu GPLX, chỉ cần CCCD. Xe nhỏ gọn, tiết kiệm xăng, giá thuê cũng rất rẻ. Bạn muốn xem giá xe 50cc?",
-      "Bên mình có dòng xe 50cc (như Giorno, Cub 50) không cần bằng lái, rất hợp cho các bạn học sinh, sinh viên. Thủ tục chỉ cần CCCD thôi ạ."
-    ] 
-  },
-
-  // 5. Hỏi về "Thủ tục" (Rất quan trọng)
-  { pattern: /(thủ tục|giấy tờ|cần gì|thuê xe cần|điều kiện|cọc|đặt cọc)/i, 
-    keywords: ['thủ tục', 'giấy tờ', 'cần gì', 'điều kiện', 'cọc', 'đặt cọc'],
-    answer: [
-      "Thủ tục thuê xe rất đơn giản! 📄 Bạn chỉ cần chuẩn bị 1 trong 2 loại giấy tờ sau:\n1. Căn cước công dân (CCCD) + Giấy phép lái xe (GPLX).\n2. Hoặc Passport (Hộ chiếu) (Nếu là khách nước ngoài).\nBạn không cần đặt cọc tiền mặt, chỉ cần để lại giấy tờ gốc khi nhận xe ạ.",
-      "Về thủ tục, bạn cần CCCD và Bằng lái xe (GPLX) nhé. Nếu là xe 50cc thì chỉ cần CCCD. Bên mình giữ giấy tờ gốc và sẽ hoàn trả ngay khi bạn trả xe."
-    ] 
-  },
-  
-  // 6. Hỏi về "Giá" (Rất quan trọng)
-  { pattern: /(giá|bảng giá|bao nhiêu tiền|nhiêu tiền|giá cả|giá thuê|thuê bao nhiêu)/i, 
-    keywords: ['giá', 'bao nhiêu tiền', 'giá cả', 'giá thuê'],
-    answer: [
-      "Bảng giá thuê xe rất linh hoạt 💰:\n- Xe số (Wave, Sirius): 100k - 120k/ngày.\n- Xe ga (Vision, Lead): 120k - 150k/ngày.\n- Xe côn (Exciter, Winner): 200k - 250k/ngày.\nThuê càng nhiều ngày giá càng rẻ. Bạn muốn hỏi giá xe cụ thể nào?",
-      "Giá thuê xe dao động từ 100k (xe số) đến 150k (xe ga). Thuê theo tuần hoặc tháng sẽ có giá ưu đãi hơn nữa. Bạn muốn thuê xe nào để mình báo giá chi tiết?"
-    ] 
-  },
-
-  // 7. Hỏi về "Liên hệ" & "Địa chỉ" (Rất quan trọng)
-  { pattern: /(liên hệ|sđt|số điện thoại|zalo|hotline|địa chỉ|ở đâu|đến đâu|cửa hàng)/i, 
-    keywords: ['liên hệ', 'sđt', 'số điện thoại', 'zalo', 'hotline', 'địa chỉ', 'ở đâu', 'cửa hàng'],
-    answer: [
-      "Bạn liên hệ Hotline/Zalo ☎️ 085.725.5868 để đặt xe nhanh nhất nhé!\nĐịa chỉ cửa hàng: [Nhập địa chỉ của bạn ở đây].\nBên mình có hỗ trợ giao xe tận nơi miễn phí trong nội thành Hà Nội ạ.",
-      "Để đặt xe, bạn gọi ngay 085.725.5868 (có Zalo) ạ. Cửa hàng ở [Nhập địa chỉ của bạn]. Bạn muốn giao xe đến tận nơi hay qua cửa hàng lấy xe?"
-    ] 
-  },
-  
-  // 8. Hỏi về "Giao xe"
-  { pattern: /(giao xe|ship xe|vận chuyển|nhận xe|lấy xe|sân bay|bến xe|tận nơi)/i, 
-    keywords: ['giao xe', 'ship xe', 'vận chuyển', 'nhận xe', 'lấy xe', 'sân bay', 'bến xe', 'tận nơi'],
-    answer: [
-      "Có ạ! 🚀 Bên mình MIỄN PHÍ giao nhận xe tận nơi tại các quận nội thành Hà Nội, bến xe (Giáp Bát, Mỹ Đình, Nước Ngầm...) và khu vực Phố Cổ.\nChỉ cần gọi 085.725.5868 là có xe ngay!",
-      "Dịch vụ giao xe tận nơi (khách sạn, nhà riêng, bến xe...) là miễn phí 100% trong nội thành. Bạn chỉ cần chốt xe và gửi địa chỉ, bên mình sẽ mang xe qua."
-    ] 
-  },
-
-  // 9. Cảm ơn
-  { pattern: /^(cảm ơn|thanks|ok|oke|tuyệt vời|tốt quá|hay quá)$/i, 
-    answer: [
-      "Không có gì ạ! Bạn cần hỗ trợ gì thêm cứ hỏi mình nhé. 😊",
-      "Rất vui được hỗ trợ bạn!",
-      "Cảm ơn bạn đã quan tâm. Liên hệ 085.725.5868 để đặt xe nha!"
-    ] 
-  },
-  
-  // 10. Câu hỏi chung chung / Không hiểu
-  { pattern: /.+/i, // Bắt tất cả các trường hợp khác
-    answer: [
-      "Xin lỗi, mình chưa hiểu rõ câu hỏi này. Bạn có thể hỏi về: 'Giá thuê xe', 'Thủ tục cần gì', 'Xe ga' hoặc 'Địa chỉ' không?",
-      "Mình chưa được lập trình để trả lời câu này. Bạn thử hỏi về 'Xe số', 'Xe 50cc' hoặc gọi 085.725.5868 để được tư vấn trực tiếp nhé."
-    ],
-    isFallback: true
-  }
-];
-
-// Hàm chọn ngẫu nhiên một câu trả lời từ mảng
-function randomAnswer(arr) {
-  return arr[Math.floor(Math.random() * arr.length)];
-}
-
-// Hàm chuẩn hóa văn bản (xóa dấu, chuyển lowercase)
-function normalizeText(text) {
-  if (!text) return '';
-  return text.toLowerCase()
-             .normalize("NFD")
-             .replace(/[\u0300-\u036f]/g, "")
-             .replace(/đ/g, "d");
-}
-
-// Hàm đối sánh thông minh (v13 Pro)
-function smartAnswer(query) {
-  const normalizedQuery = normalizeText(query);
-  let bestMatch = null;
-  let highestScore = 0;
-  let isKeywordMatch = false;
-
-  for (const rule of rules) {
-    if (rule.isFallback) continue; // Bỏ qua fallback
-
-    let score = 0;
-    let match = false;
-    let keywordBonus = false;
-
-    // 1. Kiểm tra Regex (Ưu tiên cao nhất)
-    if (rule.pattern.test(query) || rule.pattern.test(normalizedQuery)) {
-      match = true;
-      score = 2.0; // Điểm cao cho regex
-    }
-
-    // 2. Kiểm tra Keywords (Quan trọng)
-    if (rule.keywords && rule.keywords.length > 0) {
-      const queryWords = normalizedQuery.split(/\s+/);
-      let keywordCount = 0;
-      
-      for (const kw of rule.keywords) {
-        const normalizedKw = normalizeText(kw);
-        if (normalizedQuery.includes(normalizedKw)) {
-          keywordCount++;
-          // Nếu keyword là 1 từ (vd: "giá") và query cũng là 1 từ (vd: "giá")
-          if (queryWords.length === 1 && queryWords[0] === normalizedKw) {
-            score += 1.5; // Thưởng lớn cho từ đơn chính xác
-          }
-          // Nếu keyword có trong câu
-          else {
-             score += 1.0; // Thưởng cho keyword
-          }
-        }
-      }
-      
-      if (keywordCount > 0) {
-         keywordBonus = true;
-         isKeywordMatch = true; // Đánh dấu là đã tìm thấy khớp keyword
-      }
-    }
-    
-    // 3. Kiểm tra Exclude (Loại trừ)
-    if (rule.exclude && rule.exclude.length > 0) {
-        let excluded = false;
-        for (const ex of rule.exclude) {
-            if (normalizedQuery.includes(normalizeText(ex))) {
-                excluded = true;
-                break;
-            }
-        }
-        if (excluded) {
-            score = 0; // Reset điểm nếu bị loại trừ
-            continue; // Bỏ qua rule này
-        }
-    }
-
-    // 4. Tính điểm cuối cùng
-    // Chỉ cập nhật bestMatch nếu có điểm
-    if (score > highestScore) {
-      highestScore = score;
-      bestMatch = rule;
-    }
-  }
-
-  // 5. Quyết định câu trả lời
-  // Nếu có câu trả lời tốt (từ regex hoặc keyword)
-  if (bestMatch && highestScore > 0.5) {
-    return randomAnswer(bestMatch.answer);
-  }
-
-  // Nếu không có keyword/regex nào khớp, nhưng người dùng vẫn hỏi
-  // (Lúc này chúng ta fallback về corpus search của v10)
-  // Trả về null để v10 Core tự tìm trong corpus
-  return null; 
-}
-
-
-// Khởi tạo và phơi bày API cho v10
-window.MotoAI_v10 = {
-  smartAnswer: smartAnswer,
-  isSmart: true
-};
-
-console.log('🧠 MotoAI v13 Pro (Local Smart Engine) Initialized.');
-
-// Chờ v10 (Core) load xong rồi báo là đã "nâng cấp"
-window.addEventListener('MotoAI_v10_READY', () => {
-  if (window.MotoAI_v10 && typeof window.MotoAI_v10.open === 'function') {
-    window.MotoAI_v10.isSmart = true;
-    console.log('✅ MotoAI v13 Pro (Smart Engine) successfully attached to v10 Core.');
-  }
-});
-
-// === 🧠 MotoAI v13 Pro Fix Patch (Force Init + SpellFix + Dark/Light Auto) ===
-
-// 🔁 Tự động phát hiện & sửa lỗi chính tả nhẹ tiếng Việt
+// === 🩹 MotoAI v13Pro — Fix lỗi Light Mode không hiển thị khung chat (2025 Stable) ===
 (function(){
-  if(!window.MotoAI_v10) return;
-  const spellMap = {
-    'thue xe may': 'thuê xe máy',
-    'xe so': 'xe số',
-    'xe ga': 'xe ga',
-    'thu tuc': 'thủ tục',
-    'giay to': 'giấy tờ',
-    'bang gia': 'bảng giá',
-    'lien he': 'liên hệ',
-    'thue xe ha noi': 'thuê xe Hà Nội'
-  };
-  function autoFixSpelling(text){
-    let fixed = text.toLowerCase();
-    for(const [wrong, right] of Object.entries(spellMap)){
-      const regex = new RegExp(`\\b${wrong}\\b`, 'gi');
-      fixed = fixed.replace(regex, right);
-    }
-    return fixed;
-  }
-  const origSend = window.MotoAI_v10.sendQuery;
-  window.MotoAI_v10.sendQuery = function(text){
-    const fixed = autoFixSpelling(text);
-    if(fixed !== text){
-      console.log(`📝 Sửa chính tả: "${text}" → "${fixed}"`);
-    }
-    origSend(fixed);
-  };
-  console.log('%cMotoAI SpellFix enabled ✅', 'color:#0a84ff;font-weight:bold;');
-})();
+  document.addEventListener('DOMContentLoaded', ()=>{
+    const bubble = document.getElementById('motoai-bubble');
+    const overlay = document.getElementById('motoai-overlay');
+    const card = document.getElementById('motoai-card');
+    const input = document.getElementById('motoai-input');
+    if(!bubble || !overlay || !card) return;
 
-// 🌗 Bảo đảm Dark/Light mode đồng bộ ngay cả khi body chưa load
-(function(){
-  const setTheme = ()=>{
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const hasBodyDark = document.body.classList.contains('dark');
-    const isDark = prefersDark || hasBodyDark;
-    const r = document.documentElement;
-    if(isDark){
-      r.style.setProperty('--m10-card-bg','#0b0c0e');
-      r.style.setProperty('--bg','#0f1113');
-      r.style.setProperty('--text','#f2f2f7');
-      r.style.setProperty('--footer-bg','rgba(25,25,30,0.9)');
-    }else{
-      r.style.setProperty('--m10-card-bg','#ffffff');
-      r.style.setProperty('--bg','#ffffff');
-      r.style.setProperty('--text','#000000');
-      r.style.setProperty('--footer-bg','rgba(255,255,255,0.85)');
-    }
-  };
-  setTheme();
-  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', setTheme);
-  const obs = new MutationObserver(setTheme);
-  obs.observe(document.body,{attributes:true,attributeFilter:['class']});
-})();
+    let opening = false;
 
-// ⚙️ Vá lỗi chưa khởi động AI (ép init() nếu chưa kích hoạt)
-// BÂY GIỜ HÀM NÀY SẼ HOẠT ĐỘNG VÌ `init` ĐÃ CÙNG SCOPE
-window.addEventListener('load', ()=>{
-  try{
-    if(window.MotoAI_v10 && typeof window.MotoAI_v10.open === 'function'){
-      console.log('⚙️ MotoAI v13Pro sẵn sàng 🚀');
-    }else{
-      console.warn('⚠️ MotoAI_v10 chưa khởi động, ép chạy lại init()...');
-      if(typeof init === 'function') init();
-    }
-  }catch(e){
-    console.error('💥 Lỗi khởi động thủ công:', e);
-  }
-});
+    bubble.addEventListener('click', ()=>{
+      if(opening) return;
+      opening = true;
 
-console.log('%c✅ MotoAI v13Pro Fixed Patch Installed Successfully', 'color:#0a84ff;font-weight:bold;');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const hasBodyDark = document.body.classList.contains('dark');
+      const isDark = prefersDark || hasBodyDark;
+
+      requestAnimationFrame(()=>{
+        if(!isDark && !overlay.classList.contains('visible')){
+          overlay.classList.add('visible');
+          card.style.transform = 'translateY(0)';
+          card.style.opacity = '1';
+          card.style.pointerEvents = 'auto';
+          card.setAttribute('aria-hidden','false');
+          overlay.setAttribute('aria-hidden','false');
+
+          setTimeout(()=>{
+            try{ input && input.focus(); }catch(e){}
+          }, 300);
+          console.log('💡 MotoAI LightMode: khung chat hiển thị thủ công (fix)');
+        } 
+        else if(isDark && !overlay.classList.contains('visible')){
+          overlay.classList.add('visible');
+          card.style.transform = 'translateY(0)';
+          card.style.opacity = '1';
+        } else {
+          overlay.classList.remove('visible');
+          card.style.transform = 'translateY(110%)';
+          card.style.opacity = '0';
+        }
+
+        opening = false;
+      });
+    });
+  });
+})(); // <--- Đã sửa: Thêm '})();' bị thiếu
 
 // ⭐️ END OF LOCAL SMART ENGINE / START OF MOTOAI V10.2 CORE ⭐️
 // =================================================================
 
 // MotoAI v10.2 — Hybrid Pro (Web-Corpus Learning + Memory + Apple UI + Refine+)
 // Standalone file. Paste as motoai_embed_v10_hybrid_pro.js
-// (function(){ // <-- ĐÃ GỠ BỎ IIFE LỒNG NHAU NÀY
+(function(){
   if(window.MotoAI_v10_LOADED) return;
   window.MotoAI_v10_LOADED = true;
   console.log('✅ MotoAI v10.2 Hybrid Pro loaded (Apple Dark Mode & Refine+ applied)');
@@ -889,9 +650,9 @@ console.log('%c✅ MotoAI v13Pro Fixed Patch Installed Successfully', 'color:#0a
   /* ---------- Học từ website & landing page của bạn ---------- */
   async function learnFromMySites() {
     const relatedSites = [
-      "https://thuexemaynguyentu.github.io/vn-index.html",
-      "https://thuexemaynguyentu.com",
-      "https://athanoi.github.io/moto/"
+      "[https://thuexemaynguyentu.github.io/vn-index.html](https://thuexemaynguyentu.github.io/vn-index.html)",
+      "[https://thuexemaynguyentu.com](https://thuexemaynguyentu.com)",
+      "[https://athanoi.github.io/moto/](https://athanoi.github.io/moto/)"
     ];
 
     try {
@@ -1002,13 +763,26 @@ window.addEventListener('load', () => {
   }, 2500);
 });
 
-// })(); // <-- ĐÃ GỠ BỎ IIFE LỒNG NHAU NÀY
+})();
 
+/* --- Đã sửa: Chuyển Markdown thành bình luận JS --- */
+/*
+# 🧩 PATCH — MotoAI v13 Pro Adaptive Upgrade (Dark + Light + Auto Learn)
+## Thêm vào file hiện tại để nâng cấp lên v13 Pro
+### Yêu cầu:
+- Tự chuyển giữa light/dark theo hệ thống hoặc `body.dark`
+- Tối ưu học lại tự động mỗi 72 giờ
+- Tăng tốc load corpus & auto cache
+- Cập nhật CSS light mode
+- Không thay đổi cấu trúc UI hiện có
+*/
+
+/* --- Đã sửa: Xóa '```javascript' --- */
 /* === 🌗 MotoAI v13 Pro Adaptive Patch === */
 
 // ⚙️ Tự động chọn theme (Dark / Light)
-// (function(){ // <-- ĐÃ GỠ BỎ IIFE LỒNG NHAU NÀY
-  const setTheme_Adaptive = ()=>{ // Đổi tên biến để tránh xung đột
+(function(){
+  const setTheme = ()=>{
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     const hasBodyDark = document.body.classList.contains('dark');
     const isDark = prefersDark || hasBodyDark;
@@ -1029,14 +803,14 @@ window.addEventListener('load', () => {
       document.body.dataset.theme='light';
     }
   };
-  setTheme_Adaptive();
-  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', setTheme_Adaptive);
-  const mo = new MutationObserver(setTheme_Adaptive);
+  setTheme();
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', setTheme);
+  const mo = new MutationObserver(setTheme);
   mo.observe(document.body,{attributes:true,attributeFilter:['class']});
-// })(); // <-- ĐÃ GỠ BỎ IIFE LỒNG NHAU NÀY
+})();
 
 // 💾 Nâng cấp caching + auto refresh corpus mỗi 72h
-// (function(){ // <-- ĐÃ GỠ BỎ IIFE LỒNG NHAU NÀY
+(function(){
   const now = Date.now();
   const last = parseInt(localStorage.getItem('MotoAI_lastCorpusBuild')||'0',10);
   const seventyTwoHrs = 72*60*60*1000;
@@ -1045,10 +819,10 @@ window.addEventListener('load', () => {
     try{ if(window.MotoAI_v10 && window.MotoAI_v10.rebuildCorpus) window.MotoAI_v10.rebuildCorpus(); }catch(e){}
     localStorage.setItem('MotoAI_lastCorpusBuild',now);
   }
-// })(); // <-- ĐÃ GỠ BỎ IIFE LỒNG NHAU NÀY
+})();
 
 // ✨ CSS Light Mode nâng cấp rõ nét hơn
-// (function(){ // <-- ĐÃ GỠ BỎ IIFE LỒNG NHAU NÀY
+(function(){
   const extraCSS = `
   @media (prefers-color-scheme: light){
     :root{
@@ -1067,26 +841,8 @@ window.addEventListener('load', () => {
   const st = document.createElement('style');
   st.textContent = extraCSS;
   document.head.appendChild(st);
-// })(); // <-- ĐÃ GỠ BỎ IIFE LỒNG NHAU NÀY
+})();
 
 // ⚡️ Thêm log để xác nhận bản build
-console.log('%cMotoAI v13 Pro Adaptive — Active (Dark + Light + Auto Learn)', 'color:#0a84ff;font-weight:bold;');
-
-// ✅ Bắt buộc khởi động AI khi toàn bộ script load xong
-// ĐOẠN MÃ MỚI CỦA BẠN ĐƯỢC THÊM VÀO ĐÂY
-// (Và bây giờ nó sẽ hoạt động vì `init` đã ở cùng scope)
-window.addEventListener('DOMContentLoaded', ()=>{
-  try{
-    if(window.MotoAI_v10 && typeof window.MotoAI_v10.open === 'function'){
-      console.log('🚀 MotoAI v13Pro đang hoạt động bình thường.');
-    } else if(typeof init === 'function') {
-      console.log('⚙️ Ép khởi động thủ công MotoAI...');
-      init();
-    } else {
-      console.warn('⚠️ Không tìm thấy init(), AI có thể đang nằm trong closure khác.');
-    }
-  }catch(e){
-    console.error('💥 Lỗi ép khởi động MotoAI:', e);
-  }
-});
+console.log('%cMotoAI v13 Pro Adaptive — Active (Dark + Light + Auto Learn)', 'color:#0a84ff;font-weight:bold;');})();
 
