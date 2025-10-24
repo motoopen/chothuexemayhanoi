@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test MotoAI v10.2 Refine+ | Motoopen</title>
+  <link rel="icon" href="https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg">
+  <style>
+    body {
+      font-family: Inter, sans-serif;
+      background: #f5f5f7;
+      color: #1d1d1f;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+    h1 {
+      color: #007aff;
+    }
+    .notice {
+      margin-top: 10px;
+      font-size: 0.9rem;
+      color: #6e6e73;
+    }
+    .dark {
+      background: #1C1C1E;
+      color: #F2F2F7;
+    }
+  </style>
+</head>
+<body>
+  <h1>⚙️ MotoAI v10.2 Refine+ Test</h1>
+  <p class="notice">Kiểm tra hiển thị, hiệu ứng rung & glow, dark mode sync, và gợi ý “Liên hệ”.</p>
+
+  <!-- ====== MotoAI GỐC ====== -->
+  <script src="https://cdn.jsdelivr.net/gh/motoopen/chothuexemayhanoi@main/motoai_embed_v10_hybrid_pro.js" defer></script>
+
+  <!-- ====== PATCH v10.2 Refine+ ====== -->
+  <script src="https://motoopen.github.io/chothuexemayhanoi/motoai_refineplus_v10.2.js" defer></script>
+
+  <!-- Tùy chọn: nút chuyển dark mode để test đồng bộ -->
+  <button id="darkToggle" style="margin-top:20px;padding:8px 14px;border-radius:10px;border:none;cursor:pointer;background:#007aff;color:#fff;font-weight:700;">
+    🌗 Bật/Tắt Dark Mode
+  </button>
+
+  <script>
+    const btn = document.getElementById('darkToggle');
+    btn.addEventListener('click', ()=>{
+      document.body.classList.toggle('dark');
+    });
+  </script>
+</body>
+</html>
