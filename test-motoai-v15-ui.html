@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>MotoAI v15 Local Pro (phi-2) — UI Test</title>
+<title>MotoAI v15 Local Pro Mini (phi-2)</title>
 <style>
 body{font-family:system-ui,Arial,sans-serif;margin:0;background:#f5f6fa;color:#111;}
 #motoai-root{position:fixed;left:16px;bottom:20px;z-index:99999;}
@@ -23,6 +23,18 @@ body{font-family:system-ui,Arial,sans-serif;margin:0;background:#f5f6fa;color:#1
   .m-msg.bot{background:#2a2a2d;color:#eee;}
   .m-msg.user{background:#007aff;color:#fff;}
 }
+#ai-status{
+  position:fixed;bottom:4px;right:6px;
+  background:rgba(0,0,0,0.7);color:#0f0;
+  font-size:11px;padding:4px 8px;border-radius:8px;
+  font-family:monospace;z-index:999999;
+}
+#reload-btn{
+  position:fixed;bottom:36px;right:10px;
+  background:#007aff;color:#fff;border:none;
+  border-radius:10px;padding:6px 10px;font-size:13px;
+  box-shadow:0 4px 10px rgba(0,0,0,.2);
+}
 </style>
 </head>
 <body>
@@ -40,8 +52,11 @@ body{font-family:system-ui,Arial,sans-serif;margin:0;background:#f5f6fa;color:#1
   </div>
 </div>
 
+<div id="ai-status">Đang tải AI...</div>
+<button id="reload-btn">🔁 Học lại</button>
+
 <script src="https://cdn.jsdelivr.net/npm/webllm"></script>
-<script src="https://motoopen.github.io/chothuexemayhanoi/motoai_v15_local_pro.js"></script>
+<script src="https://motoopen.github.io/chothuexemayhanoi/motoai_v15_local_pro_min.js"></script>
 
 <script>
 document.addEventListener("DOMContentLoaded",()=>{
@@ -51,6 +66,8 @@ document.addEventListener("DOMContentLoaded",()=>{
   const send=document.getElementById("motoai-send");
   const input=document.getElementById("motoai-text");
   const body=document.getElementById("motoai-body");
+  const status=document.getElementById("ai-status");
+  const reload=document.getElementById("reload-btn");
 
   bubble.onclick=()=>{card.style.display="flex";bubble.style.display="none";}
   close.onclick=()=>{card.style.display="none";bubble.style.display="flex";}
@@ -83,7 +100,36 @@ document.addEventListener("DOMContentLoaded",()=>{
     },300);
   };
 
-  console.log("🚀 MotoAI v15 UI test loaded");
+  // 🔁 ép AI học lại
+  reload.onclick=()=>{
+    localStorage.removeItem('MotoAI_lastLearn');
+    localStorage.removeItem('MotoAI_v15_corpus');
+    alert("Đã xóa dữ liệu học cũ, tải lại để học lại sitemap mới.");
+    location.reload();
+  };
+
+  // 📊 Kiểm tra trạng thái học
+  setTimeout(()=>{
+    if(!window.MotoAI_v15_MINI){
+      status.textContent="⚠️ AI chưa load.";
+      status.style.color="#ff0";
+      return;
+    }
+    const corpus=localStorage.getItem("MotoAI_v15_corpus");
+    if(corpus && corpus.length>100){
+      const len=JSON.parse(corpus).length;
+      status.textContent=`✅ Đã học ${len} mẫu`;
+      status.style.color="#0f0";
+    }else{
+      status.textContent="🧠 Chưa học — đang tải sitemap...";
+      status.style.color="#0af";
+      if(MotoAI_v15_MINI.learnFromRepo){
+        MotoAI_v15_MINI.learnFromRepo();
+      }
+    }
+  },2500);
+
+  console.log("🚀 MotoAI v15 Local Pro Mini UI Ready");
 });
 </script>
 </body>
