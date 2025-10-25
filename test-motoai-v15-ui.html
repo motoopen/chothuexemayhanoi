@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MotoAI v15 Local Pro (phi-2) — UI Test</title>
+<style>
+body{font-family:system-ui,Arial,sans-serif;margin:0;background:#f5f6fa;color:#111;}
+#motoai-root{position:fixed;left:16px;bottom:20px;z-index:99999;}
+#motoai-bubble{width:58px;height:58px;border-radius:16px;background:#007aff;color:#fff;display:flex;align-items:center;justify-content:center;font-size:26px;cursor:pointer;box-shadow:0 8px 20px rgba(0,0,0,.25);}
+#motoai-card{position:fixed;left:0;right:0;bottom:0;width:min(420px,calc(100%-20px));margin:auto;height:65vh;max-height:580px;border-radius:20px 20px 0 0;background:#fff;box-shadow:0 -10px 40px rgba(0,0,0,.15);display:none;flex-direction:column;overflow:hidden;}
+#motoai-header{padding:10px 16px;font-weight:700;color:#007aff;border-bottom:1px solid #eee;display:flex;justify-content:space-between;align-items:center;}
+#motoai-body{flex:1;overflow-y:auto;padding:10px;}
+.m-msg{margin:8px 0;padding:10px 14px;border-radius:16px;max-width:80%;line-height:1.4;}
+.m-msg.user{background:#007aff;color:#fff;margin-left:auto;}
+.m-msg.bot{background:#f1f1f3;color:#111;}
+#motoai-input{display:flex;gap:6px;padding:8px;border-top:1px solid #eee;}
+#motoai-input input{flex:1;padding:8px 10px;border:1px solid #ccc;border-radius:10px;}
+#motoai-input button{background:#007aff;color:#fff;border:none;border-radius:10px;padding:8px 12px;}
+@media(prefers-color-scheme:dark){
+  body{background:#121212;color:#eee;}
+  #motoai-card{background:#1c1c1e;color:#eee;}
+  .m-msg.bot{background:#2a2a2d;color:#eee;}
+  .m-msg.user{background:#007aff;color:#fff;}
+}
+</style>
+</head>
+<body>
+<div id="motoai-root">
+  <div id="motoai-bubble">🤖</div>
+  <div id="motoai-card">
+    <div id="motoai-header">
+      MotoAI v15 <button id="motoai-close">✕</button>
+    </div>
+    <div id="motoai-body"></div>
+    <div id="motoai-input">
+      <input id="motoai-text" placeholder="Nhập tin nhắn...">
+      <button id="motoai-send">Gửi</button>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/webllm"></script>
+<script src="https://motoopen.github.io/chothuexemayhanoi/motoai_v15_local_pro.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded",()=>{
+  const bubble=document.getElementById("motoai-bubble");
+  const card=document.getElementById("motoai-card");
+  const close=document.getElementById("motoai-close");
+  const send=document.getElementById("motoai-send");
+  const input=document.getElementById("motoai-text");
+  const body=document.getElementById("motoai-body");
+
+  bubble.onclick=()=>{card.style.display="flex";bubble.style.display="none";}
+  close.onclick=()=>{card.style.display="none";bubble.style.display="flex";}
+
+  function addMsg(role,text){
+    const m=document.createElement("div");
+    m.className="m-msg "+role;
+    m.textContent=text;
+    body.appendChild(m);
+    body.scrollTop=body.scrollHeight;
+  }
+
+  send.onclick=()=>{
+    const q=input.value.trim();
+    if(!q)return;
+    addMsg("user",q);
+    input.value="";
+    addMsg("bot","Đang xử lý...");
+    setTimeout(()=>{
+      if(window.MotoAI_v15_MINI && typeof MotoAI_v15_MINI.ask==="function"){
+        MotoAI_v15_MINI.ask(q).then(ans=>{
+          body.lastChild.textContent=ans||"Không có phản hồi.";
+        }).catch(e=>{
+          body.lastChild.textContent="Lỗi xử lý.";
+          console.error(e);
+        });
+      }else{
+        body.lastChild.textContent="AI chưa khởi tạo.";
+      }
+    },300);
+  };
+
+  console.log("🚀 MotoAI v15 UI test loaded");
+});
+</script>
+</body>
+</html>
