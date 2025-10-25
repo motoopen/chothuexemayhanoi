@@ -1,26 +1,57 @@
 {
-  "pages": [
-    "https://motoopen.github.io/chothuexemayhanoi/index.html",
-    "https://motoopen.github.io/chothuexemayhanoi/gioithieu.html",
-    "https://motoopen.github.io/chothuexemayhanoi/dichvu.html",
-    "https://motoopen.github.io/chothuexemayhanoi/banggia.html",
-    "https://motoopen.github.io/chothuexemayhanoi/thutuc.html",
-    "https://motoopen.github.io/chothuexemayhanoi/loaixe.html",
-    "https://motoopen.github.io/chothuexemayhanoi/huongdan.html",
-    "https://motoopen.github.io/chothuexemayhanoi/kinhnghiem.html",
-    "https://motoopen.github.io/chothuexemayhanoi/faq.html",
-    "https://motoopen.github.io/chothuexemayhanoi/lienhe.html",
-    "https://motoopen.github.io/chothuexemayhanoi/dieukhoansudung.html",
-    "https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html",
-    "https://motoopen.github.io/chothuexemayhanoi/du-lieu/thuengay.txt",
-    "https://motoopen.github.io/chothuexemayhanoi/du-lieu/tuan.txt",
-    "https://motoopen.github.io/chothuexemayhanoi/du-lieu/thang.txt",
-    "https://motoopen.github.io/chothuexemayhanoi/du-lieu/xe50cc.txt",
-    "https://motoopen.github.io/chothuexemayhanoi/du-lieu/xeso.txt",
-    "https://motoopen.github.io/chothuexemayhanoi/du-lieu/xega.txt",
-    "https://motoopen.github.io/chothuexemayhanoi/du-lieu/thutuc.txt",
-    "https://motoopen.github.io/chothuexemayhanoi/du-lieu/dieukien.txt",
-    "https://motoopen.github.io/chothuexemayhanoi/du-lieu/hoidap.txt",
-    "https://motoopen.github.io/chothuexemayhanoi/du-lieu/huongdanthue.txt"
-  ]
+  "meta": {
+    "version": "1.2",
+    "lastUpdate": "2025-10-25",
+    "description": "Sitemap mở rộng cho AI Motoopen – tổng hợp nội dung HTML và dữ liệu học máy (.txt) phục vụ cho AutoLearn, SEO, và nâng cấp AI từ v10 đến v14."
+  },
+  "categories": {
+    "pages": {
+      "type": "html",
+      "description": "Các trang chính hiển thị nội dung web và UI",
+      "list": [
+        "https://motoopen.github.io/chothuexemayhanoi/index.html",
+        "https://motoopen.github.io/chothuexemayhanoi/gioithieu.html",
+        "https://motoopen.github.io/chothuexemayhanoi/dichvu.html",
+        "https://motoopen.github.io/chothuexemayhanoi/banggia.html",
+        "https://motoopen.github.io/chothuexemayhanoi/thutuc.html",
+        "https://motoopen.github.io/chothuexemayhanoi/loaixe.html",
+        "https://motoopen.github.io/chothuexemayhanoi/huongdan.html",
+        "https://motoopen.github.io/chothuexemayhanoi/kinhnghiem.html",
+        "https://motoopen.github.io/chothuexemayhanoi/faq.html",
+        "https://motoopen.github.io/chothuexemayhanoi/lienhe.html",
+        "https://motoopen.github.io/chothuexemayhanoi/dieukhoansudung.html",
+        "https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html"
+      ]
+    },
+    "datasets": {
+      "type": "txt",
+      "description": "Các tập dữ liệu text AI học và tự huấn luyện từ nội dung thực tế",
+      "list": [
+        "https://motoopen.github.io/chothuexemayhanoi/du-lieu/thuengay.txt",
+        "https://motoopen.github.io/chothuexemayhanoi/du-lieu/tuan.txt",
+        "https://motoopen.github.io/chothuexemayhanoi/du-lieu/thang.txt",
+        "https://motoopen.github.io/chothuexemayhanoi/du-lieu/xe50cc.txt",
+        "https://motoopen.github.io/chothuexemayhanoi/du-lieu/xeso.txt",
+        "https://motoopen.github.io/chothuexemayhanoi/du-lieu/xega.txt",
+        "https://motoopen.github.io/chothuexemayhanoi/du-lieu/thutuc.txt",
+        "https://motoopen.github.io/chothuexemayhanoi/du-lieu/dieukien.txt",
+        "https://motoopen.github.io/chothuexemayhanoi/du-lieu/hoidap.txt",
+        "https://motoopen.github.io/chothuexemayhanoi/du-lieu/huongdanthue.txt"
+      ]
+    }
+  },
+  "training": {
+    "mode": "incremental",
+    "autoRefresh": "72h",
+    "preferredFormat": "markdown+utf8",
+    "enableSpellFix": true,
+    "enableAdaptiveLearn": true
+  },
+  "publisher": {
+    "name": "Motoopen",
+    "website": "https://motoopen.github.io/chothuexemayhanoi/",
+    "contact": "0857 255 868",
+    "email": "motoopen12@gmail.com",
+    "location": "114 Nguyễn Văn Cừ, Long Biên, Hà Nội"
+  }
 }
