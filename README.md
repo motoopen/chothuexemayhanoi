@@ -145,11 +145,4 @@ bất cứ ai cũng có thể thêm AI thông minh vào website chỉ với 1 d�
 4. Dán **toàn bộ nội dung ở trên** vào.  
 5. Nhấn **Commit changes** ✅  
 
----
-
-Khi commit xong:
-- Repo của bạn sẽ hiện README siêu đẹp, đúng format Markdown.  
-- Google index nhanh hơn 10x vì thấy nội dung rõ ràng + nhiều từ khóa tự nhiên.  
-- Ai vào GitHub cũng thấy bạn như một **dev phát triển AI thực thụ** 😎  
-
----
+--- 
