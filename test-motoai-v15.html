@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Test MotoAI v15 — Local Pro Mini (phi-2)</title>
+  <meta name="description" content="Trang thử nghiệm MotoAI v15 Local Pro Mini (phi-2) — test chạy webllm + local model integration.">
+  <style>
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial;line-height:1.4;margin:0;background:#f6f8fb;color:#0b1220}
+    main{max-width:880px;margin:28px auto;padding:18px;background:#fff;border-radius:12px;box-shadow:0 8px 30px rgba(10,20,40,0.06)}
+    header h1{margin:0 0 8px;font-size:20px}
+    p.lead{margin:0 0 14px;color:#444}
+    footer{margin-top:14px;font-size:13px;color:#666}
+    /* nhẹ để đảm bảo bubble không bị che khuất */
+    #motoai-root{ z-index:2147483000; position:fixed; left:16px; bottom:18px; pointer-events:auto; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Test MotoAI v15 — Local Pro Mini (phi-2)</h1>
+      <p class="lead">Mở console (F12) để xem log, sau khi script load sẽ xuất hiện bong bóng chat ở góc trái.</p>
+    </header>
+
+    <section>
+      <p>Những bước test nhanh:</p>
+      <ol>
+        <li>Trang này nạp <code>webllm</code> và file <code>motoai_v15_local_pro_min.js</code> từ GitHub Pages.</li>
+        <li>Chờ ~2s, kiểm tra console: nếu <code>window.MotoAI_v15_MINI</code> tồn tại => AI đã sẵn sàng.</li>
+        <li>Click bong bóng chat để mở UI — thử hỏi: <em>"Xe số", "Thuê 1 ngày", "Thủ tục"</em>.</li>
+      </ol>
+    </section>
+
+    <footer>
+      <strong>Ghi chú:</strong> để chạy model local (phi-2) cần trình duyệt hỗ trợ WebGPU / WebNN; nếu không có, script sẽ vẫn dùng corpus từ sitemap / localStorage như fallback.
+    </footer>
+  </main>
+
+  <!-- required runtime for WebLLM (CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/webllm"></script>
+
+  <!-- MotoAI v15 local mini (phi-2) - đặt file của bạn ở đường dẫn này trên GitHub Pages -->
+  <script src="https://motoopen.github.io/chothuexemayhanoi/motoai_v15_local_pro_min.js"></script>
+
+  <!-- Loader & sanity-check -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      console.log("🚀 MotoAI v15 Local Pro Mini — test page loaded");
+      setTimeout(()=>{
+        if (window.MotoAI_v15_MINI) {
+          console.log("✅ MotoAI_v15_MINI is ready:", window.MotoAI_v15_MINI);
+        } else {
+          console.warn("⚠️ MotoAI_v15_MINI not found. Attempting hot-reload of script...");
+          const s = document.createElement('script');
+          s.src = "https://motoopen.github.io/chothuexemayhanoi/motoai_v15_local_pro_min.js?" + Date.now();
+          s.onload = () => console.log("🔁 Reloaded motoai_v15_local_pro_min.js");
+          s.onerror = () => console.error("❌ Failed to reload motoai_v15_local_pro_min.js — kiểm tra đường dẫn/hosting");
+          document.body.appendChild(s);
+        }
+      }, 1600);
+    });
+  </script>
+
+  <!-- Optional: tự kiểm tra sitemap thay đổi để ép AI học lại (bỏ comment khi cần) -->
+  <!--
+  <script>
+    fetch("https://motoopen.github.io/chothuexemayhanoi/moto_sitemap.json")
+      .then(r=>r.text())
+      .then(t=>{
+        const hash=btoa(t);
+        const old=localStorage.getItem("MotoAI_lastSitemapVersion");
+        if(old!==hash){
+          console.log("🆕 Sitemap thay đổi — sẽ reset dữ liệu học và reload");
+          localStorage.removeItem("MotoAI_lastLearn");
+          localStorage.setItem("MotoAI_lastSitemapVersion", hash);
+          setTimeout(()=>location.reload(), 700);
+        }
+      })
+      .catch(e=>console.warn("⚠️ Không kiểm tra được sitemap:", e));
+  </script>
+  -->
+
+  <noscript>
+    <div style="position:fixed;left:16px;bottom:18px;background:#fffae6;padding:8px;border-radius:8px;border:1px solid #f0e0a0;z-index:2147483001">
+      JavaScript cần bật để test MotoAI.
+    </div>
+  </noscript>
+</body>
+</html>
