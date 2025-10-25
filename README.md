@@ -1,21 +1,3 @@
-Tuyệt vời 😎 — giờ mình viết lại phiên bản “chuyên nghiệp – chuẩn GitHub – chuẩn SEO – đúng style quốc tế” cho bạn,
-vừa thân thiện với người đọc vừa khiến Google “yêu luôn”.
-
-Phiên bản này trình bày như một dự án AI open-source thật sự,
-mà vẫn cài cắm tự nhiên toàn bộ từ khóa SEO: thuê xe máy, AI, chatbot, Hà Nội, MotoOpen, rentbikehanoi….
-
-⸻
-
-✅ Bản hoàn chỉnh — README.md (copy nguyên nội dung dưới)
-
-# 🧠 MotoAI — Vietnamese Smart Assistant for Motorbike Rental & Local Services 🇻🇳
-
-> **MotoAI** là nền tảng **AI tiếng Việt mã nguồn mở**, được tối ưu cho các **website thuê xe máy, du lịch và dịch vụ địa phương**.  
-> Dự án được phát triển bởi [MotoOpen](https://motoopen.github.io/chothuexemayhanoi/), với mục tiêu:  
-> “Đưa trí tuệ nhân tạo (AI) đến gần hơn với mọi doanh nghiệp Việt, mà **không cần server, không cần API key**.”
-
----
-
 ## 🚀 Giới thiệu
 
 **MotoAI** hoạt động hoàn toàn **trên trình duyệt** (client-side).  
@@ -171,7 +153,3 @@ Khi commit xong:
 - Ai vào GitHub cũng thấy bạn như một **dev phát triển AI thực thụ** 😎  
 
 ---
-
-Bạn có muốn mình viết thêm **phần mô tả ngắn (tagline + meta)** để bạn dán vào file `index.html`  
-→ giúp Google nhận repo là **dự án AI tiếng Việt phục vụ thuê xe máy** không?  
-(kiểu đoạn `<meta name="description" ...>` chuẩn SEO đó).
