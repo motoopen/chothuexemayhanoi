@@ -164,6 +164,43 @@
     /* Dark Mode hover */
     body.dark .nav-links a:hover{background:rgba(10,132,255,0.12);}
 
+    /* Dropdown CSS */
+    .nav-dropdown {
+        position: relative;
+    }
+    .nav-dropdown .dropdown-toggle {
+        cursor: pointer;
+    }
+    .nav-dropdown .dropdown-toggle .fa-caret-down {
+        font-size: 0.8em;
+        transition: transform 0.2s;
+    }
+    .nav-dropdown:hover .dropdown-toggle .fa-caret-down {
+        transform: rotate(180deg);
+    }
+    .nav-dropdown .dropdown-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: var(--topbar-scrolled-bg);
+        backdrop-filter: blur(12px) saturate(150%);
+        border: 1px solid var(--glass-border);
+        border-radius: 12px;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+        padding: 8px;
+        min-width: 200px;
+        z-index: 1700;
+        margin-top: 8px;
+    }
+    .nav-dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    .nav-dropdown .dropdown-menu a {
+        display: block;
+        width: 100%;
+        padding: 10px 14px;
+    }
 
     .cta{background:var(--accent);color:#fff;padding:8px 16px;border-radius:999px;font-weight:700;box-shadow:0 8px 22px rgba(0,122,255,0.12)}
     .cta:hover{background:#0066e5}
@@ -253,6 +290,14 @@
         radial-gradient(600px 260px at 80% 70%, rgba(48,209,88,0.08), transparent 12%);
         mix-blend-mode: color-dodge;
     }
+
+    @keyframes gradMove {
+        0%, 100% { transform: translate(0, 0); }
+        25% { transform: translate(10px, 20px); }
+        50% { transform: translate(-10px, -15px); }
+        75% { transform: translate(5px, -10px); }
+    }
+
 
     .hero .content{position:relative;z-index:2;max-width:920px;margin:0 auto;text-align:center}
     .hero .kicker{display:inline-block;background:var(--accent);color:#fff;padding:6px 12px;border-radius:999px;font-weight:700;margin-bottom:12px}
@@ -1527,11 +1572,13 @@
               });
           });
       }
- // ** Back to top logic **
-    const backTop = document.querySelector('#backTop');
-    if (backTop) {
-      backTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
-    }
+      
+      // ** Back to top logic (FIXED) **
+      // 'backTop' variable was already declared at the top of this IIFE using .querySelector('.back-top')
+      if (backTop) {
+        backTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+      }
+      
   })(); // ✅ kết thúc đúng trong thẻ script
   </script>
 
@@ -1539,3 +1586,4 @@
 <script src="https://motoopen.github.io/chothuexemayhanoi/motoai_v10_hybrid_pro.js"></script>
 </body>
 </html>
+
