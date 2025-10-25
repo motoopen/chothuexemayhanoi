@@ -99,12 +99,23 @@
   </main>
 
   <footer>
-    &copy; 2025 Motoopen. All rights reserved. | 
-    <a href="https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html">Chính sách bảo mật</a>
-  </footer>
+  &copy; 2025 Motoopen. All rights reserved. | 
+  <a href="https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html">Chính sách bảo mật</a>
+</footer>
 
-  <!-- 🤖 MotoAI v12 GPT-3-mini Core -->
-  <script src="https://motoopen.github.io/chothuexemayhanoi/motoai_v12_gpt3mini_core.js"></script>
+<!-- 🤖 MotoAI v12 GPT-3-mini Core -->
+<script src="https://motoopen.github.io/chothuexemayhanoi/motoai_v12_gpt3mini_core.js"></script>
+
+<!-- Kiểm tra nếu AI chưa load -->
+<script>
+  document.addEventListener('DOMContentLoaded', function(){
+    if (!window.MotoAI_v12_LOADED) {
+      console.warn("⚠️ MotoAI chưa load xong! Kiểm tra lại liên kết hoặc repo GitHub Pages.");
+    } else {
+      console.log("✅ MotoAI GPT-3-mini hoạt động bình thường!");
+    }
+  });
+</script>
 
 </body>
 </html>
