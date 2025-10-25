@@ -117,11 +117,12 @@
     maxCorpusSentences: 600,
     minSentenceLength: 20,
     suggestionTags: [
-      {q:'Xe số', label:'🏍 Xe số'},
-      {q:'Xe ga', label:'🛵 Xe ga'},
-      {q:'Thủ tục', label:'📄 Thủ tục'},
-      {q:'Xe 50cc', label:'🚲 Xe 50cc'}
-    ],
+  {q:'Xe số', label:'🏍 Xe số'},
+  {q:'Xe ga', label:'🛵 Xe ga'},
+  {q:'Thủ tục', label:'📄 Thủ tục'},
+  {q:'Xe 50cc', label:'🚲 Xe 50cc'},
+  {q:'Liên hệ 0857 255 868', label:'📞 Gọi/Zalo 0857 255 868'}
+],
     memoryKeyName: 'MotoAI_v10_user_name',
     corpusKey: 'MotoAI_v10_corpus', // Corpus gốc (từ DOM)
     sessionKey: 'MotoAI_v10_session_msgs',
