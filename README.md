@@ -145,4 +145,141 @@ bất cứ ai cũng có thể thêm AI thông minh vào website chỉ với 1 d�
 4. Dán **toàn bộ nội dung ở trên** vào.  
 5. Nhấn **Commit changes** ✅  
 
---- 
+---
+
+# 🧠 MotoAI v14 — GPT-3.5 Combo (Smart Engine + UI Apple-Style)
+
+**MotoAI** là hệ thống trí tuệ nhân tạo học tại chỗ (on-page learning AI) dành riêng cho website **cho thuê xe máy**.  
+Bản **v14 Combo** là bản hợp thể giữa:
+
+- 🔹 **MotoAI v13 Smart Engine** — máy học + auto corpus + adaptive rules  
+- 🔹 **MotoAI v9.8 Apple-style UI** — giao diện bong bóng đẹp, nhẹ, tương thích iOS  
+- 🔹 ⚙️ **GPT-3.5 Hybrid Logic** — cải thiện hiểu ngôn ngữ, fix theme sáng/tối, auto sitemap reload  
+
+---
+
+## 🚀 Cách nhúng nhanh (HTML)
+
+Thêm vào cuối file `index.html` (trước `</body>`):
+
+```html
+<!-- 🤖 MotoAI v14 — GPT-3.5 Combo -->
+<script src="https://motoopen.github.io/chothuexemayhanoi/motoai_v14_gpt35_combo.js"></script>
+
+<!-- 🧠 Auto theme + sitemap checker -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const s=document.createElement("style");
+  s.textContent="@media(prefers-color-scheme:light){.m-msg.bot{background:#fff!important;color:#0b1220!important;}}@media(prefers-color-scheme:dark){.m-msg.bot{background:#1c1c20!important;color:#eee!important;}}";
+  document.head.appendChild(s);
+
+  setTimeout(()=>{ 
+    if(window.MotoAI){
+      console.log('✅ MotoAI v14 GPT-3.5 Combo ready:',window.MotoAI);
+    } else {
+      const r=document.createElement('script');
+      r.src='https://motoopen.github.io/chothuexemayhanoi/motoai_v14_gpt35_combo.js?'+Date.now();
+      document.body.appendChild(r);
+    }
+  },1500);
+});
+</script>
+
+<!-- 🧠 Kiểm tra sitemap & ép học lại khi thay đổi -->
+<script>
+fetch("https://motoopen.github.io/chothuexemayhanoi/moto_sitemap.json")
+  .then(r=>r.text())
+  .then(t=>{
+    const hash=btoa(t);
+    const old=localStorage.getItem("MotoAI_lastSitemapVersion");
+    if(old!==hash){
+      console.log("🆕 Sitemap thay đổi — AI sẽ học lại!");
+      localStorage.removeItem("MotoAI_lastLearn");
+      localStorage.setItem("MotoAI_lastSitemapVersion",hash);
+      setTimeout(()=>location.reload(),800);
+    }
+  })
+  .catch(e=>console.warn("⚠️ Không kiểm tra được sitemap:",e));
+</script>
+
+
+⸻
+
+📂 Cấu trúc thư mục
+
+/chothuexemayhanoi/
+│
+├── index.html
+├── motoai_v14_gpt35_combo.js       # AI chính (UI + engine + learn logic)
+├── motoai_v13_98_combo.js          # Bản nền hợp thể (Smart + UI)
+├── moto_sitemap.json               # Danh sách nguồn dữ liệu học
+│
+├── /du-lieu/
+│   ├── xeso.txt
+│   ├── xega.txt
+│   ├── xe50cc.txt
+│   ├── thutuc.txt
+│   ├── hoidap.txt
+│   └── (thêm nếu cần)
+│
+└── /assets/, /css/, /img/...
+
+🗺️ File moto_sitemap.json
+
+AI sẽ đọc nội dung từ danh sách này để tự học và cập nhật corpus.
+
+{
+  "pages": [
+    "https://motoopen.github.io/chothuexemayhanoi/index.html",
+    "https://motoopen.github.io/chothuexemayhanoi/gioithieu.html",
+    "https://motoopen.github.io/chothuexemayhanoi/banggia.html",
+    "https://motoopen.github.io/chothuexemayhanoi/du-lieu/xega.txt",
+    "https://motoopen.github.io/chothuexemayhanoi/du-lieu/xeso.txt",
+    "https://motoopen.github.io/chothuexemayhanoi/du-lieu/xe50cc.txt",
+    "https://motoopen.github.io/chothuexemayhanoi/du-lieu/thutuc.txt",
+    "https://motoopen.github.io/chothuexemayhanoi/du-lieu/hoidap.txt"
+  ]
+}
+
+🧩 Khi moto_sitemap.json thay đổi, AI sẽ tự so sánh bản hash và tự học lại trong vòng 1–2 giây.
+
+
+⸻
+
+⚙️ Tính năng nổi bật
+
+
+⸻
+
+🧱 Hướng dẫn triển khai WordPress (footer)
+
+Dán đoạn sau vào plugin Insert Headers and Footers → mục Scripts in Footer:
+
+<!-- 🤖 MotoAI v14 GPT-3.5 Combo -->
+<script src="https://motoopen.github.io/chothuexemayhanoi/motoai_v14_gpt35_combo.js?ver=14.1"></script>
+
+⚠️ Nếu dùng WP Rocket / Autoptimize: thêm motoai_v14_gpt35_combo.js vào danh sách Exclude from JS combine/minify.
+
+🌍 Đa ngôn ngữ
+
+Muốn dùng trên site tiếng Anh:
+	•	Sao chép file motoai_v14_gpt35_combo.js
+	•	Tạo moto_sitemap_en.json
+	•	Thay sitemapPath trong JS thành file tiếng Anh.
+
+⸻
+
+👨‍💻 Nhà phát triển
+
+Tác giả: Tuấn Tú Nguyễn
+Dự án: MotoOpen / chothuexemayhanoi
+Phiên bản hiện tại: v14 GPT-3.5 Combo
+Cập nhật gần nhất: 2025-10-26
+
+⸻
+
+✨ MotoAI — hướng tới trợ lý AI học tại chỗ cho mọi website địa phương, không cần API, không cần server, hoạt động hoàn toàn offline sau khi load xong dữ liệu.
+
+
+
+
