@@ -1527,16 +1527,15 @@
               });
           });
       }
+ // ** Back to top logic **
+    const backTop = document.querySelector('#backTop');
+    if (backTop) {
+      backTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    }
+  })(); // ✅ kết thúc đúng trong thẻ script
+  </script>
 
-
-      // ** Back to top logic **
-      if (backTop) {
-        backTop.addEventListener('click', () => window.scrollTo({top:0,behavior:'smooth'}));
-      }
-      
-    })();
- 
-<!-- Nhúng file AI (đảm bảo file đã có trên GitHub Pages đường dẫn dưới) -->
+  <!-- Nhúng file AI -->
   <script src="https://motoopen.github.io/aiv10/motoai_v10_hybrid_pro.js"></script>
 </body>
 </html>
