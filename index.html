@@ -2365,19 +2365,71 @@ if(!document.querySelector('moto-toc')){
       
     })();
     </script>
-  rang chủ</a>
-  </footer>
+  <!-- ============================
+     🤖 MotoAI v14 — GPT-3.5 Combo
+     Gồm: Smart Engine (v13_98) + UI Apple + Auto Learn
+============================ -->
+<script src="https://motoopen.github.io/chothuexemayhanoi/motoai_v14_gpt35_combo.js"></script>
 
-  <!-- ⚙️ Nhúng MotoAI v13 + v9.8 -->
-  <script src="https://motoopen.github.io/chothuexemayhanoi/motoai_v13_98_combo.js"></script>
-  <!-- Optional: quick helper để ép AI học lại khi cần -->
-  <!--
-  <script>
-    // Xóa cache học cũ nếu muốn AI nạp lại sitemap mới:
-    // localStorage.removeItem('MotoAI_lastSitemapVersion');
-    // localStorage.removeItem('MotoAI_v11_corpus_ext');
-    // location.reload();
-  </script>
-  -->
+<!-- ============================
+     🧠 Booster & Auto-maintain Helper
+     Gợi ý thêm để AI chạy ổn định hơn
+============================ -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+  /* === 1️⃣ Kiểm tra AI có load chưa === */
+  setTimeout(() => {
+    if (window.MotoAI) {
+      console.log("%c✅ MotoAI v14 đã khởi động hoàn chỉnh!", "color:#0a84ff;font-weight:bold;");
+      console.table({
+        Phiên_bản_UI: window.MotoAI.uiVersion || "Unknown",
+        Phiên_bản_Smart: window.MotoAI.smartVersion || "Unknown",
+        Dữ_liệu_học: (localStorage.getItem("MotoAI_v13_98_corpus")||"[]").length + " ký tự",
+        Lần_học_gần_nhất: new Date(parseInt(localStorage.getItem("MotoAI_lastLearn")||0)).toLocaleString()
+      });
+    } else {
+      console.warn("⚠️ MotoAI chưa load hoặc file bị chặn. Kiểm tra link script hoặc network nhé!");
+    }
+  }, 1500);
+
+  /* === 2️⃣ Tự fix theme (light/dark) === */
+  const themeFix = document.createElement("style");
+  themeFix.textContent = `
+    @media (prefers-color-scheme: light) {
+      .m-msg.bot { background: rgba(255,255,255,0.95)!important; color: #0b1220!important; }
+    }
+    @media (prefers-color-scheme: dark) {
+      .m-msg.bot { background: rgba(30,30,32,0.92)!important; color: #eee!important; }
+    }
+  `;
+  document.head.appendChild(themeFix);
+  console.log("🎨 Theme fix applied for MotoAI v14.");
+
+  /* === 3️⃣ (Tùy chọn) Tự động kiểm tra sitemap === */
+  fetch("https://motoopen.github.io/chothuexemayhanoi/moto_sitemap.json")
+    .then(res => res.ok ? res.json() : Promise.reject(res.status))
+    .then(json => console.log(`🗺️ Sitemap hợp lệ — ${json.pages.length} trang khả dụng.`))
+    .catch(err => console.warn("⚠️ Lỗi tải sitemap:", err));
+
+  /* === 4️⃣ (Tùy chọn) Watchdog — reload nếu AI không khởi động === */
+  setTimeout(() => {
+    if (!window.MotoAI) {
+      console.warn("🔁 AI chưa khởi động sau 5s — thử reload lại script...");
+      const s = document.createElement("script");
+      s.src = "https://motoopen.github.io/chothuexemayhanoi/motoai_v14_gpt35_combo.js?" + Date.now();
+      document.body.appendChild(s);
+    }
+  }, 5000);
+
+  /* === 5️⃣ (Developer) Xóa dữ liệu học nếu cần ép học lại === */
+  // ⚠️ Bỏ comment khi muốn AI học lại từ đầu
+  /*
+  localStorage.removeItem('MotoAI_lastLearn');
+  localStorage.removeItem('MotoAI_v13_98_corpus');
+  console.log('🔁 Đã reset dữ liệu học — tải lại trang để AI học lại từ sitemap.');
+  */
+});
+</script>
 </body>
 </html>
