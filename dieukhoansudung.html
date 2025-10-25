@@ -1403,71 +1403,7 @@
       
     })();
   </script>
-<!-- === MOTOAI v13 PRO ADAPTIVE — UNIVERSAL PATCH === -->
-<script>
-/*
- 🧠 MotoAI v13 Pro Adaptive — Universal Fix (by ChatGPT)
- ✅ Dùng chung cho mọi trang (Trang chủ, Giới thiệu, Chính sách, v.v.)
- ✅ Không ghi đè CSS, không trắng nền, không phá layout
- ✅ Tự khởi động và tự kiểm tra trùng lặp
-*/
-
-(function(){
-  // 1️⃣ Cấu hình theme cho AI
-  window.MotoAITheme = {
-    respectHostTheme: true,
-    disableAutoSwitch: true,
-    darkClass: 'dark',
-    lightClass: '',
-    preserveCSSVariables: true,
-    logMode: true
-  };
-
-  // 2️⃣ Khi DOM sẵn sàng, tạo vùng hiển thị cho AI
-  document.addEventListener("DOMContentLoaded", () => {
-    const id = "motoai-root";
-    if (!document.getElementById(id)) {
-      const root = document.createElement("div");
-      root.id = id;
-      root.style.all = "initial";
-      root.style.position = "fixed";
-      root.style.bottom = "20px";
-      root.style.right = "20px";
-      root.style.zIndex = "9999999";
-      document.body.appendChild(root);
-      console.log("%c✅ motoai-root created","color:#0a84ff");
-    }
-
-    // 3️⃣ Chỉ tải nếu chưa có MotoAI
-    if (!window.MotoAI) {
-      const script = document.createElement("script");
-      script.src = "https://cdn.jsdelivr.net/gh/motoopen/chothuexemayhanoi@main/motoai_v13pro_adaptive.js";
-      script.crossOrigin = "anonymous";
-      script.defer = true;
-      script.onload = () => {
-        console.log("%c🤖 MotoAI loaded on " + window.location.pathname,"color:#0a84ff");
-        setTimeout(() => {
-          if (window.MotoAI && window.MotoAI.start) {
-            window.MotoAI.start();
-          }
-        }, 500);
-      };
-      document.body.appendChild(script);
-    }
-  });
-})();
-</script>
-
-<!-- === MOTOAI STYLE FORCE VISIBLE (chống bị ẩn / che) === -->
-<style>
-#motoai-root,
-.motoai-bubble,
-.motoai-ui {
-  z-index: 9999999 !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-  display: block !important;
-}
-</style>
+<!-- MotoAI v10 Hyris Stable -->
+<script src="./motoai_v10_hyris_stable.js"></script>
 </body>
 </html>
