@@ -2431,5 +2431,20 @@ document.addEventListener("DOMContentLoaded", () => {
   */
 });
 </script>
+  <script>
+fetch("https://motoopen.github.io/chothuexemayhanoi/moto_sitemap.json")
+  .then(r=>r.text())
+  .then(t=>{
+    const hash=btoa(t);
+    const old=localStorage.getItem("MotoAI_lastSitemapVersion");
+    if(old!==hash){
+      console.log("🆕 Sitemap đã thay đổi — AI sẽ học lại!");
+      localStorage.removeItem("MotoAI_lastLearn");
+      localStorage.setItem("MotoAI_lastSitemapVersion",hash);
+      setTimeout(()=>location.reload(),800);
+    }
+  })
+  .catch(e=>console.warn("⚠️ Không kiểm tra được sitemap:",e));
+</script>
 </body>
 </html>
