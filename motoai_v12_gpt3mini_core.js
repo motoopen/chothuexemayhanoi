@@ -333,15 +333,20 @@
                     if(typing) typing.innerHTML = '';
                     // add bot message via existing addMessage if available, else create DOM node
                     try{
-                      if(typeof window.MotoAI_v10.addMessage === 'function'){
-                        window.MotoAI_v10.addMessage('bot', ans);
-                      } else {
-                        const el = document.createElement('div');
-                        el.className = 'm-msg bot';
-                        el.textContent = ans;
-                        bodyEl.appendChild(el);
-                        bodyEl.scrollTop = bodyEl.scrollHeight;
-                      }
+                        // FIX: ADD check for non-empty answer before rendering the message
+                        if (ans && ans.trim()) {
+                            if(typeof window.MotoAI_v10.addMessage === 'function'){
+                                window.MotoAI_v10.addMessage('bot', ans);
+                                // FIX: Ensure scrolling happens after message is added via addMessage (which might not scroll)
+                                bodyEl.scrollTop = bodyEl.scrollHeight; 
+                            } else {
+                                const el = document.createElement('div');
+                                el.className = 'm-msg bot';
+                                el.textContent = ans;
+                                bodyEl.appendChild(el);
+                                bodyEl.scrollTop = bodyEl.scrollHeight;
+                            }
+                        }
                     }catch(e){
                       console.error(e);
                     }
@@ -371,3 +376,4 @@
   // done
   console.log('%c✅ MotoAI v12 GPT-3-mini core ready — attach and patch scheduled', 'color:#0a84ff;font-weight:700');
 })();
+
