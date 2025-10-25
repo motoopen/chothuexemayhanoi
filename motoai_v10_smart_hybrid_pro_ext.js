@@ -51,11 +51,16 @@
       let sitemapPages = [];
       if(res.ok){
          const data = await res.json();
+         // --- START EDIT: Thêm 2 dòng kiểm tra an toàn ---
+         if(!data || typeof data !== 'object'){ console.warn('⚠️ Dữ liệu sitemap không hợp lệ, bỏ qua.'); return; }
+         // --- END EDIT ---
          if(data.pages && Array.isArray(data.pages)){
              sitemapPages = data.pages;
          }
       } else {
-          console.warn('Không thể tải sitemap, chỉ học từ domain bổ sung.');
+          // --- START EDIT: Cập nhật cảnh báo ---
+          console.warn('⚠️ moto_sitemap.json not found, chỉ học từ domain ngoài.');
+          // --- END EDIT ---
       }
 
       // Yêu cầu 2: Gộp sitemap và domain bổ sung
@@ -410,7 +415,9 @@
     { pattern: /(50cc|khong can bang|hoc sinh|sinh vien)/i, answer: "Xe 50cc không cần bằng lái, phù hợp học sinh – sinh viên. 📘" },
     { pattern: /(thu tuc|giay to|can gi|dat coc)/i, answer: "Thủ tục thuê xe: CCCD + GPLX (hoặc Passport nếu là khách nước ngoài). 📄" },
     { pattern: /(gia|bao nhieu|bang gia)/i, answer: "Xe số ~100k/ngày, xe ga ~130k/ngày, xe côn ~200k/ngày. 💰" },
-    { pattern: /(lien he|sdt|zalo|hotline|dia chi)/i, answer: "Liên hệ ☎️ 085.725.5868 hoặc Zalo cùng số nhé!" },
+    // --- START EDIT: Cập nhật rule liên hệ ---
+    { pattern: /(lien he|sdt|zalo|hotline|dia chi)/i, answer: "Liên hệ ☎️ 0857 255 868 (Zalo cùng số) để thuê xe nhanh nhất nhé! 🛵" },
+    // --- END EDIT ---
   ];
   function smartAnswer(q){
     for (const rule of rules){
@@ -561,7 +568,7 @@
     loadSession();
 
     // Logic refresh corpus GỐC (P2)
-    // (Giữ nguyên theo Yêu cầu 1)
+    // (Giỳ nguyên theo Yêu cầu 1)
     const now = Date.now();
     const last = parseInt(localStorage.getItem(CFG.lastCorpusBuildKey)||'0',10);
     const seventyTwoHrs = 72*60*60*1000;
