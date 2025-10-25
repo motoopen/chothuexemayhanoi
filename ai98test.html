@@ -71,7 +71,28 @@
 
   <footer>© 2025 Motoopen · MotoAI v9.8 Glass Edition</footer>
 
-  <!-- MotoAI v9.8 Final UI -->
-  <script src="https://cdn.jsdelivr.net/gh/motoopen/chothuexemayhanoi@main/motoai_embed_v9_8_ui.js?v=20251128" defer crossorigin="anonymous"></script>
+  <!-- ========================= -->
+<!-- 🤖 MotoAI v12 GPT-3-mini Standalone -->
+<script src="https://motoopen.github.io/chothuexemayhanoi/motoai_v12_gpt3mini_standalone.js"></script>
+
+<!-- Optional: kiểm tra trạng thái load -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const checkAI = setInterval(() => {
+      if (window.MotoAI_v12_LOADED) {
+        console.log('%c✅ MotoAI v12 GPT-3-mini đã khởi động thành công!', 'color:#0a84ff;font-weight:700;');
+        clearInterval(checkAI);
+      }
+    }, 500);
+
+    setTimeout(() => {
+      if (!window.MotoAI_v12_LOADED) {
+        console.warn('⚠️ MotoAI chưa load xong hoặc file .js chưa có trên GitHub.');
+      }
+    }, 4000);
+  });
+</script>
+<!-- ========================= -->
+
 </body>
 </html>
