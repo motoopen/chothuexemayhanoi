@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Test MotoAI v11 — GPT2 Hybrid</title>
+  <meta name="description" content="Trang test cho motoai_v11_gpt2_hybrid.js (Motoopen)">
+
+  <!-- Optional: small styles so page looks okay while testing -->
+  <style>
+    body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0; padding:28px; background:#f7f8fa; color:#111}
+    header{max-width:980px;margin:0 auto 18px;display:flex;align-items:center;justify-content:space-between}
+    .site-title{font-weight:700;color:#007aff}
+    main{max-width:980px;margin:0 auto;padding:18px;background:#fff;border-radius:12px;box-shadow:0 6px 20px rgba(0,0,0,.05)}
+    p.lead{margin:0 0 12px}
+    footer{max-width:980px;margin:18px auto;text-align:center;color:#666;font-size:13px}
+    /* reserve space so MotoAI bubble doesn't cover content when testing */
+    .spacer{height:120px}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="site-title">Motoopen — Test MotoAI v11</div>
+    <nav aria-hidden="true">🔧 Test embed</nav>
+  </header>
+
+  <main>
+    <h1>Test Page cho <code>motoai_v11_gpt2_hybrid.js</code></h1>
+    <p class="lead">Mở MotoAI bằng nút bong bóng (góc trái dưới) sau khi script tải xong. Gõ thử: <strong>Xe ga</strong>, <strong>Thủ tục</strong>, hoặc <strong>50cc</strong>.</p>
+
+    <section>
+      <h2>Ví dụ nội dung trang (dùng để xây corpus DOM)</h2>
+      <p>Motoopen cung cấp dịch vụ thuê xe máy tại Hà Nội — xe số, xe ga, xe 50cc, cho thuê theo ngày/tuần/tháng. Dùng file script độc lập để chạy thử AI mới (v11).</p>
+      <h3>Thông tin dịch vụ</h3>
+      <ul>
+        <li>Địa chỉ: 114 Nguyễn Văn Cừ, Long Biên, Hà Nội</li>
+        <li>Hotline / Zalo: 0857 255 868</li>
+        <li>Giờ hoạt động: 07:00 — 20:00</li>
+      </ul>
+    </section>
+
+    <div class="spacer" aria-hidden="true"></div>
+  </main>
+
+  <footer>
+    <small>Test page — Motoopen. Script sẽ chèn UI chat (bubble) tự động.</small>
+  </footer>
+
+  <!-- === Nhúng MotoAI v11 (độc lập) === -->
+  <script src="https://motoopen.github.io/chothuexemayhanoi/motoai_v11_gpt2_hybrid.js"></script>
+
+  <!-- Optional: quick helper to force rebuild extended corpus during dev
+       (bỏ comment khi muốn ép load lại) -->
+  <!--
+  <script>
+    // localStorage.removeItem('MotoAI_lastSitemapVersion');
+    // localStorage.removeItem('MotoAI_v11_corpus_ext');
+    // location.reload();
+  </script>
+  -->
+
+</body>
+</html>
