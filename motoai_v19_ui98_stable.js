@@ -3,7 +3,7 @@
 
   // ======= CONFIG (có thể override bằng window.MotoAI_CONFIG trước khi nhúng) =======
   const DEF = {
-    brand: "AI Assistant",
+    brand: "MS. Thu Hà",
     phone: "0857255868",
     zalo:  "https://zalo.me/0857255868",
     whatsapp: "https://wa.me/84857255868",
