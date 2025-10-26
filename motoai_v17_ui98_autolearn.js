@@ -1,5 +1,3 @@
-<!-- File: motoai_v17_ui98_autolearn.js -->
-<script>
 /*
  * 🚀 MotoAI v17 — UI 9.8 + AutoLearn (Site DOM + Optional Sitemaps)
  * - Tự tạo UI bong bóng chat trái dưới, giao diện Apple-like (v9.8)
@@ -468,4 +466,3 @@
 
   console.log('%c✅ MotoAI v17 ready — window.MotoAI_v17','color:#0a84ff;font-weight:700');
 })();
-</script>
