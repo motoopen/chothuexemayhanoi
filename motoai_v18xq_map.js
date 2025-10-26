@@ -245,3 +245,94 @@
     open,close,send,rebuild:buildCorpusFromDOM, version:'v18xq-map'
   };
 })();
+
+<!-- PATCH: Glossy quickbar + ổn định khi focus input (mobile) -->
+<style>
+  /* 1) Quickbar trắng bóng (bắt nhiều selector để tương thích) */
+  #motoai-header .motoai-qbar,
+  #motoai-header [data-quickbar],
+  #motoai-header .motoai-quick {
+    display:flex; gap:8px; align-items:center;
+    padding:6px 10px; border-radius:14px;
+    background:linear-gradient(180deg,rgba(255,255,255,.98),rgba(245,248,255,.98));
+    border:1px solid rgba(13,45,80,.06);
+    box-shadow:0 4px 16px rgba(14,30,64,.08), inset 0 1px 0 rgba(255,255,255,.7);
+    backdrop-filter:saturate(140%) blur(6px);
+  }
+  #motoai-header .motoai-qbar a,
+  #motoai-header [data-quickbar] a,
+  #motoai-header .motoai-quick a{
+    width:36px; height:36px; display:flex; align-items:center; justify-content:center;
+    border-radius:10px; background:#fff; box-shadow:inset 0 1px 0 rgba(255,255,255,.8);
+  }
+  #motoai-header .motoai-qbar a img,
+  #motoai-header .motoai-qbar a svg,
+  #motoai-header [data-quickbar] a img,
+  #motoai-header [data-quickbar] a svg{ width:20px; height:20px }
+
+  /* 2) Card ít “bật” hơn & cố định chiều cao vừa tầm */
+  #motoai-card{
+    transition: transform .18s ease-out, opacity .16s ease-out !important;
+    height:clamp(420px, 64vh, 640px) !important;
+    max-height:640px !important;
+  }
+  /* 3) Mobile: thấp hơn chút để không che nhiều khi bàn phím mở */
+  @media (max-width: 480px){
+    #motoai-card{ height:clamp(360px, 60vh, 620px) !important; }
+    #motoai-input{ padding-bottom: max(10px, env(safe-area-inset-bottom)) !important; }
+  }
+
+  /* 4) Khi chat mở: khóa body tránh trang nền tự cuộn gây nhảy khung */
+  html.motoai-lock, body.motoai-lock { overflow:hidden !important; touch-action:none !important; overscroll-behavior:contain !important; }
+</style>
+
+  (function(){
+    // Khóa/unlock scroll nền khi mở/đóng chat => tránh “bật lên” lúc focus input trên mobile
+    const tryBind = () => {
+      const card = document.querySelector('#motoai-card');
+      const bubble = document.querySelector('#motoai-bubble');
+      const backdrop = document.querySelector('#motoai-backdrop');
+      const closeBtn = document.querySelector('#motoai-close');
+      const input = document.querySelector('#motoai-input-el');
+      if(!card || !bubble || !backdrop || !closeBtn) return false;
+
+      const lock = (on)=> {
+        document.documentElement.classList.toggle('motoai-lock', on);
+        document.body.classList.toggle('motoai-lock', on);
+      };
+
+      // Hook hành vi mở/đóng
+      const open = ()=> lock(true);
+      const close = ()=> lock(false);
+
+      bubble.addEventListener('click', open, {passive:true});
+      backdrop.addEventListener('click', close, {passive:true});
+      closeBtn.addEventListener('click', close, {passive:true});
+
+      // iOS keyboard: giữ card ổn định theo visualViewport
+      if (window.visualViewport && /iP(hone|ad|od)/.test(navigator.userAgent)) {
+        const vv = window.visualViewport;
+        const onVV = () => {
+          // giữ card không nhảy: cố định transform và điều chỉnh bottom padding input
+          card.style.transform = 'translateY(0)';
+        };
+        vv.addEventListener('resize', onVV);
+        vv.addEventListener('scroll', onVV);
+      }
+
+      // Tránh auto-scroll quá đà khi focus
+      if (input) {
+        input.addEventListener('focus', ()=> {
+          // đảm bảo không cuộn nền
+          window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+        }, {passive:true});
+      }
+      return true;
+    };
+
+    // Đợi UI của MotoAI gắn xong rồi mới bind
+    let tries = 0, t = setInterval(()=>{
+      if(tryBind() || ++tries>20) clearInterval(t);
+    }, 120);
+  })();
+
