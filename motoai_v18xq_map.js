@@ -1,6 +1,6 @@
 /* motoai_v18xq_map.js
  * UI98 Responsive + Messenger bubble + QuickConnect (Zalo/WA/Call/Map) + polite reply
- * Nhúng 1 dòng là chạy trên HTML/WordPress.
+ * Đã loại bỏ hoàn toàn hiệu ứng trượt/transition (No Slide)
  */
 (function(){
   if (window.MotoAI_v18xq) return;
@@ -10,7 +10,7 @@
     minSentenceLen:24, maxItems:1000,
     corpusKey:`MotoAI_v18xq_${HOSTKEY}_corpus`,
     sessionKey:`MotoAI_v18xq_${HOSTKEY}_session`,
-    // QuickConnect links (ai khác muốn đổi: chỉ sửa số/link ở đây)
+    // QuickConnect links
     phone:"0857255868",
     zalo:"https://zalo.me/0857255868",
     whatsapp:"https://wa.me/0857255868",
@@ -24,7 +24,7 @@
   const sleep=ms=>new Promise(r=>setTimeout(r,ms));
   const tok=t=>(t||'').toLowerCase().replace(/[^\p{L}\p{N}\s]+/gu,' ').split(/\s+/).filter(Boolean);
 
-  // ===== UI (Messenger-like bubble) =====
+  // ===== UI (Messenger-like bubble) & HTML Structure =====
   const MESSENGER_SVG = `
     <svg viewBox="0 0 36 36" width="26" height="26" aria-hidden="true">
       <defs>
@@ -35,6 +35,7 @@
       <rect x="0" y="0" width="36" height="36" rx="10" fill="url(#g)"/>
       <path d="M18 8c-5.6 0-10 3.8-10 8.6 0 2.6 1.4 5 3.7 6.6v3.8l3.4-1.9c.9.2 1.8.3 2.8.3 5.6 0 10-3.8 10-8.6S23.6 8 18 8zm4.9 6.9l-3.1 3.3-2.4-2.2-4.3 3.9 3.1-3.3 2.4 2.2 4.3-3.9z" fill="#fff"/>
     </svg>`;
+
   const uiHtml=`
   <div id="motoai-root" aria-live="polite">
     <button id="motoai-bubble" aria-label="Mở chat" title="Chat">
@@ -59,19 +60,54 @@
       </div>
     </div>
   </div>`;
+
+  // Tinh chỉnh CSS: Loại bỏ transitions và áp dụng Quickbar styles
   const uiCss=`
   :root{--m-blue:#007aff;--m-blue2:#00b6ff;--m-bg:#ffffff;--m-bg-dark:#1c1c20;--m-fg:#0b1220;--m-fg-dark:#eee}
   #motoai-root{position:fixed;left:16px;bottom:18px;z-index:99997;font-family:-apple-system,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial}
-  #motoai-bubble{width:56px;height:56px;border:0;border-radius:16px;display:flex;align-items:center;justify-content:center;background:transparent;box-shadow:0 8px 24px rgba(0,0,0,.25);cursor:pointer;transition:transform .18s}
+
+  /* Bubble: Loại bỏ transition transform */
+  #motoai-bubble{width:56px;height:56px;border:0;border-radius:16px;display:flex;align-items:center;justify-content:center;background:transparent;box-shadow:0 8px 24px rgba(0,0,0,.25);cursor:pointer}
   #motoai-bubble:hover{transform:scale(1.04)}
-  #motoai-card{position:fixed;left:12px;bottom:88px;width:min(720px,calc(100vw - 24px));height:60vh;max-height:640px;background:rgba(255,255,255,.9);backdrop-filter:blur(12px) saturate(140%);color:var(--m-fg);border-radius:20px;box-shadow:0 18px 40px rgba(0,0,0,.2);display:none;flex-direction:column;overflow:hidden;z-index:99999;opacity:0;transform:translateY(12px);transition:opacity .15s ease,transform .15s ease}
-  #motoai-card.open{display:flex;opacity:1;transform:translateY(0)}
-  #motoai-header{display:flex;align-items:center;gap:10px;padding:8px 12px;border-bottom:1px solid rgba(0,0,0,.06);background:rgba(255,255,255,.75)}
+
+  /* Card: Loại bỏ opacity, transform, và transition. Dùng display:none/flex để show/hide tức thì */
+  #motoai-card{
+    position:fixed;left:12px;bottom:88px;
+    width:min(720px,calc(100vw - 24px));
+    height:clamp(420px, 64vh, 640px); /* Dùng clamp để cố định chiều cao hợp lý */
+    max-height:640px;
+    background:rgba(255,255,255,.9);
+    backdrop-filter:blur(12px) saturate(140%);
+    color:var(--m-fg);border-radius:20px;
+    box-shadow:0 18px 40px rgba(0,0,0,.2);
+    display:none; /* Mặc định ẩn */
+    flex-direction:column;
+    overflow:hidden;
+    z-index:99999;
+  }
+  #motoai-card.open{display:flex} /* Hiển thị tức thì */
+
+  #motoai-header{display:flex;align-items:center;gap:10px;padding:8px 12px;border-bottom:1px solid rgba(0,0,0,.06)}
   #motoai-header .brand{font-weight:700;color:var(--m-blue)}
   #motoai-close{margin-left:auto;background:transparent;border:0;font-size:20px;cursor:pointer;color:var(--m-blue)}
-  #motoai-header .quick{display:flex;gap:8px}
-  .q-btn{width:34px;height:34px;border-radius:10px;display:inline-block;background:rgba(0,122,255,.09);position:relative}
-  .q-btn:after{content:"";position:absolute;inset:0;margin:auto;width:18px;height:18px}
+
+  /* Quick Connect Bar - Tinh chỉnh style Quickbar */
+  #motoai-header .quick{
+    display:flex; gap:8px; align-items:center;
+    padding:6px 10px; border-radius:14px;
+    background:linear-gradient(180deg,rgba(255,255,255,.98),rgba(245,248,255,.98));
+    border:1px solid rgba(13,45,80,.06);
+    box-shadow:0 4px 16px rgba(14,30,64,.08), inset 0 1px 0 rgba(255,255,255,.7);
+    backdrop-filter:saturate(140%) blur(6px);
+  }
+  .q-btn{
+    width:36px; height:36px;
+    border-radius:10px;display:flex; align-items:center; justify-content:center;
+    background:#fff; box-shadow:inset 0 1px 0 rgba(255,255,255,.8);
+    position:relative
+  }
+  .q-btn:after{content:"";position:absolute;inset:0;margin:auto;width:20px;height:20px}
+  /* Icon styles */
   .q-zalo:after{background:url('data:image/svg+xml;utf8,<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="%23007aff" d="M19 3H5a2 2 0 0 0-2 2v10l4 4h12a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2Zm-8.1 10.4H7.6l3.7-5.8H7.2V6.9h5.5l-3.8 6.5Zm8.2-1.8c-.4 0-.7.3-.7.7s.3.7.7.7.7-.3.7-.7-.3-.7-.7-.7Zm-2.2 0c-.4 0-.7.3-.7.7s.3.7.7.7.7-.3.7-.7-.3-.7-.7-.7Zm-2.2 0c-.4 0-.7.3-.7.7s.3.7.7.7.7-.3.7-.7-.3-.7-.7-.7Z"/></svg>') center/contain no-repeat}
   .q-wa:after{background:url('data:image/svg+xml;utf8,<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="%2300a884" d="M12 2a9.9 9.9 0 0 0-8.48 15.1L2 22l4.99-1.46A10 10 0 1 0 12 2Zm5.48 14.53c-.23.64-1.36 1.23-1.88 1.28-.48.05-1.08.07-1.74-.11a9.4 9.4 0 0 1-3.92-2.23 11 11 0 0 1-2.61-3.3c-.27-.48-.62-1.34-.62-2.03 0-.97.51-1.45.69-1.65.18-.2.4-.25.53-.25h.38c.12 0 .29-.04.45.34.17.41.56 1.4.61 1.5.05.1.08.22 0 .35-.08.13-.12.21-.25.33-.12.12-.26.27-.37.36-.12.1-.24.21-.1.42.13.2.57.93 1.23 1.51.85.76 1.57 1 1.78 1.12.2.13.32.11.44-.07.12-.18.51-.59.64-.79.13-.2.27-.17.45-.1.18.06 1.17.55 1.37.65.2.1.33.15.38.23.06.08.06.64-.17 1.28Z"/></svg>') center/contain no-repeat}
   .q-call:after{background:url('data:image/svg+xml;utf8,<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="%23007aff" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.8-.4 1.2-.2 1.3.5 2.8.8 4.4.8.7 0 1.2.5 1.2 1.2V21c0 .7-.5 1.2-1.2 1.2C10.7 22.2 1.8 13.3 1.8 2.4 1.8 1.7 2.3 1.2 3 1.2h2.9c.7 0 1.2.5 1.2 1.2 0 1.6.3 3.1.8 4.4.1.4 0 .8-.2 1.2l-2.1 2.8z"/></svg>') center/contain no-repeat}
@@ -94,14 +130,25 @@
     #motoai-input{background:rgba(25,25,30,.9)}
     #motoai-input input{background:rgba(40,40,50,.86);color:var(--m-fg-dark);border:1px solid rgba(255,255,255,.12)}
     #motoai-header{background:rgba(30,30,32,.7);border-bottom-color:rgba(255,255,255,.08)}
+    #motoai-header .quick{
+      background:rgba(30,30,32,.7);
+      border:1px solid rgba(255,255,255,.1);
+      box-shadow:0 4px 16px rgba(0,0,0,.3), inset 0 1px 0 rgba(255,255,255,.1);
+    }
   }
   @media (max-width:480px){
-    #motoai-card{left:10px;bottom:82px;width:calc(100vw - 20px);height:64vh}
+    /* Điều chỉnh cho mobile */
+    #motoai-card{
+      left:10px;bottom:82px;width:calc(100vw - 20px);
+      height:clamp(360px, 60vh, 620px); /* Điều chỉnh chiều cao cho phù hợp mobile */
+    }
     #motoai-header .brand{font-size:13px}
     .q-btn{width:32px;height:32px}
+    /* Đảm bảo padding bottom cho iPhone notch/safe area */
+    #motoai-input{ padding-bottom: max(10px, env(safe-area-inset-bottom)) !important; }
   }`;
 
-  // inject
+  // Hàm inject UI
   (function injectUI(){
     if ($('#motoai-root')) return;
     const wrap=document.createElement('div'); wrap.innerHTML=uiHtml;
@@ -113,7 +160,7 @@
   const bodyEl=$('#motoai-body'), suggestEl=$('#motoai-suggest');
   const inputEl=$('#motoai-input-el'), sendBtn=$('#motoai-send');
 
-  // ===== State =====
+  // ===== State & Storage =====
   let isOpen=false, sending=false, corpus=[];
   function loadCorpus(){ corpus=safeParse(localStorage.getItem(CFG.corpusKey))||[] }
   function saveCorpus(){ try{localStorage.setItem(CFG.corpusKey,JSON.stringify(corpus))}catch(e){} }
@@ -205,29 +252,32 @@
     });
   })();
 
-  // ===== Open/Close =====
+  // ===== Open/Close (Instant No Slide) =====
   function open(){
     if(isOpen) return;
     renderSession();
+    card.style.display='flex'; // Hiện tức thì
     card.classList.add('open');
-    card.style.display='flex';
     isOpen=true;
-    setTimeout(()=>{ try{inputEl.focus()}catch(e){} },160);
+    // Vẫn giữ timeout nhỏ để đảm bảo card đã render rồi mới focus
+    setTimeout(()=>{ try{inputEl.focus()}catch(e){} },50);
   }
   function close(){
     if(!isOpen) return;
     card.classList.remove('open');
+    card.style.display='none'; // Ẩn tức thì
     isOpen=false;
-    setTimeout(()=>{ if(!isOpen) card.style.display='none' },160);
   }
 
-  // ===== Send flow =====
+  // ===== Send flow (Không thay đổi) =====
   async function send(text){
     if(sending) return;
     text=(text||'').trim();
     if(!text) return;
     sending=true;
+    inputEl.value=''; // Clear input ngay lập tức
     addMsg('user',text);
+    // Độ trễ trả lời mô phỏng đánh máy
     await sleep(140+Math.min(380,text.length*4));
     const out=answer(text);
     addMsg('bot',out);
@@ -237,102 +287,12 @@
   // ===== Bind =====
   bubble.addEventListener('click',()=>{ if(!corpus.length) buildCorpusFromDOM(); open(); });
   closeBtn.addEventListener('click',close);
-  sendBtn.addEventListener('click',()=>{ const v=inputEl.value.trim(); if(!v) return; inputEl.value=''; send(v) });
-  inputEl.addEventListener('keydown',e=>{ if(e.key==='Enter'&&!e.shiftKey){ e.preventDefault(); const v=inputEl.value.trim(); if(!v) return; inputEl.value=''; send(v) }});
+  sendBtn.addEventListener('click',()=>{ const v=inputEl.value.trim(); if(!v) return; send(v) });
+  inputEl.addEventListener('keydown',e=>{ if(e.key==='Enter'&&!e.shiftKey){ e.preventDefault(); const v=inputEl.value.trim(); if(!v) return; send(v) }});
 
   // ===== Expose =====
   window.MotoAI_v18xq={
-    open,close,send,rebuild:buildCorpusFromDOM, version:'v18xq-map'
+    open,close,send,rebuild:buildCorpusFromDOM, version:'v18xq-map-noslide'
   };
 })();
-
-<!-- PATCH: Glossy quickbar + ổn định khi focus input (mobile) -->
-<style>
-  /* 1) Quickbar trắng bóng (bắt nhiều selector để tương thích) */
-  #motoai-header .motoai-qbar,
-  #motoai-header [data-quickbar],
-  #motoai-header .motoai-quick {
-    display:flex; gap:8px; align-items:center;
-    padding:6px 10px; border-radius:14px;
-    background:linear-gradient(180deg,rgba(255,255,255,.98),rgba(245,248,255,.98));
-    border:1px solid rgba(13,45,80,.06);
-    box-shadow:0 4px 16px rgba(14,30,64,.08), inset 0 1px 0 rgba(255,255,255,.7);
-    backdrop-filter:saturate(140%) blur(6px);
-  }
-  #motoai-header .motoai-qbar a,
-  #motoai-header [data-quickbar] a,
-  #motoai-header .motoai-quick a{
-    width:36px; height:36px; display:flex; align-items:center; justify-content:center;
-    border-radius:10px; background:#fff; box-shadow:inset 0 1px 0 rgba(255,255,255,.8);
-  }
-  #motoai-header .motoai-qbar a img,
-  #motoai-header .motoai-qbar a svg,
-  #motoai-header [data-quickbar] a img,
-  #motoai-header [data-quickbar] a svg{ width:20px; height:20px }
-
-  /* 2) Card ít “bật” hơn & cố định chiều cao vừa tầm */
-  #motoai-card{
-    transition: transform .18s ease-out, opacity .16s ease-out !important;
-    height:clamp(420px, 64vh, 640px) !important;
-    max-height:640px !important;
-  }
-  /* 3) Mobile: thấp hơn chút để không che nhiều khi bàn phím mở */
-  @media (max-width: 480px){
-    #motoai-card{ height:clamp(360px, 60vh, 620px) !important; }
-    #motoai-input{ padding-bottom: max(10px, env(safe-area-inset-bottom)) !important; }
-  }
-
-  /* 4) Khi chat mở: khóa body tránh trang nền tự cuộn gây nhảy khung */
-  html.motoai-lock, body.motoai-lock { overflow:hidden !important; touch-action:none !important; overscroll-behavior:contain !important; }
-</style>
-
-  (function(){
-    // Khóa/unlock scroll nền khi mở/đóng chat => tránh “bật lên” lúc focus input trên mobile
-    const tryBind = () => {
-      const card = document.querySelector('#motoai-card');
-      const bubble = document.querySelector('#motoai-bubble');
-      const backdrop = document.querySelector('#motoai-backdrop');
-      const closeBtn = document.querySelector('#motoai-close');
-      const input = document.querySelector('#motoai-input-el');
-      if(!card || !bubble || !backdrop || !closeBtn) return false;
-
-      const lock = (on)=> {
-        document.documentElement.classList.toggle('motoai-lock', on);
-        document.body.classList.toggle('motoai-lock', on);
-      };
-
-      // Hook hành vi mở/đóng
-      const open = ()=> lock(true);
-      const close = ()=> lock(false);
-
-      bubble.addEventListener('click', open, {passive:true});
-      backdrop.addEventListener('click', close, {passive:true});
-      closeBtn.addEventListener('click', close, {passive:true});
-
-      // iOS keyboard: giữ card ổn định theo visualViewport
-      if (window.visualViewport && /iP(hone|ad|od)/.test(navigator.userAgent)) {
-        const vv = window.visualViewport;
-        const onVV = () => {
-          // giữ card không nhảy: cố định transform và điều chỉnh bottom padding input
-          card.style.transform = 'translateY(0)';
-        };
-        vv.addEventListener('resize', onVV);
-        vv.addEventListener('scroll', onVV);
-      }
-
-      // Tránh auto-scroll quá đà khi focus
-      if (input) {
-        input.addEventListener('focus', ()=> {
-          // đảm bảo không cuộn nền
-          window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
-        }, {passive:true});
-      }
-      return true;
-    };
-
-    // Đợi UI của MotoAI gắn xong rồi mới bind
-    let tries = 0, t = setInterval(()=>{
-      if(tryBind() || ++tries>20) clearInterval(t);
-    }, 120);
-  })();
 
