@@ -1,5 +1,5 @@
 /*
- * 🤖 MotoAI v18x — UI98 Responsive Pro (PoliteClean + AutoLearn)
+ * 💬 MotoAI v18x — UI98 Responsive Pro (PoliteClean + AutoLearn)
  * - UI 9.8, bong bóng góc trái, blur nhẹ, dark/light auto
  * - Header: "@ AI Assistant  ☎️ 0857 255 868"
  * - Gợi ý: 💰 Bảng giá | ⚙️ Dịch vụ | 🏍️ Sản phẩm | ☎️ Liên hệ (thanh trượt ngang, co chữ theo màn hình)
