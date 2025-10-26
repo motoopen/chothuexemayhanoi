@@ -1,20 +1,16 @@
 /*
- * 🤖 MotoAI v18x — UI98 Responsive Pro (Messenger Icon)
+ * 🤖 MotoAI v18x — UI98 Responsive Pro (Messenger Icon) - FIXED by Senior Dev
+ * - Hiệu ứng: Fade-in/out + Scale nhẹ (loại bỏ slide để tránh lỗi bàn phím mobile)
  * - Icon Messenger (SVG chuẩn), cố định góc trái dưới, tự tránh va chạm
- * - Mở: slide-up nhanh; Đóng: fade-out nhẹ
  * - Card dùng backdrop-filter (blur 15px) + overlay nền 20% (không blur toàn trang)
- * - Header: "@ AI Assistant  📞 0857 255 868"
- * - Gợi ý: 💰 Bảng giá | ⚙️ Dịch vụ | 🏍️ Sản phẩm | ☎️ Liên hệ
  * - Tông lịch sự tự nhiên: “bạn / mình” (không dùng dạ/vâng/ạ)
- * - AutoLearn: DOM hiện tại + *_sitemap.json + link nội bộ (giới hạn)
- * - Lưu corpus theo domain (localStorage), refresh mỗi 24h
  */
 (function(){
   if (window.MotoAI_v18x_LOADED) return;
   window.MotoAI_v18x_LOADED = true;
   console.log('%cMotoAI v18x Messenger Responsive Pro loading…','color:#0a84ff;font-weight:700');
 
-  /* ===== Config & Keys ===== */
+  /* ===== Config & Keys (Logic untouched) ===== */
   const HOSTKEY = (location.host||'site').replace(/[^a-z0-9.-]/gi,'_');
   const CFG = {
     sitemapCandidates: ['/moto_sitemap.json','/ai_sitemap.json','/sitemap.json'],
@@ -29,7 +25,7 @@
     sessionKey: `MotoAI_v18x_${HOSTKEY}_session`
   };
 
-  /* ===== Helpers ===== */
+  /* ===== Helpers (Logic untouched) ===== */
   const $ = s => document.querySelector(s);
   const $$ = s => Array.from(document.querySelectorAll(s));
   const uniq = arr => Array.from(new Set(arr));
@@ -42,7 +38,7 @@
   }
   const pick = a => a[Math.floor(Math.random()*a.length)];
 
-  /* ===== UI (Messenger icon + responsive) ===== */
+  /* ===== UI (Messenger icon + responsive) - FIXED: Removed slide & handle, simplified transitions ===== */
   const messengerSVG = `
     <svg viewBox="0 0 36 36" aria-hidden="true">
       <defs>
@@ -62,7 +58,7 @@
     </button>
     <div id="motoai-overlay" aria-hidden="true"></div>
     <div id="motoai-card" aria-hidden="true" role="dialog" aria-label="MotoAI chat">
-      <div id="motoai-handle"></div>
+      <!-- Đã bỏ #motoai-handle để gọn hơn -->
       <div id="motoai-header">
         <span>@ AI Assistant</span>
         <a id="motoai-phone" href="tel:0857255868" aria-label="Gọi 0857 255 868">📞 0857 255 868</a>
@@ -79,22 +75,27 @@
   </div>`;
   const uiCss = `
   :root { --accent:#007aff; --overlay:rgba(0,0,0,.20); --blur:15px; }
+  /* Vị trí cố định (góc trái dưới) */
   #motoai-root{ position:fixed; left:16px; bottom:16px; z-index:99997; font-family:-apple-system,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial }
   /* Bubble (Messenger) */
   #motoai-bubble{ position:fixed; left:16px; bottom:16px; width:56px; height:56px; border-radius:16px; border:none; padding:10px; cursor:pointer; box-shadow:0 10px 24px rgba(0,0,0,.28); background:transparent; display:flex; align-items:center; justify-content:center; transition:transform .18s ease }
   #motoai-bubble svg{ width:100%; height:100%; display:block }
   #motoai-bubble:active{ transform:scale(.96) }
 
-  /* Overlay (không blur toàn trang, chỉ tối nhẹ 20%) */
+  /* Overlay (tối nhẹ 20%) */
   #motoai-overlay{ position:fixed; inset:0; background:var(--overlay); opacity:0; pointer-events:none; transition:opacity .18s ease; z-index:99998 }
 
-  /* Card (blur phía sau card bằng backdrop-filter) */
+  /* Card (Fade-in/out + Scale nhẹ - Đã bỏ slide) */
   #motoai-card{ position:fixed; left:16px; bottom:16px; width:min(92vw,420px); height:min(74vh,640px);
     background:rgba(255,255,255,.85); backdrop-filter:blur(var(--blur)) saturate(160%);
-    border-radius:18px; box-shadow:0 18px 44px rgba(0,0,0,.22); overflow:hidden; opacity:0; transform:translateY(18px);
-    transition:transform .22s cubic-bezier(.2,.9,.2,1), opacity .18s ease; z-index:99999; display:flex; flex-direction:column; pointer-events:none }
-  #motoai-card.open{ opacity:1; transform:translateY(0); pointer-events:auto }
-  #motoai-handle{ width:52px; height:6px; background:rgba(150,150,150,.6); border-radius:6px; margin:10px auto }
+    border-radius:18px; box-shadow:0 18px 44px rgba(0,0,0,.22); overflow:hidden; opacity:0; 
+    transform:scale(.95); /* Hiệu ứng scale nhẹ thay cho translateY */
+    transition:transform .22s cubic-bezier(.4, .1, .3, 1.4), opacity .22s ease-out; 
+    z-index:99999; display:flex; flex-direction:column; pointer-events:none }
+  
+  #motoai-card.open{ opacity:1; transform:scale(1); pointer-events:auto }
+
+  /* Đã loại bỏ #motoai-handle CSS */
 
   #motoai-header{ display:flex; align-items:center; gap:10px; justify-content:space-between; padding:6px 12px 6px 14px; font-weight:700; color:var(--accent); border-bottom:1px solid rgba(0,0,0,.06) }
   #motoai-header #motoai-phone{ font-weight:600; text-decoration:none; color:#0b1220; opacity:.9 }
@@ -114,6 +115,7 @@
 
   #motoai-clear{ position:absolute; top:10px; right:46px; background:none; border:none; font-size:18px; cursor:pointer; opacity:.85; color:#333; z-index:10000 }
 
+  /* Dark Mode */
   @media (prefers-color-scheme: dark){
     #motoai-card{ background:rgba(20,20,22,.92); color:#eee }
     .m-msg.bot{ background:rgba(35,35,38,.92); color:#eee }
@@ -124,13 +126,14 @@
     #motoai-header #motoai-phone{ color:#eee }
   }
 
-  /* Tablet/Desktop — nới khung */
+  /* Tablet/Desktop — Nới khung tối đa 420px */
   @media (min-width: 768px){
     #motoai-card{ width:420px; height:600px }
   }
-  /* Mobile nhỏ — thu gọn, tránh che */
+  /* Mobile nhỏ — Tối ưu vị trí */
   @media (max-width: 420px){
-    #motoai-card{ width:92vw; height:78vh; left:4vw; bottom:12px }
+    /* Tối ưu sử dụng chiều cao màn hình trên mobile */
+    #motoai-card{ height:min(85vh, 640px); left:12px; bottom:12px }
     #motoai-bubble{ left:12px; bottom:12px; width:52px; height:52px }
     #motoai-suggestions button{ font-size:13px; padding:6px 10px }
   }`;
@@ -147,7 +150,7 @@
   const bodyEl = $('#motoai-body'), closeBtn = $('#motoai-close'), suggestionsWrap = $('#motoai-suggestions');
   const inputEl = $('#motoai-input-el'), sendBtn = $('#motoai-send'), clearBtn = $('#motoai-clear');
 
-  /* ===== Self-avoid overlap (nudge lên nếu đè) ===== */
+  /* ===== Self-avoid overlap (nudge lên nếu đè) - Logic untouched ===== */
   function avoidOverlap(){
     try{
       const bubbleRect = bubble.getBoundingClientRect();
@@ -166,7 +169,7 @@
   }
   setTimeout(avoidOverlap, 600);
 
-  /* ===== State / Storage ===== */
+  /* ===== State / Storage - Logic untouched ===== */
   let isOpen=false, sendLock=false;
   let corpus=[], extCorpus=[];
   function loadCorpus(){ try{ corpus=safeParse(localStorage.getItem(CFG.corpusKey))||[]; }catch(e){} try{ extCorpus=safeParse(localStorage.getItem(CFG.extCorpusKey))||[]; }catch(e){} }
@@ -200,7 +203,7 @@
   function showTyping(){ const d=document.createElement('div'); d.id='motoai-typing'; d.className='m-msg bot'; d.textContent='...'; bodyEl.appendChild(d); bodyEl.scrollTop=bodyEl.scrollHeight; }
   function hideTyping(){ const d=$('#motoai-typing'); if(d) d.remove(); }
 
-  /* ===== Build Corpus (DOM) ===== */
+  /* ===== Build Corpus (DOM) - Logic untouched ===== */
   function tokenizeCorpus(texts){ return texts.map((t,i)=>({id:i,text:t,tokens:tokenize(t)})); }
   function buildCorpusFromDOM(){
     try{
@@ -222,7 +225,7 @@
   }
   if(!corpus.length) buildCorpusFromDOM();
 
-  /* ===== Learn: Sitemaps & Internal ===== */
+  /* ===== Learn: Sitemaps & Internal - Logic untouched ===== */
   async function discoverSitemaps(){
     const urls = uniq(CFG.sitemapCandidates.map(u => (u.startsWith('http') ? u : location.origin + u)));
     const found = [];
@@ -336,7 +339,7 @@
   scheduleAutoLearn(false);
   setInterval(()=> scheduleAutoLearn(false), 6*60*60*1000);
 
-  /* ===== Tone (polite, “bạn/mình”) ===== */
+  /* ===== Tone (polite, “bạn/mình”) - Logic untouched ===== */
   const PREFIX = ["Chào bạn,","Mình ở đây để hỗ trợ,","Mình sẵn sàng giúp,"];
   const SUFFIX = [" bạn nhé."," cảm ơn bạn."," nếu cần thêm thông tin cứ nói nhé."];
   function makePolite(text){
@@ -346,7 +349,7 @@
     return /[.!?…]$/.test(t) ? `${p} ${t} ${s}` : `${p} ${t}${s}`;
   }
 
-  /* ===== Rules & Retrieval ===== */
+  /* ===== Rules & Retrieval - Logic untouched ===== */
   const RULES = [
     {pattern:/(chào|xin chào|hello|hi|alo)/i, answers:[
       "mình là AI Assistant. Bạn muốn xem 💰 Bảng giá, ⚙️ Dịch vụ, 🏍️ Sản phẩm hay ☎️ Liên hệ?",
@@ -396,7 +399,7 @@
     return makePolite("mình chưa tìm được thông tin trùng khớp. Bạn mô tả cụ thể hơn giúp mình với");
   }
 
-  /* ===== Open/Close ===== */
+  /* ===== Open/Close - Logic untouched ===== */
   function openChat(){
     if(isOpen) return;
     card.classList.add('open');
@@ -437,6 +440,7 @@
   async function userSend(text){
     if(sendLock) return;
     sendLock=true; addMessage('user', text); showTyping();
+    // Thêm thời gian chờ theo độ dài text cho tự nhiên
     await sleep(200 + Math.min(480, text.length*6));
     let ans=null; try{ ans = composeAnswer(text); }catch(e){ ans=null; }
     hideTyping();
@@ -451,10 +455,10 @@
   sendBtn.addEventListener('click', ()=>{ const v=(inputEl.value||'').trim(); if(!v) return; inputEl.value=''; userSend(v); });
   inputEl.addEventListener('keydown',(e)=>{ if(e.key==='Enter' && !e.shiftKey){ e.preventDefault(); const v=(inputEl.value||'').trim(); if(!v) return; inputEl.value=''; userSend(v); }});
 
-  /* ===== Watchdog ===== */
+  /* ===== Watchdog - Logic untouched ===== */
   setTimeout(()=>{ if(!$('#motoai-bubble')){ console.warn('⚠️ MotoAI bubble missing — reinject UI'); injectUI(); }}, 2000);
 
-  /* ===== Expose API ===== */
+  /* ===== Expose API - Logic untouched ===== */
   window.MotoAI_v18x = {
     open: openChat,
     close: closeChat,
@@ -462,7 +466,8 @@
     learnNow: ()=> scheduleAutoLearn(true),
     getCorpus: ()=>({dom: (corpus||[]).slice(0,200), ext: (extCorpus||[]).slice(0,200)}),
     clearCorpus: ()=>{ corpus=[]; extCorpus=[]; saveCorpus(); console.log('🧹 Cleared corpus'); },
-    version: 'v18x-ui98-messenger'
+    version: 'v18x-ui98-messenger-fixed'
   };
 
 })();
+
