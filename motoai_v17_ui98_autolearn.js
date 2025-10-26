@@ -1,5 +1,3 @@
-Sửa vậy đúng chưa
-
 /*
  * 🚀 MotoAI v17 — UI 9.8 + AutoLearn (Site DOM + Optional Sitemaps)
  * - Tự tạo UI bong bóng chat trái dưới, giao diện Apple-like (v9.8)
