@@ -1582,7 +1582,20 @@
   })(); // ✅ kết thúc đúng trong thẻ script
   </script>
 
-  <!-- 🚀 Nhúng MotoAI -->
-  <script src="https://motoopen.github.io/chothuexemayhanoi/motoai_v10_smart_hybrid_pro_ext.js?v=20251025" defer crossorigin="anonymous"></script>
+  <!-- (tuỳ chọn) cấu hình trước khi tải script -->
+<script>
+  window.MotoAI_CONFIG = {
+    brand: "MS. Thu Hà",
+    phone: "0857255868",
+    zalo:  "https://zalo.me/0857255868",
+    whatsapp: "https://wa.me/84857255868",
+    map: "https://maps.app.goo.gl/wnKn2LH4JohhRHHX7",
+    // có thể chỉnh training nếu site ít chữ:
+    // minSentenceLen: 18, maxItems: 1400, maxInternalPages: 20
+  };
+</script>
+
+<!-- MotoAI v19 Stable -->
+<script defer src="https://motoopen.github.io/chothuexemayhanoi/motoai_v19_ui98_stable.js"></script>
 </body>
 </html>
