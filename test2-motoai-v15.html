@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🚀 Test MotoAI v15 — GPT-3.5 Auto-Sitemap Combo</title>
+  <meta name="description" content="Trang thử nghiệm MotoAI v15 Auto-Sitemap — Trí tuệ nhân tạo tự học dữ liệu web.">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      margin: 0; padding: 0;
+      background: #f5f7fa;
+      color: #222;
+      text-align: center;
+    }
+    header {
+      background: linear-gradient(90deg, #007aff, #00b6ff);
+      color: #fff; padding: 40px 10px;
+    }
+    header h1 { margin: 0; font-size: 2em; }
+    main {
+      max-width: 800px; margin: 40px auto;
+      padding: 0 20px;
+    }
+    footer {
+      margin-top: 60px;
+      background: #111;
+      color: #ccc;
+      font-size: 14px;
+      padding: 20px;
+    }
+    a { color: #0a84ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🤖 MotoAI v15 — GPT-3.5 Auto-Sitemap Combo</h1>
+    <p>Bản thử nghiệm tự động học từ tất cả sitemap trên repo.</p>
+  </header>
+
+  <main>
+    <h2>🧠 Kiểm tra khởi động AI</h2>
+    <p>Sau khi trang tải xong, AI sẽ:</p>
+    <ol style="text-align:left; display:inline-block;">
+      <li>🔍 Quét repo để tìm các file <code>*_sitemap.json</code></li>
+      <li>📚 Nạp và học dữ liệu từ từng sitemap</li>
+      <li>🧩 Tự khởi động giao diện chat Apple-style (góc trái dưới)</li>
+      <li>⚡ Nếu sitemap thay đổi → tự reload và học lại</li>
+    </ol>
+
+    <p style="margin-top:30px; font-weight:500;">
+      👉 Sau khi thấy bong bóng 🤖 góc trái dưới, hãy thử gõ:  
+      <br><code>Xe số</code>, <code>Xe ga</code>, <code>Thủ tục thuê</code> hoặc <code>Liên hệ</code>.
+    </p>
+  </main>
+
+  <footer>
+    &copy; 2025 Motoopen. All rights reserved. | 
+    <a href="https://motoopen.github.io/chothuexemayhanoi/">Trang chủ</a>
+  </footer>
+
+  <!-- ============================
+       🤖 MotoAI v15 — GPT-3.5 Auto-Sitemap Combo
+       Tự học toàn repo + tự phát hiện sitemap mới
+  ============================= -->
+  <script src="https://motoopen.github.io/chothuexemayhanoi/motoai_v15_gpt35_autositemap.js"></script>
+
+  <!-- ============================
+       🧠 Kiểm tra trạng thái khởi động
+  ============================= -->
+  <script>
+  document.addEventListener("DOMContentLoaded", ()=>{
+    console.log("🚀 Đang khởi động MotoAI v15 Auto-Sitemap...");
+    setTimeout(()=>{
+      if(window.MotoAI_v15){
+        console.log("%c✅ MotoAI v15 đã sẵn sàng!","color:#0a84ff;font-weight:bold;");
+        console.log("Corpus hiện có:", window.MotoAI_v15.corpus?.());
+      } else {
+        console.warn("⚠️ MotoAI chưa load — thử reload script...");
+        const s=document.createElement("script");
+        s.src="https://motoopen.github.io/chothuexemayhanoi/motoai_v15_gpt35_autositemap.js?"+Date.now();
+        document.body.appendChild(s);
+      }
+    },2000);
+  });
+  </script>
+
+</body>
+</html>
