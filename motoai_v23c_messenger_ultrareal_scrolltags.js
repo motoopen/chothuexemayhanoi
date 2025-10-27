@@ -1,6 +1,8 @@
 /* motoai_v23c_messenger_ultrareal_scrolltags.js
    Messenger-style ~95% • Scrollable Tag Bar • SmartCalc • UltraSafe • iOS Fixes
    Brand: Motoopen | Zalo/Phone: 0857255868 | Map: https://maps.app.goo.gl/2icTBTxAToyvKTE78
+   
+   --- PHIÊN BẢN ĐÃ FIX UX (ĐÓNG/MỞ MƯỢT + TAG BAR ỔN ĐỊNH) ---
 */
 (function(){
   if(window.MotoAI_v23c_MESSENGER_LOADED) return;
@@ -58,7 +60,6 @@
       </header>
       <main id="mta-body"></main>
 
-      <!-- Tag bar scrollable -->
       <div id="mta-tags" role="toolbar" aria-label="Gợi ý nhanh (kéo ngang)">
         <div class="tag-track" id="tagTrack">
           <button data-q="Xe số">🏍️ Xe số</button>
@@ -90,12 +91,25 @@
   #mta-bubble{width:60px;height:60px;border:none;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 10px 26px rgba(0,0,0,.2);outline:3px solid #fff;will-change:transform}
   #mta-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.2);opacity:0;pointer-events:none;transition:opacity .18s ease}
   #mta-backdrop.show{opacity:1;pointer-events:auto}
-  #mta-card{position:fixed;right:16px;bottom:16px;width:min(420px,calc(100% - 24px));height:70vh;max-height:740px;background:var(--mta-bg);color:var(--mta-text);border-radius:18px;box-shadow:0 14px 40px rgba(0,0,0,.25);transform:translateY(110%);/* opacity:1 để tránh xung đột transform+opacity trên iOS */opacity:1;display:flex;flex-direction:column;overflow:hidden;transition:transform .20s cubic-bezier(.22,1,.36,1);will-change:transform}
-  #mta-card.open{transform:translateY(0)}
+  
+  /* === FIX UX 1 (CSS) === */
+  #mta-card{
+    position:fixed;right:16px;bottom:16px;width:min(420px,calc(100% - 24px));height:70vh;max-height:740px;background:var(--mta-bg);color:var(--mta-text);border-radius:18px;box-shadow:0 14px 40px rgba(0,0,0,.25);transform:translateY(110%);/* opacity:1 để tránh xung đột transform+opacity trên iOS */opacity:1;display:flex;flex-direction:column;overflow:hidden;
+    /* Đây là transition cho LÚC ĐÓNG (dùng 'ease-in' - nhanh dần) */
+    transition: transform .22s cubic-bezier(0.64, 0, 0.78, 0); 
+    will-change:transform
+  }
+  #mta-card.open{
+    transform:translateY(0);
+    /* Đây là transition cho LÚC MỞ (dùng 'ease-out' - chậm dần) */
+    transition: transform .25s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  /* === HẾT FIX UX 1 === */
+
   #mta-header{background:linear-gradient(90deg,var(--m-blue),var(--m-blue2));color:#fff}
   #mta-header .brand{display:flex;align-items:center;justify-content:space-between;padding:10px 12px}
   #mta-header .left{display:flex;align-items:center;gap:10px}
-  .avatar{width:28px;height:28px;border-radius:50%;background:rgba(255,255,255,.2);display:flex;align-items:center;justify-content:center}
+  .avatar{width:28px;height:28px;border-radius:50%;background:rgba(255,255,255,.2);display:flex;align-items:center;justify:content:center}
   .info .name{font-weight:800;line-height:1}
   .info .sub{font-size:12px;opacity:.95}
   .quick{display:flex;gap:6px;margin-left:auto;margin-right:6px}
@@ -248,6 +262,20 @@
   // ===== Open/Close/Clear + iOS/Safari ultra-safe
   function forceReflow(el){ try{ void el.offsetHeight; }catch(e){} }
 
+  // === TỐI ƯU THÊM 1/3: Tag Fades ===
+  // Đưa hàm này ra ngoài scope của bindTags để dùng chung
+  function updateTagFades(){
+    const track = $('#tagTrack'); if(!track) return;
+    try { // Thêm try/catch để siêu an toàn
+      const left = track.scrollLeft > 2;
+      // Dùng > 3 để xử lý sai số sub-pixel tốt hơn
+      const right = (track.scrollWidth - track.clientWidth - track.scrollLeft) > 3; 
+      const fl=$('.fade-left'), fr=$('.fade-right');
+      if(fl) fl.style.opacity = left ? 1 : 0;
+      if(fr) fr.style.opacity = right ? 1 : 0;
+    } catch(e) {/*bỏ qua lỗi nếu DOM chưa sẵn sàng*/}
+  }
+
   function openChat(){
     if(isOpen || animating) return;
     animating = true;
@@ -274,6 +302,11 @@
         isOpen = true;
         animating = false;
         renderSess();
+        
+        // === TỐI ƯU THÊM 2/3: Tag Fades ===
+        // Gọi update mỗi khi mở chat, vì clientWidth có thể đã thay đổi
+        setTimeout(updateTagFades, 50); 
+        
         // Không tự focus trên iOS để tránh keyboard lock
         if(!IS_IOS){
           setTimeout(()=>{ try{$('#mta-in').focus()}catch(e){} }, 140);
@@ -292,10 +325,14 @@
 
     try{$('#mta-in').blur();}catch(e){}
 
+    // === FIX UX 2 (ĐỒNG BỘ) ===
+    // Kích hoạt cả hai animation CÙNG LÚC
     card.classList.remove('open');
+    backdrop.classList.remove('show'); 
+    // =========================
 
     const onDone = ()=>{
-      backdrop.classList.remove('show');
+      // backdrop.classList.remove('show'); // <-- ĐÃ CHUYỂN LÊN TRÊN
       backdrop.style.pointerEvents = 'none';
       bubble.style.visibility = 'visible';
       bubble.style.pointerEvents = 'auto';
@@ -322,15 +359,16 @@
     track.querySelectorAll('button').forEach(b=>{
       b.addEventListener('click', ()=> sendUser(b.dataset.q));
     });
-    const updateFade=()=>{
-      const left = track.scrollLeft > 2;
-      const right = (track.scrollWidth - track.clientWidth - track.scrollLeft) > 2;
-      const fl=$('.fade-left'), fr=$('.fade-right');
-      if(fl) fl.style.opacity = left ? 1 : 0;
-      if(fr) fr.style.opacity = right ? 1 : 0;
-    };
-    track.addEventListener('scroll', updateFade, {passive:true});
-    setTimeout(updateFade, 50);
+    
+    // Hàm updateFade gốc đã được chuyển ra ngoài
+    
+    // Gọi hàm update mới
+    track.addEventListener('scroll', updateTagFades, {passive:true});
+    
+    // === TỐI ƯU THÊM 3/3: Tag Fades ===
+    setTimeout(updateTagFades, 50); // Giữ lại cho lần tải đầu
+    // Thêm listener cho resize (quan trọng khi xoay màn hình)
+    window.addEventListener('resize', updateTagFades, {passive:true});
   }
 
   // ===== Send + typing delay (2.5–5s)
@@ -373,7 +411,7 @@
   ready(()=>{
     const hour=new Date().getHours(); if(hour>19||hour<6) document.body.classList.add('ai-night');
     injectUI();
-    bindTags();
+    bindTags(); // <-- bindTags bây giờ đã được tối ưu
 
     // Bind
     $('#mta-bubble').addEventListener('click', openChat, {passive:true});
@@ -393,7 +431,7 @@
     // Watchdog (nếu vì lý do gì đó bubble biến mất, chèn lại UI)
     setTimeout(()=>{ if(!$('#mta-bubble')) injectUI(); }, 2500);
 
-    console.log('%cMotoAI v23c Messenger UltraReal — Active (iOS safe fix)','color:#0084FF;font-weight:bold;');
+    console.log('%cMotoAI v23c Messenger UltraReal — Active (UX Fix v2)','color:#0084FF;font-weight:bold;');
   });
 
   // ===== Expose (mini API)
