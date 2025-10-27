@@ -84,24 +84,163 @@
     .hamburger{display:none;background:transparent;border:0;padding:8px;border-radius:10px;cursor:pointer}
     .hamburger .bar{display:block;width:22px;height:2px;background:var(--text);margin:4px;border-radius:2px}
 
-    /* ---------- Drawer ---------- */
-    .drawer-overlay{position:fixed;inset:0;background:rgba(0,0,0,.25);opacity:0;pointer-events:none;transition:.2s;z-index:var(--z-drawer)}
-    .drawer-overlay.active{opacity:1;pointer-events:auto}
-    .drawer{
-      position:fixed; top:0; left:0; height:100vh; width:320px; max-width:88vw;
-      background:linear-gradient(180deg, rgba(255,255,255,.98), rgba(245,245,247,.98));
-      border-right:1px solid var(--glass-border);
-      transform:translateX(-110%); transition:transform .36s cubic-bezier(.2,.9,.2,1);
-      z-index:calc(var(--z-drawer) + 1); padding:80px 18px 18px;
-      backdrop-filter:blur(12px) saturate(150%);
+    /* ---------- Drawer (CODE ĐÃ SỬA) ---------- */
+    .drawer-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.25);
+      opacity: 0;
+      pointer-events: none;
+      transition: .25s ease;
+      z-index: var(--z-drawer);
     }
-    body.dark .drawer{ background:linear-gradient(180deg, rgba(28,28,30,.98), rgba(35,35,37,.96)) }
-    .drawer.open{ transform:translateX(0) }
-    .drawer a, .drawer button.as-link{
-      display:flex;align-items:center;gap:10px;padding:12px 10px;border-radius:10px;
-      font-weight:700;color:var(--text); background:transparent;border:0;cursor:pointer;width:100%;text-align:left;
+    .drawer-overlay.active {
+      opacity: 1;
+      pointer-events: auto;
     }
-    .drawer a:hover, .drawer button.as-link:hover{ background:var(--glass) }
+
+    .drawer {
+      position: fixed;
+      top: 0; left: 0;
+      height: 100vh; width: 320px; max-width: 88vw;
+      background: linear-gradient(180deg, rgba(255,255,255,.98), rgba(245,245,247,.96));
+      border-right: 1px solid var(--glass-border);
+      transform: translateX(-110%);
+      transition: transform .35s cubic-bezier(.2,.9,.2,1);
+      z-index: calc(var(--z-drawer) + 1);
+      backdrop-filter: blur(12px) saturate(150%);
+      /* Cập nhật padding mới, đã bao gồm safe-area */
+      padding: calc(env(safe-area-inset-top, 12px) + 60px) 16px calc(env(safe-area-inset-bottom, 12px) + 16px);
+      overflow-y: auto;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    .drawer::-webkit-scrollbar { display: none; }
+
+    body.dark .drawer {
+      background: linear-gradient(180deg, rgba(28,28,30,.96), rgba(35,35,37,.96));
+    }
+
+    .drawer.open {
+      transform: translateX(0);
+    }
+
+    /* Header */
+    .drawer-header {
+      display: flex; align-items: center; gap: 12px;
+      padding-bottom: 16px; border-bottom: 1px solid var(--glass-border);
+      margin-bottom: 16px;
+    }
+    .drawer-header img {
+      width: 52px; height: 52px; border-radius: 50%; object-fit: cover;
+      border: 2px solid var(--glass-border);
+    }
+    .drawer-header div { display: flex; flex-direction: column; }
+    .drawer-header strong { font-size: 1.1rem; font-weight: 800; color: var(--text); }
+    .drawer-header small { color: var(--muted); font-weight: 600; }
+
+    /* Menu block */
+    .menu-block {
+      background: var(--surface);
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,.04);
+      margin-bottom: 14px;
+      padding: 8px;
+    }
+    body.dark .menu-block {
+      box-shadow: 0 4px 18px rgba(0,0,0,.25);
+      border: 1px solid var(--glass-border);
+    }
+
+    /* Grid buttons (mini app) */
+    .menu-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+    .menu-grid-item {
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 8px; padding: 16px 8px; border-radius: 10px; font-weight: 700;
+      text-align: center; color: var(--text); transition: background .2s;
+    }
+    .menu-grid-item:hover { background: var(--glass); }
+    .menu-grid-item i { font-size: 1.5rem; color: var(--accent); }
+    /* Màu riêng cho icon (nếu cần) */
+    .menu-grid-item:nth-child(2) i{ color: #0A84FF; } 
+    .menu-grid-item:nth-child(3) i{ color: #EA4335; } 
+    .menu-grid-item:nth-child(4) i{ color: #FF9F0A; } 
+    .menu-grid-item span { font-size: .9rem; }
+
+    /* Menu items */
+    .menu-item {
+      display: flex; align-items: center; gap: 14px;
+      padding: 12px 10px; border-radius: 10px;
+      font-weight: 700; color: var(--text);
+      background: transparent; border: 0; cursor: pointer;
+      width: 100%; text-align: left; text-decoration: none;
+      transition: background .2s;
+    }
+    .menu-item:hover { background: var(--glass); }
+
+    .menu-item i:first-child {
+      width: 32px; height: 32px;
+      display: inline-flex; align-items: center; justify-content: center;
+      background: var(--glass); border-radius: 50%;
+      font-size: .95rem;
+    }
+    .menu-item span { line-height: 1.2; }
+
+    /* Accordion (dịch vụ) */
+    .menu-item .chevron-icon {
+      margin-left: auto; font-size: .8rem; color: var(--muted);
+      transition: transform .25s ease-out;
+    }
+    .menu-item.open .chevron-icon { transform: rotate(180deg); }
+
+    .menu-submenu {
+      max-height: 0; overflow: hidden;
+      transition: max-height .3s ease-out;
+      margin-left: 12px; border-left: 2px solid var(--glass-border);
+      padding-left: 10px;
+    }
+    /* Đảm bảo chiều cao đủ cho 5 items */
+    .menu-submenu.open { max-height: 260px; } 
+
+    /* Sub items */
+    .menu-item.menu-item-sub {
+      padding-top: 10px; padding-bottom: 10px;
+    }
+    .menu-item.menu-item-sub i {
+      width: 24px; height: 24px; font-size: .8rem;
+      background: transparent;
+    }
+
+    /* Dark mode toggle */
+    .menu-item .toggle-switch {
+      margin-left: auto;
+      width: 44px; height: 26px;
+      background: var(--glass-border);
+      border-radius: 99px;
+      position: relative;
+      transition: background .2s;
+    }
+    body.dark .menu-item .toggle-switch { background: rgba(120,120,128,.36); }
+
+    .menu-item .toggle-switch::before {
+      content: '';
+      position: absolute; top: 2px; left: 2px;
+      width: 22px; height: 22px;
+      background: var(--surface);
+      border-radius: 50%;
+      box-shadow: 0 1px 3px rgba(0,0,0,.2);
+      transition: transform .2s ease-out;
+    }
+    body.dark .menu-item .toggle-switch::before { background: #1C1C1E; }
+
+    .menu-item.active .toggle-switch { background: var(--accent-2); }
+    .menu-item.active .toggle-switch::before { transform: translateX(18px); }
+    /* ===== KẾT THÚC CSS MENU ĐÃ SỬA ===== */
+
 
     /* ---------- TOC (H2 only) - ĐÃ CHUYỂN SANG PHẢI ---------- */
     .toc-fab{
@@ -166,11 +305,11 @@
     /* ===== CSS CHO FOOTER VÀ BOTTOM APP BAR MỚI ===== */
     /* Fallback variables (site anh đã có thì giữ nguyên) */
     :root{
-      --accent:#0a84ff; --text:#0b0b0d; --footer-bg:rgba(255,255,255,.65);
-      --glass-border:rgba(60,60,67,.18);
+      /* --accent:#0a84ff; --text:#0b0b0d; --footer-bg:rgba(255,255,255,.65); */ /* Đã có ở trên */
+      /* --glass-border:rgba(60,60,67,.18); */ /* Đã có ở trên */
     }
     body.dark{
-      --footer-bg:rgba(22,22,24,.65); --text:#eaeaea; --glass-border:rgba(255,255,255,.12);
+      /* --footer-bg:rgba(22,22,24,.65); --text:#eaeaea; --glass-border:rgba(255,255,255,.12); */ /* Đã có ở trên */
     }
 
     /* ===== Footer Apple Glass ===== */
@@ -281,22 +420,56 @@
   </header>
 
   <div class="drawer-overlay" id="drawerOverlay" aria-hidden="true"></div>
+  
+  <!-- ===== DRAWER NÂNG CẤP (HTML ĐÃ SỬA) ===== -->
   <aside class="drawer" id="drawer" role="menu" aria-hidden="true">
-    <a class="icon" href="/chothuexemayhanoi/"><i class="fa-solid fa-house"></i> Trang chủ</a>
-    <a class="icon" href="/chothuexemayhanoi/gioithieu.html"><i class="fa-solid fa-circle-info"></i> Giới thiệu</a>
-    <button class="as-link" id="drawerService"><i class="fa-solid fa-motorcycle"></i> DỊCH VỤ <i class="fa-solid fa-chevron-down" style="margin-left:auto"></i></button>
-    <div id="drawerServiceMenu" style="display:none; margin-left:10px; border-left:2px solid var(--glass-border); padding-left:10px">
-      <a class="icon" href="/chothuexemayhanoi/banggia.html"><i class="fa-solid fa-tags"></i> Bảng giá</a>
-      <a class="icon" href="/chothuexemayhanoi/thutuc.html"><i class="fa-solid fa-file-signature"></i> Thủ tục</a>
-      <a class="icon" href="/chothuexemayhanoi/loaixe.html"><i class="fa-solid fa-motorcycle"></i> Loại xe</a>
-      <a class="icon" href="/chothuexemayhanoi/huongdan.html"><i class="fa-solid fa-book"></i> Hướng dẫn</a>
-      <a class="icon" href="/chothuexemayhanoi/kinhnghiem.html"><i class="fa-solid fa-lightbulb"></i> Kinh nghiệm</a>
+    <div class="drawer-header">
+      <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen">
+      <div>
+        <strong>Motoopen</strong>
+        <small>Thuê xe máy Hà Nội</small>
+      </div>
     </div>
-    <a class="icon" href="/chothuexemayhanoi/faq.html"><i class="fa-solid fa-circle-question"></i> FAQ</a>
-    <a class="icon" href="/chothuexemayhanoi/lienhe.html"><i class="fa-solid fa-phone"></i> Liên hệ</a>
-    <a class="icon" href="tel:0857255868"><i class="fa-solid fa-phone-volume"></i> 0857 255 868</a>
-    <a class="icon" href="https://zalo.me/0857255868" target="_blank"><i class="fa-solid fa-comment-dots"></i> Zalo</a>
+
+    <!-- Cập nhật grid: Bỏ Zalo, FAQ, thêm Bản đồ, Bảng giá -->
+    <div class="menu-block">
+      <div class="menu-grid">
+        <a href="tel:0857255868" class="menu-grid-item"><i class="fa-solid fa-phone-volume"></i><span>Gọi ngay</span></a>
+        <a href="https://maps.app.goo.gl/2icTBTxAToyvKTE78" target="_blank" class="menu-grid-item"><i class="fa-solid fa-location-dot"></i><span>Bản đồ</span></a>
+        <a href="/chothuexemayhanoi/banggia.html" class="menu-grid-item"><i class="fa-solid fa-tags"></i><span>Bảng giá</span></a>
+        <a href="/chothuexemayhanoi/faq.html" class="menu-grid-item"><i class="fa-solid fa-circle-question"></i><span>FAQ</span></a>
+      </div>
+    </div>
+
+    <!-- Cập nhật menu list: Bỏ FAQ (đã lên grid) -->
+    <div class="menu-block">
+      <a class="menu-item" href="/chothuexemayhanoi/"><i class="fa-solid fa-house"></i><span>Trang chủ</span></a>
+      <a class="menu-item" href="/chothuexemayhanoi/gioithieu.html"><i class="fa-solid fa-circle-info"></i><span>Giới thiệu</span></a>
+
+      <button class="menu-item" id="drawerServiceToggle">
+        <i class="fa-solid fa-motorcycle"></i><span>Dịch vụ</span>
+        <i class="fa-solid fa-chevron-down chevron-icon"></i>
+      </button>
+      <div class="menu-submenu" id="drawerServiceMenu">
+        <a class="menu-item menu-item-sub" href="/chothuexemayhanoi/banggia.html"><i class="fa-solid fa-tags"></i>Bảng giá</a>
+        <a class="menu-item menu-item-sub" href="/chothuexemayhanoi/thutuc.html"><i class="fa-solid fa-file-signature"></i>Thủ tục</a>
+        <a class="menu-item menu-item-sub" href="/chothuexemayhanoi/loaixe.html"><i class="fa-solid fa-motorcycle"></i>Loại xe</a>
+        <a class="menu-item menu-item-sub" href="/chothuexemayhanoi/huongdan.html"><i class="fa-solid fa-book"></i>Hướng dẫn</a>
+        <a class="menu-item menu-item-sub" href="/chothuexemayhanoi/kinhnghiem.html"><i class="fa-solid fa-lightbulb"></i>Kinh nghiệm</a>
+      </div>
+
+      <a class="menu-item" href="/chothuexemayhanoi/lienhe.html"><i class="fa-solid fa-phone"></i><span>Liên hệ</span></a>
+    </div>
+
+    <div class="menu-block">
+      <button class="menu-item" id="drawerToggleDark">
+        <i class="fa-solid fa-moon"></i><span>Chế độ Tối/Sáng</span>
+        <span class="toggle-switch"></span>
+      </button>
+    </div>
   </aside>
+  <!-- ===== KẾT THÚC DRAWER NÂNG CẤP ===== -->
+
 
   <!-- Nút TOC (Mục lục) đã được CSS chuyển sang phải -->
   <button class="toc-fab" id="tocFab" title="Mục lục (H2)">≡</button>
@@ -323,7 +496,7 @@
       <details>
         <summary>Giá thuê xe máy theo tháng?</summary>
         <div class="answer">Từ <strong>1–2 triệu/tháng</strong>, phù hợp khách thuê dài hạn.</div>
-      </details>
+      </deta>
 
       <details>
         <summary>Thủ tục thuê xe máy?</summary>
@@ -333,7 +506,7 @@
       <details>
         <summary>Có giao xe tận nơi không?</summary>
         <div class="answer">Có, giao nhanh trong nội thành Hà Nội (có phí).</div>
-      </details>
+      </deta>
     </section>
 
   </main>
@@ -379,7 +552,7 @@
         <a href="https://zalo.me/0857255868" title="Zalo" aria-label="Zalo"><i class="fa-solid fa-comment-dots"></i></a>
         <a href="https://m.facebook.com/motoopenvn/" title="Facebook" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
         <a href="mailto:motoopen12@gmail.com" title="Email" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
-        <a href="https://www.instagram.com/motoopen/" title="Instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https.www.instagram.com/motoopen/" title="Instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
       </div>
       <p class="author" style="margin-top:10px">
         <i class="fa-solid fa-copyright"></i> 2025
@@ -400,29 +573,39 @@
   <script>
   (function(){
     const topbar   = document.getElementById('topbar');
-    const hamburger= document.getElementById('hamburger');
-    const drawer   = document.getElementById('drawer');
-    const overlay  = document.getElementById('drawerOverlay');
+    // const hamburger= document.getElementById('hamburger'); // Đã định nghĩa ở dưới
+    // const drawer   = document.getElementById('drawer'); // Đã định nghĩa ở dưới
+    // const overlay  = document.getElementById('drawerOverlay'); // Đã định nghĩa ở dưới
 
     // top padding avoid cover
     function setBodyTop(){ document.body.style.paddingTop = (topbar.getBoundingClientRect().height + 8) + 'px'; }
     setBodyTop(); addEventListener('resize', ()=>requestAnimationFrame(setBodyTop), {passive:true});
 
-    // drawer
-    function openDrawer(open){
-      if(open){ drawer.classList.add('open'); overlay.classList.add('active'); drawer.setAttribute('aria-hidden','false'); }
+    
+    // ===== JAVASCRIPT NÂNG CẤP MENU (CODE ĐÃ SỬA) =====
+    // Drawer logic mượt cho cả 3 thiết bị
+    const hamburger = document.getElementById('hamburger');
+    const drawer = document.getElementById('drawer');
+    const overlay = document.getElementById('drawerOverlay');
+    const svcToggle = document.getElementById('drawerServiceToggle');
+    const svcMenu = document.getElementById('drawerServiceMenu');
+
+    function openDrawer(state){
+      if(state){ drawer.classList.add('open'); overlay.classList.add('active'); drawer.setAttribute('aria-hidden','false'); }
       else{ drawer.classList.remove('open'); overlay.classList.remove('active'); drawer.setAttribute('aria-hidden','true'); }
     }
-    hamburger.addEventListener('click', ()=>openDrawer(!drawer.classList.contains('open')));
-    overlay.addEventListener('click', ()=>openDrawer(false));
-    drawer.querySelectorAll('a').forEach(a=>a.addEventListener('click', ()=>openDrawer(false)));
+    hamburger?.addEventListener('click', ()=>openDrawer(!drawer.classList.contains('open')));
+    overlay?.addEventListener('click', ()=>openDrawer(false));
+    // Đóng drawer khi click vào link <a>
+    drawer?.querySelectorAll('a').forEach(a=>a.addEventListener('click', ()=>openDrawer(false)));
 
-    // drawer service submenu
-    const svcBtn = document.getElementById('drawerService');
-    const svcMenu= document.getElementById('drawerServiceMenu');
-    if(svcBtn && svcMenu){
-      svcBtn.addEventListener('click', ()=>{ const show = svcMenu.style.display !== 'block'; svcMenu.style.display = show ? 'block':'none'; });
-    }
+    // Xử lý accordion cho menu Dịch vụ
+    svcToggle?.addEventListener('click', ()=>{
+      const open = svcMenu.classList.toggle('open');
+      svcToggle.classList.toggle('open', open);
+    });
+    // ===== KẾT THÚC JAVASCRIPT MENU ĐÃ SỬA =====
+
 
     // topbar scrolled style
     addEventListener('scroll', ()=>{
@@ -433,13 +616,32 @@
     const DARK_KEY='darkModeEnabled';
     const dDesktop=document.getElementById('toggle-dark-desktop');
     const dMobile =document.getElementById('toggle-dark-mobile');
-    function applyDark(on){ document.body.classList.toggle('dark', !!on); localStorage.setItem(DARK_KEY, on?'true':'false');
+    const dDrawer =document.getElementById('drawerToggleDark'); // Nút dark mode mới trong drawer
+
+    function applyDark(on){ 
+      document.body.classList.toggle('dark', !!on); 
+      localStorage.setItem(DARK_KEY, on?'true':'false');
+      
       const ico = on? '<i class="fa-solid fa-sun"></i>':'<i class="fa-solid fa-moon"></i>';
-      if(dDesktop) dDesktop.innerHTML=ico; if(dMobile) dMobile.innerHTML=ico;
+      
+      // Cập nhật icon cho 2 nút cũ
+      if(dDesktop) dDesktop.innerHTML=ico; 
+      if(dMobile) dMobile.innerHTML=ico;
+
+      // Cập nhật nút mới trong drawer (icon + class 'active' cho nút gạt)
+      if(dDrawer) {
+        dDrawer.querySelector('i:first-child').className = on ? 'fa-solid fa-sun' : 'fa-solid fa-moon';
+        dDrawer.classList.toggle('active', !!on);
+      }
     }
-    let pref=localStorage.getItem(DARK_KEY); if(pref===null) pref = window.matchMedia('(prefers-color-scheme:dark)').matches?'true':'false';
+    
+    let pref=localStorage.getItem(DARK_KEY); 
+    if(pref===null) pref = window.matchMedia('(prefers-color-scheme:dark)').matches?'true':'false';
     applyDark(pref==='true');
-    [dDesktop,dMobile].forEach(b=>b&&b.addEventListener('click',()=>applyDark(!document.body.classList.contains('dark'))));
+    
+    // Gắn event listener cho cả 3 nút
+    [dDesktop,dMobile,dDrawer].forEach(b=>b&&b.addEventListener('click',()=>applyDark(!document.body.classList.contains('dark'))));
+
 
     // ===== TOC (H2 only) =====
     const tocFab = document.getElementById('tocFab');
@@ -451,7 +653,10 @@
         if(!h.id){ h.id='h2-'+(i+1); }
         return `<a href="#${h.id}">${h.textContent.trim()}</a>`;
       }).join('');
-      tocList.querySelectorAll?.('a')?.forEach?.(()=>{});
+      // Đóng TOC khi click vào link
+      tocList.querySelectorAll?.('a')?.forEach?.(a => {
+        a.addEventListener('click', () => tocDrawer.classList.remove('open'));
+      });
     }
     buildTOC();
     tocFab.addEventListener('click', (e)=>{ e.stopPropagation(); tocDrawer.classList.toggle('open'); });
@@ -473,6 +678,8 @@
     if(miniToggle && miniSheet){
       miniToggle.addEventListener('click', (e)=>{ e.stopPropagation(); miniSheet.style.display = (miniSheet.style.display==='block'?'none':'block'); });
       document.addEventListener('click', (e)=>{ if(!miniSheet.contains(e.target) && e.target!==miniToggle) miniSheet.style.display='none'; });
+      // Tự đóng khi click link
+      miniSheet.querySelectorAll('a').forEach(a => a.addEventListener('click', () => miniSheet.style.display='none'));
     }
 
     // ===== iOS/Safari blur leak fix for MotoAI overlay =====
