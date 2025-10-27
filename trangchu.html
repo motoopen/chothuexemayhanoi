@@ -621,10 +621,13 @@
     .sx-desc{color:var(--muted,#6e6e73);margin:6px 0 14px;font-weight:600}
     .sx-grid{
       display:grid;gap:12px;
-      grid-template-columns:repeat(4,minmax(0,1fr));
+      /* (CHỈNH SỬA) Đổi từ 4 cột -> 3 cột để khớp với yêu cầu 3 xe/hàng */
+      grid-template-columns:repeat(3,minmax(0,1fr));
     }
-    @media (max-width:980px){ .sx-grid{grid-template-columns:repeat(3,1fr)} }
+    /* (CHỈNH SỬA) Bỏ 980px breakpoint, giữ 680px */
     @media (max-width:680px){ .sx-grid{grid-template-columns:repeat(2,1fr)} }
+    @media (max-width:480px){ .sx-grid{grid-template-columns:1fr} } /* Thêm 1 cột cho mobile nhỏ */
+
 
     .sx-card{
       background:var(--surface,#fff); border:1px solid var(--glass-border,rgba(220,220,215,.6));
@@ -665,9 +668,13 @@
     .sx-rev{margin:22px 0 0}
     .sx-rev h2{margin:0 0 10px}
     .sx-revlist{
-      display:grid; gap:12px; grid-template-columns:repeat(2,1fr);
+      display:grid; gap:12px; 
+      /* (CHỈNH SỬA) Đổi từ 2 cột -> 3 cột để khớp 3x2 */
+      grid-template-columns:repeat(3,minmax(0,1fr));
     }
-    @media (max-width:780px){ .sx-revlist{grid-template-columns:1fr} }
+    @media (max-width:980px){ .sx-revlist{grid-template-columns:repeat(2,1fr)} } /* Về 2 cột */
+    @media (max-width:680px){ .sx-revlist{grid-template-columns:1fr} } /* Về 1 cột */
+
     .sx-quote{
       background:var(--surface); border:1px solid var(--glass-border); border-radius:12px; padding:12px 14px;
       box-shadow:0 6px 18px rgba(0,0,0,.06);
@@ -731,7 +738,7 @@
 <body>
   <header class="topbar" id="topbar" role="banner">
     <div class="brand">
-      <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen">
+      <img src="https://i.postimg.cc/brsmsj5N/IMG_5215.jpg" alt="Motoopen">
       <h3>Motoopen</h3>
     </div>
 
@@ -764,7 +771,7 @@
   
   <aside class="drawer" id="drawer" role="menu" aria-hidden="true">
     <div class="drawer-header">
-      <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen">
+      <img src="https://i.postimg.cc/brsmsj5N/IMG_5215.jpg" alt="Motoopen">
       <div>
         <strong>Motoopen</strong>
         <small>Thuê xe máy Hà Nội</small>
@@ -1007,6 +1014,23 @@
                 </div>
               </div>
             </article>
+            
+            <!-- ===== (MỚI) XE TAY CÔN ===== -->
+            <article class="sx-card" role="listitem">
+              <figure class="sx-thumb">
+                <img src="https://raw.githubusercontent.com/motoopen/chothuexemayhanoi/refs/heads/main/IMG_5431.jpeg" alt="Xe tay côn cho thuê đi phượt tại Hà Nội, máy khoẻ" loading="lazy" decoding="async" width="800" height="800">
+                <span class="sx-badge">350k/ngày</span>
+              </figure>
+              <div class="sx-body">
+                <h3 class="sx-title">Xe tay côn</h3>
+                <div class="sx-meta">
+                  <span><i class="fa-solid fa-tag"></i>350k/ngày</span>
+                  <span><i class="fa-solid fa-person-hiking"></i>Phù hợp đi phượt</span>
+                </div>
+              </div>
+            </article>
+            <!-- ===== KẾT THÚC XE MỚI ===== -->
+            
           </div>
 
           <div class="sx-cta" aria-label="Xem thêm thông tin">
@@ -1116,6 +1140,15 @@
               <blockquote>“Giá thuê xe máy 150k/ngày, thuê tháng từ 1 triệu — quá hợp lý, xe cực mới.”</blockquote>
               <figcaption>— Hồ Đức · Hoàn Kiếm</figcaption>
             </figure>
+            
+            <!-- ===== (MỚI) ĐÁNH GIÁ THỨ 6 ===== -->
+            <figure class="sx-quote">
+              <div class="sx-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+              <blockquote>“Xe chạy êm, nhân viên thân thiện, thủ tục nhanh gọn.”</blockquote>
+              <figcaption>— Nguyễn Đông – Cầu Giấy</figcaption>
+            </figure>
+            <!-- ===== KẾT THÚC ĐÁNH GIÁ MỚI ===== -->
+            
           </div>
         </section>
         <!-- ===== KẾT THÚC PHẦN DÁN (REVIEWS) ===== -->
@@ -1148,7 +1181,7 @@
       <h4>Motoopen</h4>
       <p>Chúng tôi cung cấp xe máy đã qua sử dụng chất lượng để bán và cho thuê dài hạn tại Hà Nội.</p>
       <ul class="app-contact">
-        <li><i class="fa-solid fa-location-dot"></i> 112 Nguyễn Văn Cừ, Long Biên, Hà Nội</li>
+        <li><i class="fa-solid fa-location-dot"></i> 114 Nguyễn Văn Cừ, Long Biên, Hà Nội</li>
         <li><i class="fa-solid fa-phone"></i> <a href="tel:0857255868">0857 255 868</a></li>
         <li><i class="fa-solid fa-clock"></i> 09:00 – 21:00 (Hàng ngày)</li>
         <li><i class="fa-solid fa-envelope"></i> <a href="mailto:motoopen12@gmail.com">motoopen12@gmail.com</a></li>
@@ -1206,6 +1239,54 @@
     </nav>
   </div>
   
+  <!-- === (A) UX Polishing v2 (Safe, Toggleable) === -->
+  <script>
+  (function(){
+    try{
+      if (window.__UXP_POLISH_V2__ || new URLSearchParams(location.search).has('no-ux2')) return;
+      window.__UXP_POLISH_V2__ = true;
+      document.addEventListener('keydown', (e)=>{
+        if(e.ctrlKey && e.altKey && (e.key==='u' || e.key==='U')){
+          document.body.toggleAttribute('data-ux2-disabled');
+          console.log('UX2 toggle:', document.body.hasAttribute('data-ux2-disabled') ? 'OFF' : 'ON');
+        }
+      }, {passive:true});
+      document.documentElement.classList.add('uxp-root');
+      const io=('IntersectionObserver'in window)?new IntersectionObserver((entries)=>{
+        for(const it of entries){if(it.isIntersecting){it.target.classList.add('in');io.unobserve(it.target);}}
+      },{rootMargin:'0px 0px -10% 0px',threshold:0.08}):null;
+      if(io){document.querySelectorAll('.reveal:not(.in)').forEach(el=>io.observe(el));}
+      const s=document.createElement('style');
+      s.setAttribute('data-ux2','');
+      s.textContent=`
+        :root{--uxp-ease:cubic-bezier(.22,1,.36,1)}
+        html.uxp-root body:not([data-ux2-disabled]) :where(a,button,.hmini-tile,.sx-card,.mapp-btn,.hmini-btn,.menu-item,.menu-grid-item){
+          transition:transform .22s var(--uxp-ease),box-shadow .22s var(--uxp-ease),background-color .22s var(--uxp-ease),opacity .22s var(--uxp-ease);
+          will-change:transform;
+        }
+        html.uxp-root body:not([data-ux2-disabled]) :where(.hmini-tile,.sx-card){transform:translateZ(0)}
+        html.uxp-root body:not([data-ux2-disabled]) :where(.hmini-tile:hover,.sx-card:hover){transform:translateY(-2px);box-shadow:0 14px 28px rgba(0,0,0,.12);}
+        html.uxp-root body:not([data-ux2-disabled]) :where(a,button,.mapp-btn,.hmini-btn){touch-action:manipulation;}
+        html.uxp-root body:not([data-ux2-disabled]) :where(a,button,.mapp-btn,.hmini-btn):active{transform:scale(0.985);}
+        html.uxp-root body:not([data-ux2-disabled]) .hmini-badge{transition:transform .22s var(--uxp-ease),box-shadow .22s var(--uxp-ease);}
+        html.uxp-root body:not([data-ux2-disabled]) .hmini-badge:hover{transform:translateY(-1px);box-shadow:0 8px 20px rgba(10,132,255,.12);}
+        @media(prefers-reduced-motion:reduce){html.uxp-root body:not([data-ux2-disabled]) :where(*){transition:none!important;animation:none!important;}}
+      `;
+      document.head.appendChild(s);
+      const s2=document.createElement('style');
+      s2.setAttribute('data-ux2','');
+      s2.textContent=`
+        html.uxp-root body.dark:not([data-ux2-disabled]) :where(.hmini-btn.primary,.mapp-btn.primary){filter:saturate(1.05) brightness(1.02);}
+        html.uxp-root body:not(.dark):not([data-ux2-disabled]) :where(.hmini-btn.primary,.mapp-btn.primary){filter:saturate(1.08);}
+      `;
+      document.head.appendChild(s2);
+      window.addEventListener('touchstart',()=>{}, {passive:true});
+      window.addEventListener('scroll',()=>{}, {passive:true});
+      console.log('UX Polishing v2 — Safe mode enabled');
+    }catch(err){console.warn('UX Polishing v2 — skipped:',err);}
+  })();
+  </script>
+
   <script>
   (function(){
     /* SCRIPT ĐỂ LOAD FADE-IN (BỊ THAY THẾ BỞI SCRIPT TRONG HEAD) */
@@ -1216,10 +1297,19 @@
     // const drawer   = document.getElementById('drawer'); // Đã định nghĩa ở dưới
     // const overlay  = document.getElementById('drawerOverlay'); // Đã định nghĩa ở dưới
 
-    // top padding avoid cover
-    function setBodyTop(){ document.body.style.paddingTop = (topbar.getBoundingClientRect().height + 8) + 'px'; }
-    setBodyTop();
-    addEventListener('resize', setBodyTop); // (YÊU CẦU 6) Đã đơn giản hóa
+    // === (B) top padding avoid cover (an toàn + không double) ===
+    (function(){
+      const topbar = document.getElementById('topbar');
+      const padStyle = document.createElement('style');
+      padStyle.textContent = 'main{padding-top:var(--top-offset,84px) !important}';
+      document.head.appendChild(padStyle);
+      function setBodyTop(){
+        const h = topbar?.getBoundingClientRect?.().height || 76;
+        document.documentElement.style.setProperty('--top-offset', (h + 8) + 'px');
+      }
+      setBodyTop();
+      window.addEventListener('resize', setBodyTop, {passive:true});
+    })();
 
     
     // ===== JAVASCRIPT NÂNG CẤP MENU (CODE ĐÃ SỬA) =====
@@ -1290,9 +1380,12 @@
       if(dDesktop) dDesktop.innerHTML=ico; 
       if(dMobile) dMobile.innerHTML=ico;
 
-      // Cập nhật nút mới trong drawer (icon + class 'active' cho nút gạt)
-      if(dDrawer) {
-        dDrawer.querySelector('i:first-child').className = on ? 'fa-solid fa-sun' : 'fa-solid fa-moon';
+      // === (C) Cập nhật nút mới trong drawer (icon + class 'active' cho nút gạt) ===
+      if(dDrawer){
+        const firstIcon = dDrawer.querySelector('i');
+        if(firstIcon){
+          firstIcon.className = on ? 'fa-solid fa-sun' : 'fa-solid fa-moon';
+        }
         dDrawer.classList.toggle('active', !!on);
       }
     }
@@ -1375,7 +1468,8 @@
         backTop.style.bottom = (h + 20) + 'px';
       }
       bumpBackTop();
-      window.addEventListener('resize', bumpBackTop);
+      // === (D) THÊM passive:true CHO RESIZE ===
+      window.addEventListener('resize', bumpBackTop, {passive:true});
 
     }catch(e){ /* no-op */ }
   })();
@@ -1400,7 +1494,7 @@
     const map = {
       day:   {price:'150–200k/ngày',   cta:'theo ngày'},
       week:  {price:'600–900k/tuần',   cta:'theo tuần'},
-      month: {price:'1–2 triệu/tháng', cta:'theo tháng'}
+      month: {price:'1D–2 triệu/tháng', cta:'theo tháng'}
     };
     const priceEl = document.getElementById('hminiPrice');
     const ctaEl   = document.getElementById('hminiCtaLabel');
