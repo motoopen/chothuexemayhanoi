@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Test MotoAI v24</title>
+  <style>
+    body{font-family:Inter,system-ui,Arial;margin:0;padding:0;min-height:100vh}
+    header{background:#0a84ff;color:#fff;padding:18px 16px;font-weight:700}
+    main{padding:24px;line-height:1.6}
+    .demo-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+    .card{background:#fff;border-radius:10px;padding:12px;box-shadow:0 6px 18px rgba(0,0,0,.06)}
+    /* mock bottom appbar / quick call to test avoidance */
+    .bottom-appbar{position:fixed;left:0;right:0;bottom:0;height:64px;background:#111;color:#fff;display:flex;align-items:center;justify-content:center;z-index:1000}
+    .quick-call{position:fixed;left:18px;bottom:86px;background:#ffbe00;padding:10px 12px;border-radius:12px;z-index:1000}
+  </style>
+</head>
+<body>
+  <header>Test MotoAI — Motoopen</header>
+  <main>
+    <h2>Trang test</h2>
+    <p>Mở chat bubble ở góc phải dưới để kiểm tra. Có mock <code>.bottom-appbar</code> và <code>.quick-call</code> để kiểm tra auto-avoid behavior.</p>
+
+    <div class="demo-cards">
+      <div class="card"><b>Xe số</b><div>Giá: 130k–150k/ngày</div></div>
+      <div class="card"><b>Xe ga</b><div>Vision: 200k/ngày</div></div>
+      <div class="card"><b>Xe điện</b><div>200k/ngày</div></div>
+    </div>
+
+    <p style="margin-top:24px">Thử: 1) Bấm icon chat — xem có mở popup không. 2) Kéo thanh tag ngang. 3) Mở trên iOS/Safari kiểm tra keyboard/focus. 4) Kiểm tra light/dark.</p>
+  </main>
+
+  <!-- mock quick-call / appbar to test "auto-avoid" -->
+  <div class="quick-call">📞 Gọi nhanh</div>
+  <div class="bottom-appbar">Bottom App Bar - Mock (kiểm tra auto-avoid)</div>
+
+  <!-- optional override config (đặt trước script nếu muốn thay thông tin) -->
+  <script>
+    window.MotoAI_CONFIG = {
+      brand: "Motoopen",
+      phone: "0857255868",
+      zalo:  "https://zalo.me/0857255868",
+      map:   "https://maps.app.goo.gl/2icTBTxAToyvKTE78"
+    };
+  </script>
+
+  <!-- Embed MotoAI (bản đã nhờ em ghi v24) -->
+  <script src="https://motoopen.github.io/chothuexemayhanoi/motoai_v23c_messenger_ultrareal_scrolltags.js?v=24"></script>
+</body>
+</html>
