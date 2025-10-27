@@ -6,12 +6,6 @@
   if(window.MotoAI_v23c_MESSENGER_LOADED) return;
   window.MotoAI_v23c_MESSENGER_LOADED = true;
 
-  // ===== UA flags (🩹 iOS/Safari safe mode)
-  const UA = navigator.userAgent || '';
-  const IS_IOS = /iP(hone|od|ad)/.test(UA) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
-  const IS_SAFARI = /^((?!chrome|android).)*safari/i.test(UA);
-  const SAFE_MODE = IS_IOS || IS_SAFARI;
-
   // ===== Config (có thể override bằng window.MotoAI_CONFIG trước khi nhúng)
   const DEF = {
     brand: "Motoopen",
@@ -31,6 +25,7 @@
   const sleep = ms => new Promise(r=>setTimeout(r,ms));
   const pick  = a => a[Math.floor(Math.random()*a.length)];
   const nfVND = n => (n||0).toLocaleString('vi-VN');
+  const IS_IOS = /iP(ad|hone|od)/.test(navigator.userAgent) || (navigator.platform==='MacIntel' && navigator.maxTouchPoints>1);
 
   // ===== UI — Messenger 95% + Tag bar kéo ngang
   const ui = `
@@ -42,7 +37,7 @@
         <path d="M20 36l9-11 6 6 9-9-9 14-6-6-9 6z" fill="#fff"></path>
       </svg>
     </button>
-    <div id="mta-backdrop" aria-hidden="true"></div>
+    <div id="mta-backdrop"></div>
     <section id="mta-card" role="dialog" aria-label="Chat MotoAI" aria-hidden="true">
       <header id="mta-header">
         <div class="brand">
@@ -91,11 +86,11 @@
 
   const css = `
   :root{--mta-z:2147483647;--m-blue:#0084FF;--m-blue2:#00B2FF;--m-bg:#fff;--m-text:#0b1220}
-  #mta-root{position:fixed;right:16px;left:auto;bottom:calc(18px + env(safe-area-inset-bottom,0));z-index:var(--mta-z);font-family:-apple-system,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;transition:bottom .25s ease,right .25s ease}
-  #mta-bubble{width:60px;height:60px;border:none;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 10px 26px rgba(0,0,0,.2);outline:3px solid #fff;will-change:transform;transform:translateZ(0)}
-  #mta-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.2);opacity:0;pointer-events:none;transition:opacity .18s ease;will-change:opacity}
+  #mta-root{position:fixed;right:16px;left:auto;bottom:calc(18px + env(safe-area-inset-bottom,0));z-index:var(--mta-z);font-family:-apple-system,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;transition:bottom .25s ease,right .25s ease;transform:translateZ(0)}
+  #mta-bubble{width:60px;height:60px;border:none;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 10px 26px rgba(0,0,0,.2);outline:3px solid #fff;will-change:transform}
+  #mta-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.2);opacity:0;pointer-events:none;transition:opacity .18s ease}
   #mta-backdrop.show{opacity:1;pointer-events:auto}
-  #mta-card{position:fixed;right:16px;bottom:16px;width:min(420px,calc(100% - 24px));height:70vh;max-height:740px;background:var(--mta-bg);color:var(--mta-text);border-radius:18px;box-shadow:0 14px 40px rgba(0,0,0,.25);transform:translateY(110%);opacity:1;display:flex;flex-direction:column;overflow:hidden;transition:transform .20s cubic-bezier(.22,1,.36,1);will-change:transform;transform:translateZ(0);contain:layout paint size}
+  #mta-card{position:fixed;right:16px;bottom:16px;width:min(420px,calc(100% - 24px));height:70vh;max-height:740px;background:var(--mta-bg);color:var(--mta-text);border-radius:18px;box-shadow:0 14px 40px rgba(0,0,0,.25);transform:translateY(110%);/* opacity:1 để tránh xung đột transform+opacity trên iOS */opacity:1;display:flex;flex-direction:column;overflow:hidden;transition:transform .20s cubic-bezier(.22,1,.36,1);will-change:transform}
   #mta-card.open{transform:translateY(0)}
   #mta-header{background:linear-gradient(90deg,var(--m-blue),var(--m-blue2));color:#fff}
   #mta-header .brand{display:flex;align-items:center;justify-content:space-between;padding:10px 12px}
@@ -107,7 +102,7 @@
   .q{width:28px;height:28px;border-radius:8px;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-size:12px;font-weight:700;background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.25)}
   #mta-close{background:none;border:none;font-size:20px;color:#fff;cursor:pointer;opacity:.95}
 
-  #mta-body{flex:1;overflow:auto;padding:14px 12px;background:#E9EEF5}
+  #mta-body{flex:1;overflow:auto;padding:14px 12px;background:#E9EEF5;-webkit-overflow-scrolling:touch}
   .m-msg{max-width:80%;margin:8px 0;padding:10px 13px;border-radius:20px;line-height:1.45;box-shadow:0 1px 2px rgba(0,0,0,.05)}
   .m-msg.bot{background:#fff;color:#111;border:1px solid rgba(0,0,0,.04)}
   .m-msg.user{background:#0084FF;color:#fff;margin-left:auto;border:1px solid rgba(0,0,0,.05)}
@@ -119,12 +114,12 @@
 
   /* Tag bar scrollable */
   #mta-tags{position:relative;background:#f7f9fc;border-top:1px solid rgba(0,0,0,.06)}
-  #mta-tags .tag-track{display:block;overflow-x:auto;white-space:nowrap;padding:8px 10px 10px 10px;scroll-behavior:smooth}
+  #mta-tags .tag-track{display:block;overflow-x:auto;white-space:nowrap;padding:8px 10px 10px 10px;scroll-behavior:smooth;-webkit-overflow-scrolling:touch}
   #mta-tags button{display:inline-block;margin-right:8px;padding:8px 12px;border:none;border-radius:999px;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.06);border:1px solid rgba(0,0,0,.08);font-weight:600;cursor:pointer}
   #mta-tags button:active{transform:scale(.98)}
-  #mta-tags .fade{position:absolute;top:0;bottom:0;width:22px;pointer-events:none}
-  #mta-tags .fade-left{left:0;background:linear-gradient(90deg,#f7f9fc,rgba(247,249,252,0))}
-  #mta-tags .fade-right{right:0;background:linear-gradient(270deg,#f7f9fc,rgba(247,249,252,0))}
+  #mta-tags .fade{position:absolute;top:0;bottom:0;width:22px;pointer-events:none;transition:opacity .18s ease}
+  #mta-tags .fade-left{left:0;background:linear-gradient(90deg,#f7f9fc,rgba(247,249,252,0));opacity:0}
+  #mta-tags .fade-right{right:0;background:linear-gradient(270deg,#f7f9fc,rgba(247,249,252,0));opacity:0}
 
   #mta-input{display:flex;gap:8px;padding:10px;background:#fff;border-top:1px solid rgba(0,0,0,.06)}
   #mta-in{flex:1;padding:11px 14px;border-radius:22px;border:1px solid rgba(0,0,0,.12);font-size:15px;background:#F6F8FB}
@@ -144,10 +139,12 @@
     #mta-input{background:#202226;border-top:1px solid rgba(255,255,255,.08)}
     #mta-in{background:#16181c;color:#f0f3f7;border:1px solid rgba(255,255,255,.12)}
   }
-  @media(prefers-reduced-motion:reduce){
-    #mta-card,#mta-backdrop{transition:none!important}
-  }
   .ai-night #mta-bubble{box-shadow:0 0 18px rgba(0,132,255,.35)!important;}
+
+  @media (prefers-reduced-motion: reduce){
+    #mta-backdrop{transition:none}
+    #mta-card{transition:none}
+  }
   `;
 
   // ===== Inject
@@ -155,16 +152,13 @@
     if($('#mta-root')) return;
     const wrap = document.createElement('div'); wrap.innerHTML = ui; document.body.appendChild(wrap.firstElementChild);
     const st = document.createElement('style'); st.textContent = css; document.head.appendChild(st);
-    if(SAFE_MODE){ document.documentElement.classList.add('safari-safe'); }
   }
-  function ready(fn){
-    if(document.readyState==="complete"||document.readyState==="interactive"){ fn(); }
-    else document.addEventListener("DOMContentLoaded", fn, {once:true});
-  }
+  function ready(fn){ if(document.readyState==="complete"||document.readyState==="interactive"){ fn(); } else document.addEventListener("DOMContentLoaded", fn); }
 
   // ===== State + Session
-  let isOpen=false, sending=false, bubbleLock=false;
+  let isOpen=false, sending=false, animating=false;
   const K = {sess:'MotoAI_v23c_session'};
+
   function addMsg(role,text){
     if(!text) return;
     const el = document.createElement('div'); el.className = 'm-msg '+(role==='user'?'user':'bot'); el.textContent = text;
@@ -179,13 +173,12 @@
   }
 
   // ===== Typing (3 dots)
-  let typingTimer=null;
   function showTyping(){
     const d=document.createElement('div'); d.id='mta-typing'; d.className='m-msg bot';
     d.innerHTML=`<span class="dot"></span><span class="dot"></span><span class="dot"></span>`;
     $('#mta-body').appendChild(d); $('#mta-body').scrollTop=$('#mta-body').scrollHeight;
   }
-  function hideTyping(){ const d=$('#mta-typing'); if(d) d.remove(); if(typingTimer){ clearInterval(typingTimer); typingTimer=null; } }
+  function hideTyping(){ const d=$('#mta-typing'); if(d) d.remove(); }
 
   // ===== Polite & Rules
   const PREFIX = ["Chào anh/chị,","Xin chào 👋,","Em chào anh/chị nhé,","Rất vui được hỗ trợ anh/chị,"];
@@ -252,54 +245,72 @@
     return polite("em chưa tìm được thông tin trùng khớp. Anh/chị nói rõ loại xe hoặc thời gian thuê giúp em với ạ.");
   }
 
-  // ===== Open/Close/Clear + iOS/Safari fixes
+  // ===== Open/Close/Clear + iOS/Safari ultra-safe
+  function forceReflow(el){ try{ void el.offsetHeight; }catch(e){} }
+
   function openChat(){
-    if(isOpen) return;
-    try{
-      const card = $('#mta-card'), backdrop = $('#mta-backdrop'), bubble = $('#mta-bubble');
-      card?.classList.add('open');
-      card?.setAttribute('aria-hidden','false');
-      backdrop?.classList.add('show');
-      backdrop?.setAttribute('aria-hidden','false');
-      if(bubble) bubble.style.display='none';
-      document.body.style.overflow='hidden'; // chống giật nền
-      isOpen=true; renderSess();
+    if(isOpen || animating) return;
+    animating = true;
 
-      // 🩹 KHÔNG auto-focus trên iOS/Safari (tránh lock viewport)
-      if(!IS_IOS){
-        setTimeout(()=>{ try{$('#mta-in')?.focus();}catch(e){} },140);
-      }
+    const card = $('#mta-card');
+    const backdrop = $('#mta-backdrop');
+    const bubble = $('#mta-bubble');
 
-      // Fallback: nếu vì lý do gì không mở được -> khôi phục bong bóng
-      setTimeout(()=>{
-        const opened = $('#mta-card')?.classList.contains('open');
-        if(!opened){
-          if(bubble) bubble.style.display='flex';
-          backdrop?.classList.remove('show'); backdrop?.setAttribute('aria-hidden','true');
-          card?.setAttribute('aria-hidden','true');
-          document.body.style.overflow='';
-          isOpen=false;
+    // chuẩn bị lớp nền an toàn để tránh “đơ”
+    backdrop.style.opacity = '0';
+    backdrop.style.pointerEvents = 'auto';
+    forceReflow(backdrop); // đảm bảo frame tách bạch
+
+    // Ẩn bubble bằng visibility để tránh layout giật
+    bubble.style.visibility = 'hidden';
+    bubble.style.pointerEvents = 'none';
+
+    // Hiển thị card/backdrop theo 2 frame để iOS không kẹt GPU
+    requestAnimationFrame(()=>{
+      backdrop.classList.add('show');
+      requestAnimationFrame(()=>{
+        card.classList.add('open');
+        document.body.style.overflow='hidden';
+        isOpen = true;
+        animating = false;
+        renderSess();
+        // Không tự focus trên iOS để tránh keyboard lock
+        if(!IS_IOS){
+          setTimeout(()=>{ try{$('#mta-in').focus()}catch(e){} }, 140);
         }
-      }, 600);
-    }catch(e){
-      // khôi phục giao diện nếu lỗi
-      try{$('#mta-bubble').style.display='flex'; document.body.style.overflow='';}catch(_){}
-      isOpen=false;
-      console.warn('MotoAI openChat error:', e);
-    }
+      });
+    });
   }
+
   function closeChat(){
-    if(!isOpen) return;
-    try{$('#mta-in')?.blur();}catch(e){}
-    const card=$('#mta-card'), backdrop=$('#mta-backdrop'), bubble=$('#mta-bubble');
-    card?.classList.remove('open');
-    card?.setAttribute('aria-hidden','true');
-    backdrop?.classList.remove('show');
-    backdrop?.setAttribute('aria-hidden','true');
-    if(bubble) bubble.style.display='flex';
-    document.body.style.overflow='';
-    isOpen=false; hideTyping();
+    if(!isOpen || animating) return;
+    animating = true;
+
+    const card = $('#mta-card');
+    const backdrop = $('#mta-backdrop');
+    const bubble = $('#mta-bubble');
+
+    try{$('#mta-in').blur();}catch(e){}
+
+    card.classList.remove('open');
+
+    const onDone = ()=>{
+      backdrop.classList.remove('show');
+      backdrop.style.pointerEvents = 'none';
+      bubble.style.visibility = 'visible';
+      bubble.style.pointerEvents = 'auto';
+      document.body.style.overflow='';
+      isOpen=false; animating=false; hideTyping();
+      card.removeEventListener('transitionend', onDone);
+      // fallback timeout nếu transitionend không bắn (Safari lỗi)
+      clearTimeout(fallback);
+    };
+
+    // khi card xong mới ẩn backdrop — tránh “mất click” lớp vô hình
+    card.addEventListener('transitionend', onDone);
+    const fallback = setTimeout(onDone, 260); // phòng khi Safari không fire event
   }
+
   function clearChat(){
     try{ localStorage.removeItem(K.sess);}catch(e){}
     $('#mta-body').innerHTML=''; addMsg('bot', polite('đã xóa hội thoại'));
@@ -314,7 +325,7 @@
     const updateFade=()=>{
       const left = track.scrollLeft > 2;
       const right = (track.scrollWidth - track.clientWidth - track.scrollLeft) > 2;
-      const fl = $('.fade-left'), fr = $('.fade-right');
+      const fl=$('.fade-left'), fr=$('.fade-right');
       if(fl) fl.style.opacity = left ? 1 : 0;
       if(fr) fr.style.opacity = right ? 1 : 0;
     };
@@ -347,6 +358,7 @@
     }
     root.style.bottom = bottom; root.style.right='16px'; root.style.left='auto';
   }
+
   function fixSafariKeyboard(){
     const card = $('#mta-card');
     if(!card || !window.visualViewport) return;
@@ -363,4 +375,30 @@
     injectUI();
     bindTags();
 
-    // Bind (🩹 debounce click bong
+    // Bind
+    $('#mta-bubble').addEventListener('click', openChat, {passive:true});
+    $('#mta-backdrop').addEventListener('click', closeChat, {passive:true});
+    $('#mta-close').addEventListener('click', closeChat, {passive:true});
+    $('#mta-clear').addEventListener('click', clearChat, {passive:true});
+    $('#mta-send').addEventListener('click', ()=>{ const v=($('#mta-in').value||'').trim(); if(!v) return; $('#mta-in').value=''; sendUser(v); });
+    $('#mta-in').addEventListener('keydown',(e)=>{ if(e.key==='Enter' && !e.shiftKey){ e.preventDefault(); const v=($('#mta-in').value||'').trim(); if(!v) return; $('#mta-in').value=''; sendUser(v); }});
+
+    // Auto-avoid & iOS
+    checkObstacles();
+    window.addEventListener('resize', checkObstacles, {passive:true});
+    window.addEventListener('scroll', checkObstacles, {passive:true});
+    if(window.visualViewport) window.visualViewport.addEventListener('resize', checkObstacles, {passive:true});
+    fixSafariKeyboard();
+
+    // Watchdog (nếu vì lý do gì đó bubble biến mất, chèn lại UI)
+    setTimeout(()=>{ if(!$('#mta-bubble')) injectUI(); }, 2500);
+
+    console.log('%cMotoAI v23c Messenger UltraReal — Active (iOS safe fix)','color:#0084FF;font-weight:bold;');
+  });
+
+  // ===== Expose (mini API)
+  window.MotoAI_v23c_messenger = {
+    open: ()=>{ try{openChat()}catch(e){} },
+    close: ()=>{ try{closeChat()}catch(e){} }
+  };
+})();
