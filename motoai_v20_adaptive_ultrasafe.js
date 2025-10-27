@@ -331,7 +331,7 @@
   }
   const RULES = [
     {re:/(chào|xin chào|hello|hi|alo)/i, ans:[
-      "mình là AI Assistant. Bạn muốn xem 🏍️ Xe số, 🛵 Xe ga, 🚲 Xe 50cc, ⚡ Xe điện, 📄 Thủ tục hay ☎️ Liên hệ?",
+      "Xin chào, Mình là nhân viên tư vấn. Bạn muốn xem 🏍️ Xe số, 🛵 Xe ga, 🚲 Xe 50cc, ⚡ Xe điện, 📄 Thủ tục hay ☎️ Liên hệ?",
       "mình có thể báo giá nhanh hoặc hướng dẫn thủ tục thuê. Bạn đang quan tâm loại xe nào?"
     ]},
     {re:/(bảng giá|gia|giá|bao nhiêu|bang gia)/i, ans:[
