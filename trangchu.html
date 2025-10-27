@@ -103,20 +103,6 @@
     }
     .drawer a:hover, .drawer button.as-link:hover{ background:var(--glass) }
 
-    /* ---------- Bottom App Bar (mobile) ---------- */
-    .bottom-appbar{
-      position:fixed; bottom:0; left:0; right:0; z-index:var(--z-bottom);
-      background:rgba(255,255,255,.92); backdrop-filter:blur(10px);
-      border-top:1px solid var(--glass-border); display:none;
-    }
-    .bottom-appbar .inner{
-      max-width:720px;margin:0 auto;display:grid;grid-template-columns:repeat(5,1fr);gap:2px;
-      padding:8px 10px;
-    }
-    .bottom-appbar a{display:flex;flex-direction:column;align-items:center;gap:4px;font-size:.82rem;padding:6px;border-radius:10px}
-    .bottom-appbar a:hover{background:var(--glass)}
-    .bottom-appbar i{font-size:1.1rem}
-
     /* ---------- TOC (H2 only) ---------- */
     .toc-fab{
       position:fixed; left:12px; bottom:84px; z-index:var(--z-fab);
@@ -156,8 +142,6 @@
     @media (max-width: 900px){
       .nav-links{display:none}
       .hamburger{display:block}
-      .bottom-appbar{display:block}
-      main{padding-bottom:76px}
     }
 
     /* Safari/iOS smooth + overscroll fix */
@@ -166,10 +150,93 @@
     /* MotoAI overlay blur fix (không làm mờ header/faq) */
     #motoai-overlay{ isolation:isolate; }
 
+
+    /* ===== CSS CHO FOOTER VÀ BOTTOM APP BAR MỚI ===== */
+    /* Fallback variables (site anh đã có thì giữ nguyên) */
+    :root{
+      --accent:#0a84ff; --text:#0b0b0d; --footer-bg:rgba(255,255,255,.65);
+      --glass-border:rgba(60,60,67,.18);
+    }
+    body.dark{
+      --footer-bg:rgba(22,22,24,.65); --text:#eaeaea; --glass-border:rgba(255,255,255,.12);
+    }
+
+    /* ===== Footer Apple Glass ===== */
+    footer.premium.app-footer{
+      background:var(--footer-bg);
+      color:var(--text);
+      backdrop-filter: blur(14px) saturate(150%);
+      -webkit-backdrop-filter: blur(14px) saturate(150%);
+      border-top:1px solid var(--glass-border);
+      border-radius:16px 16px 0 0;
+      box-shadow:0 -8px 32px rgba(0,0,0,.06);
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:26px;
+      padding:42px 20px calc(42px + env(safe-area-inset-bottom));
+    }
+    .app-footer h4{
+      margin:0 0 10px; font-weight:800; letter-spacing:.3px;
+      color:var(--accent); text-transform:uppercase;
+    }
+    .app-footer p,.app-footer li,.app-footer a{ color:var(--text); }
+    .app-footer a{
+      display:block; text-decoration:none; margin:6px 0; font-weight:600;
+      transition:transform .18s, color .18s;
+    }
+    .app-footer a:hover{ color:var(--accent); transform:translateX(4px); }
+
+    .app-contact{ margin:10px 0 0; padding:0; list-style:none; }
+    .app-contact li{ display:flex; gap:10px; align-items:flex-start; margin:8px 0; }
+    .app-contact i{ width:20px; text-align:center; color:var(--accent); }
+
+    .quick-links{ margin:6px 0 0; padding:0; list-style:none; }
+    .quick-links li{ margin:8px 0; }
+    .quick-links .emoji{ margin-right:8px; }
+
+    .social-row{ display:flex; gap:10px; margin-top:10px; }
+    .social-row a{
+      width:38px; height:38px; border-radius:50%;
+      background:var(--accent); color:#fff; display:inline-flex; align-items:center; justify-content:center;
+      box-shadow:0 6px 16px rgba(0,122,255,.18);
+    }
+    .social-row a:hover{ transform:translateY(-2px); }
+    .footer-tagline{ margin-top:18px; }
+
+    /* ===== Bottom App Bar (mobile) ===== */
+    .bottom-appbar{
+      position:fixed; left:50%; transform:translateX(-50%);
+      bottom:max(10px, env(safe-area-inset-bottom));
+      width:min(680px, calc(100% - 24px));
+      background:rgba(255,255,255,.92); color:#111;
+      border:1px solid var(--glass-border); border-radius:16px;
+      box-shadow:0 12px 28px rgba(0,0,0,.12);
+      backdrop-filter:blur(16px) saturate(160%);
+      -webkit-backdrop-filter:blur(16px) saturate(160%);
+      z-index:1650; display:none;
+    }
+    .bottom-appbar nav{ display:flex; justify-content:space-between; }
+    .bottom-appbar a{
+      flex:1; padding:10px 6px; text-align:center; text-decoration:none; color:inherit;
+      font-weight:700; font-size:.9rem; display:flex; flex-direction:column; gap:4px; align-items:center;
+    }
+    .bottom-appbar a i{ font-size:1.2rem; }
+    .bottom-appbar a.active{ color:var(--accent); }
+
+    @media (max-width:780px){
+      .bottom-appbar{ display:block; }
+      /* chừa chỗ cho app bar */
+      body{ padding-bottom:86px; }
+    }
+    /* Dark mode app bar */
+    body.dark .bottom-appbar{
+      background:rgba(28,28,30,.92); color:var(--text);
+      box-shadow:0 12px 28px rgba(0,0,0,.45);
+    }
+
   </style>
 </head>
 <body>
-  <!-- TOPBAR -->
   <header class="topbar" id="topbar" role="banner">
     <div class="brand">
       <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen">
@@ -191,17 +258,16 @@
       </div>
       <a href="/chothuexemayhanoi/faq.html"><i class="fa-solid fa-circle-question"></i> FAQ</a>
       <a href="/chothuexemayhanoi/lienhe.html"><i class="fa-solid fa-phone"></i> Liên hệ</a>
-      <button class="toggle-dark" id="toggle-dark-desktop" aria-label="Dark mode"></button>
-      <a class="cta" href="tel:0857255868"><i class="fa-solid fa-phone"></i>&nbsp; Gọi ngay</a>
+      <button class="toggle-dark" id="toggle-dark-desktop" aria-label="Chế độ tối"></button>
+      <a class="cta" href="tel:0857255868"><i class="fa-solid fa-phone"></i>  Gọi ngay</a>
     </nav>
 
-    <button class="toggle-dark" id="toggle-dark-mobile" aria-label="Dark mode"></button>
+    <button class="toggle-dark" id="toggle-dark-mobile" aria-label="Chế độ tối"></button>
     <button class="hamburger" id="hamburger" aria-label="Menu">
       <span class="bar"></span><span class="bar"></span><span class="bar"></span>
     </button>
   </header>
 
-  <!-- DRAWER -->
   <div class="drawer-overlay" id="drawerOverlay" aria-hidden="true"></div>
   <aside class="drawer" id="drawer" role="menu" aria-hidden="true">
     <a class="icon" href="/chothuexemayhanoi/"><i class="fa-solid fa-house"></i> Trang chủ</a>
@@ -220,29 +286,14 @@
     <a class="icon" href="https://zalo.me/0857255868" target="_blank"><i class="fa-solid fa-comment-dots"></i> Zalo</a>
   </aside>
 
-  <!-- BOTTOM APP BAR (mobile) -->
-  <nav class="bottom-appbar" aria-label="Bottom app bar">
-    <div class="inner">
-      <a href="#gioithieu"><i class="fa-solid fa-house"></i><span>Trang chủ</span></a>
-      <a href="#banggia"><i class="fa-solid fa-tags"></i><span>Bảng giá</span></a>
-      <a href="tel:0857255868"><i class="fa-solid fa-phone"></i><span>Gọi</span></a>
-      <a href="https://zalo.me/0857255868" target="_blank"><i class="fa-solid fa-comment-dots"></i><span>Zalo</span></a>
-      <a href="#faq"><i class="fa-solid fa-circle-question"></i><span>FAQ</span></a>
-    </div>
-  </nav>
-
-  <!-- TOC (H2 only) -->
   <button class="toc-fab" id="tocFab" title="Mục lục (H2)">≡</button>
   <nav class="toc-drawer" id="tocDrawer" aria-label="Mục lục (H2)">
     <h4>📚 Mục lục</h4>
     <div id="tocList"></div>
   </nav>
-    <main id="main" class="container" role="main">
 
-    <!-- ==== PLACEHOLDER: Giữ nguyên các SECTION hiện tại của anh (Hero / Bảng giá / Slot / Quiz / Reviews) ==== -->
-    <!-- Copy nguyên các block nội dung cũ vào đây (không cần sửa). Đừng quên giữ id #gioithieu, #banggia nếu có. -->
+  <main id="main" class="container" role="main">
 
-    <!-- ===== FAQ (đã fix, dùng <details>) ===== -->
     <section class="faq" id="faq" aria-labelledby="faq-title">
       <h2 id="faq-title">Câu hỏi thường gặp</h2>
 
@@ -274,7 +325,6 @@
 
   </main>
 
-  <!-- QUICK MINI-APP (bottom sheet) -->
   <div id="miniApp" style="position:fixed;right:16px;bottom:92px;z-index:var(--z-fab);">
     <button id="miniAppToggle" class="toc-fab" title="Liên hệ nhanh"><i class="fa-solid fa-phone"></i></button>
     <div id="miniAppSheet" style="display:none; position:absolute; right:0; bottom:68px; width:300px; max-width:88vw;
@@ -286,12 +336,60 @@
     </div>
   </div>
 
-  <!-- FOOTER đơn giản (anh có thể giữ footer cũ nếu thích) -->
-  <footer class="container" style="padding:28px 12px;color:var(--muted);text-align:center">
-    <div style="font-weight:700;color:var(--text)">Motoopen – Thuê xe máy Hà Nội</div>
-    <div>© 2025 Motoopen. All rights reserved.</div>
+  <footer class="premium app-footer" role="contentinfo" aria-label="Footer">
+    <div>
+      <h4>Motoopen</h4>
+      <p>Chúng tôi cung cấp xe máy đã qua sử dụng chất lượng để bán và cho thuê dài hạn tại Hà Nội.</p>
+      <ul class="app-contact">
+        <li><i class="fa-solid fa-location-dot"></i> 112 Nguyễn Văn Cừ, Long Biên, Hà Nội</li>
+        <li><i class="fa-solid fa-phone"></i> <a href="tel:0857255868">0857 255 868</a></li>
+        <li><i class="fa-solid fa-clock"></i> 09:00 – 21:00 (Hàng ngày)</li>
+        <li><i class="fa-solid fa-envelope"></i> <a href="mailto:motoopen12@gmail.com">motoopen12@gmail.com</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Liên kết nhanh</h4>
+      <ul class="quick-links">
+        <li><a href="https://motoopen.github.io/chothuexemayhanoi/"><span class="emoji">🏠</span>Trang chủ</a></li>
+        <li><a href="https://motoopen.github.io/chothuexemayhanoi/banggia.html"><span class="emoji">💸</span>Bảng giá</a></li>
+        <li><a href="https://motoopen.github.io/chothuexemayhanoi/faq.html"><span class="emoji">❓</span>Hỏi đáp (FAQ)</a></li>
+        <li><a href="https://motoopen.github.io/chothuexemayhanoi/danhgia.html"><span class="emoji">⭐</span>Đánh giá</a></li>
+        <li><a href="https://maps.app.goo.gl/2icTBTxAToyvKTE78" target="_blank" rel="noopener"><span class="emoji">📍</span>Tìm trên Google Map</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Kết nối & Hỗ trợ</h4>
+      <div class="social-row">
+        <a href="https://zalo.me/0857255868" title="Zalo" aria-label="Zalo"><i class="fa-solid fa-comment-dots"></i></a>
+        <a href="https://m.facebook.com/motoopenvn/" title="Facebook" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="mailto:motoopen12@gmail.com" title="Email" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://www.instagram.com/motoopen/" title="Instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <p class="author" style="margin-top:10px">
+        <i class="fa-solid fa-copyright"></i> 2025
+        <a href="https://motoopen.github.io/appthuexemay/" target="_blank" rel="noopener">@ Motoopen</a>
+      </p>
+    </div>
+
+    <div class="footer-tagline">
+      <div class="inner">
+        <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen" loading="lazy">
+        Thuê xe máy Hà Nội – Motoopen – giao tận nơi – cọc nhẹ ✨
+      </div>
+    </div>
   </footer>
-    <script>
+
+  <div class="bottom-appbar" role="navigation" aria-label="Bottom app bar">
+    <nav>
+      <a href="https://motoopen.github.io/chothuexemayhanoi/" id="bab-home"><i class="fa-solid fa-house"></i><span>Trang chủ</span></a>
+      <a href="tel:0857255868"><i class="fa-solid fa-phone"></i><span>Gọi</span></a>
+      <a href="https://zalo.me/0857255868" target="_blank" rel="noopener"><i class="fa-solid fa-comment-dots"></i><span>Zalo</span></a>
+      <a href="https://maps.app.goo.gl/2icTBTxAToyvKTE78" target="_blank" rel="noopener"><i class="fa-solid fa-location-dot"></i><span>Bản đồ</span></a>
+    </nav>
+  </div>
+  <script>
   (function(){
     const topbar   = document.getElementById('topbar');
     const hamburger= document.getElementById('hamburger');
@@ -376,7 +474,31 @@
   })();
   </script>
 
-  <!-- MotoAI config (giữ cách anh vẫn dùng) -->
+  <script>
+  /* Đánh dấu tab đang active cho Bottom App Bar + tránh đè nút Back-to-top */
+  (function(){
+    try{
+      // đánh dấu Home nếu đang ở trang chủ
+      const path = (location.pathname || '').replace(/\/+$/,'');
+      if(path.endsWith('/chothuexemayhanoi') || path.endsWith('/chothuexemayhanoi/index.html')){
+        document.getElementById('bab-home')?.classList.add('active');
+      }
+
+      // đẩy nút .back-top (nếu có) lên trên app bar
+      const appbar = document.querySelector('.bottom-appbar');
+      const backTop = document.querySelector('.back-top');
+      function bumpBackTop(){
+        if(!appbar || !backTop) return;
+        const h = appbar.getBoundingClientRect().height || 72;
+        backTop.style.bottom = (h + 20) + 'px';
+      }
+      bumpBackTop();
+      window.addEventListener('resize', bumpBackTop);
+
+    }catch(e){ /* no-op */ }
+  })();
+  </script>
+
   <script>
     window.MotoAI_CONFIG = {
       brand: "MS. Thu Hà",
