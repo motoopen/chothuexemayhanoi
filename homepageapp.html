@@ -76,6 +76,10 @@
       box-shadow:0 16px 32px rgba(0,0,0,.08); display:none;
     }
     .nav-dropdown:hover .dropdown-menu{display:block}
+    
+    /* (YÊU CẦU 1) cho phép mở bằng class .open (tap/click) */
+    .nav-dropdown.open .dropdown-menu{ display: block; }
+    
     .cta{background:var(--accent);color:#fff;border-radius:999px;padding:8px 14px;font-weight:800}
 
     .toggle-dark{background:transparent;border:0;padding:8px 10px;border-radius:10px;cursor:pointer}
@@ -242,32 +246,55 @@
     /* ===== KẾT THÚC CSS MENU ĐÃ SỬA ===== */
 
 
-    /* ---------- TOC (H2 only) - ĐÃ CHUYỂN SANG PHẢI ---------- */
+    /* ===== (ĐÃ SỬA) TOC (H2 only) - CHUYỂN SANG GIỮA BÊN TRÁI ===== */
     .toc-fab{
-      position:fixed;
-      /* Đã thay đổi: 'left:12px' -> 'right:...' */
-      right: max(16px, env(safe-area-inset-right));
-      /* Đã thay đổi: 'bottom:84px' -> 'bottom: 156px' (để nằm trên nút Liên hệ) */
-      bottom: 156px;
-      z-index:var(--z-fab);
-      width:54px;height:54px;border-radius:50%;display:flex;align-items:center;justify-content:center;
-      background:var(--surface);border:1px solid var(--glass-border);box-shadow:0 10px 28px rgba(0,0,0,.12);
+      position: fixed;
+      left: max(16px, env(safe-area-inset-left));
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: var(--z-fab);
+      width:54px; height:54px; border-radius:50%;
+      display:flex; align-items:center; justify-content:center;
+      background:var(--surface);
+      border:1px solid var(--glass-border);
+      box-shadow:0 10px 28px rgba(0,0,0,.12);
       cursor:pointer;
     }
     .toc-drawer{
-      position:fixed;
-      /* Đã thay đổi: 'left:12px' -> 'right:...' */
-      right: max(16px, env(safe-area-inset-right));
-      /* Đã thay đổi: 'bottom:150px' -> 'bottom: 222px' (để mở ra bên trên nút TOC) */
-      bottom: 222px;
-      width:280px; max-width:85vw; max-height:60vh; overflow:auto;
-      background:var(--surface); border:1px solid var(--glass-border); border-radius:12px; padding:12px; display:none;
-      box-shadow:0 14px 36px rgba(0,0,0,.16); z-index:var(--z-fab);
+      position: fixed;
+      left: calc(max(16px, env(safe-area-inset-left)) + 54px + 8px);
+      top: 50%;
+      transform: translateY(-50%);
+      width: 280px; max-width: 85vw; max-height: 60vh; overflow: auto;
+      background: var(--surface);
+      border: 1px solid var(--glass-border);
+      border-radius: 12px; padding: 12px; display: none;
+      box-shadow: 0 14px 36px rgba(0,0,0,.16);
+      z-index: calc(var(--z-fab) + 2); /* cao hơn nút fab */
     }
     .toc-drawer.open{display:block}
     .toc-drawer h4{margin:0 0 8px 0; color:var(--accent)}
     .toc-drawer a{display:block;padding:8px;border-radius:8px;color:var(--text);font-weight:600}
     .toc-drawer a:hover{background:var(--glass)}
+
+    /* (MỚI) Nút Liên hệ (miniAppToggle) - góc phải dưới */
+    .contact-fab{
+      position: fixed;
+      right: max(16px, env(safe-area-inset-right));
+      bottom: 92px;
+      z-index: var(--z-fab);
+      width:54px; height:54px; border-radius:50%;
+      display:flex; align-items:center; justify-content:center;
+      background:var(--surface);
+      border:1px solid var(--glass-border);
+      box-shadow:0 10px 28px rgba(0,0,0,.12);
+      cursor:pointer;
+    }
+    
+    /* (MỚI) Mobile: tăng chiều cao tối đa cho TOC */
+    @media (max-width: 780px){
+      .toc-drawer{ max-height: 70vh; }
+    }
     /* -------------------------------------------------------- */
 
 
@@ -615,7 +642,7 @@
     </nav>
 
     <button class="toggle-dark" id="toggle-dark-mobile" aria-label="Chế độ tối"></button>
-    <button class="hamburger" id="hamburger" aria-label="Menu">
+    <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
       <span class="bar"></span><span class="bar"></span><span class="bar"></span>
     </button>
   </header>
@@ -644,7 +671,7 @@
       <a class="menu-item" href="/chothuexemayhanoi/"><i class="fa-solid fa-house"></i><span>Trang chủ</span></a>
       <a class="menu-item" href="/chothuexemayhanoi/gioithieu.html"><i class="fa-solid fa-circle-info"></i><span>Giới thiệu</span></a>
 
-      <button class="menu-item" id="drawerServiceToggle">
+      <button class="menu-item" id="drawerServiceToggle" aria-expanded="false">
         <i class="fa-solid fa-motorcycle"></i><span>Dịch vụ</span>
         <i class="fa-solid fa-chevron-down chevron-icon"></i>
       </button>
@@ -666,6 +693,8 @@
       </button>
     </div>
   </aside>
+  
+  <!-- (ĐÃ SỬA) Nút TOC giờ nằm bên trái -->
   <button class="toc-fab" id="tocFab" title="Mục lục (H2)">≡</button>
   <nav class="toc-drawer" id="tocDrawer" aria-label="Mục lục (H2)">
     <h4>📚 Mục lục</h4>
@@ -749,7 +778,8 @@
         <div class="mapp-head">
           <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen" class="mapp-logo" loading="lazy">
           <div class="mapp-title">
-            <h1 class="mapp-h1">Thuê Xe Máy Hà Nội – Giao Tận Nơi</h1>
+            <!-- (YÊU CẦU 3) Đổi từ h1 -> h2 để tránh trùng lặp -->
+            <h2 class="mapp-h1">Thuê Xe Máy Hà Nội – Giao Tận Nơi</h2>
             <p class="mapp-kicker">Xe số • Xe ga • Xe điện · Cọc 1–5 triệu · 09:00–21:00</p>
           </div>
         </div>
@@ -862,8 +892,9 @@
 
   </main>
 
+  <!-- (ĐÃ SỬA) Nút liên hệ nhanh dùng class .contact-fab mới -->
   <div id="miniApp" style="position:fixed; right: max(16px, env(safe-area-inset-right)); bottom:92px; z-index:var(--z-fab);">
-    <button id="miniAppToggle" class="toc-fab" title="Liên hệ nhanh"><i class="fa-solid fa-phone"></i></button>
+    <button id="miniAppToggle" class="contact-fab" title="Liên hệ nhanh"><i class="fa-solid fa-phone"></i></button>
     <div id="miniAppSheet" style="display:none; position:absolute; right:0; bottom:68px; width:300px; max-width:88vw;
          background:var(--surface); border:1px solid var(--glass-border); border-radius:12px; padding:12px; box-shadow:0 16px 40px rgba(0,0,0,.18);">
       <h4 style="margin:0 0 8px 0;color:var(--accent)">Liên hệ nhanh</h4>
@@ -930,7 +961,8 @@
 
     // top padding avoid cover
     function setBodyTop(){ document.body.style.paddingTop = (topbar.getBoundingClientRect().height + 8) + 'px'; }
-    setBodyTop(); addEventListener('resize', ()=>requestAnimationFrame(setBodyTop), {passive:true});
+    setBodyTop();
+    addEventListener('resize', setBodyTop); // (YÊU CẦU 6) Đã đơn giản hóa
 
     
     // ===== JAVASCRIPT NÂNG CẤP MENU (CODE ĐÃ SỬA) =====
@@ -942,8 +974,15 @@
     const svcMenu = document.getElementById('drawerServiceMenu');
 
     function openDrawer(state){
-      if(state){ drawer.classList.add('open'); overlay.classList.add('active'); drawer.setAttribute('aria-hidden','false'); }
-      else{ drawer.classList.remove('open'); overlay.classList.remove('active'); drawer.setAttribute('aria-hidden','true'); }
+      if(state){
+        drawer.classList.add('open'); overlay.classList.add('active');
+        drawer.setAttribute('aria-hidden','false'); // (YÊU CẦU 2)
+      }else{
+        drawer.classList.remove('open'); overlay.classList.remove('active');
+        drawer.setAttribute('aria-hidden','true'); // (YÊU CẦU 2)
+      }
+      // cập nhật cho hamburger (YÊU CẦU 2)
+      document.getElementById('hamburger')?.setAttribute('aria-expanded', String(!!state));
     }
     hamburger?.addEventListener('click', ()=>openDrawer(!drawer.classList.contains('open')));
     overlay?.addEventListener('click', ()=>openDrawer(false));
@@ -954,8 +993,23 @@
     svcToggle?.addEventListener('click', ()=>{
       const open = svcMenu.classList.toggle('open');
       svcToggle.classList.toggle('open', open);
+      svcToggle.setAttribute('aria-expanded', String(open)); // (YÊU CẦU 2)
     });
     // ===== KẾT THÚC JAVASCRIPT MENU ĐÃ SỬA =====
+
+    // (YÊU CẦU 1) Mở/đóng dropdown desktop bằng click (hữu ích cho iPad/laptop)
+    const ddToggle = document.querySelector('.nav-dropdown .dropdown-toggle');
+    const ddWrap   = ddToggle?.closest('.nav-dropdown');
+    if (ddToggle && ddWrap){
+      ddToggle.addEventListener('click', (e)=>{
+        e.preventDefault();
+        ddWrap.classList.toggle('open');
+      });
+      // Đóng khi click ra ngoài
+      document.addEventListener('click', (e)=>{
+        if(!ddWrap.contains(e.target)) ddWrap.classList.remove('open');
+      });
+    }
 
 
     // topbar scrolled style
@@ -1076,7 +1130,7 @@
       const io = new IntersectionObserver((es)=>{
         es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
       },{threshold:.15});
-      card.classList.add('reveal');
+      // (YÊU CẦU 6) Bỏ dòng card.classList.add('reveal') vì đã có sẵn trong HTML
       io.observe(card);
     }
 
@@ -1126,3 +1180,4 @@
   </script>
   </body>
 </html>
+
