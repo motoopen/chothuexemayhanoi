@@ -103,15 +103,25 @@
     }
     .drawer a:hover, .drawer button.as-link:hover{ background:var(--glass) }
 
-    /* ---------- TOC (H2 only) ---------- */
+    /* ---------- TOC (H2 only) - ĐÃ CHUYỂN SANG PHẢI ---------- */
     .toc-fab{
-      position:fixed; left:12px; bottom:84px; z-index:var(--z-fab);
+      position:fixed;
+      /* Đã thay đổi: 'left:12px' -> 'right:...' */
+      right: max(16px, env(safe-area-inset-right));
+      /* Đã thay đổi: 'bottom:84px' -> 'bottom: 156px' (để nằm trên nút Liên hệ) */
+      bottom: 156px;
+      z-index:var(--z-fab);
       width:54px;height:54px;border-radius:50%;display:flex;align-items:center;justify-content:center;
       background:var(--surface);border:1px solid var(--glass-border);box-shadow:0 10px 28px rgba(0,0,0,.12);
       cursor:pointer;
     }
     .toc-drawer{
-      position:fixed; left:12px; bottom:150px; width:280px; max-width:85vw; max-height:60vh; overflow:auto;
+      position:fixed;
+      /* Đã thay đổi: 'left:12px' -> 'right:...' */
+      right: max(16px, env(safe-area-inset-right));
+      /* Đã thay đổi: 'bottom:150px' -> 'bottom: 222px' (để mở ra bên trên nút TOC) */
+      bottom: 222px;
+      width:280px; max-width:85vw; max-height:60vh; overflow:auto;
       background:var(--surface); border:1px solid var(--glass-border); border-radius:12px; padding:12px; display:none;
       box-shadow:0 14px 36px rgba(0,0,0,.16); z-index:var(--z-fab);
     }
@@ -119,6 +129,8 @@
     .toc-drawer h4{margin:0 0 8px 0; color:var(--accent)}
     .toc-drawer a{display:block;padding:8px;border-radius:8px;color:var(--text);font-weight:600}
     .toc-drawer a:hover{background:var(--glass)}
+    /* -------------------------------------------------------- */
+
 
     /* ---------- FAQ (details) ---------- */
     .faq{margin:30px 0}
@@ -286,6 +298,7 @@
     <a class="icon" href="https://zalo.me/0857255868" target="_blank"><i class="fa-solid fa-comment-dots"></i> Zalo</a>
   </aside>
 
+  <!-- Nút TOC (Mục lục) đã được CSS chuyển sang phải -->
   <button class="toc-fab" id="tocFab" title="Mục lục (H2)">≡</button>
   <nav class="toc-drawer" id="tocDrawer" aria-label="Mục lục (H2)">
     <h4>📚 Mục lục</h4>
@@ -325,7 +338,8 @@
 
   </main>
 
-  <div id="miniApp" style="position:fixed;right:16px;bottom:92px;z-index:var(--z-fab);">
+  <!-- Mini app "Liên hệ nhanh" (vẫn ở bên phải) -->
+  <div id="miniApp" style="position:fixed; right: max(16px, env(safe-area-inset-right)); bottom:92px; z-index:var(--z-fab);">
     <button id="miniAppToggle" class="toc-fab" title="Liên hệ nhanh"><i class="fa-solid fa-phone"></i></button>
     <div id="miniAppSheet" style="display:none; position:absolute; right:0; bottom:68px; width:300px; max-width:88vw;
          background:var(--surface); border:1px solid var(--glass-border); border-radius:12px; padding:12px; box-shadow:0 16px 40px rgba(0,0,0,.18);">
@@ -373,12 +387,6 @@
       </p>
     </div>
 
-    <div class="footer-tagline">
-      <div class="inner">
-        <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen" loading="lazy">
-        Thuê xe máy Hà Nội – Motoopen – giao tận nơi – cọc nhẹ ✨
-      </div>
-    </div>
   </footer>
 
   <div class="bottom-appbar" role="navigation" aria-label="Bottom app bar">
@@ -508,6 +516,7 @@
       map: "https://maps.app.goo.gl/2icTBTxAToyvKTE78"
     };
   </script>
-  <script defer src="https://motoopen.github.io/chothuexemayhanoi/motoai_v19i_ui98_stableplus.js"></script>
+  <script src="https://motoopen.github.io/chothuexemayhanoi/motoai_v19i_ui98_stableplus.js"></script>
 </body>
 </html>
+
