@@ -409,7 +409,6 @@
     {q:'Xe ga',      label:'🛵 Xe ga',     inject:'Giá thuê xe ga (Vision/AB)'},
     {q:'Xe 50cc',    label:'🚲 Xe 50cc',   inject:'Giá thuê xe 50cc và điều kiện'},
     {q:'Xe điện',    label:'⚡ Xe điện',   inject:'Giá thuê xe điện và thời hạn'},
-    {q:'Xe giá rẻ',  label:'💸 Xe giá rẻ', inject:'Giá xe giá rẻ: 100k/ngày, 500k/tuần, 900k/tháng'},
     {q:'Thủ tục',    label:'📄 Thủ tục',   inject:'Thủ tục thuê xe + đặt cọc'},
     {q:'Liên hệ',    label:'☎️ Liên hệ',   inject:`SĐT ${CFG.phone} / Zalo`}
   ];
