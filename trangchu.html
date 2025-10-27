@@ -349,7 +349,8 @@
       border-radius: 20px 20px 0 0;
       box-shadow: 0 -12px 45px rgba(0,0,0,0.15);
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      /* (YÊU CẦU 3) Đổi minmax(240px) -> minmax(220px) để vừa 4 cột dễ hơn */
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
       gap: 36px;
       padding: 56px 24px calc(56px + env(safe-area-inset-bottom));
       text-align: center;
@@ -690,6 +691,32 @@
       margin: 6px 0 14px;
       font-weight: 600;
     }
+    
+    /* (YÊU CẦU 2) CSS CHO SAO ĐÁNH GIÁ */
+    .sx-stars {
+      color: #FFB400; /* Màu vàng gold */
+      margin-bottom: 6px;
+      font-size: 0.9rem;
+    }
+    .sx-stars i {
+      margin-right: 2px; /* Khoảng cách giữa các sao */
+    }
+    
+    /* (YÊU CẦU 3) Căn chỉnh lại .quick-links trong footer */
+    .app-footer .quick-links {
+      align-items: flex-start; /* Căn trái */
+      max-width: 200px; /* Giới hạn chiều rộng 1 chút */
+      margin: 0 auto; /* Căn giữa khối */
+    }
+    .app-footer .quick-links li {
+      justify-content: flex-start; /* Căn trái text & icon */
+      gap: 10px; /* Tăng khoảng cách cho icon */
+    }
+    .app-footer .quick-links i {
+      width: 20px;
+      text-align: center;
+      color: var(--accent);
+    }
   </style>
   
   <!-- SCRIPT FADE-IN 0.9S ĐÃ THÊM -->
@@ -864,7 +891,7 @@
     <section id="mapp" class="mapp-wrap" aria-label="Thuê xe máy Hà Nội">
       <div class="mapp-card">
         <div class="mapp-head">
-          <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen" class="mapp-logo" loading="lazy">
+          <img src="https://i.postimg.cc/brsmsj5N/IMG_5215.jpg" alt="Motoopen" class="mapp-logo" loading="lazy">
           <div class="mapp-title">
             <!-- (YÊU CẦU 3) Đổi từ h1 -> h2 để tránh trùng lặp -->
             <h2 class="mapp-h1">Thuê Xe Máy Hà Nội – Giao Tận Nơi</h2>
@@ -966,10 +993,10 @@
               </div>
             </article>
 
-            <!-- Xe đạp điện -->
+            <!-- (YÊU CẦU 1) THAY ẢNH XE ĐIỆN -->
             <article class="sx-card" role="listitem">
               <figure class="sx-thumb">
-                <img src="https://raw.githubusercontent.com/motoopen/chothuexemayhanoi/refs/heads/main/IMG_5419.jpeg" alt="Xe đạp điện cho thuê, tiện lợi đi lại trong phố Hà Nội" loading="lazy" decoding="async" width="800" height="800">
+                <img src="https://raw.githubusercontent.com/motoopen/chothuexemayhanoi/refs/heads/main/IMG_5420.jpeg" alt="Xe đạp điện cho thuê, tiện lợi đi lại trong phố Hà Nội" loading="lazy" decoding="async" width="800" height="800">
                 <span class="sx-badge">Giá như Vision</span>
               </figure>
               <div class="sx-body">
@@ -1063,11 +1090,32 @@
         <section class="sx-wrap sx-rev" aria-label="Đánh giá khách hàng">
           <h2>Khách hàng tại Hà Nội nói gì</h2>
           <div class="sx-revlist">
-            <figure class="sx-quote"><blockquote>“Thuê xe Vision 3 ngày, xe chạy êm — giao tận nơi phố cổ nhanh, phí nhẹ.”</blockquote><figcaption>— Thu Hà · Phố Cổ</figcaption></figure>
-            <figure class="sx-quote"><blockquote>“Giá thuê xe máy hợp lý, cọc nhẹ, nhân viên thân thiện. Ở Long Biên rất tiện.”</blockquote><figcaption>— Quang Lâm · Long Biên</figcaption></figure>
-            <figure class="sx-quote"><blockquote>“Mình thuê xe ga theo tháng ở Tây Hồ — giá tốt, xe mới, bảo dưỡng kỹ.”</blockquote><figcaption>— Gia Nội · Tây Hồ</figcaption></figure>
-            <figure class="sx-quote"><blockquote>“Thuê xe máy Hà Nội dễ, nhận xe nhanh, giao tận nơi đúng giờ — rất đáng tiền.”</blockquote><figcaption>— Lan Tây · Ba Đình</figcaption></figure>
-            <figure class="sx-quote"><blockquote>“Giá thuê xe máy 150k/ngày, thuê tháng từ 1 triệu — quá hợp lý, xe cực mới.”</blockquote><figcaption>— Hồ Đức · Hoàn Kiếm</figcaption></figure>
+            <!-- (YÊU CẦU 2) THÊM 5 SAO -->
+            <figure class="sx-quote">
+              <div class="sx-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+              <blockquote>“Thuê xe Vision 3 ngày, xe chạy êm — giao tận nơi phố cổ nhanh, phí nhẹ.”</blockquote>
+              <figcaption>— Thu Hà · Phố Cổ</figcaption>
+            </figure>
+            <figure class="sx-quote">
+              <div class="sx-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+              <blockquote>“Giá thuê xe máy hợp lý, cọc nhẹ, nhân viên thân thiện. Ở Long Biên rất tiện.”</blockquote>
+              <figcaption>— Quang Lâm · Long Biên</figcaption>
+            </figure>
+            <figure class="sx-quote">
+              <div class="sx-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+              <blockquote>“Mình thuê xe ga theo tháng ở Tây Hồ — giá tốt, xe mới, bảo dưỡng kỹ.”</blockquote>
+              <figcaption>— Gia Nội · Tây Hồ</figcaption>
+            </figure>
+            <figure class="sx-quote">
+              <div class="sx-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+              <blockquote>“Thuê xe máy Hà Nội dễ, nhận xe nhanh, giao tận nơi đúng giờ — rất đáng tiền.”</blockquote>
+              <figcaption>— Lan Tây · Ba Đình</figcaption>
+            </figure>
+            <figure class="sx-quote">
+              <div class="sx-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+              <blockquote>“Giá thuê xe máy 150k/ngày, thuê tháng từ 1 triệu — quá hợp lý, xe cực mới.”</blockquote>
+              <figcaption>— Hồ Đức · Hoàn Kiếm</figcaption>
+            </figure>
           </div>
         </section>
         <!-- ===== KẾT THÚC PHẦN DÁN (REVIEWS) ===== -->
@@ -1095,6 +1143,7 @@
   </div>
 
   <footer class="premium app-footer" role="contentinfo" aria-label="Footer">
+    <!-- Cột 1: Giới thiệu -->
     <div>
       <h4>Motoopen</h4>
       <p>Chúng tôi cung cấp xe máy đã qua sử dụng chất lượng để bán và cho thuê dài hạn tại Hà Nội.</p>
@@ -1106,17 +1155,32 @@
       </ul>
     </div>
 
+    <!-- (YÊU CẦU 3) Cột 2: Liên kết nhanh (ĐÃ SỬA ICON) -->
     <div>
       <h4>Liên kết nhanh</h4>
       <ul class="quick-links">
-        <li><a href="https://motoopen.github.io/chothuexemayhanoi/"><span class="emoji">🏠</span>Trang chủ</a></li>
-        <li><a href="https://motoopen.github.io/chothuexemayhanoi/banggia.html"><span class="emoji">💸</span>Bảng giá</a></li>
-        <li><a href="https://motoopen.github.io/chothuexemayhanoi/faq.html"><span class="emoji">❓</span>Hỏi đáp (FAQ)</a></li>
-        <li><a href="https://motoopen.github.io/chothuexemayhanoi/danhgia.html"><span class="emoji">⭐</span>Đánh giá</a></li>
-        <li><a href="https://maps.app.goo.gl/2icTBTxAToyvKTE78" target="_blank" rel="noopener"><span class="emoji">📍</span>Tìm trên Google Map</a></li>
+        <li><a href="https://motoopen.github.io/chothuexemayhanoi/"><i class="fa-solid fa-house"></i>Trang chủ</a></li>
+        <li><a href="https://motoopen.github.io/chothuexemayhanoi/banggia.html"><i class="fa-solid fa-tags"></i>Bảng giá</a></li>
+        <li><a href="https://motoopen.github.io/chothuexemayhanoi/faq.html"><i class="fa-solid fa-circle-question"></i>Hỏi đáp (FAQ)</a></li>
+        <li><a href="https://motoopen.github.io/chothuexemayhanoi/danhgia.html"><i class="fa-solid fa-star"></i>Đánh giá</a></li>
+        <li><a href="https://maps.app.goo.gl/2icTBTxAToyvKTE78" target="_blank" rel="noopener"><i class="fa-solid fa-map-location-dot"></i>Tìm trên Google Map</a></li>
       </ul>
     </div>
 
+    <!-- (YÊU CẦU 3) Cột 3: Cột MỚI (Dịch vụ) -->
+    <div>
+      <h4>Dịch vụ & Thông tin</h4>
+      <ul class="quick-links">
+        <li><a href="/chothuexemayhanoi/gioithieu.html"><i class="fa-solid fa-circle-info"></i> Giới thiệu</a></li>
+        <li><a href="/chothuexemayhanoi/thutuc.html"><i class="fa-solid fa-file-signature"></i> Thủ tục</a></li>
+        <li><a href="/chothuexemayhanoi/loaixe.html"><i class="fa-solid fa-motorcycle"></i> Loại xe</a></li>
+        <li><a href="/chothuexemayhanoi/huongdan.html"><i class="fa-solid fa-book"></i> Hướng dẫn</a></li>
+        <li><a href="/chothuexemayhanoi/kinhnghiem.html"><i class="fa-solid fa-lightbulb"></i> Kinh nghiệm</a></li>
+        <li><a href="/chothuexemayhanoi/lienhe.html"><i class="fa-solid fa-phone"></i> Liên hệ</a></li>
+      </ul>
+    </div>
+
+    <!-- Cột 4: Kết nối (Cột 3 cũ) -->
     <div>
       <h4>Kết nối & Hỗ trợ</h4>
       <div class="social-row">
