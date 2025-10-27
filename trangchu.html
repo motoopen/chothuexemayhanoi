@@ -312,47 +312,88 @@
       /* --footer-bg:rgba(22,22,24,.65); --text:#eaeaea; --glass-border:rgba(255,255,255,.12); */ /* Đã có ở trên */
     }
 
-    /* ===== Footer Apple Glass ===== */
-    footer.premium.app-footer{
-      background:var(--footer-bg);
-      color:var(--text);
-      backdrop-filter: blur(14px) saturate(150%);
-      -webkit-backdrop-filter: blur(14px) saturate(150%);
-      border-top:1px solid var(--glass-border);
-      border-radius:16px 16px 0 0;
-      box-shadow:0 -8px 32px rgba(0,0,0,.06);
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-      gap:26px;
-      padding:42px 20px calc(42px + env(safe-area-inset-bottom));
+    /* ===== Footer Apple Glass Centered v2 (CODE ĐÃ NÂNG CẤP) ===== */
+    footer.premium.app-footer {
+      background: rgba(255,255,255,0.85);
+      color: var(--text);
+      backdrop-filter: blur(22px) saturate(180%);
+      -webkit-backdrop-filter: blur(22px) saturate(180%);
+      border-top: 1px solid var(--glass-border);
+      border-radius: 20px 20px 0 0;
+      box-shadow: 0 -12px 45px rgba(0,0,0,0.15);
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 36px;
+      padding: 56px 24px calc(56px + env(safe-area-inset-bottom));
+      text-align: center;
     }
-    .app-footer h4{
-      margin:0 0 10px; font-weight:800; letter-spacing:.3px;
-      color:var(--accent); text-transform:uppercase;
+    body.dark footer.premium.app-footer {
+      background: rgba(28,28,30,0.9);
+      box-shadow: 0 -12px 45px rgba(0,0,0,0.7);
     }
-    .app-footer p,.app-footer li,.app-footer a{ color:var(--text); }
-    .app-footer a{
-      display:block; text-decoration:none; margin:6px 0; font-weight:600;
-      transition:transform .18s, color .18s;
-    }
-    .app-footer a:hover{ color:var(--accent); transform:translateX(4px); }
 
-    .app-contact{ margin:10px 0 0; padding:0; list-style:none; }
-    .app-contact li{ display:flex; gap:10px; align-items:flex-start; margin:8px 0; }
-    .app-contact i{ width:20px; text-align:center; color:var(--accent); }
-
-    .quick-links{ margin:6px 0 0; padding:0; list-style:none; }
-    .quick-links li{ margin:8px 0; }
-    .quick-links .emoji{ margin-right:8px; }
-
-    .social-row{ display:flex; gap:10px; margin-top:10px; }
-    .social-row a{
-      width:38px; height:38px; border-radius:50%;
-      background:var(--accent); color:#fff; display:inline-flex; align-items:center; justify-content:center;
-      box-shadow:0 6px 16px rgba(0,122,255,.18);
+    .app-footer h4 {
+      margin: 0 0 14px;
+      font-weight: 800;
+      letter-spacing: .3px;
+      color: var(--accent);
+      text-transform: uppercase;
     }
-    .social-row a:hover{ transform:translateY(-2px); }
-    .footer-tagline{ margin-top:18px; }
+    .app-footer p, .app-footer li, .app-footer a {
+      color: var(--text);
+      text-align: center;
+    }
+
+    .app-contact, .quick-links {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .app-contact li, .quick-links li {
+      margin: 8px 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      justify-content: center;
+    }
+    .app-contact i {
+      width: 24px;
+      text-align: center;
+      color: var(--accent);
+    }
+
+    .social-row {
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      margin-top: 16px;
+    }
+    .social-row a {
+      width: 44px; height: 44px;
+      border-radius: 50%;
+      background: var(--accent);
+      color: #fff;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 6px 18px rgba(0,122,255,0.25);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+    .social-row a:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 25px rgba(0,122,255,0.35);
+    }
+
+    .app-footer .author {
+      margin-top: 18px;
+      font-weight: 600;
+      color: var(--muted);
+    }
+    /* ===== KẾT THÚC CSS NÂNG CẤP FOOTER v2 ===== */
+
 
     /* ===== Bottom App Bar (mobile) ===== */
     .bottom-appbar{
@@ -528,6 +569,7 @@
       <h4>Motoopen</h4>
       <p>Chúng tôi cung cấp xe máy đã qua sử dụng chất lượng để bán và cho thuê dài hạn tại Hà Nội.</p>
       <ul class="app-contact">
+        <!-- CSS mới sẽ căn giữa các mục này -->
         <li><i class="fa-solid fa-location-dot"></i> 112 Nguyễn Văn Cừ, Long Biên, Hà Nội</li>
         <li><i class="fa-solid fa-phone"></i> <a href="tel:0857255868">0857 255 868</a></li>
         <li><i class="fa-solid fa-clock"></i> 09:00 – 21:00 (Hàng ngày)</li>
@@ -538,6 +580,7 @@
     <div>
       <h4>Liên kết nhanh</h4>
       <ul class="quick-links">
+        <!-- CSS mới sẽ căn giữa các mục này -->
         <li><a href="https://motoopen.github.io/chothuexemayhanoi/"><span class="emoji">🏠</span>Trang chủ</a></li>
         <li><a href="https://motoopen.github.io/chothuexemayhanoi/banggia.html"><span class="emoji">💸</span>Bảng giá</a></li>
         <li><a href="https://motoopen.github.io/chothuexemayhanoi/faq.html"><span class="emoji">❓</span>Hỏi đáp (FAQ)</a></li>
@@ -552,7 +595,7 @@
         <a href="https://zalo.me/0857255868" title="Zalo" aria-label="Zalo"><i class="fa-solid fa-comment-dots"></i></a>
         <a href="https://m.facebook.com/motoopenvn/" title="Facebook" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
         <a href="mailto:motoopen12@gmail.com" title="Email" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
-        <a href="https.www.instagram.com/motoopen/" title="Instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.instagram.com/motoopen/" title="Instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
       </div>
       <p class="author" style="margin-top:10px">
         <i class="fa-solid fa-copyright"></i> 2025
@@ -714,16 +757,5 @@
   })();
   </script>
 
-  <script>
-    window.MotoAI_CONFIG = {
-      brand: "MS. Thu Hà",
-      phone: "0857255868",
-      zalo:  "https://zalo.me/0857255868",
-      whatsapp: "https://wa.me/84857255868",
-      map: "https://maps.app.goo.gl/2icTBTxAToyvKTE78"
-    };
-  </script>
-  <script src="https://motoopen.github.io/chothuexemayhanoi/motoai_v19i_ui98_stableplus.js"></script>
 </body>
 </html>
-
