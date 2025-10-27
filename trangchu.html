@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="theme-color" content="#0A84FF">
+  <title>Thuê Xe Máy Hà Nội | Motoopen</title>
+  <meta name="description" content="Thuê xe máy Hà Nội giá rẻ, giao tận nơi. Xe số, xe ga, xe điện. Giá từ 150k/ngày, thuê tháng 1–2 triệu.">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    :root{
+      --maxw:1100px;
+      --bg:#f5f5f7;
+      --surface:#fff;
+      --text:#1d1d1f;
+      --muted:#6e6e73;
+      --accent:#0A84FF;    /* Apple Blue */
+      --accent-2:#30D158;  /* Apple Green */
+      --glass: rgba(0,0,0,0.06);
+      --glass-border: rgba(220,220,215,0.6);
+      --radius:14px;
+      --z-topbar:1600;
+      --z-drawer:1700;
+      --z-bottom:1500;
+      --z-fab:1800;
+    }
+    body.dark{
+      --bg:#1C1C1E; --surface:#2C2C2E; --text:#F2F2F7; --muted:#8E8E93;
+      --accent:#0A84FF; --accent-2:#30D158; --glass:rgba(255,255,255,0.08);
+      --glass-border: rgba(60,60,67,0.6);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+      background:var(--bg); color:var(--text);
+      -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+      transition:background .25s,color .25s;
+    }
+    a{color:inherit;text-decoration:none}
+    .container{max-width:var(--maxw);margin:0 auto;padding:0 20px}
+
+    /* ---------- Topbar (Apple glass) ---------- */
+    .topbar{
+      position:fixed; inset:12px 16px auto 16px; height:auto;
+      z-index:var(--z-topbar);
+      display:flex; align-items:center; justify-content:space-between; gap:12px;
+      padding:10px 14px; background:rgba(255,255,255,.78);
+      border:1px solid var(--glass-border); border-radius:14px;
+      backdrop-filter: blur(12px) saturate(150%);
+      box-shadow:0 8px 24px rgba(0,0,0,.06);
+    }
+    body.dark .topbar{ background:rgba(28,28,30,.78); box-shadow:0 8px 24px rgba(0,0,0,.3); }
+    .topbar.scrolled{ padding:8px 12px; background:rgba(255,255,255,.92) }
+    body.dark .topbar.scrolled{ background:rgba(28,28,30,.92) }
+
+    .brand{display:flex;align-items:center;gap:10px}
+    .brand img{width:38px;height:38px;border-radius:8px;object-fit:cover}
+    .brand h3{margin:0;font-size:1.05rem;font-weight:800}
+
+    .nav-links{display:flex;align-items:center;gap:4px}
+    .nav-links a,.nav-links .dropdown-toggle{
+      padding:8px 10px;border-radius:10px;font-weight:700;color:var(--text);
+      display:inline-flex;align-items:center;gap:8px;
+    }
+    .nav-links a:hover{background:var(--glass)}
+    .nav-dropdown{position:relative}
+    .dropdown-toggle i.fa-caret-down{margin-left:6px}
+    .dropdown-menu{
+      position:absolute; top:100%; left:0; min-width:220px; padding:8px;
+      background:var(--surface); border:1px solid var(--glass-border); border-radius:12px;
+      box-shadow:0 16px 32px rgba(0,0,0,.08); display:none;
+    }
+    .nav-dropdown:hover .dropdown-menu{display:block}
+    .cta{background:var(--accent);color:#fff;border-radius:999px;padding:8px 14px;font-weight:800}
+
+    .toggle-dark{background:transparent;border:0;padding:8px 10px;border-radius:10px;cursor:pointer}
+    .toggle-dark:hover{background:var(--glass)}
+
+    .hamburger{display:none;background:transparent;border:0;padding:8px;border-radius:10px;cursor:pointer}
+    .hamburger .bar{display:block;width:22px;height:2px;background:var(--text);margin:4px;border-radius:2px}
+
+    /* ---------- Drawer ---------- */
+    .drawer-overlay{position:fixed;inset:0;background:rgba(0,0,0,.25);opacity:0;pointer-events:none;transition:.2s;z-index:var(--z-drawer)}
+    .drawer-overlay.active{opacity:1;pointer-events:auto}
+    .drawer{
+      position:fixed; top:0; left:0; height:100vh; width:320px; max-width:88vw;
+      background:linear-gradient(180deg, rgba(255,255,255,.98), rgba(245,245,247,.98));
+      border-right:1px solid var(--glass-border);
+      transform:translateX(-110%); transition:transform .36s cubic-bezier(.2,.9,.2,1);
+      z-index:calc(var(--z-drawer) + 1); padding:80px 18px 18px;
+      backdrop-filter:blur(12px) saturate(150%);
+    }
+    body.dark .drawer{ background:linear-gradient(180deg, rgba(28,28,30,.98), rgba(35,35,37,.96)) }
+    .drawer.open{ transform:translateX(0) }
+    .drawer a, .drawer button.as-link{
+      display:flex;align-items:center;gap:10px;padding:12px 10px;border-radius:10px;
+      font-weight:700;color:var(--text); background:transparent;border:0;cursor:pointer;width:100%;text-align:left;
+    }
+    .drawer a:hover, .drawer button.as-link:hover{ background:var(--glass) }
+
+    /* ---------- Bottom App Bar (mobile) ---------- */
+    .bottom-appbar{
+      position:fixed; bottom:0; left:0; right:0; z-index:var(--z-bottom);
+      background:rgba(255,255,255,.92); backdrop-filter:blur(10px);
+      border-top:1px solid var(--glass-border); display:none;
+    }
+    .bottom-appbar .inner{
+      max-width:720px;margin:0 auto;display:grid;grid-template-columns:repeat(5,1fr);gap:2px;
+      padding:8px 10px;
+    }
+    .bottom-appbar a{display:flex;flex-direction:column;align-items:center;gap:4px;font-size:.82rem;padding:6px;border-radius:10px}
+    .bottom-appbar a:hover{background:var(--glass)}
+    .bottom-appbar i{font-size:1.1rem}
+
+    /* ---------- TOC (H2 only) ---------- */
+    .toc-fab{
+      position:fixed; left:12px; bottom:84px; z-index:var(--z-fab);
+      width:54px;height:54px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+      background:var(--surface);border:1px solid var(--glass-border);box-shadow:0 10px 28px rgba(0,0,0,.12);
+      cursor:pointer;
+    }
+    .toc-drawer{
+      position:fixed; left:12px; bottom:150px; width:280px; max-width:85vw; max-height:60vh; overflow:auto;
+      background:var(--surface); border:1px solid var(--glass-border); border-radius:12px; padding:12px; display:none;
+      box-shadow:0 14px 36px rgba(0,0,0,.16); z-index:var(--z-fab);
+    }
+    .toc-drawer.open{display:block}
+    .toc-drawer h4{margin:0 0 8px 0; color:var(--accent)}
+    .toc-drawer a{display:block;padding:8px;border-radius:8px;color:var(--text);font-weight:600}
+    .toc-drawer a:hover{background:var(--glass)}
+
+    /* ---------- FAQ (details) ---------- */
+    .faq{margin:30px 0}
+    .faq details{
+      background:var(--surface); border:1px solid var(--glass-border); border-radius:12px;
+      padding:12px 14px; margin-bottom:10px;
+    }
+    .faq summary{
+      cursor:pointer; list-style:none; font-weight:800; outline:none;
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+    }
+    .faq summary::-webkit-details-marker{display:none}
+    .faq details[open]{border-color:var(--accent)}
+    .faq .answer{color:var(--muted);padding-top:8px}
+    /* animation */
+    .faq details .answer{ animation: fadeIn .22s ease }
+    @keyframes fadeIn{ from{opacity:0; transform:translateY(4px)} to{opacity:1; transform:none} }
+
+    /* ---------- Helpers & responsive ---------- */
+    main{padding-top:84px}
+    @media (max-width: 900px){
+      .nav-links{display:none}
+      .hamburger{display:block}
+      .bottom-appbar{display:block}
+      main{padding-bottom:76px}
+    }
+
+    /* Safari/iOS smooth + overscroll fix */
+    body{ -webkit-overflow-scrolling: touch; overscroll-behavior: contain; }
+
+    /* MotoAI overlay blur fix (không làm mờ header/faq) */
+    #motoai-overlay{ isolation:isolate; }
+
+  </style>
+</head>
+<body>
+  <!-- TOPBAR -->
+  <header class="topbar" id="topbar" role="banner">
+    <div class="brand">
+      <img src="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg" alt="Motoopen">
+      <h3>Motoopen</h3>
+    </div>
+
+    <nav class="nav-links" role="navigation" aria-label="Main">
+      <a href="/chothuexemayhanoi/"><i class="fa-solid fa-house"></i> Trang chủ</a>
+      <a href="/chothuexemayhanoi/gioithieu.html"><i class="fa-solid fa-circle-info"></i> Giới thiệu</a>
+      <div class="nav-dropdown">
+        <a href="javascript:void(0)" class="dropdown-toggle"><i class="fa-solid fa-motorcycle"></i> Dịch vụ <i class="fa-solid fa-caret-down"></i></a>
+        <div class="dropdown-menu">
+          <a href="/chothuexemayhanoi/banggia.html"><i class="fa-solid fa-tags"></i> Bảng giá</a>
+          <a href="/chothuexemayhanoi/thutuc.html"><i class="fa-solid fa-file-signature"></i> Thủ tục</a>
+          <a href="/chothuexemayhanoi/loaixe.html"><i class="fa-solid fa-motorcycle"></i> Loại xe</a>
+          <a href="/chothuexemayhanoi/huongdan.html"><i class="fa-solid fa-book"></i> Hướng dẫn</a>
+          <a href="/chothuexemayhanoi/kinhnghiem.html"><i class="fa-solid fa-lightbulb"></i> Kinh nghiệm</a>
+        </div>
+      </div>
+      <a href="/chothuexemayhanoi/faq.html"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+      <a href="/chothuexemayhanoi/lienhe.html"><i class="fa-solid fa-phone"></i> Liên hệ</a>
+      <button class="toggle-dark" id="toggle-dark-desktop" aria-label="Dark mode"></button>
+      <a class="cta" href="tel:0857255868"><i class="fa-solid fa-phone"></i>&nbsp; Gọi ngay</a>
+    </nav>
+
+    <button class="toggle-dark" id="toggle-dark-mobile" aria-label="Dark mode"></button>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+  </header>
+
+  <!-- DRAWER -->
+  <div class="drawer-overlay" id="drawerOverlay" aria-hidden="true"></div>
+  <aside class="drawer" id="drawer" role="menu" aria-hidden="true">
+    <a class="icon" href="/chothuexemayhanoi/"><i class="fa-solid fa-house"></i> Trang chủ</a>
+    <a class="icon" href="/chothuexemayhanoi/gioithieu.html"><i class="fa-solid fa-circle-info"></i> Giới thiệu</a>
+    <button class="as-link" id="drawerService"><i class="fa-solid fa-motorcycle"></i> DỊCH VỤ <i class="fa-solid fa-chevron-down" style="margin-left:auto"></i></button>
+    <div id="drawerServiceMenu" style="display:none; margin-left:10px; border-left:2px solid var(--glass-border); padding-left:10px">
+      <a class="icon" href="/chothuexemayhanoi/banggia.html"><i class="fa-solid fa-tags"></i> Bảng giá</a>
+      <a class="icon" href="/chothuexemayhanoi/thutuc.html"><i class="fa-solid fa-file-signature"></i> Thủ tục</a>
+      <a class="icon" href="/chothuexemayhanoi/loaixe.html"><i class="fa-solid fa-motorcycle"></i> Loại xe</a>
+      <a class="icon" href="/chothuexemayhanoi/huongdan.html"><i class="fa-solid fa-book"></i> Hướng dẫn</a>
+      <a class="icon" href="/chothuexemayhanoi/kinhnghiem.html"><i class="fa-solid fa-lightbulb"></i> Kinh nghiệm</a>
+    </div>
+    <a class="icon" href="/chothuexemayhanoi/faq.html"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+    <a class="icon" href="/chothuexemayhanoi/lienhe.html"><i class="fa-solid fa-phone"></i> Liên hệ</a>
+    <a class="icon" href="tel:0857255868"><i class="fa-solid fa-phone-volume"></i> 0857 255 868</a>
+    <a class="icon" href="https://zalo.me/0857255868" target="_blank"><i class="fa-solid fa-comment-dots"></i> Zalo</a>
+  </aside>
+
+  <!-- BOTTOM APP BAR (mobile) -->
+  <nav class="bottom-appbar" aria-label="Bottom app bar">
+    <div class="inner">
+      <a href="#gioithieu"><i class="fa-solid fa-house"></i><span>Trang chủ</span></a>
+      <a href="#banggia"><i class="fa-solid fa-tags"></i><span>Bảng giá</span></a>
+      <a href="tel:0857255868"><i class="fa-solid fa-phone"></i><span>Gọi</span></a>
+      <a href="https://zalo.me/0857255868" target="_blank"><i class="fa-solid fa-comment-dots"></i><span>Zalo</span></a>
+      <a href="#faq"><i class="fa-solid fa-circle-question"></i><span>FAQ</span></a>
+    </div>
+  </nav>
+
+  <!-- TOC (H2 only) -->
+  <button class="toc-fab" id="tocFab" title="Mục lục (H2)">≡</button>
+  <nav class="toc-drawer" id="tocDrawer" aria-label="Mục lục (H2)">
+    <h4>📚 Mục lục</h4>
+    <div id="tocList"></div>
+  </nav>
+    <main id="main" class="container" role="main">
+
+    <!-- ==== PLACEHOLDER: Giữ nguyên các SECTION hiện tại của anh (Hero / Bảng giá / Slot / Quiz / Reviews) ==== -->
+    <!-- Copy nguyên các block nội dung cũ vào đây (không cần sửa). Đừng quên giữ id #gioithieu, #banggia nếu có. -->
+
+    <!-- ===== FAQ (đã fix, dùng <details>) ===== -->
+    <section class="faq" id="faq" aria-labelledby="faq-title">
+      <h2 id="faq-title">Câu hỏi thường gặp</h2>
+
+      <details>
+        <summary>Giá thuê xe máy theo ngày Hà Nội bao nhiêu? <i class="fa-solid fa-plus"></i></summary>
+        <div class="answer">Giá thuê xe máy từ <strong>150k</strong> đến <strong>200k/ngày</strong>, tùy loại xe.</div>
+      </details>
+
+      <details>
+        <summary>Giá thuê xe máy theo tuần?</summary>
+        <div class="answer">Khoảng <strong>600k – 900k</strong> tuỳ loại xe và thời điểm.</div>
+      </details>
+
+      <details>
+        <summary>Giá thuê xe máy theo tháng?</summary>
+        <div class="answer">Từ <strong>1–2 triệu/tháng</strong>, phù hợp khách thuê dài hạn.</div>
+      </details>
+
+      <details>
+        <summary>Thủ tục thuê xe máy?</summary>
+        <div class="answer">CMND/CCCD hoặc hộ chiếu + đặt cọc <strong>1–5 triệu</strong> tùy xe.</div>
+      </details>
+
+      <details>
+        <summary>Có giao xe tận nơi không?</summary>
+        <div class="answer">Có, giao nhanh trong nội thành Hà Nội (có phí).</div>
+      </details>
+    </section>
+
+  </main>
+
+  <!-- QUICK MINI-APP (bottom sheet) -->
+  <div id="miniApp" style="position:fixed;right:16px;bottom:92px;z-index:var(--z-fab);">
+    <button id="miniAppToggle" class="toc-fab" title="Liên hệ nhanh"><i class="fa-solid fa-phone"></i></button>
+    <div id="miniAppSheet" style="display:none; position:absolute; right:0; bottom:68px; width:300px; max-width:88vw;
+         background:var(--surface); border:1px solid var(--glass-border); border-radius:12px; padding:12px; box-shadow:0 16px 40px rgba(0,0,0,.18);">
+      <h4 style="margin:0 0 8px 0;color:var(--accent)">Liên hệ nhanh</h4>
+      <a href="tel:0857255868" style="display:flex;align-items:center;gap:10px;padding:10px;border-radius:10px;background:var(--glass);margin-bottom:8px;"><i class="fa-solid fa-phone"></i> Gọi 0857 255 868</a>
+      <a href="https://zalo.me/0857255868" target="_blank" style="display:flex;align-items:center;gap:10px;padding:10px;border-radius:10px;background:var(--glass);margin-bottom:8px;"><i class="fa-solid fa-comment-dots"></i> Chat Zalo</a>
+      <a href="https://maps.app.goo.gl/2icTBTxAToyvKTE78" target="_blank" style="display:flex;align-items:center;gap:10px;padding:10px;border-radius:10px;background:var(--glass)"><i class="fa-solid fa-location-dot"></i> Bản đồ</a>
+    </div>
+  </div>
+
+  <!-- FOOTER đơn giản (anh có thể giữ footer cũ nếu thích) -->
+  <footer class="container" style="padding:28px 12px;color:var(--muted);text-align:center">
+    <div style="font-weight:700;color:var(--text)">Motoopen – Thuê xe máy Hà Nội</div>
+    <div>© 2025 Motoopen. All rights reserved.</div>
+  </footer>
+    <script>
+  (function(){
+    const topbar   = document.getElementById('topbar');
+    const hamburger= document.getElementById('hamburger');
+    const drawer   = document.getElementById('drawer');
+    const overlay  = document.getElementById('drawerOverlay');
+
+    // top padding avoid cover
+    function setBodyTop(){ document.body.style.paddingTop = (topbar.getBoundingClientRect().height + 8) + 'px'; }
+    setBodyTop(); addEventListener('resize', ()=>requestAnimationFrame(setBodyTop), {passive:true});
+
+    // drawer
+    function openDrawer(open){
+      if(open){ drawer.classList.add('open'); overlay.classList.add('active'); drawer.setAttribute('aria-hidden','false'); }
+      else{ drawer.classList.remove('open'); overlay.classList.remove('active'); drawer.setAttribute('aria-hidden','true'); }
+    }
+    hamburger.addEventListener('click', ()=>openDrawer(!drawer.classList.contains('open')));
+    overlay.addEventListener('click', ()=>openDrawer(false));
+    drawer.querySelectorAll('a').forEach(a=>a.addEventListener('click', ()=>openDrawer(false)));
+
+    // drawer service submenu
+    const svcBtn = document.getElementById('drawerService');
+    const svcMenu= document.getElementById('drawerServiceMenu');
+    if(svcBtn && svcMenu){
+      svcBtn.addEventListener('click', ()=>{ const show = svcMenu.style.display !== 'block'; svcMenu.style.display = show ? 'block':'none'; });
+    }
+
+    // topbar scrolled style
+    addEventListener('scroll', ()=>{
+      (scrollY>8)? topbar.classList.add('scrolled') : topbar.classList.remove('scrolled');
+    }, {passive:true});
+
+    // dark mode
+    const DARK_KEY='darkModeEnabled';
+    const dDesktop=document.getElementById('toggle-dark-desktop');
+    const dMobile =document.getElementById('toggle-dark-mobile');
+    function applyDark(on){ document.body.classList.toggle('dark', !!on); localStorage.setItem(DARK_KEY, on?'true':'false');
+      const ico = on? '<i class="fa-solid fa-sun"></i>':'<i class="fa-solid fa-moon"></i>';
+      if(dDesktop) dDesktop.innerHTML=ico; if(dMobile) dMobile.innerHTML=ico;
+    }
+    let pref=localStorage.getItem(DARK_KEY); if(pref===null) pref = window.matchMedia('(prefers-color-scheme:dark)').matches?'true':'false';
+    applyDark(pref==='true');
+    [dDesktop,dMobile].forEach(b=>b&&b.addEventListener('click',()=>applyDark(!document.body.classList.contains('dark'))));
+
+    // ===== TOC (H2 only) =====
+    const tocFab = document.getElementById('tocFab');
+    const tocDrawer = document.getElementById('tocDrawer');
+    const tocList = document.getElementById('tocList');
+    function buildTOC(){
+      const h2s = Array.from(document.querySelectorAll('main h2'));
+      tocList.innerHTML = h2s.map((h,i)=>{
+        if(!h.id){ h.id='h2-'+(i+1); }
+        return `<a href="#${h.id}">${h.textContent.trim()}</a>`;
+      }).join('');
+      tocList.querySelectorAll?.('a')?.forEach?.(()=>{});
+    }
+    buildTOC();
+    tocFab.addEventListener('click', (e)=>{ e.stopPropagation(); tocDrawer.classList.toggle('open'); });
+    document.addEventListener('click', (e)=>{ if(!tocDrawer.contains(e.target) && e.target!==tocFab) tocDrawer.classList.remove('open'); });
+
+    // ===== FAQ polish (optional: auto-close others) =====
+    const faq = document.querySelector('.faq');
+    if(faq){
+      faq.addEventListener('toggle', (e)=>{
+        if(e.target.tagName==='DETAILS' && e.target.open){
+          faq.querySelectorAll('details').forEach(d=>{ if(d!==e.target) d.removeAttribute('open'); });
+        }
+      }, true);
+    }
+
+    // ===== Mini-app bottom sheet =====
+    const miniToggle = document.getElementById('miniAppToggle');
+    const miniSheet  = document.getElementById('miniAppSheet');
+    if(miniToggle && miniSheet){
+      miniToggle.addEventListener('click', (e)=>{ e.stopPropagation(); miniSheet.style.display = (miniSheet.style.display==='block'?'none':'block'); });
+      document.addEventListener('click', (e)=>{ if(!miniSheet.contains(e.target) && e.target!==miniToggle) miniSheet.style.display='none'; });
+    }
+
+    // ===== iOS/Safari blur leak fix for MotoAI overlay =====
+    const style = document.createElement('style');
+    style.textContent = '#motoai-overlay{isolation:isolate}';
+    document.head.appendChild(style);
+  })();
+  </script>
+
+  <!-- MotoAI config (giữ cách anh vẫn dùng) -->
+  <script>
+    window.MotoAI_CONFIG = {
+      brand: "MS. Thu Hà",
+      phone: "0857255868",
+      zalo:  "https://zalo.me/0857255868",
+      whatsapp: "https://wa.me/84857255868",
+      map: "https://maps.app.goo.gl/2icTBTxAToyvKTE78"
+    };
+  </script>
+  <script defer src="https://motoopen.github.io/chothuexemayhanoi/motoai_v19i_ui98_stableplus.js"></script>
+</body>
+</html>
