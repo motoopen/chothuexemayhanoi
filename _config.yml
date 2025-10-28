@@ -1,13 +1,9 @@
-title: "Motoopen"
-email: "motoopen12@gmail.com"
+---
+layout: post
+title: "Giới thiệu về Motoopen"
+date: 2025-10-28 12:00:00 +07:00
 author: "Motoopen"
-description: "Thuê xe máy Hà Nội — giao tận nơi, cọc nhẹ"
-baseurl: "/chothuexemayhanoi"   # ⚠️ rất quan trọng — vì repo của anh nằm trong /chothuexemayhanoi/
-url: "https://motoopen.github.io"
-logo: "/assets/img/logo.png"
-social_image: "/assets/img/social-card.jpg"
-fa_css: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-permalink: /:categories/:title/
-paginate: 5
-markdown: kramdown
-timezone: Asia/Bangkok
+categories: [blog, gioi-thieu]
+description: "Motoopen — Thuê xe máy Hà Nội: giao tận nơi, cọc nhẹ, xe bảo dưỡng định kỳ."
+permalink: /blog/gioi-thieu-motoopen/
+---
