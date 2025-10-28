@@ -1,64 +1,46 @@
 ---
-layout: default
-title: Blog
+layout: none
+title: "Blog"
 permalink: /blog/
-description: Tin tức, cập nhật và giới thiệu Motoopen
 ---
 
-<section class="hero-mini reveal">
-  <div class="wrap">
-    <div class="card">
-      <div class="hmini-grid">
-        <div>
-          <h1 class="hmini-title">Blog — Tin tức & Giới thiệu</h1>
-          <p class="hmini-sub">Bài viết ngắn gọn về dịch vụ, mẹo đi lại, khuyến mãi và cập nhật từ Motoopen.</p>
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Blog | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="canonical" href="{{ '/blog/' | absolute_url }}">
+  <meta name="description" content="Bài viết và tin tức về Motoopen – Thuê xe máy Hà Nội.">
+  {% if site.fa_css %}<link id="fa-css" rel="stylesheet" href="{{ site.fa_css }}">{% endif %}
+</head>
+<body class="">
+  {% include footer.html %} <!-- nếu muốn header trước thì include header, ở đây footer include để giữ footer class tồn tại -->
+  <main class="container" style="padding-top:84px;max-width:var(--maxw,1100px);margin:0 auto;">
+    <header style="margin-bottom:18px;">
+      <h1 style="margin:0 0 6px">Blog</h1>
+      <p style="color:var(--muted)">Bài viết mới nhất từ {{ site.title }}</p>
+    </header>
 
-          <!-- two short text links dẫn tới menu -->
-          <div style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap;">
-            <a class="hmini-btn ghost" href="/chothuexemayhanoi/gioithieu.html"><i class="fa-solid fa-circle-info"></i> Giới thiệu</a>
-            <a class="hmini-btn ghost" href="/chothuexemayhanoi/banggia.html"><i class="fa-solid fa-tags"></i> Bảng giá</a>
-          </div>
-        </div>
-
-        <div>
-          <div class="hmini-tiles">
-            <div class="grid">
-              <div class="hmini-tile"><span class="hmini-icon"><i class="fa-solid fa-newspaper"></i></span><span>Tin</span></div>
-              <div class="hmini-tile"><span class="hmini-icon"><i class="fa-solid fa-comments"></i></span><span>Chia sẻ</span></div>
-              <div class="hmini-tile"><span class="hmini-icon"><i class="fa-solid fa-star"></i></span><span>Đánh giá</span></div>
-              <div class="hmini-tile"><span class="hmini-icon"><i class="fa-solid fa-phone"></i></span><span>Liên hệ</span></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<main class="container" role="main" style="margin-top:18px;">
-  <section class="mapp-card">
-    <h2 class="mapp-h2">Bài viết mới nhất</h2>
-
-    <div class="blog-list" style="display:grid;gap:14px;margin-top:12px;">
-      {% assign posts_list = site.posts %}
-      {% if posts_list.size == 0 %}
-        <p>Chưa có bài viết. Tạo file trong <code>/_posts/</code> để xuất hiện ở đây.</p>
-      {% else %}
-        {% for post in posts_list %}
-          <article class="blog-item reveal" style="padding:14px;border-radius:12px;border:1px solid var(--glass-border);background:var(--surface);">
-            <header style="display:flex;justify-content:space-between;align-items:flex-start;gap:10px;">
-              <div>
-                <h3 style="margin:0 0 8px;"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-                <div class="mapp-kicker" style="font-weight:600;color:var(--muted);font-size:.95rem;">{{ post.date | date: "%-d %B %Y" }} • {% for c in post.categories %}{{ c }}{% unless forloop.last %}, {% endunless %}{% endfor %}</div>
-              </div>
-              <div style="min-width:110px;text-align:right;">
-                <a class="mapp-btn ghost" href="{{ post.url | relative_url }}">Đọc tiếp</a>
-              </div>
-            </header>
-            <p class="mapp-text" style="margin-top:10px;">{{ post.excerpt | strip_html | truncate:220 }}</p>
+    <section class="sx-wrap">
+      <div class="sx-grid" style="display:block;">
+        {% if site.posts.size == 0 %}
+          <p>Chưa có bài viết nào — hãy thêm file vào <code>/_posts/</code> (ví dụ: <code>/_posts/2025-10-28-gioi-thieu-motoopen.md</code>).</p>
+        {% else %}
+          {% for post in site.posts %}
+          <article style="margin-bottom:20px;padding:16px;border-radius:12px;border:1px solid var(--glass-border);background:var(--surface);">
+            <h2 style="margin:0 0 8px;"><a href="{{ post.url | relative_url }}" style="color:var(--text)">{{ post.title }}</a></h2>
+            <p style="margin:0 0 8px;color:var(--muted);font-weight:600">{{ post.date | date: "%-d %B %Y" }} • {{ post.author | default: site.author }}</p>
+            <p style="margin:0 0 10px;color:var(--text)">{{ post.excerpt | strip_html | truncate:180 }}</p>
+            <a class="mapp-btn ghost" href="{{ post.url | relative_url }}"><i class="fa-solid fa-arrow-right"></i> Đọc tiếp</a>
           </article>
-        {% endfor %}
-      {% endif %}
-    </div>
-  </section>
-</main>
+          {% endfor %}
+        {% endif %}
+      </div>
+    </section>
+  </main>
+
+  {% include footer.html %}
+</body>
+</html>
