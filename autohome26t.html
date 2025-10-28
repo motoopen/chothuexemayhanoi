@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Test MotoAI v26 AutoLearn MultiSite</title>
+  <style>
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial;margin:0;background:#f4f6fb;color:#0b1220}
+    .wrap{max-width:920px;margin:28px auto;padding:20px;background:#fff;border-radius:12px;box-shadow:0 8px 30px rgba(11,18,32,.06)}
+    h1{margin:0 0 12px;font-size:18px}
+    p.small{margin:6px 0;color:#556}
+    .row{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
+    button{padding:10px 12px;border-radius:8px;border:1px solid rgba(11,18,32,.06);background:#0084ff;color:#fff;cursor:pointer;font-weight:600}
+    button.ghost{background:#fff;color:#0084ff;border:1px solid rgba(0,132,255,.18)}
+    pre{background:#0b122020;padding:12px;border-radius:8px;overflow:auto;max-height:340px;color:#0b1220}
+    label{display:block;font-size:13px;color:#445;margin-top:8px}
+    input[type="text"]{width:100%;padding:8px;border:1px solid #ddd;border-radius:8px}
+    .controls{display:flex;gap:8px;flex-wrap:wrap}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Test MotoAI v26 — AutoLearn MultiSite</h1>
+    <p class="small">Lưu file này rồi mở bằng trình duyệt. Nếu script không load vì CORS hoặc host, xem Console (DevTools).</p>
+
+    <label>Override config (JSON) — sửa trước khi bấm <b>Load script</b> nếu cần:</label>
+    <textarea id="cfg" rows="4" style="width:100%;padding:8px;border-radius:8px;border:1px solid #ddd">
+{
+  "brand":"Motoopen",
+  "phone":"0857255868",
+  "autolearn": true,
+  "extraSites": [
+    "https://motoopen.github.io/chothuexemayhanoi/",
+    "https://thuexemaynguyentu.com",
+    "https://rentbikehanoi.com"
+  ],
+  "refreshHours": 24
+}
+    </textarea>
+
+    <div class="row controls">
+      <button id="btn-load">Load script + Inject config</button>
+      <button id="btn-open" class="ghost">Open Chat</button>
+      <button id="btn-close" class="ghost">Close Chat</button>
+      <button id="btn-learn" class="ghost">Learn Now (force)</button>
+      <button id="btn-get" class="ghost">Get Index</button>
+      <button id="btn-clear" class="ghost">Clear Learn Cache</button>
+    </div>
+
+    <label>Script URL (bạn đã yêu cầu):</label>
+    <input id="scriptUrl" type="text" value="https://motoopen.github.io/chothuexemayhanoi/motoai_v26_autolearn_multisite.js" />
+
+    <label>Output / Index (kết quả GET INDEX sẽ hiện ở đây):</label>
+    <pre id="out">Chưa thực hiện hành động nào — mở Console để xem log.</pre>
+
+    <p class="small">Ghi chú: nếu host chặn CORS hoặc sitemap không trả về CORS-friendly response, việc đọc sitemap/pull pages có thể thất bại. Xem Console để xác nhận chi tiết.</p>
+  </div>
+
+<script>
+(function(){
+  const out = document.getElementById('out');
+  const log = (...a) => { console.log(...a); out.textContent = (new Date()).toISOString() + ' — ' + a.map(x=> (typeof x==='object'? JSON.stringify(x,null,2): String(x))).join(' ' ) + '\\n' + out.textContent; };
+
+  function injectConfigAndScript(){
+    // parse config from textarea
+    let cfg = {};
+    try{
+      cfg = JSON.parse(document.getElementById('cfg').value);
+    }catch(e){
+      alert('JSON config lỗi: ' + e.message);
+      return;
+    }
+    // inject window.MotoAI_CONFIG
+    window.MotoAI_CONFIG = Object.assign(window.MotoAI_CONFIG||{}, cfg);
+    log('Injected MotoAI_CONFIG:', window.MotoAI_CONFIG);
+
+    // append script tag
+    const url = document.getElementById('scriptUrl').value.trim();
+    if(!url) return alert('Vui lòng nhập URL script');
+    // avoid double loading
+    if(document.querySelector('script[data-motoai-src="'+url+'"]')){ log('Script already injected'); return; }
+
+    const s = document.createElement('script');
+    s.src = url;
+    s.async = true;
+    s.setAttribute('data-motoai-src', url);
+    s.onload = ()=> { log('Script loaded:', url); };
+    s.onerror = (e)=> { log('Script load error:', e); alert('Không thể load script — kiểm tra URL / CORS / network'); };
+    document.head.appendChild(s);
+    log('Script tag appended:', url);
+  }
+
+  function waitFor(fnCheck, timeout = 8000){
+    return new Promise((resolve, reject) => {
+      const start = Date.now();
+      (function p(){
+        try{
+          if(fnCheck()) return resolve(true);
+          if(Date.now() - start > timeout) return reject(new Error('timeout'));
+          setTimeout(p, 200);
+        }catch(e){ reject(e); }
+      })();
+    });
+  }
+
+  document.getElementById('btn-load').addEventListener('click', async ()=>{
+    injectConfigAndScript();
+    try{
+      await waitFor(()=> window.MotoAI_v26_autolearn || window.MotoAI_v26, 10000);
+      log('MotoAI object detected:', !!window.MotoAI_v26_autolearn, !!window.MotoAI_v26);
+    }catch(e){
+      log('Chú ý: MotoAI object chưa sẵn sàng (timeout). Kiểm tra Console/network/CORS.', e);
+    }
+  });
+
+  document.getElementById('btn-open').addEventListener('click', ()=>{
+    try{ if(window.MotoAI_v26 && window.MotoAI_v26.open) window.MotoAI_v26.open(); log('open() called'); }catch(e){ log('open() error', e); }
+  });
+  document.getElementById('btn-close').addEventListener('click', ()=>{
+    try{ if(window.MotoAI_v26 && window.MotoAI_v26.close) window.MotoAI_v26.close(); log('close() called'); }catch(e){ log('close() error', e); }
+  });
+
+  document.getElementById('btn-learn').addEventListener('click', async ()=>{
+    try{
+      if(!window.MotoAI_v26_autolearn || !window.MotoAI_v26_autolearn.learnNow) { log('AutoLearn API chưa sẵn sàng'); return; }
+      log('Calling learnNow() (force=true) ...');
+      const res = await window.MotoAI_v26_autolearn.learnNow(window.MotoAI_CONFIG && window.MotoAI_CONFIG.extraSites, true);
+      log('learnNow result:', res);
+      out.textContent = 'learnNow result:\\n' + JSON.stringify(res, null, 2) + '\\n\\n' + out.textContent;
+    }catch(e){ log('learnNow error', e); }
+  });
+
+  document.getElementById('btn-get').addEventListener('click', ()=>{
+    try{
+      if(!window.MotoAI_v26_autolearn || !window.MotoAI_v26_autolearn.getIndex){ log('AutoLearn API chưa sẵn sàng'); return; }
+      const idx = window.MotoAI_v26_autolearn.getIndex();
+      log('getIndex count:', idx.length || 0);
+      out.textContent = 'getIndex (' + (idx.length||0) + ')\\n' + JSON.stringify(idx.slice(0,50), null, 2) + '\\n\\n' + out.textContent;
+    }catch(e){ log('getIndex error', e); }
+  });
+
+  document.getElementById('btn-clear').addEventListener('click', ()=>{
+    try{
+      if(window.MotoAI_v26_autolearn && window.MotoAI_v26_autolearn.clearLearnCache) {
+        window.MotoAI_v26_autolearn.clearLearnCache();
+        log('clearLearnCache called');
+      } else {
+        localStorage.removeItem('MotoAI_v26_learn');
+        log('Local key MotoAI_v26_learn removed (fallback)');
+      }
+    }catch(e){ log('clear error', e); }
+  });
+
+  // auto-inform if the script later registers itself
+  (function watchRegistration(){
+    let seen=false;
+    const iv = setInterval(()=>{
+      if(window.MotoAI_v26_autolearn && !seen){
+        seen=true;
+        log('Detected MotoAI_v26_autolearn ready.');
+        clearInterval(iv);
+      }
+    },300);
+    setTimeout(()=>clearInterval(iv), 20000);
+  })();
+
+})();
+</script>
+
+</body>
+</html>
