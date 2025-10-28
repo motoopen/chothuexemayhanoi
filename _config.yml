@@ -1,1 +1,8 @@
-
+title: "Motoopen Blog"
+description: "Kinh nghiệm thuê xe máy, thủ tục và mẹo du lịch tại Hà Nội."
+url: "https://motoopen.github.io/chothuexemayhanoi"
+baseurl: ""
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
