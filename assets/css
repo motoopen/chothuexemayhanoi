@@ -1,1 +1,21 @@
+/* ===== Blog / Reveal / Fade-in ===== */
+.blog-item, .reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity .56s cubic-bezier(.22,1,.36,1), transform .56s cubic-bezier(.22,1,.36,1);
+  will-change: opacity, transform;
+}
+.blog-item.show, .reveal.show {
+  opacity: 1;
+  transform: translateY(0);
+}
 
+/* nếu muốn giữ trạng thái đã hiện (không ẩn lại khi cuộn lên), comment đoạn JS remove class */
+:root { --uxp-ease: cubic-bezier(.22,1,.36,1); }
+
+/* small helper cho TOC/Drawer/miniSheet (nếu chưa có) */
+.toc-drawer{ transition:opacity .22s ease, transform .22s ease; }
+.toc-drawer.open{ opacity:1; transform:none; display:block; }
+
+/* optional: smooth anchor offset nếu có fixed header */
+html { scroll-behavior: smooth; } /* fallback native */
