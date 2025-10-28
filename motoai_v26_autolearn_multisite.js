@@ -1,49 +1,59 @@
-/* motoai_v26_scrollsafe.js
-   UI Messenger ổn định (từ v22c) • AutoLearn MultiSite • SmartCalc • UltraSafe
-   - Giao diện (HTML/CSS) và xử lý thanh tag (ẩn/hiện khi focus) lấy từ v22c ổn định.
-   - Giữ toàn bộ "bộ não" thông minh của v26:
-     • Học nhiều website: sitemap.xml + sitemap_index.xml (+ fallback quét link nội bộ)
-     • Cache localStorage theo domain, tự refresh mỗi 24 giờ
-   - Giữ: SmartCalc v26, auto-avoid footer/quick-call, iOS keyboard fix, dark/light, session
-   - Delay trả lời: 2.5–5s, văn phong lịch sự, nhân viên hỗ trợ
+/* motoai_v26_autolearn_multisite.js
+   Messenger-style (UI v22c) • AutoLearn MultiSite • SmartCalc • UltraSafe
+   - Học nhiều website: sitemap.xml + sitemap_index.xml (+ fallback quét link nội bộ depth=1)
+   - Cache localStorage theo domain, tự refresh mỗi refreshHours
+   - Giữ UI v22c (scrollable tags, ẩn khi gõ), delay 2.5–5s, session, auto-avoid footer/keyboard
+   - Expose API: window.MotoAI_v26_autolearn.{learnNow, getIndex, clearLearnCache}
 */
 (function(){
-  if (window.MotoAI_v26_SCROLLSAFE_LOADED) return;
-  window.MotoAI_v26_SCROLLSAFE_LOADED = true;
+  if (window.MotoAI_v26_MULTI_LOADED) return;
+  window.MotoAI_v26_MULTI_LOADED = true;
 
-  /* =========================
-     1) CONFIG (từ v26 - có thể override)
-  ==========================*/
+  // ====== Config (override via window.MotoAI_CONFIG before loading)
   const DEF = {
     brand: "Motoopen",
     phone: "0857255868",
     zalo:  "https://zalo.me/0857255868",
     map:   "https://maps.app.goo.gl/2icTBTxAToyvKTE78",
     autolearn: true,
-    extraSites: ["https://motoopen.github.io/chothuexemayhanoi/"], // nhiều domain
-    crawlDepth: 1,              // fallback khi không có sitemap
-    refreshHours: 24,           // tự làm mới sau X giờ
-    minSentenceLen: 24
+    // default sites to learn (your 3)
+    extraSites: [
+      "https://motoopen.github.io/chothuexemayhanoi/",
+      "https://thuexemaynguyentu.com",
+      "https://rentbikehanoi.com"
+    ],
+    crawlDepth: 1,
+    refreshHours: 24,
+    minSentenceLen: 24,
+    // limits & safety
+    maxPagesPerDomain: 80,
+    maxTotalPages: 300,
+    fetchTimeoutMs: 10000,
+    fetchPauseMs: 200 // pause between page fetches
   };
   const ORG = (window.MotoAI_CONFIG||{});
   if(!ORG.zalo && (ORG.phone||DEF.phone)) ORG.zalo = 'https://zalo.me/' + String(ORG.phone||DEF.phone).replace(/\s+/g,'');
   const CFG = Object.assign({}, DEF, ORG);
 
-  /* =========================
-     2) UTILS (từ v26)
-  ==========================*/
-  const $  = s => document.querySelector(s);
-  const safe = s => { try{return JSON.parse(s)}catch(_){return null} };
-  const sleep = ms => new Promise(r=>setTimeout(r,ms));
-  const pick  = a => a[Math.floor(Math.random()*a.length)];
+  // ====== Utils
+  const $ = s => document.querySelector(s);
+  const $$ = s => Array.from(document.querySelectorAll(s));
+  const safe = s => { try{ return JSON.parse(s); }catch(e){ return null; } };
+  const sleep = ms => new Promise(r => setTimeout(r, ms));
+  const pick = a => a[Math.floor(Math.random()*a.length)];
   const nfVND = n => (n||0).toLocaleString('vi-VN');
   const nowSec = ()=> Math.floor(Date.now()/1000);
-  const toURL  = (u)=> { try{ return new URL(u); }catch(_){ return null; } };
-  const sameHost = (u, origin)=> { try{ return new URL(u).host === new URL(origin).host; }catch(_){ return false; } };
+  const toURL = u => { try { return new URL(u); } catch(e) { return null; } };
+  const sameHost = (u, origin)=> { try{ return new URL(u).host === new URL(origin).host; }catch(e){ return false; } };
 
-  /* =========================
-     3) UI (HTML/CSS từ v22c - Ổn định)
-  ==========================*/
+  // ====== Storage keys
+  const K = {
+    sess: 'MotoAI_v26_session',
+    ctx:  'MotoAI_v26_ctx',
+    learn:'MotoAI_v26_learn' // stores { origin: { ts, pages:[{url,title,text}] } }
+  };
+
+  // ====== UI (copied/kept compatible with v22c)
   const ui = `
   <div id="mta-root" aria-live="polite">
     <button id="mta-bubble" aria-label="Mở chat" title="Chat">
@@ -75,7 +85,7 @@
 
       <main id="mta-body"></main>
 
-      <!-- Scrollable tags (từ v22c) -->
+      <!-- Scrollable tags -->
       <div id="mta-tags" role="toolbar" aria-label="Gợi ý nhanh (kéo ngang)">
         <div class="tag-track" id="tagTrack">
           <button data-q="Xe số">🏍️ Xe số</button>
@@ -99,8 +109,7 @@
     </section>
   </div>`;
 
-  const css = `
-  :root{--mta-z:2147483647;--m-blue:#0084FF;--m-blue2:#00B2FF;--m-bg:#fff;--m-text:#0b1220}
+  const css = `:root{--mta-z:2147483647;--m-blue:#0084FF;--m-blue2:#00B2FF;--m-bg:#fff;--m-text:#0b1220}
   #mta-root{position:fixed;right:16px;left:auto;bottom:calc(18px + env(safe-area-inset-bottom,0));z-index:var(--mta-z);font-family:-apple-system,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;transition:bottom .25s ease,right .25s ease}
   #mta-bubble{width:60px;height:60px;border:none;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 10px 26px rgba(0,0,0,.2);outline:3px solid #fff}
   #mta-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.2);opacity:0;pointer-events:none;transition:opacity .18s ease}
@@ -116,17 +125,13 @@
   .quick{display:flex;gap:6px;margin-left:auto;margin-right:6px}
   .q{width:28px;height:28px;border-radius:8px;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-size:12px;font-weight:700;background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.25)}
   #mta-close{background:none;border:none;font-size:20px;color:#fff;cursor:pointer;opacity:.95}
-
   #mta-body{flex:1;overflow:auto;padding:14px 12px;background:#E9EEF5}
   .m-msg{max-width:80%;margin:8px 0;padding:9px 12px;border-radius:18px;line-height:1.45;box-shadow:0 1px 2px rgba(0,0,0,.05)}
   .m-msg.bot{background:#fff;color:#111;border:1px solid rgba(0,0,0,.04)}
   .m-msg.user{background:#0084FF;color:#fff;margin-left:auto;border:1px solid rgba(0,0,0,.05)}
   #mta-typing{display:inline-flex;gap:6px;align-items:center}
-  #mta-typing-dots{display:inline-block;min-width:14px} /* CSS cho typing dots v22c */
-
-  /* Scrollable Tags (từ v22c) */
+  #mta-typing-dots{display:inline-block;min-width:14px}
   #mta-tags{position:relative;background:#f7f9fc;border-top:1px solid rgba(0,0,0,.06);transition:max-height .22s ease, opacity .18s ease}
-  /* Đây là class quan trọng bị thiếu ở v26 */
   #mta-tags.hidden{max-height:0; opacity:0; overflow:hidden;}
   #mta-tags .tag-track{display:block;overflow-x:auto;white-space:nowrap;padding:8px 10px 10px 10px;scroll-behavior:smooth}
   #mta-tags button{display:inline-block;margin-right:8px;padding:8px 12px;border:none;border-radius:999px;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.06);border:1px solid rgba(0,0,0,.08);font-weight:700;cursor:pointer}
@@ -134,12 +139,10 @@
   #mta-tags .fade{position:absolute;top:0;bottom:0;width:22px;pointer-events:none}
   #mta-tags .fade-left{left:0;background:linear-gradient(90deg,#f7f9fc,rgba(247,249,252,0))}
   #mta-tags .fade-right{right:0;background:linear-gradient(270deg,#f7f9fc,rgba(247,249,252,0))}
-
   #mta-input{display:flex;gap:8px;padding:10px;background:#fff;border-top:1px solid rgba(0,0,0,.06)}
   #mta-in{flex:1;padding:11px 12px;border-radius:20px;border:1px solid rgba(0,0,0,.12);font-size:15px;background:#F6F8FB}
   #mta-send{width:42px;height:42px;border:none;border-radius:50%;background:linear-gradient(90deg,#0084FF,#00B2FF);color:#fff;font-weight:800;cursor:pointer;box-shadow:0 6px 18px rgba(0,132,255,.35)}
   #mta-clear{position:absolute;top:10px;right:48px;background:none;border:none;font-size:16px;color:#fff;opacity:.9;cursor:pointer}
-
   @media(max-width:520px){ #mta-card{width:calc(100% - 16px);right:8px;left:8px;height:72vh} #mta-bubble{width:56px;height:56px} }
   @media(prefers-color-scheme:dark){
     :root{--m-bg:#1b1c1f;--m-text:#eaeef3}
@@ -148,72 +151,47 @@
     #mta-in{background:#16181c;color:#f0f3f7;border:1px solid rgba(255,255,255,.12)}
     #mta-tags{background:#1f2127;border-top:1px solid rgba(255,255,255,.08)}
     #mta-tags button{background:#2a2d34;color:#eaeef3;border:1px solid rgba(255,255,255,.10)}
-    #mta-input{background:#202226;border-top:1px solid rgba(255,255,255,.08)} /* Thêm input dark */
   }
-  .ai-night #mta-bubble{box-shadow:0 0 18px rgba(0,132,255,.35)!important;}
-  `;
+  .ai-night #mta-bubble{box-shadow:0 0 18px rgba(0,132,255,.35)!important;}`;
 
+  // ===== Inject UI
   function injectUI(){
-    if($('#mta-root')) return;
+    if ($('#mta-root')) return;
     const wrap = document.createElement('div'); wrap.innerHTML = ui; document.body.appendChild(wrap.firstElementChild);
     const st = document.createElement('style'); st.textContent = css; document.head.appendChild(st);
   }
+  function ready(fn){
+    if(document.readyState==="complete"||document.readyState==="interactive"){ fn(); }
+    else document.addEventListener("DOMContentLoaded", fn);
+  }
 
-  /* =========================
-     4) STATE + SESSION (từ v26)
-  ==========================*/
-  let isOpen=false, sending=false;
-  const K = {
-    sess: 'MotoAI_v26_session',
-    learn: 'MotoAI_v26_learn',
-    ts: 'MotoAI_v26_learn_ts'  // timestamp lưu lần học gần nhất
-  };
-
+  // ===== Session helpers
   function addMsg(role,text){
     if(!text) return;
     const el = document.createElement('div'); el.className = 'm-msg '+(role==='user'?'user':'bot'); el.textContent = text;
-    $('#mta-body').appendChild(el); $('#mta-body').scrollTop = $('#mta-body').scrollHeight;
-    try{
-      const arr=safe(localStorage.getItem(K.sess))||[];
-      arr.push({role,text,t:Date.now()});
-      localStorage.setItem(K.sess, JSON.stringify(arr.slice(-200)));
-    }catch(_){}
+    const body = $('#mta-body'); if(!body) return;
+    body.appendChild(el); body.scrollTop = body.scrollHeight;
+    try{ const arr = safe(localStorage.getItem(K.sess)) || []; arr.push({role,text,t:Date.now()}); localStorage.setItem(K.sess, JSON.stringify(arr.slice(-200))); }catch(e){}
   }
   function renderSess(){
-    const body=$('#mta-body'); if(!body) return;
-    body.innerHTML='';
-    const arr=safe(localStorage.getItem(K.sess))||[];
-    if(arr.length){ arr.forEach(m=> addMsg(m.role,m.text)); }
-    else addMsg('bot', `Xin chào 👋, em là nhân viên hỗ trợ của ${CFG.brand}. Anh/chị muốn xem 🏍️ Xe số, 🛵 Xe ga, ⚡ Xe điện hay 📄 Thủ tục thuê xe ạ?`);
+    const body = $('#mta-body'); if(!body) return;
+    body.innerHTML = '';
+    const arr = safe(localStorage.getItem(K.sess))||[];
+    if(arr.length) arr.forEach(m=> addMsg(m.role,m.text));
+    else addMsg('bot', `Xin chào 👋, em là nhân viên hỗ trợ của ${CFG.brand}. Anh/chị cần xem Xe số/ Xe ga/ Xe điện/ Thủ tục hay Bảng giá ạ?`);
   }
 
-  /* =========================
-     5) TYPING DOTS (từ v22c) + POLITE (từ v26)
-  ==========================*/
-  // ===== Typing dots (từ v22c)
+  // ===== Typing
   let typingBlinkTimer=null;
   function showTyping(){
     const d=document.createElement('div'); d.id='mta-typing'; d.className='m-msg bot'; d.textContent='Đang nhập ';
     const dot=document.createElement('span'); dot.id='mta-typing-dots'; dot.textContent='…';
-    d.appendChild(dot); $('#mta-body').appendChild(d); $('#mta-body').scrollTop=$('#mta-body').scrollHeight;
+    d.appendChild(dot); const body=$('#mta-body'); if(!body) return; body.appendChild(d); body.scrollTop = body.scrollHeight;
     let i=0; typingBlinkTimer=setInterval(()=>{ dot.textContent='.'.repeat((i++%3)+1); }, 400);
   }
   function hideTyping(){ const d=$('#mta-typing'); if(d) d.remove(); if(typingBlinkTimer){ clearInterval(typingBlinkTimer); typingBlinkTimer=null; } }
 
-  // ===== Polite Engine (từ v26)
-  const PREFIX = ["Chào anh/chị,","Xin chào 👋,","Em chào anh/chị nhé,","Rất vui được hỗ trợ anh/chị,"];
-  const SUFFIX = [" ạ."," nhé ạ."," nha anh/chị."," ạ, cảm ơn anh/chị."];
-  const CHEAP_KWS = /(rẻ|giá rẻ|rẻ nhất|bình dân|sinh viên|hssv|xe rẻ)/i;
-
-  function polite(t){
-    t=(t||"").trim(); if(!t) return "Em chưa nhận được câu hỏi, anh/chị thử nhập lại giúp em nhé.";
-    const withDot = /[.!?…]$/.test(t)? t : (t+'.');
-    return `${pick(PREFIX)} ${withDot}${pick(SUFFIX)}`;
-  }
-
-  /* =========================
-     6) SMARTCALC (từ v26)
-  ==========================*/
+  // ===== SmartCalc minimal (kept from v22c)
   const PRICE_TABLE = {
     'xe số':      { day:[130000,150000], week:[600000], month:[1000000,1200000] },
     'air blade':  { day:[200000], week:[800000], month:[1400000] },
@@ -223,8 +201,9 @@
     'xe côn tay': { day:[350000], week:[1200000], month:[2500000] },
     'xe giá rẻ':  { day:[100000], week:[500000], month:[900000] }
   };
+  const CHEAP_KWS = /(rẻ|giá rẻ|rẻ nhất|bình dân|sinh viên|hssv|xe rẻ)/i;
   function detectType(t){
-    const low=t.toLowerCase();
+    const low = t.toLowerCase();
     if(CHEAP_KWS.test(low)) return 'xe giá rẻ';
     if(/air\s*blade|airblade|ab\b/.test(low)) return 'air blade';
     if(/\bvision\b/.test(low)) return 'vision';
@@ -237,9 +216,9 @@
   }
   function detectSpan(t){ const low=t.toLowerCase(); if(/tuần|tuan|week/.test(low)) return 'week'; if(/tháng|thang|month/.test(low)) return 'month'; return 'day'; }
   function detectQty(t){ const m=t.match(/(\d+)\s*(ngày|day|tuần|tuan|week|tháng|thang|month)?/i); if(!m) return null; const n=parseInt(m[1],10); if(!n||n<=0) return null; let unit='day'; if(m[2]) unit=detectSpan(m[2]); return {n,unit}; }
-  const formatRange = (arr)=> arr?.length ? (arr.length===1? nfVND(arr[0])+'đ' : nfVND(arr[0])+'–'+nfVND(arr[1])+'đ') : null;
-  const baseFor = (type,unit)=> { const it=PRICE_TABLE[type]; if(!it) return null; const arr=it[unit]; return arr?arr[0]:null; };
-  const summariseType = (type)=>{ const it=PRICE_TABLE[type]; if(!it) return ''; const d=formatRange(it.day), w=formatRange(it.week), m=formatRange(it.month); return [d&&d+'/ngày', w&&w+'/tuần', m&&m+'/tháng'].filter(Boolean).join(', '); };
+  function formatRange(arr){ if(!arr||!arr.length) return null; return arr.length===1? nfVND(arr[0])+'đ' : nfVND(arr[0])+'–'+nfVND(arr[1])+'đ'; }
+  function baseFor(type,unit){ const it=PRICE_TABLE[type]; if(!it) return null; const arr=it[unit]; if(!arr) return null; return arr[0]; }
+  function summariseType(type){ const it=PRICE_TABLE[type]; if(!it) return ''; const d=formatRange(it.day), w=formatRange(it.week), m=formatRange(it.month); const bits=[]; if(d) bits.push(d+'/ngày'); if(w) bits.push(w+'/tuần'); if(m) bits.push(m+'/tháng'); return bits.join(', '); }
   function estimatePrice(text){
     let type = detectType(text) || 'xe số';
     const qty = detectQty(text);
@@ -250,147 +229,10 @@
     return `Giá dự kiến thuê ${type} ${label} khoảng ${nfVND(total)}đ ạ (ước tính). Anh/chị có thể liên hệ Zalo ${CFG.phone} để xem xe và nhận giá chính xác nhất ạ.`;
   }
 
-  /* =========================
-     7) AUTOLEARN – MULTISITE (từ v26)
-  ==========================*/
-  async function fetchText(url, opts={}){
-    try{
-      const res = await fetch(url, {mode:'cors', credentials:'omit', ...opts});
-      if(!res.ok) throw new Error(res.status);
-      return await res.text();
-    }catch(_){ return null; }
-  }
-  function parseXML(text){
-    try{ return (new window.DOMParser()).parseFromString(text,'text/xml'); }catch(_){ return null; }
-  }
-  function getDomainKey(u){ try{ return new URL(u).origin; }catch(_){ return null; } }
-
-  async function readSitemap(url){
-    const xmlTxt = await fetchText(url);
-    if(!xmlTxt) return [];
-    const doc = parseXML(xmlTxt); if(!doc) return [];
-    // sitemapindex
-    const idx = Array.from(doc.getElementsByTagName('sitemap')).map(x=> x.getElementsByTagName('loc')?.[0]?.textContent?.trim()).filter(Boolean);
-    if(idx.length){
-      const all=[]; for(const loc of idx){ all.push(...await readSitemap(loc)); } return all;
-    }
-    // urlset
-    const urls = Array.from(doc.getElementsByTagName('url')).map(u=> u.getElementsByTagName('loc')?.[0]?.textContent?.trim()).filter(Boolean);
-    return urls;
-  }
-
-  async function fallbackCrawl(origin, depth=1){
-    const start = origin.endsWith('/')? origin : origin+'/';
-    const html = await fetchText(start); if(!html) return [start];
-    const a = document.createElement('div'); a.innerHTML = html;
-    const links = Array.from(a.querySelectorAll('a[href]')).map(e=> e.getAttribute('href')).filter(Boolean);
-    const canon = new Set();
-    for(const href of links){
-      let u;
-      try{ u = new URL(href, start).toString(); }catch(_){ continue; }
-      if(sameHost(u, start)) canon.add(u.split('#')[0]);
-      if(canon.size>40) break;
-    }
-    return [start, ...Array.from(canon)].slice(0, 40);
-  }
-
-  async function pullPages(list){
-    const pages=[];
-    for(const url of list){
-      const txt = await fetchText(url);
-      if(!txt) continue;
-      let title = (txt.match(/<title[^>]*>([^<]+)<\/title>/i)||[])[1]||'';
-      title = title.replace(/\s+/g,' ').trim();
-      let desc  = (txt.match(/<meta[^>]+name=["']description["'][^>]+content=["']([^"]+)["']/i)||[])[1]||'';
-      if(!desc){
-        const bodyTxt = (txt.replace(/<script[\s\S]*?<\/script>/gi,'')
-                            .replace(/<style[\s\S]*?<\/style>/gi,'')
-                            .replace(/<[^>]+>/g,' ')
-                            .replace(/\s+/g,' ')
-                            .trim()||'');
-        desc = bodyTxt.slice(0, 600);
-      }
-      pages.push({url, title, text: desc});
-      if(pages.length>80) break;
-    }
-    return pages;
-  }
-
-  async function learnOneSite(origin){
-    const candidates = [
-      origin.replace(/\/$/,'') + '/sitemap.xml',
-      origin.replace(/\/$/,'') + '/sitemap_index.xml'
-    ];
-    let urls=[];
-    for(const link of candidates){
-      const got = await readSitemap(link);
-      if(got?.length){ urls = got; break; }
-    }
-    if(!urls.length){
-      urls = await fallbackCrawl(origin, CFG.crawlDepth);
-    }
-    const host = getDomainKey(origin); if(!host) return null;
-    const uniq = Array.from(new Set(urls.filter(u=> sameHost(u, host)).map(u=> u.split('#')[0])));
-    const pages = await pullPages(uniq);
-    return {domain: host, ts: nowSec(), pages};
-  }
-
-  function loadCache(){
-    const raw = localStorage.getItem(K.learn);
-    return raw ? safe(raw) || {} : {};
-  }
-  function saveCache(obj){
-    try{ localStorage.setItem(K.learn, JSON.stringify(obj)); }catch(_){}
-  }
-  function isExpired(ts, hours){
-    if(!ts) return true;
-    const ageHr = (nowSec() - ts)/3600;
-    return ageHr >= (hours||24);
-  }
-
-  async function doAutoLearn(){
-    if(!CFG.autolearn) return;
-    const bases = [location.origin, ...CFG.extraSites].map(u=> {
-      const U = toURL(u.endsWith('/')? u : (u+'/'));
-      return U ? U.origin+'/' : null;
-    }).filter(Boolean);
-
-    const cache = loadCache();
-    let changed = false;
-
-    for(const origin of bases){
-      const key = origin;
-      const current = cache[key];
-      if(!current || isExpired(current.ts, CFG.refreshHours)){
-        const learned = await learnOneSite(origin);
-        if(learned && learned.pages?.length){
-          cache[key] = learned;
-          changed = true;
-        }
-      }
-    }
-    if(changed) saveCache(cache);
-  }
-
-  function searchKnowledge(q){
-    const cache = loadCache();
-    const qlow = (q||'').toLowerCase();
-    const hits = [];
-    for(const key of Object.keys(cache||{})){
-      const site = cache[key];
-      for(const p of (site.pages||[])){
-        const hay = (p.title+' '+p.text).toLowerCase();
-        if(hay.includes(qlow)) hits.push({domain: site.domain, url:p.url, title:p.title});
-        if(hits.length>6) break;
-      }
-      if(hits.length>6) break;
-    }
-    return hits;
-  }
-
-  /* =========================
-     8) COMPOSE ANSWER (từ v26)
-  ==========================*/
+  // ===== Compose (simple rule-based)
+  const PREFIX = ["Chào anh/chị,","Xin chào 👋,","Em chào anh/chị nhé,","Rất vui được hỗ trợ anh/chị,"];
+  const SUFFIX = [" ạ."," nhé ạ."," nha anh/chị."," ạ, cảm ơn anh/chị."];
+  function polite(t){ t=(t||"").trim(); if(!t) return "Em chưa nhận được câu hỏi, anh/chị thử nhập lại giúp em nhé."; return `${pick(PREFIX)} ${t}${pick(SUFFIX)}`; }
   const RULES = [
     {re:/(chào|xin chào|hello|hi|alo)/i, ans:[
       `em là nhân viên hỗ trợ của ${CFG.brand}. Anh/chị muốn xem 🏍️ Xe số, 🛵 Xe ga, ⚡ Xe điện hay 📄 Thủ tục thuê xe ạ?`,
@@ -398,66 +240,232 @@
     ]},
     {re:/(thủ tục|thu tuc|giay to|giấy tờ|cọc|đặt cọc)/i, ans:[
       "thủ tục gọn: CCCD/hộ chiếu + cọc tuỳ xe. Có phương án giảm cọc khi đủ giấy tờ.",
-      `cần hỗ trợ nhanh anh/chị liên hệ Zalo ${CFG.phone} giúp em nhé.`
+      "em có thể gửi danh sách giấy tờ cần và cách nhận/trả xe nhé."
     ]},
     {re:/(liên hệ|lien he|zalo|hotline|sđt|sdt|gọi|dien thoai)/i, ans:[
       `anh/chị liên hệ nhanh qua Zalo ${CFG.phone} để được tư vấn trực tiếp nhé.`,
       `nếu cần gấp, anh/chị gọi ${CFG.phone} — bọn em phản hồi ngay ạ.`
     ]}
   ];
-
   function rule(q){ for(const r of RULES){ if(r.re.test(q)) return polite(pick(r.ans)); } return null; }
-
   function compose(q){
-    const m=(q||'').trim(); if(!m) return polite("anh/chị thử chọn tag phía dưới hoặc nhập câu hỏi giúp em nhé");
-    const r1=rule(m); if(r1) return r1;
-
-    if(/(giá|bao nhiêu|tính tiền|bao nhieu|bao nhiều|cost|price|thuê|thue)/i.test(m) || CHEAP_KWS.test(m)) {
-      return polite(estimatePrice(m) + ` Liên hệ Zalo ${CFG.phone} để xem xe và nhận giá chính xác ạ.`);
-    }
-
-    // Nếu không có rule/price: tra knowledge đa-site
-    const hits = searchKnowledge(m);
-    if(hits.length){
-      const lines = hits.slice(0,4).map(h=>`• ${h.title? h.title+' – ' : ''}${h.url}`);
-      return polite(`em có tìm được vài nội dung phù hợp:\n${lines.join('\n')}\nAnh/chị cần em tóm tắt mục nào không ạ?`);
-    }
-
+    const m=(q||'').trim(); if(!m) return polite("anh/chị thử bấm tag: 🏍️ Xe số, 🛵 Xe ga, ⚡ Xe điện hoặc 📄 Thủ tục nhé");
+    const r1 = rule(m); if(r1) return r1;
+    if(/(giá|bao nhiêu|tính tiền|bao nhieu|bao nhiều|cost|price|thuê|thue)/i.test(m) || CHEAP_KWS.test(m)) return polite(estimatePrice(m));
     return polite("em chưa tìm được thông tin trùng khớp. Anh/chị nói rõ loại xe hoặc thời gian thuê giúp em với ạ.");
   }
 
-  /* =========================
-     9) OPEN/CLOSE/CLEAR + EVENTS (Gộp v26 + v22c)
-  ==========================*/
-  function openChat(){
-    if(isOpen) return;
-    $('#mta-card').classList.add('open');
-    $('#mta-backdrop').classList.add('show');
-    $('#mta-bubble').style.display='none';
-    isOpen=true; renderSess();
-    setTimeout(()=>{ try{$('#mta-in').focus()}catch(_){ } },120);
-  }
-  function closeChat(){
-    if(!isOpen) return;
-    try{$('#mta-in').blur();}catch(_){}
-    $('#mta-card').classList.remove('open');
-    $('#mta-backdrop').classList.remove('show');
-    $('#mta-bubble').style.display='flex';
-    isOpen=false; hideTyping();
-  }
-  function clearChat(){
-    try{ localStorage.removeItem(K.sess);}catch(_){}
-    $('#mta-body').innerHTML=''; addMsg('bot', polite('đã xóa hội thoại'));
+  // ====== FETCH helpers (with timeout)
+  async function fetchText(url, opts={}){
+    const controller = new AbortController();
+    const id = setTimeout(()=>controller.abort(), CFG.fetchTimeoutMs);
+    try{
+      const res = await fetch(url, Object.assign({mode:'cors', credentials:'omit', signal: controller.signal}, opts));
+      clearTimeout(id);
+      if(!res.ok) throw new Error('status:'+res.status);
+      return await res.text();
+    }catch(e){
+      clearTimeout(id);
+      return null;
+    }
   }
 
-  // ===== bindTags (từ v22c - quan trọng)
-  function bindTags(){
-    const track = $('#tagTrack'); const box = $('#mta-tags'); if(!track||!box) return;
+  function parseXML(text){
+    try{ return (new window.DOMParser()).parseFromString(text,'text/xml'); }catch(e){ return null; }
+  }
+  function parseHTML(text){
+    try{ return (new DOMParser()).parseFromString(text, 'text/html'); }catch(e){ return null; }
+  }
+
+  // ====== AutoLearn: sitemap reader, fallback crawl, page pull
+  async function readSitemap(url){
+    const xmlTxt = await fetchText(url);
+    if(!xmlTxt) return [];
+    const doc = parseXML(xmlTxt); if(!doc) return [];
+    // sitemapindex?
+    const sitemaps = Array.from(doc.getElementsByTagName('sitemap')).map(x=> x.getElementsByTagName('loc')?.[0]?.textContent?.trim()).filter(Boolean);
+    if(sitemaps.length){
+      const all = [];
+      for(const loc of sitemaps){
+        try{ const child = await readSitemap(loc); if(child && child.length) all.push(...child); }catch(e){}
+      }
+      return Array.from(new Set(all));
+    }
+    // urlset
+    const urls = Array.from(doc.getElementsByTagName('url')).map(u=> u.getElementsByTagName('loc')?.[0]?.textContent?.trim()).filter(Boolean);
+    return urls;
+  }
+
+  async function fallbackCrawl(origin){
+    // lightweight: fetch origin page, collect internal links (unique), limit to 40
+    const start = origin.endsWith('/')? origin : origin + '/';
+    const html = await fetchText(start);
+    if(!html) return [start];
+    const doc = parseHTML(html);
+    if(!doc) return [start];
+    const anchors = Array.from(doc.querySelectorAll('a[href]')).map(a=> a.getAttribute('href')).filter(Boolean);
+    const canon = new Set();
+    for(const href of anchors){
+      let u;
+      try{ u = new URL(href, start).toString(); }catch(e){ continue; }
+      if(sameHost(u, start)) canon.add(u.split('#')[0]);
+      if(canon.size >= 40) break;
+    }
+    return [start, ...Array.from(canon)].slice(0, CFG.maxPagesPerDomain);
+  }
+
+  async function pullPages(list){
+    const pages = [];
+    for(const url of list.slice(0, CFG.maxPagesPerDomain)){
+      const txt = await fetchText(url);
+      if(!txt) continue;
+      // extract title, meta description, fallback text snippet
+      let title = (txt.match(/<title[^>]*>([^<]+)<\/title>/i) || [])[1] || '';
+      title = title.replace(/\s+/g,' ').trim();
+      let desc = (txt.match(/<meta[^>]+name=["']description["'][^>]+content=["']([^"]+)["']/i) || [])[1] || '';
+      if(!desc){
+        // strip tags, scripts
+        const bodyTxt = txt.replace(/<script[\s\S]*?<\/script>/gi,' ')
+                           .replace(/<style[\s\S]*?<\/style>/gi,' ')
+                           .replace(/<[^>]+>/g,' ')
+                           .replace(/\s+/g,' ')
+                           .trim();
+        desc = bodyTxt.slice(0, 600);
+      }
+      pages.push({url, title, text: desc});
+      if(pages.length >= CFG.maxPagesPerDomain) break;
+      // small pause to be polite
+      await sleep(CFG.fetchPauseMs);
+    }
+    return pages;
+  }
+
+  async function learnOneSite(origin){
+    try{
+      const canonicalOrigin = origin.endsWith('/')? origin.replace(/\/+$/,'') : origin.replace(/\/+$/,'');
+      const candidates = [
+        canonicalOrigin + '/sitemap.xml',
+        canonicalOrigin + '/sitemap_index.xml',
+        canonicalOrigin + '/sitemap.xml.gz' // rarely accessible via CORS but included
+      ];
+      let urls = [];
+      for(const c of candidates){
+        try{
+          const got = await readSitemap(c);
+          if(got && got.length){
+            urls = got;
+            console.log('MotoAI learn: found sitemap at', c, '->', got.length, 'urls');
+            break;
+          }
+        }catch(e){ /* ignore */ }
+      }
+      if(!urls.length){
+        // fallback crawl
+        urls = await fallbackCrawl(canonicalOrigin);
+        console.log('MotoAI learn: fallback crawl for', canonicalOrigin, '->', urls.length, 'urls');
+      }
+      // filter unique + same host
+      const hostOrigin = (new URL(canonicalOrigin)).origin;
+      const uniq = Array.from(new Set(urls.map(u=> {
+        try{ return new URL(u).toString().split('#')[0]; }catch(e){ return null; }
+      }).filter(Boolean).filter(u=> sameHost(u, hostOrigin))));
+      const pages = await pullPages(uniq.slice(0, CFG.maxPagesPerDomain));
+      return {domain: hostOrigin, ts: nowSec(), pages};
+    }catch(e){
+      console.warn('MotoAI learnOneSite fail', origin, e);
+      return null;
+    }
+  }
+
+  // ====== Cache helpers
+  function loadLearnCache(){ return safe(localStorage.getItem(K.learn)) || {}; }
+  function saveLearnCache(obj){ try{ localStorage.setItem(K.learn, JSON.stringify(obj)); }catch(e){} }
+  function isExpired(ts, hours){ if(!ts) return true; const ageHr = (nowSec() - ts)/3600; return ageHr >= (hours||CFG.refreshHours); }
+
+  // ====== Orchestrator
+  async function learnSites(listOrigins, force=false){
+    if(!Array.isArray(listOrigins)) listOrigins = [];
+    const cache = loadLearnCache();
+    const results = {};
+    let totalPages = 0;
+    // cap sites if needed
+    const origins = listOrigins.slice(0, 12); // avoid too many
+    for(const origin of origins){
+      try{
+        const u = toURL(origin);
+        if(!u) continue;
+        const originKey = u.origin;
+        const cached = cache[originKey];
+        if(!force && cached && !isExpired(cached.ts, CFG.refreshHours) && Array.isArray(cached.pages) && cached.pages.length){
+          console.log('MotoAI learn: using cached', originKey, cached.pages.length, 'pages');
+          results[originKey] = cached;
+          totalPages += cached.pages.length;
+          if(totalPages >= CFG.maxTotalPages) break;
+          continue;
+        }
+        // perform learning
+        console.log('MotoAI learn: pulling', originKey);
+        const data = await learnOneSite(originKey);
+        if(data && Array.isArray(data.pages) && data.pages.length){
+          cache[originKey] = data;
+          saveLearnCache(cache);
+          results[originKey] = data;
+          totalPages += data.pages.length;
+          console.log('MotoAI learn: saved', originKey, '->', data.pages.length, 'pages');
+        } else {
+          console.warn('MotoAI learn: no pages for', originKey);
+        }
+        if(totalPages >= CFG.maxTotalPages) break;
+      }catch(e){ console.warn('MotoAI learnSites error', e); }
+    }
+    // store (already saved)
+    saveLearnCache(cache);
+    return results;
+  }
+
+  // ====== Public quick helpers to query index
+  function getIndex(){
+    const cache = loadLearnCache();
+    // flatten to simple list of {domain, url, title, text}
+    const out = [];
+    Object.keys(cache).forEach(domain=>{
+      const p = cache[domain] && cache[domain].pages || [];
+      p.forEach(pg => {
+        out.push(Object.assign({domain}, pg));
+      });
+    });
+    return out;
+  }
+  function clearLearnCache(){
+    try{ localStorage.removeItem(K.learn); console.log('MotoAI learn cache cleared'); }catch(e){}
+  }
+
+  // ====== Minimal updateCtxWithUser (could be used to search index for quick answers)
+  function updateCtxWithUser(q){
+    // simple: find pages whose title/text contains keywords -> store top 3 references in ctx
+    try{
+      const idx = getIndex();
+      if(!idx.length) return;
+      const tokens = (q||'').toLowerCase().split(/\s+/).filter(Boolean);
+      if(!tokens.length) return;
+      const scored = idx.map(it=>{
+        const text = ((it.title||'') + ' ' + (it.text||'')).toLowerCase();
+        let score=0;
+        for(const t of tokens) if(text.includes(t)) score++;
+        return Object.assign({score}, it);
+      }).filter(x=> x.score>0).sort((a,b)=> b.score - a.score).slice(0,5);
+      try{ localStorage.setItem(K.ctx, JSON.stringify(scored)); }catch(e){}
+    }catch(e){}
+  }
+
+  // ====== Bind tags / send logic (UI interactivity)
+  function bindScrollTags(){
+    const track = document.getElementById('tagTrack'); const box = document.getElementById('mta-tags'); if(!track||!box) return;
     // click tag -> gửi
     track.querySelectorAll('button').forEach(b=>{
       b.addEventListener('click', ()=> sendUser(b.dataset.q));
     });
-    // fade trái/phải
+    // fade left/right
     const updateFade = ()=>{
       const left = track.scrollLeft > 2;
       const right = (track.scrollWidth - track.clientWidth - track.scrollLeft) > 2;
@@ -468,9 +476,8 @@
     track.addEventListener('scroll', updateFade, {passive:true});
     setTimeout(updateFade, 80);
 
-    // input focus -> ẩn; blur -> hiện (nếu input trống)
-    // Đây là logic chính sửa lỗi UI của v26
-    const input = $('#mta-in');
+    // input focus -> hide tags; blur show if empty
+    const input = document.getElementById('mta-in');
     if(input){
       input.addEventListener('focus', ()=> box.classList.add('hidden'));
       input.addEventListener('blur',  ()=> { if(!input.value.trim()) box.classList.remove('hidden'); });
@@ -478,24 +485,48 @@
     }
   }
 
-  // ===== sendUser (từ v26 - gọi hàm compose thông minh)
+  // ====== sendUser / compose
+  let isOpen=false, sending=false;
+  function openChat(){ if(isOpen) return; $('#mta-card').classList.add('open'); $('#mta-backdrop').classList.add('show'); $('#mta-bubble').style.display='none'; isOpen=true; renderSess(); setTimeout(()=>{ try{ $('#mta-in').focus(); }catch(e){} }, 120); }
+  function closeChat(){ if(!isOpen) return; $('#mta-card').classList.remove('open'); $('#mta-backdrop').classList.remove('show'); $('#mta-bubble').style.display='flex'; isOpen=false; hideTyping(); }
+  function clearChat(){ try{ localStorage.removeItem(K.sess); localStorage.removeItem(K.ctx); }catch(e){}; $('#mta-body').innerHTML=''; addMsg('bot', polite('đã xóa hội thoại')); }
+
+  function compose(q){
+    const m=(q||'').trim(); if(!m) return polite("anh/chị thử bấm tag: 🏍️ Xe số, 🛵 Xe ga, ⚡ Xe điện hoặc 📄 Thủ tục nhé");
+    const r1 = rule(m); if(r1) return r1;
+    if(/(giá|bao nhiêu|tính tiền|bao nhieu|bao nhiều|cost|price|thuê|thue)/i.test(m) || CHEAP_KWS.test(m)) return polite(estimatePrice(m));
+    // lightweight: try to see if ctx has references
+    try{
+      const ctx = safe(localStorage.getItem(K.ctx)) || [];
+      if(ctx.length){
+        const top = ctx[0];
+        if(top && top.score >= 1){
+          const snippet = (top.title?`${top.title} — `:'') + (top.text || '').slice(0,200);
+          return polite(`${snippet} ... Anh/chị xem chi tiết trang: ${top.url}`);
+        }
+      }
+    }catch(e){}
+    return polite("em chưa tìm được thông tin trùng khớp. Anh/chị nói rõ loại xe hoặc thời gian thuê giúp em với ạ.");
+  }
+
   async function sendUser(text){
     if(sending) return; sending=true;
     addMsg('user', text);
-    showTyping();
-    const typingDelay = 2500 + Math.random()*2500; await sleep(typingDelay);
-    let ans; try{ ans = compose(text); }catch(_){ ans = null; }
+    try{ updateCtxWithUser(text); }catch(e){}
+    showTyping(); const typingDelay = 2500 + Math.random()*2500; await sleep(typingDelay);
+    let ans;
+    try{ ans = compose(text); }catch(e){ ans = null; }
     hideTyping(); addMsg('bot', ans || polite(`xin lỗi, có lỗi khi trả lời. Anh/chị liên hệ Zalo ${CFG.phone} giúp em nhé.`));
     sending=false;
   }
 
-  // ===== Obstacles & Keyboard (từ v26)
+  // ===== Auto-avoid obstacles
   function checkObstacles(){
-    const root=$('#mta-root'); if(!root) return;
+    const root = $('#mta-root'); if(!root) return;
     const blockers = document.querySelector('.bottom-appbar, .quick-call, #quick-call');
-    let bottom='calc(18px + env(safe-area-inset-bottom, 0))';
+    let bottom = 'calc(18px + env(safe-area-inset-bottom, 0))';
     if(blockers){
-      const r=blockers.getBoundingClientRect();
+      const r = blockers.getBoundingClientRect();
       const space = window.innerHeight - r.top;
       if(space < 120) bottom = (space + 70) + 'px';
     }
@@ -503,57 +534,60 @@
       const vv = window.visualViewport;
       if(vv.height < window.innerHeight - 120) bottom = '110px';
     }
-    root.style.bottom = bottom; root.style.right='16px'; root.style.left='auto';
-  }
-  function fixSafariKeyboard(){
-    const card = $('#mta-card');
-    if(!card || !window.visualViewport) return;
-    window.visualViewport.addEventListener('resize', ()=>{
-      const vv = window.visualViewport;
-      if(vv.height < window.innerHeight - 100){ card.style.transform='translateY(0)'; }
-      else { card.style.transform = $('#mta-card').classList.contains('open') ? 'translateY(0)' : 'translateY(110%)'; }
-    }, {passive:true});
+    root.style.bottom = bottom; root.style.right = '16px'; root.style.left = 'auto';
   }
 
-  /* =========================
-     10) BOOT (từ v26)
-  ==========================*/
-  function ready(fn){
-    if(document.readyState==="complete"||document.readyState==="interactive"){ fn(); }
-    else document.addEventListener("DOMContentLoaded", fn);
-  }
-
+  // ===== Boot: inject UI, bind events, optionally autolearn
   ready(async ()=>{
     const hour=new Date().getHours(); if(hour>19||hour<6) document.body.classList.add('ai-night');
-
-    injectUI();
-    bindTags(); // <- Đã thay bằng hàm của v22c
-
-    // Bind chat events
-    $('#mta-bubble').addEventListener('click', openChat);
+    injectUI(); bindScrollTags(); checkObstacles();
+    // Bind UI handlers
+    $('#mta-bubble').addEventListener('click', ()=>{ openChat(); });
     $('#mta-backdrop').addEventListener('click', closeChat);
     $('#mta-close').addEventListener('click', closeChat);
     $('#mta-clear').addEventListener('click', clearChat);
     $('#mta-send').addEventListener('click', ()=>{ const v=($('#mta-in').value||'').trim(); if(!v) return; $('#mta-in').value=''; sendUser(v); });
     $('#mta-in').addEventListener('keydown',(e)=>{ if(e.key==='Enter' && !e.shiftKey){ e.preventDefault(); const v=($('#mta-in').value||'').trim(); if(!v) return; $('#mta-in').value=''; sendUser(v); }});
-
-    // Auto-avoid & iOS (từ v26)
-    checkObstacles();
     window.addEventListener('resize', checkObstacles, {passive:true});
     window.addEventListener('scroll', checkObstacles, {passive:true});
     if(window.visualViewport) window.visualViewport.addEventListener('resize', checkObstacles, {passive:true});
-    fixSafariKeyboard();
-
-    // AutoLearn (đa site) (từ v26)
-    try{ await doAutoLearn(); }catch(_){}
-
-    // Watchdog
     setTimeout(()=>{ if(!$('#mta-bubble')) injectUI(); }, 2500);
+    console.log('%cMotoAI v26 AutoLearn MultiSite — UI ready','color:#0084FF;font-weight:bold;');
 
-    console.log('%cMotoAI v26 ScrollSafe (Merged v22c UI) — Active','color:#0084FF;font-weight:bold;');
+    // AutoLearn: collect sites (current origin + extraSites)
+    if(CFG.autolearn){
+      const sites = Array.from(new Set([location.origin, ...(CFG.extraSites||[])]));
+      // start learning in background asynchronously (non-blocking for UI)
+      try{
+        console.log('MotoAI autolearn: starting for', sites);
+        // learn but don't block UI
+        (async()=>{
+          await learnSites(sites, false);
+          console.log('MotoAI autolearn: finished initial learn (see localStorage key)', K.learn);
+        })();
+      }catch(e){ console.warn('MotoAI autolearn err', e); }
+    }
   });
 
-  // Mini API (từ v26)
-  window.MotoAI_v26 = { open: ()=>{ try{openChat()}catch(_){ } }, close: ()=>{ try{closeChat()}catch(_){ } } };
-})();
+  // ===== Expose API
+  window.MotoAI_v26_autolearn = {
+    learnNow: async function(sites, force){
+      try{
+        const list = Array.isArray(sites) && sites.length ? sites : (CFG.extraSites||[]);
+        const combined = Array.from(new Set([location.origin, ...list]));
+        console.log('MotoAI learnNow: sites', combined, 'force', !!force);
+        const res = await learnSites(combined, !!force);
+        return res;
+      }catch(e){ console.warn('MotoAI learnNow error', e); return null; }
+    },
+    getIndex: function(){ return getIndex(); },
+    clearLearnCache: function(){ clearLearnCache(); }
+  };
 
+  // keep small API to open/close chat
+  window.MotoAI_v26 = {
+    open: ()=>{ try{ openChat(); }catch(e){} },
+    close: ()=>{ try{ closeChat(); }catch(e){} }
+  };
+
+})();
