@@ -1,26 +1,18 @@
-/* motoai_v26_autolearn_multisite.js
-   Messenger-style (UI ổn định v24) • AutoLearn MultiSite • SmartCalc • UltraSafe
-   - Học nhiều website: sitemap.xml + sitemap_index.xml (+ fallback quét link nội bộ depth=1)
-   - Cache localStorage theo domain, tự refresh mỗi 24 giờ
-   - UI: bong bóng, khung chat, tag kéo ngang, dark/light, auto-avoid footer/quick-call, iOS keyboard fix
+/* motoai_v26_scrollsafe.js
+   UI Messenger ổn định (từ v22c) • AutoLearn MultiSite • SmartCalc • UltraSafe
+   - Giao diện (HTML/CSS) và xử lý thanh tag (ẩn/hiện khi focus) lấy từ v22c ổn định.
+   - Giữ toàn bộ "bộ não" thông minh của v26:
+     • Học nhiều website: sitemap.xml + sitemap_index.xml (+ fallback quét link nội bộ)
+     • Cache localStorage theo domain, tự refresh mỗi 24 giờ
+   - Giữ: SmartCalc v26, auto-avoid footer/quick-call, iOS keyboard fix, dark/light, session
    - Delay trả lời: 2.5–5s, văn phong lịch sự, nhân viên hỗ trợ
 */
 (function(){
-  if (window.MotoAI_v26_MULTI_LOADED) return;
-  window.MotoAI_v26_MULTI_LOADED = true;
+  if (window.MotoAI_v26_SCROLLSAFE_LOADED) return;
+  window.MotoAI_v26_SCROLLSAFE_LOADED = true;
 
   /* =========================
-     1) CONFIG (có thể override trước khi nhúng):
-     window.MotoAI_CONFIG = {
-       brand: "Motoopen",
-       phone: "0857255868",
-       zalo:  "https://zalo.me/0857255868",
-       map:   "https://maps.app.goo.gl/2icTBTxAToyvKTE78",
-       autolearn: true,
-       extraSites: ["https://motoopen.github.io/chothuexemayhanoi/"], // nhiều domain
-       crawlDepth: 1,              // fallback khi không có sitemap
-       refreshHours: 24            // tự làm mới sau X giờ
-     }
+     1) CONFIG (từ v26 - có thể override)
   ==========================*/
   const DEF = {
     brand: "Motoopen",
@@ -28,9 +20,9 @@
     zalo:  "https://zalo.me/0857255868",
     map:   "https://maps.app.goo.gl/2icTBTxAToyvKTE78",
     autolearn: true,
-    extraSites: [],         // thêm domain để học đa site
-    crawlDepth: 1,
-    refreshHours: 24,
+    extraSites: ["https://motoopen.github.io/chothuexemayhanoi/"], // nhiều domain
+    crawlDepth: 1,              // fallback khi không có sitemap
+    refreshHours: 24,           // tự làm mới sau X giờ
     minSentenceLen: 24
   };
   const ORG = (window.MotoAI_CONFIG||{});
@@ -38,7 +30,7 @@
   const CFG = Object.assign({}, DEF, ORG);
 
   /* =========================
-     2) UTILS
+     2) UTILS (từ v26)
   ==========================*/
   const $  = s => document.querySelector(s);
   const safe = s => { try{return JSON.parse(s)}catch(_){return null} };
@@ -50,7 +42,7 @@
   const sameHost = (u, origin)=> { try{ return new URL(u).host === new URL(origin).host; }catch(_){ return false; } };
 
   /* =========================
-     3) UI (Messenger ổn định – v24)
+     3) UI (HTML/CSS từ v22c - Ổn định)
   ==========================*/
   const ui = `
   <div id="mta-root" aria-live="polite">
@@ -73,8 +65,8 @@
             </div>
           </div>
           <nav class="quick">
-            <a class="q q-zalo"  href="${CFG.zalo}" target="_blank" rel="noopener" title="Zalo">Z</a>
             <a class="q q-phone" href="tel:${CFG.phone}" title="Gọi">📞</a>
+            <a class="q q-zalo"  href="${CFG.zalo}" target="_blank" rel="noopener" title="Zalo">Z</a>
             <a class="q q-map"   href="${CFG.map}" target="_blank" rel="noopener" title="Bản đồ">📍</a>
           </nav>
           <button id="mta-close" title="Đóng" aria-label="Đóng">✕</button>
@@ -83,7 +75,7 @@
 
       <main id="mta-body"></main>
 
-      <!-- Thanh tag kéo ngang -->
+      <!-- Scrollable tags (từ v22c) -->
       <div id="mta-tags" role="toolbar" aria-label="Gợi ý nhanh (kéo ngang)">
         <div class="tag-track" id="tagTrack">
           <button data-q="Xe số">🏍️ Xe số</button>
@@ -91,8 +83,8 @@
           <button data-q="Xe điện">⚡ Xe điện</button>
           <button data-q="50cc">🚲 50cc</button>
           <button data-q="Xe côn tay">🏍️ Côn tay</button>
-          <button data-q="Bảng giá">💰 Bảng giá</button>
           <button data-q="Thủ tục">📄 Thủ tục</button>
+          <button data-q="Bảng giá">💰 Bảng giá</button>
           <button data-q="Liên hệ">☎️ Liên hệ</button>
         </div>
         <div class="fade fade-left"></div>
@@ -101,7 +93,7 @@
 
       <footer id="mta-input">
         <input id="mta-in" placeholder="Nhắn tin cho ${CFG.brand}..." autocomplete="off" />
-        <button id="mta-send" aria-label="Gửi" title="Gửi">➤</button>
+        <button id="mta-send" aria-label="Gửi">➤</button>
       </footer>
       <button id="mta-clear" title="Xóa hội thoại" aria-label="Xóa hội thoại">🗑</button>
     </section>
@@ -113,46 +105,50 @@
   #mta-bubble{width:60px;height:60px;border:none;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 10px 26px rgba(0,0,0,.2);outline:3px solid #fff}
   #mta-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.2);opacity:0;pointer-events:none;transition:opacity .18s ease}
   #mta-backdrop.show{opacity:1;pointer-events:auto}
-  #mta-card{position:fixed;right:16px;bottom:16px;width:min(420px,calc(100% - 24px));height:70vh;max-height:740px;background:var(--mta-bg);color:var(--mta-text);border-radius:18px;box-shadow:0 14px 40px rgba(0,0,0,.25);transform:translateY(110%);opacity:.99;display:flex;flex-direction:column;overflow:hidden;transition:transform .20s cubic-bezier(.22,1,.36,1)}
+  #mta-card{position:fixed;right:16px;bottom:16px;width:min(420px,calc(100% - 24px));height:70vh;max-height:740px;background:var(--m-bg);color:var(--m-text);border-radius:18px;box-shadow:0 14px 40px rgba(0,0,0,.25);transform:translateY(110%);opacity:.99;display:flex;flex-direction:column;overflow:hidden;transition:transform .20s cubic-bezier(.22,1,.36,1)}
   #mta-card.open{transform:translateY(0)}
   #mta-header{background:linear-gradient(90deg,var(--m-blue),var(--m-blue2));color:#fff}
   #mta-header .brand{display:flex;align-items:center;justify-content:space-between;padding:10px 12px}
   #mta-header .left{display:flex;align-items:center;gap:10px}
   .avatar{width:28px;height:28px;border-radius:50%;background:rgba(255,255,255,.2);display:flex;align-items:center;justify-content:center}
   .info .name{font-weight:800;line-height:1}
-  .info .sub{font-size:12px;opacity:.95}
+  .info .sub{font-size:12px;opacity:.9}
   .quick{display:flex;gap:6px;margin-left:auto;margin-right:6px}
   .q{width:28px;height:28px;border-radius:8px;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-size:12px;font-weight:700;background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.25)}
   #mta-close{background:none;border:none;font-size:20px;color:#fff;cursor:pointer;opacity:.95}
+
   #mta-body{flex:1;overflow:auto;padding:14px 12px;background:#E9EEF5}
-  .m-msg{max-width:80%;margin:8px 0;padding:10px 13px;border-radius:20px;line-height:1.45;box-shadow:0 1px 2px rgba(0,0,0,.05)}
+  .m-msg{max-width:80%;margin:8px 0;padding:9px 12px;border-radius:18px;line-height:1.45;box-shadow:0 1px 2px rgba(0,0,0,.05)}
   .m-msg.bot{background:#fff;color:#111;border:1px solid rgba(0,0,0,.04)}
   .m-msg.user{background:#0084FF;color:#fff;margin-left:auto;border:1px solid rgba(0,0,0,.05)}
   #mta-typing{display:inline-flex;gap:6px;align-items:center}
-  #mta-typing .dot{width:6px;height:6px;border-radius:50%;background:#555;opacity:.5;animation:blink 1s infinite}
-  #mta-typing .dot:nth-child(2){animation-delay:.15s}
-  #mta-typing .dot:nth-child(3){animation-delay:.3s}
-  @keyframes blink{0%,80%,100%{opacity:.2}40%{opacity:.9}}
-  /* Scrollable tags */
-  #mta-tags{position:relative;background:#f7f9fc;border-top:1px solid rgba(0,0,0,.06)}
+  #mta-typing-dots{display:inline-block;min-width:14px} /* CSS cho typing dots v22c */
+
+  /* Scrollable Tags (từ v22c) */
+  #mta-tags{position:relative;background:#f7f9fc;border-top:1px solid rgba(0,0,0,.06);transition:max-height .22s ease, opacity .18s ease}
+  /* Đây là class quan trọng bị thiếu ở v26 */
+  #mta-tags.hidden{max-height:0; opacity:0; overflow:hidden;}
   #mta-tags .tag-track{display:block;overflow-x:auto;white-space:nowrap;padding:8px 10px 10px 10px;scroll-behavior:smooth}
-  #mta-tags button{display:inline-block;margin-right:8px;padding:8px 12px;border:none;border-radius:999px;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.06);border:1px solid rgba(0,0,0,.08);font-weight:600;cursor:pointer}
+  #mta-tags button{display:inline-block;margin-right:8px;padding:8px 12px;border:none;border-radius:999px;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.06);border:1px solid rgba(0,0,0,.08);font-weight:700;cursor:pointer}
+  #mta-tags button:active{transform:scale(.98)}
   #mta-tags .fade{position:absolute;top:0;bottom:0;width:22px;pointer-events:none}
   #mta-tags .fade-left{left:0;background:linear-gradient(90deg,#f7f9fc,rgba(247,249,252,0))}
   #mta-tags .fade-right{right:0;background:linear-gradient(270deg,#f7f9fc,rgba(247,249,252,0))}
+
   #mta-input{display:flex;gap:8px;padding:10px;background:#fff;border-top:1px solid rgba(0,0,0,.06)}
-  #mta-in{flex:1;padding:11px 14px;border-radius:22px;border:1px solid rgba(0,0,0,.12);font-size:15px;background:#F6F8FB}
+  #mta-in{flex:1;padding:11px 12px;border-radius:20px;border:1px solid rgba(0,0,0,.12);font-size:15px;background:#F6F8FB}
   #mta-send{width:42px;height:42px;border:none;border-radius:50%;background:linear-gradient(90deg,#0084FF,#00B2FF);color:#fff;font-weight:800;cursor:pointer;box-shadow:0 6px 18px rgba(0,132,255,.35)}
   #mta-clear{position:absolute;top:10px;right:48px;background:none;border:none;font-size:16px;color:#fff;opacity:.9;cursor:pointer}
+
   @media(max-width:520px){ #mta-card{width:calc(100% - 16px);right:8px;left:8px;height:72vh} #mta-bubble{width:56px;height:56px} }
   @media(prefers-color-scheme:dark){
     :root{--m-bg:#1b1c1f;--m-text:#eaeef3}
     #mta-body{background:#1f2127}
     .m-msg.bot{background:#2a2d34;color:#eaeef3;border:1px solid rgba(255,255,255,.06)}
+    #mta-in{background:#16181c;color:#f0f3f7;border:1px solid rgba(255,255,255,.12)}
     #mta-tags{background:#1f2127;border-top:1px solid rgba(255,255,255,.08)}
     #mta-tags button{background:#2a2d34;color:#eaeef3;border:1px solid rgba(255,255,255,.10)}
-    #mta-input{background:#202226;border-top:1px solid rgba(255,255,255,.08)}
-    #mta-in{background:#16181c;color:#f0f3f7;border:1px solid rgba(255,255,255,.12)}
+    #mta-input{background:#202226;border-top:1px solid rgba(255,255,255,.08)} /* Thêm input dark */
   }
   .ai-night #mta-bubble{box-shadow:0 0 18px rgba(0,132,255,.35)!important;}
   `;
@@ -164,7 +160,7 @@
   }
 
   /* =========================
-     4) STATE + SESSION
+     4) STATE + SESSION (từ v26)
   ==========================*/
   let isOpen=false, sending=false;
   const K = {
@@ -192,15 +188,19 @@
   }
 
   /* =========================
-     5) TYPING DOTS + POLITE ENGINE
+     5) TYPING DOTS (từ v22c) + POLITE (từ v26)
   ==========================*/
+  // ===== Typing dots (từ v22c)
+  let typingBlinkTimer=null;
   function showTyping(){
-    const d=document.createElement('div'); d.id='mta-typing'; d.className='m-msg bot';
-    d.innerHTML=`<span class="dot"></span><span class="dot"></span><span class="dot"></span>`;
-    $('#mta-body').appendChild(d); $('#mta-body').scrollTop=$('#mta-body').scrollHeight;
+    const d=document.createElement('div'); d.id='mta-typing'; d.className='m-msg bot'; d.textContent='Đang nhập ';
+    const dot=document.createElement('span'); dot.id='mta-typing-dots'; dot.textContent='…';
+    d.appendChild(dot); $('#mta-body').appendChild(d); $('#mta-body').scrollTop=$('#mta-body').scrollHeight;
+    let i=0; typingBlinkTimer=setInterval(()=>{ dot.textContent='.'.repeat((i++%3)+1); }, 400);
   }
-  function hideTyping(){ const d=$('#mta-typing'); if(d) d.remove(); }
+  function hideTyping(){ const d=$('#mta-typing'); if(d) d.remove(); if(typingBlinkTimer){ clearInterval(typingBlinkTimer); typingBlinkTimer=null; } }
 
+  // ===== Polite Engine (từ v26)
   const PREFIX = ["Chào anh/chị,","Xin chào 👋,","Em chào anh/chị nhé,","Rất vui được hỗ trợ anh/chị,"];
   const SUFFIX = [" ạ."," nhé ạ."," nha anh/chị."," ạ, cảm ơn anh/chị."];
   const CHEAP_KWS = /(rẻ|giá rẻ|rẻ nhất|bình dân|sinh viên|hssv|xe rẻ)/i;
@@ -212,7 +212,7 @@
   }
 
   /* =========================
-     6) SMARTCALC (giá dự kiến)
+     6) SMARTCALC (từ v26)
   ==========================*/
   const PRICE_TABLE = {
     'xe số':      { day:[130000,150000], week:[600000], month:[1000000,1200000] },
@@ -251,11 +251,7 @@
   }
 
   /* =========================
-     7) AUTOLEARN – MULTISITE
-     - Thử lấy: /sitemap.xml hoặc /sitemap_index.xml (cả https/http)
-     - Nếu gặp sitemap index → mở từng sitemap con
-     - Nếu fail → fallback quét link nội bộ depth=1
-     - Lưu cache theo domain: { domain: {ts, pages:[{url,title,text}] } }
+     7) AUTOLEARN – MULTISITE (từ v26)
   ==========================*/
   async function fetchText(url, opts={}){
     try{
@@ -284,7 +280,6 @@
   }
 
   async function fallbackCrawl(origin, depth=1){
-    // rất nhẹ: lấy HTML trang gốc, gom các link nội bộ (unique), giới hạn ~40 link
     const start = origin.endsWith('/')? origin : origin+'/';
     const html = await fetchText(start); if(!html) return [start];
     const a = document.createElement('div'); a.innerHTML = html;
@@ -304,7 +299,6 @@
     for(const url of list){
       const txt = await fetchText(url);
       if(!txt) continue;
-      // Rất gọn: lấy <title> và text meta description; fallback strip body text nhẹ
       let title = (txt.match(/<title[^>]*>([^<]+)<\/title>/i)||[])[1]||'';
       title = title.replace(/\s+/g,' ').trim();
       let desc  = (txt.match(/<meta[^>]+name=["']description["'][^>]+content=["']([^"]+)["']/i)||[])[1]||'';
@@ -317,13 +311,12 @@
         desc = bodyTxt.slice(0, 600);
       }
       pages.push({url, title, text: desc});
-      if(pages.length>80) break; // giới hạn an toàn
+      if(pages.length>80) break;
     }
     return pages;
   }
 
   async function learnOneSite(origin){
-    // thử sitemap.xml & sitemap_index.xml
     const candidates = [
       origin.replace(/\/$/,'') + '/sitemap.xml',
       origin.replace(/\/$/,'') + '/sitemap_index.xml'
@@ -334,10 +327,8 @@
       if(got?.length){ urls = got; break; }
     }
     if(!urls.length){
-      // fallback crawl depth=1
       urls = await fallbackCrawl(origin, CFG.crawlDepth);
     }
-    // lọc unique + cùng host
     const host = getDomainKey(origin); if(!host) return null;
     const uniq = Array.from(new Set(urls.filter(u=> sameHost(u, host)).map(u=> u.split('#')[0])));
     const pages = await pullPages(uniq);
@@ -398,7 +389,7 @@
   }
 
   /* =========================
-     8) COMPOSE ANSWER
+     8) COMPOSE ANSWER (từ v26)
   ==========================*/
   const RULES = [
     {re:/(chào|xin chào|hello|hi|alo)/i, ans:[
@@ -436,7 +427,7 @@
   }
 
   /* =========================
-     9) OPEN/CLOSE/CLEAR + EVENTS
+     9) OPEN/CLOSE/CLEAR + EVENTS (Gộp v26 + v22c)
   ==========================*/
   function openChat(){
     if(isOpen) return;
@@ -459,23 +450,35 @@
     $('#mta-body').innerHTML=''; addMsg('bot', polite('đã xóa hội thoại'));
   }
 
+  // ===== bindTags (từ v22c - quan trọng)
   function bindTags(){
-    const track = $('#tagTrack'); if(!track) return;
+    const track = $('#tagTrack'); const box = $('#mta-tags'); if(!track||!box) return;
+    // click tag -> gửi
     track.querySelectorAll('button').forEach(b=>{
       b.addEventListener('click', ()=> sendUser(b.dataset.q));
     });
-    const updateFade=()=>{
+    // fade trái/phải
+    const updateFade = ()=>{
       const left = track.scrollLeft > 2;
       const right = (track.scrollWidth - track.clientWidth - track.scrollLeft) > 2;
-      const fl = document.querySelector('.fade-left');
-      const fr = document.querySelector('.fade-right');
+      const fl = box.querySelector('.fade-left'); const fr = box.querySelector('.fade-right');
       if(fl) fl.style.opacity = left ? '1' : '0';
       if(fr) fr.style.opacity = right ? '1' : '0';
     };
     track.addEventListener('scroll', updateFade, {passive:true});
     setTimeout(updateFade, 80);
+
+    // input focus -> ẩn; blur -> hiện (nếu input trống)
+    // Đây là logic chính sửa lỗi UI của v26
+    const input = $('#mta-in');
+    if(input){
+      input.addEventListener('focus', ()=> box.classList.add('hidden'));
+      input.addEventListener('blur',  ()=> { if(!input.value.trim()) box.classList.remove('hidden'); });
+      input.addEventListener('input', ()=> { if(input.value.trim().length>0) box.classList.add('hidden'); else box.classList.remove('hidden'); });
+    }
   }
 
+  // ===== sendUser (từ v26 - gọi hàm compose thông minh)
   async function sendUser(text){
     if(sending) return; sending=true;
     addMsg('user', text);
@@ -486,6 +489,7 @@
     sending=false;
   }
 
+  // ===== Obstacles & Keyboard (từ v26)
   function checkObstacles(){
     const root=$('#mta-root'); if(!root) return;
     const blockers = document.querySelector('.bottom-appbar, .quick-call, #quick-call');
@@ -512,7 +516,7 @@
   }
 
   /* =========================
-     10) BOOT
+     10) BOOT (từ v26)
   ==========================*/
   function ready(fn){
     if(document.readyState==="complete"||document.readyState==="interactive"){ fn(); }
@@ -522,7 +526,8 @@
   ready(async ()=>{
     const hour=new Date().getHours(); if(hour>19||hour<6) document.body.classList.add('ai-night');
 
-    injectUI(); bindTags();
+    injectUI();
+    bindTags(); // <- Đã thay bằng hàm của v22c
 
     // Bind chat events
     $('#mta-bubble').addEventListener('click', openChat);
@@ -532,22 +537,23 @@
     $('#mta-send').addEventListener('click', ()=>{ const v=($('#mta-in').value||'').trim(); if(!v) return; $('#mta-in').value=''; sendUser(v); });
     $('#mta-in').addEventListener('keydown',(e)=>{ if(e.key==='Enter' && !e.shiftKey){ e.preventDefault(); const v=($('#mta-in').value||'').trim(); if(!v) return; $('#mta-in').value=''; sendUser(v); }});
 
-    // Auto-avoid & iOS
+    // Auto-avoid & iOS (từ v26)
     checkObstacles();
     window.addEventListener('resize', checkObstacles, {passive:true});
     window.addEventListener('scroll', checkObstacles, {passive:true});
     if(window.visualViewport) window.visualViewport.addEventListener('resize', checkObstacles, {passive:true});
     fixSafariKeyboard();
 
-    // AutoLearn (đa site)
+    // AutoLearn (đa site) (từ v26)
     try{ await doAutoLearn(); }catch(_){}
 
     // Watchdog
     setTimeout(()=>{ if(!$('#mta-bubble')) injectUI(); }, 2500);
 
-    console.log('%cMotoAI v26 MultiSite — Active','color:#0084FF;font-weight:bold;');
+    console.log('%cMotoAI v26 ScrollSafe (Merged v22c UI) — Active','color:#0084FF;font-weight:bold;');
   });
 
-  // Mini API
+  // Mini API (từ v26)
   window.MotoAI_v26 = { open: ()=>{ try{openChat()}catch(_){ } }, close: ()=>{ try{closeChat()}catch(_){ } } };
 })();
+
