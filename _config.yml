@@ -1,8 +1,13 @@
-title: "Motoopen Blog"
-description: "Kinh nghiệm thuê xe máy, thủ tục và mẹo du lịch tại Hà Nội."
-url: "https://motoopen.github.io/chothuexemayhanoi"
-baseurl: ""
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+title: "Motoopen"
+email: "motoopen12@gmail.com"
+author: "Motoopen"
+description: "Thuê xe máy Hà Nội — giao tận nơi, cọc nhẹ"
+baseurl: ""            # nếu site hosted tại https://motoopen.github.io/chothuexemayhanoi/ thì để "" và deploy branch main
+url: "https://motoopen.github.io" 
+logo: "/assets/img/logo.png"
+social_image: "/assets/img/social-card.jpg"
+fa_css: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+permalink: /:categories/:title/
+paginate: 5
+markdown: kramdown
+timezone: Asia/Bangkok
