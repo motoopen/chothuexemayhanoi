@@ -1,0 +1,100 @@
+/* =======================================
+   🌙 Motoopen Blog — Apple-style Unified
+   ======================================= */
+
+/* Fonts & base setup */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+:root {
+  --text: #0b1220;
+  --muted: #6e6e73;
+  --accent: #007aff;
+  --bg: #ffffff;
+  --surface: #f5f7fa;
+  --glass-border: rgba(0,0,0,0.05);
+  --maxw: 1100px;
+  --uxp-ease: cubic-bezier(.22,1,.36,1);
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #eaeef3;
+    --muted: #9ea3a9;
+    --accent: #0a84ff;
+    --bg: #1b1c1f;
+    --surface: #2a2d34;
+    --glass-border: rgba(255,255,255,0.08);
+  }
+}
+
+html, body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Layout & container */
+.container {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Headings & links */
+h1, h2, h3, h4, h5 { font-weight: 800; line-height: 1.25; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Cards & sections */
+article, .mapp-card, .card {
+  background: var(--surface);
+  border-radius: 14px;
+  border: 1px solid var(--glass-border);
+  padding: 18px 22px;
+  transition: all .35s var(--uxp-ease);
+}
+
+article:hover { transform: translateY(-3px); box-shadow: 0 6px 18px rgba(0,0,0,0.06); }
+
+.mapp-btn, .hmini-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 9px 14px;
+  border-radius: 999px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  background: transparent;
+  transition: all .25s var(--uxp-ease);
+}
+.mapp-btn:hover, .hmini-btn:hover { background: var(--accent); color: #fff; text-decoration: none; }
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  padding: 24px 0 60px;
+  text-align: center;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+/* Reveal / Fade-in animation (anh đã có, giữ nguyên) */
+.blog-item, .reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity .56s var(--uxp-ease), transform .56s var(--uxp-ease);
+  will-change: opacity, transform;
+}
+.blog-item.show, .reveal.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+:root { scroll-behavior: smooth; }
