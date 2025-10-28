@@ -2,8 +2,8 @@ title: "Motoopen"
 email: "motoopen12@gmail.com"
 author: "Motoopen"
 description: "Thuê xe máy Hà Nội — giao tận nơi, cọc nhẹ"
-baseurl: ""            # nếu site hosted tại https://motoopen.github.io/chothuexemayhanoi/ thì để "" và deploy branch main
-url: "https://motoopen.github.io" 
+baseurl: "/chothuexemayhanoi"   # ⚠️ rất quan trọng — vì repo của anh nằm trong /chothuexemayhanoi/
+url: "https://motoopen.github.io"
 logo: "/assets/img/logo.png"
 social_image: "/assets/img/social-card.jpg"
 fa_css: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
