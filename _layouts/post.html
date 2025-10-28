@@ -1,0 +1,130 @@
+---
+# _layouts/post.html
+---
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>{{ page.title }} | {{ site.title }}</title>
+
+  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% else %}{{ page.excerpt | strip_html | truncate:160 }}{% endif %}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% else %}{{ page.excerpt | strip_html | truncate:160 }}{% endif %}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  {% if page.image %}<meta property="og:image" content="{{ page.image | absolute_url }}">{% elsif site.social_image %}<meta property="og:image" content="{{ site.social_image | absolute_url }}">{% endif %}
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% else %}{{ page.excerpt | strip_html | truncate:160 }}{% endif %}">
+
+  <!-- CSS & FontAwesome (id để fallback script bắt) -->
+  {% if site.fa_css %}
+  <link id="fa-css" rel="stylesheet" href="{{ site.fa_css }}">
+  {% else %}
+  <link id="fa-css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous">
+  {% endif %}
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+  <!-- Optional blog JS (tạo file assets/js/blog.js nếu cần) -->
+  <script defer src="{{ '/assets/js/blog.js' | relative_url }}"></script>
+</head>
+<body class="{{ page.body_class | default: '' }}">
+  <!-- Nếu anh đã tạo _includes/header.html có đầy đủ topbar/hero thì dùng include -->
+  {% if site.use_includes_header %}
+    {% include header.html %}
+  {% else %}
+  <!-- Minimal header (nếu chưa muốn include full header) -->
+  <header class="topbar" role="banner" style="padding:12px 16px;position:sticky;top:0;background:transparent;z-index:999;">
+    <div class="brand" style="display:flex;align-items:center;gap:10px;">
+      <a href="{{ '/' | relative_url }}" aria-label="Trang chủ">
+        <img src="{{ site.logo | default: '/assets/img/logo.png' }}" alt="{{ site.title }}" style="height:38px;border-radius:8px;object-fit:cover">
+      </a>
+      <h3 style="margin:0;font-weight:800;">{{ site.title }}</h3>
+    </div>
+  </header>
+  {% endif %}
+
+  <main class="container" role="main" style="padding-top:calc(var(--top-offset,84px) + 6px);max-width:var(--maxw,1100px);margin:0 auto;padding-left:20px;padding-right:20px;">
+    <!-- Breadcrumb -->
+    <nav aria-label="Breadcrumb" style="margin:10px 0 18px;font-weight:700;color:var(--muted,#6e6e73);">
+      <a href="{{ '/' | relative_url }}" style="color:var(--accent,#0A84FF);text-decoration:none;"><i class="fa-solid fa-house"></i> Trang chủ</a>
+      <span style="margin:0 8px;color:var(--muted)">›</span>
+      <a href="{{ '/blog/' | relative_url }}" style="color:var(--text);text-decoration:none;">Blog</a>
+      <span style="margin:0 8px;color:var(--muted)">›</span>
+      <span aria-current="page" style="color:var(--text)">{{ page.title }}</span>
+    </nav>
+
+    <!-- Hero (title + short links) -->
+    <section class="hero-mini reveal" aria-label="Hero post">
+      <div class="wrap" style="max-width:var(--maxw);margin:0 auto;padding:0 0;">
+        <div class="card" style="padding:clamp(18px,3.2vw,28px);">
+          <div class="hmini-grid" style="display:grid;grid-template-columns:1.2fr .8fr;gap:18px;">
+            <div>
+              <h1 class="hmini-title" style="margin:0 0 8px;font-size:clamp(22px,4.2vw,36px);font-weight:800;">{{ page.title }}</h1>
+              <p class="hmini-sub" style="margin:0;color:var(--muted);">
+                {% if page.date %}Đăng ngày {{ page.date | date: "%-d %B %Y" }}{% endif %} • {{ site.title }}
+              </p>
+
+              <div style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap;">
+                <a class="hmini-btn ghost" href="{{ '/chothuexemayhanoi/gioithieu.html' | relative_url }}"><i class="fa-solid fa-circle-info"></i> Giới thiệu</a>
+                <a class="hmini-btn ghost" href="{{ '/chothuexemayhanoi/lienhe.html' | relative_url }}"><i class="fa-solid fa-phone"></i> Liên hệ</a>
+              </div>
+            </div>
+
+            <div>
+              <div class="hmini-tiles" aria-hidden="true">
+                <div class="grid" style="display:grid;grid-template-columns:repeat(2,1fr);gap:10px;">
+                  <div class="hmini-tile"><span class="hmini-icon"><i class="fa-solid fa-newspaper"></i></span><span>Blog</span></div>
+                  <div class="hmini-tile"><span class="hmini-icon"><i class="fa-solid fa-location-dot"></i></span><span>Hà Nội</span></div>
+                </div>
+                <div class="hmini-soft" style="height:8px"></div>
+                <div class="hmini-stats" style="display:flex;gap:8px;margin-top:8px;">
+                  <div class="hmini-stat" style="padding:8px;border-radius:10px;background:var(--glass,rgba(0,0,0,0.04));"><i class="fa-solid fa-user"></i> {{ page.author | default: site.author }}</div>
+                  <div class="hmini-stat" style="padding:8px;border-radius:10px;background:var(--glass,rgba(0,0,0,0.04));"><i class="fa-solid fa-tag"></i> {% for c in page.categories %}{{ c }}{% unless forloop.last %}, {% endunless %}{% endfor %}</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Post content -->
+    <article class="mapp-card reveal" style="margin-top:18px;padding:18px;border-radius:14px;">
+      <div class="mapp-head" style="display:flex;gap:14px;align-items:center;margin-bottom:12px;">
+        <div>
+          <h2 class="mapp-h1" style="margin:0;font-size:1.25rem;">{{ page.title }}</h2>
+          <p class="mapp-kicker" style="margin:4px 0 0;color:var(--muted);">Đăng: {{ page.date | date: "%-d %B %Y" }}</p>
+        </div>
+      </div>
+
+      <div class="mapp-text" style="color:var(--text);line-height:1.7;">
+        {{ content }}
+      </div>
+
+      <p style="margin-top:18px;"><a href="{{ '/blog/' | relative_url }}" class="mapp-btn ghost"><i class="fa-solid fa-arrow-left"></i> Quay lại Blog</a></p>
+    </article>
+
+  </main>
+
+  <!-- Footer (include hiện có) -->
+  <footer class="premium app-footer" role="contentinfo" style="margin-top:28px;">
+    {% include footer.html %}
+  </footer>
+
+  <!-- Font Awesome fallback script (dán block fallback của anh ở đây) -->
+  <!--
+    Dán đoạn fallback Font Awesome anh đã chuẩn bị (theo ví dụ anh gửi),
+    để nếu CDN chính lỗi thì tự load jsDelivr.
+  -->
+
+</body>
+</html>
