@@ -1,6 +1,7 @@
 /* motoai_v31_smartpolite_multisite.js
    UI v22c (bubble + card + tags) • SmartPolite Bilingual • SmartPricing • Memory(5)
    • Typing 3–6s • AutoLearn MultiSite (sitemap + fallback HTML) • Safe cache
+   • NEW: Position patch (center/bottom), auto side (left/right), offsets — no UI color/shape change
    NOTE: Override config via window.MotoAI_CONFIG BEFORE this script loads.
 */
 (function(){
@@ -24,7 +25,12 @@
     maxPagesPerDomain: 80,
     maxTotalPages: 300,
     fetchTimeoutMs: 10000,
-    fetchPauseMs: 180
+    fetchPauseMs: 180,
+    // ===== NEW placement options =====
+    position: "center",         // "center" (mặc định) | "bottom"
+    side: "auto",               // "auto" | "left" | "right"
+    offsetTop: 0,               // px (chỉnh khi cần né header)
+    offsetBottom: 0             // px (chỉnh khi cần né footer)
   };
   const ORG = (window.MotoAI_CONFIG||{});
   if(!ORG.zalo && (ORG.phone||DEF.phone)) ORG.zalo = 'https://zalo.me/' + String(ORG.phone||DEF.phone).replace(/\s+/g,'');
@@ -179,12 +185,15 @@
   }
   function hideTyping(){ const d=$('#mta-typing'); if(d) d.remove(); if(typingBlinkTimer){ clearInterval(typingBlinkTimer); typingBlinkTimer=null; } }
 
-  /* Auto-avoid */
+  /* Auto-avoid baseline (giữ để ko phá giao diện khác) */
   function checkObstacles(){
     const root = $('#mta-root'); if(!root) return;
-    let bottom = 'calc(18px + env(safe-area-inset-bottom, 0))';
-    if(window.visualViewport && window.visualViewport.height < window.innerHeight - 120) bottom = '110px';
-    root.style.bottom = bottom; root.style.right = '16px'; root.style.left = 'auto';
+    // khi position=bottom, mới dùng auto-avoid
+    if(CFG.position === 'bottom'){
+      let bottom = 'calc(18px + env(safe-area-inset-bottom, 0))';
+      if(window.visualViewport && window.visualViewport.height < window.innerHeight - 120) bottom = '110px';
+      root.style.bottom = bottom;
+    }
   }
 
   /* ====== 5) SMART ENGINE (Bilingual + Pricing + Memory 5) ====== */
@@ -250,15 +259,7 @@
       return s.charAt(0).toUpperCase()+s.slice(1)+tail;
     },
 
-    kbIndex(){ // flatten KB from learn cache
-      const cache = safe(localStorage.getItem(K.learn)) || {};
-      const out = [];
-      Object.keys(cache).forEach(domain=>{
-        const p = cache[domain] && cache[domain].pages || [];
-        p.forEach(pg => out.push(Object.assign({domain}, pg)));
-      });
-      return out;
-    },
+    kbIndex(){ const cache = safe(localStorage.getItem(K.learn)) || {}; const out=[]; Object.keys(cache).forEach(origin=>{ (cache[origin].pages||[]).forEach(pg=> out.push(Object.assign({origin}, pg))); }); return out; },
     kbSnippet(query, lang){
       const idx = this.kbIndex();
       if(!idx.length) return null;
@@ -361,17 +362,14 @@
 
   function bindUI(){
     const hour=new Date().getHours(); if(hour>19||hour<6) document.body.classList.add('ai-night');
-    // Inject once
     injectUI(); checkObstacles();
+
     $('#mta-bubble').addEventListener('click', ()=>{ openChat(); });
     $('#mta-backdrop').addEventListener('click', closeChat);
     $('#mta-close').addEventListener('click', closeChat);
     $('#mta-clear').addEventListener('click', clearChat);
     $('#mta-send').addEventListener('click', ()=>{ const v=($('#mta-in').value||'').trim(); if(!v) return; $('#mta-in').value=''; sendUser(v); });
     $('#mta-in').addEventListener('keydown',(e)=>{ if(e.key==='Enter' && !e.shiftKey){ e.preventDefault(); const v=($('#mta-in').value||'').trim(); if(!v) return; $('#mta-in').value=''; sendUser(v); }});
-    window.addEventListener('resize', checkObstacles, {passive:true});
-    window.addEventListener('scroll', checkObstacles, {passive:true});
-    if(window.visualViewport) window.visualViewport.addEventListener('resize', checkObstacles, {passive:true});
 
     // tags
     const track = document.getElementById('tagTrack'), box = document.getElementById('mta-tags');
@@ -506,9 +504,48 @@
     return results;
   }
 
-  /* ====== 8) BOOT ====== */
+  /* ====== 8) PLACEMENT PATCH (center/bottom + auto side) ====== */
+  function applyPlacement(){
+    const root = $('#mta-root');
+    const card = $('#mta-card');
+    if(!root || !card) return;
+
+    // auto choose side if needed
+    let side = CFG.side;
+    if(side === 'auto'){
+      const rightBlock = document.querySelector('.quick-call, #quick-call, .call-floating, .zalo-fab, .fab-right');
+      side = rightBlock ? 'left' : 'right';
+    }
+    root.style.left  = (side==='left')  ? '16px' : 'auto';
+    root.style.right = (side==='right') ? '16px' : 'auto';
+
+    // inject/refresh style overrides
+    let st = document.getElementById('mta-pos-style');
+    if(!st){ st = document.createElement('style'); st.id='mta-pos-style'; document.head.appendChild(st); }
+
+    if(CFG.position === 'center'){
+      st.textContent = `
+        #mta-root{ top:50% !important; bottom:auto !important; transform:translateY(-50%) !important; margin-top:${CFG.offsetTop}px !important; }
+        #mta-card{ top:50% !important; bottom:auto !important; right:auto; left:auto; transform:translateY(-120%) !important; }
+        #mta-card.open{ transform:translateY(-50%) !important; }
+      `;
+    }else{
+      // bottom mode (giữ nguyên hành vi cũ)
+      st.textContent = `
+        #mta-root{ top:auto !important; bottom:calc(18px + env(safe-area-inset-bottom,0)) !important; transform:none !important; margin-bottom:${CFG.offsetBottom}px !important; }
+        #mta-card{ bottom:16px !important; transform:translateY(110%) !important; }
+        #mta-card.open{ transform:translateY(0) !important; }
+      `;
+    }
+  }
+
+  /* ====== 9) BOOT ====== */
   ready(async ()=>{
     injectUI(); bindUI();
+    applyPlacement();
+    window.addEventListener('resize', applyPlacement, {passive:true});
+    window.addEventListener('scroll', applyPlacement, {passive:true});
+
     console.log('%cMotoAI v31 SmartPolite-Multisite — UI ready','color:#0084FF;font-weight:bold;');
     if(CFG.autolearn){
       const sites = Array.from(new Set([location.origin, ...(CFG.extraSites||[])]));
@@ -516,7 +553,7 @@
     }
   });
 
-  /* ====== 9) EXPOSE SMALL API ====== */
+  /* ====== 10) EXPOSE SMALL API ====== */
   window.MotoAI_v31 = {
     open: ()=>{ try{ openChat(); }catch(e){} },
     close: ()=>{ try{ closeChat(); }catch(e){} }
