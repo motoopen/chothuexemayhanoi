@@ -1,14 +1,15 @@
-/* motoai_v31_smartpolite_multisite.js
-   UI v22c (bubble + card + tags) • SmartPolite Bilingual • SmartPricing • Memory(5)
-   • Typing 3–6s • AutoLearn MultiSite (sitemap + fallback HTML) • Safe cache
-   • NEW: Position patch (center/bottom), auto side (left/right), offsets — no UI color/shape change
-   NOTE: Override config via window.MotoAI_CONFIG BEFORE this script loads.
+/* motoai_v31_merged_stable_ui.js
+   MOTOAI v31 (Gộp theo yêu cầu)
+   - UI Engine: Lấy 100% của v26/v22c (Giao diện Messenger ổn định, né vật cản, an toàn iOS)
+   - AI Engine:  Lấy 100% của v31 (SmartPolite, SmartPricing, Bilingual, Memory, AutoLearn sâu)
+   - Tác giả: Motoopen (Tuấn Tú) - Gộp bởi AI
 */
 (function(){
+  // ===== Guard của v31
   if (window.MotoAI_v31_MULTI_LOADED) return;
   window.MotoAI_v31_MULTI_LOADED = true;
 
-  /* ====== 1) CONFIG (merge với window.MotoAI_CONFIG nếu có) ====== */
+  /* ====== 1) CONFIG (Lấy từ v31, BỎ các tùy chọn vị trí) ====== */
   const DEF = {
     brand: "Thuê Xe Máy Hà Nội",
     phone: "0857255868",
@@ -26,17 +27,13 @@
     maxTotalPages: 300,
     fetchTimeoutMs: 10000,
     fetchPauseMs: 180,
-    // ===== NEW placement options =====
-    position: "center",         // "center" (mặc định) | "bottom"
-    side: "auto",               // "auto" | "left" | "right"
-    offsetTop: 0,               // px (chỉnh khi cần né header)
-    offsetBottom: 0             // px (chỉnh khi cần né footer)
+    // ===== ĐÃ XÓA các tùy chọn v31: position, side, offset (để dùng logic v26)
   };
   const ORG = (window.MotoAI_CONFIG||{});
   if(!ORG.zalo && (ORG.phone||DEF.phone)) ORG.zalo = 'https://zalo.me/' + String(ORG.phone||DEF.phone).replace(/\s+/g,'');
   const CFG = Object.assign({}, DEF, ORG);
 
-  /* ====== 2) UTILS & STORAGE ====== */
+  /* ====== 2) UTILS & STORAGE (Lấy từ v31) ====== */
   const $ = s => document.querySelector(s);
   const safe = s => { try{ return JSON.parse(s); }catch(e){ return null; } };
   const sleep = ms => new Promise(r => setTimeout(r, ms));
@@ -44,12 +41,12 @@
   const toURL = u => { try { return new URL(u); } catch(e) { return null; } };
   const sameHost = (u, origin)=> { try{ return new URL(u).host === new URL(origin).host; }catch(e){ return false; } };
 
-  const K = {
+  const K = { // Keys của v31
     sess: 'MotoAI_v31_session',
-    learn:'MotoAI_v31_learn'   // { origin: { ts, pages:[{url,title,text}] } }
+    learn:'MotoAI_v31_learn'
   };
 
-  /* ====== 3) UI v22c (auto inject) ====== */
+  /* ====== 3) UI v22c (HTML và CSS giữ nguyên, cả 2 bản đều dùng chung) ====== */
   const ui = `
   <div id="mta-root" aria-live="polite">
     <button id="mta-bubble" aria-label="Mở chat" title="Chat">
@@ -159,7 +156,7 @@
     else document.addEventListener("DOMContentLoaded", fn);
   }
 
-  /* ====== 4) SESSION UI HELPERS ====== */
+  /* ====== 4) SESSION UI HELPERS (Lấy từ v31) ====== */
   function addMsg(role,text){
     if(!text) return;
     const el = document.createElement('div'); el.className = 'm-msg '+(role==='user'?'user':'bot'); el.textContent = text;
@@ -175,7 +172,7 @@
     else addMsg('bot', `Chào bạn 👋, mình là trợ lý của ${CFG.brand}. Bạn muốn xem 🏍️ Xe số, 🛵 Xe ga, ⚡ Xe điện hay 📄 Thủ tục?`);
   }
 
-  /* Typing indicator */
+  /* Typing indicator (Lấy từ v31) */
   let typingBlinkTimer=null;
   function showTyping(){
     const d=document.createElement('div'); d.id='mta-typing'; d.className='m-msg bot'; d.textContent='Đang nhập ';
@@ -185,18 +182,46 @@
   }
   function hideTyping(){ const d=$('#mta-typing'); if(d) d.remove(); if(typingBlinkTimer){ clearInterval(typingBlinkTimer); typingBlinkTimer=null; } }
 
-  /* Auto-avoid baseline (giữ để ko phá giao diện khác) */
+  /* ====== THAY THẾ: Lấy 100% logic né vật cản của v26/v22c ====== */
   function checkObstacles(){
     const root = $('#mta-root'); if(!root) return;
-    // khi position=bottom, mới dùng auto-avoid
-    if(CFG.position === 'bottom'){
-      let bottom = 'calc(18px + env(safe-area-inset-bottom, 0))';
-      if(window.visualViewport && window.visualViewport.height < window.innerHeight - 120) bottom = '110px';
-      root.style.bottom = bottom;
+    // Phát hiện thanh điều hướng, nút gọi nhanh... (logic v26)
+    const blockers = document.querySelector('.bottom-appbar, .quick-call, #quick-call, .footer-map, #ft-coccoc-invitation-bar');
+    let bottom = 'calc(18px + env(safe-area-inset-bottom, 0))';
+    if(blockers){
+      const r = blockers.getBoundingClientRect();
+      const space = window.innerHeight - r.top; // không gian từ đỉnh của blocker xuống đáy màn hình
+      if(space > 0 && space < 120) { // Nếu blocker ở đáy và cao dưới 120px
+        bottom = `calc(${space}px + 12px + env(safe-area-inset-bottom, 0))`;
+      }
+    }
+    // Phát hiện bàn phím ảo iOS/Android (logic v26)
+    if(window.visualViewport){
+      const vv = window.visualViewport;
+      if(vv.height < window.innerHeight - 80) { // 80px là ngưỡng an toàn
+        const newBottom = (window.innerHeight - vv.offsetTop - vv.height) + 10;
+        bottom = `${newBottom}px`;
+        
+        if(isOpen && $('#mta-card')) {
+            const card = $('#mta-card');
+            card.style.bottom = `${newBottom}px`;
+            root.style.bottom = `${newBottom}px`;
+        } else {
+             root.style.bottom = bottom;
+             if($('#mta-card')) $('#mta-card').style.bottom = '16px'; 
+        }
+      } else {
+         root.style.bottom = bottom; 
+         if($('#mta-card')) $('#mta-card').style.bottom = '16px';
+      }
+    } else {
+       root.style.bottom = bottom; // Fallback cho browser cũ
     }
   }
+  /* ====== HẾT PHẦN THAY THẾ ====== */
 
-  /* ====== 5) SMART ENGINE (Bilingual + Pricing + Memory 5) ====== */
+
+  /* ====== 5) SMART ENGINE (Lấy 100% của v31) ====== */
   const Engine = {
     phone: CFG.phone, map: CFG.map, brand: CFG.brand,
     memory: [], maxMemory: 5,
@@ -344,11 +369,25 @@
     }
   };
 
-  /* ====== 6) SEND FLOW (typing 3–6s, tags, events) ====== */
+  /* ====== 6) SEND FLOW (Lấy từ v31, dùng Engine v31) ====== */
   let isOpen=false, sending=false;
   function openChat(){ if(isOpen) return; $('#mta-card').classList.add('open'); $('#mta-backdrop').classList.add('show'); $('#mta-bubble').style.display='none'; isOpen=true; renderSess(); setTimeout(()=>{ try{ $('#mta-in').focus(); }catch(e){} }, 120); }
   function closeChat(){ if(!isOpen) return; $('#mta-card').classList.remove('open'); $('#mta-backdrop').classList.remove('show'); $('#mta-bubble').style.display='flex'; isOpen=false; hideTyping(); }
-  function clearChat(){ try{ localStorage.removeItem(K.sess); }catch(e){}; $('#mta-body').innerHTML=''; addMsg('bot', "Đã xóa hội thoại, mình hỗ trợ lại từ đầu bạn nhé."); }
+  function clearChat(){ 
+    try{ 
+      localStorage.removeItem(K.sess); 
+      // Xóa cache learn của v31
+      localStorage.removeItem(K.learn); 
+    }catch(e){}; 
+    $('#mta-body').innerHTML=''; 
+    addMsg('bot', "Đã xóa hội thoại và cache. Cache sẽ được học lại."); 
+    // Học lại theo logic v31
+    if(CFG.autolearn){
+      const sites = Array.from(new Set([location.origin, ...(CFG.extraSites||[])]));
+      (async()=>{ try{ await learnSites(sites, true); console.log('MotoAI v31 learn: finished (localStorage key)', K.learn); }catch(e){} })();
+    }
+  }
+
 
   async function sendUser(text){
     if(sending) return; sending=true;
@@ -360,9 +399,10 @@
     sending=false;
   }
 
+  // Gộp hàm bindUI (lấy logic tag của v31, bỏ logic placement)
   function bindUI(){
     const hour=new Date().getHours(); if(hour>19||hour<6) document.body.classList.add('ai-night');
-    injectUI(); checkObstacles();
+    // injectUI(); checkObstacles(); // Đã chuyển ra hàm ready()
 
     $('#mta-bubble').addEventListener('click', ()=>{ openChat(); });
     $('#mta-backdrop').addEventListener('click', closeChat);
@@ -371,7 +411,7 @@
     $('#mta-send').addEventListener('click', ()=>{ const v=($('#mta-in').value||'').trim(); if(!v) return; $('#mta-in').value=''; sendUser(v); });
     $('#mta-in').addEventListener('keydown',(e)=>{ if(e.key==='Enter' && !e.shiftKey){ e.preventDefault(); const v=($('#mta-in').value||'').trim(); if(!v) return; $('#mta-in').value=''; sendUser(v); }});
 
-    // tags
+    // tags (logic v31, giống v26)
     const track = document.getElementById('tagTrack'), box = document.getElementById('mta-tags');
     if(track && box){
       track.querySelectorAll('button').forEach(b=> b.addEventListener('click', ()=> sendUser(b.dataset.q)));
@@ -394,7 +434,7 @@
     }
   }
 
-  /* ====== 7) AUT0LEARN (sitemap + fallback HTML, cache) ====== */
+  /* ====== 7) AUT0LEARN (Lấy 100% của v31) ====== */
   async function fetchText(url, opts={}){
     const controller = new AbortController();
     const id = setTimeout(()=>controller.abort(), CFG.fetchTimeoutMs);
@@ -504,56 +544,34 @@
     return results;
   }
 
-  /* ====== 8) PLACEMENT PATCH (center/bottom + auto side) ====== */
-  function applyPlacement(){
-    const root = $('#mta-root');
-    const card = $('#mta-card');
-    if(!root || !card) return;
+  /* ====== 8) PLACEMENT PATCH (ĐÃ XÓA) ====== */
+  // (Đã xóa hàm applyPlacement() của v31)
 
-    // auto choose side if needed
-    let side = CFG.side;
-    if(side === 'auto'){
-      const rightBlock = document.querySelector('.quick-call, #quick-call, .call-floating, .zalo-fab, .fab-right');
-      side = rightBlock ? 'left' : 'right';
-    }
-    root.style.left  = (side==='left')  ? '16px' : 'auto';
-    root.style.right = (side==='right') ? '16px' : 'auto';
-
-    // inject/refresh style overrides
-    let st = document.getElementById('mta-pos-style');
-    if(!st){ st = document.createElement('style'); st.id='mta-pos-style'; document.head.appendChild(st); }
-
-    if(CFG.position === 'center'){
-      st.textContent = `
-        #mta-root{ top:50% !important; bottom:auto !important; transform:translateY(-50%) !important; margin-top:${CFG.offsetTop}px !important; }
-        #mta-card{ top:50% !important; bottom:auto !important; right:auto; left:auto; transform:translateY(-120%) !important; }
-        #mta-card.open{ transform:translateY(-50%) !important; }
-      `;
-    }else{
-      // bottom mode (giữ nguyên hành vi cũ)
-      st.textContent = `
-        #mta-root{ top:auto !important; bottom:calc(18px + env(safe-area-inset-bottom,0)) !important; transform:none !important; margin-bottom:${CFG.offsetBottom}px !important; }
-        #mta-card{ bottom:16px !important; transform:translateY(110%) !important; }
-        #mta-card.open{ transform:translateY(0) !important; }
-      `;
-    }
-  }
-
-  /* ====== 9) BOOT ====== */
+  /* ====== 9) BOOT (Gộp v31 + v26) ====== */
   ready(async ()=>{
-    injectUI(); bindUI();
-    applyPlacement();
-    window.addEventListener('resize', applyPlacement, {passive:true});
-    window.addEventListener('scroll', applyPlacement, {passive:true});
+    injectUI();
+    bindUI();
+    
+    // ===== Lấy logic Boot UI của v26/v22c =====
+    checkObstacles(); // Chạy lần đầu
+    window.addEventListener('resize', checkObstacles, {passive:true});
+    window.addEventListener('scroll', checkObstacles, {passive:true});
+    if(window.visualViewport) window.visualViewport.addEventListener('resize', checkObstacles, {passive:true});
 
-    console.log('%cMotoAI v31 SmartPolite-Multisite — UI ready','color:#0084FF;font-weight:bold;');
+    // Watchdog (từ v26/v22c)
+    setTimeout(()=>{ if(!$('#mta-bubble')) injectUI(); }, 2500);
+    // ===== Hết logic Boot v26 =====
+
+    console.log('%cMotoAI v31 (Engine) + v26 (UI) Merge — Active','color:#0084FF;font-weight:bold;');
+    
+    // Logic AutoLearn của v31
     if(CFG.autolearn){
       const sites = Array.from(new Set([location.origin, ...(CFG.extraSites||[])]));
       (async()=>{ try{ await learnSites(sites, false); console.log('MotoAI v31 learn: finished (localStorage key)', K.learn); }catch(e){} })();
     }
   });
 
-  /* ====== 10) EXPOSE SMALL API ====== */
+  /* ====== 10) EXPOSE API (Lấy của v31) ====== */
   window.MotoAI_v31 = {
     open: ()=>{ try{ openChat(); }catch(e){} },
     close: ()=>{ try{ closeChat(); }catch(e){} }
