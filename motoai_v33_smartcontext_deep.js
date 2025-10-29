@@ -180,7 +180,8 @@
     body.innerHTML = '';
     const arr = safe(localStorage.getItem(K.sess))||[];
     if(arr.length) arr.forEach(m=> addMsg(m.role,m.text));
-    else addMsg('bot', enforceVietnamese(`Xin chào 👋, em là nhân viên hỗ trợ của ${CFG.brand}. Anh/chị cần xem Xe số/ Xe ga/ Xe điện/ Thủ tục hay Bảng giá ạ?`));
+    // [YÊU CẦU THAY ĐỔI] Xóa 'ạ?'
+    else addMsg('bot', enforceVietnamese(`Xin chào 👋, em là nhân viên hỗ trợ của ${CFG.brand}. Anh/chị cần xem Xe số/ Xe ga/ Xe điện/ Thủ tục hay Bảng giá?`));
   }
   function pushContext(delta){
     try{
@@ -247,10 +248,13 @@
   }
 
   // ===== Deep Compose
+  // [YÊU CẦU THAY ĐỔI] Giữ nguyên PREFIX
   const PREFIX = ["Chào anh/chị,","Xin chào 👋,","Em chào anh/chị nhé,","Rất vui được hỗ trợ anh/chị,"];
-  const SUFFIX = [" ạ."," nhé ạ."," nha anh/chị."," ạ, cảm ơn anh/chị."];
+  // [YÊU CẦU THAY ĐỔI] Làm sạch SUFFIX, bỏ 'ạ', 'nhé ạ', giữ 'nhé.', 'nha.', '. Cảm ơn...'
+  const SUFFIX = [".", " nhé.", " nha.", ". Cảm ơn anh/chị."];
   const pick = a => a[Math.floor(Math.random()*a.length)];
 
+  // [YÊU CẦU THAY ĐỔI] Sửa câu fallback (dù câu gốc đã ổn, kiểm tra lại)
   function polite(s){ s=(s||"").trim(); if(!s) s="em chưa nhận được câu hỏi, anh/chị thử nhập lại giúp em nhé."; return `${pick(PREFIX)} ${s}${pick(SUFFIX)}`; }
 
   function deepAnswer(userText){
@@ -280,21 +284,25 @@
 
     // 4) Câu chung
     if(/(chào|xin chào|hello|hi|alo)/i.test(lower)){
-      return polite(`em là nhân viên hỗ trợ của ${CFG.brand}. Anh/chị muốn xem 🏍️ Xe số, 🛵 Xe ga, ⚡ Xe điện hay 📄 Thủ tục thuê xe ạ?`);
+      // [YÊU CẦU THAY ĐỔI] Xóa 'ạ?'
+      return polite(`em là nhân viên hỗ trợ của ${CFG.brand}. Anh/chị muốn xem 🏍️ Xe số, 🛵 Xe ga, ⚡ Xe điện hay 📄 Thủ tục thuê xe?`);
     }
 
     // 5) Gợi mở tự nhiên
-    return polite(`anh/chị quan tâm loại xe nào (xe số, Vision, Air Blade, 50cc, côn tay…) và thuê mấy ngày để em báo giá phù hợp ạ.`);
+    // [YÊU CẦU THAY ĐỔI] Xóa 'ạ.'
+    return polite(`anh/chị quan tâm loại xe nào (xe số, Vision, Air Blade, 50cc, côn tay…) và thuê mấy ngày để em báo giá phù hợp.`);
   }
 
   function composePrice(type, qty){
     if(!type) type = 'xe số';
-    if(!qty)  return polite(`Giá ${type} khoảng ${summariseType(type)}. Anh/chị thuê mấy ngày để em tính ước tính tổng giúp ạ?`);
+    // [YÊU CẦU THAY ĐỔI] Xóa 'ạ?'
+    if(!qty)  return polite(`Giá ${type} khoảng ${summariseType(type)}. Anh/chị thuê mấy ngày để em tính ước tính tổng giúp?`);
     const base = baseFor(type, qty.unit);
     if(!base)  return polite(`Giá theo ${qty.unit} của ${type} hiện chưa có trong bảng. Anh/chị liên hệ Zalo ${CFG.phone} để báo giá chính xác giúp em nhé.`);
     const total = base * qty.n;
     const label = qty.unit==='ngày'?`${qty.n} ngày`:qty.unit==='tuần'?`${qty.n} tuần`:`${qty.n} tháng`;
-    return polite(`Giá dự kiến thuê ${type} ${label} khoảng ${nfVND(total)}đ (ước tính). Anh/chị có thể liên hệ Zalo ${CFG.phone} để xem xe và nhận giá chính xác nhất ạ.`);
+    // [YÊU CẦU THAY ĐỔI] Xóa 'ạ.'
+    return polite(`Giá dự kiến thuê ${type} ${label} khoảng ${nfVND(total)}đ (ước tính). Anh/chị có thể liên hệ Zalo ${CFG.phone} để xem xe và nhận giá chính xác nhất.`);
   }
 
   // ===== AutoLearn (lọc nội dung Việt cơ bản)
@@ -439,7 +447,10 @@
 
   function openChat(){ if(isOpen) return; $('#mta-card').classList.add('open'); $('#mta-backdrop').classList.add('show'); $('#mta-bubble').style.display='none'; isOpen=true; renderSess(); setTimeout(()=>{ try{$('#mta-in').focus();}catch{} }, 140); }
   function closeChat(){ if(!isOpen) return; $('#mta-card').classList.remove('open'); $('#mta-backdrop').classList.remove('show'); $('#mta-bubble').style.display='flex'; isOpen=false; hideTyping(); }
-  function clearChat(){ try{ localStorage.removeItem(K.sess); localStorage.removeItem(K.ctx); }catch{}; $('#mta-body').innerHTML=''; addMsg('bot', enforceVietnamese('Đã xóa hội thoại, em sẵn sàng hỗ trợ lại ạ.')); }
+  function clearChat(){ try{ localStorage.removeItem(K.sess); localStorage.removeItem(K.ctx); }catch{}; $('#mta-body').innerHTML=''; 
+    // [YÊU CẦU THAY ĐỔI] Xóa 'ạ.'
+    addMsg('bot', enforceVietnamese('Đã xóa hội thoại, em sẵn sàng hỗ trợ lại.')); 
+  }
 
   async function sendUser(text){
     if(sending) return; sending=true;
