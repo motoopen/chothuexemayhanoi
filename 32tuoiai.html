@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Test MotoAI v32</title>
+  <style>body{font-family:Inter,Arial,Helvetica,sans-serif;padding:24px;background:#f6f8fb}</style>
+</head>
+<body>
+  <h2>Test MotoAI v32 — Messenger Smart</h2>
+  <p>Mở trang, click nút chat (bên phải dưới) để thử. Một số thao tác test:</p>
+  <ul>
+    <li>Ấn tag: "Xe ga" / "Bảng giá"</li>
+    <li>Gõ "Thuê 3 ngày xe ga" hoặc "Thủ tục" để kiểm tra trả lời</li>
+    <li>Kiểm tra nút map (📍) nếu muốn disable, set <code>window.MotoAI_CONFIG.disableQuickMap = true</code> trước khi load script</li>
+  </ul>
+
+  <!-- Optionally override config before loading script -->
+  <script>
+    window.MotoAI_CONFIG = {
+      brand: "Thuê Xe Máy Hà Nội",
+      phone: "0857255868",
+      // disable quick map if you want:
+      // disableQuickMap: true,
+      // debugSmart: true,
+      extraSites: [
+        "https://motoopen.github.io/chothuexemayhanoi/",
+        "https://thuexemaynguyentu.com",
+        "https://rentbikehanoi.com"
+      ]
+    };
+  </script>
+
+  <!-- Inline include: paste the motoai_v32_messenger_smart.js content here OR load as file -->
+  <script>
+    /* Paste the motoai_v32_messenger_smart.js content here (or link it externally) */
+  </script>
+</body>
+</html>
