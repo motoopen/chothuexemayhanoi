@@ -20,6 +20,7 @@
     extraSites: [
       "https://motoopen.github.io/chothuexemayhanoi/",
       "https://thuexemaynguyentu.com",
+      "https://rentbikehanoi.com"
     ],
     crawlDepth: 1, // (giữ từ v26, dù v31 engine ko dùng)
     refreshHours: 24,
@@ -645,4 +646,5 @@
     getIndex: function(){ return Engine.kbIndex(); },
     clearLearnCache: function(){ try{ localStorage.removeItem(K.learn); console.log('MotoAI v31 learn cache cleared'); }catch(e){} }
   };
+
 })();
