@@ -1,5 +1,3 @@
-<!-- DÁN TRỰC TIẾP VÀO FILE JS: motoai_v34_naturaltone_deeplearn.js -->
-<script>
 /* motoai_v34_naturaltone_deeplearn.js
    UI Messenger (v32) + SmartContext-Deep (v33) + NaturalTone (v34)
    - Giữ UI v32, engine hiểu ngữ cảnh sâu, học sitemap/fallback, lọc tiếng Việt
@@ -524,4 +522,3 @@
     clearLearnCache: ()=> { try{ localStorage.removeItem(K.learn); }catch{} }
   };
 })();
-</script>
