@@ -786,22 +786,7 @@
     requestAnimationFrame(()=> document.body.style.opacity = 1);
   });
   </script>
-  <!-- 🧩 Cấu hình -->
-  <script>
-    window.MotoAI_CONFIG = {
-      brand: "Thuê Xe Máy Hà Nội",
-      phone: "0857255868",
-      avatar: "👩‍💼",
-      themeColor: "#0084FF",
-      autolearn: false, // demo không cần crawl site
-      viOnly: true,
-      deepContext: true
-    };
-  </script>
-
-  <!-- 🧠 Nhúng MotoAI -->
-  <script src="https://motoopen.github.io/chothuexemayhanoi/motoai_v34_naturaltone_deeplearn.js" defer></script>
-</head>
+  
 <body>
   <!-- TOÀN BỘ HEADER, DRAWER, TOC GIỮ NGUYÊN -->
   <header class="topbar" id="topbar" role="banner">
@@ -1429,6 +1414,33 @@
   });
 })();
 </script>
+
+  <!-- MotoAI v36 — Embed (dán sát trước </body>) -->
+<script>
+  window.MotoAI_CONFIG = {
+    brand: "Thuê Xe Máy Hà Nội",
+    phone: "0857255868",
+    zalo: "https://zalo.me/0857255868",
+
+    /* Học 4 site + 1 page + RSS fanpage (có thể bớt/đổi) */
+    extraSites: [
+      location.origin,
+      "https://motoopen.github.io/chothuexemayhanoi/",
+      "https://thuexemaynguyentu.com",
+      "https://rentbikehanoi.com",
+      "https://athanoi.github.io/moto/",
+      "https://rss.app/feeds/lxWNOl4IZmAOM56r.xml"  // Fanpage RSS (tùy chọn)
+    ],
+
+    viOnly: true,
+    deepContext: true,
+    autolearn: true,
+    disableQuickMap: false,
+    themeColor: "#0084FF",
+    maxContextTurns: 5
+  };
+</script>
+<script src="https://motoopen.github.io/chothuexemayhanoi/motoai_v36_smarttone_deep.js" defer></script>
 
 </body>
 </html>
