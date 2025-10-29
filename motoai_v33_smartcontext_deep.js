@@ -1,9 +1,7 @@
-/* motoai_v33_smartcontext_deep.js
-   Messenger UI (giữ nguyên v32) + SmartContext-Deep + VN-only + Auto-avoid quick-call
-   - Nhớ ngữ cảnh 5 lượt, trích entity (loại xe, thời lượng, giá, liên hệ)
-   - Trả lời lịch sự, chỉ tiếng Việt (nếu viOnly=true)
-   - AutoLearn: đọc sitemap/fallback links nhưng lọc text Việt cơ bản
-   - Né Quick-Call / appbar / keyboard (visualViewport)
+/* motoai_v33_hybrid_ui_v32.js
+   Hybrid: Lấy UI/UX (markup + CSS) chuẩn Messenger của v32, áp dụng vào logic SmartContext-Deep của v33
+   Đã đổi ID/Class v32 (mta32- / m32-) thành v33 (mta- / m-) để khớp logic.
+   Giữ nguyên logic SmartContext/VN-only/Bảng giá/Né quick-call của v33.
 */
 (function(){
   if (window.MotoAI_v33_LOADED) return; window.MotoAI_v33_LOADED = true;
@@ -13,8 +11,8 @@
     brand: "Motoopen",
     phone: "0857255868",
     zalo:  "",
-    map:   "",
-    avatar: "👩‍💼",
+    map:   "https://maps.app.goo.gl/2icTBTxAToyvKTE78", // Lấy lại map default của v32
+    avatar: "🤖", // Lấy lại avatar default của v32
     themeColor: "#0084FF",
     autolearn: true,
     deepContext: true,
@@ -26,7 +24,8 @@
     maxPagesPerDomain: 60,
     maxTotalPages: 220,
     fetchTimeoutMs: 9000,
-    fetchPauseMs: 180
+    fetchPauseMs: 180,
+    disableQuickMap: false // Giữ lại cờ disableQuickMap của v32
   };
   const ORG = (window.MotoAI_CONFIG||{});
   if(!ORG.zalo && (ORG.phone||DEF.phone)) ORG.zalo = 'https://zalo.me/' + String(ORG.phone||DEF.phone).replace(/\s+/g,'');
@@ -39,74 +38,67 @@
   const nowSec = ()=> Math.floor(Date.now()/1000);
   const nfVND = n => (n||0).toLocaleString('vi-VN');
   const clamp = (n,min,max)=> Math.max(min, Math.min(max,n));
+  const pick = a => a[Math.floor(Math.random()*a.length)]; // Dùng lại pick
 
-  // VN-only heuristic: nếu viOnly=true, loại bớt câu quá "Tây"
+  // VN-only heuristic
   function enforceVietnamese(text){
     if(!CFG.viOnly) return text;
-    // Nếu phát hiện nhiều token a-z dài + không dấu -> vẫn cho qua, nhưng ưu tiên giữ câu bó gọn và thêm hạt Việt.
-    // Ở bản rule-based, ta luôn sinh output thuần Việt nên chỉ cần trả về text.
-    return text;
+    return text; // Giữ nguyên logic đơn giản của v33
   }
 
-  // ===== Storage keys
+  // ===== Storage keys (Giữ nguyên v33)
   const K = {
     sess: 'MotoAI_v33_session',
-    ctx:  'MotoAI_v33_ctx',       // ngữ cảnh sâu (entities)
-    learn:'MotoAI_v33_learn'      // { origin: { ts, pages:[{url,title,text}] } }
+    ctx:  'MotoAI_v33_ctx',
+    learn:'MotoAI_v33_learn'
   };
 
-  // ===== UI (Messenger giữ nguyên, thêm avatar & theme)
-  const css = `
-  :root{--mta-z:2147483647;--m-bg:#fff;--m-text:#0b1220;--m-blue:${CFG.themeColor}}
-  #mta-root{position:fixed;right:16px;bottom:calc(18px + env(safe-area-inset-bottom,0));z-index:var(--mta-z);font-family:-apple-system,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial}
+  // ====== CSS (Messenger-like, ID đã đổi thành mta-)
+  const css = `:root{--mta-z:2147483647;--m-blue:#0084FF;--m-blue2:#00B2FF;--m-bg:#fff;--m-text:#0b1220}
+  #mta-root{position:fixed;right:16px;bottom:calc(18px + env(safe-area-inset-bottom,0));z-index:var(--mta-z);font-family:-apple-system,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;transition:bottom .25s ease,right .25s ease}
   #mta-bubble{width:60px;height:60px;border:none;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 10px 26px rgba(0,0,0,.2);outline:3px solid #fff}
-  #mta-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.2);opacity:0;pointer-events:none;transition:opacity .18s ease}
+  #mta-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.18);opacity:0;pointer-events:none;transition:opacity .18s ease}
   #mta-backdrop.show{opacity:1;pointer-events:auto}
   #mta-card{position:fixed;right:16px;bottom:16px;width:min(420px,calc(100% - 24px));height:70vh;max-height:740px;background:var(--m-bg);color:var(--m-text);border-radius:18px;box-shadow:0 14px 40px rgba(0,0,0,.25);transform:translateY(110%);opacity:.99;display:flex;flex-direction:column;overflow:hidden;transition:transform .20s cubic-bezier(.22,1,.36,1)}
   #mta-card.open{transform:translateY(0)}
-  #mta-header{background:linear-gradient(90deg,var(--m-blue),#00B2FF);color:#fff}
+  #mta-header{background:linear-gradient(90deg,var(--m-blue),var(--m-blue2));color:#fff}
   #mta-header .brand{display:flex;align-items:center;justify-content:space-between;padding:10px 12px}
   #mta-header .left{display:flex;align-items:center;gap:10px}
-  .avatar{width:28px;height:28px;border-radius:50%;background:rgba(255,255,255,.2);display:flex;align-items:center;justify-content:center}
+  .avatar{width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,.18);display:flex;align-items:center;justify-content:center;font-size:18px}
   .info .name{font-weight:800;line-height:1}
-  .info .sub{font-size:12px;opacity:.9}
+  .info .sub{font-size:12px;opacity:.95}
   .quick{display:flex;gap:6px;margin-left:auto;margin-right:6px}
-  .q{width:28px;height:28px;border-radius:8px;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-size:12px;font-weight:700;background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.25)}
+  .q{width:34px;height:34px;border-radius:8px;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-size:12px;font-weight:700;background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.18)}
   #mta-close{background:none;border:none;font-size:20px;color:#fff;cursor:pointer;opacity:.95}
-  #mta-body{flex:1;overflow:auto;padding:14px 12px;background:#E9EEF5}
-  .m-msg{max-width:80%;margin:8px 0;padding:9px 12px;border-radius:18px;line-height:1.45;box-shadow:0 1px 2px rgba(0,0,0,.05)}
+  #mta-body{flex:1;overflow:auto;padding:14px 12px;background:#F0F2F5}
+  .m-msg{max-width:80%;margin:8px 0;padding:10px 12px;border-radius:16px;line-height:1.45;box-shadow:0 1px 2px rgba(0,0,0,.04);word-break:break-word}
   .m-msg.bot{background:#fff;color:#111;border:1px solid rgba(0,0,0,.04)}
-  .m-msg.user{background:#0084FF;color:#fff;margin-left:auto;border:1px solid rgba(0,0,0,.05)}
-  #mta-typing{display:inline-flex;gap:6px;align-items:center}
+  .m-msg.user{background:linear-gradient(90deg,var(--m-blue),var(--m-blue2));color:#fff;margin-left:auto;border:1px solid rgba(0,0,0,.03)}
+  #mta-typing{display:inline-flex;gap:6px;align-items:center;padding:10px 12px;border-radius:16px;background:#fff;color:#111;border:1px solid rgba(0,0,0,.04);box-shadow:0 1px 2px rgba(0,0,0,.04)}
   #mta-typing-dots{display:inline-block;min-width:14px}
-  #mta-tags{position:relative;background:#f7f9fc;border-top:1px solid rgba(0,0,0,.06);transition:max-height .22s ease, opacity .18s ease}
-  #mta-tags.hidden{max-height:0; opacity:0; overflow:hidden;}
-  #mta-tags .tag-track{display:block;overflow-x:auto;white-space:nowrap;padding:8px 10px 10px 10px;scroll-behavior:smooth}
-  #mta-tags button{display:inline-block;margin-right:8px;padding:8px 12px;border:none;border-radius:999px;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.06);border:1px solid rgba(0,0,0,.08);font-weight:700;cursor:pointer}
-  #mta-tags button:active{transform:scale(.98)}
-  #mta-tags .fade{position:absolute;top:0;bottom:0;width:22px;pointer-events:none}
-  #mta-tags .fade-left{left:0;background:linear-gradient(90deg,#f7f9fc,rgba(247,249,252,0))}
-  #mta-tags .fade-right{right:0;background:linear-gradient(270deg,#f7f9fc,rgba(247,249,252,0))}
+  #mta-tags{position:relative;background:transparent;border-top:1px solid rgba(0,0,0,0);padding:6px 10px}
+  .tag-track{display:block;overflow-x:auto;white-space:nowrap;padding:4px 0;scroll-behavior:smooth}
+  #mta-tags button{display:inline-block;margin-right:8px;padding:8px 12px;border:none;border-radius:999px;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.06);border:1px solid rgba(0,0,0,.06);font-weight:700;cursor:pointer}
   #mta-input{display:flex;gap:8px;padding:10px;background:#fff;border-top:1px solid rgba(0,0,0,.06)}
   #mta-in{flex:1;padding:11px 12px;border-radius:20px;border:1px solid rgba(0,0,0,.12);font-size:15px;background:#F6F8FB}
-  #mta-send{width:42px;height:42px;border:none;border-radius:50%;background:linear-gradient(90deg,#0084FF,#00B2FF);color:#fff;font-weight:800;cursor:pointer;box-shadow:0 6px 18px rgba(0,132,255,.35)}
-  #mta-clear{position:absolute;top:10px;right:48px;background:none;border:none;font-size:16px;color:#fff;opacity:.9;cursor:pointer}
-  @media(max-width:520px){ #mta-card{width:calc(100% - 16px);right:8px;left:8px;height:72vh} #mta-bubble{width:56px;height:56px} }
+  #mta-send{width:44px;height:44px;border:none;border-radius:50%;background:linear-gradient(90deg,#0084FF,#00B2FF);color:#fff;font-weight:800;cursor:pointer;box-shadow:0 6px 18px rgba(0,132,255,.28)}
+  #mta-clear{position:absolute;top:12px;right:56px;background:none;border:none;font-size:16px;color:#fff;opacity:.92;cursor:pointer}
+  @media(max-width:520px){ #mta-card{width:calc(100% - 16px);right:8px;left:8px;height:74vh} #mta-bubble{width:56px;height:56px} }
   @media(prefers-color-scheme:dark){
-    :root{--m-bg:#1b1c1f;--m-text:#eaeef3}
-    #mta-body{background:#1f2127}
-    .m-msg.bot{background:#2a2d34;color:#eaeef3;border:1px solid rgba(255,255,255,.06)}
-    #mta-in{background:#16181c;color:#f0f3f7;border:1px solid rgba(255,255,255,.12)}
-    #mta-tags{background:#1f2127;border-top:1px solid rgba(255,255,255,.08)}
-    #mta-tags button{background:#2a2d34;color:#eaeef3;border:1px solid rgba(255,255,255,.10)}
-  }
-  .ai-night #mta-bubble{box-shadow:0 0 18px rgba(0,132,255,.35)!important;}
-  `;
+    :root{--m-bg:#111;--m-text:#eaeef3}
+    #mta-body{background:#0f1113}
+    .m-msg.bot{background:#18191b;color:#eaeef3}
+    #mta-typing{background:#18191b;color:#eaeef3}
+    #mta-in{background:#101214;color:#eaeef3;border:1px solid rgba(255,255,255,.06)}
+    #mta-tags button{background:#1f2124;color:#eaeef3;border:1px solid rgba(255,255,255,.06)}
+  }`;
+
+  // ====== UI markup (Messenger-like, ID đã đổi thành mta-)
   const ui = `
   <div id="mta-root" aria-live="polite">
     <button id="mta-bubble" aria-label="Mở chat" title="Chat">
       <svg viewBox="0 0 64 64" width="28" height="28" aria-hidden="true">
-        <defs><linearGradient id="mtaG" x1="0" x2="1"><stop offset="0%" stop-color="${CFG.themeColor}"/><stop offset="100%" stop-color="#00B2FF"/></linearGradient></defs>
+        <defs><linearGradient id="mtaG" x1="0" x2="1"><stop offset="0%" stop-color="#0084FF"/><stop offset="100%" stop-color="#00B2FF"/></linearGradient></defs>
         <circle cx="32" cy="32" r="28" fill="url(#mtaG)"></circle>
         <path d="M20 36l9-11 6 6 9-9-9 14-6-6-9 6z" fill="#fff"></path>
       </svg>
@@ -116,7 +108,7 @@
       <header id="mta-header">
         <div class="brand">
           <div class="left">
-            <span class="avatar">${CFG.avatar||"👩‍💼"}</span>
+            <div class="avatar">${CFG.avatar||"🤖"}</div>
             <div class="info">
               <div class="name">Nhân viên ${CFG.brand}</div>
               <div class="sub">Hỗ trợ trực tuyến</div>
@@ -130,21 +122,21 @@
           <button id="mta-close" title="Đóng" aria-label="Đóng">✕</button>
         </div>
       </header>
-      <main id="mta-body"></main>
+
+      <main id="mta-body" role="log" aria-live="polite"></main>
+
       <div id="mta-tags" role="toolbar" aria-label="Gợi ý nhanh (kéo ngang)">
         <div class="tag-track" id="tagTrack">
           <button data-q="Xe số">🏍️ Xe số</button>
           <button data-q="Xe ga">🛵 Xe ga</button>
           <button data-q="Xe điện">⚡ Xe điện</button>
           <button data-q="50cc">🚲 50cc</button>
-          <button data-q="Xe côn tay">🏍️ Côn tay</button>
           <button data-q="Thủ tục">📄 Thủ tục</button>
           <button data-q="Bảng giá">💰 Bảng giá</button>
           <button data-q="Liên hệ">☎️ Liên hệ</button>
         </div>
-        <div class="fade fade-left"></div>
-        <div class="fade fade-right"></div>
       </div>
+
       <footer id="mta-input">
         <input id="mta-in" placeholder="Nhắn tin cho ${CFG.brand}..." autocomplete="off" />
         <button id="mta-send" aria-label="Gửi">➤</button>
@@ -153,14 +145,12 @@
     </section>
   </div>`;
 
+
+  // [Khởi tạo] Inject UI
   function injectUI(){
     if ($('#mta-root')) return;
     const wrap = document.createElement('div'); wrap.innerHTML = ui; document.body.appendChild(wrap.firstElementChild);
     const st = document.createElement('style'); st.textContent = css; document.head.appendChild(st);
-  }
-  function ready(fn){
-    if(document.readyState==="complete"||document.readyState==="interactive"){ fn(); }
-    else document.addEventListener("DOMContentLoaded", fn);
   }
 
   // ===== Session & Deep Context
@@ -180,7 +170,7 @@
     body.innerHTML = '';
     const arr = safe(localStorage.getItem(K.sess))||[];
     if(arr.length) arr.forEach(m=> addMsg(m.role,m.text));
-    // ===== [EDIT] Loại bỏ 'ạ'
+    // Dùng lại lời chào v33 (loại bỏ 'ạ')
     else addMsg('bot', enforceVietnamese(`Xin chào 👋, em là nhân viên hỗ trợ của ${CFG.brand}. Anh/chị cần xem Xe số/ Xe ga/ Xe điện/ Thủ tục hay Bảng giá?`));
   }
   function pushContext(delta){
@@ -195,7 +185,7 @@
     return safe(localStorage.getItem(K.ctx)) || { turns:[] };
   }
 
-  // ===== Entity extractors
+  // ===== Entity extractors (Giữ nguyên v33)
   const TYPE_MAP = [
     {k:'air blade', re:/\bair\s*blade|airblade|ab\b/i, canon:'air blade'},
     {k:'vision',    re:/\bvision\b/i, canon:'vision'},
@@ -225,7 +215,7 @@
     };
   }
 
-  // ===== SmartCalc
+  // ===== SmartCalc (Giữ nguyên v33)
   const PRICE_TABLE = {
     'xe số':      { day:[130000,150000], week:[600000], month:[1000000,1200000] },
     'air blade':  { day:[200000], week:[800000], month:[1400000] },
@@ -247,11 +237,9 @@
     const arr=it[key]; if(!arr) return null; return arr[0];
   }
 
-  // ===== Deep Compose
+  // ===== Deep Compose (Giữ nguyên v33, đã loại bỏ 'ạ')
   const PREFIX = ["Chào anh/chị,","Xin chào 👋,","Em chào anh/chị nhé,","Rất vui được hỗ trợ anh/chị,"];
-  // ===== [EDIT] Thay đổi SUFFIX
   const SUFFIX = [".", " nhé.", " nha anh/chị.", ". Cảm ơn anh/chị."];
-  const pick = a => a[Math.floor(Math.random()*a.length)];
 
   function polite(s){ s=(s||"").trim(); if(!s) s="em chưa nhận được câu hỏi, anh/chị thử nhập lại giúp em nhé."; return `${pick(PREFIX)} ${s}${pick(SUFFIX)}`; }
 
@@ -270,7 +258,7 @@
       for(let i=ctx.turns.length-1; i>=0; i--){
         const t = ctx.turns[i];
         if(!type && t.type) type = t.type;
-        if(!qty && t.qty)   return composePrice(type, t.qty); // nếu trước đó đã có qty, khách hỏi "bao nhiêu" -> tính luôn
+        if(t.type && !qty && t.qty)   return composePrice(t.type, t.qty); // nếu trước đó đã có type và qty
         if(type && qty) break;
       }
     }
@@ -282,35 +270,31 @@
 
     // 4) Câu chung
     if(/(chào|xin chào|hello|hi|alo)/i.test(lower)){
-      // ===== [EDIT] Loại bỏ 'ạ'
       return polite(`em là nhân viên hỗ trợ của ${CFG.brand}. Anh/chị muốn xem 🏍️ Xe số, 🛵 Xe ga, ⚡ Xe điện hay 📄 Thủ tục thuê xe?`);
     }
 
     // 5) Gợi mở tự nhiên
-    // ===== [EDIT] Loại bỏ 'ạ'
     return polite(`anh/chị quan tâm loại xe nào (xe số, Vision, Air Blade, 50cc, côn tay…) và thuê mấy ngày để em báo giá phù hợp nhé.`);
   }
 
   function composePrice(type, qty){
     if(!type) type = 'xe số';
     if(!qty)  {
-      // ===== [EDIT] Loại bỏ 'ạ'
       return polite(`Giá ${type} khoảng ${summariseType(type)}. Anh/chị thuê mấy ngày để em tính ước tính tổng nhé?`);
     }
     const base = baseFor(type, qty.unit);
     if(!base)  return polite(`Giá theo ${qty.unit} của ${type} hiện chưa có trong bảng. Anh/chị liên hệ Zalo ${CFG.phone} để báo giá chính xác giúp em nhé.`);
     const total = base * qty.n;
     const label = qty.unit==='ngày'?`${qty.n} ngày`:qty.unit==='tuần'?`${qty.n} tuần`:`${qty.n} tháng`;
-    // ===== [EDIT] Loại bỏ 'ạ'
     return polite(`Giá dự kiến thuê ${type} ${label} khoảng ${nfVND(total)}đ (ước tính). Anh/chị có thể liên hệ Zalo ${CFG.phone} để xem xe và nhận giá chính xác nhất nhé.`);
   }
 
-  // ===== AutoLearn (lọc nội dung Việt cơ bản)
-  async function fetchText(url){
+  // ===== AutoLearn (Giữ nguyên v33)
+  async function fetchText(url, opts={}){
     const controller = new AbortController();
     const id = setTimeout(()=>controller.abort(), CFG.fetchTimeoutMs);
     try{
-      const res = await fetch(url, {mode:'cors', credentials:'omit', signal: controller.signal});
+      const res = await fetch(url, Object.assign({mode:'cors', credentials:'omit', signal: controller.signal}, opts));
       clearTimeout(id);
       if(!res.ok) throw new Error('status:'+res.status);
       return await res.text();
@@ -348,7 +332,6 @@
     return [start, ...Array.from(canon)];
   }
   function looksVietnamese(s){
-    // rất đơn giản: có dấu tiếng Việt hoặc nhiều từ khoá VN
     if(/[ăâêôơưđà-ỹ]/i.test(s)) return true;
     const hits = (s.match(/\b(xe|thuê|giá|liên hệ|hà nội|cọc|giấy tờ)\b/gi)||[]).length;
     return hits >= 2;
@@ -368,7 +351,6 @@
                            .trim();
         desc = bodyTxt.slice(0, 600);
       }
-      // lọc VN
       const sample = (title+' '+desc).toLowerCase();
       if(CFG.viOnly && !looksVietnamese(sample)) { await sleep(CFG.fetchPauseMs); continue; }
       pages.push({url, title, text: desc});
@@ -417,7 +399,7 @@
     return out;
   }
 
-  // Khi user hỏi mơ hồ, gợi ý thêm link trang liên quan từ index
+  // Khi user hỏi mơ hồ, gợi ý thêm link trang liên quan từ index (Giữ nguyên v33)
   function suggestFromIndex(q){
     try{
       const idx = getIndex(); if(!idx.length) return null;
@@ -438,38 +420,36 @@
   // ===== Send & Typing
   let isOpen=false, sending=false, typingBlinkTimer=null;
   function showTyping(){
+    const body=$('#mta-body'); if(!body) return;
     const d=document.createElement('div'); d.id='mta-typing'; d.className='m-msg bot'; d.textContent='Đang nhập ';
-    const dot=document.createElement('span'); dot.id='mta-typing-dots'; dot.textContent='…';
-    d.appendChild(dot); const body=$('#mta-body'); if(!body) return; body.appendChild(d); body.scrollTop = body.scrollHeight;
+    const dot=document.createElement('span'); dot.id='mta-typing-dots'; dot.textContent='…'; // Dùng cách typing của v33
+    d.appendChild(dot); body.appendChild(d); body.scrollTop = body.scrollHeight;
     let i=0; typingBlinkTimer=setInterval(()=>{ dot.textContent='.'.repeat((i++%3)+1); }, 420);
   }
   function hideTyping(){ const d=$('#mta-typing'); if(d) d.remove(); if(typingBlinkTimer){ clearInterval(typingBlinkTimer); typingBlinkTimer=null; } }
 
   function openChat(){ if(isOpen) return; $('#mta-card').classList.add('open'); $('#mta-backdrop').classList.add('show'); $('#mta-bubble').style.display='none'; isOpen=true; renderSess(); setTimeout(()=>{ try{$('#mta-in').focus();}catch{} }, 140); }
   function closeChat(){ if(!isOpen) return; $('#mta-card').classList.remove('open'); $('#mta-backdrop').classList.remove('show'); $('#mta-bubble').style.display='flex'; isOpen=false; hideTyping(); }
-  function clearChat(){ 
-    try{ localStorage.removeItem(K.sess); localStorage.removeItem(K.ctx); }catch{}; 
-    $('#mta-body').innerHTML=''; 
-    // ===== [EDIT] Loại bỏ 'ạ'
-    addMsg('bot', enforceVietnamese('Đã xóa hội thoại, em sẵn sàng hỗ trợ lại ngay.')); 
+  function clearChat(){
+    try{ localStorage.removeItem(K.sess); localStorage.removeItem(K.ctx); }catch{};
+    $('#mta-body').innerHTML='';
+    addMsg('bot', enforceVietnamese('Đã xóa hội thoại, em sẵn sàng hỗ trợ lại ngay.'));
   }
 
   async function sendUser(text){
     if(sending) return; sending=true;
     const userText = (text||'').trim(); if(!userText) { sending=false; return; }
     addMsg('user', userText);
-    // cập nhật context
     pushContext({from:'user', raw:userText, type: detectType(userText), qty: detectQty(userText)});
-    showTyping(); const typingDelay = 3000 + Math.random()*2500; await sleep(typingDelay);
+    showTyping(); const typingDelay = 1000 + Math.random()*1800; // Dùng delay của v32 (ngắn hơn)
+    await sleep(typingDelay);
     let ans = deepAnswer(userText);
 
-    // nếu câu chung -> thử gợi ý từ index
     if(/chưa tìm được thông tin|quan tâm loại xe nào/i.test(ans||'')){
       const sug = suggestFromIndex(userText);
       if(sug) ans = polite(sug);
     }
     hideTyping(); addMsg('bot', enforceVietnamese(ans));
-    // lưu context bot
     pushContext({from:'bot', raw:ans});
     sending=false;
   }
@@ -491,15 +471,36 @@
     root.style.bottom = bottom; root.style.right = '16px'; root.style.left = 'auto';
   }
 
+  // disable quick map if requested or local link
+  function disableQuickMap(){
+    try{
+      const sel = document.querySelector('#mta-header .q-map, .q-map, a.q-map');
+      if(!sel) return;
+      const href = sel.getAttribute && sel.getAttribute('href') || '';
+      const isLocal = !/^https?:\/\//i.test(href) || (href && href.indexOf(location.hostname) >= 0);
+      if(CFG.disableQuickMap || isLocal){
+        sel.removeAttribute('href'); sel.setAttribute('aria-disabled','true'); sel.style.opacity='0.45'; sel.style.pointerEvents='none'; sel.title = (sel.title||'') + ' (map disabled)';
+      }
+    }catch(e){}
+  }
+
+
   // ===== Boot
+  function ready(fn){
+    if(document.readyState==="complete"||document.readyState==="interactive"){ fn(); }
+    else document.addEventListener("DOMContentLoaded", fn);
+  }
+
   function bindScrollTags(){
-    const track = document.getElementById('tagTrack'); const box = document.getElementById('mta-tags'); if(!track||!box) return;
-    track.querySelectorAll('button').forEach(b=> b.addEventListener('click', ()=> sendUser(b.dataset.q)));
-    const input = document.getElementById('mta-in');
+    const track = document.getElementById('tagTrack'); if(!track) return;
+    // Dùng cách bind của v32 (vì UI v32 không có class hidden/fade)
+    track.querySelectorAll('button').forEach(b=> b.addEventListener('click', ()=> { const q = b.dataset.q; if(q) { $('#mta-in').value = q; sendUser(q); $('#mta-in').value=''; } }));
+    // Xử lý focus/blur/input để ẩn tag (Giữ lại logic v32)
+    const input = document.getElementById('mta-in'); const tagsBox = document.getElementById('mta-tags');
     if(input){
-      input.addEventListener('focus', ()=> box.classList.add('hidden'));
-      input.addEventListener('blur',  ()=> { if(!input.value.trim()) box.classList.remove('hidden'); });
-      input.addEventListener('input', ()=> { if(input.value.trim().length>0) box.classList.add('hidden'); else box.classList.remove('hidden'); });
+      input.addEventListener('focus', ()=> { if(tagsBox) tagsBox.style.display='none'; });
+      input.addEventListener('blur',  ()=> { if(tagsBox && !input.value.trim()) tagsBox.style.display='block'; });
+      input.addEventListener('input', ()=> { if(tagsBox) tagsBox.style.display = input.value.trim()? 'none':'block'; });
     }
   }
 
@@ -518,7 +519,12 @@
     window.addEventListener('scroll', checkObstacles, {passive:true});
     if(window.visualViewport) window.visualViewport.addEventListener('resize', checkObstacles, {passive:true});
 
-    console.log('%cMotoAI v33 SmartContext-Deep — UI ready','color:'+CFG.themeColor+';font-weight:bold;');
+    // monitor DOM to re-disable map after dynamic injection
+    const mo = new MutationObserver(()=>{ disableQuickMap(); });
+    mo.observe(document.body, {childList:true, subtree:true});
+    setTimeout(disableQuickMap, 500);
+
+    console.log('%cMotoAI v33 Hybrid UI v32 — Ready','color:'+CFG.themeColor+';font-weight:bold;');
 
     if(CFG.autolearn){
       const sites = Array.from(new Set([location.origin, ...(CFG.extraSites||[])]));
@@ -537,4 +543,3 @@
     clearLearnCache: ()=> { try{ localStorage.removeItem(K.learn); }catch{} }
   };
 })();
-
