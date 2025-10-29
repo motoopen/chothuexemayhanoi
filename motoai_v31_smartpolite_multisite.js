@@ -549,9 +549,13 @@
     if(blockers){
       const r = blockers.getBoundingClientRect();
       const space = window.innerHeight - r.top; // không gian từ đỉnh của blocker xuống đáy màn hình
-      if(space > 0 && space < 120) { // Nếu blocker ở đáy và cao dưới 120px
-        bottom = `calc(${space}px + 12px + env(safe-area-inset-bottom, 0))`;
+      
+      // ===== SỬA THEO YÊU CẦU: Tăng ngưỡng phát hiện (120->200) và tăng khoảng cách (12->18) =====
+      if(space > 0 && space < 200) { // (Sửa) Tăng ngưỡng phát hiện vật cản lên 200px
+        bottom = `calc(${space}px + 18px + env(safe-area-inset-bottom, 0))`; // (Sửa) Tăng khoảng cách né lên 18px
       }
+      // ===== HẾT PHẦN SỬA =====
+
     }
     // Phát hiện bàn phím ảo iOS/Android (từ v22c)
     if(window.visualViewport){
@@ -640,4 +644,5 @@
   };
 
 })();
+
 
