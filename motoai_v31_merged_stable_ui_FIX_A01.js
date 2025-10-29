@@ -645,5 +645,24 @@
     getIndex: function(){ return Engine.kbIndex(); },
     clearLearnCache: function(){ try{ localStorage.removeItem(K.learn); console.log('MotoAI v31 learn cache cleared'); }catch(e){} }
   };
-
+/* 🩹 MotoAI v31 — Safe bottom fix for Quick Call bar */
+(function(){
+  const adjustBottom = ()=>{
+    const root = document.querySelector('#mta-root');
+    if(!root) return;
+    const blockers = document.querySelector('.bottom-appbar, .quick-call, #quick-call');
+    let offset = 16;
+    if(blockers){
+      const r = blockers.getBoundingClientRect();
+      const space = window.innerHeight - r.top;
+      if(space > 0 && space < 120){
+        offset = space + 12; // nhấc bong bóng lên
+      }
+    }
+    root.style.bottom = `calc(${offset}px + env(safe-area-inset-bottom,0px))`;
+  };
+  window.addEventListener('resize', adjustBottom, {passive:true});
+  window.addEventListener('scroll', adjustBottom, {passive:true});
+  window.addEventListener('load', adjustBottom);
+  setTimeout(adjustBottom, 800);
 })();
