@@ -1,18 +1,105 @@
-# ================================
-# 🤖 robots.txt for Motoopen Main Site
-# ================================
-# Site: https://motoopen.github.io/chothuexemayhanoi/
-# Purpose: Allow all bots, enable full indexing
-# ================================
+# =============================
+# ✅ Robots.txt tổng hợp cho AI + Search Engines
+# ✅ Tối ưu cho GitHub Pages - Motoopen
+# =============================
 
 User-agent: *
 Allow: /
 
+# --- Sitemaps ---
 Sitemap: https://motoopen.github.io/chothuexemayhanoi/sitemap.xml
+Sitemap: https://motoopen.github.io/chothuexemayhanoi/sitemap-pages.xml
+Sitemap: https://motoopen.github.io/chothuexemayhanoi/sitemap-images.xml
+Sitemap: https://motoopen.github.io/chothuexemayhanoi/sitemap-mangxahoi.xml
 
-# Optional (Recommended)
-Host: https://motoopen.github.io/chothuexemayhanoi/
+# =============================
+# ✅ AI BOTS — CHO PHÉP THU THẬP
+# =============================
 
-# ================================
-# End of file
-# ================================
+# OpenAI GPTBot
+User-agent: GPTBot
+Allow: /
+
+# OpenAI ChatGPT-User agent
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic Claude Bot
+User-agent: ClaudeBot
+Allow: /
+
+# Google AI / Gemini
+User-agent: Google-Extended
+Allow: /
+
+# Amazon Bot (Q AI)
+User-agent: Amazonbot
+Allow: /
+
+# Perplexity AI Crawler
+User-agent: PerplexityBot
+Allow: /
+
+# CCBot (Common Crawl, dữ liệu cho rất nhiều AI)
+User-agent: CCBot
+Allow: /
+
+# AppleBot (dùng cho Apple Intelligence)
+User-agent: Applebot
+Allow: /
+
+# Bing AI
+User-agent: Bingbot
+Allow: /
+
+# Facebook External crawler
+User-agent: facebookexternalhit
+Allow: /
+
+# =============================
+# ✅ SEARCH ENGINES CHÍNH —
+# Tất cả được phép crawl
+# =============================
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: Cốc Cốc
+Allow: /
+
+# =============================
+# ✅ Chặn rác, bots nguy hiểm (không cần thiết cho SEO)
+# =============================
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
