@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Test MotoAI merged (UI v26 + Logic v37)</title>
+  <style>
+    body{font:16px/1.6 system-ui;margin:0}
+    main{max-width:760px;margin:36px auto;padding:0 16px}
+    .hint{background:#f6f7fb;border:1px solid #e5e7ef;border-radius:10px;padding:12px 14px}
+    .btn{display:inline-block;margin-top:10px;padding:10px 14px;border-radius:10px;border:1px solid #d7dbec;background:#fff;cursor:pointer}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Trang test MotoAI merged</h1>
+    <p class="hint">
+      Mở bong bóng chat ở góc dưới bên phải. Bạn có thể thử nhắn: “Giá thuê xe ga 3 ngày”.
+    </p>
+    <button class="btn" onclick="window.MotoAI_MERGED_API && window.MotoAI_MERGED_API.open()">Mở chat thủ công</button>
+  </main>
+
+  <!-- MotoAI merged (UI v26 + Logic v37) -->
+  <!-- 1) (Tuỳ chọn) Cấu hình nhanh -->
+  <script>
+    window.MotoAI_CONFIG = {
+      brand: "Nguyen Tu",
+      phone: "0942467674",
+      zalo: "https://zalo.me/0942467674",
+      map: "https://maps.app.goo.gl/SR1hcwnCQjPkAvDh7",
+      themeColor: "#0084FF",
+      autolearn: true,
+      extraSites: [location.origin],
+      inputSize: 32,     // chiều cao ô input (px). 34 = Messenger, 30–32 = nhỏ hơn
+      disableQuickMap: false
+    };
+  </script>
+
+  <!-- 2) Nạp file hợp nhất từ link của bạn -->
+  <script src="https://motoopen.github.io/chothuexemayhanoi/motoai_merged_v26ui_v37logic_multisite.js" defer></script>
+
+  <!-- 3) Ép input nhỏ + tắt dark mode (đè CSS sau cùng) -->
+  <script>
+    window.addEventListener('load', function () {
+      // Tắt dark mode auto
+      document.body.classList.remove('ai-night');
+      var keepLight = document.createElement('style');
+      keepLight.textContent = `
+        @media(prefers-color-scheme:dark){:root{--m-bg:#fff;--m-text:#0b1220}}
+        body.ai-night #mta-body{background:#E9EEF5 !important;}
+        body.ai-night .m-msg.bot{background:#fff !important;color:#111 !important;border-color:rgba(0,0,0,.04) !important;}
+        body.ai-night #mta-in{background:#F6F8FB !important;color:#0b1220 !important;border-color:rgba(0,0,0,.12) !important;}
+        body.ai-night #mta-tags{background:#f7f9fc !important;border-top-color:rgba(0,0,0,.06) !important;}
+      `;
+      document.head.appendChild(keepLight);
+
+      // Ép kích thước input nhỏ kiểu Messenger (hoặc nhỏ hơn chút)
+      var sz = (window.MotoAI_CONFIG && window.MotoAI_CONFIG.inputSize) || 34;
+      var st = document.createElement('style');
+      st.textContent = `
+        #mta-input{padding:6px 8px !important;gap:8px !important;}
+        #mta-in{
+          height:`+sz+`px !important;
+          padding:0 12px !important;
+          border-radius:`+(Math.round(sz/2))+`px !important;
+          font-size:14px !important;
+          background:#F2F3F5 !important;
+          border:1px solid rgba(0,0,0,.08) !important;
+        }
+        #mta-send{
+          width:`+sz+`px !important;
+          height:`+sz+`px !important;
+          font-size:14px !important;
+          border-radius:50% !important;
+        }
+      `;
+      document.head.appendChild(st);
+    });
+  </script>
+</body>
+</html>
