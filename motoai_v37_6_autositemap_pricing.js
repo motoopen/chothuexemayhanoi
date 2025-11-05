@@ -1,6 +1,7 @@
 /* motoai_v37_6_autositemap_pricing.js
    Messenger-style UI • auto sitemap learn • precise pricing by duration • 7 quick tags
    Brand: Nguyen Tu
+   Note: BẢN GỘP — chỉ chỉnh kích thước INPUT nhỏ như Messenger
 */
 (function(){
   if (window.MotoAI_v37_6_LOADED) return; 
@@ -158,6 +159,8 @@
     background:#0084FF;color:#fff;
     margin-left:auto;border-bottom-right-radius:3px;
   }
+
+  /* ====== QUICK TAGS ====== */
   #mta-typing{
     display:inline-flex;gap:6px;align-items:center;margin:6px 0;
   }
@@ -177,19 +180,32 @@
     border-radius:999px;padding:6px 12px;font-size:13px;
     cursor:pointer;
   }
+
+  /* ====== INPUT NHỎ (đã gộp) ====== */
   #mta-input{
     background:#fff;border-top:1px solid rgba(0,0,0,.05);
-    padding:8px;display:flex;gap:8px;align-items:center;
+    padding:6px 8px;                    /* nhỏ hơn bản gốc */
+    display:flex;gap:8px;align-items:center;
   }
   #mta-in{
-    flex:1;border:1px solid rgba(0,0,0,.1);border-radius:16px;
-    padding:9px 10px 9px 12px;
+    flex:1;
+    border:1px solid rgba(0,0,0,.1);
+    height:34px;                        /* chiều cao nhỏ */
+    padding:0 12px;                     /* padding gọn */
+    border-radius:17px;                  /* bo tròn kiểu Messenger */
     background:#F2F4F7;
+    font-size:14px;
+    line-height:34px;                   /* iOS cân giữa chữ */
+    box-sizing:border-box;
+    -webkit-appearance:none;appearance:none;
   }
   #mta-send{
-    width:40px;height:40px;border:none;border-radius:50%;
+    width:34px;height:34px;             /* nút gửi nhỏ lại */
+    border:none;border-radius:50%;
     background:linear-gradient(160deg,#0084FF,#00B2FF);
     color:#fff;cursor:pointer;box-shadow:0 6px 18px rgba(0,132,255,.4);
+    font-size:14px;
+    display:flex;align-items:center;justify-content:center;
   }
 
   @media(max-width:520px){
@@ -201,7 +217,10 @@
     #mta-body{background:linear-gradient(180deg,#131416,#1a1c20);}
     .m-msg.bot{background:#23252a;color:#fff;border:1px solid rgba(255,255,255,.03);}
     #mta-input{background:#1a1c20;border-top:1px solid rgba(255,255,255,.04);}
-    #mta-in{background:#121317;color:#fff;border:1px solid rgba(255,255,255,.1);}
+    /* Giữ kích thước nhỏ, chỉ đổi màu trong dark */
+    #mta-in{
+      background:#121317;color:#fff;border:1px solid rgba(255,255,255,.1);
+    }
     #mta-tags{background:#1c1e22;border-top:1px solid rgba(255,255,255,.05);}
     #mta-tags button{background:#22242a;color:#fff;border:1px solid rgba(255,255,255,.1);}
   }
@@ -790,4 +809,3 @@
   };
 
 })();
-
