@@ -11,6 +11,68 @@
     <p>Trang này có nội dung để bot học từ DOM. Thử mở bong bóng chat góc trái.</p>
   </main>
 
+<!-- MotoAI v37.6 -->
+<script>
+  /* (Không bắt buộc) Cấu hình nhanh trước khi load file */
+  window.MotoAI_CONFIG = {
+    brand: "Nguyen Tu",
+    phone: "0942467674",
+    zalo: "https://zalo.me/0942467674",
+    themeColor: "#0084FF"
+  };
+</script>
 <script src="https://motoopen.github.io/chothuexemayhanoi/motoai_v37_6_autositemap_pricing.js" defer></script>
+
+<!-- ✅ FORCE nhỏ input như Messenger -->
+<script>
+  // chạy khi trang & plugin đã xong, đảm bảo CSS override chèn sau cùng
+  window.addEventListener('load', function () {
+    // 1) CSS override với độ ưu tiên cao
+    var st = document.createElement('style');
+    st.textContent = `
+      #mta-root #mta-input{ padding:6px 8px !important; gap:8px !important; }
+      #mta-root #mta-input #mta-in{
+        height:34px !important;           /* chuẩn Messenger */
+        padding:0 12px !important;
+        border-radius:17px !important;
+        background:#F2F3F5 !important;
+        border:1px solid rgba(0,0,0,.08) !important;
+        font-size:14px !important;
+      }
+      #mta-root #mta-input #mta-send{
+        width:34px !important; height:34px !important;
+        font-size:14px !important; border-radius:50% !important;
+      }
+    `;
+    document.head.appendChild(st);
+
+    // 2) Thêm “đòn cuối” inline style (nếu CSS bị ghi đè)
+    function forceInline(){
+      var f = document.getElementById('mta-input');
+      var i = document.getElementById('mta-in');
+      var s = document.getElementById('mta-send');
+      if (f){ f.style.padding = '6px 8px'; f.style.gap = '8px'; }
+      if (i){
+        i.style.height = '34px';
+        i.style.padding = '0 12px';
+        i.style.borderRadius = '17px';
+        i.style.fontSize = '14px';
+        i.style.background = '#F2F3F5';
+        i.style.border = '1px solid rgba(0,0,0,.08)';
+      }
+      if (s){
+        s.style.width = '34px';
+        s.style.height = '34px';
+        s.style.fontSize = '14px';
+        s.style.borderRadius = '50%';
+      }
+    }
+    forceInline();
+
+    // 3) Nếu plugin re-render, apply lại
+    var mo = new MutationObserver(forceInline);
+    mo.observe(document.body, { childList: true, subtree: true });
+  });
+</script>
 </body>
 </html>
