@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MotoAI v37.6 – Test input nhỏ</title>
+  <style>body{font:16px/1.6 system-ui;margin:0;padding:24px;background:#f5f6f8}</style>
+</head>
+<body>
+  <main style="max-width:720px;margin:0 auto">
+    <h1>Trang test MotoAI v37.6</h1>
+    <p>Nhúng file ngoài + ép input nhỏ kiểu Messenger.</p>
+  </main>
+
+  <!-- Cấu hình tuỳ chọn -->
+  <script>
+    window.MotoAI_CONFIG = {
+      brand: "Nguyen Tu",
+      phone: "0942467674",
+      zalo: "https://zalo.me/0942467674",
+      themeColor: "#0084FF"
+    };
+  </script>
+
+  <!-- File JS của bạn -->
+  <script src="https://motoopen.github.io/chothuexemayhanoi/motoai_v37_6_autositemap_pricing.js" defer></script>
+
+  <!-- ✅ FORCE nhỏ input: đặt SAU script trên để luôn có hiệu lực -->
+  <script>
+  (function(){
+    var SIZE = 34; // ⇦ đổi 30 nếu muốn nhỏ hơn
+
+    function injectCss(){
+      var st = document.createElement('style');
+      st.textContent = `
+        #mta-root footer#mta-input{ padding:6px 8px !important; gap:8px !important; }
+        #mta-root footer#mta-input>#mta-in{
+          height:${SIZE}px !important; line-height:${SIZE}px !important;
+          padding:0 12px !important; border-radius:${Math.round(SIZE/2)}px !important;
+          background:#F2F3F5 !important; border:1px solid rgba(0,0,0,.08) !important;
+          font-size:14px !important; box-sizing:border-box !important;
+          -webkit-appearance:none !important; appearance:none !important;
+        }
+        #mta-root footer#mta-input>#mta-send{
+          width:${SIZE}px !important; height:${SIZE}px !important;
+          border-radius:50% !important; font-size:14px !important;
+        }`;
+      document.head.appendChild(st);
+    }
+
+    function forceInline(){
+      var f=document.getElementById('mta-input');
+      var i=document.getElementById('mta-in');
+      var s=document.getElementById('mta-send');
+      if(f){ f.style.setProperty('padding','6px 8px','important');
+             f.style.setProperty('gap','8px','important'); }
+      if(i){
+        i.style.setProperty('height',SIZE+'px','important');
+        i.style.setProperty('line-height',SIZE+'px','important');
+        i.style.setProperty('padding','0 12px','important');
+        i.style.setProperty('border-radius',Math.round(SIZE/2)+'px','important');
+        i.style.setProperty('background','#F2F3F5','important');
+        i.style.setProperty('border','1px solid rgba(0,0,0,.08)','important');
+        i.style.setProperty('font-size','14px','important');
+        i.style.setProperty('box-sizing','border-box','important');
+        i.style.setProperty('-webkit-appearance','none','important');
+        i.style.setProperty('appearance','none','important');
+      }
+      if(s){
+        s.style.setProperty('width',SIZE+'px','important');
+        s.style.setProperty('height',SIZE+'px','important');
+        s.style.setProperty('border-radius','50%','important');
+        s.style.setProperty('font-size','14px','important');
+      }
+    }
+
+    function start(){
+      injectCss();
+      forceInline();
+      // Nếu UI re-render thì áp lại
+      new MutationObserver(forceInline).observe(document.body,{childList:true,subtree:true});
+    }
+
+    // chạy sau khi trang và script ngoài sẵn sàng
+    window.addEventListener('load', start);
+  })();
+  </script>
+</body>
+</html>
