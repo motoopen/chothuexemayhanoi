@@ -23,7 +23,7 @@
       "https://thuexemaynguyentu.com",
       "https://rentbikehanoi.com"
     ],
-    crawlDepth: 1,            // BFS depth cho fallback crawl
+    crawlDepth: 2,            // BFS depth cho fallback crawl
     refreshHours: 24,
     minSentenceLen: 24,
     // limits & safety
