@@ -96,7 +96,7 @@
     --m-text:#0b1220;
 
     /* Input sizing (tùy biến nhanh) */
-    --m-in-h: 32px;         /* chiều cao ô nhập. Đổi 34/36 nếu muốn lớn hơn */
+    --m-in-h: 34px;         /* chiều cao ô nhập. Đổi 34/36 nếu muốn lớn hơn */
     --m-in-fs: 15px;        /* cỡ chữ trong ô nhập */
     --m-send-size: 36px;    /* kích thước nút gửi */
   }
