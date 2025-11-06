@@ -1,9 +1,10 @@
-/* motoai_v27_autolearn_semantic.js
+/* motoai_v27_autolearn_semantic.js (v27.1 path-aware)
    Messenger-style (UI v22c) • AutoLearn MultiSite • SmartCalc • UltraSafe • Semantic BM25 • Extractive QA • Auto-Price Learn
    - Học nhiều website: sitemap.xml + sitemap_index.xml (+ fallback BFS depth=CFG.crawlDepth)
-   - Cache localStorage theo domain, tự refresh mỗi refreshHours (có chốt quota)
+   - Cache localStorage theo domain (host), tự refresh mỗi refreshHours (có chốt quota)
    - UI v22c + A11y: aria-modal, focus trap, ESC để đóng, trả focus về nút mở
    - Thông minh hơn: Tìm kiếm ngữ nghĩa (BM25 mini), trích xuất câu trả lời, tự học bảng giá từ trang
+   - Vá quan trọng: GIỮ PATH khi học (không rút về root host), boot từ thư mục hiện tại
    - Expose API (giữ tương thích): window.MotoAI_v26_autolearn / window.MotoAI_v27_autolearn
 */
 (function(){
@@ -310,7 +311,7 @@
 
   // ===== Polite compose helpers
   const PREFIX = ["Chào anh/chị,","Xin chào 👋,","Em chào anh/chị nhé,","Rất vui được hỗ trợ anh/chị,"];
-  const SUFFIX = [" ạ."," nhé ."," nha anh/chị."," cảm ơn anh/chị."];
+  const SUFFIX = [" ạ."," nhé ạ."," nha anh/chị."," ạ, cảm ơn anh/chị."];
   function polite(t){ t=(t||"").trim(); if(!t) return "Em chưa nhận được câu hỏi, anh/chị thử nhập lại giúp em nhé."; return `${pick(PREFIX)} ${t}${pick(SUFFIX)}`; }
   const RULES = [
     {re:/(chào|xin chào|hello|hi|alo)/i, ans:[
@@ -489,7 +490,7 @@
 
   async function learnOneSite(origin){
     try{
-      const canonicalOrigin = origin.replace(/\/+$/,'');
+      const canonicalOrigin = origin.replace(/\/+$/,''); // có thể bao gồm path
       const candidates = [
         canonicalOrigin + '/sitemap.xml',
         canonicalOrigin + '/sitemap_index.xml',
@@ -510,10 +511,23 @@
         urls = await fallbackCrawl(canonicalOrigin);
         console.log('MotoAI v27 learn: fallback crawl for', canonicalOrigin, '->', urls.length, 'urls');
       }
-      const hostOrigin = (new URL(canonicalOrigin)).origin;
+
+      // Lọc theo host + (nếu có) path prefix
+      const u0 = new URL(canonicalOrigin);
+      const hostOrigin = u0.origin;
+      const pathPrefix = u0.pathname || '/';
+      const restrictPath = pathPrefix && pathPrefix !== '/';
+
       const uniq = Array.from(new Set(urls.map(u=> {
-        try{ return new URL(u).toString().split('#')[0]; }catch(e){ return null; }
-      }).filter(Boolean).filter(u=> sameHost(u, hostOrigin))));
+        try{ return new URL(u, canonicalOrigin).toString().split('#')[0]; }catch(e){ return null; }
+      }).filter(Boolean).filter(u=>{
+        try{
+          const uu = new URL(u);
+          if (!sameHost(uu.href, hostOrigin)) return false;
+          return !restrictPath || uu.pathname.startsWith(pathPrefix.endsWith('/')? pathPrefix : (pathPrefix + '/'));
+        }catch(e){ return false; }
+      })));
+
       const pages = await pullPages(uniq.slice(0, CFG.maxPagesPerDomain));
       return {domain: hostOrigin, ts: nowSec(), pages};
     }catch(e){
@@ -527,7 +541,7 @@
   function saveLearnCache(obj){ try{ localStorage.setItem(K.learn, JSON.stringify(obj)); }catch(e){ throw e; } }
   function isExpired(ts, hours){ if(!ts) return true; const ageHr = (nowSec() - ts)/3600; return ageHr >= (hours||CFG.refreshHours); }
 
-  // ====== Orchestrator
+  // ====== Orchestrator (PATH-AWARE)
   async function learnSites(listOrigins, force=false){
     if(!Array.isArray(listOrigins)) listOrigins = [];
     const cache = loadLearnCache();
@@ -539,8 +553,12 @@
       try{
         const u = toURL(origin);
         if(!u) continue;
+
+        // cache theo host (originKey), NHƯNG học theo URL có PATH (siteUrl)
         const originKey = u.origin;
+        const siteUrl   = origin; // giữ nguyên path
         const cached = cache[originKey];
+
         if(!force && cached && !isExpired(cached.ts, CFG.refreshHours) && Array.isArray(cached.pages) && cached.pages.length){
           console.log('MotoAI v27 learn: using cached', originKey, cached.pages.length, 'pages');
           results[originKey] = cached;
@@ -548,8 +566,9 @@
           if(totalPages >= CFG.maxTotalPages) break;
           continue;
         }
-        console.log('MotoAI v27 learn: pulling', originKey);
-        const data = await learnOneSite(originKey);
+
+        console.log('MotoAI v27 learn: pulling', siteUrl);
+        const data = await learnOneSite(siteUrl);
         if(data && Array.isArray(data.pages) && data.pages.length){
           cache[originKey] = data;
 
@@ -569,7 +588,7 @@
           totalPages += data.pages.length;
           console.log('MotoAI v27 learn: saved', originKey, '->', data.pages.length, 'pages');
         } else {
-          console.warn('MotoAI v27 learn: no pages for', originKey);
+          console.warn('MotoAI v27 learn: no pages for', siteUrl);
         }
         if(totalPages >= CFG.maxTotalPages) break;
       }catch(e){ console.warn('MotoAI v27 learnSites error', e); }
@@ -678,7 +697,8 @@
   function clearChat(){ try{ localStorage.removeItem(K.sess); localStorage.removeItem(K.ctx); }catch(e){}; const b=$('#mta-body'); if(b) b.innerHTML=''; addMsg('bot', polite('đã xóa hội thoại')); }
 
   async function sendUser(text){
-    if(sending) return; sending=true;
+    if(sending) return; sending=false; // đảm bảo reset nếu có lỗi cũ
+    sending=true;
     addMsg('user', text);
     try{ updateCtxWithUser(text); }catch(e){}
     showTyping(); const typingDelay = 2500 + Math.random()*2500; await sleep(typingDelay);
@@ -745,7 +765,7 @@
     }
   }
 
-  // ===== Boot
+  // ===== Boot (PATH-AWARE)
   ready(async ()=>{
     const hour=new Date().getHours(); if(hour>19||hour<6) document.body.classList.add('ai-night');
     injectUI(); bindScrollTags(); checkObstacles();
@@ -762,7 +782,7 @@
     if(window.visualViewport) window.visualViewport.addEventListener('resize', checkObstacles, {passive:true});
     setTimeout(()=>{ if(!$('#mta-bubble')) injectUI(); }, 2500);
 
-    console.log('%cMotoAI v27 AutoLearn MultiSite — UI ready (Semantic + QA + AutoPrice)','color:#0084FF;font-weight:bold;');
+    console.log('%cMotoAI v27.1 AutoLearn MultiSite — UI ready (Semantic + QA + AutoPrice, PATH-aware)','color:#0084FF;font-weight:bold;');
 
     // Tự hợp nhất auto-prices vào PRICE_TABLE (percentile)
     if (CFG.smart.autoPriceLearn){
@@ -783,15 +803,16 @@
       }catch(e){}
     }
 
-    // AutoLearn
+    // AutoLearn: bắt đầu từ THƯ MỤC HIỆN TẠI + extraSites
+    const hereBase = location.href.replace(/[#?].*$/, '').replace(/[^\/]*$/, ''); // thư mục hiện tại (có /)
     if(CFG.autolearn){
-      const sites = Array.from(new Set([location.origin, ...(CFG.extraSites||[])]));
+      const sites = Array.from(new Set([hereBase, ...(CFG.extraSites||[])]));
       try{
         (async()=>{
           await learnSites(sites, false);
-          console.log('MotoAI v27 autolearn: finished initial learn (localStorage key)', K.learn);
+          console.log('MotoAI v27.1 autolearn: finished initial learn (localStorage key)', K.learn);
         })();
-      }catch(e){ console.warn('MotoAI v27 autolearn err', e); }
+      }catch(e){ console.warn('MotoAI v27.1 autolearn err', e); }
     }
   });
 
@@ -799,12 +820,13 @@
   const api = {
     learnNow: async function(sites, force){
       try{
+        const hereBase = location.href.replace(/[#?].*$/, '').replace(/[^\/]*$/, '');
         const list = Array.isArray(sites) && sites.length ? sites : (CFG.extraSites||[]);
-        const combined = Array.from(new Set([location.origin, ...list]));
-        console.log('MotoAI v27 learnNow:', combined, 'force', !!force);
+        const combined = Array.from(new Set([hereBase, ...list])); // boot từ folder hiện tại
+        console.log('MotoAI v27.1 learnNow:', combined, 'force', !!force);
         const res = await learnSites(combined, !!force);
         return res;
-      }catch(e){ console.warn('MotoAI v27 learnNow error', e); return null; }
+      }catch(e){ console.warn('MotoAI v27.1 learnNow error', e); return null; }
     },
     getIndex: function(){ return getIndex(); },
     clearLearnCache: function(){ clearLearnCache(); }
