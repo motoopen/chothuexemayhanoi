@@ -310,7 +310,7 @@
 
   // ===== Polite compose helpers
   const PREFIX = ["Chào anh/chị,","Xin chào 👋,","Em chào anh/chị nhé,","Rất vui được hỗ trợ anh/chị,"];
-  const SUFFIX = [" ạ."," nhé ạ."," nha anh/chị."," ạ, cảm ơn anh/chị."];
+  const SUFFIX = [" ạ."," nhé ."," nha anh/chị."," cảm ơn anh/chị."];
   function polite(t){ t=(t||"").trim(); if(!t) return "Em chưa nhận được câu hỏi, anh/chị thử nhập lại giúp em nhé."; return `${pick(PREFIX)} ${t}${pick(SUFFIX)}`; }
   const RULES = [
     {re:/(chào|xin chào|hello|hi|alo)/i, ans:[
