@@ -1,8 +1,9 @@
-/* motoai_v26_autolearn_multisite.js
+/* motoai_v26_autolearn_multisite.js (Patched)
    Messenger-style (UI v22c) • AutoLearn MultiSite • SmartCalc • UltraSafe
-   - Học nhiều website: sitemap.xml + sitemap_index.xml (+ fallback quét link nội bộ depth=1)
-   - Cache localStorage theo domain, tự refresh mỗi refreshHours
+   - Học nhiều website: sitemap.xml + sitemap_index.xml (+ fallback BFS depth=CFG.crawlDepth)
+   - Cache localStorage theo domain, tự refresh mỗi refreshHours (có chốt quota)
    - Giữ UI v22c (scrollable tags, ẩn khi gõ), delay 2.5–5s, session, auto-avoid footer/keyboard
+   - A11y: aria-modal, focus trap, ESC để đóng, trả focus về nút mở
    - Expose API: window.MotoAI_v26_autolearn.{learnNow, getIndex, clearLearnCache}
 */
 (function(){
@@ -22,29 +23,36 @@
       "https://thuexemaynguyentu.com",
       "https://rentbikehanoi.com"
     ],
-    crawlDepth: 1,
+    crawlDepth: 1,            // <== giờ đã được áp dụng trong fallback crawl (BFS)
     refreshHours: 24,
     minSentenceLen: 24,
     // limits & safety
     maxPagesPerDomain: 80,
     maxTotalPages: 300,
     fetchTimeoutMs: 10000,
-    fetchPauseMs: 200 // pause between page fetches
+    fetchPauseMs: 200 // base pause giữa mỗi trang (sẽ cộng thêm jitter)
   };
   const ORG = (window.MotoAI_CONFIG||{});
   if(!ORG.zalo && (ORG.phone||DEF.phone)) ORG.zalo = 'https://zalo.me/' + String(ORG.phone||DEF.phone).replace(/\s+/g,'');
   const CFG = Object.assign({}, DEF, ORG);
 
   // ====== Utils
-  const $ = s => document.querySelector(s);
+  const $  = s => document.querySelector(s);
   const $$ = s => Array.from(document.querySelectorAll(s));
   const safe = s => { try{ return JSON.parse(s); }catch(e){ return null; } };
   const sleep = ms => new Promise(r => setTimeout(r, ms));
-  const pick = a => a[Math.floor(Math.random()*a.length)];
+  const pick  = a => a[Math.floor(Math.random()*a.length)];
   const nfVND = n => (n||0).toLocaleString('vi-VN');
   const nowSec = ()=> Math.floor(Date.now()/1000);
   const toURL = u => { try { return new URL(u); } catch(e) { return null; } };
-  const sameHost = (u, origin)=> { try{ return new URL(u).host === new URL(origin).host; }catch(e){ return false; } };
+  const normHost = h => String(h||'').replace(/^www\./,'');
+  const sameHost = (u, origin)=> { try{ return normHost(new URL(u).host) === normHost(new URL(origin).host); }catch(e){ return false; } };
+  const esc = s => String(s ?? '')
+    .replace(/&/g,'&amp;')
+    .replace(/</g,'&lt;')
+    .replace(/>/g,'&gt;')
+    .replace(/"/g,'&quot;')
+    .replace(/'/g,'&#39;');
 
   // ====== Storage keys
   const K = {
@@ -53,7 +61,7 @@
     learn:'MotoAI_v26_learn' // stores { origin: { ts, pages:[{url,title,text}] } }
   };
 
-  // ====== UI (copied/kept compatible with v22c)
+  // ====== UI (kept compatible with v22c, thêm escape + ARIA)
   const ui = `
   <div id="mta-root" aria-live="polite">
     <button id="mta-bubble" aria-label="Mở chat" title="Chat">
@@ -64,20 +72,20 @@
       </svg>
     </button>
     <div id="mta-backdrop"></div>
-    <section id="mta-card" role="dialog" aria-label="Chat MotoAI" aria-hidden="true">
+    <section id="mta-card" role="dialog" aria-modal="true" aria-label="Chat ${esc(CFG.brand)}" aria-hidden="true">
       <header id="mta-header">
         <div class="brand">
           <div class="left">
             <span class="avatar">💬</span>
             <div class="info">
-              <div class="name">Nhân viên ${CFG.brand}</div>
+              <div class="name">Nhân viên ${esc(CFG.brand)}</div>
               <div class="sub">Hỗ trợ trực tuyến</div>
             </div>
           </div>
           <nav class="quick">
-            <a class="q q-phone" href="tel:${CFG.phone}" title="Gọi">📞</a>
-            <a class="q q-zalo"  href="${CFG.zalo}" target="_blank" rel="noopener" title="Zalo">Z</a>
-            <a class="q q-map"   href="${CFG.map}" target="_blank" rel="noopener" title="Bản đồ">📍</a>
+            <a class="q q-phone" href="tel:${esc(CFG.phone)}" title="Gọi">📞</a>
+            <a class="q q-zalo"  href="${esc(CFG.zalo)}" target="_blank" rel="noopener" title="Zalo">Z</a>
+            <a class="q q-map"   href="${esc(CFG.map)}"  target="_blank" rel="noopener" title="Bản đồ">📍</a>
           </nav>
           <button id="mta-close" title="Đóng" aria-label="Đóng">✕</button>
         </div>
@@ -102,7 +110,7 @@
       </div>
 
       <footer id="mta-input">
-        <input id="mta-in" placeholder="Nhắn tin cho ${CFG.brand}..." autocomplete="off" />
+        <input id="mta-in" placeholder="Nhắn tin cho ${esc(CFG.brand)}..." autocomplete="off" />
         <button id="mta-send" aria-label="Gửi">➤</button>
       </footer>
       <button id="mta-clear" title="Xóa hội thoại" aria-label="Xóa hội thoại">🗑</button>
@@ -171,7 +179,11 @@
     const el = document.createElement('div'); el.className = 'm-msg '+(role==='user'?'user':'bot'); el.textContent = text;
     const body = $('#mta-body'); if(!body) return;
     body.appendChild(el); body.scrollTop = body.scrollHeight;
-    try{ const arr = safe(localStorage.getItem(K.sess)) || []; arr.push({role,text,t:Date.now()}); localStorage.setItem(K.sess, JSON.stringify(arr.slice(-200))); }catch(e){}
+    try{
+      const arr = safe(localStorage.getItem(K.sess)) || [];
+      arr.push({role,text,t:Date.now()});
+      localStorage.setItem(K.sess, JSON.stringify(arr.slice(-200)));
+    }catch(e){}
   }
   function renderSess(){
     const body = $('#mta-body'); if(!body) return;
@@ -229,7 +241,7 @@
     return `Giá dự kiến thuê ${type} ${label} khoảng ${nfVND(total)}đ ạ (ước tính). Anh/chị có thể liên hệ Zalo ${CFG.phone} để xem xe và nhận giá chính xác nhất ạ.`;
   }
 
-  // ===== Compose (simple rule-based)
+  // ===== Polite compose helpers
   const PREFIX = ["Chào anh/chị,","Xin chào 👋,","Em chào anh/chị nhé,","Rất vui được hỗ trợ anh/chị,"];
   const SUFFIX = [" ạ."," nhé ạ."," nha anh/chị."," ạ, cảm ơn anh/chị."];
   function polite(t){ t=(t||"").trim(); if(!t) return "Em chưa nhận được câu hỏi, anh/chị thử nhập lại giúp em nhé."; return `${pick(PREFIX)} ${t}${pick(SUFFIX)}`; }
@@ -248,12 +260,6 @@
     ]}
   ];
   function rule(q){ for(const r of RULES){ if(r.re.test(q)) return polite(pick(r.ans)); } return null; }
-  function compose(q){
-    const m=(q||'').trim(); if(!m) return polite("anh/chị thử bấm tag: 🏍️ Xe số, 🛵 Xe ga, ⚡ Xe điện hoặc 📄 Thủ tục nhé");
-    const r1 = rule(m); if(r1) return r1;
-    if(/(giá|bao nhiêu|tính tiền|bao nhieu|bao nhiều|cost|price|thuê|thue)/i.test(m) || CHEAP_KWS.test(m)) return polite(estimatePrice(m));
-    return polite("em chưa tìm được thông tin trùng khớp. Anh/chị nói rõ loại xe hoặc thời gian thuê giúp em với ạ.");
-  }
 
   // ====== FETCH helpers (with timeout)
   async function fetchText(url, opts={}){
@@ -277,7 +283,7 @@
     try{ return (new DOMParser()).parseFromString(text, 'text/html'); }catch(e){ return null; }
   }
 
-  // ====== AutoLearn: sitemap reader, fallback crawl, page pull
+  // ====== AutoLearn: sitemap reader, fallback crawl (BFS), page pull
   async function readSitemap(url){
     const xmlTxt = await fetchText(url);
     if(!xmlTxt) return [];
@@ -297,21 +303,40 @@
   }
 
   async function fallbackCrawl(origin){
-    // lightweight: fetch origin page, collect internal links (unique), limit to 40
-    const start = origin.endsWith('/')? origin : origin + '/';
-    const html = await fetchText(start);
-    if(!html) return [start];
-    const doc = parseHTML(html);
-    if(!doc) return [start];
-    const anchors = Array.from(doc.querySelectorAll('a[href]')).map(a=> a.getAttribute('href')).filter(Boolean);
-    const canon = new Set();
-    for(const href of anchors){
-      let u;
-      try{ u = new URL(href, start).toString(); }catch(e){ continue; }
-      if(sameHost(u, start)) canon.add(u.split('#')[0]);
-      if(canon.size >= 40) break;
+    // BFS đến depth = CFG.crawlDepth (mặc định 1)
+    const start = origin.endsWith('/') ? origin : origin + '/';
+    const q = [[start, 0]];
+    const seen = new Set([start]);
+    const out = [];
+
+    while (q.length && out.length < CFG.maxPagesPerDomain) {
+      const [url, depth] = q.shift();
+      out.push(url);
+
+      if (depth >= (CFG.crawlDepth || 1)) continue;
+
+      const html = await fetchText(url);
+      if (!html) continue;
+      const doc = parseHTML(html);
+      if (!doc) continue;
+
+      const anchors = Array.from(doc.querySelectorAll('a[href]'))
+        .map(a => a.getAttribute('href'))
+        .filter(Boolean);
+
+      for (const href of anchors) {
+        try{
+          const u = new URL(href, url).toString().split('#')[0];
+          if (sameHost(u, origin) && !seen.has(u)) {
+            seen.add(u);
+            q.push([u, depth + 1]);
+            if (seen.size >= CFG.maxPagesPerDomain) break;
+          }
+        }catch(e){}
+      }
+      await sleep(CFG.fetchPauseMs + Math.random()*150); // jitter
     }
-    return [start, ...Array.from(canon)].slice(0, CFG.maxPagesPerDomain);
+    return out.slice(0, CFG.maxPagesPerDomain);
   }
 
   async function pullPages(list){
@@ -319,10 +344,22 @@
     for(const url of list.slice(0, CFG.maxPagesPerDomain)){
       const txt = await fetchText(url);
       if(!txt) continue;
-      // extract title, meta description, fallback text snippet
+
+      // tôn trọng meta robots noindex (thô sơ)
+      if (/\bname=(?:"|')robots(?:"|')[^>]*content=(?:"|')[^"']*noindex/i.test(txt)) {
+        continue;
+      }
+
+      // extract title
       let title = (txt.match(/<title[^>]*>([^<]+)<\/title>/i) || [])[1] || '';
       title = title.replace(/\s+/g,' ').trim();
-      let desc = (txt.match(/<meta[^>]+name=["']description["'][^>]+content=["']([^"]+)["']/i) || [])[1] || '';
+
+      // meta description: hỗ trợ ngoặc đơn & kép
+      let desc = '';
+      const metaMatch = txt.match(/<meta[^>]+name=(?:"|')description(?:"|')[^>]+content=(?:"|')([\s\S]*?)(?:"|')/i);
+      if (metaMatch) {
+        desc = metaMatch[1].trim();
+      }
       if(!desc){
         // strip tags, scripts
         const bodyTxt = txt.replace(/<script[\s\S]*?<\/script>/gi,' ')
@@ -332,21 +369,22 @@
                            .trim();
         desc = bodyTxt.slice(0, 600);
       }
+
       pages.push({url, title, text: desc});
       if(pages.length >= CFG.maxPagesPerDomain) break;
-      // small pause to be polite
-      await sleep(CFG.fetchPauseMs);
+      // pause lịch sự + jitter
+      await sleep(CFG.fetchPauseMs + Math.random()*150);
     }
     return pages;
   }
 
   async function learnOneSite(origin){
     try{
-      const canonicalOrigin = origin.endsWith('/')? origin.replace(/\/+$/,'') : origin.replace(/\/+$/,'');
+      const canonicalOrigin = origin.replace(/\/+$/,'');
       const candidates = [
         canonicalOrigin + '/sitemap.xml',
         canonicalOrigin + '/sitemap_index.xml',
-        canonicalOrigin + '/sitemap.xml.gz' // rarely accessible via CORS but included
+        canonicalOrigin + '/sitemap.xml.gz' // có thể fail CORS/binary => bỏ qua nếu không parse được
       ];
       let urls = [];
       for(const c of candidates){
@@ -360,7 +398,7 @@
         }catch(e){ /* ignore */ }
       }
       if(!urls.length){
-        // fallback crawl
+        // fallback crawl (BFS)
         urls = await fallbackCrawl(canonicalOrigin);
         console.log('MotoAI learn: fallback crawl for', canonicalOrigin, '->', urls.length, 'urls');
       }
@@ -379,7 +417,7 @@
 
   // ====== Cache helpers
   function loadLearnCache(){ return safe(localStorage.getItem(K.learn)) || {}; }
-  function saveLearnCache(obj){ try{ localStorage.setItem(K.learn, JSON.stringify(obj)); }catch(e){} }
+  function saveLearnCache(obj){ try{ localStorage.setItem(K.learn, JSON.stringify(obj)); }catch(e){ throw e; } }
   function isExpired(ts, hours){ if(!ts) return true; const ageHr = (nowSec() - ts)/3600; return ageHr >= (hours||CFG.refreshHours); }
 
   // ====== Orchestrator
@@ -388,8 +426,9 @@
     const cache = loadLearnCache();
     const results = {};
     let totalPages = 0;
-    // cap sites if needed
-    const origins = listOrigins.slice(0, 12); // avoid too many
+
+    // cap sites
+    const origins = listOrigins.slice(0, 12);
     for(const origin of origins){
       try{
         const u = toURL(origin);
@@ -408,7 +447,19 @@
         const data = await learnOneSite(originKey);
         if(data && Array.isArray(data.pages) && data.pages.length){
           cache[originKey] = data;
-          saveLearnCache(cache);
+
+          // save with quota-guard (trim nếu đầy)
+          try {
+            saveLearnCache(cache);
+          } catch(e){
+            console.warn('MotoAI learn: storage full, trimming...');
+            const keys = Object.keys(cache);
+            if (keys.length) {
+              delete cache[keys[0]];
+              try{ saveLearnCache(cache); }catch(e2){}
+            }
+          }
+
           results[originKey] = data;
           totalPages += data.pages.length;
           console.log('MotoAI learn: saved', originKey, '->', data.pages.length, 'pages');
@@ -418,8 +469,8 @@
         if(totalPages >= CFG.maxTotalPages) break;
       }catch(e){ console.warn('MotoAI learnSites error', e); }
     }
-    // store (already saved)
-    saveLearnCache(cache);
+    // ensure persisted
+    try{ saveLearnCache(cache); }catch(e){}
     return results;
   }
 
@@ -440,9 +491,8 @@
     try{ localStorage.removeItem(K.learn); console.log('MotoAI learn cache cleared'); }catch(e){}
   }
 
-  // ====== Minimal updateCtxWithUser (could be used to search index for quick answers)
+  // ====== Minimal updateCtxWithUser (search index for quick answers)
   function updateCtxWithUser(q){
-    // simple: find pages whose title/text contains keywords -> store top 3 references in ctx
     try{
       const idx = getIndex();
       if(!idx.length) return;
@@ -458,7 +508,100 @@
     }catch(e){}
   }
 
-  // ====== Bind tags / send logic (UI interactivity)
+  // ====== send/compose (đÃ bỏ bản compose trùng; giữ 1 bản duy nhất)
+  function composeReply(q){
+    const m=(q||'').trim(); if(!m) return polite("anh/chị thử bấm tag: 🏍️ Xe số, 🛵 Xe ga, ⚡ Xe điện hoặc 📄 Thủ tục nhé");
+    const r1 = rule(m); if(r1) return r1;
+    if(/(giá|bao nhiêu|tính tiền|bao nhieu|bao nhiều|cost|price|thuê|thue)/i.test(m) || CHEAP_KWS.test(m)) return polite(estimatePrice(m));
+
+    // Thử dùng context index
+    try{
+      const ctx = safe(localStorage.getItem(K.ctx)) || [];
+      if(ctx.length){
+        const top = ctx[0];
+        if(top && top.score >= 1){
+          const snippet = (top.title?`${top.title} — `:'') + (top.text || '').slice(0,200);
+          return polite(`${snippet} ... Anh/chị xem chi tiết trang: ${top.url}`);
+        }
+      }
+    }catch(e){}
+
+    return polite("em chưa tìm được thông tin trùng khớp. Anh/chị nói rõ loại xe hoặc thời gian thuê giúp em với ạ.");
+  }
+
+  let isOpen=false, sending=false, lastFocus=null;
+
+  function openChat(){
+    if(isOpen) return;
+    lastFocus = document.activeElement;
+    const card = $('#mta-card');
+    const backdrop = $('#mta-backdrop');
+    if(!card || !backdrop) return;
+    card.classList.add('open');
+    backdrop.classList.add('show');
+    card.setAttribute('aria-hidden','false');
+    $('#mta-bubble').style.display='none';
+    isOpen=true; renderSess();
+    setTimeout(()=>{ try{ $('#mta-in').focus(); }catch(e){} }, 120);
+  }
+  function closeChat(){
+    if(!isOpen) return;
+    const card = $('#mta-card');
+    const backdrop = $('#mta-backdrop');
+    if(card) card.classList.remove('open');
+    if(backdrop) backdrop.classList.remove('show');
+    if(card) card.setAttribute('aria-hidden','true');
+    $('#mta-bubble').style.display='flex';
+    isOpen=false; hideTyping();
+    if (lastFocus && typeof lastFocus.focus === 'function') lastFocus.focus();
+  }
+  function clearChat(){ try{ localStorage.removeItem(K.sess); localStorage.removeItem(K.ctx); }catch(e){}; const b=$('#mta-body'); if(b) b.innerHTML=''; addMsg('bot', polite('đã xóa hội thoại')); }
+
+  async function sendUser(text){
+    if(sending) return; sending=true;
+    addMsg('user', text);
+    try{ updateCtxWithUser(text); }catch(e){}
+    showTyping(); const typingDelay = 2500 + Math.random()*2500; await sleep(typingDelay);
+    let ans;
+    try{ ans = composeReply(text); }catch(e){ ans = null; }
+    hideTyping(); addMsg('bot', ans || polite(`xin lỗi, có lỗi khi trả lời. Anh/chị liên hệ Zalo ${CFG.phone} giúp em nhé.`));
+    sending=false;
+  }
+
+  // ===== Auto-avoid obstacles
+  function checkObstacles(){
+    const root = $('#mta-root'); if(!root) return;
+    const blockers = document.querySelector('.bottom-appbar, .quick-call, #quick-call');
+    let bottom = 'calc(18px + env(safe-area-inset-bottom, 0))';
+    if(blockers){
+      const r = blockers.getBoundingClientRect();
+      const space = window.innerHeight - r.top;
+      if(space < 120) bottom = (space + 70) + 'px';
+    }
+    if(window.visualViewport){
+      const vv = window.visualViewport;
+      if(vv.height < window.innerHeight - 120) bottom = '110px';
+    }
+    root.style.bottom = bottom; root.style.right = '16px'; root.style.left = 'auto';
+  }
+
+  // ===== A11y: Focus trap + ESC
+  document.addEventListener('keydown', (e)=>{
+    if(!isOpen) return;
+    if(e.key === 'Escape'){ e.preventDefault(); closeChat(); return; }
+    if(e.key === 'Tab'){
+      const card = $('#mta-card');
+      if(!card) return;
+      const focusables = card.querySelectorAll('button,[href],input,textarea,select,[tabindex]:not([tabindex="-1"])');
+      const list = Array.from(focusables).filter(el => !el.disabled && el.offsetParent !== null);
+      if(!list.length) return;
+      const first = list[0], last = list[list.length-1];
+      if(e.shiftKey && document.activeElement === first){ e.preventDefault(); last.focus(); }
+      else if(!e.shiftKey && document.activeElement === last){ e.preventDefault(); first.focus(); }
+    }
+  }, {capture:true});
+
+  // ===== Boot: inject UI, bind events, optionally autolearn
   function bindScrollTags(){
     const track = document.getElementById('tagTrack'); const box = document.getElementById('mta-tags'); if(!track||!box) return;
     // click tag -> gửi
@@ -485,82 +628,29 @@
     }
   }
 
-  // ====== sendUser / compose
-  let isOpen=false, sending=false;
-  function openChat(){ if(isOpen) return; $('#mta-card').classList.add('open'); $('#mta-backdrop').classList.add('show'); $('#mta-bubble').style.display='none'; isOpen=true; renderSess(); setTimeout(()=>{ try{ $('#mta-in').focus(); }catch(e){} }, 120); }
-  function closeChat(){ if(!isOpen) return; $('#mta-card').classList.remove('open'); $('#mta-backdrop').classList.remove('show'); $('#mta-bubble').style.display='flex'; isOpen=false; hideTyping(); }
-  function clearChat(){ try{ localStorage.removeItem(K.sess); localStorage.removeItem(K.ctx); }catch(e){}; $('#mta-body').innerHTML=''; addMsg('bot', polite('đã xóa hội thoại')); }
-
-  function compose(q){
-    const m=(q||'').trim(); if(!m) return polite("anh/chị thử bấm tag: 🏍️ Xe số, 🛵 Xe ga, ⚡ Xe điện hoặc 📄 Thủ tục nhé");
-    const r1 = rule(m); if(r1) return r1;
-    if(/(giá|bao nhiêu|tính tiền|bao nhieu|bao nhiều|cost|price|thuê|thue)/i.test(m) || CHEAP_KWS.test(m)) return polite(estimatePrice(m));
-    // lightweight: try to see if ctx has references
-    try{
-      const ctx = safe(localStorage.getItem(K.ctx)) || [];
-      if(ctx.length){
-        const top = ctx[0];
-        if(top && top.score >= 1){
-          const snippet = (top.title?`${top.title} — `:'') + (top.text || '').slice(0,200);
-          return polite(`${snippet} ... Anh/chị xem chi tiết trang: ${top.url}`);
-        }
-      }
-    }catch(e){}
-    return polite("em chưa tìm được thông tin trùng khớp. Anh/chị nói rõ loại xe hoặc thời gian thuê giúp em với ạ.");
-  }
-
-  async function sendUser(text){
-    if(sending) return; sending=true;
-    addMsg('user', text);
-    try{ updateCtxWithUser(text); }catch(e){}
-    showTyping(); const typingDelay = 2500 + Math.random()*2500; await sleep(typingDelay);
-    let ans;
-    try{ ans = compose(text); }catch(e){ ans = null; }
-    hideTyping(); addMsg('bot', ans || polite(`xin lỗi, có lỗi khi trả lời. Anh/chị liên hệ Zalo ${CFG.phone} giúp em nhé.`));
-    sending=false;
-  }
-
-  // ===== Auto-avoid obstacles
-  function checkObstacles(){
-    const root = $('#mta-root'); if(!root) return;
-    const blockers = document.querySelector('.bottom-appbar, .quick-call, #quick-call');
-    let bottom = 'calc(18px + env(safe-area-inset-bottom, 0))';
-    if(blockers){
-      const r = blockers.getBoundingClientRect();
-      const space = window.innerHeight - r.top;
-      if(space < 120) bottom = (space + 70) + 'px';
-    }
-    if(window.visualViewport){
-      const vv = window.visualViewport;
-      if(vv.height < window.innerHeight - 120) bottom = '110px';
-    }
-    root.style.bottom = bottom; root.style.right = '16px'; root.style.left = 'auto';
-  }
-
-  // ===== Boot: inject UI, bind events, optionally autolearn
   ready(async ()=>{
     const hour=new Date().getHours(); if(hour>19||hour<6) document.body.classList.add('ai-night');
     injectUI(); bindScrollTags(); checkObstacles();
+
     // Bind UI handlers
-    $('#mta-bubble').addEventListener('click', ()=>{ openChat(); });
-    $('#mta-backdrop').addEventListener('click', closeChat);
-    $('#mta-close').addEventListener('click', closeChat);
-    $('#mta-clear').addEventListener('click', clearChat);
-    $('#mta-send').addEventListener('click', ()=>{ const v=($('#mta-in').value||'').trim(); if(!v) return; $('#mta-in').value=''; sendUser(v); });
-    $('#mta-in').addEventListener('keydown',(e)=>{ if(e.key==='Enter' && !e.shiftKey){ e.preventDefault(); const v=($('#mta-in').value||'').trim(); if(!v) return; $('#mta-in').value=''; sendUser(v); }});
+    $('#mta-bubble') && $('#mta-bubble').addEventListener('click', openChat);
+    $('#mta-backdrop') && $('#mta-backdrop').addEventListener('click', closeChat);
+    $('#mta-close') && $('#mta-close').addEventListener('click', closeChat);
+    $('#mta-clear') && $('#mta-clear').addEventListener('click', clearChat);
+    $('#mta-send') && $('#mta-send').addEventListener('click', ()=>{ const v=($('#mta-in').value||'').trim(); if(!v) return; $('#mta-in').value=''; sendUser(v); });
+    $('#mta-in') && $('#mta-in').addEventListener('keydown',(e)=>{ if(e.key==='Enter' && !e.shiftKey){ e.preventDefault(); const v=($('#mta-in').value||'').trim(); if(!v) return; $('#mta-in').value=''; sendUser(v); }});
     window.addEventListener('resize', checkObstacles, {passive:true});
     window.addEventListener('scroll', checkObstacles, {passive:true});
     if(window.visualViewport) window.visualViewport.addEventListener('resize', checkObstacles, {passive:true});
+    // đảm bảo UI tồn tại
     setTimeout(()=>{ if(!$('#mta-bubble')) injectUI(); }, 2500);
-    console.log('%cMotoAI v26 AutoLearn MultiSite — UI ready','color:#0084FF;font-weight:bold;');
+
+    console.log('%cMotoAI v26 AutoLearn MultiSite — UI ready (Patched)','color:#0084FF;font-weight:bold;');
 
     // AutoLearn: collect sites (current origin + extraSites)
     if(CFG.autolearn){
       const sites = Array.from(new Set([location.origin, ...(CFG.extraSites||[])]));
-      // start learning in background asynchronously (non-blocking for UI)
       try{
-        console.log('MotoAI autolearn: starting for', sites);
-        // learn but don't block UI
         (async()=>{
           await learnSites(sites, false);
           console.log('MotoAI autolearn: finished initial learn (see localStorage key)', K.learn);
