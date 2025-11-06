@@ -60,6 +60,18 @@
       <button onclick="window.MotoAI_v27_autolearn && window.MotoAI_v27_autolearn.clearLearnCache(); alert('Đã xoá cache học');">
         Xoá cache học
       </button>
+      <button id="btnStatus">
+        📊 Trạng thái học
+      </button>
+      <button onclick="
+        localStorage.removeItem('MotoAI_v26_learn');
+        localStorage.removeItem('MotoAI_v26_ctx');
+        localStorage.removeItem('MotoAI_v26_session');
+        localStorage.removeItem('MotoAI_v26_auto_prices');
+        alert('Đã xoá toàn bộ cache học & phiên');
+      ">
+        🧹 Xoá toàn bộ cache
+      </button>
       <button onclick="console.log(window.MotoAI_v27_autolearn && window.MotoAI_v27_autolearn.getIndex()); alert('Đã log getIndex() ra console')">
         Log getIndex() ra console
       </button>
@@ -74,5 +86,49 @@
       </ul>
     </p>
   </div>
+
+  <!-- Nút "🔄 Học lại" chèn trực tiếp vào thanh tag trong khung chat -->
+  <script>
+    (function addLearnTag(retry=60){
+      const track = document.getElementById('tagTrack');
+      if (!track) { if (retry>0) return setTimeout(()=>addLearnTag(retry-1), 200); return; }
+
+      const btn = document.createElement('button');
+      btn.textContent = '🔄 Học lại';
+      btn.title = 'Ép học lại ngay (bỏ qua cache)';
+      btn.addEventListener('click', async ()=>{
+        const api = window.MotoAI_v27_autolearn || window.MotoAI_v26_autolearn;
+        if (!api) return alert('Chưa có API học (script chưa nạp?)');
+        btn.disabled = true; const old = btn.textContent; btn.textContent = '⏳ Đang học...';
+        try {
+          await api.learnNow(null, true);
+          alert('Đã học lại xong.');
+        } catch(e) {
+          alert('Không thể học lại: ' + (e && e.message ? e.message : e));
+        } finally {
+          btn.disabled = false; btn.textContent = old;
+        }
+      });
+      track.appendChild(btn);
+    })();
+  </script>
+
+  <!-- Nút 📊 Trạng thái học: thống kê nhanh từ localStorage -->
+  <script>
+    (function(){
+      const btn = document.getElementById('btnStatus');
+      if (!btn) return;
+      btn.addEventListener('click', ()=>{
+        try{
+          const cache = JSON.parse(localStorage.getItem('MotoAI_v26_learn')||'{}');
+          const domains = Object.keys(cache);
+          const totalPages = domains.reduce((s,d)=> s + ((cache[d]?.pages||[]).length), 0);
+          const lastTs = domains.map(d=> cache[d]?.ts||0).sort((a,b)=>b-a)[0] || 0;
+          const hours = lastTs ? Math.round(((Date.now()/1000 - lastTs)/3600)*10)/10 : 'N/A';
+          alert(`Đã học ${domains.length} domain / ${totalPages} trang.\nLần gần nhất: ${hours} giờ trước.`);
+        }catch(e){ alert('Không đọc được trạng thái: '+e); }
+      });
+    })();
+  </script>
 </body>
 </html>
