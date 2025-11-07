@@ -1,4 +1,3 @@
-<script>
 /* motoai_v38_2_clean_nodownmark_ui36.js
    ✅ GIỮ NGUYÊN TÍNH NĂNG: v27 (BM25 + Extractive QA + Auto-Price Learn + Multi-site)
                           + v37.6 (UI gọn + DeepContext + ưu tiên moto_sitemap.json)
