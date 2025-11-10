@@ -1,7 +1,3 @@
-Dưới đây là phiên bản đã được chỉnh lại — giữ đúng kiểu viết tự nhiên, tên xe viết hoa đúng chuẩn, còn lại viết thường, không markdown, không ký hiệu đặc biệt.
-
-⸻
-
 Bảng giá thuê xe tay ga tại Hà Nội
 
 Stt Tên xe Giá thuê 1 ngày Giá thuê 1 tuần Giá thuê 1 tháng
