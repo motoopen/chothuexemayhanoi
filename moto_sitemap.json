@@ -1,13 +1,13 @@
 {
   "meta": {
-    "version": "1.2",
-    "lastUpdate": "2025-10-25",
-    "description": "Sitemap mở rộng cho AI Motoopen – tổng hợp nội dung HTML và dữ liệu học máy (.txt) phục vụ cho AutoLearn, SEO, và nâng cấp AI từ v10 đến v14."
+    "version": "1.3",
+    "lastUpdate": "2025-11-10",
+    "description": "Sitemap mở rộng cho AI Motoopen – tổng hợp nội dung HTML và dữ liệu học máy (.txt) phục vụ AutoLearn, SEO, và nâng cấp AI từ v10 đến v15."
   },
   "categories": {
     "pages": {
       "type": "html",
-      "description": "Các trang chính hiển thị nội dung web và UI",
+      "description": "Các trang chính hiển thị nội dung web và giao diện người dùng",
       "list": [
         "https://motoopen.github.io/chothuexemayhanoi/index.html",
         "https://motoopen.github.io/chothuexemayhanoi/gioithieu.html",
@@ -25,7 +25,7 @@
     },
     "datasets": {
       "type": "txt",
-      "description": "Các tập dữ liệu text AI học và tự huấn luyện từ nội dung thực tế",
+      "description": "Các tập dữ liệu văn bản AI học và tự huấn luyện từ nội dung thực tế",
       "list": [
         "https://motoopen.github.io/chothuexemayhanoi/du-lieu/thuengay.txt",
         "https://motoopen.github.io/chothuexemayhanoi/du-lieu/tuan.txt",
@@ -33,6 +33,8 @@
         "https://motoopen.github.io/chothuexemayhanoi/du-lieu/xe50cc.txt",
         "https://motoopen.github.io/chothuexemayhanoi/du-lieu/xeso.txt",
         "https://motoopen.github.io/chothuexemayhanoi/du-lieu/xega.txt",
+        "https://motoopen.github.io/chothuexemayhanoi/du-lieu/vision.txt",
+        "https://motoopen.github.io/chothuexemayhanoi/du-lieu/airblade.txt",
         "https://motoopen.github.io/chothuexemayhanoi/du-lieu/thutuc.txt",
         "https://motoopen.github.io/chothuexemayhanoi/du-lieu/dieukien.txt",
         "https://motoopen.github.io/chothuexemayhanoi/du-lieu/hoidap.txt",
@@ -43,7 +45,7 @@
   "training": {
     "mode": "incremental",
     "autoRefresh": "72h",
-    "preferredFormat": "markdown+utf8",
+    "preferredFormat": "plain+utf8",
     "enableSpellFix": true,
     "enableAdaptiveLearn": true
   },
