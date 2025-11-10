@@ -1,32 +1,33 @@
-Dưới đây là bảng giá thuê xe tay ga tại Hà Nội được trình bày chuẩn dạng bảng văn bản (không markdown, không ký hiệu đặc biệt), dễ dùng cho in ấn, chatbot hoặc web nội bộ:
+Dưới đây là phiên bản đã được chỉnh lại — giữ đúng kiểu viết tự nhiên, tên xe viết hoa đúng chuẩn, còn lại viết thường, không markdown, không ký hiệu đặc biệt.
 
 ⸻
 
-BẢNG GIÁ THUÊ XE TAY GA TẠI HÀ NỘI
+Bảng giá thuê xe tay ga tại Hà Nội
 
-STT	TÊN XE	GIÁ THUÊ 1 NGÀY	GIÁ THUÊ 1 TUẦN	GIÁ THUÊ 1 THÁNG
-1	VISION 110CC	200.000Đ	850.000Đ	2.000.000Đ
-2	LEAD 125CC	200.000Đ	850.000Đ	2.000.000Đ
-3	AIR BLADE 125CC	200.000Đ	850.000Đ	1.400.000Đ
-4	SH MODE 125CC	200.000Đ	850.000Đ	2.000.000Đ
-5	PCX 125CC	200.000Đ	850.000Đ	2.000.000Đ
-6	JANUS 125CC	200.000Đ	850.000Đ	2.000.000Đ
-7	GRANDE 125CC	200.000Đ	850.000Đ	2.000.000Đ
-8	LATTE 125CC	200.000Đ	850.000Đ	2.000.000Đ
-9	NVX 155CC	200.000Đ	850.000Đ	2.000.000Đ
-10	VESPA PRIMAVERA 125CC	200.000Đ	850.000Đ	2.000.000Đ
-11	VESPA SPRINT 150CC	200.000Đ	850.000Đ	2.000.000Đ
-12	PIAGGIO LIBERTY 125CC	200.000Đ	850.000Đ	2.000.000Đ
-13	SYM ATTILA ELIZABETH 110CC	200.000Đ	850.000Đ	2.000.000Đ
+Stt Tên xe Giá thuê 1 ngày Giá thuê 1 tuần Giá thuê 1 tháng
+1 Vision 110cc 200.000đ 850.000đ 2.000.000đ
+2 Lead 125cc 200.000đ 850.000đ 2.000.000đ
+3 Air Blade 125cc 200.000đ 850.000đ 1.400.000đ
+4 SH Mode 125cc 200.000đ 850.000đ 2.000.000đ
+5 PCX 125cc 200.000đ 850.000đ 2.000.000đ
+6 Janus 125cc 200.000đ 850.000đ 2.000.000đ
+7 Grande 125cc 200.000đ 850.000đ 2.000.000đ
+8 Latte 125cc 200.000đ 850.000đ 2.000.000đ
+9 NVX 155cc 200.000đ 850.000đ 2.000.000đ
+10 Vespa Primavera 125cc 200.000đ 850.000đ 2.000.000đ
+11 Vespa Sprint 150cc 200.000đ 850.000đ 2.000.000đ
+12 Piaggio Liberty 125cc 200.000đ 850.000đ 2.000.000đ
+13 SYM Attila Elizabeth 110cc 200.000đ 850.000đ 2.000.000đ
 
+⸻
+
+Tất cả xe đều được kiểm tra kỹ lưỡng, bảo dưỡng và vệ sinh sạch sẽ trước khi giao.
+Giá đã bao gồm 2 mũ bảo hiểm, áo mưa và hỗ trợ kỹ thuật trong suốt thời gian thuê.
+Có thể giao xe tận nơi có phí tùy khu vực.
+
+Liên hệ thuê xe tay ga Hà Nội: 0857 255 868
+(Zalo hoặc gọi trực tiếp để được tư vấn và giao xe tận nơi)
 
 ⸻
 
-TẤT CẢ XE ĐỀU ĐƯỢC KIỂM TRA KỸ LƯỠNG, BẢO DƯỠNG VÀ VỆ SINH SẠCH SẼ TRƯỚC KHI GIAO.
-GIÁ ĐÃ BAO GỒM 2 MŨ BẢO HIỂM, ÁO MƯA VÀ HỖ TRỢ KỸ THUẬT TRONG SUỐT THỜI GIAN THUÊ.
-CÓ THỂ GIAO XE TẬN NƠI CÓ PHÍ TÙY KHU VỰC.
-
-LIÊN HỆ THUÊ XE TAY GA HÀ NỘI: 0857 255 868
-(ZALO HOẶC GỌI TRỰC TIẾP ĐỂ ĐƯỢC TƯ VẤN VÀ GIAO XE TẬN NƠI)
-
-⸻
+Bạn có muốn tôi làm tương tự bảng này cho xe số luôn không (ví dụ Wave, Sirius, Future, Jupiter…)?
