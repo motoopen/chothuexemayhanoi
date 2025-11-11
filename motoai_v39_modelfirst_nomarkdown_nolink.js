@@ -1,20 +1,18 @@
-/* motoai_v39_modelfirst_nomarkdown_nolink.js
-   ✅ HỢP NHẤT: v27 (BM25 + Extractive QA + Auto-Price Learn + Multi-site)
-           + v37.6 (UI nhỏ như Messenger + DeepContext + ưu tiên moto_sitemap.json)
-           + v38.1 (Debug counters + console.table, fix UI input, iOS keyboard-safe)
-           + v39 (FIX session, DeepContext, qty/phone, ARIA + Esc + focus trap, X-Robots-Tag, outlier clamp, intent & model regex, safe HTML, soft fallback giá, crawl concurrency)
-
-   ✅ Tùy biến theo yêu cầu:
+/* motoai_v38_1_modelfirst_nomarkdown_nolink.js
+   ✅ GỘP: v27 (BM25 + Extractive QA + Auto-Price Learn + Multi-site)
+        + v37.6 (UI nhỏ như Messenger + DeepContext + ưu tiên moto_sitemap.json)
+        + v38.1 (Debug counters + console.table, fix UI input, iOS keyboard-safe)
+   ✅ Tuỳ biến theo yêu cầu:
         - Chatbot KHÔNG gửi markdown, KHÔNG chèn link trong câu trả lời
         - Nhận diện CHÍNH XÁC tên model xe: vision, wave, sirius, air blade... (kể cả user gõ "honda vision" → hiểu "vision")
         - Ưu tiên báo giá theo model; thiếu thì fallback theo family (xe số/xe ga)
         - Auto-Price Learn gom giá THEO MODEL và chỉ học giá theo NGÀY
 
-   Public API: window.MotoAI_v39.{open,close,send,learnNow,getIndex,clearLearnCache,debugDump}
+   Public API: window.MotoAI_v38.{open,close,send,learnNow,getIndex,clearLearnCache,debugDump}
 */
 (function(){
-  if (window.MotoAI_v39_LOADED) return;
-  window.MotoAI_v39_LOADED = true;
+  if (window.MotoAI_v38_LOADED) return;
+  window.MotoAI_v38_LOADED = true;
 
   /* ====== CONFIG ====== */
   const DEF = {
@@ -44,7 +42,7 @@
     smart: {
       semanticSearch: true,   // BM25
       extractiveQA:   true,   // chích câu “đinh”
-      autoPriceLearn: true    // trích giá từ HTML (MODEL, chỉ "ngày")
+      autoPriceLearn: true    // trích giá từ HTML
     },
 
     // Debug / profiling
@@ -69,7 +67,6 @@
   const nfVND = n => (n||0).toLocaleString('vi-VN');
   const clamp = (n,min,max)=> Math.max(min, Math.min(max,n));
   const sameHost = (u, origin)=> { try{ return new URL(u).host.replace(/^www\./,'') === new URL(origin).host.replace(/^www\./,''); }catch{ return false; } };
-  const esc = s => String(s||'').replace(/[&<>"']/g, c=>({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
   function naturalize(t){
     if(!t) return t;
     let s = " "+t+" ";
@@ -83,6 +80,7 @@
   }
 
   // Loại bỏ thương hiệu khỏi chuỗi để nhận model chính xác
+  // LƯU Ý: KHÔNG loại 'vespa' vì đây cũng là model được phép nhận diện
   const BRANDS = ['honda','yamaha','suzuki','piaggio','vinfast','sym','kymco'];
   function stripBrands(text){
     return String(text||'')
@@ -98,6 +96,7 @@
       out = out.replace(/\bhttps?:\/\/\S+/gi,'').replace(/\bwww\.\S+/gi,'');
     }
     if(CFG.noMarkdownReply){
+      // Bỏ cú pháp markdown phổ biến
       out = out
         .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '$1') // [txt](url) -> txt
         .replace(/[*_`~>]+/g, '');                 // *, _, `, ~, > bỏ hết
@@ -107,13 +106,13 @@
 
   /* ====== STORAGE KEYS ====== */
   const K = {
-    sess:  "MotoAI_v39_session",
-    ctx:   "MotoAI_v39_ctx",
-    learn: "MotoAI_v39_learn",       // { domainKey: {ts, pages:[{url,title,text}] } }
-    autoprices: "MotoAI_v39_auto_prices",
-    stamp: "MotoAI_v39_learnStamp",
-    clean: "MotoAI_v39_lastClean",
-    dbg:   "MotoAI_v39_debug_stats"
+    sess:  "MotoAI_v38_session",
+    ctx:   "MotoAI_v38_ctx",
+    learn: "MotoAI_v38_learn",       // { domainKey: {ts, pages:[{url,title,text}] } }
+    autoprices: "MotoAI_v38_auto_prices",
+    stamp: "MotoAI_v38_learnStamp",
+    clean: "MotoAI_v38_lastClean",
+    dbg:   "MotoAI_v38_debug_stats"
   };
 
   /* ====== UI (Messenger-like, input ~32px) ====== */
@@ -123,9 +122,11 @@
     --m-blue:${CFG.themeColor};
     --m-bg:#fff;
     --m-text:#0b1220;
-    --m-in-h: 34px;
-    --m-in-fs: 15px;
-    --m-send-size: 36px;
+
+    /* Input sizing (tùy biến nhanh) */
+    --m-in-h: 34px;         /* chiều cao ô nhập. Đổi 34/36 nếu muốn lớn hơn */
+    --m-in-fs: 15px;        /* cỡ chữ trong ô nhập */
+    --m-send-size: 36px;    /* kích thước nút gửi */
   }
   #mta-root{
     position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0));z-index:var(--mta-z);
@@ -213,25 +214,25 @@
   }`;
   const HTML = `
   <div id="mta-root" aria-live="polite">
-    <button id="mta-bubble" aria-label="Mở chat cùng ${esc(CFG.brand)}">💬</button>
+    <button id="mta-bubble" aria-label="Mở chat cùng ${CFG.brand}">💬</button>
     <div id="mta-backdrop"></div>
-    <section id="mta-card" role="dialog" aria-label="Chat ${esc(CFG.brand)}" aria-hidden="true">
+    <section id="mta-card" role="dialog" aria-label="Chat ${CFG.brand}" aria-hidden="true">
       <header id="mta-header">
         <div class="bar">
-          <div class="avatar">${esc(CFG.avatar||"👩‍💼")}</div>
+          <div class="avatar">${CFG.avatar||"👩‍💼"}</div>
           <div class="info">
-            <div class="name">${esc(CFG.brand)} — Đang hoạt động</div>
+            <div class="name">${CFG.brand} — Đang hoạt động</div>
             <div class="status"><span class="status-dot"></span>Trực tuyến</div>
           </div>
           <div class="actions">
-            ${CFG.phone?`<a class="act" href="tel:${esc(CFG.phone)}" title="Gọi nhanh">📞</a>`:""}
-            ${CFG.zalo?`<a class="act" href="${esc(CFG.zalo)}" target="_blank" rel="noopener" title="Zalo">Z</a>`:""}
-            ${CFG.map?`<a class="act q-map" href="${esc(CFG.map)}" target="_blank" rel="noopener" title="Bản đồ">📍</a>`:""}
+            ${CFG.phone?`<a class="act" href="tel:${CFG.phone}" title="Gọi nhanh">📞</a>`:""}
+            ${CFG.zalo?`<a class="act" href="${CFG.zalo}" target="_blank" rel="noopener" title="Zalo">Z</a>`:""}
+            ${CFG.map?`<a class="act q-map" href="${CFG.map}" target="_blank" rel="noopener" title="Bản đồ">📍</a>`:""}
           </div>
           <button id="mta-close" aria-label="Đóng">×</button>
         </div>
       </header>
-      <main id="mta-body" role="log" aria-live="polite"></main>
+      <main id="mta-body" role="log"></main>
       <div id="mta-tags" role="toolbar" aria-label="Gợi ý nhanh">
         <div class="track" id="mta-tag-track">
           <button data-q="Giá thuê xe máy">💰 Giá thuê</button>
@@ -244,7 +245,7 @@
         </div>
       </div>
       <footer id="mta-input">
-        <input id="mta-in" placeholder="Nhắn cho ${esc(CFG.brand)}..." autocomplete="off" />
+        <input id="mta-in" placeholder="Nhắn cho ${CFG.brand}..." autocomplete="off" />
         <button id="mta-send" aria-label="Gửi tin">➤</button>
       </footer>
     </section>
@@ -254,21 +255,30 @@
   const MAX_MSG = 10;
   function getSess(){ const arr = safe(localStorage.getItem(K.sess))||[]; return Array.isArray(arr)?arr:[]; }
   function saveSess(a){ try{ localStorage.setItem(K.sess, JSON.stringify(a.slice(-MAX_MSG))); }catch{} }
-  function addMsg(role,text,{save=true}={}){  // v39: thêm cờ save để render lịch sử không nhân đôi
+
+  // 🔧 NEW: render-only để tránh nhân đôi lịch sử
+  function appendMsg(role,text){
     if(!text) return;
     const body=$("#mta-body"); if(!body) return;
     const el=document.createElement("div"); el.className="m-msg "+(role==="user"?"user":"bot"); el.textContent=text;
     body.appendChild(el); body.scrollTop=body.scrollHeight;
-    if(save){
-      const arr=getSess(); arr.push({role,text,t:Date.now()}); saveSess(arr);
-    }
   }
+
+  function addMsg(role,text){
+    if(!text) return;
+    appendMsg(role,text); // render
+    const arr=getSess(); arr.push({role,text,t:Date.now()}); saveSess(arr); // lưu lịch sử
+  }
+
   function renderSess(){
-    const body=$("#mta-body"); body.innerHTML="";
+    const body=$("#mta-body"); if(!body) return;
+    body.innerHTML="";
     const arr=getSess();
-    if(arr.length) arr.forEach(m=> addMsg(m.role,m.text,{save:false}));
-    else addMsg("bot", naturalize(`Xin chào, em là nhân viên hỗ trợ của ${CFG.brand}. Anh/chị cần thuê xe số, xe ga hay theo tháng?`), {save:false});
+    if(arr.length) arr.forEach(m=> appendMsg(m.role,m.text)); // chỉ render, KHÔNG lưu lại
+    else appendMsg("bot", naturalize(`Xin chào, em là nhân viên hỗ trợ của ${CFG.brand}. Anh/chị cần thuê xe số, xe ga hay theo tháng?`));
+    body.scrollTop = body.scrollHeight;
   }
+
   function getCtx(){ return safe(localStorage.getItem(K.ctx)) || {turns:[]}; }
   function pushCtx(delta){
     try{
@@ -279,6 +289,7 @@
   }
 
   /* ====== NLP nhẹ (model/loại xe / số ngày) ====== */
+  // ƯU TIÊN model cụ thể trước, family sau
   const TYPE_MAP = [
     // Model cụ thể
     {k:'air blade', re:/\bair\s*blade\b|airblade|\bab\b/i,    canon:'air blade'},
@@ -292,7 +303,7 @@
     {k:'vespa',     re:/\bvespa\b/i,                          canon:'vespa'},
     {k:'grande',    re:/\bgrande\b/i,                         canon:'grande'},
     {k:'janus',     re:/\bjanus\b/i,                          canon:'janus'},
-    {k:'sh',        re:/(^|\s)sh(\s|$)/i,                     canon:'sh'},      // v39: siết regex tránh match chuỗi dài
+    {k:'sh',        re:/\bsh\b/i,                             canon:'sh'},
 
     // Nhóm chung
     {k:'xe côn tay',re:/côn\s*tay|tay\s*côn|exciter|winner|raider|cb150|cbf190|w175|msx/i, canon:'xe côn tay'},
@@ -308,40 +319,20 @@
     for(const it of TYPE_MAP){ if(it.re.test(raw)) return it.canon; }
     return null;
   }
-
-  // v39: chỉ nhận qty khi có đơn vị/hoặc bối cảnh; loại trừ sđt 9–11 số
   function detectQty(t){
-    const s = String(t||'');
-    if(/\b\d{9,11}\b/.test(s)) return null; // sđt
-    // ưu tiên có đơn vị
-    let m = s.match(/(\d+)\s*(ngày|day|tuần|tuan|week|tháng|thang|month)\b/i);
-    if(m){
-      const n = parseInt(m[1],10); if(!n) return null;
-      let unit = /tuần|tuan|week/i.test(m[2]) ? 'tuần' : (/tháng|thang|month/i.test(m[2]) ? 'tháng' : 'ngày');
-      return {n, unit};
-    }
-    // theo bối cảnh "thuê X ngày"
-    m = s.match(/\bthuê\s*(\d+)\s*(ngày|day|tuần|tuan|week|tháng|thang|month)\b/i);
-    if(m){
-      const n = parseInt(m[1],10); if(!n) return null;
-      let unit = /tuần|tuan|week/i.test(m[2]) ? 'tuần' : (/tháng|thang|month/i.test(m[2]) ? 'tháng' : 'ngày');
-      return {n, unit};
-    }
-    return null;
+    const m=(t||"").match(/(\d+)\s*(ngày|day|tuần|tuan|week|tháng|thang|month)?/i);
+    if(!m) return null; const n=parseInt(m[1],10); if(!n) return null;
+    let unit="ngày"; if(m[2]){ if(/tuần|tuan|week/i.test(m[2])) unit="tuần"; else if(/tháng|thang|month/i.test(m[2])) unit="tháng"; }
+    return {n,unit};
   }
-
-  // v39: ý định mở rộng và khử nhiễu
   function detectIntent(t){
-    const s = String(t||'').toLowerCase();
-    const needPrice = /(giá|bao nhiêu|thuê|tính tiền|cost|price|bảng giá|báo giá)/i.test(s)
-                      && !/(đặt cọc|cọc|thủ tục|giấy tờ)/i.test(s);
     return {
-      needPrice,
-      needDocs: /(thủ tục|giấy tờ|cccd|passport|hộ chiếu|bằng lái|giấy phép)/i.test(s),
-      needContact: /(liên hệ|zalo|gọi|hotline|sđt|sdt|phone|điện thoại)/i.test(s),
-      needDelivery:/(giao|ship|tận nơi|đưa xe|mang xe|giao xe)/i.test(s),
-      needReturn:  /(trả xe|gia hạn|đổi xe|kết thúc thuê|kết thúc hợp đồng)/i.test(s),
-      needPolicy:  /(điều kiện|chính sách|bảo hiểm|hư hỏng|sự cố|đặt cọc|cọc|phạt)/i.test(s)
+      needPrice:   /(giá|bao nhiêu|thuê|tính tiền|cost|price)/i.test(t),
+      needDocs:    /(thủ tục|giấy tờ|cccd|passport|hộ chiếu)/i.test(t),
+      needContact: /(liên hệ|zalo|gọi|hotline|sđt|sdt|phone)/i.test(t),
+      needDelivery:/(giao|ship|tận nơi|đưa xe|mang xe)/i.test(t),
+      needReturn:  /(trả xe|gia hạn|đổi xe|kết thúc thuê)/i.test(t),
+      needPolicy:  /(điều kiện|chính sách|bảo hiểm|hư hỏng|sự cố|đặt cọc|cọc)/i.test(t)
     };
   }
 
@@ -366,6 +357,12 @@
   PRICE_TABLE['janus']  = PRICE_TABLE['janus']  || { day:[200000], week:[800000], month:[1500000,1900000] };
   PRICE_TABLE['sh']     = PRICE_TABLE['sh']     || { day:[450000], week:[1800000], month:[4500000] };
 
+  function baseFor(type,unit){
+    const it=PRICE_TABLE[type]; if(!it) return null;
+    const key = unit==="tuần"?"week":(unit==="tháng"?"month":"day");
+    const arr=it[key]; if(!arr) return null; return Array.isArray(arr)?arr[0]:arr;
+  }
+
   function modelFamily(model){
     switch((model||'').toLowerCase()){
       case 'vision':
@@ -388,32 +385,20 @@
         return null;
     }
   }
-
-  // v39: fallback mềm (model → family → 'xe số')
   function baseForModel(model, unit){
     if(!model) return null;
     const key = unit==="tuần"?"week":(unit==="tháng"?"month":"day");
     const entry = PRICE_TABLE[model];
-    if(entry && entry[key]!=null){
+    if(entry && entry[key]){
       const arr = Array.isArray(entry[key]) ? entry[key] : [entry[key]];
-      if(arr.length && arr[0]!=null) return arr[0];
+      return arr[0];
     }
     const fam = modelFamily(model);
-    if(fam && PRICE_TABLE[fam] && PRICE_TABLE[fam][key]!=null){
+    if(fam && PRICE_TABLE[fam] && PRICE_TABLE[fam][key]){
       const arr = Array.isArray(PRICE_TABLE[fam][key]) ? PRICE_TABLE[fam][key] : [PRICE_TABLE[fam][key]];
-      if(arr.length && arr[0]!=null) return arr[0];
-    }
-    if(PRICE_TABLE['xe số'] && PRICE_TABLE['xe số'][key]!=null){
-      const arr = Array.isArray(PRICE_TABLE['xe số'][key]) ? PRICE_TABLE['xe số'][key] : [PRICE_TABLE['xe số'][key]];
       return arr[0];
     }
     return null;
-  }
-
-  function baseFor(type,unit){
-    const it=PRICE_TABLE[type]; if(!it) return null;
-    const key = unit==="tuần"?"week":(unit==="tháng"?"month":"day");
-    const arr=it[key]; if(!arr) return null; return Array.isArray(arr)?arr[0]:arr;
   }
 
   // Trích giá theo MODEL, chỉ học "ngày"
@@ -433,7 +418,7 @@
       {key:/\bvespa\b/i,                        type:'vespa'},
       {key:/\bgrande\b/i,                       type:'grande'},
       {key:/\bjanus\b/i,                        type:'janus'},
-      {key:/(\s|^)sh(\s|$)/i,                   type:'sh'},
+      {key:/\bsh\b/i,                           type:'sh'},
       {key:/\b50\s*cc\b|\b50cc\b/i,             type:'50cc'},
       {key:/côn\s*tay|tay\s*côn|exciter|winner|raider|cb150|cbf190|w175|msx/i, type:'xe côn tay'},
       {key:/xe\s*điện|vinfast|yadea|dibao|gogo|klara/i, type:'xe điện'},
@@ -510,18 +495,22 @@
       : idx.map(it=> Object.assign(
           {score: tk(it.title+" "+it.text).filter(t=> tk(query).includes(t)).length}, it))
            .filter(x=>x.score>0)
-           .sort((a,b)=> b.score - a.score)   // v39: comparator chuẩn
+           .sort((a,b)=> b.score - a.score)
            .slice(0,k);
     return scored;
   }
+
+  // 🔧 FIX: bỏ lookbehind để chạy tốt trên Safari/iOS cũ
   function bestSentences(text, query, k=2){
-    const sents = String(text||'').replace(/\s+/g,' ').split(/(?<=[\.\!\?])\s+/).slice(0,80);
-    const qToks=new Set(tk(query)); const scored = sents.map(s=>{
+    const normalized = String(text||'').replace(/\s+/g,' ');
+    const sents = (normalized.match(/[^.!?]+[.!?]/g) || []).slice(0,80);
+    const qToks=new Set(tk(query));
+    const scored = sents.map(s=>{
       const toks=tk(s); let hit=0; qToks.forEach(t=>{ if(toks.includes(t)) hit++; });
       const lenp = Math.max(0.5, 12/Math.max(12, toks.length));
       return {s, score: hit*lenp};
     }).filter(x=>x.score>0).sort((a,b)=>b.score-a.score);
-    return scored.slice(0,k).map(x=>x.s);
+    return scored.slice(0,k).map(x=>x.s.trim());
   }
 
   /* ====== FETCH / PARSE ====== */
@@ -530,9 +519,6 @@
     try{
       const res = await fetch(url, {signal: ctl.signal, mode:'cors', credentials:'omit'});
       clearTimeout(id); if(!res.ok) return null;
-      // v39: tôn trọng X-Robots-Tag
-      const xrt = (res.headers.get('X-Robots-Tag')||'').toLowerCase();
-      if(xrt.includes('noindex')) return null;
       return await res.text();
     }catch(e){ clearTimeout(id); return null; }
   }
@@ -594,19 +580,16 @@
     return Array.from(set);
   }
 
-  // v39: crawl concurrency (pool)
   async function pullPages(urls, stats){
-    const uniq = urls.slice(0, CFG.maxPagesPerDomain);
-    stats.urlsSeen += uniq.length;
     const out=[];
-    const CONC = 6;
-    let i=0;
+    stats.urlsSeen += urls.length;
+    for(const u of urls.slice(0, CFG.maxPagesPerDomain)){
+      const txt = await fetchText(u); if(!txt) continue;
 
-    async function runOne(u){
-      const txt = await fetchText(u); if(!txt) return;
-      // tôn trọng noindex trong html
-      if (/\bname=(?:"|')robots(?:"|')[^>]*content=(?:"|')[^"']*noindex/i.test(txt)) { stats.noindexSkipped++; return; }
+      // tôn trọng noindex
+      if (/\bname=(?:"|')robots(?:"|')[^>]*content=(?:"|')[^"']*noindex/i.test(txt)) { stats.noindexSkipped++; continue; }
 
+      // title + description
       let title = (txt.match(/<title[^>]*>([^<]+)<\/title>/i)||[])[1]||"";
       title = title.replace(/\s+/g,' ').trim();
       let desc = (txt.match(/<meta[^>]+name=(?:"|')description(?:"|')[^>]+content=(?:"|')([\s\S]*?)(?:"|')/i)||[])[1]||"";
@@ -615,8 +598,9 @@
                   .replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim().slice(0,600);
       }
       const sample = (title+' '+desc).toLowerCase();
-      if(CFG.viOnly && !looksVN(sample)) { stats.nonVNSkipped++; return; }
+      if(CFG.viOnly && !looksVN(sample)) { stats.nonVNSkipped++; await sleep(CFG.fetchPauseMs); continue; }
 
+      // Auto-Price learn theo MODEL, chỉ NGÀY
       if(CFG.smart.autoPriceLearn){
         try{
           const autos = extractPricesFromText(txt);
@@ -632,14 +616,8 @@
       stats.htmlPages++;
       out.push({url:u, title, text:desc});
       stats.pagesKept++;
+      await sleep(CFG.fetchPauseMs);
     }
-
-    const workers = new Array(CONC).fill(0).map(async ()=>{
-      while(i<uniq.length){
-        const u = uniq[i++]; await runOne(u); await sleep(CFG.fetchPauseMs);
-      }
-    });
-    await Promise.all(workers);
     return out;
   }
 
@@ -726,7 +704,7 @@
       try{
         const key = new URL(origin).origin;
         const stats = newDomainStats(key);
-        const cached = cache[key]; // v39: bỏ cache["sitemap-json"]
+        const cached = cache[key] || cache["sitemap-json"];
         if(!force && cached && !isExpired(cached.ts, CFG.refreshHours) && cached.pages?.length){
           results[key] = cached; total += cached.pages.length;
           stats.pagesKept = cached.pages.length;
@@ -755,7 +733,7 @@
       try{
         const rows = Object.values(loadStatsAll());
         if(rows.length){
-          console.groupCollapsed("%cMotoAI v39 — Learn Summary","color:"+CFG.themeColor+";font-weight:bold");
+          console.groupCollapsed("%cMotoAI v38.1 — Learn Summary","color:"+CFG.themeColor+";font-weight:bold");
           console.table(rows.map(r=>({
             domain: r.domain,
             'urlsSeen': r.urlsSeen,
@@ -788,35 +766,6 @@
     return results;
   }
 
-  /* ====== TÍCH HỢP AUTO-PRICE LEARN vào PRICE_TABLE (percentile + outlier clamp) ====== */
-  function clampOutliers(arr){
-    if(!arr || arr.length < 4) return arr||[];
-    const sorted = [...arr].sort((a,b)=>a-b);
-    const q1 = sorted[Math.floor(sorted.length*0.25)];
-    const q3 = sorted[Math.floor(sorted.length*0.75)];
-    const iqr = q3 - q1;
-    const lo = q1 - 1.5*iqr, hi = q3 + 1.5*iqr;
-    return sorted.filter(v=> v>=lo && v<=hi);
-  }
-  function mergeAutoPrices(){
-    if(!CFG.smart.autoPriceLearn) return;
-    try{
-      const autos = safe(localStorage.getItem(K.autoprices))||[];
-      if(!autos.length) return;
-      const byType = autos.reduce((m,a)=>{ (m[a.type]||(m[a.type]=[])).push(a.price); return m; },{});
-      Object.keys(byType).forEach(t=>{
-        const arr = clampOutliers(byType[t]);
-        if(!arr.length) return;
-        arr.sort((a,b)=>a-b);
-        const p25 = arr[Math.floor(arr.length*0.25)];
-        const p50 = arr[Math.floor(arr.length*0.50)];
-        if(!PRICE_TABLE[t]) PRICE_TABLE[t] = {day:null, week:null, month:null};
-        const dayRange = [p25, p50].filter(v=> v!=null);
-        if(dayRange.length) PRICE_TABLE[t].day = dayRange;
-      });
-    }catch{}
-  }
-
   /* ====== ANSWER ENGINE (Deep + Semantic + QA) ====== */
   const PREFIX = ["Chào anh/chị,","Xin chào,","Em chào anh/chị,","Em ở "+CFG.brand+" đây,"];
   function polite(s){ s = s || "em chưa nhận được câu hỏi, anh/chị nhập lại giúp em."; return naturalize(`${pick(PREFIX)} ${s}`); }
@@ -845,15 +794,15 @@
     const q = (userText||"").trim();
     const intents = detectIntent(q);
     let model = detectType(q);
-    let qty  = detectQty(q);
 
-    // v39: Deep context KHÔNG return sớm; chỉ điền thiếu rồi tiếp tục flow
+    const qty  = detectQty(q);
+
     if(CFG.deepContext){
       const ctx = getCtx();
       for(let i=ctx.turns.length-1;i>=0;i--){
         const t = ctx.turns[i];
-        if(!model && t.type) model = t.type;
-        if(!qty && t.qty)    qty   = t.qty;
+        if(!model && t.type) model=t.type;
+        if(!qty && t.qty)   return composePrice(model||t.type, t.qty);
         if(model && qty) break;
       }
     }
@@ -866,7 +815,6 @@
 
     if(intents.needPrice)   return composePrice(model, qty);
 
-    // Semantic retrieval + Extractive QA (KHÔNG chèn link)
     try{
       const top = searchIndex(q, 3);
       if(top && top.length){
@@ -884,9 +832,29 @@
     return polite(`anh/chị quan tâm mẫu xe nào (vision, air blade, wave, sirius, 50cc, côn tay…) và thuê mấy ngày để em báo giá phù hợp.`);
   }
 
-  /* ====== SEND / UI CONTROL ====== */
-  let isOpen=false, sending=false, lastActive=null;
+  /* ====== TÍCH HỢP AUTO-PRICE LEARN vào PRICE_TABLE (percentile) ====== */
+  function mergeAutoPrices(){
+    if(!CFG.smart.autoPriceLearn) return;
+    try{
+      const autos = safe(localStorage.getItem(K.autoprices))||[];
+      if(!autos.length) return;
+      const byType = autos.reduce((m,a)=>{ (m[a.type]||(m[a.type]=[])).push(a.price); return m; },{});
+      Object.keys(byType).forEach(t=>{
+        const arr = byType[t].sort((a,b)=>a-b);
+        const p25 = arr[Math.floor(arr.length*0.25)];
+        const p50 = arr[Math.floor(arr.length*0.50)];
+        if(PRICE_TABLE[t]){
+          const dayRange = [p25, p50].filter(Boolean);
+          if(dayRange.length) PRICE_TABLE[t].day = dayRange;
+        }else{
+          if(p25 || p50) PRICE_TABLE[t] = { day: [p25||p50, p50||p25].filter(Boolean), week:null, month:null };
+        }
+      });
+    }catch{}
+  }
 
+  /* ====== SEND / UI CONTROL ====== */
+  let isOpen=false, sending=false;
   function showTyping(){
     const body=$("#mta-body"); if(!body) return;
     const box=document.createElement("div"); box.id="mta-typing"; box.innerHTML=`<span>Đang nhập</span>`;
@@ -912,52 +880,23 @@
     sending=false;
     ensureInputVisible();
   }
-
-  function trapFocus(open){
-    const card = $("#mta-card");
-    if(!open){
-      document.removeEventListener('keydown', onKeyDown, true);
-      return;
-    }
-    document.addEventListener('keydown', onKeyDown, true);
-    function onKeyDown(e){
-      if(e.key === 'Escape' && isOpen) { closeChat(); return; }
-      if(e.key !== 'Tab') return;
-      const focusables = card.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
-      if(!focusables.length) return;
-      const first = focusables[0], last = focusables[focusables.length-1];
-      if(e.shiftKey){
-        if(document.activeElement === first){ last.focus(); e.preventDefault(); }
-      }else{
-        if(document.activeElement === last){ first.focus(); e.preventDefault(); }
-      }
-    }
-  }
-
   function openChat(){
     if(isOpen) return;
-    lastActive = document.activeElement;
-    const card=$("#mta-card");
-    card.classList.add("open");
-    card.setAttribute("aria-hidden","false");
+    $("#mta-card").classList.add("open");
     $("#mta-backdrop").classList.add("show");
     $("#mta-bubble").style.display="none";
-    isOpen=true; renderSess(); trapFocus(true);
+    isOpen=true; renderSess();
     setTimeout(()=>{ const i=$("#mta-in"); if(i) i.focus(); }, 160);
   }
   function closeChat(){
     if(!isOpen) return;
-    const card=$("#mta-card");
-    card.classList.remove("open");
-    card.setAttribute("aria-hidden","true");
+    $("#mta-card").classList.remove("open");
     $("#mta-backdrop").classList.remove("show");
     $("#mta-bubble").style.display="flex";
-    isOpen=false; hideTyping(); trapFocus(false);
-    if(lastActive && typeof lastActive.focus==='function') lastActive.focus();
-    else $("#mta-bubble").focus();
+    isOpen=false; hideTyping();
   }
-
   function autoAvoid(){
+    // tránh đè với quick call / bottom bar + iOS keyboard
     const root=$("#mta-root"); const body=$("#mta-body"); if(!root||!body) return;
     let bottom = 16;
     const blockers = document.querySelector(".qca,#quickcall,.bottom-appbar");
@@ -971,13 +910,13 @@
       bottom = Math.max(bottom, kb + 8);
       body.style.paddingBottom = (12 + kb) + "px";
     }
-    root.style.bottom = bottom + "px";
+    // 🔧 clamp để tránh giá trị âm kéo bong bóng ra khỏi màn hình
+    root.style.bottom = Math.max(0, bottom) + "px";
   }
   function maybeDisableQuickMap(){
     if(!CFG.disableQuickMap) return;
     const m=document.querySelector(".q-map,#mta-header .q-map"); if(m){ m.removeAttribute("href"); m.style.opacity=".4"; m.style.pointerEvents="none"; }
   }
-
   function bindEvents(){
     $("#mta-bubble").addEventListener("click", openChat);
     $("#mta-backdrop").addEventListener("click", closeChat);
@@ -990,26 +929,14 @@
       const tags=$("#mta-tags"); if(tags){ if(e.target.value.trim().length>0) tags.classList.add('hidden'); else tags.classList.remove('hidden'); }
       ensureInputVisible();
     });
-
-    // Debounce click gợi ý nhanh
     const track=$("#mta-tag-track");
-    if(track){
-      let lastClick=0;
-      track.querySelectorAll("button").forEach(btn=> btn.addEventListener("click", ()=>{
-        const now=Date.now(); if(now-lastClick<250) return; lastClick=now;
-        sendUser(btn.dataset.q||btn.textContent);
-      }));
-    }
-
+    if(track){ track.querySelectorAll("button").forEach(btn=> btn.addEventListener("click", ()=> sendUser(btn.dataset.q||btn.textContent))); }
     window.addEventListener("resize", autoAvoid, {passive:true});
     window.addEventListener("scroll", autoAvoid, {passive:true});
     if(window.visualViewport){
       window.visualViewport.addEventListener("resize", autoAvoid, {passive:true});
       window.visualViewport.addEventListener("scroll", autoAvoid, {passive:true});
     }
-
-    // Esc để đóng
-    window.addEventListener("keydown", (e)=>{ if(e.key==="Escape" && isOpen) closeChat(); }, {passive:true});
   }
 
   function ready(fn){ if(document.readyState==="complete"||document.readyState==="interactive") fn(); else document.addEventListener("DOMContentLoaded", fn); }
@@ -1021,7 +948,7 @@
     if(!lastClean || (Date.now()-lastClean) > 7*24*3600*1000){
       localStorage.removeItem(K.ctx);
       localStorage.setItem(K.clean, Date.now());
-      console.log("MotoAI v39: maintenance OK");
+      console.log("MotoAI v38.1: maintenance OK");
     }
 
     // UI
@@ -1038,19 +965,19 @@
         const origins = Array.from(new Set([location.origin, ...(CFG.extraSites||[])]));
         const last = parseInt(localStorage.getItem(K.stamp)||0);
         if(!last || (Date.now()-last) >= CFG.refreshHours*3600*1000){
-          if(CFG.debug) console.groupCollapsed("%cMotoAI v39 — AutoLearn start","color:"+CFG.themeColor+";font-weight:bold");
+          if(CFG.debug) console.groupCollapsed("%cMotoAI v38.1 — AutoLearn start","color:"+CFG.themeColor+";font-weight:bold");
           await learnSites(origins, false);
           if(CFG.debug) console.groupEnd();
-          console.log("%cMotoAI v39 — learned from multiple sites","color:"+CFG.themeColor+";font-weight:bold;");
+          console.log("%cMotoAI v38.1 — learned from multiple sites","color:"+CFG.themeColor+";font-weight:bold;");
         }else{
-          console.log("MotoAI v39 — skip learn (fresh cache)");
+          console.log("MotoAI v38.1 — skip learn (fresh cache)");
         }
-      }catch(e){ console.warn("MotoAI v39 autolearn error", e); }
+      }catch(e){ console.warn("MotoAI v38.1 autolearn error", e); }
     }
   });
 
   /* ====== PUBLIC API ====== */
-  window.MotoAI_v39 = {
+  window.MotoAI_v38 = {
     open: openChat,
     close: closeChat,
     send: (t)=> sendUser(t),
