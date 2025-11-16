@@ -11,7 +11,7 @@
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f5f5f7">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#111827">
 
-  <!-- Font & icon nhẹ nhàng -->
+  <!-- Font & icon -->
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -286,7 +286,7 @@
       text-decoration:underline;
     }
 
-    /* PRICE TABLE */
+    /* SECTION TITLE */
     .section-title{
       font-size:13px;
       font-weight:700;
@@ -300,50 +300,82 @@
       color:var(--accent-strong);
     }
 
-    .table-wrap{
+    /* ===== PRICE FAQ (thay cho bảng) ===== */
+    .price-faq-group{
+      display:flex;
+      flex-direction:column;
+      gap:8px;
+      margin-bottom:10px;
+    }
+    .price-faq{
       border-radius:var(--radius-md);
       border:1px solid var(--border);
       background:var(--surface-elevated);
-      overflow:hidden;
       box-shadow:0 10px 24px rgba(15,23,42,.06);
-      margin-bottom:10px;
-      transition:background .25s ease,box-shadow .25s ease,border-color .25s ease;
+      padding:4px 6px;
     }
-    table{
-      width:100%;
-      border-collapse:collapse;
+    .price-faq summary{
+      list-style:none;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:8px;
+      cursor:pointer;
+    }
+    .price-faq summary::-webkit-details-marker{
+      display:none;
+    }
+    .pf-main{
+      display:flex;
+      align-items:center;
+      gap:8px;
+      min-width:0;
+    }
+    .pf-icon{
+      font-size:16px;
+      flex-shrink:0;
+    }
+    .pf-texts{
+      display:flex;
+      flex-direction:column;
+      gap:2px;
+      min-width:0;
+    }
+    .pf-label{
+      font-size:13px;
+      font-weight:700;
+      white-space:nowrap;
+    }
+    .pf-sub{
       font-size:12px;
-    }
-    th,td{
-      padding:9px 10px;
-      border-bottom:1px solid var(--border);
-      text-align:left;
-    }
-    th{
-      font-size:11px;
-      text-transform:uppercase;
-      letter-spacing:.12em;
-      color:var(--muted);
-      background:var(--surface-soft);
-    }
-    tr:last-child td{
-      border-bottom:none;
-    }
-    td.label{
-      font-weight:700;
-      white-space:nowrap;
-    }
-    td.label span.icon{
-      margin-right:6px;
-    }
-    td.price{
-      font-weight:700;
       color:var(--accent-strong);
+      font-weight:700;
       white-space:nowrap;
     }
-    td.note{
+    .pf-toggle{
+      width:22px;
+      height:22px;
+      border-radius:999px;
+      border:1px solid var(--border);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:13px;
       color:var(--muted);
-      font-size:11px;
+      flex-shrink:0;
+    }
+    .pf-toggle::before{
+      content:"+";
+    }
+    .price-faq[open] .pf-toggle::before{
+      content:"−";
+    }
+    .pf-body{
+      margin-top:6px;
+      padding-top:6px;
+      border-top:1px dashed var(--border);
+      font-size:12px;
+      color:var(--muted);
     }
 
     .note{
@@ -355,7 +387,7 @@
       font-weight:700;
     }
 
-    /* (cũ) list – giờ không dùng nữa nhưng có thể giữ lại nếu sau này thêm */
+    /* (cũ) list – để dành nếu sau này thêm bullet khác */
     .list{
       margin:0 0 12px 16px;
       padding:0;
@@ -539,46 +571,63 @@
       </a>
     </div>
 
-    <!-- PRICE TABLE -->
+    <!-- PRICE FAQ -->
     <section aria-label="Bảng giá thuê xe">
       <div class="section-title">
         <i class="fa-solid fa-tags"></i>
         Bảng giá tham khảo
       </div>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>Gói</th>
-              <th>Giá dự kiến</th>
-              <th>Phù hợp</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="label">
-                <span class="icon">📅</span>Thuê theo ngày
-              </td>
-              <td class="price">150.000 – 200.000đ / ngày</td>
-              <td class="note">Khách du lịch, đi 1–3 ngày</td>
-            </tr>
-            <tr>
-              <td class="label">
-                <span class="icon">🗓️</span>Thuê theo tuần
-              </td>
-              <td class="price">600.000 – 900.000đ / tuần</td>
-              <td class="note">Làm việc ngắn ngày, công tác</td>
-            </tr>
-            <tr>
-              <td class="label">
-                <span class="icon">📆</span>Thuê theo tháng
-              </td>
-              <td class="price">800.000 – 2.000.000đ / tháng</td>
-              <td class="note">Sinh viên, người ở lâu dài</td>
-            </tr>
-          </tbody>
-        </table>
+
+      <div class="price-faq-group">
+        <details class="price-faq" open>
+          <summary>
+            <div class="pf-main">
+              <span class="pf-icon">📅</span>
+              <div class="pf-texts">
+                <div class="pf-label">Thuê theo ngày</div>
+                <div class="pf-sub">150.000 – 200.000đ / ngày</div>
+              </div>
+            </div>
+            <span class="pf-toggle"></span>
+          </summary>
+          <div class="pf-body">
+            Khách du lịch, đi 1–3 ngày.
+          </div>
+        </details>
+
+        <details class="price-faq">
+          <summary>
+            <div class="pf-main">
+              <span class="pf-icon">🗓️</span>
+              <div class="pf-texts">
+                <div class="pf-label">Thuê theo tuần</div>
+                <div class="pf-sub">600.000 – 900.000đ / tuần</div>
+              </div>
+            </div>
+            <span class="pf-toggle"></span>
+          </summary>
+          <div class="pf-body">
+            Phù hợp khách làm việc ngắn ngày, đi công tác.
+          </div>
+        </details>
+
+        <details class="price-faq">
+          <summary>
+            <div class="pf-main">
+              <span class="pf-icon">📆</span>
+              <div class="pf-texts">
+                <div class="pf-label">Thuê theo tháng</div>
+                <div class="pf-sub">800.000 – 2.000.000đ / tháng</div>
+              </div>
+            </div>
+            <span class="pf-toggle"></span>
+          </summary>
+          <div class="pf-body">
+            Hợp cho sinh viên, người ở lâu dài tại Hà Nội.
+          </div>
+        </details>
       </div>
+
       <p class="note">
         <strong>Lưu ý:</strong> Giá tùy loại xe &amp; thời gian thuê. Vợ chỉ cần gửi thẻ này, khách có thể gọi/Zalo để chốt xe cụ thể.
       </p>
@@ -672,7 +721,7 @@
   </script>
 
   <script>
-    // Mở cửa / Đóng cửa theo giờ Hà Nội (giả sử giờ máy ~ Hà Nội)
+    // Mở cửa / Đóng cửa theo giờ Hà Nội
     (function(){
       const statusEl = document.getElementById('openStatus');
       const textEl = document.getElementById('openText');
@@ -680,7 +729,7 @@
 
       function updateStatus(){
         const now = new Date();
-        const h = now.getHours(); // giờ local
+        const h = now.getHours();
         const isOpen = (h >= 9 && h < 21); // 09:00–21:00
 
         if (isOpen){
@@ -723,8 +772,7 @@
     })();
   </script>
 
-  <!-- MotoAI (nếu anh muốn giữ chat bot chung với site) -->
+  <!-- MotoAI (nếu muốn dùng chung với site lớn) -->
   <script defer src="https://motoopen.github.io/chothuexemayhanoi/motoai_v38_1_modelfirst_nomarkdown_nolink.js"></script>
-  <!-- /MotoAI -->
 </body>
 </html>
