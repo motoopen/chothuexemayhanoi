@@ -11,7 +11,7 @@
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f5f5f7">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#111827">
 
-  <!-- Font & icon -->
+  <!-- Font & icon nhẹ nhàng -->
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -49,7 +49,7 @@
       --text:#e5e7eb;
       --muted:#9ca3af;
       --accent:#0A84FF;
-      --accent-soft:rgba(37,99,235,.20);
+      --accent-soft:rgba(37,99,235,.18);
       --accent-strong:#60a5fa;
       --border:#1f2937;
       --good:#22c55e;
@@ -59,10 +59,6 @@
     }
 
     *{box-sizing:border-box;margin:0;padding:0;}
-
-    html{
-      -webkit-text-size-adjust:100%; /* fix Safari phóng chữ trong table */
-    }
 
     body{
       min-height:100vh;
@@ -83,7 +79,7 @@
       position:fixed;
       inset:0;
       background-image:
-        radial-gradient(circle at 1px 1px,rgba(148,163,184,.18) 1px,transparent 0);
+        radial-gradient(circle at 1px 1px,rgba(148,163,184,.2) 1px,transparent 0);
       background-size:18px 18px;
       opacity:.35;
       mix-blend-mode:multiply;
@@ -94,18 +90,44 @@
     .card{
       width:100%;
       max-width:640px;
-      background:linear-gradient(145deg,var(--card-top),var(--card));
+      background:radial-gradient(circle at top left,var(--card-top),var(--card));
       border-radius:var(--radius-lg);
       box-shadow:var(--shadow-soft),0 0 0 1px rgba(148,163,184,.18);
       padding:18px 18px 16px;
       position:relative;
       overflow:hidden;
       animation:cardIn .45s var(--easing) both;
-      border:1px solid rgba(148,163,184,.35);
     }
 
-    /* BỎ hẳn conic-gradient + mask để tránh crash Safari */
+    .card::before{
+      content:"";
+      position:absolute;
+      inset:-1px;
+      padding:1px;
+      border-radius:inherit;
+      background:conic-gradient(
+        from 140deg,
+        rgba(56,189,248,.0),
+        rgba(56,189,248,.7),
+        rgba(96,165,250,.9),
+        rgba(52,211,153,.85),
+        rgba(56,189,248,.0)
+      );
+      -webkit-mask:
+        linear-gradient(#000 0 0) content-box,
+        linear-gradient(#000 0 0);
+      -webkit-mask-composite:xor;
+      mask-composite:exclude;
+      opacity:.55;
+      pointer-events:none;
+      animation:borderSpin 16s linear infinite;
+      z-index:-1;
+    }
 
+    @keyframes borderSpin{
+      0%{transform:rotate(0deg);}
+      100%{transform:rotate(360deg);}
+    }
     @keyframes cardIn{
       0%{opacity:0;transform:translateY(18px) scale(.97);}
       100%{opacity:1;transform:translateY(0) scale(1);}
@@ -160,7 +182,6 @@
       display:flex;
       align-items:center;
       gap:6px;
-      flex-wrap:wrap;
     }
     .brand-name{
       font-size:15px;
@@ -186,7 +207,7 @@
       border:none;
       border-radius:999px;
       padding:7px 9px;
-      background:rgba(255,255,255,.9);
+      background:rgba(255,255,255,.85);
       border:1px solid rgba(148,163,184,.6);
       box-shadow:0 8px 20px rgba(15,23,42,.12);
       cursor:pointer;
@@ -218,7 +239,6 @@
       gap:10px;
       margin-bottom:14px;
       font-size:12px;
-      flex-wrap:wrap;
     }
     .status-left{
       display:flex;
@@ -293,7 +313,6 @@
       width:100%;
       border-collapse:collapse;
       font-size:12px;
-      table-layout:auto;
     }
     th,td{
       padding:9px 10px;
@@ -336,7 +355,7 @@
       font-weight:700;
     }
 
-    /* DEPOSIT */
+    /* (cũ) list – giờ không dùng nữa nhưng có thể giữ lại nếu sau này thêm */
     .list{
       margin:0 0 12px 16px;
       padding:0;
@@ -347,37 +366,97 @@
       margin-bottom:4px;
     }
 
-    /* QUICK CALL MINI */
-    .quick-call{
-      margin-top:4px;
-      display:flex;
-      justify-content:flex-end;
+    /* QUICK CALL MINI – bên tay trái màn hình */
+    .quick-fab-wrap{
+      position:fixed;
+      left:max(12px, env(safe-area-inset-left));
+      bottom:max(16px, env(safe-area-inset-bottom));
+      z-index:40;
     }
-    .quick-call-btn{
-      display:inline-flex;
-      align-items:center;
-      gap:6px;
-      padding:8px 12px;
+    .quick-fab{
+      width:50px;
+      height:50px;
       border-radius:999px;
       border:1px solid var(--border);
       background:var(--surface-elevated);
-      box-shadow:0 10px 22px rgba(15,23,42,.08);
-      font-size:12px;
-      font-weight:700;
-      color:var(--text);
-      text-decoration:none;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      cursor:pointer;
+      box-shadow:0 14px 32px rgba(15,23,42,.28);
+      font-size:18px;
+      color:var(--accent-strong);
       transition:
         transform .16s var(--easing),
         box-shadow .16s var(--easing),
         background .16s var(--easing),
         border-color .16s var(--easing);
     }
-    .quick-call-btn i{
+    .quick-fab:hover{
+      transform:translateY(-2px);
+      box-shadow:0 18px 40px rgba(15,23,42,.32);
+    }
+
+    .quick-card{
+      position:absolute;
+      left:56px;
+      bottom:4px;
+      min-width:230px;
+      max-width:280px;
+      padding:10px 12px;
+      border-radius:16px;
+      border:1px solid var(--border);
+      background:var(--surface-elevated);
+      box-shadow:0 18px 40px rgba(15,23,42,.35);
+      font-size:12px;
+      transform:translateY(4px);
+      opacity:0;
+      pointer-events:none;
+      transition:
+        opacity .18s var(--easing),
+        transform .18s var(--easing),
+        visibility .18s var(--easing);
+      visibility:hidden;
+    }
+    .quick-card.open{
+      opacity:1;
+      transform:translateY(0);
+      pointer-events:auto;
+      visibility:visible;
+    }
+    .quick-title{
+      font-weight:700;
+      margin-bottom:4px;
+    }
+    .quick-address{
+      font-size:11px;
+      color:var(--muted);
+      margin-bottom:8px;
+    }
+    .quick-actions{
+      display:flex;
+      flex-direction:column;
+      gap:6px;
+    }
+    .quick-action{
+      display:flex;
+      align-items:center;
+      gap:8px;
+      padding:7px 9px;
+      border-radius:10px;
+      text-decoration:none;
+      font-weight:600;
+      color:var(--text);
+      background:rgba(248,250,252,.9);
+      border:1px solid var(--border);
+    }
+    .quick-action i{
+      width:18px;
+      text-align:center;
       color:var(--accent-strong);
     }
-    .quick-call-btn:hover{
-      transform:translateY(-1px);
-      box-shadow:0 14px 30px rgba(15,23,42,.18);
+    body.dark .quick-action{
+      background:rgba(15,23,42,.95);
     }
 
     /* FOOTER LINE */
@@ -511,24 +590,42 @@
         <i class="fa-solid fa-file-signature"></i>
         Cọc &amp; giấy tờ ngắn gọn
       </div>
-      <ul class="list">
-        <li>Cọc tùy loại xe, hỗ trợ cọc nhẹ khi thuê dài ngày.</li>
-        <li>Cần CMND/CCCD hoặc hộ chiếu để làm hợp đồng thuê.</li>
-      </ul>
+      <p class="note">
+        Đặt cọc từ <strong>1.5 triệu đến 5 triệu</strong> tùy từng xe máy,&nbsp;
+        chi tiết Zalo
+        <a href="https://zalo.me/0857255868" target="_blank" rel="noopener">tại đây</a>.
+      </p>
     </section>
-
-    <!-- QUICK CALL MINI -->
-    <div class="quick-call">
-      <a href="tel:0857255868" class="quick-call-btn">
-        <i class="fa-solid fa-phone"></i>
-        <span>Gọi 0857 255 868</span>
-      </a>
-    </div>
 
     <!-- FOOTER -->
     <div class="footer-line">
-      <span>Motoopen · Thuê xe máy Hà Nội</span>
+      <span>Motoopen · <a href="https://thuexemaynguyentu.com" target="_blank" rel="noopener">thuê xe máy Hà Nội</a></span>
       <span>© 2025</span>
+    </div>
+  </div>
+
+  <!-- QUICK CALL MINI APP (bên trái) -->
+  <div class="quick-fab-wrap">
+    <button class="quick-fab" id="quickFab" type="button" aria-label="Liên hệ nhanh" aria-expanded="false">
+      <i class="fa-solid fa-phone"></i>
+    </button>
+    <div class="quick-card" id="quickCard" aria-label="Liên hệ nhanh">
+      <p class="quick-title">Liên hệ nhanh</p>
+      <p class="quick-address">Địa chỉ: 114 Nguyễn Văn Cừ, Long Biên, Hà Nội.</p>
+      <div class="quick-actions">
+        <a href="tel:0857255868" class="quick-action">
+          <i class="fa-solid fa-phone"></i>
+          <span>Gọi 0857 255 868</span>
+        </a>
+        <a href="https://zalo.me/0857255868" class="quick-action" target="_blank" rel="noopener">
+          <i class="fa-solid fa-comment-dots"></i>
+          <span>Chat Zalo</span>
+        </a>
+        <a href="https://maps.app.goo.gl/v9dZAZYBN7VbsYX8A?g_st=ipc" class="quick-action" target="_blank" rel="noopener">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Mở bản đồ</span>
+        </a>
+      </div>
     </div>
   </div>
 
@@ -550,6 +647,7 @@
         }catch(e){}
       }
 
+      // init
       (function initTheme(){
         let saved = null;
         try{
@@ -598,6 +696,35 @@
       setInterval(updateStatus, 5 * 60 * 1000);
     })();
   </script>
-  <!-- Không load MotoAI trên trang thẻ nhanh để tránh crash & cho nhẹ -->
+
+  <script>
+    // Quick call mini: toggle card
+    (function(){
+      const fab = document.getElementById('quickFab');
+      const card = document.getElementById('quickCard');
+      if (!fab || !card) return;
+
+      function setOpen(open){
+        card.classList.toggle('open', open);
+        fab.setAttribute('aria-expanded', open ? 'true' : 'false');
+      }
+
+      fab.addEventListener('click', function(e){
+        e.stopPropagation();
+        const isOpen = card.classList.contains('open');
+        setOpen(!isOpen);
+      });
+
+      document.addEventListener('click', function(e){
+        if (!card.contains(e.target) && e.target !== fab){
+          setOpen(false);
+        }
+      });
+    })();
+  </script>
+
+  <!-- MotoAI (nếu anh muốn giữ chat bot chung với site) -->
+  <script defer src="https://motoopen.github.io/chothuexemayhanoi/motoai_v38_1_modelfirst_nomarkdown_nolink.js"></script>
+  <!-- /MotoAI -->
 </body>
 </html>
