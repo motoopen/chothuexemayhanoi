@@ -11,7 +11,7 @@
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f5f5f7">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#111827">
 
-  <!-- Font & icon -->
+  <!-- Font & icon nhẹ nhàng -->
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -300,94 +300,103 @@
       color:var(--accent-strong);
     }
 
-    /* ===== PRICE FAQ (thay cho bảng) ===== */
-    .price-faq-group{
-      display:flex;
-      flex-direction:column;
-      gap:8px;
-      margin-bottom:10px;
-    }
-    .price-faq{
+    /* FAQ GIÁ THUÊ (THAY BẢNG GIÁ) */
+    .faq{
       border-radius:var(--radius-md);
       border:1px solid var(--border);
       background:var(--surface-elevated);
       box-shadow:0 10px 24px rgba(15,23,42,.06);
-      padding:4px 6px;
+      overflow:hidden;
+      margin-bottom:10px;
+      transition:background .25s ease,box-shadow .25s ease,border-color .25s ease;
     }
-    .price-faq summary{
+    .faq-item{
+      border-bottom:1px solid var(--border);
+    }
+    .faq-item:last-child{
+      border-bottom:none;
+    }
+    .faq-item summary{
       list-style:none;
+      cursor:pointer;
+      padding:10px 12px;
+      font-size:13px;
+      font-weight:700;
       display:flex;
       align-items:center;
       justify-content:space-between;
-      gap:8px;
-      cursor:pointer;
+      gap:10px;
+      outline:none;
     }
-    .price-faq summary::-webkit-details-marker{
+    .faq-item summary::-webkit-details-marker{
       display:none;
     }
-    .pf-main{
+    .faq-question{
       display:flex;
       align-items:center;
       gap:8px;
-      min-width:0;
     }
-    .pf-icon{
-      font-size:16px;
-      flex-shrink:0;
-    }
-    .pf-texts{
-      display:flex;
-      flex-direction:column;
-      gap:2px;
-      min-width:0;
-    }
-    .pf-label{
-      font-size:13px;
-      font-weight:700;
-      white-space:nowrap;
-    }
-    .pf-sub{
-      font-size:12px;
-      color:var(--accent-strong);
-      font-weight:700;
-      white-space:nowrap;
-    }
-    .pf-toggle{
-      width:22px;
-      height:22px;
+    .faq-plus{
+      width:20px;
+      height:20px;
       border-radius:999px;
       border:1px solid var(--border);
-      display:flex;
+      display:inline-flex;
       align-items:center;
       justify-content:center;
-      font-size:13px;
-      color:var(--muted);
+      font-size:12px;
       flex-shrink:0;
+      background:rgba(255,255,255,.8);
     }
-    .pf-toggle::before{
-      content:"+";
+    body.dark .faq-plus{
+      background:rgba(15,23,42,.9);
     }
-    .price-faq[open] .pf-toggle::before{
-      content:"−";
+    .faq-item[open] .faq-plus{
+      background:var(--accent);
+      color:#fff;
+      border-color:var(--accent);
     }
-    .pf-body{
-      margin-top:6px;
-      padding-top:6px;
-      border-top:1px dashed var(--border);
+    .faq-answer{
+      padding:0 12px 10px 40px; /* thụt vào giống đoạn text */
       font-size:12px;
       color:var(--muted);
+      line-height:1.5;
     }
 
-    .note{
-      font-size:11px;
-      color:var(--muted);
+    /* ĐỊA CHỈ BUTTON */
+    .address-row{
+      margin-top:8px;
       margin-bottom:10px;
     }
-    .note strong{
+    .address-btn{
+      display:flex;
+      align-items:center;
+      gap:8px;
+      padding:10px 12px;
+      border-radius:14px;
+      background:var(--surface-elevated);
+      border:1px solid var(--border);
+      text-decoration:none;
+      color:var(--text);
+      font-size:12px;
       font-weight:700;
+      box-shadow:0 10px 24px rgba(15,23,42,.08);
+      transition:
+        transform .16s var(--easing),
+        box-shadow .16s var(--easing),
+        background .16s var(--easing),
+        border-color .16s var(--easing);
+    }
+    .address-btn i{
+      color:var(--accent-strong);
+      font-size:14px;
+    }
+    .address-btn:hover{
+      transform:translateY(-1px);
+      box-shadow:0 14px 30px rgba(15,23,42,.18);
     }
 
-    /* (cũ) list – để dành nếu sau này thêm bullet khác */
+    /* DEPOSIT */
     .list{
       margin:0 0 12px 16px;
       padding:0;
@@ -398,102 +407,136 @@
       margin-bottom:4px;
     }
 
-    /* QUICK CALL MINI – bên tay trái màn hình */
-    .quick-fab-wrap{
-      position:fixed;
-      left:max(12px, env(safe-area-inset-left));
-      bottom:max(16px, env(safe-area-inset-bottom));
-      z-index:40;
+    .deposit-text{
+      font-size:12px;
+      color:var(--text);
+      margin-bottom:12px;
     }
-    .quick-fab{
-      width:50px;
-      height:50px;
+    .deposit-text a{
+      color:var(--accent-strong);
+      text-decoration:none;
+      font-weight:600;
+    }
+    .deposit-text a:hover{
+      text-decoration:underline;
+    }
+
+    /* QUICK CALL MINI APP */
+    .quick-mini{
+      margin-top:4px;
+    }
+    .quick-mini-toggle{
+      width:100%;
+      border:none;
       border-radius:999px;
-      border:1px solid var(--border);
+      padding:8px 12px;
       background:var(--surface-elevated);
+      border:1px solid var(--border);
       display:flex;
       align-items:center;
-      justify-content:center;
+      justify-content:space-between;
+      gap:8px;
       cursor:pointer;
-      box-shadow:0 14px 32px rgba(15,23,42,.28);
-      font-size:18px;
-      color:var(--accent-strong);
+      box-shadow:0 10px 22px rgba(15,23,42,.08);
+      font-size:12px;
+      text-align:left;
       transition:
         transform .16s var(--easing),
         box-shadow .16s var(--easing),
         background .16s var(--easing),
         border-color .16s var(--easing);
     }
-    .quick-fab:hover{
-      transform:translateY(-2px);
-      box-shadow:0 18px 40px rgba(15,23,42,.32);
+    .quick-mini-toggle:hover{
+      transform:translateY(-1px);
+      box-shadow:0 14px 30px rgba(15,23,42,.18);
     }
-
-    .quick-card{
-      position:absolute;
-      left:56px;
-      bottom:4px;
-      min-width:230px;
-      max-width:280px;
-      padding:10px 12px;
-      border-radius:16px;
-      border:1px solid var(--border);
-      background:var(--surface-elevated);
-      box-shadow:0 18px 40px rgba(15,23,42,.35);
-      font-size:12px;
-      transform:translateY(4px);
-      opacity:0;
-      pointer-events:none;
-      transition:
-        opacity .18s var(--easing),
-        transform .18s var(--easing),
-        visibility .18s var(--easing);
-      visibility:hidden;
+    .quick-mini-icon{
+      width:26px;
+      height:26px;
+      border-radius:999px;
+      background:var(--accent-soft);
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      flex-shrink:0;
     }
-    .quick-card.open{
-      opacity:1;
-      transform:translateY(0);
-      pointer-events:auto;
-      visibility:visible;
+    .quick-mini-icon i{
+      color:var(--accent-strong);
+      font-size:13px;
     }
-    .quick-title{
-      font-weight:700;
-      margin-bottom:4px;
-    }
-    .quick-address{
-      font-size:11px;
-      color:var(--muted);
-      margin-bottom:8px;
-    }
-    .quick-actions{
+    .quick-mini-text{
       display:flex;
       flex-direction:column;
-      gap:6px;
+      align-items:flex-start;
+      flex:1;
     }
-    .quick-action{
+    .quick-mini-text strong{
+      font-size:12px;
+    }
+    .quick-mini-text small{
+      font-size:11px;
+      color:var(--muted);
+    }
+    .quick-mini-chevron{
+      font-size:16px;
+      line-height:1;
+    }
+    .quick-mini-card{
+      margin-top:8px;
+      border-radius:var(--radius-md);
+      border:1px solid var(--border);
+      background:var(--surface-elevated);
+      box-shadow:0 10px 24px rgba(15,23,42,.06);
+      padding:6px;
+      display:none;
+    }
+    .quick-mini-card.open{
+      display:block;
+    }
+    .quick-mini-item{
       display:flex;
       align-items:center;
-      gap:8px;
-      padding:7px 9px;
+      gap:10px;
+      padding:8px 8px;
       border-radius:10px;
       text-decoration:none;
-      font-weight:600;
       color:var(--text);
-      background:rgba(248,250,252,.9);
-      border:1px solid var(--border);
+      font-size:12px;
+      transition:background .16s var(--easing);
     }
-    .quick-action i{
-      width:18px;
-      text-align:center;
+    .quick-mini-item:hover{
+      background:rgba(148,163,184,.12);
+    }
+    .qmi-icon{
+      width:28px;
+      height:28px;
+      border-radius:999px;
+      background:var(--surface-soft);
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      flex-shrink:0;
+    }
+    .qmi-icon i{
+      font-size:13px;
       color:var(--accent-strong);
     }
-    body.dark .quick-action{
-      background:rgba(15,23,42,.95);
+    .qmi-text{
+      display:flex;
+      flex-direction:column;
+      align-items:flex-start;
+    }
+    .qmi-text strong{
+      font-size:12px;
+    }
+    .qmi-text small{
+      font-size:11px;
+      color:var(--muted);
     }
 
     /* FOOTER LINE */
     .footer-line{
-      margin-top:8px;
+      margin-top:10px;
       font-size:11px;
       color:var(--muted);
       display:flex;
@@ -571,67 +614,67 @@
       </a>
     </div>
 
-    <!-- PRICE FAQ -->
-    <section aria-label="Bảng giá thuê xe">
+    <!-- FAQ GIÁ THUÊ -->
+    <section aria-label="Giá thuê xe máy">
       <div class="section-title">
         <i class="fa-solid fa-tags"></i>
-        Bảng giá tham khảo
+        Giá thuê xe máy (FAQ)
       </div>
 
-      <div class="price-faq-group">
-        <details class="price-faq" open>
+      <div class="faq">
+        <!-- Ngày -->
+        <details class="faq-item">
           <summary>
-            <div class="pf-main">
-              <span class="pf-icon">📅</span>
-              <div class="pf-texts">
-                <div class="pf-label">Thuê theo ngày</div>
-                <div class="pf-sub">150.000 – 200.000đ / ngày</div>
-              </div>
+            <div class="faq-question">
+              <span class="faq-plus">＋</span>
+              <span>Giá thuê xe máy theo ngày?</span>
             </div>
-            <span class="pf-toggle"></span>
           </summary>
-          <div class="pf-body">
-            Khách du lịch, đi 1–3 ngày.
+          <div class="faq-answer">
+            <strong>150.000 – 200.000đ / ngày</strong><br>
+            Phù hợp khách du lịch, đi 1–3 ngày trong nội thành hoặc đi chơi quanh Hà Nội.
           </div>
         </details>
 
-        <details class="price-faq">
+        <!-- Tuần -->
+        <details class="faq-item">
           <summary>
-            <div class="pf-main">
-              <span class="pf-icon">🗓️</span>
-              <div class="pf-texts">
-                <div class="pf-label">Thuê theo tuần</div>
-                <div class="pf-sub">600.000 – 900.000đ / tuần</div>
-              </div>
+            <div class="faq-question">
+              <span class="faq-plus">＋</span>
+              <span>Giá thuê xe máy theo tuần bao nhiêu?</span>
             </div>
-            <span class="pf-toggle"></span>
           </summary>
-          <div class="pf-body">
-            Phù hợp khách làm việc ngắn ngày, đi công tác.
+          <div class="faq-answer">
+            <strong>600.000 – 900.000đ / tuần</strong><br>
+            Hợp cho khách làm việc ngắn ngày, công tác hoặc ở Hà Nội vài tuần.
           </div>
         </details>
 
-        <details class="price-faq">
+        <!-- Tháng -->
+        <details class="faq-item">
           <summary>
-            <div class="pf-main">
-              <span class="pf-icon">📆</span>
-              <div class="pf-texts">
-                <div class="pf-label">Thuê theo tháng</div>
-                <div class="pf-sub">800.000 – 2.000.000đ / tháng</div>
-              </div>
+            <div class="faq-question">
+              <span class="faq-plus">＋</span>
+              <span>Giá thuê xe máy theo tháng?</span>
             </div>
-            <span class="pf-toggle"></span>
           </summary>
-          <div class="pf-body">
-            Hợp cho sinh viên, người ở lâu dài tại Hà Nội.
+          <div class="faq-answer">
+            <strong>800.000 – 2.000.000đ / tháng</strong><br>
+            Phù hợp sinh viên, người ở lâu dài tại Hà Nội, muốn tiết kiệm chi phí di chuyển.
           </div>
         </details>
       </div>
-
-      <p class="note">
-        <strong>Lưu ý:</strong> Giá tùy loại xe &amp; thời gian thuê. Vợ chỉ cần gửi thẻ này, khách có thể gọi/Zalo để chốt xe cụ thể.
-      </p>
     </section>
+
+    <!-- NÚT ĐỊA CHỈ -->
+    <div class="address-row">
+      <a class="address-btn"
+         href="https://maps.app.goo.gl/v9dZAZYBN7VbsYX8A?g_st=ipc"
+         target="_blank" rel="noopener">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>ĐC: 114 Nguyễn Văn Cừ, Long Biên, HN (gần bến xe Gia Lâm)</span>
+      </a>
+    </div>
 
     <!-- DEPOSIT -->
     <section aria-label="Cọc & giấy tờ">
@@ -639,47 +682,58 @@
         <i class="fa-solid fa-file-signature"></i>
         Cọc &amp; giấy tờ ngắn gọn
       </div>
-      <p class="note">
-        Đặt cọc từ <strong>1.5 triệu đến 5 triệu</strong> tùy từng xe máy,&nbsp;
-        chi tiết Zalo
-        <a href="https://zalo.me/0857255868" target="_blank" rel="noopener">tại đây</a>.
+      <p class="deposit-text">
+        Đặt cọc từ <strong>1,5 triệu – 5 triệu</strong> tùy từng xe máy.
+        Xem chi tiết qua
+        <a href="https://zalo.me/0857255868" target="_blank" rel="noopener">Zalo</a>.
       </p>
+    </section>
+
+    <!-- QUICK CALL MINI APP -->
+    <section class="quick-mini" aria-label="Liên hệ nhanh">
+      <button type="button" class="quick-mini-toggle" id="quickMiniToggle">
+        <span class="quick-mini-icon"><i class="fa-solid fa-phone"></i></span>
+        <span class="quick-mini-text">
+          <strong>Liên hệ nhanh</strong>
+          <small>Gọi / Zalo / Bản đồ</small>
+        </span>
+        <span class="quick-mini-chevron" aria-hidden="true">＋</span>
+      </button>
+
+      <div class="quick-mini-card" id="quickMiniCard">
+        <a href="tel:0857255868" class="quick-mini-item">
+          <span class="qmi-icon"><i class="fa-solid fa-phone"></i></span>
+          <span class="qmi-text">
+            <strong>Gọi 0857 255 868</strong>
+            <small>Tư vấn &amp; giữ xe nhanh</small>
+          </span>
+        </a>
+        <a href="https://zalo.me/0857255868" target="_blank" rel="noopener" class="quick-mini-item">
+          <span class="qmi-icon"><i class="fa-solid fa-comment-dots"></i></span>
+          <span class="qmi-text">
+            <strong>Chat Zalo</strong>
+            <small>Gửi hình xe, hỏi chi tiết giá</small>
+          </span>
+        </a>
+        <a href="https://maps.app.goo.gl/v9dZAZYBN7VbsYX8A?g_st=ipc" target="_blank" rel="noopener" class="quick-mini-item">
+          <span class="qmi-icon"><i class="fa-solid fa-location-dot"></i></span>
+          <span class="qmi-text">
+            <strong>Mở bản đồ</strong>
+            <small>114 Nguyễn Văn Cừ, Long Biên</small>
+          </span>
+        </a>
+      </div>
     </section>
 
     <!-- FOOTER -->
     <div class="footer-line">
-      <span>Motoopen · <a href="https://thuexemaynguyentu.com" target="_blank" rel="noopener">thuê xe máy Hà Nội</a></span>
+      <span>Motoopen · <a href="https://thuexemaynguyentu.com" target="_blank" rel="noopener">Thuê xe máy Hà Nội</a></span>
       <span>© 2025</span>
     </div>
   </div>
 
-  <!-- QUICK CALL MINI APP (bên trái) -->
-  <div class="quick-fab-wrap">
-    <button class="quick-fab" id="quickFab" type="button" aria-label="Liên hệ nhanh" aria-expanded="false">
-      <i class="fa-solid fa-phone"></i>
-    </button>
-    <div class="quick-card" id="quickCard" aria-label="Liên hệ nhanh">
-      <p class="quick-title">Liên hệ nhanh</p>
-      <p class="quick-address">Địa chỉ: 114 Nguyễn Văn Cừ, Long Biên, Hà Nội.</p>
-      <div class="quick-actions">
-        <a href="tel:0857255868" class="quick-action">
-          <i class="fa-solid fa-phone"></i>
-          <span>Gọi 0857 255 868</span>
-        </a>
-        <a href="https://zalo.me/0857255868" class="quick-action" target="_blank" rel="noopener">
-          <i class="fa-solid fa-comment-dots"></i>
-          <span>Chat Zalo</span>
-        </a>
-        <a href="https://maps.app.goo.gl/v9dZAZYBN7VbsYX8A?g_st=ipc" class="quick-action" target="_blank" rel="noopener">
-          <i class="fa-solid fa-location-dot"></i>
-          <span>Mở bản đồ</span>
-        </a>
-      </div>
-    </div>
-  </div>
-
   <script>
-    // Dark / Light toggle
+    // Dark / Light toggle (Apple vibe)
     (function(){
       const body = document.body;
       const btn = document.getElementById('themeToggle');
@@ -696,7 +750,7 @@
         }catch(e){}
       }
 
-      // init
+      // Khởi tạo theo localStorage → fallback prefers-color-scheme
       (function initTheme(){
         let saved = null;
         try{
@@ -721,7 +775,7 @@
   </script>
 
   <script>
-    // Mở cửa / Đóng cửa theo giờ Hà Nội
+    // Mở cửa / Đóng cửa theo giờ Hà Nội (giả sử giờ máy ~ Hà Nội)
     (function(){
       const statusEl = document.getElementById('openStatus');
       const textEl = document.getElementById('openText');
@@ -729,7 +783,7 @@
 
       function updateStatus(){
         const now = new Date();
-        const h = now.getHours();
+        const h = now.getHours(); // giờ local
         const isOpen = (h >= 9 && h < 21); // 09:00–21:00
 
         if (isOpen){
@@ -742,37 +796,32 @@
       }
 
       updateStatus();
+      // Cập nhật lại mỗi 5 phút
       setInterval(updateStatus, 5 * 60 * 1000);
     })();
   </script>
 
   <script>
-    // Quick call mini: toggle card
+    // Quick call mini app toggle
     (function(){
-      const fab = document.getElementById('quickFab');
-      const card = document.getElementById('quickCard');
-      if (!fab || !card) return;
+      const toggle = document.getElementById('quickMiniToggle');
+      const card = document.getElementById('quickMiniCard');
+      const chevron = toggle ? toggle.querySelector('.quick-mini-chevron') : null;
 
-      function setOpen(open){
-        card.classList.toggle('open', open);
-        fab.setAttribute('aria-expanded', open ? 'true' : 'false');
-      }
+      if (!toggle || !card) return;
 
-      fab.addEventListener('click', function(e){
-        e.stopPropagation();
-        const isOpen = card.classList.contains('open');
-        setOpen(!isOpen);
-      });
-
-      document.addEventListener('click', function(e){
-        if (!card.contains(e.target) && e.target !== fab){
-          setOpen(false);
+      toggle.addEventListener('click', function(){
+        const isOpen = card.classList.toggle('open');
+        toggle.classList.toggle('open', isOpen);
+        if (chevron){
+          chevron.textContent = isOpen ? '−' : '＋';
         }
       });
     })();
   </script>
 
-  <!-- MotoAI (nếu muốn dùng chung với site lớn) -->
+  <!-- MotoAI (giữ nguyên nếu bạn đang dùng) -->
   <script defer src="https://motoopen.github.io/chothuexemayhanoi/motoai_v38_1_modelfirst_nomarkdown_nolink.js"></script>
+  <!-- /MotoAI -->
 </body>
 </html>
