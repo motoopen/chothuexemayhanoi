@@ -300,7 +300,7 @@
       color:var(--accent-strong);
     }
 
-    /* FAQ GIÁ THUÊ (THAY BẢNG GIÁ) */
+    /* FAQ GIÁ THUÊ */
     .faq{
       border-radius:var(--radius-md);
       border:1px solid var(--border);
@@ -357,13 +357,13 @@
       border-color:var(--accent);
     }
     .faq-answer{
-      padding:0 12px 10px 40px; /* thụt vào giống đoạn text */
+      padding:0 12px 10px 40px;
       font-size:12px;
       color:var(--muted);
       line-height:1.5;
     }
 
-    /* ĐỊA CHỈ BUTTON */
+    /* NÚT ĐỊA CHỈ */
     .address-row{
       margin-top:8px;
       margin-bottom:10px;
@@ -396,17 +396,7 @@
       box-shadow:0 14px 30px rgba(15,23,42,.18);
     }
 
-    /* DEPOSIT */
-    .list{
-      margin:0 0 12px 16px;
-      padding:0;
-      font-size:12px;
-      color:var(--text);
-    }
-    .list li{
-      margin-bottom:4px;
-    }
-
+    /* CỌC */
     .deposit-text{
       font-size:12px;
       color:var(--text);
@@ -421,79 +411,83 @@
       text-decoration:underline;
     }
 
-    /* QUICK CALL MINI APP */
-    .quick-mini{
-      margin-top:4px;
+    /* QUICK CALL FLOATING (kiểu cũ, nâng cấp hiệu ứng) */
+    .quick-fab-wrap{
+      position:fixed;
+      left:16px;
+      bottom:16px;
+      z-index:40;
     }
-    .quick-mini-toggle{
-      width:100%;
-      border:none;
+    .quick-fab{
+      width:54px;
+      height:54px;
       border-radius:999px;
-      padding:8px 12px;
-      background:var(--surface-elevated);
-      border:1px solid var(--border);
+      border:none;
+      cursor:pointer;
       display:flex;
       align-items:center;
-      justify-content:space-between;
-      gap:8px;
-      cursor:pointer;
-      box-shadow:0 10px 22px rgba(15,23,42,.08);
-      font-size:12px;
-      text-align:left;
+      justify-content:center;
+      background:linear-gradient(135deg,#0ea5e9,#1d4ed8);
+      color:#fff;
+      box-shadow:0 14px 30px rgba(15,23,42,.5);
+      font-size:22px;
+      outline:none;
+      animation:
+        fabPulse 2.4s infinite,
+        fabWiggle 3.8s ease-in-out infinite;
       transition:
         transform .16s var(--easing),
         box-shadow .16s var(--easing),
-        background .16s var(--easing),
-        border-color .16s var(--easing);
+        filter .16s var(--easing);
     }
-    .quick-mini-toggle:hover{
-      transform:translateY(-1px);
-      box-shadow:0 14px 30px rgba(15,23,42,.18);
+    .quick-fab:hover{
+      transform:translateY(-2px) scale(1.03);
+      box-shadow:0 18px 40px rgba(15,23,42,.7);
+      filter:brightness(1.05);
     }
-    .quick-mini-icon{
-      width:26px;
-      height:26px;
-      border-radius:999px;
-      background:var(--accent-soft);
-      display:inline-flex;
-      align-items:center;
-      justify-content:center;
-      flex-shrink:0;
+    .quick-fab.open{
+      animation:none;
+      transform:translateY(-2px) scale(1.03);
     }
-    .quick-mini-icon i{
-      color:var(--accent-strong);
-      font-size:13px;
+    @keyframes fabPulse{
+      0%{box-shadow:0 0 0 0 rgba(37,99,235,.55);}
+      70%{box-shadow:0 0 0 14px rgba(37,99,235,0);}
+      100%{box-shadow:0 0 0 0 rgba(37,99,235,0);}
     }
-    .quick-mini-text{
-      display:flex;
-      flex-direction:column;
-      align-items:flex-start;
-      flex:1;
+    @keyframes fabWiggle{
+      0%,80%{transform:translateY(0) rotate(0deg);}
+      85%{transform:translateY(-1px) rotate(-4deg);}
+      90%{transform:translateY(0) rotate(4deg);}
+      95%{transform:translateY(-1px) rotate(-3deg);}
+      100%{transform:translateY(0) rotate(0deg);}
     }
-    .quick-mini-text strong{
-      font-size:12px;
-    }
-    .quick-mini-text small{
-      font-size:11px;
-      color:var(--muted);
-    }
-    .quick-mini-chevron{
-      font-size:16px;
-      line-height:1;
-    }
-    .quick-mini-card{
-      margin-top:8px;
-      border-radius:var(--radius-md);
-      border:1px solid var(--border);
+
+    .quick-fab-card{
+      position:absolute;
+      left:64px;
+      bottom:4px;
+      min-width:220px;
+      border-radius:14px;
       background:var(--surface-elevated);
-      box-shadow:0 10px 24px rgba(15,23,42,.06);
+      border:1px solid var(--border);
+      box-shadow:0 14px 36px rgba(15,23,42,.45);
       padding:6px;
-      display:none;
+      opacity:0;
+      transform:scale(.92) translateY(8px);
+      transform-origin:left bottom;
+      pointer-events:none;
+      transition:
+        opacity .18s var(--easing),
+        transform .18s var(--easing),
+        background .18s var(--easing),
+        border-color .18s var(--easing);
     }
-    .quick-mini-card.open{
-      display:block;
+    .quick-fab-card.open{
+      opacity:1;
+      transform:scale(1) translateY(0);
+      pointer-events:auto;
     }
-    .quick-mini-item{
+    .quick-fab-item{
       display:flex;
       align-items:center;
       gap:10px;
@@ -504,10 +498,10 @@
       font-size:12px;
       transition:background .16s var(--easing);
     }
-    .quick-mini-item:hover{
-      background:rgba(148,163,184,.12);
+    .quick-fab-item:hover{
+      background:rgba(148,163,184,.14);
     }
-    .qmi-icon{
+    .qfi-icon{
       width:28px;
       height:28px;
       border-radius:999px;
@@ -517,24 +511,24 @@
       justify-content:center;
       flex-shrink:0;
     }
-    .qmi-icon i{
+    .qfi-icon i{
       font-size:13px;
       color:var(--accent-strong);
     }
-    .qmi-text{
+    .qfi-text{
       display:flex;
       flex-direction:column;
       align-items:flex-start;
     }
-    .qmi-text strong{
+    .qfi-text strong{
       font-size:12px;
     }
-    .qmi-text small{
+    .qfi-text small{
       font-size:11px;
       color:var(--muted);
     }
 
-    /* FOOTER LINE */
+    /* FOOTER */
     .footer-line{
       margin-top:10px;
       font-size:11px;
@@ -676,7 +670,7 @@
       </a>
     </div>
 
-    <!-- DEPOSIT -->
+    <!-- CỌC -->
     <section aria-label="Cọc & giấy tờ">
       <div class="section-title">
         <i class="fa-solid fa-file-signature"></i>
@@ -689,42 +683,6 @@
       </p>
     </section>
 
-    <!-- QUICK CALL MINI APP -->
-    <section class="quick-mini" aria-label="Liên hệ nhanh">
-      <button type="button" class="quick-mini-toggle" id="quickMiniToggle">
-        <span class="quick-mini-icon"><i class="fa-solid fa-phone"></i></span>
-        <span class="quick-mini-text">
-          <strong>Liên hệ nhanh</strong>
-          <small>Gọi / Zalo / Bản đồ</small>
-        </span>
-        <span class="quick-mini-chevron" aria-hidden="true">＋</span>
-      </button>
-
-      <div class="quick-mini-card" id="quickMiniCard">
-        <a href="tel:0857255868" class="quick-mini-item">
-          <span class="qmi-icon"><i class="fa-solid fa-phone"></i></span>
-          <span class="qmi-text">
-            <strong>Gọi 0857 255 868</strong>
-            <small>Tư vấn &amp; giữ xe nhanh</small>
-          </span>
-        </a>
-        <a href="https://zalo.me/0857255868" target="_blank" rel="noopener" class="quick-mini-item">
-          <span class="qmi-icon"><i class="fa-solid fa-comment-dots"></i></span>
-          <span class="qmi-text">
-            <strong>Chat Zalo</strong>
-            <small>Gửi hình xe, hỏi chi tiết giá</small>
-          </span>
-        </a>
-        <a href="https://maps.app.goo.gl/v9dZAZYBN7VbsYX8A?g_st=ipc" target="_blank" rel="noopener" class="quick-mini-item">
-          <span class="qmi-icon"><i class="fa-solid fa-location-dot"></i></span>
-          <span class="qmi-text">
-            <strong>Mở bản đồ</strong>
-            <small>114 Nguyễn Văn Cừ, Long Biên</small>
-          </span>
-        </a>
-      </div>
-    </section>
-
     <!-- FOOTER -->
     <div class="footer-line">
       <span>Motoopen · <a href="https://thuexemaynguyentu.com" target="_blank" rel="noopener">Thuê xe máy Hà Nội</a></span>
@@ -732,8 +690,38 @@
     </div>
   </div>
 
+  <!-- QUICK CALL FLOATING -->
+  <div class="quick-fab-wrap">
+    <button type="button" class="quick-fab" id="quickFab" aria-label="Liên hệ nhanh">
+      <i class="fa-solid fa-phone"></i>
+    </button>
+    <div class="quick-fab-card" id="quickFabCard">
+      <a href="tel:0857255868" class="quick-fab-item">
+        <span class="qfi-icon"><i class="fa-solid fa-phone"></i></span>
+        <span class="qfi-text">
+          <strong>Gọi 0857 255 868</strong>
+          <small>Tư vấn &amp; giữ xe nhanh</small>
+        </span>
+      </a>
+      <a href="https://zalo.me/0857255868" target="_blank" rel="noopener" class="quick-fab-item">
+        <span class="qfi-icon"><i class="fa-solid fa-comment-dots"></i></span>
+        <span class="qfi-text">
+          <strong>Chat Zalo</strong>
+          <small>Gửi hình xe, hỏi chi tiết giá</small>
+        </span>
+      </a>
+      <a href="https://maps.app.goo.gl/v9dZAZYBN7VbsYX8A?g_st=ipc" target="_blank" rel="noopener" class="quick-fab-item">
+        <span class="qfi-icon"><i class="fa-solid fa-location-dot"></i></span>
+        <span class="qfi-text">
+          <strong>Mở bản đồ</strong>
+          <small>114 Nguyễn Văn Cừ, Long Biên</small>
+        </span>
+      </a>
+    </div>
+  </div>
+
   <script>
-    // Dark / Light toggle (Apple vibe)
+    // Dark / Light toggle
     (function(){
       const body = document.body;
       const btn = document.getElementById('themeToggle');
@@ -750,7 +738,6 @@
         }catch(e){}
       }
 
-      // Khởi tạo theo localStorage → fallback prefers-color-scheme
       (function initTheme(){
         let saved = null;
         try{
@@ -775,7 +762,7 @@
   </script>
 
   <script>
-    // Mở cửa / Đóng cửa theo giờ Hà Nội (giả sử giờ máy ~ Hà Nội)
+    // Mở cửa / Đóng cửa theo giờ Hà Nội
     (function(){
       const statusEl = document.getElementById('openStatus');
       const textEl = document.getElementById('openText');
@@ -783,8 +770,8 @@
 
       function updateStatus(){
         const now = new Date();
-        const h = now.getHours(); // giờ local
-        const isOpen = (h >= 9 && h < 21); // 09:00–21:00
+        const h = now.getHours();
+        const isOpen = (h >= 9 && h < 21);
 
         if (isOpen){
           statusEl.classList.remove('closed');
@@ -796,32 +783,25 @@
       }
 
       updateStatus();
-      // Cập nhật lại mỗi 5 phút
       setInterval(updateStatus, 5 * 60 * 1000);
     })();
   </script>
 
   <script>
-    // Quick call mini app toggle
+    // Quick call floating toggle
     (function(){
-      const toggle = document.getElementById('quickMiniToggle');
-      const card = document.getElementById('quickMiniCard');
-      const chevron = toggle ? toggle.querySelector('.quick-mini-chevron') : null;
+      const fab = document.getElementById('quickFab');
+      const card = document.getElementById('quickFabCard');
+      if (!fab || !card) return;
 
-      if (!toggle || !card) return;
-
-      toggle.addEventListener('click', function(){
+      fab.addEventListener('click', function(){
         const isOpen = card.classList.toggle('open');
-        toggle.classList.toggle('open', isOpen);
-        if (chevron){
-          chevron.textContent = isOpen ? '−' : '＋';
-        }
+        fab.classList.toggle('open', isOpen);
       });
     })();
   </script>
 
-  <!-- MotoAI (giữ nguyên nếu bạn đang dùng) -->
+  <!-- MotoAI -->
   <script defer src="https://motoopen.github.io/chothuexemayhanoi/motoai_v38_1_modelfirst_nomarkdown_nolink.js"></script>
-  <!-- /MotoAI -->
 </body>
 </html>
