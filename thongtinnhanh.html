@@ -22,6 +22,9 @@
     :root{
       --bg:#f5f5f7;
       --card:#ffffff;
+      --card-top:#f9fafb;
+      --surface-soft:#f9fafb;
+      --surface-elevated:rgba(255,255,255,.9);
       --text:#111827;
       --muted:#6b7280;
       --accent:#0A84FF;   /* Apple blue */
@@ -37,19 +40,22 @@
       --easing:cubic-bezier(.22,1,.36,1);
     }
 
-    @media (prefers-color-scheme:dark){
-      :root{
-        --bg:#020617;
-        --card:#020617;
-        --text:#e5e7eb;
-        --muted:#9ca3af;
-        --accent:#0A84FF;
-        --accent-soft:rgba(37,99,235,.12);
-        --accent-strong:#60a5fa;
-        --border:#1f2937;
-        --shadow-soft:0 20px 50px rgba(0,0,0,.85);
-        --shadow-hard:0 26px 70px rgba(0,0,0,.95);
-      }
+    body.dark{
+      --bg:#020617;
+      --card:#020617;
+      --card-top:#020617;
+      --surface-soft:#020617;
+      --surface-elevated:rgba(15,23,42,.96);
+      --text:#e5e7eb;
+      --muted:#9ca3af;
+      --accent:#0A84FF;
+      --accent-soft:rgba(37,99,235,.18);
+      --accent-strong:#60a5fa;
+      --border:#1f2937;
+      --good:#22c55e;
+      --bad:#f97316;
+      --shadow-soft:0 20px 50px rgba(0,0,0,.85);
+      --shadow-hard:0 26px 70px rgba(0,0,0,.95);
     }
 
     *{box-sizing:border-box;margin:0;padding:0;}
@@ -65,6 +71,7 @@
       justify-content:center;
       padding:16px;
       -webkit-font-smoothing:antialiased;
+      transition:background .25s ease,color .25s ease;
     }
 
     body::before{
@@ -83,20 +90,13 @@
     .card{
       width:100%;
       max-width:640px;
-      background:radial-gradient(circle at top left,rgba(248,250,252,.96),var(--card));
+      background:radial-gradient(circle at top left,var(--card-top),var(--card));
       border-radius:var(--radius-lg);
       box-shadow:var(--shadow-soft),0 0 0 1px rgba(148,163,184,.18);
       padding:18px 18px 16px;
       position:relative;
       overflow:hidden;
       animation:cardIn .45s var(--easing) both;
-    }
-
-    @media (prefers-color-scheme:dark){
-      .card{
-        background:radial-gradient(circle at top left,#020617,#020617);
-        box-shadow:var(--shadow-hard),0 0 0 1px rgba(15,23,42,.9);
-      }
     }
 
     .card::before{
@@ -203,29 +203,32 @@
       color:var(--muted);
     }
 
-    .price-pill{
-      padding:6px 9px;
-      border-radius:12px;
-      background:rgba(255,255,255,.8);
-      border:1px solid var(--border);
-      font-size:11px;
-      font-weight:600;
-      text-align:right;
-      line-height:1.3;
+    .theme-toggle{
+      border:none;
+      border-radius:999px;
+      padding:7px 9px;
+      background:rgba(255,255,255,.85);
+      border:1px solid rgba(148,163,184,.6);
+      box-shadow:0 8px 20px rgba(15,23,42,.12);
+      cursor:pointer;
+      font-size:14px;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      transition:
+        background .18s var(--easing),
+        transform .18s var(--easing),
+        box-shadow .18s var(--easing),
+        border-color .18s var(--easing);
     }
-    @media (prefers-color-scheme:dark){
-      .price-pill{
-        background:rgba(15,23,42,.9);
-        border-color:#1f2937;
-      }
+    body.dark .theme-toggle{
+      background:rgba(15,23,42,.9);
+      border-color:#1f2937;
+      box-shadow:0 10px 26px rgba(0,0,0,.8);
     }
-    .price-pill strong{
-      display:block;
-      font-size:11px;
-    }
-    .price-pill span{
-      font-size:11px;
-      color:var(--muted);
+    .theme-toggle:hover{
+      transform:translateY(-1px);
+      box-shadow:0 12px 28px rgba(15,23,42,.2);
     }
 
     /* STATUS BAR */
@@ -277,6 +280,7 @@
       color:var(--accent-strong);
       text-decoration:none;
       font-weight:600;
+      white-space:nowrap;
     }
     .mini-link:hover{
       text-decoration:underline;
@@ -299,17 +303,11 @@
     .table-wrap{
       border-radius:var(--radius-md);
       border:1px solid var(--border);
-      background:rgba(255,255,255,.9);
+      background:var(--surface-elevated);
       overflow:hidden;
       box-shadow:0 10px 24px rgba(15,23,42,.06);
       margin-bottom:10px;
-    }
-    @media (prefers-color-scheme:dark){
-      .table-wrap{
-        background:rgba(15,23,42,.95);
-        border-color:#111827;
-        box-shadow:0 16px 34px rgba(0,0,0,.8);
-      }
+      transition:background .25s ease,box-shadow .25s ease,border-color .25s ease;
     }
     table{
       width:100%;
@@ -326,12 +324,7 @@
       text-transform:uppercase;
       letter-spacing:.12em;
       color:var(--muted);
-      background:rgba(249,250,251,.96);
-    }
-    @media (prefers-color-scheme:dark){
-      th{
-        background:rgba(15,23,42,.9);
-      }
+      background:var(--surface-soft);
     }
     tr:last-child td{
       border-bottom:none;
@@ -373,59 +366,37 @@
       margin-bottom:4px;
     }
 
-    /* CTA BUTTONS */
-    .cta-grid{
-      display:grid;
-      grid-template-columns:repeat(3,minmax(0,1fr));
-      gap:8px;
-      margin-bottom:4px;
-    }
-    @media(max-width:520px){
-      .cta-grid{
-        grid-template-columns:1fr;
-      }
-    }
-    .cta-btn{
-      border:none;
-      border-radius:14px;
-      padding:10px 11px;
+    /* QUICK CALL MINI */
+    .quick-call{
+      margin-top:4px;
       display:flex;
-      flex-direction:column;
-      gap:3px;
-      text-align:left;
-      text-decoration:none;
-      cursor:pointer;
+      justify-content:flex-end;
+    }
+    .quick-call-btn{
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+      padding:8px 12px;
+      border-radius:999px;
+      border:1px solid var(--border);
+      background:var(--surface-elevated);
+      box-shadow:0 10px 22px rgba(15,23,42,.08);
       font-size:12px;
       font-weight:700;
-      color:#ffffff;
-      background:linear-gradient(135deg,#0ea5e9,#1d4ed8);
-      box-shadow:0 12px 26px rgba(37,99,235,.45);
+      color:var(--text);
+      text-decoration:none;
       transition:
         transform .16s var(--easing),
         box-shadow .16s var(--easing),
-        filter .16s var(--easing);
+        background .16s var(--easing),
+        border-color .16s var(--easing);
     }
-    .cta-btn.secondary{
-      background:linear-gradient(135deg,#111827,#374151);
-      box-shadow:0 10px 22px rgba(15,23,42,.6);
+    .quick-call-btn i{
+      color:var(--accent-strong);
     }
-    .cta-main{
-      display:flex;
-      align-items:center;
-      gap:6px;
-      font-size:13px;
-    }
-    .cta-main i{
-      font-size:13px;
-    }
-    .cta-sub{
-      font-size:11px;
-      opacity:.9;
-    }
-    .cta-btn:hover{
-      transform:translateY(-2px);
-      box-shadow:0 16px 34px rgba(15,23,42,.7);
-      filter:brightness(1.05);
+    .quick-call-btn:hover{
+      transform:translateY(-1px);
+      box-shadow:0 14px 30px rgba(15,23,42,.18);
     }
 
     /* FOOTER LINE */
@@ -456,12 +427,12 @@
         flex-direction:row;
         align-items:flex-start;
       }
-      .price-pill{
-        font-size:10px;
-      }
       .status-row{
         flex-direction:column;
         align-items:flex-start;
+      }
+      .mini-link{
+        align-self:flex-start;
       }
     }
   </style>
@@ -483,10 +454,11 @@
           <div class="brand-sub">Thuê xe máy Hà Nội · Giao tận nơi</div>
         </div>
       </div>
-      <div class="price-pill">
-        <strong>Xe bán từ 6 – 26 triệu</strong>
-        <span>Xem xe tại 114 Nguyễn Văn Cừ</span>
-      </div>
+
+      <!-- Nút đổi Dark / Light -->
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Đổi giao diện">
+        ☀️
+      </button>
     </header>
 
     <!-- STATUS -->
@@ -564,39 +536,13 @@
       </ul>
     </section>
 
-    <!-- CTA BUTTONS -->
-    <section aria-label="Liên hệ nhanh">
-      <div class="cta-grid">
-        <a class="cta-btn"
-           href="tel:0857255868">
-          <div class="cta-main">
-            <i class="fa-solid fa-phone"></i>
-            <span>Gọi 0857 255 868</span>
-          </div>
-          <div class="cta-sub">Tư vấn &amp; giữ xe nhanh</div>
-        </a>
-
-        <a class="cta-btn secondary"
-           href="https://zalo.me/0857255868"
-           target="_blank" rel="noopener">
-          <div class="cta-main">
-            <i class="fa-solid fa-comment-dots"></i>
-            <span>Chat Zalo</span>
-          </div>
-          <div class="cta-sub">Gửi hình xe &amp; báo giá</div>
-        </a>
-
-        <a class="cta-btn secondary"
-           href="https://maps.app.goo.gl/2icTBTxAToyvKTE78"
-           target="_blank" rel="noopener">
-          <div class="cta-main">
-            <i class="fa-solid fa-location-dot"></i>
-            <span>Mở bản đồ</span>
-          </div>
-          <div class="cta-sub">114 Nguyễn Văn Cừ, Long Biên</div>
-        </a>
-      </div>
-    </section>
+    <!-- QUICK CALL MINI -->
+    <div class="quick-call">
+      <a href="tel:0857255868" class="quick-call-btn">
+        <i class="fa-solid fa-phone"></i>
+        <span>Gọi 0857 255 868</span>
+      </a>
+    </div>
 
     <!-- FOOTER -->
     <div class="footer-line">
@@ -604,6 +550,48 @@
       <span>© 2025</span>
     </div>
   </div>
+
+  <script>
+    // Dark / Light toggle (Apple vibe)
+    (function(){
+      const body = document.body;
+      const btn = document.getElementById('themeToggle');
+      const STORAGE_KEY = 'motoopen_quickcard_theme';
+
+      function applyTheme(mode){
+        const isDark = (mode === 'dark');
+        body.classList.toggle('dark', isDark);
+        if (btn){
+          btn.textContent = isDark ? '🌙' : '☀️';
+        }
+        try{
+          localStorage.setItem(STORAGE_KEY, mode);
+        }catch(e){}
+      }
+
+      // Khởi tạo theo localStorage → fallback prefers-color-scheme
+      (function initTheme(){
+        let saved = null;
+        try{
+          saved = localStorage.getItem(STORAGE_KEY);
+        }catch(e){}
+        if (saved === 'light' || saved === 'dark'){
+          applyTheme(saved);
+        } else {
+          const prefersDark = window.matchMedia &&
+            window.matchMedia('(prefers-color-scheme: dark)').matches;
+          applyTheme(prefersDark ? 'dark' : 'light');
+        }
+      })();
+
+      if (btn){
+        btn.addEventListener('click', function(){
+          const isDark = body.classList.contains('dark');
+          applyTheme(isDark ? 'light' : 'dark');
+        });
+      }
+    })();
+  </script>
 
   <script>
     // Mở cửa / Đóng cửa theo giờ Hà Nội (giả sử giờ máy ~ Hà Nội)
@@ -627,7 +615,7 @@
       }
 
       updateStatus();
-      // Cập nhật lại mỗi 5 phút cho chắc
+      // Cập nhật lại mỗi 5 phút
       setInterval(updateStatus, 5 * 60 * 1000);
     })();
   </script>
