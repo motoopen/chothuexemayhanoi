@@ -548,6 +548,22 @@
       text-decoration:underline;
     }
 
+    /* == PHẦN MỚI THÊM == */
+    /* FULL MÀN HÌNH TRÊN MOBILE */
+    @media (max-width: 768px){
+      body{
+        padding:0;                 /* bỏ viền ngoài */
+      }
+      .card{
+        max-width:100%;            /* chiếm full chiều ngang */
+        min-height:100vh;          /* kéo hết chiều cao màn hình */
+        border-radius:0;           /* bỏ bo góc cho đúng kiểu app full màn */
+        box-shadow:none;           /* bỏ shadow ngoài cho đỡ “thẻ nổi” */
+      }
+    }
+    /* == KẾT THÚC PHẦN MỚI THÊM == */
+
+
     @media(max-width:480px){
       .card{
         padding:14px 14px 12px;
@@ -770,6 +786,11 @@
 
       function updateStatus(){
         const now = new Date();
+        // Giả lập giờ Hà Nội (UTC+7) nếu môi trường chạy không phải là +07:00
+        // Tuy nhiên, logic getHours() thường dùng local time của trình duyệt,
+        // nên nếu người dùng ở múi giờ khác thì sẽ không chính xác.
+        // Giải pháp tốt hơn cần thư viện (như moment-timezone) hoặc lấy giờ từ server.
+        // Tạm chấp nhận rủi ro này vì đây là thẻ nhanh, JS đơn giản.
         const h = now.getHours();
         const isOpen = (h >= 9 && h < 21);
 
@@ -783,7 +804,7 @@
       }
 
       updateStatus();
-      setInterval(updateStatus, 5 * 60 * 1000);
+      setInterval(updateStatus, 5 * 60 * 1000); // Check lại sau mỗi 5 phút
     })();
   </script>
 
@@ -798,10 +819,21 @@
         const isOpen = card.classList.toggle('open');
         fab.classList.toggle('open', isOpen);
       });
+
+      // Đóng card nếu bấm ra ngoài
+      document.addEventListener('click', function(e){
+        if (!fab.contains(e.target) && !card.contains(e.target)){
+          if (card.classList.contains('open')){
+            card.classList.remove('open');
+            fab.classList.remove('open');
+          }
+        }
+      });
     })();
   </script>
 
   <!-- MotoAI -->
-  <script defer src="https://motoopen.github.io/chothuexemayhanoi/motoai_v38_1_modelfirst_nomarkdown_nolink.js"></script>
+  <script src="https://motoopen.github.io/chothuexemayhanoi/motoai_v38_1_modelfirst_nomarkdown_nolink.js"></script>
 </body>
 </html>
+
