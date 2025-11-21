@@ -124,9 +124,10 @@
     --m-text:#0b1220;
 
     /* Input sizing (tùy biến nhanh) */
-    --m-in-h: 34px;         /* chiều cao ô nhập. Đổi 34/36 nếu muốn lớn hơn */
-    --m-in-fs: 15px;        /* cỡ chữ trong ô nhập */
-    --m-send-size: 36px;    /* kích thước nút gửi */
+    /* Tăng lên >=16px để iOS Safari không auto-zoom khi focus */
+    --m-in-h: 38px;         /* chiều cao ô nhập, cao hơn chút cho dễ bấm */
+    --m-in-fs: 16px;        /* cỡ chữ trong ô nhập (fix zoom iPhone) */
+    --m-send-size: 40px;    /* kích thước nút gửi, cân với ô nhập */
   }
   #mta-root{
     position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0));z-index:var(--mta-z);
@@ -196,6 +197,13 @@
     background:linear-gradient(160deg,#0084FF,#00B2FF);
     color:#fff;cursor:pointer;box-shadow:0 6px 18px rgba(0,132,255,.4);
     font-size:15px; display:flex;align-items:center;justify-content:center
+  }
+
+  /* iOS Safari: ép font-size tối thiểu 16px để tránh auto-zoom input */
+  @supports (-webkit-touch-callout: none) {
+    #mta-in {
+      font-size: 16px;
+    }
   }
 
   @media(max-width:520px){
