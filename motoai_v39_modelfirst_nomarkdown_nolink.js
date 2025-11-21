@@ -255,30 +255,19 @@
   const MAX_MSG = 10;
   function getSess(){ const arr = safe(localStorage.getItem(K.sess))||[]; return Array.isArray(arr)?arr:[]; }
   function saveSess(a){ try{ localStorage.setItem(K.sess, JSON.stringify(a.slice(-MAX_MSG))); }catch{} }
-
-  // 🔧 NEW: render-only để tránh nhân đôi lịch sử
-  function appendMsg(role,text){
+  function addMsg(role,text){
     if(!text) return;
     const body=$("#mta-body"); if(!body) return;
     const el=document.createElement("div"); el.className="m-msg "+(role==="user"?"user":"bot"); el.textContent=text;
     body.appendChild(el); body.scrollTop=body.scrollHeight;
+    const arr=getSess(); arr.push({role,text,t:Date.now()}); saveSess(arr);
   }
-
-  function addMsg(role,text){
-    if(!text) return;
-    appendMsg(role,text); // render
-    const arr=getSess(); arr.push({role,text,t:Date.now()}); saveSess(arr); // lưu lịch sử
-  }
-
   function renderSess(){
-    const body=$("#mta-body"); if(!body) return;
-    body.innerHTML="";
+    const body=$("#mta-body"); body.innerHTML="";
     const arr=getSess();
-    if(arr.length) arr.forEach(m=> appendMsg(m.role,m.text)); // chỉ render, KHÔNG lưu lại
-    else appendMsg("bot", naturalize(`Xin chào, em là nhân viên hỗ trợ của ${CFG.brand}. Anh/chị cần thuê xe số, xe ga hay theo tháng?`));
-    body.scrollTop = body.scrollHeight;
+    if(arr.length) arr.forEach(m=> addMsg(m.role,m.text));
+    else addMsg("bot", naturalize(`Xin chào, em là nhân viên hỗ trợ của ${CFG.brand}. Anh/chị cần thuê xe số, xe ga hay theo tháng?`));
   }
-
   function getCtx(){ return safe(localStorage.getItem(K.ctx)) || {turns:[]}; }
   function pushCtx(delta){
     try{
@@ -346,6 +335,7 @@
     '50cc':       { day:[200000],          week:[800000], month:[1700000] },
     'xe côn tay': { day:[300000],          week:[1200000], month:null }
   };
+  // Bổ sung model phổ biến
   PRICE_TABLE['wave']   = PRICE_TABLE['wave']   || { day:[150000], week:[600000,700000], month:[850000,1200000] };
   PRICE_TABLE['sirius'] = PRICE_TABLE['sirius'] || { day:[150000], week:[600000,700000], month:[850000,1200000] };
   PRICE_TABLE['blade']  = PRICE_TABLE['blade']  || { day:[150000], week:[600000,700000], month:[850000,1200000] };
@@ -363,6 +353,7 @@
     const arr=it[key]; if(!arr) return null; return Array.isArray(arr)?arr[0]:arr;
   }
 
+  // Model → family fallback
   function modelFamily(model){
     switch((model||'').toLowerCase()){
       case 'vision':
@@ -411,7 +402,7 @@
       {key:/\bvision\b/i,                       type:'vision'},
       {key:/\bwave\b/i,                         type:'wave'},
       {key:/\bsirius\b/i,                       type:'sirius'},
-      {key:/\bblade\b/i,                        type:'blade'},
+      {key:/\bblade\b/i,                        type:'blade'},   // đặt sau air blade
       {key:/\bjupiter\b/i,                      type:'jupiter'},
       {key:/\blead\b/i,                         type:'lead'},
       {key:/\bliberty\b/i,                      type:'liberty'},
@@ -430,7 +421,7 @@
       const m = line.match(reNum);
       if(!m) return null;
       let val = 0;
-      if(m[3]){
+      if(m[3]){ // 150.000 hoặc 1,200,000
         val = parseInt(m[3].replace(/[^\d]/g,''),10);
       }else{
         const num = parseFloat(String(m[1]||'0').replace(',','.'));
@@ -495,22 +486,18 @@
       : idx.map(it=> Object.assign(
           {score: tk(it.title+" "+it.text).filter(t=> tk(query).includes(t)).length}, it))
            .filter(x=>x.score>0)
-           .sort((a,b)=> b.score - a.score)
+           .sort((a,b)=> b.score - a.score)   // ✅ FIX: đúng cú pháp so sánh điểm
            .slice(0,k);
     return scored;
   }
-
-  // 🔧 FIX: bỏ lookbehind để chạy tốt trên Safari/iOS cũ
   function bestSentences(text, query, k=2){
-    const normalized = String(text||'').replace(/\s+/g,' ');
-    const sents = (normalized.match(/[^.!?]+[.!?]/g) || []).slice(0,80);
-    const qToks=new Set(tk(query));
-    const scored = sents.map(s=>{
+    const sents = String(text||'').replace(/\s+/g,' ').split(/(?<=[\.\!\?])\s+/).slice(0,80);
+    const qToks=new Set(tk(query)); const scored = sents.map(s=>{
       const toks=tk(s); let hit=0; qToks.forEach(t=>{ if(toks.includes(t)) hit++; });
       const lenp = Math.max(0.5, 12/Math.max(12, toks.length));
       return {s, score: hit*lenp};
     }).filter(x=>x.score>0).sort((a,b)=>b.score-a.score);
-    return scored.slice(0,k).map(x=>x.s.trim());
+    return scored.slice(0,k).map(x=>x.s);
   }
 
   /* ====== FETCH / PARSE ====== */
@@ -621,7 +608,7 @@
     return out;
   }
 
-  /* ====== AUTOLEARN ====== */
+  /* ====== AUTOLEARN: ưu tiên moto_sitemap.json, rồi sitemap/crawl; HỌC NHIỀU SITE ====== */
   function loadLearnCache(){ return loadLearn(); }
   function saveLearnCache(obj){ saveLearn(obj); }
 
@@ -662,6 +649,7 @@
                 }
                 const sample=(title+' '+desc).toLowerCase();
                 if(CFG.viOnly && !looksVN(sample)) { stats.nonVNSkipped++; continue; }
+                // Auto-Price learn (model/day)
                 if(CFG.smart.autoPriceLearn){
                   const autos = extractPricesFromText(txt);
                   if(autos && autos.length){
@@ -793,10 +781,11 @@
   async function deepAnswer(userText){
     const q = (userText||"").trim();
     const intents = detectIntent(q);
-    let model = detectType(q);
+    let model = detectType(q); // sẽ là model nếu match; nếu không, có thể là family
 
     const qty  = detectQty(q);
 
+    // Deep context: lấy model/qty gần nhất nếu thiếu
     if(CFG.deepContext){
       const ctx = getCtx();
       for(let i=ctx.turns.length-1;i>=0;i--){
@@ -815,6 +804,7 @@
 
     if(intents.needPrice)   return composePrice(model, qty);
 
+    // Semantic retrieval + Extractive QA (KHÔNG chèn link)
     try{
       const top = searchIndex(q, 3);
       if(top && top.length){
@@ -847,6 +837,7 @@
           const dayRange = [p25, p50].filter(Boolean);
           if(dayRange.length) PRICE_TABLE[t].day = dayRange;
         }else{
+          // Nếu có model mới chưa trong PRICE_TABLE, khởi tạo day từ dữ liệu
           if(p25 || p50) PRICE_TABLE[t] = { day: [p25||p50, p50||p25].filter(Boolean), week:null, month:null };
         }
       });
@@ -910,8 +901,7 @@
       bottom = Math.max(bottom, kb + 8);
       body.style.paddingBottom = (12 + kb) + "px";
     }
-    // 🔧 clamp để tránh giá trị âm kéo bong bóng ra khỏi màn hình
-    root.style.bottom = Math.max(0, bottom) + "px";
+    root.style.bottom = bottom + "px";
   }
   function maybeDisableQuickMap(){
     if(!CFG.disableQuickMap) return;
