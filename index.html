@@ -29,9 +29,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
 
   <meta property="og:locale" content="vi_VN">
   <meta property="og:type" content="website">
@@ -49,21 +46,6 @@
   <meta name="twitter:image" content="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg">
 
   <style>
-    :root {
-      --maxw: 1100px;
-      --bg: #f5f5f7;
-      --surface: #fff;
-      --text: #1d1d1f;
-      --muted: #6e6e73;
-      --accent: #0A84FF;
-      /* Apple Blue */
-    }
-
-    /* CSS của trang đặt ở đây */
-
-    /* [ĐÃ GỘP CSS] 
-      Nội dung CSS từ khối <style> bị lỗi lồng nhau đã được di chuyển vào đây.
-    */
     :root {
       --maxw: 1100px;
       --bg: #f5f5f7;
@@ -221,7 +203,6 @@
       display: block
     }
 
-    /* (YÊU CẦU 1) cho phép mở bằng class .open (tap/click) */
     .nav-dropdown.open .dropdown-menu {
       display: block;
     }
@@ -264,7 +245,7 @@
       border-radius: 2px
     }
 
-    /* ---------- Drawer (CODE ĐÃ SỬA) ---------- */
+    /* ---------- Drawer ---------- */
     .drawer-overlay {
       position: fixed;
       inset: 0;
@@ -293,7 +274,6 @@
       transition: transform .35s cubic-bezier(.2, .9, .2, 1);
       z-index: calc(var(--z-drawer) + 1);
       backdrop-filter: blur(12px) saturate(150%);
-      /* Cập nhật padding mới, đã bao gồm safe-area */
       padding: calc(env(safe-area-inset-top, 12px) + 60px) 16px calc(env(safe-area-inset-bottom, 12px) + 16px);
       overflow-y: auto;
       -ms-overflow-style: none;
@@ -312,7 +292,6 @@
       transform: translateX(0);
     }
 
-    /* Header */
     .drawer-header {
       display: flex;
       align-items: center;
@@ -346,7 +325,6 @@
       font-weight: 600;
     }
 
-    /* Menu block */
     .menu-block {
       background: var(--surface);
       border-radius: 12px;
@@ -360,7 +338,6 @@
       border: 1px solid var(--glass-border);
     }
 
-    /* Grid buttons (mini app) */
     .menu-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -390,7 +367,6 @@
       color: var(--accent);
     }
 
-    /* Màu riêng cho icon (nếu cần) */
     .menu-grid-item:nth-child(2) i {
       color: #0A84FF;
     }
@@ -407,7 +383,6 @@
       font-size: .9rem;
     }
 
-    /* Menu items */
     .menu-item {
       display: flex;
       align-items: center;
@@ -444,7 +419,6 @@
       line-height: 1.2;
     }
 
-    /* Accordion (dịch vụ) */
     .menu-item .chevron-icon {
       margin-left: auto;
       font-size: .8rem;
@@ -465,12 +439,10 @@
       padding-left: 10px;
     }
 
-    /* Đảm bảo chiều cao đủ cho 5 items */
     .menu-submenu.open {
       max-height: 260px;
     }
 
-    /* Sub items */
     .menu-item.menu-item-sub {
       padding-top: 10px;
       padding-bottom: 10px;
@@ -483,7 +455,6 @@
       background: transparent;
     }
 
-    /* Dark mode toggle */
     .menu-item .toggle-switch {
       margin-left: auto;
       width: 44px;
@@ -523,10 +494,7 @@
       transform: translateX(18px);
     }
 
-    /* ===== KẾT THÚC CSS MENU ĐÃ SỬA ===== */
-
-
-    /* ===== (ĐÃ SỬA) TOC (H2 only) - CHUYỂN SANG GIỮA BÊN TRÁI ===== */
+    /* ===== TOC ===== */
     .toc-fab {
       position: fixed;
       left: max(16px, env(safe-area-inset-left));
@@ -561,7 +529,6 @@
       display: none;
       box-shadow: 0 14px 36px rgba(0, 0, 0, .16);
       z-index: calc(var(--z-fab) + 2);
-      /* cao hơn nút fab */
     }
 
     .toc-drawer.open {
@@ -585,7 +552,6 @@
       background: var(--glass)
     }
 
-    /* (MỚI) Nút Liên hệ (miniAppToggle) - góc phải dưới */
     .contact-fab {
       position: fixed;
       right: max(16px, env(safe-area-inset-right));
@@ -603,15 +569,11 @@
       cursor: pointer;
     }
 
-    /* (MỚI) Mobile: tăng chiều cao tối đa cho TOC */
     @media (max-width: 780px) {
       .toc-drawer {
         max-height: 70vh;
       }
     }
-
-    /* -------------------------------------------------------- */
-
 
     /* ---------- FAQ (details) ---------- */
     .faq {
@@ -650,7 +612,6 @@
       padding-top: 8px
     }
 
-    /* animation */
     .faq details .answer {
       animation: fadeIn .22s ease
     }
@@ -682,33 +643,16 @@
       }
     }
 
-    /* Safari/iOS smooth + overscroll fix */
     body {
       -webkit-overflow-scrolling: touch;
       overscroll-behavior: contain;
     }
 
-    /* MotoAI overlay blur fix (không làm mờ header/faq) */
     #motoai-overlay {
       isolation: isolate;
     }
 
-
-    /* ===== CSS CHO FOOTER VÀ BOTTOM APP BAR MỚI ===== */
-    /* Fallback variables (site anh đã có thì giữ nguyên) */
-    :root {
-      /* --accent:#0a84ff; --text:#0b0b0d; --footer-bg:rgba(255,255,255,.65); */
-      /* Đã có ở trên */
-      /* --glass-border:rgba(60,60,67,.18); */
-      /* Đã có ở trên */
-    }
-
-    body.dark {
-      /* --footer-bg:rgba(22,22,24,.65); --text:#eaeaea; --glass-border:rgba(255,255,255,.12); */
-      /* Đã có ở trên */
-    }
-
-    /* ===== Footer Apple Glass Centered v2 (CODE ĐÃ NÂNG CẤP) ===== */
+    /* ===== Footer ===== */
     footer.premium.app-footer {
       background: rgba(255, 255, 255, 0.85);
       color: var(--text);
@@ -718,7 +662,6 @@
       border-radius: 20px 20px 0 0;
       box-shadow: 0 -12px 45px rgba(0, 0, 0, 0.15);
       display: grid;
-      /* (YÊU CẦU 3) Đổi minmax(240px) -> minmax(220px) để vừa 4 cột dễ hơn */
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
       gap: 36px;
       padding: 56px 24px calc(56px + env(safe-area-inset-bottom));
@@ -801,10 +744,7 @@
       color: var(--muted);
     }
 
-    /* ===== KẾT THÚC CSS NÂNG CẤP FOOTER v2 ===== */
-
-
-    /* ===== Bottom App Bar (mobile) ===== */
+    /* ===== Bottom App Bar ===== */
     .bottom-appbar {
       position: fixed;
       left: 50%;
@@ -854,21 +794,18 @@
         display: block;
       }
 
-      /* chừa chỗ cho app bar */
       body {
         padding-bottom: 86px;
       }
     }
 
-    /* Dark mode app bar */
     body.dark .bottom-appbar {
       background: rgba(28, 28, 30, .92);
       color: var(--text);
       box-shadow: 0 12px 28px rgba(0, 0, 0, .45);
     }
 
-    /* ===== CSS MỚI ĐƯỢC THÊM VÀO ===== */
-    /* ===== HERO MINI-APP (no image) ===== */
+    /* ===== HERO MINI-APP ===== */
     .hero-mini {
       margin: 12px auto 28px;
     }
@@ -923,7 +860,6 @@
       font-weight: 600;
     }
 
-    /* Segmented control: Ngày / Tuần / Tháng */
     .hmini-toggle {
       display: inline-flex;
       gap: 6px;
@@ -950,7 +886,6 @@
       box-shadow: 0 10px 24px rgba(10, 132, 255, .25);
     }
 
-    /* Price line + badges */
     .hmini-price {
       margin: 10px 0 8px;
       font-weight: 800;
@@ -981,7 +916,6 @@
       font-size: 1rem;
     }
 
-    /* CTA row */
     .hmini-cta {
       display: flex;
       flex-wrap: wrap;
@@ -1018,7 +952,6 @@
       border: 1px solid var(--glass-border);
     }
 
-    /* MINI-APP tiles (bên phải) */
     .hmini-tiles {
       background: var(--surface);
       border: 1px solid var(--glass-border);
@@ -1090,7 +1023,6 @@
       font-size: .92rem;
     }
 
-    /* Soft divider */
     .hmini-soft {
       height: 1px;
       background: var(--glass-border);
@@ -1098,7 +1030,6 @@
       margin: 12px 0;
     }
 
-    /* Stats (nhỏ, dưới tiles) */
     .hmini-stats {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -1134,7 +1065,6 @@
       color: var(--accent);
     }
 
-    /* Appear animation (nhẹ) */
     .reveal {
       opacity: 0;
       transform: translateY(8px);
@@ -1146,9 +1076,7 @@
       transform: none;
     }
 
-    /* ===== KẾT THÚC CSS MỚI ===== */
-
-    /* ====== scoped styles (no conflict) ====== */
+    /* ====== SCOPED STYLES ====== */
     .mapp-wrap {
       max-width: var(--maxw, 1100px);
       margin: 18px auto;
@@ -1322,7 +1250,6 @@
       margin-top: 8px
     }
 
-    /* FAQ */
     .mapp-qa {
       border: 1px solid var(--glass-border);
       border-radius: 10px;
@@ -1340,7 +1267,6 @@
       box-shadow: 0 8px 22px rgba(0, 0, 0, .06)
     }
 
-    /* sticky mini action on mobile (won't clash with bottom app bar) */
     .mapp-sticky {
       display: none;
       position: sticky;
@@ -1369,7 +1295,7 @@
       }
     }
 
-    /* CSS TỪ KHỐI CHỌN XE */
+    /* CSS CHỌN XE */
     .sx-wrap {
       max-width: var(--maxw, 1100px);
       margin: 20px auto;
@@ -1389,11 +1315,9 @@
     .sx-grid {
       display: grid;
       gap: 12px;
-      /* (CHỈNH SỬA) Đổi từ 4 cột -> 3 cột để khớp với yêu cầu 3 xe/hàng */
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 
-    /* (CHỈNH SỬA) Bỏ 980px breakpoint, giữ 680px */
     @media (max-width:680px) {
       .sx-grid {
         grid-template-columns: repeat(2, 1fr)
@@ -1405,9 +1329,6 @@
         grid-template-columns: 1fr
       }
     }
-
-    /* Thêm 1 cột cho mobile nhỏ */
-
 
     .sx-card {
       background: var(--surface, #fff);
@@ -1504,7 +1425,7 @@
       box-shadow: 0 10px 24px rgba(10, 132, 255, .18);
     }
 
-    /* CSS TỪ KHỐI REVIEWS */
+    /* CSS REVIEWS */
     .sx-rev {
       margin: 22px 0 0
     }
@@ -1516,7 +1437,6 @@
     .sx-revlist {
       display: grid;
       gap: 12px;
-      /* (CHỈNH SỬA) Đổi từ 2 cột -> 3 cột để khớp 3x2 */
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 
@@ -1526,14 +1446,11 @@
       }
     }
 
-    /* Về 2 cột */
     @media (max-width:680px) {
       .sx-revlist {
         grid-template-columns: 1fr
       }
     }
-
-    /* Về 1 cột */
 
     .sx-quote {
       background: var(--surface);
@@ -1553,20 +1470,15 @@
       font-weight: 700
     }
 
-    /* GHI ĐÈ CSS CỤC BỘ ĐỂ PHÙ HỢP VỚI MINI-APP */
-    /* Ghi đè .sx-wrap để lồng vào .mapp-card */
     .mapp-card .sx-wrap {
       max-width: 100%;
       margin: 20px 0;
-      /* Giữ margin top/bottom */
       padding: 0;
-      /* Xóa padding ngang */
     }
 
     .mapp-card .sx-head,
     .mapp-card .sx-rev h2 {
       font-size: 1.25rem;
-      /* Giống .mapp-h2 */
       margin: 16px 0 8px;
     }
 
@@ -1576,39 +1488,200 @@
       font-weight: 600;
     }
 
-    /* (YÊU CẦU 2) CSS CHO SAO ĐÁNH GIÁ */
     .sx-stars {
       color: #FFB400;
-      /* Màu vàng gold */
       margin-bottom: 6px;
       font-size: 0.9rem;
     }
 
     .sx-stars i {
       margin-right: 2px;
-      /* Khoảng cách giữa các sao */
     }
 
-    /* (YÊU CẦU 3) Căn chỉnh lại .quick-links trong footer */
     .app-footer .quick-links {
       align-items: flex-start;
-      /* Căn trái */
       max-width: 200px;
-      /* Giới hạn chiều rộng 1 chút */
       margin: 0 auto;
-      /* Căn giữa khối */
     }
 
     .app-footer .quick-links li {
       justify-content: flex-start;
-      /* Căn trái text & icon */
       gap: 10px;
-      /* Tăng khoảng cách cho icon */
     }
 
     .app-footer .quick-links i {
       width: 20px;
       text-align: center;
+      color: var(--accent);
+    }
+
+    /* ===== SECTION 1: LÝ DO CHỌN MOTOOPEN ===== */
+    .mapp-reasons {
+      margin-top: 24px;
+      padding-top: 8px;
+    }
+
+    .mapp-reasons .mapp-h2 {
+      margin-bottom: 10px;
+    }
+
+    .mapp-reasons-text {
+      color: var(--muted);
+      margin: 4px 0 14px;
+      font-weight: 600;
+    }
+
+    .mapp-reasons-grid {
+      display: grid;
+      gap: 12px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    @media (min-width: 700px) {
+      .mapp-reasons-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .mapp-reasons-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .mapp-reason-card {
+      background: var(--surface);
+      border-radius: 14px;
+      border: 1px solid var(--glass-border);
+      padding: 14px 12px;
+      box-shadow: 0 8px 22px rgba(0, 0, 0, .06);
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+    
+    @media (min-width: 481px) {
+       .mapp-reason-card {
+         flex-direction: row;
+         align-items: center;
+       }
+    }
+
+    body.dark .mapp-reason-card {
+      box-shadow: 0 10px 26px rgba(0, 0, 0, .35);
+    }
+
+    .mapp-reason-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 12px;
+      background: var(--glass);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      color: var(--accent);
+      flex-shrink: 0;
+    }
+
+    .mapp-reason-body h3 {
+      margin: 0 0 4px;
+      font-size: .95rem;
+      font-weight: 800;
+    }
+
+    .mapp-reason-body p {
+      margin: 0;
+      color: var(--muted);
+      font-size: .85rem;
+      font-weight: 600;
+    }
+
+    /* ===== SECTION 2: QUY TRÌNH 3 BƯỚC ===== */
+    .mapp-steps {
+      margin-top: 28px;
+    }
+
+    .mapp-steps-text {
+      color: var(--muted);
+      margin: 4px 0 16px;
+      font-weight: 600;
+    }
+
+    .mapp-steps-line {
+      position: relative;
+      padding-left: 32px;
+      border-left: 2px solid var(--glass-border);
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-left: 8px;
+    }
+
+    .mapp-step {
+      position: relative;
+      padding: 12px 14px;
+      background: var(--surface);
+      border-radius: 12px;
+      border: 1px solid var(--glass-border);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, .05);
+    }
+
+    body.dark .mapp-step {
+      box-shadow: 0 10px 26px rgba(0, 0, 0, .40);
+    }
+
+    .mapp-step-number {
+      position: absolute;
+      left: -46px;
+      top: 12px;
+      width: 26px;
+      height: 26px;
+      border-radius: 999px;
+      background: var(--accent);
+      color: #fff;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: .9rem;
+      box-shadow: 0 4px 12px rgba(10, 132, 255, .35);
+      border: 2px solid var(--bg); 
+    }
+
+    .mapp-step-title {
+      margin: 0 0 4px;
+      font-weight: 800;
+    }
+
+    .mapp-step p {
+      margin: 0;
+      color: var(--muted);
+      font-size: .92rem;
+      font-weight: 600;
+    }
+
+    .mapp-step-meta {
+      margin-top: 8px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      font-size: .86rem;
+      color: var(--muted);
+    }
+
+    .mapp-step-meta span {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: var(--glass);
+      border: 1px solid var(--glass-border);
+    }
+
+    .mapp-step-meta i {
       color: var(--accent);
     }
   </style>
@@ -1993,6 +2066,55 @@
           </p>
         </section>
 
+        <!-- SECTION 1: LÝ DO CHỌN MOTOOPEN -->
+        <section class="mapp-reasons" aria-label="Lý do nên thuê xe tại Motoopen">
+          <h2 class="mapp-h2">Vì sao nên thuê xe tại Motoopen?</h2>
+          <p class="mapp-reasons-text">
+            Motoopen tập trung vào xe chất lượng, bảo dưỡng kỹ, quy trình rõ ràng và hỗ trợ khách hàng cả trước – trong – sau khi thuê.
+          </p>
+          <div class="mapp-reasons-grid">
+            <article class="mapp-reason-card">
+              <div class="mapp-reason-icon">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="mapp-reason-body">
+                <h3>Xe được chọn kỹ</h3>
+                <p>Xe Honda/Yamaha đời mới, kiểm tra định kỳ – hạn chế hỏng vặt giữa đường.</p>
+              </div>
+            </article>
+
+            <article class="mapp-reason-card">
+              <div class="mapp-reason-icon">
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+              </div>
+              <div class="mapp-reason-body">
+                <h3>Giá rõ ràng</h3>
+                <p>Bảng giá công khai, báo trước toàn bộ phí phát sinh (giao xe...) trước khi thuê.</p>
+              </div>
+            </article>
+
+            <article class="mapp-reason-card">
+              <div class="mapp-reason-icon">
+                <i class="fa-solid fa-people-group"></i>
+              </div>
+              <div class="mapp-reason-body">
+                <h3>Hỗ trợ khách du lịch</h3>
+                <p>Tư vấn tuyến đường, chỗ gửi xe, mẹo đi Hà Nội – phù hợp cả khách ngắn ngày.</p>
+              </div>
+            </article>
+
+            <article class="mapp-reason-card">
+              <div class="mapp-reason-icon">
+                <i class="fa-solid fa-shield-halved"></i>
+              </div>
+              <div class="mapp-reason-body">
+                <h3>Giấy tờ rõ ràng</h3>
+                <p>Hợp đồng thuê, điều khoản cọc – bồi thường được giải thích kỹ, tránh tranh cãi.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
         <section id="chon-xe" class="sx-wrap" aria-label="Chọn xe máy">
           <h2 class="sx-head">Chọn xe máy</h2>
           <p class="sx-desc">Thuê xe máy Hà Nội: xe số, xe ga, 50cc và xe điện — ảnh thật, giá rõ ràng, giao nhanh nội
@@ -2145,6 +2267,52 @@
             <li>Phí giao tiêu chuẩn: <strong>20k – 50k</strong> (tính theo quãng đường/điểm hẹn).</li>
             <li>Nhận CMND/CCCD/Hộ chiếu; hợp đồng rõ ràng, thanh toán linh hoạt.</li>
           </ul>
+        </section>
+
+        <!-- SECTION 2: QUY TRÌNH THUÊ XE -->
+        <section class="mapp-steps" aria-label="Quy trình thuê xe máy tại Motoopen">
+          <h2 class="mapp-h2">Quy trình thuê xe máy 3 bước</h2>
+          <p class="mapp-steps-text">
+            Thủ tục thuê xe được tối giản để bạn nhận được xe nhanh nhất, nhưng vẫn đầy đủ giấy tờ & hợp đồng rõ ràng.
+          </p>
+
+          <div class="mapp-steps-line">
+            <article class="mapp-step">
+              <div class="mapp-step-number">1</div>
+              <h3 class="mapp-step-title">Liên hệ & chọn xe</h3>
+              <p>
+                Gọi/Zalo <strong>0857 255 868</strong>, cho biết ngày giờ, khu vực nhận xe và loại xe bạn muốn (xe số, xe ga, 50cc, tay côn…).
+              </p>
+              <div class="mapp-step-meta">
+                <span><i class="fa-solid fa-phone"></i> Gọi hoặc chat Zalo</span>
+                <span><i class="fa-solid fa-motorcycle"></i> Tư vấn loại xe phù hợp</span>
+              </div>
+            </article>
+
+            <article class="mapp-step">
+              <div class="mapp-step-number">2</div>
+              <h3 class="mapp-step-title">Chuẩn bị giấy tờ & cọc</h3>
+              <p>
+                Chuẩn bị <strong>CMND/CCCD hoặc hộ chiếu</strong> và tiền cọc theo loại xe. Nhân viên sẽ giải thích nhanh điều kiện thuê và hợp đồng.
+              </p>
+              <div class="mapp-step-meta">
+                <span><i class="fa-solid fa-id-card"></i> CMND/CCCD hoặc Passport</span>
+                <span><i class="fa-solid fa-hand-holding-dollar"></i> Cọc 1–5 triệu tuỳ xe</span>
+              </div>
+            </article>
+
+            <article class="mapp-step">
+              <div class="mapp-step-number">3</div>
+              <h3 class="mapp-step-title">Nhận xe & hướng dẫn sử dụng</h3>
+              <p>
+                Nhận xe tại cửa hàng hoặc giao tận nơi. Bạn được hướng dẫn nhanh cách mở cốp, khóa cổ, đổ xăng, kiểm tra phanh – lốp trước khi chạy.
+              </p>
+              <div class="mapp-step-meta">
+                <span><i class="fa-solid fa-helmet-safety"></i> Kèm mũ bảo hiểm</span>
+                <span><i class="fa-solid fa-file-signature"></i> Biên nhận + hợp đồng</span>
+              </div>
+            </article>
+          </div>
         </section>
 
         <section id="mapp-faq">
@@ -2348,15 +2516,8 @@
 
   <script>
     (function() {
-      /* SCRIPT ĐỂ LOAD FADE-IN (BỊ THAY THẾ BỞI SCRIPT TRONG HEAD) */
-      // document.addEventListener('DOMContentLoaded', ()=> document.documentElement.classList.add('is-ready'));
-
       const topbar = document.getElementById('topbar');
-      // const hamburger= document.getElementById('hamburger'); // Đã định nghĩa ở dưới
-      // const drawer   = document.getElementById('drawer'); // Đã định nghĩa ở dưới
-      // const overlay  = document.getElementById('drawerOverlay'); // Đã định nghĩa ở dưới
-
-      // === (B) top padding avoid cover (an toàn + không double) ===
+      
       (function() {
         const topbar = document.getElementById('topbar');
         const padStyle = document.createElement('style');
@@ -2373,9 +2534,6 @@
         });
       })();
 
-
-      // ===== JAVASCRIPT NÂNG CẤP MENU (CODE ĐÃ SỬA) =====
-      // Drawer logic mượt cho cả 3 thiết bị
       const hamburger = document.getElementById('hamburger');
       const drawer = document.getElementById('drawer');
       const overlay = document.getElementById('drawerOverlay');
@@ -2386,29 +2544,24 @@
         if (state) {
           drawer.classList.add('open');
           overlay.classList.add('active');
-          drawer.setAttribute('aria-hidden', 'false'); // (YÊU CẦU 2)
+          drawer.setAttribute('aria-hidden', 'false'); 
         } else {
           drawer.classList.remove('open');
           overlay.classList.remove('active');
-          drawer.setAttribute('aria-hidden', 'true'); // (YÊU CẦU 2)
+          drawer.setAttribute('aria-hidden', 'true'); 
         }
-        // cập nhật cho hamburger (YÊU CẦU 2)
         document.getElementById('hamburger')?.setAttribute('aria-expanded', String(!!state));
       }
       hamburger?.addEventListener('click', () => openDrawer(!drawer.classList.contains('open')));
       overlay?.addEventListener('click', () => openDrawer(false));
-      // Đóng drawer khi click vào link <a>
       drawer?.querySelectorAll('a').forEach(a => a.addEventListener('click', () => openDrawer(false)));
 
-      // Xử lý accordion cho menu Dịch vụ
       svcToggle?.addEventListener('click', () => {
         const open = svcMenu.classList.toggle('open');
         svcToggle.classList.toggle('open', open);
-        svcToggle.setAttribute('aria-expanded', String(open)); // (YÊU CẦU 2)
+        svcToggle.setAttribute('aria-expanded', String(open));
       });
-      // ===== KẾT THÚC JAVASCRIPT MENU ĐÃ SỬA =====
 
-      // (YÊU CẦU 1) Mở/đóng dropdown desktop bằng click (hữu ích cho iPad/laptop)
       const ddToggle = document.querySelector('.nav-dropdown .dropdown-toggle');
       const ddWrap = ddToggle?.closest('.nav-dropdown');
       if (ddToggle && ddWrap) {
@@ -2416,25 +2569,21 @@
           e.preventDefault();
           ddWrap.classList.toggle('open');
         });
-        // Đóng khi click ra ngoài
         document.addEventListener('click', (e) => {
           if (!ddWrap.contains(e.target)) ddWrap.classList.remove('open');
         });
       }
 
-
-      // topbar scrolled style
       addEventListener('scroll', () => {
         (scrollY > 8) ? topbar.classList.add('scrolled'): topbar.classList.remove('scrolled');
       }, {
         passive: true
       });
 
-      // dark mode
       const DARK_KEY = 'darkModeEnabled';
       const dDesktop = document.getElementById('toggle-dark-desktop');
       const dMobile = document.getElementById('toggle-dark-mobile');
-      const dDrawer = document.getElementById('drawerToggleDark'); // Nút dark mode mới trong drawer
+      const dDrawer = document.getElementById('drawerToggleDark');
 
       function applyDark(on) {
         document.body.classList.toggle('dark', !!on);
@@ -2442,11 +2591,9 @@
 
         const ico = on ? '<i class="fa-solid fa-sun"></i>' : '<i class="fa-solid fa-moon"></i>';
 
-        // Cập nhật icon cho 2 nút cũ
         if (dDesktop) dDesktop.innerHTML = ico;
         if (dMobile) dMobile.innerHTML = ico;
 
-        // === (C) Cập nhật nút mới trong drawer (icon + class 'active' cho nút gạt) ===
         if (dDrawer) {
           const firstIcon = dDrawer.querySelector('i');
           if (firstIcon) {
@@ -2460,25 +2607,22 @@
       if (pref === null) pref = window.matchMedia('(prefers-color-scheme:dark)').matches ? 'true' : 'false';
       applyDark(pref === 'true');
 
-      // Gắn event listener cho cả 3 nút
       [dDesktop, dMobile, dDrawer].forEach(b => b && b.addEventListener('click', () => applyDark(!document.body.classList.contains('dark'))));
 
 
-      // ===== TOC (H2 only) =====
+      /* ===== TOC (H2 only) ===== */
       const tocFab = document.getElementById('tocFab');
       const tocDrawer = document.getElementById('tocDrawer');
       const tocList = document.getElementById('tocList');
 
       function buildTOC() {
-        /* CHỈNH SỬA: Lấy H2 từ cả main và .mapp-card .sx-head / .sx-rev h2 */
         const h2s = Array.from(document.querySelectorAll('main h2, .mapp-card .sx-head, .mapp-card .sx-rev h2'));
         tocList.innerHTML = h2s.map((h, i) => {
           if (!h.id) {
             h.id = 'h2-toc-' + (i + 1);
-          } // Đảm bảo ID là duy nhất
+          } 
           return `<a href="#${h.id}">${h.textContent.trim()}</a>`;
         }).join('');
-        // Đóng TOC khi click vào link
         tocList.querySelectorAll?.('a')?.forEach?.(a => {
           a.addEventListener('click', () => tocDrawer.classList.remove('open'));
         });
@@ -2492,9 +2636,8 @@
         if (!tocDrawer.contains(e.target) && e.target !== tocFab) tocDrawer.classList.remove('open');
       });
 
-      // ===== FAQ polish (optional: auto-close others) =====
-      /* CHỈNH SỬA: Lấy FAQ từ cả .faq và .mapp-qa */
-      const faqs = document.querySelectorAll('.faq, .mapp-card'); // Lấy các container
+      /* ===== FAQ polish ===== */
+      const faqs = document.querySelectorAll('.faq, .mapp-card'); 
       faqs.forEach(faqContainer => {
         if (faqContainer) {
           faqContainer.addEventListener('toggle', (e) => {
@@ -2507,8 +2650,6 @@
         }
       });
 
-
-      // ===== Mini-app bottom sheet =====
       const miniToggle = document.getElementById('miniAppToggle');
       const miniSheet = document.getElementById('miniAppSheet');
       if (miniToggle && miniSheet) {
@@ -2519,11 +2660,9 @@
         document.addEventListener('click', (e) => {
           if (!miniSheet.contains(e.target) && e.target !== miniToggle) miniSheet.style.display = 'none';
         });
-        // Tự đóng khi click link
         miniSheet.querySelectorAll('a').forEach(a => a.addEventListener('click', () => miniSheet.style.display = 'none'));
       }
 
-      // ===== iOS/Safari blur leak fix for MotoAI overlay =====
       const style = document.createElement('style');
       style.textContent = '#motoai-overlay{isolation:isolate}';
       document.head.appendChild(style);
@@ -2531,16 +2670,13 @@
   </script>
 
   <script>
-    /* Đánh dấu tab đang active cho Bottom App Bar + tránh đè nút Back-to-top */
     (function() {
       try {
-        // đánh dấu Home nếu đang ở trang chủ
         const path = (location.pathname || '').replace(/\/+$/, '');
         if (path.endsWith('/chothuexemayhanoi') || path.endsWith('/chothuexemayhanoi/index.html')) {
           document.getElementById('bab-home')?.classList.add('active');
         }
 
-        // đẩy nút .back-top (nếu có) lên trên app bar
         const appbar = document.querySelector('.bottom-appbar');
         const backTop = document.querySelector('.back-top');
 
@@ -2550,20 +2686,16 @@
           backTop.style.bottom = (h + 20) + 'px';
         }
         bumpBackTop();
-        // === (D) THÊM passive:true CHO RESIZE ===
         window.addEventListener('resize', bumpBackTop, {
           passive: true
         });
 
-      } catch (e) {
-        /* no-op */
-      }
+      } catch (e) {}
     })();
   </script>
 
   <script>
     (function() {
-      // Appear animation
       const card = document.querySelector('.hero-mini .card');
       if (!card) return;
       if (!('IntersectionObserver' in window)) {
@@ -2579,11 +2711,9 @@
         }, {
           threshold: .15
         });
-        // (YÊU CẦU 6) Bỏ dòng card.classList.add('reveal') vì đã có sẵn trong HTML
         io.observe(card);
       }
 
-      // Segmented control logic
       const map = {
         day: {
           price: '150–200k/ngày',
@@ -2619,7 +2749,6 @@
   </script>
 
   <script>
-    /* Tự lấy số/Zalo/map từ MotoAI_CONFIG nếu có, tránh phải sửa nhiều nơi */
     (function() {
       const cfg = (window.MotoAI_CONFIG || {});
       const phone = (cfg.phone || '0857255868').replace(/\s+/g, '');
@@ -2662,13 +2791,11 @@
         l.href = 'https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css';
         document.head.appendChild(l);
       }
-      // Nếu link chính lỗi
       var main = document.getElementById('fa-css');
       if (main) main.addEventListener('error', addFallback, {
         once: true
       });
 
-      // Kiểm tra sau khi trang tải xong
       window.addEventListener('load', function() {
         setTimeout(function() {
           try {
@@ -2687,8 +2814,6 @@
         .catch(err => console.error('❌ SW failed:', err));
     }
   </script>
-     <!-- Nạp bản v38.1 (semantic) từ link bạn cung cấp -->
     <script defer src="https://motoopen.github.io/chothuexemayhanoi/motoai_v38_1_modelfirst_nomarkdown_nolink.js"></script>
-  <!-- /MotoAI -->
 </body>
 </html>
