@@ -6,9 +6,6 @@ lang: "vi"
 author: "Motoopen"
 timezone: "Asia/Ho_Chi_Minh"
 
-# Giữ URL bài mẫu hiện tại, đồng thời cho phép thêm nhiều bài mới.
-permalink: /blog/:title/
-
 fa_css: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 logo: "https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg"
 social_image: "https://i.postimg.cc/brsmsj5N/IMG-5215.jpg"
@@ -20,3 +17,4 @@ defaults:
     values:
       layout: post
       author: "Motoopen"
+      permalink: /blog/:title/
