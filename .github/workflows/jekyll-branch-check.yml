@@ -63,7 +63,7 @@ jobs:
           ]
           p = Path('_factory/incoming/001.md')
           p.parent.mkdir(parents=True, exist_ok=True)
-          p.write_text("\\n".join(lines) + "\\n", encoding='utf-8')
+          p.write_text("\n".join(lines) + "\n", encoding='utf-8')
           PY
           python3 scripts/article_factory.py check _factory/incoming/001.md
           rm -f _factory/incoming/001.md
@@ -133,6 +133,7 @@ jobs:
           test ! -e _site/_archive
           test ! -e _site/_seo
           test ! -e _site/_factory
+          test ! -e _site/docs
           if grep -R -n -E '\{%|\{\{' _site --include='*.html'; then
             echo "Unrendered Liquid found in generated HTML."
             exit 1
