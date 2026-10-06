@@ -54,6 +54,7 @@ jobs:
           grep -q "/chothuexemayhanoi/blog/" _site/sitemap.xml
           grep -q "/chothuexemayhanoi/blog/gioi-thieu-motoopen/" _site/sitemap.xml
           test ! -e _site/_archive
+          test ! -e _site/_seo
           if grep -R -n -E '\{%|\{\{' _site --include='*.html'; then
             echo "Unrendered Liquid found in generated HTML."
             exit 1
