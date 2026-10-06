@@ -401,3 +401,7 @@ These are review candidates, not automatic merge instructions.
 
 Content gaps here are evidence-based structural gaps only: factory-minimum failure, weak primary-keyword token coverage, or a matched GSC query landing on another page. The audit does not invent topics, traffic, rankings or keyword volumes.
 
+
+## Final validation trigger
+
+This matrix commit is followed by a fresh Jekyll Build Check and link QA run on main. The matrix itself does not change article URLs or rendered content.
