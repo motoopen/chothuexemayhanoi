@@ -2,6 +2,15 @@
    The shared visual system lives in assets/css/home.css. */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
 
+:root {
+  --blog-component-gap: 16px;
+  --blog-component-pad: 16px;
+  --blog-component-radius: var(--radius);
+  --blog-component-border: var(--glass-border);
+  --blog-component-bg: var(--surface);
+  --blog-component-soft: var(--glass);
+}
+
 .blog-shell {
   max-width: var(--maxw);
   margin: 0 auto;
@@ -364,4 +373,93 @@
   color: var(--accent);
   font-weight: 800;
   text-decoration: none;
+}
+
+
+/* ===== Shared blog components ===== */
+.blog-component {
+  margin-top: var(--blog-component-gap);
+  padding: var(--blog-component-pad);
+  border: 1px solid var(--blog-component-border);
+  border-radius: var(--blog-component-radius);
+  background: var(--blog-component-bg);
+}
+.blog-component h2,
+.blog-component p { margin-top: 0; }
+.blog-component p:last-child { margin-bottom: 0; }
+.blog-component-kicker {
+  margin: 0 0 4px;
+  color: var(--accent);
+  font-size: .78rem;
+  font-weight: 800;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+.blog-component-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+.blog-cta {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: center;
+  background: var(--blog-component-soft);
+}
+.blog-contact,
+.blog-author {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  justify-content: space-between;
+}
+.blog-author { justify-content: flex-start; }
+.blog-author img {
+  width: 48px;
+  height: 48px;
+  flex: 0 0 48px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.blog-related { display: grid; gap: 12px; }
+.blog-component-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: end;
+}
+.blog-component-head h2 { margin: 0; }
+.blog-component-head > a {
+  color: var(--accent);
+  font-weight: 800;
+}
+.blog-related-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.blog-related-item {
+  display: grid;
+  gap: 4px;
+  padding: 12px;
+  border-radius: 12px;
+  background: var(--blog-component-soft);
+}
+.blog-related-item span {
+  color: var(--muted);
+  font-size: .82rem;
+  font-weight: 700;
+}
+.blog-notice { background: var(--blog-component-soft); }
+
+@media (max-width: 700px) {
+  .blog-cta,
+  .blog-contact,
+  .blog-component-head {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .blog-related-list { grid-template-columns: 1fr; }
 }
