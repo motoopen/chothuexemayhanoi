@@ -1,66 +1,66 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-07T01:40:24+07:00",
-  "finished_at": "2026-10-07T01:40:24+07:00",
+  "started_at": "2026-10-07T01:41:40+07:00",
+  "finished_at": "2026-10-07T01:41:40+07:00",
   "selected_count": 6,
   "published_total": 6,
   "published": [
     {
-      "id": 182,
-      "source": "_factory/incoming/182.md",
-      "post": "_posts/2026-10-07-giao-nhan-xe-may-thue-hai-ba-trung-ha-noi.md",
-      "url": "/blog/giao-nhan-xe-may-thue-hai-ba-trung-ha-noi/",
-      "word_count": 721,
+      "id": 192,
+      "source": "_factory/incoming/192.md",
+      "post": "_posts/2026-10-07-giao-nhan-xe-may-thue-nam-tu-liem-ha-noi.md",
+      "url": "/blog/giao-nhan-xe-may-thue-nam-tu-liem-ha-noi/",
+      "word_count": 719,
       "warnings": [
         "matrix title does not contain exact primary keyword"
       ]
     },
     {
-      "id": 184,
-      "source": "_factory/incoming/184.md",
-      "post": "_posts/2026-10-07-giao-nhan-xe-may-thue-tay-ho-ha-noi.md",
-      "url": "/blog/giao-nhan-xe-may-thue-tay-ho-ha-noi/",
-      "word_count": 710,
+      "id": 193,
+      "source": "_factory/incoming/193.md",
+      "post": "_posts/2026-10-07-thue-xe-may-bac-tu-liem-ha-noi.md",
+      "url": "/blog/thue-xe-may-bac-tu-liem-ha-noi/",
+      "word_count": 653,
       "warnings": [
         "matrix title does not contain exact primary keyword"
       ]
     },
     {
-      "id": 186,
-      "source": "_factory/incoming/186.md",
-      "post": "_posts/2026-10-07-giao-nhan-xe-may-thue-long-bien-ha-noi.md",
-      "url": "/blog/giao-nhan-xe-may-thue-long-bien-ha-noi/",
-      "word_count": 710,
+      "id": 194,
+      "source": "_factory/incoming/194.md",
+      "post": "_posts/2026-10-07-giao-nhan-xe-may-thue-bac-tu-liem-ha-noi.md",
+      "url": "/blog/giao-nhan-xe-may-thue-bac-tu-liem-ha-noi/",
+      "word_count": 717,
       "warnings": [
         "matrix title does not contain exact primary keyword"
       ]
     },
     {
-      "id": 188,
-      "source": "_factory/incoming/188.md",
-      "post": "_posts/2026-10-07-giao-nhan-xe-may-thue-hoang-mai-ha-noi.md",
-      "url": "/blog/giao-nhan-xe-may-thue-hoang-mai-ha-noi/",
-      "word_count": 709,
+      "id": 195,
+      "source": "_factory/incoming/195.md",
+      "post": "_posts/2026-10-07-thue-xe-may-my-dinh-ha-noi.md",
+      "url": "/blog/thue-xe-may-my-dinh-ha-noi/",
+      "word_count": 654,
       "warnings": [
         "matrix title does not contain exact primary keyword"
       ]
     },
     {
-      "id": 190,
-      "source": "_factory/incoming/190.md",
-      "post": "_posts/2026-10-07-giao-nhan-xe-may-thue-ha-dong-ha-noi.md",
-      "url": "/blog/giao-nhan-xe-may-thue-ha-dong-ha-noi/",
-      "word_count": 721,
+      "id": 196,
+      "source": "_factory/incoming/196.md",
+      "post": "_posts/2026-10-07-giao-nhan-xe-may-thue-my-dinh-ha-noi.md",
+      "url": "/blog/giao-nhan-xe-may-thue-my-dinh-ha-noi/",
+      "word_count": 720,
       "warnings": [
         "matrix title does not contain exact primary keyword"
       ]
     },
     {
-      "id": 191,
-      "source": "_factory/incoming/191.md",
-      "post": "_posts/2026-10-07-thue-xe-may-nam-tu-liem-ha-noi.md",
-      "url": "/blog/thue-xe-may-nam-tu-liem-ha-noi/",
-      "word_count": 682,
+      "id": 198,
+      "source": "_factory/incoming/198.md",
+      "post": "_posts/2026-10-07-giao-nhan-xe-may-thue-gia-lam-ha-noi.md",
+      "url": "/blog/giao-nhan-xe-may-thue-gia-lam-ha-noi/",
+      "word_count": 729,
       "warnings": [
         "matrix title does not contain exact primary keyword"
       ]
@@ -70,7 +70,7 @@
   "recoverable": [],
   "fatal": null,
   "status_counts": {
-    "planned": 102,
-    "published": 198
+    "planned": 96,
+    "published": 204
   }
 }
