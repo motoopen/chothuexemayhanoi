@@ -1,26 +1,74 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-07T02:05:00+07:00",
-  "finished_at": "2026-10-07T02:05:00+07:00",
-  "selected_count": 1,
-  "published_total": 1,
+  "started_at": "2026-10-07T02:06:26+07:00",
+  "finished_at": "2026-10-07T02:06:26+07:00",
+  "selected_count": 6,
+  "published_total": 6,
   "published": [
     {
-      "id": 261,
-      "source": "_factory/incoming/261.md",
-      "post": "_posts/2026-10-07-di-xe-may-ha-noi-2-ngay.md",
-      "url": "/blog/di-xe-may-ha-noi-2-ngay/",
-      "word_count": 769,
+      "id": 265,
+      "source": "_factory/incoming/265.md",
+      "post": "_posts/2026-10-07-di-xe-may-ha-noi-bao-tang.md",
+      "url": "/blog/di-xe-may-ha-noi-bao-tang/",
+      "word_count": 690,
       "warnings": [
         "matrix title does not contain exact primary keyword"
       ]
+    },
+    {
+      "id": 266,
+      "source": "_factory/incoming/266.md",
+      "post": "_posts/2026-10-07-di-xe-may-ha-noi-mua-sam.md",
+      "url": "/blog/di-xe-may-ha-noi-mua-sam/",
+      "word_count": 686,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
+    },
+    {
+      "id": 267,
+      "source": "_factory/incoming/267.md",
+      "post": "_posts/2026-10-07-di-xe-may-ha-noi-voi-tre-nho.md",
+      "url": "/blog/di-xe-may-ha-noi-voi-tre-nho/",
+      "word_count": 688,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
+    },
+    {
+      "id": 268,
+      "source": "_factory/incoming/268.md",
+      "post": "_posts/2026-10-07-di-xe-may-ha-noi-cho-nguoi-moi.md",
+      "url": "/blog/di-xe-may-ha-noi-cho-nguoi-moi/",
+      "word_count": 679,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
+    },
+    {
+      "id": 269,
+      "source": "_factory/incoming/269.md",
+      "post": "_posts/2026-10-07-di-xe-may-ha-noi-mua-mua.md",
+      "url": "/blog/di-xe-may-ha-noi-mua-mua/",
+      "word_count": 708,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
+    },
+    {
+      "id": 270,
+      "source": "_factory/incoming/270.md",
+      "post": "_posts/2026-10-07-di-xe-may-ha-noi-mua-dong.md",
+      "url": "/blog/di-xe-may-ha-noi-mua-dong/",
+      "word_count": 665,
+      "warnings": []
     }
   ],
   "recoverable_total": 0,
   "recoverable": [],
   "fatal": null,
   "status_counts": {
-    "planned": 36,
-    "published": 264
+    "planned": 30,
+    "published": 270
   }
 }

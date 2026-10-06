@@ -36,8 +36,8 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 36,
-    "published": 264
+    "planned": 30,
+    "published": 270
   },
   "items": [
     {
@@ -13889,7 +13889,7 @@
         "verify-current-traffic-law"
       ],
       "cannibalization_guard": "Mỗi bài phải là một hành trình/use case khác biệt.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "kinh-nghiem",
         "parent_label": "Kinh nghiệm",
@@ -13901,7 +13901,10 @@
       "front_matter": {
         "hub_parent": "kinh-nghiem",
         "hub_category": "hanh-trinh"
-      }
+      },
+      "published_at": "2026-10-07T02:06:26+07:00",
+      "published_path": "_posts/2026-10-07-di-xe-may-ha-noi-bao-tang.md",
+      "published_url": "/blog/di-xe-may-ha-noi-bao-tang/"
     },
     {
       "id": 266,
@@ -13939,7 +13942,7 @@
         "verify-current-traffic-law"
       ],
       "cannibalization_guard": "Mỗi bài phải là một hành trình/use case khác biệt.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "kinh-nghiem",
         "parent_label": "Kinh nghiệm",
@@ -13951,7 +13954,10 @@
       "front_matter": {
         "hub_parent": "kinh-nghiem",
         "hub_category": "hanh-trinh"
-      }
+      },
+      "published_at": "2026-10-07T02:06:26+07:00",
+      "published_path": "_posts/2026-10-07-di-xe-may-ha-noi-mua-sam.md",
+      "published_url": "/blog/di-xe-may-ha-noi-mua-sam/"
     },
     {
       "id": 267,
@@ -13989,7 +13995,7 @@
         "verify-current-traffic-law"
       ],
       "cannibalization_guard": "Mỗi bài phải là một hành trình/use case khác biệt.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "kinh-nghiem",
         "parent_label": "Kinh nghiệm",
@@ -14001,7 +14007,10 @@
       "front_matter": {
         "hub_parent": "kinh-nghiem",
         "hub_category": "hanh-trinh"
-      }
+      },
+      "published_at": "2026-10-07T02:06:26+07:00",
+      "published_path": "_posts/2026-10-07-di-xe-may-ha-noi-voi-tre-nho.md",
+      "published_url": "/blog/di-xe-may-ha-noi-voi-tre-nho/"
     },
     {
       "id": 268,
@@ -14039,7 +14048,7 @@
         "verify-current-traffic-law"
       ],
       "cannibalization_guard": "Mỗi bài phải là một hành trình/use case khác biệt.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "kinh-nghiem",
         "parent_label": "Kinh nghiệm",
@@ -14051,7 +14060,10 @@
       "front_matter": {
         "hub_parent": "kinh-nghiem",
         "hub_category": "hanh-trinh"
-      }
+      },
+      "published_at": "2026-10-07T02:06:26+07:00",
+      "published_path": "_posts/2026-10-07-di-xe-may-ha-noi-cho-nguoi-moi.md",
+      "published_url": "/blog/di-xe-may-ha-noi-cho-nguoi-moi/"
     },
     {
       "id": 269,
@@ -14089,7 +14101,7 @@
         "verify-current-traffic-law"
       ],
       "cannibalization_guard": "Mỗi bài phải là một hành trình/use case khác biệt.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "kinh-nghiem",
         "parent_label": "Kinh nghiệm",
@@ -14101,7 +14113,10 @@
       "front_matter": {
         "hub_parent": "kinh-nghiem",
         "hub_category": "hanh-trinh"
-      }
+      },
+      "published_at": "2026-10-07T02:06:26+07:00",
+      "published_path": "_posts/2026-10-07-di-xe-may-ha-noi-mua-mua.md",
+      "published_url": "/blog/di-xe-may-ha-noi-mua-mua/"
     },
     {
       "id": 270,
@@ -14139,7 +14154,7 @@
         "verify-current-traffic-law"
       ],
       "cannibalization_guard": "Mỗi bài phải là một hành trình/use case khác biệt.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "kinh-nghiem",
         "parent_label": "Kinh nghiệm",
@@ -14151,7 +14166,10 @@
       "front_matter": {
         "hub_parent": "kinh-nghiem",
         "hub_category": "hanh-trinh"
-      }
+      },
+      "published_at": "2026-10-07T02:06:26+07:00",
+      "published_path": "_posts/2026-10-07-di-xe-may-ha-noi-mua-dong.md",
+      "published_url": "/blog/di-xe-may-ha-noi-mua-dong/"
     },
     {
       "id": 271,
@@ -15638,5 +15656,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T02:05:00+07:00"
+  "updated_at": "2026-10-07T02:06:26+07:00"
 }

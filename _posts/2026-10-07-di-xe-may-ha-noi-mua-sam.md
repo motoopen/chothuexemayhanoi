@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Đi mua sắm ở Hà Nội bằng xe máy: lưu ý cốp, hành lý và gửi xe"
+date: 2026-10-07 02:06:26 +0700
+description: "Đi mua sắm ở Hà Nội bằng xe máy cần lưu ý cốp chứa hàng, cách xếp hành lý trên yên và chọn điểm gửi xe gần chợ."
+author: "Motoopen"
 matrix_id: 266
-description: Đi mua sắm ở Hà Nội bằng xe máy cần lưu ý cốp chứa hàng, cách xếp hành lý trên yên và chọn điểm gửi xe gần chợ.
+primary_keyword: "đi xe máy hà nội mua sắm"
+hub_parent: kinh-nghiem
+hub_category: hanh-trinh
 ---
-
 Mua sắm bằng xe máy tiện đến khi đồ nhiều: chợ, cửa hàng và trung tâm thương mại đều đỗ được xe máy gần cửa hơn ô tô. Vấn đề duy nhất là chở hàng về, và bài này xử lý đúng phần đó.
 
 ## Chọn điểm mua theo khả năng chở

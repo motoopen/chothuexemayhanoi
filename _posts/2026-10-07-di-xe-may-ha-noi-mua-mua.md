@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Đi xe máy ở Hà Nội mùa mưa: cách rút ngắn hành trình và chọn điểm dừng"
+date: 2026-10-07 02:06:26 +0700
+description: "Đi xe máy ở Hà Nội mùa mưa cần rút ngắn hành trình, chọn điểm dừng có mái che và chuẩn bị áo mưa, không đi cung dài khi dự báo xấu."
+author: "Motoopen"
 matrix_id: 269
-description: Đi xe máy ở Hà Nội mùa mưa cần rút ngắn hành trình, chọn điểm dừng có mái che và chuẩn bị áo mưa, không đi cung dài khi dự báo xấu.
+primary_keyword: "đi xe máy hà nội mùa mưa"
+hub_parent: kinh-nghiem
+hub_category: hanh-trinh
 ---
-
 Mùa mưa Hà Nội đổ cơn nhanh rồi tạnh cũng nhanh, nên chiến lược đúng không phải là hủy mọi chuyến, mà là rút ngắn hành trình và chọn điểm dừng thông minh. Bài này xếp lịch đi mưa sao cho vẫn đi được mà không ướt tới tận da.
 
 ## Rút ngắn hành trình theo bản tin dự báo

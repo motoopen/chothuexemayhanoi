@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Đi xe máy Hà Nội mùa đông: lên lịch trình theo thời gian ngoài trời"
+date: 2026-10-07 02:06:26 +0700
+description: "Đi xe máy Hà Nội mùa đông cần lên lịch trình theo thời gian ngoài trời ấm, chuẩn bị giữ ấm và chăm máy lạnh khó nổ hơn xe thường."
+author: "Motoopen"
 matrix_id: 270
-description: Đi xe máy Hà Nội mùa đông cần lên lịch trình theo thời gian ngoài trời ấm, chuẩn bị giữ ấm và chăm máy lạnh khó nổ hơn xe thường.
+primary_keyword: "đi xe máy hà nội mùa đông"
+hub_parent: kinh-nghiem
+hub_category: hanh-trinh
 ---
-
 Mùa đông Hà Nội lạnh khô rồi chuyển sang ẩm mưa, và lái xe máy trong lạnh buốt là trải nghiệm khác hẳn những tháng khác. Lịch trình mùa đông vì thế phải xây quanh cửa sổ trời ấm và đồ giữ nhiệt.
 
 ## Lên lịch theo cửa sổ ấm
