@@ -1,0 +1,72 @@
+name: SEO Optimization Audit
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/seo-optimization-audit.yml'
+      - 'scripts/build_seo_optimization_matrix.py'
+      - '_seo/external-seo-data.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: read
+
+concurrency:
+  group: seo-optimization-audit
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build current site
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - name: Validate current technical state
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/check_site_links.py _site
+          python3 scripts/check_blog_quality.py _site
+          python3 -m py_compile scripts/article_factory.py scripts/build_seo_optimization_matrix.py
+
+      - name: Build SEO optimization matrix
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/build_seo_optimization_matrix.py
+          python3 -m json.tool seo-optimization-matrix.json >/dev/null
+          test -s seo-optimization-matrix.md
+          test "$(jq '.items | length' seo-optimization-matrix.json)" -eq 300
+          test "$(jq '.scope.new_articles_created' seo-optimization-matrix.json)" -eq 0
+          test "$(jq '.scope.urls_changed' seo-optimization-matrix.json)" -eq 0
+          test "$(jq '.scope.articles_deleted' seo-optimization-matrix.json)" -eq 0
+
+      - name: Commit matrix
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- seo-optimization-matrix.json seo-optimization-matrix.md; then
+            echo "SEO optimization matrix is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add seo-optimization-matrix.json seo-optimization-matrix.md
+          git commit -m "Add SEO optimization matrix for 300 articles"
+          git push origin HEAD:main

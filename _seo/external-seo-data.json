@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "captured_date": "2026-10-07",
+  "target_site": "https://motoopen.github.io/chothuexemayhanoi/",
+  "source_policy": "Only real connector data is stored. Missing metrics remain null; no estimates are invented.",
+  "gsc": {
+    "source": "Google Search Console",
+    "status": "connected",
+    "access_mode": "free_trial_full",
+    "effective_range": {
+      "start_date": "2026-09-06",
+      "end_date": "2026-10-03"
+    },
+    "comparison_range": {
+      "start_date": "2026-08-09",
+      "end_date": "2026-09-05"
+    },
+    "limitations": [
+      "Search Console data is finalized with an approximately three-day delay.",
+      "Rankings and opportunities are derived from returned top rows, not a stored analytics copy."
+    ],
+    "opportunities": [
+      {
+        "type": "falling_keyword",
+        "query": "thuê xe máy hà nội",
+        "page": "https://motoopen.github.io/chothuexemayhanoi/",
+        "current": {
+          "clicks": 3,
+          "impressions": 7,
+          "ctr": 0.42857142857142855,
+          "position": 65.28571428571429
+        },
+        "previous": {
+          "clicks": 6,
+          "impressions": 35,
+          "ctr": 0.17142857142857143,
+          "position": 55.628571428571426
+        },
+        "changes": {
+          "clicks": -3,
+          "impressions": -28,
+          "ctr": 0.2571428571428571,
+          "position": -9.657142857142865
+        },
+        "recommended_action": "review_ranking_drop"
+      },
+      {
+        "type": "rising_keyword",
+        "query": "giá thuê xe máy hà nội",
+        "page": "https://motoopen.github.io/chothuexemayhanoi/",
+        "current": {
+          "clicks": 1,
+          "impressions": 2,
+          "ctr": 0.5,
+          "position": 37.5
+        },
+        "previous": {
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 41
+        },
+        "changes": {
+          "clicks": 1,
+          "impressions": 1,
+          "ctr": 0.5,
+          "position": 3.5
+        },
+        "recommended_action": "create_content"
+      },
+      {
+        "type": "striking_distance",
+        "query": "thuê xe máy 1 tháng",
+        "page": "https://motoopen.github.io/chothuexemayhanoi/",
+        "current": {
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 5.5
+        },
+        "previous": null,
+        "changes": null,
+        "recommended_action": "improve_existing_page"
+      },
+      {
+        "type": "rising_keyword",
+        "query": "thuê xe máy hà nội giá bao nhiêu",
+        "page": "https://motoopen.github.io/chothuexemayhanoi/",
+        "current": {
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 26
+        },
+        "previous": {
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 37
+        },
+        "changes": {
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 11
+        },
+        "recommended_action": "create_content"
+      },
+      {
+        "type": "rising_keyword",
+        "query": "thuê xe máy ở hà nội",
+        "page": "https://motoopen.github.io/chothuexemayhanoi/",
+        "current": {
+          "clicks": 1,
+          "impressions": 2,
+          "ctr": 0.5,
+          "position": 59.5
+        },
+        "previous": {
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 58
+        },
+        "changes": {
+          "clicks": 1,
+          "impressions": 1,
+          "ctr": 0.5,
+          "position": -1.5
+        },
+        "recommended_action": "create_content"
+      },
+      {
+        "type": "striking_distance",
+        "query": "thuê xe máy hoàn kiếm hà nội",
+        "page": "https://motoopen.github.io/chothuexemayhanoi/",
+        "current": {
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 9
+        },
+        "previous": null,
+        "changes": null,
+        "recommended_action": "improve_existing_page"
+      },
+      {
+        "type": "striking_distance",
+        "query": "thuê xe máy hà nội cầu giấy",
+        "page": "https://motoopen.github.io/chothuexemayhanoi/",
+        "current": {
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 9
+        },
+        "previous": null,
+        "changes": null,
+        "recommended_action": "improve_existing_page"
+      },
+      {
+        "type": "falling_keyword",
+        "query": "thue xe may ha noi",
+        "page": "https://motoopen.github.io/chothuexemayhanoi/",
+        "current": {
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 28
+        },
+        "previous": {
+          "clicks": 1,
+          "impressions": 6,
+          "ctr": 0.16666666666666666,
+          "position": 38.333333333333336
+        },
+        "changes": {
+          "clicks": -1,
+          "impressions": -5,
+          "ctr": -0.16666666666666666,
+          "position": 10.333333333333336
+        },
+        "recommended_action": "review_ranking_drop"
+      }
+    ]
+  },
+  "ubersuggest": {
+    "source": "Ubersuggest",
+    "authenticated": true,
+    "tier": "free",
+    "status": "daily_report_quota_exhausted",
+    "imported_metrics": false,
+    "note": "No Ubersuggest volume, ranking, difficulty, traffic, or backlink metrics were imported because the real account report quota was exhausted. Values remain null rather than being estimated."
+  }
+}
