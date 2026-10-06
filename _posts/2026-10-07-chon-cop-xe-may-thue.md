@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy cần cốp lớn đến đâu? Chọn theo loại hành lý"
+date: 2026-10-07 01:35:27 +0700
+description: "Thuê xe máy cần cốp lớn đến đâu nên chọn theo loại hành lý của bạn, từ balo nhẹ, mũ thêm túi đến vali, kèm dòng xe cốp theo từng mức."
+author: "Motoopen"
 matrix_id: 170
-description: Thuê xe máy cần cốp lớn đến đâu nên chọn theo loại hành lý của bạn, từ balo nhẹ, mũ thêm túi đến vali, kèm dòng xe cốp theo từng mức.
+primary_keyword: "chọn cốp xe máy thuê"
+hub_parent: loai-xe
+hub_category: cac-loai-xe
 ---
-
 Cốp lớn không phải lúc nào cũng đáng, và cốp nhỏ nhiều khi đủ. Bài này quy các mức cốp theo đúng loại hành lý bạn mang, để chọn vừa mà khỏi trả thừa.
 
 ## Mức một: balo nhẹ, không đồ thêm

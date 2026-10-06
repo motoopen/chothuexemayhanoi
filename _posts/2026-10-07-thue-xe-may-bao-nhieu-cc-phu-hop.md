@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy bao nhiêu cc là phù hợp? Chọn theo kinh nghiệm và hành trình"
+date: 2026-10-07 01:35:27 +0700
+description: "Thuê xe máy bao nhiêu cc là phù hợp, chọn theo kinh nghiệm lái và hành trình thật của bạn, từ 50cc cho người mới đến 125 cho đường trường."
+author: "Motoopen"
 matrix_id: 167
-description: Thuê xe máy bao nhiêu cc là phù hợp, chọn theo kinh nghiệm lái và hành trình thật của bạn, từ 50cc cho người mới đến 125 cho đường trường.
+primary_keyword: "thuê xe máy bao nhiêu cc phù hợp"
+hub_parent: loai-xe
+hub_category: cac-loai-xe
 ---
-
 Số cc trên tem xe không nói lên chất lượng kỳ thuê, mà chỉ nói lên một điều: mức đủ hay thừa cho lịch của bạn. Bài này quy các nhóm cc về đúng hai câu hỏi kinh nghiệm và hành trình.
 
 ## Nhóm 50cc: gọn nhất, dễ nhất

@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Cách chọn chiều cao yên khi thuê xe máy: thử xe thế nào trong 2 phút"
+date: 2026-10-07 01:35:27 +0700
+description: "Cách chọn chiều cao yên khi thuê xe máy, thử xe trong hai phút bằng ngồi, chống chân, nghiêng xe và mô phỏng dừng đèn đỏ tại quầy."
+author: "Motoopen"
 matrix_id: 168
-description: Cách chọn chiều cao yên khi thuê xe máy, thử xe trong hai phút bằng ngồi, chống chân, nghiêng xe và mô phỏng dừng đèn đỏ tại quầy.
+primary_keyword: "chọn chiều cao yên xe thuê"
+hub_parent: loai-xe
+hub_category: cac-loai-xe
 ---
-
 Chiều cao yên đúng là ngồi lên là biết, và bài này cho quy trình thử xe trong hai phút để quyết chắc tại quầy thay vì đoán từ thông số.
 
 ## Bước một: ngồi và chống chân

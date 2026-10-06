@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Cách chọn trọng lượng xe khi thuê: dắt, quay đầu và dựng chống thử ra sao"
+date: 2026-10-07 01:35:27 +0700
+description: "Cách chọn trọng lượng xe khi thuê xe máy ở Hà Nội, thử bằng dắt xe, quay đầu và dựng chống thử, kèm khối xe gợi ý theo thể lực người lái."
+author: "Motoopen"
 matrix_id: 169
-description: Cách chọn trọng lượng xe khi thuê xe máy ở Hà Nội, thử bằng dắt xe, quay đầu và dựng chống thử, kèm khối xe gợi ý theo thể lực người lái.
+primary_keyword: "chọn trọng lượng xe thuê"
+hub_parent: loai-xe
+hub_category: cac-loai-xe
 ---
-
 Trọng lượng xe không ghi trên quảng cáo nhưng quyết định mỗi lần bạn dắt, đẩy và chống chân. Bài này cho cách thử trọng lượng tại quầy trong ba động tác, và khối xe gợi ý theo thể lực.
 
 ## Thử bằng dắt xe

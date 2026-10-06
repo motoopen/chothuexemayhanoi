@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê Cub hay Wave: lựa chọn nào hợp đi phố ngắn?"
+date: 2026-10-07 01:35:27 +0700
+description: "So sánh thuê Cub hay Wave cho lịch đi phố ngắn ở Hà Nội, hai dòng số cổ điển và phổ thông khác nhau ở phong cách, giá và độ quen tay."
+author: "Motoopen"
 matrix_id: 165
-description: So sánh thuê Cub hay Wave cho lịch đi phố ngắn ở Hà Nội, hai dòng số cổ điển và phổ thông khác nhau ở phong cách, giá và độ quen tay.
+primary_keyword: "cub và wave khi thuê"
+hub_parent: loai-xe
+hub_category: cac-loai-xe
 ---
-
 Cub và Wave đều là xe số nhỏ bền, nhưng Cub mang phong cách cổ điển còn Wave là chọn phổ thông. Với lịch đi phố ngắn quanh Hà Nội, khác biệt nằm ở vài điểm rất cụ thể. Bài này so từng điểm.
 
 ## Phong cách và trải nghiệm

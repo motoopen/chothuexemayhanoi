@@ -1,16 +1,66 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-07T01:33:28+07:00",
-  "finished_at": "2026-10-07T01:33:29+07:00",
-  "selected_count": 1,
-  "published_total": 1,
+  "started_at": "2026-10-07T01:35:27+07:00",
+  "finished_at": "2026-10-07T01:35:27+07:00",
+  "selected_count": 6,
+  "published_total": 6,
   "published": [
     {
-      "id": 163,
-      "source": "_factory/incoming/163.md",
-      "post": "_posts/2026-10-07-air-blade-va-vision-khi-thue.md",
-      "url": "/blog/air-blade-va-vision-khi-thue/",
-      "word_count": 772,
+      "id": 165,
+      "source": "_factory/incoming/165.md",
+      "post": "_posts/2026-10-07-cub-va-wave-khi-thue.md",
+      "url": "/blog/cub-va-wave-khi-thue/",
+      "word_count": 701,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
+    },
+    {
+      "id": 166,
+      "source": "_factory/incoming/166.md",
+      "post": "_posts/2026-10-07-xe-may-dien-va-xe-ga-xang.md",
+      "url": "/blog/xe-may-dien-va-xe-ga-xang/",
+      "word_count": 700,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
+    },
+    {
+      "id": 167,
+      "source": "_factory/incoming/167.md",
+      "post": "_posts/2026-10-07-thue-xe-may-bao-nhieu-cc-phu-hop.md",
+      "url": "/blog/thue-xe-may-bao-nhieu-cc-phu-hop/",
+      "word_count": 703,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
+    },
+    {
+      "id": 168,
+      "source": "_factory/incoming/168.md",
+      "post": "_posts/2026-10-07-chon-chieu-cao-yen-xe-thue.md",
+      "url": "/blog/chon-chieu-cao-yen-xe-thue/",
+      "word_count": 706,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
+    },
+    {
+      "id": 169,
+      "source": "_factory/incoming/169.md",
+      "post": "_posts/2026-10-07-chon-trong-luong-xe-thue.md",
+      "url": "/blog/chon-trong-luong-xe-thue/",
+      "word_count": 682,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
+    },
+    {
+      "id": 170,
+      "source": "_factory/incoming/170.md",
+      "post": "_posts/2026-10-07-chon-cop-xe-may-thue.md",
+      "url": "/blog/chon-cop-xe-may-thue/",
+      "word_count": 691,
       "warnings": [
         "matrix title does not contain exact primary keyword"
       ]
@@ -20,7 +70,7 @@
   "recoverable": [],
   "fatal": null,
   "status_counts": {
-    "planned": 120,
-    "published": 180
+    "planned": 114,
+    "published": 186
   }
 }

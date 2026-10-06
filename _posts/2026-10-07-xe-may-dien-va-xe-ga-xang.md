@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Xe máy điện hay xe ga xăng: quyết định theo sạc, quãng đường và thao tác"
+date: 2026-10-07 01:35:27 +0700
+description: "Chọn xe máy điện hay xe ga xăng khi thuê nên quyết theo sạc, quãng đường và thao tác, ba tiêu chí cụ thể thay vì cảm giác chung chung."
+author: "Motoopen"
 matrix_id: 166
-description: Chọn xe máy điện hay xe ga xăng khi thuê nên quyết theo sạc, quãng đường và thao tác, ba tiêu chí cụ thể thay vì cảm giác chung chung.
+primary_keyword: "xe máy điện và xe ga xăng"
+hub_parent: loai-xe
+hub_category: cac-loai-xe
 ---
-
 Tranh luận xe điện hay xe ga xăng thường dừng ở cảm giác, trong khi quyết định thật chỉ cần ba tiêu chí đo được: chỗ sạc, tổng quãng đường và thao tác bạn quen. Bài này đi theo đúng ba tiêu chí đó.
 
 ## Tiêu chí một: chỗ sạc
