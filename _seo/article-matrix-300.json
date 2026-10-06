@@ -36,8 +36,8 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 60,
-    "published": 240
+    "planned": 54,
+    "published": 246
   },
   "items": [
     {
@@ -12563,7 +12563,7 @@
         "verify-current-vietnam-law"
       ],
       "cannibalization_guard": "Không tạo nhiều bài cho cùng một câu hỏi pháp lý; dùng secondary keywords cho biến thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -12575,7 +12575,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "thu-tuc-phap-ly"
-      }
+      },
+      "published_at": "2026-10-07T01:56:44+07:00",
+      "published_path": "_posts/2026-10-07-gia-han-hop-dong-thue-xe-may.md",
+      "published_url": "/blog/gia-han-hop-dong-thue-xe-may/"
     },
     {
       "id": 241,
@@ -12613,7 +12616,7 @@
         "verify-current-vietnam-law"
       ],
       "cannibalization_guard": "Không tạo nhiều bài cho cùng một câu hỏi pháp lý; dùng secondary keywords cho biến thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -12625,7 +12628,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "thu-tuc-phap-ly"
-      }
+      },
+      "published_at": "2026-10-07T01:56:44+07:00",
+      "published_path": "_posts/2026-10-07-tra-xe-thue-som.md",
+      "published_url": "/blog/tra-xe-thue-som/"
     },
     {
       "id": 242,
@@ -12663,7 +12669,7 @@
         "verify-current-vietnam-law"
       ],
       "cannibalization_guard": "Không tạo nhiều bài cho cùng một câu hỏi pháp lý; dùng secondary keywords cho biến thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -12675,7 +12681,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "thu-tuc-phap-ly"
-      }
+      },
+      "published_at": "2026-10-07T01:56:44+07:00",
+      "published_path": "_posts/2026-10-07-tra-xe-thue-muon.md",
+      "published_url": "/blog/tra-xe-thue-muon/"
     },
     {
       "id": 243,
@@ -12713,7 +12722,7 @@
         "verify-current-vietnam-law"
       ],
       "cannibalization_guard": "Không tạo nhiều bài cho cùng một câu hỏi pháp lý; dùng secondary keywords cho biến thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -12725,7 +12734,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "thu-tuc-phap-ly"
-      }
+      },
+      "published_at": "2026-10-07T01:56:44+07:00",
+      "published_path": "_posts/2026-10-07-xe-thue-bi-tray-xuoc.md",
+      "published_url": "/blog/xe-thue-bi-tray-xuoc/"
     },
     {
       "id": 244,
@@ -12763,7 +12775,7 @@
         "verify-current-vietnam-law"
       ],
       "cannibalization_guard": "Không tạo nhiều bài cho cùng một câu hỏi pháp lý; dùng secondary keywords cho biến thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -12775,7 +12787,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "thu-tuc-phap-ly"
-      }
+      },
+      "published_at": "2026-10-07T01:56:44+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-co-bao-hiem-khong.md",
+      "published_url": "/blog/thue-xe-may-co-bao-hiem-khong/"
     },
     {
       "id": 245,
@@ -12813,7 +12828,7 @@
         "verify-current-vietnam-law"
       ],
       "cannibalization_guard": "Không tạo nhiều bài cho cùng một câu hỏi pháp lý; dùng secondary keywords cho biến thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -12825,7 +12840,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "thu-tuc-phap-ly"
-      }
+      },
+      "published_at": "2026-10-07T01:56:44+07:00",
+      "published_path": "_posts/2026-10-07-canh-sat-kiem-tra-xe-thue-can-gi.md",
+      "published_url": "/blog/canh-sat-kiem-tra-xe-thue-can-gi/"
     },
     {
       "id": 246,
@@ -15566,5 +15584,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T01:54:35+07:00"
+  "updated_at": "2026-10-07T01:56:44+07:00"
 }

@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Gia hạn hợp đồng thuê xe máy: 6 điều nên xác nhận lại"
+date: 2026-10-07 01:56:44 +0700
+description: "Gia hạn hợp đồng thuê xe máy cần xác nhận lại giá, thời gian, cọc và tình trạng xe trước khi ký tiếp, tránh phát sinh phụ phí ngoài dự kiến."
+author: "Motoopen"
 matrix_id: 240
-description: Gia hạn hợp đồng thuê xe máy cần xác nhận lại giá, thời gian, cọc và tình trạng xe trước khi ký tiếp, tránh phát sinh phụ phí ngoài dự kiến.
+primary_keyword: "gia hạn hợp đồng thuê xe máy"
+hub_parent: huong-dan
+hub_category: thu-tuc-phap-ly
 ---
-
 Thuê theo ngày mà cần dùng thêm vài ngày là tình huống rất phổ biến, và gia hạn đúng cách giúp bạn không phải trả giá cao hơn ban đầu. Bài này liệt kê điều nên xác nhận lại trước khi ký phần gia hạn.
 
 ## Xác nhận lại giá thuê cho ngày thêm

@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Đi xe thuê gặp kiểm tra giấy tờ: nên chuẩn bị và xuất trình gì theo quy định hiện hành?"
+date: 2026-10-07 01:56:44 +0700
+description: "Đi xe thuê gặp cảnh sát kiểm tra giấy tờ cần xuất trình giấy phép lái, đăng ký xe và chứng nhận bảo hiểm, nên chuẩn bị sẵn từ lúc nhận xe."
+author: "Motoopen"
 matrix_id: 245
-description: Đi xe thuê gặp cảnh sát kiểm tra giấy tờ cần xuất trình giấy phép lái, đăng ký xe và chứng nhận bảo hiểm, nên chuẩn bị sẵn từ lúc nhận xe.
+primary_keyword: "cảnh sát kiểm tra xe thuê cần gì"
+hub_parent: huong-dan
+hub_category: thu-tuc-phap-ly
 ---
-
 Bị cảnh sát giao thông làm hiệu lệnh dừng xe khi đang đi xe thuê khiến nhiều người lo hơn đi xe của mình, vì không biết giấy tờ nào phải có và phần nào do bên cho thuê lo. Thực tế trình tự rất gọn nếu bạn chuẩn bị đủ từ đầu.
 
 ## Nhóm giấy tờ người điều khiển phải có

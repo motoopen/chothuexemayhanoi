@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Trả xe thuê muộn: cách thông báo và xác nhận phụ phí"
+date: 2026-10-07 01:56:44 +0700
+description: "Trả xe thuê muộn cần thông báo sớm, xác nhận phụ phí theo giờ, chụp tình trạng xe và nhận biên nhận để khoản trễ được tính minh bạch."
+author: "Motoopen"
 matrix_id: 242
-description: Trả xe thuê muộn cần thông báo sớm, xác nhận phụ phí theo giờ, chụp tình trạng xe và nhận biên nhận để khoản trễ được tính minh bạch.
+primary_keyword: "trả xe thuê muộn"
+hub_parent: huong-dan
+hub_category: thu-tuc-phap-ly
 ---
-
 Kẹt việc đến vài giờ hoặc cả một ngày, và giờ trả xe thuê đã qua. Trả muộn không đáng lo nếu bạn xử đúng trình tự: báo sớm, hỏi phụ phí trước, và khép hồ sơ rõ ràng.
 
 ## Báo ngay khi biết mình trễ

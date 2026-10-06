@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Xe thuê bị trầy xước: cách đối chiếu tình trạng trước và sau khi thuê"
+date: 2026-10-07 01:56:44 +0700
+description: "Xe thuê bị trầy xước cần đối chiếu tình trạng trước và sau khi thuê bằng ảnh chụp, phân biệt vết cũ vết mới và thỏa thuận bồi thường hợp lý."
+author: "Motoopen"
 matrix_id: 243
-description: Xe thuê bị trầy xước cần đối chiếu tình trạng trước và sau khi thuê bằng ảnh chụp, phân biệt vết cũ vết mới và thỏa thuận bồi thường hợp lý.
+primary_keyword: "xe thuê bị trầy xước"
+hub_parent: huong-dan
+hub_category: thu-tuc-phap-ly
 ---
-
 Phát hiện vết xước trên xe thuê lúc trả là tình huống căng nhất trong mọi lần thuê, vì bên cho thuê nói mới, bạn nói cũ. Bài này trình bày cách đối chiếu để kết luận được dựa trên bằng chứng chứ không phải tranh cãi.
 
 ## Nền tảng: ảnh chụp ngày nhận xe

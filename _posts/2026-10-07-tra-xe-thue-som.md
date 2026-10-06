@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Trả xe thuê sớm hơn dự kiến: cần hỏi lại phí và biên nhận thế nào?"
+date: 2026-10-07 01:56:44 +0700
+description: "Trả xe thuê sớm hơn dự kiến cần hỏi lại chính sách hoàn tiền, nhận biên nhận trả xe và chụp tình trạng xe để khép hồ sơ sạch."
+author: "Motoopen"
 matrix_id: 241
-description: Trả xe thuê sớm hơn dự kiến cần hỏi lại chính sách hoàn tiền, nhận biên nhận trả xe và chụp tình trạng xe để khép hồ sơ sạch.
+primary_keyword: "trả xe thuê sớm"
+hub_parent: huong-dan
+hub_category: thu-tuc-phap-ly
 ---
-
 Kế hoạch đổi bất ngờ và bạn muốn trả xe sớm hơn ngày đã thuê. Trả sớm làm đúng cách vẫn giúp bạn giữ lại phần tiền hợp lý và khép hồ sơ sạch, thay vì chấp nhận mất cả gói.
 
 ## Hỏi chính sách hoàn phần ngày còn lại

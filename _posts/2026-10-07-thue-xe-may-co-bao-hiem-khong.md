@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy có bảo hiểm không? Phân biệt bảo hiểm bắt buộc và chính sách dịch vụ"
+date: 2026-10-07 01:56:44 +0700
+description: "Thuê xe máy có bảo hiểm không cần phân biệt bảo hiểm bắt buộc của xe với chính sách dịch vụ của nơi thuê, và biết rõ phần nào người thuê tự chịu."
+author: "Motoopen"
 matrix_id: 244
-description: Thuê xe máy có bảo hiểm không cần phân biệt bảo hiểm bắt buộc của xe với chính sách dịch vụ của nơi thuê, và biết rõ phần nào người thuê tự chịu.
+primary_keyword: "thuê xe máy có bảo hiểm không"
+hub_parent: huong-dan
+hub_category: thu-tuc-phap-ly
 ---
-
 Câu hỏi "thuê xe có bảo hiểm không" có hai lớp nghĩa khác nhau: bảo hiểm pháp lý gắn với chiếc xe, và chính sách hỗ trợ riêng của nơi cho thuê. Nhầm lẫn hai lớp này khiến nhiều người tin mình được đền mọi thiệt hại rồi bị bất ngờ lúc sự việc xảy ra.
 
 ## Bảo hiểm bắt buộc là gì và che những gì
