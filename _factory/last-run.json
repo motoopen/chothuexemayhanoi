@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "started_at": null,
+  "finished_at": null,
+  "selected_count": 0,
+  "published_total": 0,
+  "published": [],
+  "recoverable_total": 0,
+  "recoverable": [],
+  "fatal": null,
+  "note": "Factory not run yet."
+}

@@ -7,6 +7,9 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - '_factory/incoming/**'
+      - '_factory/last-run.json'
   workflow_dispatch:
 
 permissions:
@@ -28,6 +31,42 @@ jobs:
         with:
           source: ./
           destination: ./_site
+
+      - name: Article factory smoke
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m py_compile scripts/article_factory.py
+          python3 scripts/article_factory.py status
+          python3 scripts/article_factory.py next --limit 1 > /tmp/factory-next.json
+          python3 - <<'PY'
+          import json
+          data = json.load(open('/tmp/factory-next.json'))
+          assert data['ok'] is True
+          assert data['count'] in (0, 1)
+          PY
+          python3 - <<'PY'
+          from pathlib import Path
+          text = " ".join(["hướng dẫn thuê xe máy hà nội thực tế an toàn thuận tiện"] * 90)
+          lines = [
+              "---",
+              "matrix_id: 1",
+              'description: "Hướng dẫn thử nghiệm cho factory smoke, dùng để kiểm tra parser và QA scoped trước khi publish."',
+              "---",
+              "## Chuẩn bị",
+              text,
+              "",
+              "[Xem thủ tục]({{ '/thutuc.html' | relative_url }})",
+              "",
+              "## Kiểm tra",
+              text,
+          ]
+          p = Path('_factory/incoming/001.md')
+          p.parent.mkdir(parents=True, exist_ok=True)
+          p.write_text("\n".join(lines) + "\n", encoding='utf-8')
+          PY
+          python3 scripts/article_factory.py check _factory/incoming/001.md
+          rm -f _factory/incoming/001.md
 
       - name: Verify SEO article matrix
         shell: bash
@@ -93,6 +132,8 @@ jobs:
           grep -q "Checklist 10 phút" _site/blog/danh-muc/huong-dan/an-toan-su-co/index.html
           test ! -e _site/_archive
           test ! -e _site/_seo
+          test ! -e _site/_factory
+          test ! -e _site/docs
           if grep -R -n -E '\{%|\{\{' _site --include='*.html'; then
             echo "Unrendered Liquid found in generated HTML."
             exit 1
