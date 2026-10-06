@@ -2,19 +2,19 @@
 (function () {
   document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('.reveal').forEach(function (el) {
-      el.classList.add('show');
+      el.classList.add('in');
     });
 
     if ('IntersectionObserver' in window) {
       const io = new IntersectionObserver(function (entries) {
         entries.forEach(function (entry) {
           if (entry.isIntersecting) {
-            entry.target.classList.add('show');
+            entry.target.classList.add('in');
             io.unobserve(entry.target);
           }
         });
       }, { rootMargin: '0px 0px -10% 0px', threshold: 0.06 });
-      document.querySelectorAll('.reveal:not(.show)').forEach(function (el) {
+      document.querySelectorAll('.reveal:not(.in)').forEach(function (el) {
         io.observe(el);
       });
     }
