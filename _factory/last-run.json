@@ -1,30 +1,80 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-07T01:47:27+07:00",
-  "finished_at": "2026-10-07T01:47:27+07:00",
-  "selected_count": 2,
-  "published_total": 0,
-  "published": [],
-  "recoverable_total": 2,
+  "started_at": "2026-10-07T01:49:56+07:00",
+  "finished_at": "2026-10-07T01:49:56+07:00",
+  "selected_count": 6,
+  "published_total": 1,
+  "published": [
+    {
+      "id": 220,
+      "source": "_factory/incoming/220.md",
+      "post": "_posts/2026-10-07-giao-nhan-xe-may-thue-soc-son-ha-noi.md",
+      "url": "/blog/giao-nhan-xe-may-thue-soc-son-ha-noi/",
+      "word_count": 721,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
+    }
+  ],
+  "recoverable_total": 5,
   "recoverable": [
     {
-      "path": "_factory/incoming/213.md",
-      "id": 213,
+      "path": "_factory/incoming/223.md",
+      "id": 223,
       "errors": [
-        "matrix row already published"
-      ]
+        "legal/manufacturer topic requires a Nguồn section with at least one URL"
+      ],
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ],
+      "word_count": 758
     },
     {
-      "path": "_factory/incoming/214.md",
-      "id": 214,
+      "path": "_factory/incoming/224.md",
+      "id": 224,
       "errors": [
-        "matrix row already published"
-      ]
+        "legal/manufacturer topic requires a Nguồn section with at least one URL"
+      ],
+      "warnings": [],
+      "word_count": 770
+    },
+    {
+      "path": "_factory/incoming/225.md",
+      "id": 225,
+      "errors": [
+        "legal/manufacturer topic requires a Nguồn section with at least one URL"
+      ],
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ],
+      "word_count": 676
+    },
+    {
+      "path": "_factory/incoming/226.md",
+      "id": 226,
+      "errors": [
+        "legal/manufacturer topic requires a Nguồn section with at least one URL"
+      ],
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ],
+      "word_count": 663
+    },
+    {
+      "path": "_factory/incoming/227.md",
+      "id": 227,
+      "errors": [
+        "legal/manufacturer topic requires a Nguồn section with at least one URL"
+      ],
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ],
+      "word_count": 683
     }
   ],
   "fatal": null,
   "status_counts": {
-    "planned": 78,
-    "published": 222
+    "planned": 77,
+    "published": 223
   }
 }
