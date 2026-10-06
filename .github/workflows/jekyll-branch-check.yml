@@ -81,6 +81,10 @@ jobs:
           test "$(jq '[.items[] | select((.taxonomy.parent_slug // "") == "" or (.taxonomy.child_slug // "") == "" or (.taxonomy.child_url // "") == "")] | length' _seo/article-matrix-300.json)" -eq 0
           test "$(jq -r '.items[].taxonomy.child_slug' _seo/article-matrix-300.json | sort -u | wc -l)" -eq 10
 
+      - name: Check internal link integrity
+        shell: bash
+        run: python3 scripts/check_site_links.py _site
+
       - name: Verify generated public pages
         shell: bash
         run: |
