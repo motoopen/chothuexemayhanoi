@@ -38,6 +38,16 @@ jobs:
           test -f _site/sitemap.xml
           test -f _site/blog/index.html
           test -f _site/blog/gioi-thieu-motoopen/index.html
+          test -f _site/blog/checklist-10-phut-truoc-khi-nhan-xe/index.html
+          test -f _site/blog/xe-ga-hay-xe-so/index.html
+          grep -q "Checklist 10 phút trước khi nhận xe máy ở Hà Nội" _site/blog/checklist-10-phut-truoc-khi-nhan-xe/index.html
+          grep -q "Xe ga hay xe số: chọn loại nào khi đi Hà Nội?" _site/blog/xe-ga-hay-xe-so/index.html
+          grep -q "classList.add('in')" _site/assets/js/site.js
+          grep -q ".reveal.in" _site/assets/css/home.css
+          if grep -q 'class="hero-mini reveal"' _site/blog/checklist-10-phut-truoc-khi-nhan-xe/index.html; then
+            echo "Blog post hero must not depend on reveal animation for visibility."
+            exit 1
+          fi
           for page in gioithieu dichvu banggia thutuc loaixe huongdan kinhnghiem faq lienhe mangxahoi chinhsachbaomat dieukhoansudung; do
             test -f "_site/$page.html"
           done

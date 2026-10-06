@@ -10,7 +10,7 @@ layout: default
     <span class="blog-breadcrumb-current" aria-current="page">{{ page.title }}</span>
   </nav>
 
-  <section class="hero-mini reveal" aria-label="Hero post">
+  <section class="hero-mini" aria-label="Hero post">
     <div class="wrap post-hero-wrap">
       <div class="card post-hero-card">
         <div class="hmini-grid post-hero-grid">
@@ -43,13 +43,7 @@ layout: default
     </div>
   </section>
 
-  <article class="mapp-card reveal post-card">
-    <div class="mapp-head post-head">
-      <div>
-        <h2 class="mapp-h1 post-title">{{ page.title }}</h2>
-        <p class="mapp-kicker post-kicker">Đăng: {{ page.date | date: "%-d %B %Y" }}</p>
-      </div>
-    </div>
+  <article class="mapp-card post-card">
 
     <div class="mapp-text blog-content">
       {{ content }}
