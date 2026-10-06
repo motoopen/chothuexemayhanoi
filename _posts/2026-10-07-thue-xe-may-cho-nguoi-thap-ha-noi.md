@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy cho người thấp: cách kiểm tra chiều cao yên trước khi nhận"
+date: 2026-10-07 01:30:22 +0700
+description: "Người thấp thuê xe máy ở Hà Nội nên kiểm chiều cao yên thế nào, từ ngồi thử chống chân, nhóm xe gợi ý đến cách chỉnh yên và ghế lót trước khi nhận."
+author: "Motoopen"
 matrix_id: 150
-description: Người thấp thuê xe máy ở Hà Nội nên kiểm chiều cao yên thế nào, từ ngồi thử chống chân, nhóm xe gợi ý đến cách chỉnh yên và ghế lót trước khi nhận.
+primary_keyword: "thuê xe máy cho người thấp hà nội"
+hub_parent: loai-xe
+hub_category: cac-loai-xe
 ---
-
 Chiều cao yên quyết định tự tin lái hơn mọi thông số khác nếu bạn thấp dưới một mét sáu. Bài này chỉ cách kiểm chiều cao yên đúng tại điểm thuê, và nhóm xe gợi ý cho người thấp.
 
 ## Cách kiểm chiều cao yên khi ngồi thử

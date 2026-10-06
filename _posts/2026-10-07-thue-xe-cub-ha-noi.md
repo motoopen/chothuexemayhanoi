@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe Cub Hà Nội: chọn Cub phổ thông hay Cub 50cc?"
+date: 2026-10-07 01:30:22 +0700
+description: "Chọn thuê Cub phổ thông hay Cub 50cc ở Hà Nội khác nhau thế nào về giấy tờ, giá, sức mạnh và phong cách, kèm hướng dẫn kiểm cả hai trước khi nhận."
+author: "Motoopen"
 matrix_id: 149
-description: Chọn thuê Cub phổ thông hay Cub 50cc ở Hà Nội khác nhau thế nào về giấy tờ, giá, sức mạnh và phong cách, kèm hướng dẫn kiểm cả hai trước khi nhận.
+primary_keyword: "thuê xe cub hà nội"
+hub_parent: loai-xe
+hub_category: cac-loai-xe
 ---
-
 Honda Cub có hai mặt khi thuê ở Hà Nội: Cub phổ thông bản số máy lớn, và Cub 50cc nhóm nhỏ không cần bằng lái. Hai dòng trông giống nhau nhưng phục vụ nhu cầu khác nhau. Bài này chỉ cách chọn đúng, kèm kiểm tra cho cả hai.
 
 ## Khác biệt căn bản giữa hai dòng

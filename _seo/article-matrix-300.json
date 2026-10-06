@@ -36,8 +36,8 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 138,
-    "published": 162
+    "planned": 132,
+    "published": 168
   },
   "items": [
     {
@@ -7704,7 +7704,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Mỗi bài phải có tiêu chí lựa chọn riêng, không chỉ thay tên model.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -7716,7 +7716,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "cac-loai-xe"
-      }
+      },
+      "published_at": "2026-10-07T01:30:22+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-sirius-ha-noi.md",
+      "published_url": "/blog/thue-xe-sirius-ha-noi/"
     },
     {
       "id": 148,
@@ -7752,7 +7755,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Mỗi bài phải có tiêu chí lựa chọn riêng, không chỉ thay tên model.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -7764,7 +7767,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "cac-loai-xe"
-      }
+      },
+      "published_at": "2026-10-07T01:30:22+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-future-ha-noi.md",
+      "published_url": "/blog/thue-xe-future-ha-noi/"
     },
     {
       "id": 149,
@@ -7800,7 +7806,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Mỗi bài phải có tiêu chí lựa chọn riêng, không chỉ thay tên model.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -7812,7 +7818,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "cac-loai-xe"
-      }
+      },
+      "published_at": "2026-10-07T01:30:22+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-cub-ha-noi.md",
+      "published_url": "/blog/thue-xe-cub-ha-noi/"
     },
     {
       "id": 150,
@@ -7848,7 +7857,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Mỗi bài phải có tiêu chí lựa chọn riêng, không chỉ thay tên model.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -7860,7 +7869,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "cac-loai-xe"
-      }
+      },
+      "published_at": "2026-10-07T01:30:22+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-cho-nguoi-thap-ha-noi.md",
+      "published_url": "/blog/thue-xe-may-cho-nguoi-thap-ha-noi/"
     },
     {
       "id": 151,
@@ -7896,7 +7908,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Mỗi bài phải có tiêu chí lựa chọn riêng, không chỉ thay tên model.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -7908,7 +7920,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "cac-loai-xe"
-      }
+      },
+      "published_at": "2026-10-07T01:30:22+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-yen-thap-ha-noi.md",
+      "published_url": "/blog/thue-xe-may-yen-thap-ha-noi/"
     },
     {
       "id": 152,
@@ -7944,7 +7959,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Mỗi bài phải có tiêu chí lựa chọn riêng, không chỉ thay tên model.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -7956,7 +7971,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "cac-loai-xe"
-      }
+      },
+      "published_at": "2026-10-07T01:30:22+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-cop-rong-ha-noi.md",
+      "published_url": "/blog/thue-xe-may-cop-rong-ha-noi/"
     },
     {
       "id": 153,
@@ -15332,5 +15350,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T01:29:38+07:00"
+  "updated_at": "2026-10-07T01:30:22+07:00"
 }

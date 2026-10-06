@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy yên thấp Hà Nội: đừng chỉ nhìn thông số chiều cao yên"
+date: 2026-10-07 01:30:22 +0700
+description: "Thuê xe máy yên thấp ở Hà Nội đừng chỉ nhìn thông số chiều cao yên, mà hãy ngồi thử, chống chân và cân tư thế, vì bản thực tế khác bảng thông số."
+author: "Motoopen"
 matrix_id: 151
-description: Thuê xe máy yên thấp ở Hà Nội đừng chỉ nhìn thông số chiều cao yên, mà hãy ngồi thử, chống chân và cân tư thế, vì bản thực tế khác bảng thông số.
+primary_keyword: "thuê xe máy yên thấp hà nội"
+hub_parent: loai-xe
+hub_category: cac-loai-xe
 ---
-
 Thông số chiều cao yên trên mạng chỉ là con số đầu tiên, không phải câu trả lời. Bài này chỉ những gì cần kiểm thêm khi thuê xe yên thấp ở Hà Nội, để chiếc xe hợp thật sự chứ không hợp trên giấy.
 
 ## Vì sao thông số chưa đủ

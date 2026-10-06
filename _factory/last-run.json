@@ -1,56 +1,58 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-07T01:29:38+07:00",
-  "finished_at": "2026-10-07T01:29:38+07:00",
+  "started_at": "2026-10-07T01:30:22+07:00",
+  "finished_at": "2026-10-07T01:30:22+07:00",
   "selected_count": 6,
   "published_total": 6,
   "published": [
     {
-      "id": 141,
-      "source": "_factory/incoming/141.md",
-      "post": "_posts/2026-10-07-thue-xe-air-blade-ha-noi.md",
-      "url": "/blog/thue-xe-air-blade-ha-noi/",
-      "word_count": 676,
+      "id": 147,
+      "source": "_factory/incoming/147.md",
+      "post": "_posts/2026-10-07-thue-xe-sirius-ha-noi.md",
+      "url": "/blog/thue-xe-sirius-ha-noi/",
+      "word_count": 684,
       "warnings": []
     },
     {
-      "id": 142,
-      "source": "_factory/incoming/142.md",
-      "post": "_posts/2026-10-07-thue-xe-lead-ha-noi.md",
-      "url": "/blog/thue-xe-lead-ha-noi/",
-      "word_count": 666,
+      "id": 148,
+      "source": "_factory/incoming/148.md",
+      "post": "_posts/2026-10-07-thue-xe-future-ha-noi.md",
+      "url": "/blog/thue-xe-future-ha-noi/",
+      "word_count": 689,
       "warnings": []
     },
     {
-      "id": 143,
-      "source": "_factory/incoming/143.md",
-      "post": "_posts/2026-10-07-thue-xe-sh-ha-noi.md",
-      "url": "/blog/thue-xe-sh-ha-noi/",
-      "word_count": 680,
+      "id": 149,
+      "source": "_factory/incoming/149.md",
+      "post": "_posts/2026-10-07-thue-xe-cub-ha-noi.md",
+      "url": "/blog/thue-xe-cub-ha-noi/",
+      "word_count": 699,
       "warnings": []
     },
     {
-      "id": 144,
-      "source": "_factory/incoming/144.md",
-      "post": "_posts/2026-10-07-thue-xe-vespa-ha-noi.md",
-      "url": "/blog/thue-xe-vespa-ha-noi/",
-      "word_count": 674,
+      "id": 150,
+      "source": "_factory/incoming/150.md",
+      "post": "_posts/2026-10-07-thue-xe-may-cho-nguoi-thap-ha-noi.md",
+      "url": "/blog/thue-xe-may-cho-nguoi-thap-ha-noi/",
+      "word_count": 714,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
+    },
+    {
+      "id": 151,
+      "source": "_factory/incoming/151.md",
+      "post": "_posts/2026-10-07-thue-xe-may-yen-thap-ha-noi.md",
+      "url": "/blog/thue-xe-may-yen-thap-ha-noi/",
+      "word_count": 740,
       "warnings": []
     },
     {
-      "id": 145,
-      "source": "_factory/incoming/145.md",
-      "post": "_posts/2026-10-07-thue-xe-exciter-ha-noi.md",
-      "url": "/blog/thue-xe-exciter-ha-noi/",
-      "word_count": 676,
-      "warnings": []
-    },
-    {
-      "id": 146,
-      "source": "_factory/incoming/146.md",
-      "post": "_posts/2026-10-07-thue-xe-winner-ha-noi.md",
-      "url": "/blog/thue-xe-winner-ha-noi/",
-      "word_count": 705,
+      "id": 152,
+      "source": "_factory/incoming/152.md",
+      "post": "_posts/2026-10-07-thue-xe-may-cop-rong-ha-noi.md",
+      "url": "/blog/thue-xe-may-cop-rong-ha-noi/",
+      "word_count": 714,
       "warnings": []
     }
   ],
@@ -58,7 +60,7 @@
   "recoverable": [],
   "fatal": null,
   "status_counts": {
-    "planned": 138,
-    "published": 162
+    "planned": 132,
+    "published": 168
   }
 }

@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy cốp rộng Hà Nội: chọn theo hành lý và cách sử dụng"
+date: 2026-10-07 01:30:22 +0700
+description: "Chọn thuê xe máy cốp rộng ở Hà Nội theo khối hành lý của bạn và cách sử dụng cốp an toàn, kèm các dòng xe cốp lớn nhất và kiểm tra trước khi nhận."
+author: "Motoopen"
 matrix_id: 152
-description: Chọn thuê xe máy cốp rộng ở Hà Nội theo khối hành lý của bạn và cách sử dụng cốp an toàn, kèm các dòng xe cốp lớn nhất và kiểm tra trước khi nhận.
+primary_keyword: "thuê xe máy cốp rộng hà nội"
+hub_parent: loai-xe
+hub_category: cac-loai-xe
 ---
-
 Cốp rộng là ưu tiên số một nếu bạn thuê xe kèm hành lý, và chọn sai cốp là lỗi hay gặp nhất. Bài này chỉ cách chọn theo khối đồ, dòng xe cốp lớn nhất, và cách dùng cốp cho an toàn.
 
 ## Định lượng hành lý trước khi chọn xe
