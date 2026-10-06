@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Cho thuê xe máy 50cc Hà Nội: 8 câu nên hỏi trước khi đặt"
+date: 2026-10-07 00:53:36 +0700
+description: "Tám câu hỏi nên đưa ra trước khi đặt thuê xe máy 50cc ở Hà Nội, từ tình trạng xe, phạm vi di chuyển đến hỗ trợ khi hỏng giữa đường."
+author: "Motoopen"
 matrix_id: 54
-description: Tám câu hỏi nên đưa ra trước khi đặt thuê xe máy 50cc ở Hà Nội, từ tình trạng xe, phạm vi di chuyển đến hỗ trợ khi hỏng giữa đường.
+primary_keyword: "cho thuê xe máy 50cc hà nội"
+hub_parent: loai-xe
+hub_category: xe-50cc
 ---
-
 Xe máy 50cc là dòng cho thuê phổ biến với khách cần xe nhẹ đi ngắn trong nội thành Hà Nội. Tuy nhiên, giữa các cửa hàng, chất lượng xe và điều kiện dịch vụ khác nhau đáng kể, và khác biệt ấy chỉ lộ ra khi bạn hỏi đúng câu. Bài viết này tổng hợp tám câu nên hỏi trước khi đặt cọc, giúp bạn sàng lọc nhanh và chọn được gói thuê đáng tin.
 
 ## Nhóm câu hỏi về xe cụ thể

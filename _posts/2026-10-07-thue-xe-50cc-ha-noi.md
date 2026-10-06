@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe 50cc Hà Nội: phân biệt Cub, xe ga và xe máy dưới 50cc"
+date: 2026-10-07 00:53:36 +0700
+description: "Phân biệt xe Cub 50cc, xe ga dưới 50cc và xe máy dưới 50cc khi thuê ở Hà Nội, kèm đặc tính từng loại để chọn đúng kiểu xe."
+author: "Motoopen"
 matrix_id: 53
-description: Phân biệt xe Cub 50cc, xe ga dưới 50cc và xe máy dưới 50cc khi thuê ở Hà Nội, kèm đặc tính từng loại để chọn đúng kiểu xe.
+primary_keyword: "thuê xe 50cc hà nội"
+hub_parent: loai-xe
+hub_category: xe-50cc
 ---
-
 Tìm kiếm dòng xe nhỏ để đi lại ở Hà Nội, bạn sẽ gặp ba cụm từ dễ nhầm lẫn: xe Cub 50cc, xe ga dưới 50cc và xe máy dưới 50cc. Ba loại này đều thuộc nhóm xe nhỏ nhưng khác nhau về kiểu dáng, cảm giác lái và phù hợp từng nhu cầu. Nhầm lẫn khi đặt xe có thể khiến bạn nhận một chiếc hoàn toàn khác với hình dung. Bài viết này phân biệt từng loại và gợi ý cách chọn khi thuê xe 50cc ở Hà Nội.
 
 ## Nhóm xe máy dưới 50cc là gì

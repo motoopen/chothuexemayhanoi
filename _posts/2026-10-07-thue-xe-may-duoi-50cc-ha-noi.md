@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy dưới 50cc Hà Nội: cách xác định đúng loại xe"
+date: 2026-10-07 00:53:36 +0700
+description: "Cách xác định đúng loại xe máy dưới 50cc khi thuê ở Hà Nội, phân biệt xe gắn máy và xe máy, kèm những gì cần kiểm tra trước khi nhận."
+author: "Motoopen"
 matrix_id: 55
-description: Cách xác định đúng loại xe máy dưới 50cc khi thuê ở Hà Nội, phân biệt xe gắn máy và xe máy, kèm những gì cần kiểm tra trước khi nhận.
+primary_keyword: "thuê xe máy dưới 50cc hà nội"
+hub_parent: loai-xe
+hub_category: xe-50cc
 ---
-
 Trên giấy tờ pháp lý ở Việt Nam, nhóm xe có dung tích xi lanh dưới 50cc thường được xếp vào loại xe gắn máy, khác với xe máy có dung tích lớn hơn. Phân biệt này nghe như kiến thức chuyên ngành, nhưng lại ảnh hưởng trực tiếp đến việc bạn cần giấy tờ gì khi thuê và đi lại thế nào cho đúng quy định. Bài viết này hướng dẫn cách xác định đúng loại xe dưới 50cc trước khi thuê ở Hà Nội, kèm các điểm kiểm tra thực tế.
 
 ## Ba dấu hiệu nhận biết xe dưới 50cc

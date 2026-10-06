@@ -1,15 +1,55 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-07T00:52:05+07:00",
-  "finished_at": "2026-10-07T00:52:05+07:00",
-  "selected_count": 1,
-  "published_total": 1,
+  "started_at": "2026-10-07T00:53:36+07:00",
+  "finished_at": "2026-10-07T00:53:36+07:00",
+  "selected_count": 6,
+  "published_total": 6,
   "published": [
     {
-      "id": 102,
-      "source": "_factory/incoming/102.md",
-      "post": "_posts/2026-10-07-thue-xe-may-dien-vinfast-theo-ngay.md",
-      "url": "/blog/thue-xe-may-dien-vinfast-theo-ngay/",
+      "id": 51,
+      "source": "_factory/incoming/051.md",
+      "post": "_posts/2026-10-07-thue-xe-may-50cc.md",
+      "url": "/blog/thue-xe-may-50cc/",
+      "word_count": 828,
+      "warnings": []
+    },
+    {
+      "id": 52,
+      "source": "_factory/incoming/052.md",
+      "post": "_posts/2026-10-07-thue-xe-may-50cc-ha-noi.md",
+      "url": "/blog/thue-xe-may-50cc-ha-noi/",
+      "word_count": 825,
+      "warnings": []
+    },
+    {
+      "id": 53,
+      "source": "_factory/incoming/053.md",
+      "post": "_posts/2026-10-07-thue-xe-50cc-ha-noi.md",
+      "url": "/blog/thue-xe-50cc-ha-noi/",
+      "word_count": 854,
+      "warnings": []
+    },
+    {
+      "id": 54,
+      "source": "_factory/incoming/054.md",
+      "post": "_posts/2026-10-07-cho-thue-xe-may-50cc-ha-noi.md",
+      "url": "/blog/cho-thue-xe-may-50cc-ha-noi/",
+      "word_count": 659,
+      "warnings": []
+    },
+    {
+      "id": 55,
+      "source": "_factory/incoming/055.md",
+      "post": "_posts/2026-10-07-thue-xe-may-duoi-50cc-ha-noi.md",
+      "url": "/blog/thue-xe-may-duoi-50cc-ha-noi/",
+      "word_count": 809,
+      "warnings": []
+    },
+    {
+      "id": 56,
+      "source": "_factory/incoming/056.md",
+      "post": "_posts/2026-10-07-thue-xe-cub-50cc.md",
+      "url": "/blog/thue-xe-cub-50cc/",
       "word_count": 812,
       "warnings": []
     }
@@ -18,7 +58,7 @@
   "recoverable": [],
   "fatal": null,
   "status_counts": {
-    "planned": 280,
-    "published": 20
+    "planned": 274,
+    "published": 26
   }
 }
