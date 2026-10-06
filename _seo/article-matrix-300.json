@@ -36,8 +36,8 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 18,
-    "published": 282
+    "planned": 12,
+    "published": 288
   },
   "items": [
     {
@@ -15413,7 +15413,7 @@
         "verify-current-vietnam-law-if-needed"
       ],
       "cannibalization_guard": "Mỗi bài chỉ so sánh một cặp hoặc một quyết định cụ thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "kinh-nghiem",
         "parent_label": "Kinh nghiệm",
@@ -15425,7 +15425,10 @@
       "front_matter": {
         "hub_parent": "kinh-nghiem",
         "hub_category": "so-sanh-lua-chon"
-      }
+      },
+      "published_at": "2026-10-07T02:10:00+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-dien-hay-xe-xang.md",
+      "published_url": "/blog/thue-xe-may-dien-hay-xe-xang/"
     },
     {
       "id": 296,
@@ -15463,7 +15466,7 @@
         "verify-current-vietnam-law-if-needed"
       ],
       "cannibalization_guard": "Mỗi bài chỉ so sánh một cặp hoặc một quyết định cụ thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "kinh-nghiem",
         "parent_label": "Kinh nghiệm",
@@ -15475,7 +15478,10 @@
       "front_matter": {
         "hub_parent": "kinh-nghiem",
         "hub_category": "so-sanh-lua-chon"
-      }
+      },
+      "published_at": "2026-10-07T02:10:00+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-50cc-hay-xe-tren-50cc.md",
+      "published_url": "/blog/thue-xe-50cc-hay-xe-tren-50cc/"
     },
     {
       "id": 297,
@@ -15513,7 +15519,7 @@
         "verify-current-vietnam-law-if-needed"
       ],
       "cannibalization_guard": "Mỗi bài chỉ so sánh một cặp hoặc một quyết định cụ thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "kinh-nghiem",
         "parent_label": "Kinh nghiệm",
@@ -15525,7 +15531,10 @@
       "front_matter": {
         "hub_parent": "kinh-nghiem",
         "hub_category": "so-sanh-lua-chon"
-      }
+      },
+      "published_at": "2026-10-07T02:10:00+07:00",
+      "published_path": "_posts/2026-10-07-thue-cub-50cc-hay-xe-ga-50cc.md",
+      "published_url": "/blog/thue-cub-50cc-hay-xe-ga-50cc/"
     },
     {
       "id": 298,
@@ -15563,7 +15572,7 @@
         "verify-current-vietnam-law-if-needed"
       ],
       "cannibalization_guard": "Mỗi bài chỉ so sánh một cặp hoặc một quyết định cụ thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "kinh-nghiem",
         "parent_label": "Kinh nghiệm",
@@ -15575,7 +15584,10 @@
       "front_matter": {
         "hub_parent": "kinh-nghiem",
         "hub_category": "so-sanh-lua-chon"
-      }
+      },
+      "published_at": "2026-10-07T02:10:00+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-gia-re-hay-xe-moi.md",
+      "published_url": "/blog/thue-xe-gia-re-hay-xe-moi/"
     },
     {
       "id": 299,
@@ -15613,7 +15625,7 @@
         "verify-current-vietnam-law-if-needed"
       ],
       "cannibalization_guard": "Mỗi bài chỉ so sánh một cặp hoặc một quyết định cụ thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "kinh-nghiem",
         "parent_label": "Kinh nghiệm",
@@ -15625,7 +15637,10 @@
       "front_matter": {
         "hub_parent": "kinh-nghiem",
         "hub_category": "so-sanh-lua-chon"
-      }
+      },
+      "published_at": "2026-10-07T02:10:00+07:00",
+      "published_path": "_posts/2026-10-07-giao-xe-tan-noi-hay-tu-den-nhan-xe.md",
+      "published_url": "/blog/giao-xe-tan-noi-hay-tu-den-nhan-xe/"
     },
     {
       "id": 300,
@@ -15663,7 +15678,7 @@
         "verify-current-vietnam-law-if-needed"
       ],
       "cannibalization_guard": "Mỗi bài chỉ so sánh một cặp hoặc một quyết định cụ thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "kinh-nghiem",
         "parent_label": "Kinh nghiệm",
@@ -15675,7 +15690,10 @@
       "front_matter": {
         "hub_parent": "kinh-nghiem",
         "hub_category": "so-sanh-lua-chon"
-      }
+      },
+      "published_at": "2026-10-07T02:10:00+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-gan-khach-san-hay-gan-ga.md",
+      "published_url": "/blog/thue-xe-gan-khach-san-hay-gan-ga/"
     }
   ],
   "taxonomy_version": 1,
@@ -15692,5 +15710,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T02:09:07+07:00"
+  "updated_at": "2026-10-07T02:10:00+07:00"
 }

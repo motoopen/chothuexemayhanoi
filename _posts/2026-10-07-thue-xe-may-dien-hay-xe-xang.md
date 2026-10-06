@@ -1,8 +1,14 @@
 ---
-matrix_id: 295
+layout: post
+title: "Thuê xe máy điện hay xe xăng: chọn theo quãng đường, sạc và thói quen"
+date: 2026-10-07 02:10:00 +0700
 description: "Thuê xe máy điện hay xe xăng ở Hà Nội: so sánh theo quãng đường, trạm sạc, chi phí nhiên liệu và thói quen sử dụng để chọn đúng loại xe."
+author: "Motoopen"
+matrix_id: 295
+primary_keyword: "thuê xe máy điện hay xe xăng"
+hub_parent: kinh-nghiem
+hub_category: so-sanh-lua-chon
 ---
-
 Giữa xe máy điện và xe xăng, câu hỏi không phải là loại nào tốt hơn, mà là loại nào khớp với hành trình của bạn. Một chiếc xe điện êm, rẻ tiền chạy mỗi ki lô mét, nhưng phụ thuộc trạm sạc. Một chiếc xe xăng chạy được cả trăm cây số liên tục, nhưng ồn hơn và tốn xăng hơn. Bài này so sánh hai lựa chọn theo đúng cách bạn sẽ dùng xe khi thuê ở Hà Nội.
 
 ## So sánh theo quãng đường và lịch trình
