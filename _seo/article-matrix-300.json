@@ -36,8 +36,8 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 54,
-    "published": 246
+    "planned": 50,
+    "published": 250
   },
   "items": [
     {
@@ -13035,7 +13035,7 @@
         "verify-current-traffic-law"
       ],
       "cannibalization_guard": "Mỗi bài phải là một hành trình/use case khác biệt.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "kinh-nghiem",
         "parent_label": "Kinh nghiệm",
@@ -13047,7 +13047,10 @@
       "front_matter": {
         "hub_parent": "kinh-nghiem",
         "hub_category": "hanh-trinh"
-      }
+      },
+      "published_at": "2026-10-07T01:57:58+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-ha-noi-di-tam-dao.md",
+      "published_url": "/blog/thue-xe-may-ha-noi-di-tam-dao/"
     },
     {
       "id": 250,
@@ -13085,7 +13088,7 @@
         "verify-current-traffic-law"
       ],
       "cannibalization_guard": "Mỗi bài phải là một hành trình/use case khác biệt.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "kinh-nghiem",
         "parent_label": "Kinh nghiệm",
@@ -13097,7 +13100,10 @@
       "front_matter": {
         "hub_parent": "kinh-nghiem",
         "hub_category": "hanh-trinh"
-      }
+      },
+      "published_at": "2026-10-07T01:57:58+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-ha-noi-di-hoa-binh.md",
+      "published_url": "/blog/thue-xe-may-ha-noi-di-hoa-binh/"
     },
     {
       "id": 251,
@@ -13135,7 +13141,7 @@
         "verify-current-traffic-law"
       ],
       "cannibalization_guard": "Mỗi bài phải là một hành trình/use case khác biệt.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "kinh-nghiem",
         "parent_label": "Kinh nghiệm",
@@ -13147,7 +13153,10 @@
       "front_matter": {
         "hub_parent": "kinh-nghiem",
         "hub_category": "hanh-trinh"
-      }
+      },
+      "published_at": "2026-10-07T01:57:58+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-ha-noi-di-mai-chau.md",
+      "published_url": "/blog/thue-xe-may-ha-noi-di-mai-chau/"
     },
     {
       "id": 252,
@@ -13185,7 +13194,7 @@
         "verify-current-traffic-law"
       ],
       "cannibalization_guard": "Mỗi bài phải là một hành trình/use case khác biệt.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "kinh-nghiem",
         "parent_label": "Kinh nghiệm",
@@ -13197,7 +13206,10 @@
       "front_matter": {
         "hub_parent": "kinh-nghiem",
         "hub_category": "hanh-trinh"
-      }
+      },
+      "published_at": "2026-10-07T01:57:58+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-ha-noi-di-moc-chau.md",
+      "published_url": "/blog/thue-xe-may-ha-noi-di-moc-chau/"
     },
     {
       "id": 253,
@@ -15584,5 +15596,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T01:56:44+07:00"
+  "updated_at": "2026-10-07T01:57:58+07:00"
 }

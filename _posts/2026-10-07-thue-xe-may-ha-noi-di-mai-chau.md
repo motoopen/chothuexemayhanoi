@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy Hà Nội đi Mai Châu: checklist trước chuyến đi dài"
+date: 2026-10-07 01:57:58 +0700
+description: "Thuê xe máy Hà Nội đi Mai Châu cần checklist dài cung đường: kiểm tra xe, giấy tờ, hành lý và phương án nghỉ giữa chặng."
+author: "Motoopen"
 matrix_id: 251
-description: Thuê xe máy Hà Nội đi Mai Châu cần checklist dài cung đường: kiểm tra xe, giấy tờ, hành lý và phương án nghỉ giữa chặng.
+primary_keyword: "thuê xe máy hà nội đi mai châu"
+hub_parent: kinh-nghiem
+hub_category: hanh-trinh
 ---
-
 Mai Châu cách Hà Nội khoảng một trăm sáu mươi ki lômét, là chuyến dài nhất nhóm cung phía Hòa Bình, và với phần lớn người đi xe thuê, đây là chuyến cần chuẩn bị như một hành trình thực thụ chứ không phải chuyến chơi bờm.
 
 ## Chọn xe cho cung dài

@@ -1,66 +1,67 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-07T01:56:44+07:00",
-  "finished_at": "2026-10-07T01:56:44+07:00",
+  "started_at": "2026-10-07T01:57:58+07:00",
+  "finished_at": "2026-10-07T01:57:58+07:00",
   "selected_count": 6,
-  "published_total": 6,
+  "published_total": 4,
   "published": [
     {
-      "id": 240,
-      "source": "_factory/incoming/240.md",
-      "post": "_posts/2026-10-07-gia-han-hop-dong-thue-xe-may.md",
-      "url": "/blog/gia-han-hop-dong-thue-xe-may/",
-      "word_count": 772,
+      "id": 249,
+      "source": "_factory/incoming/249.md",
+      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-di-tam-dao.md",
+      "url": "/blog/thue-xe-may-ha-noi-di-tam-dao/",
+      "word_count": 653,
       "warnings": []
     },
     {
-      "id": 241,
-      "source": "_factory/incoming/241.md",
-      "post": "_posts/2026-10-07-tra-xe-thue-som.md",
-      "url": "/blog/tra-xe-thue-som/",
+      "id": 250,
+      "source": "_factory/incoming/250.md",
+      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-di-hoa-binh.md",
+      "url": "/blog/thue-xe-may-ha-noi-di-hoa-binh/",
+      "word_count": 651,
+      "warnings": []
+    },
+    {
+      "id": 251,
+      "source": "_factory/incoming/251.md",
+      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-di-mai-chau.md",
+      "url": "/blog/thue-xe-may-ha-noi-di-mai-chau/",
+      "word_count": 671,
+      "warnings": []
+    },
+    {
+      "id": 252,
+      "source": "_factory/incoming/252.md",
+      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-di-moc-chau.md",
+      "url": "/blog/thue-xe-may-ha-noi-di-moc-chau/",
       "word_count": 677,
       "warnings": []
-    },
-    {
-      "id": 242,
-      "source": "_factory/incoming/242.md",
-      "post": "_posts/2026-10-07-tra-xe-thue-muon.md",
-      "url": "/blog/tra-xe-thue-muon/",
-      "word_count": 708,
-      "warnings": []
-    },
-    {
-      "id": 243,
-      "source": "_factory/incoming/243.md",
-      "post": "_posts/2026-10-07-xe-thue-bi-tray-xuoc.md",
-      "url": "/blog/xe-thue-bi-tray-xuoc/",
-      "word_count": 675,
-      "warnings": []
-    },
-    {
-      "id": 244,
-      "source": "_factory/incoming/244.md",
-      "post": "_posts/2026-10-07-thue-xe-may-co-bao-hiem-khong.md",
-      "url": "/blog/thue-xe-may-co-bao-hiem-khong/",
-      "word_count": 787,
-      "warnings": []
-    },
-    {
-      "id": 245,
-      "source": "_factory/incoming/245.md",
-      "post": "_posts/2026-10-07-canh-sat-kiem-tra-xe-thue-can-gi.md",
-      "url": "/blog/canh-sat-kiem-tra-xe-thue-can-gi/",
-      "word_count": 715,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
     }
   ],
-  "recoverable_total": 0,
-  "recoverable": [],
+  "recoverable_total": 2,
+  "recoverable": [
+    {
+      "path": "_factory/incoming/247.md",
+      "id": 247,
+      "errors": [
+        "thin draft: 630 words < 650"
+      ],
+      "warnings": [],
+      "word_count": 630
+    },
+    {
+      "path": "_factory/incoming/248.md",
+      "id": 248,
+      "errors": [
+        "thin draft: 643 words < 650"
+      ],
+      "warnings": [],
+      "word_count": 643
+    }
+  ],
   "fatal": null,
   "status_counts": {
-    "planned": 54,
-    "published": 246
+    "planned": 50,
+    "published": 250
   }
 }
