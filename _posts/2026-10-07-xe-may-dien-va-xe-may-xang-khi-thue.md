@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy điện hay xe máy xăng ở Hà Nội: chọn theo hành trình"
+date: 2026-10-07 01:23:59 +0700
+description: "So sánh thuê xe máy điện và xe máy xăng ở Hà Nội theo từng loại hành trình, từ phố cổ ngắn ngày đến lộ trình dài liên tỉnh kèm chi phí."
+author: "Motoopen"
 matrix_id: 126
-description: So sánh thuê xe máy điện và xe máy xăng ở Hà Nội theo từng loại hành trình, từ phố cổ ngắn ngày đến lộ trình dài liên tỉnh kèm chi phí.
+primary_keyword: "xe máy điện và xe máy xăng khi thuê"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Chọn thuê xe máy điện hay xe máy xăng ở Hà Nội phụ thuộc trước hết vào hành trình bạn định chạy, chứ không chỉ vào giá thuê. Bài này so sánh hai loại theo từng nhóm lộ trình để bạn chọn đúng ngay từ bước đặt xe.
 
 ## Hành trình ngắn trong nội thành

@@ -1,64 +1,79 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-07T01:22:32+07:00",
-  "finished_at": "2026-10-07T01:22:32+07:00",
+  "started_at": "2026-10-07T01:23:59+07:00",
+  "finished_at": "2026-10-07T01:23:59+07:00",
   "selected_count": 6,
-  "published_total": 6,
+  "published_total": 2,
   "published": [
     {
-      "id": 115,
-      "source": "_factory/incoming/115.md",
-      "post": "_posts/2026-10-07-thue-xe-may-dien-hoan-kiem.md",
-      "url": "/blog/thue-xe-may-dien-hoan-kiem/",
-      "word_count": 747,
-      "warnings": []
+      "id": 123,
+      "source": "_factory/incoming/123.md",
+      "post": "_posts/2026-10-07-quang-duong-xe-may-dien-khi-thue.md",
+      "url": "/blog/quang-duong-xe-may-dien-khi-thue/",
+      "word_count": 672,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
     },
     {
-      "id": 116,
-      "source": "_factory/incoming/116.md",
-      "post": "_posts/2026-10-07-thue-xe-may-dien-cau-giay.md",
-      "url": "/blog/thue-xe-may-dien-cau-giay/",
-      "word_count": 729,
-      "warnings": []
-    },
-    {
-      "id": 117,
-      "source": "_factory/incoming/117.md",
-      "post": "_posts/2026-10-07-thue-xe-may-dien-my-dinh.md",
-      "url": "/blog/thue-xe-may-dien-my-dinh/",
-      "word_count": 759,
-      "warnings": []
-    },
-    {
-      "id": 118,
-      "source": "_factory/incoming/118.md",
-      "post": "_posts/2026-10-07-thue-xe-may-dien-tay-ho.md",
-      "url": "/blog/thue-xe-may-dien-tay-ho/",
-      "word_count": 740,
-      "warnings": []
-    },
-    {
-      "id": 119,
-      "source": "_factory/incoming/119.md",
-      "post": "_posts/2026-10-07-thue-xe-may-dien-gan-noi-bai.md",
-      "url": "/blog/thue-xe-may-dien-gan-noi-bai/",
-      "word_count": 775,
-      "warnings": []
-    },
-    {
-      "id": 120,
-      "source": "_factory/incoming/120.md",
-      "post": "_posts/2026-10-07-thue-xe-may-dien-gan-ga-ha-noi.md",
-      "url": "/blog/thue-xe-may-dien-gan-ga-ha-noi/",
-      "word_count": 758,
-      "warnings": []
+      "id": 126,
+      "source": "_factory/incoming/126.md",
+      "post": "_posts/2026-10-07-xe-may-dien-va-xe-may-xang-khi-thue.md",
+      "url": "/blog/xe-may-dien-va-xe-may-xang-khi-thue/",
+      "word_count": 701,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
     }
   ],
-  "recoverable_total": 0,
-  "recoverable": [],
+  "recoverable_total": 4,
+  "recoverable": [
+    {
+      "path": "_factory/incoming/121.md",
+      "id": 121,
+      "errors": [
+        "thin draft: 637 words < 650"
+      ],
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ],
+      "word_count": 637
+    },
+    {
+      "path": "_factory/incoming/122.md",
+      "id": 122,
+      "errors": [
+        "thin draft: 649 words < 650"
+      ],
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ],
+      "word_count": 649
+    },
+    {
+      "path": "_factory/incoming/125.md",
+      "id": 125,
+      "errors": [
+        "legal/manufacturer topic requires a Nguồn section with at least one URL"
+      ],
+      "warnings": [],
+      "word_count": 679
+    },
+    {
+      "path": "_factory/incoming/127.md",
+      "id": 127,
+      "errors": [
+        "thin draft: 618 words < 650"
+      ],
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ],
+      "word_count": 618
+    }
+  ],
   "fatal": null,
   "status_counts": {
-    "planned": 160,
-    "published": 140
+    "planned": 158,
+    "published": 142
   }
 }

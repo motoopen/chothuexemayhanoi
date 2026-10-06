@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Xe máy điện thuê đi được bao xa? Cách ước tính phạm vi thực tế"
+date: 2026-10-07 01:23:59 +0700
+description: "Xe máy điện thuê đi được bao xa, cách ước tầm thực tế theo quãng phố, tải, dốc và trời lạnh, kèm các câu hỏi nên hỏi nơi thuê trước khi cọc."
+author: "Motoopen"
 matrix_id: 123
-description: Xe máy điện thuê đi được bao xa, cách ước tầm thực tế theo quãng phố, tải, dốc và trời lạnh, kèm các câu hỏi nên hỏi nơi thuê trước khi cọc.
+primary_keyword: "quãng đường xe máy điện khi thuê"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Quãng đường xe máy điện đi được là con số bị hỏi nhiều nhất và cũng bị hiểu sai nhiều nhất, vì tầm ghi trên quảng cáo là điều kiện lý tưởng còn tầm thật phụ thuộc cách bạn đi. Bài này cho cách ước tầm thực tế cho lịch của mình.
 
 ## Các yếu tố làm tầm thật khác số lý thuyết
