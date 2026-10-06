@@ -36,8 +36,7 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 3,
-    "published": 297
+    "published": 300
   },
   "items": [
     {
@@ -15290,7 +15289,7 @@
         "verify-current-vietnam-law-if-needed"
       ],
       "cannibalization_guard": "Mỗi bài chỉ so sánh một cặp hoặc một quyết định cụ thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "kinh-nghiem",
         "parent_label": "Kinh nghiệm",
@@ -15302,7 +15301,10 @@
       "front_matter": {
         "hub_parent": "kinh-nghiem",
         "hub_category": "so-sanh-lua-chon"
-      }
+      },
+      "published_at": "2026-10-07T02:13:12+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-hay-goi-xe-cong-nghe.md",
+      "published_url": "/blog/thue-xe-may-hay-goi-xe-cong-nghe/"
     },
     {
       "id": 293,
@@ -15340,7 +15342,7 @@
         "verify-current-vietnam-law-if-needed"
       ],
       "cannibalization_guard": "Mỗi bài chỉ so sánh một cặp hoặc một quyết định cụ thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "kinh-nghiem",
         "parent_label": "Kinh nghiệm",
@@ -15352,7 +15354,10 @@
       "front_matter": {
         "hub_parent": "kinh-nghiem",
         "hub_category": "so-sanh-lua-chon"
-      }
+      },
+      "published_at": "2026-10-07T02:13:12+07:00",
+      "published_path": "_posts/2026-10-07-app-thue-xe-hay-cua-hang-thue-xe.md",
+      "published_url": "/blog/app-thue-xe-hay-cua-hang-thue-xe/"
     },
     {
       "id": 294,
@@ -15390,7 +15395,7 @@
         "verify-current-vietnam-law-if-needed"
       ],
       "cannibalization_guard": "Mỗi bài chỉ so sánh một cặp hoặc một quyết định cụ thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "kinh-nghiem",
         "parent_label": "Kinh nghiệm",
@@ -15402,7 +15407,10 @@
       "front_matter": {
         "hub_parent": "kinh-nghiem",
         "hub_category": "so-sanh-lua-chon"
-      }
+      },
+      "published_at": "2026-10-07T02:13:12+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-theo-ngay-hay-theo-thang.md",
+      "published_url": "/blog/thue-xe-theo-ngay-hay-theo-thang/"
     },
     {
       "id": 295,
@@ -15737,5 +15745,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T02:11:44+07:00"
+  "updated_at": "2026-10-07T02:13:12+07:00"
 }

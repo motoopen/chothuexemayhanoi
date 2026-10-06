@@ -1,8 +1,14 @@
 ---
-matrix_id: 294
+layout: post
+title: "Thuê xe máy theo ngày hay theo tháng: điểm hòa vốn nên tính thế nào?"
+date: 2026-10-07 02:13:12 +0700
 description: "Thuê xe máy theo ngày hay theo tháng: cách tính điểm hòa vốn giữa giá ngày lẻ và gói tháng, cùng các điều khoản nên hỏi cho từng chu kỳ."
+author: "Motoopen"
+matrix_id: 294
+primary_keyword: "thuê xe theo ngày hay theo tháng"
+hub_parent: kinh-nghiem
+hub_category: so-sanh-lua-chon
 ---
-
 Giữa thuê xe máy theo ngày và theo tháng, lựa chọn đúng có thể chênh nhau cả triệu đồng mỗi tháng. Quy tắc chung ai cũng biết: thuê dài thì rẻ hơn tính trên mỗi ngày. Nhưng điểm hòa vốn nằm ở đâu, và gói tháng kèm theo điều kiện gì, thì không phải ai cũng tính. Bài này đưa ra cách tính cụ thể.
 
 ## Tính điểm hòa vốn bằng chính lịch trình của bạn

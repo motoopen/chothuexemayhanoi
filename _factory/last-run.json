@@ -1,34 +1,43 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-07T02:11:44+07:00",
-  "finished_at": "2026-10-07T02:11:44+07:00",
-  "selected_count": 2,
-  "published_total": 2,
+  "started_at": "2026-10-07T02:13:12+07:00",
+  "finished_at": "2026-10-07T02:13:12+07:00",
+  "selected_count": 3,
+  "published_total": 3,
   "published": [
     {
-      "id": 135,
-      "source": "_factory/incoming/135.md",
-      "post": "_posts/2026-10-07-thue-xe-dien-cong-cong-va-thue-xe-may-dien-cua-hang.md",
-      "url": "/blog/thue-xe-dien-cong-cong-va-thue-xe-may-dien-cua-hang/",
-      "word_count": 729,
+      "id": 292,
+      "source": "_factory/incoming/292.md",
+      "post": "_posts/2026-10-07-thue-xe-may-hay-goi-xe-cong-nghe.md",
+      "url": "/blog/thue-xe-may-hay-goi-xe-cong-nghe/",
+      "word_count": 667,
+      "warnings": []
+    },
+    {
+      "id": 293,
+      "source": "_factory/incoming/293.md",
+      "post": "_posts/2026-10-07-app-thue-xe-hay-cua-hang-thue-xe.md",
+      "url": "/blog/app-thue-xe-hay-cua-hang-thue-xe/",
+      "word_count": 684,
       "warnings": [
         "matrix title does not contain exact primary keyword"
       ]
     },
     {
-      "id": 139,
-      "source": "_factory/incoming/139.md",
-      "post": "_posts/2026-10-07-thue-xe-vision-ha-noi.md",
-      "url": "/blog/thue-xe-vision-ha-noi/",
-      "word_count": 721,
-      "warnings": []
+      "id": 294,
+      "source": "_factory/incoming/294.md",
+      "post": "_posts/2026-10-07-thue-xe-theo-ngay-hay-theo-thang.md",
+      "url": "/blog/thue-xe-theo-ngay-hay-theo-thang/",
+      "word_count": 684,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
     }
   ],
   "recoverable_total": 0,
   "recoverable": [],
   "fatal": null,
   "status_counts": {
-    "planned": 3,
-    "published": 297
+    "published": 300
   }
 }
