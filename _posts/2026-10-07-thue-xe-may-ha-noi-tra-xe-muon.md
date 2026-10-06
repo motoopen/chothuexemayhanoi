@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy Hà Nội trả xe muộn: cần hỏi gì về thời gian và phụ phí?"
+date: 2026-10-07 01:05:53 +0700
+description: "Thuê xe máy Hà Nội trả xe muộn cần hỏi gì về thời gian và phụ phí, cách báo trước để không bị phạt và lưu ý khi gia hạn hợp đồng."
+author: "Motoopen"
 matrix_id: 15
-description: Thuê xe máy Hà Nội trả xe muộn cần hỏi gì về thời gian và phụ phí, cách báo trước để không bị phạt và lưu ý khi gia hạn hợp đồng.
+primary_keyword: "thuê xe máy hà nội trả xe muộn"
+hub_parent: thue-xe
+hub_category: bat-dau-thue
 ---
-
 Kế hoạch kéo dài hơn dự kiến là chuyện thường gặp, và lúc đó vấn đề là trả xe muộn có tốn thêm bao nhiêu và phải báo thế nào. Bài này nói rõ những gì cần hỏi về thời gian và phụ phí khi có nguy cơ trả xe muộn ở Hà Nội.
 
 ## Hỏi trước cả khi ký hợp đồng

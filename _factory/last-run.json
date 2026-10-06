@@ -1,66 +1,66 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-07T01:04:22+07:00",
-  "finished_at": "2026-10-07T01:04:22+07:00",
+  "started_at": "2026-10-07T01:05:53+07:00",
+  "finished_at": "2026-10-07T01:05:53+07:00",
   "selected_count": 6,
   "published_total": 6,
   "published": [
     {
-      "id": 10,
-      "source": "_factory/incoming/10.md",
-      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-cuoi-tuan.md",
-      "url": "/blog/thue-xe-may-ha-noi-cuoi-tuan/",
-      "word_count": 708,
+      "id": 11,
+      "source": "_factory/incoming/11.md",
+      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-mua-mua.md",
+      "url": "/blog/thue-xe-may-ha-noi-mua-mua/",
+      "word_count": 737,
       "warnings": []
     },
     {
-      "id": 222,
-      "source": "_factory/incoming/222.md",
-      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-can-nhung-gi.md",
-      "url": "/blog/thue-xe-may-ha-noi-can-nhung-gi/",
-      "word_count": 713,
+      "id": 12,
+      "source": "_factory/incoming/12.md",
+      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-mua-lanh.md",
+      "url": "/blog/thue-xe-may-ha-noi-mua-lanh/",
+      "word_count": 728,
       "warnings": []
     },
     {
-      "id": 246,
-      "source": "_factory/incoming/246.md",
-      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-di-ha-giang.md",
-      "url": "/blog/thue-xe-may-ha-noi-di-ha-giang/",
-      "word_count": 688,
+      "id": 13,
+      "source": "_factory/incoming/13.md",
+      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-ban-dem.md",
+      "url": "/blog/thue-xe-may-ha-noi-ban-dem/",
+      "word_count": 666,
+      "warnings": []
+    },
+    {
+      "id": 14,
+      "source": "_factory/incoming/14.md",
+      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-nhan-xe-som.md",
+      "url": "/blog/thue-xe-may-ha-noi-nhan-xe-som/",
+      "word_count": 663,
+      "warnings": []
+    },
+    {
+      "id": 15,
+      "source": "_factory/incoming/15.md",
+      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-tra-xe-muon.md",
+      "url": "/blog/thue-xe-may-ha-noi-tra-xe-muon/",
+      "word_count": 698,
+      "warnings": []
+    },
+    {
+      "id": 16,
+      "source": "_factory/incoming/16.md",
+      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-mang-hanh-ly.md",
+      "url": "/blog/thue-xe-may-ha-noi-mang-hanh-ly/",
+      "word_count": 684,
       "warnings": [
         "matrix title does not contain exact primary keyword"
       ]
-    },
-    {
-      "id": 6,
-      "source": "_factory/incoming/6.md",
-      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-cho-khach-du-lich.md",
-      "url": "/blog/thue-xe-may-ha-noi-cho-khach-du-lich/",
-      "word_count": 729,
-      "warnings": []
-    },
-    {
-      "id": 7,
-      "source": "_factory/incoming/7.md",
-      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-cho-sinh-vien.md",
-      "url": "/blog/thue-xe-may-ha-noi-cho-sinh-vien/",
-      "word_count": 721,
-      "warnings": []
-    },
-    {
-      "id": 8,
-      "source": "_factory/incoming/8.md",
-      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-dai-ngay.md",
-      "url": "/blog/thue-xe-may-ha-noi-dai-ngay/",
-      "word_count": 732,
-      "warnings": []
     }
   ],
   "recoverable_total": 0,
   "recoverable": [],
   "fatal": null,
   "status_counts": {
-    "planned": 232,
-    "published": 68
+    "planned": 226,
+    "published": 74
   }
 }
