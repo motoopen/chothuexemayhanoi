@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Khám phá Hà Nội 2 ngày bằng xe máy: cách chia lịch trình theo khu vực"
+date: 2026-10-07 02:05:00 +0700
+description: "Khám phá Hà Nội 2 ngày bằng xe máy cần chia lịch trình theo khu vực: ngày một cho phố cổ, ngày hai cho Hồ Tây và ngoại thành gần."
+author: "Motoopen"
 matrix_id: 261
-description: Khám phá Hà Nội 2 ngày bằng xe máy cần chia lịch trình theo khu vực: ngày một cho phố cổ, ngày hai cho Hồ Tây và ngoại thành gần.
+primary_keyword: "đi xe máy hà nội 2 ngày"
+hub_parent: kinh-nghiem
+hub_category: hanh-trinh
 ---
-
 Hai ngày là khoảng đủ để thấy Hà Nội bằng xe máy mà không phải chạy nước rút, nhưng chỉ khi chia đúng: mỗi ngày một khu vực, mỗi khu vực một phong cách di chuyển. Bài này chia lịch và chỉ luôn khung gói thuê phù hợp.
 
 ## Ngày một: Phố Cổ và phố quanh hồ

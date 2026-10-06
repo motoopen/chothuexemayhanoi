@@ -1,78 +1,26 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-07T02:03:18+07:00",
-  "finished_at": "2026-10-07T02:03:18+07:00",
-  "selected_count": 6,
-  "published_total": 5,
+  "started_at": "2026-10-07T02:05:00+07:00",
+  "finished_at": "2026-10-07T02:05:00+07:00",
+  "selected_count": 1,
+  "published_total": 1,
   "published": [
     {
-      "id": 259,
-      "source": "_factory/incoming/259.md",
-      "post": "_posts/2026-10-07-lich-trinh-xe-may-tham-quan-ha-noi-1-ngay.md",
-      "url": "/blog/lich-trinh-xe-may-tham-quan-ha-noi-1-ngay/",
-      "word_count": 684,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 260,
-      "source": "_factory/incoming/260.md",
-      "post": "_posts/2026-10-07-di-xe-may-ha-noi-nua-ngay.md",
-      "url": "/blog/di-xe-may-ha-noi-nua-ngay/",
-      "word_count": 653,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 262,
-      "source": "_factory/incoming/262.md",
-      "post": "_posts/2026-10-07-di-xe-may-ha-noi-an-uong.md",
-      "url": "/blog/di-xe-may-ha-noi-an-uong/",
-      "word_count": 692,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 263,
-      "source": "_factory/incoming/263.md",
-      "post": "_posts/2026-10-07-di-xe-may-ha-noi-ca-phe.md",
-      "url": "/blog/di-xe-may-ha-noi-ca-phe/",
-      "word_count": 676,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 264,
-      "source": "_factory/incoming/264.md",
-      "post": "_posts/2026-10-07-di-xe-may-ha-noi-chup-anh.md",
-      "url": "/blog/di-xe-may-ha-noi-chup-anh/",
-      "word_count": 682,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    }
-  ],
-  "recoverable_total": 1,
-  "recoverable": [
-    {
-      "path": "_factory/incoming/261.md",
       "id": 261,
-      "errors": [
-        "thin draft: 643 words < 650"
-      ],
+      "source": "_factory/incoming/261.md",
+      "post": "_posts/2026-10-07-di-xe-may-ha-noi-2-ngay.md",
+      "url": "/blog/di-xe-may-ha-noi-2-ngay/",
+      "word_count": 769,
       "warnings": [
         "matrix title does not contain exact primary keyword"
-      ],
-      "word_count": 643
+      ]
     }
   ],
+  "recoverable_total": 0,
+  "recoverable": [],
   "fatal": null,
   "status_counts": {
-    "planned": 37,
-    "published": 263
+    "planned": 36,
+    "published": 264
   }
 }
