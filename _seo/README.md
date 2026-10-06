@@ -1,17 +1,40 @@
 # SEO Hub 300 — Motoopen
 
-Planning data for the 300-article supporting-content hub around **thuê xe máy Hà Nội**.
+## Canonical matrix
 
-This folder is excluded from GitHub Pages and is for writers/agents only.
+**Use `article-matrix-300.json` as the writing source of truth.**
 
-## Evidence
-- Google Search Console: actual queries already associated with the live Motoopen property.
-- Keyword Tool: Google autocomplete suggestions for Vietnam / Vietnamese.
-- Derived rows are allowed only from patterns already observed in the keyword set, and are labelled `Derived:observed-local-pattern`.
-- Missing metrics stay `null`. Never invent volume, difficulty, CPC, traffic or rankings.
+- Exactly 300 rows.
+- One row = one distinct article.
+- Keyword variants with the same intent are stored as `secondary_keywords`, not separate posts.
+- Two already-published preview posts are marked `published` and must not be generated again.
+- `article-matrix-300.csv` is the compact human-readable view.
+- `seo-hub-300.json` is the earlier **keyword inventory** only; do not feed it directly to a writer as a 300-post queue.
 
-## Before writing
-Check `validation_required`. Prices, deposits, delivery promises, inventory and legal/licence claims must be verified from current sources.
+## New required clusters
 
-## Cannibalization
-The 300 rows are a planning inventory. If two rows answer the same search intent, merge them into one stronger article and move the other phrase into `secondary_keywords` instead of publishing two near-duplicates.
+The canonical matrix includes dedicated article families for:
+- thuê xe máy 50cc
+- thuê xe Cub 50cc
+- thuê xe ga / tay ga 50cc
+- thuê xe điện / xe máy điện
+- thuê xe máy điện VinFast
+- thuê xe điện / xe máy điện không cần bằng lái
+
+Legal and licence-related rows are explicitly marked for current-law verification before publication.
+
+## Evidence rules
+
+- GSC numbers are copied only from real Search Console signals for the live property.
+- Keyword Tool suggestions are real Google autocomplete signals for Vietnam / Vietnamese.
+- Missing volume, trend, competition, difficulty or CPC stay `null`; never invent them.
+- User-requested keywords are tagged `UserSeed:2026-10-06`.
+- Editorial angles without measured keyword data carry no fabricated metrics.
+
+## Cannibalization rule
+
+Before writing any row, compare its `cannibalization_guard`, `primary_keyword`, and `secondary_keywords` against already published posts. If two rows answer the same intent, merge them into one stronger article.
+
+## Business/legal verification
+
+Before publication, respect every row's `validation_required`. Prices, deposits, delivery promises, support hours, inventory and model availability must be current. Licence, 50cc, age, insurance and traffic-law statements require current Vietnamese legal verification.

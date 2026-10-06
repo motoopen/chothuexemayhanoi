@@ -29,6 +29,17 @@ jobs:
           source: ./
           destination: ./_site
 
+      - name: Verify SEO article matrix
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f _seo/article-matrix-300.json
+          jq -e '.role == "canonical_article_matrix"' _seo/article-matrix-300.json >/dev/null
+          jq -e '.article_count == 300 and (.items | length == 300)' _seo/article-matrix-300.json >/dev/null
+          test "$(jq -r '.items[].primary_keyword' _seo/article-matrix-300.json | sort | uniq -d | wc -l)" -eq 0
+          test "$(jq -r '.items[].slug' _seo/article-matrix-300.json | sort | uniq -d | wc -l)" -eq 0
+          test "$(jq '[.items[] | select(.status == "published")] | length' _seo/article-matrix-300.json)" -eq 2
+
       - name: Verify generated public pages
         shell: bash
         run: |

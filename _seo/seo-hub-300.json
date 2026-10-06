@@ -7898,5 +7898,8 @@
       ],
       "status": "planned"
     }
-  ]
+  ],
+  "role": "keyword_inventory_noncanonical",
+  "canonical_article_matrix": "_seo/article-matrix-300.json",
+  "warning": "Do not use this keyword inventory as a 300-post writing queue. Use the canonical article matrix."
 }
