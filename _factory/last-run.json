@@ -1,67 +1,32 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-07T01:57:58+07:00",
-  "finished_at": "2026-10-07T01:57:58+07:00",
-  "selected_count": 6,
-  "published_total": 4,
+  "started_at": "2026-10-07T01:59:33+07:00",
+  "finished_at": "2026-10-07T01:59:33+07:00",
+  "selected_count": 2,
+  "published_total": 2,
   "published": [
     {
-      "id": 249,
-      "source": "_factory/incoming/249.md",
-      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-di-tam-dao.md",
-      "url": "/blog/thue-xe-may-ha-noi-di-tam-dao/",
-      "word_count": 653,
-      "warnings": []
-    },
-    {
-      "id": 250,
-      "source": "_factory/incoming/250.md",
-      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-di-hoa-binh.md",
-      "url": "/blog/thue-xe-may-ha-noi-di-hoa-binh/",
-      "word_count": 651,
-      "warnings": []
-    },
-    {
-      "id": 251,
-      "source": "_factory/incoming/251.md",
-      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-di-mai-chau.md",
-      "url": "/blog/thue-xe-may-ha-noi-di-mai-chau/",
-      "word_count": 671,
-      "warnings": []
-    },
-    {
-      "id": 252,
-      "source": "_factory/incoming/252.md",
-      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-di-moc-chau.md",
-      "url": "/blog/thue-xe-may-ha-noi-di-moc-chau/",
-      "word_count": 677,
-      "warnings": []
-    }
-  ],
-  "recoverable_total": 2,
-  "recoverable": [
-    {
-      "path": "_factory/incoming/247.md",
       "id": 247,
-      "errors": [
-        "thin draft: 630 words < 650"
-      ],
-      "warnings": [],
-      "word_count": 630
+      "source": "_factory/incoming/247.md",
+      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-di-ninh-binh.md",
+      "url": "/blog/thue-xe-may-ha-noi-di-ninh-binh/",
+      "word_count": 775,
+      "warnings": []
     },
     {
-      "path": "_factory/incoming/248.md",
       "id": 248,
-      "errors": [
-        "thin draft: 643 words < 650"
-      ],
-      "warnings": [],
-      "word_count": 643
+      "source": "_factory/incoming/248.md",
+      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-di-ba-vi.md",
+      "url": "/blog/thue-xe-may-ha-noi-di-ba-vi/",
+      "word_count": 780,
+      "warnings": []
     }
   ],
+  "recoverable_total": 0,
+  "recoverable": [],
   "fatal": null,
   "status_counts": {
-    "planned": 50,
-    "published": 250
+    "planned": 48,
+    "published": 252
   }
 }

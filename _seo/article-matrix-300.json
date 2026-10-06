@@ -36,8 +36,8 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 50,
-    "published": 250
+    "planned": 48,
+    "published": 252
   },
   "items": [
     {
@@ -12935,7 +12935,7 @@
         "verify-current-traffic-law"
       ],
       "cannibalization_guard": "Mỗi bài phải là một hành trình/use case khác biệt.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "kinh-nghiem",
         "parent_label": "Kinh nghiệm",
@@ -12947,7 +12947,10 @@
       "front_matter": {
         "hub_parent": "kinh-nghiem",
         "hub_category": "hanh-trinh"
-      }
+      },
+      "published_at": "2026-10-07T01:59:33+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-ha-noi-di-ninh-binh.md",
+      "published_url": "/blog/thue-xe-may-ha-noi-di-ninh-binh/"
     },
     {
       "id": 248,
@@ -12985,7 +12988,7 @@
         "verify-current-traffic-law"
       ],
       "cannibalization_guard": "Mỗi bài phải là một hành trình/use case khác biệt.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "kinh-nghiem",
         "parent_label": "Kinh nghiệm",
@@ -12997,7 +13000,10 @@
       "front_matter": {
         "hub_parent": "kinh-nghiem",
         "hub_category": "hanh-trinh"
-      }
+      },
+      "published_at": "2026-10-07T01:59:33+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-ha-noi-di-ba-vi.md",
+      "published_url": "/blog/thue-xe-may-ha-noi-di-ba-vi/"
     },
     {
       "id": 249,
@@ -15596,5 +15602,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T01:57:58+07:00"
+  "updated_at": "2026-10-07T01:59:33+07:00"
 }
