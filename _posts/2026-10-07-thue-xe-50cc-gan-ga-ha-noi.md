@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe 50cc gần Ga Hà Nội: nhận xe thế nào để đỡ mang hành lý xa?"
+date: 2026-10-07 01:20:19 +0700
+description: "Thuê xe 50cc gần Ga Hà Nội nên nhận xe thế nào để đỡ mang hành lý xa, từ chọn điểm nhận quanh ga, khung giờ đến cách chốt phí giao."
+author: "Motoopen"
 matrix_id: 87
-description: Thuê xe 50cc gần Ga Hà Nội nên nhận xe thế nào để đỡ mang hành lý xa, từ chọn điểm nhận quanh ga, khung giờ đến cách chốt phí giao.
+primary_keyword: "thuê xe 50cc gần ga hà nội"
+hub_parent: loai-xe
+hub_category: xe-50cc
 ---
-
 Tàu đến Ga Hà Nội, việc đầu tiên nhiều khách nghĩ tới là thuê xe đi tiếp, và câu hỏi là nhận xe ở đâu cho đỡ mang hành lý xa. Bài này chỉ cách chọn điểm nhận quanh ga và chốt các khoản liên quan.
 
 ## Nhận xe quanh ga thay vì dắt đồ đi tìm

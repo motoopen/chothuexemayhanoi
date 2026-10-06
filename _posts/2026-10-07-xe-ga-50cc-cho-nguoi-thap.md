@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Xe ga 50cc cho người thấp: cách kiểm tra chiều cao yên và độ nặng"
+date: 2026-10-07 01:20:19 +0700
+description: "Người thấp chọn xe ga 50cc nên kiểm tra chiều cao yên và độ nặng thế nào, kèm cách thử chân chạm đất, dắt xe và ưu tiên dòng nhẹ khi nhận."
+author: "Motoopen"
 matrix_id: 86
-description: Người thấp chọn xe ga 50cc nên kiểm tra chiều cao yên và độ nặng thế nào, kèm cách thử chân chạm đất, dắt xe và ưu tiên dòng nhẹ khi nhận.
+primary_keyword: "xe ga 50cc cho người thấp"
+hub_parent: loai-xe
+hub_category: xe-50cc
 ---
-
 Với người thấp, hai yếu tố quyết định an toàn trên xe ga 50cc là chiều cao yên và độ nặng chiếc xe. May là dòng 50cc vốn nhẹ và yên thấp, nhưng giữa các chiếc vẫn có khác nhau. Bài này chỉ cách kiểm tra để chọn được chiếc hợp dáng người mình.
 
 ## Kiểm tra chiều cao yên khi nhận

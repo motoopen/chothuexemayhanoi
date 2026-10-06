@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe 50cc Hà Nội giao tận nơi: checklist bàn giao tại chỗ"
+date: 2026-10-07 01:20:19 +0700
+description: "Thuê xe 50cc Hà Nội giao tận nơi cần checklist bàn giao tại chỗ gồm gì, từ khung giờ, kiểm tra xe trước mặt, giấy tờ đến chụp hiện trạng."
+author: "Motoopen"
 matrix_id: 90
-description: Thuê xe 50cc Hà Nội giao tận nơi cần checklist bàn giao tại chỗ gồm gì, từ khung giờ, kiểm tra xe trước mặt, giấy tờ đến chụp hiện trạng.
+primary_keyword: "thuê xe 50cc hà nội giao tận nơi"
+hub_parent: loai-xe
+hub_category: xe-50cc
 ---
-
 Giao xe tận nơi là dịch vụ tiện, nhưng bàn giao tại cửa nhà hay khách sạn khác nhận xe tại điểm: không có mặt bằng để thử, mọi thứ phải làm gọn tại chỗ. Bài này là checklist bàn giao khi xe được giao tận nơi.
 
 ## Chốt khung giờ và địa điểm cụ thể

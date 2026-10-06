@@ -36,8 +36,8 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 178,
-    "published": 122
+    "planned": 172,
+    "published": 128
   },
   "items": [
     {
@@ -4467,7 +4467,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Không tách các biến thể chính tả cùng intent thành nhiều bài; gom chúng vào secondary keywords.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -4479,7 +4479,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-50cc"
-      }
+      },
+      "published_at": "2026-10-07T01:20:19+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-50cc-cho-nguoi-moi-lai.md",
+      "published_url": "/blog/thue-xe-50cc-cho-nguoi-moi-lai/"
     },
     {
       "id": 86,
@@ -4516,7 +4519,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Không tách các biến thể chính tả cùng intent thành nhiều bài; gom chúng vào secondary keywords.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -4528,7 +4531,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-50cc"
-      }
+      },
+      "published_at": "2026-10-07T01:20:19+07:00",
+      "published_path": "_posts/2026-10-07-xe-ga-50cc-cho-nguoi-thap.md",
+      "published_url": "/blog/xe-ga-50cc-cho-nguoi-thap/"
     },
     {
       "id": 87,
@@ -4565,7 +4571,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Không tách các biến thể chính tả cùng intent thành nhiều bài; gom chúng vào secondary keywords.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -4577,7 +4583,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-50cc"
-      }
+      },
+      "published_at": "2026-10-07T01:20:19+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-50cc-gan-ga-ha-noi.md",
+      "published_url": "/blog/thue-xe-50cc-gan-ga-ha-noi/"
     },
     {
       "id": 88,
@@ -4614,7 +4623,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Không tách các biến thể chính tả cùng intent thành nhiều bài; gom chúng vào secondary keywords.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -4626,7 +4635,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-50cc"
-      }
+      },
+      "published_at": "2026-10-07T01:20:19+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-50cc-gan-noi-bai.md",
+      "published_url": "/blog/thue-xe-50cc-gan-noi-bai/"
     },
     {
       "id": 89,
@@ -4663,7 +4675,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Không tách các biến thể chính tả cùng intent thành nhiều bài; gom chúng vào secondary keywords.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -4675,7 +4687,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-50cc"
-      }
+      },
+      "published_at": "2026-10-07T01:20:19+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-50cc-ha-noi-theo-tuan.md",
+      "published_url": "/blog/thue-xe-50cc-ha-noi-theo-tuan/"
     },
     {
       "id": 90,
@@ -4712,7 +4727,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Không tách các biến thể chính tả cùng intent thành nhiều bài; gom chúng vào secondary keywords.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -4724,7 +4739,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-50cc"
-      }
+      },
+      "published_at": "2026-10-07T01:20:19+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-50cc-ha-noi-giao-tan-noi.md",
+      "published_url": "/blog/thue-xe-50cc-ha-noi-giao-tan-noi/"
     },
     {
       "id": 91,
@@ -15212,5 +15230,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T01:19:15+07:00"
+  "updated_at": "2026-10-07T01:20:19+07:00"
 }

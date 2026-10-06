@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe 50cc Hà Nội theo tuần: phù hợp ai và cần hỏi gì về bảo dưỡng?"
+date: 2026-10-07 01:20:19 +0700
+description: "Thuê xe 50cc Hà Nội theo tuần phù hợp ai và cần hỏi gì về bảo dưỡng, tạm ngưng, đổi xe và phạm vi gói để cả tuần không gián đoạn."
+author: "Motoopen"
 matrix_id: 89
-description: Thuê xe 50cc Hà Nội theo tuần phù hợp ai và cần hỏi gì về bảo dưỡng, tạm ngưng, đổi xe và phạm vi gói để cả tuần không gián đoạn.
+primary_keyword: "thuê xe 50cc hà nội theo tuần"
+hub_parent: loai-xe
+hub_category: xe-50cc
 ---
-
 Gói tuần là lựa chọn giữa tính lẻ ngày và gói tháng, hợp với khách đi lại đều trong bảy đến mười ngày. Bài này cho biết gói tuần phù hợp ai và các câu nên hỏi về bảo dưỡng để cả tuần không gián đoạn.
 
 ## Gói tuần phù hợp với ai

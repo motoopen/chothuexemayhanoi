@@ -1,60 +1,56 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-07T01:19:15+07:00",
-  "finished_at": "2026-10-07T01:19:15+07:00",
+  "started_at": "2026-10-07T01:20:19+07:00",
+  "finished_at": "2026-10-07T01:20:19+07:00",
   "selected_count": 6,
   "published_total": 6,
   "published": [
     {
-      "id": 79,
-      "source": "_factory/incoming/79.md",
-      "post": "_posts/2026-10-07-xe-50cc-co-tiet-kiem-xang-khong.md",
-      "url": "/blog/xe-50cc-co-tiet-kiem-xang-khong/",
-      "word_count": 767,
+      "id": 85,
+      "source": "_factory/incoming/85.md",
+      "post": "_posts/2026-10-07-thue-xe-50cc-cho-nguoi-moi-lai.md",
+      "url": "/blog/thue-xe-50cc-cho-nguoi-moi-lai/",
+      "word_count": 697,
       "warnings": []
     },
     {
-      "id": 80,
-      "source": "_factory/incoming/80.md",
-      "post": "_posts/2026-10-07-xe-50cc-mang-hanh-ly.md",
-      "url": "/blog/xe-50cc-mang-hanh-ly/",
-      "word_count": 772,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 81,
-      "source": "_factory/incoming/81.md",
-      "post": "_posts/2026-10-07-checklist-nhan-xe-50cc.md",
-      "url": "/blog/checklist-nhan-xe-50cc/",
-      "word_count": 718,
+      "id": 86,
+      "source": "_factory/incoming/86.md",
+      "post": "_posts/2026-10-07-xe-ga-50cc-cho-nguoi-thap.md",
+      "url": "/blog/xe-ga-50cc-cho-nguoi-thap/",
+      "word_count": 680,
       "warnings": []
     },
     {
-      "id": 82,
-      "source": "_factory/incoming/82.md",
-      "post": "_posts/2026-10-07-kiem-tra-phanh-lop-xe-50cc.md",
-      "url": "/blog/kiem-tra-phanh-lop-xe-50cc/",
-      "word_count": 782,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 83,
-      "source": "_factory/incoming/83.md",
-      "post": "_posts/2026-10-07-thue-xe-50cc-mua-mua.md",
-      "url": "/blog/thue-xe-50cc-mua-mua/",
-      "word_count": 724,
+      "id": 87,
+      "source": "_factory/incoming/87.md",
+      "post": "_posts/2026-10-07-thue-xe-50cc-gan-ga-ha-noi.md",
+      "url": "/blog/thue-xe-50cc-gan-ga-ha-noi/",
+      "word_count": 743,
       "warnings": []
     },
     {
-      "id": 84,
-      "source": "_factory/incoming/84.md",
-      "post": "_posts/2026-10-07-thue-xe-50cc-ban-dem.md",
-      "url": "/blog/thue-xe-50cc-ban-dem/",
-      "word_count": 736,
+      "id": 88,
+      "source": "_factory/incoming/88.md",
+      "post": "_posts/2026-10-07-thue-xe-50cc-gan-noi-bai.md",
+      "url": "/blog/thue-xe-50cc-gan-noi-bai/",
+      "word_count": 752,
+      "warnings": []
+    },
+    {
+      "id": 89,
+      "source": "_factory/incoming/89.md",
+      "post": "_posts/2026-10-07-thue-xe-50cc-ha-noi-theo-tuan.md",
+      "url": "/blog/thue-xe-50cc-ha-noi-theo-tuan/",
+      "word_count": 701,
+      "warnings": []
+    },
+    {
+      "id": 90,
+      "source": "_factory/incoming/90.md",
+      "post": "_posts/2026-10-07-thue-xe-50cc-ha-noi-giao-tan-noi.md",
+      "url": "/blog/thue-xe-50cc-ha-noi-giao-tan-noi/",
+      "word_count": 780,
       "warnings": []
     }
   ],
@@ -62,7 +58,7 @@
   "recoverable": [],
   "fatal": null,
   "status_counts": {
-    "planned": 178,
-    "published": 122
+    "planned": 172,
+    "published": 128
   }
 }
