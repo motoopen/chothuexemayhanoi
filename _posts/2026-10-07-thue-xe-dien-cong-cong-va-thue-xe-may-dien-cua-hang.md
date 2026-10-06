@@ -1,8 +1,14 @@
 ---
-matrix_id: 135
+layout: post
+title: "Thuê xe điện công cộng hay thuê xe máy điện tại cửa hàng: nên chọn cách nào?"
+date: 2026-10-07 02:11:44 +0700
 description: "Thuê xe điện công cộng hay thuê xe máy điện tại cửa hàng ở Hà Nội: so sánh cách mở khóa, phạm vi chạy, chi phí và hỗ trợ để chọn đúng."
+author: "Motoopen"
+matrix_id: 135
+primary_keyword: "thuê xe điện công cộng và thuê xe máy điện cửa hàng"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Trong các lựa chọn di chuyển bằng xe máy điện tại Hà Nội, nhiều người đứng giữa hai phương án: dùng xe điện công cộng dạng thuê theo giờ qua ứng dụng, và thuê nguyên chiếc xe máy điện tại cửa hàng cho thuê. Hai phương án này nhìn giống nhau nhưng phục vụ hai nhu cầu rất khác nhau. Bài này so sánh chi tiết để bạn chọn đúng theo từng loại chuyến đi.
 
 ## Cách vận hành của mỗi phương án

@@ -36,8 +36,8 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 5,
-    "published": 295
+    "planned": 3,
+    "published": 297
   },
   "items": [
     {
@@ -7098,7 +7098,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -7110,7 +7110,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T02:11:44+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-dien-cong-cong-va-thue-xe-may-dien-cua-hang.md",
+      "published_url": "/blog/thue-xe-dien-cong-cong-va-thue-xe-may-dien-cua-hang/"
     },
     {
       "id": 136,
@@ -7299,7 +7302,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Mỗi bài phải có tiêu chí lựa chọn riêng, không chỉ thay tên model.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -7311,7 +7314,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "cac-loai-xe"
-      }
+      },
+      "published_at": "2026-10-07T02:11:44+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-vision-ha-noi.md",
+      "published_url": "/blog/thue-xe-vision-ha-noi/"
     },
     {
       "id": 140,
@@ -15731,5 +15737,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T02:10:38+07:00"
+  "updated_at": "2026-10-07T02:11:44+07:00"
 }

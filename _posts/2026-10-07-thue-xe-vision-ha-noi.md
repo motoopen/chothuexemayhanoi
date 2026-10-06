@@ -1,8 +1,14 @@
 ---
-matrix_id: 139
+layout: post
+title: "Thuê xe Vision Hà Nội: 7 tiêu chí kiểm tra trước khi đặt"
+date: 2026-10-07 02:11:44 +0700
 description: "Thuê xe Vision Hà Nội: bảy tiêu chí kiểm tra từ vận hành máy, phanh lốp đến giấy tờ và phụ kiện trước khi đặt cọc nhận xe."
+author: "Motoopen"
+matrix_id: 139
+primary_keyword: "thuê xe vision hà nội"
+hub_parent: loai-xe
+hub_category: cac-loai-xe
 ---
-
 Honda Vision là một trong những dòng xe ga được thuê nhiều nhất tại Hà Nội nhờ nhỏ gọn, nhẹ và dễ lái. Nhưng chính vì được thuê dày đặc, nhiều chiếc Vision ở các cửa hàng đã có quãng đường sử dụng đáng kể. Bảy tiêu chí dưới đây giúp bạn chọn được chiếc Vision đáng tiền trước khi đặt cọc.
 
 ## Bảy tiêu chí trước khi đặt xe

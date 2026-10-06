@@ -1,70 +1,26 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-07T02:10:38+07:00",
-  "finished_at": "2026-10-07T02:10:38+07:00",
-  "selected_count": 7,
-  "published_total": 7,
+  "started_at": "2026-10-07T02:11:44+07:00",
+  "finished_at": "2026-10-07T02:11:44+07:00",
+  "selected_count": 2,
+  "published_total": 2,
   "published": [
     {
-      "id": 284,
-      "source": "_factory/incoming/284.md",
-      "post": "_posts/2026-10-07-di-xe-thue-ban-dem.md",
-      "url": "/blog/di-xe-thue-ban-dem/",
-      "word_count": 782,
-      "warnings": []
-    },
-    {
-      "id": 285,
-      "source": "_factory/incoming/285.md",
-      "post": "_posts/2026-10-07-gui-xe-may-thue-an-toan.md",
-      "url": "/blog/gui-xe-may-thue-an-toan/",
-      "word_count": 700,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 286,
-      "source": "_factory/incoming/286.md",
-      "post": "_posts/2026-10-07-chong-mat-trom-xe-thue.md",
-      "url": "/blog/chong-mat-trom-xe-thue/",
-      "word_count": 714,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 287,
-      "source": "_factory/incoming/287.md",
-      "post": "_posts/2026-10-07-xe-thue-bi-thung-lop.md",
-      "url": "/blog/xe-thue-bi-thung-lop/",
-      "word_count": 756,
-      "warnings": []
-    },
-    {
-      "id": 288,
-      "source": "_factory/incoming/288.md",
-      "post": "_posts/2026-10-07-xe-thue-chet-may-giua-duong.md",
-      "url": "/blog/xe-thue-chet-may-giua-duong/",
-      "word_count": 719,
-      "warnings": []
-    },
-    {
-      "id": 289,
-      "source": "_factory/incoming/289.md",
-      "post": "_posts/2026-10-07-va-quet-nhe-xe-thue.md",
-      "url": "/blog/va-quet-nhe-xe-thue/",
+      "id": 135,
+      "source": "_factory/incoming/135.md",
+      "post": "_posts/2026-10-07-thue-xe-dien-cong-cong-va-thue-xe-may-dien-cua-hang.md",
+      "url": "/blog/thue-xe-dien-cong-cong-va-thue-xe-may-dien-cua-hang/",
       "word_count": 729,
       "warnings": [
         "matrix title does not contain exact primary keyword"
       ]
     },
     {
-      "id": 290,
-      "source": "_factory/incoming/290.md",
-      "post": "_posts/2026-10-07-checklist-tra-xe-may-thue.md",
-      "url": "/blog/checklist-tra-xe-may-thue/",
-      "word_count": 794,
+      "id": 139,
+      "source": "_factory/incoming/139.md",
+      "post": "_posts/2026-10-07-thue-xe-vision-ha-noi.md",
+      "url": "/blog/thue-xe-vision-ha-noi/",
+      "word_count": 721,
       "warnings": []
     }
   ],
@@ -72,7 +28,7 @@
   "recoverable": [],
   "fatal": null,
   "status_counts": {
-    "planned": 5,
-    "published": 295
+    "planned": 3,
+    "published": 297
   }
 }
