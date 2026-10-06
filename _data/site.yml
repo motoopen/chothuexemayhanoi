@@ -1,0 +1,50 @@
+brand:
+  name: "Motoopen"
+  tagline: "Thuê xe máy Hà Nội"
+  author: "Motoopen"
+  logo: "https://i.postimg.cc/brsmsj5N/IMG_5215.jpg"
+
+contact:
+  phone_raw: "0857255868"
+  phone_display: "0857 255 868"
+  email: "motoopen12@gmail.com"
+  address: "114 Nguyễn Văn Cừ, Long Biên, Hà Nội"
+  hours: "09:00 – 21:00 (Hàng ngày)"
+  map_url: "https://maps.app.goo.gl/2icTBTxAToyvKTE78"
+  zalo_url: "https://zalo.me/0857255868"
+
+social:
+  facebook: "https://m.facebook.com/motoopenvn/"
+  instagram: "https://www.instagram.com/motoopen/"
+  app: "https://motoopen.github.io/appthuexemay/"
+
+cta:
+  rental:
+    title: "Cần thuê xe tại Hà Nội?"
+    text: "Xem thông tin đang được công bố trên website hoặc liên hệ Motoopen để kiểm tra xe phù hợp."
+    primary_label: "Gọi ngay"
+    secondary_label: "Xem bảng giá"
+    secondary_url: "/banggia.html"
+  guide:
+    title: "Cần kiểm tra thêm trước khi đi?"
+    text: "Xem hướng dẫn, thủ tục hoặc liên hệ Motoopen nếu bạn cần đối chiếu thông tin."
+    primary_label: "Liên hệ"
+    secondary_label: "Xem hướng dẫn"
+    secondary_url: "/huongdan.html"
+
+features:
+  post_cta: true
+  related_posts: true
+  author_box: true
+  contact_box: true
+  article_schema: true
+  breadcrumb_schema: true
+  faq_schema: true
+  local_business_schema: false
+  ads: false
+  chatbot: false
+
+blog:
+  related_limit: 5
+  related_minimum: 0
+  default_author_bio: "Nội dung được xuất bản bởi Motoopen."
