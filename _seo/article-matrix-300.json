@@ -36,8 +36,8 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 244,
-    "published": 56
+    "planned": 238,
+    "published": 62
   },
   "items": [
     {
@@ -9485,7 +9485,7 @@
         "verify-current-delivery-area"
       ],
       "cannibalization_guard": "Mỗi location chỉ có tối đa 2 góc: hướng dẫn khu vực và logistics nhận/trả; phải có nội dung địa phương hữu ích.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "khu-vuc",
         "parent_label": "Khu vực",
@@ -9497,7 +9497,10 @@
       "front_matter": {
         "hub_parent": "khu-vuc",
         "hub_category": "ha-noi-theo-khu-vuc"
-      }
+      },
+      "published_at": "2026-10-07T01:01:56+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-ha-dong-ha-noi.md",
+      "published_url": "/blog/thue-xe-may-ha-dong-ha-noi/"
     },
     {
       "id": 190,
@@ -9881,7 +9884,7 @@
         "verify-current-delivery-area"
       ],
       "cannibalization_guard": "Mỗi location chỉ có tối đa 2 góc: hướng dẫn khu vực và logistics nhận/trả; phải có nội dung địa phương hữu ích.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "khu-vuc",
         "parent_label": "Khu vực",
@@ -9893,7 +9896,10 @@
       "front_matter": {
         "hub_parent": "khu-vuc",
         "hub_category": "ha-noi-theo-khu-vuc"
-      }
+      },
+      "published_at": "2026-10-07T01:01:56+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-gia-lam-ha-noi.md",
+      "published_url": "/blog/thue-xe-may-gia-lam-ha-noi/"
     },
     {
       "id": 198,
@@ -9980,7 +9986,7 @@
         "verify-current-delivery-area"
       ],
       "cannibalization_guard": "Mỗi location chỉ có tối đa 2 góc: hướng dẫn khu vực và logistics nhận/trả; phải có nội dung địa phương hữu ích.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "khu-vuc",
         "parent_label": "Khu vực",
@@ -9992,7 +9998,10 @@
       "front_matter": {
         "hub_parent": "khu-vuc",
         "hub_category": "ha-noi-theo-khu-vuc"
-      }
+      },
+      "published_at": "2026-10-07T01:01:56+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-dong-anh-ha-noi.md",
+      "published_url": "/blog/thue-xe-may-dong-anh-ha-noi/"
     },
     {
       "id": 200,
@@ -10079,7 +10088,7 @@
         "verify-current-delivery-area"
       ],
       "cannibalization_guard": "Mỗi location chỉ có tối đa 2 góc: hướng dẫn khu vực và logistics nhận/trả; phải có nội dung địa phương hữu ích.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "khu-vuc",
         "parent_label": "Khu vực",
@@ -10091,7 +10100,10 @@
       "front_matter": {
         "hub_parent": "khu-vuc",
         "hub_category": "ha-noi-theo-khu-vuc"
-      }
+      },
+      "published_at": "2026-10-07T01:01:56+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-thanh-xuan-ha-noi.md",
+      "published_url": "/blog/thue-xe-may-thanh-xuan-ha-noi/"
     },
     {
       "id": 202,
@@ -10965,7 +10977,7 @@
         "verify-current-delivery-area"
       ],
       "cannibalization_guard": "Mỗi location chỉ có tối đa 2 góc: hướng dẫn khu vực và logistics nhận/trả; phải có nội dung địa phương hữu ích.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "khu-vuc",
         "parent_label": "Khu vực",
@@ -10977,7 +10989,10 @@
       "front_matter": {
         "hub_parent": "khu-vuc",
         "hub_category": "ha-noi-theo-khu-vuc"
-      }
+      },
+      "published_at": "2026-10-07T01:01:56+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-soc-son-ha-noi.md",
+      "published_url": "/blog/thue-xe-may-soc-son-ha-noi/"
     },
     {
       "id": 220,
@@ -11064,7 +11079,7 @@
         "verify-current-vietnam-law"
       ],
       "cannibalization_guard": "Không tạo nhiều bài cho cùng một câu hỏi pháp lý; dùng secondary keywords cho biến thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -11076,7 +11091,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "thu-tuc-phap-ly"
-      }
+      },
+      "published_at": "2026-10-07T01:01:56+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-ha-noi-can-giay-to-gi.md",
+      "published_url": "/blog/thue-xe-may-ha-noi-can-giay-to-gi/"
     },
     {
       "id": 222,
@@ -15014,5 +15032,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T00:59:58+07:00"
+  "updated_at": "2026-10-07T01:01:56+07:00"
 }

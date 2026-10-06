@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy Hà Nội cần giấy tờ gì? Checklist trước khi đến nhận xe"
+date: 2026-10-07 01:01:56 +0700
+description: "Checklist giấy tờ cần mang theo khi thuê xe máy ở Hà Nội, gồm giấy tờ tùy thân thường được yêu cầu và cách chuẩn bị trước khi đến điểm nhận xe."
+author: "Motoopen"
 matrix_id: 221
-description: Checklist giấy tờ cần mang theo khi thuê xe máy ở Hà Nội, gồm giấy tờ tùy thân thường được yêu cầu và cách chuẩn bị trước khi đến điểm nhận xe.
+primary_keyword: "thuê xe máy hà nội cần giấy tờ gì"
+hub_parent: huong-dan
+hub_category: thu-tuc-phap-ly
 ---
-
 Đến điểm nhận xe mà thiếu giấy tờ là cách nhanh nhất để chuyến đi bị hoãn. Bài này gom lại checklist những gì nên chuẩn bị trước khi đến nhận xe thuê ở Hà Nội, để bạn chỉ cần ký hợp đồng và lăn bánh.
 
 ## Loại giấy tờ tùy thân thường được yêu cầu
