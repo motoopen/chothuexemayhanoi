@@ -61,7 +61,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          if git diff --quiet -- seo-optimization-matrix.json seo-optimization-matrix.md; then
+          if [ -z "$(git status --porcelain -- seo-optimization-matrix.json seo-optimization-matrix.md)" ]; then
             echo "SEO optimization matrix is already current."
             exit 0
           fi
