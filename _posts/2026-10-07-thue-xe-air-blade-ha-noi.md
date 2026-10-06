@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe Air Blade Hà Nội: nên chọn khi cần gì ở một chiếc xe ga?"
+date: 2026-10-07 01:29:38 +0700
+description: "Thuê xe Air Blade Hà Nội nên chọn khi cần gì ở một chiếc xe ga, từ phanh đĩa, cốp rộng đến máy êm, kèm bảy bước kiểm trước khi nhận."
+author: "Motoopen"
 matrix_id: 141
-description: Thuê xe Air Blade Hà Nội nên chọn khi cần gì ở một chiếc xe ga, từ phanh đĩa, cốp rộng đến máy êm, kèm bảy bước kiểm trước khi nhận.
+primary_keyword: "thuê xe air blade hà nội"
+hub_parent: loai-xe
+hub_category: cac-loai-xe
 ---
-
 Honda Air Blade nằm ở khung ga trung bình, đầm hơn Wave và gọn hơn SH, và khi thuê ở Hà Nội nó phục vụ nhóm nhu cầu rất rõ ràng. Bài này chỉ đúng những gì Air Blade làm tốt nhất và cách kiểm chiếc xe trước khi nhận.
 
 ## Air Blade làm tốt điều gì

@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe SH Hà Nội: cần cân nhắc trọng lượng, chi phí và kinh nghiệm lái"
+date: 2026-10-07 01:29:38 +0700
+description: "Thuê xe SH Hà Nội cần cân nhắc trọng lượng xe, chi phí cao hơn và kinh nghiệm lái của bạn, kèm những điểm kiểm riêng cho dòng ga lớn."
+author: "Motoopen"
 matrix_id: 143
-description: Thuê xe SH Hà Nội cần cân nhắc trọng lượng xe, chi phí cao hơn và kinh nghiệm lái của bạn, kèm những điểm kiểm riêng cho dòng ga lớn.
+primary_keyword: "thuê xe sh hà nội"
+hub_parent: loai-xe
+hub_category: cac-loai-xe
 ---
-
 Honda SH là dòng ga lớn sang nhất trong nhóm xe cho thuê ở Hà Nội, và cũng là dòng đòi cân nhắc nhất về cân nặng, chi phí và kinh nghiệm. Bài này đi qua từng yếu tố để bạn quyết nhanh có nên thuê SH hay không.
 
 ## Trọng lượng là yếu tố đầu tiên

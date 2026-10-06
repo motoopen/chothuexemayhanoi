@@ -36,8 +36,8 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 144,
-    "published": 156
+    "planned": 138,
+    "published": 162
   },
   "items": [
     {
@@ -7398,7 +7398,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Mỗi bài phải có tiêu chí lựa chọn riêng, không chỉ thay tên model.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -7410,7 +7410,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "cac-loai-xe"
-      }
+      },
+      "published_at": "2026-10-07T01:29:38+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-air-blade-ha-noi.md",
+      "published_url": "/blog/thue-xe-air-blade-ha-noi/"
     },
     {
       "id": 142,
@@ -7446,7 +7449,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Mỗi bài phải có tiêu chí lựa chọn riêng, không chỉ thay tên model.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -7458,7 +7461,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "cac-loai-xe"
-      }
+      },
+      "published_at": "2026-10-07T01:29:38+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-lead-ha-noi.md",
+      "published_url": "/blog/thue-xe-lead-ha-noi/"
     },
     {
       "id": 143,
@@ -7494,7 +7500,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Mỗi bài phải có tiêu chí lựa chọn riêng, không chỉ thay tên model.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -7506,7 +7512,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "cac-loai-xe"
-      }
+      },
+      "published_at": "2026-10-07T01:29:38+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-sh-ha-noi.md",
+      "published_url": "/blog/thue-xe-sh-ha-noi/"
     },
     {
       "id": 144,
@@ -7542,7 +7551,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Mỗi bài phải có tiêu chí lựa chọn riêng, không chỉ thay tên model.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -7554,7 +7563,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "cac-loai-xe"
-      }
+      },
+      "published_at": "2026-10-07T01:29:38+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-vespa-ha-noi.md",
+      "published_url": "/blog/thue-xe-vespa-ha-noi/"
     },
     {
       "id": 145,
@@ -7590,7 +7602,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Mỗi bài phải có tiêu chí lựa chọn riêng, không chỉ thay tên model.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -7602,7 +7614,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "cac-loai-xe"
-      }
+      },
+      "published_at": "2026-10-07T01:29:38+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-exciter-ha-noi.md",
+      "published_url": "/blog/thue-xe-exciter-ha-noi/"
     },
     {
       "id": 146,
@@ -7638,7 +7653,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Mỗi bài phải có tiêu chí lựa chọn riêng, không chỉ thay tên model.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -7650,7 +7665,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "cac-loai-xe"
-      }
+      },
+      "published_at": "2026-10-07T01:29:38+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-winner-ha-noi.md",
+      "published_url": "/blog/thue-xe-winner-ha-noi/"
     },
     {
       "id": 147,
@@ -15314,5 +15332,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T01:27:42+07:00"
+  "updated_at": "2026-10-07T01:29:38+07:00"
 }

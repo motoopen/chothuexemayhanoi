@@ -1,24 +1,56 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-07T01:27:42+07:00",
-  "finished_at": "2026-10-07T01:27:42+07:00",
-  "selected_count": 2,
-  "published_total": 2,
+  "started_at": "2026-10-07T01:29:38+07:00",
+  "finished_at": "2026-10-07T01:29:38+07:00",
+  "selected_count": 6,
+  "published_total": 6,
   "published": [
     {
-      "id": 129,
-      "source": "_factory/incoming/129.md",
-      "post": "_posts/2026-10-07-thue-xe-may-dien-di-quang-ngan.md",
-      "url": "/blog/thue-xe-may-dien-di-quang-ngan/",
-      "word_count": 727,
+      "id": 141,
+      "source": "_factory/incoming/141.md",
+      "post": "_posts/2026-10-07-thue-xe-air-blade-ha-noi.md",
+      "url": "/blog/thue-xe-air-blade-ha-noi/",
+      "word_count": 676,
       "warnings": []
     },
     {
-      "id": 133,
-      "source": "_factory/incoming/133.md",
-      "post": "_posts/2026-10-07-checklist-nhan-xe-may-dien.md",
-      "url": "/blog/checklist-nhan-xe-may-dien/",
-      "word_count": 756,
+      "id": 142,
+      "source": "_factory/incoming/142.md",
+      "post": "_posts/2026-10-07-thue-xe-lead-ha-noi.md",
+      "url": "/blog/thue-xe-lead-ha-noi/",
+      "word_count": 666,
+      "warnings": []
+    },
+    {
+      "id": 143,
+      "source": "_factory/incoming/143.md",
+      "post": "_posts/2026-10-07-thue-xe-sh-ha-noi.md",
+      "url": "/blog/thue-xe-sh-ha-noi/",
+      "word_count": 680,
+      "warnings": []
+    },
+    {
+      "id": 144,
+      "source": "_factory/incoming/144.md",
+      "post": "_posts/2026-10-07-thue-xe-vespa-ha-noi.md",
+      "url": "/blog/thue-xe-vespa-ha-noi/",
+      "word_count": 674,
+      "warnings": []
+    },
+    {
+      "id": 145,
+      "source": "_factory/incoming/145.md",
+      "post": "_posts/2026-10-07-thue-xe-exciter-ha-noi.md",
+      "url": "/blog/thue-xe-exciter-ha-noi/",
+      "word_count": 676,
+      "warnings": []
+    },
+    {
+      "id": 146,
+      "source": "_factory/incoming/146.md",
+      "post": "_posts/2026-10-07-thue-xe-winner-ha-noi.md",
+      "url": "/blog/thue-xe-winner-ha-noi/",
+      "word_count": 705,
       "warnings": []
     }
   ],
@@ -26,7 +58,7 @@
   "recoverable": [],
   "fatal": null,
   "status_counts": {
-    "planned": 144,
-    "published": 156
+    "planned": 138,
+    "published": 162
   }
 }

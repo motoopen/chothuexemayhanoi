@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe Vespa Hà Nội: nên kiểm tra gì về thao tác và tình trạng xe?"
+date: 2026-10-07 01:29:38 +0700
+description: "Thuê xe Vespa Hà Nội cần kiểm gì về thao tác lái khác biệt và tình trạng xe, từ tay ga nặng, vô lăng đến các điểm rà trước khi nhận."
+author: "Motoopen"
 matrix_id: 144
-description: Thuê xe Vespa Hà Nội cần kiểm gì về thao tác lái khác biệt và tình trạng xe, từ tay ga nặng, vô lăng đến các điểm rà trước khi nhận.
+primary_keyword: "thuê xe vespa hà nội"
+hub_parent: loai-xe
+hub_category: cac-loai-xe
 ---
-
 Vespa cho trải nghiệm lái khác hẳn mọi dòng xe ga Nhật, và khi thuê ở Hà Nội bạn cần biết trước những khác biệt thao tác lẫn điểm cần kiểm tình trạng xe. Bài này tóm gọn cả hai.
 
 ## Thao tác khác biệt cần làm quen
