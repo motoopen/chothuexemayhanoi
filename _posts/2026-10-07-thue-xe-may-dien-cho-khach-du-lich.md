@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy điện cho khách du lịch: khi nào tiện hơn xe xăng?"
+date: 2026-10-07 01:21:28 +0700
+description: "Khách du lịch nên thuê xe máy điện khi nào cho tiện hơn xe xăng, so theo lịch trình, chỗ sạc quanh điểm lưu trú và kinh nghiệm đi phố Hà Nội."
+author: "Motoopen"
 matrix_id: 113
-description: Khách du lịch nên thuê xe máy điện khi nào cho tiện hơn xe xăng, so theo lịch trình, chỗ sạc quanh điểm lưu trú và kinh nghiệm đi phố Hà Nội.
+primary_keyword: "thuê xe máy điện cho khách du lịch"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Với khách du lịch ở Hà Nội vài ngày, chọn giữa xe máy điện và xe xăng không phải câu hỏi sở thích mà là câu hỏi lịch trình. Bài này so hai lựa chọn theo từng tiêu chí để bạn chốt nhanh.
 
 ## Lịch trình nào điện tiện hơn

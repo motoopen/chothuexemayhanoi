@@ -36,8 +36,8 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 172,
-    "published": 128
+    "planned": 166,
+    "published": 134
   },
   "items": [
     {
@@ -5261,7 +5261,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -5273,7 +5273,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T01:21:28+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-dien-theo-ngay-ha-noi.md",
+      "published_url": "/blog/thue-xe-may-dien-theo-ngay-ha-noi/"
     },
     {
       "id": 101,
@@ -5792,7 +5795,7 @@
         "verify-current-vietnam-law"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -5804,7 +5807,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T01:21:28+07:00",
+      "published_path": "_posts/2026-10-07-xe-dien-co-can-bang-lai-khong.md",
+      "published_url": "/blog/xe-dien-co-can-bang-lai-khong/"
     },
     {
       "id": 111,
@@ -5841,7 +5847,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -5853,7 +5859,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T01:21:28+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-dien-cho-nguoi-nuoc-ngoai.md",
+      "published_url": "/blog/thue-xe-may-dien-cho-nguoi-nuoc-ngoai/"
     },
     {
       "id": 112,
@@ -5890,7 +5899,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -5902,7 +5911,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T01:21:28+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-dien-cho-sinh-vien.md",
+      "published_url": "/blog/thue-xe-may-dien-cho-sinh-vien/"
     },
     {
       "id": 113,
@@ -5939,7 +5951,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -5951,7 +5963,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T01:21:28+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-dien-cho-khach-du-lich.md",
+      "published_url": "/blog/thue-xe-may-dien-cho-khach-du-lich/"
     },
     {
       "id": 114,
@@ -5988,7 +6003,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -6000,7 +6015,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T01:21:28+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-dien-pho-co-ha-noi.md",
+      "published_url": "/blog/thue-xe-may-dien-pho-co-ha-noi/"
     },
     {
       "id": 115,
@@ -15230,5 +15248,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T01:20:19+07:00"
+  "updated_at": "2026-10-07T01:21:28+07:00"
 }

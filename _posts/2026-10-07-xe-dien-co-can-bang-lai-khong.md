@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Xe điện có cần bằng lái không? Phân biệt xe máy điện, xe đạp điện và ô tô điện"
+date: 2026-10-07 01:21:28 +0700
+description: "Xe điện có cần bằng lái không phụ thuộc loại xe, phân biệt xe máy điện, xe đạp điện và ô tô điện, kèm cách tra quy định hiện hành trước khi thuê."
+author: "Motoopen"
 matrix_id: 110
-description: Xe điện có cần bằng lái không phụ thuộc loại xe, phân biệt xe máy điện, xe đạp điện và ô tô điện, kèm cách tra quy định hiện hành trước khi thuê.
+primary_keyword: "xe điện có cần bằng lái không"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Câu hỏi xe điện có cần bằng lái không không có một đáp án cho mọi chiếc, vì các loại xe điện được xếp khác nhau: xe đạp điện, xe máy điện và ô tô điện thuộc nhóm khác nhau về giấy tờ người lái. Bài này giúp bạn phân biệt và tra đúng trường hợp của mình.
 
 ## Phân biệt ba loại xe điện

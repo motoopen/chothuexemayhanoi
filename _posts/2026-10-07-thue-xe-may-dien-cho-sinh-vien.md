@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy điện cho sinh viên: chọn theo quãng đường, sạc và ngân sách"
+date: 2026-10-07 01:21:28 +0700
+description: "Sinh viên thuê xe máy điện nên chọn theo quãng đường, chỗ sạc và ngân sách thế nào, kèm cách so gói tuần tháng và các khoản chi đi kèm."
+author: "Motoopen"
 matrix_id: 112
-description: Sinh viên thuê xe máy điện nên chọn theo quãng đường, chỗ sạc và ngân sách thế nào, kèm cách so gói tuần tháng và các khoản chi đi kèm.
+primary_keyword: "thuê xe máy điện cho sinh viên"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Với sinh viên ở Hà Nội, xe máy điện là lựa chọn được hỏi nhiều sau dòng 50cc, vì chi năng lượng rẻ và xe êm dễ lái. Nhưng chọn đúng cần so theo quãng đường, chỗ sạc và tổng ngân sách. Bài này chỉ cách chọn cho từng hoàn cảnh.
 
 ## Chọn theo quãng đường hằng ngày

@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy điện theo ngày Hà Nội: phù hợp chuyến đi nào?"
+date: 2026-10-07 01:21:28 +0700
+description: "Thuê xe máy điện theo ngày ở Hà Nội phù hợp chuyến đi nào, từ quãng ngắn trong phố, lịch cố định đến các điểm sạc và cách tính tổng chi."
+author: "Motoopen"
 matrix_id: 100
-description: Thuê xe máy điện theo ngày ở Hà Nội phù hợp chuyến đi nào, từ quãng ngắn trong phố, lịch cố định đến các điểm sạc và cách tính tổng chi.
+primary_keyword: "thuê xe máy điện theo ngày hà nội"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Xe máy điện theo ngày là lựa chọn ngày càng phổ biến ở Hà Nội, phù hợp với một số dạng chuyến đi rõ rệt và không hợp với một số dạng khác. Bài này giúp bạn xác định chuyến của mình thuộc nhóm nào và tính tổng chi trước khi cọc.
 
 ## Chuyến đi hợp với thuê điện theo ngày

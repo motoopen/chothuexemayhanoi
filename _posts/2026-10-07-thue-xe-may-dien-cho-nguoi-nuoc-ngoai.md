@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy điện cho người nước ngoài: giấy tờ và quy định cần kiểm tra"
+date: 2026-10-07 01:21:28 +0700
+description: "Người nước ngoài thuê xe máy điện ở Hà Nội cần kiểm tra giấy tờ và quy định nào, từ giấy phép lái, công nhận giấy phép đến cách chọn gói phù hợp."
+author: "Motoopen"
 matrix_id: 111
-description: Người nước ngoài thuê xe máy điện ở Hà Nội cần kiểm tra giấy tờ và quy định nào, từ giấy phép lái, công nhận giấy phép đến cách chọn gói phù hợp.
+primary_keyword: "thuê xe máy điện cho người nước ngoài"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Người nước ngoài chọn xe máy điện để đi lại Hà Nội ngày càng nhiều vì xe êm và dễ lái, nhưng giấy tờ và quy định cho người nước ngoài có phần riêng cần kiểm tra. Bài này liệt kê các khoản nên rà trước khi đặt cọc.
 
 ## Giấy phép lái của người nước ngoài với xe điện
