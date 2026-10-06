@@ -1,12 +1,64 @@
 {
   "schema_version": 1,
-  "started_at": null,
-  "finished_at": null,
-  "selected_count": 0,
-  "published_total": 0,
-  "published": [],
+  "started_at": "2026-10-07T00:44:48+07:00",
+  "finished_at": "2026-10-07T00:44:48+07:00",
+  "selected_count": 6,
+  "published_total": 6,
+  "published": [
+    {
+      "id": 1,
+      "source": "_factory/incoming/001.md",
+      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-lan-dau.md",
+      "url": "/blog/thue-xe-may-ha-noi-lan-dau/",
+      "word_count": 694,
+      "warnings": []
+    },
+    {
+      "id": 2,
+      "source": "_factory/incoming/002.md",
+      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-giao-tan-noi.md",
+      "url": "/blog/thue-xe-may-ha-noi-giao-tan-noi/",
+      "word_count": 775,
+      "warnings": []
+    },
+    {
+      "id": 3,
+      "source": "_factory/incoming/003.md",
+      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-gan-day.md",
+      "url": "/blog/thue-xe-may-ha-noi-gan-day/",
+      "word_count": 674,
+      "warnings": []
+    },
+    {
+      "id": 4,
+      "source": "_factory/incoming/004.md",
+      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-uy-tin.md",
+      "url": "/blog/thue-xe-may-ha-noi-uy-tin/",
+      "word_count": 709,
+      "warnings": []
+    },
+    {
+      "id": 5,
+      "source": "_factory/incoming/005.md",
+      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-cho-nguoi-nuoc-ngoai.md",
+      "url": "/blog/thue-xe-may-ha-noi-cho-nguoi-nuoc-ngoai/",
+      "word_count": 691,
+      "warnings": []
+    },
+    {
+      "id": 9,
+      "source": "_factory/incoming/009.md",
+      "post": "_posts/2026-10-07-thue-xe-may-tu-lai-ha-noi.md",
+      "url": "/blog/thue-xe-may-tu-lai-ha-noi/",
+      "word_count": 682,
+      "warnings": []
+    }
+  ],
   "recoverable_total": 0,
   "recoverable": [],
   "fatal": null,
-  "note": "Factory not run yet."
+  "status_counts": {
+    "planned": 292,
+    "published": 8
+  }
 }

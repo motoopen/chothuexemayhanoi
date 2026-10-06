@@ -1,8 +1,14 @@
 ---
-matrix_id: 5
+layout: post
+title: "Thuê xe máy Hà Nội cho người nước ngoài: giấy tờ và câu hỏi cần chuẩn bị"
+date: 2026-10-07 00:44:48 +0700
 description: "Hướng dẫn thuê xe máy Hà Nội cho người nước ngoài: giấy tờ nên chuẩn bị, câu hỏi cần hỏi bên cho thuê và lưu ý an toàn khi lưu thông."
+author: "Motoopen"
+matrix_id: 5
+primary_keyword: "thuê xe máy hà nội cho người nước ngoài"
+hub_parent: thue-xe
+hub_category: bat-dau-thue
 ---
-
 Khách quốc tế đến Hà Nội thường muốn tự lái xe máy để chủ động lịch trình, nhưng vòng thuê xe cho người nước ngoài có vài điểm khác biệt so với khách nội địa. Bài này tóm gọn giấy tờ nên chuẩn bị và những câu hỏi nên hỏi trước khi nhận xe.
 
 ## Giấy tờ người nước ngoài nên chuẩn bị

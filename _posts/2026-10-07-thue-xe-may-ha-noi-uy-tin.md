@@ -1,8 +1,14 @@
 ---
-matrix_id: 4
+layout: post
+title: "Thuê xe máy Hà Nội uy tín: 9 tiêu chí đánh giá trước khi đặt"
+date: 2026-10-07 00:44:48 +0700
 description: "Chín tiêu chí đánh giá dịch vụ thuê xe máy Hà Nội uy tín: hợp đồng, tiền cọc, tình trạng xe, hỗ trợ sự cố và cách kiểm tra trước khi đặt."
+author: "Motoopen"
+matrix_id: 4
+primary_keyword: "thuê xe máy hà nội uy tín"
+hub_parent: thue-xe
+hub_category: bat-dau-thue
 ---
-
 Từ khóa "thuê xe máy Hà Nội uy tín" cho thấy người tìm không thiếu lựa chọn, mà thiếu cách phân biệt. Bài này đưa ra chín tiêu chí cụ thể, giúp bạn tự đánh giá một bên cho thuê thay vì dựa vào quảng cáo.
 
 ## Nhóm tiêu chí về minh bạch thủ tục

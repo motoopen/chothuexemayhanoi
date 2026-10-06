@@ -1,8 +1,14 @@
 ---
-matrix_id: 2
+layout: post
+title: "Thuê xe máy Hà Nội giao tận nơi: quy trình nhận xe nên kiểm tra gì?"
+date: 2026-10-07 00:44:48 +0700
 description: "Quy trình thuê xe máy Hà Nội giao tận nơi: nên kiểm tra gì khi nhận xe, giấy tờ cần ký và cách bảo vệ quyền lợi khi bàn giao tại nhà."
+author: "Motoopen"
+matrix_id: 2
+primary_keyword: "thuê xe máy hà nội giao tận nơi"
+hub_parent: thue-xe
+hub_category: bat-dau-thue
 ---
-
 Dịch vụ thuê xe máy Hà Nội giao tận nơi tiện cho người bận rộn, nhưng việc nhận xe tại nhà hoặc văn phòng có một điểm khác biệt quan trọng: bạn không đứng tại cửa hàng nên dễ bỏ qua bước kiểm tra. Bài này tóm tắt quy trình bàn giao từ lúc đặt xe đến lúc ký nhận, kèm checklist giúp bạn quyết định nhanh mà vẫn an toàn.
 
 ## Đặt xe và chốt thông tin giao nhận

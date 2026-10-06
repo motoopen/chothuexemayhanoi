@@ -1,8 +1,14 @@
 ---
-matrix_id: 1
+layout: post
+title: "Thuê xe máy Hà Nội lần đầu: 12 điều nên biết trước khi nhận xe"
+date: 2026-10-07 00:44:48 +0700
 description: "Thuê xe máy Hà Nội lần đầu nên biết gì: chuẩn bị giấy tờ, chốt giá và cọc, kiểm tra xe, hợp đồng và cách trả xe không phát sinh tranh chấp."
+author: "Motoopen"
+matrix_id: 1
+primary_keyword: "thuê xe máy hà nội lần đầu"
+hub_parent: thue-xe
+hub_category: bat-dau-thue
 ---
-
 Nếu bạn chưa từng thuê xe máy ở Hà Nội, vòng đầu tiên thường kéo theo nhiều câu hỏi: cần mang giấy tờ gì, cọc bao nhiêu, xe gặp sự cố thì xử lý ra sao. Bài này tổng hợp mười hai điều nên biết trước khi nhận xe, sắp xếp theo đúng trình tự bạn sẽ trải qua.
 
 ## Trước khi liên hệ bên cho thuê
