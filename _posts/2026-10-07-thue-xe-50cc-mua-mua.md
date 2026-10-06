@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe 50cc mùa mưa: lốp, phanh và tầm nhìn cần chú ý gì?"
+date: 2026-10-07 01:19:15 +0700
+description: "Thuê xe 50cc mùa mưa cần chú ý lốp, phanh và tầm nhìn thế nào, kèm cách chuẩn bị áo mưa, lên khung giờ và xử đường trơn trượt an toàn."
+author: "Motoopen"
 matrix_id: 83
-description: Thuê xe 50cc mùa mưa cần chú ý lốp, phanh và tầm nhìn thế nào, kèm cách chuẩn bị áo mưa, lên khung giờ và xử đường trơn trượt an toàn.
+primary_keyword: "thuê xe 50cc mùa mưa"
+hub_parent: loai-xe
+hub_category: xe-50cc
 ---
-
 Mùa mưa ở Hà Nội kéo dài và mưa đến bất chợt, nên thuê xe 50cc trong mùa này cần chuẩn bị hơn ngày nắng. Ba điểm ảnh hưởng an toàn nhất là lốp, phanh và tầm nhìn. Bài này chỉ cách rà từng điểm và chuẩn bị cho ngày mưa.
 
 ## Lốp xe ngày mưa

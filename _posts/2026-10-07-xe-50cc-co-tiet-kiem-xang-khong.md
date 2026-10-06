@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Xe 50cc có tiết kiệm xăng không? Cách ước tính chi phí thực tế"
+date: 2026-10-07 01:19:15 +0700
+description: "Xe 50cc có tiết kiệm xăng không và cách ước chi phí xăng thật cho kỳ thuê, từ mức tiêu hao, quãng đường đến chính sách xăng khi trả xe."
+author: "Motoopen"
 matrix_id: 79
-description: Xe 50cc có tiết kiệm xăng không và cách ước chi phí xăng thật cho kỳ thuê, từ mức tiêu hao, quãng đường đến chính sách xăng khi trả xe.
+primary_keyword: "xe 50cc có tiết kiệm xăng không"
+hub_parent: loai-xe
+hub_category: xe-50cc
 ---
-
 Tiết kiệm xăng là lý do lớn khiến khách chọn dòng 50cc, nhưng tiết kiệm bao nhiêu thì phải ước theo quãng đường thật của mình. Bài này cho cách tính nhanh để bạn biết khoản xăng của cả kỳ thuê trước khi nhận xe.
 
 ## Mức tiêu hao của dòng 50cc

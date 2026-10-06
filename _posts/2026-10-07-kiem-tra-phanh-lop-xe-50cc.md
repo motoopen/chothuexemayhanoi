@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe 50cc: cách kiểm tra phanh và lốp trước khi đi"
+date: 2026-10-07 01:19:15 +0700
+description: "Cách kiểm tra phanh và lốp khi thuê xe 50cc trước khi đi, từ bóp thử từng bánh, xem rãnh lốp đến nghe tiếng kêu, kèm các dấu hiệu nên đổi xe."
+author: "Motoopen"
 matrix_id: 82
-description: Cách kiểm tra phanh và lốp khi thuê xe 50cc trước khi đi, từ bóp thử từng bánh, xem rãnh lốp đến nghe tiếng kêu, kèm các dấu hiệu nên đổi xe.
+primary_keyword: "kiểm tra phanh lốp xe 50cc"
+hub_parent: loai-xe
+hub_category: xe-50cc
 ---
-
 Phanh và lốp là hai bộ phận giữ an toàn nhất trên xe, cũng là hai điểm hay bị bỏ qua khi nhận xe thuê. Với dòng 50cc nhẹ, kiểm tra hai bộ này chỉ mất vài phút. Bài này chỉ cách kiểm tra đúng và dấu hiệu nào là nên xin đổi chiếc khác.
 
 ## Kiểm tra phanh đúng cách
