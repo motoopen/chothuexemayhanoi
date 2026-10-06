@@ -1,0 +1,46 @@
+{% assign cfg = site.data.site %}
+{% if page.layout == 'post' and cfg.features.article_schema %}
+{% capture schema_description %}{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines }}{% endif %}{% endcapture %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ schema_description | strip | jsonify }},
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+  "author": {"@type": "Organization", "name": {{ page.author | default: cfg.brand.author | jsonify }}},
+  "publisher": {"@type": "Organization", "name": {{ cfg.brand.name | jsonify }}},
+  "mainEntityOfPage": {{ page.url | absolute_url | jsonify }}{% if page.image %},
+  "image": {{ page.image | absolute_url | jsonify }}{% endif %}
+}
+</script>
+{% endif %}
+{% if page.layout == 'post' and cfg.features.breadcrumb_schema %}
+{% if hub_child %}{% assign breadcrumb_position = 5 %}{% elsif hub_parent %}{% assign breadcrumb_position = 4 %}{% else %}{% assign breadcrumb_position = 3 %}{% endif %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Trang chủ","item":{{ '/' | absolute_url | jsonify }}},
+    {"@type":"ListItem","position":2,"name":"Blog","item":{{ '/blog/' | absolute_url | jsonify }}}{% if hub_parent %},
+    {"@type":"ListItem","position":3,"name":{{ hub_parent.label | jsonify }},"item":{{ hub_parent.url | absolute_url | jsonify }}}{% if hub_child %},
+    {"@type":"ListItem","position":4,"name":{{ hub_child.label | jsonify }},"item":{{ hub_child.url | absolute_url | jsonify }}}{% endif %}{% endif %},
+    {"@type":"ListItem","position":{{ breadcrumb_position }},"name":{{ page.title | jsonify }},"item":{{ page.url | absolute_url | jsonify }}}
+  ]
+}
+</script>
+{% endif %}
+{% if page.layout == 'post' and cfg.features.faq_schema and page.faq %}
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+  {% for item in page.faq %}
+    {"@type":"Question","name":{{ item.question | jsonify }},"acceptedAnswer":{"@type":"Answer","text":{{ item.answer | strip_html | jsonify }}}}{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+  ]
+}
+</script>
+{% endif %}

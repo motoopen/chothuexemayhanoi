@@ -5,6 +5,7 @@ layout: default
 {% if hub_parent and page.hub_category %}
   {% assign hub_child = hub_parent.children | where: "slug", page.hub_category | first %}
 {% endif %}
+{% include blog/schema.html %}
 <main class="blog-shell" role="main">
   <nav class="blog-breadcrumb" aria-label="Breadcrumb">
     <a class="blog-breadcrumb-home" href="{{ '/' | relative_url }}"><i class="fa-solid fa-house"></i> Trang chủ</a>
@@ -61,7 +62,9 @@ layout: default
   </section>
 
   <article class="mapp-card post-card">
+    {% include blog/slot-before-content.html %}
     <div class="mapp-text blog-content">{{ content }}</div>
+    {% include blog/slot-after-content.html %}
     <p class="blog-back"><a href="{{ '/blog/' | relative_url }}" class="mapp-btn ghost"><i class="fa-solid fa-arrow-left"></i> Quay lại Blog</a></p>
   </article>
 </main>

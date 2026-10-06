@@ -1,0 +1,30 @@
+{% assign cfg = site.data.site %}
+{% if cfg.features.related_posts %}
+  {% assign related_limit = cfg.blog.related_limit | default: 5 %}
+  {% assign related_count = 0 %}
+<section class="blog-component blog-related" aria-label="Bài viết liên quan">
+  <div class="blog-component-head">
+    <div><p class="blog-component-kicker">Đọc tiếp</p><h2>Bài viết liên quan</h2></div>
+    {% if hub_child %}<a href="{{ hub_child.url | relative_url }}">Xem danh mục</a>{% endif %}
+  </div>
+  <div class="blog-related-list">
+    {% for item in site.posts %}
+      {% if item.url != page.url and item.hub_category == page.hub_category and related_count < related_limit %}
+        <a class="blog-related-item" href="{{ item.url | relative_url }}"><strong>{{ item.title }}</strong><span>{{ item.date | date: "%d/%m/%Y" }}</span></a>
+        {% assign related_count = related_count | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+    {% if related_count < related_limit %}
+      {% for item in site.posts %}
+        {% if item.url != page.url and item.hub_parent == page.hub_parent and item.hub_category != page.hub_category and related_count < related_limit %}
+          <a class="blog-related-item" href="{{ item.url | relative_url }}"><strong>{{ item.title }}</strong><span>{{ item.date | date: "%d/%m/%Y" }}</span></a>
+          {% assign related_count = related_count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+    {% if related_count == 0 %}
+      <a class="blog-related-item" href="{{ '/blog/' | relative_url }}"><strong>Xem tất cả bài viết</strong><span>Blog Motoopen</span></a>
+    {% endif %}
+  </div>
+</section>
+{% endif %}

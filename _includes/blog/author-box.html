@@ -1,0 +1,11 @@
+{% assign cfg = site.data.site %}
+{% if cfg.features.author_box %}
+<aside class="blog-component blog-author" aria-label="Tác giả">
+  <img src="{{ cfg.brand.logo }}" alt="{{ page.author | default: cfg.brand.author }}" loading="lazy" width="48" height="48">
+  <div>
+    <p class="blog-component-kicker">Tác giả</p>
+    <strong>{{ page.author | default: cfg.brand.author }}</strong>
+    <p>{{ cfg.blog.default_author_bio }}</p>
+  </div>
+</aside>
+{% endif %}

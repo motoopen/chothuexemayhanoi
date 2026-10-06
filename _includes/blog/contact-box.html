@@ -1,0 +1,14 @@
+{% assign cfg = site.data.site %}
+{% if cfg.features.contact_box %}
+<aside class="blog-component blog-contact" aria-label="Liên hệ Motoopen">
+  <div>
+    <p class="blog-component-kicker">Liên hệ nhanh</p>
+    <strong>{{ cfg.brand.name }}</strong>
+    <p>{{ cfg.contact.address }} · {{ cfg.contact.hours }}</p>
+  </div>
+  <div class="blog-component-actions">
+    <a href="tel:{{ cfg.contact.phone_raw }}"><i class="fa-solid fa-phone"></i> {{ cfg.contact.phone_display }}</a>
+    <a href="{{ cfg.contact.zalo_url }}" target="_blank" rel="noopener"><i class="fa-solid fa-comment-dots"></i> Zalo</a>
+  </div>
+</aside>
+{% endif %}
