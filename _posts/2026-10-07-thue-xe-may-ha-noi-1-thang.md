@@ -1,8 +1,14 @@
 ---
-matrix_id: 27
+layout: post
+title: "Thuê xe máy Hà Nội 1 tháng: checklist chi phí và điều khoản cần hỏi"
+date: 2026-10-07 00:48:42 +0700
 description: "Thuê xe máy Hà Nội 1 tháng: checklist chi phí và điều khoản cần hỏi về giá trọn gói, cọc, bảo dưỡng, đổi xe và hoàn trả trước khi ký."
+author: "Motoopen"
+matrix_id: 27
+primary_keyword: "thuê xe máy hà nội 1 tháng"
+hub_parent: thue-xe
+hub_category: gia-thoi-gian
 ---
-
 Thuê xe máy trọn một tháng ở Hà Nội thường phục vụ người ở dài hạn: đi làm, học, công tác dài ngày hoặc đang chờ xe riêng. Với thời gian một tháng, chi phí không nằm ở giá niêm yết mà ở tổng các khoản và chất lượng điều khoản. Bài này là checklist để bạn hỏi đủ trước khi ký hợp đồng tháng.
 
 ## Các khoản chi phí của một hợp đồng tháng

@@ -1,8 +1,14 @@
 ---
-matrix_id: 28
+layout: post
+title: "Thuê xe máy Hà Nội theo tháng: cách so sánh gói dài hạn"
+date: 2026-10-07 00:48:42 +0700
 description: "Thuê xe máy Hà Nội theo tháng: cách so sánh gói dài hạn về giá trọn gói, điều khoản, bảo dưỡng, đổi xe và tiền cọc trước khi ký."
+author: "Motoopen"
+matrix_id: 28
+primary_keyword: "thuê xe máy hà nội theo tháng"
+hub_parent: thue-xe
+hub_category: gia-thoi-gian
 ---
-
 Thuê xe máy theo tháng tại Hà Nội phù hợp với người ở dài hạn: đi làm, học, công tác hoặc chăm người thân. So với thuê từng ngày, gói tháng đổi bài toán từ giá mỗi ngày sang tổng chi phí và điều khoản. Bài này hướng dẫn cách so sánh các gói dài hạn để chọn được phương án thực sự tiết kiệm.
 
 ## Cấu trúc một gói thuê tháng chuẩn

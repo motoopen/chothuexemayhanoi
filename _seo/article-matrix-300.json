@@ -36,8 +36,8 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 292,
-    "published": 8
+    "planned": 286,
+    "published": 14
   },
   "items": [
     {
@@ -975,7 +975,7 @@
         "verify-current-service-policy"
       ],
       "cannibalization_guard": "Không target trực tiếp head term như một money page; bài phải trả lời một tình huống cụ thể và link về homepage.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "thue-xe",
         "parent_label": "Thuê xe",
@@ -987,7 +987,10 @@
       "front_matter": {
         "hub_parent": "thue-xe",
         "hub_category": "bat-dau-thue"
-      }
+      },
+      "published_at": "2026-10-07T00:48:42+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-ha-noi-24h.md",
+      "published_url": "/blog/thue-xe-may-ha-noi-24h/"
     },
     {
       "id": 20,
@@ -1029,7 +1032,7 @@
         "verify-current-service-policy"
       ],
       "cannibalization_guard": "Không target trực tiếp head term như một money page; bài phải trả lời một tình huống cụ thể và link về homepage.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "thue-xe",
         "parent_label": "Thuê xe",
@@ -1041,7 +1044,10 @@
       "front_matter": {
         "hub_parent": "thue-xe",
         "hub_category": "bat-dau-thue"
-      }
+      },
+      "published_at": "2026-10-07T00:48:42+07:00",
+      "published_path": "_posts/2026-10-07-app-thue-xe-may-ha-noi.md",
+      "published_url": "/blog/app-thue-xe-may-ha-noi/"
     },
     {
       "id": 21,
@@ -1323,7 +1329,7 @@
         "verify-current-service-policy"
       ],
       "cannibalization_guard": "Không lặp /banggia.html; mỗi bài chỉ giải thích một cách tính hoặc quyết định chi phí cụ thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "thue-xe",
         "parent_label": "Thuê xe",
@@ -1335,7 +1341,10 @@
       "front_matter": {
         "hub_parent": "thue-xe",
         "hub_category": "gia-thoi-gian"
-      }
+      },
+      "published_at": "2026-10-07T00:48:42+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-ha-noi-theo-tuan.md",
+      "published_url": "/blog/thue-xe-may-ha-noi-theo-tuan/"
     },
     {
       "id": 27,
@@ -1372,7 +1381,7 @@
         "verify-current-service-policy"
       ],
       "cannibalization_guard": "Không lặp /banggia.html; mỗi bài chỉ giải thích một cách tính hoặc quyết định chi phí cụ thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "thue-xe",
         "parent_label": "Thuê xe",
@@ -1384,7 +1393,10 @@
       "front_matter": {
         "hub_parent": "thue-xe",
         "hub_category": "gia-thoi-gian"
-      }
+      },
+      "published_at": "2026-10-07T00:48:42+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-ha-noi-1-thang.md",
+      "published_url": "/blog/thue-xe-may-ha-noi-1-thang/"
     },
     {
       "id": 28,
@@ -1427,7 +1439,7 @@
         "verify-current-service-policy"
       ],
       "cannibalization_guard": "Không lặp /banggia.html; mỗi bài chỉ giải thích một cách tính hoặc quyết định chi phí cụ thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "thue-xe",
         "parent_label": "Thuê xe",
@@ -1439,7 +1451,10 @@
       "front_matter": {
         "hub_parent": "thue-xe",
         "hub_category": "gia-thoi-gian"
-      }
+      },
+      "published_at": "2026-10-07T00:48:42+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-ha-noi-theo-thang.md",
+      "published_url": "/blog/thue-xe-may-ha-noi-theo-thang/"
     },
     {
       "id": 29,
@@ -8450,7 +8465,7 @@
         "verify-current-delivery-area"
       ],
       "cannibalization_guard": "Mỗi location chỉ có tối đa 2 góc: hướng dẫn khu vực và logistics nhận/trả; phải có nội dung địa phương hữu ích.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "khu-vuc",
         "parent_label": "Khu vực",
@@ -8462,7 +8477,10 @@
       "front_matter": {
         "hub_parent": "khu-vuc",
         "hub_category": "ha-noi-theo-khu-vuc"
-      }
+      },
+      "published_at": "2026-10-07T00:48:42+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-hoan-kiem-ha-noi.md",
+      "published_url": "/blog/thue-xe-may-hoan-kiem-ha-noi/"
     },
     {
       "id": 172,
@@ -14870,5 +14888,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T00:44:48+07:00"
+  "updated_at": "2026-10-07T00:48:42+07:00"
 }
