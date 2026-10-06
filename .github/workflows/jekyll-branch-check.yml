@@ -85,6 +85,10 @@ jobs:
         shell: bash
         run: python3 scripts/check_site_links.py _site
 
+      - name: Check blog quality
+        shell: bash
+        run: python3 scripts/check_blog_quality.py _site
+
       - name: Verify generated public pages
         shell: bash
         run: |
