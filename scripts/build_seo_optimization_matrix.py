@@ -225,17 +225,31 @@ def main():
     by_slug = defaultdict(list)
 
     for item in source_items:
-        post_path = ROOT / item["published_path"]
+        url = item.get("published_url") or item.get("existing_url") or f"/blog/{item['slug']}/"
+        published_path = item.get("published_path")
+        if published_path:
+            post_path = ROOT / published_path
+        else:
+            url_slug = url.rstrip("/").split("/")[-1]
+            matches = sorted((ROOT / "_posts").glob(f"*-{url_slug}.md"))
+            if len(matches) != 1:
+                raise SystemExit(
+                    f"Could not resolve exactly one source post for matrix id {item['id']} "
+                    f"from existing URL {url!r}; matches={len(matches)}"
+                )
+            post_path = matches[0]
+            published_path = str(post_path.relative_to(ROOT))
         if not post_path.exists():
             raise SystemExit(f"Published source missing: {post_path.relative_to(ROOT)}")
         raw = post_path.read_text("utf-8")
         front, body = parse_front_matter(raw)
-        url = item.get("published_url") or f"/blog/{item['slug']}/"
+        render_slug = url.rstrip("/").split("/")[-1]
         row = {
             "id": item["id"],
             "url": url,
-            "source_path": item["published_path"],
-            "slug": item["slug"],
+            "source_path": published_path,
+            "slug": render_slug,
+            "matrix_slug": item["slug"],
             "primary_keyword": item.get("primary_keyword", ""),
             "search_intent": item.get("intent"),
             "cluster": item.get("cluster"),
