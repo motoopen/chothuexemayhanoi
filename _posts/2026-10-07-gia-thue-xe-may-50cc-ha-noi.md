@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Giá thuê xe máy 50cc Hà Nội: cách so sánh Cub, xe ga và xe dưới 50cc"
+date: 2026-10-07 01:11:21 +0700
+description: "Giá thuê xe máy 50cc Hà Nội khác nhau thế nào giữa các dòng Cub, xe ga nhỏ và xe dưới 50cc, kèm cách so theo nhu cầu và giấy phép lái."
+author: "Motoopen"
 matrix_id: 36
-description: Giá thuê xe máy 50cc Hà Nội khác nhau thế nào giữa các dòng Cub, xe ga nhỏ và xe dưới 50cc, kèm cách so theo nhu cầu và giấy phép lái.
+primary_keyword: "giá thuê xe máy 50cc hà nội"
+hub_parent: thue-xe
+hub_category: gia-thoi-gian
 ---
-
 Nhóm xe 50cc và dưới 50cc là lựa chọn cho người muốn xe nhẹ, dễ điều khiển và không yêu cầu giấy phép lái nặng. Nhưng mức giá giữa dòng Cub, xe ga nhỏ và các dòng dưới 50cc khác nhau, và cách so cũng khác. Bài này hướng dẫn so đúng nhóm xe nhỏ này ở Hà Nội.
 
 ## Hiểu đúng nhóm 50cc và dưới 50cc

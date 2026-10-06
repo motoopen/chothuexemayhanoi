@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Xe thuê bị trầy hoặc hỏng: chi phí thường được xác định như thế nào?"
+date: 2026-10-07 01:11:21 +0700
+description: "Xe thuê bị trầy xước hoặc hỏng thì chi phí được xác định như thế nào, các bước thông báo, chụp bằng chứng và điều khoản nên hỏi trước."
+author: "Motoopen"
 matrix_id: 43
-description: Xe thuê bị trầy xước hoặc hỏng thì chi phí được xác định như thế nào, các bước thông báo, chụp bằng chứng và điều khoản nên hỏi trước.
+primary_keyword: "chi phí hư hỏng khi thuê xe máy"
+hub_parent: thue-xe
+hub_category: gia-thoi-gian
 ---
-
 Trầy xước hay hỏng hóc giữa kỳ thuê là tình huống không ai muốn nhưng cần biết xử lý đúng để tránh trả thêm oan. Bài này nói cách chi phí hư hỏng thường được xác định và các bước bạn nên làm khi xe thuê gặp vấn đề.
 
 ## Điều khoản xác định trách nhiệm trong hợp đồng

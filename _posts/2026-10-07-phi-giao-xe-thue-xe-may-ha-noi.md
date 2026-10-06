@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Phí giao xe khi thuê xe máy Hà Nội: cách hỏi để biết tổng chi phí"
+date: 2026-10-07 01:11:21 +0700
+description: "Phí giao xe khi thuê xe máy Hà Nội tính theo khoảng cách và khung giờ, cần hỏi thế nào để biết tổng chi phí trước khi chốt gói."
+author: "Motoopen"
 matrix_id: 40
-description: Phí giao xe khi thuê xe máy Hà Nội tính theo khoảng cách và khung giờ, cần hỏi thế nào để biết tổng chi phí trước khi chốt gói.
+primary_keyword: "phí giao xe thuê xe máy hà nội"
+hub_parent: thue-xe
+hub_category: gia-thoi-gian
 ---
-
 Giao xe tận nơi là dịch vụ phổ biến khi thuê xe máy ở Hà Nội, nhưng phí giao có thể làm tổng chi phí thay đổi đáng kể nếu không hỏi rõ từ đầu. Bài này nói cách hỏi phí giao để biết tổng chi phí thực của gói thuê.
 
 ## Phí giao tính theo yếu tố nào

@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Tiền cọc thuê xe máy Hà Nội: nên hỏi gì trước khi chuyển tiền?"
+date: 2026-10-07 01:11:21 +0700
+description: "Tiền cọc thuê xe máy Hà Nội nên hỏi gì trước khi chuyển tiền, từ hình thức giữ cọc, mức theo dòng xe đến điều kiện hoàn trả và cách bảo vệ mình."
+author: "Motoopen"
 matrix_id: 38
-description: Tiền cọc thuê xe máy Hà Nội nên hỏi gì trước khi chuyển tiền, từ hình thức giữ cọc, mức theo dòng xe đến điều kiện hoàn trả và cách bảo vệ mình.
+primary_keyword: "tiền cọc thuê xe máy hà nội"
+hub_parent: thue-xe
+hub_category: gia-thoi-gian
 ---
-
 Chuyển tiền cọc là bước khiến nhiều người băn khoăn nhất khi thuê xe máy, vì khoản này thường lớn hơn tiền thuê và liên quan tới việc hoàn trả sau. Bài này liệt kê trọn các câu nên hỏi trước khi chuyển cọc ở Hà Nội.
 
 ## Hỏi hình thức giữ cọc

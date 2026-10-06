@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Chi phí xăng khi thuê xe máy Hà Nội: ước tính theo hành trình, không theo cảm tính"
+date: 2026-10-07 01:11:21 +0700
+description: "Ước chi phí xăng khi thuê xe máy ở Hà Nội theo hành trình thật thay vì theo cảm tính, kèm cách tính quãng đường và chọn dòng xe tiết kiệm."
+author: "Motoopen"
 matrix_id: 42
-description: Ước chi phí xăng khi thuê xe máy ở Hà Nội theo hành trình thật thay vì theo cảm tính, kèm cách tính quãng đường và chọn dòng xe tiết kiệm.
+primary_keyword: "chi phí xăng khi thuê xe máy hà nội"
+hub_parent: thue-xe
+hub_category: gia-thoi-gian
 ---
-
 Chi phí xăng là khoản biến động nhất trong tổng tiền thuê xe máy, và ước sai là cách nhanh nhất để ngân sách chuyến đi lệch. Bài này hướng dẫn cách ước chi phí xăng theo hành trình cụ thể thay vì theo cảm tính.
 
 ## Tính quãng đường theo lịch trình thật
