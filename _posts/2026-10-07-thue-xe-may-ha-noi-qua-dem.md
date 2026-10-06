@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy Hà Nội qua đêm: cách hiểu thời gian thuê và trả xe"
+date: 2026-10-07 01:09:07 +0700
+description: "Thuê xe máy Hà Nội qua đêm tính thời gian ra sao, khung nhận tối trả sáng có thành hai ngày không và những điều cần hỏi trước khi ký."
+author: "Motoopen"
 matrix_id: 33
-description: Thuê xe máy Hà Nội qua đêm tính thời gian ra sao, khung nhận tối trả sáng có thành hai ngày không và những điều cần hỏi trước khi ký.
+primary_keyword: "thuê xe máy hà nội qua đêm"
+hub_parent: thue-xe
+hub_category: gia-thoi-gian
 ---
-
 Nhu cầu thuê xe qua đêm, nhận buổi tối hôm trước và trả sáng hôm sau, là khung rất hay gặp nhưng dễ bị tính hớ nếu không hiểu cách cửa hàng tính thời gian. Bài này giúp bạn nắm rõ cơ chế trước khi ký.
 
 ## Khung qua đêm tính thế nào

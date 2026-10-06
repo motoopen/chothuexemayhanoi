@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Giá thuê xe ga Hà Nội theo ngày: nên so sánh những gì ngoài giá?"
+date: 2026-10-07 01:09:07 +0700
+description: "Giá thuê xe ga Hà Nội theo ngày nên so sánh những gì ngoài con số niêm yết, từ tình trạng xe, cọc đến các khoản phụ phí ảnh hưởng tổng chi phí."
+author: "Motoopen"
 matrix_id: 34
-description: Giá thuê xe ga Hà Nội theo ngày nên so sánh những gì ngoài con số niêm yết, từ tình trạng xe, cọc đến các khoản phụ phí ảnh hưởng tổng chi phí.
+primary_keyword: "giá thuê xe ga hà nội theo ngày"
+hub_parent: thue-xe
+hub_category: gia-thoi-gian
 ---
-
 Xe ga là dòng được thuê nhiều ở Hà Nội vì êm và dễ lái, nên giá theo ngày của dòng này cũng nhiều nơi niêm yết. Nhưng chọn chỉ theo con số niêm yết dễ dẫn tới sai lầm, vì tổng chi phí và trải nghiệm phụ thuộc nhiều yếu tố ngoài giá. Bài này nói các gì nên so khi chọn gói xe ga theo ngày.
 
 ## So tình trạng xe trước khi so giá

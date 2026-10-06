@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy Hà Nội 1 tuần: cách tính tổng chi phí trước khi đặt"
+date: 2026-10-07 01:09:07 +0700
+description: "Cách tính tổng chi phí khi thuê xe máy Hà Nội trọn một tuần, từ giá gói quy đổi, cọc, xăng đến các khoản dễ bỏ sót khi ký hợp đồng tuần."
+author: "Motoopen"
 matrix_id: 25
-description: Cách tính tổng chi phí khi thuê xe máy Hà Nội trọn một tuần, từ giá gói quy đổi, cọc, xăng đến các khoản dễ bỏ sót khi ký hợp đồng tuần.
+primary_keyword: "thuê xe máy hà nội 1 tuần"
+hub_parent: thue-xe
+hub_category: gia-thoi-gian
 ---
-
 Thuê xe máy trọn một tuần là ngưỡng mà gói tuần rõ rệt rẻ hơn tính lẻ theo ngày, nhưng tổng chi phí thực không chỉ là giá niêm yết. Bài này giúp bạn tính trọn các khoản trước khi đặt cọc cho bảy ngày ở Hà Nội.
 
 ## Quy đổi giá gói tuần ra một ngày
