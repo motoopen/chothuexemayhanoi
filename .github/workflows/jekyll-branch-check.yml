@@ -1,0 +1,43 @@
+name: Jekyll Branch Check
+
+on:
+  push:
+    branches:
+      - refactor/blog-structure
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build with GitHub Pages Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - name: Verify generated public pages
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f _site/index.html
+          test -f _site/blog/index.html
+          test -f _site/blog/gioi-thieu-motoopen/index.html
+          for page in gioithieu dichvu banggia thutuc loaixe huongdan kinhnghiem faq lienhe mangxahoi chinhsachbaomat dieukhoansudung; do
+            test -f "_site/$page.html"
+          done
+          if grep -R -n -E '\{%|\{\{' _site --include='*.html'; then
+            echo "Unrendered Liquid found in generated HTML."
+            exit 1
+          fi
+          echo "Jekyll build and generated-page checks passed."
