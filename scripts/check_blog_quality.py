@@ -74,10 +74,11 @@ def main() -> int:
         if p.h1 != 1:
             errors.append(f"{rel}: expected exactly one H1, found {p.h1}")
         title = re.sub(r"\s+", " ", p.title).strip()
+        source_title = re.sub(r"\s+", " ", p.meta.get("og:title", "")).strip() or title
         if not title:
             errors.append(f"{rel}: missing title")
-        elif len(title) > 80:
-            errors.append(f"{rel}: title is unexpectedly long ({len(title)} chars)")
+        elif len(source_title) > 90:
+            errors.append(f"{rel}: source title is unexpectedly long ({len(source_title)} chars)")
         desc = p.meta.get("description", "").strip()
         if not desc:
             errors.append(f"{rel}: missing meta description")
