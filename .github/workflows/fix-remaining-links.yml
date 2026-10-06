@@ -1,0 +1,96 @@
+name: Fix Remaining Internal Links
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/fix-remaining-links.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fix-remaining-internal-links
+  cancel-in-progress: false
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Repair exact remaining broken links
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+
+          replacements = {
+              "{{ '/thutuc' | relative_url }}": "{{ '/thutuc.html' | relative_url }}",
+              "{{ '/thue-xe-may-gan-noi-bai' | relative_url }}": "{{ '/blog/thue-xe-may-noi-bai-ha-noi/' | relative_url }}",
+              "{{ '/thue-vision-hay-lead' | relative_url }}": "{{ '/blog/xe-vision-va-lead-khi-thue/' | relative_url }}",
+              "{{ '/thue-xe-may-ha-noi-mua-mua-loai-nao' | relative_url }}": "{{ '/blog/thue-xe-may-mua-mua-loai-nao/' | relative_url }}",
+              "{{ '/sac-xe-may-dien-thue' | relative_url }}": "{{ '/blog/sac-xe-may-dien-khi-thue/' | relative_url }}",
+              "{{ '/thue-xe-may-dien-cho-nguoi-nuoc-ngoa\ni' | relative_url }}": "{{ '/blog/thue-xe-may-dien-cho-nguoi-nuoc-ngoai/' | relative_url }}",
+          }
+
+          changed_files = 0
+          total = 0
+
+          for path in sorted(Path("_posts").glob("*.md")):
+              original = path.read_text(encoding="utf-8")
+              text = original
+              for old, new in replacements.items():
+                  count = text.count(old)
+                  if count:
+                      text = text.replace(old, new)
+                      total += count
+              if text != original:
+                  path.write_text(text, encoding="utf-8")
+                  changed_files += 1
+
+          remaining = []
+          for path in sorted(Path("_posts").glob("*.md")):
+              text = path.read_text(encoding="utf-8")
+              for old in replacements:
+                  if old in text:
+                      remaining.append((str(path), old))
+
+          print(f"Changed files: {changed_files}")
+          print(f"Repaired exact links: {total}")
+          print(f"Remaining mapped bad links: {len(remaining)}")
+
+          if remaining:
+              for item in remaining[:20]:
+                  print("REMAINING", item[0], "->", repr(item[1]))
+              raise SystemExit(1)
+          PY
+
+      - name: Validate diff
+        shell: bash
+        run: |
+          set -euo pipefail
+          git diff --check
+          python3 -m py_compile scripts/article_factory.py
+          python3 scripts/article_factory.py status
+
+      - name: Commit repaired links
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- _posts; then
+            echo "No remaining mapped links needed repair."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _posts
+          git commit -m "Fix remaining internal links"
+          git push origin HEAD:main
