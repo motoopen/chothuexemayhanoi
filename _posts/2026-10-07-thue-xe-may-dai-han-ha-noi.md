@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy dài hạn Hà Nội: 7 khoản nên tính ngoài giá thuê"
+date: 2026-10-07 00:51:16 +0700
+description: "Tổng hợp bảy khoản chi phí ngoài giá thuê xe máy dài hạn Hà Nội, giúp bạn so sánh gói thuê tháng trọn gói và thuê truyền thống trước khi ký hợp đồng."
+author: "Motoopen"
 matrix_id: 29
-description: Tổng hợp bảy khoản chi phí ngoài giá thuê xe máy dài hạn Hà Nội, giúp bạn so sánh gói thuê tháng trọn gói và thuê truyền thống trước khi ký hợp đồng.
+primary_keyword: "thuê xe máy dài hạn hà nội"
+hub_parent: thue-xe
+hub_category: gia-thoi-gian
 ---
-
 Thuê xe máy dài hạn Hà Nội là lựa chọn phổ biến với người làm việc theo dự án, sinh viên trọ xa nhà hoặc khách du lịch ở lại nhiều tuần. Khi so sánh các gói thuê, hầu hết mọi người chỉ nhìn vào mức giá niêm yết trên [bảng giá]({{ '/banggia.html' | relative_url }}) rồi quyết định nhanh. Thực tế, giá thuê chỉ là một phần của tổng chi phí thực tế. Bài viết này điểm lại bảy khoản nên tính kỹ trước khi ký hợp đồng thuê dài hạn.
 
 ## Tiền đặt cọc và điều kiện hoàn cọc

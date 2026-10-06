@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy điện theo tháng Hà Nội: cần hỏi gì về pin và bảo dưỡng?"
+date: 2026-10-07 00:51:16 +0700
+description: "Thuê xe máy điện theo tháng ở Hà Nội tiện cho người ở lâu dài, nhưng cần hỏi kỹ về pin, sạc, bảo dưỡng và trách nhiệm hỏng hóc trong hợp đồng gói tháng."
+author: "Motoopen"
 matrix_id: 101
-description: Thuê xe máy điện theo tháng ở Hà Nội tiện cho người ở lâu dài, nhưng cần hỏi kỹ về pin, sạc, bảo dưỡng và trách nhiệm hỏng hóc trong hợp đồng gói tháng.
+primary_keyword: "thuê xe máy điện theo tháng hà nội"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Thuê xe theo tháng là giải pháp được nhiều người ở Hà Nội lâu dài lựa chọn thay vì mua xe: không tốn vốn, không lo mất giá. Dòng xe máy điện ngày càng được quan tâm cho gói tháng vì chi phí vận hành thấp. Tuy nhiên, hợp đồng thuê xe máy điện theo tháng có một số điểm khác biệt so với thuê xe xăng, và phần lớn nằm ở chuyện pin. Bài viết này tổng hợp các câu hỏi bạn cần đưa ra trước khi ký gói tháng.
 
 ## Hỏi về tình trạng pin tại thời điểm nhận xe
