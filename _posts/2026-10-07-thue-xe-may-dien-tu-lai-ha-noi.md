@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy điện tự lái Hà Nội: giấy tờ và thao tác bàn giao"
+date: 2026-10-07 00:56:56 +0700
+description: "Thuê xe máy điện tự lái ở Hà Nội cần chuẩn bị gì về giấy tờ và nắm rõ thao tác bàn giao nào để nhận xe nhanh, an toàn và không tranh chấp khi trả."
+author: "Motoopen"
 matrix_id: 104
-description: Thuê xe máy điện tự lái ở Hà Nội cần chuẩn bị gì về giấy tờ và nắm rõ thao tác bàn giao nào để nhận xe nhanh, an toàn và không tranh chấp khi trả.
+primary_keyword: "thuê xe máy điện tự lái hà nội"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Thuê xe tự lái nghĩa là bạn cầm lái và chịu trách nhiệm trong suốt thời gian thuê, nên giấy tờ và thao tác bàn giao là hai khâu quyết định trải nghiệm. Với dòng xe máy điện ở Hà Nội, khâu bàn giao lại có vài điểm riêng so với xe xăng. Bài viết này tóm tắt giấy tờ cần chuẩn bị và trình tự bàn giao nên tuân theo khi nhận xe tự lái.
 
 ## Giấy tờ cần chuẩn bị trước khi đến

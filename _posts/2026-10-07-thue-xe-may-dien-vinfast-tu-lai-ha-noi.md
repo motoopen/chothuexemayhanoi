@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy điện VinFast tự lái Hà Nội: cách đánh giá pin và phạm vi sử dụng"
+date: 2026-10-07 00:56:56 +0700
+description: "Cách đánh giá pin và phạm vi sử dụng khi thuê xe máy điện VinFast tự lái ở Hà Nội, từ đọc mức pin, ước lộ trình đến thử xe trước khi nhận."
+author: "Motoopen"
 matrix_id: 105
-description: Cách đánh giá pin và phạm vi sử dụng khi thuê xe máy điện VinFast tự lái ở Hà Nội, từ đọc mức pin, ước lộ trình đến thử xe trước khi nhận.
+primary_keyword: "thuê xe máy điện vinfast tự lái hà nội"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Thuê xe tự lái cho bạn toàn quyền điều khiển chiếc xe, nhưng đồng nghĩa bạn tự đối mặt với mọi giới hạn của nó. Với xe máy điện, hai giới hạn cần đánh giá đúng là pin và phạm vi sử dụng. Đánh giá sai một trong hai, bạn có thể dừng giữa đường vì hết điện. Bài viết này hướng dẫn cách đánh giá cả hai trước khi và ngay khi nhận xe.
 
 ## Đọc đúng mức pin hiển thị
