@@ -1,7 +1,8 @@
 {
   "name": "Motoopen - Thuê xe máy Hà Nội",
   "short_name": "Motoopen",
-  "start_url": "/",
+  "start_url": "/chothuexemayhanoi/",
+  "scope": "/chothuexemayhanoi/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#007aff",
