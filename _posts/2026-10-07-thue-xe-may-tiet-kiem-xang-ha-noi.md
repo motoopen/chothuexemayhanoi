@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy tiết kiệm xăng Hà Nội: cách so sánh mà không dựa vào quảng cáo"
+date: 2026-10-07 01:31:41 +0700
+description: "Cách so sánh thuê xe máy tiết kiệm xăng ở Hà Nội mà không dựa vào quảng cáo, từ dung tích máy, trọng lượng xe đến cách thử và tính nhiên liệu thật."
+author: "Motoopen"
 matrix_id: 153
-description: Cách so sánh thuê xe máy tiết kiệm xăng ở Hà Nội mà không dựa vào quảng cáo, từ dung tích máy, trọng lượng xe đến cách thử và tính nhiên liệu thật.
+primary_keyword: "thuê xe máy tiết kiệm xăng hà nội"
+hub_parent: loai-xe
+hub_category: cac-loai-xe
 ---
-
 Mọi nơi thuê xe đều nói xe mình tiết kiệm xăng, nên so sánh bằng quảng cáo vô nghĩa. Bài này cho các tiêu chí đo được tại quầy để bạn tự xác định chiếc xe nào thật sự tốn ít nhiên liệu cho lịch của mình.
 
 ## Dung tích máy và trọng lượng xe

@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy đi một mình Hà Nội: xe nhẹ hay xe cốp lớn tiện hơn?"
+date: 2026-10-07 01:31:41 +0700
+description: "Thuê xe máy đi một mình ở Hà Nội nên chọn xe nhẹ hay xe cốp lớn, cân theo hành trình, đồ đạc và nơi đỗ xe, kèm nhóm xe gợi ý cho mỗi lựa chọn."
+author: "Motoopen"
 matrix_id: 155
-description: Thuê xe máy đi một mình ở Hà Nội nên chọn xe nhẹ hay xe cốp lớn, cân theo hành trình, đồ đạc và nơi đỗ xe, kèm nhóm xe gợi ý cho mỗi lựa chọn.
+primary_keyword: "thuê xe máy đi một mình hà nội"
+hub_parent: loai-xe
+hub_category: cac-loai-xe
 ---
-
 Đi một mình nghe đơn giản nhưng chọn sai loại xe vẫn làm kỳ thuê mất thoải mái: xe nhẹ nhanh gọn, xe cốp lớn tiện đồ. Bài này cân hai phía theo từng yếu tố để bạn chốt nhanh.
 
 ## Khi nào xe nhẹ thắng

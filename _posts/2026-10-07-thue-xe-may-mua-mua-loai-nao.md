@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Mùa mưa nên thuê loại xe máy nào? Tiêu chí lốp, phanh và chắn bùn"
+date: 2026-10-07 01:31:41 +0700
+description: "Mùa mưa nên thuê loại xe máy nào ở Hà Nội, với ba tiêu chí chính là lốp gai tốt, phanh ăn sâu và chắn bùn đủ, kèm cách kiểm từng mục."
+author: "Motoopen"
 matrix_id: 158
-description: Mùa mưa nên thuê loại xe máy nào ở Hà Nội, với ba tiêu chí chính là lốp gai tốt, phanh ăn sâu và chắn bùn đủ, kèm cách kiểm từng mục.
+primary_keyword: "thuê xe máy mùa mưa loại nào"
+hub_parent: loai-xe
+hub_category: cac-loai-xe
 ---
-
 Mùa mưa không cần đổi lịch trình, chỉ cần đổi tiêu chí chọn xe. Ba thứ quyết định an toàn khi đường ướt là lốp, phanh và chắn bùn, và bài này kiểm từng mục một.
 
 ## Tiêu chí một: lốp

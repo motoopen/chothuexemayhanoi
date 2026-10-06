@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy đi phố đông Hà Nội: ưu tiên độ gọn và khả năng quay đầu thế nào?"
+date: 2026-10-07 01:31:41 +0700
+description: "Thuê xe máy đi phố đông Hà Nội nên ưu tiên độ gọn và khả năng quay đầu, từ kích thước xe, bán kính vòng đến hệ thống phanh khi dừng liên tục."
+author: "Motoopen"
 matrix_id: 156
-description: Thuê xe máy đi phố đông Hà Nội nên ưu tiên độ gọn và khả năng quay đầu, từ kích thước xe, bán kính vòng đến hệ thống phanh khi dừng liên tục.
+primary_keyword: "thuê xe máy đi phố đông hà nội"
+hub_parent: loai-xe
+hub_category: cac-loai-xe
 ---
-
 Phố đông Hà Nội không phân biệt xe mạnh hay yếu, chỉ phân biệt xe gọn và xe vướng. Bài này chỉ các tiêu chí gọn và quay đầu cần ưu tiên khi chọn xe thuê cho lịch trong phố.
 
 ## Kích thước và trọng lượng là tiêu chí đầu

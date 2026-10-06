@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy cho 2 người Hà Nội: chọn theo tải, yên và hành lý"
+date: 2026-10-07 01:31:41 +0700
+description: "Chọn thuê xe máy cho 2 người ở Hà Nội theo tải trọng, chiều rộng yên và hành lý, kèm nhóm xe gợi ý và cách lái an toàn khi chở đôi."
+author: "Motoopen"
 matrix_id: 154
-description: Chọn thuê xe máy cho 2 người ở Hà Nội theo tải trọng, chiều rộng yên và hành lý, kèm nhóm xe gợi ý và cách lái an toàn khi chở đôi.
+primary_keyword: "thuê xe máy cho 2 người hà nội"
+hub_parent: loai-xe
+hub_category: cac-loai-xe
 ---
-
 Chở hai người đổi hẳn yêu cầu với xe thuê: tải, yên và cốp đều phải tính. Bài này chỉ cách chọn đúng theo cả ba, và nguyên tắc lái an toàn cho hành trình đôi.
 
 ## Chọn theo tải trọng

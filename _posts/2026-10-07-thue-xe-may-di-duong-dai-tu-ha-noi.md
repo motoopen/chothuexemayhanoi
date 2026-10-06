@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy đi đường dài từ Hà Nội: chọn loại xe theo tư thế và quãng đường"
+date: 2026-10-07 01:31:41 +0700
+description: "Chọn loại xe máy thuê đi đường dài từ Hà Nội theo tư thế lái và tổng quãng đường, từ xe ga lớn, xe số đầm đến cân nhắc xe máy điện có kế hoạch sạc."
+author: "Motoopen"
 matrix_id: 157
-description: Chọn loại xe máy thuê đi đường dài từ Hà Nội theo tư thế lái và tổng quãng đường, từ xe ga lớn, xe số đầm đến cân nhắc xe máy điện có kế hoạch sạc.
+primary_keyword: "thuê xe máy đi đường dài từ hà nội"
+hub_parent: loai-xe
+hub_category: cac-loai-xe
 ---
-
 Đường dài từ Hà Nội phạt cả loại xe và người lái, nên chọn sai xe là mỏi lưng giữa chặng. Bài này chỉ cách chọn theo tư thế và quãng đường trước khi đặt.
 
 ## Chọn theo tư thế lái
