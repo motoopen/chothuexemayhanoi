@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy Hà Nội 1 ngày tính như thế nào?"
+date: 2026-10-07 01:07:24 +0700
+description: "Thuê xe máy Hà Nội 1 ngày tính giá như thế nào, khung hai mứ tư giờ ra sao, phụ phí nào có thể phát sinh và cách hỏi để không bị tính thêm."
+author: "Motoopen"
 matrix_id: 22
-description: Thuê xe máy Hà Nội 1 ngày tính giá như thế nào, khung hai mứ tư giờ ra sao, phụ phí nào có thể phát sinh và cách hỏi để không bị tính thêm.
+primary_keyword: "thuê xe máy hà nội 1 ngày tính như thế nào"
+hub_parent: thue-xe
+hub_category: gia-thoi-gian
 ---
-
 Thuê xe máy một ngày là gói phổ biến nhất ở Hà Nội, nhưng cũng là gói dễ bị hiểu nhầm nhất về cách tính. Bài này nói rõ cơ chế tính giá một ngày và các câu nên hỏi để chỉ trả đúng những gì mình dùng.
 
 ## Khung một ngày được tính từ khi nào

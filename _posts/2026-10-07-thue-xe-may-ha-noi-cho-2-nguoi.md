@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy Hà Nội cho 2 người: chọn xe theo tải và hành trình"
+date: 2026-10-07 01:07:24 +0700
+description: "Hai người đi cùng nhau nên thuê xe máy nào ở Hà Nội, từ dòng xe đủ tải cho hai người lớn đến cách chia chặng và lưu ý phanh, hành lý khi chở thêm."
+author: "Motoopen"
 matrix_id: 17
-description: Hai người đi cùng nhau nên thuê xe máy nào ở Hà Nội, từ dòng xe đủ tải cho hai người lớn đến cách chia chặng và lưu ý phanh, hành lý khi chở thêm.
+primary_keyword: "thuê xe máy hà nội cho 2 người"
+hub_parent: thue-xe
+hub_category: bat-dau-thue
 ---
-
 Đi hai người trên một xe máy thuê là tình huống phổ biến, từ cặp đôi dạo phố đến hai bạn cùng đi làm. Nhưng chọn sai dòng xe hoặc sắp sai chỗ ngồi sẽ mỏi cả hai và khó xử lý trên đường. Bài này giúp bạn chọn xe theo tải và hành trình khi đi cùng nhau.
 
 ## Chọn dòng xe đủ tải cho hai người

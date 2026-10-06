@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy Hà Nội 2 ngày: cách so sánh giá ngày và gói ngắn hạn"
+date: 2026-10-07 01:07:24 +0700
+description: "Thuê xe máy Hà Nội 2 ngày nên so giá ngày lẻ với gói ngắn hạn thế nào, các khoản hỏi trước và cách chốt khung nhận trả để tiết kiệm nhất."
+author: "Motoopen"
 matrix_id: 23
-description: Thuê xe máy Hà Nội 2 ngày nên so giá ngày lẻ với gói ngắn hạn thế nào, các khoản hỏi trước và cách chốt khung nhận trả để tiết kiệm nhất.
+primary_keyword: "thuê xe máy hà nội 2 ngày"
+hub_parent: thue-xe
+hub_category: gia-thoi-gian
 ---
-
 Hai ngày là thời gian đủ để vừa đi phố vừa ghé các điểm ven Hà Nội, nhưng cũng là ngưỡng mà nhiều người băn khoăn nên thuê lẻ theo ngày hay hỏi gói riêng. Bài này giúp bạn so sánh đúng để hai ngày thuê không trả hớ.
 
 ## So giá hai ngày lẻ với gói ngắn hạn

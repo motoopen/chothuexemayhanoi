@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy Hà Nội 3 ngày: nên tính theo ngày hay hỏi gói riêng?"
+date: 2026-10-07 01:07:24 +0700
+description: "Thuê xe máy Hà Nội 3 ngày nên tính theo giá ngày lẻ hay hỏi gói riêng, cách so quy đổi, chốt khung nhận trả và các phụ phí cần rà trước khi ký."
+author: "Motoopen"
 matrix_id: 24
-description: Thuê xe máy Hà Nội 3 ngày nên tính theo giá ngày lẻ hay hỏi gói riêng, cách so quy đổi, chốt khung nhận trả và các phụ phí cần rà trước khi ký.
+primary_keyword: "thuê xe máy hà nội 3 ngày"
+hub_parent: thue-xe
+hub_category: gia-thoi-gian
 ---
-
 Ba ngày là thời gian vừa đủ cho một lịch trình đầy ở Hà Nội, đi phố, đi ven và chừa ngày trả dư. Ở ngưỡng này, cách tính của gói ảnh hưởng đáng kể tới tổng chi phí, nên bài này giúp bạn quyết định giữa giá ngày lẻ và gói riêng.
 
 ## Quy đổi giá ba ngày lẻ ra sao

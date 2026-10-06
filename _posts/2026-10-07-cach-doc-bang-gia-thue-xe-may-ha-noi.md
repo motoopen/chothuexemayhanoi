@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Cách đọc bảng giá thuê xe máy Hà Nội để không nhầm ngày, giờ và phụ phí"
+date: 2026-10-07 01:07:24 +0700
+description: "Cách đọc bảng giá thuê xe máy Hà Nội để không nhầm giữa giá ngày, giá giờ và các khoản phụ phí, kèm các câu nên hỏi trước khi chốt gói."
+author: "Motoopen"
 matrix_id: 21
-description: Cách đọc bảng giá thuê xe máy Hà Nội để không nhầm giữa giá ngày, giá giờ và các khoản phụ phí, kèm các câu nên hỏi trước khi chốt gói.
+primary_keyword: "cách đọc bảng giá thuê xe máy hà nội"
+hub_parent: thue-xe
+hub_category: gia-thoi-gian
 ---
-
 Bảng giá thuê xe máy ở Hà Nội nhìn qua tưởng đơn giản, nhưng nhiều người đến lúc trả xe mới phát hiện mình hiểu nhầm giữa giá ngày và giá giờ, hoặc bỏ qua các khoản phụ phí. Bài này hướng dẫn cách đọc bảng giá đúng để tổng chi phí không vượt dự tính.
 
 ## Phân biệt giá ngày, giá giờ và giá gói
