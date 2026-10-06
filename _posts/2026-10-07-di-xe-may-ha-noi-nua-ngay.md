@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Đi Hà Nội nửa ngày bằng xe máy: chọn khu vực thay vì chạy quá nhiều điểm"
+date: 2026-10-07 02:03:18 +0700
+description: "Đi Hà Nội nửa ngày bằng xe máy nên chọn một khu vực tham quan thay vì chạy nhiều điểm, kèm gói thuê theo giờ và giờ di chuyển tránh cao điểm."
+author: "Motoopen"
 matrix_id: 260
-description: Đi Hà Nội nửa ngày bằng xe máy nên chọn một khu vực tham quan thay vì chạy nhiều điểm, kèm gói thuê theo giờ và giờ di chuyển tránh cao điểm.
+primary_keyword: "đi xe máy hà nội nửa ngày"
+hub_parent: kinh-nghiem
+hub_category: hanh-trinh
 ---
-
 Nửa ngày chỉ đủ cho một khu vực nếu bạn muốn thật sự tận hưởng nó, và đó là nguyên tắc số một của bài này: chọn vùng, bỏ danh sách. Ai cố nhét ba khu vào bốn tiếng đều kết thúc chỉ thấy đèn đỏ.
 
 ## Chọn đúng một khu vực

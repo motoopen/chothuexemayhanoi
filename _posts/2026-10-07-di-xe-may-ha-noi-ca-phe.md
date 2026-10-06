@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Đi cà phê bằng xe máy ở Hà Nội: cách nhóm điểm theo khu vực"
+date: 2026-10-07 02:03:18 +0700
+description: "Đi cà phê bằng xe máy ở Hà Nội nên nhóm điểm theo khu vực, chọn quán có chỗ gửi xe và canh giờ đẹp của ánh sáng cho each buổi."
+author: "Motoopen"
 matrix_id: 263
-description: Đi cà phê bằng xe máy ở Hà Nội nên nhóm điểm theo khu vực, chọn quán có chỗ gửi xe và canh giờ đẹp của ánh sáng cho each buổi.
+primary_keyword: "đi xe máy hà nội cà phê"
+hub_parent: kinh-nghiem
+hub_category: hanh-trinh
 ---
-
 Tuyến cà phê Hà Nội là thú riêng của người có xe máy, vì các quán đẹp nằm rải từ phố cổ tới ven hồ, không quán nào gần nhau. Bài này giúp nhóm chúng thành các cung đi được trong một buổi.
 
 ## Nhóm quán theo ba khu vực

@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Lịch trình Hà Nội 1 ngày bằng xe máy: cách nhóm điểm đến để đỡ di chuyển"
+date: 2026-10-07 02:03:18 +0700
+description: "Lịch trình Hà Nội 1 ngày bằng xe máy cần nhóm điểm theo khu vực, chọn giờ di chuyển tránh cao điểm và tính gói thuê theo khung dài nhất của ngày."
+author: "Motoopen"
 matrix_id: 259
-description: Lịch trình Hà Nội 1 ngày bằng xe máy cần nhóm điểm theo khu vực, chọn giờ di chuyển tránh cao điểm và tính gói thuê theo khung dài nhất của ngày.
+primary_keyword: "lịch trình xe máy tham quan hà nội 1 ngày"
+hub_parent: kinh-nghiem
+hub_category: hanh-trinh
 ---
-
 Một ngày khám phá Hà Nội bằng xe máy đi được nhiều hơn taxi, nhưng chỉ khi lịch trình được nhóm đúng: mỗi lần băng ngang thành phố là ba mươi phút mất oan. Bài này xếp các điểm thành ba cụm để đi tròn một ngày mà không mệt.
 
 ## Chia ngày thành ba cụm điểm

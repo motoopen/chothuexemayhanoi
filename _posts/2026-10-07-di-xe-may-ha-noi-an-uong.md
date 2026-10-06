@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Đi ăn bằng xe máy ở Hà Nội: cách chọn tuyến và chỗ gửi xe trước khi đi"
+date: 2026-10-07 02:03:18 +0700
+description: "Đi ăn bằng xe máy ở Hà Nội cần chọn tuyến quán theo khu vực, xác minh chỗ gửi xe trước khi đi và né cao điểm buổi tối."
+author: "Motoopen"
 matrix_id: 262
-description: Đi ăn bằng xe máy ở Hà Nội cần chọn tuyến quán theo khu vực, xác minh chỗ gửi xe trước khi đi và né cao điểm buổi tối.
+primary_keyword: "đi xe máy hà nội ăn uống"
+hub_parent: kinh-nghiem
+hub_category: hanh-trinh
 ---
-
 Ăn uống bằng xe máy ở Hà Nội thoải hơn ô tô vì lách được phố nhỏ, nhưng nó cũng có cái giá riêng: tìm chỗ đỗ giữa phố đông và gửi xe qua nhiều điểm. Bài này giúp chọn tuyến và chỗ gửi trước khi bạn xếp danh sách quán.
 
 ## Chọn tuyến quán theo khu vực

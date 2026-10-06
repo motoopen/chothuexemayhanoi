@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Đi chụp ảnh bằng xe máy ở Hà Nội: chọn thời gian và điểm dừng thế nào?"
+date: 2026-10-07 02:03:18 +0700
+description: "Đi chụp ảnh bằng xe máy ở Hà Nội cần chọn khung giờ ánh sáng đẹp, lên điểm dừng theo tuyến và chuẩn bị chỗ gửi xe cho máy ảnh."
+author: "Motoopen"
 matrix_id: 264
-description: Đi chụp ảnh bằng xe máy ở Hà Nội cần chọn khung giờ ánh sáng đẹp, lên điểm dừng theo tuyến và chuẩn bị chỗ gửi xe cho máy ảnh.
+primary_keyword: "đi xe máy hà nội chụp ảnh"
+hub_parent: kinh-nghiem
+hub_category: hanh-trinh
 ---
-
 Chụp ảnh phố bằng xe máy là cách hay nhất để bắt Hà Nội: di chuyển nhanh giữa các điểm, và dừng được ở những góc ô tô không tới. Nhưng lịch chụp ảnh khác lịch tham quan: nó chạy theo ánh sáng, không chạy theo điểm.
 
 ## Xếp điểm theo ánh sáng của buổi
