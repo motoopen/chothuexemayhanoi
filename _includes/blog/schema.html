@@ -16,6 +16,7 @@
 </script>
 {% endif %}
 {% if page.layout == 'post' and cfg.features.breadcrumb_schema %}
+{% if hub_child %}{% assign breadcrumb_position = 5 %}{% elsif hub_parent %}{% assign breadcrumb_position = 4 %}{% else %}{% assign breadcrumb_position = 3 %}{% endif %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -24,7 +25,8 @@
     {"@type":"ListItem","position":1,"name":"Trang chủ","item":{{ '/' | absolute_url | jsonify }}},
     {"@type":"ListItem","position":2,"name":"Blog","item":{{ '/blog/' | absolute_url | jsonify }}}{% if hub_parent %},
     {"@type":"ListItem","position":3,"name":{{ hub_parent.label | jsonify }},"item":{{ hub_parent.url | absolute_url | jsonify }}}{% if hub_child %},
-    {"@type":"ListItem","position":4,"name":{{ hub_child.label | jsonify }},"item":{{ hub_child.url | absolute_url | jsonify }}}{% endif %}{% endif %}
+    {"@type":"ListItem","position":4,"name":{{ hub_child.label | jsonify }},"item":{{ hub_child.url | absolute_url | jsonify }}}{% endif %}{% endif %},
+    {"@type":"ListItem","position":{{ breadcrumb_position }},"name":{{ page.title | jsonify }},"item":{{ page.url | absolute_url | jsonify }}}
   ]
 }
 </script>
