@@ -1,66 +1,58 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-07T01:01:56+07:00",
-  "finished_at": "2026-10-07T01:01:56+07:00",
+  "started_at": "2026-10-07T01:04:22+07:00",
+  "finished_at": "2026-10-07T01:04:22+07:00",
   "selected_count": 6,
   "published_total": 6,
   "published": [
     {
-      "id": 189,
-      "source": "_factory/incoming/189.md",
-      "post": "_posts/2026-10-07-thue-xe-may-ha-dong-ha-noi.md",
-      "url": "/blog/thue-xe-may-ha-dong-ha-noi/",
-      "word_count": 739,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
+      "id": 10,
+      "source": "_factory/incoming/10.md",
+      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-cuoi-tuan.md",
+      "url": "/blog/thue-xe-may-ha-noi-cuoi-tuan/",
+      "word_count": 708,
+      "warnings": []
     },
     {
-      "id": 197,
-      "source": "_factory/incoming/197.md",
-      "post": "_posts/2026-10-07-thue-xe-may-gia-lam-ha-noi.md",
-      "url": "/blog/thue-xe-may-gia-lam-ha-noi/",
-      "word_count": 724,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 199,
-      "source": "_factory/incoming/199.md",
-      "post": "_posts/2026-10-07-thue-xe-may-dong-anh-ha-noi.md",
-      "url": "/blog/thue-xe-may-dong-anh-ha-noi/",
-      "word_count": 726,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 201,
-      "source": "_factory/incoming/201.md",
-      "post": "_posts/2026-10-07-thue-xe-may-thanh-xuan-ha-noi.md",
-      "url": "/blog/thue-xe-may-thanh-xuan-ha-noi/",
-      "word_count": 686,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 219,
-      "source": "_factory/incoming/219.md",
-      "post": "_posts/2026-10-07-thue-xe-may-soc-son-ha-noi.md",
-      "url": "/blog/thue-xe-may-soc-son-ha-noi/",
+      "id": 222,
+      "source": "_factory/incoming/222.md",
+      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-can-nhung-gi.md",
+      "url": "/blog/thue-xe-may-ha-noi-can-nhung-gi/",
       "word_count": 713,
+      "warnings": []
+    },
+    {
+      "id": 246,
+      "source": "_factory/incoming/246.md",
+      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-di-ha-giang.md",
+      "url": "/blog/thue-xe-may-ha-noi-di-ha-giang/",
+      "word_count": 688,
       "warnings": [
         "matrix title does not contain exact primary keyword"
       ]
     },
     {
-      "id": 221,
-      "source": "_factory/incoming/221.md",
-      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-can-giay-to-gi.md",
-      "url": "/blog/thue-xe-may-ha-noi-can-giay-to-gi/",
-      "word_count": 746,
+      "id": 6,
+      "source": "_factory/incoming/6.md",
+      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-cho-khach-du-lich.md",
+      "url": "/blog/thue-xe-may-ha-noi-cho-khach-du-lich/",
+      "word_count": 729,
+      "warnings": []
+    },
+    {
+      "id": 7,
+      "source": "_factory/incoming/7.md",
+      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-cho-sinh-vien.md",
+      "url": "/blog/thue-xe-may-ha-noi-cho-sinh-vien/",
+      "word_count": 721,
+      "warnings": []
+    },
+    {
+      "id": 8,
+      "source": "_factory/incoming/8.md",
+      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-dai-ngay.md",
+      "url": "/blog/thue-xe-may-ha-noi-dai-ngay/",
+      "word_count": 732,
       "warnings": []
     }
   ],
@@ -68,7 +60,7 @@
   "recoverable": [],
   "fatal": null,
   "status_counts": {
-    "planned": 238,
-    "published": 62
+    "planned": 232,
+    "published": 68
   }
 }

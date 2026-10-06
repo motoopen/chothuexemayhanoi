@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy Hà Nội cho sinh viên: cách chọn gói thuê phù hợp ngân sách"
+date: 2026-10-07 01:04:22 +0700
+description: "Sinh viên thuê xe máy ở Hà Nội nên chọn gói nào hợp ngân sách, từ dòng xe tiết kiệm, đặt theo nhóm bạn đến khoản cọc cần hỏi trước."
+author: "Motoopen"
 matrix_id: 7
-description: Sinh viên thuê xe máy ở Hà Nội nên chọn gói nào hợp ngân sách, từ dòng xe tiết kiệm, đặt theo nhóm bạn đến khoản cọc cần hỏi trước.
+primary_keyword: "thuê xe máy hà nội cho sinh viên"
+hub_parent: thue-xe
+hub_category: bat-dau-thue
 ---
-
 Với sinh viên ở Hà Nội, xe máy thuê là phương án trung gian giữa đi xe buýt mệt mỏi và mua xe tốn kém. Nhưng chọn sai gói thuê có khi còn tốn hơn mua xe. Bài này nói cách chọn gói thuê hợp ngân sách sinh viên.
 
 ## Dòng xe tiết kiệm cho quãng đi học

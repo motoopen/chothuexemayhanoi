@@ -36,8 +36,8 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 238,
-    "published": 62
+    "planned": 232,
+    "published": 68
   },
   "items": [
     {
@@ -335,7 +335,7 @@
         "verify-current-service-policy"
       ],
       "cannibalization_guard": "Không target trực tiếp head term như một money page; bài phải trả lời một tình huống cụ thể và link về homepage.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "thue-xe",
         "parent_label": "Thuê xe",
@@ -347,7 +347,10 @@
       "front_matter": {
         "hub_parent": "thue-xe",
         "hub_category": "bat-dau-thue"
-      }
+      },
+      "published_at": "2026-10-07T01:04:22+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-ha-noi-cho-khach-du-lich.md",
+      "published_url": "/blog/thue-xe-may-ha-noi-cho-khach-du-lich/"
     },
     {
       "id": 7,
@@ -384,7 +387,7 @@
         "verify-current-service-policy"
       ],
       "cannibalization_guard": "Không target trực tiếp head term như một money page; bài phải trả lời một tình huống cụ thể và link về homepage.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "thue-xe",
         "parent_label": "Thuê xe",
@@ -396,7 +399,10 @@
       "front_matter": {
         "hub_parent": "thue-xe",
         "hub_category": "bat-dau-thue"
-      }
+      },
+      "published_at": "2026-10-07T01:04:22+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-ha-noi-cho-sinh-vien.md",
+      "published_url": "/blog/thue-xe-may-ha-noi-cho-sinh-vien/"
     },
     {
       "id": 8,
@@ -433,7 +439,7 @@
         "verify-current-service-policy"
       ],
       "cannibalization_guard": "Không target trực tiếp head term như một money page; bài phải trả lời một tình huống cụ thể và link về homepage.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "thue-xe",
         "parent_label": "Thuê xe",
@@ -445,7 +451,10 @@
       "front_matter": {
         "hub_parent": "thue-xe",
         "hub_category": "bat-dau-thue"
-      }
+      },
+      "published_at": "2026-10-07T01:04:22+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-ha-noi-dai-ngay.md",
+      "published_url": "/blog/thue-xe-may-ha-noi-dai-ngay/"
     },
     {
       "id": 9,
@@ -534,7 +543,7 @@
         "verify-current-service-policy"
       ],
       "cannibalization_guard": "Không target trực tiếp head term như một money page; bài phải trả lời một tình huống cụ thể và link về homepage.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "thue-xe",
         "parent_label": "Thuê xe",
@@ -546,7 +555,10 @@
       "front_matter": {
         "hub_parent": "thue-xe",
         "hub_category": "bat-dau-thue"
-      }
+      },
+      "published_at": "2026-10-07T01:04:22+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-ha-noi-cuoi-tuan.md",
+      "published_url": "/blog/thue-xe-may-ha-noi-cuoi-tuan/"
     },
     {
       "id": 11,
@@ -11132,7 +11144,7 @@
         "verify-current-vietnam-law"
       ],
       "cannibalization_guard": "Không tạo nhiều bài cho cùng một câu hỏi pháp lý; dùng secondary keywords cho biến thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -11144,7 +11156,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "thu-tuc-phap-ly"
-      }
+      },
+      "published_at": "2026-10-07T01:04:22+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-ha-noi-can-nhung-gi.md",
+      "published_url": "/blog/thue-xe-may-ha-noi-can-nhung-gi/"
     },
     {
       "id": 223,
@@ -12333,7 +12348,7 @@
         "verify-current-traffic-law"
       ],
       "cannibalization_guard": "Mỗi bài phải là một hành trình/use case khác biệt.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "kinh-nghiem",
         "parent_label": "Kinh nghiệm",
@@ -12345,7 +12360,10 @@
       "front_matter": {
         "hub_parent": "kinh-nghiem",
         "hub_category": "hanh-trinh"
-      }
+      },
+      "published_at": "2026-10-07T01:04:22+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-ha-noi-di-ha-giang.md",
+      "published_url": "/blog/thue-xe-may-ha-noi-di-ha-giang/"
     },
     {
       "id": 247,
@@ -15032,5 +15050,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T01:01:56+07:00"
+  "updated_at": "2026-10-07T01:04:22+07:00"
 }
