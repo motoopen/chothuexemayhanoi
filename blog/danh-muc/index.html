@@ -1,0 +1,14 @@
+---
+layout: default
+title: "Danh mục Blog"
+description: "Danh mục cha và danh mục con của SEO Hub thuê xe máy Hà Nội."
+permalink: /blog/danh-muc/
+---
+<main class="blog-shell taxonomy-shell">
+  <nav class="blog-breadcrumb" aria-label="Breadcrumb"><a class="blog-breadcrumb-home" href="{{ '/' | relative_url }}"><i class="fa-solid fa-house"></i> Trang chủ</a><span class="blog-breadcrumb-sep">›</span><a class="blog-breadcrumb-blog" href="{{ '/blog/' | relative_url }}">Blog</a><span class="blog-breadcrumb-sep">›</span><span class="blog-breadcrumb-current">Danh mục</span></nav>
+  <header class="taxonomy-heading"><span class="taxonomy-icon"><i class="fa-solid fa-layer-group"></i></span><div><p class="taxonomy-kicker">SEO Hub 300 bài</p><h1>Danh mục Blog</h1><p>5 danh mục cha và 10 danh mục con để bài viết được xếp đúng intent, dễ tìm và dễ internal-link.</p></div></header>
+  <section class="taxonomy-parent-list">{% for parent in site.data.taxonomy.parents %}{% assign parent_posts = site.posts | where: "hub_parent", parent.slug %}
+    <article class="taxonomy-parent-card"><a class="taxonomy-parent-head" href="{{ parent.url | relative_url }}"><span class="taxonomy-card-icon"><i class="{{ parent.icon }}"></i></span><span><strong>{{ parent.label }}</strong><small>{{ parent.description }}</small><em>{{ parent_posts.size }} bài</em></span></a>
+      <div class="taxonomy-child-links">{% for child in parent.children %}{% assign child_posts = site.posts | where: "hub_category", child.slug %}<a href="{{ child.url | relative_url }}"><i class="{{ child.icon }}"></i><span>{{ child.label }}</span><small>{{ child_posts.size }}</small></a>{% endfor %}</div>
+    </article>{% endfor %}</section>
+</main>
