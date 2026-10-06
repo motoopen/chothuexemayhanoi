@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Mất chìa khóa xe thuê: nên làm gì trước khi gọi thợ hoặc di chuyển xe?"
+date: 2026-10-07 01:54:35 +0700
+description: "Mất chìa khóa xe thuê cần báo ngay cho nơi cho thuê, hỏi phương án chìa dự phòng và chỉ đục hoặc kéo xe khi được đồng ý."
+author: "Motoopen"
 matrix_id: 238
-description: Mất chìa khóa xe thuê cần báo ngay cho nơi cho thuê, hỏi phương án chìa dự phòng và chỉ đục hoặc kéo xe khi được đồng ý.
+primary_keyword: "mất chìa khóa xe thuê"
+hub_parent: huong-dan
+hub_category: thu-tuc-phap-ly
 ---
-
 Mất chìa khóa xe thuê dễ hốt hoảng hơn mức cần, vì phần lớn nơi thuê có chìa dự phòng và quy trình sẵn cho tình huống này. Bài này cho bạn thứ tự việc cần làm trước khi gọi thợ hay di chuyển xe.
 
 ## Xác định là mất hay kẹt

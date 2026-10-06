@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Xe thuê bị tai nạn: thứ tự việc cần làm để ưu tiên an toàn và thông báo"
+date: 2026-10-07 01:54:35 +0700
+description: "Xe thuê bị tai nạn cần ưu tiên an toàn trước, sau đó thông báo nơi cho thuê, cơ quan chức năng và lưu bằng chứng theo đúng thứ tự."
+author: "Motoopen"
 matrix_id: 236
-description: Xe thuê bị tai nạn cần ưu tiên an toàn trước, sau đó thông báo nơi cho thuê, cơ quan chức năng và lưu bằng chứng theo đúng thứ tự.
+primary_keyword: "xe thuê bị tai nạn phải làm gì"
+hub_parent: huong-dan
+hub_category: thu-tuc-phap-ly
 ---
-
 Tai nạn giữa kỳ thuê là tình huống không ai muốn, nhưng thứ tự xử lý đúng giúp bạn bảo vệ an toàn, quyền lợi và tránh tranh chấp về trách nhiệm. Bài này liệt kê thứ tự việc cần làm.
 
 ## Ưu tiên an toàn người trước

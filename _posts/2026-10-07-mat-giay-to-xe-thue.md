@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Mất giấy tờ xe thuê: cần báo cho ai và lưu thông tin gì?"
+date: 2026-10-07 01:54:35 +0700
+description: "Mất giấy tờ xe thuê cần báo ngay cho nơi cho thuê và cơ quan chức năng, lưu thông tin tang vật và khai báo đúng quy trình."
+author: "Motoopen"
 matrix_id: 239
-description: Mất giấy tờ xe thuê cần báo ngay cho nơi cho thuê và cơ quan chức năng, lưu thông tin tang vật và khai báo đúng quy trình.
+primary_keyword: "mất giấy tờ xe thuê"
+hub_parent: huong-dan
+hub_category: thu-tuc-phap-ly
 ---
-
 Giấy tờ xe thuê gồm đăng ký và bảo hiểm đi kèm xe, và để quên hoặc làm mất chúng gây rắc rối lớn hơn mất chìa. Bài này giúp bạn biết cần báo cho ai và lưu thông tin gì.
 
 ## Phân biệt giấy tờ xe và giấy tờ người

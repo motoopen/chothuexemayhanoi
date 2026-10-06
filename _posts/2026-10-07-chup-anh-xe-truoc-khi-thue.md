@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Vì sao nên chụp ảnh xe trước khi thuê? Checklist góc chụp trong 2 phút"
+date: 2026-10-07 01:54:35 +0700
+description: "Chụp ảnh xe trước khi thuê giúp bạn đối chiếu vết xước và tình trạng khi trả xe, và checklist góc chụp này chỉ mất hai phút."
+author: "Motoopen"
 matrix_id: 234
-description: Chụp ảnh xe trước khi thuê giúp bạn đối chiếu vết xước và tình trạng khi trả xe, và checklist góc chụp này chỉ mất hai phút.
+primary_keyword: "chụp ảnh xe trước khi thuê"
+hub_parent: huong-dan
+hub_category: thu-tuc-phap-ly
 ---
-
 Mười bức ảnh lúc nhận xe có thể cứu bạn vài trăm nghìn lúc trả xe, vì ảnh là bằng chứng khách quan nhất khi hai bên nhớ khác nhau về vết xước. Bài này cho bạn checklist góc chụp gọn trong hai phút.
 
 ## Vì sao ảnh quan trọng hơn trí nhớ

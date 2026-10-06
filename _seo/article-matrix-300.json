@@ -36,8 +36,8 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 66,
-    "published": 234
+    "planned": 60,
+    "published": 240
   },
   "items": [
     {
@@ -12245,7 +12245,7 @@
         "verify-current-vietnam-law"
       ],
       "cannibalization_guard": "Không tạo nhiều bài cho cùng một câu hỏi pháp lý; dùng secondary keywords cho biến thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -12257,7 +12257,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "thu-tuc-phap-ly"
-      }
+      },
+      "published_at": "2026-10-07T01:54:35+07:00",
+      "published_path": "_posts/2026-10-07-chup-anh-xe-truoc-khi-thue.md",
+      "published_url": "/blog/chup-anh-xe-truoc-khi-thue/"
     },
     {
       "id": 235,
@@ -12295,7 +12298,7 @@
         "verify-current-vietnam-law"
       ],
       "cannibalization_guard": "Không tạo nhiều bài cho cùng một câu hỏi pháp lý; dùng secondary keywords cho biến thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -12307,7 +12310,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "thu-tuc-phap-ly"
-      }
+      },
+      "published_at": "2026-10-07T01:54:35+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-bi-phat-giao-thong.md",
+      "published_url": "/blog/thue-xe-may-bi-phat-giao-thong/"
     },
     {
       "id": 236,
@@ -12345,7 +12351,7 @@
         "verify-current-vietnam-law"
       ],
       "cannibalization_guard": "Không tạo nhiều bài cho cùng một câu hỏi pháp lý; dùng secondary keywords cho biến thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -12357,7 +12363,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "thu-tuc-phap-ly"
-      }
+      },
+      "published_at": "2026-10-07T01:54:35+07:00",
+      "published_path": "_posts/2026-10-07-xe-thue-bi-tai-nan-phai-lam-gi.md",
+      "published_url": "/blog/xe-thue-bi-tai-nan-phai-lam-gi/"
     },
     {
       "id": 237,
@@ -12395,7 +12404,7 @@
         "verify-current-vietnam-law"
       ],
       "cannibalization_guard": "Không tạo nhiều bài cho cùng một câu hỏi pháp lý; dùng secondary keywords cho biến thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -12407,7 +12416,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "thu-tuc-phap-ly"
-      }
+      },
+      "published_at": "2026-10-07T01:54:35+07:00",
+      "published_path": "_posts/2026-10-07-xe-thue-bi-hong-giua-duong.md",
+      "published_url": "/blog/xe-thue-bi-hong-giua-duong/"
     },
     {
       "id": 238,
@@ -12445,7 +12457,7 @@
         "verify-current-vietnam-law"
       ],
       "cannibalization_guard": "Không tạo nhiều bài cho cùng một câu hỏi pháp lý; dùng secondary keywords cho biến thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -12457,7 +12469,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "thu-tuc-phap-ly"
-      }
+      },
+      "published_at": "2026-10-07T01:54:35+07:00",
+      "published_path": "_posts/2026-10-07-mat-chia-khoa-xe-thue.md",
+      "published_url": "/blog/mat-chia-khoa-xe-thue/"
     },
     {
       "id": 239,
@@ -12495,7 +12510,7 @@
         "verify-current-vietnam-law"
       ],
       "cannibalization_guard": "Không tạo nhiều bài cho cùng một câu hỏi pháp lý; dùng secondary keywords cho biến thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -12507,7 +12522,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "thu-tuc-phap-ly"
-      }
+      },
+      "published_at": "2026-10-07T01:54:35+07:00",
+      "published_path": "_posts/2026-10-07-mat-giay-to-xe-thue.md",
+      "published_url": "/blog/mat-giay-to-xe-thue/"
     },
     {
       "id": 240,
@@ -15548,5 +15566,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T01:52:43+07:00"
+  "updated_at": "2026-10-07T01:54:35+07:00"
 }

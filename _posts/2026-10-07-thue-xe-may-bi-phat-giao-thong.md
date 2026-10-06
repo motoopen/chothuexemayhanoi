@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Xe thuê bị phạt giao thông: người thuê nên xử lý và lưu thông tin thế nào?"
+date: 2026-10-07 01:54:35 +0700
+description: "Xe thuê bị phạt giao thông cần xử lý ngay tại chỗ, lưu thông tin lệnh phạt và thông báo cho nơi cho thuê theo đúng thời hạn."
+author: "Motoopen"
 matrix_id: 235
-description: Xe thuê bị phạt giao thông cần xử lý ngay tại chỗ, lưu thông tin lệnh phạt và thông báo cho nơi cho thuê theo đúng thời hạn.
+primary_keyword: "thuê xe máy bị phạt giao thông"
+hub_parent: huong-dan
+hub_category: thu-tuc-phap-ly
 ---
-
 Xe thuê bị dừng và xử phạt giao thông là tình huống dễ hoảng, nhưng nếu bạn xử theo thứ tự đúng thì không đến mức phạt kép. Bài này giúp bạn biết thứ tự việc cần làm và thông tin cần lưu.
 
 ## Giữ bình tĩnh và nhận lệnh phạt

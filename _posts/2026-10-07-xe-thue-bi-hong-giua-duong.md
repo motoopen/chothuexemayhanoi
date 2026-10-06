@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Xe thuê bị hỏng giữa đường: checklist xử lý trước khi tự sửa"
+date: 2026-10-07 01:54:35 +0700
+description: "Xe thuê bị hỏng giữa đường cần kiểm tra nhanh lỗi nhỏ, gọi nơi cho thuê trước và chỉ tự sửa khi được đồng ý để tránh mất cọc oan."
+author: "Motoopen"
 matrix_id: 237
-description: Xe thuê bị hỏng giữa đường cần kiểm tra nhanh lỗi nhỏ, gọi nơi cho thuê trước và chỉ tự sửa khi được đồng ý để tránh mất cọc oan.
+primary_keyword: "xe thuê bị hỏng giữa đường"
+hub_parent: huong-dan
+hub_category: thu-tuc-phap-ly
 ---
-
 Xe chết máy giữa phố là chuyện thường gặp với xe thuê, nhưng xử sai một bước có thể biến hỏng nhỏ thành khoản đền lớn. Bài này cho bạn checklist xử lý theo đúng thứ tự.
 
 ## Đưa xe vào chỗ an toàn
