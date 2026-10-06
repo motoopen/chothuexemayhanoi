@@ -1,0 +1,43 @@
+---
+---
+<!doctype html>
+<html lang="{{ site.lang | default: 'vi' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines }}{% endif %}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  <meta property="og:locale" content="vi_VN">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines }}{% endif %}">
+  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  {% if page.image %}
+  <meta property="og:image" content="{{ page.image | absolute_url }}">
+  {% elsif site.social_image %}
+  <meta property="og:image" content="{{ site.social_image }}">
+  {% endif %}
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title | default: site.title }}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines }}{% endif %}">
+
+  <link id="fa-css" rel="stylesheet" href="{{ site.fa_css | default: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css' }}">
+  <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body class="{{ page.body_class | default: '' }}">
+  {% include header.html %}
+
+  {{ content }}
+
+  {% include footer.html %}
+  <script defer src="{{ '/assets/js/site.js' | relative_url }}"></script>
+  <script defer src="{{ '/assets/js/fontawesome-fallback.js' | relative_url }}"></script>
+</body>
+</html>

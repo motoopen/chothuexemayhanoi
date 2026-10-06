@@ -1,9 +1,22 @@
----
-layout: post
-title: "Giới thiệu về Motoopen"
-date: 2025-10-28 12:00:00 +07:00
-author: "Motoopen"
-categories: [blog, gioi-thieu]
+title: "Motoopen"
 description: "Motoopen — Thuê xe máy Hà Nội: giao tận nơi, cọc nhẹ, xe bảo dưỡng định kỳ."
-permalink: /blog/gioi-thieu-motoopen/
----
+url: "https://motoopen.github.io"
+baseurl: "/chothuexemayhanoi"
+lang: "vi"
+author: "Motoopen"
+timezone: "Asia/Ho_Chi_Minh"
+
+# Giữ URL bài mẫu hiện tại, đồng thời cho phép thêm nhiều bài mới.
+permalink: /blog/:title/
+
+fa_css: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+logo: "https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg"
+social_image: "https://i.postimg.cc/brsmsj5N/IMG-5215.jpg"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: "Motoopen"
