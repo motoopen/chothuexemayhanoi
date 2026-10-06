@@ -1,18 +1,40 @@
-self.addEventListener('install', e => {
-  e.waitUntil(
-    caches.open('motoopen-v1').then(cache => 
-      cache.addAll([
-        '/',
-        '/chothuexemayhanoi/index.html',
-        '/chothuexemayhanoi/assets/css/style.css',
-        '/chothuexemayhanoi/motoai_v26_autolearn_multisite.js'
-      ])
-    )
+const CACHE_NAME = 'motoopen-v2';
+const APP_SHELL = [
+  '/chothuexemayhanoi/',
+  '/chothuexemayhanoi/index.html',
+  '/chothuexemayhanoi/assets/css/home.css',
+  '/chothuexemayhanoi/assets/js/home-ui.js',
+  '/chothuexemayhanoi/motoai_v39_modelfirst_nomarkdown_nolink.js'
+];
+
+self.addEventListener('install', event => {
+  event.waitUntil(
+    caches.open(CACHE_NAME)
+      .then(cache => cache.addAll(APP_SHELL))
+      .then(() => self.skipWaiting())
   );
 });
 
-self.addEventListener('fetch', e => {
-  e.respondWith(
-    caches.match(e.request).then(response => response || fetch(e.request))
+self.addEventListener('activate', event => {
+  event.waitUntil(
+    caches.keys()
+      .then(keys => Promise.all(keys.filter(key => key !== CACHE_NAME).map(key => caches.delete(key))))
+      .then(() => self.clients.claim())
+  );
+});
+
+self.addEventListener('fetch', event => {
+  if (event.request.method !== 'GET') return;
+
+  event.respondWith(
+    caches.match(event.request).then(cached => {
+      if (cached) return cached;
+      return fetch(event.request).then(response => {
+        if (!response || response.status !== 200 || response.type === 'opaque') return response;
+        const copy = response.clone();
+        caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy));
+        return response;
+      });
+    })
   );
 });
