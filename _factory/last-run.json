@@ -1,69 +1,32 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-07T01:27:22+07:00",
-  "finished_at": "2026-10-07T01:27:22+07:00",
-  "selected_count": 6,
-  "published_total": 4,
+  "started_at": "2026-10-07T01:27:42+07:00",
+  "finished_at": "2026-10-07T01:27:42+07:00",
+  "selected_count": 2,
+  "published_total": 2,
   "published": [
     {
-      "id": 136,
-      "source": "_factory/incoming/136.md",
-      "post": "_posts/2026-10-07-thue-xe-ga-ha-noi.md",
-      "url": "/blog/thue-xe-ga-ha-noi/",
-      "word_count": 687,
+      "id": 129,
+      "source": "_factory/incoming/129.md",
+      "post": "_posts/2026-10-07-thue-xe-may-dien-di-quang-ngan.md",
+      "url": "/blog/thue-xe-may-dien-di-quang-ngan/",
+      "word_count": 727,
       "warnings": []
     },
     {
-      "id": 137,
-      "source": "_factory/incoming/137.md",
-      "post": "_posts/2026-10-07-thue-xe-so-ha-noi.md",
-      "url": "/blog/thue-xe-so-ha-noi/",
-      "word_count": 699,
-      "warnings": []
-    },
-    {
-      "id": 138,
-      "source": "_factory/incoming/138.md",
-      "post": "_posts/2026-10-07-thue-xe-con-ha-noi.md",
-      "url": "/blog/thue-xe-con-ha-noi/",
-      "word_count": 667,
-      "warnings": []
-    },
-    {
-      "id": 140,
-      "source": "_factory/incoming/140.md",
-      "post": "_posts/2026-10-07-thue-xe-wave-ha-noi.md",
-      "url": "/blog/thue-xe-wave-ha-noi/",
-      "word_count": 682,
+      "id": 133,
+      "source": "_factory/incoming/133.md",
+      "post": "_posts/2026-10-07-checklist-nhan-xe-may-dien.md",
+      "url": "/blog/checklist-nhan-xe-may-dien/",
+      "word_count": 756,
       "warnings": []
     }
   ],
-  "recoverable_total": 2,
-  "recoverable": [
-    {
-      "path": "_factory/incoming/135.md",
-      "id": 135,
-      "errors": [
-        "thin draft: 648 words < 650"
-      ],
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ],
-      "word_count": 648
-    },
-    {
-      "path": "_factory/incoming/139.md",
-      "id": 139,
-      "errors": [
-        "thin draft: 644 words < 650"
-      ],
-      "warnings": [],
-      "word_count": 644
-    }
-  ],
+  "recoverable_total": 0,
+  "recoverable": [],
   "fatal": null,
   "status_counts": {
-    "planned": 146,
-    "published": 154
+    "planned": 144,
+    "published": 156
   }
 }

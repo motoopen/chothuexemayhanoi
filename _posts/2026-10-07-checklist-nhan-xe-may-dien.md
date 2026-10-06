@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Checklist nhận xe máy điện: pin, sạc, phanh, lốp và giấy tờ"
+date: 2026-10-07 01:27:42 +0700
+description: "Checklist nhận xe máy điện khi thuê: pin, bộ sạc, phanh, lốp, đèn và giấy tờ, rà theo từng mục trong năm phút trước khi rời điểm bàn giao."
+author: "Motoopen"
 matrix_id: 133
-description: Checklist nhận xe máy điện khi thuê: pin, bộ sạc, phanh, lốp, đèn và giấy tờ, rà theo từng mục trong năm phút trước khi rời điểm bàn giao.
+primary_keyword: "checklist nhận xe máy điện"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Nhận xe máy điện thuê chỉ mất năm phút nếu bạn rà theo danh sách. Bài này là checklist đầy đủ từ pin đến giấy tờ, để bạn không phải quay lại vì lỗi đáng lẽ thấy ngay.
 
 ## Pin lúc bàn giao

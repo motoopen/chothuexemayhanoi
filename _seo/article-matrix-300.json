@@ -36,8 +36,8 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 146,
-    "published": 154
+    "planned": 144,
+    "published": 156
   },
   "items": [
     {
@@ -6785,7 +6785,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -6797,7 +6797,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T01:27:42+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-dien-di-quang-ngan.md",
+      "published_url": "/blog/thue-xe-may-dien-di-quang-ngan/"
     },
     {
       "id": 130,
@@ -6990,7 +6993,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -7002,7 +7005,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T01:27:42+07:00",
+      "published_path": "_posts/2026-10-07-checklist-nhan-xe-may-dien.md",
+      "published_url": "/blog/checklist-nhan-xe-may-dien/"
     },
     {
       "id": 134,
@@ -15308,5 +15314,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T01:27:22+07:00"
+  "updated_at": "2026-10-07T01:27:42+07:00"
 }

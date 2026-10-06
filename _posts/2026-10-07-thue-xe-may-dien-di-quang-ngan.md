@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy điện đi quãng ngắn: khi nào là lựa chọn hợp lý?"
+date: 2026-10-07 01:27:42 +0700
+description: "Khi nào thuê xe máy điện đi quãng ngắn là hợp lý ở Hà Nội, từ di chuyển nội thành, đi phố cổ đến chuyến chợ vài cây số, kèm cách tính chi phí."
+author: "Motoopen"
 matrix_id: 129
-description: Khi nào thuê xe máy điện đi quãng ngắn là hợp lý ở Hà Nội, từ di chuyển nội thành, đi phố cổ đến chuyến chợ vài cây số, kèm cách tính chi phí.
+primary_keyword: "thuê xe máy điện đi quãng ngắn"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Quãng ngắn là lĩnh vực xe máy điện mạnh nhất khi thuê ở Hà Nội. Bài này chỉ rõ những tình huống thuê xe điện cho lộ trình ngắn là lựa chọn hợp lý nhất, và cách tính để không mất tiền.
 
 ## Các tình huống quãng ngắn điển hình
