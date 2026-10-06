@@ -4,12 +4,35 @@ title: "Blog"
 description: "Bài viết và tin tức về Motoopen – Thuê xe máy Hà Nội."
 permalink: /blog/
 ---
-
 <main class="blog-shell">
   <header class="blog-heading">
     <h1>Blog</h1>
     <p>Bài viết mới nhất từ {{ site.title }}</p>
   </header>
+
+  <section class="taxonomy-overview" aria-label="Danh mục Blog">
+    <div class="taxonomy-section-head">
+      <h2>Danh mục</h2>
+      <a href="{{ '/blog/danh-muc/' | relative_url }}">Xem tất cả <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+    <div class="taxonomy-parent-list">
+      {% for parent in site.data.taxonomy.parents %}
+        {% assign parent_posts = site.posts | where: "hub_parent", parent.slug %}
+        <article class="taxonomy-parent-card">
+          <a class="taxonomy-parent-head" href="{{ parent.url | relative_url }}">
+            <span class="taxonomy-card-icon"><i class="{{ parent.icon }}"></i></span>
+            <span><strong>{{ parent.label }}</strong><small>{{ parent.description }}</small><em>{{ parent_posts.size }} bài</em></span>
+          </a>
+          <div class="taxonomy-child-links">
+            {% for child in parent.children %}
+              {% assign child_posts = site.posts | where: "hub_category", child.slug %}
+              <a href="{{ child.url | relative_url }}"><i class="{{ child.icon }}"></i><span>{{ child.label }}</span><small>{{ child_posts.size }}</small></a>
+            {% endfor %}
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
 
   <section class="blog-list" aria-label="Bài viết mới nhất">
     {% if site.posts.size == 0 %}
@@ -18,7 +41,14 @@ permalink: /blog/
       {% for post in site.posts %}
       <article class="blog-item">
         <h2><a class="blog-title-link" href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-        <p class="blog-meta">{{ post.date | date: "%-d %B %Y" }} • {{ post.author | default: site.author }}</p>
+        <p class="blog-meta">
+          {{ post.date | date: "%-d %B %Y" }} • {{ post.author | default: site.author }}
+          {% if post.hub_category %}
+            {% assign p_parent = site.data.taxonomy.parents | where: "slug", post.hub_parent | first %}
+            {% assign p_child = p_parent.children | where: "slug", post.hub_category | first %}
+            • <a href="{{ p_child.url | relative_url }}">{{ p_child.label }}</a>
+          {% endif %}
+        </p>
         <p class="blog-excerpt">{{ post.excerpt | strip_html | truncate:180 }}</p>
         <a class="mapp-btn ghost" href="{{ post.url | relative_url }}"><i class="fa-solid fa-arrow-right"></i> Đọc tiếp</a>
       </article>

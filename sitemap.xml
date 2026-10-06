@@ -16,6 +16,13 @@
   <url><loc>{{ '/chinhsachbaomat.html' | absolute_url }}</loc></url>
   <url><loc>{{ '/dieukhoansudung.html' | absolute_url }}</loc></url>
   <url><loc>{{ '/blog/' | absolute_url }}</loc></url>
+  <url><loc>{{ '/blog/danh-muc/' | absolute_url }}</loc></url>
+{% for parent in site.data.taxonomy.parents %}
+  <url><loc>{{ parent.url | absolute_url }}</loc></url>
+  {% for child in parent.children %}
+  <url><loc>{{ child.url | absolute_url }}</loc></url>
+  {% endfor %}
+{% endfor %}
 {% for post in site.posts %}
   <url>
     <loc>{{ post.url | absolute_url }}</loc>

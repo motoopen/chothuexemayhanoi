@@ -39,6 +39,8 @@ jobs:
           test "$(jq -r '.items[].primary_keyword' _seo/article-matrix-300.json | sort | uniq -d | wc -l)" -eq 0
           test "$(jq -r '.items[].slug' _seo/article-matrix-300.json | sort | uniq -d | wc -l)" -eq 0
           test "$(jq '[.items[] | select(.status == "published")] | length' _seo/article-matrix-300.json)" -eq 2
+          test "$(jq '[.items[] | select((.taxonomy.parent_slug // "") == "" or (.taxonomy.child_slug // "") == "" or (.taxonomy.child_url // "") == "")] | length' _seo/article-matrix-300.json)" -eq 0
+          test "$(jq -r '.items[].taxonomy.child_slug' _seo/article-matrix-300.json | sort -u | wc -l)" -eq 10
 
       - name: Verify generated public pages
         shell: bash
@@ -48,6 +50,15 @@ jobs:
           test -f _site/404.html
           test -f _site/sitemap.xml
           test -f _site/blog/index.html
+          test -f _site/blog/danh-muc/index.html
+          for category in \
+            thue-xe/index.html thue-xe/bat-dau-thue/index.html thue-xe/gia-thoi-gian/index.html \
+            loai-xe/index.html loai-xe/xe-50cc/index.html loai-xe/xe-dien/index.html loai-xe/cac-loai-xe/index.html \
+            khu-vuc/index.html khu-vuc/ha-noi-theo-khu-vuc/index.html \
+            huong-dan/index.html huong-dan/thu-tuc-phap-ly/index.html huong-dan/an-toan-su-co/index.html \
+            kinh-nghiem/index.html kinh-nghiem/hanh-trinh/index.html kinh-nghiem/so-sanh-lua-chon/index.html; do
+            test -f "_site/blog/danh-muc/$category"
+          done
           test -f _site/blog/gioi-thieu-motoopen/index.html
           test -f _site/blog/checklist-10-phut-truoc-khi-nhan-xe/index.html
           test -f _site/blog/xe-ga-hay-xe-so/index.html
@@ -64,6 +75,11 @@ jobs:
           done
           grep -q "/chothuexemayhanoi/blog/" _site/sitemap.xml
           grep -q "/chothuexemayhanoi/blog/gioi-thieu-motoopen/" _site/sitemap.xml
+          grep -q "/chothuexemayhanoi/blog/danh-muc/loai-xe/xe-50cc/" _site/sitemap.xml
+          grep -q "/chothuexemayhanoi/blog/danh-muc/loai-xe/xe-dien/" _site/sitemap.xml
+          grep -q "Danh mục Blog" _site/blog/danh-muc/index.html
+          grep -q "Xe ga hay xe số" _site/blog/danh-muc/kinh-nghiem/so-sanh-lua-chon/index.html
+          grep -q "Checklist 10 phút" _site/blog/danh-muc/huong-dan/an-toan-su-co/index.html
           test ! -e _site/_archive
           test ! -e _site/_seo
           if grep -R -n -E '\{%|\{\{' _site --include='*.html'; then

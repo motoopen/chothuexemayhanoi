@@ -4,6 +4,8 @@ title: "Checklist 10 phút trước khi nhận xe máy ở Hà Nội"
 date: 2026-10-06 15:05:00 +0700
 description: "Checklist ngắn giúp kiểm tra xe, giấy tờ bàn giao và các chi tiết cần nhớ trước khi bắt đầu chuyến đi bằng xe máy ở Hà Nội."
 categories: [kinh-nghiem, thue-xe]
+hub_parent: huong-dan
+hub_category: an-toan-su-co
 ---
 
 Nhận xe xong rồi chạy ngay nghe thì nhanh, nhưng dành khoảng **10 phút kiểm tra trước khi đi** sẽ giúp bạn đỡ bối rối nếu sau đó phát hiện một chi tiết bất thường. Đây là checklist đơn giản, phù hợp cả người thuê xe lần đầu lẫn người đã quen đi xe máy.

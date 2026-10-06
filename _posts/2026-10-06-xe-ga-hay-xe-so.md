@@ -4,6 +4,8 @@ title: "Xe ga hay xe số: chọn loại nào khi đi Hà Nội?"
 date: 2026-10-06 15:10:00 +0700
 description: "So sánh nhanh xe ga và xe số theo nhu cầu sử dụng để dễ chọn loại xe phù hợp khi đi lại ở Hà Nội."
 categories: [kinh-nghiem, loaixe]
+hub_parent: kinh-nghiem
+hub_category: so-sanh-lua-chon
 ---
 
 Khi thuê xe máy, câu hỏi thường gặp nhất không phải “xe nào tốt nhất?” mà là **“xe nào hợp với cách mình sẽ sử dụng?”**. Xe ga và xe số đều có ưu điểm riêng; chọn đúng loại sẽ giúp chuyến đi thoải mái hơn nhiều.

@@ -3,6 +3,8 @@ layout: post
 title: "Giới thiệu về Motoopen"
 date: 2025-10-28 12:00:00 +0700
 categories: [gioi-thieu, motoopen]
+hub_parent: thue-xe
+hub_category: bat-dau-thue
 ---
 
 **Motoopen** là dịch vụ **thuê xe máy Hà Nội** uy tín – chuyên cung cấp xe số, xe ga và xe điện  

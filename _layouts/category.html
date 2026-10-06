@@ -1,0 +1,45 @@
+---
+layout: default
+---
+{% assign parent = site.data.taxonomy.parents | where: "slug", page.parent_slug | first %}
+{% if page.child_slug %}
+  {% assign child = parent.children | where: "slug", page.child_slug | first %}
+  {% assign category_posts = site.posts | where: "hub_category", page.child_slug %}
+{% else %}
+  {% assign category_posts = site.posts | where: "hub_parent", page.parent_slug %}
+{% endif %}
+<main class="blog-shell taxonomy-shell" role="main">
+  <nav class="blog-breadcrumb" aria-label="Breadcrumb">
+    <a class="blog-breadcrumb-home" href="{{ '/' | relative_url }}"><i class="fa-solid fa-house"></i> Trang chủ</a><span class="blog-breadcrumb-sep">›</span>
+    <a class="blog-breadcrumb-blog" href="{{ '/blog/' | relative_url }}">Blog</a><span class="blog-breadcrumb-sep">›</span>
+    <a class="blog-breadcrumb-blog" href="{{ '/blog/danh-muc/' | relative_url }}">Danh mục</a>
+    {% if child %}<span class="blog-breadcrumb-sep">›</span><a class="blog-breadcrumb-blog" href="{{ parent.url | relative_url }}">{{ parent.label }}</a>{% endif %}
+  </nav>
+  <header class="taxonomy-heading">
+    <span class="taxonomy-icon"><i class="{% if child %}{{ child.icon }}{% else %}{{ parent.icon }}{% endif %}"></i></span>
+    <div><p class="taxonomy-kicker">{% if child %}{{ parent.label }}{% else %}Danh mục cha{% endif %}</p>
+      <h1>{% if child %}{{ child.label }}{% else %}{{ parent.label }}{% endif %}</h1>
+      <p>{% if child %}{{ child.description }}{% else %}{{ parent.description }}{% endif %}</p></div>
+  </header>
+  {% unless child %}
+  <section class="taxonomy-grid taxonomy-child-grid" aria-label="Danh mục con">
+    {% for item in parent.children %}{% assign child_posts = site.posts | where: "hub_category", item.slug %}
+    <a class="taxonomy-card" href="{{ item.url | relative_url }}"><span class="taxonomy-card-icon"><i class="{{ item.icon }}"></i></span>
+      <span><strong>{{ item.label }}</strong><small>{{ item.description }}</small><em>{{ child_posts.size }} bài</em></span></a>
+    {% endfor %}
+  </section>
+  {% endunless %}
+  <section class="taxonomy-posts" aria-label="Bài viết trong danh mục">
+    <div class="taxonomy-section-head"><h2>Bài viết</h2><span>{{ category_posts.size }} bài</span></div>
+    {% if category_posts.size == 0 %}
+    <div class="taxonomy-empty"><i class="fa-regular fa-folder-open"></i><p>Chưa có bài đã xuất bản trong danh mục này. Các bài từ SEO Matrix sẽ tự xuất hiện ở đây khi được đăng.</p></div>
+    {% else %}
+    <div class="blog-list">{% for post in category_posts %}<article class="blog-item">
+      <h3><a class="blog-title-link" href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p class="blog-meta">{{ post.date | date: "%-d %B %Y" }} • {{ post.author | default: site.author }}</p>
+      <p class="blog-excerpt">{{ post.excerpt | strip_html | truncate:180 }}</p>
+      <a class="mapp-btn ghost" href="{{ post.url | relative_url }}"><i class="fa-solid fa-arrow-right"></i> Đọc tiếp</a>
+    </article>{% endfor %}</div>
+    {% endif %}
+  </section>
+</main>

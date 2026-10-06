@@ -1,0 +1,74 @@
+{
+  "primary": [
+    {
+      "key": "home",
+      "label": "Trang chủ",
+      "icon": "fa-solid fa-house",
+      "url": "/"
+    },
+    {
+      "key": "about",
+      "label": "Giới thiệu",
+      "icon": "fa-solid fa-circle-info",
+      "url": "/gioithieu.html"
+    },
+    {
+      "key": "services",
+      "label": "Dịch vụ",
+      "icon": "fa-solid fa-motorcycle",
+      "url": "/dichvu.html",
+      "children": [
+        {
+          "label": "Bảng giá",
+          "icon": "fa-solid fa-tags",
+          "url": "/banggia.html"
+        },
+        {
+          "label": "Thủ tục",
+          "icon": "fa-solid fa-file-signature",
+          "url": "/thutuc.html"
+        },
+        {
+          "label": "Loại xe",
+          "icon": "fa-solid fa-motorcycle",
+          "url": "/loaixe.html"
+        },
+        {
+          "label": "Hướng dẫn",
+          "icon": "fa-solid fa-book",
+          "url": "/huongdan.html"
+        },
+        {
+          "label": "Kinh nghiệm",
+          "icon": "fa-solid fa-lightbulb",
+          "url": "/kinhnghiem.html"
+        }
+      ]
+    },
+    {
+      "key": "faq",
+      "label": "FAQ",
+      "icon": "fa-solid fa-circle-question",
+      "url": "/faq.html"
+    },
+    {
+      "key": "blog",
+      "label": "Blog",
+      "icon": "fa-solid fa-newspaper",
+      "url": "/blog/"
+    },
+    {
+      "key": "categories",
+      "label": "Danh mục",
+      "icon": "fa-solid fa-layer-group",
+      "url": "/blog/danh-muc/",
+      "taxonomy": true
+    },
+    {
+      "key": "contact",
+      "label": "Liên hệ",
+      "icon": "fa-solid fa-phone",
+      "url": "/lienhe.html"
+    }
+  ]
+}
