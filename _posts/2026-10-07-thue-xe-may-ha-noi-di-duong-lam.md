@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy Hà Nội đi Đường Lâm: checklist cho chuyến đi trong ngày"
+date: 2026-10-07 02:01:49 +0700
+description: "Thuê xe máy Hà Nội đi Đường Lâm cần checklist cho chuyến trong ngày: chọn xe, lên lịch tham quan làng cổ và mang giấy tờ đủ cho chặng tỉnh."
+author: "Motoopen"
 matrix_id: 256
-description: Thuê xe máy Hà Nội đi Đường Lâm cần checklist cho chuyến trong ngày: chọn xe, lên lịch tham quan làng cổ và mang giấy tờ đủ cho chặng tỉnh.
+primary_keyword: "thuê xe máy hà nội đi đường lâm"
+hub_parent: kinh-nghiem
+hub_category: hanh-trinh
 ---
-
 Đường Lâm cách Hà Nội khoảng bốn mươi lăm ki lômét, là chuyến trong ngày vừa đủ tham quan làng cổ mà không cần nghỉ lại. Checklist dưới đây gói từ khâu chọn xe tới lúc trả xe cho khung giờ đóng cửa của điểm thuê.
 
 ## Chọn xe cho cung bằng phẳng

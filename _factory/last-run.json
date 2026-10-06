@@ -1,68 +1,24 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-07T02:01:00+07:00",
-  "finished_at": "2026-10-07T02:01:00+07:00",
-  "selected_count": 6,
-  "published_total": 5,
+  "started_at": "2026-10-07T02:01:49+07:00",
+  "finished_at": "2026-10-07T02:01:49+07:00",
+  "selected_count": 1,
+  "published_total": 1,
   "published": [
     {
-      "id": 253,
-      "source": "_factory/incoming/253.md",
-      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-di-cat-ba.md",
-      "url": "/blog/thue-xe-may-ha-noi-di-cat-ba/",
-      "word_count": 679,
-      "warnings": []
-    },
-    {
-      "id": 254,
-      "source": "_factory/incoming/254.md",
-      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-di-chua-huong.md",
-      "url": "/blog/thue-xe-may-ha-noi-di-chua-huong/",
-      "word_count": 678,
-      "warnings": []
-    },
-    {
-      "id": 255,
-      "source": "_factory/incoming/255.md",
-      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-di-bat-trang.md",
-      "url": "/blog/thue-xe-may-ha-noi-di-bat-trang/",
-      "word_count": 670,
-      "warnings": []
-    },
-    {
-      "id": 257,
-      "source": "_factory/incoming/257.md",
-      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-di-soc-son.md",
-      "url": "/blog/thue-xe-may-ha-noi-di-soc-son/",
-      "word_count": 659,
-      "warnings": []
-    },
-    {
-      "id": 258,
-      "source": "_factory/incoming/258.md",
-      "post": "_posts/2026-10-07-lich-trinh-xe-may-pho-co-ho-tay.md",
-      "url": "/blog/lich-trinh-xe-may-pho-co-ho-tay/",
-      "word_count": 661,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    }
-  ],
-  "recoverable_total": 1,
-  "recoverable": [
-    {
-      "path": "_factory/incoming/256.md",
       "id": 256,
-      "errors": [
-        "thin draft: 636 words < 650"
-      ],
-      "warnings": [],
-      "word_count": 636
+      "source": "_factory/incoming/256.md",
+      "post": "_posts/2026-10-07-thue-xe-may-ha-noi-di-duong-lam.md",
+      "url": "/blog/thue-xe-may-ha-noi-di-duong-lam/",
+      "word_count": 749,
+      "warnings": []
     }
   ],
+  "recoverable_total": 0,
+  "recoverable": [],
   "fatal": null,
   "status_counts": {
-    "planned": 43,
-    "published": 257
+    "planned": 42,
+    "published": 258
   }
 }

@@ -36,8 +36,8 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 43,
-    "published": 257
+    "planned": 42,
+    "published": 258
   },
   "items": [
     {
@@ -13412,7 +13412,7 @@
         "verify-current-traffic-law"
       ],
       "cannibalization_guard": "Mỗi bài phải là một hành trình/use case khác biệt.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "kinh-nghiem",
         "parent_label": "Kinh nghiệm",
@@ -13424,7 +13424,10 @@
       "front_matter": {
         "hub_parent": "kinh-nghiem",
         "hub_category": "hanh-trinh"
-      }
+      },
+      "published_at": "2026-10-07T02:01:49+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-ha-noi-di-duong-lam.md",
+      "published_url": "/blog/thue-xe-may-ha-noi-di-duong-lam/"
     },
     {
       "id": 257,
@@ -15617,5 +15620,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T02:01:00+07:00"
+  "updated_at": "2026-10-07T02:01:49+07:00"
 }
