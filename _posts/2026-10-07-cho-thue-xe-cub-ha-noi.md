@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Cho thuê xe Cub Hà Nội: checklist chọn xe trước khi nhận"
+date: 2026-10-07 00:54:43 +0700
+description: "Checklist chọn xe Cub khi thuê ở Hà Nội, từ thử cần số, kiểm tra phanh và điện, đến hỏi tuổi xe và điều kiện cọc trước khi nhận."
+author: "Motoopen"
 matrix_id: 58
-description: Checklist chọn xe Cub khi thuê ở Hà Nội, từ thử cần số, kiểm tra phanh và điện, đến hỏi tuổi xe và điều kiện cọc trước khi nhận.
+primary_keyword: "cho thuê xe cub hà nội"
+hub_parent: loai-xe
+hub_category: xe-50cc
 ---
-
 Xe Cub là dòng xe số cổ điển được nhiều khách tìm đến đúng vì kiểu dáng riêng, nhưng cũng là dòng đòi hỏi chọn kỹ hơn trước khi nhận. Vì hầu hết xe Cub cho thuê là xe đã qua sử dụng lâu năm, chất lượng từng chiếc khác nhau đáng kể. Bài viết này đưa ra checklist chọn xe Cub khi thuê ở Hà Nội, giúp bạn nhận được chiếc xe chạy ổn trong suốt chuyến đi.
 
 ## Hỏi và chọn chiếc cụ thể, không chỉ dòng xe

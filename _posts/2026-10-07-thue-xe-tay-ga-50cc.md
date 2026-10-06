@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe tay ga 50cc: 7 tiêu chí kiểm tra trước khi đi"
+date: 2026-10-07 00:54:43 +0700
+description: "Bảy tiêu chí kiểm tra xe tay ga 50cc trước khi nhận xe khi thuê ở Hà Nội, từ động cơ, ắc quy, phanh đến khung và khoang đồ."
+author: "Motoopen"
 matrix_id: 61
-description: Bảy tiêu chí kiểm tra xe tay ga 50cc trước khi nhận xe khi thuê ở Hà Nội, từ động cơ, ắc quy, phanh đến khung và khoang đồ.
+primary_keyword: "thuê xe tay ga 50cc"
+hub_parent: loai-xe
+hub_category: xe-50cc
 ---
-
 Xe tay ga 50cc nghe là dòng dễ lái nhất trong các loại xe cho thuê, nhưng chính vì dễ nên nhiều khách nhận xe rất nhanh, bỏ qua khâu kiểm tra rồi gặp rắc rối giữa chuyến. Với xe ga nhỏ đã qua sử dụng, có bảy tiêu chí đáng kiểm tra trước khi lăn bánh. Bài viết này đi qua từng tiêu chí, kèm cách kiểm tra nhanh tại cửa hàng.
 
 ## Tiêu chí một: động cơ và độ nhạy của ga

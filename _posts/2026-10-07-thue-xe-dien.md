@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe điện: phân biệt xe máy điện và ô tô điện trước khi tìm dịch vụ"
+date: 2026-10-07 00:54:43 +0700
+description: "Phân biệt xe máy điện và ô tô điện khi tìm dịch vụ thuê xe điện ở Hà Nội, kèm những câu hỏi nên đặt cho bên cho thuê trước khi quyết định."
+author: "Motoopen"
 matrix_id: 91
-description: Phân biệt xe máy điện và ô tô điện khi tìm dịch vụ thuê xe điện ở Hà Nội, kèm những câu hỏi nên đặt cho bên cho thuê trước khi quyết định.
+primary_keyword: "thuê xe điện"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Tìm kiếm dịch vụ thuê xe điện ở Hà Nội, bạn sẽ gặp hai loại hình hoàn toàn khác nhau: cho thuê xe máy điện và cho thuê ô tô điện. Cùng mệnh danh là xe điện, hai loại phục vụ nhu cầu, ngân sách và thủ tục rất khác nhau. Nhầm lẫn khi tìm kiếm khiến bạn mất thời gian gọi điện sai nơi hoặc so sánh giá giữa hai dịch vụ không cùng loại. Bài viết này phân biệt rõ hai loại, giúp bạn xác định đúng dịch vụ mình cần ngay từ đầu.
 
 ## Khác biệt về phương tiện và nhu cầu phục vụ

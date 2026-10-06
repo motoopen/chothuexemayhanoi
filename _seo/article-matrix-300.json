@@ -36,8 +36,8 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 274,
-    "published": 26
+    "planned": 268,
+    "published": 32
   },
   "items": [
     {
@@ -2950,7 +2950,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Không tách các biến thể chính tả cùng intent thành nhiều bài; gom chúng vào secondary keywords.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -2962,7 +2962,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-50cc"
-      }
+      },
+      "published_at": "2026-10-07T00:54:43+07:00",
+      "published_path": "_posts/2026-10-07-cho-thue-xe-cub-ha-noi.md",
+      "published_url": "/blog/cho-thue-xe-cub-ha-noi/"
     },
     {
       "id": 59,
@@ -3000,7 +3003,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Không tách các biến thể chính tả cùng intent thành nhiều bài; gom chúng vào secondary keywords.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -3012,7 +3015,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-50cc"
-      }
+      },
+      "published_at": "2026-10-07T00:54:43+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-ga-50cc.md",
+      "published_url": "/blog/thue-xe-ga-50cc/"
     },
     {
       "id": 60,
@@ -3049,7 +3055,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Không tách các biến thể chính tả cùng intent thành nhiều bài; gom chúng vào secondary keywords.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -3061,7 +3067,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-50cc"
-      }
+      },
+      "published_at": "2026-10-07T00:54:43+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-ga-50cc-ha-noi.md",
+      "published_url": "/blog/thue-xe-ga-50cc-ha-noi/"
     },
     {
       "id": 61,
@@ -3098,7 +3107,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Không tách các biến thể chính tả cùng intent thành nhiều bài; gom chúng vào secondary keywords.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -3110,7 +3119,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-50cc"
-      }
+      },
+      "published_at": "2026-10-07T00:54:43+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-tay-ga-50cc.md",
+      "published_url": "/blog/thue-xe-tay-ga-50cc/"
     },
     {
       "id": 62,
@@ -3690,7 +3702,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Không tách các biến thể chính tả cùng intent thành nhiều bài; gom chúng vào secondary keywords.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -3702,7 +3714,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-50cc"
-      }
+      },
+      "published_at": "2026-10-07T00:54:43+07:00",
+      "published_path": "_posts/2026-10-07-gia-thue-xe-50cc.md",
+      "published_url": "/blog/gia-thue-xe-50cc/"
     },
     {
       "id": 74,
@@ -4573,7 +4588,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -4585,7 +4600,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T00:54:43+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-dien.md",
+      "published_url": "/blog/thue-xe-dien/"
     },
     {
       "id": 92,
@@ -14924,5 +14942,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T00:53:36+07:00"
+  "updated_at": "2026-10-07T00:54:43+07:00"
 }
