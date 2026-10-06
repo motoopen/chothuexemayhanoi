@@ -25,7 +25,7 @@ Câu quan trọng nhất: trường hợp nào thì cọc bị khấu trừ và 
 
 ## Tự bảo vệ mình bằng bằng chứng
 
-Bất kể cửa hàng nói gì, hãy chụp hiện trạng xe chi tiết khi nhận: toàn thân, hai bên, vỏ bánh, đèn, kể cả vết xước sẵn có. Lưu ảnh có mốc thời gian trong điện thoại. Khi trả xe, chụp lại tình trạng xe lần nữa và nhờ người nhận xác nhận trên biên bản hoặc tin nhắn. Hai bộ ảnh này là bằng chứng tốt nhất nếu có tranh luận về cọc sau này. Kinh nghiệm đầy đủ cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ /blog/thue-xe-may-ha-noi-lan-dau/' ).
+Bất kể cửa hàng nói gì, hãy chụp hiện trạng xe chi tiết khi nhận: toàn thân, hai bên, vỏ bánh, đèn, kể cả vết xước sẵn có. Lưu ảnh có mốc thời gian trong điện thoại. Khi trả xe, chụp lại tình trạng xe lần nữa và nhờ người nhận xác nhận trên biên bản hoặc tin nhắn. Hai bộ ảnh này là bằng chứng tốt nhất nếu có tranh luận về cọc sau này. Kinh nghiệm đầy đủ cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Kết luận
 

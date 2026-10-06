@@ -34,6 +34,8 @@ H1_RE = re.compile(r"(?m)^#\s+")
 H2_RE = re.compile(r"(?m)^##\s+")
 URL_RE = re.compile(r"https?://[^\s)>\"']+")
 RELATIVE_URL_RE = re.compile(r"\|\s*relative_url\s*\}\}")
+LIQUID_LINK_START_RE = re.compile(r"\]\(\{\{")
+VALID_LIQUID_LINK_RE = re.compile(r"\]\(\{\{\s*['\"][^'\"]+['\"]\s*\|\s*relative_url\s*\}\}\)")
 
 
 def now_local():
@@ -156,6 +158,15 @@ def validate_draft(path, row, seen_hashes):
         errors.append("duplicate normalized body already exists")
     if not RELATIVE_URL_RE.search(body):
         errors.append("add at least one internal Jekyll link using | relative_url")
+    if body.count("{{") != body.count("}}"):
+        errors.append("unbalanced Liquid delimiters: every {{ must have a matching }}")
+    liquid_link_starts = len(LIQUID_LINK_START_RE.findall(body))
+    valid_liquid_links = len(VALID_LIQUID_LINK_RE.findall(body))
+    if liquid_link_starts != valid_liquid_links:
+        errors.append(
+            f"malformed internal Liquid link: {liquid_link_starts} link starts but "
+            f"{valid_liquid_links} valid ]({{{{ 'path' | relative_url }}}}) links"
+        )
     if source_required(row):
         has_sources_heading = bool(re.search(r"(?im)^##+\s+.*ngu[oồ]n", body))
         if not has_sources_heading or not URL_RE.search(body):

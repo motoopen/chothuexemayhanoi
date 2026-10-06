@@ -13,7 +13,7 @@ Giao xe tận nơi là dịch vụ phổ biến khi thuê xe máy ở Hà Nội,
 
 ## Phí giao tính theo yếu tố nào
 
-Phí giao xe thường tính theo khoảng cách từ điểm nhận đến địa chỉ của bạn, và theo khung giờ, vì khung cao điểm hoặc ngoài giờ mở cửa có phụ phí riêng. Một số nơi miễn phí giao trong bán kính gần, tính phí bước qua ngưỡng vài cây số. Hỏi cụ thể địa chỉ của bạn ra mức chính xác qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), đừng hỏi mức chung. Kinh nghiệm quy trình giao tận nơi nằm trong bài [thuê xe máy Hà Nội giao tận nơi]({{ /blog/thue-xe-may-ha-noi-giao-tan-noi/' ).
+Phí giao xe thường tính theo khoảng cách từ điểm nhận đến địa chỉ của bạn, và theo khung giờ, vì khung cao điểm hoặc ngoài giờ mở cửa có phụ phí riêng. Một số nơi miễn phí giao trong bán kính gần, tính phí bước qua ngưỡng vài cây số. Hỏi cụ thể địa chỉ của bạn ra mức chính xác qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), đừng hỏi mức chung. Kinh nghiệm quy trình giao tận nơi nằm trong bài [thuê xe máy Hà Nội giao tận nơi]({{ '/blog/thue-xe-may-ha-noi-giao-tan-noi/' | relative_url }}).
 
 ## Hỏi phí cho cả hai khung nhận và trả
 
@@ -25,7 +25,7 @@ Cách so đơn giản: lấy phí giao hai đầu cộng giá thuê, so với gi
 
 ## Kỹ thuật chốt khung giao gọn chi phí
 
-Gộp nhu cầu để tối ưu phí: nếu gia đình hoặc nhóm bạn cùng thuê nhiều xe, yêu cầu giao một lần một địa điểm để phí giao tính gói thay vì từng xe. Chọn khung giao giữa trưa hoặc tối muộn né phụ phí giờ cao điểm. Chuẩn bị sẵn giấy tờ tùy thân và giấy phép lái phù hợp để ký ngay tại chỗ, tiết kiệm thêm một lần chờ, điều khoản nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Kinh nghiệm đầy đủ cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ /blog/thue-xe-may-ha-noi-lan-dau/' ).
+Gộp nhu cầu để tối ưu phí: nếu gia đình hoặc nhóm bạn cùng thuê nhiều xe, yêu cầu giao một lần một địa điểm để phí giao tính gói thay vì từng xe. Chọn khung giao giữa trưa hoặc tối muộn né phụ phí giờ cao điểm. Chuẩn bị sẵn giấy tờ tùy thân và giấy phép lái phù hợp để ký ngay tại chỗ, tiết kiệm thêm một lần chờ, điều khoản nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Kinh nghiệm đầy đủ cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Kết luận
 

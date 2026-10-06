@@ -463,3 +463,22 @@
   }
   .blog-related-list { grid-template-columns: 1fr; }
 }
+
+
+/* Shared blog cards must inherit the active dark palette. */
+body.dark {
+  --blog-component-bg: var(--surface);
+  --blog-component-soft: var(--glass);
+  --blog-component-border: var(--glass-border);
+}
+body.dark .blog-component,
+body.dark .blog-related-item {
+  background-color: var(--surface);
+  color: var(--text);
+}
+body.dark .blog-related-item { background-color: var(--glass); }
+body.dark .blog-component strong,
+body.dark .blog-component h2,
+body.dark .blog-related-item strong { color: var(--text); }
+body.dark .blog-component p,
+body.dark .blog-related-item span { color: var(--muted); }
