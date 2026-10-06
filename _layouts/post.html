@@ -1,11 +1,23 @@
 ---
 layout: default
 ---
+{% assign hub_parent = site.data.taxonomy.parents | where: "slug", page.hub_parent | first %}
+{% if hub_parent and page.hub_category %}
+  {% assign hub_child = hub_parent.children | where: "slug", page.hub_category | first %}
+{% endif %}
 <main class="blog-shell" role="main">
   <nav class="blog-breadcrumb" aria-label="Breadcrumb">
     <a class="blog-breadcrumb-home" href="{{ '/' | relative_url }}"><i class="fa-solid fa-house"></i> Trang chủ</a>
     <span class="blog-breadcrumb-sep">›</span>
     <a class="blog-breadcrumb-blog" href="{{ '/blog/' | relative_url }}">Blog</a>
+    {% if hub_parent %}
+      <span class="blog-breadcrumb-sep">›</span>
+      <a class="blog-breadcrumb-blog" href="{{ hub_parent.url | relative_url }}">{{ hub_parent.label }}</a>
+    {% endif %}
+    {% if hub_child %}
+      <span class="blog-breadcrumb-sep">›</span>
+      <a class="blog-breadcrumb-blog" href="{{ hub_child.url | relative_url }}">{{ hub_child.label }}</a>
+    {% endif %}
     <span class="blog-breadcrumb-sep">›</span>
     <span class="blog-breadcrumb-current" aria-current="page">{{ page.title }}</span>
   </nav>
@@ -16,17 +28,18 @@ layout: default
         <div class="hmini-grid post-hero-grid">
           <div>
             <h1 class="hmini-title post-hero-title">{{ page.title }}</h1>
-            <p class="hmini-sub post-hero-sub">
-              {% if page.date %}Đăng ngày {{ page.date | date: "%-d %B %Y" }}{% endif %} • {{ site.title }}
-            </p>
+            <p class="hmini-sub post-hero-sub">{% if page.date %}Đăng ngày {{ page.date | date: "%-d %B %Y" }}{% endif %} • {{ site.title }}</p>
             <div class="post-hero-actions">
-              <a class="hmini-btn ghost" href="{{ '/gioithieu.html' | relative_url }}"><i class="fa-solid fa-circle-info"></i> Giới thiệu</a>
+              {% if hub_child %}
+              <a class="hmini-btn ghost" href="{{ hub_child.url | relative_url }}"><i class="{{ hub_child.icon }}"></i> {{ hub_child.label }}</a>
+              {% else %}
+              <a class="hmini-btn ghost" href="{{ '/blog/danh-muc/' | relative_url }}"><i class="fa-solid fa-layer-group"></i> Danh mục</a>
+              {% endif %}
               <a class="hmini-btn ghost" href="{{ '/lienhe.html' | relative_url }}"><i class="fa-solid fa-phone"></i> Liên hệ</a>
             </div>
           </div>
-
           <div>
-            <div class="hmini-tiles" aria-hidden="true">
+            <div class="hmini-tiles">
               <div class="grid post-mini-grid">
                 <div class="hmini-tile"><span class="hmini-icon"><i class="fa-solid fa-newspaper"></i></span><span>Blog</span></div>
                 <div class="hmini-tile"><span class="hmini-icon"><i class="fa-solid fa-location-dot"></i></span><span>Hà Nội</span></div>
@@ -34,7 +47,11 @@ layout: default
               <div class="hmini-soft post-mini-spacer"></div>
               <div class="hmini-stats post-mini-stats">
                 <div class="hmini-stat post-mini-stat"><i class="fa-solid fa-user"></i> {{ page.author | default: site.author }}</div>
-                <div class="hmini-stat post-mini-stat"><i class="fa-solid fa-tag"></i> {% for c in page.categories %}{{ c }}{% unless forloop.last %}, {% endunless %}{% endfor %}</div>
+                {% if hub_child %}
+                <a class="hmini-stat post-mini-stat post-taxonomy-link" href="{{ hub_child.url | relative_url }}"><i class="{{ hub_child.icon }}"></i> {{ hub_child.label }}</a>
+                {% else %}
+                <a class="hmini-stat post-mini-stat post-taxonomy-link" href="{{ '/blog/danh-muc/' | relative_url }}"><i class="fa-solid fa-layer-group"></i> Danh mục</a>
+                {% endif %}
               </div>
             </div>
           </div>
@@ -44,11 +61,7 @@ layout: default
   </section>
 
   <article class="mapp-card post-card">
-
-    <div class="mapp-text blog-content">
-      {{ content }}
-    </div>
-
+    <div class="mapp-text blog-content">{{ content }}</div>
     <p class="blog-back"><a href="{{ '/blog/' | relative_url }}" class="mapp-btn ghost"><i class="fa-solid fa-arrow-left"></i> Quay lại Blog</a></p>
   </article>
 </main>
