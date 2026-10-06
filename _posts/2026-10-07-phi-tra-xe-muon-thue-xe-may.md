@@ -17,7 +17,7 @@ Mỗi cửa hàng có cách tính khác: một số cho vài phút đến nửa 
 
 ## Chốt khung dư thời gian từ đầu
 
-Nguyên nhân gốc của trả trễ là đặt khung sát nút. Khi ký, hãy chốt khung trả dư thêm nửa tiếng tới một tiếng so với kế hoạch dự kiến, kể cả khi bạn tự tin đúng giờ. Phần dư này thường không đổi giá thuê, nhưng cứu bạn khỏi phụ phí trễ khi có vướng nhỏ cuối lịch như kẹt xe hoặc tìm chỗ gửi xe. Với khách hay trễ, kinh nghiệm chuẩn bị khung giao nhận nằm trong bài [thuê xe máy Hà Nội giao tận nơi]({{ /blog/thue-xe-may-ha-noi-giao-tan-noi/' ).
+Nguyên nhân gốc của trả trễ là đặt khung sát nút. Khi ký, hãy chốt khung trả dư thêm nửa tiếng tới một tiếng so với kế hoạch dự kiến, kể cả khi bạn tự tin đúng giờ. Phần dư này thường không đổi giá thuê, nhưng cứu bạn khỏi phụ phí trễ khi có vướng nhỏ cuối lịch như kẹt xe hoặc tìm chỗ gửi xe. Với khách hay trễ, kinh nghiệm chuẩn bị khung giao nhận nằm trong bài [thuê xe máy Hà Nội giao tận nơi]({{ '/blog/thue-xe-may-ha-noi-giao-tan-noi/' | relative_url }}).
 
 ## Báo sớm để thương lượng thay vì bị tính
 
@@ -25,7 +25,7 @@ Khi thấy lịch có nguy cơ trễ, gọi ngay cho cửa hàng thay vì im l�
 
 ## Lên lịch cuối ngày để không trễ
 
-Thói quen đơn giản nhất: xếp việc xa nhất trước, để các việc gần điểm trả vào cuối, và chừa khung dư cho việc rửa xe nhẹ hoặc đổ xăng về đúng mức trước khi trình diện. Đặt nhắc trước một tiếng khung trả để kịp hành động. Với khách đi nhóm, thống nhất điểm tập kết cuối cùng gần nơi trả xe. Kinh nghiệm chuẩn bị đầy đủ cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ /blog/thue-xe-may-ha-noi-lan-dau/' ).
+Thói quen đơn giản nhất: xếp việc xa nhất trước, để các việc gần điểm trả vào cuối, và chừa khung dư cho việc rửa xe nhẹ hoặc đổ xăng về đúng mức trước khi trình diện. Đặt nhắc trước một tiếng khung trả để kịp hành động. Với khách đi nhóm, thống nhất điểm tập kết cuối cùng gần nơi trả xe. Kinh nghiệm chuẩn bị đầy đủ cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Kết luận
 
