@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy dùng căn cước hay hộ chiếu? Cần xác minh gì với bên cho thuê"
+date: 2026-10-07 01:50:53 +0700
+description: "Thuê xe máy dùng căn cước hay hộ chiếu tùy quốc tịch của bạn, và cần xác minh đủ thông tin với bên cho thuê trước khi nhận xe."
+author: "Motoopen"
 matrix_id: 224
-description: Thuê xe máy dùng căn cước hay hộ chiếu tùy quốc tịch của bạn, và cần xác minh đủ thông tin với bên cho thuê trước khi nhận xe.
+primary_keyword: "thuê xe máy dùng căn cước hay hộ chiếu"
+hub_parent: huong-dan
+hub_category: thu-tuc-phap-ly
 ---
-
 Khi thuê xe máy, giấy tờ tùy thân bạn dùng để thuê phụ vào việc bạn là công dân Việt Nam hay khách nước ngoài, và bên cho thuê luôn giữ lại một bản xác minh. Bài này giúp bạn chuẩn bị đúng loại giấy tờ và biết cần xác minh gì với bên cho thuê.
 
 ## Người Việt Nam dùng căn cước

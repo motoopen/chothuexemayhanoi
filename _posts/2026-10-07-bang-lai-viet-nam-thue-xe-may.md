@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Bằng lái Việt Nam khi thuê xe máy: loại xe nào cần hạng phù hợp?"
+date: 2026-10-07 01:50:53 +0700
+description: "Bằng lái Việt Nam khi thuê xe máy cần đúng hạng với dung tích xe bạn định thuê, từ nhóm dưới 50cc đến nhóm xe ga và xe số phổ thông."
+author: "Motoopen"
 matrix_id: 227
-description: Bằng lái Việt Nam khi thuê xe máy cần đúng hạng với dung tích xe bạn định thuê, từ nhóm dưới 50cc đến nhóm xe ga và xe số phổ thông.
+primary_keyword: "bằng lái việt nam thuê xe máy"
+hub_parent: huong-dan
+hub_category: thu-tuc-phap-ly
 ---
-
 Người có giấy phép lái Việt Nam cũng cần kiểm tra hạng bằng trước khi thuê xe máy, vì nhóm xe từ 50cc trở lên yêu cầu hạng phù hợp theo dung tích. Bài này giúp bạn khớp hạng bằng với loại xe định thuê.
 
 ## Nhóm xe không cần bằng lái

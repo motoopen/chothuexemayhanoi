@@ -36,8 +36,8 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 77,
-    "published": 223
+    "planned": 72,
+    "published": 228
   },
   "items": [
     {
@@ -11662,7 +11662,7 @@
         "verify-current-vietnam-law"
       ],
       "cannibalization_guard": "Không tạo nhiều bài cho cùng một câu hỏi pháp lý; dùng secondary keywords cho biến thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -11674,7 +11674,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "thu-tuc-phap-ly"
-      }
+      },
+      "published_at": "2026-10-07T01:50:53+07:00",
+      "published_path": "_posts/2026-10-07-hop-dong-thue-xe-may-can-co-gi.md",
+      "published_url": "/blog/hop-dong-thue-xe-may-can-co-gi/"
     },
     {
       "id": 224,
@@ -11712,7 +11715,7 @@
         "verify-current-vietnam-law"
       ],
       "cannibalization_guard": "Không tạo nhiều bài cho cùng một câu hỏi pháp lý; dùng secondary keywords cho biến thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -11724,7 +11727,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "thu-tuc-phap-ly"
-      }
+      },
+      "published_at": "2026-10-07T01:50:53+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-dung-can-cuoc-hay-ho-chieu.md",
+      "published_url": "/blog/thue-xe-may-dung-can-cuoc-hay-ho-chieu/"
     },
     {
       "id": 225,
@@ -11762,7 +11768,7 @@
         "verify-current-vietnam-law"
       ],
       "cannibalization_guard": "Không tạo nhiều bài cho cùng một câu hỏi pháp lý; dùng secondary keywords cho biến thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -11774,7 +11780,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "thu-tuc-phap-ly"
-      }
+      },
+      "published_at": "2026-10-07T01:50:53+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-cho-nguoi-nuoc-ngoai-can-gi.md",
+      "published_url": "/blog/thue-xe-may-cho-nguoi-nuoc-ngoai-can-gi/"
     },
     {
       "id": 226,
@@ -11812,7 +11821,7 @@
         "verify-current-vietnam-law"
       ],
       "cannibalization_guard": "Không tạo nhiều bài cho cùng một câu hỏi pháp lý; dùng secondary keywords cho biến thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -11824,7 +11833,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "thu-tuc-phap-ly"
-      }
+      },
+      "published_at": "2026-10-07T01:50:53+07:00",
+      "published_path": "_posts/2026-10-07-bang-lai-quoc-te-thue-xe-may-viet-nam.md",
+      "published_url": "/blog/bang-lai-quoc-te-thue-xe-may-viet-nam/"
     },
     {
       "id": 227,
@@ -11862,7 +11874,7 @@
         "verify-current-vietnam-law"
       ],
       "cannibalization_guard": "Không tạo nhiều bài cho cùng một câu hỏi pháp lý; dùng secondary keywords cho biến thể.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -11874,7 +11886,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "thu-tuc-phap-ly"
-      }
+      },
+      "published_at": "2026-10-07T01:50:53+07:00",
+      "published_path": "_posts/2026-10-07-bang-lai-viet-nam-thue-xe-may.md",
+      "published_url": "/blog/bang-lai-viet-nam-thue-xe-may/"
     },
     {
       "id": 228,
@@ -15515,5 +15530,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T01:49:56+07:00"
+  "updated_at": "2026-10-07T01:50:53+07:00"
 }

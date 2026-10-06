@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Hợp đồng thuê xe máy nên có những mục gì để dễ đối chiếu?"
+date: 2026-10-07 01:50:53 +0700
+description: "Hợp đồng thuê xe máy nên có các mục về thông tin hai bên, tình trạng xe, tiền thuê, đặt cọc và trách nhiệm hư hỏng để dễ đối chiếu khi trả xe."
+author: "Motoopen"
 matrix_id: 223
-description: Hợp đồng thuê xe máy nên có các mục về thông tin hai bên, tình trạng xe, tiền thuê, đặt cọc và trách nhiệm hư hỏng để dễ đối chiếu khi trả xe.
+primary_keyword: "hợp đồng thuê xe máy cần có gì"
+hub_parent: huong-dan
+hub_category: thu-tuc-phap-ly
 ---
-
 Hợp đồng là căn cứ để đối chiếu khi nhận và trả xe, nên một bản hợp đồng thuê xe máy rõ ràng giúp bạn tránh tranh chấp về tiền cọc, xăng hay vết xước. Bài này điểm qua các mục nên có trong hợp đồng trước khi bạn ký.
 
 ## Thông tin hai bên ghi rõ ràng

@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Bằng lái quốc tế khi thuê xe máy ở Việt Nam: phải kiểm tra hiệu lực thế nào?"
+date: 2026-10-07 01:50:53 +0700
+description: "Bằng lái quốc tế khi thuê xe máy ở Việt Nam cần kiểm tra hiệu lực kỹ, vì không phải loại nào cũng cho phép điều khiển xe máy dưới 50cc hay trên 50cc."
+author: "Motoopen"
 matrix_id: 226
-description: Bằng lái quốc tế khi thuê xe máy ở Việt Nam cần kiểm tra hiệu lực kỹ, vì không phải loại nào cũng cho phép điều khiển xe máy dưới 50cc hay trên 50cc.
+primary_keyword: "bằng lái quốc tế thuê xe máy việt nam"
+hub_parent: huong-dan
+hub_category: thu-tuc-phap-ly
 ---
-
 Giấy phép lái quốc tế giúp khách nước ngoài lái xe ở Việt Nam trong một số trường hợp, nhưng hiệu lực của nó phụ thuộc loại giấy phép và loại xe. Bài này giúp bạn kiểm tra đúng trước khi đặt xe.
 
 ## Giấy phép lái quốc tế là gì và hiệu lực ra sao

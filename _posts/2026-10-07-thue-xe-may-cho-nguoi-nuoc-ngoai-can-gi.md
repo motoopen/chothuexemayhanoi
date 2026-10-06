@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Người nước ngoài thuê xe máy ở Hà Nội cần chuẩn bị gì?"
+date: 2026-10-07 01:50:53 +0700
+description: "Người nước ngoài thuê xe máy ở Hà Nội cần chuẩn bị hộ chiếu, thị thực, giấy phép lái phù hợp và đặt trước qua trang liên hệ để nhận xe nhanh."
+author: "Motoopen"
 matrix_id: 225
-description: Người nước ngoài thuê xe máy ở Hà Nội cần chuẩn bị hộ chiếu, thị thực, giấy phép lái phù hợp và đặt trước qua trang liên hệ để nhận xe nhanh.
+primary_keyword: "thuê xe máy cho người nước ngoài cần gì"
+hub_parent: huong-dan
+hub_category: thu-tuc-phap-ly
 ---
-
 Khách nước ngoài hoàn toàn thuê được xe máy ở Hà Nội, nhưng cần chuẩn bị sớm vài thứ: giấy tờ tùy thân, giấy phép lái đúng quy định, và cách thanh toán. Bài này giúp bạn có đủ thứ trước ngày nhận xe.
 
 ## Hộ chiếu, thị thực và giấy tờ tùy thân
