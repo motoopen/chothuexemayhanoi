@@ -1,0 +1,92 @@
+name: Article Factory Lite
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '_factory/incoming/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: motoopen-article-factory
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout fresh repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Select exact incoming queue
+        id: select
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            find _factory/incoming -maxdepth 1 -type f -name '*.md' -print | sort > /tmp/incoming.txt || true
+          else
+            BEFORE="${{ github.event.before }}"
+            AFTER="${{ github.sha }}"
+            if [ -z "$BEFORE" ] || printf '%s' "$BEFORE" | grep -Eq '^0+$'; then
+              git diff-tree --no-commit-id --name-only -r --diff-filter=AM "$AFTER" -- '_factory/incoming/*.md' > /tmp/incoming.txt || true
+            else
+              git diff --name-only --diff-filter=AM "$BEFORE" "$AFTER" -- '_factory/incoming/*.md' > /tmp/incoming.txt || true
+            fi
+          fi
+          COUNT="$(grep -cve '^$' /tmp/incoming.txt || true)"
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+          echo "incoming queue ($COUNT):"
+          cat /tmp/incoming.txt || true
+          if [ "$COUNT" -gt 10 ]; then
+            echo "Queue too large: $COUNT > 10"
+            exit 1
+          fi
+
+      - name: Scoped QA and publish PASS drafts
+        if: steps.select.outputs.count != '0'
+        run: python3 scripts/article_factory.py publish --paths-file /tmp/incoming.txt
+
+      - name: Show factory result
+        if: always() && steps.select.outputs.count != '0'
+        run: |
+          test -f _factory/last-run.json && cat _factory/last-run.json || true
+
+      - name: Commit published posts and matrix state
+        if: steps.select.outputs.count != '0'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "motoopen-factory-bot"
+          git config user.email "motoopen-factory-bot@users.noreply.github.com"
+          git add _posts _seo/article-matrix-300.json _factory/last-run.json _factory/incoming
+          if git diff --cached --quiet; then
+            echo "No factory changes to commit."
+            exit 0
+          fi
+          git commit -m "factory: publish scoped Mistral queue"
+          n=0
+          until git push; do
+            n=$((n+1))
+            if [ "$n" -ge 3 ]; then
+              echo "Push failed after 3 retries."
+              exit 1
+            fi
+            git fetch origin main
+            git rebase origin/main || { git rebase --abort; exit 1; }
+          done
+
+      - name: Final status
+        if: steps.select.outputs.count != '0'
+        run: python3 scripts/article_factory.py status
