@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy điện VinFast Hà Nội: checklist trước khi đặt xe"
+date: 2026-10-07 00:55:48 +0700
+description: "Checklist trước khi đặt thuê xe máy điện VinFast ở Hà Nội: hỏi mẫu xe, mức pin, điểm sạc, giá và quy định bàn giao để nhận xe đúng nhu cầu."
+author: "Motoopen"
 matrix_id: 96
-description: Checklist trước khi đặt thuê xe máy điện VinFast ở Hà Nội: hỏi mẫu xe, mức pin, điểm sạc, giá và quy định bàn giao để nhận xe đúng nhu cầu.
+primary_keyword: "thuê xe máy điện vinfast hà nội"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Đặt xe máy điện VinFast ở Hà Nội thường nhanh gọn, nhưng nếu đặt vội, bạn có thể nhận chiếc xe khác mẫu với hình dung, pin yếu hơn dự kiến hoặc bị phụ phí khi trả. Checklist dưới đây đi theo đúng thứ tự các bước từ lúc gọi đặt đến lúc ký, giúp bạn chốt gói thuê không bỏ sót chi tiết nào.
 
 ## Bước một: xác nhận mẫu xe và sự sẵn có

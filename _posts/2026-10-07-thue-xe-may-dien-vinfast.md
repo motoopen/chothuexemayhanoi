@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy điện VinFast: cần xác minh mẫu xe, pin và chính sách gì?"
+date: 2026-10-07 00:55:48 +0700
+description: "Trước khi thuê xe máy điện VinFast, cần xác minh mẫu xe, tình trạng pin và chính sách hỗ trợ của hãng cũng như của bên cho thuê."
+author: "Motoopen"
 matrix_id: 95
-description: Trước khi thuê xe máy điện VinFast, cần xác minh mẫu xe, tình trạng pin và chính sách hỗ trợ của hãng cũng như của bên cho thuê.
+primary_keyword: "thuê xe máy điện vinfast"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Xe máy điện VinFast là dòng xe được nhiều khách hỏi đến khi tìm thuê xe ở Hà Nội vì thương hiệu quen thuộc và mạng lưới hỗ trợ rộng. Nhưng chính vì được hỏi nhiều, cái tên VinFast đôi khi được dùng chung chung cho nhiều mẫu khác nhau, khiến khách đặt xe này rồi nhận xe kia. Bài viết này liệt kê những gì cần xác minh trước khi thuê, từ mẫu xe cụ thể đến chính sách hỗ trợ.
 
 ## Xác minh đúng mẫu xe cụ thể

@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Cho thuê xe máy điện Hà Nội: 9 câu nên hỏi về pin, sạc và bàn giao"
+date: 2026-10-07 00:55:48 +0700
+description: "Chín câu nên hỏi cửa hàng về pin, sạc và bàn giao trước khi thuê xe máy điện ở Hà Nội, giúp so sánh dịch vụ và tránh phát sinh giữa chuyến."
+author: "Motoopen"
 matrix_id: 94
-description: Chín câu nên hỏi cửa hàng về pin, sạc và bàn giao trước khi thuê xe máy điện ở Hà Nội, giúp so sánh dịch vụ và tránh phát sinh giữa chuyến.
+primary_keyword: "cho thuê xe máy điện hà nội"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Xe máy điện cho thuê khác xe xăng ở một điểm cốt lõi: trải nghiệm phụ thuộc vào pin và cách nó được bàn giao. Hai cửa hàng có cùng mẫu xe có thể cho trải nghiệm khác nhau hoàn toàn chỉ vì cách quản lý pin và sạc khác nhau. Bài viết này tổng hợp chín câu nên hỏi trước khi đặt, chia theo ba nhóm để bạn dễ mang theo khi đến cửa hàng.
 
 ## Nhóm câu hỏi về pin của chiếc xe cụ thể

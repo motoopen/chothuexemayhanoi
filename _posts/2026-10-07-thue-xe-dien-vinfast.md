@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe điện VinFast: phân biệt nhu cầu ô tô điện và xe máy điện"
+date: 2026-10-07 00:55:48 +0700
+description: "Phân biệt nhu cầu thuê ô tô điện và xe máy điện của VinFast ở Hà Nội, kèm tiêu chí chọn theo số người, lộ trình và chi phí của từng loại."
+author: "Motoopen"
 matrix_id: 97
-description: Phân biệt nhu cầu thuê ô tô điện và xe máy điện của VinFast ở Hà Nội, kèm tiêu chí chọn theo số người, lộ trình và chi phí của từng loại.
+primary_keyword: "thuê xe điện vinfast"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Tìm kiếm dòng xe điện VinFast để thuê ở Hà Nội, bạn sẽ gặp cả hai loại hình: xe máy điện của hãng này và dịch vụ cho thuê ô tô điện cùng thương hiệu. Hai loại phục vụ nhóm nhu cầu khác nhau, và khi tìm bằng từ khóa chung "thuê xe điện VinFast", kết quả trộn lẫn khiến việc so sánh dễ bị lệch. Bài viết này giúp bạn phân biệt nhu cầu của mình thuộc nhóm nào để tìm đúng dịch vụ ngay từ đầu.
 
 ## Tiêu chí số người và không gian chở

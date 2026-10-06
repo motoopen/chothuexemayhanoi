@@ -1,56 +1,56 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-07T00:54:43+07:00",
-  "finished_at": "2026-10-07T00:54:43+07:00",
+  "started_at": "2026-10-07T00:55:48+07:00",
+  "finished_at": "2026-10-07T00:55:48+07:00",
   "selected_count": 6,
   "published_total": 6,
   "published": [
     {
-      "id": 58,
-      "source": "_factory/incoming/058.md",
-      "post": "_posts/2026-10-07-cho-thue-xe-cub-ha-noi.md",
-      "url": "/blog/cho-thue-xe-cub-ha-noi/",
-      "word_count": 710,
+      "id": 92,
+      "source": "_factory/incoming/092.md",
+      "post": "_posts/2026-10-07-thue-xe-dien-ha-noi.md",
+      "url": "/blog/thue-xe-dien-ha-noi/",
+      "word_count": 742,
       "warnings": []
     },
     {
-      "id": 59,
-      "source": "_factory/incoming/059.md",
-      "post": "_posts/2026-10-07-thue-xe-ga-50cc.md",
-      "url": "/blog/thue-xe-ga-50cc/",
-      "word_count": 752,
+      "id": 93,
+      "source": "_factory/incoming/093.md",
+      "post": "_posts/2026-10-07-thue-xe-may-dien-ha-noi.md",
+      "url": "/blog/thue-xe-may-dien-ha-noi/",
+      "word_count": 732,
       "warnings": []
     },
     {
-      "id": 60,
-      "source": "_factory/incoming/060.md",
-      "post": "_posts/2026-10-07-thue-xe-ga-50cc-ha-noi.md",
-      "url": "/blog/thue-xe-ga-50cc-ha-noi/",
+      "id": 94,
+      "source": "_factory/incoming/094.md",
+      "post": "_posts/2026-10-07-cho-thue-xe-may-dien-ha-noi.md",
+      "url": "/blog/cho-thue-xe-may-dien-ha-noi/",
       "word_count": 706,
       "warnings": []
     },
     {
-      "id": 61,
-      "source": "_factory/incoming/061.md",
-      "post": "_posts/2026-10-07-thue-xe-tay-ga-50cc.md",
-      "url": "/blog/thue-xe-tay-ga-50cc/",
-      "word_count": 736,
+      "id": 95,
+      "source": "_factory/incoming/095.md",
+      "post": "_posts/2026-10-07-thue-xe-may-dien-vinfast.md",
+      "url": "/blog/thue-xe-may-dien-vinfast/",
+      "word_count": 673,
       "warnings": []
     },
     {
-      "id": 73,
-      "source": "_factory/incoming/073.md",
-      "post": "_posts/2026-10-07-gia-thue-xe-50cc.md",
-      "url": "/blog/gia-thue-xe-50cc/",
-      "word_count": 755,
+      "id": 96,
+      "source": "_factory/incoming/096.md",
+      "post": "_posts/2026-10-07-thue-xe-may-dien-vinfast-ha-noi.md",
+      "url": "/blog/thue-xe-may-dien-vinfast-ha-noi/",
+      "word_count": 673,
       "warnings": []
     },
     {
-      "id": 91,
-      "source": "_factory/incoming/091.md",
-      "post": "_posts/2026-10-07-thue-xe-dien.md",
-      "url": "/blog/thue-xe-dien/",
-      "word_count": 746,
+      "id": 97,
+      "source": "_factory/incoming/097.md",
+      "post": "_posts/2026-10-07-thue-xe-dien-vinfast.md",
+      "url": "/blog/thue-xe-dien-vinfast/",
+      "word_count": 682,
       "warnings": []
     }
   ],
@@ -58,7 +58,7 @@
   "recoverable": [],
   "fatal": null,
   "status_counts": {
-    "planned": 268,
-    "published": 32
+    "planned": 262,
+    "published": 38
   }
 }

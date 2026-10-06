@@ -36,8 +36,8 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 268,
-    "published": 32
+    "planned": 262,
+    "published": 38
   },
   "items": [
     {
@@ -4640,7 +4640,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -4652,7 +4652,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T00:55:48+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-dien-ha-noi.md",
+      "published_url": "/blog/thue-xe-dien-ha-noi/"
     },
     {
       "id": 93,
@@ -4690,7 +4693,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -4702,7 +4705,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T00:55:48+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-dien-ha-noi.md",
+      "published_url": "/blog/thue-xe-may-dien-ha-noi/"
     },
     {
       "id": 94,
@@ -4740,7 +4746,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -4752,7 +4758,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T00:55:48+07:00",
+      "published_path": "_posts/2026-10-07-cho-thue-xe-may-dien-ha-noi.md",
+      "published_url": "/blog/cho-thue-xe-may-dien-ha-noi/"
     },
     {
       "id": 95,
@@ -4791,7 +4800,7 @@
         "verify-current-manufacturer-policy"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -4803,7 +4812,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T00:55:48+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-dien-vinfast.md",
+      "published_url": "/blog/thue-xe-may-dien-vinfast/"
     },
     {
       "id": 96,
@@ -4843,7 +4855,7 @@
         "verify-current-manufacturer-policy"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -4855,7 +4867,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T00:55:48+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-dien-vinfast-ha-noi.md",
+      "published_url": "/blog/thue-xe-may-dien-vinfast-ha-noi/"
     },
     {
       "id": 97,
@@ -4893,7 +4908,7 @@
         "verify-current-manufacturer-policy"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -4905,7 +4920,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T00:55:48+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-dien-vinfast.md",
+      "published_url": "/blog/thue-xe-dien-vinfast/"
     },
     {
       "id": 98,
@@ -14942,5 +14960,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T00:54:43+07:00"
+  "updated_at": "2026-10-07T00:55:48+07:00"
 }
