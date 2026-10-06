@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Sinh viên thuê xe máy cần gì? Checklist giấy tờ và ngân sách"
+date: 2026-10-07 01:52:43 +0700
+description: "Sinh viên thuê xe máy cần chuẩn bị giấy tờ, cân ngân sách và chọn dòng xe hợp với lịch học, kèm vài mẹo giữ chi phí thấp."
+author: "Motoopen"
 matrix_id: 231
-description: Sinh viên thuê xe máy cần chuẩn bị giấy tờ, cân ngân sách và chọn dòng xe hợp với lịch học, kèm vài mẹo giữ chi phí thấp.
+primary_keyword: "sinh viên thuê xe máy cần gì"
+hub_parent: huong-dan
+hub_category: thu-tuc-phap-ly
 ---
-
 Sinh viên là nhóm khách thuê xe máy đông đảo nhất ở Hà Nội, nhưng lần đầu thuê thường băn khoăn cần mang gì và làm sao để tiết kiệm. Bài này gom checklist giấy tờ, ngân sách và cách chọn xe cho sinh viên.
 
 ## Giấy tờ cần mang theo

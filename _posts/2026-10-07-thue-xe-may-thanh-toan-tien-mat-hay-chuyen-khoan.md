@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy nên thanh toán tiền mặt hay chuyển khoản? Cách lưu bằng chứng"
+date: 2026-10-07 01:52:43 +0700
+description: "Thuê xe máy nên thanh toán tiền mặt hay chuyển khoản tùy nơi cho thuê, và cách lưu bằng chứng thanh toán giúp bạn đối chiếu khi hoàn cọc."
+author: "Motoopen"
 matrix_id: 233
-description: Thuê xe máy nên thanh toán tiền mặt hay chuyển khoản tùy nơi cho thuê, và cách lưu bằng chứng thanh toán giúp bạn đối chiếu khi hoàn cọc.
+primary_keyword: "thuê xe máy thanh toán tiền mặt hay chuyển khoản"
+hub_parent: huong-dan
+hub_category: thu-tuc-phap-ly
 ---
-
 Cả tiền mặt và chuyển khoản đều phổ biến khi thuê xe máy, và mỗi cách có cái giá riêng về bằng chứng. Bài này giúp bạn chọn cách thanh toán và lưu bằng chứng để đối chiếu khi trả xe.
 
 ## Ưu và nhược của tiền mặt

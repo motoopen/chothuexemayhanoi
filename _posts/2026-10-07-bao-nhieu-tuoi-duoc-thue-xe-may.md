@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Bao nhiêu tuổi được thuê và điều khiển xe máy? Phân biệt chính sách cửa hàng với luật"
+date: 2026-10-07 01:52:43 +0700
+description: "Bao nhiêu tuổi được thuê và điều khiển xe máy cần phân biệt quy định pháp luật về tuổi lái xe với chính sách riêng của từng cửa hàng."
+author: "Motoopen"
 matrix_id: 230
-description: Bao nhiêu tuổi được thuê và điều khiển xe máy cần phân biệt quy định pháp luật về tuổi lái xe với chính sách riêng của từng cửa hàng.
+primary_keyword: "bao nhiêu tuổi được thuê xe máy"
+hub_parent: huong-dan
+hub_category: thu-tuc-phap-ly
 ---
-
 Độ tuổi để thuê xe và để điều khiển xe máy là hai ngưỡng khác nhau, và nhiều cửa hàng còn có chính sách riêng cao hơn quy định tối thiểu. Bài này giúp bạn phân biệt rõ để chuẩn bị đúng.
 
 ## Ngưỡng tuổi theo quy định pháp luật

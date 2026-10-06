@@ -1,54 +1,62 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-07T01:50:53+07:00",
-  "finished_at": "2026-10-07T01:50:53+07:00",
-  "selected_count": 5,
-  "published_total": 5,
+  "started_at": "2026-10-07T01:52:43+07:00",
+  "finished_at": "2026-10-07T01:52:43+07:00",
+  "selected_count": 6,
+  "published_total": 6,
   "published": [
     {
-      "id": 223,
-      "source": "_factory/incoming/223.md",
-      "post": "_posts/2026-10-07-hop-dong-thue-xe-may-can-co-gi.md",
-      "url": "/blog/hop-dong-thue-xe-may-can-co-gi/",
-      "word_count": 805,
+      "id": 228,
+      "source": "_factory/incoming/228.md",
+      "post": "_posts/2026-10-07-thue-xe-50cc-can-bang-lai-khong.md",
+      "url": "/blog/thue-xe-50cc-can-bang-lai-khong/",
+      "word_count": 730,
       "warnings": [
         "matrix title does not contain exact primary keyword"
       ]
     },
     {
-      "id": 224,
-      "source": "_factory/incoming/224.md",
-      "post": "_posts/2026-10-07-thue-xe-may-dung-can-cuoc-hay-ho-chieu.md",
-      "url": "/blog/thue-xe-may-dung-can-cuoc-hay-ho-chieu/",
-      "word_count": 818,
+      "id": 229,
+      "source": "_factory/incoming/229.md",
+      "post": "_posts/2026-10-07-thue-xe-may-dien-can-bang-lai-khong.md",
+      "url": "/blog/thue-xe-may-dien-can-bang-lai-khong/",
+      "word_count": 674,
       "warnings": []
     },
     {
-      "id": 225,
-      "source": "_factory/incoming/225.md",
-      "post": "_posts/2026-10-07-thue-xe-may-cho-nguoi-nuoc-ngoai-can-gi.md",
-      "url": "/blog/thue-xe-may-cho-nguoi-nuoc-ngoai-can-gi/",
-      "word_count": 723,
+      "id": 230,
+      "source": "_factory/incoming/230.md",
+      "post": "_posts/2026-10-07-bao-nhieu-tuoi-duoc-thue-xe-may.md",
+      "url": "/blog/bao-nhieu-tuoi-duoc-thue-xe-may/",
+      "word_count": 688,
       "warnings": [
         "matrix title does not contain exact primary keyword"
       ]
     },
     {
-      "id": 226,
-      "source": "_factory/incoming/226.md",
-      "post": "_posts/2026-10-07-bang-lai-quoc-te-thue-xe-may-viet-nam.md",
-      "url": "/blog/bang-lai-quoc-te-thue-xe-may-viet-nam/",
-      "word_count": 713,
+      "id": 231,
+      "source": "_factory/incoming/231.md",
+      "post": "_posts/2026-10-07-sinh-vien-thue-xe-may-can-gi.md",
+      "url": "/blog/sinh-vien-thue-xe-may-can-gi/",
+      "word_count": 659,
+      "warnings": []
+    },
+    {
+      "id": 232,
+      "source": "_factory/incoming/232.md",
+      "post": "_posts/2026-10-07-thue-xe-may-khong-coc-can-gi.md",
+      "url": "/blog/thue-xe-may-khong-coc-can-gi/",
+      "word_count": 715,
       "warnings": [
         "matrix title does not contain exact primary keyword"
       ]
     },
     {
-      "id": 227,
-      "source": "_factory/incoming/227.md",
-      "post": "_posts/2026-10-07-bang-lai-viet-nam-thue-xe-may.md",
-      "url": "/blog/bang-lai-viet-nam-thue-xe-may/",
-      "word_count": 733,
+      "id": 233,
+      "source": "_factory/incoming/233.md",
+      "post": "_posts/2026-10-07-thue-xe-may-thanh-toan-tien-mat-hay-chuyen-khoan.md",
+      "url": "/blog/thue-xe-may-thanh-toan-tien-mat-hay-chuyen-khoan/",
+      "word_count": 686,
       "warnings": [
         "matrix title does not contain exact primary keyword"
       ]
@@ -58,7 +66,7 @@
   "recoverable": [],
   "fatal": null,
   "status_counts": {
-    "planned": 72,
-    "published": 228
+    "planned": 66,
+    "published": 234
   }
 }

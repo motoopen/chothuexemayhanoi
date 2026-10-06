@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy điện cần bằng lái không? Phân loại xe trước khi kết luận"
+date: 2026-10-07 01:52:43 +0700
+description: "Thuê xe máy điện có cần bằng lái không phụ thuộc công suất và tốc độ tối đa của xe, nên phân loại xe trước khi kết luận."
+author: "Motoopen"
 matrix_id: 229
-description: Thuê xe máy điện có cần bằng lái không phụ thuộc công suất và tốc độ tối đa của xe, nên phân loại xe trước khi kết luận.
+primary_keyword: "thuê xe máy điện cần bằng lái không"
+hub_parent: huong-dan
+hub_category: thu-tuc-phap-ly
 ---
-
 Xe máy điện ngày càng phổ biến trong các cửa hàng cho thuê, nhưng không phải chiếc nào cũng thuộc diện không cần bằng lái. Bài này giúp bạn phân loại xe điện trước khi kết luận có cần giấy phép hay không.
 
 ## Phân loại xe điện theo công suất
