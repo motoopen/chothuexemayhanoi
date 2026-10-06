@@ -1,83 +1,107 @@
 <header class="topbar" id="topbar" role="banner">
-    <div class="brand">
-      <img src="https://i.postimg.cc/brsmsj5N/IMG_5215.jpg" alt="Motoopen">
-      <h3>Motoopen</h3>
-    </div>
+  <div class="brand">
+    <img src="https://i.postimg.cc/brsmsj5N/IMG_5215.jpg" alt="Motoopen">
+    <h3>Motoopen</h3>
+  </div>
 
-    <nav class="nav-links" role="navigation" aria-label="Main">
-      <a href="/chothuexemayhanoi/"><i class="fa-solid fa-house"></i> Trang chủ</a>
-      <a href="/chothuexemayhanoi/gioithieu.html"><i class="fa-solid fa-circle-info"></i> Giới thiệu</a>
+  <nav class="nav-links" role="navigation" aria-label="Main">
+    {% for item in site.data.navigation.primary %}
+      {% if item.key == "services" %}
       <div class="nav-dropdown">
-        <a href="javascript:void(0)" class="dropdown-toggle"><i class="fa-solid fa-motorcycle"></i> Dịch vụ <i class="fa-solid fa-caret-down"></i></a>
+        <a href="{{ item.url | relative_url }}" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+          <i class="{{ item.icon }}"></i> {{ item.label }} <i class="fa-solid fa-caret-down"></i>
+        </a>
         <div class="dropdown-menu">
-          <a href="/chothuexemayhanoi/banggia.html"><i class="fa-solid fa-tags"></i> Bảng giá</a>
-          <a href="/chothuexemayhanoi/thutuc.html"><i class="fa-solid fa-file-signature"></i> Thủ tục</a>
-          <a href="/chothuexemayhanoi/loaixe.html"><i class="fa-solid fa-motorcycle"></i> Loại xe</a>
-          <a href="/chothuexemayhanoi/huongdan.html"><i class="fa-solid fa-book"></i> Hướng dẫn</a>
-          <a href="/chothuexemayhanoi/kinhnghiem.html"><i class="fa-solid fa-lightbulb"></i> Kinh nghiệm</a>
+          <a href="{{ item.url | relative_url }}"><i class="{{ item.icon }}"></i> Tổng quan dịch vụ</a>
+          {% for child in item.children %}
+          <a href="{{ child.url | relative_url }}"><i class="{{ child.icon }}"></i> {{ child.label }}</a>
+          {% endfor %}
         </div>
       </div>
-      <a href="/chothuexemayhanoi/faq.html"><i class="fa-solid fa-circle-question"></i> FAQ</a>
-      <a href="/chothuexemayhanoi/blog/"><i class="fa-solid fa-newspaper"></i> Blog</a>
-      <a href="/chothuexemayhanoi/lienhe.html"><i class="fa-solid fa-phone"></i> Liên hệ</a>
-      <button class="toggle-dark" id="toggle-dark-desktop" aria-label="Chế độ tối"></button>
-      <a class="cta" href="tel:0857255868"><i class="fa-solid fa-phone"></i>  Gọi ngay</a>
-    </nav>
-
-    <button class="toggle-dark" id="toggle-dark-mobile" aria-label="Chế độ tối"></button>
-    <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
-      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
-    </button>
-  </header>
-
-  <div class="drawer-overlay" id="drawerOverlay" aria-hidden="true"></div>
-
-  <aside class="drawer" id="drawer" role="menu" aria-hidden="true">
-    <div class="drawer-header">
-      <img src="https://i.postimg.cc/brsmsj5N/IMG_5215.jpg" alt="Motoopen">
-      <div>
-        <strong>Motoopen</strong>
-        <small>Thuê xe máy Hà Nội</small>
+      {% elsif item.taxonomy %}
+      <div class="nav-dropdown taxonomy-dropdown">
+        <a href="{{ item.url | relative_url }}" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+          <i class="{{ item.icon }}"></i> {{ item.label }} <i class="fa-solid fa-caret-down"></i>
+        </a>
+        <div class="dropdown-menu taxonomy-menu">
+          <a class="taxonomy-menu-all" href="{{ item.url | relative_url }}"><i class="fa-solid fa-layer-group"></i> Tất cả danh mục</a>
+          {% for parent in site.data.taxonomy.parents %}
+          <div class="taxonomy-menu-group">
+            <a class="taxonomy-menu-parent" href="{{ parent.url | relative_url }}"><i class="{{ parent.icon }}"></i><strong>{{ parent.label }}</strong></a>
+            <div class="taxonomy-menu-children">
+              {% for child in parent.children %}
+              <a href="{{ child.url | relative_url }}"><i class="{{ child.icon }}"></i>{{ child.label }}</a>
+              {% endfor %}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
       </div>
+      {% else %}
+      <a href="{{ item.url | relative_url }}"><i class="{{ item.icon }}"></i> {{ item.label }}</a>
+      {% endif %}
+    {% endfor %}
+    <button class="toggle-dark" id="toggle-dark-desktop" aria-label="Chế độ tối"></button>
+    <a class="cta" href="tel:0857255868"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
+  </nav>
+
+  <button class="toggle-dark" id="toggle-dark-mobile" aria-label="Chế độ tối"></button>
+  <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+    <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+  </button>
+</header>
+
+<div class="drawer-overlay" id="drawerOverlay" aria-hidden="true"></div>
+
+<aside class="drawer" id="drawer" role="menu" aria-hidden="true">
+  <div class="drawer-header">
+    <img src="https://i.postimg.cc/brsmsj5N/IMG_5215.jpg" alt="Motoopen">
+    <div><strong>Motoopen</strong><small>Thuê xe máy Hà Nội</small></div>
+  </div>
+
+  <div class="menu-block">
+    <div class="menu-grid">
+      <a href="tel:0857255868" class="menu-grid-item"><i class="fa-solid fa-phone-volume"></i><span>Gọi ngay</span></a>
+      <a href="https://maps.app.goo.gl/2icTBTxAToyvKTE78" target="_blank" class="menu-grid-item"><i class="fa-solid fa-location-dot"></i><span>Bản đồ</span></a>
+      <a href="{{ '/banggia.html' | relative_url }}" class="menu-grid-item"><i class="fa-solid fa-tags"></i><span>Bảng giá</span></a>
+      <a href="{{ '/faq.html' | relative_url }}" class="menu-grid-item"><i class="fa-solid fa-circle-question"></i><span>FAQ</span></a>
     </div>
+  </div>
 
-    <div class="menu-block">
-      <div class="menu-grid">
-        <a href="tel:0857255868" class="menu-grid-item"><i class="fa-solid fa-phone-volume"></i><span>Gọi ngay</span></a>
-        <a href="https://maps.app.goo.gl/2icTBTxAToyvKTE78" target="_blank" class="menu-grid-item"><i class="fa-solid fa-location-dot"></i><span>Bản đồ</span></a>
-        <a href="/chothuexemayhanoi/banggia.html" class="menu-grid-item"><i class="fa-solid fa-tags"></i><span>Bảng giá</span></a>
-        <a href="/chothuexemayhanoi/faq.html" class="menu-grid-item"><i class="fa-solid fa-circle-question"></i><span>FAQ</span></a>
-      </div>
-    </div>
-
-    <div class="menu-block">
-      <a class="menu-item" href="/chothuexemayhanoi/"><i class="fa-solid fa-house"></i><span>Trang chủ</span></a>
-      <a class="menu-item" href="/chothuexemayhanoi/gioithieu.html"><i class="fa-solid fa-circle-info"></i><span>Giới
-          thiệu</span></a>
-
-      <button class="menu-item" id="drawerServiceToggle" aria-expanded="false">
-        <i class="fa-solid fa-motorcycle"></i><span>Dịch vụ</span>
-        <i class="fa-solid fa-chevron-down chevron-icon"></i>
+  <div class="menu-block">
+    {% for item in site.data.navigation.primary %}
+      {% if item.key == "services" %}
+      <button class="menu-item" data-drawer-toggle="drawerServiceMenu" aria-expanded="false">
+        <i class="{{ item.icon }}"></i><span>{{ item.label }}</span><i class="fa-solid fa-chevron-down chevron-icon"></i>
       </button>
       <div class="menu-submenu" id="drawerServiceMenu">
-        <a class="menu-item menu-item-sub" href="/chothuexemayhanoi/banggia.html"><i class="fa-solid fa-tags"></i>Bảng
-          giá</a>
-        <a class="menu-item menu-item-sub" href="/chothuexemayhanoi/thutuc.html"><i class="fa-solid fa-file-signature"></i>Thủ tục</a>
-        <a class="menu-item menu-item-sub" href="/chothuexemayhanoi/loaixe.html"><i class="fa-solid fa-motorcycle"></i>Loại xe</a>
-        <a class="menu-item menu-item-sub" href="/chothuexemayhanoi/huongdan.html"><i class="fa-solid fa-book"></i>Hướng
-          dẫn</a>
-        <a class="menu-item menu-item-sub" href="/chothuexemayhanoi/kinhnghiem.html"><i class="fa-solid fa-lightbulb"></i>Kinh nghiệm</a>
+        <a class="menu-item menu-item-sub" href="{{ item.url | relative_url }}"><i class="{{ item.icon }}"></i>Tổng quan</a>
+        {% for child in item.children %}
+        <a class="menu-item menu-item-sub" href="{{ child.url | relative_url }}"><i class="{{ child.icon }}"></i>{{ child.label }}</a>
+        {% endfor %}
       </div>
-
-      <a class="menu-item" href="/chothuexemayhanoi/blog/"><i class="fa-solid fa-newspaper"></i><span>Blog</span></a>
-      <a class="menu-item" href="/chothuexemayhanoi/lienhe.html"><i class="fa-solid fa-phone"></i><span>Liên
-          hệ</span></a>
-    </div>
-
-    <div class="menu-block">
-      <button class="menu-item" id="drawerToggleDark">
-        <i class="fa-solid fa-moon"></i><span>Chế độ Tối/Sáng</span>
-        <span class="toggle-switch"></span>
+      {% elsif item.taxonomy %}
+      <button class="menu-item" data-drawer-toggle="drawerCategoryMenu" aria-expanded="false">
+        <i class="{{ item.icon }}"></i><span>{{ item.label }}</span><i class="fa-solid fa-chevron-down chevron-icon"></i>
       </button>
-    </div>
-  </aside>
+      <div class="menu-submenu taxonomy-submenu" id="drawerCategoryMenu">
+        <a class="menu-item menu-item-sub" href="{{ item.url | relative_url }}"><i class="fa-solid fa-layer-group"></i>Tất cả danh mục</a>
+        {% for parent in site.data.taxonomy.parents %}
+        <a class="menu-item menu-item-sub taxonomy-mobile-parent" href="{{ parent.url | relative_url }}"><i class="{{ parent.icon }}"></i><strong>{{ parent.label }}</strong></a>
+          {% for child in parent.children %}
+          <a class="menu-item menu-item-sub taxonomy-mobile-child" href="{{ child.url | relative_url }}"><i class="{{ child.icon }}"></i>{{ child.label }}</a>
+          {% endfor %}
+        {% endfor %}
+      </div>
+      {% else %}
+      <a class="menu-item" href="{{ item.url | relative_url }}"><i class="{{ item.icon }}"></i><span>{{ item.label }}</span></a>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="menu-block">
+    <button class="menu-item" id="drawerToggleDark">
+      <i class="fa-solid fa-moon"></i><span>Chế độ Tối/Sáng</span><span class="toggle-switch"></span>
+    </button>
+  </div>
+</aside>
