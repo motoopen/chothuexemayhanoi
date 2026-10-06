@@ -40,6 +40,7 @@
     });
 
     drawer?.querySelectorAll('[data-drawer-toggle]').forEach(function (button) {
+      if (button.dataset.sharedToggleBound === 'true') return;
       button.addEventListener('click', function () {
         const menu = document.getElementById(button.getAttribute('data-drawer-toggle'));
         const open = menu?.classList.toggle('open');
@@ -50,6 +51,7 @@
 
     const dropdowns = Array.from(document.querySelectorAll('.nav-dropdown'));
     dropdowns.forEach(function (dropdown) {
+      if (dropdown.dataset.sharedDropdownBound === 'true') return;
       const toggle = dropdown.querySelector('.dropdown-toggle');
       toggle?.addEventListener('click', function (event) {
         event.preventDefault();
