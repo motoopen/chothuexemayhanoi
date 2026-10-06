@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Tham quan Hà Nội bằng xe máy điện: lập kế hoạch pin theo điểm dừng"
+date: 2026-10-07 02:08:17 +0700
+description: "Tham quan Hà Nội bằng xe máy điện cần lập kế hoạch pin theo điểm dừng, tính quãng đường theo trục và chuẩn bị phương án sạc dự phòng."
+author: "Motoopen"
 matrix_id: 272
-description: Tham quan Hà Nội bằng xe máy điện cần lập kế hoạch pin theo điểm dừng, tính quãng đường theo trục và chuẩn bị phương án sạc dự phòng.
+primary_keyword: "đi xe máy điện tham quan hà nội"
+hub_parent: kinh-nghiem
+hub_category: hanh-trinh
 ---
-
 Xe máy điện cho tham quan phố yên và rẻ, nhưng lịch trình với xe điện là lịch trình của pin: mỗi cụm điểm cần tính dư quãng đường và sạc giữa chuyến. Bài này giúp lập kế hoạch đó.
 
 ## Tính quãng đường theo trục pin

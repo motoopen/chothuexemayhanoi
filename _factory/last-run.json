@@ -1,74 +1,72 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-07T02:06:26+07:00",
-  "finished_at": "2026-10-07T02:06:26+07:00",
+  "started_at": "2026-10-07T02:08:17+07:00",
+  "finished_at": "2026-10-07T02:08:17+07:00",
   "selected_count": 6,
   "published_total": 6,
   "published": [
     {
-      "id": 265,
-      "source": "_factory/incoming/265.md",
-      "post": "_posts/2026-10-07-di-xe-may-ha-noi-bao-tang.md",
-      "url": "/blog/di-xe-may-ha-noi-bao-tang/",
-      "word_count": 690,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 266,
-      "source": "_factory/incoming/266.md",
-      "post": "_posts/2026-10-07-di-xe-may-ha-noi-mua-sam.md",
-      "url": "/blog/di-xe-may-ha-noi-mua-sam/",
-      "word_count": 686,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 267,
-      "source": "_factory/incoming/267.md",
-      "post": "_posts/2026-10-07-di-xe-may-ha-noi-voi-tre-nho.md",
-      "url": "/blog/di-xe-may-ha-noi-voi-tre-nho/",
-      "word_count": 688,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 268,
-      "source": "_factory/incoming/268.md",
-      "post": "_posts/2026-10-07-di-xe-may-ha-noi-cho-nguoi-moi.md",
-      "url": "/blog/di-xe-may-ha-noi-cho-nguoi-moi/",
-      "word_count": 679,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 269,
-      "source": "_factory/incoming/269.md",
-      "post": "_posts/2026-10-07-di-xe-may-ha-noi-mua-mua.md",
-      "url": "/blog/di-xe-may-ha-noi-mua-mua/",
-      "word_count": 708,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 270,
-      "source": "_factory/incoming/270.md",
-      "post": "_posts/2026-10-07-di-xe-may-ha-noi-mua-dong.md",
-      "url": "/blog/di-xe-may-ha-noi-mua-dong/",
-      "word_count": 665,
+      "id": 271,
+      "source": "_factory/incoming/271.md",
+      "post": "_posts/2026-10-07-di-xe-may-ha-noi-buoi-toi.md",
+      "url": "/blog/di-xe-may-ha-noi-buoi-toi/",
+      "word_count": 658,
       "warnings": []
+    },
+    {
+      "id": 272,
+      "source": "_factory/incoming/272.md",
+      "post": "_posts/2026-10-07-di-xe-may-dien-tham-quan-ha-noi.md",
+      "url": "/blog/di-xe-may-dien-tham-quan-ha-noi/",
+      "word_count": 678,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
+    },
+    {
+      "id": 273,
+      "source": "_factory/incoming/273.md",
+      "post": "_posts/2026-10-07-di-xe-50cc-tham-quan-ha-noi.md",
+      "url": "/blog/di-xe-50cc-tham-quan-ha-noi/",
+      "word_count": 657,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
+    },
+    {
+      "id": 274,
+      "source": "_factory/incoming/274.md",
+      "post": "_posts/2026-10-07-di-xe-may-ha-noi-voi-vali.md",
+      "url": "/blog/di-xe-may-ha-noi-voi-vali/",
+      "word_count": 694,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
+    },
+    {
+      "id": 275,
+      "source": "_factory/incoming/275.md",
+      "post": "_posts/2026-10-07-road-trip-tu-ha-noi-bang-xe-thue.md",
+      "url": "/blog/road-trip-tu-ha-noi-bang-xe-thue/",
+      "word_count": 654,
+      "warnings": []
+    },
+    {
+      "id": 277,
+      "source": "_factory/incoming/277.md",
+      "post": "_posts/2026-10-07-kiem-tra-phanh-xe-may-thue.md",
+      "url": "/blog/kiem-tra-phanh-xe-may-thue/",
+      "word_count": 693,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
     }
   ],
   "recoverable_total": 0,
   "recoverable": [],
   "fatal": null,
   "status_counts": {
-    "planned": 30,
-    "published": 270
+    "planned": 24,
+    "published": 276
   }
 }

@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy: cách kiểm tra phanh trước khi rời điểm nhận"
+date: 2026-10-07 02:08:17 +0700
+description: "Kiểm tra phanh xe máy thuê cần thử ở tốc độ thấp ngay tại điểm nhận, rà má phanh và thắng tay trước khi rời đi cung phố hay tỉnh."
+author: "Motoopen"
 matrix_id: 277
-description: Kiểm tra phanh xe máy thuê cần thử ở tốc độ thấp ngay tại điểm nhận, rà má phanh và thắng tay trước khi rời đi cung phố hay tỉnh.
+primary_keyword: "kiểm tra phanh xe máy thuê"
+hub_parent: huong-dan
+hub_category: an-toan-su-co
 ---
-
 Phanh là thứ không được phép sai trên xe thuê, vì bạn không biết người trước đã đi nó kiểu gì. Bài này trình bày cách kiểm tra phanh trong vài phút, trước khi rời điểm nhận.
 
 ## Bướm thử phanh ở tốc độ thấp

@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Tham quan Hà Nội bằng xe 50cc: hành trình nào phù hợp tốc độ và quãng đường?"
+date: 2026-10-07 02:08:17 +0700
+description: "Tham quan Hà Nội bằng xe 50cc phù hợp hành trình ngắn trong vành đai, tốc độ khiêm tốn và quãng đường dưới ba mươi ki lômét mỗi ngày."
+author: "Motoopen"
 matrix_id: 273
-description: Tham quan Hà Nội bằng xe 50cc phù hợp hành trình ngắn trong vành đai, tốc độ khiêm tốn và quãng đường dưới ba mươi ki lômét mỗi ngày.
+primary_keyword: "đi xe 50cc tham quan hà nội"
+hub_parent: kinh-nghiem
+hub_category: hanh-trinh
 ---
-
 Xe 50cc là lựa chọn rẻ và nhẹ cho tham quan nội đô, nhưng nó có giới hạn rõ: tốc độ khiêm tốn và động cơ nhỏ. Hành trình vì thế phải chọn đúng tầm hoạt động của nó.
 
 ## Hành trình phù hợp xe 50cc

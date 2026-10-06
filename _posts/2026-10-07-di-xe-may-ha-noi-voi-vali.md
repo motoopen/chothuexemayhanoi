@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Đi xe máy ở Hà Nội khi có vali: nên gửi hành lý hay chọn xe khác?"
+date: 2026-10-07 02:08:17 +0700
+description: "Đi xe máy ở Hà Nội khi có vali cần chọn giữa gửi hành lý, ghé về khách sạn trước, hoặc chọn xe có cốp rộng tùy cỡ vali."
+author: "Motoopen"
 matrix_id: 274
-description: Đi xe máy ở Hà Nội khi có vali cần chọn giữa gửi hành lý, ghé về khách sạn trước, hoặc chọn xe có cốp rộng tùy cỡ vali.
+primary_keyword: "đi xe máy hà nội với vali"
+hub_parent: kinh-nghiem
+hub_category: hanh-trinh
 ---
-
 Vali là món hành lý duy nhất khiến xe máy trở nên khó xử, vì nó cồng và cứng, không gập được như ba lô. Bài này giúp chọn giữa ba phương án thay vì cố nhét vali lên yên.
 
 ## Đánh giá cỡ vali trước khi chọn

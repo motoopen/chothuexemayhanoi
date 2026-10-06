@@ -36,8 +36,8 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 30,
-    "published": 270
+    "planned": 24,
+    "published": 276
   },
   "items": [
     {
@@ -14207,7 +14207,7 @@
         "verify-current-traffic-law"
       ],
       "cannibalization_guard": "Mỗi bài phải là một hành trình/use case khác biệt.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "kinh-nghiem",
         "parent_label": "Kinh nghiệm",
@@ -14219,7 +14219,10 @@
       "front_matter": {
         "hub_parent": "kinh-nghiem",
         "hub_category": "hanh-trinh"
-      }
+      },
+      "published_at": "2026-10-07T02:08:17+07:00",
+      "published_path": "_posts/2026-10-07-di-xe-may-ha-noi-buoi-toi.md",
+      "published_url": "/blog/di-xe-may-ha-noi-buoi-toi/"
     },
     {
       "id": 272,
@@ -14257,7 +14260,7 @@
         "verify-current-traffic-law"
       ],
       "cannibalization_guard": "Mỗi bài phải là một hành trình/use case khác biệt.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "kinh-nghiem",
         "parent_label": "Kinh nghiệm",
@@ -14269,7 +14272,10 @@
       "front_matter": {
         "hub_parent": "kinh-nghiem",
         "hub_category": "hanh-trinh"
-      }
+      },
+      "published_at": "2026-10-07T02:08:17+07:00",
+      "published_path": "_posts/2026-10-07-di-xe-may-dien-tham-quan-ha-noi.md",
+      "published_url": "/blog/di-xe-may-dien-tham-quan-ha-noi/"
     },
     {
       "id": 273,
@@ -14307,7 +14313,7 @@
         "verify-current-traffic-law"
       ],
       "cannibalization_guard": "Mỗi bài phải là một hành trình/use case khác biệt.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "kinh-nghiem",
         "parent_label": "Kinh nghiệm",
@@ -14319,7 +14325,10 @@
       "front_matter": {
         "hub_parent": "kinh-nghiem",
         "hub_category": "hanh-trinh"
-      }
+      },
+      "published_at": "2026-10-07T02:08:17+07:00",
+      "published_path": "_posts/2026-10-07-di-xe-50cc-tham-quan-ha-noi.md",
+      "published_url": "/blog/di-xe-50cc-tham-quan-ha-noi/"
     },
     {
       "id": 274,
@@ -14357,7 +14366,7 @@
         "verify-current-traffic-law"
       ],
       "cannibalization_guard": "Mỗi bài phải là một hành trình/use case khác biệt.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "kinh-nghiem",
         "parent_label": "Kinh nghiệm",
@@ -14369,7 +14378,10 @@
       "front_matter": {
         "hub_parent": "kinh-nghiem",
         "hub_category": "hanh-trinh"
-      }
+      },
+      "published_at": "2026-10-07T02:08:17+07:00",
+      "published_path": "_posts/2026-10-07-di-xe-may-ha-noi-voi-vali.md",
+      "published_url": "/blog/di-xe-may-ha-noi-voi-vali/"
     },
     {
       "id": 275,
@@ -14407,7 +14419,7 @@
         "verify-current-traffic-law"
       ],
       "cannibalization_guard": "Mỗi bài phải là một hành trình/use case khác biệt.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "kinh-nghiem",
         "parent_label": "Kinh nghiệm",
@@ -14419,7 +14431,10 @@
       "front_matter": {
         "hub_parent": "kinh-nghiem",
         "hub_category": "hanh-trinh"
-      }
+      },
+      "published_at": "2026-10-07T02:08:17+07:00",
+      "published_path": "_posts/2026-10-07-road-trip-tu-ha-noi-bang-xe-thue.md",
+      "published_url": "/blog/road-trip-tu-ha-noi-bang-xe-thue/"
     },
     {
       "id": 276,
@@ -14504,7 +14519,7 @@
         "verify-current-support-policy"
       ],
       "cannibalization_guard": "Mỗi bài tập trung một checklist/rủi ro riêng.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -14516,7 +14531,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "an-toan-su-co"
-      }
+      },
+      "published_at": "2026-10-07T02:08:17+07:00",
+      "published_path": "_posts/2026-10-07-kiem-tra-phanh-xe-may-thue.md",
+      "published_url": "/blog/kiem-tra-phanh-xe-may-thue/"
     },
     {
       "id": 278,
@@ -15656,5 +15674,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T02:06:26+07:00"
+  "updated_at": "2026-10-07T02:08:17+07:00"
 }

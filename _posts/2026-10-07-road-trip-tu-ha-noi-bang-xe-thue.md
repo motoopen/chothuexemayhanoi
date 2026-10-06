@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Road trip từ Hà Nội bằng xe thuê: checklist 15 mục trước khi rời thành phố"
+date: 2026-10-07 02:08:17 +0700
+description: "Road trip từ Hà Nội bằng xe thuê cần checklist 15 mục trước khi rời thành phố, từ giấy tờ, kiểm tra xe, đến tuyến dự phòng và số hỗ trợ."
+author: "Motoopen"
 matrix_id: 275
-description: Road trip từ Hà Nội bằng xe thuê cần checklist 15 mục trước khi rời thành phố, từ giấy tờ, kiểm tra xe, đến tuyến dự phòng và số hỗ trợ.
+primary_keyword: "road trip từ hà nội bằng xe thuê"
+hub_parent: kinh-nghiem
+hub_category: hanh-trinh
 ---
-
 Road trip bằng xe thuê khác một chuyến phố: bạn mang cả chiếc xe của người khác vào vùng không quen, và mọi thiếu sót đều đắt hơn. Checklist mười lăm mục dưới đây là cửa trước khi rời vành đai.
 
 ## Nhóm giấy tờ: bốn mục

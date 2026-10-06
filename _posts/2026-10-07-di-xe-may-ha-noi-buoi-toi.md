@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Đi xe máy Hà Nội buổi tối: chọn tuyến và điểm dừng theo tầm nhìn, gửi xe"
+date: 2026-10-07 02:08:17 +0700
+description: "Đi xe máy Hà Nội buổi tối cần chọn tuyến đèn sáng, điểm dừng có gửi xe qua đêm và tránh vạch xanh tốc độ cao giữa tầm nhìn hạn chế."
+author: "Motoopen"
 matrix_id: 271
-description: Đi xe máy Hà Nội buổi tối cần chọn tuyến đèn sáng, điểm dừng có gửi xe qua đêm và tránh vạch xanh tốc độ cao giữa tầm nhìn hạn chế.
+primary_keyword: "đi xe máy hà nội buổi tối"
+hub_parent: kinh-nghiem
+hub_category: hanh-trinh
 ---
-
 Hà Nội buổi tối đổi sắc hoàn toàn, và xe máy là cách rẻ nhất để thấy phố đèn. Nhưng ban đêm có bộ luật riêng của nó: tầm nhìn, đèn xe, và chỗ gửi xe đóng cửa.
 
 ## Chọn tuyến đèn sáng
