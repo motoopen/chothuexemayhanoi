@@ -25,7 +25,7 @@ Mỗi nơi có cách khác nhau: nhận xe mức bao nhiêu thì trả mức đ�
 
 ## Kinh nghiệm tiết kiệm xăng trên phố
 
-Trên phố dày đèn đỏ, cách chạy quyết định mức hao xăng rõ: giữ vòng tua đều, tăng ga nhẹ, tắt máy khi dừng chờ dài, và giữ khoảng cách với xe trước để đỡ phanh gấp. Lốp non làm xe nặng, kiểm tra khi nhận xe. Với quãng ngắn quanh khu ở, nhóm xe điện gần như bỏ hẳn khoản xăng, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ /blog/cho-thue-xe-may-dien-ha-noi/' ).
+Trên phố dày đèn đỏ, cách chạy quyết định mức hao xăng rõ: giữ vòng tua đều, tăng ga nhẹ, tắt máy khi dừng chờ dài, và giữ khoảng cách với xe trước để đỡ phanh gấp. Lốp non làm xe nặng, kiểm tra khi nhận xe. Với quãng ngắn quanh khu ở, nhóm xe điện gần như bỏ hẳn khoản xăng, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}).
 
 ## Ví dụ ước cho hai kiểu lịch
 
