@@ -463,3 +463,98 @@
   }
   .blog-related-list { grid-template-columns: 1fr; }
 }
+
+
+/* ===== Mobile blog readability + compact footer ===== */
+/* Re-resolve shared component aliases inside dark mode. Root-level aliases
+   otherwise keep their light computed values on some WebKit versions. */
+body.dark {
+  --blog-component-bg: var(--surface);
+  --blog-component-soft: var(--glass);
+  --blog-component-border: var(--glass-border);
+}
+body.dark .blog-component,
+body.dark .blog-related-item {
+  background-color: var(--surface);
+  color: var(--text);
+}
+body.dark .blog-related-item {
+  background-color: var(--glass);
+}
+body.dark .blog-component strong,
+body.dark .blog-component h2,
+body.dark .blog-related-item strong {
+  color: var(--text);
+}
+body.dark .blog-component p,
+body.dark .blog-related-item span {
+  color: var(--muted);
+}
+
+.footer-taxonomy-all {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 auto 14px;
+  padding: 9px 12px;
+  border-radius: 999px;
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  color: var(--text);
+  font-weight: 800;
+}
+.footer-taxonomy {
+  width: min(100%, 560px);
+  max-width: 560px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.footer-taxonomy-group {
+  min-width: 0;
+  padding: 11px 12px;
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  background: var(--glass);
+}
+.app-footer .footer-taxonomy-parent,
+.app-footer .footer-taxonomy-children a {
+  text-align: left;
+  justify-content: flex-start;
+}
+.footer-taxonomy-children {
+  padding-left: 0;
+  margin-top: 5px;
+}
+
+@media (max-width: 700px) {
+  footer.premium.app-footer {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    padding: 40px 20px calc(110px + env(safe-area-inset-bottom));
+  }
+  .app-footer > div {
+    min-width: 0;
+  }
+  .footer-taxonomy {
+    width: 100%;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+  .footer-taxonomy-group {
+    padding: 11px 10px;
+  }
+  .footer-taxonomy-children {
+    display: none;
+  }
+  .app-footer .footer-taxonomy-parent {
+    min-height: 44px;
+    font-size: .92rem;
+    line-height: 1.25;
+  }
+  .app-footer .footer-taxonomy-parent i {
+    flex: 0 0 20px;
+  }
+  .blog-component {
+    color: var(--text);
+  }
+}
