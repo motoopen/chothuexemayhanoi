@@ -47,6 +47,14 @@ jobs:
         run: |
           set -euo pipefail
           test -f _site/index.html
+          for image in IMG_5418.jpeg IMG_5419.jpeg IMG_5420.jpeg IMG_5421.jpeg IMG_5426.jpeg IMG_5431.jpeg; do
+            test -f "_site/assets/images/vehicles/$image"
+            grep -q "/chothuexemayhanoi/assets/images/vehicles/$image" _site/index.html
+          done
+          if grep -q "raw.githubusercontent.com/motoopen/chothuexemayhanoi/refs/heads/main/IMG_54" _site/index.html; then
+            echo "Homepage still references branch-raw vehicle images."
+            exit 1
+          fi
           test -f _site/404.html
           test -f _site/sitemap.xml
           test -f _site/blog/index.html
