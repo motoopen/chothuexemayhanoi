@@ -48,21 +48,22 @@ jobs:
           python3 - <<'PY'
           from pathlib import Path
           text = " ".join(["hướng dẫn thuê xe máy hà nội thực tế an toàn thuận tiện"] * 90)
-          draft = """---
-matrix_id: 1
-description: "Hướng dẫn thử nghiệm cho factory smoke, dùng để kiểm tra parser và QA scoped trước khi publish."
----
-## Chuẩn bị
-%s
-
-[Xem thủ tục]({{ '/thutuc.html' | relative_url }})
-
-## Kiểm tra
-%s
-""" % (text, text)
+          lines = [
+              "---",
+              "matrix_id: 1",
+              'description: "Hướng dẫn thử nghiệm cho factory smoke, dùng để kiểm tra parser và QA scoped trước khi publish."',
+              "---",
+              "## Chuẩn bị",
+              text,
+              "",
+              "[Xem thủ tục]({{ '/thutuc.html' | relative_url }})",
+              "",
+              "## Kiểm tra",
+              text,
+          ]
           p = Path('_factory/incoming/001.md')
           p.parent.mkdir(parents=True, exist_ok=True)
-          p.write_text(draft, encoding='utf-8')
+          p.write_text("\\n".join(lines) + "\\n", encoding='utf-8')
           PY
           python3 scripts/article_factory.py check _factory/incoming/001.md
           rm -f _factory/incoming/001.md
