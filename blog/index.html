@@ -1,46 +1,28 @@
 ---
-layout: none
+layout: default
 title: "Blog"
+description: "Bài viết và tin tức về Motoopen – Thuê xe máy Hà Nội."
 permalink: /blog/
 ---
 
-<!doctype html>
-<html lang="vi">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Blog | {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  <link rel="canonical" href="{{ '/blog/' | absolute_url }}">
-  <meta name="description" content="Bài viết và tin tức về Motoopen – Thuê xe máy Hà Nội.">
-  {% if site.fa_css %}<link id="fa-css" rel="stylesheet" href="{{ site.fa_css }}">{% endif %}
-</head>
-<body class="">
-  {% include footer.html %} <!-- nếu muốn header trước thì include header, ở đây footer include để giữ footer class tồn tại -->
-  <main class="container" style="padding-top:84px;max-width:var(--maxw,1100px);margin:0 auto;">
-    <header style="margin-bottom:18px;">
-      <h1 style="margin:0 0 6px">Blog</h1>
-      <p style="color:var(--muted)">Bài viết mới nhất từ {{ site.title }}</p>
-    </header>
+<main class="blog-shell">
+  <header class="blog-heading">
+    <h1>Blog</h1>
+    <p>Bài viết mới nhất từ {{ site.title }}</p>
+  </header>
 
-    <section class="sx-wrap">
-      <div class="sx-grid" style="display:block;">
-        {% if site.posts.size == 0 %}
-          <p>Chưa có bài viết nào — hãy thêm file vào <code>/_posts/</code> (ví dụ: <code>/_posts/2025-10-28-gioi-thieu-motoopen.md</code>).</p>
-        {% else %}
-          {% for post in site.posts %}
-          <article style="margin-bottom:20px;padding:16px;border-radius:12px;border:1px solid var(--glass-border);background:var(--surface);">
-            <h2 style="margin:0 0 8px;"><a href="{{ post.url | relative_url }}" style="color:var(--text)">{{ post.title }}</a></h2>
-            <p style="margin:0 0 8px;color:var(--muted);font-weight:600">{{ post.date | date: "%-d %B %Y" }} • {{ post.author | default: site.author }}</p>
-            <p style="margin:0 0 10px;color:var(--text)">{{ post.excerpt | strip_html | truncate:180 }}</p>
-            <a class="mapp-btn ghost" href="{{ post.url | relative_url }}"><i class="fa-solid fa-arrow-right"></i> Đọc tiếp</a>
-          </article>
-          {% endfor %}
-        {% endif %}
-      </div>
-    </section>
-  </main>
-
-  {% include footer.html %}
-</body>
-</html>
+  <section class="blog-list" aria-label="Bài viết mới nhất">
+    {% if site.posts.size == 0 %}
+      <p>Chưa có bài viết nào.</p>
+    {% else %}
+      {% for post in site.posts %}
+      <article class="blog-item">
+        <h2><a class="blog-title-link" href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p class="blog-meta">{{ post.date | date: "%-d %B %Y" }} • {{ post.author | default: site.author }}</p>
+        <p class="blog-excerpt">{{ post.excerpt | strip_html | truncate:180 }}</p>
+        <a class="mapp-btn ghost" href="{{ post.url | relative_url }}"><i class="fa-solid fa-arrow-right"></i> Đọc tiếp</a>
+      </article>
+      {% endfor %}
+    {% endif %}
+  </section>
+</main>
