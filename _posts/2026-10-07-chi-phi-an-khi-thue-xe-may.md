@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "7 chi phí dễ bị bỏ sót khi thuê xe máy"
+date: 2026-10-07 01:13:43 +0700
+description: "Bảy chi phí dễ bị bỏ sót khi thuê xe máy ở Hà Nội, từ phí giao xe, gửi xe, xăng đến phụ phí trễ giờ và các khoản trong điều khoản hợp đồng."
+author: "Motoopen"
 matrix_id: 47
-description: Bảy chi phí dễ bị bỏ sót khi thuê xe máy ở Hà Nội, từ phí giao xe, gửi xe, xăng đến phụ phí trễ giờ và các khoản trong điều khoản hợp đồng.
+primary_keyword: "chi phí ẩn khi thuê xe máy"
+hub_parent: thue-xe
+hub_category: gia-thoi-gian
 ---
-
 Tổng chi phí thuê xe máy không dừng ở mức giá ngày, và bảy khoản dưới đây là những cái dễ bị bỏ sót nhất, khiến hóa đơn cuối vượt dự tính của nhiều người.
 
 ## Chi phí giao xe và nhận lại xe

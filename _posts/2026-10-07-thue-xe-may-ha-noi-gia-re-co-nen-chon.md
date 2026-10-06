@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy Hà Nội giá rẻ: 10 điểm phải kiểm tra trước khi quyết định"
+date: 2026-10-07 01:13:43 +0700
+description: "Thuê xe máy giá rẻ ở Hà Nội có nên chọn, mười điểm phải kiểm tra trước khi quyết định, từ tình trạng xe, cọc đến các phụ phí làm tổng cao lên."
+author: "Motoopen"
 matrix_id: 45
-description: Thuê xe máy giá rẻ ở Hà Nội có nên chọn, mười điểm phải kiểm tra trước khi quyết định, từ tình trạng xe, cọc đến các phụ phí làm tổng cao lên.
+primary_keyword: "thuê xe máy hà nội giá rẻ có nên chọn"
+hub_parent: thue-xe
+hub_category: gia-thoi-gian
 ---
-
 Mức giá rẻ luôn hấp dẫn, nhưng với xe máy thuê ở Hà Nội, rẻ chưa chắc là tiết kiệm nếu bỏ qua các điểm kiểm tra. Bài này gom mười điểm nên rà trước khi chốt gói giá rẻ.
 
 ## Nhóm điểm về xe

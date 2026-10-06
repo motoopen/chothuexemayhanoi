@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "So sánh giá thuê xe máy Hà Nội: mẫu checklist 8 dòng dễ dùng"
+date: 2026-10-07 01:13:43 +0700
+description: "So sánh giá thuê xe máy Hà Nội bằng checklist tám dòng dễ dùng, ghi mức giá, cọc, phụ phí và tình trạng xe để chọn được gói đúng theo nhu cầu."
+author: "Motoopen"
 matrix_id: 46
-description: So sánh giá thuê xe máy Hà Nội bằng checklist tám dòng dễ dùng, ghi mức giá, cọc, phụ phí và tình trạng xe để chọn được gói đúng theo nhu cầu.
+primary_keyword: "so sánh giá thuê xe máy hà nội"
+hub_parent: thue-xe
+hub_category: gia-thoi-gian
 ---
-
 So giá thuê xe máy giữa các nơi dễ rối vì mỗi nơi niêm yết theo cách riêng. Bài này đưa một checklist tám dòng, bạn chỉ cần điền theo từng nơi rồi so, kết quả ra ngay gói nào hợp nhất.
 
 ## Dòng thứ nhất và hai: giá ngày và giá gói dài
