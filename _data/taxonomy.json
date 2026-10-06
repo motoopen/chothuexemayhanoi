@@ -1,0 +1,129 @@
+{
+  "parents": [
+    {
+      "slug": "thue-xe",
+      "label": "Thuê xe",
+      "icon": "fa-solid fa-motorcycle",
+      "description": "Bắt đầu thuê, giá và thời gian thuê xe máy tại Hà Nội.",
+      "url": "/blog/danh-muc/thue-xe/",
+      "children": [
+        {
+          "slug": "bat-dau-thue",
+          "label": "Bắt đầu thuê",
+          "icon": "fa-solid fa-key",
+          "cluster": "core",
+          "description": "Kinh nghiệm cho lần đầu, nhu cầu sử dụng và cách chọn dịch vụ.",
+          "url": "/blog/danh-muc/thue-xe/bat-dau-thue/"
+        },
+        {
+          "slug": "gia-thoi-gian",
+          "label": "Giá & thời gian",
+          "icon": "fa-solid fa-tags",
+          "cluster": "pricing-duration",
+          "description": "Giá, cọc, thuê theo giờ/ngày/tuần/tháng và tổng chi phí.",
+          "url": "/blog/danh-muc/thue-xe/gia-thoi-gian/"
+        }
+      ]
+    },
+    {
+      "slug": "loai-xe",
+      "label": "Loại xe",
+      "icon": "fa-solid fa-motorcycle",
+      "description": "Chọn loại xe theo nhu cầu, gồm 50cc, xe điện và các dòng xe phổ biến.",
+      "url": "/blog/danh-muc/loai-xe/",
+      "children": [
+        {
+          "slug": "xe-50cc",
+          "label": "Xe 50cc",
+          "icon": "fa-solid fa-gauge",
+          "cluster": "50cc",
+          "description": "Xe máy 50cc, Cub 50cc, xe ga 50cc và các câu hỏi liên quan.",
+          "url": "/blog/danh-muc/loai-xe/xe-50cc/"
+        },
+        {
+          "slug": "xe-dien",
+          "label": "Xe điện",
+          "icon": "fa-solid fa-bolt",
+          "cluster": "electric",
+          "description": "Xe máy điện, VinFast, pin/sạc và lựa chọn xe điện phù hợp.",
+          "url": "/blog/danh-muc/loai-xe/xe-dien/"
+        },
+        {
+          "slug": "cac-loai-xe",
+          "label": "Các loại xe",
+          "icon": "fa-solid fa-scooter",
+          "cluster": "bike-types",
+          "description": "Xe ga, xe số, xe côn và hướng dẫn chọn model theo nhu cầu.",
+          "url": "/blog/danh-muc/loai-xe/cac-loai-xe/"
+        }
+      ]
+    },
+    {
+      "slug": "khu-vuc",
+      "label": "Khu vực",
+      "icon": "fa-solid fa-location-dot",
+      "description": "Hướng dẫn nhận, trả và thuê xe theo khu vực tại Hà Nội.",
+      "url": "/blog/danh-muc/khu-vuc/",
+      "children": [
+        {
+          "slug": "ha-noi-theo-khu-vuc",
+          "label": "Hà Nội theo khu vực",
+          "icon": "fa-solid fa-map-location-dot",
+          "cluster": "local",
+          "description": "Hoàn Kiếm, Cầu Giấy, Long Biên, Mỹ Đình, Nội Bài và các khu vực khác.",
+          "url": "/blog/danh-muc/khu-vuc/ha-noi-theo-khu-vuc/"
+        }
+      ]
+    },
+    {
+      "slug": "huong-dan",
+      "label": "Hướng dẫn",
+      "icon": "fa-solid fa-book-open",
+      "description": "Thủ tục, pháp lý, an toàn và xử lý tình huống khi thuê xe.",
+      "url": "/blog/danh-muc/huong-dan/",
+      "children": [
+        {
+          "slug": "thu-tuc-phap-ly",
+          "label": "Thủ tục & pháp lý",
+          "icon": "fa-solid fa-file-signature",
+          "cluster": "procedures-legal",
+          "description": "Giấy tờ, bằng lái, hợp đồng, đặt cọc và quy định cần kiểm tra.",
+          "url": "/blog/danh-muc/huong-dan/thu-tuc-phap-ly/"
+        },
+        {
+          "slug": "an-toan-su-co",
+          "label": "An toàn & sự cố",
+          "icon": "fa-solid fa-shield-halved",
+          "cluster": "safety-maintenance",
+          "description": "Checklist nhận xe, phanh/lốp, sự cố, va quẹt và trả xe.",
+          "url": "/blog/danh-muc/huong-dan/an-toan-su-co/"
+        }
+      ]
+    },
+    {
+      "slug": "kinh-nghiem",
+      "label": "Kinh nghiệm",
+      "icon": "fa-solid fa-lightbulb",
+      "description": "Hành trình, so sánh và cách lựa chọn xe theo từng tình huống.",
+      "url": "/blog/danh-muc/kinh-nghiem/",
+      "children": [
+        {
+          "slug": "hanh-trinh",
+          "label": "Hành trình",
+          "icon": "fa-solid fa-route",
+          "cluster": "trip-planning",
+          "description": "Lịch trình trong Hà Nội và chuẩn bị cho các chuyến đi từ Hà Nội.",
+          "url": "/blog/danh-muc/kinh-nghiem/hanh-trinh/"
+        },
+        {
+          "slug": "so-sanh-lua-chon",
+          "label": "So sánh & lựa chọn",
+          "icon": "fa-solid fa-scale-balanced",
+          "cluster": "comparisons",
+          "description": "So sánh loại xe, thời gian thuê, cách nhận xe và phương án di chuyển.",
+          "url": "/blog/danh-muc/kinh-nghiem/so-sanh-lua-chon/"
+        }
+      ]
+    }
+  ]
+}
