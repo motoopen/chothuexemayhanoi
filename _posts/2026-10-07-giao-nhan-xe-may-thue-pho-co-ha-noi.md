@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Giao nhận xe máy thuê ở Phố Cổ: nên nhận tại khách sạn, điểm hẹn hay cửa hàng?"
+date: 2026-10-07 01:38:11 +0700
+description: "Giao nhận xe máy thuê ở Phố Cổ nên chọn nhận tại khách sạn, điểm hẹn hay cửa hàng, cân theo chỗ đỗ xe, giờ đi và lịch chơi trong khu."
+author: "Motoopen"
 matrix_id: 174
-description: Giao nhận xe máy thuê ở Phố Cổ nên chọn nhận tại khách sạn, điểm hẹn hay cửa hàng, cân theo chỗ đỗ xe, giờ đi và lịch chơi trong khu.
+primary_keyword: "giao nhận xe máy thuê phố cổ hà nội"
+hub_parent: khu-vuc
+hub_category: ha-noi-theo-khu-vuc
 ---
-
 Phố Cổ khác các khu khác một điểm then chốt: chỗ đỗ xe hiếm và ngõ hẹp, nên cách nhận xe quyết định cả sự thuận tiện của kỳ thuê. Bài này cân ba cách nhận cho khu này riêng.
 
 ## Nhận tại khách sạn trong phố cổ
