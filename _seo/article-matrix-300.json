@@ -36,8 +36,8 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 258,
-    "published": 42
+    "planned": 256,
+    "published": 44
   },
   "items": [
     {
@@ -4962,7 +4962,7 @@
         "verify-current-manufacturer-policy"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -4974,7 +4974,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T00:57:34+07:00",
+      "published_path": "_posts/2026-10-07-cho-thue-xe-may-dien-vinfast-ha-noi.md",
+      "published_url": "/blog/cho-thue-xe-may-dien-vinfast-ha-noi/"
     },
     {
       "id": 99,
@@ -5222,7 +5225,7 @@
         "verify-current-manufacturer-policy"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -5234,7 +5237,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T00:57:34+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-dien-vinfast-theo-thang.md",
+      "published_url": "/blog/thue-xe-may-dien-vinfast-theo-thang/"
     },
     {
       "id": 104,
@@ -14972,5 +14978,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T00:56:56+07:00"
+  "updated_at": "2026-10-07T00:57:34+07:00"
 }

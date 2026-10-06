@@ -1,67 +1,32 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-07T00:56:56+07:00",
-  "finished_at": "2026-10-07T00:56:56+07:00",
-  "selected_count": 6,
-  "published_total": 4,
+  "started_at": "2026-10-07T00:57:34+07:00",
+  "finished_at": "2026-10-07T00:57:34+07:00",
+  "selected_count": 2,
+  "published_total": 2,
   "published": [
     {
-      "id": 99,
-      "source": "_factory/incoming/099.md",
-      "post": "_posts/2026-10-07-gia-thue-xe-may-dien-vinfast-ha-noi.md",
-      "url": "/blog/gia-thue-xe-may-dien-vinfast-ha-noi/",
-      "word_count": 739,
-      "warnings": []
-    },
-    {
-      "id": 104,
-      "source": "_factory/incoming/104.md",
-      "post": "_posts/2026-10-07-thue-xe-may-dien-tu-lai-ha-noi.md",
-      "url": "/blog/thue-xe-may-dien-tu-lai-ha-noi/",
-      "word_count": 721,
-      "warnings": []
-    },
-    {
-      "id": 105,
-      "source": "_factory/incoming/105.md",
-      "post": "_posts/2026-10-07-thue-xe-may-dien-vinfast-tu-lai-ha-noi.md",
-      "url": "/blog/thue-xe-may-dien-vinfast-tu-lai-ha-noi/",
-      "word_count": 742,
-      "warnings": []
-    },
-    {
-      "id": 106,
-      "source": "_factory/incoming/106.md",
-      "post": "_posts/2026-10-07-thue-xe-dien-khong-bang-lai.md",
-      "url": "/blog/thue-xe-dien-khong-bang-lai/",
-      "word_count": 708,
-      "warnings": []
-    }
-  ],
-  "recoverable_total": 2,
-  "recoverable": [
-    {
-      "path": "_factory/incoming/098.md",
       "id": 98,
-      "errors": [
-        "thin draft: 640 words < 650"
-      ],
-      "warnings": [],
-      "word_count": 640
+      "source": "_factory/incoming/098.md",
+      "post": "_posts/2026-10-07-cho-thue-xe-may-dien-vinfast-ha-noi.md",
+      "url": "/blog/cho-thue-xe-may-dien-vinfast-ha-noi/",
+      "word_count": 740,
+      "warnings": []
     },
     {
-      "path": "_factory/incoming/103.md",
       "id": 103,
-      "errors": [
-        "thin draft: 649 words < 650"
-      ],
-      "warnings": [],
-      "word_count": 649
+      "source": "_factory/incoming/103.md",
+      "post": "_posts/2026-10-07-thue-xe-may-dien-vinfast-theo-thang.md",
+      "url": "/blog/thue-xe-may-dien-vinfast-theo-thang/",
+      "word_count": 753,
+      "warnings": []
     }
   ],
+  "recoverable_total": 0,
+  "recoverable": [],
   "fatal": null,
   "status_counts": {
-    "planned": 258,
-    "published": 42
+    "planned": 256,
+    "published": 44
   }
 }
