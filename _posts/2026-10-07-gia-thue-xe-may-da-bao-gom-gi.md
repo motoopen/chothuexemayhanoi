@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Giá thuê xe máy thường bao gồm gì? Checklist hỏi trước khi đặt"
+date: 2026-10-07 01:15:03 +0700
+description: "Giá thuê xe máy ở Hà Nội đã bao gồm những gì, từ cọc, xăng, phí giao xe đến các khoản tính thêm, kèm checklist câu hỏi nên hỏi trước khi đặt cọc."
+author: "Motoopen"
 matrix_id: 50
-description: Giá thuê xe máy ở Hà Nội đã bao gồm những gì, từ cọc, xăng, phí giao xe đến các khoản tính thêm, kèm checklist câu hỏi nên hỏi trước khi đặt cọc.
+primary_keyword: "giá thuê xe máy đã bao gồm gì"
+hub_parent: thue-xe
+hub_category: gia-thoi-gian
 ---
-
 Mức giá niêm yết chỉ là một phần của tổng chi phí thuê xe. Biết rõ giá đã bao gồm gì và chưa bao gồm gì giúp bạn so gói đúng và tránh các khoản phát sinh lúc trả xe. Bài này tách mức giá thành các nhóm khoản để bạn kiểm tra trọn trước khi cọc.
 
 ## Giá niêm yết thường bao gồm phần nào

@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe 50cc cho người nước ngoài: giấy tờ và quy định nào cần kiểm tra?"
+date: 2026-10-07 01:15:03 +0700
+description: "Thuê xe 50cc cho người nước ngoài ở Hà Nội cần kiểm tra giấy tờ gì, từ giấy phép lái, hộ chiếu, đặt cọc đến quy định hiện hành về người lái."
+author: "Motoopen"
 matrix_id: 65
-description: Thuê xe 50cc cho người nước ngoài ở Hà Nội cần kiểm tra giấy tờ gì, từ giấy phép lái, hộ chiếu, đặt cọc đến quy định hiện hành về người lái.
+primary_keyword: "thuê xe 50cc cho người nước ngoài"
+hub_parent: loai-xe
+hub_category: xe-50cc
 ---
-
 Người nước ngoài muốn thuê xe 50cc đi lại ở Hà Nội cần chuẩn bị một bộ giấy tờ khác với khách nội địa, và quy định về giấy phép lái cho người nước ngoài cũng có phần riêng. Bài này liệt kê các khoản cần kiểm tra để chuyến đi không bị gián đoạn giữa kỳ.
 
 ## Giấy phép lái của người nước ngoài
