@@ -77,7 +77,7 @@ jobs:
           jq -e '.article_count == 300 and (.items | length == 300)' _seo/article-matrix-300.json >/dev/null
           test "$(jq -r '.items[].primary_keyword' _seo/article-matrix-300.json | sort | uniq -d | wc -l)" -eq 0
           test "$(jq -r '.items[].slug' _seo/article-matrix-300.json | sort | uniq -d | wc -l)" -eq 0
-          test "$(jq '[.items[] | select(.status == "published")] | length' _seo/article-matrix-300.json)" -eq 2
+          test "$(jq '[.items[] | select(.status == "published")] | length' _seo/article-matrix-300.json)" -eq 300
           test "$(jq '[.items[] | select((.taxonomy.parent_slug // "") == "" or (.taxonomy.child_slug // "") == "" or (.taxonomy.child_url // "") == "")] | length' _seo/article-matrix-300.json)" -eq 0
           test "$(jq -r '.items[].taxonomy.child_slug' _seo/article-matrix-300.json | sort -u | wc -l)" -eq 10
 
