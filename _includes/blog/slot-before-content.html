@@ -1,0 +1,7 @@
+{% comment %}
+Shared pre-content slot. Keep this include stable so future banners/notices can be
+added once here without editing individual posts.
+{% endcomment %}
+{% if page.blog_notice %}
+<aside class="blog-component blog-notice">{{ page.blog_notice }}</aside>
+{% endif %}
