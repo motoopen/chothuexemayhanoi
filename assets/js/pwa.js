@@ -1,5 +1,12 @@
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/chothuexemayhanoi/service-worker.js')
-        .then(() => console.log('✅ Motoopen PWA ready'))
-        .catch(err => console.error('❌ SW failed:', err));
-    }
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function () {
+    navigator.serviceWorker.register('/chothuexemayhanoi/service-worker.js', {
+      updateViaCache: 'none'
+    }).then(function (registration) {
+      registration.update().catch(function () {});
+      console.log('✅ Motoopen PWA ready');
+    }).catch(function (err) {
+      console.error('❌ SW failed:', err);
+    });
+  });
+}

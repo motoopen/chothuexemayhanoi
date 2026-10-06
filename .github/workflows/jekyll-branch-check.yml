@@ -66,6 +66,9 @@ jobs:
           grep -q "Xe ga hay xe số: chọn loại nào khi đi Hà Nội?" _site/blog/xe-ga-hay-xe-so/index.html
           grep -q "classList.add('in')" _site/assets/js/site.js
           grep -q ".reveal.in" _site/assets/css/home.css
+          grep -q "motoopen-v3" _site/service-worker.js
+          grep -q "cache: 'no-store'" _site/service-worker.js
+          grep -q '"start_url": "/chothuexemayhanoi/"' _site/manifest.json
           if grep -q 'class="hero-mini reveal"' _site/blog/checklist-10-phut-truoc-khi-nhan-xe/index.html; then
             echo "Blog post hero must not depend on reveal animation for visibility."
             exit 1
