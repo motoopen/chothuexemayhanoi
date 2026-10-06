@@ -51,7 +51,7 @@
         {
           "slug": "cac-loai-xe",
           "label": "Các loại xe",
-          "icon": "fa-solid fa-scooter",
+          "icon": "fa-solid fa-motorcycle",
           "cluster": "bike-types",
           "description": "Xe ga, xe số, xe côn và hướng dẫn chọn model theo nhu cầu.",
           "url": "/blog/danh-muc/loai-xe/cac-loai-xe/"
