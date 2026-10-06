@@ -1,9 +1,12 @@
-name: Jekyll Branch Check
+name: Jekyll Build Check
 
 on:
+  pull_request:
+    branches:
+      - main
   push:
     branches:
-      - refactor/blog-structure
+      - main
   workflow_dispatch:
 
 permissions:
@@ -14,7 +17,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout branch
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Configure GitHub Pages
