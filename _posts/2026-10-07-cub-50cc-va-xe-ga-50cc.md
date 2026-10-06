@@ -35,7 +35,7 @@ Với Cub, thử đủ các số lên xuống, nghe tiếng côn, kiểm tra ch�
 
 Tình huống một: khách chưa từng đi xe máy, chọn xe ga, làm quen trong một buổi rồi đi lại được trong phố. Tình huống hai: khách từng đi Cub của ông bà từ nhỏ, chọn Cub thấy tay chân tự nhiên hơn hẳn, trong khi bạn cùng đi chọn xe ga lại thấy gò. Đáp án của mỗi người nằm ở kinh nghiệm sẵn có, nên trung thực với mức quen tay của mình là cách chọn nhanh nhất.
 
-Với khách cân nhắc thêm dòng Wave, bài so Cub và Wave nằm trong [so Cub 50cc và Wave 50cc]({{ /blog/cub-50cc-va-wave-50cc/ | relative_url }}), giúp bạn rút ngắn thêm bước chọn giữa ba dòng số và ga quen thuộc. Khi chạy thử tại điểm nhận, hãy thử đúng thao tác sẽ dùng thật: dừng giữa dốc nhẹ, khởi động lại giữa dòng, và mở khóa hộc nếu chọn xe ga, vì các thao tác đó mới là phần dùng suốt kỳ thuê, quan trọng hơn mọi thông số ghi trên giấy.
+Với khách cân nhắc thêm dòng Wave, bài so Cub và Wave nằm trong [so Cub 50cc và Wave 50cc]({{ '/blog/cub-50cc-va-wave-50cc/' | relative_url }}), giúp bạn rút ngắn thêm bước chọn giữa ba dòng số và ga quen thuộc. Khi chạy thử tại điểm nhận, hãy thử đúng thao tác sẽ dùng thật: dừng giữa dốc nhẹ, khởi động lại giữa dòng, và mở khóa hộc nếu chọn xe ga, vì các thao tác đó mới là phần dùng suốt kỳ thuê, quan trọng hơn mọi thông số ghi trên giấy.
 
 ## Kết luận
 
