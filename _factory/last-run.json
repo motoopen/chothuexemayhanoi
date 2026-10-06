@@ -1,26 +1,46 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-07T01:45:15+07:00",
-  "finished_at": "2026-10-07T01:45:15+07:00",
-  "selected_count": 2,
-  "published_total": 2,
+  "started_at": "2026-10-07T01:45:34+07:00",
+  "finished_at": "2026-10-07T01:45:34+07:00",
+  "selected_count": 4,
+  "published_total": 4,
   "published": [
     {
-      "id": 213,
-      "source": "_factory/incoming/213.md",
-      "post": "_posts/2026-10-07-thue-xe-may-o-cho-dua-ha-noi.md",
-      "url": "/blog/thue-xe-may-o-cho-dua-ha-noi/",
-      "word_count": 687,
+      "id": 215,
+      "source": "_factory/incoming/215.md",
+      "post": "_posts/2026-10-07-thue-xe-may-khuat-duy-tien-ha-noi.md",
+      "url": "/blog/thue-xe-may-khuat-duy-tien-ha-noi/",
+      "word_count": 695,
       "warnings": [
         "matrix title does not contain exact primary keyword"
       ]
     },
     {
-      "id": 214,
-      "source": "_factory/incoming/214.md",
-      "post": "_posts/2026-10-07-giao-nhan-xe-may-thue-o-cho-dua-ha-noi.md",
-      "url": "/blog/giao-nhan-xe-may-thue-o-cho-dua-ha-noi/",
-      "word_count": 706,
+      "id": 216,
+      "source": "_factory/incoming/216.md",
+      "post": "_posts/2026-10-07-giao-nhan-xe-may-thue-khuat-duy-tien-ha-noi.md",
+      "url": "/blog/giao-nhan-xe-may-thue-khuat-duy-tien-ha-noi/",
+      "word_count": 733,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
+    },
+    {
+      "id": 217,
+      "source": "_factory/incoming/217.md",
+      "post": "_posts/2026-10-07-thue-xe-may-trau-quy-ha-noi.md",
+      "url": "/blog/thue-xe-may-trau-quy-ha-noi/",
+      "word_count": 682,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
+    },
+    {
+      "id": 218,
+      "source": "_factory/incoming/218.md",
+      "post": "_posts/2026-10-07-giao-nhan-xe-may-thue-trau-quy-ha-noi.md",
+      "url": "/blog/giao-nhan-xe-may-thue-trau-quy-ha-noi/",
+      "word_count": 734,
       "warnings": [
         "matrix title does not contain exact primary keyword"
       ]
@@ -30,7 +50,7 @@
   "recoverable": [],
   "fatal": null,
   "status_counts": {
-    "planned": 82,
-    "published": 218
+    "planned": 78,
+    "published": 222
   }
 }
