@@ -38,3 +38,13 @@ Before writing any row, compare its `cannibalization_guard`, `primary_keyword`, 
 ## Business/legal verification
 
 Before publication, respect every row's `validation_required`. Prices, deposits, delivery promises, support hours, inventory and model availability must be current. Licence, 50cc, age, insurance and traffic-law statements require current Vietnamese legal verification.
+
+## Taxonomy
+
+Every matrix row now includes a taxonomy object and front matter:
+- `hub_parent`
+- `hub_category`
+
+The source of truth for category labels, icons, URLs and cluster mapping is `_data/taxonomy.json`.
+
+Writers must copy the matrix row's `front_matter` values into every new Markdown post. This makes the post appear automatically in the correct parent/child category page.
