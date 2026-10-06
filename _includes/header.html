@@ -1,7 +1,8 @@
+{% assign sitecfg = site.data.site %}
 <header class="topbar" id="topbar" role="banner">
   <div class="brand">
-    <img src="https://i.postimg.cc/brsmsj5N/IMG_5215.jpg" alt="Motoopen">
-    <h3>Motoopen</h3>
+    <img src="{{ sitecfg.brand.logo }}" alt="{{ sitecfg.brand.name }}">
+    <h3>{{ sitecfg.brand.name }}</h3>
   </div>
 
   <nav class="nav-links" role="navigation" aria-label="Main">
@@ -42,7 +43,7 @@
       {% endif %}
     {% endfor %}
     <button class="toggle-dark" id="toggle-dark-desktop" aria-label="Chế độ tối"></button>
-    <a class="cta" href="tel:0857255868"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
+    <a class="cta" href="tel:{{ sitecfg.contact.phone_raw }}"><i class="fa-solid fa-phone"></i> Gọi ngay</a>
   </nav>
 
   <button class="toggle-dark" id="toggle-dark-mobile" aria-label="Chế độ tối"></button>
@@ -55,14 +56,14 @@
 
 <aside class="drawer" id="drawer" role="menu" aria-hidden="true">
   <div class="drawer-header">
-    <img src="https://i.postimg.cc/brsmsj5N/IMG_5215.jpg" alt="Motoopen">
-    <div><strong>Motoopen</strong><small>Thuê xe máy Hà Nội</small></div>
+    <img src="{{ sitecfg.brand.logo }}" alt="{{ sitecfg.brand.name }}">
+    <div><strong>{{ sitecfg.brand.name }}</strong><small>{{ sitecfg.brand.tagline }}</small></div>
   </div>
 
   <div class="menu-block">
     <div class="menu-grid">
-      <a href="tel:0857255868" class="menu-grid-item"><i class="fa-solid fa-phone-volume"></i><span>Gọi ngay</span></a>
-      <a href="https://maps.app.goo.gl/2icTBTxAToyvKTE78" target="_blank" class="menu-grid-item"><i class="fa-solid fa-location-dot"></i><span>Bản đồ</span></a>
+      <a href="tel:{{ sitecfg.contact.phone_raw }}" class="menu-grid-item"><i class="fa-solid fa-phone-volume"></i><span>Gọi ngay</span></a>
+      <a href="{{ sitecfg.contact.map_url }}" target="_blank" class="menu-grid-item"><i class="fa-solid fa-location-dot"></i><span>Bản đồ</span></a>
       <a href="{{ '/banggia.html' | relative_url }}" class="menu-grid-item"><i class="fa-solid fa-tags"></i><span>Bảng giá</span></a>
       <a href="{{ '/faq.html' | relative_url }}" class="menu-grid-item"><i class="fa-solid fa-circle-question"></i><span>FAQ</span></a>
     </div>
