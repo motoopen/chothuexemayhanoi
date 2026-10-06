@@ -1,78 +1,26 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-07T01:32:59+07:00",
-  "finished_at": "2026-10-07T01:32:59+07:00",
-  "selected_count": 6,
-  "published_total": 5,
+  "started_at": "2026-10-07T01:33:28+07:00",
+  "finished_at": "2026-10-07T01:33:29+07:00",
+  "selected_count": 1,
+  "published_total": 1,
   "published": [
     {
-      "id": 159,
-      "source": "_factory/incoming/159.md",
-      "post": "_posts/2026-10-07-thue-xe-may-cho-nguoi-moi-lai-ha-noi.md",
-      "url": "/blog/thue-xe-may-cho-nguoi-moi-lai-ha-noi/",
-      "word_count": 702,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 160,
-      "source": "_factory/incoming/160.md",
-      "post": "_posts/2026-10-07-xe-ga-va-xe-so-khi-thue.md",
-      "url": "/blog/xe-ga-va-xe-so-khi-thue/",
-      "word_count": 670,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 161,
-      "source": "_factory/incoming/161.md",
-      "post": "_posts/2026-10-07-xe-vision-va-lead-khi-thue.md",
-      "url": "/blog/xe-vision-va-lead-khi-thue/",
-      "word_count": 680,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 162,
-      "source": "_factory/incoming/162.md",
-      "post": "_posts/2026-10-07-xe-wave-va-sirius-khi-thue.md",
-      "url": "/blog/xe-wave-va-sirius-khi-thue/",
-      "word_count": 663,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 164,
-      "source": "_factory/incoming/164.md",
-      "post": "_posts/2026-10-07-sh-va-air-blade-khi-thue.md",
-      "url": "/blog/sh-va-air-blade-khi-thue/",
-      "word_count": 721,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    }
-  ],
-  "recoverable_total": 1,
-  "recoverable": [
-    {
-      "path": "_factory/incoming/163.md",
       "id": 163,
-      "errors": [
-        "thin draft: 637 words < 650"
-      ],
+      "source": "_factory/incoming/163.md",
+      "post": "_posts/2026-10-07-air-blade-va-vision-khi-thue.md",
+      "url": "/blog/air-blade-va-vision-khi-thue/",
+      "word_count": 772,
       "warnings": [
         "matrix title does not contain exact primary keyword"
-      ],
-      "word_count": 637
+      ]
     }
   ],
+  "recoverable_total": 0,
+  "recoverable": [],
   "fatal": null,
   "status_counts": {
-    "planned": 121,
-    "published": 179
+    "planned": 120,
+    "published": 180
   }
 }

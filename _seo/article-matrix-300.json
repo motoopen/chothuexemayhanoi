@@ -36,8 +36,8 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 121,
-    "published": 179
+    "planned": 120,
+    "published": 180
   },
   "items": [
     {
@@ -8520,7 +8520,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Mỗi bài phải có tiêu chí lựa chọn riêng, không chỉ thay tên model.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -8532,7 +8532,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "cac-loai-xe"
-      }
+      },
+      "published_at": "2026-10-07T01:33:29+07:00",
+      "published_path": "_posts/2026-10-07-air-blade-va-vision-khi-thue.md",
+      "published_url": "/blog/air-blade-va-vision-khi-thue/"
     },
     {
       "id": 164,
@@ -15383,5 +15386,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T01:32:59+07:00"
+  "updated_at": "2026-10-07T01:33:29+07:00"
 }

@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê Air Blade hay Vision: khác nhau ở cảm giác điều khiển nào?"
+date: 2026-10-07 01:33:29 +0700
+description: "Thuê Air Blade hay Vision khác nhau ở cảm giác điều khiển nào, từ độ đầm của máy, phanh đĩa, tư thế lái đến cốp và giá thuê theo kỳ."
+author: "Motoopen"
 matrix_id: 163
-description: Thuê Air Blade hay Vision khác nhau ở cảm giác điều khiển nào, từ độ đầm của máy, phanh đĩa, tư thế lái đến cốp và giá thuê theo kỳ.
+primary_keyword: "air blade và vision khi thuê"
+hub_parent: loai-xe
+hub_category: cac-loai-xe
 ---
-
 Air Blade và Vision cùng nhà Honda nhưng phục vụ hai cảm giác khác nhau: một dòng đầm thể thao nhẹ, một dòng gọn tiện dụng. Bài này tách cảm giác điều khiển để bạn chọn đúng.
 
 ## Độ đầm và phản ứng ga
