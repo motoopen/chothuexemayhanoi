@@ -1,12 +1,13 @@
+{% assign sitecfg = site.data.site %}
 <footer class="premium app-footer" role="contentinfo" aria-label="Footer">
   <div>
-    <h4>Motoopen</h4>
+    <h4>{{ sitecfg.brand.name }}</h4>
     <p>Chúng tôi cung cấp xe máy đã qua sử dụng chất lượng để bán và cho thuê dài hạn tại Hà Nội.</p>
     <ul class="app-contact">
-      <li><i class="fa-solid fa-location-dot"></i> 114 Nguyễn Văn Cừ, Long Biên, Hà Nội</li>
-      <li><i class="fa-solid fa-phone"></i> <a href="tel:0857255868">0857 255 868</a></li>
-      <li><i class="fa-solid fa-clock"></i> 09:00 – 21:00 (Hàng ngày)</li>
-      <li><i class="fa-solid fa-envelope"></i> <a href="mailto:motoopen12@gmail.com">motoopen12@gmail.com</a></li>
+      <li><i class="fa-solid fa-location-dot"></i> {{ sitecfg.contact.address }}</li>
+      <li><i class="fa-solid fa-phone"></i> <a href="tel:{{ sitecfg.contact.phone_raw }}">{{ sitecfg.contact.phone_display }}</a></li>
+      <li><i class="fa-solid fa-clock"></i> {{ sitecfg.contact.hours }}</li>
+      <li><i class="fa-solid fa-envelope"></i> <a href="mailto:{{ sitecfg.contact.email }}">{{ sitecfg.contact.email }}</a></li>
     </ul>
   </div>
 
@@ -50,13 +51,13 @@
   <div>
     <h4>Kết nối & Hỗ trợ</h4>
     <div class="social-row">
-      <a href="https://zalo.me/0857255868" title="Zalo" aria-label="Zalo"><i class="fa-solid fa-comment-dots"></i></a>
-      <a href="https://m.facebook.com/motoopenvn/" title="Facebook" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-      <a href="mailto:motoopen12@gmail.com" title="Email" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
-      <a href="https://www.instagram.com/motoopen/" title="Instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="{{ sitecfg.contact.zalo_url }}" title="Zalo" aria-label="Zalo"><i class="fa-solid fa-comment-dots"></i></a>
+      <a href="{{ sitecfg.social.facebook }}" title="Facebook" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="mailto:{{ sitecfg.contact.email }}" title="Email" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="{{ sitecfg.social.instagram }}" title="Instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
     </div>
     <p class="author" style="margin-top:10px"><i class="fa-solid fa-copyright"></i> {{ site.time | date: "%Y" }}
-      <a href="https://motoopen.github.io/appthuexemay/" target="_blank" rel="noopener">@ Motoopen</a>
+      <a href="{{ sitecfg.social.app }}" target="_blank" rel="noopener">@ Motoopen</a>
     </p>
   </div>
 </footer>
