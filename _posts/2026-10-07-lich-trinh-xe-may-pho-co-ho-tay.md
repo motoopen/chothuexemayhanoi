@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Đi xe máy từ Phố Cổ đến Hồ Tây: cách lên lịch trình ngắn không vòng đường"
+date: 2026-10-07 02:01:00 +0700
+description: "Lịch trình xe máy từ Phố Cổ đến Hồ Tây cần nhóm điểm theo trục, chọn giờ tránh cao điểm và trả xe đúng khung đã hẹn."
+author: "Motoopen"
 matrix_id: 258
-description: Lịch trình xe máy từ Phố Cổ đến Hồ Tây cần nhóm điểm theo trục, chọn giờ tránh cao điểm và trả xe đúng khung đã hẹn.
+primary_keyword: "lịch trình xe máy phố cổ hồ tây"
+hub_parent: kinh-nghiem
+hub_category: hanh-trinh
 ---
-
 Đi từ Phố Cổ ra Hồ Tay chỉ chừng mười ki lômét, nhưng ai cứ điểm theo danh sách tham quan đều kết thúc buổi với cảm giác chạy vòng cả buổi. Bài này giúp xếp các điểm thành một trục để đi một chiều, không chạy qua lại.
 
 ## Nhóm điểm theo trục

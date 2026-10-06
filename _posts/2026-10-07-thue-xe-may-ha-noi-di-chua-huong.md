@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy Hà Nội đi Chùa Hương: cách chuẩn bị cho chuyến đi trong ngày"
+date: 2026-10-07 02:01:00 +0700
+description: "Thuê xe máy Hà Nội đi Chùa Hương cần chuẩn bị cho chuyến trong ngày: xuất phát sớm, chọn xe bền và mang đồ gọn cho quãng đường sáu mươi ki lômét."
+author: "Motoopen"
 matrix_id: 254
-description: Thuê xe máy Hà Nội đi Chùa Hương cần chuẩn bị cho chuyến trong ngày: xuất phát sớm, chọn xe bền và mang đồ gọn cho quãng đường sáu mươi ki lômét.
+primary_keyword: "thuê xe máy hà nội đi chùa hương"
+hub_parent: kinh-nghiem
+hub_category: hanh-trinh
 ---
-
 Chùa Hương cách Hà Nội chừng sáu mươi ki lômét, là chuyến trong ngày đi được, nhưng dòng người dồn vào lễ hội và cung đèo quanh bến khiến nó mệt hơn số ki lômét. Chuẩn bị đúng thì về tới phố vẫn còn sức làm việc buổi tối.
 
 ## Xuất phát sớm hơn dự tính

@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy Hà Nội đi Cát Bà: cần kiểm tra phương án đường đi và vận chuyển xe"
+date: 2026-10-07 02:01:00 +0700
+description: "Thuê xe máy Hà Nội đi Cát Bà cần tính phương án phà hoặc tàu cao tốc, hỏi trước chính sách vận chuyển xe và kiểm tra xe cho cung đường dài."
+author: "Motoopen"
 matrix_id: 253
-description: Thuê xe máy Hà Nội đi Cát Bà cần tính phương án phà hoặc tàu cao tốc, hỏi trước chính sách vận chuyển xe và kiểm tra xe cho cung đường dài.
+primary_keyword: "thuê xe máy hà nội đi cát bà"
+hub_parent: kinh-nghiem
+hub_category: hanh-trinh
 ---
-
 Cát Bà là điểm đến đảo, nên khác mọi cung núi: câu hỏi lớn nhất không phải xe gì, mà là chiếc xe thuê ấy đi theo bạn bằng cách nào. Giải quyết được phương án vận chuyển, phần còn lại của chuyến đi là cung đẹp quanh đảo.
 
 ## Hai phương án đến Cát Bà

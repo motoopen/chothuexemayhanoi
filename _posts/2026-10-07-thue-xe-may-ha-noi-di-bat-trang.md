@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy Hà Nội đi Bát Tràng: xe nào phù hợp chuyến đi ngắn ngoại thành?"
+date: 2026-10-07 02:01:00 +0700
+description: "Thuê xe máy Hà Nội đi Bát Tràng chỉ cần xe 50cc hoặc xe ga nhỏ cho chuyến ngoại thành ngắn, kèm lịch tránh giờ cao điểm và đồ mang gọn."
+author: "Motoopen"
 matrix_id: 255
-description: Thuê xe máy Hà Nội đi Bát Tràng chỉ cần xe 50cc hoặc xe ga nhỏ cho chuyến ngoại thành ngắn, kèm lịch tránh giờ cao điểm và đồ mang gọn.
+primary_keyword: "thuê xe máy hà nội đi bát tràng"
+hub_parent: kinh-nghiem
+hub_category: hanh-trinh
 ---
-
 Bát Tràng cách trung tâm Hà Nội khoảng mười lăm ki lômét, là chuyến ngoại thành ngắn nhất trong nhóm điểm quanh phố. Với chuyến kiểu này, câu hỏi không phải xe có đủ khỏe không, mà là xe nào gọn, dễ đỗ, và thuê theo khung giờ nào rẻ.
 
 ## Xe nào phù hợp chuyến ngắn ngoại thành
