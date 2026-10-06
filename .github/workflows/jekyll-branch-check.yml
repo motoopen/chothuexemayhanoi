@@ -34,13 +34,18 @@ jobs:
         run: |
           set -euo pipefail
           test -f _site/index.html
+          test -f _site/404.html
+          test -f _site/sitemap.xml
           test -f _site/blog/index.html
           test -f _site/blog/gioi-thieu-motoopen/index.html
           for page in gioithieu dichvu banggia thutuc loaixe huongdan kinhnghiem faq lienhe mangxahoi chinhsachbaomat dieukhoansudung; do
             test -f "_site/$page.html"
           done
+          grep -q "/chothuexemayhanoi/blog/" _site/sitemap.xml
+          grep -q "/chothuexemayhanoi/blog/gioi-thieu-motoopen/" _site/sitemap.xml
+          test ! -e _site/_archive
           if grep -R -n -E '\{%|\{\{' _site --include='*.html'; then
             echo "Unrendered Liquid found in generated HTML."
             exit 1
           fi
-          echo "Jekyll build and generated-page checks passed."
+          echo "Jekyll build, sitemap, 404 and generated-page checks passed."

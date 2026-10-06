@@ -1,26 +1,35 @@
+---
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://motoopen.github.io/chothuexemayhanoi/index.html</loc></url>
-  <url><loc>https://motoopen.github.io/chothuexemayhanoi/gioithieu.html</loc></url>
-  <url><loc>https://motoopen.github.io/chothuexemayhanoi/dichvu.html</loc></url>
-  <url><loc>https://motoopen.github.io/chothuexemayhanoi/banggia.html</loc></url>
-  <url><loc>https://motoopen.github.io/chothuexemayhanoi/thutuc.html</loc></url>
-  <url><loc>https://motoopen.github.io/chothuexemayhanoi/loaixe.html</loc></url>
-  <url><loc>https://motoopen.github.io/chothuexemayhanoi/huongdan.html</loc></url>
-  <url><loc>https://motoopen.github.io/chothuexemayhanoi/kinhnghiem.html</loc></url>
-  <url><loc>https://motoopen.github.io/chothuexemayhanoi/faq.html</loc></url>
-  <url><loc>https://motoopen.github.io/chothuexemayhanoi/lienhe.html</loc></url>
-  <url><loc>https://motoopen.github.io/chothuexemayhanoi/dieukhoansudung.html</loc></url>
-  <url><loc>https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html</loc></url>
-
-  <url><loc>https://motoopen.github.io/chothuexemayhanoi/du-lieu/thuengay.txt</loc></url>
-  <url><loc>https://motoopen.github.io/chothuexemayhanoi/du-lieu/tuan.txt</loc></url>
-  <url><loc>https://motoopen.github.io/chothuexemayhanoi/du-lieu/thang.txt</loc></url>
-  <url><loc>https://motoopen.github.io/chothuexemayhanoi/du-lieu/xe50cc.txt</loc></url>
-  <url><loc>https://motoopen.github.io/chothuexemayhanoi/du-lieu/xeso.txt</loc></url>
-  <url><loc>https://motoopen.github.io/chothuexemayhanoi/du-lieu/xega.txt</loc></url>
-  <url><loc>https://motoopen.github.io/chothuexemayhanoi/du-lieu/thutuc.txt</loc></url>
-  <url><loc>https://motoopen.github.io/chothuexemayhanoi/du-lieu/dieukien.txt</loc></url>
-  <url><loc>https://motoopen.github.io/chothuexemayhanoi/du-lieu/hoidap.txt</loc></url>
-  <url><loc>https://motoopen.github.io/chothuexemayhanoi/du-lieu/huongdanthue.txt</loc></url>
+  <url><loc>{{ '/' | absolute_url }}</loc></url>
+  <url><loc>{{ '/gioithieu.html' | absolute_url }}</loc></url>
+  <url><loc>{{ '/dichvu.html' | absolute_url }}</loc></url>
+  <url><loc>{{ '/banggia.html' | absolute_url }}</loc></url>
+  <url><loc>{{ '/thutuc.html' | absolute_url }}</loc></url>
+  <url><loc>{{ '/loaixe.html' | absolute_url }}</loc></url>
+  <url><loc>{{ '/huongdan.html' | absolute_url }}</loc></url>
+  <url><loc>{{ '/kinhnghiem.html' | absolute_url }}</loc></url>
+  <url><loc>{{ '/faq.html' | absolute_url }}</loc></url>
+  <url><loc>{{ '/lienhe.html' | absolute_url }}</loc></url>
+  <url><loc>{{ '/mangxahoi.html' | absolute_url }}</loc></url>
+  <url><loc>{{ '/chinhsachbaomat.html' | absolute_url }}</loc></url>
+  <url><loc>{{ '/dieukhoansudung.html' | absolute_url }}</loc></url>
+  <url><loc>{{ '/blog/' | absolute_url }}</loc></url>
+{% for post in site.posts %}
+  <url>
+    <loc>{{ post.url | absolute_url }}</loc>
+    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+  </url>
+{% endfor %}
+  <url><loc>{{ '/du-lieu/thuengay.txt' | absolute_url }}</loc></url>
+  <url><loc>{{ '/du-lieu/tuan.txt' | absolute_url }}</loc></url>
+  <url><loc>{{ '/du-lieu/thang.txt' | absolute_url }}</loc></url>
+  <url><loc>{{ '/du-lieu/xe50cc.txt' | absolute_url }}</loc></url>
+  <url><loc>{{ '/du-lieu/xeso.txt' | absolute_url }}</loc></url>
+  <url><loc>{{ '/du-lieu/xega.txt' | absolute_url }}</loc></url>
+  <url><loc>{{ '/du-lieu/thutuc.txt' | absolute_url }}</loc></url>
+  <url><loc>{{ '/du-lieu/dieukien.txt' | absolute_url }}</loc></url>
+  <url><loc>{{ '/du-lieu/hoidap.txt' | absolute_url }}</loc></url>
+  <url><loc>{{ '/du-lieu/huongdanthue.txt' | absolute_url }}</loc></url>
 </urlset>
