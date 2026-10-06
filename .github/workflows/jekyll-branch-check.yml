@@ -7,6 +7,9 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - '_factory/incoming/**'
+      - '_factory/last-run.json'
   workflow_dispatch:
 
 permissions:
@@ -28,6 +31,20 @@ jobs:
         with:
           source: ./
           destination: ./_site
+
+      - name: Article factory smoke
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m py_compile scripts/article_factory.py
+          python3 scripts/article_factory.py status
+          python3 scripts/article_factory.py next --limit 1 > /tmp/factory-next.json
+          python3 - <<'PY'
+          import json
+          data = json.load(open('/tmp/factory-next.json'))
+          assert data['ok'] is True
+          assert data['count'] in (0, 1)
+          PY
 
       - name: Verify SEO article matrix
         shell: bash
@@ -93,6 +110,7 @@ jobs:
           grep -q "Checklist 10 phút" _site/blog/danh-muc/huong-dan/an-toan-su-co/index.html
           test ! -e _site/_archive
           test ! -e _site/_seo
+          test ! -e _site/_factory
           if grep -R -n -E '\{%|\{\{' _site --include='*.html'; then
             echo "Unrendered Liquid found in generated HTML."
             exit 1
