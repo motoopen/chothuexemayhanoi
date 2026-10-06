@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe số Hà Nội: khi nào nên chọn thay vì xe ga?"
+date: 2026-10-07 01:27:22 +0700
+description: "Khi nào nên chọn thuê xe số ở Hà Nội thay vì xe ga, từ hành trình đường xấu, giá rẻ đến sở thích cầm số, kèm kiểm tra trước khi nhận."
+author: "Motoopen"
 matrix_id: 137
-description: Khi nào nên chọn thuê xe số ở Hà Nội thay vì xe ga, từ hành trình đường xấu, giá rẻ đến sở thích cầm số, kèm kiểm tra trước khi nhận.
+primary_keyword: "thuê xe số hà nội"
+hub_parent: loai-xe
+hub_category: cac-loai-xe
 ---
-
 Xe số từng là xe phổ thông nhất Việt Nam, và khi thuê ở Hà Nội nó vẫn có chỗ đứng riêng. Bài này chỉ các tình huống xe số thắng xe ga, và những mục cần kiểm trước khi nhận một chiếc số.
 
 ## Tình huống nên chọn xe số

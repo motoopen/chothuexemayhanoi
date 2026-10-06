@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe Wave Hà Nội: phù hợp hành trình nào?"
+date: 2026-10-07 01:27:22 +0700
+description: "Thuê xe Wave Hà Nội phù hợp hành trình nào, từ nội thành ngắn ngày, đường ngõ xấu đến chạy liên tỉnh, kèm kiểm tra máy số và giấy tờ trước khi nhận."
+author: "Motoopen"
 matrix_id: 140
-description: Thuê xe Wave Hà Nội phù hợp hành trình nào, từ nội thành ngắn ngày, đường ngõ xấu đến chạy liên tỉnh, kèm kiểm tra máy số và giấy tờ trước khi nhận.
+primary_keyword: "thuê xe wave hà nội"
+hub_parent: loai-xe
+hub_category: cac-loai-xe
 ---
-
 Honda Wave là mẫu xe số nhỏ bền bỉ, và khi thuê ở Hà Nội nó phục vụ được nhiều loại hành trình hơn tưởng tượng. Bài này chỉ đúng nhóm hành trình Wave hợp nhất, và cách kiểm chiếc Wave trước khi nhận.
 
 ## Hành trình nội thành ngắn ngày

@@ -1,99 +1,59 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-07T01:25:59+07:00",
-  "finished_at": "2026-10-07T01:25:59+07:00",
-  "selected_count": 10,
-  "published_total": 8,
+  "started_at": "2026-10-07T01:27:22+07:00",
+  "finished_at": "2026-10-07T01:27:22+07:00",
+  "selected_count": 6,
+  "published_total": 4,
   "published": [
     {
-      "id": 121,
-      "source": "_factory/incoming/121.md",
-      "post": "_posts/2026-10-07-sac-xe-may-dien-khi-thue.md",
-      "url": "/blog/sac-xe-may-dien-khi-thue/",
-      "word_count": 683,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 122,
-      "source": "_factory/incoming/122.md",
-      "post": "_posts/2026-10-07-thoi-gian-sac-xe-may-dien-thue.md",
-      "url": "/blog/thoi-gian-sac-xe-may-dien-thue/",
-      "word_count": 708,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 125,
-      "source": "_factory/incoming/125.md",
-      "post": "_posts/2026-10-07-thue-pin-hay-mua-pin-xe-may-dien-vinfast.md",
-      "url": "/blog/thue-pin-hay-mua-pin-xe-may-dien-vinfast/",
-      "word_count": 726,
-      "warnings": []
-    },
-    {
-      "id": 127,
-      "source": "_factory/incoming/127.md",
-      "post": "_posts/2026-10-07-xe-may-dien-va-xe-50cc-khi-thue.md",
-      "url": "/blog/xe-may-dien-va-xe-50cc-khi-thue/",
-      "word_count": 705,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 128,
-      "source": "_factory/incoming/128.md",
-      "post": "_posts/2026-10-07-xe-may-dien-va-xe-ga-khi-thue.md",
-      "url": "/blog/xe-may-dien-va-xe-ga-khi-thue/",
-      "word_count": 678,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 130,
-      "source": "_factory/incoming/130.md",
-      "post": "_posts/2026-10-07-thue-xe-may-dien-di-duong-dai.md",
-      "url": "/blog/thue-xe-may-dien-di-duong-dai/",
-      "word_count": 661,
-      "warnings": []
-    },
-    {
-      "id": 131,
-      "source": "_factory/incoming/131.md",
-      "post": "_posts/2026-10-07-thue-xe-may-dien-mua-mua.md",
-      "url": "/blog/thue-xe-may-dien-mua-mua/",
+      "id": 136,
+      "source": "_factory/incoming/136.md",
+      "post": "_posts/2026-10-07-thue-xe-ga-ha-noi.md",
+      "url": "/blog/thue-xe-ga-ha-noi/",
       "word_count": 687,
       "warnings": []
     },
     {
-      "id": 132,
-      "source": "_factory/incoming/132.md",
-      "post": "_posts/2026-10-07-xe-may-dien-cho-2-nguoi-khi-thue.md",
-      "url": "/blog/xe-may-dien-cho-2-nguoi-khi-thue/",
-      "word_count": 672,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
+      "id": 137,
+      "source": "_factory/incoming/137.md",
+      "post": "_posts/2026-10-07-thue-xe-so-ha-noi.md",
+      "url": "/blog/thue-xe-so-ha-noi/",
+      "word_count": 699,
+      "warnings": []
+    },
+    {
+      "id": 138,
+      "source": "_factory/incoming/138.md",
+      "post": "_posts/2026-10-07-thue-xe-con-ha-noi.md",
+      "url": "/blog/thue-xe-con-ha-noi/",
+      "word_count": 667,
+      "warnings": []
+    },
+    {
+      "id": 140,
+      "source": "_factory/incoming/140.md",
+      "post": "_posts/2026-10-07-thue-xe-wave-ha-noi.md",
+      "url": "/blog/thue-xe-wave-ha-noi/",
+      "word_count": 682,
+      "warnings": []
     }
   ],
   "recoverable_total": 2,
   "recoverable": [
     {
-      "path": "_factory/incoming/129.md",
-      "id": 129,
+      "path": "_factory/incoming/135.md",
+      "id": 135,
       "errors": [
         "thin draft: 648 words < 650"
       ],
-      "warnings": [],
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ],
       "word_count": 648
     },
     {
-      "path": "_factory/incoming/133.md",
-      "id": 133,
+      "path": "_factory/incoming/139.md",
+      "id": 139,
       "errors": [
         "thin draft: 644 words < 650"
       ],
@@ -103,7 +63,7 @@
   ],
   "fatal": null,
   "status_counts": {
-    "planned": 150,
-    "published": 150
+    "planned": 146,
+    "published": 154
   }
 }

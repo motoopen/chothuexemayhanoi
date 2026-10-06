@@ -36,8 +36,8 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 150,
-    "published": 150
+    "planned": 146,
+    "published": 154
   },
   "items": [
     {
@@ -7140,7 +7140,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Mỗi bài phải có tiêu chí lựa chọn riêng, không chỉ thay tên model.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -7152,7 +7152,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "cac-loai-xe"
-      }
+      },
+      "published_at": "2026-10-07T01:27:22+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-ga-ha-noi.md",
+      "published_url": "/blog/thue-xe-ga-ha-noi/"
     },
     {
       "id": 137,
@@ -7188,7 +7191,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Mỗi bài phải có tiêu chí lựa chọn riêng, không chỉ thay tên model.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -7200,7 +7203,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "cac-loai-xe"
-      }
+      },
+      "published_at": "2026-10-07T01:27:22+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-so-ha-noi.md",
+      "published_url": "/blog/thue-xe-so-ha-noi/"
     },
     {
       "id": 138,
@@ -7236,7 +7242,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Mỗi bài phải có tiêu chí lựa chọn riêng, không chỉ thay tên model.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -7248,7 +7254,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "cac-loai-xe"
-      }
+      },
+      "published_at": "2026-10-07T01:27:22+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-con-ha-noi.md",
+      "published_url": "/blog/thue-xe-con-ha-noi/"
     },
     {
       "id": 139,
@@ -7332,7 +7341,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Mỗi bài phải có tiêu chí lựa chọn riêng, không chỉ thay tên model.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -7344,7 +7353,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "cac-loai-xe"
-      }
+      },
+      "published_at": "2026-10-07T01:27:22+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-wave-ha-noi.md",
+      "published_url": "/blog/thue-xe-wave-ha-noi/"
     },
     {
       "id": 141,
@@ -15296,5 +15308,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T01:25:59+07:00"
+  "updated_at": "2026-10-07T01:27:22+07:00"
 }
