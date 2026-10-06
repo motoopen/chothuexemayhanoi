@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Gửi xe máy thuê: cách lưu vé, khóa và vị trí để tránh rắc rối"
+date: 2026-10-07 02:10:38 +0700
+description: "Gửi xe máy thuê an toàn phụ thuộc giữ vé, chọn vị trí đỗ và khóa đúng nơi đông người, giúp tránh mất trộm và tranh chấp khi lấy xe."
+author: "Motoopen"
 matrix_id: 285
-description: Gửi xe máy thuê an toàn phụ thuộc giữ vé, chọn vị trí đỗ và khóa đúng nơi đông người, giúp tránh mất trộm và tranh chấp khi lấy xe.
+primary_keyword: "gửi xe máy thuê an toàn"
+hub_parent: huong-dan
+hub_category: an-toan-su-co
 ---
-
 Gửi xe là lúc xe rời khỏi tầm mắt bạn, và mọi rủi ro mất trộm hay trầy xước đều bắt đầu từ lúc đỗ. Với xe thuê, mỗi rủi ro lại dính đến khoản cọc, nên gửi xe an toàn là kỹ năng đáng tập như kỹ năng lái.
 
 ## Chọn bãi gửi có người trông và vé gửi

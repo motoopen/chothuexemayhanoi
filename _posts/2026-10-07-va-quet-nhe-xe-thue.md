@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Va quẹt nhẹ khi đi xe thuê: cách ghi nhận hiện trường và liên hệ"
+date: 2026-10-07 02:10:38 +0700
+description: "Va quẹt nhẹ khi đi xe thuê cần chụp hiện trường, báo nơi thuê sớm và ghi nhận bên thứ ba nếu có, để phần chi phí được phân định rõ ràng."
+author: "Motoopen"
 matrix_id: 289
-description: Va quẹt nhẹ khi đi xe thuê cần chụp hiện trường, báo nơi thuê sớm và ghi nhận bên thứ ba nếu có, để phần chi phí được phân định rõ ràng.
+primary_keyword: "va quẹt nhẹ xe thuê"
+hub_parent: huong-dan
+hub_category: an-toan-su-co
 ---
-
 Va quẹt nhẹ là sự cố ai cũng gặp: đổ xe khi dắt, cấn vào cột khi lùi, hoặc chạm gương ở ngõ nhỏ. Với xe tư nhân thì xước vài chỗ là chuyện nhỏ, nhưng với xe thuê thì mọi vết đều được đối chiếu lúc trả, nên cách ghi nhận quyết định bạn trả thêm hay không.
 
 ## Dừng và kiểm người trước khi kiểm xe

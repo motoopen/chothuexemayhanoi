@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Checklist trả xe máy thuê: 10 việc làm trước khi bàn giao"
+date: 2026-10-07 02:10:38 +0700
+description: "Checklist trả xe máy thuê gồm mười việc từ đối chiếu ảnh, nhiên liệu, giấy tờ đến ghi biên nhận, giúp nhận lại khoản cọc trọn vẹn và đúng hạn."
+author: "Motoopen"
 matrix_id: 290
-description: Checklist trả xe máy thuê gồm mười việc từ đối chiếu ảnh, nhiên liệu, giấy tờ đến ghi biên nhận, giúp nhận lại khoản cọc trọn vẹn và đúng hạn.
+primary_keyword: "checklist trả xe máy thuê"
+hub_parent: huong-dan
+hub_category: an-toan-su-co
 ---
-
 Trả xe nhanh gọn không phải là giao xe rồi đi, mà là làm đủ mười việc nhỏ để không bị nhắc lại sau khi bạn đã rời đi. Bộ này mất khoảng mười lăm phút nếu chuẩn bị sẵn từ lúc nhận xe.
 
 ## Một: chụp lại xe đủ góc trước khi bàn giao

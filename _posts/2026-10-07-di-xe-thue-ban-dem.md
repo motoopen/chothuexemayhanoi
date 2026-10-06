@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Đi xe thuê ban đêm: kiểm tra đèn và phản quang trước khi xuất phát"
+date: 2026-10-07 02:10:38 +0700
+description: "Đi xe thuê ban đêm cần kiểm tra đèn pha, đèn hậu, xi nhan và mang trang bị phản quang trước khi xuất phát để giữ tầm nhìn và đúng quy định."
+author: "Motoopen"
 matrix_id: 284
-description: Đi xe thuê ban đêm cần kiểm tra đèn pha, đèn hậu, xi nhan và mang trang bị phản quang trước khi xuất phát để giữ tầm nhìn và đúng quy định.
+primary_keyword: "đi xe thuê ban đêm"
+hub_parent: huong-dan
+hub_category: an-toan-su-co
 ---
-
 Ban đêm là khung giờ rủi ro nhất với xe máy, và với xe thuê thì bạn chưa quen xe lại cộng thêm tầm nhìn ngắn. Mọi rủi ro đó gom về hai việc làm trước khi xuất phát: kiểm tra đèn và tự trang bị phản quang.
 
 ## Kiểm tra đèn pha và cồ trước khi nhận xe

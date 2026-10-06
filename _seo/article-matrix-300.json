@@ -36,8 +36,8 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 12,
-    "published": 288
+    "planned": 5,
+    "published": 295
   },
   "items": [
     {
@@ -14876,7 +14876,7 @@
         "verify-current-support-policy"
       ],
       "cannibalization_guard": "Mỗi bài tập trung một checklist/rủi ro riêng.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -14888,7 +14888,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "an-toan-su-co"
-      }
+      },
+      "published_at": "2026-10-07T02:10:38+07:00",
+      "published_path": "_posts/2026-10-07-di-xe-thue-ban-dem.md",
+      "published_url": "/blog/di-xe-thue-ban-dem/"
     },
     {
       "id": 285,
@@ -14924,7 +14927,7 @@
         "verify-current-support-policy"
       ],
       "cannibalization_guard": "Mỗi bài tập trung một checklist/rủi ro riêng.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -14936,7 +14939,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "an-toan-su-co"
-      }
+      },
+      "published_at": "2026-10-07T02:10:38+07:00",
+      "published_path": "_posts/2026-10-07-gui-xe-may-thue-an-toan.md",
+      "published_url": "/blog/gui-xe-may-thue-an-toan/"
     },
     {
       "id": 286,
@@ -14972,7 +14978,7 @@
         "verify-current-support-policy"
       ],
       "cannibalization_guard": "Mỗi bài tập trung một checklist/rủi ro riêng.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -14984,7 +14990,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "an-toan-su-co"
-      }
+      },
+      "published_at": "2026-10-07T02:10:38+07:00",
+      "published_path": "_posts/2026-10-07-chong-mat-trom-xe-thue.md",
+      "published_url": "/blog/chong-mat-trom-xe-thue/"
     },
     {
       "id": 287,
@@ -15020,7 +15029,7 @@
         "verify-current-support-policy"
       ],
       "cannibalization_guard": "Mỗi bài tập trung một checklist/rủi ro riêng.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -15032,7 +15041,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "an-toan-su-co"
-      }
+      },
+      "published_at": "2026-10-07T02:10:38+07:00",
+      "published_path": "_posts/2026-10-07-xe-thue-bi-thung-lop.md",
+      "published_url": "/blog/xe-thue-bi-thung-lop/"
     },
     {
       "id": 288,
@@ -15068,7 +15080,7 @@
         "verify-current-support-policy"
       ],
       "cannibalization_guard": "Mỗi bài tập trung một checklist/rủi ro riêng.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -15080,7 +15092,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "an-toan-su-co"
-      }
+      },
+      "published_at": "2026-10-07T02:10:38+07:00",
+      "published_path": "_posts/2026-10-07-xe-thue-chet-may-giua-duong.md",
+      "published_url": "/blog/xe-thue-chet-may-giua-duong/"
     },
     {
       "id": 289,
@@ -15116,7 +15131,7 @@
         "verify-current-support-policy"
       ],
       "cannibalization_guard": "Mỗi bài tập trung một checklist/rủi ro riêng.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -15128,7 +15143,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "an-toan-su-co"
-      }
+      },
+      "published_at": "2026-10-07T02:10:38+07:00",
+      "published_path": "_posts/2026-10-07-va-quet-nhe-xe-thue.md",
+      "published_url": "/blog/va-quet-nhe-xe-thue/"
     },
     {
       "id": 290,
@@ -15164,7 +15182,7 @@
         "verify-current-support-policy"
       ],
       "cannibalization_guard": "Mỗi bài tập trung một checklist/rủi ro riêng.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -15176,7 +15194,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "an-toan-su-co"
-      }
+      },
+      "published_at": "2026-10-07T02:10:38+07:00",
+      "published_path": "_posts/2026-10-07-checklist-tra-xe-may-thue.md",
+      "published_url": "/blog/checklist-tra-xe-may-thue/"
     },
     {
       "id": 291,
@@ -15710,5 +15731,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T02:10:00+07:00"
+  "updated_at": "2026-10-07T02:10:38+07:00"
 }

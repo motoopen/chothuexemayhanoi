@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Xe thuê bị thủng lốp: nên làm gì trước khi tự ý sửa?"
+date: 2026-10-07 02:10:38 +0700
+description: "Xe thuê bị thủng lốp giữa đường cần dừng an toàn, gọi nơi thuê trước khi tự vá, vì sửa khi chưa được đồng ý có thể làm bạn chịu chi phí."
+author: "Motoopen"
 matrix_id: 287
-description: Xe thuê bị thủng lốp giữa đường cần dừng an toàn, gọi nơi thuê trước khi tự vá, vì sửa khi chưa được đồng ý có thể làm bạn chịu chi phí.
+primary_keyword: "xe thuê bị thủng lốp"
+hub_parent: huong-dan
+hub_category: an-toan-su-co
 ---
-
 Thủng lốp là sự cố nhỏ nhưng xử sai thì thành to: tự vá ở hàng vặt khiến nơi thuê từ chối, còn cố chạy về điểm trả thì hỏng vành. Quy tắc là dừng an toàn, gọi trước, sửa sau.
 
 ## Nhận biết xe bị thủng

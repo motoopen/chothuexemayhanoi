@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Xe thuê chết máy giữa đường: 7 bước xử lý an toàn"
+date: 2026-10-07 02:10:38 +0700
+description: "Xe thuê chết máy giữa đường cần xử theo bảy bước an toàn: dừng lề, bật đèn báo, chẩn đoán nhanh, gọi nơi thuê, giữ xe, lưu thông tin và theo hướng xử."
+author: "Motoopen"
 matrix_id: 288
-description: Xe thuê chết máy giữa đường cần xử theo bảy bước an toàn: dừng lề, bật đèn báo, chẩn đoán nhanh, gọi nơi thuê, giữ xe, lưu thông tin và theo hướng xử.
+primary_keyword: "xe thuê chết máy giữa đường"
+hub_parent: huong-dan
+hub_category: an-toan-su-co
 ---
-
 Chết máy giữa đường không nguy hiểm bằng cách phản ứng sai: phanh gấp giữa dòng xe hoặc đứng lơ đãng giữa làn. Bảy bước dưới giữ an toàn cho bạn và giữ rõ trách nhiệm với nơi thuê.
 
 ## Bước một: dừng vào chỗ an toàn
