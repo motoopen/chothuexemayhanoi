@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy điện VinFast theo ngày: checklist trước khi nhận"
+date: 2026-10-07 00:52:05 +0700
+description: "Checklist từng bước trước khi nhận xe máy điện VinFast theo ngày ở Hà Nội, từ kiểm tra pin, tài liệu kèm xe đến quy trình trả xe để tránh phát sinh phí."
+author: "Motoopen"
 matrix_id: 102
-description: Checklist từng bước trước khi nhận xe máy điện VinFast theo ngày ở Hà Nội, từ kiểm tra pin, tài liệu kèm xe đến quy trình trả xe để tránh phát sinh phí.
+primary_keyword: "thuê xe máy điện vinfast theo ngày"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Xe máy điện của VinFast là dòng xe được nhiều khách du lịch quan tâm khi tìm phương tiện đi lại ở Hà Nội, vì xe vận hành êm, không tốn xăng và dễ điều khiển. Tuy nhiên, thuê dòng xe điện cao cấp theo ngày khác với thuê xe số thông thường ở vài điểm quan trọng. Bài viết này cung cấp checklist từng bước, từ lúc đặt xe đến lúc trả, giúp bạn nhận xe nhanh và không bỏ sót chi tiết nào gây phát sinh về sau.
 
 ## Bước một: đặt xe và xác nhận thông tin
