@@ -13,7 +13,7 @@ Nhóm xe 50cc và dưới 50cc là lựa chọn cho người muốn xe nhẹ, d�
 
 ## Hiểu đúng nhóm 50cc và dưới 50cc
 
-Trong nhóm xe nhỏ, xe Cub dạng số cổ điển, xe ga nhỏ có vận hành tự động, và các dòng dưới 50cc thường là xe máy điện hoặc xe hai thì nhẹ. Mỗi nhóm có giá thuê riêng theo ngày và gói dài, niêm yết tại trang [bảng giá]({{ '/banggia.html' | relative_url }}). Yếu tố quan trọng nhất với nhóm này không phải giá, mà là khớp giữa loại xe và điều kiện giấy phép lái của bạn theo quy định hiện hành, vì phân khối và thiết kế quyết định yêu cầu giấy phép khác nhau. Nhóm câu hỏi về xe điện không cần bằng nằm trong bài [thuê xe điện không cần bằng lái]({{ /blog/thue-xe-dien-khong-bang-lai/' ).
+Trong nhóm xe nhỏ, xe Cub dạng số cổ điển, xe ga nhỏ có vận hành tự động, và các dòng dưới 50cc thường là xe máy điện hoặc xe hai thì nhẹ. Mỗi nhóm có giá thuê riêng theo ngày và gói dài, niêm yết tại trang [bảng giá]({{ '/banggia.html' | relative_url }}). Yếu tố quan trọng nhất với nhóm này không phải giá, mà là khớp giữa loại xe và điều kiện giấy phép lái của bạn theo quy định hiện hành, vì phân khối và thiết kế quyết định yêu cầu giấy phép khác nhau. Nhóm câu hỏi về xe điện không cần bằng nằm trong bài [thuê xe điện không cần bằng lái]({{ '/blog/thue-xe-dien-khong-bang-lai/' | relative_url }}).
 
 ## So dòng Cub với xe ga nhỏ
 
@@ -21,11 +21,11 @@ Dòng Cub bền và tiết kiệm, hợp khách quen xe số và lịch trình q
 
 ## So với xe máy điện cùng phân khúc
 
-Trong nhóm nhỏ, xe máy điện là đối thủ trực tiếp về trải nghiệm đi phố, vận hành êm và chi phí xăng gần bằng không, thay bằng chi phí sạc nhỏ. Điều cần hỏi là mức pin theo khung thuê và các điểm sạc quanh khu vực định đi, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ /blog/cho-thue-xe-may-dien-ha-noi/' ). Với quãng ngắn quanh khu ở, xe điện thường là phương án rẻ nhất tổng chi phí, kể cả khi giá ngày chênh nhau chút.
+Trong nhóm nhỏ, xe máy điện là đối thủ trực tiếp về trải nghiệm đi phố, vận hành êm và chi phí xăng gần bằng không, thay bằng chi phí sạc nhỏ. Điều cần hỏi là mức pin theo khung thuê và các điểm sạc quanh khu vực định đi, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}). Với quãng ngắn quanh khu ở, xe điện thường là phương án rẻ nhất tổng chi phí, kể cả khi giá ngày chênh nhau chút.
 
 ## Các khoản nên hỏi ngoài giá ngày
 
-Với nhóm xe nhỏ, rà trọn: mức cọc thường thấp hơn xe ga lớn nhưng vẫn cần hỏi hình thức giữ và hoàn trả, phí giao xe tận nơi nếu dùng, và chính sách xăng về đúng mức. Khách mới thuê nên đọc kinh nghiệm trong bài [thuê xe máy Hà Nội lần đầu]({{ /blog/thue-xe-may-ha-noi-lan-dau/' ) và điều khoản tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Hỏi cụ thể dòng và khung qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước khi đặt cọc.
+Với nhóm xe nhỏ, rà trọn: mức cọc thường thấp hơn xe ga lớn nhưng vẫn cần hỏi hình thức giữ và hoàn trả, phí giao xe tận nơi nếu dùng, và chính sách xăng về đúng mức. Khách mới thuê nên đọc kinh nghiệm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}) và điều khoản tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Hỏi cụ thể dòng và khung qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước khi đặt cọc.
 
 ## Ví dụ so theo ba kiểu lịch trình
 
