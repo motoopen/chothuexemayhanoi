@@ -36,8 +36,8 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 126,
-    "published": 174
+    "planned": 121,
+    "published": 179
   },
   "items": [
     {
@@ -8316,7 +8316,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Mỗi bài phải có tiêu chí lựa chọn riêng, không chỉ thay tên model.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -8328,7 +8328,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "cac-loai-xe"
-      }
+      },
+      "published_at": "2026-10-07T01:32:59+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-cho-nguoi-moi-lai-ha-noi.md",
+      "published_url": "/blog/thue-xe-may-cho-nguoi-moi-lai-ha-noi/"
     },
     {
       "id": 160,
@@ -8364,7 +8367,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Mỗi bài phải có tiêu chí lựa chọn riêng, không chỉ thay tên model.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -8376,7 +8379,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "cac-loai-xe"
-      }
+      },
+      "published_at": "2026-10-07T01:32:59+07:00",
+      "published_path": "_posts/2026-10-07-xe-ga-va-xe-so-khi-thue.md",
+      "published_url": "/blog/xe-ga-va-xe-so-khi-thue/"
     },
     {
       "id": 161,
@@ -8412,7 +8418,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Mỗi bài phải có tiêu chí lựa chọn riêng, không chỉ thay tên model.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -8424,7 +8430,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "cac-loai-xe"
-      }
+      },
+      "published_at": "2026-10-07T01:32:59+07:00",
+      "published_path": "_posts/2026-10-07-xe-vision-va-lead-khi-thue.md",
+      "published_url": "/blog/xe-vision-va-lead-khi-thue/"
     },
     {
       "id": 162,
@@ -8460,7 +8469,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Mỗi bài phải có tiêu chí lựa chọn riêng, không chỉ thay tên model.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -8472,7 +8481,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "cac-loai-xe"
-      }
+      },
+      "published_at": "2026-10-07T01:32:59+07:00",
+      "published_path": "_posts/2026-10-07-xe-wave-va-sirius-khi-thue.md",
+      "published_url": "/blog/xe-wave-va-sirius-khi-thue/"
     },
     {
       "id": 163,
@@ -8556,7 +8568,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Mỗi bài phải có tiêu chí lựa chọn riêng, không chỉ thay tên model.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -8568,7 +8580,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "cac-loai-xe"
-      }
+      },
+      "published_at": "2026-10-07T01:32:59+07:00",
+      "published_path": "_posts/2026-10-07-sh-va-air-blade-khi-thue.md",
+      "published_url": "/blog/sh-va-air-blade-khi-thue/"
     },
     {
       "id": 165,
@@ -15368,5 +15383,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T01:31:41+07:00"
+  "updated_at": "2026-10-07T01:32:59+07:00"
 }

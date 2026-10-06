@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê Vision hay Lead: chọn theo độ gọn, cốp và chiều cao người lái"
+date: 2026-10-07 01:32:59 +0700
+description: "So sánh thuê Vision và Lead để chọn theo độ gọn, cốp và chiều cao người lái, hai dòng ga nhỏ gần nhau nhưng hợp hai kiểu khách khác nhau."
+author: "Motoopen"
 matrix_id: 161
-description: So sánh thuê Vision và Lead để chọn theo độ gọn, cốp và chiều cao người lái, hai dòng ga nhỏ gần nhau nhưng hợp hai kiểu khách khác nhau.
+primary_keyword: "xe vision và lead khi thuê"
+hub_parent: loai-xe
+hub_category: cac-loai-xe
 ---
-
 Vision và Lead là hai dòng ga nhỏ được thuê nhiều nhất, và khác biệt của chúng nằm ở đúng ba thứ: độ gọn, cốp và chiều cao người ngồi. Bài này so từng thứ để bạn chốt trong một lần đọc.
 
 ## Độ gọn và lách phố
