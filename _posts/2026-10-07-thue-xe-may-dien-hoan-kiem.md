@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy điện Hoàn Kiếm: cách lên kế hoạch sạc cho một ngày đi phố"
+date: 2026-10-07 01:22:32 +0700
+description: "Thuê xe máy điện ở Hoàn Kiếm nên lên kế hoạch sạc thế nào cho một ngày đi phố, từ tầm pin theo chặng, chỗ sạc đến khung giờ và điểm đỗ."
+author: "Motoopen"
 matrix_id: 115
-description: Thuê xe máy điện ở Hoàn Kiếm nên lên kế hoạch sạc thế nào cho một ngày đi phố, từ tầm pin theo chặng, chỗ sạc đến khung giờ và điểm đỗ.
+primary_keyword: "thuê xe máy điện hoàn kiếm"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Hoàn Kiếm là khu đi lại ngắn chặng nhiều, rất hợp xe máy điện, nhưng để cả ngày không lo pin thì cần lên kế hoạch sạc từ đầu. Bài này cho cách lập kế hoạch cho một ngày đi phố quanh khu Hoàn Kiếm.
 
 ## Tính tầm pin theo chặng trong ngày

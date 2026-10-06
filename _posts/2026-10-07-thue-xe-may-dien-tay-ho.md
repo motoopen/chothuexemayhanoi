@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy điện Tây Hồ: phù hợp hành trình ngắn quanh khu vực nào?"
+date: 2026-10-07 01:22:32 +0700
+description: "Thuê xe máy điện ở Tây Hồ phù hợp hành trình ngắn quanh khu vực nào, từ vòng bờ hồ, các phố ven đến cách tính pin và chỗ sạc cho lịch quanh khu."
+author: "Motoopen"
 matrix_id: 118
-description: Thuê xe máy điện ở Tây Hồ phù hợp hành trình ngắn quanh khu vực nào, từ vòng bờ hồ, các phố ven đến cách tính pin và chỗ sạc cho lịch quanh khu.
+primary_keyword: "thuê xe máy điện tây hồ"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Tây Hồ với đường quanh hồ dài và các phố ven yên tĩnh là khu hợp với xe máy điện kiểu riêng: chặng vừa, đường thoáng và phong cảnh cho đi chậm. Bài này chỉ những hành trình ngắn hợp nhất quanh Tây Hồ và cách lo phần pin.
 
 ## Hành trình hợp nhất quanh Tây Hồ

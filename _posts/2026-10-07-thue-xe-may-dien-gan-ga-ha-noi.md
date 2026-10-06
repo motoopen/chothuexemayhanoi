@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy điện gần Ga Hà Nội: cách nhận xe và xử lý hành lý"
+date: 2026-10-07 01:22:32 +0700
+description: "Thuê xe máy điện gần Ga Hà Nội nên nhận xe và xử lý hành lý thế nào, từ chốt điểm nhận quanh ga, khung giờ đông đến cách tính pin cho lịch đi phố."
+author: "Motoopen"
 matrix_id: 120
-description: Thuê xe máy điện gần Ga Hà Nội nên nhận xe và xử lý hành lý thế nào, từ chốt điểm nhận quanh ga, khung giờ đông đến cách tính pin cho lịch đi phố.
+primary_keyword: "thuê xe máy điện gần ga hà nội"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Ga Hà Nội nằm giữa khu phố, quanh ga nhiều nơi cho thuê xe, và khách tàu đến thường cần xe đi tiếp. Với xe máy điện, trình tự nhận xe quanh ga và xử lý hành lý có vài điểm đáng tính. Bài này chỉ cách làm gọn.
 
 ## Chốt điểm nhận quanh ga

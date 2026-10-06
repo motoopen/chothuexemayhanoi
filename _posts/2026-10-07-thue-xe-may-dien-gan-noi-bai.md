@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy điện gần Nội Bài: cần cân nhắc quãng đường và mức pin ra sao?"
+date: 2026-10-07 01:22:32 +0700
+description: "Thuê xe máy điện gần Nội Bài cần cân nhắc quãng đường và mức pin thế nào, khi nào nhận điện quanh sân bay và khi nào chọn phương án khác cho chặng cao tốc."
+author: "Motoopen"
 matrix_id: 119
-description: Thuê xe máy điện gần Nội Bài cần cân nhắc quãng đường và mức pin thế nào, khi nào nhận điện quanh sân bay và khi nào chọn phương án khác cho chặng cao tốc.
+primary_keyword: "thuê xe máy điện gần nội bài"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Nội Bài cách trung tâm ba mươi cây số qua đường cao tốc, và đây là quãng vượt tầm thoải mái của đa số xe máy điện phổ thông. Bài này giúp cân nhắc đúng trước khi quyết nhận xe điện quanh sân bay.
 
 ## Quãng cao tốc với xe máy điện

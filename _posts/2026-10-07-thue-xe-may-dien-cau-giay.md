@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy điện Cầu Giấy: chọn điểm nhận và kế hoạch sạc thế nào?"
+date: 2026-10-07 01:22:32 +0700
+description: "Thuê xe máy điện ở Cầu Giấy nên chọn điểm nhận và kế hoạch sạc thế nào, từ chỗ lưu trú, trục đường đi việc đến cách tính tầm pin mỗi ngày."
+author: "Motoopen"
 matrix_id: 116
-description: Thuê xe máy điện ở Cầu Giấy nên chọn điểm nhận và kế hoạch sạc thế nào, từ chỗ lưu trú, trục đường đi việc đến cách tính tầm pin mỗi ngày.
+primary_keyword: "thuê xe máy điện cầu giấy"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Cầu Giấy là khu rộng gồm cả phố đông và các khu ở, trục lớn nhiều và quãng đi việc thường dài hơn khu phố cổ. Thuê xe máy điện ở đây cần chọn điểm nhận hợp và kế hoạch sạc theo trục đường. Bài này chỉ cách làm cả hai.
 
 ## Chọn điểm nhận ở Cầu Giấy
