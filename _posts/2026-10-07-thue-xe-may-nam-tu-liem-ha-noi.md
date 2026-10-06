@@ -29,7 +29,7 @@ Hành trình chủ yếu trong khu và các quận lân cận: nhận gần ch�
 
 ## Chốt điểm nhận trước khi đến
 
-Gọi hoặc nhắn trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để chốt địa điểm và giờ nhận: nơi thuê sẽ chuẩn bị xe, mũ và giấy tờ đầy đủ, và báo trước nếu dòng xe bạn cần không giao tận nơi được. Hỏi luôn cả giờ trả xe để cân lịch cuối ngày, và mức phí trong trang [bảng giá]({{ '/banggia.html' | relative_url }}) để tránh phát sinh. Khách lần đầu nên đọc thêm phần thủ tục trong bài [thủ tục thuê xe máy]({{ '/thutuc' | relative_url }}).
+Gọi hoặc nhắn trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để chốt địa điểm và giờ nhận: nơi thuê sẽ chuẩn bị xe, mũ và giấy tờ đầy đủ, và báo trước nếu dòng xe bạn cần không giao tận nơi được. Hỏi luôn cả giờ trả xe để cân lịch cuối ngày, và mức phí trong trang [bảng giá]({{ '/banggia.html' | relative_url }}) để tránh phát sinh. Khách lần đầu nên đọc thêm phần thủ tục trong bài [thủ tục thuê xe máy]({{ '/thutuc.html' | relative_url }}).
 
 Nam Từ Liêm có nhiều tuyến đường rộng và nút giao lớn, nên nếu bạn định để xe qua đêm ở chung cư, hỏi trước chỗ gửi xe và phí giữ đêm. Đi nhóm thì nhận cùng lúc một điểm để kiểm xe song song, đỡ chờ nhau. Với khách nước ngoài, gửi sẵn địa chỉ bằng tiếng Việt cho nơi thuê để tránh phải mô tả địa điểm qua điện thoại. Nếu bạn thuê nhiều ngày, hãy hỏi trước về việc kiểm xe giữa kỳ và cách báo sự cố để không bị động khi xe có trục trặc giữa chừng, đồng thời chốt luôn điểm trả xe gần lộ trình ngày cuối.
 

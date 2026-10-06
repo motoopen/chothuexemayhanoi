@@ -13,7 +13,7 @@ Mùa mưa Hà Nội đổ cơn nhanh rồi tạnh cũng nhanh, nên chiến lư�
 
 ## Rút ngắn hành trình theo bản tin dự báo
 
-Kiểm tra dự báo radar trước nửa tiếng xuất phát, và chia buổi thành các chặng mười lăm hai mươi phút quanh điểm có mái che, thay vì một mạch dài không chỗ né. Kỹ năng lái trong mưa đã trình bày trong bài [thuê xe máy Hà Nội mùa mưa]({{ '/blog/thue-xe-may-ha-noi-mua-mua/' | relative_url }}), còn chiến lược chọn loại xe cho ngày mưa nằm trong bài [thuê xe máy Hà Nội mùa mưa loại nào]({{ '/thue-xe-may-ha-noi-mua-mua-loai-nao' | relative_url }}).
+Kiểm tra dự báo radar trước nửa tiếng xuất phát, và chia buổi thành các chặng mười lăm hai mươi phút quanh điểm có mái che, thay vì một mạch dài không chỗ né. Kỹ năng lái trong mưa đã trình bày trong bài [thuê xe máy Hà Nội mùa mưa]({{ '/blog/thue-xe-may-ha-noi-mua-mua/' | relative_url }}), còn chiến lược chọn loại xe cho ngày mưa nằm trong bài [thuê xe máy Hà Nội mùa mưa loại nào]({{ '/blog/thue-xe-may-mua-mua-loai-nao/' | relative_url }}).
 
 ## Chọn điểm dừng có mái che
 
@@ -37,7 +37,7 @@ Xe trôi trong vũng sâu thì tắt máy, đẩy khỏi ngập, và gọi nơi 
 
 Trường hợp bạn đi chặng tỉnh trong mùa mưa, dời lịch thay vì cố đi, vì cung dài ướt không có điểm dừng mái che, và trình tự chuẩn bị khi buộc phải đi đã có trong bài [thuê xe máy đi đường dài từ Hà Nội]({{ '/blog/thue-xe-may-di-duong-dai-tu-ha-noi/' | relative_url }}).
 
-Với xe điện đi trong mưa, thêm lưu ý về phanh và pin, phần chăm xe điện đã trình bày trong bài [sạc xe máy điện thuê]({{ '/sac-xe-may-dien-thue' | relative_url }}), vì pin ướt vùng tiếp xúc dễ nóng máy.
+Với xe điện đi trong mưa, thêm lưu ý về phanh và pin, phần chăm xe điện đã trình bày trong bài [sạc xe máy điện thuê]({{ '/blog/sac-xe-may-dien-khi-thue/' | relative_url }}), vì pin ướt vùng tiếp xúc dễ nóng máy.
 
 ## Kết luận
 

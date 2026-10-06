@@ -35,7 +35,7 @@ Xe điện cũng cần giấy tờ như xe xăng nếu trên mức phân loại 
 
 Pin báo thấp giữa trục thì giảm tốc, tắt các phụ tùng không cần, và ghé điểm dừng gần nhất có ổ điện. Hết pin hẳn thì gọi nơi thuê theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}), phần chi phí đã phân trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/blog/chi-phi-hu-hong-khi-thue-xe-may/' | relative_url }}). Trả đúng giờ, khung phụ phí trễ nằm trong bài [phí trả xe muộn thuê xe máy]({{ '/blog/phi-tra-xe-muon-thue-xe-may/' | relative_url }}).
 
-Một kinh nghiệm cho xe điện: mang theo ổ sạc đa năng và biết sẵn vị trí trạm đổi pin trên tuyến, vì giữa phố đẹp dễ quên canh pin, phần chuẩn bị sạc đã trình bày trong bài [sạc xe máy điện thuê]({{ '/sac-xe-may-dien-thue' | relative_url }}), còn tùy dòng xe thì so thêm thuê pin với thuê cả xe trong bài [thuê pin hay mua pin xe máy điện VinFast]({{ '/blog/thue-pin-hay-mua-pin-xe-may-dien-vinfast/' | relative_url }}).
+Một kinh nghiệm cho xe điện: mang theo ổ sạc đa năng và biết sẵn vị trí trạm đổi pin trên tuyến, vì giữa phố đẹp dễ quên canh pin, phần chuẩn bị sạc đã trình bày trong bài [sạc xe máy điện thuê]({{ '/blog/sac-xe-may-dien-khi-thue/' | relative_url }}), còn tùy dòng xe thì so thêm thuê pin với thuê cả xe trong bài [thuê pin hay mua pin xe máy điện VinFast]({{ '/blog/thue-pin-hay-mua-pin-xe-may-dien-vinfast/' | relative_url }}).
 
 ## Kết luận
 

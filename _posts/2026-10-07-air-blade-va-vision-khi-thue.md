@@ -25,7 +25,7 @@ Vision thân thon yên thấp, hợp người thấp, xem bài [thuê xe máy y�
 
 ## Cốp và đồ đạc
 
-Hai cốp gần như nhau tầm vừa: một mũ và vài vật nhỏ. Ai cần cốp lớn thật thì Lead hơn hẳn cả hai, so trong bài [thuê Vision hay Lead]({{ '/thue-vision-hay-lead' | relative_url }}) và cách xếp trong bài [xe 50cc mang hành lý]({{ '/blog/xe-50cc-mang-hanh-ly/' | relative_url }}). Đi nhẹ thì cốp không là yếu tố phân biệt giữa hai dòng này.
+Hai cốp gần như nhau tầm vừa: một mũ và vài vật nhỏ. Ai cần cốp lớn thật thì Lead hơn hẳn cả hai, so trong bài [thuê Vision hay Lead]({{ '/blog/xe-vision-va-lead-khi-thue/' | relative_url }}) và cách xếp trong bài [xe 50cc mang hành lý]({{ '/blog/xe-50cc-mang-hanh-ly/' | relative_url }}). Đi nhẹ thì cốp không là yếu tố phân biệt giữa hai dòng này.
 
 ## Giá thuê, giấy tờ và đặt trước
 

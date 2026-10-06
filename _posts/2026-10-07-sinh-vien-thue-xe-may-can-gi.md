@@ -13,7 +13,7 @@ Sinh viên là nhóm khách thuê xe máy đông đảo nhất ở Hà Nội, nh
 
 ## Giấy tờ cần mang theo
 
-Sinh viên đủ mười tám tuổi mang thẻ căn cước công dân là đủ để xác minh khi thuê, đọc chi tiết trong bài [thuê xe máy dùng căn cước hay hộ chiếu]({{ '/blog/thue-xe-may-dung-can-cuoc-hay-ho-chieu/' | relative_url }}). Nếu chưa có căn cước, hỏi trước nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) xem họ nhận giấy tờ tùy thân nào, và chuẩn bị người giám hộ nếu nơi thuê yêu cầu ký qua người thành niên. Danh sách thủ tục chung nằm trong bài [thủ tục thuê xe máy]({{ '/thutuc' | relative_url }}).
+Sinh viên đủ mười tám tuổi mang thẻ căn cước công dân là đủ để xác minh khi thuê, đọc chi tiết trong bài [thuê xe máy dùng căn cước hay hộ chiếu]({{ '/blog/thue-xe-may-dung-can-cuoc-hay-ho-chieu/' | relative_url }}). Nếu chưa có căn cước, hỏi trước nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) xem họ nhận giấy tờ tùy thân nào, và chuẩn bị người giám hộ nếu nơi thuê yêu cầu ký qua người thành niên. Danh sách thủ tục chung nằm trong bài [thủ tục thuê xe máy]({{ '/thutuc.html' | relative_url }}).
 
 ## Chọn dòng xe theo ngân sách
 

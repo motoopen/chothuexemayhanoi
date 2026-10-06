@@ -29,7 +29,7 @@ Hành trình chủ yếu trong khu và các quận lân cận: nhận gần ch�
 
 ## Chốt điểm nhận trước khi đến
 
-Gọi hoặc nhắn trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để chốt địa điểm và giờ nhận: nơi thuê sẽ chuẩn bị xe, mũ và giấy tờ đầy đủ, và báo trước nếu dòng xe bạn cần không giao tận nơi được. Hỏi luôn cả giờ trả xe để cân lịch cuối ngày, và mức phí trong trang [bảng giá]({{ '/banggia.html' | relative_url }}) để tránh phát sinh. Khách lần đầu nên đọc thêm phần thủ tục trong bài [thủ tục thuê xe máy]({{ '/thutuc' | relative_url }}).
+Gọi hoặc nhắn trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để chốt địa điểm và giờ nhận: nơi thuê sẽ chuẩn bị xe, mũ và giấy tờ đầy đủ, và báo trước nếu dòng xe bạn cần không giao tận nơi được. Hỏi luôn cả giờ trả xe để cân lịch cuối ngày, và mức phí trong trang [bảng giá]({{ '/banggia.html' | relative_url }}) để tránh phát sinh. Khách lần đầu nên đọc thêm phần thủ tục trong bài [thủ tục thuê xe máy]({{ '/thutuc.html' | relative_url }}).
 
 Đống Đa có nhiều con dốc nhỏ và ngõ chật, nên nếu bạn định để xe qua đêm, hãy hỏi trước chỗ ở về chỗ đỗ an toàn. Đi nhóm thì nên nhận cùng lúc một điểm để kiểm xe song song, đỡ chờ nhau. Cuối kỳ thuê, trả xe thường là quay lại đúng chỗ nhận, nên chọn điểm gần nơi bạn về buổi cuối để trả gọn gàng.
 

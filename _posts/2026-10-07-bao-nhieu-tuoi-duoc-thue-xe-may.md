@@ -25,7 +25,7 @@ Nếu cửa hàng nhận, nhóm hợp pháp duy nhất cho người mười sáu
 
 ## Giấy tờ cần chuẩn bị theo độ tuổi
 
-Người mười tám tuổi trở lên mang thẻ căn cước công dân để xác minh, đọc chi tiết trong bài [thuê xe máy dùng căn cước hay hộ chiếu]({{ '/blog/thue-xe-may-dung-can-cuoc-hay-ho-chieu/' | relative_url }}). Khách dưới mười tám tuổi thường chưa có căn cước, nên chuẩn bị giấy tờ tùy thân đang có và người giám hộ kèm giấy tờ của họ, vì hợp đồng có thể phải ký qua người đại diện. Danh sách thủ tục chung nằm trong bài [thủ tục thuê xe máy]({{ '/thutuc' | relative_url }}), và các mục nên ghi trong hợp đồng nằm trong bài [hợp đồng thuê xe máy cần có gì]({{ '/blog/hop-dong-thue-xe-may-can-co-gi/' | relative_url }}).
+Người mười tám tuổi trở lên mang thẻ căn cước công dân để xác minh, đọc chi tiết trong bài [thuê xe máy dùng căn cước hay hộ chiếu]({{ '/blog/thue-xe-may-dung-can-cuoc-hay-ho-chieu/' | relative_url }}). Khách dưới mười tám tuổi thường chưa có căn cước, nên chuẩn bị giấy tờ tùy thân đang có và người giám hộ kèm giấy tờ của họ, vì hợp đồng có thể phải ký qua người đại diện. Danh sách thủ tục chung nằm trong bài [thủ tục thuê xe máy]({{ '/thutuc.html' | relative_url }}), và các mục nên ghi trong hợp đồng nằm trong bài [hợp đồng thuê xe máy cần có gì]({{ '/blog/hop-dong-thue-xe-may-can-co-gi/' | relative_url }}).
 
 ## Hỏi trước để tránh hủy giữa chừng
 

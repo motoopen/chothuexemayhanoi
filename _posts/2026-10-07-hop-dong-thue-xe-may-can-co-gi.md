@@ -13,7 +13,7 @@ Hợp đồng là căn cứ để đối chiếu khi nhận và trả xe, nên m
 
 ## Thông tin hai bên ghi rõ ràng
 
-Hợp đồng nên ghi đầy đủ họ tên, số giấy tờ và số điện thoại của người thuê, kèm thông tin bên cho thuê và người giao xe. Nếu bạn thuê cho người khác đi, tên người thực sự cầm xe cũng phải ghi vào hợp đồng, vì khi có sự cố, bên cho thuê đối chiếu theo đúng người được ghi. Khách lần đầu nên đọc thêm phần thủ tục trong bài [thủ tục thuê xe máy]({{ '/thutuc' | relative_url }}) và danh sách giấy tờ cần mang trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/blog/thue-xe-may-ha-noi-can-giay-to-gi/' | relative_url }}).
+Hợp đồng nên ghi đầy đủ họ tên, số giấy tờ và số điện thoại của người thuê, kèm thông tin bên cho thuê và người giao xe. Nếu bạn thuê cho người khác đi, tên người thực sự cầm xe cũng phải ghi vào hợp đồng, vì khi có sự cố, bên cho thuê đối chiếu theo đúng người được ghi. Khách lần đầu nên đọc thêm phần thủ tục trong bài [thủ tục thuê xe máy]({{ '/thutuc.html' | relative_url }}) và danh sách giấy tờ cần mang trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/blog/thue-xe-may-ha-noi-can-giay-to-gi/' | relative_url }}).
 
 ## Mô tả tình trạng xe khi giao
 

@@ -29,7 +29,7 @@ Chụp số km trên đồng hồ, mức xăng hoặc pin trên bảng, và toà
 
 ## Gửi ảnh cho nơi thuê ngay
 
-Chụp xong, gửi vài ảnh quan trọng nhất cho nơi thuê qua tin nhắn ngay lúc đó: vừa để hai bên cùng giữ bản, vừa có dấu thời gian đúng ngày nhận. Nếu dùng trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để đặt trước, bạn cũng có thể yêu cầu họ ghi sẵn các vết có sẵn vào hợp đồng trước khi bạn đến, xem phần thủ tục trong bài [thủ tục thuê xe máy]({{ '/thutuc' | relative_url }}).
+Chụp xong, gửi vài ảnh quan trọng nhất cho nơi thuê qua tin nhắn ngay lúc đó: vừa để hai bên cùng giữ bản, vừa có dấu thời gian đúng ngày nhận. Nếu dùng trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để đặt trước, bạn cũng có thể yêu cầu họ ghi sẵn các vết có sẵn vào hợp đồng trước khi bạn đến, xem phần thủ tục trong bài [thủ tục thuê xe máy]({{ '/thutuc.html' | relative_url }}).
 
 ## Khi trả xe, đối chiếu lại
 

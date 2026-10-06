@@ -13,7 +13,7 @@ Khách nước ngoài hoàn toàn thuê được xe máy ở Hà Nội, nhưng c
 
 ## Hộ chiếu, thị thực và giấy tờ tùy thân
 
-Điều đầu tiên là hộ chiếu còn hiệu lực, kèm thị thực hoặc giấy tờ nhập cảnh hợp lệ: bên cho thuê ghi thông tin này vào hợp đồng trước khi giao xe. Nên photo sẵn trang thông tin hộ chiếu để trình nhanh, nhưng bản gốc vẫn phải mang theo lúc ký. Danh sách chi tiết về giấy tờ cho khách nước ngoài nằm trong bài [thuê xe máy Hà Nội cho người nước ngoài]({{ '/blog/thue-xe-may-ha-noi-cho-nguoi-nuoc-ngoai/' | relative_url }}), và phần thủ tục chung nằm trong bài [thủ tục thuê xe máy]({{ '/thutuc' | relative_url }}).
+Điều đầu tiên là hộ chiếu còn hiệu lực, kèm thị thực hoặc giấy tờ nhập cảnh hợp lệ: bên cho thuê ghi thông tin này vào hợp đồng trước khi giao xe. Nên photo sẵn trang thông tin hộ chiếu để trình nhanh, nhưng bản gốc vẫn phải mang theo lúc ký. Danh sách chi tiết về giấy tờ cho khách nước ngoài nằm trong bài [thuê xe máy Hà Nội cho người nước ngoài]({{ '/blog/thue-xe-may-ha-noi-cho-nguoi-nuoc-ngoai/' | relative_url }}), và phần thủ tục chung nằm trong bài [thủ tục thuê xe máy]({{ '/thutuc.html' | relative_url }}).
 
 ## Giấy phép lái xe phù hợp
 
@@ -21,8 +21,7 @@ Khách nước ngoài hoàn toàn thuê được xe máy ở Hà Nội, nhưng c
 
 ## Chọn loại xe dễ lái với người mới
 
-Khách chưa quen đường Hà Nội nên chọn xe nhẹ, nhỏ gọn và dễ cân bằng: dòng 50cc hoặc xe điện mini là nhóm phổ biến nhất với khách nước ngoài, tham khảo bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}) và bài [thuê xe máy điện cho người nước ngoài]({{ '/thue-xe-may-dien-cho-nguoi-nuoc-ngoa
-i' | relative_url }}). Khi nhận, kiểm xe kỹ theo checklist trong bài [checklist nhận xe 50cc]({{ '/blog/checklist-nhan-xe-50cc/' | relative_url }}), và hỏi rõ chỗ giữ xe qua đêm gần chỗ ở.
+Khách chưa quen đường Hà Nội nên chọn xe nhẹ, nhỏ gọn và dễ cân bằng: dòng 50cc hoặc xe điện mini là nhóm phổ biến nhất với khách nước ngoài, tham khảo bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}) và bài [thuê xe máy điện cho người nước ngoài]({{ '/blog/thue-xe-may-dien-cho-nguoi-nuoc-ngoai/' | relative_url }}). Khi nhận, kiểm xe kỹ theo checklist trong bài [checklist nhận xe 50cc]({{ '/blog/checklist-nhan-xe-50cc/' | relative_url }}), và hỏi rõ chỗ giữ xe qua đêm gần chỗ ở.
 
 ## Đặt cọc và thanh toán
 

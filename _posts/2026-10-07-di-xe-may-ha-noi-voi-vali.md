@@ -17,7 +17,7 @@ Vali cabin gọn có thể đặt giữa hai chân hoặc ghì sau, còn vali to
 
 ## Phương án gửi hành lý
 
-Với vali to, gửi tại khách sạn hoặc điểm lưu hành lý trong phố rồi đi xe nhẹ là gọn nhất. Nhiều nơi cho thuê hỗ trợ giữ đồ, hỏi trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), vì dịch vụ này không phải nơi nào cũng có, khung điều khoản dịch vụ đã nêu trong bài [hợp đồng thuê xe máy cần có gì]({{ '/blog/hop-dong-thue-xe-may-can-co-gi/' | relative_url }}). Nếu di chuyển từ ga hoặc sân bay, cân phương án lấy xe sau khi đã để đồ, phần thuê gần sân bay đã có trong bài [thuê xe máy gần Nội Bài]({{ '/thue-xe-may-gan-noi-bai' | relative_url }}).
+Với vali to, gửi tại khách sạn hoặc điểm lưu hành lý trong phố rồi đi xe nhẹ là gọn nhất. Nhiều nơi cho thuê hỗ trợ giữ đồ, hỏi trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), vì dịch vụ này không phải nơi nào cũng có, khung điều khoản dịch vụ đã nêu trong bài [hợp đồng thuê xe máy cần có gì]({{ '/blog/hop-dong-thue-xe-may-can-co-gi/' | relative_url }}). Nếu di chuyển từ ga hoặc sân bay, cân phương án lấy xe sau khi đã để đồ, phần thuê gần sân bay đã có trong bài [thuê xe máy gần Nội Bài]({{ '/blog/thue-xe-may-noi-bai-ha-noi/' | relative_url }}).
 
 ## Chở vali đúng cách nếu bắt buộc
 

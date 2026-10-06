@@ -29,7 +29,7 @@ Hành trình chủ yếu trong khu và các quận lân cận: nhận gần ch�
 
 ## Chốt điểm nhận trước khi đến
 
-Gọi hoặc nhắn trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để chốt địa điểm và giờ nhận: nơi thuê sẽ chuẩn bị xe, mũ và giấy tờ đầy đủ, và báo trước nếu dòng xe bạn cần không giao tận nơi được. Hỏi luôn cả giờ trả xe để cân lịch cuối ngày, và mức phí trong trang [bảng giá]({{ '/banggia.html' | relative_url }}) để tránh phát sinh. Khách lần đầu nên đọc thêm phần thủ tục trong bài [thủ tục thuê xe máy]({{ '/thutuc' | relative_url }}).
+Gọi hoặc nhắn trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để chốt địa điểm và giờ nhận: nơi thuê sẽ chuẩn bị xe, mũ và giấy tờ đầy đủ, và báo trước nếu dòng xe bạn cần không giao tận nơi được. Hỏi luôn cả giờ trả xe để cân lịch cuối ngày, và mức phí trong trang [bảng giá]({{ '/banggia.html' | relative_url }}) để tránh phát sinh. Khách lần đầu nên đọc thêm phần thủ tục trong bài [thủ tục thuê xe máy]({{ '/thutuc.html' | relative_url }}).
 
 Bắc Từ Liêm nhiều chung cư với bãi gửi xe riêng, nên nếu bạn để xe qua đêm ở tòa nhà, hỏi trước cả phí giữ đêm và giờ đóng cổng. Đi nhóm thì nhận cùng lúc một điểm để kiểm xe song song, đỡ chờ nhau. Với khách nước ngoài, gửi sẵn địa chỉ bằng tiếng Việt cho nơi thuê để tránh phải mô tả địa điểm qua điện thoại, và hỏi trước về việc kiểm xe giữa kỳ nếu thuê nhiều ngày.
 

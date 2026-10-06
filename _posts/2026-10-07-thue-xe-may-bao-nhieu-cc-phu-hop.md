@@ -17,7 +17,7 @@ Số cc trên tem xe không nói lên chất lượng kỳ thuê, mà chỉ nói
 
 ## Nhóm 110: cân bằng phổ thông
 
-110 là nhóm được thuê nhiều nhất: đủ máy cho nội thành và ngoại thành gần, vẫn gọn, giá vừa. Vision, Air Blade, Lead, Wave, Sirius đều nằm đây, so cụ thể trong bài [thuê Vision hay Lead]({{ '/thue-vision-hay-lead' | relative_url }}) và [thuê Air Blade hay Vision]({{ '/blog/air-blade-va-vision-khi-thue/' | relative_url }}). Người quen tay lái cơ bản đều hợp 110, và phần lớn khách không cần cao hơn. Hành trình trộn phố với chặng 50 đến 60 cây số là sân nhà của nhóm này.
+110 là nhóm được thuê nhiều nhất: đủ máy cho nội thành và ngoại thành gần, vẫn gọn, giá vừa. Vision, Air Blade, Lead, Wave, Sirius đều nằm đây, so cụ thể trong bài [thuê Vision hay Lead]({{ '/blog/xe-vision-va-lead-khi-thue/' | relative_url }}) và [thuê Air Blade hay Vision]({{ '/blog/air-blade-va-vision-khi-thue/' | relative_url }}). Người quen tay lái cơ bản đều hợp 110, và phần lớn khách không cần cao hơn. Hành trình trộn phố với chặng 50 đến 60 cây số là sân nhà của nhóm này.
 
 ## Nhóm 125 trở lên: cho đường trường
 

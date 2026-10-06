@@ -13,7 +13,7 @@ Sóc Sơn nghe gần nhưng huyện này rộng: điểm gần nội đô hơn b
 
 ## Xác định độ xa trước khi chọn xe
 
-Điểm gần như trung tâm thị trấn Sóc Sơn chỉ cần xe ga nhỏ hoặc xe 50cc, quy định về xe 50cc đã có trong bài [thuê xe 50cc có cần bằng lái không]({{ '/blog/thue-xe-50cc-can-bang-lai-khong/' | relative_url }}). Điểm xa hơn như các khu ven núi thì nên xe ga động cơ khỏe, so sánh hai dòng nằm trong bài [xe ga và xe số khi thuê]({{ '/blog/xe-ga-va-xe-so-khi-thue/' | relative_url }}). Với ai tính kết hợp đón máy bay trong chuyến, phương án thuê quanh sân bay đã có trong bài [thuê xe máy gần Nội Bài]({{ '/thue-xe-may-gan-noi-bai' | relative_url }}).
+Điểm gần như trung tâm thị trấn Sóc Sơn chỉ cần xe ga nhỏ hoặc xe 50cc, quy định về xe 50cc đã có trong bài [thuê xe 50cc có cần bằng lái không]({{ '/blog/thue-xe-50cc-can-bang-lai-khong/' | relative_url }}). Điểm xa hơn như các khu ven núi thì nên xe ga động cơ khỏe, so sánh hai dòng nằm trong bài [xe ga và xe số khi thuê]({{ '/blog/xe-ga-va-xe-so-khi-thue/' | relative_url }}). Với ai tính kết hợp đón máy bay trong chuyến, phương án thuê quanh sân bay đã có trong bài [thuê xe máy gần Nội Bài]({{ '/blog/thue-xe-may-noi-bai-ha-noi/' | relative_url }}).
 
 ## Giờ xuất phát theo dòng xe tải
 

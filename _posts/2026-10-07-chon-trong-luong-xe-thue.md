@@ -25,7 +25,7 @@ Nhấc xe khỏi chống, dựng lại, và giữ xe nghiêng nhẹ vài giây: 
 
 ## Khối xe gợi ý theo từng dòng
 
-Dưới 100 ký: nhóm 50cc, xe điện mini, dễ nhất cho người mới và người thấp, hướng dẫn trong bài [thuê xe máy cho người mới lái Hà Nội]({{ '/blog/thue-xe-may-cho-nguoi-moi-lai-ha-noi/' | relative_url }}). Khoảng 100 đến 110 ký: Vision, Air Blade, Lead, cân bằng gọn và chắc, so dòng trong bài [thuê Vision hay Lead]({{ '/thue-vision-hay-lead' | relative_url }}). Trên 120 ký: SH, dòng ga lớn và thể thao, chỉ nên chọn khi thể lực và kinh nghiệm đủ, cân trong bài [thuê SH hay Air Blade]({{ '/blog/sh-va-air-blade-khi-thue/' | relative_url }}).
+Dưới 100 ký: nhóm 50cc, xe điện mini, dễ nhất cho người mới và người thấp, hướng dẫn trong bài [thuê xe máy cho người mới lái Hà Nội]({{ '/blog/thue-xe-may-cho-nguoi-moi-lai-ha-noi/' | relative_url }}). Khoảng 100 đến 110 ký: Vision, Air Blade, Lead, cân bằng gọn và chắc, so dòng trong bài [thuê Vision hay Lead]({{ '/blog/xe-vision-va-lead-khi-thue/' | relative_url }}). Trên 120 ký: SH, dòng ga lớn và thể thao, chỉ nên chọn khi thể lực và kinh nghiệm đủ, cân trong bài [thuê SH hay Air Blade]({{ '/blog/sh-va-air-blade-khi-thue/' | relative_url }}).
 
 ## Trọng lượng và an toàn
 

@@ -13,7 +13,7 @@ Người có giấy phép lái Việt Nam cũng cần kiểm tra hạng bằng t
 
 ## Nhóm xe không cần bằng lái
 
-Xe dưới 50cc là nhóm đặc biệt: xe đạp điện và xe máy điện công suất nhỏ thuộc nhóm không cần giấy phép lái, nên nếu bạn chưa có bằng, đây là lựa chọn hợp pháp duy nhất để tự lái. Chi tiết quy định nằm trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}) và bài [thuê xe điện không cần bằng lái]({{ '/blog/thue-xe-dien-khong-can-bang-lai/' | relative_url }}). Khi thuê nhóm này, bạn vẫn cần giấy tờ tùy thân để xác minh, đọc phần thủ tục trong bài [thủ tục thuê xe máy]({{ '/thutuc' | relative_url }}).
+Xe dưới 50cc là nhóm đặc biệt: xe đạp điện và xe máy điện công suất nhỏ thuộc nhóm không cần giấy phép lái, nên nếu bạn chưa có bằng, đây là lựa chọn hợp pháp duy nhất để tự lái. Chi tiết quy định nằm trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}) và bài [thuê xe điện không cần bằng lái]({{ '/blog/thue-xe-dien-khong-can-bang-lai/' | relative_url }}). Khi thuê nhóm này, bạn vẫn cần giấy tờ tùy thân để xác minh, đọc phần thủ tục trong bài [thủ tục thuê xe máy]({{ '/thutuc.html' | relative_url }}).
 
 ## Hạng bằng cho xe hai bánh phổ thông
 

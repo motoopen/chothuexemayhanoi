@@ -29,7 +29,7 @@ Hành trình chủ yếu trong khu với chặng ngắn tới các văn phòng h
 
 ## Chốt điểm nhận trước khi đến
 
-Gọi hoặc nhắn trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để chốt địa điểm và giờ nhận: nơi thuê sẽ chuẩn bị xe, mũ và giấy tờ đầy đủ, và báo trước nếu dòng xe bạn cần không giao tận nơi được. Hỏi luôn cả giờ trả xe để cân lịch cuối ngày, và mức phí trong trang [bảng giá]({{ '/banggia.html' | relative_url }}) để tránh phát sinh. Khách lần đầu nên đọc thêm phần thủ tục trong bài [thủ tục thuê xe máy]({{ '/thutuc' | relative_url }}).
+Gọi hoặc nhắn trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để chốt địa điểm và giờ nhận: nơi thuê sẽ chuẩn bị xe, mũ và giấy tờ đầy đủ, và báo trước nếu dòng xe bạn cần không giao tận nơi được. Hỏi luôn cả giờ trả xe để cân lịch cuối ngày, và mức phí trong trang [bảng giá]({{ '/banggia.html' | relative_url }}) để tránh phát sinh. Khách lần đầu nên đọc thêm phần thủ tục trong bài [thủ tục thuê xe máy]({{ '/thutuc.html' | relative_url }}).
 
 Đường Láng là trục dài nên điểm nhận càng gần chỗ ở càng đỡ di chuyển trên tuyến đông giờ cao điểm. Đi nhóm thì nhận cùng lúc một điểm để kiểm xe song song, đỡ chờ nhau. Với khách nước ngoài, gửi sẵn địa chỉ bằng tiếng Việt cho nơi thuê để tránh phải mô tả địa điểm qua điện thoại, và hỏi trước về việc kiểm xe giữa kỳ nếu thuê nhiều ngày. Cuối kỳ, trả xe thường là quay lại đúng chỗ nhận, nên khi chốt điểm nhận hãy cân luôn cả lộ trình ngày cuối để không phải rẽ ngược trục dài giữa giờ đông.
 

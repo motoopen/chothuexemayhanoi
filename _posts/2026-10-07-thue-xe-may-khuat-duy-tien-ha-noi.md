@@ -29,7 +29,7 @@ Hành trình chủ yếu quanh khu với chặng ngắn tới các trường đ�
 
 ## Chốt điểm nhận trước khi đến
 
-Gọi hoặc nhắn trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để chốt địa điểm và giờ nhận: nơi thuê sẽ chuẩn bị xe, mũ và giấy tờ đầy đủ, và báo trước nếu dòng xe bạn cần không giao tận nơi được. Hỏi luôn cả giờ trả xe để cân lịch cuối ngày, và mức phí trong trang [bảng giá]({{ '/banggia.html' | relative_url }}) để tránh phát sinh. Khách lần đầu nên đọc thêm phần thủ tục trong bài [thủ tục thuê xe máy]({{ '/thutuc' | relative_url }}).
+Gọi hoặc nhắn trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để chốt địa điểm và giờ nhận: nơi thuê sẽ chuẩn bị xe, mũ và giấy tờ đầy đủ, và báo trước nếu dòng xe bạn cần không giao tận nơi được. Hỏi luôn cả giờ trả xe để cân lịch cuối ngày, và mức phí trong trang [bảng giá]({{ '/banggia.html' | relative_url }}) để tránh phát sinh. Khách lần đầu nên đọc thêm phần thủ tục trong bài [thủ tục thuê xe máy]({{ '/thutuc.html' | relative_url }}).
 
 Khuất Duy Tiến giờ cao điểm rất đông xe máy, nên nếu bạn ngại pha đầu tiên ngay giữa dòng, chọn nhận xe trong ngõ hoặc trong khuôn viên khu nhà để chạy thử yên tĩnh trước. Đi nhóm thì nhận cùng lúc một điểm để kiểm xe song song, đỡ chờ nhau. Với khách nước ngoài, gửi sẵn địa chỉ bằng tiếng Việt cho nơi thuê để tránh phải mô tả địa điểm qua điện thoại, và hỏi trước về việc kiểm xe giữa kỳ nếu thuê nhiều ngày.
 

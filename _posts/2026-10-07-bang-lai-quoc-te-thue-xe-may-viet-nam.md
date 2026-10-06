@@ -21,7 +21,7 @@ Mở giấy phép ra và đọc kỹ phần hạng: hạng dành cho xe hai bán
 
 ## Các lựa chọn khi giấy phép không hợp lệ
 
-Nếu giấy phép quốc tế của bạn không có hạng hai bánh, bạn vẫn có ba lựa chọn: một là thuê dòng xe không yêu cầu bằng lái, tham khảo bài [thuê xe điện không cần bằng lái]({{ '/blog/thue-xe-dien-khong-can-bang-lai/' | relative_url }}); hai là chuyển sang thuê xe có tài xế để khỏi tự lái; ba là làm thủ tục đổi giấy phép lái Việt Nam nếu bạn ở lâu, và đọc thêm phần thủ tục chung trong bài [thủ tục thuê xe máy]({{ '/thutuc' | relative_url }}). Tự lái khi bằng không hợp lệ vừa rủi ro tai nạn, vừa mất bảo hiểm khi có sự cố.
+Nếu giấy phép quốc tế của bạn không có hạng hai bánh, bạn vẫn có ba lựa chọn: một là thuê dòng xe không yêu cầu bằng lái, tham khảo bài [thuê xe điện không cần bằng lái]({{ '/blog/thue-xe-dien-khong-can-bang-lai/' | relative_url }}); hai là chuyển sang thuê xe có tài xế để khỏi tự lái; ba là làm thủ tục đổi giấy phép lái Việt Nam nếu bạn ở lâu, và đọc thêm phần thủ tục chung trong bài [thủ tục thuê xe máy]({{ '/thutuc.html' | relative_url }}). Tự lái khi bằng không hợp lệ vừa rủi ro tai nạn, vừa mất bảo hiểm khi có sự cố.
 
 ## Bên cho thuê kiểm tra gì khi bạn trình giấy phép
 

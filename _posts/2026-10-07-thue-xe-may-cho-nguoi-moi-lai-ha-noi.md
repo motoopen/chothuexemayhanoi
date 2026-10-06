@@ -17,7 +17,7 @@ Ba tiêu chí đứng đầu: dễ điều khiển, yên thấp và nhẹ. Xe ga
 
 ## Nhóm xe gợi ý cụ thể
 
-Vision và Lead dễ lái và cốp rộng, so hai dòng trong bài [thuê Vision hay Lead]({{ '/thue-vision-hay-lead' | relative_url }}). Wave và Sirius là xe số nhẹ, chỉ hợp nếu bạn từng đi số, xem [thuê Wave hay Sirius]({{ '/blog/xe-wave-va-sirius-khi-thue/' | relative_url }}). Nhóm 50cc không cần bằng lái là lựa chọn gọn nhất về giấy tờ cho người mới, quy định trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Nếu hoàn toàn chưa từng nắm tay lái, cân học vài giờ với người quen trên xe của họ trước khi thuê.
+Vision và Lead dễ lái và cốp rộng, so hai dòng trong bài [thuê Vision hay Lead]({{ '/blog/xe-vision-va-lead-khi-thue/' | relative_url }}). Wave và Sirius là xe số nhẹ, chỉ hợp nếu bạn từng đi số, xem [thuê Wave hay Sirius]({{ '/blog/xe-wave-va-sirius-khi-thue/' | relative_url }}). Nhóm 50cc không cần bằng lái là lựa chọn gọn nhất về giấy tờ cho người mới, quy định trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Nếu hoàn toàn chưa từng nắm tay lái, cân học vài giờ với người quen trên xe của họ trước khi thuê.
 
 ## Làm quen buổi đầu an toàn
 
