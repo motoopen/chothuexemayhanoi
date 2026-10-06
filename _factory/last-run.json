@@ -1,58 +1,58 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-07T01:15:03+07:00",
-  "finished_at": "2026-10-07T01:15:03+07:00",
+  "started_at": "2026-10-07T01:16:47+07:00",
+  "finished_at": "2026-10-07T01:16:47+07:00",
   "selected_count": 6,
   "published_total": 6,
   "published": [
     {
-      "id": 50,
-      "source": "_factory/incoming/50.md",
-      "post": "_posts/2026-10-07-gia-thue-xe-may-da-bao-gom-gi.md",
-      "url": "/blog/gia-thue-xe-may-da-bao-gom-gi/",
-      "word_count": 724,
+      "id": 66,
+      "source": "_factory/incoming/66.md",
+      "post": "_posts/2026-10-07-thue-xe-50cc-cho-sinh-vien.md",
+      "url": "/blog/thue-xe-50cc-cho-sinh-vien/",
+      "word_count": 771,
+      "warnings": []
+    },
+    {
+      "id": 67,
+      "source": "_factory/incoming/67.md",
+      "post": "_posts/2026-10-07-thue-xe-50cc-pho-co-ha-noi.md",
+      "url": "/blog/thue-xe-50cc-pho-co-ha-noi/",
+      "word_count": 772,
       "warnings": [
         "matrix title does not contain exact primary keyword"
       ]
     },
     {
-      "id": 57,
-      "source": "_factory/incoming/57.md",
-      "post": "_posts/2026-10-07-thue-xe-cub-50cc-ha-noi.md",
-      "url": "/blog/thue-xe-cub-50cc-ha-noi/",
-      "word_count": 791,
+      "id": 68,
+      "source": "_factory/incoming/68.md",
+      "post": "_posts/2026-10-07-thue-xe-50cc-di-noi-thanh-ha-noi.md",
+      "url": "/blog/thue-xe-50cc-di-noi-thanh-ha-noi/",
+      "word_count": 718,
       "warnings": []
     },
     {
-      "id": 62,
-      "source": "_factory/incoming/62.md",
-      "post": "_posts/2026-10-07-thue-xe-tay-ga-50cc-ha-noi.md",
-      "url": "/blog/thue-xe-tay-ga-50cc-ha-noi/",
-      "word_count": 780,
-      "warnings": []
-    },
-    {
-      "id": 63,
-      "source": "_factory/incoming/63.md",
-      "post": "_posts/2026-10-07-xe-50cc-co-can-bang-lai-khong.md",
-      "url": "/blog/xe-50cc-co-can-bang-lai-khong/",
+      "id": 69,
+      "source": "_factory/incoming/69.md",
+      "post": "_posts/2026-10-07-thue-xe-50cc-di-ngoai-thanh-ha-noi.md",
+      "url": "/blog/thue-xe-50cc-di-ngoai-thanh-ha-noi/",
       "word_count": 729,
       "warnings": []
     },
     {
-      "id": 64,
-      "source": "_factory/incoming/64.md",
-      "post": "_posts/2026-10-07-thue-xe-50cc-khong-can-bang-lai.md",
-      "url": "/blog/thue-xe-50cc-khong-can-bang-lai/",
-      "word_count": 771,
+      "id": 70,
+      "source": "_factory/incoming/70.md",
+      "post": "_posts/2026-10-07-thue-xe-50cc-di-duong-dai.md",
+      "url": "/blog/thue-xe-50cc-di-duong-dai/",
+      "word_count": 758,
       "warnings": []
     },
     {
-      "id": 65,
-      "source": "_factory/incoming/65.md",
-      "post": "_posts/2026-10-07-thue-xe-50cc-cho-nguoi-nuoc-ngoai.md",
-      "url": "/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/",
-      "word_count": 761,
+      "id": 71,
+      "source": "_factory/incoming/71.md",
+      "post": "_posts/2026-10-07-xe-50cc-di-duong-doc.md",
+      "url": "/blog/xe-50cc-di-duong-doc/",
+      "word_count": 755,
       "warnings": []
     }
   ],
@@ -60,7 +60,7 @@
   "recoverable": [],
   "fatal": null,
   "status_counts": {
-    "planned": 196,
-    "published": 104
+    "planned": 190,
+    "published": 110
   }
 }
