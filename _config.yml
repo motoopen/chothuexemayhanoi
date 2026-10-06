@@ -11,6 +11,7 @@ logo: "https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg"
 social_image: "https://i.postimg.cc/brsmsj5N/IMG-5215.jpg"
 
 exclude:
+  - docs
   - _factory
   - _seo
   - _archive
