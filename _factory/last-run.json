@@ -1,72 +1,72 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-07T02:08:17+07:00",
-  "finished_at": "2026-10-07T02:08:17+07:00",
+  "started_at": "2026-10-07T02:09:07+07:00",
+  "finished_at": "2026-10-07T02:09:07+07:00",
   "selected_count": 6,
   "published_total": 6,
   "published": [
     {
-      "id": 271,
-      "source": "_factory/incoming/271.md",
-      "post": "_posts/2026-10-07-di-xe-may-ha-noi-buoi-toi.md",
-      "url": "/blog/di-xe-may-ha-noi-buoi-toi/",
-      "word_count": 658,
+      "id": 278,
+      "source": "_factory/incoming/278.md",
+      "post": "_posts/2026-10-07-kiem-tra-lop-xe-may-thue.md",
+      "url": "/blog/kiem-tra-lop-xe-may-thue/",
+      "word_count": 711,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
+    },
+    {
+      "id": 279,
+      "source": "_factory/incoming/279.md",
+      "post": "_posts/2026-10-07-kiem-tra-den-coi-xi-nhan-xe-thue.md",
+      "url": "/blog/kiem-tra-den-coi-xi-nhan-xe-thue/",
+      "word_count": 712,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
+    },
+    {
+      "id": 280,
+      "source": "_factory/incoming/280.md",
+      "post": "_posts/2026-10-07-kiem-tra-muc-xang-xe-thue.md",
+      "url": "/blog/kiem-tra-muc-xang-xe-thue/",
+      "word_count": 691,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
+    },
+    {
+      "id": 281,
+      "source": "_factory/incoming/281.md",
+      "post": "_posts/2026-10-07-chup-vet-xuoc-xe-thue.md",
+      "url": "/blog/chup-vet-xuoc-xe-thue/",
+      "word_count": 792,
       "warnings": []
     },
     {
-      "id": 272,
-      "source": "_factory/incoming/272.md",
-      "post": "_posts/2026-10-07-di-xe-may-dien-tham-quan-ha-noi.md",
-      "url": "/blog/di-xe-may-dien-tham-quan-ha-noi/",
-      "word_count": 678,
+      "id": 282,
+      "source": "_factory/incoming/282.md",
+      "post": "_posts/2026-10-07-mu-bao-hiem-khi-thue-xe-may.md",
+      "url": "/blog/mu-bao-hiem-khi-thue-xe-may/",
+      "word_count": 682,
       "warnings": [
         "matrix title does not contain exact primary keyword"
       ]
     },
     {
-      "id": 273,
-      "source": "_factory/incoming/273.md",
-      "post": "_posts/2026-10-07-di-xe-50cc-tham-quan-ha-noi.md",
-      "url": "/blog/di-xe-50cc-tham-quan-ha-noi/",
-      "word_count": 657,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 274,
-      "source": "_factory/incoming/274.md",
-      "post": "_posts/2026-10-07-di-xe-may-ha-noi-voi-vali.md",
-      "url": "/blog/di-xe-may-ha-noi-voi-vali/",
-      "word_count": 694,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 275,
-      "source": "_factory/incoming/275.md",
-      "post": "_posts/2026-10-07-road-trip-tu-ha-noi-bang-xe-thue.md",
-      "url": "/blog/road-trip-tu-ha-noi-bang-xe-thue/",
-      "word_count": 654,
+      "id": 283,
+      "source": "_factory/incoming/283.md",
+      "post": "_posts/2026-10-07-di-xe-thue-troi-mua.md",
+      "url": "/blog/di-xe-thue-troi-mua/",
+      "word_count": 732,
       "warnings": []
-    },
-    {
-      "id": 277,
-      "source": "_factory/incoming/277.md",
-      "post": "_posts/2026-10-07-kiem-tra-phanh-xe-may-thue.md",
-      "url": "/blog/kiem-tra-phanh-xe-may-thue/",
-      "word_count": 693,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
     }
   ],
   "recoverable_total": 0,
   "recoverable": [],
   "fatal": null,
   "status_counts": {
-    "planned": 24,
-    "published": 276
+    "planned": 18,
+    "published": 282
   }
 }

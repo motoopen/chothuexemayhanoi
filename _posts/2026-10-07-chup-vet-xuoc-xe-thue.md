@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Chụp vết xước xe thuê: 6 góc ảnh giúp đối chiếu dễ hơn"
+date: 2026-10-07 02:09:07 +0700
+description: "Chụp vết xước xe thuê theo 6 góc ảnh chuẩn giúp đối chiếu tình trạng trước và sau khi thuê nhanh gọn, tránh tranh chấp lúc trả."
+author: "Motoopen"
 matrix_id: 281
-description: Chụp vết xước xe thuê theo 6 góc ảnh chuẩn giúp đối chiếu tình trạng trước và sau khi thuê nhanh gọn, tránh tranh chấp lúc trả.
+primary_keyword: "chụp vết xước xe thuê"
+hub_parent: huong-dan
+hub_category: an-toan-su-co
 ---
-
 Bộ ảnh sáu góc là bằng chứng mạnh nhất khi tranh chấp vết xước, nhưng chụp kiểu lung tung thì lúc cần vẫn thiếu đúng góc bị hỏi. Bài này định nghĩa sáu góc chuẩn, chụp trong ba phút.
 
 ## Góc một và hai: hai bên hông

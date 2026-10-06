@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Mũ bảo hiểm đi kèm xe thuê: kiểm tra khóa, dây và độ vừa thế nào?"
+date: 2026-10-07 02:09:07 +0700
+description: "Mũ bảo hiểm đi kèm xe thuê cần kiểm tra chuẩn, quai, lõi và độ vừa trước khi nhận, vì mũ kém là lỗi bị phạt và rủi ro lớn nhất."
+author: "Motoopen"
 matrix_id: 282
-description: Mũ bảo hiểm đi kèm xe thuê cần kiểm tra chuẩn, quai, lõi và độ vừa trước khi nhận, vì mũ kém là lỗi bị phạt và rủi ro lớn nhất.
+primary_keyword: "mũ bảo hiểm khi thuê xe máy"
+hub_parent: huong-dan
+hub_category: an-toan-su-co
 ---
-
 Mũ bảo hiểm kèm xe thuê thường được coi là đồ cho không, nhưng nó là thiết bị an toàn duy nhất chạm đầu bạn. Kiểm tra mũ trước khi nhận xe đáng ba phút của nó.
 
 ## Kiểm tra quai và ổ khóa

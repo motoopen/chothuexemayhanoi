@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Đi xe thuê trời mưa: checklist lốp, phanh, áo mưa và tầm nhìn"
+date: 2026-10-07 02:09:07 +0700
+description: "Đi xe thuê trời mưa cần checklist lốp đủ hơi, phanh ăn, áo mưa chuẩn và tầm nhìn, kèm nguyên tắc dừng khi cơn quá lớn."
+author: "Motoopen"
 matrix_id: 283
-description: Đi xe thuê trời mưa cần checklist lốp đủ hơi, phanh ăn, áo mưa chuẩn và tầm nhìn, kèm nguyên tắc dừng khi cơn quá lớn.
+primary_keyword: "đi xe thuê trời mưa"
+hub_parent: huong-dan
+hub_category: an-toan-su-co
 ---
-
 Mưa đến giữa chuyến là tình huống chắc chắn gặp nếu thuê xe mùa hè ở Hà Nội. Checklist dưới đây giúp bạn ra đường được an toàn và biết khi nào nên dừng hẳn.
 
 ## Lốp và phanh: hai cửa trước tiên

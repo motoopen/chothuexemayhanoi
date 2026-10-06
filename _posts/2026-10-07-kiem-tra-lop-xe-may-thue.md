@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy: cách nhìn lốp để phát hiện dấu hiệu bất thường"
+date: 2026-10-07 02:09:07 +0700
+description: "Kiểm tra lốp xe máy thuê bằng mắt thường: gai lốp, thành lốp, áp suất và độ mòn bất thường trước khi nhận xe."
+author: "Motoopen"
 matrix_id: 278
-description: Kiểm tra lốp xe máy thuê bằng mắt thường: gai lốp, thành lốp, áp suất và độ mòn bất thường trước khi nhận xe.
+primary_keyword: "kiểm tra lốp xe máy thuê"
+hub_parent: huong-dan
+hub_category: an-toan-su-co
 ---
-
 Lốp là bộ phận giữ bạn dính mặt đường, và trên xe thuê nó là thứ bị mặc nhiều nhất mà ít người kiểm. Bài này hướng dẫn đọc lốp trong hai phút bằng mắt thường.
 
 ## Đọc gai lốp ở ba vị trí

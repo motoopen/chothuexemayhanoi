@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Checklist đèn, còi và xi-nhan khi nhận xe thuê"
+date: 2026-10-07 02:09:07 +0700
+description: "Checklist đèn, còi và xi-nhan khi nhận xe thuê cần thử từng vị trí trước khi rời điểm nhận, vì hệ thống này quyết định an toàn và bị phạt."
+author: "Motoopen"
 matrix_id: 279
-description: Checklist đèn, còi và xi-nhan khi nhận xe thuê cần thử từng vị trí trước khi rời điểm nhận, vì hệ thống này quyết định an toàn và bị phạt.
+primary_keyword: "kiểm tra đèn còi xi nhan xe thuê"
+hub_parent: huong-dan
+hub_category: an-toan-su-co
 ---
-
 Đèn, còi và xi-nhan là bộ phận khiến người khác biết bạn ở đâu, và trên xe thuê chúng hỏng lẻ tẻ hơn mọi thứ khác. Thử đủ từng cái trước khi rời điểm nhận chỉ mất một phút.
 
 ## Đèn pha và đèn hậu

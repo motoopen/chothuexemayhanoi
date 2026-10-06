@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Nhận xe thuê cần kiểm tra mức nhiên liệu như thế nào?"
+date: 2026-10-07 02:09:07 +0700
+description: "Nhận xe thuê cần kiểm tra mức nhiên liệu đúng cách: đối chiếu kim xăng, quy ước đổ về, và cách ghi nhận để tránh tranh chấp khi trả."
+author: "Motoopen"
 matrix_id: 280
-description: Nhận xe thuê cần kiểm tra mức nhiên liệu đúng cách: đối chiếu kim xăng, quy ước đổ về, và cách ghi nhận để tránh tranh chấp khi trả.
+primary_keyword: "kiểm tra mức xăng xe thuê"
+hub_parent: huong-dan
+hub_category: an-toan-su-co
 ---
-
 Kim xăng là điểm cãi nhau nhỏ nhất nhưng phổ biến nhất lúc nhận và trả xe. Kiểm tra đúng ngay đầu, bạn miễn mọi tranh chấp về nhiên liệu sau này.
 
 ## Đọc kim nhiên liệu đúng cách

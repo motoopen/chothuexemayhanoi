@@ -36,8 +36,8 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 24,
-    "published": 276
+    "planned": 18,
+    "published": 282
   },
   "items": [
     {
@@ -14570,7 +14570,7 @@
         "verify-current-support-policy"
       ],
       "cannibalization_guard": "Mỗi bài tập trung một checklist/rủi ro riêng.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -14582,7 +14582,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "an-toan-su-co"
-      }
+      },
+      "published_at": "2026-10-07T02:09:07+07:00",
+      "published_path": "_posts/2026-10-07-kiem-tra-lop-xe-may-thue.md",
+      "published_url": "/blog/kiem-tra-lop-xe-may-thue/"
     },
     {
       "id": 279,
@@ -14618,7 +14621,7 @@
         "verify-current-support-policy"
       ],
       "cannibalization_guard": "Mỗi bài tập trung một checklist/rủi ro riêng.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -14630,7 +14633,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "an-toan-su-co"
-      }
+      },
+      "published_at": "2026-10-07T02:09:07+07:00",
+      "published_path": "_posts/2026-10-07-kiem-tra-den-coi-xi-nhan-xe-thue.md",
+      "published_url": "/blog/kiem-tra-den-coi-xi-nhan-xe-thue/"
     },
     {
       "id": 280,
@@ -14666,7 +14672,7 @@
         "verify-current-support-policy"
       ],
       "cannibalization_guard": "Mỗi bài tập trung một checklist/rủi ro riêng.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -14678,7 +14684,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "an-toan-su-co"
-      }
+      },
+      "published_at": "2026-10-07T02:09:07+07:00",
+      "published_path": "_posts/2026-10-07-kiem-tra-muc-xang-xe-thue.md",
+      "published_url": "/blog/kiem-tra-muc-xang-xe-thue/"
     },
     {
       "id": 281,
@@ -14714,7 +14723,7 @@
         "verify-current-support-policy"
       ],
       "cannibalization_guard": "Mỗi bài tập trung một checklist/rủi ro riêng.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -14726,7 +14735,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "an-toan-su-co"
-      }
+      },
+      "published_at": "2026-10-07T02:09:07+07:00",
+      "published_path": "_posts/2026-10-07-chup-vet-xuoc-xe-thue.md",
+      "published_url": "/blog/chup-vet-xuoc-xe-thue/"
     },
     {
       "id": 282,
@@ -14762,7 +14774,7 @@
         "verify-current-support-policy"
       ],
       "cannibalization_guard": "Mỗi bài tập trung một checklist/rủi ro riêng.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -14774,7 +14786,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "an-toan-su-co"
-      }
+      },
+      "published_at": "2026-10-07T02:09:07+07:00",
+      "published_path": "_posts/2026-10-07-mu-bao-hiem-khi-thue-xe-may.md",
+      "published_url": "/blog/mu-bao-hiem-khi-thue-xe-may/"
     },
     {
       "id": 283,
@@ -14810,7 +14825,7 @@
         "verify-current-support-policy"
       ],
       "cannibalization_guard": "Mỗi bài tập trung một checklist/rủi ro riêng.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "huong-dan",
         "parent_label": "Hướng dẫn",
@@ -14822,7 +14837,10 @@
       "front_matter": {
         "hub_parent": "huong-dan",
         "hub_category": "an-toan-su-co"
-      }
+      },
+      "published_at": "2026-10-07T02:09:07+07:00",
+      "published_path": "_posts/2026-10-07-di-xe-thue-troi-mua.md",
+      "published_url": "/blog/di-xe-thue-troi-mua/"
     },
     {
       "id": 284,
@@ -15674,5 +15692,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T02:08:17+07:00"
+  "updated_at": "2026-10-07T02:09:07+07:00"
 }
