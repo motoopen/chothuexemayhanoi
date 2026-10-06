@@ -13,29 +13,29 @@ Tuyến cà phê Hà Nội là thú riêng của người có xe máy, vì các 
 
 ## Nhóm quán theo ba khu vực
 
-Khu vực một: phố cổ với các quán trong ngõ, hợp đi buổi sáng sớm. Khu vực hai: ven Hồ Tây cho quán sân vườn, đẹp nhất chiều muộn. Khu vực ba: các quận mới với quán rộng, hợp đi nhóm buổi tối. Trong một buổi chỉ chọn một khu, cách nhóm điểm theo trục đã trình bày trong bài [lịch trình xe máy Phố Cổ Hồ Tây]({{ '/lich-trinh-xe-may-pho-co-ho-tay' | relative_url }}).
+Khu vực một: phố cổ với các quán trong ngõ, hợp đi buổi sáng sớm. Khu vực hai: ven Hồ Tây cho quán sân vườn, đẹp nhất chiều muộn. Khu vực ba: các quận mới với quán rộng, hợp đi nhóm buổi tối. Trong một buổi chỉ chọn một khu, cách nhóm điểm theo trục đã trình bày trong bài [lịch trình xe máy Phố Cổ Hồ Tây]({{ '/blog/lich-trinh-xe-may-pho-co-ho-tay/' | relative_url }}).
 
 ## Chọn quán có chỗ gửi xe
 
-Tiêu chí loại trực tiếp: quán không có chỗ giữ xe và không có điểm gửi gần. Quán trong ngõ nhỏ của phố cổ thường phải gửi ở đầu ngõ rồi đi bộ, nên tính thêm đoạn bộ này vào lịch. Chi phí gửi lẻ qua ba quán một buổi đã liệt kê trong bài [chi phí ăn khi thuê xe máy]({{ '/chi-phi-an-khi-thue-xe-may' | relative_url }}), phần nên hỏi trước khi thuê nằm trong bài [giá thuê xe máy đã bao gồm gì]({{ '/gia-thue-xe-may-da-bao-gom-gi' | relative_url }}).
+Tiêu chí loại trực tiếp: quán không có chỗ giữ xe và không có điểm gửi gần. Quán trong ngõ nhỏ của phố cổ thường phải gửi ở đầu ngõ rồi đi bộ, nên tính thêm đoạn bộ này vào lịch. Chi phí gửi lẻ qua ba quán một buổi đã liệt kê trong bài [chi phí ăn khi thuê xe máy]({{ '/blog/chi-phi-an-khi-thue-xe-may/' | relative_url }}), phần nên hỏi trước khi thuê nằm trong bài [giá thuê xe máy đã bao gồm gì]({{ '/blog/gia-thue-xe-may-da-bao-gom-gi/' | relative_url }}).
 
 ## Canh giờ theo ánh sáng
 
-Buổi sáng cho quán ngõ phố cổ với nắng xiên, sau bốn giờ chiều cho quán ven hồ với hoàng hôn, và buổi tối cho quán có view đèn. Nếu bạn tính kết hợp chụp ảnh, khung giờ đẹp dọc trục phố cổ sang hồ đã nêu trong bài [lịch trình xe máy Phố Cổ Hồ Tây]({{ '/lich-trinh-xe-may-pho-co-ho-tay' | relative_url }}). Di chuyển giữa các khu né hai khung cao điểm đã nêu trong bài [thuê xe máy Hà Nội cao điểm]({{ '/thue-xe-may-ha-noi-mua-cao-diem' | relative_url }}).
+Buổi sáng cho quán ngõ phố cổ với nắng xiên, sau bốn giờ chiều cho quán ven hồ với hoàng hôn, và buổi tối cho quán có view đèn. Nếu bạn tính kết hợp chụp ảnh, khung giờ đẹp dọc trục phố cổ sang hồ đã nêu trong bài [lịch trình xe máy Phố Cổ Hồ Tây]({{ '/blog/lich-trinh-xe-may-pho-co-ho-tay/' | relative_url }}). Di chuyển giữa các khu né hai khung cao điểm đã nêu trong bài [thuê xe máy Hà Nội cao điểm]({{ '/blog/thue-xe-may-ha-noi-mua-cao-diem/' | relative_url }}).
 
 ## Chọn gói thuê
 
-Một buổi cà phê hợp gói theo giờ, khung đã trình bày trong bài [thuê xe máy Hà Nội theo giờ]({{ '/thue-xe-may-ha-noi-theo-gio' | relative_url }}); đi cả ngày ghép sáng chiều thì so gói trong bài [thuê xe máy Hà Nội 1 ngày tính như thế nào]({{ '/thue-xe-may-ha-noi-1-ngay-tinh-nhu-the-nao' | relative_url }}). Với người mới lái trong phố, đọc khuyến nghị trong bài [thuê xe máy cho người mới lái Hà Nội]({{ '/thue-xe-may-cho-nguoi-moi-lai-ha-noi' | relative_url }}) trước khi nhận xe, và rà xe theo checklist trong bài [checklist 10 phút trước khi nhận xe]({{ '/checklist-10-phut-truoc-khi-nhan-xe' | relative_url }}).
+Một buổi cà phê hợp gói theo giờ, khung đã trình bày trong bài [thuê xe máy Hà Nội theo giờ]({{ '/blog/thue-xe-may-ha-noi-theo-gio/' | relative_url }}); đi cả ngày ghép sáng chiều thì so gói trong bài [thuê xe máy Hà Nội 1 ngày tính như thế nào]({{ '/blog/thue-xe-may-ha-noi-1-ngay-tinh-nhu-the-nao/' | relative_url }}). Với người mới lái trong phố, đọc khuyến nghị trong bài [thuê xe máy cho người mới lái Hà Nội]({{ '/blog/thue-xe-may-cho-nguoi-moi-lai-ha-noi/' | relative_url }}) trước khi nhận xe, và rà xe theo checklist trong bài [checklist 10 phút trước khi nhận xe]({{ '/blog/checklist-10-phut-truoc-khi-nhan-xe/' | relative_url }}).
 
 ## Kiểm tra và chụp xe
 
-Xe ga nhỏ gọn hợp tuyến cà phê, so sánh dòng đã có trong bài [xe ga hay xe số]({{ '/xe-ga-hay-xe-so' | relative_url }}). Chụp bốn góc xe lúc nhận theo thói quen trong bài [chụp ảnh xe trước khi thuê]({{ '/chup-anh-xe-truoc-khi-thue' | relative_url }}), vì đỗ trong ngõ dễ cấn vết, phần trách nhiệm vết xước đã phân trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/chi-phi-hu-hong-khi-thue-xe-may' | relative_url }}).
+Xe ga nhỏ gọn hợp tuyến cà phê, so sánh dòng đã có trong bài [xe ga hay xe số]({{ '/blog/xe-ga-hay-xe-so/' | relative_url }}). Chụp bốn góc xe lúc nhận theo thói quen trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}), vì đỗ trong ngõ dễ cấn vết, phần trách nhiệm vết xước đã phân trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/blog/chi-phi-hu-hong-khi-thue-xe-may/' | relative_url }}).
 
 ## Giấy tờ và sự cố
 
-Mang giấy phép lái, căn cận, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/thue-xe-may-ha-noi-can-giay-to-gi' | relative_url }}). Sự cố giữa buổi gọi nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/xe-thue-bi-hong-giua-duong' | relative_url }}). Nếu dự kiến về sau giờ đóng cửa điểm trả, so gói qua đêm trong bài [thuê xe máy Hà Nội qua đêm]({{ '/thue-xe-may-ha-noi-qua-dem' | relative_url }}) thay vì chấp nhận phụ phí trễ theo bài [phí trả xe muộn thuê xe máy]({{ '/phi-tra-xe-muon-thue-xe-may' | relative_url }}).
+Mang giấy phép lái, căn cận, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/blog/thue-xe-may-ha-noi-can-giay-to-gi/' | relative_url }}). Sự cố giữa buổi gọi nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}). Nếu dự kiến về sau giờ đóng cửa điểm trả, so gói qua đêm trong bài [thuê xe máy Hà Nội qua đêm]({{ '/blog/thue-xe-may-ha-noi-qua-dem/' | relative_url }}) thay vì chấp nhận phụ phí trễ theo bài [phí trả xe muộn thuê xe máy]({{ '/blog/phi-tra-xe-muon-thue-xe-may/' | relative_url }}).
 
-Với ai hẹn chụp ảnh cùng bạn bè ở quán, chọn quán có sân rộng để có chỗ đỗ cả nhóm xe, và nhớ mang khóa bọc cốp cho chắc, phần chuẩn bị đồ mang theo đã trình bày trong bài [thuê xe máy Hà Nội mang hành lý]({{ '/thue-xe-may-ha-noi-mang-hanh-ly' | relative_url }}).
+Với ai hẹn chụp ảnh cùng bạn bè ở quán, chọn quán có sân rộng để có chỗ đỗ cả nhóm xe, và nhớ mang khóa bọc cốp cho chắc, phần chuẩn bị đồ mang theo đã trình bày trong bài [thuê xe máy Hà Nội mang hành lý]({{ '/blog/thue-xe-may-ha-noi-mang-hanh-ly/' | relative_url }}).
 
 ## Kết luận
 

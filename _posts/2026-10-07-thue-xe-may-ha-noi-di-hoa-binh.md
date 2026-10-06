@@ -13,27 +13,27 @@ Hòa Bình có hai kiểu chuyến: về phía hồ trong ngày, hoặc băng l�
 
 ## Chọn xe theo quãng đường dự kiến
 
-Chuyến trong ngày tới hồ Hòa Bình chỉ cần xe ga phanh tốt, đường tương đối phẳng và rộng. Nhưng tính đi tiếp lên vùng cao thì ưu tiên xe số hoặc xe ga động cơ khỏe, vì dốc suốt năm dài bắt đầu từ chân đèo, so sánh chi tiết đã có trong bài [xe ga và xe số khi thuê]({{ '/xe-ga-va-xe-so-khi-thue' | relative_url }}). Nếu định ở lại hai đêm, so gói trong bài [thuê xe máy Hà Nội 3 ngày]({{ '/thue-xe-may-ha-noi-3-ngay' | relative_url }}) thay vì tính ngày lẻ.
+Chuyến trong ngày tới hồ Hòa Bình chỉ cần xe ga phanh tốt, đường tương đối phẳng và rộng. Nhưng tính đi tiếp lên vùng cao thì ưu tiên xe số hoặc xe ga động cơ khỏe, vì dốc suốt năm dài bắt đầu từ chân đèo, so sánh chi tiết đã có trong bài [xe ga và xe số khi thuê]({{ '/blog/xe-ga-va-xe-so-khi-thue/' | relative_url }}). Nếu định ở lại hai đêm, so gói trong bài [thuê xe máy Hà Nội 3 ngày]({{ '/blog/thue-xe-may-ha-noi-3-ngay/' | relative_url }}) thay vì tính ngày lẻ.
 
 ## Tải chở quyết định dòng xe
 
-Hai người kèm hai balo thì cốp rộng và yên vững là bắt buộc, phần cân nhắc chở người thứ hai nằm trong bài [thuê xe máy Hà Nội cho 2 người]({{ '/thue-xe-may-ha-noi-cho-2-nguoi' | relative_url }}). Cốp ga vừa đồ cho hai người là khó, nên phân bổ theo hướng dẫn trong bài [chọn cốp xe máy thuê]({{ '/chon-cop-xe-may-thue' | relative_url }}) hoặc cân đồ tại nơi thuê. Xe chở nặng lên dốc hao xăng hơn dự tính, phần chi phí nhiên liệu đã phân tích trong bài [chi phí xăng khi thuê xe máy Hà Nội]({{ '/chi-phi-xang-khi-thue-xe-may-ha-noi' | relative_url }}).
+Hai người kèm hai balo thì cốp rộng và yên vững là bắt buộc, phần cân nhắc chở người thứ hai nằm trong bài [thuê xe máy Hà Nội cho 2 người]({{ '/blog/thue-xe-may-ha-noi-cho-2-nguoi/' | relative_url }}). Cốp ga vừa đồ cho hai người là khó, nên phân bổ theo hướng dẫn trong bài [chọn cốp xe máy thuê]({{ '/blog/chon-cop-xe-may-thue/' | relative_url }}) hoặc cân đồ tại nơi thuê. Xe chở nặng lên dốc hao xăng hơn dự tính, phần chi phí nhiên liệu đã phân tích trong bài [chi phí xăng khi thuê xe máy Hà Nội]({{ '/blog/chi-phi-xang-khi-thue-xe-may-ha-noi/' | relative_url }}).
 
 ## Kiểm tra xe trước khi rời nội đô
 
-Rà phanh, lốp, đèn, còi, và mức xăng trước khi ra khỏi vành đai, vì mọi sửa giữa cung đều mất nửa buổi. Trình tự đầy đủ trong bài [checklist 10 phút trước khi nhận xe]({{ '/checklist-10-phut-truoc-khi-nhan-xe' | relative_url }}), và chụp bốn góc xe theo thói quen trong bài [chụp ảnh xe trước khi thuê]({{ '/chup-anh-xe-truoc-khi-thue' | relative_url }}). Hỏi nơi thuê vị trí trạm xăng gần nhất trên cung, để khỏi cạn giữa đoạn vắng.
+Rà phanh, lốp, đèn, còi, và mức xăng trước khi ra khỏi vành đai, vì mọi sửa giữa cung đều mất nửa buổi. Trình tự đầy đủ trong bài [checklist 10 phút trước khi nhận xe]({{ '/blog/checklist-10-phut-truoc-khi-nhan-xe/' | relative_url }}), và chụp bốn góc xe theo thói quen trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}). Hỏi nơi thuê vị trí trạm xăng gần nhất trên cung, để khỏi cạn giữa đoạn vắng.
 
 ## Giấy tờ và điều kiện người đi
 
-Đường tỉnh có chốt kiểm tra quanh khu vực thị xã, nên mang đăng ký xe, bảo hiểm, giấy phép lái, và căn cước, danh sách đã liệt kê trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/thue-xe-may-ha-noi-can-giay-to-gi' | relative_url }}). Nếu có người nước ngoài cùng đi, chuẩn bị theo bài [thuê xe máy Hà Nội cho người nước ngoài]({{ '/thue-xe-may-ha-noi-cho-nguoi-nuoc-ngoai' | relative_url }}). Nếu bạn định cho người khác thay phiên lái, nhớ cả hai phải đủ giấy phép lái, vì trách nhiệm vi phạm gắn với người cầm lái.
+Đường tỉnh có chốt kiểm tra quanh khu vực thị xã, nên mang đăng ký xe, bảo hiểm, giấy phép lái, và căn cước, danh sách đã liệt kê trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/blog/thue-xe-may-ha-noi-can-giay-to-gi/' | relative_url }}). Nếu có người nước ngoài cùng đi, chuẩn bị theo bài [thuê xe máy Hà Nội cho người nước ngoài]({{ '/blog/thue-xe-may-ha-noi-cho-nguoi-nuoc-ngoai/' | relative_url }}). Nếu bạn định cho người khác thay phiên lái, nhớ cả hai phải đủ giấy phép lái, vì trách nhiệm vi phạm gắn với người cầm lái.
 
 ## Thời gian và thời tiết
 
-Cung Hòa Bình hay sương chiều quanh đèo, nên xuống đèo trước năm giờ chiều và kiểm tra dự báo mưa trước khởi hành. Mùa mưa đá dốc trơn, cách lái an toàn đã nêu trong bài [thuê xe máy Hà Nội mùa mưa]({{ '/thue-xe-may-ha-noi-mua-mua' | relative_url }}). Xuất phát sớm buổi sáng, bạn có cửa sổ rộng cho cả chụp ảnh và nghỉ giữa cung.
+Cung Hòa Bình hay sương chiều quanh đèo, nên xuống đèo trước năm giờ chiều và kiểm tra dự báo mưa trước khởi hành. Mùa mưa đá dốc trơn, cách lái an toàn đã nêu trong bài [thuê xe máy Hà Nội mùa mưa]({{ '/blog/thue-xe-may-ha-noi-mua-mua/' | relative_url }}). Xuất phát sớm buổi sáng, bạn có cửa sổ rộng cho cả chụp ảnh và nghỉ giữa cung.
 
 ## Sự cố giữa cung
 
-Gọi nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước khi tự sửa, trình tự đã mô tả trong bài [xe thuê bị hỏng giữa đường]({{ '/xe-thue-bi-hong-giua-duong' | relative_url }}). Ghi lại vị trí và tình trạng xe bằng ảnh, phần trách nhiệm chi phí nằm trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/chi-phi-hu-hong-khi-thue-xe-may' | relative_url }}). Nếu va chạm có bên thứ ba, trình tự ưu tiên an toàn nằm trong bài [xe thuê bị tai nạn phải làm gì]({{ '/xe-thue-bi-tai-nan-phai-lam-gi' | relative_url }}).
+Gọi nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước khi tự sửa, trình tự đã mô tả trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}). Ghi lại vị trí và tình trạng xe bằng ảnh, phần trách nhiệm chi phí nằm trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/blog/chi-phi-hu-hong-khi-thue-xe-may/' | relative_url }}). Nếu va chạm có bên thứ ba, trình tự ưu tiên an toàn nằm trong bài [xe thuê bị tai nạn phải làm gì]({{ '/blog/xe-thue-bi-tai-nan-phai-lam-gi/' | relative_url }}).
 
 ## Kết luận
 

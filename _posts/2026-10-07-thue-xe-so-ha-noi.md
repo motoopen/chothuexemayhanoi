@@ -17,19 +17,19 @@ Chọn xe số khi hành trình của bạn nhiều đường xấu, ổ gà ho�
 
 ## So với xe ga trên cùng tuyến
 
-Xe ga đầm và yên khi chạy phố, cốp rộng, không cần ra số, tiện cho nội thành thuần. Xe số nhẹ hơn, bứt tốt khi cần vượt trên đường trường, và sửa chữa đơn giản hơn nên nơi thuê ít lo. Nếu lịch của bạn trộn phố và ngoại thành, cả hai đều làm được, quyết định nằm ở sở tay. Ai phân vân giữa ga và xe điện có thể đọc bài [so sánh xe máy điện và xe ga khi thuê]({{ '/xe-may-dien-va-xe-ga-khi-thue' | relative_url }}) cho lựa chọn thứ ba, còn ga đơn thuần thì xem bài [thuê xe ga Hà Nội]({{ '/thue-xe-ga-ha-noi' | relative_url }}).
+Xe ga đầm và yên khi chạy phố, cốp rộng, không cần ra số, tiện cho nội thành thuần. Xe số nhẹ hơn, bứt tốt khi cần vượt trên đường trường, và sửa chữa đơn giản hơn nên nơi thuê ít lo. Nếu lịch của bạn trộn phố và ngoại thành, cả hai đều làm được, quyết định nằm ở sở tay. Ai phân vân giữa ga và xe điện có thể đọc bài [so sánh xe máy điện và xe ga khi thuê]({{ '/blog/xe-may-dien-va-xe-ga-khi-thue/' | relative_url }}) cho lựa chọn thứ ba, còn ga đơn thuần thì xem bài [thuê xe ga Hà Nội]({{ '/blog/thue-xe-ga-ha-noi/' | relative_url }}).
 
 ## Kiểm tra bộ số và dây
 
-Điểm riêng của xe số là bộ số: ga số thử khi xe đứng, các nấp vào rõ, không rít, và khi về số không văng nấc. Chạy thử, nghe bộ ly hợp không trượt ở tốc độ cao, và cài số không đanh. Xem cáp ga và cáp ly hợp không sứt vỏ và bôi trơn đủ. Bóp phanh trước sau, kiểm gai lốp như danh sách trong bài [kiểm tra phanh lốp xe 50cc]({{ '/kiem-tra-phanh-lop-xe-50cc' | relative_url }}). Mọi tiếng kêu lạ từ vùng máy hoặc số đều là lý do đổi xe.
+Điểm riêng của xe số là bộ số: ga số thử khi xe đứng, các nấp vào rõ, không rít, và khi về số không văng nấc. Chạy thử, nghe bộ ly hợp không trượt ở tốc độ cao, và cài số không đanh. Xem cáp ga và cáp ly hợp không sứt vỏ và bôi trơn đủ. Bóp phanh trước sau, kiểm gai lốp như danh sách trong bài [kiểm tra phanh lốp xe 50cc]({{ '/blog/kiem-tra-phanh-lop-xe-50cc/' | relative_url }}). Mọi tiếng kêu lạ từ vùng máy hoặc số đều là lý do đổi xe.
 
 ## Kiểm tra nhiên liệu, đèn và khung
 
-Hỏi nơi thuê giao mức xăng và quy định khi trả, chụp đồng hồ. Bật đèn pha, đèn hậu, bấm còi. Xem khung không rạn, tấm che ống xả không rách, và gương hai bên đều chỉnh được. Trời mưa gần thì thêm hướng dẫn đường ướt trong bài [thuê xe máy điện mùa mưa]({{ '/thue-xe-may-dien-mua-mua' | relative_url }}) vì nguyên tắc lái an toàn là chung. Với chặng ngắn nội thành, xe số tiết kiệm nhất, xem thêm tình huống trong bài [thuê xe máy điện đi quãng ngắn]({{ '/thue-xe-may-dien-di-quang-ngan' | relative_url }}) nếu cân nhắc điện thay thế.
+Hỏi nơi thuê giao mức xăng và quy định khi trả, chụp đồng hồ. Bật đèn pha, đèn hậu, bấm còi. Xem khung không rạn, tấm che ống xả không rách, và gương hai bên đều chỉnh được. Trời mưa gần thì thêm hướng dẫn đường ướt trong bài [thuê xe máy điện mùa mưa]({{ '/blog/thue-xe-may-dien-mua-mua/' | relative_url }}) vì nguyên tắc lái an toàn là chung. Với chặng ngắn nội thành, xe số tiết kiệm nhất, xem thêm tình huống trong bài [thuê xe máy điện đi quãng ngắn]({{ '/blog/thue-xe-may-dien-di-quang-ngan/' | relative_url }}) nếu cân nhắc điện thay thế.
 
 ## Giấy tờ khi thuê xe số
 
-Xe số dưới 50 phân khối không cần bằng lái, trên 50 cần A1, chi tiết trong bài [xe 50cc có cần bằng lái không]({{ '/xe-50cc-co-can-bang-lai-khong' | relative_url }}). Ký hợp đồng ghi giá, cọc, giờ trả, và xin đăng ký bản photo. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/thue-xe-50cc-cho-nguoi-nuoc-ngoai' | relative_url }}). Hỏi tồn kho xe số qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước ngày nhận vì số ít được dự trữ hơn ga.
+Xe số dưới 50 phân khối không cần bằng lái, trên 50 cần A1, chi tiết trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Ký hợp đồng ghi giá, cọc, giờ trả, và xin đăng ký bản photo. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). Hỏi tồn kho xe số qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước ngày nhận vì số ít được dự trữ hơn ga.
 
 ## Kết luận
 

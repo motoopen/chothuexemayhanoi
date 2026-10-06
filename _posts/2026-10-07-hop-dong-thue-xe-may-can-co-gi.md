@@ -13,20 +13,20 @@ Hợp đồng là căn cứ để đối chiếu khi nhận và trả xe, nên m
 
 ## Thông tin hai bên ghi rõ ràng
 
-Hợp đồng nên ghi đầy đủ họ tên, số giấy tờ và số điện thoại của người thuê, kèm thông tin bên cho thuê và người giao xe. Nếu bạn thuê cho người khác đi, tên người thực sự cầm xe cũng phải ghi vào hợp đồng, vì khi có sự cố, bên cho thuê đối chiếu theo đúng người được ghi. Khách lần đầu nên đọc thêm phần thủ tục trong bài [thủ tục thuê xe máy]({{ '/thutuc' | relative_url }}) và danh sách giấy tờ cần mang trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/thue-xe-may-ha-noi-can-giay-to-gi' | relative_url }}).
+Hợp đồng nên ghi đầy đủ họ tên, số giấy tờ và số điện thoại của người thuê, kèm thông tin bên cho thuê và người giao xe. Nếu bạn thuê cho người khác đi, tên người thực sự cầm xe cũng phải ghi vào hợp đồng, vì khi có sự cố, bên cho thuê đối chiếu theo đúng người được ghi. Khách lần đầu nên đọc thêm phần thủ tục trong bài [thủ tục thuê xe máy]({{ '/thutuc' | relative_url }}) và danh sách giấy tờ cần mang trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/blog/thue-xe-may-ha-noi-can-giay-to-gi/' | relative_url }}).
 
 ## Mô tả tình trạng xe khi giao
 
-Đây là mục quan trọng nhất: hợp đồng nên mô tả biển số, loại xe, màu xe, số km hiện tại, mức xăng hoặc pin khi giao, và các vết xước có sẵn nếu có. Mục này giúp bạn không bị quy vết xước cũ vào mình khi trả xe, và nếu có tranh chấp, cả hai đều đối chiếu được bằng văn bản. Khi nhận xe, bạn kiểm thêm theo checklist trong bài [checklist nhận xe 50cc]({{ '/checklist-nhan-xe-50cc' | relative_url }}) rồi mới ký.
+Đây là mục quan trọng nhất: hợp đồng nên mô tả biển số, loại xe, màu xe, số km hiện tại, mức xăng hoặc pin khi giao, và các vết xước có sẵn nếu có. Mục này giúp bạn không bị quy vết xước cũ vào mình khi trả xe, và nếu có tranh chấp, cả hai đều đối chiếu được bằng văn bản. Khi nhận xe, bạn kiểm thêm theo checklist trong bài [checklist nhận xe 50cc]({{ '/blog/checklist-nhan-xe-50cc/' | relative_url }}) rồi mới ký.
 
 ## Mục xe, mũ và phụ kiện đi kèm
 
-Hợp đồng nên liệt kê phụ kiện đi kèm xe: mũ bảo hiểm mấy chiếc, áo mưa, khóa xe, sạc theo xe điện. Với xe điện, hỏi luôn phần sạc khi thuê trong bài [sạc xe máy điện khi thuê]({{ '/sac-xe-may-dien-khi-thue' | relative_url }}) để biết bộ sạc được tính thế nào. Mỗi món có trong hợp đồng thì khi trả thiếu món nào, bạn chỉ đền đúng món đó theo mức ghi sẵn, thay vì phải thương lượng một mức phạt mơ hồ.
+Hợp đồng nên liệt kê phụ kiện đi kèm xe: mũ bảo hiểm mấy chiếc, áo mưa, khóa xe, sạc theo xe điện. Với xe điện, hỏi luôn phần sạc khi thuê trong bài [sạc xe máy điện khi thuê]({{ '/blog/sac-xe-may-dien-khi-thue/' | relative_url }}) để biết bộ sạc được tính thế nào. Mỗi món có trong hợp đồng thì khi trả thiếu món nào, bạn chỉ đền đúng món đó theo mức ghi sẵn, thay vì phải thương lượng một mức phạt mơ hồ.
 
 ## Điều khoản tiền thuê, cọc và hoàn cọc
 
 Hợp đồng nên ghi rõ giá thuê theo ngày hoặc theo tuần, tổng số tiền đã trả trước, số tiền cọc và điều kiện hoàn cọc. Mức giá nên khớp 
-với bảng giá công bố, tham khảo trang [bảng giá]({{ '/banggia.html' | relative_url }}) để đối chiếu trước khi ký. Phần cọc nên nêu rõ khoản nào bị trừ: mất mũ, hết xăng, trả trễ giờ, và khoản nào bên cho thuê không được tự ý giữ, xem thêm phần đặt cọc trong bài [tiền cọc thuê xe máy Hà Nội]({{ '/tien-coc-thue-xe-may-ha-noi' | relative_url }}).
+với bảng giá công bố, tham khảo trang [bảng giá]({{ '/banggia.html' | relative_url }}) để đối chiếu trước khi ký. Phần cọc nên nêu rõ khoản nào bị trừ: mất mũ, hết xăng, trả trễ giờ, và khoản nào bên cho thuê không được tự ý giữ, xem thêm phần đặt cọc trong bài [tiền cọc thuê xe máy Hà Nội]({{ '/blog/tien-coc-thue-xe-may-ha-noi/' | relative_url }}).
 
 ## Trách nhiệm khi hư hỏng hoặc mất mát
 

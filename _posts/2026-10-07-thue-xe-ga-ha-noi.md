@@ -13,11 +13,11 @@ Xe ga là lựa chọn phổ biến nhất khi thuê xe ở Hà Nội vì dễ l
 
 ## Ai phù hợp với xe ga
 
-Xe ga hợp ba nhóm: người lần đầu đến Hà Nội cần xe dễ làm quen, khách đi nội thành với lộ trình trung bình mỗi ngày, và người cần cốp rộng đựng mũ cùng đồ. Tay ga không số, không đạp, ngồi thoải mái nên hợp cả người ít kinh nghiệm. Nhược điểm là xe nặng hơn xe số cùng cỡ và giá thuê nhỉnh hơn chút. Ai chỉ chạy các chặng rất ngắn trong ngõ nhỏ có thể cân nhắc xe nhẹ hơn như trong bài [so sánh Cub 50cc và xe ga 50cc]({{ '/cub-50cc-va-xe-ga-50cc' | relative_url }}).
+Xe ga hợp ba nhóm: người lần đầu đến Hà Nội cần xe dễ làm quen, khách đi nội thành với lộ trình trung bình mỗi ngày, và người cần cốp rộng đựng mũ cùng đồ. Tay ga không số, không đạp, ngồi thoải mái nên hợp cả người ít kinh nghiệm. Nhược điểm là xe nặng hơn xe số cùng cỡ và giá thuê nhỉnh hơn chút. Ai chỉ chạy các chặng rất ngắn trong ngõ nhỏ có thể cân nhắc xe nhẹ hơn như trong bài [so sánh Cub 50cc và xe ga 50cc]({{ '/blog/cub-50cc-va-xe-ga-50cc/' | relative_url }}).
 
 ## Chọn đúng dòng ga theo hành trình
 
-Ga 50cc loại nhỏ gọn hợp nội thành ngắn ngày, ga 100 đến 125 phân khối hợp lộ trình xen kẽ ngoại thành vì đầm và bốc hơn. Đi xa hoặc chở hai người thì chọn đời cao có phanh đĩa. Hỏi nơi thuê hiện có dòng nào qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) và nói rõ tổng quãng dự kiến để họ tư vấn đúng. Với hành trình dài, đọc cách lập kế hoạch trong bài [thuê xe máy điện đi đường dài]({{ '/thue-xe-may-dien-di-duong-dai' | relative_url }}) nếu bạn cân nhắc điện, còn xăng thì xe ga 110 trở lên là đủ.
+Ga 50cc loại nhỏ gọn hợp nội thành ngắn ngày, ga 100 đến 125 phân khối hợp lộ trình xen kẽ ngoại thành vì đầm và bốc hơn. Đi xa hoặc chở hai người thì chọn đời cao có phanh đĩa. Hỏi nơi thuê hiện có dòng nào qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) và nói rõ tổng quãng dự kiến để họ tư vấn đúng. Với hành trình dài, đọc cách lập kế hoạch trong bài [thuê xe máy điện đi đường dài]({{ '/blog/thue-xe-may-dien-di-duong-dai/' | relative_url }}) nếu bạn cân nhắc điện, còn xăng thì xe ga 110 trở lên là đủ.
 
 ## Kiểm tra máy và ga
 
@@ -25,11 +25,11 @@ Trước khi nhận, đề máy nghe tiếng đều, không kêu lục cục. V�
 
 ## Kiểm tra xăng, lốp và đèn
 
-Hỏi nơi thuê giao bao nhiêu lít và quy định trả xăng thế nào, chụp đồng hồ lại. Xem lốp trước sau còn gai, không phồng, bóp thử áp suất. Bật đèn pha, đèn hậu, bấm còi, và thử xi nhan nếu có. Danh sách chi tiết từng mục nằm trong bài [kiểm tra phanh lốp xe 50cc]({{ '/kiem-tra-phanh-lop-xe-50cc' | relative_url }}), tiêu chuẩn áp dụng cho xe ga như nhau. Trời mưa gần thì xem thêm hướng dẫn trong bài [thuê xe máy điện mùa mưa]({{ '/thue-xe-may-dien-mua-mua' | relative_url }}) cho nhóm nguyên tắc lái đường ướt.
+Hỏi nơi thuê giao bao nhiêu lít và quy định trả xăng thế nào, chụp đồng hồ lại. Xem lốp trước sau còn gai, không phồng, bóp thử áp suất. Bật đèn pha, đèn hậu, bấm còi, và thử xi nhan nếu có. Danh sách chi tiết từng mục nằm trong bài [kiểm tra phanh lốp xe 50cc]({{ '/blog/kiem-tra-phanh-lop-xe-50cc/' | relative_url }}), tiêu chuẩn áp dụng cho xe ga như nhau. Trời mưa gần thì xem thêm hướng dẫn trong bài [thuê xe máy điện mùa mưa]({{ '/blog/thue-xe-may-dien-mua-mua/' | relative_url }}) cho nhóm nguyên tắc lái đường ướt.
 
 ## Giấy tờ và phụ kiện
 
-Xe ga trên 50 phân khối cần bằng lái A1 khi điều khiển, còn nhóm dưới 50 không cần, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/xe-50cc-co-can-bang-lai-khong' | relative_url }}). Kiểm hợp đồng ghi giá, cọc, giờ trả và trách nhiệm hư hỏng. Đếm mũ đủ cho từng người, kính sạch. Chụp đăng ký xe hoặc bản photo nơi thuê giao, và lưu số hỗ trợ. Ai mang nhiều đồ xem thêm cách xếp trong bài [xe 50cc mang hành lý]({{ '/xe-50cc-mang-hanh-ly' | relative_url }}).
+Xe ga trên 50 phân khối cần bằng lái A1 khi điều khiển, còn nhóm dưới 50 không cần, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Kiểm hợp đồng ghi giá, cọc, giờ trả và trách nhiệm hư hỏng. Đếm mũ đủ cho từng người, kính sạch. Chụp đăng ký xe hoặc bản photo nơi thuê giao, và lưu số hỗ trợ. Ai mang nhiều đồ xem thêm cách xếp trong bài [xe 50cc mang hành lý]({{ '/blog/xe-50cc-mang-hanh-ly/' | relative_url }}).
 
 ## Kết luận
 

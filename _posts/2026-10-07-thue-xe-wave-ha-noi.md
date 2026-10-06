@@ -13,23 +13,23 @@ Honda Wave là mẫu xe số nhỏ bền bỉ, và khi thuê ở Hà Nội nó p
 
 ## Hành trình nội thành ngắn ngày
 
-Wave hợp nội thành ngắn ngày hơn cả xe ga lớn: nhẹ, lọt ngõ, dễ dấu xe, và tốn xăng gần như không đáng kể. Đi làm, đi chợ, dạo quanh Hoàn Kiếm đều là điểm mạnh của Wave. Nếu bạn cân nhắc giữa Wave và dòng 50cc gắn máy nhỏ, bài [so sánh Cub 50cc và Wave 50cc]({{ '/cub-50cc-va-wave-50cc' | relative_url }}) tóm khác biệt rõ. Với khách chỉ cần xe rẻ chạy lẻ tẻ trong ngày, Wave gần như luôn là đáp án rẻ nhất, chỉ nhường chỗ cho xe điện khi chỗ lưu trú có cắm sạc qua đêm.
+Wave hợp nội thành ngắn ngày hơn cả xe ga lớn: nhẹ, lọt ngõ, dễ dấu xe, và tốn xăng gần như không đáng kể. Đi làm, đi chợ, dạo quanh Hoàn Kiếm đều là điểm mạnh của Wave. Nếu bạn cân nhắc giữa Wave và dòng 50cc gắn máy nhỏ, bài [so sánh Cub 50cc và Wave 50cc]({{ '/blog/cub-50cc-va-wave-50cc/' | relative_url }}) tóm khác biệt rõ. Với khách chỉ cần xe rẻ chạy lẻ tẻ trong ngày, Wave gần như luôn là đáp án rẻ nhất, chỉ nhường chỗ cho xe điện khi chỗ lưu trú có cắm sạc qua đêm.
 
 ## Hành trình ngõ xấu và đường trũng
 
-Wave có khung chắc, treo cứng chịu sốc, và gầm cao nên hợp ngõ xấu, đường trũng sau mưa, hoặc khu ngoại thành còn ổ gà. Xe ga và xe điện gầm thấp dễ cạ gầm trên cùng loại đường. Nếu lịch của bạn có chặng vào khu dân cư cũ hoặc chợ buổi sáng, Wave tự tin hơn. Nguyên tắc lái đường ướt dùng chung cho mọi xe nằm trong bài [thuê xe máy điện mùa mưa]({{ '/thue-xe-may-dien-mua-mua' | relative_url }}).
+Wave có khung chắc, treo cứng chịu sốc, và gầm cao nên hợp ngõ xấu, đường trũng sau mưa, hoặc khu ngoại thành còn ổ gà. Xe ga và xe điện gầm thấp dễ cạ gầm trên cùng loại đường. Nếu lịch của bạn có chặng vào khu dân cư cũ hoặc chợ buổi sáng, Wave tự tin hơn. Nguyên tắc lái đường ướt dùng chung cho mọi xe nằm trong bài [thuê xe máy điện mùa mưa]({{ '/blog/thue-xe-may-dien-mua-mua/' | relative_url }}).
 
 ## Hành trình dài và liên tỉnh
 
-Wave đầm hơn cỡ nhỏ của nó, chạy 50 đến 60 cây số mỗi giờ đường trường ổn, nên hợp cả chuyến Hà Nội đi tỉnh lân cận như Hưng Yên, Bắc Ninh trong ngày. Chỗ yếu là yên cứng và thiếu cốp, nên chuyến dài nên nghỉ giữa chặng và mang đồ gọn. Với lộ trình trên 100 cây số, cân nhắc dòng ga lớn, xem hướng dẫn trong bài [thuê xe ga Hà Nội]({{ '/thue-xe-ga-ha-noi' | relative_url }}). Ai định thuê điện cho đường dài thì đọc trước kế hoạch pin trong bài [thuê xe máy điện đi đường dài]({{ '/thue-xe-may-dien-di-duong-dai' | relative_url }}).
+Wave đầm hơn cỡ nhỏ của nó, chạy 50 đến 60 cây số mỗi giờ đường trường ổn, nên hợp cả chuyến Hà Nội đi tỉnh lân cận như Hưng Yên, Bắc Ninh trong ngày. Chỗ yếu là yên cứng và thiếu cốp, nên chuyến dài nên nghỉ giữa chặng và mang đồ gọn. Với lộ trình trên 100 cây số, cân nhắc dòng ga lớn, xem hướng dẫn trong bài [thuê xe ga Hà Nội]({{ '/blog/thue-xe-ga-ha-noi/' | relative_url }}). Ai định thuê điện cho đường dài thì đọc trước kế hoạch pin trong bài [thuê xe máy điện đi đường dài]({{ '/blog/thue-xe-may-dien-di-duong-dai/' | relative_url }}).
 
 ## Kiểm tra Wave trước khi nhận
 
-Kiểm bộ số: ga số rõ nấc, không văng số, nghe bộ máy không rít. Đề nhanh, ga lên đều và về gọn. Bóp phanh trước sau, soi gai lốp và áp suất theo chuẩn trong bài [kiểm tra phanh lốp xe 50cc]({{ '/kiem-tra-phanh-lop-xe-50cc' | relative_url }}). Bật đèn pha, đèn hậu, bấm còi. Hỏi mức xăng giao và quy định khi trả, chụp đồng hồ. Chạy thử vòng quanh quầy, lên xuống hết các nấc, mọi tiếng kêu lạ đều là lý do xin xe khác.
+Kiểm bộ số: ga số rõ nấc, không văng số, nghe bộ máy không rít. Đề nhanh, ga lên đều và về gọn. Bóp phanh trước sau, soi gai lốp và áp suất theo chuẩn trong bài [kiểm tra phanh lốp xe 50cc]({{ '/blog/kiem-tra-phanh-lop-xe-50cc/' | relative_url }}). Bật đèn pha, đèn hậu, bấm còi. Hỏi mức xăng giao và quy định khi trả, chụp đồng hồ. Chạy thử vòng quanh quầy, lên xuống hết các nấc, mọi tiếng kêu lạ đều là lý do xin xe khác.
 
 ## Giấy tờ, mũ và điều khoản
 
-Wave phổ biến ở bản 110 nên cần bằng lái A1, nhóm 50cc thì không cần, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/xe-50cc-co-can-bang-lai-khong' | relative_url }}). Ký hợp đồng ghi giá, cọc, giờ trả, và xin đăng ký bản photo. Đếm mũ cho từng người, kính sạch. Khách quốc tế mang hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/thue-xe-50cc-cho-nguoi-nuoc-ngoai' | relative_url }}). Hỏi tồn kho qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước ngày nhận vì Wave được chọn nhiều cuối tuần.
+Wave phổ biến ở bản 110 nên cần bằng lái A1, nhóm 50cc thì không cần, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Ký hợp đồng ghi giá, cọc, giờ trả, và xin đăng ký bản photo. Đếm mũ cho từng người, kính sạch. Khách quốc tế mang hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). Hỏi tồn kho qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước ngày nhận vì Wave được chọn nhiều cuối tuần.
 
 ## Kết luận
 

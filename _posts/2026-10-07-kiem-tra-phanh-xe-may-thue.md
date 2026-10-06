@@ -13,7 +13,7 @@ Phanh là thứ không được phép sai trên xe thuê, vì bạn không biế
 
 ## Bướm thử phanh ở tốc độ thấp
 
-Ngay tại khu vực nhận xe, chạy nhẹ mười mét rồi bóp phanh trước, rồi phanh sau, mỗi bên riêng lẻ: phanh phải ăn ngay từ nửa vòng tay ga, và xe không bị lệch. Xe gạt về một bên khi bóp là dấu má phanh mòn không đều, yêu cầu đổi xe ngay, tiêu chí đổi xe đã nêu trong bài [thuê xe máy Hà Nội uy tín]({{ '/thue-xe-may-ha-noi-uy-tin' | relative_url }}). Trình tự rà tổng thể nằm trong bài [checklist 10 phút trước khi nhận xe]({{ '/checklist-10-phut-truoc-khi-nhan-xe' | relative_url }}).
+Ngay tại khu vực nhận xe, chạy nhẹ mười mét rồi bóp phanh trước, rồi phanh sau, mỗi bên riêng lẻ: phanh phải ăn ngay từ nửa vòng tay ga, và xe không bị lệch. Xe gạt về một bên khi bóp là dấu má phanh mòn không đều, yêu cầu đổi xe ngay, tiêu chí đổi xe đã nêu trong bài [thuê xe máy Hà Nội uy tín]({{ '/blog/thue-xe-may-ha-noi-uy-tin/' | relative_url }}). Trình tự rà tổng thể nằm trong bài [checklist 10 phút trước khi nhận xe]({{ '/blog/checklist-10-phut-truoc-khi-nhan-xe/' | relative_url }}).
 
 ## Rà má phanh và thắng tay
 
@@ -21,21 +21,21 @@ Với xe có gác may, nhìn khe má phanh xem còn dày không, và kéo thắn
 
 ## Phanh của từng dòng xe
 
-Xe số cần thử cảm giác nhả côn kết hợp phanh ở tốc độ thấp, phần so sánh với xe ga đã có trong bài [xe ga và xe số khi thuê]({{ '/xe-ga-va-xe-so-khi-thue' | relative_url }}). Xe 50cc phanh kiểu trống nhiều, nên rà tiếng kêu khi bóp, vì trống mòn có kêu, phần giới hạn dòng 50cc đã nêu trong bài [thuê xe 50cc đi đường dài]({{ '/thue-xe-50cc-di-duong-dai' | relative_url }}). Xe điện có phanh hồi năng, thử cảm giác nhả déc phanh sớm hơn xe xăng, phần đặc thù xe điện đã trình bày trong bài [checklist nhận xe máy điện]({{ '/checklist-nhan-xe-may-dien' | relative_url }}).
+Xe số cần thử cảm giác nhả côn kết hợp phanh ở tốc độ thấp, phần so sánh với xe ga đã có trong bài [xe ga và xe số khi thuê]({{ '/blog/xe-ga-va-xe-so-khi-thue/' | relative_url }}). Xe 50cc phanh kiểu trống nhiều, nên rà tiếng kêu khi bóp, vì trống mòn có kêu, phần giới hạn dòng 50cc đã nêu trong bài [thuê xe 50cc đi đường dài]({{ '/blog/thue-xe-50cc-di-duong-dai/' | relative_url }}). Xe điện có phanh hồi năng, thử cảm giác nhả déc phanh sớm hơn xe xăng, phần đặc thù xe điện đã trình bày trong bài [checklist nhận xe máy điện]({{ '/blog/checklist-nhan-xe-may-dien/' | relative_url }}).
 
 ## Chọn xe theo cung dự kiến
 
-Đi phố thì phanh vừa ổn chấp nhận được, nhưng lên các cung núi như Ba Vì hay Tam Đảo, yêu cầu xe có phanh đĩa trước, phần cân chọn cho cung dốc đã nêu trong bài [thuê xe máy đi đường dài từ Hà Nội]({{ '/thue-xe-may-di-duong-dai-tu-ha-noi' | relative_url }}). Chở thêm người phía sau cũng đòi phanh tốt hơn, phần cân chọn đã có trong bài [thuê xe máy Hà Nội cho 2 người]({{ '/thue-xe-may-ha-noi-cho-2-nguoi' | relative_url }}).
+Đi phố thì phanh vừa ổn chấp nhận được, nhưng lên các cung núi như Ba Vì hay Tam Đảo, yêu cầu xe có phanh đĩa trước, phần cân chọn cho cung dốc đã nêu trong bài [thuê xe máy đi đường dài từ Hà Nội]({{ '/blog/thue-xe-may-di-duong-dai-tu-ha-noi/' | relative_url }}). Chở thêm người phía sau cũng đòi phanh tốt hơn, phần cân chọn đã có trong bài [thuê xe máy Hà Nội cho 2 người]({{ '/blog/thue-xe-may-ha-noi-cho-2-nguoi/' | relative_url }}).
 
 ## Phanh yếu giữa chặng
 
-Phanh nhả dần giữa cung thì kéo lề, để máy và phanh nguội rồi mới đi tiếp, vì phanh nóng sau dốc dài là hiện tượng thường gặp, không phải hỏng. Vẫn yếu sau khi nghỉ thì gọi ngay nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/xe-thue-bi-hong-giua-duong' | relative_url }}), và không tự vào tiệm sửa, vì phần chi phí đã phân trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/chi-phi-hu-hong-khi-thue-xe-may' | relative_url }}).
+Phanh nhả dần giữa cung thì kéo lề, để máy và phanh nguội rồi mới đi tiếp, vì phanh nóng sau dốc dài là hiện tượng thường gặp, không phải hỏng. Vẫn yếu sau khi nghỉ thì gọi ngay nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}), và không tự vào tiệm sửa, vì phần chi phí đã phân trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/blog/chi-phi-hu-hong-khi-thue-xe-may/' | relative_url }}).
 
 ## Hồ sơ và giấy tờ
 
-Chụp bốn góc xe kèm ghi chú về phanh ngay lúc nhận, thói quen trong bài [chụp ảnh xe trước khi thuê]({{ '/chup-anh-xe-truoc-khi-thue' | relative_url }}), để nếu phanh hỏng sau này, hai bên có ảnh đối chiếu. Mang đủ giấy phép lái và giấy tờ xe theo danh sách trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/thue-xe-may-ha-noi-can-giay-to-gi' | relative_url }}), và trả đúng giờ theo khung trong bài [phí trả xe muộn thuê xe máy]({{ '/phi-tra-xe-muon-thue-xe-may' | relative_url }}).
+Chụp bốn góc xe kèm ghi chú về phanh ngay lúc nhận, thói quen trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}), để nếu phanh hỏng sau này, hai bên có ảnh đối chiếu. Mang đủ giấy phép lái và giấy tờ xe theo danh sách trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/blog/thue-xe-may-ha-noi-can-giay-to-gi/' | relative_url }}), và trả đúng giờ theo khung trong bài [phí trả xe muộn thuê xe máy]({{ '/blog/phi-tra-xe-muon-thue-xe-may/' | relative_url }}).
 
-Với chuyến đi núi, nhắc lại nguyên tắc hạ số kết hợp phanh động cơ thay vì đè phanh liên tục, vì má phanh nóng mất hiệu quả chính là nguyên nhân khiến phanh yếu giữa dốc, phần kỹ thuật đã gợi ý trong bài [xe ga và xe số khi thuê]({{ '/xe-ga-va-xe-so-khi-thue' | relative_url }}).
+Với chuyến đi núi, nhắc lại nguyên tắc hạ số kết hợp phanh động cơ thay vì đè phanh liên tục, vì má phanh nóng mất hiệu quả chính là nguyên nhân khiến phanh yếu giữa dốc, phần kỹ thuật đã gợi ý trong bài [xe ga và xe số khi thuê]({{ '/blog/xe-ga-va-xe-so-khi-thue/' | relative_url }}).
 
 ## Kết luận
 

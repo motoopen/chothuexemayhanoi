@@ -13,15 +13,15 @@ hub_category: cac-loai-xe
 
 ## Khi nào xe nhẹ thắng
 
-Đi một mình với balo nhỏ, lịch nội thành lẻ tẻ, và hay đỗ ở ngõ hẹp hoặc khu đông: xe nhẹ thắng tuyệt đối. Nhấc chỉnh xe dễ, quay đầu trong ngóc nhỏ được, và dấu xe gọn. Nhóm nhẹ gồm 50cc và xe điện mini, tham khảo bài [so sánh Cub 50cc và xe ga 50cc]({{ '/cub-50cc-va-xe-ga-50cc' | relative_url }}) và [thuê xe 50cc không cần bằng lái]({{ '/thue-xe-50cc-khong-can-bang-lai' | relative_url }}) cho lựa chọn không cần giấy tờ. Xe điện mini còn êm và rẻ nhiên liệu, xem bài [thuê xe máy điện đi quãng ngắn]({{ '/thue-xe-may-dien-di-quang-ngan' | relative_url }}).
+Đi một mình với balo nhỏ, lịch nội thành lẻ tẻ, và hay đỗ ở ngõ hẹp hoặc khu đông: xe nhẹ thắng tuyệt đối. Nhấc chỉnh xe dễ, quay đầu trong ngóc nhỏ được, và dấu xe gọn. Nhóm nhẹ gồm 50cc và xe điện mini, tham khảo bài [so sánh Cub 50cc và xe ga 50cc]({{ '/blog/cub-50cc-va-xe-ga-50cc/' | relative_url }}) và [thuê xe 50cc không cần bằng lái]({{ '/blog/thue-xe-50cc-khong-can-bang-lai/' | relative_url }}) cho lựa chọn không cần giấy tờ. Xe điện mini còn êm và rẻ nhiên liệu, xem bài [thuê xe máy điện đi quãng ngắn]({{ '/blog/thue-xe-may-dien-di-quang-ngan/' | relative_url }}).
 
 ## Khi nào cốp lớn thắng
 
-Mang đồ nhiều: máy ảnh, túi mua sắm, hai ba vật mỗi ngày: cốp lớn giải quyết hết mà khỏi cần đeo thêm. Dòng cốp rộng nhất đã tóm trong bài [thuê xe Lead Hà Nội]({{ '/thue-xe-lead-ha-noi' | relative_url }}) và cách xếp trong bài [xe 50cc mang hành lý]({{ '/xe-50cc-mang-hanh-ly' | relative_url }}). Cốp lớn còn giúp mũ khỏi treo ngoài khi đỗ. Đổi lại xe nặng hơn chút và giá thuê nhỉnh hơn, một mình lái vẫn nhẹ nhàng vì dòng ga nhỏ vốn dễ điều khiển.
+Mang đồ nhiều: máy ảnh, túi mua sắm, hai ba vật mỗi ngày: cốp lớn giải quyết hết mà khỏi cần đeo thêm. Dòng cốp rộng nhất đã tóm trong bài [thuê xe Lead Hà Nội]({{ '/blog/thue-xe-lead-ha-noi/' | relative_url }}) và cách xếp trong bài [xe 50cc mang hành lý]({{ '/blog/xe-50cc-mang-hanh-ly/' | relative_url }}). Cốp lớn còn giúp mũ khỏi treo ngoài khi đỗ. Đổi lại xe nặng hơn chút và giá thuê nhỉnh hơn, một mình lái vẫn nhẹ nhàng vì dòng ga nhỏ vốn dễ điều khiển.
 
 ## Cân theo hành trình thật của bạn
 
-Kỳ nội thành ngắn và đồ vừa thì xe nhẹ gọn hơn hẳn. Kỳ có chặng đường trường hoặc dạo xa cuối tuần thì dòng ga trung đầm hơn, xem bài [thuê xe ga Hà Nội]({{ '/thue-xe-ga-ha-noi' | relative_url }}) và [thuê xe máy đi phố đông Hà Nội]({{ '/thue-xe-may-di-pho-dong-ha-noi' | relative_url }}) cho nhu cầu lắt nhắt trong phố. Lịch trộn nhiều loại chặng thì cốp lớn là lựa chọn an toàn vì tiện dụng không đổi chặng được, còn độ gọn chỉ mất chút ít khi một người lái.
+Kỳ nội thành ngắn và đồ vừa thì xe nhẹ gọn hơn hẳn. Kỳ có chặng đường trường hoặc dạo xa cuối tuần thì dòng ga trung đầm hơn, xem bài [thuê xe ga Hà Nội]({{ '/blog/thue-xe-ga-ha-noi/' | relative_url }}) và [thuê xe máy đi phố đông Hà Nội]({{ '/blog/thue-xe-may-di-pho-dong-ha-noi/' | relative_url }}) cho nhu cầu lắt nhắt trong phố. Lịch trộn nhiều loại chặng thì cốp lớn là lựa chọn an toàn vì tiện dụng không đổi chặng được, còn độ gọn chỉ mất chút ít khi một người lái.
 
 ## Cân theo nơi bạn đỗ xe
 
@@ -29,7 +29,7 @@ Kỳ nội thành ngắn và đồ vừa thì xe nhẹ gọn hơn hẳn. Kỳ c�
 
 ## Giấy tờ và kiểm tra cơ bản
 
-Một người lái thì mọi nhóm giấy tờ đều mở: 50cc không cần bằng, trên 50 cần A1, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/xe-50cc-co-can-bang-lai-khong' | relative_url }}). Kiểm cơ bản không đổi: phanh lốp đèn theo chuẩn trong bài [kiểm tra phanh lốp xe 50cc]({{ '/kiem-tra-phanh-lop-xe-50cc' | relative_url }}), và chạy thử vòng quầy. Trời mưa gần thì thêm nguyên tắc đường ướt trong bài [thuê xe máy điện mùa mưa]({{ '/thue-xe-may-dien-mua-mua' | relative_url }}), đi một mình càng nên phanh sớm vì không người sau nhắc nhở.
+Một người lái thì mọi nhóm giấy tờ đều mở: 50cc không cần bằng, trên 50 cần A1, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Kiểm cơ bản không đổi: phanh lốp đèn theo chuẩn trong bài [kiểm tra phanh lốp xe 50cc]({{ '/blog/kiem-tra-phanh-lop-xe-50cc/' | relative_url }}), và chạy thử vòng quầy. Trời mưa gần thì thêm nguyên tắc đường ướt trong bài [thuê xe máy điện mùa mưa]({{ '/blog/thue-xe-may-dien-mua-mua/' | relative_url }}), đi một mình càng nên phanh sớm vì không người sau nhắc nhở.
 
 ## Kết luận
 

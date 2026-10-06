@@ -13,7 +13,7 @@ Mọi nơi thuê xe đều nói xe mình tiết kiệm xăng, nên so sánh bằ
 
 ## Dung tích máy và trọng lượng xe
 
-Hai con số nói nhiều nhất về mức tiêu hao: dung tích xy lanh và trọng lượng xe. Máy 50 đến 110 phân khối tốn ít nhất, nhóm này gồm hầu hết xe số nhỏ, xem bài [thuê xe Sirius Hà Nội]({{ '/thue-xe-sirius-ha-noi' | relative_url }}) và [thuê xe số Hà Nội]({{ '/thue-xe-so-ha-noi' | relative_url }}). Xe càng nặng càng tốn, dòng ga lớn như SH tiêu hao rõ, cân nhắc trong bài [thuê xe SH Hà Nội]({{ '/thue-xe-sh-ha-noi' | relative_url }}). Nếu xe điện nằm trong phương án, chi phí nhiên liệu của nó gần như không đáng kể so với xăng, so chi tiết trong bài [so sánh xe máy điện và xe ga khi thuê]({{ '/xe-may-dien-va-xe-ga-khi-thue' | relative_url }}).
+Hai con số nói nhiều nhất về mức tiêu hao: dung tích xy lanh và trọng lượng xe. Máy 50 đến 110 phân khối tốn ít nhất, nhóm này gồm hầu hết xe số nhỏ, xem bài [thuê xe Sirius Hà Nội]({{ '/blog/thue-xe-sirius-ha-noi/' | relative_url }}) và [thuê xe số Hà Nội]({{ '/blog/thue-xe-so-ha-noi/' | relative_url }}). Xe càng nặng càng tốn, dòng ga lớn như SH tiêu hao rõ, cân nhắc trong bài [thuê xe SH Hà Nội]({{ '/blog/thue-xe-sh-ha-noi/' | relative_url }}). Nếu xe điện nằm trong phương án, chi phí nhiên liệu của nó gần như không đáng kể so với xăng, so chi tiết trong bài [so sánh xe máy điện và xe ga khi thuê]({{ '/blog/xe-may-dien-va-xe-ga-khi-thue/' | relative_url }}).
 
 ## Đời máy quan trọng hơn nhãn hiệu
 
@@ -25,11 +25,11 @@ Không có đồng hồ đo chính xác ở xe máy, nhưng hai dấu hiệu đo
 
 ## Tính chi phí nhiên liệu vào giá thuê
 
-Giá thuê thấp hơn nhưng tốn xăng có khi đắt hơn tổng. Ví dụ đơn giản: xe giá rẻ hao xăng gấp rưỡi sẽ lỗ sau vài ngày đường trường. Khi so hai xe, cộng giá thuê theo kỳ với ước tính tiền xăng theo quãng dự kiến, cách so đã minh họa trong bài [thuê xe máy điện đi quãng ngắn]({{ '/thue-xe-may-dien-di-quang-ngan' | relative_url }}) cho phía điện. Lịch dài liên tỉnh thì phần nhiên liệu chiếm tỷ trọng lớn, cân thêm dòng đầm theo bài [thuê xe máy đi đường dài từ Hà Nội]({{ '/thue-xe-may-di-duong-dai-tu-ha-noi' | relative_url }}).
+Giá thuê thấp hơn nhưng tốn xăng có khi đắt hơn tổng. Ví dụ đơn giản: xe giá rẻ hao xăng gấp rưỡi sẽ lỗ sau vài ngày đường trường. Khi so hai xe, cộng giá thuê theo kỳ với ước tính tiền xăng theo quãng dự kiến, cách so đã minh họa trong bài [thuê xe máy điện đi quãng ngắn]({{ '/blog/thue-xe-may-dien-di-quang-ngan/' | relative_url }}) cho phía điện. Lịch dài liên tỉnh thì phần nhiên liệu chiếm tỷ trọng lớn, cân thêm dòng đầm theo bài [thuê xe máy đi đường dài từ Hà Nội]({{ '/blog/thue-xe-may-di-duong-dai-tu-ha-noi/' | relative_url }}).
 
 ## Cách lái giữ mức tiêu hao thấp
 
-Xe hay lái quyết định phần lớn: ga đều, giữ tốc độ ổn trên đường trường, phanh sớm khỏi bứt lại, và tắt máy khi đỗ chờ lâu. Xe số thì ra số phù hợp vòng tua, xe ga thì giữ dải ga giữa. Trọng lượng đồ cũng tính: cốp chất đầy đồ thừa làm tốn thêm mỗi ngày. Chở hai người tăng tiêu hao rõ, xem tải và cách tính trong bài [xe 50cc cho 2 người]({{ '/xe-50cc-cho-2-nguoi' | relative_url }}).
+Xe hay lái quyết định phần lớn: ga đều, giữ tốc độ ổn trên đường trường, phanh sớm khỏi bứt lại, và tắt máy khi đỗ chờ lâu. Xe số thì ra số phù hợp vòng tua, xe ga thì giữ dải ga giữa. Trọng lượng đồ cũng tính: cốp chất đầy đồ thừa làm tốn thêm mỗi ngày. Chở hai người tăng tiêu hao rõ, xem tải và cách tính trong bài [xe 50cc cho 2 người]({{ '/blog/xe-50cc-cho-2-nguoi/' | relative_url }}).
 
 ## Kết luận
 

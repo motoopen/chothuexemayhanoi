@@ -13,7 +13,7 @@ Chiều cao yên đúng là ngồi lên là biết, và bài này cho quy trình
 
 ## Bước một: ngồi và chống chân
 
-Ngồi lên xe, hai tay giữ ghìe nhẹ, để chân rơi tự nhiên: ngón chân chạm đất ổn, gót chạm được là đạt, toàn bàn chạm là trọn vẹn. Không được ngóc người hoặc trượt sang bên để chạm: yên quá cao với bạn. Nhìn xuống thấy đầu gối cao ngang hoặc nhỉnh hơn mặt yên thì tư thế gò, xe này không hợp. Người thấp dưới một mét sáu nên bắt đầu từ nhóm 50cc và ga nhỏ, xem bài [thuê xe máy yên thấp Hà Nội]({{ '/thue-xe-may-yen-thap-ha-noi' | relative_url }}).
+Ngồi lên xe, hai tay giữ ghìe nhẹ, để chân rơi tự nhiên: ngón chân chạm đất ổn, gót chạm được là đạt, toàn bàn chạm là trọn vẹn. Không được ngóc người hoặc trượt sang bên để chạm: yên quá cao với bạn. Nhìn xuống thấy đầu gối cao ngang hoặc nhỉnh hơn mặt yên thì tư thế gò, xe này không hợp. Người thấp dưới một mét sáu nên bắt đầu từ nhóm 50cc và ga nhỏ, xem bài [thuê xe máy yên thấp Hà Nội]({{ '/blog/thue-xe-may-yen-thap-ha-noi/' | relative_url }}).
 
 ## Bước hai: nghiêng xe hai bên
 
@@ -25,11 +25,11 @@ Tại chỗ, nhấc mông khỏi yên rồi chống chân, giữ vài giây, l�
 
 ## Nhóm xe theo chiều cao yên
 
-Yên thấp nhất: 50cc và xe điện mini, tham khảo bài [xe máy điện và xe 50cc khi thuê]({{ '/xe-may-dien-va-xe-50cc-khi-thue' | relative_url }}). Vừa phải: Vision, Air Blade, xem so sánh trong bài [thuê Air Blade hay Vision]({{ '/air-blade-va-vision-khi-thue' | relative_url }}). Cao: SH và dòng ga lớn, cân trong bài [thuê SH hay Air Blade]({{ '/sh-va-air-blade-khi-thue' | relative_url }}). Xe côn thể thao yên cao kèm trọng lượng, chỉ hợp người quen, xem [thuê xe côn Hà Nội]({{ '/thue-xe-con-ha-noi' | relative_url }}).
+Yên thấp nhất: 50cc và xe điện mini, tham khảo bài [xe máy điện và xe 50cc khi thuê]({{ '/blog/xe-may-dien-va-xe-50cc-khi-thue/' | relative_url }}). Vừa phải: Vision, Air Blade, xem so sánh trong bài [thuê Air Blade hay Vision]({{ '/blog/air-blade-va-vision-khi-thue/' | relative_url }}). Cao: SH và dòng ga lớn, cân trong bài [thuê SH hay Air Blade]({{ '/blog/sh-va-air-blade-khi-thue/' | relative_url }}). Xe côn thể thao yên cao kèm trọng lượng, chỉ hợp người quen, xem [thuê xe côn Hà Nội]({{ '/blog/thue-xe-con-ha-noi/' | relative_url }}).
 
 ## Chỉnh được gì sau khi thử
 
-Nhiều bản ga cho chỉnh độ cao yên trong khoảng nhỏ, xin tấm lót yên thêm vài ly, và nới ghìe gần cho tay chân gọn. Yêu cầu các chỉnh này ngay tại quầy, nơi thuê quen yêu cầu lắm. Nếu sau chỉnh vẫn căng, đổi xe, đừng nhận về chịu đựng cả kỳ vì mỗi đèn đỏ một lần căng chân nhân lên hàng trăm lần mỗi ngày. Người mới lái càng cần yên chuẩn vì phanh chống chân là thao tác dùng nhiều nhất, hướng dẫn chung trong bài [thuê xe máy cho người mới lái Hà Nội]({{ '/thue-xe-may-cho-nguoi-moi-lai-ha-noi' | relative_url }}).
+Nhiều bản ga cho chỉnh độ cao yên trong khoảng nhỏ, xin tấm lót yên thêm vài ly, và nới ghìe gần cho tay chân gọn. Yêu cầu các chỉnh này ngay tại quầy, nơi thuê quen yêu cầu lắm. Nếu sau chỉnh vẫn căng, đổi xe, đừng nhận về chịu đựng cả kỳ vì mỗi đèn đỏ một lần căng chân nhân lên hàng trăm lần mỗi ngày. Người mới lái càng cần yên chuẩn vì phanh chống chân là thao tác dùng nhiều nhất, hướng dẫn chung trong bài [thuê xe máy cho người mới lái Hà Nội]({{ '/blog/thue-xe-may-cho-nguoi-moi-lai-ha-noi/' | relative_url }}).
 
 ## Kết luận
 

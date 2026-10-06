@@ -13,7 +13,7 @@ Người có giấy phép lái Việt Nam cũng cần kiểm tra hạng bằng t
 
 ## Nhóm xe không cần bằng lái
 
-Xe dưới 50cc là nhóm đặc biệt: xe đạp điện và xe máy điện công suất nhỏ thuộc nhóm không cần giấy phép lái, nên nếu bạn chưa có bằng, đây là lựa chọn hợp pháp duy nhất để tự lái. Chi tiết quy định nằm trong bài [xe 50cc có cần bằng lái không]({{ '/xe-50cc-co-can-bang-lai-khong' | relative_url }}) và bài [thuê xe điện không cần bằng lái]({{ '/thue-xe-dien-khong-can-bang-lai' | relative_url }}). Khi thuê nhóm này, bạn vẫn cần giấy tờ tùy thân để xác minh, đọc phần thủ tục trong bài [thủ tục thuê xe máy]({{ '/thutuc' | relative_url }}).
+Xe dưới 50cc là nhóm đặc biệt: xe đạp điện và xe máy điện công suất nhỏ thuộc nhóm không cần giấy phép lái, nên nếu bạn chưa có bằng, đây là lựa chọn hợp pháp duy nhất để tự lái. Chi tiết quy định nằm trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}) và bài [thuê xe điện không cần bằng lái]({{ '/blog/thue-xe-dien-khong-can-bang-lai/' | relative_url }}). Khi thuê nhóm này, bạn vẫn cần giấy tờ tùy thân để xác minh, đọc phần thủ tục trong bài [thủ tục thuê xe máy]({{ '/thutuc' | relative_url }}).
 
 ## Hạng bằng cho xe hai bánh phổ thông
 
@@ -21,7 +21,7 @@ Với xe máy 50cc trở lên, người lái cần giấy phép lái hạng phù
 
 ## Khớp bằng với dòng xe định thuê
 
-Xe ga 50cc như dòng Cub hay Wave dễ lái và chỉ cần hạng phổ thông, xem so sánh trong bài [Cub 50cc và Wave 50cc]({{ '/cub-50cc-va-wave-50cc' | relative_url }}). Xe số hay xe ga dung tích lớn hơn cần hạng tương ứng: nếu bạn chỉ có hạng phổ thông mà định thuê dòng lớn, hãy hỏi nơi thuê mẫu thay thế phù hợp, hoặc cân nhóm 50cc trong bài [thuê xe 50cc cho người mới lái]({{ '/thue-xe-50cc-cho-nguoi-moi-lai' | relative_url }}). Khi nhận xe, kiểm tình trạng kỹ theo checklist trong bài [checklist nhận xe 50cc]({{ '/checklist-nhan-xe-50cc' | relative_url }}) bất kể dòng xe gì.
+Xe ga 50cc như dòng Cub hay Wave dễ lái và chỉ cần hạng phổ thông, xem so sánh trong bài [Cub 50cc và Wave 50cc]({{ '/blog/cub-50cc-va-wave-50cc/' | relative_url }}). Xe số hay xe ga dung tích lớn hơn cần hạng tương ứng: nếu bạn chỉ có hạng phổ thông mà định thuê dòng lớn, hãy hỏi nơi thuê mẫu thay thế phù hợp, hoặc cân nhóm 50cc trong bài [thuê xe 50cc cho người mới lái]({{ '/blog/thue-xe-50cc-cho-nguoi-moi-lai/' | relative_url }}). Khi nhận xe, kiểm tình trạng kỹ theo checklist trong bài [checklist nhận xe 50cc]({{ '/blog/checklist-nhan-xe-50cc/' | relative_url }}) bất kể dòng xe gì.
 
 ## Lái khi bằng chưa đúng hạ
 ng là rủi ro kép
@@ -30,7 +30,7 @@ Thuê được xe không có nghĩa bạn được phép lái: điều khiển x
 
 ## Những thứ cần kèm theo bằng khi nhận xe
 
-Khi đến nhận xe, mang theo bằng lái gốc cùng giấy tờ tùy thân: bên cho thuê ghi số bằng vào hợp đồng như một phần xác minh, và đối chiếu mức giá theo trang [bảng giá]({{ '/banggia.html' | relative_url }}) trước khi ký. Với kỳ thuê dài, hỏi rõ phần đặt cọc trong bài [tiền cọc thuê xe máy Hà Nội]({{ '/tien-coc-thue-xe-may-ha-noi' | relative_url }}), và nếu bạn định cho người thân đi kèm lái thử, ghi tên người đó vào hợp đồng trước.
+Khi đến nhận xe, mang theo bằng lái gốc cùng giấy tờ tùy thân: bên cho thuê ghi số bằng vào hợp đồng như một phần xác minh, và đối chiếu mức giá theo trang [bảng giá]({{ '/banggia.html' | relative_url }}) trước khi ký. Với kỳ thuê dài, hỏi rõ phần đặt cọc trong bài [tiền cọc thuê xe máy Hà Nội]({{ '/blog/tien-coc-thue-xe-may-ha-noi/' | relative_url }}), và nếu bạn định cho người thân đi kèm lái thử, ghi tên người đó vào hợp đồng trước.
 
 Với người mới có bằng và chưa quen đường Hà Nội, nên thêm bước chạy thử quanh khu ít xe trước khi lăn ra đường lớn, và chọn giờ vắng để những chuyến đầu. Hỏi nơi thuê về bản đồ tuyến quen hoặc các đoạn một chiều quanh khu bạn ở, vì phạt rẽ sai đường một chiều là lỗi phổ biến nhất với người mới. Qua vài chuyến ngắn, bạn quen dòng xe và đường, rồi mới tăng dần phạm vi đi xa trong kỳ thuê.
 

@@ -17,19 +17,19 @@ Xe điện cho thuê chia làm hai nhóm: xe đạp điện và xe máy điện 
 
 ## Nhóm không cần bằng lái
 
-Nhóm xe điện công suất nhỏ là lựa chọn cho người chưa có giấy phép lái: hợp pháp để tự lái, nhẹ và dễ cân bằng. Chi tiết quy định nằm trong bài [thuê xe điện không cần bằng lái]({{ '/thue-xe-dien-khong-can-bang-lai' | relative_url }}) và câu hỏi gốc trong bài [xe điện có cần bằng lái không]({{ '/xe-dien-co-can-bang-lai-khong' | relative_url }}). Khi thuê nhóm này, bạn vẫn cần giấy tờ tùy thân để xác minh người thuê, xem danh sách trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/thue-xe-may-ha-noi-can-giay-to-gi' | relative_url }}).
+Nhóm xe điện công suất nhỏ là lựa chọn cho người chưa có giấy phép lái: hợp pháp để tự lái, nhẹ và dễ cân bằng. Chi tiết quy định nằm trong bài [thuê xe điện không cần bằng lái]({{ '/blog/thue-xe-dien-khong-can-bang-lai/' | relative_url }}) và câu hỏi gốc trong bài [xe điện có cần bằng lái không]({{ '/blog/xe-dien-co-can-bang-lai-khong/' | relative_url }}). Khi thuê nhóm này, bạn vẫn cần giấy tờ tùy thân để xác minh người thuê, xem danh sách trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/blog/thue-xe-may-ha-noi-can-giay-to-gi/' | relative_url }}).
 
 ## Nhóm cần bằng lái
 
-Xe máy điện công suất lớn được quản lý như xe máy xăng cùng phân khối: người lái cần giấy phép lái hạng phù hợp với công suất xe. Nếu bạn có bằng phổ thông, nhóm này vẫn nằm trong tầm với, đọc thêm phần khớp hạng trong bài [bằng lái Việt Nam khi thuê xe máy]({{ '/bang-lai-viet-nam-thue-xe-may' | relative_url }}). Khách nước ngoài cần kiểm tra hiệu lực bằng của mình, xem trong bài [bằng lái quốc tế khi thuê xe máy Việt Nam]({{ '/bang-lai-quoc-te-thue-xe-may-viet-nam' | relative_url }}).
+Xe máy điện công suất lớn được quản lý như xe máy xăng cùng phân khối: người lái cần giấy phép lái hạng phù hợp với công suất xe. Nếu bạn có bằng phổ thông, nhóm này vẫn nằm trong tầm với, đọc thêm phần khớp hạng trong bài [bằng lái Việt Nam khi thuê xe máy]({{ '/blog/bang-lai-viet-nam-thue-xe-may/' | relative_url }}). Khách nước ngoài cần kiểm tra hiệu lực bằng của mình, xem trong bài [bằng lái quốc tế khi thuê xe máy Việt Nam]({{ '/blog/bang-lai-quoc-te-thue-xe-may-viet-nam/' | relative_url }}).
 
 ## Câu hỏi nên hỏi bên cho thuê
 
-Ba câu giúp bạn chốt nhanh: xe này thuộc nhóm cần bằng hay không, tốc độ thiết kế bao nhiêu, và nếu bạn không có bằng thì có dòng thay thế nào không. Gửi kèm ảnh bằng lái nếu có để nơi thuê tư vấn chính xác, và hỏi trước phần sạc pin khi thuê trong bài [sạc xe máy điện khi thuê]({{ '/sac-xe-may-dien-khi-thue' | relative_url }}) để cân lịch trình quanh khu.
+Ba câu giúp bạn chốt nhanh: xe này thuộc nhóm cần bằng hay không, tốc độ thiết kế bao nhiêu, và nếu bạn không có bằng thì có dòng thay thế nào không. Gửi kèm ảnh bằng lái nếu có để nơi thuê tư vấn chính xác, và hỏi trước phần sạc pin khi thuê trong bài [sạc xe máy điện khi thuê]({{ '/blog/sac-xe-may-dien-khi-thue/' | relative_url }}) để cân lịch trình quanh khu.
 
 ## Nhận xe và kiểm nhanh
 
-Khi nhận xe điện, kiểm pin, phanh và đèn theo checklist trong bài [checklist nhận xe máy điện]({{ '/checklist-nhan-xe-may-dien' | relative_url }}), chạy thử một vòng quanh khu, và hỏi rõ quãng đường đi được mỗi lần sạc đầy. Đối chiếu giá theo trang [bảng giá]({{ '/banggia.html' | relative_url }}), và ghi model xe cụ thể vào hợp đồng, xem các mục nên có trong bài [hợp đồng thuê xe máy cần có gì]({{ '/hop-dong-thue-xe-may-can-co-gi' | relative_url }}). Mùa mưa thì hỏi thêm phần giao xe ướt trong bài [thuê xe máy điện mùa mưa]({{ '/thue-xe-may-dien-mua-mua' | relative_url }}).
+Khi nhận xe điện, kiểm pin, phanh và đèn theo checklist trong bài [checklist nhận xe máy điện]({{ '/blog/checklist-nhan-xe-may-dien/' | relative_url }}), chạy thử một vòng quanh khu, và hỏi rõ quãng đường đi được mỗi lần sạc đầy. Đối chiếu giá theo trang [bảng giá]({{ '/banggia.html' | relative_url }}), và ghi model xe cụ thể vào hợp đồng, xem các mục nên có trong bài [hợp đồng thuê xe máy cần có gì]({{ '/blog/hop-dong-thue-xe-may-can-co-gi/' | relative_url }}). Mùa mưa thì hỏi thêm phần giao xe ướt trong bài [thuê xe máy điện mùa mưa]({{ '/blog/thue-xe-may-dien-mua-mua/' | relative_url }}).
 
 Một điều nữa nên hỏi là phạm vi hoạt động của xe điện: pin đầy đi được bao xa tùy dòng xe và tải, nên nếu lịch trình của bạn có chặng xa, hỏi trước quãng đường thực tế và chỗ sạc trên tuyến. Với dòng xe điện công suất nhỏ, tránh chặng dốc dài hoặc chở hai người nặng, vì pin tụ nhanh hơn công bố. Cuối cùng, hỏi nơi thuê về việc đổi xe giữa kỳ nếu pin chai, để kỳ thuê dài không bị gián đoạn giữa chừng.
 

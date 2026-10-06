@@ -13,23 +13,23 @@ Tranh luận xe điện hay xe ga xăng thường dừng ở cảm giác, trong 
 
 ## Tiêu chí một: chỗ sạc
 
-Xe ga xăng tự do hoàn toàn về nhiên liệu: trạm xăng Hà Nội dày, đổ vài phút là xong. Xe điện ràng buộc chỗ cắm qua đêm: khách sạn lễ tân thường cho, nhà trọ chung cư phải hỏi, hướng dẫn hỏi trong bài [sạc xe máy điện khi thuê]({{ '/sac-xe-may-dien-khi-thue' | relative_url }}). Có chỗ cắm an toàn thì xe điện gần như tự do tương đương. Không có thì xe ga xăng là đáp án duy nhất, đừng đắn đo thêm.
+Xe ga xăng tự do hoàn toàn về nhiên liệu: trạm xăng Hà Nội dày, đổ vài phút là xong. Xe điện ràng buộc chỗ cắm qua đêm: khách sạn lễ tân thường cho, nhà trọ chung cư phải hỏi, hướng dẫn hỏi trong bài [sạc xe máy điện khi thuê]({{ '/blog/sac-xe-may-dien-khi-thue/' | relative_url }}). Có chỗ cắm an toàn thì xe điện gần như tự do tương đương. Không có thì xe ga xăng là đáp án duy nhất, đừng đắn đo thêm.
 
 ## Tiêu chí hai: tổng quãng đường
 
-Dưới 40 cây số mỗi ngày: xe điện thoải mái, tính thêm dư địa theo bài [quãng đường xe máy điện khi thuê]({{ '/quang-duong-xe-may-dien-khi-thue' | relative_url }}). Trên 40 đến 70: cân thời gian sạc giữa ngày theo bài [thời gian sạc xe máy điện thuê]({{ '/thoi-gian-sac-xe-may-dien-thue' | relative_url }}), được thì điện vẫn tiện. Trên 70 và nhất là liên tỉnh: xe ga xăng, và nếu vẫn muốn điện thì bắt buộc kế hoạch pin như bài [thuê xe máy điện đi đường dài]({{ '/thue-xe-may-dien-di-duong-dai' | relative_url }}). Quãng đường là ranh giới khách quan nhất của bài toán này.
+Dưới 40 cây số mỗi ngày: xe điện thoải mái, tính thêm dư địa theo bài [quãng đường xe máy điện khi thuê]({{ '/blog/quang-duong-xe-may-dien-khi-thue/' | relative_url }}). Trên 40 đến 70: cân thời gian sạc giữa ngày theo bài [thời gian sạc xe máy điện thuê]({{ '/blog/thoi-gian-sac-xe-may-dien-thue/' | relative_url }}), được thì điện vẫn tiện. Trên 70 và nhất là liên tỉnh: xe ga xăng, và nếu vẫn muốn điện thì bắt buộc kế hoạch pin như bài [thuê xe máy điện đi đường dài]({{ '/blog/thue-xe-may-dien-di-duong-dai/' | relative_url }}). Quãng đường là ranh giới khách quan nhất của bài toán này.
 
 ## Tiêu chí ba: thao tác bạn quen
 
-Cả hai đều tay ga không số, nhưng ga điện nhạy và phanh tái tạo hãm nhẹ lúc nhả ga: quen ga xăng sẽ thấy điện khác trong mười phút đầu, và thường ưng sau đó. Người mới hoàn toàn thì điện dễ làm quen hơn, hướng dẫn trong bài [thuê xe máy cho người mới lái Hà Nội]({{ '/thue-xe-may-cho-nguoi-moi-lai-ha-noi' | relative_url }}). Người quen ga lâu năm và chở nặng thường thấy dòng xăng cho cảm giác xe thật hơn. Chạy thử hai loại tại quầy là cách kiểm tiêu chí này trong năm phút.
+Cả hai đều tay ga không số, nhưng ga điện nhạy và phanh tái tạo hãm nhẹ lúc nhả ga: quen ga xăng sẽ thấy điện khác trong mười phút đầu, và thường ưng sau đó. Người mới hoàn toàn thì điện dễ làm quen hơn, hướng dẫn trong bài [thuê xe máy cho người mới lái Hà Nội]({{ '/blog/thue-xe-may-cho-nguoi-moi-lai-ha-noi/' | relative_url }}). Người quen ga lâu năm và chở nặng thường thấy dòng xăng cho cảm giác xe thật hơn. Chạy thử hai loại tại quầy là cách kiểm tiêu chí này trong năm phút.
 
 ## Chi phí cộng dồn theo kỳ
 
-Điện rẻ nhiên liệu rõ rệt, xăng tốn nhưng dễ dự báo. Cộng giá thuê trọn kỳ với ước tính nhiên liệu rồi so, ví dụ đã minh họa trong bài [thuê xe máy điện đi quãng ngắn]({{ '/thue-xe-may-dien-di-quang-ngan' | relative_url }}). Lưu ý mức pin tối thiểu khi trả của xe điện có thể sinh phí nếu không chú ý, và mùa mưa hai loại đều cần kiểm lốp phanh kỹ, tiêu chí trong bài [thuê xe máy mùa mưa loại nào]({{ '/thue-xe-may-mua-mua-loai-nao' | relative_url }}). Kỳ càng dài phần chênh nhiên liệu càng lớn.
+Điện rẻ nhiên liệu rõ rệt, xăng tốn nhưng dễ dự báo. Cộng giá thuê trọn kỳ với ước tính nhiên liệu rồi so, ví dụ đã minh họa trong bài [thuê xe máy điện đi quãng ngắn]({{ '/blog/thue-xe-may-dien-di-quang-ngan/' | relative_url }}). Lưu ý mức pin tối thiểu khi trả của xe điện có thể sinh phí nếu không chú ý, và mùa mưa hai loại đều cần kiểm lốp phanh kỹ, tiêu chí trong bài [thuê xe máy mùa mưa loại nào]({{ '/blog/thue-xe-may-mua-mua-loai-nao/' | relative_url }}). Kỳ càng dài phần chênh nhiên liệu càng lớn.
 
 ## Các tình huống thường gặp
 
-Khách du lịch nội thành ở khách sạn: điện trọn, êm và rẻ, tham khảo [thuê xe máy điện phố cổ Hà Nội]({{ '/thue-xe-may-dien-pho-co-ha-noi' | relative_url }}). Khách công tác chạy nhiều nơi mỗi ngày: ga xăng chủ động. Khách ở nhà trọ ngõ nhỏ: hỏi được chủ nhà về ổ cắm thì cân tiếp, không thì xăng. Khách chở hai người: cả hai đều được, tính pin theo bài [xe máy điện chở 2 người]({{ '/xe-may-dien-cho-2-nguoi-khi-thue' | relative_url }}) hoặc tải theo bài [xe 50cc cho 2 người]({{ '/xe-50cc-cho-2-nguoi' | relative_url }}).
+Khách du lịch nội thành ở khách sạn: điện trọn, êm và rẻ, tham khảo [thuê xe máy điện phố cổ Hà Nội]({{ '/blog/thue-xe-may-dien-pho-co-ha-noi/' | relative_url }}). Khách công tác chạy nhiều nơi mỗi ngày: ga xăng chủ động. Khách ở nhà trọ ngõ nhỏ: hỏi được chủ nhà về ổ cắm thì cân tiếp, không thì xăng. Khách chở hai người: cả hai đều được, tính pin theo bài [xe máy điện chở 2 người]({{ '/blog/xe-may-dien-cho-2-nguoi-khi-thue/' | relative_url }}) hoặc tải theo bài [xe 50cc cho 2 người]({{ '/blog/xe-50cc-cho-2-nguoi/' | relative_url }}).
 
 ## Kết luận
 

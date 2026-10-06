@@ -13,23 +13,23 @@ Cốp rộng là ưu tiên số một nếu bạn thuê xe kèm hành lý, và c
 
 ## Định lượng hành lý trước khi chọn xe
 
-Đếm khối đồ của bạn: một balo nhẹ, một mũ thêm túi xách, hay vali kèm hai mũ. Balo nhẹ thì dòng nào cũng đủ, khỏi cần cốp lớn. Một mũ thêm túi cần cốp tầm 18 lít trở lên. Vali nhỏ hoặc đồ mua sắm nhiều thì cần cốp trên 30 lít như dòng Lead, xem bài [thuê xe Lead Hà Nội]({{ '/thue-xe-lead-ha-noi' | relative_url }}). Định xong khối rồi mới chọn dòng, khỏi mất công so thông số suông.
+Đếm khối đồ của bạn: một balo nhẹ, một mũ thêm túi xách, hay vali kèm hai mũ. Balo nhẹ thì dòng nào cũng đủ, khỏi cần cốp lớn. Một mũ thêm túi cần cốp tầm 18 lít trở lên. Vali nhỏ hoặc đồ mua sắm nhiều thì cần cốp trên 30 lít như dòng Lead, xem bài [thuê xe Lead Hà Nội]({{ '/blog/thue-xe-lead-ha-noi/' | relative_url }}). Định xong khối rồi mới chọn dòng, khỏi mất công so thông số suông.
 
 ## Dòng xe cốp rộng nhất khi thuê
 
-Lead dẫn đầu nhóm ga nhỏ về cốp, tiếp theo là các dòng ga lớn như Air Blade và SH, tham khảo bài [thuê xe Air Blade Hà Nội]({{ '/thue-xe-air-blade-ha-noi' | relative_url }}) và [thuê xe ga Hà Nội]({{ '/thue-xe-ga-ha-noi' | relative_url }}). Xe số gần như không có cốp, chỉ chắn chân để túi nhỏ, cách xếp an toàn trong bài [xe 50cc mang hành lý]({{ '/xe-50cc-mang-hanh-ly' | relative_url }}). Xe máy điện cốp gọn hơn, cân trong bài [xe máy điện và xe ga khi thuê]({{ '/xe-may-dien-va-xe-ga-khi-thue' | relative_url }}) nếu đồ của bạn vừa đủ. Khách đi hai người kèm đồ thì cốp lớn gần như bắt buộc.
+Lead dẫn đầu nhóm ga nhỏ về cốp, tiếp theo là các dòng ga lớn như Air Blade và SH, tham khảo bài [thuê xe Air Blade Hà Nội]({{ '/blog/thue-xe-air-blade-ha-noi/' | relative_url }}) và [thuê xe ga Hà Nội]({{ '/blog/thue-xe-ga-ha-noi/' | relative_url }}). Xe số gần như không có cốp, chỉ chắn chân để túi nhỏ, cách xếp an toàn trong bài [xe 50cc mang hành lý]({{ '/blog/xe-50cc-mang-hanh-ly/' | relative_url }}). Xe máy điện cốp gọn hơn, cân trong bài [xe máy điện và xe ga khi thuê]({{ '/blog/xe-may-dien-va-xe-ga-khi-thue/' | relative_url }}) nếu đồ của bạn vừa đủ. Khách đi hai người kèm đồ thì cốp lớn gần như bắt buộc.
 
 ## Cách sử dụng cốp an toàn
 
-Đồ nặng và cứng đặt dưới đáy cốp, đồ mềm đệm quanh để khỏi xộc xệch khi qua ổ gà. Không để chai nước hoặc vật dễ lăn nằm lỏng trong cốp, tiếng lăn cũng gây phân tâm và vật có thể kẹt khóa. Đồ giá trị như hộ chiếu và máy ảnh nên đeo người thay vì để cốp khi đỗ xe lâu. Khóa cốp phải khớp kín, đóng nghe tiếng cạch chắc, và khi mưa nên bọc đồ trong túi nilon bên trong vì cốp cũ có khi thấm. Chở thêm người thì cốp nên còn trống cho mũ của người ngồi sau, cân tải theo bài [xe 50cc cho 2 người]({{ '/xe-50cc-cho-2-nguoi' | relative_url }}).
+Đồ nặng và cứng đặt dưới đáy cốp, đồ mềm đệm quanh để khỏi xộc xệch khi qua ổ gà. Không để chai nước hoặc vật dễ lăn nằm lỏng trong cốp, tiếng lăn cũng gây phân tâm và vật có thể kẹt khóa. Đồ giá trị như hộ chiếu và máy ảnh nên đeo người thay vì để cốp khi đỗ xe lâu. Khóa cốp phải khớp kín, đóng nghe tiếng cạch chắc, và khi mưa nên bọc đồ trong túi nilon bên trong vì cốp cũ có khi thấm. Chở thêm người thì cốp nên còn trống cho mũ của người ngồi sau, cân tải theo bài [xe 50cc cho 2 người]({{ '/blog/xe-50cc-cho-2-nguoi/' | relative_url }}).
 
 ## Kiểm cốp và phần quanh cốp
 
-Mở cốp thử tại quầy: khóa êm, cánh cốp không hờ, giữ mở tự nhiên không cần đỡ. Soi trong sạch, không ẩm mốc, và thảm lót còn nguyên. Thử mũ của bạn thực tế vừa chưa. Kiểm bản lề không lỏng vì cốp nặng đồ lâu dễ hờ. Sau đó rà phần an toàn chung: phanh, lốp, đèn theo chuẩn trong bài [kiểm tra phanh lốp xe 50cc]({{ '/kiem-tra-phanh-lop-xe-50cc' | relative_url }}), và chạy thử vòng quầy. Trời mưa gần thì thêm nguyên tắc đường ướt trong bài [thuê xe máy điện mùa mưa]({{ '/thue-xe-may-dien-mua-mua' | relative_url }}).
+Mở cốp thử tại quầy: khóa êm, cánh cốp không hờ, giữ mở tự nhiên không cần đỡ. Soi trong sạch, không ẩm mốc, và thảm lót còn nguyên. Thử mũ của bạn thực tế vừa chưa. Kiểm bản lề không lỏng vì cốp nặng đồ lâu dễ hờ. Sau đó rà phần an toàn chung: phanh, lốp, đèn theo chuẩn trong bài [kiểm tra phanh lốp xe 50cc]({{ '/blog/kiem-tra-phanh-lop-xe-50cc/' | relative_url }}), và chạy thử vòng quầy. Trời mưa gần thì thêm nguyên tắc đường ướt trong bài [thuê xe máy điện mùa mưa]({{ '/blog/thue-xe-may-dien-mua-mua/' | relative_url }}).
 
 ## Giấy tờ, giá và đặt trước
 
-Cốp rộng không đổi giấy tờ: nhóm trên 50 phân khối vẫn cần bằng A1, nhóm 50cc không cần, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/xe-50cc-co-can-bang-lai-khong' | relative_url }}). Hợp đồng ghi giá, cọc, giờ trả, mức xăng và trách nhiệm nếu hỏng khóa cốp. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/thue-xe-50cc-cho-nguoi-nuoc-ngoai' | relative_url }}). So giá theo kỳ ở trang [bảng giá]({{ '/banggia.html' | relative_url }}) và gọi trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) yêu cầu dòng cốp lớn sẵn.
+Cốp rộng không đổi giấy tờ: nhóm trên 50 phân khối vẫn cần bằng A1, nhóm 50cc không cần, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Hợp đồng ghi giá, cọc, giờ trả, mức xăng và trách nhiệm nếu hỏng khóa cốp. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). So giá theo kỳ ở trang [bảng giá]({{ '/banggia.html' | relative_url }}) và gọi trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) yêu cầu dòng cốp lớn sẵn.
 
 ## Kết luận
 

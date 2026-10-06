@@ -13,29 +13,29 @@ Bát Tràng cách trung tâm Hà Nội khoảng mười lăm ki lômét, là chu
 
 ## Xe nào phù hợp chuyến ngắn ngoại thành
 
-Đường tới Bát Tràng phẳng và ngắn, nên xe 50cc với người có giấy phép A1 là đủ, phần quy định đã phân tích trong bài [thuê xe 50cc có cần bằng lái không]({{ '/thue-xe-50cc-can-bang-lai-khong' | relative_url }}). Xe ga nhỏ dễ đỗ trong khu chợ gốm đông đúc, so sánh dòng xe đã có trong bài [xe ga hay xe số]({{ '/xe-ga-hay-xe-so' | relative_url }}). Nếu bạn đi từ nơi khác trong phố, cân nhắc luôn gói giao xe tận nơi, phần phí đã trình bày trong bài [phí giao xe thuê xe máy Hà Nội]({{ '/phi-giao-xe-thue-xe-may-ha-noi' | relative_url }}).
+Đường tới Bát Tràng phẳng và ngắn, nên xe 50cc với người có giấy phép A1 là đủ, phần quy định đã phân tích trong bài [thuê xe 50cc có cần bằng lái không]({{ '/blog/thue-xe-50cc-can-bang-lai-khong/' | relative_url }}). Xe ga nhỏ dễ đỗ trong khu chợ gốm đông đúc, so sánh dòng xe đã có trong bài [xe ga hay xe số]({{ '/blog/xe-ga-hay-xe-so/' | relative_url }}). Nếu bạn đi từ nơi khác trong phố, cân nhắc luôn gói giao xe tận nơi, phần phí đã trình bày trong bài [phí giao xe thuê xe máy Hà Nội]({{ '/blog/phi-giao-xe-thue-xe-may-ha-noi/' | relative_url }}).
 
 ## Chọn khung giờ thuê
 
-Chuyến Bát Tràng gói trong nửa ngày, nên thuê theo gói giờ rẻ hơn thuê cả ngày, khung gói đã có trong bài [thuê xe máy Hà Nội 4 giờ]({{ '/thue-xe-may-ha-noi-4-gio' | relative_url }}). Xuất phát sau chín giờ sáng để tránh dòng xe đi làm, và về trước bốn giờ chiều để tránh cao điểm chiều, kinh nghiệm giờ giấc đã nêu trong bài [thuê xe máy Hà Nội cao điểm]({{ '/thue-xe-may-ha-noi-mua-cao-diem' | relative_url }}).
+Chuyến Bát Tràng gói trong nửa ngày, nên thuê theo gói giờ rẻ hơn thuê cả ngày, khung gói đã có trong bài [thuê xe máy Hà Nội 4 giờ]({{ '/blog/thue-xe-may-ha-noi-4-gio/' | relative_url }}). Xuất phát sau chín giờ sáng để tránh dòng xe đi làm, và về trước bốn giờ chiều để tránh cao điểm chiều, kinh nghiệm giờ giấc đã nêu trong bài [thuê xe máy Hà Nội cao điểm]({{ '/blog/thue-xe-may-ha-noi-mua-cao-diem/' | relative_url }}).
 
 ## Kiểm tra xe nhanh nhưng đủ
 
-Chuyến ngắn vẫn cần rà đèn, còi, phanh và lốp, trình tự gọn trong bài [checklist 10 phút trước khi nhận xe]({{ '/checklist-10-phut-truoc-khi-nhan-xe' | relative_url }}), và chụp bốn góc xe như thói quen trong bài [chụp ảnh xe trước khi thuê]({{ '/chup-anh-xe-truoc-khi-thue' | relative_url }}). Đỗ xe trong khu chợ gốm dễ bị xước, nên phần trách nhiệm vết xước nên đọc trước theo bài [chi phí hư hỏng khi thuê xe máy]({{ '/chi-phi-hu-hong-khi-thue-xe-may' | relative_url }}).
+Chuyến ngắn vẫn cần rà đèn, còi, phanh và lốp, trình tự gọn trong bài [checklist 10 phút trước khi nhận xe]({{ '/blog/checklist-10-phut-truoc-khi-nhan-xe/' | relative_url }}), và chụp bốn góc xe như thói quen trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}). Đỗ xe trong khu chợ gốm dễ bị xước, nên phần trách nhiệm vết xước nên đọc trước theo bài [chi phí hư hỏng khi thuê xe máy]({{ '/blog/chi-phi-hu-hong-khi-thue-xe-may/' | relative_url }}).
 
 ## Đồ mang theo và mua sắm
 
-Bát Tràng gọi là đi nhẹ về nặng, nên chọn xe có cốp rộng hoặc mang theo một ba lô gấp, cách chọn cốp nằm trong bài [chọn cốp xe máy thuê]({{ '/chon-cop-xe-may-thue' | relative_url }}). Nếu định mua nhiều đồ gốm, tính trước chỗ cho đồ trên yên sau, phần kinh nghiệm chở hành lý đã có trong bài [thuê xe máy Hà Nội mang hành lý]({{ '/thue-xe-may-ha-noi-mang-hanh-ly' | relative_url }}). Chi phí cho chuyến ngắn chủ yếu là giá thuê, khung các khoản nằm trong bài [giá thuê xe máy đã bao gồm gì]({{ '/gia-thue-xe-may-da-bao-gom-gi' | relative_url }}).
+Bát Tràng gọi là đi nhẹ về nặng, nên chọn xe có cốp rộng hoặc mang theo một ba lô gấp, cách chọn cốp nằm trong bài [chọn cốp xe máy thuê]({{ '/blog/chon-cop-xe-may-thue/' | relative_url }}). Nếu định mua nhiều đồ gốm, tính trước chỗ cho đồ trên yên sau, phần kinh nghiệm chở hành lý đã có trong bài [thuê xe máy Hà Nội mang hành lý]({{ '/blog/thue-xe-may-ha-noi-mang-hanh-ly/' | relative_url }}). Chi phí cho chuyến ngắn chủ yếu là giá thuê, khung các khoản nằm trong bài [giá thuê xe máy đã bao gồm gì]({{ '/blog/gia-thue-xe-may-da-bao-gom-gi/' | relative_url }}).
 
 ## Giấy tờ tuy ngắn nhưng vẫn đủ
 
-Ngoại thành có tuần tra quanh khu vực đường 5, nên mang đăng ký xe, chứng nhận bảo hiểm, giấy phép lái, và căn cước, danh sách trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/thue-xe-may-ha-noi-can-giay-to-gi' | relative_url }}). Khách nước ngoài đi cùng thì chuẩn bị theo bài [thuê xe máy Hà Nội cho người nước ngoài]({{ '/thue-xe-may-ha-noi-cho-nguoi-nuoc-ngoai' | relative_url }}). Giấy tờ xe luôn để đúng túi kèm xe, tình huống thiếu xử lý theo bài [mất giấy tờ xe thuê]({{ '/mat-giay-to-xe-thue' | relative_url }}).
+Ngoại thành có tuần tra quanh khu vực đường 5, nên mang đăng ký xe, chứng nhận bảo hiểm, giấy phép lái, và căn cước, danh sách trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/blog/thue-xe-may-ha-noi-can-giay-to-gi/' | relative_url }}). Khách nước ngoài đi cùng thì chuẩn bị theo bài [thuê xe máy Hà Nội cho người nước ngoài]({{ '/blog/thue-xe-may-ha-noi-cho-nguoi-nuoc-ngoai/' | relative_url }}). Giấy tờ xe luôn để đúng túi kèm xe, tình huống thiếu xử lý theo bài [mất giấy tờ xe thuê]({{ '/blog/mat-giay-to-xe-thue/' | relative_url }}).
 
 ## Sự cố và trả xe
 
-Xe hỏng giữa chặng ngắn thì gọi nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước khi tự kéo đi sửa, trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/xe-thue-bi-hong-giua-duong' | relative_url }}). Trả đúng giờ hẹn để khỏi bị tính phụ phí trễ, khung tính đã nêu trong bài [phí trả xe muộn thuê xe máy]({{ '/phi-tra-xe-muon-thue-xe-may' | relative_url }}).
+Xe hỏng giữa chặng ngắn thì gọi nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước khi tự kéo đi sửa, trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}). Trả đúng giờ hẹn để khỏi bị tính phụ phí trễ, khung tính đã nêu trong bài [phí trả xe muộn thuê xe máy]({{ '/blog/phi-tra-xe-muon-thue-xe-may/' | relative_url }}).
 
-Nếu đi theo nhóm ba bốn người, thuê hai xe số thay vì hai xe ga cũng đáng cân, vì chở đồ gốm về cần yên sau rộng, phần cân chọn xe theo trọng lượng đã có trong bài [chọn trọng lượng xe thuê]({{ '/chon-trong-luong-xe-thue' | relative_url }}).
+Nếu đi theo nhóm ba bốn người, thuê hai xe số thay vì hai xe ga cũng đáng cân, vì chở đồ gốm về cần yên sau rộng, phần cân chọn xe theo trọng lượng đã có trong bài [chọn trọng lượng xe thuê]({{ '/blog/chon-trong-luong-xe-thue/' | relative_url }}).
 
 ## Kết luận
 

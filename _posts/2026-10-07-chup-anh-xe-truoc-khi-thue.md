@@ -21,11 +21,11 @@ Chụp bốn góc toàn thân xe: trước, sau, trái, phải, đứng cách xe
 
 ## Góc chụp sát chi tiết
 
-Sau bốn ảnh toàn thân, chụp sát các điểm dễ va: hai bên hông, tay lái, gương, ốp xe, và ghi rõ biển số. Ảnh biển số cùng một khung với thân xe giúp khớp đúng chiếc xe trong hợp đồng, xem các mục nên ghi trong bài [hợp đồng thuê xe máy cần có gì]({{ '/hop-dong-thue-xe-may-can-co-gi' | relative_url }}). Nếu đã có vết xước sẵn, chụp riêng từng vết và nhắc người giao xe xác nhận cùng lúc.
+Sau bốn ảnh toàn thân, chụp sát các điểm dễ va: hai bên hông, tay lái, gương, ốp xe, và ghi rõ biển số. Ảnh biển số cùng một khung với thân xe giúp khớp đúng chiếc xe trong hợp đồng, xem các mục nên ghi trong bài [hợp đồng thuê xe máy cần có gì]({{ '/blog/hop-dong-thue-xe-may-can-co-gi/' | relative_url }}). Nếu đã có vết xước sẵn, chụp riêng từng vết và nhắc người giao xe xác nhận cùng lúc.
 
 ## Chụp đồng hồ và phụ kiện
 
-Chụp số km trên đồng hồ, mức xăng hoặc pin trên bảng, và toàn bộ phụ kiện đi kèm: mũ, áo mưa, khóa, sạc theo xe điện. Đây là các khoản hay bị trừ cọc nhất, xem phần cọc trong bài [tiền cọc thuê xe máy Hà Nội]({{ '/tien-coc-thue-xe-may-ha-noi' | relative_url }}), nên có ảnh gốc để đối chiếu. Với xe điện, thêm ảnh tình trạng pin lúc nhận, kèm các câu hỏi sạc trong bài [sạc xe máy điện khi thuê]({{ '/sac-xe-may-dien-khi-thue' | relative_url }}).
+Chụp số km trên đồng hồ, mức xăng hoặc pin trên bảng, và toàn bộ phụ kiện đi kèm: mũ, áo mưa, khóa, sạc theo xe điện. Đây là các khoản hay bị trừ cọc nhất, xem phần cọc trong bài [tiền cọc thuê xe máy Hà Nội]({{ '/blog/tien-coc-thue-xe-may-ha-noi/' | relative_url }}), nên có ảnh gốc để đối chiếu. Với xe điện, thêm ảnh tình trạng pin lúc nhận, kèm các câu hỏi sạc trong bài [sạc xe máy điện khi thuê]({{ '/blog/sac-xe-may-dien-khi-thue/' | relative_url }}).
 
 ## Gửi ảnh cho nơi thuê ngay
 
@@ -33,7 +33,7 @@ Chụp xong, gửi vài ảnh quan trọng nhất cho nơi thuê qua tin nhắn 
 
 ## Khi trả xe, đối chiếu lại
 
-Trả xe cũng chụp lại một bộ tương tự: toàn thân, biển số, đồng hồ, phụ kiện, đúng như lúc nhận. Đối chiếu hai bộ ảnh trước khi ký biên nhận trả xe, và chỉ ký khi mọi khoản khớp. Kiểm xe trả theo checklist trong bài [checklist nhận xe 50cc]({{ '/checklist-nhan-xe-50cc' | relative_url }}) hoặc bài [checklist nhận xe máy điện]({{ '/checklist-nhan-xe-may-dien' | relative_url }}) tùy dòng xe, và giữ tin nhắn xác nhận trả xe của nơi thuê.
+Trả xe cũng chụp lại một bộ tương tự: toàn thân, biển số, đồng hồ, phụ kiện, đúng như lúc nhận. Đối chiếu hai bộ ảnh trước khi ký biên nhận trả xe, và chỉ ký khi mọi khoản khớp. Kiểm xe trả theo checklist trong bài [checklist nhận xe 50cc]({{ '/blog/checklist-nhan-xe-50cc/' | relative_url }}) hoặc bài [checklist nhận xe máy điện]({{ '/blog/checklist-nhan-xe-may-dien/' | relative_url }}) tùy dòng xe, và giữ tin nhắn xác nhận trả xe của nơi thuê.
 
 Một thói quen nhỏ nữa giúp ảnh phát huy tác dụng tối đa: chụp ảnh ngay tại nơi nhận xe, với xe đứng cạnh người giao xe nếu có thể, thay vì chụp sau khi đã đi vắng. Nhờ vậy, thời gian và bối cảnh trong ảnh khớp đúng khoảnh khắc bàn giao, không ai tranh cãi được rằng ảnh chụp muộn hơn. Với xe điện, thêm một video ngắn quay vòng quanh xe cũng rất đáng làm, vì video ghi được cả đèn và màn hình đang hoạt động.
 

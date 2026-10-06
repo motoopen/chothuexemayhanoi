@@ -13,29 +13,29 @@ Một ngày khám phá Hà Nội bằng xe máy đi được nhiều hơn taxi, 
 
 ## Chia ngày thành ba cụm điểm
 
-Sáng cho cụm Phố Cổ với chợ và đền chùa quanh khu, trưa cho cụm Hồ Tây với bảo tàng và quán ven hồ, chiều muộn cho cụm Tây Nam hoặc khu phố ẩm thực. Nguyên tắc chung: trong mỗi cụm đi bộ, giữa các cụm mới đi xe. Cách nhóm điểm cho một tuyến cụ thể đã làm mẫu trong bài [lịch trình xe máy Phố Cổ Hồ Tây]({{ '/lich-trinh-xe-may-pho-co-ho-tay' | relative_url }}), còn ai chỉ có nửa buổi thì đọc cách chọn khu vực theo diện tích nhỏ trong bài [thuê xe máy Hà Nội 4 giờ]({{ '/thue-xe-may-ha-noi-4-gio' | relative_url }}).
+Sáng cho cụm Phố Cổ với chợ và đền chùa quanh khu, trưa cho cụm Hồ Tây với bảo tàng và quán ven hồ, chiều muộn cho cụm Tây Nam hoặc khu phố ẩm thực. Nguyên tắc chung: trong mỗi cụm đi bộ, giữa các cụm mới đi xe. Cách nhóm điểm cho một tuyến cụ thể đã làm mẫu trong bài [lịch trình xe máy Phố Cổ Hồ Tây]({{ '/blog/lich-trinh-xe-may-pho-co-ho-tay/' | relative_url }}), còn ai chỉ có nửa buổi thì đọc cách chọn khu vực theo diện tích nhỏ trong bài [thuê xe máy Hà Nội 4 giờ]({{ '/blog/thue-xe-may-ha-noi-4-gio/' | relative_url }}).
 
 ## Chọn khung giờ di chuyển
 
-Bảy giờ tới tám giờ rưỡi và năm giờ tới bảy giờ là hai khung kẹt, nên di chuyển giữa cụm vào giữa trưa hoặc sau tám giờ tối. Kinh nghiệm chọn giờ đã nêu trong bài [thuê xe máy Hà Nội cao điểm]({{ '/thue-xe-may-ha-noi-mua-cao-diem' | relative_url }}). Nếu lịch trình kết thúc sau đóng cửa điểm trả, so gói qua đêm trong bài [thuê xe máy Hà Nội qua đêm]({{ '/thue-xe-may-ha-noi-qua-dem' | relative_url }}) trước khi tính giờ.
+Bảy giờ tới tám giờ rưỡi và năm giờ tới bảy giờ là hai khung kẹt, nên di chuyển giữa cụm vào giữa trưa hoặc sau tám giờ tối. Kinh nghiệm chọn giờ đã nêu trong bài [thuê xe máy Hà Nội cao điểm]({{ '/blog/thue-xe-may-ha-noi-mua-cao-diem/' | relative_url }}). Nếu lịch trình kết thúc sau đóng cửa điểm trả, so gói qua đêm trong bài [thuê xe máy Hà Nội qua đêm]({{ '/blog/thue-xe-may-ha-noi-qua-dem/' | relative_url }}) trước khi tính giờ.
 
 ## Chọn gói thuê cho cả ngày
 
-Một ngày trọn cần gói theo ngày, so với gói theo giờ đã trình bày trong bài [thuê xe máy Hà Nội theo giờ]({{ '/thue-xe-may-ha-noi-theo-gio' | relative_url }}), và với khách ở khách sạn, phương án giao xe tận nơi đã có trong bài [thuê xe máy Hà Nội giao tận nơi]({{ '/thue-xe-may-ha-noi-giao-tan-noi' | relative_url }}). Hỏi trước các khoản ngoài giá niêm yết theo khung trong bài [giá thuê xe máy đã bao gồm gì]({{ '/gia-thue-xe-may-da-bao-gom-gi' | relative_url }}).
+Một ngày trọn cần gói theo ngày, so với gói theo giờ đã trình bày trong bài [thuê xe máy Hà Nội theo giờ]({{ '/blog/thue-xe-may-ha-noi-theo-gio/' | relative_url }}), và với khách ở khách sạn, phương án giao xe tận nơi đã có trong bài [thuê xe máy Hà Nội giao tận nơi]({{ '/blog/thue-xe-may-ha-noi-giao-tan-noi/' | relative_url }}). Hỏi trước các khoản ngoài giá niêm yết theo khung trong bài [giá thuê xe máy đã bao gồm gì]({{ '/blog/gia-thue-xe-may-da-bao-gom-gi/' | relative_url }}).
 
 ## Chọn xe cho đường phố
 
-Đường nội đô ưu tiên xe ga nhỏ gọn dễ đỗ, so sánh dòng đã có trong bài [xe ga hay xe số]({{ '/xe-ga-hay-xe-so' | relative_url }}). Xe 50cc với người có giấy phép A1 cũng đủ cho lịch trình phố, quy định đã phân tích trong bài [thuê xe 50cc có cần bằng lái không]({{ '/thue-xe-50cc-can-bang-lai-khong' | relative_url }}). Rà xe theo checklist trong bài [checklist 10 phút trước khi nhận xe]({{ '/checklist-10-phut-truoc-khi-nhan-xe' | relative_url }}), rồi chụp bốn góc như thói quen đã nêu trong bài [chụp ảnh xe trước khi thuê]({{ '/chup-anh-xe-truoc-khi-thue' | relative_url }}).
+Đường nội đô ưu tiên xe ga nhỏ gọn dễ đỗ, so sánh dòng đã có trong bài [xe ga hay xe số]({{ '/blog/xe-ga-hay-xe-so/' | relative_url }}). Xe 50cc với người có giấy phép A1 cũng đủ cho lịch trình phố, quy định đã phân tích trong bài [thuê xe 50cc có cần bằng lái không]({{ '/blog/thue-xe-50cc-can-bang-lai-khong/' | relative_url }}). Rà xe theo checklist trong bài [checklist 10 phút trước khi nhận xe]({{ '/blog/checklist-10-phut-truoc-khi-nhan-xe/' | relative_url }}), rồi chụp bốn góc như thói quen đã nêu trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}).
 
 ## Gửi xe giữa các điểm dừng
 
-Chi phí gửi xe lẻ ăn từng chục nghìn cả ngày, nên ưu tiên điểm có gửi xe miễn phí hoặc chọn quán có chỗ giữ xe riêng. Cách tính nhóm chi phí nhỏ đã có trong bài [chi phí ăn khi thuê xe máy]({{ '/chi-phi-an-khi-thue-xe-may' | relative_url }}). Đỗ xe đúng vạch, vì Phố Cổ hay xử phạt đỗ sai, và phần trách nhiệm khi xe thuê bị phạt đã trình bày trong bài [thuê xe máy bị phạt giao thông]({{ '/thue-xe-may-bi-phat-giao-thong' | relative_url }}).
+Chi phí gửi xe lẻ ăn từng chục nghìn cả ngày, nên ưu tiên điểm có gửi xe miễn phí hoặc chọn quán có chỗ giữ xe riêng. Cách tính nhóm chi phí nhỏ đã có trong bài [chi phí ăn khi thuê xe máy]({{ '/blog/chi-phi-an-khi-thue-xe-may/' | relative_url }}). Đỗ xe đúng vạch, vì Phố Cổ hay xử phạt đỗ sai, và phần trách nhiệm khi xe thuê bị phạt đã trình bày trong bài [thuê xe máy bị phạt giao thông]({{ '/blog/thue-xe-may-bi-phat-giao-thong/' | relative_url }}).
 
 ## Giấy tờ và sự cố trong ngày
 
-Mang giấy phép lái, căn cước, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/thue-xe-may-ha-noi-can-giay-to-gi' | relative_url }}). Xe hỏng giữa cụm thì gọi nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/xe-thue-bi-hong-giua-duong' | relative_url }}). Trả đúng giờ hẹn, khung phụ phí trễ nằm trong bài [phí trả xe muộn thuê xe máy]({{ '/phi-tra-xe-muon-thue-xe-may' | relative_url }}).
+Mang giấy phép lái, căn cước, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/blog/thue-xe-may-ha-noi-can-giay-to-gi/' | relative_url }}). Xe hỏng giữa cụm thì gọi nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}). Trả đúng giờ hẹn, khung phụ phí trễ nằm trong bài [phí trả xe muộn thuê xe máy]({{ '/blog/phi-tra-xe-muon-thue-xe-may/' | relative_url }}).
 
-Cuối cùng, chốt khung giờ nhận xe sát với lịch: nhận quá sớm làm mất phần gói đầu ngày, nhận muộn làm cụm sáng bị cắt, khung cân nhắc đã trình bày trong bài [thuê xe máy Hà Nội 4 giờ]({{ '/thue-xe-may-ha-noi-4-gio' | relative_url }}).
+Cuối cùng, chốt khung giờ nhận xe sát với lịch: nhận quá sớm làm mất phần gói đầu ngày, nhận muộn làm cụm sáng bị cắt, khung cân nhắc đã trình bày trong bài [thuê xe máy Hà Nội 4 giờ]({{ '/blog/thue-xe-may-ha-noi-4-gio/' | relative_url }}).
 
 ## Kết luận
 

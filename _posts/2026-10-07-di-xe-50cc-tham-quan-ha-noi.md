@@ -13,29 +13,29 @@ Xe 50cc là lựa chọn rẻ và nhẹ cho tham quan nội đô, nhưng nó có
 
 ## Hành trình phù hợp xe 50cc
 
-Trong ngày, xe 50cc hợp các cụm gần: phố cổ, Hồ Tây, và các quận trong vành đai, tổng quãng dưới ba mươi ki lômét, cách chia cụm đã có trong bài [lịch trình xe máy tham quan Hà Nội 1 ngày]({{ '/lich-trinh-xe-may-tham-quan-ha-noi-1-ngay' | relative_url }}). Với cung ngoài vành đai, đọc trước phân tích trong bài [thuê xe 50cc đi ngoại thành Hà Nội]({{ '/thue-xe-50cc-di-ngoai-thanh-ha-noi' | relative_url }}), còn đường dài thì lý do loại đã nêu trong bài [thuê xe 50cc đi đường dài]({{ '/thue-xe-50cc-di-duong-dai' | relative_url }}).
+Trong ngày, xe 50cc hợp các cụm gần: phố cổ, Hồ Tây, và các quận trong vành đai, tổng quãng dưới ba mươi ki lômét, cách chia cụm đã có trong bài [lịch trình xe máy tham quan Hà Nội 1 ngày]({{ '/blog/lich-trinh-xe-may-tham-quan-ha-noi-1-ngay/' | relative_url }}). Với cung ngoài vành đai, đọc trước phân tích trong bài [thuê xe 50cc đi ngoại thành Hà Nội]({{ '/blog/thue-xe-50cc-di-ngoai-thanh-ha-noi/' | relative_url }}), còn đường dài thì lý do loại đã nêu trong bài [thuê xe 50cc đi đường dài]({{ '/blog/thue-xe-50cc-di-duong-dai/' | relative_url }}).
 
 ## Tốc độ và dòng xe đồi dốc
 
-Xe 50cc lên dốc dài yếu máy và dễ nóng, nên tránh các cung đèo như Ba Vì hay Tam Đảo, phần so sánh cho cung núi đã có trong bài [xe ga và xe số khi thuê]({{ '/xe-ga-va-xe-so-khi-thue' | relative_url }}). Giữ tốc độ vừa trong phố cũng là cách bảo động cơ, vì ép ga hết cỡ làm hao máy nhanh. Ai mới lái thì xe 50cc còn là dòng tốt để làm quen, phần khuyến nghị có trong bài [thuê xe 50cc cho người mới lái]({{ '/thue-xe-50cc-cho-nguoi-moi-lai' | relative_url }}).
+Xe 50cc lên dốc dài yếu máy và dễ nóng, nên tránh các cung đèo như Ba Vì hay Tam Đảo, phần so sánh cho cung núi đã có trong bài [xe ga và xe số khi thuê]({{ '/blog/xe-ga-va-xe-so-khi-thue/' | relative_url }}). Giữ tốc độ vừa trong phố cũng là cách bảo động cơ, vì ép ga hết cỡ làm hao máy nhanh. Ai mới lái thì xe 50cc còn là dòng tốt để làm quen, phần khuyến nghị có trong bài [thuê xe 50cc cho người mới lái]({{ '/blog/thue-xe-50cc-cho-nguoi-moi-lai/' | relative_url }}).
 
 ## Kiểm tra xe trước khi nhận
 
-Rà phanh, đèn, lốp và mức nhớt theo checklist trong bài [checklist 10 phút trước khi nhận xe]({{ '/checklist-10-phut-truoc-khi-nhan-xe' | relative_url }}), vì động cơ nhỏ cần nhớt đúng mức, và chụp bốn góc xe như thói quen trong bài [chụp ảnh xe trước khi thuê]({{ '/chup-anh-xe-truoc-khi-thue' | relative_url }}). Nếu trong lịch có chặng leo cầu vượt dài, thử một lần ga nhanh quanh điểm nhận trước khi lên đường.
+Rà phanh, đèn, lốp và mức nhớt theo checklist trong bài [checklist 10 phút trước khi nhận xe]({{ '/blog/checklist-10-phut-truoc-khi-nhan-xe/' | relative_url }}), vì động cơ nhỏ cần nhớt đúng mức, và chụp bốn góc xe như thói quen trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}). Nếu trong lịch có chặng leo cầu vượt dài, thử một lần ga nhanh quanh điểm nhận trước khi lên đường.
 
 ## Gói thuê và giấy phép
 
-Xe 50cc giá thấp nhất trong các dòng, khung giá đã có trong bài [giá thuê xe máy 50cc Hà Nội]({{ '/gia-thue-xe-may-50cc-ha-noi' | relative_url }}), và gói theo tuần trong bài [thuê xe 50cc Hà Nội theo tuần]({{ '/thue-xe-50cc-ha-noi-theo-tuan' | relative_url }}) nếu định đi nhiều ngày. Về giấy phép, quy định hiện hành đã phân tích trong bài [thuê xe 50cc có cần bằng lái không]({{ '/thue-xe-50cc-can-bang-lai-khong' | relative_url }}), danh sách giấy tờ đầy đủ trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/thue-xe-may-ha-noi-can-giay-to-gi' | relative_url }}).
+Xe 50cc giá thấp nhất trong các dòng, khung giá đã có trong bài [giá thuê xe máy 50cc Hà Nội]({{ '/blog/gia-thue-xe-may-50cc-ha-noi/' | relative_url }}), và gói theo tuần trong bài [thuê xe 50cc Hà Nội theo tuần]({{ '/blog/thue-xe-50cc-ha-noi-theo-tuan/' | relative_url }}) nếu định đi nhiều ngày. Về giấy phép, quy định hiện hành đã phân tích trong bài [thuê xe 50cc có cần bằng lái không]({{ '/blog/thue-xe-50cc-can-bang-lai-khong/' | relative_url }}), danh sách giấy tờ đầy đủ trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/blog/thue-xe-may-ha-noi-can-giay-to-gi/' | relative_url }}).
 
 ## Điểm dừng và gửi xe
 
-Xe 50cc nhẹ dễ đỗ, nhưng vẫn ưu tiên điểm có người trông xe, khung chi phí gửi lẻ đã liệt kê trong bài [chi phí ăn khi thuê xe máy]({{ '/chi-phi-an-khi-thue-xe-may' | relative_url }}). Đỗ xa điểm đông chút rồi đi bộ cũng hợp với hành trình chậm kiểu 50cc, phần kinh nghiệm chọn điểm dừng đã nêu trong bài [lịch trình xe máy Phố Cổ Hồ Tây]({{ '/lich-trinh-xe-may-pho-co-ho-tay' | relative_url }}).
+Xe 50cc nhẹ dễ đỗ, nhưng vẫn ưu tiên điểm có người trông xe, khung chi phí gửi lẻ đã liệt kê trong bài [chi phí ăn khi thuê xe máy]({{ '/blog/chi-phi-an-khi-thue-xe-may/' | relative_url }}). Đỗ xa điểm đông chút rồi đi bộ cũng hợp với hành trình chậm kiểu 50cc, phần kinh nghiệm chọn điểm dừng đã nêu trong bài [lịch trình xe máy Phố Cổ Hồ Tây]({{ '/blog/lich-trinh-xe-may-pho-co-ho-tay/' | relative_url }}).
 
 ## Sự cố và trả xe
 
-Máy yếu dần giữa chặng thì nghỉ ở điểm có mái, để máy nguội rồi mới đi tiếp. Hỏng lớn gọi nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/xe-thue-bi-hong-giua-duong' | relative_url }}), phần chi phí đã phân trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/chi-phi-hu-hong-khi-thue-xe-may' | relative_url }}). Trả đúng giờ, khung phụ phí trễ nằm trong bài [phí trả xe muộn thuê xe máy]({{ '/phi-tra-xe-muon-thue-xe-may' | relative_url }}).
+Máy yếu dần giữa chặng thì nghỉ ở điểm có mái, để máy nguội rồi mới đi tiếp. Hỏng lớn gọi nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}), phần chi phí đã phân trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/blog/chi-phi-hu-hong-khi-thue-xe-may/' | relative_url }}). Trả đúng giờ, khung phụ phí trễ nằm trong bài [phí trả xe muộn thuê xe máy]({{ '/blog/phi-tra-xe-muon-thue-xe-may/' | relative_url }}).
 
-Trường hợp bạn định kết hợp 50cc với các chuyến phố lâu dài, so trước giữa gói theo ngày và gói theo tháng, khung so đã có trong bài [thuê xe máy Hà Nội theo tháng]({{ '/thue-xe-may-ha-noi-theo-thang' | relative_url }}), vì dòng 50cc giá thấp làm gói dài cực kỳ đáng cân.
+Trường hợp bạn định kết hợp 50cc với các chuyến phố lâu dài, so trước giữa gói theo ngày và gói theo tháng, khung so đã có trong bài [thuê xe máy Hà Nội theo tháng]({{ '/blog/thue-xe-may-ha-noi-theo-thang/' | relative_url }}), vì dòng 50cc giá thấp làm gói dài cực kỳ đáng cân.
 
 ## Kết luận
 

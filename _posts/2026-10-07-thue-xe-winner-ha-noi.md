@@ -13,11 +13,11 @@ Honda Winner là dòng côn tay thể thao chạy đường trường, và thuê
 
 ## Thao tác bạn phải thuộc trước
 
-Winner đòi ba kỹ năng thành bản năng: lai côn mượt ở vòng tua cao, về số giảm kịp trước khúc cua, và phanh gấp kết hợp côn không chết máy. Côn Winner đậm, ga nhạy, và tư thế chúi về trước, nên dừng đèn đỏ liên tục trong phố rất mỏi cổ. Ai chưa chắc các kỹ năng này thì đọc bài [thuê xe côn Hà Nội]({{ '/thue-xe-con-ha-noi' | relative_url }}) trước, hoặc chọn dòng khác hợp hơn: ga trong bài [thuê xe ga Hà Nội]({{ '/thue-xe-ga-ha-noi' | relative_url }}), số thường trong bài [thuê xe số Hà Nội]({{ '/thue-xe-so-ha-noi' | relative_url }}).
+Winner đòi ba kỹ năng thành bản năng: lai côn mượt ở vòng tua cao, về số giảm kịp trước khúc cua, và phanh gấp kết hợp côn không chết máy. Côn Winner đậm, ga nhạy, và tư thế chúi về trước, nên dừng đèn đỏ liên tục trong phố rất mỏi cổ. Ai chưa chắc các kỹ năng này thì đọc bài [thuê xe côn Hà Nội]({{ '/blog/thue-xe-con-ha-noi/' | relative_url }}) trước, hoặc chọn dòng khác hợp hơn: ga trong bài [thuê xe ga Hà Nội]({{ '/blog/thue-xe-ga-ha-noi/' | relative_url }}), số thường trong bài [thuê xe số Hà Nội]({{ '/blog/thue-xe-so-ha-noi/' | relative_url }}).
 
 ## Winner hợp hành trình nào
 
-Winner mạnh ở đường trường và đèo: bứt tốt, khung chắc, và phanh đĩa ở hai bánh ở bản cao. Hợp tuyến ngoại thành, Hòa Bình, hoặc dạo xa cuối tuần. Không hợp nội thành thuần vì nặng tay ở đèn đỏ và tư thế mỏi khi chen chúc. Với lịch nội thành ngắn, xe điện còn gọn hơn, tham khảo bài [thuê xe máy điện đi quãng ngắn]({{ '/thue-xe-may-dien-di-quang-ngan' | relative_url }}). Với lộ trình xa, nếu cân nhắc điện thì đọc kế hoạch pin trong bài [thuê xe máy điện đi đường dài]({{ '/thue-xe-may-dien-di-duong-dai' | relative_url }}).
+Winner mạnh ở đường trường và đèo: bứt tốt, khung chắc, và phanh đĩa ở hai bánh ở bản cao. Hợp tuyến ngoại thành, Hòa Bình, hoặc dạo xa cuối tuần. Không hợp nội thành thuần vì nặng tay ở đèn đỏ và tư thế mỏi khi chen chúc. Với lịch nội thành ngắn, xe điện còn gọn hơn, tham khảo bài [thuê xe máy điện đi quãng ngắn]({{ '/blog/thue-xe-may-dien-di-quang-ngan/' | relative_url }}). Với lộ trình xa, nếu cân nhắc điện thì đọc kế hoạch pin trong bài [thuê xe máy điện đi đường dài]({{ '/blog/thue-xe-may-dien-di-duong-dai/' | relative_url }}).
 
 ## Checklist côn và số
 
@@ -25,11 +25,11 @@ Bóp côn thử độ rơ, cáp không sứt. Vào số, giữ phanh, thả côn
 
 ## Checklist phanh, lốp và đèn
 
-Winner chạy nhanh nên phanh là ưu tiên rà đầu: bóp phanh đĩa trước khi chạy chậm, ăn tức thì không rít, phanh sau không khoá sớm. Soi lốp thể thao còn gai sâu, không phồng, không mòn mép vì lốp thể thao mòn nhanh hơn lốp thường. Bật đèn pha, đèn hậu, bấm còi, thử xi nhan theo chuẩn chung trong bài [kiểm tra phanh lốp xe 50cc]({{ '/kiem-tra-phanh-lop-xe-50cc' | relative_url }}). Trời mưa gần thì thêm nguyên tắc đường ướt trong bài [thuê xe máy điện mùa mưa]({{ '/thue-xe-may-dien-mua-mua' | relative_url }}), xe thể thao đòi đi chậm hơn hẳn khi ướt.
+Winner chạy nhanh nên phanh là ưu tiên rà đầu: bóp phanh đĩa trước khi chạy chậm, ăn tức thì không rít, phanh sau không khoá sớm. Soi lốp thể thao còn gai sâu, không phồng, không mòn mép vì lốp thể thao mòn nhanh hơn lốp thường. Bật đèn pha, đèn hậu, bấm còi, thử xi nhan theo chuẩn chung trong bài [kiểm tra phanh lốp xe 50cc]({{ '/blog/kiem-tra-phanh-lop-xe-50cc/' | relative_url }}). Trời mưa gần thì thêm nguyên tắc đường ướt trong bài [thuê xe máy điện mùa mưa]({{ '/blog/thue-xe-may-dien-mua-mua/' | relative_url }}), xe thể thao đòi đi chậm hơn hẳn khi ướt.
 
 ## Checklist giấy tờ và phụ kiện
 
-Winner trên 50 phân khối nên bắt buộc bằng lái A1, nhóm 50cc không cần như bài [xe 50cc có cần bằng lái không]({{ '/xe-50cc-co-can-bang-lai-khong' | relative_url }}). Hợp đồng ghi giá, cọc, giờ trả, mức xăng và trách nhiệm bộ số. Đếm mũ đạt chuẩn cho từng người, kính sạch. Chụp thân xe có sẵn vết trầy. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/thue-xe-50cc-cho-nguoi-nuoc-ngoai' | relative_url }}). Hỏi tồn kho qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước ngày nhận vì Winner ít và hay kẹt cuối tuần.
+Winner trên 50 phân khối nên bắt buộc bằng lái A1, nhóm 50cc không cần như bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Hợp đồng ghi giá, cọc, giờ trả, mức xăng và trách nhiệm bộ số. Đếm mũ đạt chuẩn cho từng người, kính sạch. Chụp thân xe có sẵn vết trầy. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). Hỏi tồn kho qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước ngày nhận vì Winner ít và hay kẹt cuối tuần.
 
 ## Kết luận
 

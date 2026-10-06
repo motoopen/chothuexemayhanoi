@@ -13,29 +13,29 @@ Chùa Hương cách Hà Nội chừng sáu mươi ki lômét, là chuyến trong
 
 ## Xuất phát sớm hơn dự tính
 
-Chùa Hương đông nhất từ sáng tới giữa trưa, nên rời Hà Nội trước sáu giờ, bạn đến bến Suối Tiên trước khi dòng xe dài lại. Với ai cần lấy xe rất sớm, gói giờ đã trình bày trong bài [thuê xe máy Hà Nội theo giờ]({{ '/thue-xe-may-ha-noi-theo-gio' | relative_url }}) và nhận xe hôm trước buổi chiều đều là lựa chọn, phần nhận xe sớm đã nêu trong bài [thuê xe máy Hà Nội nhận xe sớm]({{ '/thue-xe-may-ha-noi-nhan-xe-som' | relative_url }}).
+Chùa Hương đông nhất từ sáng tới giữa trưa, nên rời Hà Nội trước sáu giờ, bạn đến bến Suối Tiên trước khi dòng xe dài lại. Với ai cần lấy xe rất sớm, gói giờ đã trình bày trong bài [thuê xe máy Hà Nội theo giờ]({{ '/blog/thue-xe-may-ha-noi-theo-gio/' | relative_url }}) và nhận xe hôm trước buổi chiều đều là lựa chọn, phần nhận xe sớm đã nêu trong bài [thuê xe máy Hà Nội nhận xe sớm]({{ '/blog/thue-xe-may-ha-noi-nhan-xe-som/' | relative_url }}).
 
 ## Chọn xe cho cung hỗn hợp
 
-Đường tới Chùa Hương gồm quốc lộ nhanh cộng đoạn đèo quanh bến, nên xe ga đời mới phanh tốt là đủ, nhưng nếu chở hai người, chọn xe phanh đĩa trước, phần cân nhắc chở người thứ hai nằm trong bài [thuê xe máy Hà Nội cho 2 người]({{ '/thue-xe-may-ha-noi-cho-2-nguoi' | relative_url }}). So sánh hai dòng xe cho cung vừa đã có trong bài [xe ga và xe số khi thuê]({{ '/xe-ga-va-xe-so-khi-thue' | relative_url }}).
+Đường tới Chùa Hương gồm quốc lộ nhanh cộng đoạn đèo quanh bến, nên xe ga đời mới phanh tốt là đủ, nhưng nếu chở hai người, chọn xe phanh đĩa trước, phần cân nhắc chở người thứ hai nằm trong bài [thuê xe máy Hà Nội cho 2 người]({{ '/blog/thue-xe-may-ha-noi-cho-2-nguoi/' | relative_url }}). So sánh hai dòng xe cho cung vừa đã có trong bài [xe ga và xe số khi thuê]({{ '/blog/xe-ga-va-xe-so-khi-thue/' | relative_url }}).
 
 ## Kiểm tra xe trước khi lên đường
 
-Rà phanh, lốp, đèn và mức xăng theo checklist trong bài [checklist 10 phút trước khi nhận xe]({{ '/checklist-10-phut-truoc-khi-nhan-xe' | relative_url }}), và chụp bốn góc xe như thói quen trong bài [chụp ảnh xe trước khi thuê]({{ '/chup-anh-xe-truoc-khi-thue' | relative_url }}). Hỏi nơi thuê giờ hỗ trợ qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), vì chuyến về có thể khuya hơn dự kiến, và phụ phí trễ tính theo khung trong bài [phí trả xe muộn thuê xe máy]({{ '/phi-tra-xe-muon-thue-xe-may' | relative_url }}).
+Rà phanh, lốp, đèn và mức xăng theo checklist trong bài [checklist 10 phút trước khi nhận xe]({{ '/blog/checklist-10-phut-truoc-khi-nhan-xe/' | relative_url }}), và chụp bốn góc xe như thói quen trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}). Hỏi nơi thuê giờ hỗ trợ qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), vì chuyến về có thể khuya hơn dự kiến, và phụ phí trễ tính theo khung trong bài [phí trả xe muộn thuê xe máy]({{ '/blog/phi-tra-xe-muon-thue-xe-may/' | relative_url }}).
 
 ## Đồ mang theo cho chuyến lễ
 
-Mang gọn: mũ bảo hiểm đạt chuẩn, áo mưa, nước, và giày trượt tốt cho đoạn bến. Cốp xe ga vừa được đồ này, cách phân bổ đã hướng dẫn trong bài [chọn cốp xe máy thuê]({{ '/chon-cop-xe-may-thue' | relative_url }}). Chi phí xăng cho một trăm hai mươi ki lômét khứ hồi chỉ là phần nhỏ, ước tính theo bài [chi phí xăng khi thuê xe máy Hà Nội]({{ '/chi-phi-xang-khi-thue-xe-may-ha-noi' | relative_url }}), nhưng nên hỏi trước các khoản ngoài giá thuê, khung liệt kê nằm trong bài [giá thuê xe máy đã bao gồm gì]({{ '/gia-thue-xe-may-da-bao-gom-gi' | relative_url }}).
+Mang gọn: mũ bảo hiểm đạt chuẩn, áo mưa, nước, và giày trượt tốt cho đoạn bến. Cốp xe ga vừa được đồ này, cách phân bổ đã hướng dẫn trong bài [chọn cốp xe máy thuê]({{ '/blog/chon-cop-xe-may-thue/' | relative_url }}). Chi phí xăng cho một trăm hai mươi ki lômét khứ hồi chỉ là phần nhỏ, ước tính theo bài [chi phí xăng khi thuê xe máy Hà Nội]({{ '/blog/chi-phi-xang-khi-thue-xe-may-ha-noi/' | relative_url }}), nhưng nên hỏi trước các khoản ngoài giá thuê, khung liệt kê nằm trong bài [giá thuê xe máy đã bao gồm gì]({{ '/blog/gia-thue-xe-may-da-bao-gom-gi/' | relative_url }}).
 
 ## Giấy tờ cho chặng tỉnh
 
-Mang đăng ký xe, chứng nhận bảo hiểm, giấy phép lái, và căn cước, danh sách đầy đủ trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/thue-xe-may-ha-noi-can-giay-to-gi' | relative_url }}). Đoạn quanh bến hay có tuần tra giờ cao điểm, và phần giấy tờ xe của bên cho thuê cần luôn theo xe, tình huống thiếu thì xử lý theo bài [mất giấy tờ xe thuê]({{ '/mat-giay-to-xe-thue' | relative_url }}).
+Mang đăng ký xe, chứng nhận bảo hiểm, giấy phép lái, và căn cước, danh sách đầy đủ trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/blog/thue-xe-may-ha-noi-can-giay-to-gi/' | relative_url }}). Đoạn quanh bến hay có tuần tra giờ cao điểm, và phần giấy tờ xe của bên cho thuê cần luôn theo xe, tình huống thiếu thì xử lý theo bài [mất giấy tờ xe thuê]({{ '/blog/mat-giay-to-xe-thue/' | relative_url }}).
 
 ## Xử lý sự cố trên cung
 
-Kẹt xe dài trên đèo làm máy nóng, nên tấp lề nghỉ nếu thấy có dấu hiệu. Hỏng lớn thì gọi nơi thuê trước khi kéo vào tiệm, trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/xe-thue-bi-hong-giua-duong' | relative_url }}), và phân trách nhiệm chi phí theo bài [chi phí hư hỏng khi thuê xe máy]({{ '/chi-phi-hu-hong-khi-thue-xe-may' | relative_url }}). Mưa giữa cung thì áp dụng phần lái mưa trong bài [thuê xe máy Hà Nội mùa mưa]({{ '/thue-xe-may-ha-noi-mua-mua' | relative_url }}).
+Kẹt xe dài trên đèo làm máy nóng, nên tấp lề nghỉ nếu thấy có dấu hiệu. Hỏng lớn thì gọi nơi thuê trước khi kéo vào tiệm, trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}), và phân trách nhiệm chi phí theo bài [chi phí hư hỏng khi thuê xe máy]({{ '/blog/chi-phi-hu-hong-khi-thue-xe-may/' | relative_url }}). Mưa giữa cung thì áp dụng phần lái mưa trong bài [thuê xe máy Hà Nội mùa mưa]({{ '/blog/thue-xe-may-ha-noi-mua-mua/' | relative_url }}).
 
-Cuối cùng, nên giữ biên nhận phí gửi xe tại bến và vé thuyền để đối chiếu khi cần: chuyến lễ hội có nhiều khoản lẻ, và gom đủ giấy tờ giúp bạn tất toán hợp đồng thuê nhanh gọn, phần các khoản nên hỏi trước nằm trong bài [hợp đồng thuê xe máy cần có gì]({{ '/hop-dong-thue-xe-may-can-co-gi' | relative_url }}).
+Cuối cùng, nên giữ biên nhận phí gửi xe tại bến và vé thuyền để đối chiếu khi cần: chuyến lễ hội có nhiều khoản lẻ, và gom đủ giấy tờ giúp bạn tất toán hợp đồng thuê nhanh gọn, phần các khoản nên hỏi trước nằm trong bài [hợp đồng thuê xe máy cần có gì]({{ '/blog/hop-dong-thue-xe-may-can-co-gi/' | relative_url }}).
 
 ## Kết luận
 

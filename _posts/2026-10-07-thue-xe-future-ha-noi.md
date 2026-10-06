@@ -13,15 +13,15 @@ Honda Future nằm giữa xe số nhỏ và xe ga lớn: đầm, chắc và có 
 
 ## Chọn theo quãng đường
 
-Quãng nội thành ngắn dưới 40 cây số mỗi ngày: Future làm tốt nhưng hơi thừa, dòng nhỏ nhẹ rẻ hơn đủ dùng, xem bài [thuê xe Sirius Hà Nội]({{ '/thue-xe-sirius-ha-noi' | relative_url }}) và [thuê xe số Hà Nội]({{ '/thue-xe-so-ha-noi' | relative_url }}). Quãng trộn nội thành và ngoại thành 40 đến 80 cây số: đây là vùng Future mạnh nhất, đầm trên đường trường mà vẫn lọt phố được. Quãng trên 100 cây số liên tục: cân dòng ga lớn hoặc xe thể thao, tham khảo bài [thuê xe ga Hà Nội]({{ '/thue-xe-ga-ha-noi' | relative_url }}). Ai cân xe điện cho đường dài thì đọc kế hoạch pin trong bài [thuê xe máy điện đi đường dài]({{ '/thue-xe-may-dien-di-duong-dai' | relative_url }}) trước.
+Quãng nội thành ngắn dưới 40 cây số mỗi ngày: Future làm tốt nhưng hơi thừa, dòng nhỏ nhẹ rẻ hơn đủ dùng, xem bài [thuê xe Sirius Hà Nội]({{ '/blog/thue-xe-sirius-ha-noi/' | relative_url }}) và [thuê xe số Hà Nội]({{ '/blog/thue-xe-so-ha-noi/' | relative_url }}). Quãng trộn nội thành và ngoại thành 40 đến 80 cây số: đây là vùng Future mạnh nhất, đầm trên đường trường mà vẫn lọt phố được. Quãng trên 100 cây số liên tục: cân dòng ga lớn hoặc xe thể thao, tham khảo bài [thuê xe ga Hà Nội]({{ '/blog/thue-xe-ga-ha-noi/' | relative_url }}). Ai cân xe điện cho đường dài thì đọc kế hoạch pin trong bài [thuê xe máy điện đi đường dài]({{ '/blog/thue-xe-may-dien-di-duong-dai/' | relative_url }}) trước.
 
 ## Chọn theo hành lý
 
-Future có cốp nhỏ hơn xe ga nhưng có, đựng được mũ hoặc vài vật nhỏ, và chắn chân trước giúp túi không dính bụi đường. Đi nhẹ với một balo thì Future vừa và gọn. Mang nhiều đồ thì dòng ga cốp rộng hơn hẳn, xem bài [thuê xe Lead Hà Nội]({{ '/thue-xe-lead-ha-noi' | relative_url }}) và cách xếp trong bài [xe 50cc mang hành lý]({{ '/xe-50cc-mang-hanh-ly' | relative_url }}). Chở hai người thì Future chịu tốt hơn dòng số nhỏ, tham khảo tải trong bài [xe 50cc cho 2 người]({{ '/xe-50cc-cho-2-nguoi' | relative_url }}) và báo nơi thuê để chọn bản mạnh.
+Future có cốp nhỏ hơn xe ga nhưng có, đựng được mũ hoặc vài vật nhỏ, và chắn chân trước giúp túi không dính bụi đường. Đi nhẹ với một balo thì Future vừa và gọn. Mang nhiều đồ thì dòng ga cốp rộng hơn hẳn, xem bài [thuê xe Lead Hà Nội]({{ '/blog/thue-xe-lead-ha-noi/' | relative_url }}) và cách xếp trong bài [xe 50cc mang hành lý]({{ '/blog/xe-50cc-mang-hanh-ly/' | relative_url }}). Chở hai người thì Future chịu tốt hơn dòng số nhỏ, tham khảo tải trong bài [xe 50cc cho 2 người]({{ '/blog/xe-50cc-cho-2-nguoi/' | relative_url }}) và báo nơi thuê để chọn bản mạnh.
 
 ## Kiểm máy và bộ số
 
-Future là xe số nên kiểm bộ số đầu tiên: ga số rõ nấc, không văng, không đanh, và chạy thử lên xuống hết số. Máy đề nhanh, không rít, ga lên đều về gọn. Cáp ga và côn không sứt. Bóp phanh trước sau ăn tức thì, soi lốp, bật đèn bấm còi theo chuẩn chung trong bài [kiểm tra phanh lốp xe 50cc]({{ '/kiem-tra-phanh-lop-xe-50cc' | relative_url }}). Trời mưa gần thì thêm nguyên tắc đường ướt trong bài [thuê xe máy điện mùa mưa]({{ '/thue-xe-may-dien-mua-mua' | relative_url }}). Chạy thử vòng đủ dài quanh quầy, mọi tiếng lạ đều đáng đổi xe.
+Future là xe số nên kiểm bộ số đầu tiên: ga số rõ nấc, không văng, không đanh, và chạy thử lên xuống hết số. Máy đề nhanh, không rít, ga lên đều về gọn. Cáp ga và côn không sứt. Bóp phanh trước sau ăn tức thì, soi lốp, bật đèn bấm còi theo chuẩn chung trong bài [kiểm tra phanh lốp xe 50cc]({{ '/blog/kiem-tra-phanh-lop-xe-50cc/' | relative_url }}). Trời mưa gần thì thêm nguyên tắc đường ướt trong bài [thuê xe máy điện mùa mưa]({{ '/blog/thue-xe-may-dien-mua-mua/' | relative_url }}). Chạy thử vòng đủ dài quanh quầy, mọi tiếng lạ đều đáng đổi xe.
 
 ## Kiểm cốp và chắn chân
 
@@ -29,7 +29,7 @@ Mở cốp thử khóa êm, sạch, không ẩm. Kiểm tấm chắn chân chắ
 
 ## Giấy tờ, giá và điều khoản
 
-Future bản phổ biến 125 nên cần bằng lái A1, nhóm 50cc không cần, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/xe-50cc-co-can-bang-lai-khong' | relative_url }}). Hợp đồng ghi giá, cọc, giờ trả và mức xăng. Xin đăng ký bản photo, chụp đồng hồ xăng lúc nhận. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/thue-xe-50cc-cho-nguoi-nuoc-ngoai' | relative_url }}). So giá theo ngày và tuần ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), hỏi tồn kho qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước ngày nhận.
+Future bản phổ biến 125 nên cần bằng lái A1, nhóm 50cc không cần, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Hợp đồng ghi giá, cọc, giờ trả và mức xăng. Xin đăng ký bản photo, chụp đồng hồ xăng lúc nhận. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). So giá theo ngày và tuần ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), hỏi tồn kho qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước ngày nhận.
 
 ## Kết luận
 

@@ -13,31 +13,31 @@ Hà Nội có nhóm bảo tàng nằm rải từ phố cổ tới vành đai, v�
 
 ## Xếp bảo tàng theo tuyến một ngày
 
-Sáng sớm cho bảo tàng trong phố, trưa cho nhóm gần Hồ Tây, chiều cho nhóm ngoại ô phía tây. Mỗi ngày chỉ nên hai đến ba bảo tàng, vì sau mỗi điểm bạn cần thời gian di chuyển và nghỉ, cách chia cụm tương tự đã trình bày trong bài [lịch trình xe máy tham quan Hà Nội 1 ngày]({{ '/lich-trinh-xe-may-tham-quan-ha-noi-1-ngay' | relative_url }}).
+Sáng sớm cho bảo tàng trong phố, trưa cho nhóm gần Hồ Tây, chiều cho nhóm ngoại ô phía tây. Mỗi ngày chỉ nên hai đến ba bảo tàng, vì sau mỗi điểm bạn cần thời gian di chuyển và nghỉ, cách chia cụm tương tự đã trình bày trong bài [lịch trình xe máy tham quan Hà Nội 1 ngày]({{ '/blog/lich-trinh-xe-may-tham-quan-ha-noi-1-ngay/' | relative_url }}).
 
 ## Xác minh giờ mở và ngày nghỉ
 
-Bảo tàng thường đóng cửa một ngày cố định trong tuần và dừng bán vé trước giờ đóng, nên kiểm tra trước từ tối hôm trước, và xếp thứ tự điểm xa nhất vào sáng sớm khi còn đủ thời gian. Trục mẫu đi qua nhiều điểm đã có trong bài [lịch trình xe máy Phố Cổ Hồ Tây]({{ '/lich-trinh-xe-may-pho-co-ho-tay' | relative_url }}).
+Bảo tàng thường đóng cửa một ngày cố định trong tuần và dừng bán vé trước giờ đóng, nên kiểm tra trước từ tối hôm trước, và xếp thứ tự điểm xa nhất vào sáng sớm khi còn đủ thời gian. Trục mẫu đi qua nhiều điểm đã có trong bài [lịch trình xe máy Phố Cổ Hồ Tây]({{ '/blog/lich-trinh-xe-may-pho-co-ho-tay/' | relative_url }}).
 
 ## Gửi xe ở bảo tàng
 
-Đa số bảo tàng có bãi xe máy, nhưng một số ở phố nhỏ chỉ có gửi lẻ quanh đó, nên tính trước khoản chi phí này trong ngày, nhóm chi lẻ đã liệt kê trong bài [chi phí ăn khi thuê xe máy]({{ '/chi-phi-an-khi-thue-xe-may' | relative_url }}). Đỗ đúng vạch quanh khu bảo tàng, vì đỗ sai bị xử phạt theo quy định hiện hành, phần trách nhiệm khi đi xe thuê đã nêu trong bài [thuê xe máy bị phạt giao thông]({{ '/thue-xe-may-bi-phat-giao-thong' | relative_url }}).
+Đa số bảo tàng có bãi xe máy, nhưng một số ở phố nhỏ chỉ có gửi lẻ quanh đó, nên tính trước khoản chi phí này trong ngày, nhóm chi lẻ đã liệt kê trong bài [chi phí ăn khi thuê xe máy]({{ '/blog/chi-phi-an-khi-thue-xe-may/' | relative_url }}). Đỗ đúng vạch quanh khu bảo tàng, vì đỗ sai bị xử phạt theo quy định hiện hành, phần trách nhiệm khi đi xe thuê đã nêu trong bài [thuê xe máy bị phạt giao thông]({{ '/blog/thue-xe-may-bi-phat-giao-thong/' | relative_url }}).
 
 ## Chọn gói thuê và xe
 
-Ngày đi bảo tàng kéo dài từ sáng tới chiều, nên gói theo ngày đã trình bày trong bài [thuê xe máy Hà Nội 1 ngày tính như thế nào]({{ '/thue-xe-may-ha-noi-1-ngay-tinh-nhu-the-nao' | relative_url }}) hợp hơn gói giờ. Xe ga nhỏ gọn cho đường phố, so sánh dòng đã có trong bài [xe ga hay xe số]({{ '/xe-ga-hay-xe-so' | relative_url }}). Rà xe theo checklist trong bài [checklist 10 phút trước khi nhận xe]({{ '/checklist-10-phut-truoc-khi-nhan-xe' | relative_url }}), chụp bốn góc theo thói quen trong bài [chụp ảnh xe trước khi thuê]({{ '/chup-anh-xe-truoc-khi-thue' | relative_url }}).
+Ngày đi bảo tàng kéo dài từ sáng tới chiều, nên gói theo ngày đã trình bày trong bài [thuê xe máy Hà Nội 1 ngày tính như thế nào]({{ '/blog/thue-xe-may-ha-noi-1-ngay-tinh-nhu-the-nao/' | relative_url }}) hợp hơn gói giờ. Xe ga nhỏ gọn cho đường phố, so sánh dòng đã có trong bài [xe ga hay xe số]({{ '/blog/xe-ga-hay-xe-so/' | relative_url }}). Rà xe theo checklist trong bài [checklist 10 phút trước khi nhận xe]({{ '/blog/checklist-10-phut-truoc-khi-nhan-xe/' | relative_url }}), chụp bốn góc theo thói quen trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}).
 
 ## Né cao điểm khi di chuyển
 
-Chuyển điểm vào giữa trưa, né hai khung kẹt đã nêu trong bài [thuê xe máy Hà Nội cao điểm]({{ '/thue-xe-may-ha-noi-mua-cao-diem' | relative_url }}). Chiều về theo hướng ngược dòng xe giờ tan làm, và nếu kẹt muộn, gọi trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), khung phụ phí trễ nằm trong bài [phí trả xe muộn thuê xe máy]({{ '/phi-tra-xe-muon-thue-xe-may' | relative_url }}).
+Chuyển điểm vào giữa trưa, né hai khung kẹt đã nêu trong bài [thuê xe máy Hà Nội cao điểm]({{ '/blog/thue-xe-may-ha-noi-mua-cao-diem/' | relative_url }}). Chiều về theo hướng ngược dòng xe giờ tan làm, và nếu kẹt muộn, gọi trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), khung phụ phí trễ nằm trong bài [phí trả xe muộn thuê xe máy]({{ '/blog/phi-tra-xe-muon-thue-xe-may/' | relative_url }}).
 
 ## Giấy tờ và sự cố
 
-Mang giấy phép lái, căn cận, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/thue-xe-may-ha-noi-can-giay-to-gi' | relative_url }}). Sự cố giữa các điểm gọi nơi thuê theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/xe-thue-bi-hong-giua-duong' | relative_url }}), phần chi phí sửa đã phân trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/chi-phi-hu-hong-khi-thue-xe-may' | relative_url }}).
+Mang giấy phép lái, căn cận, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/blog/thue-xe-may-ha-noi-can-giay-to-gi/' | relative_url }}). Sự cố giữa các điểm gọi nơi thuê theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}), phần chi phí sửa đã phân trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/blog/chi-phi-hu-hong-khi-thue-xe-may/' | relative_url }}).
 
-Một lưu ý nhỏ: bảo tàng ở Hà Nội thường có quán hoặc ghế nghỉ trong sân, nên tận dụng điểm giữa để nghỉ giữa hai điểm, và mùa đông thì chọn khung giữa trưa ấm nhất cho bảo tàng ngoại ô, phần lên lịch theo thời tiết đã gợi ý trong bài [thuê xe máy Hà Nội mùa lạnh]({{ '/thue-xe-may-ha-noi-mua-lanh' | relative_url }}).
+Một lưu ý nhỏ: bảo tàng ở Hà Nội thường có quán hoặc ghế nghỉ trong sân, nên tận dụng điểm giữa để nghỉ giữa hai điểm, và mùa đông thì chọn khung giữa trưa ấm nhất cho bảo tàng ngoại ô, phần lên lịch theo thời tiết đã gợi ý trong bài [thuê xe máy Hà Nội mùa lạnh]({{ '/blog/thue-xe-may-ha-noi-mua-lanh/' | relative_url }}).
 
-Với khách nước ngoài thích ghép bảo tàng lịch sử vào lịch trình, chuẩn bị trước giấy tờ theo danh mục trong bài [thuê xe máy Hà Nội cho người nước ngoài]({{ '/thue-xe-may-ha-noi-cho-nguoi-nuoc-ngoai' | relative_url }}), vì các bảo tàng thường kiểm tra kèm vé vào cửa.
+Với khách nước ngoài thích ghép bảo tàng lịch sử vào lịch trình, chuẩn bị trước giấy tờ theo danh mục trong bài [thuê xe máy Hà Nội cho người nước ngoài]({{ '/blog/thue-xe-may-ha-noi-cho-nguoi-nuoc-ngoai/' | relative_url }}), vì các bảo tàng thường kiểm tra kèm vé vào cửa.
 
 ## Kết luận
 

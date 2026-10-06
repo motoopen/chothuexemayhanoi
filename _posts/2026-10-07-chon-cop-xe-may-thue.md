@@ -13,23 +13,23 @@ Cốp lớn không phải lúc nào cũng đáng, và cốp nhỏ nhiều khi đ
 
 ## Mức một: balo nhẹ, không đồ thêm
 
-Chỉ một balo đeo lưng và mũ đội: gần như chiếc xe nào cũng đủ, cốp chỉ cần đựng được mũ khi đỗ. Cốp nhỏ 15 lít hoặc dưới tam giác của dòng phổ thông là đủ, khỏi cần dòng cốp lớn. Nếu lịch thuần nội thành ngắn, cân luôn xe điện mini gọn hơn, xem bài [thuê xe máy điện đi quãng ngắn]({{ '/thue-xe-may-dien-di-quang-ngan' | relative_url }}). Tiền chênh cho cốp lớn khi không dùng là tiền mất.
+Chỉ một balo đeo lưng và mũ đội: gần như chiếc xe nào cũng đủ, cốp chỉ cần đựng được mũ khi đỗ. Cốp nhỏ 15 lít hoặc dưới tam giác của dòng phổ thông là đủ, khỏi cần dòng cốp lớn. Nếu lịch thuần nội thành ngắn, cân luôn xe điện mini gọn hơn, xem bài [thuê xe máy điện đi quãng ngắn]({{ '/blog/thue-xe-may-dien-di-quang-ngan/' | relative_url }}). Tiền chênh cho cốp lớn khi không dùng là tiền mất.
 
 ## Mức hai: mũ thêm túi xách hoặc đồ mua
 
-Túi xách, máy ảnh, vài vật mua sắm mỗi ngày: cần cốp tầm 18 lít trở lên, đựng được mũ cùng túi cùng lúc. Vision và Air Blade ở mức vừa, so hai dòng trong bài [thuê Air Blade hay Vision]({{ '/air-blade-va-vision-khi-thue' | relative_url }}). Mức này là phổ biến nhất với khách du lịch, và cách xếp cốp an toàn đã tóm trong bài [xe 50cc mang hành lý]({{ '/xe-50cc-mang-hanh-ly' | relative_url }}). Nhớ thử mũ và túi của bạn vào cốp thật tại quầy, không ước lượng.
+Túi xách, máy ảnh, vài vật mua sắm mỗi ngày: cần cốp tầm 18 lít trở lên, đựng được mũ cùng túi cùng lúc. Vision và Air Blade ở mức vừa, so hai dòng trong bài [thuê Air Blade hay Vision]({{ '/blog/air-blade-va-vision-khi-thue/' | relative_url }}). Mức này là phổ biến nhất với khách du lịch, và cách xếp cốp an toàn đã tóm trong bài [xe 50cc mang hành lý]({{ '/blog/xe-50cc-mang-hanh-ly/' | relative_url }}). Nhớ thử mũ và túi của bạn vào cốp thật tại quầy, không ước lượng.
 
 ## Mức ba: hai mũ và đồ đôi, hoặc vali nhỏ
 
-Hai người với hai mũ và đồ đôi, hoặc bạn mang vali nhỏ: cần cốp trên 30 lít, Lead dẫn đầu nhóm nhỏ, xem bài [thuê xe Lead Hà Nội]({{ '/thue-xe-lead-ha-noi' | relative_url }}). Dòng ga lớn cốp cũng rộng nhưng nặng và đắt hơn, cân trong bài [thuê SH hay Air Blade]({{ '/sh-va-air-blade-khi-thue' | relative_url }}). Chở hai người thì cốp phải còn chừa mũ người sau, tải trong bài [xe 50cc cho 2 người]({{ '/xe-50cc-cho-2-nguoi' | relative_url }}). Vali thật lớn thì gửi khách sạn trước rồi đi xe nhẹ, an toàn hơn chở quá tải.
+Hai người với hai mũ và đồ đôi, hoặc bạn mang vali nhỏ: cần cốp trên 30 lít, Lead dẫn đầu nhóm nhỏ, xem bài [thuê xe Lead Hà Nội]({{ '/blog/thue-xe-lead-ha-noi/' | relative_url }}). Dòng ga lớn cốp cũng rộng nhưng nặng và đắt hơn, cân trong bài [thuê SH hay Air Blade]({{ '/blog/sh-va-air-blade-khi-thue/' | relative_url }}). Chở hai người thì cốp phải còn chừa mũ người sau, tải trong bài [xe 50cc cho 2 người]({{ '/blog/xe-50cc-cho-2-nguoi/' | relative_url }}). Vali thật lớn thì gửi khách sạn trước rồi đi xe nhẹ, an toàn hơn chở quá tải.
 
 ## Kiểm cốp trước khi nhận
 
-Bốn điểm rà: khóa êm đóng mở, cánh cốp không hờ, bên trong sạch không thấm, và bản lề chắc. Thử mũ và túi thật của bạn vào cốp ngay tại bàn giao. Cốp thấm là lỗi khó thấy, soi mép gioăng và thảm lót, hỏi nơi thuê xe này có từng đi mưa nhiều không. Trời mưa gần thì đồ bọc túi nilon bên trong bất kể cốp lớn nhỏ, và các tiêu chí mưa nằm trong bài [thuê xe máy mùa mưa loại nào]({{ '/thue-xe-may-mua-mua-loai-nao' | relative_url }}).
+Bốn điểm rà: khóa êm đóng mở, cánh cốp không hờ, bên trong sạch không thấm, và bản lề chắc. Thử mũ và túi thật của bạn vào cốp ngay tại bàn giao. Cốp thấm là lỗi khó thấy, soi mép gioăng và thảm lót, hỏi nơi thuê xe này có từng đi mưa nhiều không. Trời mưa gần thì đồ bọc túi nilon bên trong bất kể cốp lớn nhỏ, và các tiêu chí mưa nằm trong bài [thuê xe máy mùa mưa loại nào]({{ '/blog/thue-xe-may-mua-mua-loai-nao/' | relative_url }}).
 
 ## Cốp và giấy tờ, giá thuê
 
-Cốp không đổi quy định giấy tờ: trên 50 phân khối cần bằng A1, nhóm 50cc không cần, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/xe-50cc-co-can-bang-lai-khong' | relative_url }}). Dòng cốp lớn giá nhỉnh hơn chút, so khung giá theo kỳ ở trang [bảng giá]({{ '/banggia.html' | relative_url }}). Hợp đồng ghi trách nhiệm nếu hỏng khóa cốp. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/thue-xe-50cc-cho-nguoi-nuoc-ngoai' | relative_url }}). Gọi trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) nói khối đồ để nơi giữ sẵn dòng cốp đúng mức.
+Cốp không đổi quy định giấy tờ: trên 50 phân khối cần bằng A1, nhóm 50cc không cần, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Dòng cốp lớn giá nhỉnh hơn chút, so khung giá theo kỳ ở trang [bảng giá]({{ '/banggia.html' | relative_url }}). Hợp đồng ghi trách nhiệm nếu hỏng khóa cốp. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). Gọi trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) nói khối đồ để nơi giữ sẵn dòng cốp đúng mức.
 
 ## Kết luận
 

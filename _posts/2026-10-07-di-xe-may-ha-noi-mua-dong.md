@@ -13,27 +13,27 @@ Mùa đông Hà Nội lạnh khô rồi chuyển sang ẩm mưa, và lái xe má
 
 ## Lên lịch theo cửa sổ ấm
 
-Khoảng mười giờ sáng tới ba giờ chiều là khung dễ chịu nhất, nên dồn điểm chính vào giữa ngày và bỏ lịch sớm kiểu mùa hè. Mùa đông xe lạnh khó nổ buổi sớm, phần chăm xe lạnh đã gợi ý trong bài [thuê xe máy Hà Nội mùa lạnh]({{ '/thue-xe-may-ha-noi-mua-lanh' | relative_url }}). Khung giờ né cao điểm vẫn áp dụng, chi tiết trong bài [thuê xe máy Hà Nội cao điểm]({{ '/thue-xe-may-ha-noi-mua-cao-diem' | relative_url }}), nhưng cộng thêm yếu tố ấm: đi giữa trưa cũng đỡ kẹt hơn.
+Khoảng mười giờ sáng tới ba giờ chiều là khung dễ chịu nhất, nên dồn điểm chính vào giữa ngày và bỏ lịch sớm kiểu mùa hè. Mùa đông xe lạnh khó nổ buổi sớm, phần chăm xe lạnh đã gợi ý trong bài [thuê xe máy Hà Nội mùa lạnh]({{ '/blog/thue-xe-may-ha-noi-mua-lanh/' | relative_url }}). Khung giờ né cao điểm vẫn áp dụng, chi tiết trong bài [thuê xe máy Hà Nội cao điểm]({{ '/blog/thue-xe-may-ha-noi-mua-cao-diem/' | relative_url }}), nhưng cộng thêm yếu tố ấm: đi giữa trưa cũng đỡ kẹt hơn.
 
 ## Chuẩn bị giữ ấm đúng lớp
 
-Ba lớp là công thức: lớp trong giữ ẩm, lớp giữa giữ nhiệt, lớp ngoài gió, cộng găng tay và khăn bịt cổ, vì bàn tay lạnh làm chậm phản xạ phanh. Đồ này đòi cốp rộng hoặc túi đeo, cách phân bổ đã trình bày trong bài [chọn cốp xe máy thuê]({{ '/chon-cop-xe-may-thue' | relative_url }}). Giữ giấy tờ trong túi zip sát người, danh sách cần mang trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/thue-xe-may-ha-noi-can-giay-to-gi' | relative_url }}).
+Ba lớp là công thức: lớp trong giữ ẩm, lớp giữa giữ nhiệt, lớp ngoài gió, cộng găng tay và khăn bịt cổ, vì bàn tay lạnh làm chậm phản xạ phanh. Đồ này đòi cốp rộng hoặc túi đeo, cách phân bổ đã trình bày trong bài [chọn cốp xe máy thuê]({{ '/blog/chon-cop-xe-may-thue/' | relative_url }}). Giữ giấy tờ trong túi zip sát người, danh sách cần mang trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/blog/thue-xe-may-ha-noi-can-giay-to-gi/' | relative_url }}).
 
 ## Chọn xe cho trời lạnh
 
-Xe ga đời mới đề nhanh và có che chân tốt hơn xe số cũ, nên hỏi nơi thuê xe đã được chăm gần đây qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}). So sánh dòng đã có trong bài [xe ga và xe số khi thuê]({{ '/xe-ga-va-xe-so-khi-thue' | relative_url }}). Rà phanh, đèn và lốp theo checklist trong bài [checklist 10 phút trước khi nhận xe]({{ '/checklist-10-phut-truoc-khi-nhan-xe' | relative_url }}), rồi chụp bốn góc xe như thói quen trong bài [chụp ảnh xe trước khi thuê]({{ '/chup-anh-xe-truoc-khi-thue' | relative_url }}).
+Xe ga đời mới đề nhanh và có che chân tốt hơn xe số cũ, nên hỏi nơi thuê xe đã được chăm gần đây qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}). So sánh dòng đã có trong bài [xe ga và xe số khi thuê]({{ '/blog/xe-ga-va-xe-so-khi-thue/' | relative_url }}). Rà phanh, đèn và lốp theo checklist trong bài [checklist 10 phút trước khi nhận xe]({{ '/blog/checklist-10-phut-truoc-khi-nhan-xe/' | relative_url }}), rồi chụp bốn góc xe như thói quen trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}).
 
 ## Gói thuê theo ngày ngắn
 
-Ngày mùa đông kết thúc sớm vì tối nhanh và rét chiều, nên gói theo giờ trong bài [thuê xe máy Hà Nội theo giờ]({{ '/thue-xe-may-ha-noi-theo-gio' | relative_url }}) hoặc gói bốn tiếng trong bài [thuê xe máy Hà Nội 4 giờ]({{ '/thue-xe-may-ha-noi-4-gio' | relative_url }}) khớp cửa sổ ấm hơn gói cả ngày. Nếu tính về khuya, so gói qua đêm trong bài [thuê xe máy Hà Nội qua đêm]({{ '/thue-xe-may-ha-noi-qua-dem' | relative_url }}), và báo trước giờ trễ theo khung trong bài [phí trả xe muộn thuê xe máy]({{ '/phi-tra-xe-muon-thue-xe-may' | relative_url }}).
+Ngày mùa đông kết thúc sớm vì tối nhanh và rét chiều, nên gói theo giờ trong bài [thuê xe máy Hà Nội theo giờ]({{ '/blog/thue-xe-may-ha-noi-theo-gio/' | relative_url }}) hoặc gói bốn tiếng trong bài [thuê xe máy Hà Nội 4 giờ]({{ '/blog/thue-xe-may-ha-noi-4-gio/' | relative_url }}) khớp cửa sổ ấm hơn gói cả ngày. Nếu tính về khuya, so gói qua đêm trong bài [thuê xe máy Hà Nội qua đêm]({{ '/blog/thue-xe-may-ha-noi-qua-dem/' | relative_url }}), và báo trước giờ trễ theo khung trong bài [phí trả xe muộn thuê xe máy]({{ '/blog/phi-tra-xe-muon-thue-xe-may/' | relative_url }}).
 
 ## Mưa rét và sự cố
 
-Mưa mùa đông lạnh buốt hơn mưa hè, nên áp dụng luôn chiến lược rút ngắn hành trình và điểm dừng có mái theo kinh nghiệm trong bài [thuê xe máy Hà Nội mùa mưa]({{ '/thue-xe-may-ha-noi-mua-mua' | relative_url }}). Xe khó nổ giữa chặng thì đẩy khỏi dòng xe, gọi nơi thuê theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/xe-thue-bi-hong-giua-duong' | relative_url }}), phần chi phí sửa đã phân trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/chi-phi-hu-hong-khi-thue-xe-may' | relative_url }}). Có trơn trượt ngã thì làm theo bài [xe thuê bị tai nạn phải làm gì]({{ '/xe-thue-bi-tai-nan-phai-lam-gi' | relative_url }}).
+Mưa mùa đông lạnh buốt hơn mưa hè, nên áp dụng luôn chiến lược rút ngắn hành trình và điểm dừng có mái theo kinh nghiệm trong bài [thuê xe máy Hà Nội mùa mưa]({{ '/blog/thue-xe-may-ha-noi-mua-mua/' | relative_url }}). Xe khó nổ giữa chặng thì đẩy khỏi dòng xe, gọi nơi thuê theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}), phần chi phí sửa đã phân trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/blog/chi-phi-hu-hong-khi-thue-xe-may/' | relative_url }}). Có trơn trượt ngã thì làm theo bài [xe thuê bị tai nạn phải làm gì]({{ '/blog/xe-thue-bi-tai-nan-phai-lam-gi/' | relative_url }}).
 
-Một mẹo nhỏ cho mùa đông: hẹn nhận xe buổi tối hôm trước để sáng không phải chờ nổ máy lạnh giữa gió, phần nhận xe sớm đã trình bày trong bài [thuê xe máy Hà Nội nhận xe sớm]({{ '/thue-xe-may-ha-noi-nhan-xe-som' | relative_url }}), và kiểm tra nhớm dầu sớm trong buổi.
+Một mẹo nhỏ cho mùa đông: hẹn nhận xe buổi tối hôm trước để sáng không phải chờ nổ máy lạnh giữa gió, phần nhận xe sớm đã trình bày trong bài [thuê xe máy Hà Nội nhận xe sớm]({{ '/blog/thue-xe-may-ha-noi-nhan-xe-som/' | relative_url }}), và kiểm tra nhớm dầu sớm trong buổi.
 
-Với ai sợ rét kiểu dữ dội, chọn ngày nắng đẹp trong tuần thay vì cố đi từng ngày, vì một ngày trời quang cho trải nghiệm bằng ba ngày rét, kinh nghiệm chọn ngày đã gợi ý trong bài [thuê xe máy Hà Nội 2 ngày]({{ '/thue-xe-may-ha-noi-2-ngay' | relative_url }}).
+Với ai sợ rét kiểu dữ dội, chọn ngày nắng đẹp trong tuần thay vì cố đi từng ngày, vì một ngày trời quang cho trải nghiệm bằng ba ngày rét, kinh nghiệm chọn ngày đã gợi ý trong bài [thuê xe máy Hà Nội 2 ngày]({{ '/blog/thue-xe-may-ha-noi-2-ngay/' | relative_url }}).
 
 ## Kết luận
 

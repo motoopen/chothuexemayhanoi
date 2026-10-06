@@ -13,19 +13,19 @@ Giáp Bát là khu gần bến xe và ga phía nam với nhiều đường trụ
 
 ## Nhận xe gần chỗ ở
 
-Nhận xe tại khách sạn hoặc nhà nghỉ quanh các phố Giải Phóng, Định Công Thượng hoặc khu gần bến xe giúp bạn bắt đầu ngày bằng một vòng chạy thử quen đường ngay quanh khối nhà. Ưu điểm là khỏi vác giấy tờ đi xa, và gặp trục trặc thì gọi cửa hàng tới xử lý gần. Phù hợp khách du lịch và khách công tác ở lại nhiều ngày. Với xe điện, nhận tại chỗ ở còn giúp cắm sạc ngay tối đầu tiên, các câu hỏi cần hỏi trong bài [sạc xe máy điện khi thuê]({{ '/sac-xe-may-dien-khi-thue' | relative_url }}).
+Nhận xe tại khách sạn hoặc nhà nghỉ quanh các phố Giải Phóng, Định Công Thượng hoặc khu gần bến xe giúp bạn bắt đầu ngày bằng một vòng chạy thử quen đường ngay quanh khối nhà. Ưu điểm là khỏi vác giấy tờ đi xa, và gặp trục trặc thì gọi cửa hàng tới xử lý gần. Phù hợp khách du lịch và khách công tác ở lại nhiều ngày. Với xe điện, nhận tại chỗ ở còn giúp cắm sạc ngay tối đầu tiên, các câu hỏi cần hỏi trong bài [sạc xe máy điện khi thuê]({{ '/blog/sac-xe-may-dien-khi-thue/' | relative_url }}).
 
 ## Nhận tại điểm hẹn trên tuyến di chuyển
 
-Nếu lịch trình của bạn đã bắt đầu từ sáng sớm, hẹn nhận xe tại một điểm giữa tuyến như gần đầu phố lớn hay cạnh một quán quen sẽ đỡ vòng đi lại. Ưu điểm là gọn giờ, nhược điểm là bàn giao gấp, nên kiểm nhanh theo checklist trong bài [checklist nhận xe máy điện]({{ '/checklist-nhan-xe-may-dien' | relative_url }}) hoặc bản dành cho nhóm xăng trong bài [checklist nhận xe 50cc]({{ '/checklist-nhan-xe-50cc' | relative_url }}). Gặp hôm mưa thì cân phần giao xe ướt trong bài [thuê xe máy điện mùa mưa]({{ '/thue-xe-may-dien-mua-mua' | relative_url }}).
+Nếu lịch trình của bạn đã bắt đầu từ sáng sớm, hẹn nhận xe tại một điểm giữa tuyến như gần đầu phố lớn hay cạnh một quán quen sẽ đỡ vòng đi lại. Ưu điểm là gọn giờ, nhược điểm là bàn giao gấp, nên kiểm nhanh theo checklist trong bài [checklist nhận xe máy điện]({{ '/blog/checklist-nhan-xe-may-dien/' | relative_url }}) hoặc bản dành cho nhóm xăng trong bài [checklist nhận xe 50cc]({{ '/blog/checklist-nhan-xe-50cc/' | relative_url }}). Gặp hôm mưa thì cân phần giao xe ướt trong bài [thuê xe máy điện mùa mưa]({{ '/blog/thue-xe-may-dien-mua-mua/' | relative_url }}).
 
 ## Nhận tại cửa hàng quanh khu
 
-Cửa hàng cho bạn chọn giữa nhiều chiếc và bàn giao đầy đủ: chạy thử, đổi xe tại chỗ nếu có lỗi, mũ giấy tờ đủ bộ. Phù hợp người lần đầu thuê và ai cần dòng xe hiếm như Cub, xem so sánh trong bài [Cub 50cc và Wave 50cc]({{ '/cub-50cc-va-wave-50cc' | relative_url }}). Nhược điểm là mất thêm mười phút di chuyển, không đáng nếu bạn ở gần các phố trung tâm khu.
+Cửa hàng cho bạn chọn giữa nhiều chiếc và bàn giao đầy đủ: chạy thử, đổi xe tại chỗ nếu có lỗi, mũ giấy tờ đủ bộ. Phù hợp người lần đầu thuê và ai cần dòng xe hiếm như Cub, xem so sánh trong bài [Cub 50cc và Wave 50cc]({{ '/blog/cub-50cc-va-wave-50cc/' | relative_url }}). Nhược điểm là mất thêm mười phút di chuyển, không đáng nếu bạn ở gần các phố trung tâm khu.
 
 ## Chọn điểm nhận theo hướng hành trình
 
-Hành trình chủ yếu trong khu và các quận lân cận: nhận gần chỗ ở, tham khảo cách cân xe cho chặng ngắn trong bài [thuê xe máy điện đi quãng ngắn]({{ '/thue-xe-may-dien-di-quang-ngan' | relative_url }}). Hành trình có chặng xa ngay ngày đầu: nhận tại cửa hàng để thử máy kỹ, xem cách chọn cho chặng dài trong bài [thuê xe máy điện đi đường dài]({{ '/thue-xe-may-dien-di-duong-dai' | relative_url }}). Hành trình về phố cổ buổi chiều: chọn điểm nhận ở phía bắc khu để thuận hướng di chuyển, đỡ rẽ ngược đường trục đông đúc.
+Hành trình chủ yếu trong khu và các quận lân cận: nhận gần chỗ ở, tham khảo cách cân xe cho chặng ngắn trong bài [thuê xe máy điện đi quãng ngắn]({{ '/blog/thue-xe-may-dien-di-quang-ngan/' | relative_url }}). Hành trình có chặng xa ngay ngày đầu: nhận tại cửa hàng để thử máy kỹ, xem cách chọn cho chặng dài trong bài [thuê xe máy điện đi đường dài]({{ '/blog/thue-xe-may-dien-di-duong-dai/' | relative_url }}). Hành trình về phố cổ buổi chiều: chọn điểm nhận ở phía bắc khu để thuận hướng di chuyển, đỡ rẽ ngược đường trục đông đúc.
 
 ## Chốt điểm nhận trước khi đến
 

@@ -21,19 +21,19 @@ Ngồi lên, hai chân chống: ngón chân chạm ổn, gót chạm được l�
 
 ## Nhóm xe yên thấp đáng cân
 
-Nhóm 50cc và ga nhỏ thấp nhất: Cub, Wave, Vision, xem so sánh trong bài [so sánh Cub 50cc và Wave 50cc]({{ '/cub-50cc-va-wave-50cc' | relative_url }}). Xe máy điện mini nhiều loại yên thấp và nhẹ, xem bài [xe máy điện và xe 50cc khi thuê]({{ '/xe-may-dien-va-xe-50cc-khi-thue' | relative_url }}). Nhóm không cần bằng lái rộng lựa chọn cho người chưa có bằng, xem bài [thuê xe 50cc không cần bằng lái]({{ '/thue-xe-50cc-khong-can-bang-lai' | relative_url }}). Tránh dòng ga lớn và côn thể thao vì yên cao, cân nhắc trong bài [thuê xe SH Hà Nội]({{ '/thue-xe-sh-ha-noi' | relative_url }}).
+Nhóm 50cc và ga nhỏ thấp nhất: Cub, Wave, Vision, xem so sánh trong bài [so sánh Cub 50cc và Wave 50cc]({{ '/blog/cub-50cc-va-wave-50cc/' | relative_url }}). Xe máy điện mini nhiều loại yên thấp và nhẹ, xem bài [xe máy điện và xe 50cc khi thuê]({{ '/blog/xe-may-dien-va-xe-50cc-khi-thue/' | relative_url }}). Nhóm không cần bằng lái rộng lựa chọn cho người chưa có bằng, xem bài [thuê xe 50cc không cần bằng lái]({{ '/blog/thue-xe-50cc-khong-can-bang-lai/' | relative_url }}). Tránh dòng ga lớn và côn thể thao vì yên cao, cân nhắc trong bài [thuê xe SH Hà Nội]({{ '/blog/thue-xe-sh-ha-noi/' | relative_url }}).
 
 ## Chỉnh được gì tại điểm thuê
 
-Hỏi chỉnh độ cao yên nếu bản có, xin lót yên hoặc gối nhỏ, và nới ghìe gần hơn cho tay với chân đều gọn. Nơi thuê quen các yêu cầu này và thường có sẵn phụ kiện. Nếu sau các chỉnh vẫn thấy chân chạm căng, đổi xe ngay tại quầy, đừng nhận về rồi chịu đựng cả kỳ. Một chiếc xe hợp về yên còn phải đạt phanh lốp đèn, rà theo chuẩn trong bài [kiểm tra phanh lốp xe 50cc]({{ '/kiem-tra-phanh-lop-xe-50cc' | relative_url }}).
+Hỏi chỉnh độ cao yên nếu bản có, xin lót yên hoặc gối nhỏ, và nới ghìe gần hơn cho tay với chân đều gọn. Nơi thuê quen các yêu cầu này và thường có sẵn phụ kiện. Nếu sau các chỉnh vẫn thấy chân chạm căng, đổi xe ngay tại quầy, đừng nhận về rồi chịu đựng cả kỳ. Một chiếc xe hợp về yên còn phải đạt phanh lốp đèn, rà theo chuẩn trong bài [kiểm tra phanh lốp xe 50cc]({{ '/blog/kiem-tra-phanh-lop-xe-50cc/' | relative_url }}).
 
 ## Yên thấp và an toàn khi đi
 
-Yên thấp cho chống chân nhanh nhưng không thay phanh sớm: người lái xe yên thấp thường ngồi gần mép nên gió và đường ướt tác động rõ hơn, nguyên tắc đường ướt nằm trong bài [thuê xe máy điện mùa mưa]({{ '/thue-xe-may-dien-mua-mua' | relative_url }}). Chở thêm người làm chống chân thêm căng, cân tải theo bài [xe 50cc cho 2 người]({{ '/xe-50cc-cho-2-nguoi' | relative_url }}). Kiểm tra dừng đèn đỏ thật trên đường vắng trước khi vào giờ cao điểm, vừa xe vừa tư thế đều cần một quãng làm quen.
+Yên thấp cho chống chân nhanh nhưng không thay phanh sớm: người lái xe yên thấp thường ngồi gần mép nên gió và đường ướt tác động rõ hơn, nguyên tắc đường ướt nằm trong bài [thuê xe máy điện mùa mưa]({{ '/blog/thue-xe-may-dien-mua-mua/' | relative_url }}). Chở thêm người làm chống chân thêm căng, cân tải theo bài [xe 50cc cho 2 người]({{ '/blog/xe-50cc-cho-2-nguoi/' | relative_url }}). Kiểm tra dừng đèn đỏ thật trên đường vắng trước khi vào giờ cao điểm, vừa xe vừa tư thế đều cần một quãng làm quen.
 
 ## Giấy tờ và đặt trước
 
-Nhóm 50cc không cần bằng lái, quy định trong bài [xe 50cc có cần bằng lái không]({{ '/xe-50cc-co-can-bang-lai-khong' | relative_url }}). Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/thue-xe-50cc-cho-nguoi-nuoc-ngoai' | relative_url }}). Gọi trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) nêu chiều cao của mình và yêu cầu vài lựa chọn yên thấp, nhiều nơi sắp sẵn để bạn ngồi thử liên tiếp mà khỏi chờ.
+Nhóm 50cc không cần bằng lái, quy định trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). Gọi trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) nêu chiều cao của mình và yêu cầu vài lựa chọn yên thấp, nhiều nơi sắp sẵn để bạn ngồi thử liên tiếp mà khỏi chờ.
 
 ## Kết luận
 

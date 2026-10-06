@@ -13,23 +13,23 @@ Người mới lái cần chiếc xe tha thứ, không cần chiếc xe mạnh. 
 
 ## Tiêu chí chọn xe cho người mới
 
-Ba tiêu chí đứng đầu: dễ điều khiển, yên thấp và nhẹ. Xe ga tự động bỏ thao tác số, nhóm 50cc và ga nhỏ nhẹ và yên thấp chống chân trọn vẹn, xem cách chọn trong bài [thuê xe máy yên thấp Hà Nội]({{ '/thue-xe-may-yen-thap-ha-noi' | relative_url }}). Xe máy điện mini thêm phần êm và ga nhẹ, hợp người hoàn toàn chưa từng lái, tham khảo bài [xe máy điện và xe 50cc khi thuê]({{ '/xe-may-dien-va-xe-50cc-khi-thue' | relative_url }}). Tránh côn tay và dòng ga lớn: những nhóm đòi kỹ năng, cân nhắc trong bài [thuê xe côn Hà Nội]({{ '/thue-xe-con-ha-noi' | relative_url }}).
+Ba tiêu chí đứng đầu: dễ điều khiển, yên thấp và nhẹ. Xe ga tự động bỏ thao tác số, nhóm 50cc và ga nhỏ nhẹ và yên thấp chống chân trọn vẹn, xem cách chọn trong bài [thuê xe máy yên thấp Hà Nội]({{ '/blog/thue-xe-may-yen-thap-ha-noi/' | relative_url }}). Xe máy điện mini thêm phần êm và ga nhẹ, hợp người hoàn toàn chưa từng lái, tham khảo bài [xe máy điện và xe 50cc khi thuê]({{ '/blog/xe-may-dien-va-xe-50cc-khi-thue/' | relative_url }}). Tránh côn tay và dòng ga lớn: những nhóm đòi kỹ năng, cân nhắc trong bài [thuê xe côn Hà Nội]({{ '/blog/thue-xe-con-ha-noi/' | relative_url }}).
 
 ## Nhóm xe gợi ý cụ thể
 
-Vision và Lead dễ lái và cốp rộng, so hai dòng trong bài [thuê Vision hay Lead]({{ '/thue-vision-hay-lead' | relative_url }}). Wave và Sirius là xe số nhẹ, chỉ hợp nếu bạn từng đi số, xem [thuê Wave hay Sirius]({{ '/xe-wave-va-sirius-khi-thue' | relative_url }}). Nhóm 50cc không cần bằng lái là lựa chọn gọn nhất về giấy tờ cho người mới, quy định trong bài [xe 50cc có cần bằng lái không]({{ '/xe-50cc-co-can-bang-lai-khong' | relative_url }}). Nếu hoàn toàn chưa từng nắm tay lái, cân học vài giờ với người quen trên xe của họ trước khi thuê.
+Vision và Lead dễ lái và cốp rộng, so hai dòng trong bài [thuê Vision hay Lead]({{ '/thue-vision-hay-lead' | relative_url }}). Wave và Sirius là xe số nhẹ, chỉ hợp nếu bạn từng đi số, xem [thuê Wave hay Sirius]({{ '/blog/xe-wave-va-sirius-khi-thue/' | relative_url }}). Nhóm 50cc không cần bằng lái là lựa chọn gọn nhất về giấy tờ cho người mới, quy định trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Nếu hoàn toàn chưa từng nắm tay lái, cân học vài giờ với người quen trên xe của họ trước khi thuê.
 
 ## Làm quen buổi đầu an toàn
 
-Nhận xe giờ vắng, buổi sáng sớm giữa tuần, chạy thử quanh quầy tới khi quen ga và phanh. Chọn khu vắng như ven hồ Tây hoặc khu đô thị mới để tập nửa tiếng: khởi hành, dừng, rẽ, và quay đầu. Tập dừng chống chân nhiều lần như đèn đỏ thật. Chỉ vào đường đông khi đã tự tin ga và phanh. Trời mưa thì dời buổi tập, nguyên tắc đường ướt không dành cho người mới trong ngày đầu, xem thêm trong bài [thuê xe máy điện mùa mưa]({{ '/thue-xe-may-dien-mua-mua' | relative_url }}).
+Nhận xe giờ vắng, buổi sáng sớm giữa tuần, chạy thử quanh quầy tới khi quen ga và phanh. Chọn khu vắng như ven hồ Tây hoặc khu đô thị mới để tập nửa tiếng: khởi hành, dừng, rẽ, và quay đầu. Tập dừng chống chân nhiều lần như đèn đỏ thật. Chỉ vào đường đông khi đã tự tin ga và phanh. Trời mưa thì dời buổi tập, nguyên tắc đường ướt không dành cho người mới trong ngày đầu, xem thêm trong bài [thuê xe máy điện mùa mưa]({{ '/blog/thue-xe-may-dien-mua-mua/' | relative_url }}).
 
 ## Kiểm xe trước khi nhận
 
-Người mới không biết phát hiện lỗi ẩn, nên rà theo danh sách: bóp phanh trước sau ăn tức thì, soi lốp, bật đèn bấm còi theo chuẩn trong bài [kiểm tra phanh lốp xe 50cc]({{ '/kiem-tra-phanh-lop-xe-50cc' | relative_url }}), và chạy thử vòng quầy. Mọi tiếng lạ đều đáng hỏi, nơi thuê sẽ giải thích hoặc đổi xe. Đề máy yếu, ga giật hay phanh ăn lệch là ba lỗi không nhận dù hứa sửa. Đầy đủ danh sách từng bước đã có trong bài [checklist nhận xe 50cc]({{ '/checklist-nhan-xe-50cc' | relative_url }}).
+Người mới không biết phát hiện lỗi ẩn, nên rà theo danh sách: bóp phanh trước sau ăn tức thì, soi lốp, bật đèn bấm còi theo chuẩn trong bài [kiểm tra phanh lốp xe 50cc]({{ '/blog/kiem-tra-phanh-lop-xe-50cc/' | relative_url }}), và chạy thử vòng quầy. Mọi tiếng lạ đều đáng hỏi, nơi thuê sẽ giải thích hoặc đổi xe. Đề máy yếu, ga giật hay phanh ăn lệch là ba lỗi không nhận dù hứa sửa. Đầy đủ danh sách từng bước đã có trong bài [checklist nhận xe 50cc]({{ '/blog/checklist-nhan-xe-50cc/' | relative_url }}).
 
 ## Giấy tờ và điều khoản cho người mới
 
-Nhóm 50cc không cần bằng lái, trên 50 cần A1, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/xe-50cc-co-can-bang-lai-khong' | relative_url }}). Đọc kỹ hợp đồng phần trách nhiệm hư hỏng vì người mới dễ gây vết trầy nhẹ khi lột kẹt, hỏi rõ mức khấu trừ trước khi ký. Chụp thân xe lúc nhận làm bằng chứng. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/thue-xe-50cc-cho-nguoi-nuoc-ngoai' | relative_url }}). Hỏi tồn kho qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước ngày nhận.
+Nhóm 50cc không cần bằng lái, trên 50 cần A1, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Đọc kỹ hợp đồng phần trách nhiệm hư hỏng vì người mới dễ gây vết trầy nhẹ khi lột kẹt, hỏi rõ mức khấu trừ trước khi ký. Chụp thân xe lúc nhận làm bằng chứng. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). Hỏi tồn kho qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước ngày nhận.
 
 ## Kết luận
 

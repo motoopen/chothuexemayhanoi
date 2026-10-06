@@ -17,11 +17,11 @@ Việc đầu tiên luôn là an toàn: di chuyển người ra khỏi làn đư
 
 ## Kiểm tra hiện trường
 
-Nếu không ai bị thương và xe vẫn đi được, chụp ngay hiện trường: vị trí hai xe, vết lốp, hư hỏng, biển số, và cảnh quanh khúc đường. Ảnh hiện trường là bằng chứng quan trọng khi phân định lỗi, tương tự cách bạn lưu ảnh tình trạng xe trong bài [chụp ảnh xe trước khi thuê]({{ '/chup-anh-xe-truoc-khi-thue' | relative_url }}). Nếu xe hỏng nặng không đi tiếp được, đẩy xe vào lề an toàn và giữ nguyên hiện trạng các chi tiết để đối chiếu sau.
+Nếu không ai bị thương và xe vẫn đi được, chụp ngay hiện trường: vị trí hai xe, vết lốp, hư hỏng, biển số, và cảnh quanh khúc đường. Ảnh hiện trường là bằng chứng quan trọng khi phân định lỗi, tương tự cách bạn lưu ảnh tình trạng xe trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}). Nếu xe hỏng nặng không đi tiếp được, đẩy xe vào lề an toàn và giữ nguyên hiện trạng các chi tiết để đối chiếu sau.
 
 ## Thông báo cho nơi cho thuê
 
-Gọi ngay cho nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để báo tình huống: nơi thuê cần biết xe nằm ở đâu, hư hỏng tới đâu, và bạn có an toàn không. Hỏi hướng dẫn cụ thể, vì một số nơi có thợ cứu hộ quen hoặc muốn đưa xe về cửa hàng riêng. Phần trách nhiệm bồi thường nên đối chiếu theo hợp đồng đã ký, xem các mục nên có trong bài [hợp đồng thuê xe máy cần có gì]({{ '/hop-dong-thue-xe-may-can-co-gi' | relative_url }}).
+Gọi ngay cho nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để báo tình huống: nơi thuê cần biết xe nằm ở đâu, hư hỏng tới đâu, và bạn có an toàn không. Hỏi hướng dẫn cụ thể, vì một số nơi có thợ cứu hộ quen hoặc muốn đưa xe về cửa hàng riêng. Phần trách nhiệm bồi thường nên đối chiếu theo hợp đồng đã ký, xem các mục nên có trong bài [hợp đồng thuê xe máy cần có gì]({{ '/blog/hop-dong-thue-xe-may-can-co-gi/' | relative_url }}).
 
 ## Thông báo cho cơ quan chức năng
 
@@ -33,7 +33,7 @@ Gom lại toàn bộ: ảnh hiện trường, biên bản nếu có, tin nhắn 
 
 ## Trả xe sau tai nạn
 
-Khi trả xe sau tai nạn, đối chiếu mọi chi tiết với biên bản và hợp đồng, và yêu cầu biên nhận ghi rõ tình trạng xe nhận lại cùng các khoản đã tất toán. Phần cọc trừ hay hoàn, xem mức thường gặp trong bài [tiền cọc thuê xe máy Hà Nội]({{ '/tien-coc-thue-xe-may-ha-noi' | relative_url }}), nên được thể hiện bằng văn bản để không phát sinh nhắc lại sau này.
+Khi trả xe sau tai nạn, đối chiếu mọi chi tiết với biên bản và hợp đồng, và yêu cầu biên nhận ghi rõ tình trạng xe nhận lại cùng các khoản đã tất toán. Phần cọc trừ hay hoàn, xem mức thường gặp trong bài [tiền cọc thuê xe máy Hà Nội]({{ '/blog/tien-coc-thue-xe-may-ha-noi/' | relative_url }}), nên được thể hiện bằng văn bản để không phát sinh nhắc lại sau này.
 
 Một điều nữa nên làm ngay hôm sau tai nạn là viết lại toàn bộ diễn biến theo thứ tự thời gian, khi trí nhớ còn mới: tốc độ, hướng đi, thời tiết, vị trí, và lời hai bên trao đổi. Bản ghi này đắt giá hơn bạn nghĩ nếu vụ việc kéo dài hoặc bảo hiểm cần làm rõ. Kèm theo đó, giữ mọi hóa đơn sửa chữa và đi lại phát sinh, vì các khoản này thường nằm trong phần yêu cầu bồi thường.
 

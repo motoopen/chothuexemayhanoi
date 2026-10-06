@@ -13,19 +13,19 @@ hub_category: cac-loai-xe
 
 ## Chọn theo tư thế lái
 
-Tư thế quyết định bạn về đến đích hay dừng mỗi hai chục cây số. Xe ga lớn cho thẳng lưng, yên rộng và chống gió, hợp hầu hết người. Xe số như Future cho tư thế đứng thoải khi cần, xem bài [thuê xe Future Hà Nội]({{ '/thue-xe-future-ha-noi' | relative_url }}). Xe thể thao như Winner tư thế chúi hợp người trẻ quen, kiểm trước trong bài [thuê xe Winner Hà Nội]({{ '/thue-xe-winner-ha-noi' | relative_url }}). Nhóm 50cc tư thế gò trên đường trường, chỉ hợp chặng dưới 50 cây số, xem [thuê xe 50cc đi đường dốc]({{ '/xe-50cc-di-duong-doc' | relative_url }}) cho địa hình lên xuống.
+Tư thế quyết định bạn về đến đích hay dừng mỗi hai chục cây số. Xe ga lớn cho thẳng lưng, yên rộng và chống gió, hợp hầu hết người. Xe số như Future cho tư thế đứng thoải khi cần, xem bài [thuê xe Future Hà Nội]({{ '/blog/thue-xe-future-ha-noi/' | relative_url }}). Xe thể thao như Winner tư thế chúi hợp người trẻ quen, kiểm trước trong bài [thuê xe Winner Hà Nội]({{ '/blog/thue-xe-winner-ha-noi/' | relative_url }}). Nhóm 50cc tư thế gò trên đường trường, chỉ hợp chặng dưới 50 cây số, xem [thuê xe 50cc đi đường dốc]({{ '/blog/xe-50cc-di-duong-doc/' | relative_url }}) cho địa hình lên xuống.
 
 ## Chọn theo tổng quãng đường
 
-Dưới 60 cây số mỗi ngày: hầu hết xe làm được, ưu tiên gọn và rẻ. Trên 60 đến 120 cây số: dòng ga trung trở lên, máy đầm và phanh đĩa, tham khảo [thuê xe ga Hà Nội]({{ '/thue-xe-ga-ha-noi' | relative_url }}). Liên tỉnh dài nhiều ngày: ga lớn hoặc côn tay thể thao nếu bạn đủ quen, cân trong bài [thuê xe côn Hà Nội]({{ '/thue-xe-con-ha-noi' | relative_url }}). Ai muốn dùng xe điện đường dài thì bắt buộc kế hoạch pin chi tiết trong bài [thuê xe máy điện đi đường dài]({{ '/thue-xe-may-dien-di-duong-dai' | relative_url }}), không nên làm bừa.
+Dưới 60 cây số mỗi ngày: hầu hết xe làm được, ưu tiên gọn và rẻ. Trên 60 đến 120 cây số: dòng ga trung trở lên, máy đầm và phanh đĩa, tham khảo [thuê xe ga Hà Nội]({{ '/blog/thue-xe-ga-ha-noi/' | relative_url }}). Liên tỉnh dài nhiều ngày: ga lớn hoặc côn tay thể thao nếu bạn đủ quen, cân trong bài [thuê xe côn Hà Nội]({{ '/blog/thue-xe-con-ha-noi/' | relative_url }}). Ai muốn dùng xe điện đường dài thì bắt buộc kế hoạch pin chi tiết trong bài [thuê xe máy điện đi đường dài]({{ '/blog/thue-xe-may-dien-di-duong-dai/' | relative_url }}), không nên làm bừa.
 
 ## Máy và phanh cho chặng xa
 
-Đường trường khai thác phần yếu của xe nhanh hơn phố: máy yếu nóng và ồn, phanh mòn lộ khi dốc dài. Chọn máy trên 110 phân khối cho chặng xa, và phanh đĩa trước là bắt buộc khi có đèo. Kiểm kỹ theo chuẩn trong bài [kiểm tra phanh lốp xe 50cc]({{ '/kiem-tra-phanh-lop-xe-50cc' | relative_url }}), thêm soi dây xích và nhớt nếu thuê số ngày dài. Hỏi nơi thuê về lịch bảo dưỡng của chiếc cụ thể qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), xe vừa được chăm chạy trường êm hơn hẳn.
+Đường trường khai thác phần yếu của xe nhanh hơn phố: máy yếu nóng và ồn, phanh mòn lộ khi dốc dài. Chọn máy trên 110 phân khối cho chặng xa, và phanh đĩa trước là bắt buộc khi có đèo. Kiểm kỹ theo chuẩn trong bài [kiểm tra phanh lốp xe 50cc]({{ '/blog/kiem-tra-phanh-lop-xe-50cc/' | relative_url }}), thêm soi dây xích và nhớt nếu thuê số ngày dài. Hỏi nơi thuê về lịch bảo dưỡng của chiếc cụ thể qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), xe vừa được chăm chạy trường êm hơn hẳn.
 
 ## Cốp, mũ và đồ cho đường dài
 
-Đường dài cần đồ gọn: mũ đạt kính rõ vì côn trùng và bụi, nước để cốp hoặc túi đeo, áo gió mỏng khi về tối. Cốp rộng của dòng Lead giúp hết, xem [thuê xe Lead Hà Nội]({{ '/thue-xe-lead-ha-noi' | relative_url }}), cách xếp trong bài [xe 50cc mang hành lý]({{ '/xe-50cc-mang-hanh-ly' | relative_url }}). Chở hai người xa tăng tải và tiêu hao, tính theo bài [xe 50cc cho 2 người]({{ '/xe-50cc-cho-2-nguoi' | relative_url }}). Thời tiết ven đường đổi nhanh, thêm nguyên tắc mưa trong bài [thuê xe máy mùa mưa loại nào]({{ '/thue-xe-may-mua-mua-loai-nao' | relative_url }}) khi trời xấu.
+Đường dài cần đồ gọn: mũ đạt kính rõ vì côn trùng và bụi, nước để cốp hoặc túi đeo, áo gió mỏng khi về tối. Cốp rộng của dòng Lead giúp hết, xem [thuê xe Lead Hà Nội]({{ '/blog/thue-xe-lead-ha-noi/' | relative_url }}), cách xếp trong bài [xe 50cc mang hành lý]({{ '/blog/xe-50cc-mang-hanh-ly/' | relative_url }}). Chở hai người xa tăng tải và tiêu hao, tính theo bài [xe 50cc cho 2 người]({{ '/blog/xe-50cc-cho-2-nguoi/' | relative_url }}). Thời tiết ven đường đổi nhanh, thêm nguyên tắc mưa trong bài [thuê xe máy mùa mưa loại nào]({{ '/blog/thue-xe-may-mua-mua-loai-nao/' | relative_url }}) khi trời xấu.
 
 ## Nghỉ giữa chặng và về an toàn
 

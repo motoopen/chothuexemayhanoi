@@ -17,19 +17,19 @@ Trước khi khẳng định mất, lục lại toàn bộ nơi có thể: túi 
 
 ## Báo ngay cho nơi cho thuê
 
-Nếu chắc chắn mất, gọi ngay nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) thay vì tự tìm thợ: nhiều nơi giữ mỗi xe hai bộ chìa, và họ có thể mang chìa dự phòng đến hoặc chỉ bạn địa điểm nhận gần nhất. Quan trọng là họ sẽ báo trước chi phí có thể phát sinh, và phần nào tính vào cọc, xem mức thường gặp trong bài [tiền cọc thuê xe máy Hà Nội]({{ '/tien-coc-thue-xe-may-ha-noi' | relative_url }}).
+Nếu chắc chắn mất, gọi ngay nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) thay vì tự tìm thợ: nhiều nơi giữ mỗi xe hai bộ chìa, và họ có thể mang chìa dự phòng đến hoặc chỉ bạn địa điểm nhận gần nhất. Quan trọng là họ sẽ báo trước chi phí có thể phát sinh, và phần nào tính vào cọc, xem mức thường gặp trong bài [tiền cọc thuê xe máy Hà Nội]({{ '/blog/tien-coc-thue-xe-may-ha-noi/' | relative_url }}).
 
 ## Đừng tự đục khóa hay kéo xe
 
-Tự đục khóa hoặc kéo xe đi tìm thợ có thể làm hỏng ổ khóa và ăng xăng, biến một chìa mất thành một bộ khóa và ăng phải thay. Vì xe là tài sản của bên cho thuê, mọi thao tác can thiệp vào ổ khóa nên được họ đồng ý trước, và nếu bắt buộc kéo xe, hỏi hướng kéo đúng để không hỏng thêm, đọc thêm phần xử lý sự cố trong bài [xe thuê bị hỏng giữa đường]({{ '/xe-thue-bi-hong-giua-duong' | relative_url }}).
+Tự đục khóa hoặc kéo xe đi tìm thợ có thể làm hỏng ổ khóa và ăng xăng, biến một chìa mất thành một bộ khóa và ăng phải thay. Vì xe là tài sản của bên cho thuê, mọi thao tác can thiệp vào ổ khóa nên được họ đồng ý trước, và nếu bắt buộc kéo xe, hỏi hướng kéo đúng để không hỏng thêm, đọc thêm phần xử lý sự cố trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}).
 
 ## Lưu bằng chứng và thông tin
 
-Ghi lại nơi nghi mất chìa và thời gian, chụp vị trí xe đang đỗ, và lưu toàn bộ tin nhắn trao đổi với nơi thuê kèm thời gian. Nếu bạn phải thuê taxi về lấy chìa dự phòng hoặc chờ thợ, giữ hóa đơn để đối chiếu khoản chi phát sinh. Hồ sơ sạch giúp mọi khoản trừ cọc minh bạch, xem cách lưu bằng chứng trong bài [chụp ảnh xe trước khi thuê]({{ '/chup-anh-xe-truoc-khi-thue' | relative_url }}).
+Ghi lại nơi nghi mất chìa và thời gian, chụp vị trí xe đang đỗ, và lưu toàn bộ tin nhắn trao đổi với nơi thuê kèm thời gian. Nếu bạn phải thuê taxi về lấy chìa dự phòng hoặc chờ thợ, giữ hóa đơn để đối chiếu khoản chi phát sinh. Hồ sơ sạch giúp mọi khoản trừ cọc minh bạch, xem cách lưu bằng chứng trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}).
 
 ## Phòng mất chìa ngay từ đầu
 
-Ngay khi nhận xe, đeo chìa vào móc khóa hoặc dây đeo cổ, và tránh để chìa chung lẫn với chìa nhà. Khi dừng xe, cất chìa ngay vào một túi cố định duy nhất, vì mất chìa nhiều khi chỉ là thói quen để lung tung. Khi gửi xe qua đêm, giữ chìa theo người thay bỏ trong cốp, xem phần giữ xe qua đêm khi nhận tại khách sạn trong bài [hợp đồng thuê xe máy cần có gì]({{ '/hop-dong-thue-xe-may-can-co-gi' | relative_url }}).
+Ngay khi nhận xe, đeo chìa vào móc khóa hoặc dây đeo cổ, và tránh để chìa chung lẫn với chìa nhà. Khi dừng xe, cất chìa ngay vào một túi cố định duy nhất, vì mất chìa nhiều khi chỉ là thói quen để lung tung. Khi gửi xe qua đêm, giữ chìa theo người thay bỏ trong cốp, xem phần giữ xe qua đêm khi nhận tại khách sạn trong bài [hợp đồng thuê xe máy cần có gì]({{ '/blog/hop-dong-thue-xe-may-can-co-gi/' | relative_url }}).
 
 Một điểm nữa đáng hỏi ngay khi báo mất chìa là thời gian chờ: nếu chìa dự phòng có trong vài giờ, bạn nên đợi thay vì thuê phương án đi lại tốn kém. Nếu chờ quá lâu và bạn cần di chuyển gấp, hỏi mức chi trả cho taxi hoặc thuê xe tạm của nơi cho thuê, và chốt bằng tin nhắn trước khi chi. Cuối cùng, khi nhận chìa dự phòng, ký nhận lại và hỏi có cần trả chìa mới khi hoàn tất tất toán không, để không phát sinh khoản trừ lúc trả xe.
 

@@ -13,19 +13,19 @@ Phát hiện vết xước trên xe thuê lúc trả là tình huống căng nh�
 
 ## Nền tảng: ảnh chụp ngày nhận xe
 
-Mọi đối chiếu đều dựa trên bộ ảnh chụp ngày nhận xe: bốn góc, hai bên hông, mốp trước, và các chi tiết hay xước như tay ga, gương, cốp. Trình tự chụp gợi ý trong bài [chụp ảnh xe trước khi thuê]({{ '/chup-anh-xe-truoc-khi-thue' | relative_url }}). Nếu ngày nhận bạn chưa chụp, mục đối chiếu mất một nửa giá trị, nên lần sau áp ngay checklist trong bài [checklist 10 phút trước khi nhận xe]({{ '/checklist-10-phut-truoc-khi-nhan-xe' | relative_url }}).
+Mọi đối chiếu đều dựa trên bộ ảnh chụp ngày nhận xe: bốn góc, hai bên hông, mốp trước, và các chi tiết hay xước như tay ga, gương, cốp. Trình tự chụp gợi ý trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}). Nếu ngày nhận bạn chưa chụp, mục đối chiếu mất một nửa giá trị, nên lần sau áp ngay checklist trong bài [checklist 10 phút trước khi nhận xe]({{ '/blog/checklist-10-phut-truoc-khi-nhan-xe/' | relative_url }}).
 
 ## Đối chiếu từng vết với ảnh gốc
 
-Khi bị chỉ ra một vết xước, mở ảnh ngày nhận lên và tìm đúng vị trí đó: vết có trong ảnh là vết cũ, không thuộc trách nhiệm bạn. Chụp thêm một ảnh gần vết lúc trả để so màu, độ dài và hướng xước, vì vết ma sát khi xe đổ thường có sơn bong và vệt trượt, khác vết cũ đã phủ bụi. So sánh theo vị trí, không theo cảm nhận, và đọc kỹ điều khoản tình trạng xe trong bài [hợp đồng thuê xe máy cần có gì]({{ '/hop-dong-thue-xe-may-can-co-gi' | relative_url }}).
+Khi bị chỉ ra một vết xước, mở ảnh ngày nhận lên và tìm đúng vị trí đó: vết có trong ảnh là vết cũ, không thuộc trách nhiệm bạn. Chụp thêm một ảnh gần vết lúc trả để so màu, độ dài và hướng xước, vì vết ma sát khi xe đổ thường có sơn bong và vệt trượt, khác vết cũ đã phủ bụi. So sánh theo vị trí, không theo cảm nhận, và đọc kỹ điều khoản tình trạng xe trong bài [hợp đồng thuê xe máy cần có gì]({{ '/blog/hop-dong-thue-xe-may-can-co-gi/' | relative_url }}).
 
 ## Phân biệt vết hao mòn và hỏng hóc
 
-Vết xước nhỏ do dùng thông thường, ví dụ vết kê xe hay hạt cát bắn, thường nằm trong mức hao mòn được chấp nhận. Hỏng hóc là mốp nứt, vỡ tay ga, trầy sâu tới kim loại: đây là nhóm phải thỏa thuận bồi thường, khung trách nhiệm đã phân loại trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/chi-phi-hu-hong-khi-thue-xe-may' | relative_url }}). Nếu vết phát sinh do tai nạn, trình tự ưu tiên an toàn và thông báo nằm trong bài [xe thuê bị tai nạn phải làm gì]({{ '/xe-thue-bi-tai-nan-phai-lam-gi' | relative_url }}).
+Vết xước nhỏ do dùng thông thường, ví dụ vết kê xe hay hạt cát bắn, thường nằm trong mức hao mòn được chấp nhận. Hỏng hóc là mốp nứt, vỡ tay ga, trầy sâu tới kim loại: đây là nhóm phải thỏa thuận bồi thường, khung trách nhiệm đã phân loại trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/blog/chi-phi-hu-hong-khi-thue-xe-may/' | relative_url }}). Nếu vết phát sinh do tai nạn, trình tự ưu tiên an toàn và thông báo nằm trong bài [xe thuê bị tai nạn phải làm gì]({{ '/blog/xe-thue-bi-tai-nan-phai-lam-gi/' | relative_url }}).
 
 ## Thỏa thuận mức bồi thường hợp lý
 
-Khi vết thực sự mới, đề nghị bồi thường theo mức sửa thật: hỏi giá sơn lại tại tiệm gần điểm, thay vì chấp nhận mức phạt cứng theo bảng nội bộ. Nhiều nơi lấy lại khoản từ cọc, cách đối chiếu cọc đã trình bày trong bài [tiền cọc thuê xe máy Hà Nội]({{ '/tien-coc-thue-xe-may-ha-noi' | relative_url }}). Yêu cầu hóa đơn sửa hoặc ảnh sau khi sơn, để biết khoản giữ của mình đi đúng chỗ.
+Khi vết thực sự mới, đề nghị bồi thường theo mức sửa thật: hỏi giá sơn lại tại tiệm gần điểm, thay vì chấp nhận mức phạt cứng theo bảng nội bộ. Nhiều nơi lấy lại khoản từ cọc, cách đối chiếu cọc đã trình bày trong bài [tiền cọc thuê xe máy Hà Nội]({{ '/blog/tien-coc-thue-xe-may-ha-noi/' | relative_url }}). Yêu cầu hóa đơn sửa hoặc ảnh sau khi sơn, để biết khoản giữ của mình đi đúng chỗ.
 
 ## Ghi biên bản ngay tại điểm trả
 
@@ -33,7 +33,7 @@ Dù hai bên đồng thuận hay chưa, yêu cầu một biên bản ghi tình t
 
 ## Phòng tránh cho các lần thuê sau
 
-Ba thói quen để không dính vào tranh chấp: chụp ảnh đủ góc ngày nhận, không đỗ xe sát tường hay gốc cây gồ ghề, và báo ngay trong tin nhắn khi có sự va chạm nhỏ thay vì để đến lúc trả. Với các dòng xe hay được thuê, mức kiểm tra tương tự đã nêu trong bài [thuê xe Future Hà Nội]({{ '/thue-xe-future-ha-noi' | relative_url }}) về rà tình trạng trước khi nhận.
+Ba thói quen để không dính vào tranh chấp: chụp ảnh đủ góc ngày nhận, không đỗ xe sát tường hay gốc cây gồ ghề, và báo ngay trong tin nhắn khi có sự va chạm nhỏ thay vì để đến lúc trả. Với các dòng xe hay được thuê, mức kiểm tra tương tự đã nêu trong bài [thuê xe Future Hà Nội]({{ '/blog/thue-xe-future-ha-noi/' | relative_url }}) về rà tình trạng trước khi nhận.
 
 ## Kết luận
 

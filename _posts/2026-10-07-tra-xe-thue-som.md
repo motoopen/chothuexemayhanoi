@@ -13,27 +13,27 @@ Kế hoạch đổi bất ngờ và bạn muốn trả xe sớm hơn ngày đã 
 
 ## Hỏi chính sách hoàn phần ngày còn lại
 
-Điều đầu tiên là hỏi trước chính sách với ngày chưa dùng: hoàn toàn bộ, giữ một phần, hay không hoàn. Rất ít nơi ghi rõ điều này trong bảng giá, nên gọi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước khi mang xe đến, mang theo hợp đồng để đọc đúng điều khoản. Nếu hợp đồng ban đầu ghi giá gói trọn, xem lại cách các khoản được gộp trong bài [giá thuê xe máy đã bao gồm gì]({{ '/gia-thue-xe-may-da-bao-gom-gi' | relative_url }}) để biết khoản nào có thể hoàn, khoản nào đã chi là hết.
+Điều đầu tiên là hỏi trước chính sách với ngày chưa dùng: hoàn toàn bộ, giữ một phần, hay không hoàn. Rất ít nơi ghi rõ điều này trong bảng giá, nên gọi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước khi mang xe đến, mang theo hợp đồng để đọc đúng điều khoản. Nếu hợp đồng ban đầu ghi giá gói trọn, xem lại cách các khoản được gộp trong bài [giá thuê xe máy đã bao gồm gì]({{ '/blog/gia-thue-xe-may-da-bao-gom-gi/' | relative_url }}) để biết khoản nào có thể hoàn, khoản nào đã chi là hết.
 
 ## Đề nghị chuyển sang gói ngắn hơn
 
-Nếu hoàn cả gói khó, đề nghị phương án khác: quy lại theo giá ngày thực dùng, với phần chênh giữ làm tín dụng lần sau hoặc chuyển thành trừ cọc. Cách tính giá theo ngày đã có trong bài [thuê xe máy Hà Nội 1 ngày tính như thế nào]({{ '/thue-xe-may-ha-noi-1-ngay-tinh-nhu-the-nao' | relative_url }}). Nếu nơi thuê chỉ tính lại theo giá ngày lẻ, hãy đối chiếu với bảng giá công bố, phần so sánh giá giữa các nơi nằm trong bài [so sánh giá thuê xe máy Hà Nội]({{ '/so-sanh-gia-thue-xe-may-ha-noi' | relative_url }}).
+Nếu hoàn cả gói khó, đề nghị phương án khác: quy lại theo giá ngày thực dùng, với phần chênh giữ làm tín dụng lần sau hoặc chuyển thành trừ cọc. Cách tính giá theo ngày đã có trong bài [thuê xe máy Hà Nội 1 ngày tính như thế nào]({{ '/blog/thue-xe-may-ha-noi-1-ngay-tinh-nhu-the-nao/' | relative_url }}). Nếu nơi thuê chỉ tính lại theo giá ngày lẻ, hãy đối chiếu với bảng giá công bố, phần so sánh giá giữa các nơi nằm trong bài [so sánh giá thuê xe máy Hà Nội]({{ '/blog/so-sanh-gia-thue-xe-may-ha-noi/' | relative_url }}).
 
 ## Chọn giờ trả để không bị hiểu là trễ
 
-Trả sớm cũng cần đúng giờ làm việc và điểm giao nhận đã hẹn, vì nếu bạn hẹn nhận xe lại vào buổi chiều mà đến muộn, phần "sớm" mất tác dụng. Ưu tiên trả tại điểm hẹn ban đầu; nếu bạn thuê kèm giao xe, xem lại phần phí trong bài [phí giao xe thuê xe máy Hà Nội]({{ '/phi-giao-xe-thue-xe-may-ha-noi' | relative_url }}) để hỏi liệu phí giao có hoàn một phần khi trả tại điểm.
+Trả sớm cũng cần đúng giờ làm việc và điểm giao nhận đã hẹn, vì nếu bạn hẹn nhận xe lại vào buổi chiều mà đến muộn, phần "sớm" mất tác dụng. Ưu tiên trả tại điểm hẹn ban đầu; nếu bạn thuê kèm giao xe, xem lại phần phí trong bài [phí giao xe thuê xe máy Hà Nội]({{ '/blog/phi-giao-xe-thue-xe-may-ha-noi/' | relative_url }}) để hỏi liệu phí giao có hoàn một phần khi trả tại điểm.
 
 ## Kiểm tra và chụp tình trạng xe lúc trả
 
-Trước khi giao xe, tự rà đèn, phanh, vết xước và mức nhiên liệu, rồi chụp đủ bốn góc, giống khuyến nghị trong bài [chụp ảnh xe trước khi thuê]({{ '/chup-anh-xe-truoc-khi-thue' | relative_url }}). Nếu xe có hỏng nhỏ trong quá trình dùng, đọc trước phần trách nhiệm trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/chi-phi-hu-hong-khi-thue-xe-may' | relative_url }}) để biết khoản nào bên thuê chịu. Ảnh chụp lúc trả giúp đối chiếu nhanh với ảnh ngày nhận, cách làm tương tự phần đối chiếu vết trầy đã mô tả trong bài [trả xe khác điểm Hà Nội]({{ '/tra-xe-khac-diem-ha-noi' | relative_url }}).
+Trước khi giao xe, tự rà đèn, phanh, vết xước và mức nhiên liệu, rồi chụp đủ bốn góc, giống khuyến nghị trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}). Nếu xe có hỏng nhỏ trong quá trình dùng, đọc trước phần trách nhiệm trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/blog/chi-phi-hu-hong-khi-thue-xe-may/' | relative_url }}) để biết khoản nào bên thuê chịu. Ảnh chụp lúc trả giúp đối chiếu nhanh với ảnh ngày nhận, cách làm tương tự phần đối chiếu vết trầy đã mô tả trong bài [trả xe khác điểm Hà Nội]({{ '/blog/tra-xe-khac-diem-ha-noi/' | relative_url }}).
 
 ## Nhận biên nhận trả xe và hoàn cọc
 
-Yêu cầu biên nhận ghi rõ ngày giờ trả, số tiền hoàn cọc và phương thức hoàn. Cọc thường hoàn qua chuyển khoản trong một đến vài ngày, nên ghi lại số tham chiếu giao dịch, nguyên tắc đối chiếu đã trình bày trong bài [tiền cọc thuê xe máy Hà Nội]({{ '/tien-coc-thue-xe-may-ha-noi' | relative_url }}). Không rời đi khi chỉ nhận lời hứa miệng, vì biên nhận là căn cứ duy nhất nếu khoản hoàn bị trễ.
+Yêu cầu biên nhận ghi rõ ngày giờ trả, số tiền hoàn cọc và phương thức hoàn. Cọc thường hoàn qua chuyển khoản trong một đến vài ngày, nên ghi lại số tham chiếu giao dịch, nguyên tắc đối chiếu đã trình bày trong bài [tiền cọc thuê xe máy Hà Nội]({{ '/blog/tien-coc-thue-xe-may-ha-noi/' | relative_url }}). Không rời đi khi chỉ nhận lời hứa miệng, vì biên nhận là căn cứ duy nhất nếu khoản hoàn bị trễ.
 
 ## Nhận lại giấy tờ đã giao
 
-Kiểm tra lại bản photo căn cước hay giấy tờ khác đã giao lúc thuê, nhận đủ trước khi về. Nếu nơi thuê giữ lại bản photo, yêu cầu xé bỏ hoặc trả, vì giấy tờ tùy thân không nên để lại sau khi hợp đồng đã khép. Phân biệt rõ giấy tờ của bạn và giấy tờ của xe theo hướng dẫn trong bài [mất giấy tờ xe thuê]({{ '/mat-giay-to-xe-thue' | relative_url }}).
+Kiểm tra lại bản photo căn cước hay giấy tờ khác đã giao lúc thuê, nhận đủ trước khi về. Nếu nơi thuê giữ lại bản photo, yêu cầu xé bỏ hoặc trả, vì giấy tờ tùy thân không nên để lại sau khi hợp đồng đã khép. Phân biệt rõ giấy tờ của bạn và giấy tờ của xe theo hướng dẫn trong bài [mất giấy tờ xe thuê]({{ '/blog/mat-giay-to-xe-thue/' | relative_url }}).
 
 ## Kết luận
 

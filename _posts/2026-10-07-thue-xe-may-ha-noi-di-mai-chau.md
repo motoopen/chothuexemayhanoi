@@ -13,27 +13,27 @@ Mai Châu cách Hà Nội khoảng một trăm sáu mươi ki lômét, là chuy�
 
 ## Chọn xe cho cung dài
 
-Cung đi Mai Châu gồm quốc lộ thẳng cộng đèo dài, nên chọn xe động cơ khỏe và phanh đĩa trước, phần so sánh dòng xe đã có trong bài [xe ga và xe số khi thuê]({{ '/xe-ga-va-xe-so-khi-thue' | relative_url }}). Xe dưới 50cc không phù hợp, lý do đã phân tích trong bài [thuê xe 50cc đi đường dài]({{ '/thue-xe-50cc-di-duong-dai' | relative_url }}). Đi hai người nên cân thêm tải và yên xe theo bài [thuê xe máy Hà Nội cho 2 người]({{ '/thue-xe-may-ha-noi-cho-2-nguoi' | relative_url }}).
+Cung đi Mai Châu gồm quốc lộ thẳng cộng đèo dài, nên chọn xe động cơ khỏe và phanh đĩa trước, phần so sánh dòng xe đã có trong bài [xe ga và xe số khi thuê]({{ '/blog/xe-ga-va-xe-so-khi-thue/' | relative_url }}). Xe dưới 50cc không phù hợp, lý do đã phân tích trong bài [thuê xe 50cc đi đường dài]({{ '/blog/thue-xe-50cc-di-duong-dai/' | relative_url }}). Đi hai người nên cân thêm tải và yên xe theo bài [thuê xe máy Hà Nội cho 2 người]({{ '/blog/thue-xe-may-ha-noi-cho-2-nguoi/' | relative_url }}).
 
 ## Thuê theo gói dài ngày
 
-Chuyến Mai Châu nên ở lại qua đêm, nên thuê gói hai ngày hoặc ba ngày thay vì ngày lẻ, so trước giữa hai gói trong bài [thuê xe máy Hà Nội 2 ngày]({{ '/thue-xe-may-ha-noi-2-ngay' | relative_url }}) và [thuê xe máy Hà Nội 3 ngày]({{ '/thue-xe-may-ha-noi-3-ngay' | relative_url }}). Nếu dự định đi thêm Mộc Châu trong tuần lương, gói tuần trong bài [thuê xe máy Hà Nội theo tuần]({{ '/thue-xe-may-ha-noi-theo-tuan' | relative_url }}) thường rẻ hơn nhiều.
+Chuyến Mai Châu nên ở lại qua đêm, nên thuê gói hai ngày hoặc ba ngày thay vì ngày lẻ, so trước giữa hai gói trong bài [thuê xe máy Hà Nội 2 ngày]({{ '/blog/thue-xe-may-ha-noi-2-ngay/' | relative_url }}) và [thuê xe máy Hà Nội 3 ngày]({{ '/blog/thue-xe-may-ha-noi-3-ngay/' | relative_url }}). Nếu dự định đi thêm Mộc Châu trong tuần lương, gói tuần trong bài [thuê xe máy Hà Nội theo tuần]({{ '/blog/thue-xe-may-ha-noi-theo-tuan/' | relative_url }}) thường rẻ hơn nhiều.
 
 ## Kiểm tra xe kỹ hơn checklist phố
 
-Cung dài phơi mọi điểm yếu, nên rà đủ mục trong bài [checklist 10 phút trước khi nhận xe]({{ '/checklist-10-phut-truoc-khi-nhan-xe' | relative_url }}), và hỏi nơi thuê lịch bảo dưỡng gần nhất của chiếc xe. Chụp bốn góc xe, mốp, và gương theo thói quen trong bài [chụp ảnh xe trước khi thuê]({{ '/chup-anh-xe-truoc-khi-thue' | relative_url }}), và xin luôn công văn cho thuê nếu có. Hỏi trước chính sách hỗ trợ khi hỏng giữa cung, vì đoạn giữa đèo vắng tiệm sửa, trình tự xử lý nằm trong bài [xe thuê bị hỏng giữa đường]({{ '/xe-thue-bi-hong-giua-duong' | relative_url }}).
+Cung dài phơi mọi điểm yếu, nên rà đủ mục trong bài [checklist 10 phút trước khi nhận xe]({{ '/blog/checklist-10-phut-truoc-khi-nhan-xe/' | relative_url }}), và hỏi nơi thuê lịch bảo dưỡng gần nhất của chiếc xe. Chụp bốn góc xe, mốp, và gương theo thói quen trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}), và xin luôn công văn cho thuê nếu có. Hỏi trước chính sách hỗ trợ khi hỏng giữa cung, vì đoạn giữa đèo vắng tiệm sửa, trình tự xử lý nằm trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}).
 
 ## Giấy tờ cho hành trình tỉnh
 
-Mang đăng ký xe, chứng nhận bảo hiểm, giấy phép lái, căn cước, và công văn cho thuê nếu có, danh sách đầy đủ trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/thue-xe-may-ha-noi-can-giay-to-gi' | relative_url }}). Chuẩn bị cả phần giấy tờ xe bản mềm chụp sẵn, để khi túi giấy tờ bị mất giữa cung, bạn gọi được ngay nơi thuê theo trình tự trong bài [mất giấy tờ xe thuê]({{ '/mat-giay-to-xe-thue' | relative_url }}). Lưu số liên hệ từ trang [liên hệ]({{ '/lienhe.html' | relative_url }}) vào điện thoại trước khi ra khỏi phố.
+Mang đăng ký xe, chứng nhận bảo hiểm, giấy phép lái, căn cước, và công văn cho thuê nếu có, danh sách đầy đủ trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/blog/thue-xe-may-ha-noi-can-giay-to-gi/' | relative_url }}). Chuẩn bị cả phần giấy tờ xe bản mềm chụp sẵn, để khi túi giấy tờ bị mất giữa cung, bạn gọi được ngay nơi thuê theo trình tự trong bài [mất giấy tờ xe thuê]({{ '/blog/mat-giay-to-xe-thue/' | relative_url }}). Lưu số liên hệ từ trang [liên hệ]({{ '/lienhe.html' | relative_url }}) vào điện thoại trước khi ra khỏi phố.
 
 ## Hành lý và nghỉ giữa chặng
 
-Chia đồ thành hai phần: phần cần trong ngày đeo trước ngực, phần để đêm lại nhét cốp, cách phân bổ nằm trong bài [chọn cốp xe máy thuê]({{ '/chon-cop-xe-may-thue' | relative_url }}). Lên lịch nghỉ mỗi một tiếng rưỡi cho cả người lẫn máy, và đổ xăng sớm hơn mức dự tính, chi phí nhiên liệu đã ước tính trong bài [chi phí xăng khi thuê xe máy Hà Nội]({{ '/chi-phi-xang-khi-thue-xe-may-ha-noi' | relative_url }}). Mùa mưa mang áo mưa thật, cách lái mưa an toàn nằm trong bài [thuê xe máy Hà Nội mùa mưa]({{ '/thue-xe-may-ha-noi-mua-mua' | relative_url }}).
+Chia đồ thành hai phần: phần cần trong ngày đeo trước ngực, phần để đêm lại nhét cốp, cách phân bổ nằm trong bài [chọn cốp xe máy thuê]({{ '/blog/chon-cop-xe-may-thue/' | relative_url }}). Lên lịch nghỉ mỗi một tiếng rưỡi cho cả người lẫn máy, và đổ xăng sớm hơn mức dự tính, chi phí nhiên liệu đã ước tính trong bài [chi phí xăng khi thuê xe máy Hà Nội]({{ '/blog/chi-phi-xang-khi-thue-xe-may-ha-noi/' | relative_url }}). Mùa mưa mang áo mưa thật, cách lái mưa an toàn nằm trong bài [thuê xe máy Hà Nội mùa mưa]({{ '/blog/thue-xe-may-ha-noi-mua-mua/' | relative_url }}).
 
 ## Xử lý va chạm hoặc hỏng lớn
 
-Va chạm trên cung tỉnh có trình tự riêng: ưu tiên an toàn, di chuyển khỏi làn đường, thông báo nơi thuê, và trao đổi thông tin với bên liên quan, chi tiết trong bài [xe thuê bị tai nạn phải làm gì]({{ '/xe-thue-bi-tai-nan-phai-lam-gi' | relative_url }}). Phân trách nhiệm chi phí theo bài [chi phí hư hỏng khi thuê xe máy]({{ '/chi-phi-hu-hong-khi-thue-xe-may' | relative_url }}), và giữ mọi biên bản, ảnh chụp cho lần tất toán.
+Va chạm trên cung tỉnh có trình tự riêng: ưu tiên an toàn, di chuyển khỏi làn đường, thông báo nơi thuê, và trao đổi thông tin với bên liên quan, chi tiết trong bài [xe thuê bị tai nạn phải làm gì]({{ '/blog/xe-thue-bi-tai-nan-phai-lam-gi/' | relative_url }}). Phân trách nhiệm chi phí theo bài [chi phí hư hỏng khi thuê xe máy]({{ '/blog/chi-phi-hu-hong-khi-thue-xe-may/' | relative_url }}), và giữ mọi biên bản, ảnh chụp cho lần tất toán.
 
 ## Kết luận
 

@@ -17,19 +17,19 @@ Cước phí cọc tồn tại để bên cho thuê giảm rủi ro khi xe hỏn
 
 ## Có thể bị yêu cầu giữ giấy tờ
 
-Hình thức thay thế phổ biến nhất là giữ bản photo hoặc bản ghi số giấy tờ tùy thân: nơi thuê ghi lại thông tin căn cước hoặc hộ chiếu để đối chiếu khi trả xe. Bản gốc theo thông lệ nên quay về tay bạn ngay sau khi xác minh, xem phần giấy tờ nào bị giữ trong bài [thuê xe máy dùng căn cước hay hộ chiếu]({{ '/thue-xe-may-dung-can-cuoc-hay-ho-chieu' | relative_url }}). Nếu nơi thuê yêu cầu giữ bản gốc suốt kỳ thuê, hỏi rõ thời gian trả lại và ghi vào hợp đồng.
+Hình thức thay thế phổ biến nhất là giữ bản photo hoặc bản ghi số giấy tờ tùy thân: nơi thuê ghi lại thông tin căn cước hoặc hộ chiếu để đối chiếu khi trả xe. Bản gốc theo thông lệ nên quay về tay bạn ngay sau khi xác minh, xem phần giấy tờ nào bị giữ trong bài [thuê xe máy dùng căn cước hay hộ chiếu]({{ '/blog/thue-xe-may-dung-can-cuoc-hay-ho-chieu/' | relative_url }}). Nếu nơi thuê yêu cầu giữ bản gốc suốt kỳ thuê, hỏi rõ thời gian trả lại và ghi vào hợp đồng.
 
 ## Hợp đồng chặt hơn thay cho cọc
 
-Không có cọc, hợp đồng là căn cứ duy nhất khi có tranh chấp, nên nơi cho thuê thường soạn hợp đồng kỹ hơn: ghi rõ mức bồi thường nếu mất xe, cách tính phí hỏng hóc, và phạt trả trễ theo giờ. Bạn cũng nên đọc kỹ từng mục này, vì không có cọc bị trừ trước thì các khoản phát sinh sẽ được đòi sau, xem các mục nên có trong bài [hợp đồng thuê xe máy cần có gì]({{ '/hop-dong-thue-xe-may-can-co-gi' | relative_url }}).
+Không có cọc, hợp đồng là căn cứ duy nhất khi có tranh chấp, nên nơi cho thuê thường soạn hợp đồng kỹ hơn: ghi rõ mức bồi thường nếu mất xe, cách tính phí hỏng hóc, và phạt trả trễ theo giờ. Bạn cũng nên đọc kỹ từng mục này, vì không có cọc bị trừ trước thì các khoản phát sinh sẽ được đòi sau, xem các mục nên có trong bài [hợp đồng thuê xe máy cần có gì]({{ '/blog/hop-dong-thue-xe-may-can-co-gi/' | relative_url }}).
 
 ## Trả trước hoặc thuê kèm điều kiện dòng xe
 
-Một số nơi áp không cọc chỉ cho nhóm xe phổ thông như 50cc hoặc xe điện mini, vì giá trị xe thấp, trong khi dòng lớn hơn vẫn phải đặt cọc. Nhóm xe không cần bằng lái là nơi dễ gặp chính sách không cọc nhất, xem trong bài [thuê xe điện không cần bằng lái]({{ '/thue-xe-dien-khong-can-bang-lai' | relative_url }}). Nếu bạn cần dòng lớn, tham khảo mức cọc thường gặp trong bài [tiền cọc thuê xe máy Hà Nội]({{ '/tien-coc-thue-xe-may-ha-noi' | relative_url }}) để so sánh với chính sách trả trước của nơi không cọc.
+Một số nơi áp không cọc chỉ cho nhóm xe phổ thông như 50cc hoặc xe điện mini, vì giá trị xe thấp, trong khi dòng lớn hơn vẫn phải đặt cọc. Nhóm xe không cần bằng lái là nơi dễ gặp chính sách không cọc nhất, xem trong bài [thuê xe điện không cần bằng lái]({{ '/blog/thue-xe-dien-khong-can-bang-lai/' | relative_url }}). Nếu bạn cần dòng lớn, tham khảo mức cọc thường gặp trong bài [tiền cọc thuê xe máy Hà Nội]({{ '/blog/tien-coc-thue-xe-may-ha-noi/' | relative_url }}) để so sánh với chính sách trả trước của nơi không cọc.
 
 ## Checklist khi thuê không cọc
 
-Hỏi trước bốn điều: điều kiện thay thế là gì, mức bồi thường tối đa nếu mất xe, phí trễ giờ tính ra sao, và hợp đồng ghi rõ các khoản này chưa. Kiểm xe kỹ theo checklist trong bài [checklist nhận xe 50cc]({{ '/checklist-nhan-xe-50cc' | relative_url }}) và chụp lại tình trạng xe lúc nhận, vì không có cọc, bằng chứng tình trạng xe là thứ bảo vệ bạn khi trả. Đối chiếu giá trước ở trang [bảng giá]({{ '/banggia.html' | relative_url }}) để chắc phần trả trước không cao hơn mức cọc vốn phải mất.
+Hỏi trước bốn điều: điều kiện thay thế là gì, mức bồi thường tối đa nếu mất xe, phí trễ giờ tính ra sao, và hợp đồng ghi rõ các khoản này chưa. Kiểm xe kỹ theo checklist trong bài [checklist nhận xe 50cc]({{ '/blog/checklist-nhan-xe-50cc/' | relative_url }}) và chụp lại tình trạng xe lúc nhận, vì không có cọc, bằng chứng tình trạng xe là thứ bảo vệ bạn khi trả. Đối chiếu giá trước ở trang [bảng giá]({{ '/banggia.html' | relative_url }}) để chắc phần trả trước không cao hơn mức cọc vốn phải mất.
 
 Một điều nữa đáng hỏi là phạm vi chính sách không cọc: nhiều nơi áp không cọc cho khách quen, khách địa chỉ rõ ràng hoặc thuê ngắn một ngày, còn khách lạ hoặc kỳ thuê dài vẫn phải đặt cọc. Nếu lần đầu thuê ở nơi mới, chuẩn bị sẵn mức cọc dự phòng để không phải bỏ cuộc giữa chừng. Cuối cùng, so sánh tổng chi phí giữa nơi có cọc và không cọc: một nơi cọc thấp nhưng giá ngày cao có thể đắt hơn nơi cọc cao mà giá ngày rẻ.
 

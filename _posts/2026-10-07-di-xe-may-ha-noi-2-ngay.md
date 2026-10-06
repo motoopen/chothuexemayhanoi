@@ -13,31 +13,31 @@ Hai ngày là khoảng đủ để thấy Hà Nội bằng xe máy mà không ph
 
 ## Ngày một: Phố Cổ và phố quanh hồ
 
-Ngày đầu dành cho cụm trung tâm: chợ buổi sáng, các phố nghề trước giờ trưa, đền chùa buổi chiều, và phố ẩm thực buổi tối. Trong cụm này đi bộ là chính, xe máy chỉ cho chặng vào và ra. Tuyến mẫu cho trục phố cổ sang hồ đã có trong bài [lịch trình xe máy Phố Cổ Hồ Tây]({{ '/lich-trinh-xe-may-pho-co-ho-tay' | relative_url }}), và nếu ai trong nhóm chỉ tham gia nửa buổi, gói giờ ngắn đã trình bày trong bài [thuê xe máy Hà Nội 4 giờ]({{ '/thue-xe-may-ha-noi-4-gio' | relative_url }}).
+Ngày đầu dành cho cụm trung tâm: chợ buổi sáng, các phố nghề trước giờ trưa, đền chùa buổi chiều, và phố ẩm thực buổi tối. Trong cụm này đi bộ là chính, xe máy chỉ cho chặng vào và ra. Tuyến mẫu cho trục phố cổ sang hồ đã có trong bài [lịch trình xe máy Phố Cổ Hồ Tây]({{ '/blog/lich-trinh-xe-may-pho-co-ho-tay/' | relative_url }}), và nếu ai trong nhóm chỉ tham gia nửa buổi, gói giờ ngắn đã trình bày trong bài [thuê xe máy Hà Nội 4 giờ]({{ '/blog/thue-xe-may-ha-noi-4-gio/' | relative_url }}).
 
 ## Ngày hai: Hồ Tây và ngoại thành gần
 
-Ngày hai nhắm vùng Hồ Tây với bảo tàng buổi sáng, ven hồ trưa, và một chuyến ngoại thành ngắn buổi chiều như Bát Tràng hay Đường Lâm, phần chuẩn bị cho các cung này đã có trong bài [thuê xe 50cc đi ngoại thành Hà Nội]({{ '/thue-xe-50cc-di-ngoai-thanh-ha-noi' | relative_url }}). Nếu tính xa hơn như Chùa Hương, đọc khung chuẩn bị trong bài [thuê xe máy đi đường dài từ Hà Nội]({{ '/thue-xe-may-di-duong-dai-tu-ha-noi' | relative_url }}) trước khi hẹn giờ.
+Ngày hai nhắm vùng Hồ Tây với bảo tàng buổi sáng, ven hồ trưa, và một chuyến ngoại thành ngắn buổi chiều như Bát Tràng hay Đường Lâm, phần chuẩn bị cho các cung này đã có trong bài [thuê xe 50cc đi ngoại thành Hà Nội]({{ '/blog/thue-xe-50cc-di-ngoai-thanh-ha-noi/' | relative_url }}). Nếu tính xa hơn như Chùa Hương, đọc khung chuẩn bị trong bài [thuê xe máy đi đường dài từ Hà Nội]({{ '/blog/thue-xe-may-di-duong-dai-tu-ha-noi/' | relative_url }}) trước khi hẹn giờ.
 
 ## Gói thuê cho hai ngày
 
-Thuê trọn gói hai ngày rẻ hơn hai lần ngày lẻ, khung so gói đã trình bày trong bài [thuê xe máy Hà Nội 2 ngày]({{ '/thue-xe-may-ha-noi-2-ngay' | relative_url }}), và nếu lịch có thể kéo sang ngày ba, cân nhắc gói tuần trong bài [thuê xe máy Hà Nội theo tuần]({{ '/thue-xe-may-ha-noi-theo-tuan' | relative_url }}). So giá giữa các nơi theo bài [so sánh giá thuê xe máy Hà Nội]({{ '/so-sanh-gia-thue-xe-may-ha-noi' | relative_url }}), và hỏi trước các khoản ẩn theo bài [giá thuê xe máy đã bao gồm gì]({{ '/gia-thue-xe-may-da-bao-gom-gi' | relative_url }}).
+Thuê trọn gói hai ngày rẻ hơn hai lần ngày lẻ, khung so gói đã trình bày trong bài [thuê xe máy Hà Nội 2 ngày]({{ '/blog/thue-xe-may-ha-noi-2-ngay/' | relative_url }}), và nếu lịch có thể kéo sang ngày ba, cân nhắc gói tuần trong bài [thuê xe máy Hà Nội theo tuần]({{ '/blog/thue-xe-may-ha-noi-theo-tuan/' | relative_url }}). So giá giữa các nơi theo bài [so sánh giá thuê xe máy Hà Nội]({{ '/blog/so-sanh-gia-thue-xe-may-ha-noi/' | relative_url }}), và hỏi trước các khoản ẩn theo bài [giá thuê xe máy đã bao gồm gì]({{ '/blog/gia-thue-xe-may-da-bao-gom-gi/' | relative_url }}).
 
 ## Chọn xe và kiểm tra
 
-Hai ngày trong và quanh phố chỉ cần xe ga nhỏ gọn, so sánh dòng đã có trong bài [xe ga hay xe số]({{ '/xe-ga-hay-xe-so' | relative_url }}). Rà đủ mục trong bài [checklist 10 phút trước khi nhận xe]({{ '/checklist-10-phut-truoc-khi-nhan-xe' | relative_url }}) ngay buổi đầu, và chụp bốn góc xe theo thói quen trong bài [chụp ảnh xe trước khi thuê]({{ '/chup-anh-xe-truoc-khi-thue' | relative_url }}), vì sau hai ngày di chuyển, ảnh gốc là bằng chứng đối chiếu duy nhất.
+Hai ngày trong và quanh phố chỉ cần xe ga nhỏ gọn, so sánh dòng đã có trong bài [xe ga hay xe số]({{ '/blog/xe-ga-hay-xe-so/' | relative_url }}). Rà đủ mục trong bài [checklist 10 phút trước khi nhận xe]({{ '/blog/checklist-10-phut-truoc-khi-nhan-xe/' | relative_url }}) ngay buổi đầu, và chụp bốn góc xe theo thói quen trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}), vì sau hai ngày di chuyển, ảnh gốc là bằng chứng đối chiếu duy nhất.
 
 ## Giờ giấc và gửi xe
 
-Ngày một né hai khung cao điểm đã nêu trong bài [thuê xe máy Hà Nội cao điểm]({{ '/thue-xe-may-ha-noi-mua-cao-diem' | relative_url }}), ngày hai nên xuất phát sớm để ngoại thành kịp về trước tối. Chi phí gửi xe lẻ gom cả hai ngày đáng kể, khung liệt kê nằm trong bài [chi phí ăn khi thuê xe máy]({{ '/chi-phi-an-khi-thue-xe-may' | relative_url }}). Nếu dự kiến về muộn ngày hai, gọi trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), phụ phí trễ tính theo bài [phí trả xe muộn thuê xe máy]({{ '/phi-tra-xe-muon-thue-xe-may' | relative_url }}).
+Ngày một né hai khung cao điểm đã nêu trong bài [thuê xe máy Hà Nội cao điểm]({{ '/blog/thue-xe-may-ha-noi-mua-cao-diem/' | relative_url }}), ngày hai nên xuất phát sớm để ngoại thành kịp về trước tối. Chi phí gửi xe lẻ gom cả hai ngày đáng kể, khung liệt kê nằm trong bài [chi phí ăn khi thuê xe máy]({{ '/blog/chi-phi-an-khi-thue-xe-may/' | relative_url }}). Nếu dự kiến về muộn ngày hai, gọi trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), phụ phí trễ tính theo bài [phí trả xe muộn thuê xe máy]({{ '/blog/phi-tra-xe-muon-thue-xe-may/' | relative_url }}).
 
 ## Giấy tờ và sự cố hai ngày
 
-Mang đủ giấy phép lái, căn cận, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/thue-xe-may-ha-noi-can-giay-to-gi' | relative_url }}). Sự cố giữa hai ngày gọi ngay nơi thuê theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/xe-thue-bi-hong-giua-duong' | relative_url }}), phần chi phí sửa đã phân trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/chi-phi-hu-hong-khi-thue-xe-may' | relative_url }}).
+Mang đủ giấy phép lái, căn cận, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/blog/thue-xe-may-ha-noi-can-giay-to-gi/' | relative_url }}). Sự cố giữa hai ngày gọi ngay nơi thuê theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}), phần chi phí sửa đã phân trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/blog/chi-phi-hu-hong-khi-thue-xe-may/' | relative_url }}).
 
-Với khách du lịch nước ngoài đi hai ngày, chuẩn bị trước giấy tờ theo danh mục trong bài [thuê xe máy Hà Nội cho người nước ngoài]({{ '/thue-xe-may-ha-noi-cho-nguoi-nuoc-ngoai' | relative_url }}), và nên lưu ý một số bảo tàng cần đặt vé sớm, phần cân thời gian đã nêu trong bài [thuê xe máy Hà Nội cho khách du lịch]({{ '/thue-xe-may-ha-noi-cho-khach-du-lich' | relative_url }}).
+Với khách du lịch nước ngoài đi hai ngày, chuẩn bị trước giấy tờ theo danh mục trong bài [thuê xe máy Hà Nội cho người nước ngoài]({{ '/blog/thue-xe-may-ha-noi-cho-nguoi-nuoc-ngoai/' | relative_url }}), và nên lưu ý một số bảo tàng cần đặt vé sớm, phần cân thời gian đã nêu trong bài [thuê xe máy Hà Nội cho khách du lịch]({{ '/blog/thue-xe-may-ha-noi-cho-khach-du-lich/' | relative_url }}).
 
-Một kinh nghiệm nhỏ: giữ xe qua đêm ở bãi có người trông thay vì trên vỉa hè, vì hai ngày làm tăng rủi ro vết xước giữa đêm, phần đối chiếu vết xước đã trình bày trong bài [chụp ảnh xe trước khi thuê]({{ '/chup-anh-xe-truoc-khi-thue' | relative_url }}), và khóa cổ mỗi lần đỗ qua đêm, kinh nghiệm giữ xe cũng gợi ý trong bài [thuê xe máy Hà Nội qua đêm]({{ '/thue-xe-may-ha-noi-qua-dem' | relative_url }}).
+Một kinh nghiệm nhỏ: giữ xe qua đêm ở bãi có người trông thay vì trên vỉa hè, vì hai ngày làm tăng rủi ro vết xước giữa đêm, phần đối chiếu vết xước đã trình bày trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}), và khóa cổ mỗi lần đỗ qua đêm, kinh nghiệm giữ xe cũng gợi ý trong bài [thuê xe máy Hà Nội qua đêm]({{ '/blog/thue-xe-may-ha-noi-qua-dem/' | relative_url }}).
 
 ## Kết luận
 

@@ -13,23 +13,23 @@ Air Blade và Vision cùng nhà Honda nhưng phục vụ hai cảm giác khác n
 
 ## Độ đầm và phản ứng ga
 
-Air Blade máy 125 đầm hơn, ga mở có lực và giữ tốc đường trường chắc. Vision 110 nhẹ và nhún, ga mềm kiểu phố. Ai có chặng đường trường trong lịch thì Air Blade cho tự tin mở ga, xem bài [thuê xe máy đi đường dài từ Hà Nội]({{ '/thue-xe-may-di-duong-dai-tu-ha-noi' | relative_url }}). Ai thuần nội thành thì phần máy của Vision đủ và nhẹ tay hơn, cân trong bài [thuê xe máy đi phố đông Hà Nội]({{ '/thue-xe-may-di-pho-dong-ha-noi' | relative_url }}).
+Air Blade máy 125 đầm hơn, ga mở có lực và giữ tốc đường trường chắc. Vision 110 nhẹ và nhún, ga mềm kiểu phố. Ai có chặng đường trường trong lịch thì Air Blade cho tự tin mở ga, xem bài [thuê xe máy đi đường dài từ Hà Nội]({{ '/blog/thue-xe-may-di-duong-dai-tu-ha-noi/' | relative_url }}). Ai thuần nội thành thì phần máy của Vision đủ và nhẹ tay hơn, cân trong bài [thuê xe máy đi phố đông Hà Nội]({{ '/blog/thue-xe-may-di-pho-dong-ha-noi/' | relative_url }}).
 
 ## Phanh và an toàn
 
-Air Blade có phanh đĩa trước, ăn sâu và chắc khi đường ướt, ưu thế thật nếu lịch có mưa hoặc đèo. Vision nhiều bản phanh cơ, đủ dùng phố nhưng kém đậm khi phanh gấp. Rà phanh theo chuẩn trong bài [kiểm tra phanh lốp xe 50cc]({{ '/kiem-tra-phanh-lop-xe-50cc' | relative_url }}) cho cả hai, và tiêu chí mùa mưa nằm trong bài [thuê xe máy mùa mưa loại nào]({{ '/thue-xe-may-mua-mua-loai-nao' | relative_url }}). Người mới lái an toàn hơn với phanh đĩa, hướng dẫn chọn trong bài [thuê xe máy cho người mới lái Hà Nội]({{ '/thue-xe-may-cho-nguoi-moi-lai-ha-noi' | relative_url }}).
+Air Blade có phanh đĩa trước, ăn sâu và chắc khi đường ướt, ưu thế thật nếu lịch có mưa hoặc đèo. Vision nhiều bản phanh cơ, đủ dùng phố nhưng kém đậm khi phanh gấp. Rà phanh theo chuẩn trong bài [kiểm tra phanh lốp xe 50cc]({{ '/blog/kiem-tra-phanh-lop-xe-50cc/' | relative_url }}) cho cả hai, và tiêu chí mùa mưa nằm trong bài [thuê xe máy mùa mưa loại nào]({{ '/blog/thue-xe-may-mua-mua-loai-nao/' | relative_url }}). Người mới lái an toàn hơn với phanh đĩa, hướng dẫn chọn trong bài [thuê xe máy cho người mới lái Hà Nội]({{ '/blog/thue-xe-may-cho-nguoi-moi-lai-ha-noi/' | relative_url }}).
 
 ## Tư thế và chiều cao người lái
 
-Vision thân thon yên thấp, hợp người thấp, xem bài [thuê xe máy yên thấp Hà Nội]({{ '/thue-xe-may-yen-thap-ha-noi' | relative_url }}). Air Blade ghìe cao hơn chút, người cao thoáng và tư thế chúi nhẹ thể thao. Ngồi thử cả hai là bắt buộc trước khi quyết, tư thế khác nhau rõ dù thông số gần. Chở hai người thì Air Blade rộng hơn nhịp, cân tải trong bài [xe 50cc cho 2 người]({{ '/xe-50cc-cho-2-nguoi' | relative_url }}).
+Vision thân thon yên thấp, hợp người thấp, xem bài [thuê xe máy yên thấp Hà Nội]({{ '/blog/thue-xe-may-yen-thap-ha-noi/' | relative_url }}). Air Blade ghìe cao hơn chút, người cao thoáng và tư thế chúi nhẹ thể thao. Ngồi thử cả hai là bắt buộc trước khi quyết, tư thế khác nhau rõ dù thông số gần. Chở hai người thì Air Blade rộng hơn nhịp, cân tải trong bài [xe 50cc cho 2 người]({{ '/blog/xe-50cc-cho-2-nguoi/' | relative_url }}).
 
 ## Cốp và đồ đạc
 
-Hai cốp gần như nhau tầm vừa: một mũ và vài vật nhỏ. Ai cần cốp lớn thật thì Lead hơn hẳn cả hai, so trong bài [thuê Vision hay Lead]({{ '/thue-vision-hay-lead' | relative_url }}) và cách xếp trong bài [xe 50cc mang hành lý]({{ '/xe-50cc-mang-hanh-ly' | relative_url }}). Đi nhẹ thì cốp không là yếu tố phân biệt giữa hai dòng này.
+Hai cốp gần như nhau tầm vừa: một mũ và vài vật nhỏ. Ai cần cốp lớn thật thì Lead hơn hẳn cả hai, so trong bài [thuê Vision hay Lead]({{ '/thue-vision-hay-lead' | relative_url }}) và cách xếp trong bài [xe 50cc mang hành lý]({{ '/blog/xe-50cc-mang-hanh-ly/' | relative_url }}). Đi nhẹ thì cốp không là yếu tố phân biệt giữa hai dòng này.
 
 ## Giá thuê, giấy tờ và đặt trước
 
-Air Blade giá nhỉnh hơn chút vì máy và phanh đĩa, phần chênh đáng nếu lịch có đường trường hoặc mưa. Cả hai trên 50 phân khối nên cần bằng lái A1, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/xe-50cc-co-can-bang-lai-khong' | relative_url }}). Hợp đồng ghi giá, cọc, giờ trả, mức xăng, tiêu hao so theo bài [thuê xe máy tiết kiệm xăng Hà Nội]({{ '/thue-xe-may-tiet-kiem-xang-ha-noi' | relative_url }}). Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/thue-xe-50cc-cho-nguoi-nuoc-ngoai' | relative_url }}). Hỏi tồn kho qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước ngày nhận.
+Air Blade giá nhỉnh hơn chút vì máy và phanh đĩa, phần chênh đáng nếu lịch có đường trường hoặc mưa. Cả hai trên 50 phân khối nên cần bằng lái A1, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Hợp đồng ghi giá, cọc, giờ trả, mức xăng, tiêu hao so theo bài [thuê xe máy tiết kiệm xăng Hà Nội]({{ '/blog/thue-xe-may-tiet-kiem-xang-ha-noi/' | relative_url }}). Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). Hỏi tồn kho qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước ngày nhận.
 
 ## Kết luận
 

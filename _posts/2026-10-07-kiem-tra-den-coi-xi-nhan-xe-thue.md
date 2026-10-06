@@ -13,29 +13,29 @@ hub_category: an-toan-su-co
 
 ## Đèn pha và đèn hậu
 
-Bật chế độ pha rồi ngó đèn trước có sáng đều hai bên không, và nhờ người hoặc tường soi đèn sau. Đèn một bên là lỗi thường gặp, và đèn yếu kiểu vàng đục là dấu chai bóng. Ban đêm đèn là an toàn chính, phần lên lịch đêm đã nêu trong bài [thuê xe máy Hà Nội ban đêm]({{ '/thue-xe-may-ha-noi-ban-dem' | relative_url }}).
+Bật chế độ pha rồi ngó đèn trước có sáng đều hai bên không, và nhờ người hoặc tường soi đèn sau. Đèn một bên là lỗi thường gặp, và đèn yếu kiểu vàng đục là dấu chai bóng. Ban đêm đèn là an toàn chính, phần lên lịch đêm đã nêu trong bài [thuê xe máy Hà Nội ban đêm]({{ '/blog/thue-xe-may-ha-noi-ban-dem/' | relative_url }}).
 
 ## Xi-nhan trước sau
 
-Gạt xi nhan trái, nhìn trước và sau nháy đều, rồi đổi bên phải. Xi nhan sau yếu hoặc chết là lỗi hay bị bỏ qua nhất, mà lại nguy hiểm nhất khi rẽ trong phố. Thiếu xi nhan hoạt động khi chuyển hướng là vi phạm bị xử phạt theo quy định hiện hành, phần trách nhiệm khi đi xe thuê đã nêu trong bài [thuê xe máy bị phạt giao thông]({{ '/thue-xe-may-bi-phat-giao-thong' | relative_url }}).
+Gạt xi nhan trái, nhìn trước và sau nháy đều, rồi đổi bên phải. Xi nhan sau yếu hoặc chết là lỗi hay bị bỏ qua nhất, mà lại nguy hiểm nhất khi rẽ trong phố. Thiếu xi nhan hoạt động khi chuyển hướng là vi phạm bị xử phạt theo quy định hiện hành, phần trách nhiệm khi đi xe thuê đã nêu trong bài [thuê xe máy bị phạt giao thông]({{ '/blog/thue-xe-may-bi-phat-giao-thong/' | relative_url }}).
 
 ## Còi và đèn phanh
 
-Bóp còi nghe rõ giòn, không bị khàn. Nhấn phanh xong, đèn phanh sau phải sáng, vì đèn phanh là tín hiệu cho xe sau. Trình tự thử phanh kèm đèn đã trình bày trong bài [checklist 10 phút trước khi nhận xe]({{ '/checklist-10-phut-truoc-khi-nhan-xe' | relative_url }}), phần kỹ hơn về phanh nằm trong loạt bài về kiểm tra phanh trên trang hướng dẫn.
+Bóp còi nghe rõ giòn, không bị khàn. Nhấn phanh xong, đèn phanh sau phải sáng, vì đèn phanh là tín hiệu cho xe sau. Trình tự thử phanh kèm đèn đã trình bày trong bài [checklist 10 phút trước khi nhận xe]({{ '/blog/checklist-10-phut-truoc-khi-nhan-xe/' | relative_url }}), phần kỹ hơn về phanh nằm trong loạt bài về kiểm tra phanh trên trang hướng dẫn.
 
 ## Ghi nhận lỗi ngay khi nhận
 
-Xe thiếu đèn hoặc còi là căn cứ đổi xe ngay tại điểm nhận, tiêu chí đã nêu trong bài [thuê xe máy Hà Nội uy tín]({{ '/thue-xe-may-ha-noi-uy-tin' | relative_url }}). Chụp bốn góc xe kèm đèn đang bật theo thói quen trong bài [chụp ảnh xe trước khi thuê]({{ '/chup-anh-xe-truoc-khi-thue' | relative_url }}), để tránh tranh chấp về tình trạng đèn lúc trả. Nếu nhận xe buổi tối hôm trước cho sáng đi sớm, phần chuẩn bị đã có trong bài [thuê xe máy Hà Nội nhận xe sớm]({{ '/thue-xe-may-ha-noi-nhan-xe-som' | relative_url }}).
+Xe thiếu đèn hoặc còi là căn cứ đổi xe ngay tại điểm nhận, tiêu chí đã nêu trong bài [thuê xe máy Hà Nội uy tín]({{ '/blog/thue-xe-may-ha-noi-uy-tin/' | relative_url }}). Chụp bốn góc xe kèm đèn đang bật theo thói quen trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}), để tránh tranh chấp về tình trạng đèn lúc trả. Nếu nhận xe buổi tối hôm trước cho sáng đi sớm, phần chuẩn bị đã có trong bài [thuê xe máy Hà Nội nhận xe sớm]({{ '/blog/thue-xe-may-ha-noi-nhan-xe-som/' | relative_url }}).
 
 ## Theo dòng xe
 
-Xe điện đèn gọn dễ cháy mạch, thử đủ hai chế độ, phần đặc thù xe điện đã có trong bài [checklist nhận xe máy điện]({{ '/checklist-nhan-xe-may-dien' | relative_url }}). Xe số cũ dễ ốm công tắc xi nhan, gạt vài lần nghe tiếng lạch cạch ổn, so sánh dòng đã có trong bài [xe ga và xe số khi thuê]({{ '/xe-ga-va-xe-so-khi-thue' | relative_url }}).
+Xe điện đèn gọn dễ cháy mạch, thử đủ hai chế độ, phần đặc thù xe điện đã có trong bài [checklist nhận xe máy điện]({{ '/blog/checklist-nhan-xe-may-dien/' | relative_url }}). Xe số cũ dễ ốm công tắc xi nhan, gạt vài lần nghe tiếng lạch cạch ổn, so sánh dòng đã có trong bài [xe ga và xe số khi thuê]({{ '/blog/xe-ga-va-xe-so-khi-thue/' | relative_url }}).
 
 ## Hỏng giữa chặng
 
-Đèn hoặc xi nhan hỏng giữa đường thì giảm tốc, ra hiệu bằng tay khi rẽ, và ghé điểm dừng an toàn. Gọi nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/xe-thue-bi-hong-giua-duong' | relative_url }}), phần chi phí đã phân trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/chi-phi-hu-hong-khi-thue-xe-may' | relative_url }}). Trả đúng giờ, khung phụ phí nằm trong bài [phí trả xe muộn thuê xe máy]({{ '/phi-tra-xe-muon-thue-xe-may' | relative_url }}).
+Đèn hoặc xi nhan hỏng giữa đường thì giảm tốc, ra hiệu bằng tay khi rẽ, và ghé điểm dừng an toàn. Gọi nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}), phần chi phí đã phân trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/blog/chi-phi-hu-hong-khi-thue-xe-may/' | relative_url }}). Trả đúng giờ, khung phụ phí nằm trong bài [phí trả xe muộn thuê xe máy]({{ '/blog/phi-tra-xe-muon-thue-xe-may/' | relative_url }}).
 
-Trường hợp nhận xe vào buổi tối hôm trước cho sáng sớm đi, hãy thử đèn ngay tại điểm nhận chứ đừng đợi sáng, vì đèn là thứ duy nhất bạn không thử được khi trời đã sáng, phần kinh nghiệm nhận xe sớm đã trình bày trong bài [thuê xe máy Hà Nội nhận xe sớm]({{ '/thue-xe-may-ha-noi-nhan-xe-som' | relative_url }}), và các dòng xe điện cần kiểm thêm đèn pha tự động. Nếu định đi nhiều đêm liên tiếp, mang theo một cuộn băng chống nước nhỏ, vì mưa đêm là nguyên nhân phổ biến khiến giắc đèn lỏng và đèn chớp tắt giữa chừng. Với xe chạy đường dài nhiều ngày, nên đề nghị nơi thuê cho đổi xe ngay trong ngày đầu nếu đèn pha đã ngả vàng, vì ánh ngả vàng làm tầm nhìn thực tế ngắn hơn thấy.
+Trường hợp nhận xe vào buổi tối hôm trước cho sáng sớm đi, hãy thử đèn ngay tại điểm nhận chứ đừng đợi sáng, vì đèn là thứ duy nhất bạn không thử được khi trời đã sáng, phần kinh nghiệm nhận xe sớm đã trình bày trong bài [thuê xe máy Hà Nội nhận xe sớm]({{ '/blog/thue-xe-may-ha-noi-nhan-xe-som/' | relative_url }}), và các dòng xe điện cần kiểm thêm đèn pha tự động. Nếu định đi nhiều đêm liên tiếp, mang theo một cuộn băng chống nước nhỏ, vì mưa đêm là nguyên nhân phổ biến khiến giắc đèn lỏng và đèn chớp tắt giữa chừng. Với xe chạy đường dài nhiều ngày, nên đề nghị nơi thuê cho đổi xe ngay trong ngày đầu nếu đèn pha đã ngả vàng, vì ánh ngả vàng làm tầm nhìn thực tế ngắn hơn thấy.
 
 ## Kết luận
 

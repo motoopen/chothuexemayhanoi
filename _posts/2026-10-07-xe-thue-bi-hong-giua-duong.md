@@ -17,15 +17,15 @@ Thứ nhất, đừng lo sửa ngay: đẩy xe vào lề hoặc hẻm gần nh�
 
 ## Kiểm tra nhanh các lỗi nhỏ
 
-Một vòng kiểm tra hai phút với các lỗi phổ biến nhất: kiểm khóa từ hoặc công tắc nguồn có bị tắt nhầm không, xem còn xăng hoặc pin không, thử đề lại vài lần với nghẹt đóng mở đúng vị trí, và xem còi báo hay cầu chì xe điện có rút không. Xe điện thì kiểm bộ khóa điện và màn hình báo lỗi nếu có. Một số lỗi này bạn tự xử được trong vài giây mà không cần thợ, tương tự các mục kiểm trong bài [checklist nhận xe máy điện]({{ '/checklist-nhan-xe-may-dien' | relative_url }}) và bài [checklist nhận xe 50cc]({{ '/checklist-nhan-xe-50cc' | relative_url }}).
+Một vòng kiểm tra hai phút với các lỗi phổ biến nhất: kiểm khóa từ hoặc công tắc nguồn có bị tắt nhầm không, xem còn xăng hoặc pin không, thử đề lại vài lần với nghẹt đóng mở đúng vị trí, và xem còi báo hay cầu chì xe điện có rút không. Xe điện thì kiểm bộ khóa điện và màn hình báo lỗi nếu có. Một số lỗi này bạn tự xử được trong vài giây mà không cần thợ, tương tự các mục kiểm trong bài [checklist nhận xe máy điện]({{ '/blog/checklist-nhan-xe-may-dien/' | relative_url }}) và bài [checklist nhận xe 50cc]({{ '/blog/checklist-nhan-xe-50cc/' | relative_url }}).
 
 ## Gọi nơi cho thuê trước khi tự sửa
 
-Với lỗi không tự xử được, gọi ngay nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}): họ biết xe của họ, có thợ quen, và sẽ chỉ bạn cách xử đúng. Quan trọng nhất là phần chi phí: hỏi rõ khoản sửa tại chỗ nào họ chi trả, sửa ở đâu được công nhận, và có cần hóa đơn không. Nếu không gọi trước mà tự khắc phục, khoản chi có thể không được hoàn, vì hợp đồng thường ghi rõ điều kiện này, xem các mục nên có trong bài [hợp đồng thuê xe máy cần có gì]({{ '/hop-dong-thue-xe-may-can-co-gi' | relative_url }}).
+Với lỗi không tự xử được, gọi ngay nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}): họ biết xe của họ, có thợ quen, và sẽ chỉ bạn cách xử đúng. Quan trọng nhất là phần chi phí: hỏi rõ khoản sửa tại chỗ nào họ chi trả, sửa ở đâu được công nhận, và có cần hóa đơn không. Nếu không gọi trước mà tự khắc phục, khoản chi có thể không được hoàn, vì hợp đồng thường ghi rõ điều kiện này, xem các mục nên có trong bài [hợp đồng thuê xe máy cần có gì]({{ '/blog/hop-dong-thue-xe-may-can-co-gi/' | relative_url }}).
 
 ## Chụp lại bằng chứng tình trạng
 
-Trước và sau khi sửa, chụp lại tình trạng xe và hóa đơn, cùng vị trí hỏng. Ảnh lúc nhận xe là căn cứ cho thấy hỏng phát sinh trong kỳ thuê do mòn hay do va chạm, xem cách lưu ảnh trong bài [chụp ảnh xe trước khi thuê]({{ '/chup-anh-xe-truoc-khi-thue' | relative_url }}). Với hỏng do tai nạn hoặc va chạm, đọc thêm thứ tự xử lý trong bài [xe thuê bị tai nạn phải làm gì]({{ '/xe-thue-bi-tai-nan-phai-lam-gi' | relative_url }}).
+Trước và sau khi sửa, chụp lại tình trạng xe và hóa đơn, cùng vị trí hỏng. Ảnh lúc nhận xe là căn cứ cho thấy hỏng phát sinh trong kỳ thuê do mòn hay do va chạm, xem cách lưu ảnh trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}). Với hỏng do tai nạn hoặc va chạm, đọc thêm thứ tự xử lý trong bài [xe thuê bị tai nạn phải làm gì]({{ '/blog/xe-thue-bi-tai-nan-phai-lam-gi/' | relative_url }}).
 
 ## Nếu phải bỏ xe giữa kỳ
 

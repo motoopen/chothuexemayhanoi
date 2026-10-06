@@ -17,19 +17,19 @@ Vespa có thân thép nên nặng phần trước, tay lái đầm nhưng vòng 
 
 ## Tình trạng xe cần kiểm kỹ
 
-Thân thép Vespa dễ trầy và móp, nên soi kỹ quanh thân, ghi lại vết có sẵn bằng ảnh. Kiểm máy: đề nhanh, ga đều không giật. Bóp phanh trước sau, soi lốp, bật đèn, bấm còi theo chuẩn chung trong bài [kiểm tra phanh lốp xe 50cc]({{ '/kiem-tra-phanh-lop-xe-50cc' | relative_url }}). Riêng Vespa, thêm kiểm dây ga và dây phanh không sứt vì nhiều xe đời cũ, và nghe thử tiếng lục cục khi qua ổ gà chậm. Mọi tiếng kêu từ thân hoặc dây đều đáng lo hơn trên Vespa.
+Thân thép Vespa dễ trầy và móp, nên soi kỹ quanh thân, ghi lại vết có sẵn bằng ảnh. Kiểm máy: đề nhanh, ga đều không giật. Bóp phanh trước sau, soi lốp, bật đèn, bấm còi theo chuẩn chung trong bài [kiểm tra phanh lốp xe 50cc]({{ '/blog/kiem-tra-phanh-lop-xe-50cc/' | relative_url }}). Riêng Vespa, thêm kiểm dây ga và dây phanh không sứt vì nhiều xe đời cũ, và nghe thử tiếng lục cục khi qua ổ gà chậm. Mọi tiếng kêu từ thân hoặc dây đều đáng lo hơn trên Vespa.
 
 ## Ai hợp thuê Vespa
 
-Vespa hợp hai nhóm: khách muốn phong cách và trải nghiệm dòng xe Ý, và người quen Vespa từ trước. Với nhu cầu thuần di chuyển, dòng ga Nhật rẻ hơn và dễ lái hơn, xem bài [thuê xe ga Hà Nội]({{ '/thue-xe-ga-ha-noi' | relative_url }}). Với chụp ảnh phố cổ hoặc đi quanh Hoàn Kiếm, Vespa đẹp và hợp không khí khu phố, tham khảo tuyến trong bài [thuê xe máy điện phố cổ Hà Nội]({{ '/thue-xe-may-dien-pho-co-ha-noi' | relative_url }}) nếu cân nhắc điện cho cùng khu vực.
+Vespa hợp hai nhóm: khách muốn phong cách và trải nghiệm dòng xe Ý, và người quen Vespa từ trước. Với nhu cầu thuần di chuyển, dòng ga Nhật rẻ hơn và dễ lái hơn, xem bài [thuê xe ga Hà Nội]({{ '/blog/thue-xe-ga-ha-noi/' | relative_url }}). Với chụp ảnh phố cổ hoặc đi quanh Hoàn Kiếm, Vespa đẹp và hợp không khí khu phố, tham khảo tuyến trong bài [thuê xe máy điện phố cổ Hà Nội]({{ '/blog/thue-xe-may-dien-pho-co-ha-noi/' | relative_url }}) nếu cân nhắc điện cho cùng khu vực.
 
 ## Cốp, mũ và phụ kiện
 
-Cốp Vespa vừa mũ và ít đồ hơn Lead, nếu mang túi lớn thì xin móc và đeo chéo, cách xếp an toàn trong bài [xe 50cc mang hành lý]({{ '/xe-50cc-mang-hanh-ly' | relative_url }}). Đếm mũ đạt cho từng người, kính sạch. Chở hai người cân tải theo hướng dẫn chung trong bài [xe 50cc cho 2 người]({{ '/xe-50cc-cho-2-nguoi' | relative_url }}). Trời mưa gần thì thêm nguyên tắc đường ướt trong bài [thuê xe máy điện mùa mưa]({{ '/thue-xe-may-dien-mua-mua' | relative_url }}) vì thân thép trơn hơn khi ướt.
+Cốp Vespa vừa mũ và ít đồ hơn Lead, nếu mang túi lớn thì xin móc và đeo chéo, cách xếp an toàn trong bài [xe 50cc mang hành lý]({{ '/blog/xe-50cc-mang-hanh-ly/' | relative_url }}). Đếm mũ đạt cho từng người, kính sạch. Chở hai người cân tải theo hướng dẫn chung trong bài [xe 50cc cho 2 người]({{ '/blog/xe-50cc-cho-2-nguoi/' | relative_url }}). Trời mưa gần thì thêm nguyên tắc đường ướt trong bài [thuê xe máy điện mùa mưa]({{ '/blog/thue-xe-may-dien-mua-mua/' | relative_url }}) vì thân thép trơn hơn khi ướt.
 
 ## Giấy tờ và điều khoản
 
-Vespa trên 50 phân khối cần bằng lái A1, nhóm 50cc không cần, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/xe-50cc-co-can-bang-lai-khong' | relative_url }}). Hợp đồng ghi rõ trách nhiệm trầy xước vì sơn Vespa đắt. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/thue-xe-50cc-cho-nguoi-nuoc-ngoai' | relative_url }}). Hỏi tồn kho qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước ngày nhận vì Vespa ít hơn dòng Nhật.
+Vespa trên 50 phân khối cần bằng lái A1, nhóm 50cc không cần, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Hợp đồng ghi rõ trách nhiệm trầy xước vì sơn Vespa đắt. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). Hỏi tồn kho qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước ngày nhận vì Vespa ít hơn dòng Nhật.
 
 ## Kết luận
 

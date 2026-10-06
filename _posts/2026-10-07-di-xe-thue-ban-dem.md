@@ -13,11 +13,11 @@ Ban đêm là khung giờ rủi ro nhất với xe máy, và với xe thuê thì
 
 ## Kiểm tra đèn pha và cồ trước khi nhận xe
 
-Tại điểm nhận, bật đèn pha xem cả chiếu xa lẫn chiếu gần, vì chiếu xa lỏng sẽ giật lên mỗi lần gặp ổ gà. Thử cồ đèn xem nhả có nhẹ không, cồ kẹt khiến bạn bịt cồ lâu trong tư thế khó xử lý. Toàn bộ thao tác kiểm nhận đã liệt kê trong bài [checklist 10 phút trước khi nhận xe]({{ '/checklist-10-phut-truoc-khi-nhan-xe' | relative_url }}), và đèn yếu là lý do chính đáng đề nghị đổi xe ngay, tiêu chí chọn nơi thuê nằm trong bài [thuê xe máy Hà Nội uy tín]({{ '/thue-xe-may-ha-noi-uy-tin' | relative_url }}).
+Tại điểm nhận, bật đèn pha xem cả chiếu xa lẫn chiếu gần, vì chiếu xa lỏng sẽ giật lên mỗi lần gặp ổ gà. Thử cồ đèn xem nhả có nhẹ không, cồ kẹt khiến bạn bịt cồ lâu trong tư thế khó xử lý. Toàn bộ thao tác kiểm nhận đã liệt kê trong bài [checklist 10 phút trước khi nhận xe]({{ '/blog/checklist-10-phut-truoc-khi-nhan-xe/' | relative_url }}), và đèn yếu là lý do chính đáng đề nghị đổi xe ngay, tiêu chí chọn nơi thuê nằm trong bài [thuê xe máy Hà Nội uy tín]({{ '/blog/thue-xe-may-ha-noi-uy-tin/' | relative_url }}).
 
 ## Đèn hậu và xi nhan là phần hay bị bỏ quên
 
-Nhiều người chỉ soi đèn trước, nhưng đèn hậu là thứ giúp xe phía sau thấy bạn giữa đêm. Nhờ người tại điểm nhận bấm phanh để kiểm đèn phanh, và bật từng bên xi nhan. Xi nhan chập chờn giữa đường khiến xe sau đoán sai hướng rẽ của bạn, và cảnh sát cũng xử phạt lỗi không có đèn tín hiệu, khung tình huống bị kiểm tra đã nêu trong bài [cảnh sát kiểm tra xe thuê cần gì]({{ '/canh-sat-kiem-tra-xe-thue-can-gi' | relative_url }}).
+Nhiều người chỉ soi đèn trước, nhưng đèn hậu là thứ giúp xe phía sau thấy bạn giữa đêm. Nhờ người tại điểm nhận bấm phanh để kiểm đèn phanh, và bật từng bên xi nhan. Xi nhan chập chờn giữa đường khiến xe sau đoán sai hướng rẽ của bạn, và cảnh sát cũng xử phạt lỗi không có đèn tín hiệu, khung tình huống bị kiểm tra đã nêu trong bài [cảnh sát kiểm tra xe thuê cần gì]({{ '/blog/canh-sat-kiem-tra-xe-thue-can-gi/' | relative_url }}).
 
 ## Gương và tầm nhìn sau
 
@@ -25,19 +25,19 @@ Nhiều người chỉ soi đèn trước, nhưng đèn hậu là thứ giúp xe
 
 ## Trang bị phản quang cho người đi
 
-Áo phản quang là món rẻ nhất mà hiệu quả nhất: nó làm bạn hiện lên từ xa trong headlights của xe đối diện. Treo dải phản quang trên cổ tay phía bên phải, nơi bạn ra hiệu rẽ. Với hành lý, dán dải phản quang lên vali hoặc thùng chứa đồ đựng sau xe, phần buộc hành lý an toàn đã trình bày trong bài [thuê xe máy Hà Nội mang hành lý]({{ '/thue-xe-may-ha-noi-mang-hanh-ly' | relative_url }}).
+Áo phản quang là món rẻ nhất mà hiệu quả nhất: nó làm bạn hiện lên từ xa trong headlights của xe đối diện. Treo dải phản quang trên cổ tay phía bên phải, nơi bạn ra hiệu rẽ. Với hành lý, dán dải phản quang lên vali hoặc thùng chứa đồ đựng sau xe, phần buộc hành lý an toàn đã trình bày trong bài [thuê xe máy Hà Nội mang hành lý]({{ '/blog/thue-xe-may-ha-noi-mang-hanh-ly/' | relative_url }}).
 
 ## Chọn tốc độ theo tầm đèn
 
-Nguyên tắc đêm là dừng được trong khoảng đèn chiếu: nếu đèn gần chiếu ba mươi mét thì chạy ở tốc độ phanh lại trong ba mươi mét. Đêm cũng là lúc ổ gà, vạch sơn và cột ẩn hiện muộn, nên hạ tốc qua mọi ngã tư kể cả đèn xanh. Tuyến đèn đẹp cho đêm Hà Nội đã giới thiệu trong bài [đi xe máy Hà Nội buổi tối]({{ '/di-xe-may-ha-noi-buoi-toi' | relative_url }}), và nếu mưa thêm vào đêm thì dựng xe ở chỗ mái che, cách đi trong mưa đã nêu trong bài [thuê xe máy Hà Nội mùa mưa]({{ '/thue-xe-may-ha-noi-mua-mua' | relative_url }}).
+Nguyên tắc đêm là dừng được trong khoảng đèn chiếu: nếu đèn gần chiếu ba mươi mét thì chạy ở tốc độ phanh lại trong ba mươi mét. Đêm cũng là lúc ổ gà, vạch sơn và cột ẩn hiện muộn, nên hạ tốc qua mọi ngã tư kể cả đèn xanh. Tuyến đèn đẹp cho đêm Hà Nội đã giới thiệu trong bài [đi xe máy Hà Nội buổi tối]({{ '/blog/di-xe-may-ha-noi-buoi-toi/' | relative_url }}), và nếu mưa thêm vào đêm thì dựng xe ở chỗ mái che, cách đi trong mưa đã nêu trong bài [thuê xe máy Hà Nội mùa mưa]({{ '/blog/thue-xe-may-ha-noi-mua-mua/' | relative_url }}).
 
 ## Điểm dừng và gửi xe ban đêm
 
-Ưu tiên điểm dừng có đèn và người trông xe, vì bãi tối vắng là chỗ dễ xảy ra mất trộm và va chạm lúc lẫn ra vào. Chụp xe ở chỗ đèn sáng để ảnh có chi tiết, thói quen chụp ảnh nhận xe nằm trong bài [chụp ảnh xe trước khi thuê]({{ '/chup-anh-xe-truoc-khi-thue' | relative_url }}), và giữ vé gửi xe cẩn thận vì đêm dễ rơi giữa chừng.
+Ưu tiên điểm dừng có đèn và người trông xe, vì bãi tối vắng là chỗ dễ xảy ra mất trộm và va chạm lúc lẫn ra vào. Chụp xe ở chỗ đèn sáng để ảnh có chi tiết, thói quen chụp ảnh nhận xe nằm trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}), và giữ vé gửi xe cẩn thận vì đêm dễ rơi giữa chừng.
 
 ## Khi đèn hỏng giữa chặng
 
-Đèn tắt giữa đêm thì kéo vào lề ở chỗ sáng, mở sẵn đèn pin điện thoại để báo hiệu xe sau, và gọi nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/xe-thue-bi-hong-giua-duong' | relative_url }}), phần chi phí phân định nằm trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/chi-phi-hu-hong-khi-thue-xe-may' | relative_url }}). Không cố chạy tiếp với đèn chết, vì đó là lỗi bị xử phạt và là rủi ro lớn nhất đêm. Nếu phải gửi xe qua đêm ở điểm dừng, nhớ khóa cổ và lấy hết đồ có giá trị, kinh nghiệm mất chìa đã trình bày trong bài [mất chìa khóa xe thuê]({{ '/mat-chia-khoa-xe-thue' | relative_url }}).
+Đèn tắt giữa đêm thì kéo vào lề ở chỗ sáng, mở sẵn đèn pin điện thoại để báo hiệu xe sau, và gọi nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}), phần chi phí phân định nằm trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/blog/chi-phi-hu-hong-khi-thue-xe-may/' | relative_url }}). Không cố chạy tiếp với đèn chết, vì đó là lỗi bị xử phạt và là rủi ro lớn nhất đêm. Nếu phải gửi xe qua đêm ở điểm dừng, nhớ khóa cổ và lấy hết đồ có giá trị, kinh nghiệm mất chìa đã trình bày trong bài [mất chìa khóa xe thuê]({{ '/blog/mat-chia-khoa-xe-thue/' | relative_url }}).
 
 ## Kết luận
 

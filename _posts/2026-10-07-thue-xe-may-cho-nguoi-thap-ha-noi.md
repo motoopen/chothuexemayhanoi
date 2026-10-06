@@ -17,7 +17,7 @@ Ngồi lên xe tại quầy, hai chân chống đất: ngón chân chạm ổn, 
 
 ## Nhóm xe gợi ý cho người thấp
 
-Nhóm 50cc và xe ga nhỏ có yên thấp nhất: Wave, Vision, xe điện mini, Cub 50cc, xem so sánh trong bài [so sánh Cub 50cc và Wave 50cc]({{ '/cub-50cc-va-wave-50cc' | relative_url }}) và [so sánh Cub 50cc và xe ga 50cc]({{ '/cub-50cc-va-xe-ga-50cc' | relative_url }}). Xe máy điện nhiều loại yên thấp và trọng tâm đổ về sàn, hợp người thấp, tham khảo bài [xe máy điện và xe 50cc khi thuê]({{ '/xe-may-dien-va-xe-50cc-khi-thue' | relative_url }}). Tránh dòng ga lớn như SH và côn thể thao vì yên cao và nặng, chi tiết cân nhắc đã có trong bài [thuê xe SH Hà Nội]({{ '/thue-xe-sh-ha-noi' | relative_url }}).
+Nhóm 50cc và xe ga nhỏ có yên thấp nhất: Wave, Vision, xe điện mini, Cub 50cc, xem so sánh trong bài [so sánh Cub 50cc và Wave 50cc]({{ '/blog/cub-50cc-va-wave-50cc/' | relative_url }}) và [so sánh Cub 50cc và xe ga 50cc]({{ '/blog/cub-50cc-va-xe-ga-50cc/' | relative_url }}). Xe máy điện nhiều loại yên thấp và trọng tâm đổ về sàn, hợp người thấp, tham khảo bài [xe máy điện và xe 50cc khi thuê]({{ '/blog/xe-may-dien-va-xe-50cc-khi-thue/' | relative_url }}). Tránh dòng ga lớn như SH và côn thể thao vì yên cao và nặng, chi tiết cân nhắc đã có trong bài [thuê xe SH Hà Nội]({{ '/blog/thue-xe-sh-ha-noi/' | relative_url }}).
 
 ## Chỉnh yên và ghế lót tại điểm thuê
 
@@ -25,11 +25,11 @@ Xe ga nhiều bản có chỉnh được độ cao khoảng nhỏ, hỏi nơi th
 
 ## Kiểm thêm khi đã chọn được xe thấp
 
-Yên đạt rồi thì kiểm phần an toàn còn lại: bóp phanh trước sau ăn tức thì, soi lốp còn gai, bật đèn bấm còi theo chuẩn trong bài [kiểm tra phanh lốp xe 50cc]({{ '/kiem-tra-phanh-lop-xe-50cc' | relative_url }}). Đi thử vòng quanh quầy với tư thế thật của mình, thử dừng chống chân vài lần như đèn đỏ thật. Trời mưa gần thì đọc nguyên tắc đường ướt trong bài [thuê xe máy điện mùa mưa]({{ '/thue-xe-may-dien-mua-mua' | relative_url }}), người thấp càng cần phanh sớm vì chân chống khi trượt khó hơn. Chở theo người thứ hai làm chân chống thêm căng, cân tải theo bài [xe 50cc cho 2 người]({{ '/xe-50cc-cho-2-nguoi' | relative_url }}).
+Yên đạt rồi thì kiểm phần an toàn còn lại: bóp phanh trước sau ăn tức thì, soi lốp còn gai, bật đèn bấm còi theo chuẩn trong bài [kiểm tra phanh lốp xe 50cc]({{ '/blog/kiem-tra-phanh-lop-xe-50cc/' | relative_url }}). Đi thử vòng quanh quầy với tư thế thật của mình, thử dừng chống chân vài lần như đèn đỏ thật. Trời mưa gần thì đọc nguyên tắc đường ướt trong bài [thuê xe máy điện mùa mưa]({{ '/blog/thue-xe-may-dien-mua-mua/' | relative_url }}), người thấp càng cần phanh sớm vì chân chống khi trượt khó hơn. Chở theo người thứ hai làm chân chống thêm căng, cân tải theo bài [xe 50cc cho 2 người]({{ '/blog/xe-50cc-cho-2-nguoi/' | relative_url }}).
 
 ## Giấy tờ và đặt trước
 
-Nhóm 50cc không cần bằng lái nên người thấp chưa có bằng vẫn thuê được, xem quy định trong bài [xe 50cc có cần bằng lái không]({{ '/xe-50cc-co-can-bang-lai-khong' | relative_url }}) và các dịch vụ trong bài [thuê xe 50cc không cần bằng lái]({{ '/thue-xe-50cc-khong-can-bang-lai' | relative_url }}). Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/thue-xe-50cc-cho-nguoi-nuoc-ngoai' | relative_url }}). Gọi trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) nói rõ nhu cầu xe yên thấp để nơi chọn sẵn vài lựa chọn, tránh phải đổi xe tại quầy vì yên không hợp.
+Nhóm 50cc không cần bằng lái nên người thấp chưa có bằng vẫn thuê được, xem quy định trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}) và các dịch vụ trong bài [thuê xe 50cc không cần bằng lái]({{ '/blog/thue-xe-50cc-khong-can-bang-lai/' | relative_url }}). Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). Gọi trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) nói rõ nhu cầu xe yên thấp để nơi chọn sẵn vài lựa chọn, tránh phải đổi xe tại quầy vì yên không hợp.
 
 ## Kết luận
 

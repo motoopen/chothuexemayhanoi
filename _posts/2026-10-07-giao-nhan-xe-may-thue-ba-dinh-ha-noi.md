@@ -17,7 +17,7 @@ Nhận tại khách sạn tiện cho khách du lịch ở gần các phố Kim M
 
 ## Nhận tại điểm hẹn giữa phố
 
-Điểm hẹn hợp khách công tác hoặc khách đang di chuyển: hẹn tại một góc phố dễ tìm như gần vòng xoay hoặc đầu phố lớn. Ưu điểm là không mất giờ đến cửa hàng, và có thể nhận lúc đang đi giữa các điểm tham quan. Nhược điểm là không có bàn giao đầy đủ: mũ, pin hoặc xăng phải kiểm nhanh tại chỗ theo checklist trong bài [checklist nhận xe máy điện]({{ '/checklist-nhan-xe-may-dien' | relative_url }}) hoặc bản dành cho nhóm xăng trong bài [checklist nhận xe 50cc]({{ '/checklist-nhan-xe-50cc' | relative_url }}). Trời mưa gần thì cân phần giao xe đường ướt trong bài [thuê xe máy điện mùa mưa]({{ '/thue-xe-may-dien-mua-mua' | relative_url }}).
+Điểm hẹn hợp khách công tác hoặc khách đang di chuyển: hẹn tại một góc phố dễ tìm như gần vòng xoay hoặc đầu phố lớn. Ưu điểm là không mất giờ đến cửa hàng, và có thể nhận lúc đang đi giữa các điểm tham quan. Nhược điểm là không có bàn giao đầy đủ: mũ, pin hoặc xăng phải kiểm nhanh tại chỗ theo checklist trong bài [checklist nhận xe máy điện]({{ '/blog/checklist-nhan-xe-may-dien/' | relative_url }}) hoặc bản dành cho nhóm xăng trong bài [checklist nhận xe 50cc]({{ '/blog/checklist-nhan-xe-50cc/' | relative_url }}). Trời mưa gần thì cân phần giao xe đường ướt trong bài [thuê xe máy điện mùa mưa]({{ '/blog/thue-xe-may-dien-mua-mua/' | relative_url }}).
 
 ## Nhận tại cửa hàng quanh khu
 
@@ -25,11 +25,11 @@ Cửa hàng cho bàn giao đầy đủ nhất: chạy thử tại chỗ, đổi 
 
 ## Cân theo loại xe bạn cần
 
-Xe đặc biệt như Cub hoặc dòng ga lớn hiếm hơn, nhiều khi không có sẵn để giao lẻ: nhận tại cửa hàng cho bạn chọn đúng chiếc, xem so sánh dòng xe trong bài [Cub 50cc và xe ga 50cc]({{ '/cub-50cc-va-xe-ga-50cc' | relative_url }}). Xe phổ thông như 50cc hoặc xe điện mini giao tận nơi dễ, tham khảo nhóm không cần bằng trong bài [xe 50cc có cần bằng lái không]({{ '/xe-50cc-co-can-bang-lai-khong' | relative_url }}). Với xe điện, giao tại khách sạn còn giúp bàn giao phần sạc chỗ ở ngay, các câu hỏi cần có trong bài [sạc xe máy điện khi thuê]({{ '/sac-xe-may-dien-khi-thue' | relative_url }}). Hỏi tồn kho trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để biết cách nào khả thi.
+Xe đặc biệt như Cub hoặc dòng ga lớn hiếm hơn, nhiều khi không có sẵn để giao lẻ: nhận tại cửa hàng cho bạn chọn đúng chiếc, xem so sánh dòng xe trong bài [Cub 50cc và xe ga 50cc]({{ '/blog/cub-50cc-va-xe-ga-50cc/' | relative_url }}). Xe phổ thông như 50cc hoặc xe điện mini giao tận nơi dễ, tham khảo nhóm không cần bằng trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Với xe điện, giao tại khách sạn còn giúp bàn giao phần sạc chỗ ở ngay, các câu hỏi cần có trong bài [sạc xe máy điện khi thuê]({{ '/blog/sac-xe-may-dien-khi-thue/' | relative_url }}). Hỏi tồn kho trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để biết cách nào khả thi.
 
 ## Cân theo lịch trình trong khu
 
-Lịch quanh khu với chặng ngắn tới các bảo tàng hoặc công viên: nhận tại khách sạn là trọn nhất, tham khảo kiểu thuê theo ngày trong bài [thuê xe máy điện theo ngày Hà Nội]({{ '/thue-xe-may-dien-theo-ngay-ha-noi' | relative_url }}). Lịch có liên tỉnh ngay buổi đầu: nhận tại cửa hàng để thử máy đường trường kỹ, xem cách chọn xe cho chặng xa trong bài [thuê xe máy đi đường dài từ Hà Nội]({{ '/thue-xe-may-di-duong-dai-tu-ha-noi' | relative_url }}). Lịch lắt nhắt giờ cao điểm: nhận gần chỗ ở giúp tránh vòng qua cửa hàng lúc đường trung tâm đông.
+Lịch quanh khu với chặng ngắn tới các bảo tàng hoặc công viên: nhận tại khách sạn là trọn nhất, tham khảo kiểu thuê theo ngày trong bài [thuê xe máy điện theo ngày Hà Nội]({{ '/blog/thue-xe-may-dien-theo-ngay-ha-noi/' | relative_url }}). Lịch có liên tỉnh ngay buổi đầu: nhận tại cửa hàng để thử máy đường trường kỹ, xem cách chọn xe cho chặng xa trong bài [thuê xe máy đi đường dài từ Hà Nội]({{ '/blog/thue-xe-may-di-duong-dai-tu-ha-noi/' | relative_url }}). Lịch lắt nhắt giờ cao điểm: nhận gần chỗ ở giúp tránh vòng qua cửa hàng lúc đường trung tâm đông.
 
 Ba Đình nhiều đoạn phố một chiều và vỉa hè chật, nên nếu bạn định đỗ xe qua đêm ở khách sạn, hãy hỏi trước cả về cổng mở khuya. Với nhóm khách đi cùng, nhận cùng lúc tại một điểm giúp kiểm xe song song và đỡ chờ nhau. Cuối kỳ thuê, cách trả xe thường là quay lại đúng chỗ nhận, nên chọn điểm gần lộ trình cuối ngày để trả gọn trước giờ về.
 

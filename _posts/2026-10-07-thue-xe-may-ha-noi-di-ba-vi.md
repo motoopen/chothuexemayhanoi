@@ -13,31 +13,31 @@ Ba Vì gần Hà Nội nhưng đường lên khu vực quốc gia chủ yếu l�
 
 ## Chọn xe chịu được dốc
 
-Cung lên Ba Vì có đoạn dốc dài và cua gắt, nên ưu tiên xe ga động cơ khỏe hoặc xe số để chủ động số khi xuống dốc, dùng phanh động cơ thay vì đè phanh liên tục. So sánh hai dòng cho người mới đi núi đã có trong bài [xe ga và xe số khi thuê]({{ '/xe-ga-va-xe-so-khi-thue' | relative_url }}). Nếu chở hai người, chọn xe phanh đĩa trước, phần cân nhắc khi chở người thứ hai nằm trong bài [thuê xe máy Hà Nội cho 2 người]({{ '/thue-xe-may-ha-noi-cho-2-nguoi' | relative_url }}).
+Cung lên Ba Vì có đoạn dốc dài và cua gắt, nên ưu tiên xe ga động cơ khỏe hoặc xe số để chủ động số khi xuống dốc, dùng phanh động cơ thay vì đè phanh liên tục. So sánh hai dòng cho người mới đi núi đã có trong bài [xe ga và xe số khi thuê]({{ '/blog/xe-ga-va-xe-so-khi-thue/' | relative_url }}). Nếu chở hai người, chọn xe phanh đĩa trước, phần cân nhắc khi chở người thứ hai nằm trong bài [thuê xe máy Hà Nội cho 2 người]({{ '/blog/thue-xe-may-ha-noi-cho-2-nguoi/' | relative_url }}).
 
 ## Kiểm tra phanh và lốp kỹ hơn đi phố
 
-Xuống dốc dài là tình huống nguy hiểm nhất với xe thuê mòn phanh, nên trước khi nhận xe, rà phanh trước sau, thử phanh ở tốc độ thấp, và bóp lốp xem còn đủ độ căng không. Trình tự kiểm tra đầy đủ trong bài [checklist 10 phút trước khi nhận xe]({{ '/checklist-10-phut-truoc-khi-nhan-xe' | relative_url }}). Mưa hôm trước thì đường còn ẩm trơn, xem thêm phần lái trong bài [thuê xe máy Hà Nội mùa mưa]({{ '/thue-xe-may-ha-noi-mua-mua' | relative_url }}) trước khi lên dốc.
+Xuống dốc dài là tình huống nguy hiểm nhất với xe thuê mòn phanh, nên trước khi nhận xe, rà phanh trước sau, thử phanh ở tốc độ thấp, và bóp lốp xem còn đủ độ căng không. Trình tự kiểm tra đầy đủ trong bài [checklist 10 phút trước khi nhận xe]({{ '/blog/checklist-10-phut-truoc-khi-nhan-xe/' | relative_url }}). Mưa hôm trước thì đường còn ẩm trơn, xem thêm phần lái trong bài [thuê xe máy Hà Nội mùa mưa]({{ '/blog/thue-xe-may-ha-noi-mua-mua/' | relative_url }}) trước khi lên dốc.
 
 ## Theo dõi thời tiết trước chuyến đi
 
-Sương mù trên Ba Vì xuất hiện sớm, che tầm nhìn chỉ sau vài giờ sáng, nên kiểm tra dự báo từ tối hôm trước và đặt giờ xuất phát theo cửa sổ trời quang. Mùa lạnh cần giữ ấm, phần chuẩn bị đã nêu trong bài [thuê xe máy Hà Nội mùa lạnh]({{ '/thue-xe-may-ha-noi-mua-lanh' | relative_url }}). Nếu dự báo mưa cả ngày, dời chuyến vì dốc ướt không đáng đánh đổi bằng một buổi chụp ảnh.
+Sương mù trên Ba Vì xuất hiện sớm, che tầm nhìn chỉ sau vài giờ sáng, nên kiểm tra dự báo từ tối hôm trước và đặt giờ xuất phát theo cửa sổ trời quang. Mùa lạnh cần giữ ấm, phần chuẩn bị đã nêu trong bài [thuê xe máy Hà Nội mùa lạnh]({{ '/blog/thue-xe-may-ha-noi-mua-lanh/' | relative_url }}). Nếu dự báo mưa cả ngày, dời chuyến vì dốc ướt không đáng đánh đổi bằng một buổi chụp ảnh.
 
 ## Hành lý gọn cho cung núi
 
-Mang đúng người: mũ bảo hiểm đạt chuẩn, áo gió, nước, và đồ ăn nhẹ, vì đoạn giữa dốc ít quán. Cốp xe ga vừa áo mưa và một chai nước, phần chọn cốp theo nhu cầu nằm trong bài [chọn cốp xe máy thuê]({{ '/chon-cop-xe-may-thue' | relative_url }}). Với ai định ngủ lại homestay, so gói thuê trong bài [thuê xe máy Hà Nội 3 ngày]({{ '/thue-xe-may-ha-noi-3-ngay' | relative_url }}) để khỏi tính ngày lẻ.
+Mang đúng người: mũ bảo hiểm đạt chuẩn, áo gió, nước, và đồ ăn nhẹ, vì đoạn giữa dốc ít quán. Cốp xe ga vừa áo mưa và một chai nước, phần chọn cốp theo nhu cầu nằm trong bài [chọn cốp xe máy thuê]({{ '/blog/chon-cop-xe-may-thue/' | relative_url }}). Với ai định ngủ lại homestay, so gói thuê trong bài [thuê xe máy Hà Nội 3 ngày]({{ '/blog/thue-xe-may-ha-noi-3-ngay/' | relative_url }}) để khỏi tính ngày lẻ.
 
 ## Giấy tờ cho đường đi tỉnh
 
-Đường lên Ba Vì có chốt quanh khu vực hồ, nên mang đăng ký xe, chứng nhận bảo hiểm, giấy phép lái, và căn cước, danh sách chi tiết trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/thue-xe-may-ha-noi-can-giay-to-gi' | relative_url }}). Nếu bạn định đi tiếp các cung xa hơn hôm sau, tham khảo trình tự chuẩn bị trong bài [thuê xe máy đi đường dài từ Hà Nội]({{ '/thue-xe-may-di-duong-dai-tu-ha-noi' | relative_url }}).
+Đường lên Ba Vì có chốt quanh khu vực hồ, nên mang đăng ký xe, chứng nhận bảo hiểm, giấy phép lái, và căn cước, danh sách chi tiết trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/blog/thue-xe-may-ha-noi-can-giay-to-gi/' | relative_url }}). Nếu bạn định đi tiếp các cung xa hơn hôm sau, tham khảo trình tự chuẩn bị trong bài [thuê xe máy đi đường dài từ Hà Nội]({{ '/blog/thue-xe-may-di-duong-dai-tu-ha-noi/' | relative_url }}).
 
 ## Sự cố giữa dốc
 
-Xe yếu máy giữa dốc thì kéo sang lề, nghỉ cho máy nguội, và gọi nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để hỏi tiếp tục hay chờ hỗ trợ, trình tự xử lý nằm trong bài [xe thuê bị hỏng giữa đường]({{ '/xe-thue-bi-hong-giua-duong' | relative_url }}). Không cố trôi số xuống dốc bằng phanh đè liên tục, vì đó là cách làm cháy má phanh nhanh nhất. Nếu có va chạm, ưu tiên an toàn rồi mới lo thủ tục theo bài [xe thuê bị tai nạn phải làm gì]({{ '/xe-thue-bi-tai-nan-phai-lam-gi' | relative_url }}).
+Xe yếu máy giữa dốc thì kéo sang lề, nghỉ cho máy nguội, và gọi nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để hỏi tiếp tục hay chờ hỗ trợ, trình tự xử lý nằm trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}). Không cố trôi số xuống dốc bằng phanh đè liên tục, vì đó là cách làm cháy má phanh nhanh nhất. Nếu có va chạm, ưu tiên an toàn rồi mới lo thủ tục theo bài [xe thuê bị tai nạn phải làm gì]({{ '/blog/xe-thue-bi-tai-nan-phai-lam-gi/' | relative_url }}).
 
-Cuối cùng, ghi lại khung giờ nhận và trả xe ngay trong điện thoại kèm địa chỉ điểm nhận, vì trên dốc sóng điện thoại yếu, và mọi thay đổi giờ trả cần báo sớm qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}). Trả đúng giờ giữ cho hợp đồng khép gọn và tránh các khoản phụ phí không đáng có, khung tính phụ phí đã trình bày trong bài [phí trả xe muộn thuê xe máy]({{ '/phi-tra-xe-muon-thue-xe-may' | relative_url }}).
+Cuối cùng, ghi lại khung giờ nhận và trả xe ngay trong điện thoại kèm địa chỉ điểm nhận, vì trên dốc sóng điện thoại yếu, và mọi thay đổi giờ trả cần báo sớm qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}). Trả đúng giờ giữ cho hợp đồng khép gọn và tránh các khoản phụ phí không đáng có, khung tính phụ phí đã trình bày trong bài [phí trả xe muộn thuê xe máy]({{ '/blog/phi-tra-xe-muon-thue-xe-may/' | relative_url }}).
 
-Với ai định đi cả nhóm trên ba xe, đặt trước cả nhóm trong một lần để được kiểm tra đồng loạt theo trình tự trong bài [checklist 10 phút trước khi nhận xe]({{ '/checklist-10-phut-truoc-khi-nhan-xe' | relative_url }}), vừa nhanh hơn vừa tránh lỗi sót chiếc xe yếu máy giữa đoàn, phần chọn nơi thuê đáng tin đã nêu trong bài [thuê xe máy Hà Nội uy tín]({{ '/thue-xe-may-ha-noi-uy-tin' | relative_url }}).
+Với ai định đi cả nhóm trên ba xe, đặt trước cả nhóm trong một lần để được kiểm tra đồng loạt theo trình tự trong bài [checklist 10 phút trước khi nhận xe]({{ '/blog/checklist-10-phut-truoc-khi-nhan-xe/' | relative_url }}), vừa nhanh hơn vừa tránh lỗi sót chiếc xe yếu máy giữa đoàn, phần chọn nơi thuê đáng tin đã nêu trong bài [thuê xe máy Hà Nội uy tín]({{ '/blog/thue-xe-may-ha-noi-uy-tin/' | relative_url }}).
 
 ## Kết luận
 

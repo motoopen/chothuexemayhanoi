@@ -13,27 +13,27 @@ Chở trẻ nhỏ trên xe máy là chuyện phổ biến ở Hà Nội, nhưng 
 
 ## Cân nhắc độ tuổi và vóc dáng trẻ
 
-Trẻ đủ cao ngồi vững sau yên với chân kê được là điều kiện tối thiểu, và trẻ quá nhỏ thì nên chọn phương án khác. Trên xe thuê, ưu tiên trẻ ngồi giữa hai người lớn khi có thể, phần cân chở hai người đã trình bày trong bài [thuê xe máy Hà Nội cho 2 người]({{ '/thue-xe-may-ha-noi-cho-2-nguoi' | relative_url }}). Nếu trẻ thường ngủ trên yên, chọn xe ga có tay vịn sau để trẻ tựa, phần chọn yên đã có trong bài [chọn chiều cao yên xe thuê]({{ '/chon-chieu-cao-yen-xe-thue' | relative_url }}).
+Trẻ đủ cao ngồi vững sau yên với chân kê được là điều kiện tối thiểu, và trẻ quá nhỏ thì nên chọn phương án khác. Trên xe thuê, ưu tiên trẻ ngồi giữa hai người lớn khi có thể, phần cân chở hai người đã trình bày trong bài [thuê xe máy Hà Nội cho 2 người]({{ '/blog/thue-xe-may-ha-noi-cho-2-nguoi/' | relative_url }}). Nếu trẻ thường ngủ trên yên, chọn xe ga có tay vịn sau để trẻ tựa, phần chọn yên đã có trong bài [chọn chiều cao yên xe thuê]({{ '/blog/chon-chieu-cao-yen-xe-thue/' | relative_url }}).
 
 ## Mũ bảo hiểm đạt chuẩn cho trẻ
 
-Mũ bảo hiểm trẻ em phải đạt chuẩn và quai cài chặt, vì thiếu mũ đạt chuẩn là lỗi bị xử phạt theo quy định hiện hành, phần trách nhiệm khi đi xe thuê đã nêu trong bài [thuê xe máy bị phạt giao thông]({{ '/thue-xe-may-bi-phat-giao-thong' | relative_url }}). Hỏi nơi thuê có mũ trẻ em kèm không qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), nhưng mũ riêng của trẻ vẫn an toàn hơn mũ dùng chung.
+Mũ bảo hiểm trẻ em phải đạt chuẩn và quai cài chặt, vì thiếu mũ đạt chuẩn là lỗi bị xử phạt theo quy định hiện hành, phần trách nhiệm khi đi xe thuê đã nêu trong bài [thuê xe máy bị phạt giao thông]({{ '/blog/thue-xe-may-bi-phat-giao-thong/' | relative_url }}). Hỏi nơi thuê có mũ trẻ em kèm không qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), nhưng mũ riêng của trẻ vẫn an toàn hơn mũ dùng chung.
 
 ## Chọn hành trình ngắn và đường vắng
 
-Với trẻ sau yên, hành trình nên ngắn dưới mười lăm ki lômét và tránh trục lớn giờ cao điểm, cách chọn khung giờ đã nêu trong bài [thuê xe máy Hà Nội cao điểm]({{ '/thue-xe-may-ha-noi-mua-cao-diem' | relative_url }}). Ưu tiên tuyến có làn chậm và ít container, phần kinh nghiệm đường trường với trẻ không nằm trong phạm vi an toàn của bài, nhưng nếu bắt buộc đi xa, chuẩn bị theo trình tự trong bài [thuê xe máy đi đường dài từ Hà Nội]({{ '/thue-xe-may-di-duong-dai-tu-ha-noi' | relative_url }}).
+Với trẻ sau yên, hành trình nên ngắn dưới mười lăm ki lômét và tránh trục lớn giờ cao điểm, cách chọn khung giờ đã nêu trong bài [thuê xe máy Hà Nội cao điểm]({{ '/blog/thue-xe-may-ha-noi-mua-cao-diem/' | relative_url }}). Ưu tiên tuyến có làn chậm và ít container, phần kinh nghiệm đường trường với trẻ không nằm trong phạm vi an toàn của bài, nhưng nếu bắt buộc đi xa, chuẩn bị theo trình tự trong bài [thuê xe máy đi đường dài từ Hà Nội]({{ '/blog/thue-xe-may-di-duong-dai-tu-ha-noi/' | relative_url }}).
 
 ## Kiểm tra xe kỹ hơn bình thường
 
-Rà phanh, lốp và đèn theo checklist trong bài [checklist 10 phút trước khi nhận xe]({{ '/checklist-10-phut-truoc-khi-nhan-xe' | relative_url }}), và yêu cầu xe có yên sau có tựa lưng nếu nơi thuê có. Chụp bốn góc xe như thói quen trong bài [chụp ảnh xe trước khi thuê]({{ '/chup-anh-xe-truoc-khi-thue' | relative_url }}). Nếu thời tiết xấu, hoãn chuyến, vì chở trẻ trong mưa cần kỹ năng riêng, phần lái mưa đã nêu trong bài [thuê xe máy Hà Nội mùa mưa]({{ '/thue-xe-may-ha-noi-mua-mua' | relative_url }}).
+Rà phanh, lốp và đèn theo checklist trong bài [checklist 10 phút trước khi nhận xe]({{ '/blog/checklist-10-phut-truoc-khi-nhan-xe/' | relative_url }}), và yêu cầu xe có yên sau có tựa lưng nếu nơi thuê có. Chụp bốn góc xe như thói quen trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}). Nếu thời tiết xấu, hoãn chuyến, vì chở trẻ trong mưa cần kỹ năng riêng, phần lái mưa đã nêu trong bài [thuê xe máy Hà Nội mùa mưa]({{ '/blog/thue-xe-may-ha-noi-mua-mua/' | relative_url }}).
 
 ## Gói thuê và giấy tờ
 
-Hành trình với trẻ hay kéo dài hơn dự kiến, nên đặt giờ trả có dư, và nếu thấy trễ, gọi trước, khung phụ phí trễ nằm trong bài [phí trả xe muộn thuê xe máy]({{ '/phi-tra-xe-muon-thue-xe-may' | relative_url }}). Mang đủ giấy phép lái, căn cận, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/thue-xe-may-ha-noi-can-giay-to-gi' | relative_url }}). Sự cố gọi ngay nơi thuê theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/xe-thue-bi-hong-giua-duong' | relative_url }}).
+Hành trình với trẻ hay kéo dài hơn dự kiến, nên đặt giờ trả có dư, và nếu thấy trễ, gọi trước, khung phụ phí trễ nằm trong bài [phí trả xe muộn thuê xe máy]({{ '/blog/phi-tra-xe-muon-thue-xe-may/' | relative_url }}). Mang đủ giấy phép lái, căn cận, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/blog/thue-xe-may-ha-noi-can-giay-to-gi/' | relative_url }}). Sự cố gọi ngay nơi thuê theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}).
 
-Với gia đình có hai trẻ, cân nhắc thuê hai xe với hai người lớn thay vì ba người một xe, vì chở quá số người quy định là lỗi bị xử phạt theo Nghị định hiện hành, phần trách nhiệm khi đi xe thuê đã nêu trong bài [thuê xe máy bị phạt giao thông]({{ '/thue-xe-may-bi-phat-giao-thong' | relative_url }}).
+Với gia đình có hai trẻ, cân nhắc thuê hai xe với hai người lớn thay vì ba người một xe, vì chở quá số người quy định là lỗi bị xử phạt theo Nghị định hiện hành, phần trách nhiệm khi đi xe thuê đã nêu trong bài [thuê xe máy bị phạt giao thông]({{ '/blog/thue-xe-may-bi-phat-giao-thong/' | relative_url }}).
 
-Một điểm hay quên: hỏi nơi thuê về chính sách mũ bảo hiểm trẻ em và số lượng mũ kèm xe, vì nhiều nơi chỉ kèm một mũ lớn, phần chuẩn bị đồ đi kèm đã trình bày trong bài [thuê xe máy Hà Nội cần những gì]({{ '/thue-xe-may-ha-noi-can-nhung-gi' | relative_url }}).
+Một điểm hay quên: hỏi nơi thuê về chính sách mũ bảo hiểm trẻ em và số lượng mũ kèm xe, vì nhiều nơi chỉ kèm một mũ lớn, phần chuẩn bị đồ đi kèm đã trình bày trong bài [thuê xe máy Hà Nội cần những gì]({{ '/blog/thue-xe-may-ha-noi-can-nhung-gi/' | relative_url }}).
 
 ## Kết luận
 

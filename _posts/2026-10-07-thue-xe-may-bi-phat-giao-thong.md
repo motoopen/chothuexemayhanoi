@@ -17,15 +17,15 @@ Nếu bị cảnh sát giao thông dừng và lập lệnh xử phạt, thứ nh
 
 ## Phạt lỗi xe hay lỗi người
 
-Lệnh phạt chia hai loại: lỗi người điều khiển như vượt đèn, không mũ, đi sai làn, và lỗi xe như không đèn, không gương, hết đăng ký. Lỗi người thì bạn tự nộp như mô tả trong lệnh; lỗi xe có thể quy về bên cho thuê nếu xe không đạt tiêu chuẩn lưu thông, nên gọi ngay cho nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để họ hướng dẫn ai nộp. Đây cũng là lúc các mục ghi trong bài [hợp đồng thuê xe máy cần có gì]({{ '/hop-dong-thue-xe-may-can-co-gi' | relative_url }}) phát huy tác dụng, vì hợp đồng ghi rõ trách nhiệm phạt của mỗi bên.
+Lệnh phạt chia hai loại: lỗi người điều khiển như vượt đèn, không mũ, đi sai làn, và lỗi xe như không đèn, không gương, hết đăng ký. Lỗi người thì bạn tự nộp như mô tả trong lệnh; lỗi xe có thể quy về bên cho thuê nếu xe không đạt tiêu chuẩn lưu thông, nên gọi ngay cho nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để họ hướng dẫn ai nộp. Đây cũng là lúc các mục ghi trong bài [hợp đồng thuê xe máy cần có gì]({{ '/blog/hop-dong-thue-xe-may-can-co-gi/' | relative_url }}) phát huy tác dụng, vì hợp đồng ghi rõ trách nhiệm phạt của mỗi bên.
 
 ## Lưu thông tin cần thiết
 
-Chụp ngay bản lệnh phạt, ghi lại thời gian, địa điểm và họ tên người ra lệnh, và nếu có, xin số quyết định để tra cứu sau. Nếu phạt lỗi xe, chụp thêm phần lỗi trên xe liên quan, ví dụ đèn hỏng hay biển không rõ, để đối chiếu với tình trạng xe trong ảnh bạn chụp lúc nhận, xem cách lưu ảnh trong bài [chụp ảnh xe trước khi thuê]({{ '/chup-anh-xe-truoc-khi-thue' | relative_url }}).
+Chụp ngay bản lệnh phạt, ghi lại thời gian, địa điểm và họ tên người ra lệnh, và nếu có, xin số quyết định để tra cứu sau. Nếu phạt lỗi xe, chụp thêm phần lỗi trên xe liên quan, ví dụ đèn hỏng hay biển không rõ, để đối chiếu với tình trạng xe trong ảnh bạn chụp lúc nhận, xem cách lưu ảnh trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}).
 
 ## Thông báo cho nơi cho thuê
 
-Gọi cho nơi thuê ngay trong ngày, kể cả khi lỗi hoàn toàn của bạn, vì một số khoản như trừ điểm hay phạt nhắc lại liên quan đến đăng ký xe của họ. Hỏi rõ ai nộp tiền và nộp ở đâu, và nếu bạn nộp, giữ hóa đơn nộp phạt để đối chiếu lúc hoàn cọc, xem phần cọc trong bài [tiền cọc thuê xe máy Hà Nội]({{ '/tien-coc-thue-xe-may-ha-noi' | relative_url }}). Tránh giấu lệnh phạt, vì khi nơi thuê nhận thông báo trừ điểm muộn, khoản phạt có thể chuyển thành tranh chấp lớn hơn nhiều.
+Gọi cho nơi thuê ngay trong ngày, kể cả khi lỗi hoàn toàn của bạn, vì một số khoản như trừ điểm hay phạt nhắc lại liên quan đến đăng ký xe của họ. Hỏi rõ ai nộp tiền và nộp ở đâu, và nếu bạn nộp, giữ hóa đơn nộp phạt để đối chiếu lúc hoàn cọc, xem phần cọc trong bài [tiền cọc thuê xe máy Hà Nội]({{ '/blog/tien-coc-thue-xe-may-ha-noi/' | relative_url }}). Tránh giấu lệnh phạt, vì khi nơi thuê nhận thông báo trừ điểm muộn, khoản phạt có thể chuyển thành tranh chấp lớn hơn nhiều.
 
 ## Nộp đúng thời hạn
 

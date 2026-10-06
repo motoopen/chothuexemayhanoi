@@ -13,7 +13,7 @@ Giấy tờ xe thuê gồm đăng ký và bảo hiểm đi kèm xe, và để qu
 
 ## Phân biệt giấy tờ xe và giấy tờ người
 
-Trước hết, tách hai nhóm giấy tờ: giấy tờ người thuê như căn cước hay hộ chiếu là của bạn, còn đăng ký xe và giấy bảo hiểm là của bên cho thuê và thường được để trong cốp hoặc túi đựng kèm xe. Mất nhóm thứ nhất thì bạn đọc phần giấy tờ tùy thân trong bài [thuê xe máy dùng căn cước hay hộ chiếu]({{ '/thue-xe-may-dung-can-cuoc-hay-ho-chieu' | relative_url }}); bài này tập trung nhóm giấy tờ xe.
+Trước hết, tách hai nhóm giấy tờ: giấy tờ người thuê như căn cước hay hộ chiếu là của bạn, còn đăng ký xe và giấy bảo hiểm là của bên cho thuê và thường được để trong cốp hoặc túi đựng kèm xe. Mất nhóm thứ nhất thì bạn đọc phần giấy tờ tùy thân trong bài [thuê xe máy dùng căn cước hay hộ chiếu]({{ '/blog/thue-xe-may-dung-can-cuoc-hay-ho-chieu/' | relative_url }}); bài này tập trung nhóm giấy tờ xe.
 
 ## Lục lại theo lộ trình
 
@@ -21,7 +21,7 @@ Như mọi thứ để quên, lục theo lộ trình ngược: quán cà phê v�
 
 ## Báo ngay cho nơi cho thuê
 
-Không tìm lại được thì gọi ngay nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}): họ cần biết sớm để khai báo với cơ quan chức năng và chuẩn bị bản photo đăng ký thay thế nếu có. Hỏi rõ phần trách nhiệm trong hợp đồng khi mất giấy tờ xe, vì khoản bồi thường loại này nên được ghi từ đầu, xem các mục nên có trong bài [hợp đồng thuê xe máy cần có gì]({{ '/hop-dong-thue-xe-may-can-co-gi' | relative_url }}). Nếu chỉ để quên ở khách sạn nhà, nhiều khi chỉ cần quay lại lấy trong ngày.
+Không tìm lại được thì gọi ngay nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}): họ cần biết sớm để khai báo với cơ quan chức năng và chuẩn bị bản photo đăng ký thay thế nếu có. Hỏi rõ phần trách nhiệm trong hợp đồng khi mất giấy tờ xe, vì khoản bồi thường loại này nên được ghi từ đầu, xem các mục nên có trong bài [hợp đồng thuê xe máy cần có gì]({{ '/blog/hop-dong-thue-xe-may-can-co-gi/' | relative_url }}). Nếu chỉ để quên ở khách sạn nhà, nhiều khi chỉ cần quay lại lấy trong ngày.
 
 ## Báo với cơ quan chức năng khi nghi bị lấy
 
@@ -29,7 +29,7 @@ Nếu giấy tờ bị lấy cùng ví hoặc ba lô, khai báo ngay với công
 
 ## Lưu thông tin hồ sơ
 
-Gom toàn bộ hồ sơ sự việc: biên bản khai báo, tin nhắn với nơi thuê kèm thời gian, hóa đơn các khoản phát sinh, và nếu có, ảnh vị trí đỗ xe lúc phát hiện. Khi trả xe, đối chiếu mọi khoản với hợp đồng và đề nghị biên nhận rõ ràng, phần cọc đối chiếu theo bài [tiền cọc thuê xe máy Hà Nội]({{ '/tien-coc-thue-xe-may-ha-noi' | relative_url }}). Hồ sơ đầy đủ giúp mọi khoản tất toán không phải nhắc lại.
+Gom toàn bộ hồ sơ sự việc: biên bản khai báo, tin nhắn với nơi thuê kèm thời gian, hóa đơn các khoản phát sinh, và nếu có, ảnh vị trí đỗ xe lúc phát hiện. Khi trả xe, đối chiếu mọi khoản với hợp đồng và đề nghị biên nhận rõ ràng, phần cọc đối chiếu theo bài [tiền cọc thuê xe máy Hà Nội]({{ '/blog/tien-coc-thue-xe-may-ha-noi/' | relative_url }}). Hồ sơ đầy đủ giúp mọi khoản tất toán không phải nhắc lại.
 
 ## Phòng tránh ngay từ đầu
 

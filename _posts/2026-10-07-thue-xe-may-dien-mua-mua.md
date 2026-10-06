@@ -13,7 +13,7 @@ Mùa mưa ở Hà Nội kéo dài nhiều tháng, và xe máy điện thuê vẫ
 
 ## Phanh và lốp
 
-Điểm một là phanh: bóp thử cả trước và sau trên đoạn khô, phanh phải ăn ngay và không kêu rít. Điểm hai là lốp: gai lốp còn sâu, không mòn mép, và bóp lốp thấy căng. Đường ướt làm phanh điện và phanh tái tạo kém bám hơn, và lốp mòn trên đường ướt là nguyên nhân ngã phổ biến nhất. Danh sách kiểm tra chi tiết hơn nằm trong bài [kiểm tra phanh lốp xe 50cc]({{ '/kiem-tra-phanh-lop-xe-50cc' | relative_url }}), áp dụng cho mọi xe nhẹ thuê.
+Điểm một là phanh: bóp thử cả trước và sau trên đoạn khô, phanh phải ăn ngay và không kêu rít. Điểm hai là lốp: gai lốp còn sâu, không mòn mép, và bóp lốp thấy căng. Đường ướt làm phanh điện và phanh tái tạo kém bám hơn, và lốp mòn trên đường ướt là nguyên nhân ngã phổ biến nhất. Danh sách kiểm tra chi tiết hơn nằm trong bài [kiểm tra phanh lốp xe 50cc]({{ '/blog/kiem-tra-phanh-lop-xe-50cc/' | relative_url }}), áp dụng cho mọi xe nhẹ thuê.
 
 ## Đèn và tín hiệu
 
@@ -21,11 +21,11 @@ Mùa mưa ở Hà Nội kéo dài nhiều tháng, và xe máy điện thuê vẫ
 
 ## Che chắn cho pin và bộ phận điện
 
-Điểm bốn là chỗ pin: hỏi nơi thuê pin nằm ở đâu, dưới sàn hay dưới yên, và xin tấm che sàn nếu xe có. Hỏi luôn xe này từng đi mưa nhiều chưa và có lỗi ẩm nào không. Kẹp nối sạc phải khô ráo, không gỉ. Khi nhận xe, xem chỗ cắm thử theo hướng dẫn trong bài [sạc xe máy điện khi thuê]({{ '/sac-xe-may-dien-khi-thue' | relative_url }}) để chắc mạch điện khỏe trước mùa mưa.
+Điểm bốn là chỗ pin: hỏi nơi thuê pin nằm ở đâu, dưới sàn hay dưới yên, và xin tấm che sàn nếu xe có. Hỏi luôn xe này từng đi mưa nhiều chưa và có lỗi ẩm nào không. Kẹp nối sạc phải khô ráo, không gỉ. Khi nhận xe, xem chỗ cắm thử theo hướng dẫn trong bài [sạc xe máy điện khi thuê]({{ '/blog/sac-xe-may-dien-khi-thue/' | relative_url }}) để chắc mạch điện khỏe trước mùa mưa.
 
 ## Mũ bảo hiểm và đồ che
 
-Điểm năm là mũ bảo hiểm có kính chắn hoặc mũ che tốt, và điểm sáu là áo mưa đi xe loại tấm rộng, không loại bó vì cản tay lái. Kiểm tra mũ không sứt lớp hoặc tuôt dây. Yêu cầu nơi thuê mũ kính sạch, và mang theo khăn lau vì kính mù nhanh trong mưa nhỏ. Ai chở thêm người thì hai mũ đều phải đạt, xem thêm bài [xe máy điện chở 2 người]({{ '/xe-may-dien-cho-2-nguoi-khi-thue' | relative_url }}).
+Điểm năm là mũ bảo hiểm có kính chắn hoặc mũ che tốt, và điểm sáu là áo mưa đi xe loại tấm rộng, không loại bó vì cản tay lái. Kiểm tra mũ không sứt lớp hoặc tuôt dây. Yêu cầu nơi thuê mũ kính sạch, và mang theo khăn lau vì kính mù nhanh trong mưa nhỏ. Ai chở thêm người thì hai mũ đều phải đạt, xem thêm bài [xe máy điện chở 2 người]({{ '/blog/xe-may-dien-cho-2-nguoi-khi-thue/' | relative_url }}).
 
 ## Thao tác lái khi đường ướt
 
@@ -33,7 +33,7 @@ Mùa mưa ở Hà Nội kéo dài nhiều tháng, và xe máy điện thuê vẫ
 
 ## Khi nào hoãn hoặc đổi xe
 
-Điểm tám là quyết định đổi: nếu xe có dấu hiệu ẩm như màn hình chập chờn, ga giật hoặc còi lỗi, trả lại ngay và xin xe khác, đừng đi tiếp. Nếu cả ngày mưa lớn liên tục và lịch không gấp, hoãn chuyến hoặc đổi sang xe ga vì ít phần điện hở. Kiểm tra khi bàn giao theo danh sách trong bài [checklist nhận xe 50cc]({{ '/checklist-nhan-xe-50cc' | relative_url }}) cho nhóm bước nhận xe nói chung. Báo lỗi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để nơi thuê ghi nhận.
+Điểm tám là quyết định đổi: nếu xe có dấu hiệu ẩm như màn hình chập chờn, ga giật hoặc còi lỗi, trả lại ngay và xin xe khác, đừng đi tiếp. Nếu cả ngày mưa lớn liên tục và lịch không gấp, hoãn chuyến hoặc đổi sang xe ga vì ít phần điện hở. Kiểm tra khi bàn giao theo danh sách trong bài [checklist nhận xe 50cc]({{ '/blog/checklist-nhan-xe-50cc/' | relative_url }}) cho nhóm bước nhận xe nói chung. Báo lỗi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để nơi thuê ghi nhận.
 
 ## Kết luận
 

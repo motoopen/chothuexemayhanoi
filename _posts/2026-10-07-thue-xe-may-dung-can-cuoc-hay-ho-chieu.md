@@ -17,7 +17,7 @@ Với khách Việt Nam, thẻ căn cước công dân là giấy tờ chuẩn n
 
 ## Khách nước ngoài dùng hộ chiếu
 
-Khách nước ngoài nên dùng hộ chiếu gốc kèm thị thực hoặc tờ khai nhập cảnh còn hiệu lực, vì bên cho thuê cần thông tin đầy đủ để xác minh. Hộ chiếu không có cũng nên photo sẵn trang thông tin để trình nhanh, nhưng bản gốc vẫn cần khi ký hợp đồng. Danh sách giấy tờ cho khách nước ngoài nằm trong bài [thuê xe máy Hà Nội cho người nước ngoài]({{ '/thue-xe-may-ha-noi-cho-nguoi-nuoc-ngoai' | relative_url }}), và phần thủ tục chung nằm trong bài [thủ tục thuê xe máy]({{ '/thutuc' | relative_url }}).
+Khách nước ngoài nên dùng hộ chiếu gốc kèm thị thực hoặc tờ khai nhập cảnh còn hiệu lực, vì bên cho thuê cần thông tin đầy đủ để xác minh. Hộ chiếu không có cũng nên photo sẵn trang thông tin để trình nhanh, nhưng bản gốc vẫn cần khi ký hợp đồng. Danh sách giấy tờ cho khách nước ngoài nằm trong bài [thuê xe máy Hà Nội cho người nước ngoài]({{ '/blog/thue-xe-may-ha-noi-cho-nguoi-nuoc-ngoai/' | relative_url }}), và phần thủ tục chung nằm trong bài [thủ tục thuê xe máy]({{ '/thutuc' | relative_url }}).
 
 ## Xác minh thông tin hai chiều
 
@@ -26,11 +26,11 @@ Xác minh là việc hai chiều: bên cho thuê xác minh bạn qua giấy tờ
 ## Giấy tờ nào bị giữ, giấy tờ nào không
 
 Thông lệ chung: bên cho thuê giữ bản photo hoặc bản xác minh số, còn bản gốc trả lại bạn ngay sau khi ghi thông tin. Nếu nơi thuê yêu cầu giữ bản gốc, hỏi rõ thời g
-ian trả lại và ghi vào hợp đồng. Bạn cũng nên hỏi luôn về phần đặt cọc, vì một số nơi lấy cọc thay cho giữ giấy tờ, tham khảo bài [tiền cọc thuê xe máy Hà Nội]({{ '/tien-coc-thue-xe-may-ha-noi' | relative_url }}) để biết mức thường gặp.
+ian trả lại và ghi vào hợp đồng. Bạn cũng nên hỏi luôn về phần đặt cọc, vì một số nơi lấy cọc thay cho giữ giấy tờ, tham khảo bài [tiền cọc thuê xe máy Hà Nội]({{ '/blog/tien-coc-thue-xe-may-ha-noi/' | relative_url }}) để biết mức thường gặp.
 
 ## Bằng lái là chuyện riêng của giấy tờ tùy thân
 
-Nhiều người nhầm giấy tờ thuê và giấy phép lái xe là một, nhưng đây là hai việc khác nhau: giấy tờ tùy thân để xác minh người thuê, còn bằng lái để bạn được phép điều khiển xe trên đường. Nhóm xe 50cc có quy định riêng, xem chi tiết trong bài [xe 50cc có cần bằng lái không]({{ '/xe-50cc-co-can-bang-lai-khong' | relative_url }}), và nhóm xe điện không cần bằng nằm trong bài [thuê xe điện không cần bằng lái]({{ '/thue-xe-dien-khong-can-bang-lai' | relative_url }}). Không có bằng lái phù hợp thì dù đã thuê được xe, bạn vẫn không nên điều khiển xe.
+Nhiều người nhầm giấy tờ thuê và giấy phép lái xe là một, nhưng đây là hai việc khác nhau: giấy tờ tùy thân để xác minh người thuê, còn bằng lái để bạn được phép điều khiển xe trên đường. Nhóm xe 50cc có quy định riêng, xem chi tiết trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}), và nhóm xe điện không cần bằng nằm trong bài [thuê xe điện không cần bằng lái]({{ '/blog/thue-xe-dien-khong-can-bang-lai/' | relative_url }}). Không có bằng lái phù hợp thì dù đã thuê được xe, bạn vẫn không nên điều khiển xe.
 
 ## Kiểm tra lại trước khi ký
 

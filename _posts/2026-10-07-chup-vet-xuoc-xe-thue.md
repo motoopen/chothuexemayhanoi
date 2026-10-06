@@ -13,15 +13,15 @@ Bộ ảnh sáu góc là bằng chứng mạnh nhất khi tranh chấp vết xư
 
 ## Góc một và hai: hai bên hông
 
-Đứng cách xe hai bước, chụp cả chiều xe từ mỗi bên, đủ từ đầu tới đuôi. Đây là hai ảnh khung tổng, dùng định vị mọi vết về sau, thói quen chung đã trình bày trong bài [chụp ảnh xe trước khi thuê]({{ '/chup-anh-xe-truoc-khi-thue' | relative_url }}).
+Đứng cách xe hai bước, chụp cả chiều xe từ mỗi bên, đủ từ đầu tới đuôi. Đây là hai ảnh khung tổng, dùng định vị mọi vết về sau, thói quen chung đã trình bày trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}).
 
 ## Góc ba: mốp trước và đầu xe
 
-Mốp trước là vùng hay xước nhất vì mỗi lần đổ là một lần cấn, chụp thẳng và chụp nghiêng cho nổi vết. Kèm cả tay ga và gương, vì hai chi tiết này dễ lệch khi đổ. Nếu xe thuê có sẵn vết, chụp cận riêng từng vết, cách đối chiếu vết cũ mới đã trình bày trong bài [chụp ảnh xe trước khi thuê]({{ '/chup-anh-xe-truoc-khi-thue' | relative_url }}).
+Mốp trước là vùng hay xước nhất vì mỗi lần đổ là một lần cấn, chụp thẳng và chụp nghiêng cho nổi vết. Kèm cả tay ga và gương, vì hai chi tiết này dễ lệch khi đổ. Nếu xe thuê có sẵn vết, chụp cận riêng từng vết, cách đối chiếu vết cũ mới đã trình bày trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}).
 
 ## Góc bốn: phần đuôi và cốp
 
-Mở cốp chụp trong lẫn nắp cốp xung quanh, vì va cốp lúc đóng cũng tạo vết. Chụp cả khóa cổ, phần liên quan khi làm mất chìa đã nêu trong bài [mất chìa khóa xe thuê]({{ '/mat-chia-khoa-xe-thue' | relative_url }}).
+Mở cốp chụp trong lẫn nắp cốp xung quanh, vì va cốp lúc đóng cũng tạo vết. Chụp cả khóa cổ, phần liên quan khi làm mất chìa đã nêu trong bài [mất chìa khóa xe thuê]({{ '/blog/mat-chia-khoa-xe-thue/' | relative_url }}).
 
 ## Góc năm: bánh và che hai bên
 
@@ -31,13 +31,13 @@ Với mỗi góc, giữ điện thoại ngang tầm chi tiết đang chụp và 
 
 ## Góc sáu: đồng hồ và giấy tờ kèm xe
 
-Chụp đồng hồ công tơ mét, kim nhiên liệu, và toàn bộ giấy tờ kèm xe, phần danh mục giấy tờ nằm trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/thue-xe-may-ha-noi-can-giay-to-gi' | relative_url }}). Nếu giấy tờ có vết cũ, ghi rõ luôn trong tin nhắn với nơi thuê, cách xử lý khi thiếu giấy tờ đã có trong bài [mất giấy tờ xe thuê]({{ '/mat-giay-to-xe-thue' | relative_url }}).
+Chụp đồng hồ công tơ mét, kim nhiên liệu, và toàn bộ giấy tờ kèm xe, phần danh mục giấy tờ nằm trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/blog/thue-xe-may-ha-noi-can-giay-to-gi/' | relative_url }}). Nếu giấy tờ có vết cũ, ghi rõ luôn trong tin nhắn với nơi thuê, cách xử lý khi thiếu giấy tờ đã có trong bài [mất giấy tờ xe thuê]({{ '/blog/mat-giay-to-xe-thue/' | relative_url }}).
 
 ## Lúc trả: chụp lại đúng sáu góc
 
-Trước khi giao xe, chụp lại đủ sáu góc và so với bộ gốc ngay trên điện thoại: vết có trong ảnh gốc là vết cũ, cách đối chiếu đã trình bày trong bài [chụp ảnh xe trước khi thuê]({{ '/chup-anh-xe-truoc-khi-thue' | relative_url }}). Có vết mới thật thì chụp cận và lập biên bản tại chỗ, phần thỏa thuận bồi thường đã phân trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/chi-phi-hu-hong-khi-thue-xe-may' | relative_url }}), và đừng rời điểm trả khi chưa có ghi nhận, khung đối chiếu cọc nằm trong bài [tiền cọc thuê xe máy Hà Nội]({{ '/tien-coc-thue-xe-may-ha-noi' | relative_url }}).
+Trước khi giao xe, chụp lại đủ sáu góc và so với bộ gốc ngay trên điện thoại: vết có trong ảnh gốc là vết cũ, cách đối chiếu đã trình bày trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}). Có vết mới thật thì chụp cận và lập biên bản tại chỗ, phần thỏa thuận bồi thường đã phân trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/blog/chi-phi-hu-hong-khi-thue-xe-may/' | relative_url }}), và đừng rời điểm trả khi chưa có ghi nhận, khung đối chiếu cọc nằm trong bài [tiền cọc thuê xe máy Hà Nội]({{ '/blog/tien-coc-thue-xe-may-ha-noi/' | relative_url }}).
 
-Trường hợp trời chập choạng khi nhận xe, bật đèn pha để chụp các góc, vì ảnh thiếu sáng không hiện được vết xước khi cần đối chiếu, phần kinh nghiệm chụp theo khung giờ đã nêu trong bài [thuê xe máy Hà Nội ban đêm]({{ '/thue-xe-may-ha-noi-ban-dem' | relative_url }}), và nên gửi bộ ảnh cho nơi thuê qua tin nhắn để cả hai bên cùng có bản gốc. Khi thuê dài ngày, chụp lại bộ sáu góc vào giữa kỳ, vì vết xuất hiện trong khoảng này dễ gắn với đúng ngày thay vì để dồn đến cuối chuyến. Xe nhận tại điểm thì chụp ngay tại điểm trước khi di chuyển, còn xe giao tận nơi thì chụp trước khi người giao rời đi, phần thủ tục nhận xe đã trình bày trong bài [thuê xe máy Hà Nội giao tận nơi]({{ '/thue-xe-may-ha-noi-giao-tan-noi' | relative_url }}).
+Trường hợp trời chập choạng khi nhận xe, bật đèn pha để chụp các góc, vì ảnh thiếu sáng không hiện được vết xước khi cần đối chiếu, phần kinh nghiệm chụp theo khung giờ đã nêu trong bài [thuê xe máy Hà Nội ban đêm]({{ '/blog/thue-xe-may-ha-noi-ban-dem/' | relative_url }}), và nên gửi bộ ảnh cho nơi thuê qua tin nhắn để cả hai bên cùng có bản gốc. Khi thuê dài ngày, chụp lại bộ sáu góc vào giữa kỳ, vì vết xuất hiện trong khoảng này dễ gắn với đúng ngày thay vì để dồn đến cuối chuyến. Xe nhận tại điểm thì chụp ngay tại điểm trước khi di chuyển, còn xe giao tận nơi thì chụp trước khi người giao rời đi, phần thủ tục nhận xe đã trình bày trong bài [thuê xe máy Hà Nội giao tận nơi]({{ '/blog/thue-xe-may-ha-noi-giao-tan-noi/' | relative_url }}).
 
 ## Kết luận
 
