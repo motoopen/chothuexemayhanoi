@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "App thuê xe máy điện hay thuê trực tiếp: khác nhau ở quy trình nào?"
+date: 2026-10-07 00:58:46 +0700
+description: "So sánh thuê xe máy điện qua app và thuê trực tiếp tại cửa hàng ở Hà Nội, khác biệt về quy trình nhận xe, thanh toán và hỗ trợ khi có sự cố."
+author: "Motoopen"
 matrix_id: 134
-description: So sánh thuê xe máy điện qua app và thuê trực tiếp tại cửa hàng ở Hà Nội, khác biệt về quy trình nhận xe, thanh toán và hỗ trợ khi có sự cố.
+primary_keyword: "app thuê xe máy điện"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Ngày càng nhiều dịch vụ cho thuê xe ở Hà Nội có app đặt xe, và khách thường băn khoăn: đặt qua app hay đến thuê trực tiếp tốt hơn? Hai cách này khác nhau ở quy trình nhận xe, thanh toán và cách xử lý sự cố, và mỗi cách phù hợp một kiểu lịch trình. Bài này so sánh trực tiếp để bạn chọn theo tình huống của mình.
 
 ## Quy trình đặt xe và nhận xe

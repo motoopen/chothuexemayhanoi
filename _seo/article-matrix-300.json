@@ -36,8 +36,8 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 256,
-    "published": 44
+    "planned": 250,
+    "published": 50
   },
   "items": [
     {
@@ -5441,7 +5441,7 @@
         "verify-current-vietnam-law"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -5453,7 +5453,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T00:58:46+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-dien-khong-can-bang-lai.md",
+      "published_url": "/blog/thue-xe-dien-khong-can-bang-lai/"
     },
     {
       "id": 108,
@@ -5491,7 +5494,7 @@
         "verify-current-vietnam-law"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -5503,7 +5506,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T00:58:46+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-dien-khong-can-bang-lai.md",
+      "published_url": "/blog/thue-xe-may-dien-khong-can-bang-lai/"
     },
     {
       "id": 109,
@@ -5541,7 +5547,7 @@
         "verify-current-vietnam-law"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -5553,7 +5559,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T00:58:46+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-dien-co-can-bang-lai-khong.md",
+      "published_url": "/blog/thue-xe-may-dien-co-can-bang-lai-khong/"
     },
     {
       "id": 110,
@@ -6278,7 +6287,7 @@
         "verify-current-manufacturer-policy"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -6290,7 +6299,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T00:58:46+07:00",
+      "published_path": "_posts/2026-10-07-thue-pin-xe-may-dien-vinfast.md",
+      "published_url": "/blog/thue-pin-xe-may-dien-vinfast/"
     },
     {
       "id": 125,
@@ -6770,7 +6782,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -6782,7 +6794,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T00:58:46+07:00",
+      "published_path": "_posts/2026-10-07-app-thue-xe-may-dien.md",
+      "published_url": "/blog/app-thue-xe-may-dien/"
     },
     {
       "id": 135,
@@ -8657,7 +8672,7 @@
         "verify-current-delivery-area"
       ],
       "cannibalization_guard": "Mỗi location chỉ có tối đa 2 góc: hướng dẫn khu vực và logistics nhận/trả; phải có nội dung địa phương hữu ích.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "khu-vuc",
         "parent_label": "Khu vực",
@@ -8669,7 +8684,10 @@
       "front_matter": {
         "hub_parent": "khu-vuc",
         "hub_category": "ha-noi-theo-khu-vuc"
-      }
+      },
+      "published_at": "2026-10-07T00:58:46+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-pho-co-ha-noi.md",
+      "published_url": "/blog/thue-xe-may-pho-co-ha-noi/"
     },
     {
       "id": 174,
@@ -14978,5 +14996,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T00:57:34+07:00"
+  "updated_at": "2026-10-07T00:58:46+07:00"
 }
