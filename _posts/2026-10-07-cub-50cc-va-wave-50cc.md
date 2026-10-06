@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Cub 50cc và Wave 50cc: khác nhau ở trải nghiệm sử dụng nào?"
+date: 2026-10-07 01:17:49 +0700
+description: "Cub 50cc và Wave 50cc khác nhau ở trải nghiệm sử dụng nào, từ kiểu dáng, yên, cốp đến thao tác số và độ phù hợp với từng kiểu lịch."
+author: "Motoopen"
 matrix_id: 77
-description: Cub 50cc và Wave 50cc khác nhau ở trải nghiệm sử dụng nào, từ kiểu dáng, yên, cốp đến thao tác số và độ phù hợp với từng kiểu lịch.
+primary_keyword: "cub 50cc và wave 50cc"
+hub_parent: loai-xe
+hub_category: xe-50cc
 ---
-
 Cub và Wave là hai dòng xe số 50cc quen thuộc của người Việt, cùng nhẹ, bền và quen tay với nhiều khách lớn tuổi. Nhưng trải nghiệm sử dụng của hai dòng khác nhau ở vài điểm đáng kể. Bài này so từng khía cạnh để bạn chọn dòng khớp với thói quen đi xe của mình.
 
 ## Kiểu dáng và tư thế ngồi

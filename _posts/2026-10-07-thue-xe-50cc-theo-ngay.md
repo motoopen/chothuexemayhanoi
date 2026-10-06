@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe 50cc theo ngày: checklist cho chuyến đi ngắn"
+date: 2026-10-07 01:17:49 +0700
+description: "Thuê xe 50cc theo ngày cần checklist gì cho chuyến ngắn, từ khung nhận trả, xăng, cọc đến các khoản phụ phí dễ quên trong một ngày."
+author: "Motoopen"
 matrix_id: 74
-description: Thuê xe 50cc theo ngày cần checklist gì cho chuyến ngắn, từ khung nhận trả, xăng, cọc đến các khoản phụ phí dễ quên trong một ngày.
+primary_keyword: "thuê xe 50cc theo ngày"
+hub_parent: loai-xe
+hub_category: xe-50cc
 ---
-
 Chuyến ngắn một hoặc hai ngày là dạng thuê phổ biến nhất với dòng 50cc, cũng là dạng dễ chủ quan nhất vì tưởng gọn. Bài này gom checklist cho chuyến ngắn, giúp bạn nhận xe nhanh và trả xe không phát sinh.
 
 ## Chốt khung nhận trả trước

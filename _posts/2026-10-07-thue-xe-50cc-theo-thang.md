@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe 50cc theo tháng: điều cần hỏi về bảo dưỡng và đổi xe"
+date: 2026-10-07 01:17:49 +0700
+description: "Thuê xe 50cc theo tháng nên hỏi gì về bảo dưỡng giữa kỳ và đổi xe, kèm các điều khoản về tạm ngưng, cọc và phạm vi cho gói dài."
+author: "Motoopen"
 matrix_id: 75
-description: Thuê xe 50cc theo tháng nên hỏi gì về bảo dưỡng giữa kỳ và đổi xe, kèm các điều khoản về tạm ngưng, cọc và phạm vi cho gói dài.
+primary_keyword: "thuê xe 50cc theo tháng"
+hub_parent: loai-xe
+hub_category: xe-50cc
 ---
-
 Gói tháng với dòng 50cc là lựa chọn của khách đi lại hằng ngày, nhưng thuê dài khác thuê ngày ở một điểm: xe phải bền giữa kỳ và điều khoản phải rõ từ đầu. Bài này liệt kê các câu nên hỏi trước khi chốt gói tháng.
 
 ## Hỏi về bảo dưỡng giữa kỳ

@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Xe ga 50cc và Cub 50cc: chọn theo thao tác, cốp và hành trình"
+date: 2026-10-07 01:17:49 +0700
+description: "Chọn giữa xe ga 50cc và Cub 50cc dựa trên thao tác, cốp xe và hành trình, kèm ba câu hỏi tự vấn giúp chốt dòng đúng trong vài phút."
+author: "Motoopen"
 matrix_id: 78
-description: Chọn giữa xe ga 50cc và Cub 50cc dựa trên thao tác, cốp xe và hành trình, kèm ba câu hỏi tự vấn giúp chốt dòng đúng trong vài phút.
+primary_keyword: "xe ga 50cc và cub 50cc"
+hub_parent: loai-xe
+hub_category: xe-50cc
 ---
-
 Xe ga 50cc và Cub 50cc đều nhỏ nhẹ đi phố tốt, nhưng chọn sai dòng khiến cả kỳ thuê thiếu thoải mái ở đúng chỗ mình cần. Bài này gom ba tiêu chí quyết định, thao tác, cốp xe và hành trình, để bạn chốt trong vài phút.
 
 ## Tiêu chí một: thao tác bạn quen thuộc
