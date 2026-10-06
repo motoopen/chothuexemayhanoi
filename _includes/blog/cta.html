@@ -1,0 +1,19 @@
+{% assign cfg = site.data.site %}
+{% if cfg.features.post_cta %}
+  {% if page.hub_parent == 'huong-dan' or page.hub_parent == 'kinh-nghiem' %}
+    {% assign cta = cfg.cta.guide %}
+  {% else %}
+    {% assign cta = cfg.cta.rental %}
+  {% endif %}
+<section class="blog-component blog-cta" aria-label="Thông tin tiếp theo">
+  <div>
+    <p class="blog-component-kicker">Motoopen</p>
+    <h2>{{ cta.title }}</h2>
+    <p>{{ cta.text }}</p>
+  </div>
+  <div class="blog-component-actions">
+    <a class="mapp-btn" href="tel:{{ cfg.contact.phone_raw }}"><i class="fa-solid fa-phone"></i> {{ cta.primary_label }}</a>
+    <a class="mapp-btn ghost" href="{{ cta.secondary_url | relative_url }}">{{ cta.secondary_label }}</a>
+  </div>
+</section>
+{% endif %}
