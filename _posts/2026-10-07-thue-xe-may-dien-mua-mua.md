@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy điện mùa mưa: 8 điểm cần kiểm tra trước khi đi"
+date: 2026-10-07 01:25:59 +0700
+description: "Tám điểm cần kiểm tra khi thuê xe máy điện mùa mưa ở Hà Nội, từ phanh, lốp, đèn, mũ bảo hiểm đến cách che pin và thao tác lái an toàn."
+author: "Motoopen"
 matrix_id: 131
-description: Tám điểm cần kiểm tra khi thuê xe máy điện mùa mưa ở Hà Nội, từ phanh, lốp, đèn, mũ bảo hiểm đến cách che pin và thao tác lái an toàn.
+primary_keyword: "thuê xe máy điện mùa mưa"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Mùa mưa ở Hà Nội kéo dài nhiều tháng, và xe máy điện thuê vẫn đi được nếu bạn kiểm tra đúng trước khi lăn bánh. Bài này liệt kê tám điểm nên rà trước và trong chuyến đi mưa.
 
 ## Phanh và lốp

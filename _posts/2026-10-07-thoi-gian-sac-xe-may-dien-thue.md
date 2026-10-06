@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Xe máy điện thuê sạc bao lâu? Vì sao phải kiểm tra theo đúng model và pin"
+date: 2026-10-07 01:25:59 +0700
+description: "Xe máy điện cho thuê sạc bao lâu và vì sao phải kiểm tra theo đúng model và pin, kèm cách hỏi nơi thuê về loại sạc và thời gian đầy thực tế."
+author: "Motoopen"
 matrix_id: 122
-description: Xe máy điện cho thuê sạc bao lâu và vì sao phải kiểm tra theo đúng model và pin, kèm cách hỏi nơi thuê về loại sạc và thời gian đầy thực tế.
+primary_keyword: "thời gian sạc xe máy điện thuê"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Thời gian sạc của xe máy điện không có con số chung cho mọi xe: nó phụ thuộc model xe, loại pin và bộ sạc đi kèm. Vì vậy khi thuê, phải hỏi theo đúng chiếc xe được giao. Bài này giải thích vì sao và cách hỏi.
 
 ## Vì sao thời gian sạc khác nhau giữa các xe

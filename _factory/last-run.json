@@ -1,79 +1,109 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-07T01:23:59+07:00",
-  "finished_at": "2026-10-07T01:23:59+07:00",
-  "selected_count": 6,
-  "published_total": 2,
+  "started_at": "2026-10-07T01:25:59+07:00",
+  "finished_at": "2026-10-07T01:25:59+07:00",
+  "selected_count": 10,
+  "published_total": 8,
   "published": [
     {
-      "id": 123,
-      "source": "_factory/incoming/123.md",
-      "post": "_posts/2026-10-07-quang-duong-xe-may-dien-khi-thue.md",
-      "url": "/blog/quang-duong-xe-may-dien-khi-thue/",
+      "id": 121,
+      "source": "_factory/incoming/121.md",
+      "post": "_posts/2026-10-07-sac-xe-may-dien-khi-thue.md",
+      "url": "/blog/sac-xe-may-dien-khi-thue/",
+      "word_count": 683,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
+    },
+    {
+      "id": 122,
+      "source": "_factory/incoming/122.md",
+      "post": "_posts/2026-10-07-thoi-gian-sac-xe-may-dien-thue.md",
+      "url": "/blog/thoi-gian-sac-xe-may-dien-thue/",
+      "word_count": 708,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
+    },
+    {
+      "id": 125,
+      "source": "_factory/incoming/125.md",
+      "post": "_posts/2026-10-07-thue-pin-hay-mua-pin-xe-may-dien-vinfast.md",
+      "url": "/blog/thue-pin-hay-mua-pin-xe-may-dien-vinfast/",
+      "word_count": 726,
+      "warnings": []
+    },
+    {
+      "id": 127,
+      "source": "_factory/incoming/127.md",
+      "post": "_posts/2026-10-07-xe-may-dien-va-xe-50cc-khi-thue.md",
+      "url": "/blog/xe-may-dien-va-xe-50cc-khi-thue/",
+      "word_count": 705,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
+    },
+    {
+      "id": 128,
+      "source": "_factory/incoming/128.md",
+      "post": "_posts/2026-10-07-xe-may-dien-va-xe-ga-khi-thue.md",
+      "url": "/blog/xe-may-dien-va-xe-ga-khi-thue/",
+      "word_count": 678,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
+    },
+    {
+      "id": 130,
+      "source": "_factory/incoming/130.md",
+      "post": "_posts/2026-10-07-thue-xe-may-dien-di-duong-dai.md",
+      "url": "/blog/thue-xe-may-dien-di-duong-dai/",
+      "word_count": 661,
+      "warnings": []
+    },
+    {
+      "id": 131,
+      "source": "_factory/incoming/131.md",
+      "post": "_posts/2026-10-07-thue-xe-may-dien-mua-mua.md",
+      "url": "/blog/thue-xe-may-dien-mua-mua/",
+      "word_count": 687,
+      "warnings": []
+    },
+    {
+      "id": 132,
+      "source": "_factory/incoming/132.md",
+      "post": "_posts/2026-10-07-xe-may-dien-cho-2-nguoi-khi-thue.md",
+      "url": "/blog/xe-may-dien-cho-2-nguoi-khi-thue/",
       "word_count": 672,
       "warnings": [
         "matrix title does not contain exact primary keyword"
       ]
-    },
-    {
-      "id": 126,
-      "source": "_factory/incoming/126.md",
-      "post": "_posts/2026-10-07-xe-may-dien-va-xe-may-xang-khi-thue.md",
-      "url": "/blog/xe-may-dien-va-xe-may-xang-khi-thue/",
-      "word_count": 701,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
     }
   ],
-  "recoverable_total": 4,
+  "recoverable_total": 2,
   "recoverable": [
     {
-      "path": "_factory/incoming/121.md",
-      "id": 121,
+      "path": "_factory/incoming/129.md",
+      "id": 129,
       "errors": [
-        "thin draft: 637 words < 650"
-      ],
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ],
-      "word_count": 637
-    },
-    {
-      "path": "_factory/incoming/122.md",
-      "id": 122,
-      "errors": [
-        "thin draft: 649 words < 650"
-      ],
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ],
-      "word_count": 649
-    },
-    {
-      "path": "_factory/incoming/125.md",
-      "id": 125,
-      "errors": [
-        "legal/manufacturer topic requires a Nguồn section with at least one URL"
+        "thin draft: 648 words < 650"
       ],
       "warnings": [],
-      "word_count": 679
+      "word_count": 648
     },
     {
-      "path": "_factory/incoming/127.md",
-      "id": 127,
+      "path": "_factory/incoming/133.md",
+      "id": 133,
       "errors": [
-        "thin draft: 618 words < 650"
+        "thin draft: 644 words < 650"
       ],
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ],
-      "word_count": 618
+      "warnings": [],
+      "word_count": 644
     }
   ],
   "fatal": null,
   "status_counts": {
-    "planned": 158,
-    "published": 142
+    "planned": 150,
+    "published": 150
   }
 }

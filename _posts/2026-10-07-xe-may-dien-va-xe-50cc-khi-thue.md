@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Xe máy điện hay xe 50cc: lựa chọn nào phù hợp người cần xe nhẹ?"
+date: 2026-10-07 01:25:59 +0700
+description: "So sánh xe máy điện và xe 50cc khi thuê cho người cần chiếc xe nhẹ, gọn, dễ lái ở Hà Nội, theo trọng lượng, độ êm, giấy tờ và chi phí."
+author: "Motoopen"
 matrix_id: 127
-description: So sánh xe máy điện và xe 50cc khi thuê cho người cần chiếc xe nhẹ, gọn, dễ lái ở Hà Nội, theo trọng lượng, độ êm, giấy tờ và chi phí.
+primary_keyword: "xe máy điện và xe 50cc khi thuê"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Nhiều khách tìm một chiếc xe nhẹ khi đến Hà Nội, và hai lựa chọn hay gặp nhất là xe máy điện và xe 50cc. Bài này so sánh hai loại theo đúng tiêu chí người cần xe nhẹ quan tâm, để bạn chọn nhanh.
 
 ## Trọng lượng và cảm giác cầm lái

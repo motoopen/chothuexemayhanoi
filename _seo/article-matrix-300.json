@@ -36,8 +36,8 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 158,
-    "published": 142
+    "planned": 150,
+    "published": 150
   },
   "items": [
     {
@@ -6367,7 +6367,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -6379,7 +6379,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T01:25:59+07:00",
+      "published_path": "_posts/2026-10-07-sac-xe-may-dien-khi-thue.md",
+      "published_url": "/blog/sac-xe-may-dien-khi-thue/"
     },
     {
       "id": 122,
@@ -6416,7 +6419,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -6428,7 +6431,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T01:25:59+07:00",
+      "published_path": "_posts/2026-10-07-thoi-gian-sac-xe-may-dien-thue.md",
+      "published_url": "/blog/thoi-gian-sac-xe-may-dien-thue/"
     },
     {
       "id": 123,
@@ -6571,7 +6577,7 @@
         "verify-current-manufacturer-policy"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -6583,7 +6589,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T01:25:59+07:00",
+      "published_path": "_posts/2026-10-07-thue-pin-hay-mua-pin-xe-may-dien-vinfast.md",
+      "published_url": "/blog/thue-pin-hay-mua-pin-xe-may-dien-vinfast/"
     },
     {
       "id": 126,
@@ -6672,7 +6681,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -6684,7 +6693,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T01:25:59+07:00",
+      "published_path": "_posts/2026-10-07-xe-may-dien-va-xe-50cc-khi-thue.md",
+      "published_url": "/blog/xe-may-dien-va-xe-50cc-khi-thue/"
     },
     {
       "id": 128,
@@ -6721,7 +6733,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -6733,7 +6745,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T01:25:59+07:00",
+      "published_path": "_posts/2026-10-07-xe-may-dien-va-xe-ga-khi-thue.md",
+      "published_url": "/blog/xe-may-dien-va-xe-ga-khi-thue/"
     },
     {
       "id": 129,
@@ -6819,7 +6834,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -6831,7 +6846,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T01:25:59+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-dien-di-duong-dai.md",
+      "published_url": "/blog/thue-xe-may-dien-di-duong-dai/"
     },
     {
       "id": 131,
@@ -6868,7 +6886,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -6880,7 +6898,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T01:25:59+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-dien-mua-mua.md",
+      "published_url": "/blog/thue-xe-may-dien-mua-mua/"
     },
     {
       "id": 132,
@@ -6917,7 +6938,7 @@
         "verify-current-inventory"
       ],
       "cannibalization_guard": "Phân biệt rõ xe máy điện với ô tô điện; truy vấn broad phải giải thích ambiguity.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "loai-xe",
         "parent_label": "Loại xe",
@@ -6929,7 +6950,10 @@
       "front_matter": {
         "hub_parent": "loai-xe",
         "hub_category": "xe-dien"
-      }
+      },
+      "published_at": "2026-10-07T01:25:59+07:00",
+      "published_path": "_posts/2026-10-07-xe-may-dien-cho-2-nguoi-khi-thue.md",
+      "published_url": "/blog/xe-may-dien-cho-2-nguoi-khi-thue/"
     },
     {
       "id": 133,
@@ -15272,5 +15296,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T01:23:59+07:00"
+  "updated_at": "2026-10-07T01:25:59+07:00"
 }

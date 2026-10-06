@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Xe máy điện hay xe ga: so sánh thao tác, sạc và chỗ để đồ"
+date: 2026-10-07 01:25:59 +0700
+description: "So sánh xe máy điện và xe ga khi thuê ở Hà Nội về thao tác lái, việc sạc và đổ xăng, chỗ để đồ, để chọn loại hợp với lịch trình của bạn."
+author: "Motoopen"
 matrix_id: 128
-description: So sánh xe máy điện và xe ga khi thuê ở Hà Nội về thao tác lái, việc sạc và đổ xăng, chỗ để đồ, để chọn loại hợp với lịch trình của bạn.
+primary_keyword: "xe máy điện và xe ga khi thuê"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Xe ga và xe máy điện là hai lựa chọn quen thuộc nhất khi thuê xe ở Hà Nội, và cả hai đều dễ lái. Khác biệt nằm ở thao tác, cách tiếp nhiên liệu và chỗ để đồ, và bài này so sánh từng yếu tố để bạn chọn nhanh.
 
 ## Thao tác lái của hai loại

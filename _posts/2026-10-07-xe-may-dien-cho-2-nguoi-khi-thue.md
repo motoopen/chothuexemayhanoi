@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy điện chở 2 người: cần xem tải và phạm vi pin thế nào?"
+date: 2026-10-07 01:25:59 +0700
+description: "Thuê xe máy điện chở 2 người cần xem tải trọng và phạm vi pin thế nào, kèm cách chọn xe, tính pin tụ và nguyên tắc lái an toàn cho hai người."
+author: "Motoopen"
 matrix_id: 132
-description: Thuê xe máy điện chở 2 người cần xem tải trọng và phạm vi pin thế nào, kèm cách chọn xe, tính pin tụ và nguyên tắc lái an toàn cho hai người.
+primary_keyword: "xe máy điện chở 2 người khi thuê"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Chở thêm một người trên xe máy điện thuê làm thay đổi cả tải trọng lẫn mức pin, và nhiều khách chỉ tính một trong hai. Bài này chỉ cách xem cả hai trước khi nhận xe.
 
 ## Tải trọng của xe máy điện

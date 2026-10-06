@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy điện: cách hỏi về sạc, bộ sạc và nơi sạc trước khi nhận"
+date: 2026-10-07 01:25:59 +0700
+description: "Trước khi nhận xe máy điện nên hỏi gì về sạc, bộ sạc và nơi sạc, từ loại sạc theo model, chỗ cắm qua đêm đến cách cắm thử khi bàn giao."
+author: "Motoopen"
 matrix_id: 121
-description: Trước khi nhận xe máy điện nên hỏi gì về sạc, bộ sạc và nơi sạc, từ loại sạc theo model, chỗ cắm qua đêm đến cách cắm thử khi bàn giao.
+primary_keyword: "sạc xe máy điện khi thuê"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Kế hoạch sạc là phần quyết định trải nghiệm của kỳ thuê xe máy điện, và cả kế hoạch bắt đầu từ vài câu hỏi trước khi nhận xe. Bài này liệt kê trọn các câu nên hỏi về sạc, bộ sạc và nơi sạc.
 
 ## Hỏi về bộ sạc theo đúng model

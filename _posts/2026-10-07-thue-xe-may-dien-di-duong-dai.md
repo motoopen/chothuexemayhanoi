@@ -1,8 +1,14 @@
 ---
+layout: post
+title: "Thuê xe máy điện đi đường dài: cách lập kế hoạch pin và điểm dừng"
+date: 2026-10-07 01:25:59 +0700
+description: "Cách lập kế hoạch pin và điểm dừng khi thuê xe máy điện đi đường dài từ Hà Nội, từ chọn xe pin lớn, tuyến có sạc đến lưu ý an toàn."
+author: "Motoopen"
 matrix_id: 130
-description: Cách lập kế hoạch pin và điểm dừng khi thuê xe máy điện đi đường dài từ Hà Nội, từ chọn xe pin lớn, tuyến có sạc đến lưu ý an toàn.
+primary_keyword: "thuê xe máy điện đi đường dài"
+hub_parent: loai-xe
+hub_category: xe-dien
 ---
-
 Đi đường dài bằng xe máy điện thuê không khó nếu bạn lập kế hoạch pin đúng cách. Bài này cho quy trình ba bước: chọn xe, tính pin, đặt điểm dừng, để lộ trình xa không thành rủi ro.
 
 ## Chọn xe có pin đủ lớn
