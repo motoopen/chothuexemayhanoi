@@ -36,8 +36,8 @@
     "comparisons": 10
   },
   "status_counts": {
-    "planned": 90,
-    "published": 210
+    "planned": 84,
+    "published": 216
   },
   "items": [
     {
@@ -10824,7 +10824,7 @@
         "verify-current-delivery-area"
       ],
       "cannibalization_guard": "Mỗi location chỉ có tối đa 2 góc: hướng dẫn khu vực và logistics nhận/trả; phải có nội dung địa phương hữu ích.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "khu-vuc",
         "parent_label": "Khu vực",
@@ -10836,7 +10836,10 @@
       "front_matter": {
         "hub_parent": "khu-vuc",
         "hub_category": "ha-noi-theo-khu-vuc"
-      }
+      },
+      "published_at": "2026-10-07T01:44:03+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-noi-bai-ha-noi.md",
+      "published_url": "/blog/thue-xe-may-noi-bai-ha-noi/"
     },
     {
       "id": 208,
@@ -10873,7 +10876,7 @@
         "verify-current-service-policy"
       ],
       "cannibalization_guard": "Mỗi location chỉ có tối đa 2 góc: hướng dẫn khu vực và logistics nhận/trả; phải có nội dung địa phương hữu ích.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "khu-vuc",
         "parent_label": "Khu vực",
@@ -10885,7 +10888,10 @@
       "front_matter": {
         "hub_parent": "khu-vuc",
         "hub_category": "ha-noi-theo-khu-vuc"
-      }
+      },
+      "published_at": "2026-10-07T01:44:03+07:00",
+      "published_path": "_posts/2026-10-07-giao-nhan-xe-may-thue-noi-bai-ha-noi.md",
+      "published_url": "/blog/giao-nhan-xe-may-thue-noi-bai-ha-noi/"
     },
     {
       "id": 209,
@@ -10922,7 +10928,7 @@
         "verify-current-delivery-area"
       ],
       "cannibalization_guard": "Mỗi location chỉ có tối đa 2 góc: hướng dẫn khu vực và logistics nhận/trả; phải có nội dung địa phương hữu ích.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "khu-vuc",
         "parent_label": "Khu vực",
@@ -10934,7 +10940,10 @@
       "front_matter": {
         "hub_parent": "khu-vuc",
         "hub_category": "ha-noi-theo-khu-vuc"
-      }
+      },
+      "published_at": "2026-10-07T01:44:03+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-le-duan-ha-noi.md",
+      "published_url": "/blog/thue-xe-may-le-duan-ha-noi/"
     },
     {
       "id": 210,
@@ -10971,7 +10980,7 @@
         "verify-current-service-policy"
       ],
       "cannibalization_guard": "Mỗi location chỉ có tối đa 2 góc: hướng dẫn khu vực và logistics nhận/trả; phải có nội dung địa phương hữu ích.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "khu-vuc",
         "parent_label": "Khu vực",
@@ -10983,7 +10992,10 @@
       "front_matter": {
         "hub_parent": "khu-vuc",
         "hub_category": "ha-noi-theo-khu-vuc"
-      }
+      },
+      "published_at": "2026-10-07T01:44:03+07:00",
+      "published_path": "_posts/2026-10-07-giao-nhan-xe-may-thue-le-duan-ha-noi.md",
+      "published_url": "/blog/giao-nhan-xe-may-thue-le-duan-ha-noi/"
     },
     {
       "id": 211,
@@ -11021,7 +11033,7 @@
         "verify-current-delivery-area"
       ],
       "cannibalization_guard": "Mỗi location chỉ có tối đa 2 góc: hướng dẫn khu vực và logistics nhận/trả; phải có nội dung địa phương hữu ích.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "khu-vuc",
         "parent_label": "Khu vực",
@@ -11033,7 +11045,10 @@
       "front_matter": {
         "hub_parent": "khu-vuc",
         "hub_category": "ha-noi-theo-khu-vuc"
-      }
+      },
+      "published_at": "2026-10-07T01:44:03+07:00",
+      "published_path": "_posts/2026-10-07-thue-xe-may-duong-lang-ha-noi.md",
+      "published_url": "/blog/thue-xe-may-duong-lang-ha-noi/"
     },
     {
       "id": 212,
@@ -11070,7 +11085,7 @@
         "verify-current-service-policy"
       ],
       "cannibalization_guard": "Mỗi location chỉ có tối đa 2 góc: hướng dẫn khu vực và logistics nhận/trả; phải có nội dung địa phương hữu ích.",
-      "status": "planned",
+      "status": "published",
       "taxonomy": {
         "parent_slug": "khu-vuc",
         "parent_label": "Khu vực",
@@ -11082,7 +11097,10 @@
       "front_matter": {
         "hub_parent": "khu-vuc",
         "hub_category": "ha-noi-theo-khu-vuc"
-      }
+      },
+      "published_at": "2026-10-07T01:44:03+07:00",
+      "published_path": "_posts/2026-10-07-giao-nhan-xe-may-thue-duong-lang-ha-noi.md",
+      "published_url": "/blog/giao-nhan-xe-may-thue-duong-lang-ha-noi/"
     },
     {
       "id": 213,
@@ -15476,5 +15494,5 @@
     "huong-dan/an-toan-su-co": 15,
     "kinh-nghiem/so-sanh-lua-chon": 10
   },
-  "updated_at": "2026-10-07T01:42:48+07:00"
+  "updated_at": "2026-10-07T01:44:03+07:00"
 }

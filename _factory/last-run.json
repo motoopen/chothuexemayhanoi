@@ -1,66 +1,66 @@
 {
   "schema_version": 1,
-  "started_at": "2026-10-07T01:42:48+07:00",
-  "finished_at": "2026-10-07T01:42:48+07:00",
+  "started_at": "2026-10-07T01:44:02+07:00",
+  "finished_at": "2026-10-07T01:44:03+07:00",
   "selected_count": 6,
   "published_total": 6,
   "published": [
     {
-      "id": 200,
-      "source": "_factory/incoming/200.md",
-      "post": "_posts/2026-10-07-giao-nhan-xe-may-thue-dong-anh-ha-noi.md",
-      "url": "/blog/giao-nhan-xe-may-thue-dong-anh-ha-noi/",
-      "word_count": 718,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 202,
-      "source": "_factory/incoming/202.md",
-      "post": "_posts/2026-10-07-giao-nhan-xe-may-thue-thanh-xuan-ha-noi.md",
-      "url": "/blog/giao-nhan-xe-may-thue-thanh-xuan-ha-noi/",
-      "word_count": 716,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 203,
-      "source": "_factory/incoming/203.md",
-      "post": "_posts/2026-10-07-thue-xe-may-giap-bat-ha-noi.md",
-      "url": "/blog/thue-xe-may-giap-bat-ha-noi/",
-      "word_count": 660,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 204,
-      "source": "_factory/incoming/204.md",
-      "post": "_posts/2026-10-07-giao-nhan-xe-may-thue-giap-bat-ha-noi.md",
-      "url": "/blog/giao-nhan-xe-may-thue-giap-bat-ha-noi/",
-      "word_count": 720,
-      "warnings": [
-        "matrix title does not contain exact primary keyword"
-      ]
-    },
-    {
-      "id": 205,
-      "source": "_factory/incoming/205.md",
-      "post": "_posts/2026-10-07-thue-xe-may-ga-ha-noi-ha-noi.md",
-      "url": "/blog/thue-xe-may-ga-ha-noi-ha-noi/",
+      "id": 207,
+      "source": "_factory/incoming/207.md",
+      "post": "_posts/2026-10-07-thue-xe-may-noi-bai-ha-noi.md",
+      "url": "/blog/thue-xe-may-noi-bai-ha-noi/",
       "word_count": 651,
       "warnings": [
         "matrix title does not contain exact primary keyword"
       ]
     },
     {
-      "id": 206,
-      "source": "_factory/incoming/206.md",
-      "post": "_posts/2026-10-07-giao-nhan-xe-may-thue-ga-ha-noi-ha-noi.md",
-      "url": "/blog/giao-nhan-xe-may-thue-ga-ha-noi-ha-noi/",
-      "word_count": 719,
+      "id": 208,
+      "source": "_factory/incoming/208.md",
+      "post": "_posts/2026-10-07-giao-nhan-xe-may-thue-noi-bai-ha-noi.md",
+      "url": "/blog/giao-nhan-xe-may-thue-noi-bai-ha-noi/",
+      "word_count": 717,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
+    },
+    {
+      "id": 209,
+      "source": "_factory/incoming/209.md",
+      "post": "_posts/2026-10-07-thue-xe-may-le-duan-ha-noi.md",
+      "url": "/blog/thue-xe-may-le-duan-ha-noi/",
+      "word_count": 654,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
+    },
+    {
+      "id": 210,
+      "source": "_factory/incoming/210.md",
+      "post": "_posts/2026-10-07-giao-nhan-xe-may-thue-le-duan-ha-noi.md",
+      "url": "/blog/giao-nhan-xe-may-thue-le-duan-ha-noi/",
+      "word_count": 707,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
+    },
+    {
+      "id": 211,
+      "source": "_factory/incoming/211.md",
+      "post": "_posts/2026-10-07-thue-xe-may-duong-lang-ha-noi.md",
+      "url": "/blog/thue-xe-may-duong-lang-ha-noi/",
+      "word_count": 670,
+      "warnings": [
+        "matrix title does not contain exact primary keyword"
+      ]
+    },
+    {
+      "id": 212,
+      "source": "_factory/incoming/212.md",
+      "post": "_posts/2026-10-07-giao-nhan-xe-may-thue-duong-lang-ha-noi.md",
+      "url": "/blog/giao-nhan-xe-may-thue-duong-lang-ha-noi/",
+      "word_count": 698,
       "warnings": [
         "matrix title does not contain exact primary keyword"
       ]
@@ -70,7 +70,7 @@
   "recoverable": [],
   "fatal": null,
   "status_counts": {
-    "planned": 90,
-    "published": 210
+    "planned": 84,
+    "published": 216
   }
 }
