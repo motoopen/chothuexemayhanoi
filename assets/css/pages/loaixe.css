@@ -730,3 +730,20 @@
     .breadcrumb-nav a:hover {
       text-decoration: underline;
     }
+
+/* ===== SEO/UX audit 2026-11 (static pages only; homepage CSS untouched) ===== */
+/* Phones: park the TOC button bottom-left above the app bar instead of over body text mid-screen. */
+@media (max-width: 780px) {
+  .toc-fab {
+    top: auto;
+    bottom: calc(86px + env(safe-area-inset-bottom));
+    transform: none;
+    width: 44px;
+    height: 44px;
+    opacity: .94;
+  }
+}
+
+/* Header controls: 44px touch targets; only one dark-mode toggle on wide screens. */
+.hamburger, .toggle-dark { min-width: 44px; min-height: 44px; }
+@media (min-width: 1121px) { #toggle-dark-mobile { display: none !important; } }

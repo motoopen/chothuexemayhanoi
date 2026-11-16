@@ -31,9 +31,7 @@
         :root{--uxp-ease:cubic-bezier(.22,1,.36,1)}
         html.uxp-root body:not([data-ux2-disabled]) :where(a,button,.hmini-tile,.sx-card,.mapp-btn,.hmini-btn,.menu-item,.menu-grid-item){
           transition:transform .22s var(--uxp-ease),box-shadow .22s var(--uxp-ease),background-color .22s var(--uxp-ease),opacity .22s var(--uxp-ease);
-          will-change:transform;
         }
-        html.uxp-root body:not([data-ux2-disabled]) :where(.hmini-tile,.sx-card){transform:translateZ(0)}
         html.uxp-root body:not([data-ux2-disabled]) :where(.hmini-tile:hover,.sx-card:hover){transform:translateY(-2px);box-shadow:0 14px 28px rgba(0,0,0,.12);}
         html.uxp-root body:not([data-ux2-disabled]) :where(a,button,.mapp-btn,.hmini-btn){touch-action:manipulation;}
         html.uxp-root body:not([data-ux2-disabled]) :where(a,button,.mapp-btn,.hmini-btn):active{transform:scale(0.985);}

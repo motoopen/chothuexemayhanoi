@@ -82,7 +82,6 @@
     }
   }
   </script>
-  <script src="/chothuexemayhanoi/assets/js/page-fade.js"></script>
 
   <link rel="stylesheet" href="/chothuexemayhanoi/assets/css/pages/lienhe.css">
 </head>
@@ -90,7 +89,7 @@
 <body>
   {% include header.html %}
 
-  <button class="toc-fab" id="tocFab" title="Mục lục (H2)">≡</button>
+  <button class="toc-fab" id="tocFab" type="button" title="Mục lục (H2)" aria-label="Mở mục lục" aria-controls="tocDrawer">≡</button>
   <nav class="toc-drawer" id="tocDrawer" aria-label="Mục lục (H2)">
     <h4>📚 Mục lục</h4>
     <div id="tocList"></div>
@@ -244,14 +243,14 @@
         <!-- Bản đồ Iframe -->
         <h2 class="mapp-h2" style="margin-top: 28px;">Bản đồ đường đi</h2>
         <div class="map-responsive">
-          <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.9213551525424!2d105.8666331149328!3d21.03984648599451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a9686036b131%3A0x60f95e3a89369325!2sMOTOOPEN!5e0!3m2!1svi!2s!4v1730823050169!5m2!1svi!2s" 
+          <iframe title="Bản đồ đường đi đến Motoopen – {{ site.data.site.contact.address }}" data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.9213551525424!2d105.8666331149328!3d21.03984648599451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a9686036b131%3A0x60f95e3a89369325!2sMOTOOPEN!5e0!3m2!1svi!2s!4v1730823050169!5m2!1svi!2s" src="about:blank"
             width="600" 
             height="450" 
             allowfullscreen="" 
             loading="lazy" 
             referrerpolicy="no-referrer-when-downgrade">
           </iframe>
+          <noscript><iframe title="Bản đồ đường đi đến Motoopen" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.9213551525424!2d105.8666331149328!3d21.03984648599451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a9686036b131%3A0x60f95e3a89369325!2sMOTOOPEN!5e0!3m2!1svi!2s!4v1730823050169!5m2!1svi!2s" width="600" height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></noscript>
         </div>
       </div>
     </section>
@@ -260,7 +259,7 @@
   </main>
 
   <div id="miniApp" style="position:fixed; right: max(16px, env(safe-area-inset-right)); bottom:92px; z-index:var(--z-fab);">
-    <button id="miniAppToggle" class="contact-fab" title="Liên hệ nhanh"><i class="fa-solid fa-phone"></i></button>
+    <button id="miniAppToggle" type="button" class="contact-fab" title="Liên hệ nhanh" aria-label="Mở liên hệ nhanh" aria-controls="miniAppSheet"><i class="fa-solid fa-phone"></i></button>
     <div id="miniAppSheet" style="display:none; position:absolute; right:0; bottom:68px; width:300px; max-width:88vw;
          background:var(--surface); border:1px solid var(--glass-border); border-radius:12px; padding:12px; box-shadow:0 16px 40px rgba(0,0,0,.18);">
       <h4 style="margin:0 0 8px 0;color:var(--accent)">Liên hệ nhanh</h4>
@@ -292,6 +291,17 @@
 
   <script src="/chothuexemayhanoi/assets/js/pages/lienhe-contact-links.js"></script>
   <script src="{{ '/assets/js/pages/lienhe-contact-form.js' | relative_url }}"></script>
+  <script>
+    /* Load the Google Maps embed (~450 KB) only when it nears the viewport. */
+    (function () {
+      var f = document.querySelector('iframe[data-src]');
+      if (!f) return;
+      function load() { if (f.dataset.src) { f.src = f.dataset.src; f.removeAttribute('data-src'); } }
+      if (!('IntersectionObserver' in window)) return load();
+      var io = new IntersectionObserver(function (es) { if (es.some(function (e) { return e.isIntersecting; })) { load(); io.disconnect(); } }, { rootMargin: '300px' });
+      io.observe(f);
+    })();
+  </script>
 
   <script src="/chothuexemayhanoi/assets/js/pages/banggia-fontawesome-fallback.js"></script>
   <script src="/chothuexemayhanoi/assets/js/pwa.js"></script>
