@@ -205,6 +205,13 @@ footer.premium.app-footer .app-contact span {
   padding: 6px 0;
   color: var(--footer-muted);
 }
+/* The link fills its whole row so the full 38/44px height is tappable. */
+footer.premium.app-footer .app-contact li > a,
+footer.premium.app-footer .app-contact li > span {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
 footer.premium.app-footer .app-contact a:hover { color: #fff; }
 /* Link lists: each <li> holds ONE <a>, so the <li> must not reuse the
    2-column contact grid (that squeezed every label into a 22px column and
@@ -421,7 +428,8 @@ footer.premium.app-footer .author a:hover { color: #fff; }
 /* Touch screens of any size get comfortable tap targets. */
 @media (pointer: coarse) {
   footer.premium.app-footer { --footer-tap: 44px; }
-  footer.premium.app-footer .footer-taxonomy-children a { min-height: 44px; }
+  footer.premium.app-footer .footer-taxonomy-children a,
+  footer.premium.app-footer .footer-taxonomy-parent { min-height: 44px; }
 }
 
 /* ===== Tablet landscape (≈ 901–1040px, e.g. iPad 1024) ===== */
@@ -431,6 +439,15 @@ footer.premium.app-footer .author a:hover { color: #fff; }
     gap: 32px;
   }
   footer.premium.app-footer .footer-taxonomy { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+/* 641–1040px: 3 cards per row on a 6-track grid, so an incomplete last row
+   (5 cards → 3 + 2) is shared evenly instead of leaving an empty slot. */
+@media (min-width: 641px) and (max-width: 1040px) {
+  footer.premium.app-footer .footer-taxonomy { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  footer.premium.app-footer .footer-taxonomy-group { grid-column: span 2; }
+  footer.premium.app-footer .footer-taxonomy-group:nth-child(3n+1):nth-last-child(2),
+  footer.premium.app-footer .footer-taxonomy-group:nth-child(3n+2):last-child { grid-column: span 3; }
+  footer.premium.app-footer .footer-taxonomy-group:nth-child(3n+1):last-child { grid-column: 1 / -1; }
 }
 
 /* ===== Tablet portrait (561–900px, e.g. iPad 768/820/834) ===== */
@@ -449,6 +466,9 @@ footer.premium.app-footer .author a:hover { color: #fff; }
     grid-template-areas:
       "lockup contact"
       "desc   contact";
+    /* Extra height from the taller contact column goes to the intro row,
+       keeping the intro 16px under the logo. */
+    grid-template-rows: auto 1fr;
     align-items: start;
     gap: 0 28px;
     padding-bottom: 26px;
@@ -466,8 +486,9 @@ footer.premium.app-footer .author a:hover { color: #fff; }
 
 /* ===== Fixed bottom app bar is visible (≤ 780px) ===== */
 @media (max-width: 780px) {
-  /* 62px bar + 10px offset + breathing room; safe-area is added separately. */
-  footer.premium.app-footer { --footer-appbar-space: 80px; }
+  /* 62px bar + 10px offset + breathing room; safe-area is added separately.
+     The bar is rem-sized, so the reserve grows with the user's text size. */
+  footer.premium.app-footer { --footer-appbar-space: max(80px, 5rem); }
   /* Pages without the bar (blog/category/post layouts) don't need the space.
      Browsers without :has() ignore this rule and simply keep the safe space. */
   body:not(:has(.bottom-appbar)) footer.premium.app-footer { --footer-appbar-space: 0px; }
@@ -477,6 +498,13 @@ footer.premium.app-footer .author a:hover { color: #fff; }
 @media (max-width: 640px) {
   footer.premium.app-footer .footer-taxonomy { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   footer.premium.app-footer .footer-taxonomy-group:last-child:nth-child(odd) { grid-column: 1 / -1; }
+}
+/* 561–640px: half-width panels split in 2 columns are too narrow for
+   "Kinh nghiệm"/"Hướng dẫn"; Services (5 items) becomes one column. */
+@media (min-width: 561px) and (max-width: 640px) {
+  footer.premium.app-footer [aria-labelledby="footer-services-heading"] .quick-links { grid-template-columns: minmax(0, 1fr); }
+  footer.premium.app-footer .quick-links { column-gap: 10px; }
+  footer.premium.app-footer .quick-links li a { padding-right: 0; }
 }
 
 /* ===== Mobile (≤ 560px) ===== */
@@ -520,6 +548,7 @@ footer.premium.app-footer .author a:hover { color: #fff; }
     column-gap: 14px;
   }
   footer.premium.app-footer .footer-taxonomy-children a { min-height: 44px; font-size: .86rem; }
+  footer.premium.app-footer .footer-taxonomy-children a:only-child { grid-column: 1 / -1; }
   footer.premium.app-footer .footer-bottom {
     flex-direction: column;
     align-items: flex-start;
