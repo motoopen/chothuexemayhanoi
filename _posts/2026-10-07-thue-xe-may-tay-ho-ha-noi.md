@@ -21,15 +21,15 @@ Tây Hồ thoáng hơn các quận nội thành, nhưng có hai khung giờ cầ
 
 ## Loại xe hợp tuyến ven hồ
 
-Tuyến ven hồ đẹp nhưng dài, nên dòng xe êm và đủ lực giúp quãng chạy thoải mái, đặc biệt khi có gió hồ mùa lạnh. Xe ga phổ thông là lựa chọn cân bằng tốt cho các chặng quanh hồ và vào trung tâm. Nếu bạn chỉ đi quãng ngắn trong khu, ví dụ từ chỗ ở tới quán quen, dòng xe nhỏ gọn đủ dùng. Khách thuê để chạy quanh hồ nhiều vòng trong ngày cũng nên ưu tiên xe êm để tránh mỏi tay. Danh sách dòng xe hiện có nằm ở trang các loại xe cho thuê, mức giá tại trang [bảng giá]({{ '/banggia.html' | relative_url }}). Với khách thuê dài ngày, tham khảo các khoản ngoài giá thuê trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}).
+Tuyến ven hồ đẹp nhưng dài, nên dòng xe êm và đủ lực giúp quãng chạy thoải mái, đặc biệt khi có gió hồ mùa lạnh. Xe ga phổ thông là lựa chọn cân bằng tốt cho các chặng quanh hồ và vào trung tâm. Nếu bạn chỉ đi quãng ngắn trong khu, ví dụ từ chỗ ở tới quán quen, dòng xe nhỏ gọn đủ dùng. Khách thuê để chạy quanh hồ nhiều vòng trong ngày cũng nên ưu tiên xe êm để tránh mỏi tay. Danh sách dòng xe hiện có nằm ở trang các loại xe cho thuê, mức giá tại trang bảng giá. Với khách thuê dài ngày, tham khảo các khoản ngoài giá thuê trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}).
 
 ## Hỏi về giao xe tận nơi và phạm vi di chuyển
 
-Hai câu đáng hỏi với gói thuê ở Tây Hồ: có giao xe tận chỗ ở trong quận không, phụ phí thế nào, vì nhiều chỗ ở cách xa trục chính; và phạm vi di chuyển có giới hạn không nếu bạn định chạy ra hướng ngoại thành trong ngày. Khách ở khu ven hồ thường hưởng lợi lớn từ gói giao tận nơi. Điều khoản hợp đồng và giấy tờ chuẩn bị được tóm tắt tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Khung kinh nghiệm lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Hai câu đáng hỏi với gói thuê ở Tây Hồ: có giao xe tận chỗ ở trong quận không, phụ phí thế nào, vì nhiều chỗ ở cách xa trục chính; và phạm vi di chuyển có giới hạn không nếu bạn định chạy ra hướng ngoại thành trong ngày. Khách ở khu ven hồ thường hưởng lợi lớn từ gói giao tận nơi. Điều khoản hợp đồng và giấy tờ chuẩn bị được tóm tắt tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Khung kinh nghiệm lần đầu thuê nằm trong bài thuê xe máy Hà Nội lần đầu.
 
 ## Kiểm tra xe và giữ xe quanh khu nhà hàng
 
-Bộ kiểm tra chuẩn khi nhận: ga, phanh, đèn còi, chạy thử vòng ngắn, chụp tình trạng xe. Khi ghé các cụm nhà hàng ven hồ, ưu tiên bãi gửi có phí của quán thay vì để hờ ven đường, vì khu vực cuối tuần đông xe và dễ va chạm. Lưu số hỗ trợ của cửa hàng vào điện thoại. Khách chọn xe điện nên hỏi mức pin khi nhận và điểm sạc gần tuyến định đi, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}).
+Bộ kiểm tra chuẩn khi nhận: ga, phanh, đèn còi, chạy thử vòng ngắn, chụp tình trạng xe. Khi ghé các cụm nhà hàng ven hồ, ưu tiên bãi gửi có phí của quán thay vì để hờ ven đường, vì khu vực cuối tuần đông xe và dễ va chạm. Lưu số hỗ trợ của cửa hàng vào điện thoại. Khách chọn xe điện nên hỏi mức pin khi nhận và điểm sạc gần tuyến định đi, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}).
 
 ## Kết luận
 

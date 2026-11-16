@@ -25,7 +25,7 @@ Cub hợp với khách đi một người, lộ trình ngắn trong nội thành
 
 ## Những điểm cần soi khi nhận xe Cub
 
-Với xe Cub, bốn điểm hao mòn nhất là cần số, dây ga, phanh cơ cấu và hệ thống điện nhỏ. Thử chuyển số vài lần xem có trượt số không, bóp phanh trước và sau, thử đèn và còi, đề máy nghe tiếng nổ. Quan sát lốp vì xe đời cũ thường đi lốp mòn. Chụp lại hình ảnh các vết trầy sẵn có trên thân xe ngay tại cửa hàng, đặc biệt với Cub kiểu dáng cổ có nhiều chi tiết trang trí dễ trầy. Thói quen kiểm tra này áp dụng cho mọi dòng xe, chi tiết hơn đã có trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Với xe Cub, bốn điểm hao mòn nhất là cần số, dây ga, phanh cơ cấu và hệ thống điện nhỏ. Thử chuyển số vài lần xem có trượt số không, bóp phanh trước và sau, thử đèn và còi, đề máy nghe tiếng nổ. Quan sát lốp vì xe đời cũ thường đi lốp mòn. Chụp lại hình ảnh các vết trầy sẵn có trên thân xe ngay tại cửa hàng, đặc biệt với Cub kiểu dáng cổ có nhiều chi tiết trang trí dễ trầy. Thói quen kiểm tra này áp dụng cho mọi dòng xe, chi tiết hơn đã có trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Giá, giấy tờ và điều kiện thuê
 

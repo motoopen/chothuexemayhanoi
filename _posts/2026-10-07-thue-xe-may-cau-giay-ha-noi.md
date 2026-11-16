@@ -25,11 +25,11 @@ Cầu Giấy có cả khu phố mới đường rộng lẫn khu dân cư hẻm 
 
 ## Hỏi về phạm vi di chuyển và giao xe tận nơi
 
-Hai câu đáng hỏi với gói thuê quanh Cầu Giấy: dịch vụ có giao xe tận khách sạn hoặc chỗ ở trong quận được không, phụ phí tính thế nào; và phạm vi di chuyển có bị giới hạn trong nội thành không nếu bạn định đi tỉnh ven. Với khách ở khu đô thị mới, giao xe tận nơi thường tiện hơn hẳn tự đi ra điểm nhận. Với khách định chạy xa trong ngày, làm rõ phạm vi ngay từ đầu để tránh phát sinh khi trả xe. Các điều khoản hợp đồng và giấy tờ cần mang theo được tóm tắt tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Khung kinh nghiệm chung cho khách lần đầu nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Hai câu đáng hỏi với gói thuê quanh Cầu Giấy: dịch vụ có giao xe tận khách sạn hoặc chỗ ở trong quận được không, phụ phí tính thế nào; và phạm vi di chuyển có bị giới hạn trong nội thành không nếu bạn định đi tỉnh ven. Với khách ở khu đô thị mới, giao xe tận nơi thường tiện hơn hẳn tự đi ra điểm nhận. Với khách định chạy xa trong ngày, làm rõ phạm vi ngay từ đầu để tránh phát sinh khi trả xe. Các điều khoản hợp đồng và giấy tờ cần mang theo được tóm tắt tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Khung kinh nghiệm chung cho khách lần đầu nằm trong bài thuê xe máy Hà Nội lần đầu.
 
 ## Kiểm tra xe và gửi xe trong ngày
 
-Khi nhận, làm bộ kiểm tra chuẩn: thử ga và phanh, xem đèn còi, chạy thử vòng ngắn quanh hẻm, chụp lại tình trạng xe và các vết trầy sẵn có. Trong ngày, nếu chỗ ở và nơi làm việc không có chỗ để xe an toàn, chủ động dùng bãi gửi xe có phí quanh khu, vừa an toàn vừa tránh rắc rối. Lưu số hotline hỗ trợ của cửa hàng vào điện thoại trước khi lăn bánh. Với khách thuê xe điện, hỏi thêm mức pin khi nhận và điểm sạc gần khu vực, nhóm câu hỏi chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}).
+Khi nhận, làm bộ kiểm tra chuẩn: thử ga và phanh, xem đèn còi, chạy thử vòng ngắn quanh hẻm, chụp lại tình trạng xe và các vết trầy sẵn có. Trong ngày, nếu chỗ ở và nơi làm việc không có chỗ để xe an toàn, chủ động dùng bãi gửi xe có phí quanh khu, vừa an toàn vừa tránh rắc rối. Lưu số hotline hỗ trợ của cửa hàng vào điện thoại trước khi lăn bánh. Với khách thuê xe điện, hỏi thêm mức pin khi nhận và điểm sạc gần khu vực, nhóm câu hỏi chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}).
 
 ## Kết luận
 

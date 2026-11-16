@@ -25,11 +25,11 @@ Chặng đi trong Đông Anh và lên trung tâm thường dài, nên ưu tiên 
 
 ## Hỏi về phạm vi di chuyển và giao xe tận nơi
 
-Hai điều cần làm rõ ngay khi đặt: phạm vi cho phép có gồm trục lên trung thành và các huyện ven không, vì có gói giới hạn bán kính; và gói giao xe tận nhà phủ tới thôn xã bạn ở không, phụ phí tính thế nào. Làm rõ trước giúp hợp đồng khớp đúng kế hoạch. Với khách công tác ở lại lâu, các khoản ngoài giá thuê được nói rõ trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}). Giấy tờ chuẩn bị khi ký nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Nếu lần đầu thuê ở Hà Nội, đọc bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}) trước khi đến điểm nhận.
+Hai điều cần làm rõ ngay khi đặt: phạm vi cho phép có gồm trục lên trung thành và các huyện ven không, vì có gói giới hạn bán kính; và gói giao xe tận nhà phủ tới thôn xã bạn ở không, phụ phí tính thế nào. Làm rõ trước giúp hợp đồng khớp đúng kế hoạch. Với khách công tác ở lại lâu, các khoản ngoài giá thuê được nói rõ trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}). Giấy tờ chuẩn bị khi ký nằm ở trang thủ tục thuê xe. Nếu lần đầu thuê ở Hà Nội, đọc bài thuê xe máy Hà Nội lần đầu trước khi đến điểm nhận.
 
 ## Kiểm tra xe và giữ xe an toàn
 
-Trước khi nhận, chạy thử vòng ngắn, kiểm tra ga, phanh, đèn còi và chụp lại hiện trạng xe. Ở vùng thôn xóm, nên hỏi chủ nhà hoặc người quen chỗ để xe qua đêm trong sân có khóa, tránh để ngoài lề đường dài ngày. Lưu số hỗ trợ của cửa hàng khi xe có sự cố giữa chặng, vì trạm sửa ở vùng ven thưa hơn nội thành. Khách chọn xe điện cần hỏi pin và điểm sạc gần tuyến định chạy, chi tiết tại bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}).
+Trước khi nhận, chạy thử vòng ngắn, kiểm tra ga, phanh, đèn còi và chụp lại hiện trạng xe. Ở vùng thôn xóm, nên hỏi chủ nhà hoặc người quen chỗ để xe qua đêm trong sân có khóa, tránh để ngoài lề đường dài ngày. Lưu số hỗ trợ của cửa hàng khi xe có sự cố giữa chặng, vì trạm sửa ở vùng ven thưa hơn nội thành. Khách chọn xe điện cần hỏi pin và điểm sạc gần tuyến định chạy, chi tiết tại bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}).
 
 ## Kết luận
 

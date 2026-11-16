@@ -17,7 +17,7 @@ Bước đầu luôn là quy đổi: lấy mức gói tuần tại trang [bảng
 
 ## Các khoản ngoài giá gói
 
-Tổng chi phí một tuần gồm nhiều phần ngoài giá thuê: tiền xăng cho bảy ngày di chuyển, phí gửi xe có phí quanh khu ở và nơi làm việc nếu không có chỗ an toàn, phí giao xe tận nơi nếu dùng, và các phụ phí phát sinh như trễ trả hoặc vượt phạm vi. Ước từng khoản theo lịch trình thật thay vì lấy mức chung chung. Kinh nghiệm chi tiết các khoản ngoài giá thuê nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}).
+Tổng chi phí một tuần gồm nhiều phần ngoài giá thuê: tiền xăng cho bảy ngày di chuyển, phí gửi xe có phí quanh khu ở và nơi làm việc nếu không có chỗ an toàn, phí giao xe tận nơi nếu dùng, và các phụ phí phát sinh như trễ trả hoặc vượt phạm vi. Ước từng khoản theo lịch trình thật thay vì lấy mức chung chung. Kinh nghiệm chi tiết các khoản ngoài giá thuê nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}).
 
 ## Cọc và điều khoản hư hỏng cho gói tuần
 
@@ -25,7 +25,7 @@ Với gói tuần, khoản cọc và điều khoản trách nhiệm quan trọng
 
 ## Chọn dòng xe cho bảy ngày liên tục
 
-Một tuần dùng hằng ngày đòi hỏi dòng xe bền và ít hỏng vặt, vì thời gian xe nằm sửa là thời gian bạn vẫn mất tiền gói. Xe ga phổ thông hợp lịch đi lại nội thành dày, dòng số nhỏ gọn đủ cho quãng ngắn quanh khu ở. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}). Khách quan tâm chi phí xăng cho quãng ngắn nên xem nhóm xe điện trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}), hỏi thêm kế hoạch sạc giữa tuần.
+Một tuần dùng hằng ngày đòi hỏi dòng xe bền và ít hỏng vặt, vì thời gian xe nằm sửa là thời gian bạn vẫn mất tiền gói. Xe ga phổ thông hợp lịch đi lại nội thành dày, dòng số nhỏ gọn đủ cho quãng ngắn quanh khu ở. Danh sách dòng xe hiện có nằm ở trang các loại xe cho thuê. Khách quan tâm chi phí xăng cho quãng ngắn nên xem nhóm xe điện trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}), hỏi thêm kế hoạch sạc giữa tuần.
 
 ## Ví dụ tính tổng thực tế
 

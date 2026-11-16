@@ -21,15 +21,15 @@ Các mẫu xe máy điện hiện có thường khác nhau về dung lượng pi
 
 ## Xác định điểm sạc trong suốt chuyến đi
 
-Trước khi nhận xe, trả lời ba câu về sạc. Một: khách sạn hoặc nhà trọ của bạn có chỗ sạc được không, và bộ sạc kèm xe dùng được với ổ điện ở đó không? Hai: nếu phải dùng trạm sạc công cộng, gần khu lưu trú có trạm nào và sạc mất bao lâu? Ba: cửa hàng có hỗ trợ đổi pin hoặc trao đổi giữa chuyến không? Ba câu trả lời quyết định việc bạn có thể chủ động nạp điện hay phải dùng pin thật tiết kiệm. Chi tiết về chi phí và điều kiện sạc đã được phân tích trong bài [giá thuê xe máy điện Hà Nội]({{ '/blog/gia-thue-xe-may-dien-ha-noi/' }}).
+Trước khi nhận xe, trả lời ba câu về sạc. Một: khách sạn hoặc nhà trọ của bạn có chỗ sạc được không, và bộ sạc kèm xe dùng được với ổ điện ở đó không? Hai: nếu phải dùng trạm sạc công cộng, gần khu lưu trú có trạm nào và sạc mất bao lâu? Ba: cửa hàng có hỗ trợ đổi pin hoặc trao đổi giữa chuyến không? Ba câu trả lời quyết định việc bạn có thể chủ động nạp điện hay phải dùng pin thật tiết kiệm. Chi tiết về chi phí và điều kiện sạc đã được phân tích trong bài [giá thuê xe máy điện Hà Nội]({{ '/blog/gia-thue-xe-may-dien-ha-noi/' | relative_url }}).
 
 ## Quy định về pin khi nhận và khi trả
 
-Mỗi cửa hàng có quy định riêng về mức pin: nơi giao xe với pin đầy và yêu cầu trả ở mức tương tự, nơi chỉ yêu cầu trả ở mức quy định tối thiểu. Hỏi rõ cả hai đầu, vì nếu buộc trả pin gần đầy, bạn có thể phải dành thời gian cuối ngày để sạc. Hỏi thêm phụ phí nếu trả dưới mức quy định. Với gói dài ngày, các câu hỏi về pin và bảo dưỡng đã được liệt kê trong bài [thuê xe máy điện theo tháng ở Hà Nội]({{ '/blog/thue-xe-may-dien-theo-thang-ha-noi/' }}).
+Mỗi cửa hàng có quy định riêng về mức pin: nơi giao xe với pin đầy và yêu cầu trả ở mức tương tự, nơi chỉ yêu cầu trả ở mức quy định tối thiểu. Hỏi rõ cả hai đầu, vì nếu buộc trả pin gần đầy, bạn có thể phải dành thời gian cuối ngày để sạc. Hỏi thêm phụ phí nếu trả dưới mức quy định. Với gói dài ngày, các câu hỏi về pin và bảo dưỡng đã được liệt kê trong bài [thuê xe máy điện theo tháng ở Hà Nội]({{ '/blog/thue-xe-may-dien-theo-thang-ha-noi/' | relative_url }}).
 
 ## Kiểm tra khi nhận xe và hỗ trợ giữa đường
 
-Khi nhận, xem mức pin hiển thị, chạy thử vòng ngắn, thử đèn còi phanh, và chụp lại tình trạng xe. Lưu sẵn số hotline hỗ trợ: khi xe báo pin yếu bất thường hoặc sự cố giữa đường, thời gian phản hồi của cửa hàng là thứ đáng giá nhất. Khách lần đầu thuê xe ở Hà Nội nên đọc thêm tổng quan trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}). Giá các gói nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), thủ tục giấy tờ tại trang thủ tục thuê xe, thông tin liên hệ tại trang liên hệ.
+Khi nhận, xem mức pin hiển thị, chạy thử vòng ngắn, thử đèn còi phanh, và chụp lại tình trạng xe. Lưu sẵn số hotline hỗ trợ: khi xe báo pin yếu bất thường hoặc sự cố giữa đường, thời gian phản hồi của cửa hàng là thứ đáng giá nhất. Khách lần đầu thuê xe ở Hà Nội nên đọc thêm tổng quan trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}). Giá các gói nằm ở trang bảng giá, thủ tục giấy tờ tại trang thủ tục thuê xe, thông tin liên hệ tại trang liên hệ.
 
 ## Kết luận
 

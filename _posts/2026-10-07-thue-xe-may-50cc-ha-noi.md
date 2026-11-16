@@ -25,11 +25,11 @@ Hà Nội có nhiều khu phố cổ với hẻm nhỏ, dốc cua gắt và mặ
 
 ## Cân nhắc giá thuê và thời gian hợp đồng
 
-Giá thuê xe 50cc thường thấp nhất trong các dòng xe máy, bạn có thể so sánh trực tiếp trên [bảng giá]({{ '/banggia.html' | relative_url }}). Nhưng đừng chỉ nhìn đơn giá: nếu bạn phải thuê hai tuần, hãy hỏi giá theo tuần hoặc theo tháng, vì mức chiết khấu theo thời gian thường đáng kể. Nếu chỉ cần xe vài tiếng cho một việc gấp, gói tính giờ có khi còn rẻ hơn gói ngày, tham khảo thêm bài [thuê xe máy Hà Nội theo giờ]({{ '/blog/thue-xe-may-ha-noi-theo-gio/' }}) để tính điểm hòa vốn. Với khách thuê lâu, bài về [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}) liệt kê các khoản chi phí ngoài giá thuê đáng tính trước khi ký.
+Giá thuê xe 50cc thường thấp nhất trong các dòng xe máy, bạn có thể so sánh trực tiếp trên bảng giá. Nhưng đừng chỉ nhìn đơn giá: nếu bạn phải thuê hai tuần, hãy hỏi giá theo tuần hoặc theo tháng, vì mức chiết khấu theo thời gian thường đáng kể. Nếu chỉ cần xe vài tiếng cho một việc gấp, gói tính giờ có khi còn rẻ hơn gói ngày, tham khảo thêm bài [thuê xe máy Hà Nội theo giờ]({{ '/blog/thue-xe-may-ha-noi-theo-gio/' | relative_url }}) để tính điểm hòa vốn. Với khách thuê lâu, bài về thuê xe máy dài hạn Hà Nội liệt kê các khoản chi phí ngoài giá thuê đáng tính trước khi ký.
 
 ## Kiểm tra xe và thủ tục nhận xe
 
-Dù chọn dòng nào, khâu kiểm tra xe vẫn bắt buộc: thử phanh, đèn, còi, đề máy nghe tiếng nổ, chạy thử một vòng ngắn. Chụp lại hình ảnh các vết trầy sẵn có để tránh tranh chấp khi trả. Về giấy tờ, chuẩn bị theo hướng dẫn ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}) là đủ cho hầu hết cửa hàng. Khách lần đầu thuê ở Hà Nội nên đọc thêm tổng quan trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}) để nắm các quy định phổ biến.
+Dù chọn dòng nào, khâu kiểm tra xe vẫn bắt buộc: thử phanh, đèn, còi, đề máy nghe tiếng nổ, chạy thử một vòng ngắn. Chụp lại hình ảnh các vết trầy sẵn có để tránh tranh chấp khi trả. Về giấy tờ, chuẩn bị theo hướng dẫn ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}) là đủ cho hầu hết cửa hàng. Khách lần đầu thuê ở Hà Nội nên đọc thêm tổng quan trong bài thuê xe máy Hà Nội lần đầu để nắm các quy định phổ biến.
 
 ## Hỏi cửa hàng trước khi quyết định
 

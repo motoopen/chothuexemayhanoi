@@ -17,11 +17,11 @@ Tay và mặt là hai chỗ chịu rét nhất khi chạy xe, nên mang găng ta
 
 ## Chọn dòng xe hợp chạy trong lạnh
 
-Ngày lạnh thường khô và ráo, nên dòng xe phổ thông đều chạy được, nhưng khách đi chặng dài nên chọn dòng xe ga có chắn gió trước tốt hơn. Xe điện bị ảnh hưởng bởi nhiệt độ thấp ở mức pin hiển thị, nên hỏi kỹ pin khi nhận nếu chọn dòng này, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}). Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá theo ngày tại trang bảng giá.
+Ngày lạnh thường khô và ráo, nên dòng xe phổ thông đều chạy được, nhưng khách đi chặng dài nên chọn dòng xe ga có chắn gió trước tốt hơn. Xe điện bị ảnh hưởng bởi nhiệt độ thấp ở mức pin hiển thị, nên hỏi kỹ pin khi nhận nếu chọn dòng này, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}). Danh sách dòng xe hiện có nằm ở trang các loại xe cho thuê, mức giá theo ngày tại trang bảng giá.
 
 ## Kiểm tra xe kỹ khi nhận trong lạnh
 
-Nhiệt thấp làm dầu đặc và máy nổ lâu hơn, nên khi nhận xe, để máy nổ ổn vài phút và chạy thử vòng ngắn xem ga có đều không. Kiểm tra phanh trước sau ở tốc độ thấp, đèn còi bật thử, kể cả đèn hậu vì chiều tối mùa lạnh đến sớm. Chụp hiện trạng xe để đối chiếu khi trả. Nếu xe nổ khó hoặc có tiếng lạ, yêu cầu đổi xe khác ngay tại điểm nhận. Kinh nghiệm đầy đủ cho người mới thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Nhiệt thấp làm dầu đặc và máy nổ lâu hơn, nên khi nhận xe, để máy nổ ổn vài phút và chạy thử vòng ngắn xem ga có đều không. Kiểm tra phanh trước sau ở tốc độ thấp, đèn còi bật thử, kể cả đèn hậu vì chiều tối mùa lạnh đến sớm. Chụp hiện trạng xe để đối chiếu khi trả. Nếu xe nổ khó hoặc có tiếng lạ, yêu cầu đổi xe khác ngay tại điểm nhận. Kinh nghiệm đầy đủ cho người mới thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Khung giờ và trời sương mù
 
@@ -29,7 +29,7 @@ Mùa lạnh có những ngày sương mù buổi sớm làm giảm tầm nhìn r
 
 ## Giữ xe qua đêm trong lạnh
 
-Đêm mùa lạnh có sương muối và độ ẩm, nên để xe trong sân có mái che hoặc bãi gửi kín gió nếu có thể. Trước khung trả xe, nổ máy sớm vài phút cho máy ổn định rồi mới lăn bánh, đừng mở ga lớn ngay khi máy còn lạnh. Khi trả xe, trình diện đúng hẹn và lau xe sạch để nhận lại cọc nhanh. Điều khoản hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), kinh nghiệm gói dài ngày cho mùa lạnh nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}).
+Đêm mùa lạnh có sương muối và độ ẩm, nên để xe trong sân có mái che hoặc bãi gửi kín gió nếu có thể. Trước khung trả xe, nổ máy sớm vài phút cho máy ổn định rồi mới lăn bánh, đừng mở ga lớn ngay khi máy còn lạnh. Khi trả xe, trình diện đúng hẹn và lau xe sạch để nhận lại cọc nhanh. Điều khoản hợp đồng nằm ở trang thủ tục thuê xe, kinh nghiệm gói dài ngày cho mùa lạnh nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}).
 
 ## Kết luận
 

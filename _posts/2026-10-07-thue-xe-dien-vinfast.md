@@ -25,7 +25,7 @@ Chi phí thuê hai loại hình khác nhau rõ rệt: xe máy điện có giá t
 
 ## Cách tìm đúng dịch vụ theo nhu cầu đã xác định
 
-Sau khi đã biết mình thuộc nhóm nào, dùng từ khóa chính xác khi tìm hoặc gọi: "thuê xe máy điện VinFast" hoặc "thuê ô tô điện VinFast", tránh để hai loại trộn lẫn trong quá trình so sánh giá. Với xe máy điện, các câu hỏi nên tập trung vào pin, chỗ sạc và quy định trả xe, như đã chi tiết trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}). Với ô tô điện, hỏi về phạm vi km, bảo hiểm và phụ phí vượt định mức. Vì cả hai loại đều gắn với một nhà sản xuất cụ thể, thông số kỹ thuật của mẫu xe nên được đối chiếu với kênh thông tin chính thức của hãng VinFast trước khi dựa vào để quyết định.
+Sau khi đã biết mình thuộc nhóm nào, dùng từ khóa chính xác khi tìm hoặc gọi: "thuê xe máy điện VinFast" hoặc "thuê ô tô điện VinFast", tránh để hai loại trộn lẫn trong quá trình so sánh giá. Với xe máy điện, các câu hỏi nên tập trung vào pin, chỗ sạc và quy định trả xe, như đã chi tiết trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}). Với ô tô điện, hỏi về phạm vi km, bảo hiểm và phụ phí vượt định mức. Vì cả hai loại đều gắn với một nhà sản xuất cụ thể, thông số kỹ thuật của mẫu xe nên được đối chiếu với kênh thông tin chính thức của hãng VinFast trước khi dựa vào để quyết định.
 
 ## Kết luận
 

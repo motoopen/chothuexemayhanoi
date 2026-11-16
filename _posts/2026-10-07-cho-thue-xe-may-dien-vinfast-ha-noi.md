@@ -17,7 +17,7 @@ Bắt đầu từ nhu cầu của bạn: quãng đường mỗi ngày, số ngư
 
 ## Lớp hai: chiếc xe cụ thể được bàn giao thế nào
 
-Sau mẫu xe, kiểm tra chiếc xe bạn sẽ nhận. Hỏi tuổi xe, tình trạng pin còn bao nhiêu phần trăm dung lượng ban đầu, và mức pin khi giao. Khi đến nhận, đối chiếu: xem mức pin hiển thị, chạy thử vòng ngắn, thử đèn còi phanh. Pin là bộ phận xuống cấp nhanh nhất trên xe điện, nên hai chiếc cùng mẫu có thể chênh nhau cả tầm hoạt động lẫn độ ổn định. Chụp lại tình trạng xe trước khi rời cửa hàng. Nhóm câu hỏi chi tiết về pin đã được tổng hợp trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}).
+Sau mẫu xe, kiểm tra chiếc xe bạn sẽ nhận. Hỏi tuổi xe, tình trạng pin còn bao nhiêu phần trăm dung lượng ban đầu, và mức pin khi giao. Khi đến nhận, đối chiếu: xem mức pin hiển thị, chạy thử vòng ngắn, thử đèn còi phanh. Pin là bộ phận xuống cấp nhanh nhất trên xe điện, nên hai chiếc cùng mẫu có thể chênh nhau cả tầm hoạt động lẫn độ ổn định. Chụp lại tình trạng xe trước khi rời cửa hàng. Nhóm câu hỏi chi tiết về pin đã được tổng hợp trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}).
 
 ## Lớp ba: khâu hỗ trợ vận hành ra sao
 

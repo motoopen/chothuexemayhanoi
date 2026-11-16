@@ -13,7 +13,7 @@ So sánh giá thuê xe máy điện VinFast giữa các cửa hàng ở Hà Nộ
 
 ## Biến số một: tình trạng pin định giá trải nghiệm
 
-Hai chiếc cùng mẫu nhưng pin khác tuổi thì giá trị trải nghiệm khác nhau rõ: pin còn khỏe cho tầm hoạt động đầy, pin lão hóa sớm đòi bạn sạc nhiều lần hơn hoặc bị giới hạn lộ trình. Vì vậy khi so giá, hỏi kèm: pin của chiếc này còn khoảng bao nhiêu phần trăm dung lượng ban đầu. Mức giá nhỉnh hơn chút cho chiếc pin khỏe là khoản đáng trả, ngược lại mức rẻ bất thường với pin yếu có thể khiến bạn tốn thời gian chờ sạc và đi gấp rút lộ trình. Chi tiết về các khoản tính thêm khi thuê xe điện đã được liệt kê trong bài [giá thuê xe máy điện Hà Nội]({{ '/blog/gia-thue-xe-may-dien-ha-noi/' }}).
+Hai chiếc cùng mẫu nhưng pin khác tuổi thì giá trị trải nghiệm khác nhau rõ: pin còn khỏe cho tầm hoạt động đầy, pin lão hóa sớm đòi bạn sạc nhiều lần hơn hoặc bị giới hạn lộ trình. Vì vậy khi so giá, hỏi kèm: pin của chiếc này còn khoảng bao nhiêu phần trăm dung lượng ban đầu. Mức giá nhỉnh hơn chút cho chiếc pin khỏe là khoản đáng trả, ngược lại mức rẻ bất thường với pin yếu có thể khiến bạn tốn thời gian chờ sạc và đi gấp rút lộ trình. Chi tiết về các khoản tính thêm khi thuê xe điện đã được liệt kê trong bài [giá thuê xe máy điện Hà Nội]({{ '/blog/gia-thue-xe-may-dien-ha-noi/' | relative_url }}).
 
 ## Biến số hai: chi phí và thời gian sạc
 
@@ -21,7 +21,7 @@ Xe điện cần điện như xe xăng cần nhiên liệu, nhưng dòng tiền 
 
 ## Biến số ba: khung thời gian thuê
 
-Giá theo ngày chỉ hợp với chuyến một hai ngày. Với khung dài hơn, hỏi giá theo tuần hoặc theo tháng, vì đơn giá giảm dần theo thời gian là quy luật chung của thị trường cho thuê. Với gói dài hạn, nhóm câu hỏi về pin và bảo dưỡng đã được tổng hợp trong bài [thuê xe máy điện theo tháng ở Hà Nội]({{ '/blog/thue-xe-may-dien-theo-thang-ha-noi/' }}). Với chuyến vài tiếng, cân nhắc gói giờ như đã phân tích trong bài [thuê xe máy Hà Nội theo giờ]({{ '/blog/thue-xe-may-ha-noi-theo-gio/' }}). So sánh đúng cách là quy mọi gói về tổng chi phí theo đúng khung thời gian bạn dùng. Mức niêm yết nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Giá theo ngày chỉ hợp với chuyến một hai ngày. Với khung dài hơn, hỏi giá theo tuần hoặc theo tháng, vì đơn giá giảm dần theo thời gian là quy luật chung của thị trường cho thuê. Với gói dài hạn, nhóm câu hỏi về pin và bảo dưỡng đã được tổng hợp trong bài [thuê xe máy điện theo tháng ở Hà Nội]({{ '/blog/thue-xe-may-dien-theo-thang-ha-noi/' | relative_url }}). Với chuyến vài tiếng, cân nhắc gói giờ như đã phân tích trong bài thuê xe máy Hà Nội theo giờ. So sánh đúng cách là quy mọi gói về tổng chi phí theo đúng khung thời gian bạn dùng. Mức niêm yết nằm ở trang bảng giá.
 
 ## Mức cọc và các phụ phí
 

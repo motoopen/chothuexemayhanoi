@@ -33,7 +33,7 @@ Bóp thử giảm xóc trước bằng tay đẩy nhún xuống: xe nảy lên �
 
 ## Tiêu chí sáu và bảy: khoang đồ và giấy tờ kèm xe
 
-Kiểm tra khóa yên và khoang dưới yên: mở được, khóa còn chắc không, để vừa mũ hoặc túi nhỏ. Hỏi giấy tờ kèm xe: giấy đăng ký bản photo hoặc thẻ xe có được giao cùng không, vì việc mang theo khi đi vòng quanh thành phố là điều nên làm. Chụp lại hình ảnh các vết trầy sẵn có trên thân xe trước khi rời cửa hàng. Với khách lần đầu, khung tổng quan các bước nhận xe nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Kiểm tra khóa yên và khoang dưới yên: mở được, khóa còn chắc không, để vừa mũ hoặc túi nhỏ. Hỏi giấy tờ kèm xe: giấy đăng ký bản photo hoặc thẻ xe có được giao cùng không, vì việc mang theo khi đi vòng quanh thành phố là điều nên làm. Chụp lại hình ảnh các vết trầy sẵn có trên thân xe trước khi rời cửa hàng. Với khách lần đầu, khung tổng quan các bước nhận xe nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Sau khi kiểm tra: hỏi và chốt
 

@@ -17,7 +17,7 @@ VinFast có nhiều dòng xe máy điện khác nhau về kiểu dáng, dung lư
 
 ## Xác minh tình trạng pin
 
-Với xe điện đã qua sử dụng, pin là điểm cần soi kỹ nhất. Hỏi tuổi của pin hoặc số chu kỳ sạc đã qua nếu cửa hàng nắm được, và yêu cầu xem mức pin trên màn hình khi nhận xe. Ước tính quãng đường còn lại ở mức pin đó và đối chiếu với lộ trình dự kiến của bạn. Nhớ rằng con số công bố luôn lạc quan hơn thực tế khi xe chở nặng hoặc đi dốc. Nhóm câu hỏi chi tiết về pin và sạc đã được tổng hợp trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}), bạn nên đọc trước khi đến.
+Với xe điện đã qua sử dụng, pin là điểm cần soi kỹ nhất. Hỏi tuổi của pin hoặc số chu kỳ sạc đã qua nếu cửa hàng nắm được, và yêu cầu xem mức pin trên màn hình khi nhận xe. Ước tính quãng đường còn lại ở mức pin đó và đối chiếu với lộ trình dự kiến của bạn. Nhớ rằng con số công bố luôn lạc quan hơn thực tế khi xe chở nặng hoặc đi dốc. Nhóm câu hỏi chi tiết về pin và sạc đã được tổng hợp trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}), bạn nên đọc trước khi đến.
 
 ## Xác minh chính sách hỗ trợ của bên cho thuê
 
@@ -25,7 +25,7 @@ Bên cho thuê là bên chịu trách nhiệm phục vụ bạn, nên cần xác
 
 ## Tham khảo thông tin chính hãng
 
-Vì dòng xe này gắn với một nhà sản xuất cụ thể, khi cần thông số kỹ thuật hoặc đặc tính của mẫu xe, nên đối chiếu với kênh thông tin chính thức của hãng để chắc chắn con số mình dựa vào là của đúng mẫu. Thông tin về mẫu xe và mạng lưới hỗ trợ của VinFast được công bố trên trang chính thức của hãng. Với những gì hãng công bố, cách an toàn nhất là kiểm tra trực tiếp từ nguồn chính hãng thay vì chỉ dựa vào lời mô tả của trung gian. Khách lần đầu thuê xe ở Hà Nội nên tham khảo thêm khung tổng quan trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Vì dòng xe này gắn với một nhà sản xuất cụ thể, khi cần thông số kỹ thuật hoặc đặc tính của mẫu xe, nên đối chiếu với kênh thông tin chính thức của hãng để chắc chắn con số mình dựa vào là của đúng mẫu. Thông tin về mẫu xe và mạng lưới hỗ trợ của VinFast được công bố trên trang chính thức của hãng. Với những gì hãng công bố, cách an toàn nhất là kiểm tra trực tiếp từ nguồn chính hãng thay vì chỉ dựa vào lời mô tả của trung gian. Khách lần đầu thuê xe ở Hà Nội nên tham khảo thêm khung tổng quan trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Kết luận
 

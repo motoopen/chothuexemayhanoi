@@ -17,11 +17,11 @@ Tùy cửa hàng, khung qua đêm có thể tính trọn một ngày theo khung 
 
 ## Hỏi trước về nhận tối và trả sớm
 
-Điểm nhận xe thường đóng cửa muộn, nên khung nhận tối cần xác nhận giờ mở cửa cuối cùng của ngày. Tương tự, trả vào sáng sớm hôm sau cần hỏi giờ mở cửa và phụ phí trả ngoài giờ nếu có. Với khách cần xe sớm cho chuyến sáng, gói giao xe tận nơi sáng sớm thường hợp hơn, kinh nghiệm quy trình nằm trong bài [thuê xe máy Hà Nội giao tận nơi]({{ '/blog/thue-xe-may-ha-noi-giao-tan-noi/' }}). Chốt khung rõ qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) từ khi đặt.
+Điểm nhận xe thường đóng cửa muộn, nên khung nhận tối cần xác nhận giờ mở cửa cuối cùng của ngày. Tương tự, trả vào sáng sớm hôm sau cần hỏi giờ mở cửa và phụ phí trả ngoài giờ nếu có. Với khách cần xe sớm cho chuyến sáng, gói giao xe tận nơi sáng sớm thường hợp hơn, kinh nghiệm quy trình nằm trong bài [thuê xe máy Hà Nội giao tận nơi]({{ '/blog/thue-xe-may-ha-noi-giao-tan-noi/' | relative_url }}). Chốt khung rõ qua trang liên hệ từ khi đặt.
 
 ## Giữ xe an toàn qua đêm
 
-Đêm là khung xe dễ mất nhất, nên hỏi trước trách nhiệm nếu xe bị mất cắp hoặc hư hỏng qua đêm, kể cả mức khấu trừ tại cọc theo hợp đồng. Tốt nhất là để xe trong sân có khóa của nơi bạn ở, hoặc bãi gửi có người trông. Khách chọn xe điện nên hỏi pin qua đêm và điểm sạc gần chỗ ở, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}). Điều khoản hợp đồng liên quan nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).
+Đêm là khung xe dễ mất nhất, nên hỏi trước trách nhiệm nếu xe bị mất cắp hoặc hư hỏng qua đêm, kể cả mức khấu trừ tại cọc theo hợp đồng. Tốt nhất là để xe trong sân có khóa của nơi bạn ở, hoặc bãi gửi có người trông. Khách chọn xe điện nên hỏi pin qua đêm và điểm sạc gần chỗ ở, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}). Điều khoản hợp đồng liên quan nằm ở trang thủ tục thuê xe.
 
 ## Ví dụ so sánh các khung nhận trả
 
@@ -29,7 +29,7 @@ Nhận bảy giờ tối, trả tám giờ sáng hôm sau: nếu tính trọn m�
 
 ## Kinh nghiệm cho khách hay thuê qua đêm thường xuyên
 
-Với nhóm khách hay cần xe qua đêm, ví dụ làm ca tối về muộn đều đặn trong tuần, thuê lẻ từng khung qua đêm cộng dồn nhanh chóng vượt giá gói tuần hoặc tháng. Trong trường hợp này, hỏi luôn gói dài ngày cho dòng xe đang dùng, vì giá quy đổi mỗi đêm giảm rõ kể cả khi ban ngày xe chỉ để ở nhà. Với khách chọn xe điện cho ca tối, hỏi cửa hàng về biện pháp pin qua đêm, vì nhiệt độ thấp và thời gian để dài ảnh hưởng mức hiển thị, kinh nghiệm chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}). Quen một điểm nhận cố định cũng giúp mọi khung qua đêm đều nhận trả nhanh, không phải làm thủ tục lại từ đầu.
+Với nhóm khách hay cần xe qua đêm, ví dụ làm ca tối về muộn đều đặn trong tuần, thuê lẻ từng khung qua đêm cộng dồn nhanh chóng vượt giá gói tuần hoặc tháng. Trong trường hợp này, hỏi luôn gói dài ngày cho dòng xe đang dùng, vì giá quy đổi mỗi đêm giảm rõ kể cả khi ban ngày xe chỉ để ở nhà. Với khách chọn xe điện cho ca tối, hỏi cửa hàng về biện pháp pin qua đêm, vì nhiệt độ thấp và thời gian để dài ảnh hưởng mức hiển thị, kinh nghiệm chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}). Quen một điểm nhận cố định cũng giúp mọi khung qua đêm đều nhận trả nhanh, không phải làm thủ tục lại từ đầu.
 
 ## Kết luận
 

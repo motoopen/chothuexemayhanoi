@@ -21,7 +21,7 @@ Phương án này hợp ai muốn chủ động lịch trình từ chính nơi �
 
 ## Kinh nghiệm lái và độ dài hành trình
 
-Yếu tố quyết định quan trọng nhất là kinh nghiệm lái xe máy đường núi. Cung đường Hà Giang có nhiều đoạn dốc, cua gắt và thời tiết thay đổi nhanh trong ngày. Nếu bạn chỉ quen chạy phố, phương án đi xe khách lên rồi thuê tại chỗ để tập trung sức cho các cung chính là an toàn hơn. Nếu đã có nhiều chuyến đường trường, tự chạy lên giúp bạn chủ động dừng nghỉ và khám phá dọc đường. Theo quy định hiện hành, tham gia giao thông phải tuân thủ tốc độ cho phép và đội mũ bảo hiểm đạt chuẩn, các quy định này được công bố trên trang chính thức của cơ quan quản lý giao thông đường bộ. Kinh nghiệm chuẩn bị cho người mới thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Yếu tố quyết định quan trọng nhất là kinh nghiệm lái xe máy đường núi. Cung đường Hà Giang có nhiều đoạn dốc, cua gắt và thời tiết thay đổi nhanh trong ngày. Nếu bạn chỉ quen chạy phố, phương án đi xe khách lên rồi thuê tại chỗ để tập trung sức cho các cung chính là an toàn hơn. Nếu đã có nhiều chuyến đường trường, tự chạy lên giúp bạn chủ động dừng nghỉ và khám phá dọc đường. Theo quy định hiện hành, tham gia giao thông phải tuân thủ tốc độ cho phép và đội mũ bảo hiểm đạt chuẩn, các quy định này được công bố trên trang chính thức của cơ quan quản lý giao thông đường bộ. Kinh nghiệm chuẩn bị cho người mới thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Chi phí và thủ tục cần tính trước
 

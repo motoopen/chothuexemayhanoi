@@ -17,7 +17,7 @@ hub_category: thu-tuc-phap-ly
 
 ## Giấy phép lái xe và điều kiện hợp pháp để chạy xe
 
-Nếu bạn tự lái, bạn cần có giấy phép lái xe phù hợp với hạng xe thuê và còn hiệu lực, theo quy định về điều kiện lái xe trên đường. Với xe máy điện, tùy công suất và thiết kế mà giấy phép lái yêu cầu khác nhau, nên hỏi kỹ loại xe sẽ nhận thuộc nhóm nào. Thông tin về trình tự cấp giấy phép lái và các quy định liên quan được công bố trên trang chính thức của cơ quan quản lý giao thông đường bộ. Không có giấy phép phù hợp, bạn nên chọn phương án khác thay vì mạo hiểm chạy xe không đủ điều kiện, vì rủi ro pháp lý thuộc về bạn. Các câu hỏi thường gặp về xe điện không cần bằng nằm trong bài [thuê xe điện không cần bằng lái]({{ '/blog/thue-xe-dien-khong-bang-lai/' }}).
+Nếu bạn tự lái, bạn cần có giấy phép lái xe phù hợp với hạng xe thuê và còn hiệu lực, theo quy định về điều kiện lái xe trên đường. Với xe máy điện, tùy công suất và thiết kế mà giấy phép lái yêu cầu khác nhau, nên hỏi kỹ loại xe sẽ nhận thuộc nhóm nào. Thông tin về trình tự cấp giấy phép lái và các quy định liên quan được công bố trên trang chính thức của cơ quan quản lý giao thông đường bộ. Không có giấy phép phù hợp, bạn nên chọn phương án khác thay vì mạo hiểm chạy xe không đủ điều kiện, vì rủi ro pháp lý thuộc về bạn. Các câu hỏi thường gặp về xe điện không cần bằng nằm trong bài [thuê xe điện không cần bằng lái]({{ '/blog/thue-xe-dien-khong-bang-lai/' | relative_url }}).
 
 ## Tiền cọc và cách chuẩn bị thanh toán
 
@@ -25,7 +25,7 @@ Ngoài giấy tờ, phần lớn hợp đồng thuê có khoản đặt cọc ho
 
 ## Checklist trước khi rời nhà đến điểm nhận xe
 
-Trước khi đi, rà lại danh mục sau: giấy tờ tùy thân gốc còn hiệu lực, giấy phép lái xe phù hợp nếu tự lái, số điện thoại liên hệ được, tiền thuê và cọc theo hình thức đã thỏa thuận, và địa chỉ điểm nhận đã xác nhận. Nên chụp màn hình hợp đồng mẫu hoặc điều khoản được gửi trước nếu có. Kinh nghiệm đầy đủ cho người mới thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}), còn các điều khoản thường gặp khi ký hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).
+Trước khi đi, rà lại danh mục sau: giấy tờ tùy thân gốc còn hiệu lực, giấy phép lái xe phù hợp nếu tự lái, số điện thoại liên hệ được, tiền thuê và cọc theo hình thức đã thỏa thuận, và địa chỉ điểm nhận đã xác nhận. Nên chụp màn hình hợp đồng mẫu hoặc điều khoản được gửi trước nếu có. Kinh nghiệm đầy đủ cho người mới thuê nằm trong bài thuê xe máy Hà Nội lần đầu, còn các điều khoản thường gặp khi ký hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).
 
 ## Những tình huống hay gặp khi xuất trình giấy tờ
 

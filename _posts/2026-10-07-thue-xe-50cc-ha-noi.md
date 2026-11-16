@@ -29,11 +29,11 @@ Ba tiêu chí chọn nhanh: kiểu trải nghiệm, hành lý và kỹ năng lá
 
 ## Giá thuê, giấy tờ và điều kiện hợp đồng
 
-Giá thuê giữa các dòng xe nhỏ thường chênh không nhiều, so sánh trực tiếp trên [bảng giá]({{ '/banggia.html' | relative_url }}). Thủ tục giấy tờ theo quy định chung được tóm tắt ở trang thủ tục thuê xe. Điểm khác biệt đáng hỏi là mức cọc với xe Cub đời cổ, vì một số chiếc có giá trị sưu tầm cao hơn xe ga nhỏ cùng phân khúc. Nếu muốn giảm cọc, tham khảo thêm điều kiện trong bài [thuê xe máy Hà Nội không cọc]({{ '/blog/thue-xe-may-ha-noi-khong-coc/' }}) trước khi ký.
+Giá thuê giữa các dòng xe nhỏ thường chênh không nhiều, so sánh trực tiếp trên bảng giá. Thủ tục giấy tờ theo quy định chung được tóm tắt ở trang thủ tục thuê xe. Điểm khác biệt đáng hỏi là mức cọc với xe Cub đời cổ, vì một số chiếc có giá trị sưu tầm cao hơn xe ga nhỏ cùng phân khúc. Nếu muốn giảm cọc, tham khảo thêm điều kiện trong bài [thuê xe máy Hà Nội không cọc]({{ '/blog/thue-xe-may-ha-noi-khong-coc/' | relative_url }}) trước khi ký.
 
 ## Kiểm tra khi nhận xe theo từng dòng
 
-Với xe Cub, kiểm tra cần số, dây ga và phanh cơ cấu kiểu cũ, vì đây là các điểm hay hao mòn nhất. Với xe ga nhỏ, kiểm tra hệ thống điện: đèn, còi, đề điện và bình ắc quy, kèm thử khoang dưới yên. Cả hai đều cần thử phanh và chạy thử vòng ngắn. Chụp lại tình trạng xe khi nhận là thói quen nên giữ với mọi dòng xe, chi tiết hơn đã có trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}). Khi cần hỏi trước, thông tin liên hệ nằm ở trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Với xe Cub, kiểm tra cần số, dây ga và phanh cơ cấu kiểu cũ, vì đây là các điểm hay hao mòn nhất. Với xe ga nhỏ, kiểm tra hệ thống điện: đèn, còi, đề điện và bình ắc quy, kèm thử khoang dưới yên. Cả hai đều cần thử phanh và chạy thử vòng ngắn. Chụp lại tình trạng xe khi nhận là thói quen nên giữ với mọi dòng xe, chi tiết hơn đã có trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}). Khi cần hỏi trước, thông tin liên hệ nằm ở trang liên hệ.
 
 ## Kết luận
 

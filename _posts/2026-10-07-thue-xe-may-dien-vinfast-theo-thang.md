@@ -21,7 +21,7 @@ Thuê theo tháng là cam kết dài, và với dòng xe điện, mọi điểm 
 
 ## Nhóm xác minh về hợp đồng và bảo trì
 
-Điều sáu: lịch bảo dưỡng định kỳ trong tháng thuộc về ai, chi phí đã gồm trong gói chưa, và khi xe nằm bảo dưỡng thì có xe thay thế không. Điều bảy: ranh giới trách nhiệm giữa hao mòn tự nhiên và hư hại do sử dụng được ghi thế nào trong hợp đồng, mức bồi thường khi có sự cố tính ra sao. Điều tám: điều kiện kết thúc hợp đồng, trả xe sớm có hoàn một phần không, trễ hẹn tính thế nào, và mức pin yêu cầu khi trả. Mọi câu trả lời nên nằm thành văn bản trong hợp đồng, chi tiết giấy tờ chung tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Nhóm câu hỏi cho gói dài hạn đã được tổng hợp trong bài [thuê xe máy điện theo tháng ở Hà Nội]({{ '/blog/thue-xe-may-dien-theo-thang-ha-noi/' }}).
+Điều sáu: lịch bảo dưỡng định kỳ trong tháng thuộc về ai, chi phí đã gồm trong gói chưa, và khi xe nằm bảo dưỡng thì có xe thay thế không. Điều bảy: ranh giới trách nhiệm giữa hao mòn tự nhiên và hư hại do sử dụng được ghi thế nào trong hợp đồng, mức bồi thường khi có sự cố tính ra sao. Điều tám: điều kiện kết thúc hợp đồng, trả xe sớm có hoàn một phần không, trễ hẹn tính thế nào, và mức pin yêu cầu khi trả. Mọi câu trả lời nên nằm thành văn bản trong hợp đồng, chi tiết giấy tờ chung tại trang thủ tục thuê xe. Nhóm câu hỏi cho gói dài hạn đã được tổng hợp trong bài [thuê xe máy điện theo tháng ở Hà Nội]({{ '/blog/thue-xe-may-dien-theo-thang-ha-noi/' | relative_url }}).
 
 ## Tham chiếu thông tin hãng và giá gói
 

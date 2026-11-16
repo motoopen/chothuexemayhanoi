@@ -17,7 +17,7 @@ Câu thứ nhất: mẫu xe 50cc hiện còn những chiếc nào, và mỗi chi
 
 ## Nhóm câu hỏi về phạm vi và thời gian
 
-Câu thứ tư: xe có bị giới hạn phạm vi di chuyển không, và liệu lộ trình của bạn có nằm trong phạm vi cho phép? Một số cửa hàng chỉ cho xe chạy nội thành, đi tỉnh phải báo trước hoặc tính thêm. Nếu kế hoạch của bạn có ngoại thành hoặc đường dài, đây là câu quyết định. Câu thứ năm: giá thuê tính theo ngày, tuần hay tháng, và trễ hẹn tính thế nào? Hỏi rõ mức giá theo thời gian trên [bảng giá]({{ '/banggia.html' | relative_url }}) giúp bạn chọn gói đúng khung sử dụng. Với chuyến ngắn vài tiếng, cân nhắc gói giờ như đã phân tích trong bài [thuê xe máy Hà Nội theo giờ]({{ '/blog/thue-xe-may-ha-noi-theo-gio/' }}).
+Câu thứ tư: xe có bị giới hạn phạm vi di chuyển không, và liệu lộ trình của bạn có nằm trong phạm vi cho phép? Một số cửa hàng chỉ cho xe chạy nội thành, đi tỉnh phải báo trước hoặc tính thêm. Nếu kế hoạch của bạn có ngoại thành hoặc đường dài, đây là câu quyết định. Câu thứ năm: giá thuê tính theo ngày, tuần hay tháng, và trễ hẹn tính thế nào? Hỏi rõ mức giá theo thời gian trên bảng giá giúp bạn chọn gói đúng khung sử dụng. Với chuyến ngắn vài tiếng, cân nhắc gói giờ như đã phân tích trong bài [thuê xe máy Hà Nội theo giờ]({{ '/blog/thue-xe-may-ha-noi-theo-gio/' | relative_url }}).
 
 ## Nhóm câu hỏi về hỗ trợ và trách nhiệm
 
@@ -25,7 +25,7 @@ Câu thứ sáu: nếu xe hỏng giữa đường, quy trình hỗ trợ ra sao 
 
 ## Câu thứ tám và cách đánh giá câu trả lời
 
-Câu thứ tám: khi trả xe cần đạt điều kiện gì, mức nhiên liệu như thế nào và có phụ thu vệ sinh hay kiểm tra không? Biết trước các điều kiện trả xe giúp bạn tránh trừ cọc oan. Sau khi hỏi đủ tám câu, hãy đánh giá theo hai tín hiệu: cửa hàng trả lời trực tiếp, cụ thể, nhất quán là điểm cộng; trả lời lấp lửng, né tránh hoặc đổ hết cho "tùy tình huống" là tín hiệu nên cân nhắc thêm. Khách lần đầu thuê ở Hà Nội có thể tham khảo thêm tổng quan trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}) để có khung so sánh giữa các cửa hàng.
+Câu thứ tám: khi trả xe cần đạt điều kiện gì, mức nhiên liệu như thế nào và có phụ thu vệ sinh hay kiểm tra không? Biết trước các điều kiện trả xe giúp bạn tránh trừ cọc oan. Sau khi hỏi đủ tám câu, hãy đánh giá theo hai tín hiệu: cửa hàng trả lời trực tiếp, cụ thể, nhất quán là điểm cộng; trả lời lấp lửng, né tránh hoặc đổ hết cho "tùy tình huống" là tín hiệu nên cân nhắc thêm. Khách lần đầu thuê ở Hà Nội có thể tham khảo thêm tổng quan trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}) để có khung so sánh giữa các cửa hàng.
 
 ## Kết luận
 

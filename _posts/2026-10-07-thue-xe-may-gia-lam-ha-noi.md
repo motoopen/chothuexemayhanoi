@@ -25,11 +25,11 @@ Quãng đường trong Gia Lâm và các chặng qua cầu khá dài, nên dòng
 
 ## Hỏi về phạm vi và giao xe tận nơi
 
-Hai câu đáng hỏi khi đặt: phạm vi di chuyển có gồm các tuyến qua cầu và các khu ven được không, vì một số gói tập trung nội thành trung tâm; và có giao xe tận chỗ ở trong khu được không, phụ phí thế nào. Làm rõ cả hai ngay từ đầu để tránh phát sinh khi trả xe. Với khách thuê lâu, tham khảo các khoản ngoài giá thuê trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}). Điều khoản và giấy tờ chuẩn bị tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Khung kinh nghiệm lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Hai câu đáng hỏi khi đặt: phạm vi di chuyển có gồm các tuyến qua cầu và các khu ven được không, vì một số gói tập trung nội thành trung tâm; và có giao xe tận chỗ ở trong khu được không, phụ phí thế nào. Làm rõ cả hai ngay từ đầu để tránh phát sinh khi trả xe. Với khách thuê lâu, tham khảo các khoản ngoài giá thuê trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}). Điều khoản và giấy tờ chuẩn bị tại trang thủ tục thuê xe. Khung kinh nghiệm lần đầu thuê nằm trong bài thuê xe máy Hà Nội lần đầu.
 
 ## Kiểm tra xe và giữ xe trong ngày
 
-Bộ kiểm tra chuẩn khi nhận: ga, phanh trước và sau, đèn còi, chạy thử vòng ngắn, chụp lại tình trạng xe. Trong ngày, dùng bãi gửi có phí gần nhà hoặc nơi làm việc nếu khu ở không có chỗ an toàn. Lưu số hotline hỗ trợ trước khi lăn bánh. Khách chọn xe điện nên hỏi mức pin khi nhận và điểm sạc gần tuyến định đi, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}).
+Bộ kiểm tra chuẩn khi nhận: ga, phanh trước và sau, đèn còi, chạy thử vòng ngắn, chụp lại tình trạng xe. Trong ngày, dùng bãi gửi có phí gần nhà hoặc nơi làm việc nếu khu ở không có chỗ an toàn. Lưu số hotline hỗ trợ trước khi lăn bánh. Khách chọn xe điện nên hỏi mức pin khi nhận và điểm sạc gần tuyến định đi, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}).
 
 ## Kết luận
 

@@ -21,11 +21,11 @@ Thanh Xuân có nhiều khung đông đan xen: sáng sớm dòng đi làm lên t
 
 ## Loại xe hợp khu vực nội thành đông
 
-Với lịch trình chủ yếu trong phố, dòng xe nhỏ gọn là lựa chọn tiện luồn hẻm và dễ đổ chỗ để xe hẹp. Xe ga phổ thông hợp khách đi trục dài lên trung tâm mỗi ngày, êm hơn trên chặng dày. Khách cần chở người hoặc đồ đạc nên hỏi dòng có cốp rộng khi đặt. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang bảng giá. Nhóm xe máy điện cho khu nội thành được nói kỹ trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}).
+Với lịch trình chủ yếu trong phố, dòng xe nhỏ gọn là lựa chọn tiện luồn hẻm và dễ đổ chỗ để xe hẹp. Xe ga phổ thông hợp khách đi trục dài lên trung tâm mỗi ngày, êm hơn trên chặng dày. Khách cần chở người hoặc đồ đạc nên hỏi dòng có cốp rộng khi đặt. Danh sách dòng xe hiện có nằm ở trang các loại xe cho thuê, mức giá tại trang bảng giá. Nhóm xe máy điện cho khu nội thành được nói kỹ trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}).
 
 ## Hỏi về phạm vi di chuyển và giao xe tận nơi
 
-Khi đặt xe, hỏi rõ phạm vi gói thuê có gồm các quận lân cận và nội thành không, vì có gói giới hạn khu vực; cùng khả năng giao xe tận chung cư với phụ phí thế nào. Làm rõ cả hai ngay đầu để hợp đồng khớp lịch trình thật. Với khách ở lại Hà Nội lâu, các khoản ngoài giá thuê được gỡ rõ trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}). Điều khoản và giấy tờ chuẩn bị nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Kinh nghiệm lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Khi đặt xe, hỏi rõ phạm vi gói thuê có gồm các quận lân cận và nội thành không, vì có gói giới hạn khu vực; cùng khả năng giao xe tận chung cư với phụ phí thế nào. Làm rõ cả hai ngay đầu để hợp đồng khớp lịch trình thật. Với khách ở lại Hà Nội lâu, các khoản ngoài giá thuê được gỡ rõ trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}). Điều khoản và giấy tờ chuẩn bị nằm ở trang thủ tục thuê xe. Kinh nghiệm lần đầu thuê nằm trong bài thuê xe máy Hà Nội lần đầu.
 
 ## Kiểm tra xe và giữ xe quanh khu
 

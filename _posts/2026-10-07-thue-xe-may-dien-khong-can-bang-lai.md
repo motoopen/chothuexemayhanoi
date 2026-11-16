@@ -21,7 +21,7 @@ Tốc độ thiết kế của xe nhỏ thường thấp, và điều này ảnh
 
 ## Chỉ số ba: sự phù hợp với quy định hiện hành
 
-Việc xe có thuộc diện không cần giấy phép lái hay không được xác định theo phân loại xe trong quy định hiện hành về giấy phép lái của cơ quan chức năng. Cách kiểm tra an toàn: hỏi cửa hàng mẫu xe theo phân loại là gì, rồi đối chiếu thông tin với quy định hiện hành được công bố trên kênh chính thức. Đừng dựa vào quảng cáo làm căn cứ duy nhất. Phân biệt rõ loại xe đã được trình bày trong bài [thuê xe điện không bằng lái]({{ '/blog/thue-xe-dien-khong-bang-lai/' }}) và các điểm dễ hiểu nhầm trong bài [thuê xe điện không cần bằng lái]({{ '/blog/thue-xe-dien-khong-can-bang-lai/' }}).
+Việc xe có thuộc diện không cần giấy phép lái hay không được xác định theo phân loại xe trong quy định hiện hành về giấy phép lái của cơ quan chức năng. Cách kiểm tra an toàn: hỏi cửa hàng mẫu xe theo phân loại là gì, rồi đối chiếu thông tin với quy định hiện hành được công bố trên kênh chính thức. Đừng dựa vào quảng cáo làm căn cứ duy nhất. Phân biệt rõ loại xe đã được trình bày trong bài [thuê xe điện không bằng lái]({{ '/blog/thue-xe-dien-khong-bang-lai/' | relative_url }}) và các điểm dễ hiểu nhầm trong bài thuê xe điện không cần bằng lái.
 
 ## Hỏi cửa hàng đúng câu trước khi đặt
 
@@ -29,7 +29,7 @@ Bốn câu đáng hỏi: mẫu này công suất bao nhiêu và thuộc diện y
 
 ## Kiểm tra thực tế khi nhận xe
 
-Sau khi chọn được mẫu hợp, khâu nhận xe vẫn cần kiểm tra: đề và vặn ga nghe phản ứng, thử phanh trước và sau, xem đèn còi, chạy thử vòng ngắn quanh khu phố, và chụp lại tình trạng xe cùng các vết trầy sẵn có. Với xe điện nhỏ, xem thêm mức pin hiển thị và hỏi quãng đường còn chạy được ở mức đó, vì nhóm xe nhỏ thường có pin vừa phải. Trình tự chi tiết cho khách lần đầu nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Sau khi chọn được mẫu hợp, khâu nhận xe vẫn cần kiểm tra: đề và vặn ga nghe phản ứng, thử phanh trước và sau, xem đèn còi, chạy thử vòng ngắn quanh khu phố, và chụp lại tình trạng xe cùng các vết trầy sẵn có. Với xe điện nhỏ, xem thêm mức pin hiển thị và hỏi quãng đường còn chạy được ở mức đó, vì nhóm xe nhỏ thường có pin vừa phải. Trình tự chi tiết cho khách lần đầu nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Kết luận
 

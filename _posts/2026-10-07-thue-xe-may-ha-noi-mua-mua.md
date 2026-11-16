@@ -13,7 +13,7 @@ Mùa mưa ở Hà Nội kéo dài nhiều tháng, cơn mưa tới bất chợt v
 
 ## Chọn dòng xe hợp đường ướt
 
-Với đường ướt và ngập cục bộ, ưu tiên dòng xe có bánh ăn đường tốt, giữ nguyên bản xưởng, không độ cao quá. Xe ga phổ thông thường ổn định hơn xe máy đã qua độ chế. Quãng ngắn quanh khu ở thì dòng xe nhỏ gọn đủ, nhưng nên hỏi trước vỏ bánh còn tốt không khi nhận. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá theo ngày tại trang bảng giá. Khách quan tâm xe điện mùa mưa nên đọc kỹ phần pin và các khoảng cách nước trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}).
+Với đường ướt và ngập cục bộ, ưu tiên dòng xe có bánh ăn đường tốt, giữ nguyên bản xưởng, không độ cao quá. Xe ga phổ thông thường ổn định hơn xe máy đã qua độ chế. Quãng ngắn quanh khu ở thì dòng xe nhỏ gọn đủ, nhưng nên hỏi trước vỏ bánh còn tốt không khi nhận. Danh sách dòng xe hiện có nằm ở trang các loại xe cho thuê, mức giá theo ngày tại trang bảng giá. Khách quan tâm xe điện mùa mưa nên đọc kỹ phần pin và các khoảng cách nước trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}).
 
 ## Đồ cần chuẩn bị khi nhận xe
 
@@ -25,11 +25,11 @@ Mùa mưa, mở dự báo trước mỗi khung đi để né cơn tới giữa c
 
 ## Giữ xe và trả xe trong mùa mưa
 
-Tìm chỗ gửi có mái che cho xe qua đêm, vì mưa nhiều ngày làm kém cảm biến và dây điện. Khi trả xe, lau sạch xe mức cơ bản trước khi trình diện, kể cả bùn ở gắn bánh và yên. Hiện trạng sạch giúp bạn nhận lại cọc nhanh, kinh nghiệm các khoản ngoài giá thuê nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}). Lưu số hỗ trợ của cửa hàng khi xe gặp sự cố vì nước.
+Tìm chỗ gửi có mái che cho xe qua đêm, vì mưa nhiều ngày làm kém cảm biến và dây điện. Khi trả xe, lau sạch xe mức cơ bản trước khi trình diện, kể cả bùn ở gắn bánh và yên. Hiện trạng sạch giúp bạn nhận lại cọc nhanh, kinh nghiệm các khoản ngoài giá thuê nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}). Lưu số hỗ trợ của cửa hàng khi xe gặp sự cố vì nước.
 
 ## Kiểm tra xe kỹ hơn mùa khô
 
-Trước khi rời điểm nhận, chạy thử vòng dài hơn thường lệ trên mặt đường ướt nếu có thể, kiểm tra phanh ăn ngay ở tốc độ thấp vì phanh ướt nhạy khác. Bật thử đèn và còi, vì mưa làm giảm tầm nhìn. Chụp hiện trạng xe kể cả vết bùn sẵn có để đối chiếu lúc trả. Kinh nghiệm đầy đủ cho người mới thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Trước khi rời điểm nhận, chạy thử vòng dài hơn thường lệ trên mặt đường ướt nếu có thể, kiểm tra phanh ăn ngay ở tốc độ thấp vì phanh ướt nhạy khác. Bật thử đèn và còi, vì mưa làm giảm tầm nhìn. Chụp hiện trạng xe kể cả vết bùn sẵn có để đối chiếu lúc trả. Kinh nghiệm đầy đủ cho người mới thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Kết luận
 

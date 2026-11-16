@@ -17,7 +17,7 @@ Câu một: chiếc xe này dùng loại pin gì, đã qua sử dụng bao lâu 
 
 ## Nhóm câu hỏi về sạc trong suốt thời gian thuê
 
-Câu bốn: xe giao kèm bộ sạc không, và bộ sạc dùng được với ổ điện thông thường ở khách sạn hay cần điều kiện đặc biệt? Câu năm: nếu sạc qua đêm ở nơi lưu trú không khả thi, trạm sạc gần khu vực tôi ở nằm ở đâu và phí tính thế nào? Câu sáu: nếu pin yếu giữa chuyến, có dịch vụ đổi pin hoặc trao đổi không, và thủ tục ra sao? Ba câu này quyết định tính chủ động của bạn với điện năng. Nếu cả ba câu đều gặp trả lời mơ hồ, hãy cân nhắc chọn nơi khác, vì với xe điện, không rõ chỗ sạc đồng nghĩa không chắc về lịch trình. Các khoản chi phí đi kèm việc sạc đã được phân tích trong bài [giá thuê xe máy điện Hà Nội]({{ '/blog/gia-thue-xe-may-dien-ha-noi/' }}).
+Câu bốn: xe giao kèm bộ sạc không, và bộ sạc dùng được với ổ điện thông thường ở khách sạn hay cần điều kiện đặc biệt? Câu năm: nếu sạc qua đêm ở nơi lưu trú không khả thi, trạm sạc gần khu vực tôi ở nằm ở đâu và phí tính thế nào? Câu sáu: nếu pin yếu giữa chuyến, có dịch vụ đổi pin hoặc trao đổi không, và thủ tục ra sao? Ba câu này quyết định tính chủ động của bạn với điện năng. Nếu cả ba câu đều gặp trả lời mơ hồ, hãy cân nhắc chọn nơi khác, vì với xe điện, không rõ chỗ sạc đồng nghĩa không chắc về lịch trình. Các khoản chi phí đi kèm việc sạc đã được phân tích trong bài [giá thuê xe máy điện Hà Nội]({{ '/blog/gia-thue-xe-may-dien-ha-noi/' | relative_url }}).
 
 ## Nhóm câu hỏi về bàn giao và trách nhiệm
 
@@ -25,7 +25,7 @@ Câu bảy: khi trả xe, pin cần ở mức bao nhiêu, và nếu thấp hơn 
 
 ## Sau khi hỏi: kiểm tra bằng tay
 
-Đến nhận xe, làm ba việc: xem mức pin trên màn hình, chạy thử vòng ngắn, chụp lại tình trạng xe. So mức pin thực tế với câu trả lời bạn nhận được khi đặt, nếu lệch xa thì hỏi lại trước khi ký. Khách lần đầu thuê ở Hà Nội nên tham khảo thêm khung tổng quan trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}). Giá các gói nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), thủ tục giấy tờ tại trang thủ tục thuê xe.
+Đến nhận xe, làm ba việc: xem mức pin trên màn hình, chạy thử vòng ngắn, chụp lại tình trạng xe. So mức pin thực tế với câu trả lời bạn nhận được khi đặt, nếu lệch xa thì hỏi lại trước khi ký. Khách lần đầu thuê ở Hà Nội nên tham khảo thêm khung tổng quan trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}). Giá các gói nằm ở trang bảng giá, thủ tục giấy tờ tại trang thủ tục thuê xe.
 
 ## Kết luận
 

@@ -21,7 +21,7 @@ Với thuê trực tiếp, thanh toán và đặt cọc thường thực hiện 
 
 ## Hỗ trợ khi có sự cố
 
-Đây là điểm khác biệt đáng cân nhắc nhất. Với thuê trực tiếp, khi xe hỏng, bạn gọi số điện thoại cửa hàng đã quen và thường được hỗ trợ nhanh trong khu vực. Với thuê qua app, yêu cầu hỗ trợ thường đi qua hệ thống, có thể mất thời gian hơn, nhưng đổi lại hồ sơ sự cố được ghi lại tự động, có lợi khi cần đối chiếu sau này. Cách làm khôn ngoan với cả hai: lưu sẵn kênh hỗ trợ trước khi lăn bánh, và hỏi trước về thời gian phản hồi trung bình. Với xe máy điện, sự cố liên quan pin giữa đường là tình huống cần hỗ trợ nhanh nhất, nên ưu tiên dịch vụ có kênh hỗ trợ rõ ràng. Nhóm câu hỏi về pin đã được tổng hợp trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}).
+Đây là điểm khác biệt đáng cân nhắc nhất. Với thuê trực tiếp, khi xe hỏng, bạn gọi số điện thoại cửa hàng đã quen và thường được hỗ trợ nhanh trong khu vực. Với thuê qua app, yêu cầu hỗ trợ thường đi qua hệ thống, có thể mất thời gian hơn, nhưng đổi lại hồ sơ sự cố được ghi lại tự động, có lợi khi cần đối chiếu sau này. Cách làm khôn ngoan với cả hai: lưu sẵn kênh hỗ trợ trước khi lăn bánh, và hỏi trước về thời gian phản hồi trung bình. Với xe máy điện, sự cố liên quan pin giữa đường là tình huống cần hỗ trợ nhanh nhất, nên ưu tiên dịch vụ có kênh hỗ trợ rõ ràng. Nhóm câu hỏi về pin đã được tổng hợp trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}).
 
 ## Chọn theo tình huống thực tế
 
@@ -29,7 +29,7 @@ Chọn app khi: bạn cần đặt trước khung giờ cao điểm, đi theo l�
 
 ## Khâu kiểm tra vẫn không thay thế được
 
-Dù đặt bằng cách nào, khâu kiểm tra khi nhận xe là bước bắt buộc: thử ga và phanh, xem đèn còi, kiểm tra mức pin với xe điện, chạy thử vòng ngắn, chụp lại tình trạng xe. Khung chi tiết cho khách lần đầu nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}). Với xe nhận qua đặt trước trên app, hãy đối chiếu mô tả trong đơn với thực tế ngay tại điểm nhận, và phản ánh ngay nếu lệch, vì đây là thời điểm dễ điều chỉnh nhất.
+Dù đặt bằng cách nào, khâu kiểm tra khi nhận xe là bước bắt buộc: thử ga và phanh, xem đèn còi, kiểm tra mức pin với xe điện, chạy thử vòng ngắn, chụp lại tình trạng xe. Khung chi tiết cho khách lần đầu nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}). Với xe nhận qua đặt trước trên app, hãy đối chiếu mô tả trong đơn với thực tế ngay tại điểm nhận, và phản ánh ngay nếu lệch, vì đây là thời điểm dễ điều chỉnh nhất.
 
 ## Kết luận
 

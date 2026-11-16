@@ -17,7 +17,7 @@ Khi ký hợp đồng thuê xe, cửa hàng yêu cầu bạn xuất trình giấ
 
 ## Giấy phép lái xe khi tự điều khiển
 
-Nếu bạn tự lái xe thuê, bạn cần giấy phép lái xe phù hợp với loại xe và còn hiệu lực, theo quy định về điều kiện tham gia giao thông đường bộ. Với xe máy điện, tùy công suất và thiết kế mà yêu cầu giấy phép lái khác nhau, nên hỏi rõ dòng xe mình sẽ nhận thuộc nhóm nào. Thông tin về cấp giấy phép lái và các quy định liên quan được công bố trên trang chính thức của cơ quan quản lý giao thông đường bộ. Chưa có giấy phép phù hợp thì nên chọn phương án khác, vì rủi ro pháp lý khi chạy xe không đủ điều kiện thuộc về bạn. Nhóm xe điện dễ dùng cho người mới nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}).
+Nếu bạn tự lái xe thuê, bạn cần giấy phép lái xe phù hợp với loại xe và còn hiệu lực, theo quy định về điều kiện tham gia giao thông đường bộ. Với xe máy điện, tùy công suất và thiết kế mà yêu cầu giấy phép lái khác nhau, nên hỏi rõ dòng xe mình sẽ nhận thuộc nhóm nào. Thông tin về cấp giấy phép lái và các quy định liên quan được công bố trên trang chính thức của cơ quan quản lý giao thông đường bộ. Chưa có giấy phép phù hợp thì nên chọn phương án khác, vì rủi ro pháp lý khi chạy xe không đủ điều kiện thuộc về bạn. Nhóm xe điện dễ dùng cho người mới nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}).
 
 ## Thông tin cần hỏi cửa hàng trước khi đến
 
@@ -25,11 +25,11 @@ Trước khi đến, liên hệ qua trang liên hệ để chốt các điểm s
 
 ## Tiền cọc và các khoản cần chuẩn bị
 
-Đa số hợp đồng có khoản đặt cọc hoặc thế chấp bảo đảm rủi ro hư hỏng, mất cắp hoặc trả xe trễ. Chuẩn bị sẵn tiền cọc theo hình thức cửa hàng yêu cầu, cùng số tiền thuê theo ngày hoặc theo gói đã chọn. Hỏi rõ thời gian hoàn cọc sau khi trả xe và điều kiện giữ lại cọc nếu có, để không tranh luận lúc hoàn trả. Chụp hiện trạng xe khi nhận làm bằng chứng. Kinh nghiệm cho người mới thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}), các điều khoản hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).
+Đa số hợp đồng có khoản đặt cọc hoặc thế chấp bảo đảm rủi ro hư hỏng, mất cắp hoặc trả xe trễ. Chuẩn bị sẵn tiền cọc theo hình thức cửa hàng yêu cầu, cùng số tiền thuê theo ngày hoặc theo gói đã chọn. Hỏi rõ thời gian hoàn cọc sau khi trả xe và điều kiện giữ lại cọc nếu có, để không tranh luận lúc hoàn trả. Chụp hiện trạng xe khi nhận làm bằng chứng. Kinh nghiệm cho người mới thuê nằm trong bài thuê xe máy Hà Nội lần đầu, các điều khoản hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).
 
 ## Checklist cuối trước khi rời nhà
 
-Rà lại danh mục trước khi đi: giấy tờ tùy thân gốc, giấy phép lái phù hợp nếu tự lái, tiền thuê và cọc theo hình thức đã thỏa thuận, điện thoại đủ pin để liên hệ, và địa chỉ điểm nhận đã xác nhận. Nếu cần xe ga tận nơi, đặt trước để cửa hàng chủ động sắp lịch. Khách ở lại Hà Nội lâu nên đọc bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}) để hiểu các khoản ngoài giá thuê.
+Rà lại danh mục trước khi đi: giấy tờ tùy thân gốc, giấy phép lái phù hợp nếu tự lái, tiền thuê và cọc theo hình thức đã thỏa thuận, điện thoại đủ pin để liên hệ, và địa chỉ điểm nhận đã xác nhận. Nếu cần xe ga tận nơi, đặt trước để cửa hàng chủ động sắp lịch. Khách ở lại Hà Nội lâu nên đọc bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}) để hiểu các khoản ngoài giá thuê.
 
 ## Kết luận
 

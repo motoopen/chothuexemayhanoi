@@ -25,11 +25,11 @@ Trước khi ký biên bản giao nhận, hãy dành vài phút kiểm tra. Trê
 
 ## Hỏi rõ tuổi xe và tình trạng bảo dưỡng
 
-Xe 50cc cho thuê thường là xe cũ đã qua nhiều tay, nên tuổi xe ảnh hưởng trực tiếp đến độ ổn định. Nên hỏi: xe đã chạy bao nhiêu năm, còn được bảo dưỡng định kỳ không, lần thay nhớt và bugi gần nhất khi nào. Một cửa hàng chăm xe kỹ sẽ trả lời rõ ràng và cho bạn kiểm tra thoải mái; trả lời lấp lửng là tín hiệu nên cân nhắc. Nếu muốn trải nghiệm lái an toàn hơn trong thành phố, một số kinh nghiệm chung đã được tóm tắt trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/'}}).
+Xe 50cc cho thuê thường là xe cũ đã qua nhiều tay, nên tuổi xe ảnh hưởng trực tiếp đến độ ổn định. Nên hỏi: xe đã chạy bao nhiêu năm, còn được bảo dưỡng định kỳ không, lần thay nhớt và bugi gần nhất khi nào. Một cửa hàng chăm xe kỹ sẽ trả lời rõ ràng và cho bạn kiểm tra thoải mái; trả lời lấp lửng là tín hiệu nên cân nhắc. Nếu muốn trải nghiệm lái an toàn hơn trong thành phố, một số kinh nghiệm chung đã được tóm tắt trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Giấy tờ, giá thuê và mức cọc
 
-Về thủ tục, thuê xe 50cc giống các dòng khác: cần giấy tờ tùy thân hợp lệ và đặt cọc theo quy định, chi tiết nằm ở trang thủ tục thuê xe. Điểm đáng chú ý là giá thuê dòng xe nhỏ thường thấp hơn xe ga và xe số phổ thông, bạn có thể so sánh trực tiếp trên [bảng giá]({{ '/banggia.html' | relative_url }}). Mức cọc thường cũng nhẹ hơn, vì giá trị xe thấp. Nếu chỉ cần xe trong vài tiếng, tham khảo thêm cách tính [thuê xe máy Hà Nội theo giờ]({{ '/blog/thue-xe-may-ha-noi-theo-gio/' }}) để chọn gói tối ưu.
+Về thủ tục, thuê xe 50cc giống các dòng khác: cần giấy tờ tùy thân hợp lệ và đặt cọc theo quy định, chi tiết nằm ở trang thủ tục thuê xe. Điểm đáng chú ý là giá thuê dòng xe nhỏ thường thấp hơn xe ga và xe số phổ thông, bạn có thể so sánh trực tiếp trên bảng giá. Mức cọc thường cũng nhẹ hơn, vì giá trị xe thấp. Nếu chỉ cần xe trong vài tiếng, tham khảo thêm cách tính [thuê xe máy Hà Nội theo giờ]({{ '/blog/thue-xe-may-ha-noi-theo-gio/' | relative_url }}) để chọn gói tối ưu.
 
 ## Những câu hỏi nên đưa ra cho cửa hàng
 

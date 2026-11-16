@@ -25,7 +25,7 @@ Phanh xe Cub là loại cơ cấu cũ, khoảng cách phanh dài hơn xe hiện 
 
 ## Hỏi tuổi xe và lịch bảo dưỡng
 
-Xe Cub cho thuê thường có tuổi đời cao, và tuổi tác ảnh hưởng trực tiếp đến độ ổn định. Nên hỏi: xe đã được bảo dưỡng định kỳ không, gần nhất thay nhớt và bugi khi nào, và có phụ tùng thay thế sẵn hay không. Cửa hàng chăm sóc xe kỹ sẽ trả lời rõ ràng, thậm chí chủ động nói ra điểm yếu của từng chiếc. Trả lời mơ hồ về lịch bảo dưỡng là tín hiệu nên cân nhắc. Với khách lần đầu thuê xe ở Hà Nội, các bước kiểm tra chung đã được tóm tắt trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Xe Cub cho thuê thường có tuổi đời cao, và tuổi tác ảnh hưởng trực tiếp đến độ ổn định. Nên hỏi: xe đã được bảo dưỡng định kỳ không, gần nhất thay nhớt và bugi khi nào, và có phụ tùng thay thế sẵn hay không. Cửa hàng chăm sóc xe kỹ sẽ trả lời rõ ràng, thậm chí chủ động nói ra điểm yếu của từng chiếc. Trả lời mơ hồ về lịch bảo dưỡng là tín hiệu nên cân nhắc. Với khách lần đầu thuê xe ở Hà Nội, các bước kiểm tra chung đã được tóm tắt trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Giá thuê, cọc và điều kiện hợp đồng
 

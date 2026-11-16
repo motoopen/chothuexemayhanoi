@@ -21,7 +21,7 @@ Xe máy điện hợp với hành trình ngắn, nhiều điểm dừng, di chuy
 
 ## Chi phí thuê và các khoản đi kèm
 
-Về chi phí, hai loại hình không cùng cấp: thuê xe máy điện theo ngày ở mức dễ chịu, trong khi thuê ô tô điện đắt hơn đáng kể do giá trị tài sản. Nhưng đừng chỉ so đơn giá: với xe máy điện, cần tính thêm quy định về pin khi nhận và khi trả, như đã phân tích trong bài [giá thuê xe máy điện Hà Nội]({{ '/blog/gia-thue-xe-may-dien-ha-noi/' }}). Với ô tô điện, cần hỏi phạm vi km được phép chạy và phụ phí vượt định mức. Mức giá niêm yết của các dòng xe máy điện nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Về chi phí, hai loại hình không cùng cấp: thuê xe máy điện theo ngày ở mức dễ chịu, trong khi thuê ô tô điện đắt hơn đáng kể do giá trị tài sản. Nhưng đừng chỉ so đơn giá: với xe máy điện, cần tính thêm quy định về pin khi nhận và khi trả, như đã phân tích trong bài [giá thuê xe máy điện Hà Nội]({{ '/blog/gia-thue-xe-may-dien-ha-noi/' | relative_url }}). Với ô tô điện, cần hỏi phạm vi km được phép chạy và phụ phí vượt định mức. Mức giá niêm yết của các dòng xe máy điện nằm ở trang bảng giá.
 
 ## Chỗ sạc và thời gian chờ sạc
 

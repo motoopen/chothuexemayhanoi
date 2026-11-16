@@ -17,11 +17,11 @@ Câu đầu tiên khi hỏi về pin: gói thuê này đã gồm pin trong xe ch
 
 ## Kiểm tra hai: tình trạng pin của chiếc xe bạn nhận
 
-Pin cho thuê cũng lão hóa như xe cho thuê, nên câu hỏi kế tiếp: pin của chiếc này đã dùng bao lâu, dung lượng còn khoảng bao nhiêu so với ban đầu. Yêu cầu xem mức hiển thị khi nhận và ước quãng đường còn lại ở mức đó. Với các dòng xe máy điện của VinFast, thông số về pin và các quy định liên quan được công bố trên kênh chính thức của hãng, nên đối chiếu từ đó trước khi dựa vào con số do trung gian cung cấp. Nhóm câu hỏi chi tiết về pin khi thuê xe điện đã được tổng hợp trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}).
+Pin cho thuê cũng lão hóa như xe cho thuê, nên câu hỏi kế tiếp: pin của chiếc này đã dùng bao lâu, dung lượng còn khoảng bao nhiêu so với ban đầu. Yêu cầu xem mức hiển thị khi nhận và ước quãng đường còn lại ở mức đó. Với các dòng xe máy điện của VinFast, thông số về pin và các quy định liên quan được công bố trên kênh chính thức của hãng, nên đối chiếu từ đó trước khi dựa vào con số do trung gian cung cấp. Nhóm câu hỏi chi tiết về pin khi thuê xe điện đã được tổng hợp trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}).
 
 ## Kiểm tra ba: quy định sạc và trao đổi pin
 
-Hỏi rõ: pin này sạc thế nào, bộ sạc có kèm xe không, và nếu có mạng lưới trao đổi pin thì dùng được với gói thuê của bạn không. Nếu dựa vào trao đổi pin, hỏi vị trí các điểm trao đổi gần khu bạn lưu trú và chi phí mỗi lần trao đổi đã gồm trong gói chưa. Với gói dài ngày, phương án sạc bền vững quan trọng hơn mọi chiết khấu giá, vì mất thời gian chờ sạc là chi phí thực của chuyến đi. Bài [thuê xe máy điện theo tháng ở Hà Nội]({{ '/blog/thue-xe-may-dien-theo-thang-ha-noi/' }}) tổng hợp nhóm câu hỏi này cho hợp đồng dài.
+Hỏi rõ: pin này sạc thế nào, bộ sạc có kèm xe không, và nếu có mạng lưới trao đổi pin thì dùng được với gói thuê của bạn không. Nếu dựa vào trao đổi pin, hỏi vị trí các điểm trao đổi gần khu bạn lưu trú và chi phí mỗi lần trao đổi đã gồm trong gói chưa. Với gói dài ngày, phương án sạc bền vững quan trọng hơn mọi chiết khấu giá, vì mất thời gian chờ sạc là chi phí thực của chuyến đi. Bài [thuê xe máy điện theo tháng ở Hà Nội]({{ '/blog/thue-xe-may-dien-theo-thang-ha-noi/' | relative_url }}) tổng hợp nhóm câu hỏi này cho hợp đồng dài.
 
 ## Kiểm tra bốn: trách nhiệm khi pin gặp sự cố
 

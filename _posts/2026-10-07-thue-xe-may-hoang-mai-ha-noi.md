@@ -21,15 +21,15 @@ Các trục lớn qua Hoàng Mai có hai khung đông: sáng sớm dòng xe từ
 
 ## Loại xe hợp quãng đường trong quận
 
-Quãng đường trong Hoàng Mai thường dài hơn các quận nội thành, nên dòng xe êm và đủ lực giúp phần mỏi tay và lưng trên chặng dày. Nếu bạn đi lên nội thành mỗi ngày, xe ga phổ thông là lựa chọn cân bằng tốt giữa êm và tiết kiệm. Nếu chỉ đi quãng ngắn quanh cụm dân cư, dòng xe nhỏ gọn đủ dùng. Khách định kết hợp chạy ra vùng ven phía nam trong ngày nên chọn dòng ổn định. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang bảng giá. Với khách thuê lâu, các khoản ngoài giá thuê đã được liệt kê trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}).
+Quãng đường trong Hoàng Mai thường dài hơn các quận nội thành, nên dòng xe êm và đủ lực giúp phần mỏi tay và lưng trên chặng dày. Nếu bạn đi lên nội thành mỗi ngày, xe ga phổ thông là lựa chọn cân bằng tốt giữa êm và tiết kiệm. Nếu chỉ đi quãng ngắn quanh cụm dân cư, dòng xe nhỏ gọn đủ dùng. Khách định kết hợp chạy ra vùng ven phía nam trong ngày nên chọn dòng ổn định. Danh sách dòng xe hiện có nằm ở trang các loại xe cho thuê, mức giá tại trang bảng giá. Với khách thuê lâu, các khoản ngoài giá thuê đã được liệt kê trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}).
 
 ## Hỏi về phạm vi và giao xe tận nơi
 
-Hai câu đáng hỏi khi đặt: phạm vi di chuyển có bị giới hạn không, vì một số gói tập trung nội thành trong khi nhiều lịch trình của cư dân Hoàng Mai cần chạy các trục phía nam; và có giao xe tận chỗ ở trong quận không. Làm rõ cả hai ngay từ đầu để hợp đồng khớp lịch trình thật. Điều khoản và giấy tờ chuẩn bị tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Khung kinh nghiệm lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}). Với gói ngắn vài tiếng, tham khảo cách tính trong bài [thuê xe máy Hà Nội theo giờ]({{ '/blog/thue-xe-may-ha-noi-theo-gio/' }}).
+Hai câu đáng hỏi khi đặt: phạm vi di chuyển có bị giới hạn không, vì một số gói tập trung nội thành trong khi nhiều lịch trình của cư dân Hoàng Mai cần chạy các trục phía nam; và có giao xe tận chỗ ở trong quận không. Làm rõ cả hai ngay từ đầu để hợp đồng khớp lịch trình thật. Điều khoản và giấy tờ chuẩn bị tại trang thủ tục thuê xe. Khung kinh nghiệm lần đầu thuê nằm trong bài thuê xe máy Hà Nội lần đầu. Với gói ngắn vài tiếng, tham khảo cách tính trong bài [thuê xe máy Hà Nội theo giờ]({{ '/blog/thue-xe-may-ha-noi-theo-gio/' | relative_url }}).
 
 ## Kiểm tra xe và giữ xe quanh cụm dân cư
 
-Bộ kiểm tra chuẩn khi nhận: ga, phanh trước và sau, đèn còi, chạy thử vòng ngắn, chụp tình trạng xe. Trong ngày, nếu cụm dân cư không có chỗ để xe an toàn, dùng bãi gửi có phí gần nhà hoặc nơi làm việc, đặc biệt với hợp đồng dài. Lưu số hotline hỗ trợ trước khi lăn bánh. Khách chọn xe điện nên hỏi mức pin khi nhận và điểm sạc gần tuyến định đi, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}).
+Bộ kiểm tra chuẩn khi nhận: ga, phanh trước và sau, đèn còi, chạy thử vòng ngắn, chụp tình trạng xe. Trong ngày, nếu cụm dân cư không có chỗ để xe an toàn, dùng bãi gửi có phí gần nhà hoặc nơi làm việc, đặc biệt với hợp đồng dài. Lưu số hotline hỗ trợ trước khi lăn bánh. Khách chọn xe điện nên hỏi mức pin khi nhận và điểm sạc gần tuyến định đi, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}).
 
 ## Kết luận
 

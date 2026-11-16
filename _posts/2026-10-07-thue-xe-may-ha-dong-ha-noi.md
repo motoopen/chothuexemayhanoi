@@ -25,11 +25,11 @@ Quãng đường từ Hà Đông lên trung tâm khá dài, nên dòng xe êm v�
 
 ## Hỏi về phạm vi di chuyển và giao xe tận nơi
 
-Hai câu đáng hỏi khi đặt: phạm vi cho phép có gồm tuyến lên trung tâm và các khu ven phía tây không, vì một số gói giới hạn nội thành hẹp; và có giao xe tận chỗ ở trong khu được không, phụ phí thế nào. Làm rõ cả hai ngay từ đầu để hợp đồng khớp lịch trình thật. Với khách công tác ở lâu, tham khảo các khoản ngoài giá thuê trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}). Điều khoản và giấy tờ chuẩn bị tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Khung kinh nghiệm lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Hai câu đáng hỏi khi đặt: phạm vi cho phép có gồm tuyến lên trung tâm và các khu ven phía tây không, vì một số gói giới hạn nội thành hẹp; và có giao xe tận chỗ ở trong khu được không, phụ phí thế nào. Làm rõ cả hai ngay từ đầu để hợp đồng khớp lịch trình thật. Với khách công tác ở lâu, tham khảo các khoản ngoài giá thuê trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}). Điều khoản và giấy tờ chuẩn bị tại trang thủ tục thuê xe. Khung kinh nghiệm lần đầu thuê nằm trong bài thuê xe máy Hà Nội lần đầu.
 
 ## Kiểm tra xe và giữ xe trong ngày
 
-Bộ kiểm tra chuẩn khi nhận: ga, phanh trước và sau, đèn còi, chạy thử vòng ngắn quanh hẻm, chụp lại tình trạng xe. Trong ngày, nếu khu đô thị không có chỗ để xe an toàn, dùng bãi gửi có phí gần nhà hoặc nơi làm việc. Lưu số hotline hỗ trợ của cửa hàng trước khi lăn bánh. Khách chọn xe điện nên hỏi mức pin khi nhận và điểm sạc gần tuyến định đi, nhóm câu hỏi chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}).
+Bộ kiểm tra chuẩn khi nhận: ga, phanh trước và sau, đèn còi, chạy thử vòng ngắn quanh hẻm, chụp lại tình trạng xe. Trong ngày, nếu khu đô thị không có chỗ để xe an toàn, dùng bãi gửi có phí gần nhà hoặc nơi làm việc. Lưu số hotline hỗ trợ của cửa hàng trước khi lăn bánh. Khách chọn xe điện nên hỏi mức pin khi nhận và điểm sạc gần tuyến định đi, nhóm câu hỏi chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}).
 
 ## Kết luận
 

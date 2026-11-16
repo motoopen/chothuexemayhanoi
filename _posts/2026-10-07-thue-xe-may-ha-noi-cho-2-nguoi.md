@@ -25,11 +25,11 @@ Chạy hai người mỏi tay người lái nhanh hơn, nên chia chặng lái n
 
 ## Kiểm tra xe kỹ hơn khi chở hai
 
-Tải nặng làm phanh và giảm xóc làm việc nhiều hơn, nên khi nhận xe, kiểm tra phanh trước sau ở tốc độ thấp với cả hai người lên xe nếu được phép chạy thử. Kiểm tra áp suất lốp hỏi chủ cửa hàng, kể cả đèn còi và gương. Chụp hiện trạng xe kể cả vết xước. Kinh nghiệm đầy đủ cho người mới thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}). Khách chọn xe điện nên hỏi pin với tải nặng có giảm hành trình không, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}).
+Tải nặng làm phanh và giảm xóc làm việc nhiều hơn, nên khi nhận xe, kiểm tra phanh trước sau ở tốc độ thấp với cả hai người lên xe nếu được phép chạy thử. Kiểm tra áp suất lốp hỏi chủ cửa hàng, kể cả đèn còi và gương. Chụp hiện trạng xe kể cả vết xước. Kinh nghiệm đầy đủ cho người mới thuê nằm trong bài thuê xe máy Hà Nội lần đầu. Khách chọn xe điện nên hỏi pin với tải nặng có giảm hành trình không, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}).
 
 ## Hành trình dài và gói thuê phù hợp
 
-Với cặp đôi định chạy ven Hà Nội hoặc đi nhiều ngày, chọn dòng xe êm và cân nhắc gói tuần thay vì tính ngày lẻ. Kinh nghiệm các khoản ngoài giá thuê nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}). Gửi xe qua đêm ở bãi có người trông thay vì để ngoài đường, vì hai người thường mang nhiều đồ hơn. Chốt trước các điểm dừng nghỉ có chỗ để xe rộng, vì hai người kèm hành lý cần chỗ đỗ rộng hơn một mình.
+Với cặp đôi định chạy ven Hà Nội hoặc đi nhiều ngày, chọn dòng xe êm và cân nhắc gói tuần thay vì tính ngày lẻ. Kinh nghiệm các khoản ngoài giá thuê nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}). Gửi xe qua đêm ở bãi có người trông thay vì để ngoài đường, vì hai người thường mang nhiều đồ hơn. Chốt trước các điểm dừng nghỉ có chỗ để xe rộng, vì hai người kèm hành lý cần chỗ đỗ rộng hơn một mình.
 
 ## Kết luận
 

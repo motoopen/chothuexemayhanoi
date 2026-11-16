@@ -17,15 +17,15 @@ Một ngày thuê thường tính theo khung hai mứ tư giờ kể từ lúc n
 
 ## So giá ngày với gói khi cần hơn một ngày
 
-Nếu kế hoạch của bạn tràn qua ngày thứ hai dù chỉ vài giờ, so quy đổi: phụ phí vài giờ theo giờ so với giá ngày thứ hai, hoặc chuyển luôn sang gói hai ngày hoặc tuần. Đôi khi trả thêm trọn ngày thứ hai rẻ hơn nhiều lần phụ phí tính giờ, và hỏi trước giúp bạn chọn được phương án tốt nhất. Kinh nghiệm cho các gói dài hơn nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}). Khách định quay lại Hà Nội nhiều lần trong tháng nên hỏi gói ưu đãi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Nếu kế hoạch của bạn tràn qua ngày thứ hai dù chỉ vài giờ, so quy đổi: phụ phí vài giờ theo giờ so với giá ngày thứ hai, hoặc chuyển luôn sang gói hai ngày hoặc tuần. Đôi khi trả thêm trọn ngày thứ hai rẻ hơn nhiều lần phụ phí tính giờ, và hỏi trước giúp bạn chọn được phương án tốt nhất. Kinh nghiệm cho các gói dài hơn nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}). Khách định quay lại Hà Nội nhiều lần trong tháng nên hỏi gói ưu đãi qua trang liên hệ.
 
 ## Các phụ phí có thể phát sinh trong một ngày
 
-Ba khoản hay gặp: phí giao xe tận nơi theo khoảng cách, phụ phí khung nhận hoặc trả ngoài giờ mở cửa, và điều khoản xăng dầu về lại đúng mức khi nhận hay đổ đầy. Hỏi cả ba trước khi đặt cọc, kể cả mức tính từng giờ nếu trễ hạn. Các điều khoản chung nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Kinh nghiệm chuẩn bị đầy đủ cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Ba khoản hay gặp: phí giao xe tận nơi theo khoảng cách, phụ phí khung nhận hoặc trả ngoài giờ mở cửa, và điều khoản xăng dầu về lại đúng mức khi nhận hay đổ đầy. Hỏi cả ba trước khi đặt cọc, kể cả mức tính từng giờ nếu trễ hạn. Các điều khoản chung nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Kinh nghiệm chuẩn bị đầy đủ cho lần đầu thuê nằm trong bài thuê xe máy Hà Nội lần đầu.
 
 ## Chọn dòng xe cho một ngày
 
-Với một ngày, chọn dòng theo lịch trình: phố ngắn quanh nội thành thì xe số nhỏ gọn đủ và rẻ nhất, chặng ven hoặc chở thêm người thì xe ga êm đáng tiền hơn. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}). Khách cân nhắc chi phí xăng cho quãng ngắn nên xem nhóm xe điện trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}), hỏi pin và điểm sạc khi nhận.
+Với một ngày, chọn dòng theo lịch trình: phố ngắn quanh nội thành thì xe số nhỏ gọn đủ và rẻ nhất, chặng ven hoặc chở thêm người thì xe ga êm đáng tiền hơn. Danh sách dòng xe hiện có nằm ở trang các loại xe cho thuê. Khách cân nhắc chi phí xăng cho quãng ngắn nên xem nhóm xe điện trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}), hỏi pin và điểm sạc khi nhận.
 
 ## Kết luận
 

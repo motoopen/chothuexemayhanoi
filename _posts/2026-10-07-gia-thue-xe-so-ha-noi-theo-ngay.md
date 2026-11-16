@@ -13,11 +13,11 @@ Xe số phổ thông là dòng rẻ nhất khi thuê xe máy ở Hà Nội, như
 
 ## Yếu tố dòng xe và thời gian thuê
 
-Trong nhóm xe số, các dòng xe khác nhau có mức khác nhau tùy cấu tạo và độ phổ biến, xe càng phổ thông càng dễ thuê giá tốt. Thời gian thuê là yếu tố lớn nhất: giá theo ngày quy đổi cao hơn gói tuần rõ rệt, nên nếu cần nhiều ngày, hỏi luôn gói dài thay vì cộng lẻ. Mức giá các dòng nằm ở trang bảng giá, danh sách dòng hiện có ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}). Kinh nghiệm gói dài ngày nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}).
+Trong nhóm xe số, các dòng xe khác nhau có mức khác nhau tùy cấu tạo và độ phổ biến, xe càng phổ thông càng dễ thuê giá tốt. Thời gian thuê là yếu tố lớn nhất: giá theo ngày quy đổi cao hơn gói tuần rõ rệt, nên nếu cần nhiều ngày, hỏi luôn gói dài thay vì cộng lẻ. Mức giá các dòng nằm ở trang bảng giá, danh sách dòng hiện có ở trang các loại xe cho thuê. Kinh nghiệm gói dài ngày nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}).
 
 ## Yếu tố cọc và điều khoản
 
-Xe số có mức cọc thấp hơn xe ga, nhưng vẫn cần hỏi rõ hình thức giữ, thời gian hoàn trả, và điều kiện khấu trừ khi hư hỏng. Chụp hiện trạng xe kể cả vết xước sẵn có để tránh tranh luận lúc hoàn cọc. Điều khoản khi ký nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Với người lần đầu thuê, đọc trước kinh nghiệm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}) để không bỏ sót mục nào trong hợp đồng.
+Xe số có mức cọc thấp hơn xe ga, nhưng vẫn cần hỏi rõ hình thức giữ, thời gian hoàn trả, và điều kiện khấu trừ khi hư hỏng. Chụp hiện trạng xe kể cả vết xước sẵn có để tránh tranh luận lúc hoàn cọc. Điều khoản khi ký nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Với người lần đầu thuê, đọc trước kinh nghiệm trong bài thuê xe máy Hà Nội lần đầu để không bỏ sót mục nào trong hợp đồng.
 
 ## Yếu tố phụ phí dễ làm tổng khác nhau
 
@@ -25,7 +25,7 @@ Ba khoản thường làm tổng biến động: phí giao xe tận nơi theo kh
 
 ## Khi nào xe số là chọn đúng
 
-Xe số hợp những lịch trình quãng ngắn, một mình, quanh khu ở hoặc nội thành, nơi dòng xe nhỏ gọn và rẻ nhất vẫn đủ dùng. Nếu bạn đi chặng dài hoặc chở thêm người, cân nhắc nâng lên xe ga êm hơn, hoặc xem nhóm xe điện cho quãng ngắn tiết kiệm chi phí xăng, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}). Chọn đúng dòng theo nhu cầu chính là cách tiết kiệm lớn nhất, hơn mọi khoản mặc cả nhỏ.
+Xe số hợp những lịch trình quãng ngắn, một mình, quanh khu ở hoặc nội thành, nơi dòng xe nhỏ gọn và rẻ nhất vẫn đủ dùng. Nếu bạn đi chặng dài hoặc chở thêm người, cân nhắc nâng lên xe ga êm hơn, hoặc xem nhóm xe điện cho quãng ngắn tiết kiệm chi phí xăng, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}). Chọn đúng dòng theo nhu cầu chính là cách tiết kiệm lớn nhất, hơn mọi khoản mặc cả nhỏ.
 
 ## Ví dụ so hai gói xe số
 

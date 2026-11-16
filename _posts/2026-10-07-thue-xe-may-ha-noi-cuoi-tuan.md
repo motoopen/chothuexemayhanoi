@@ -13,15 +13,15 @@ Cuối tuần là lúc nhu cầu thuê xe máy ở Hà Nội tăng vọt, khung 
 
 ## Đặt trước thay vì đến chọn trực tiếp
 
-Mùa cuối tuần, các dòng phổ thông và xe ga hay hết trước sáng thứ Bảy. Đặt trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) với thông tin cụ thể: dòng xe, ngày nhận, ngày trả, và địa điểm nếu cần giao tận nơi. Giao xe tận nhà hoặc khách sạn sáng thứ Bảy giúp bạn không phải xếp hàng tại điểm nhận, kinh nghiệm quy trình này nằm trong bài [thuê xe máy Hà Nội giao tận nơi]({{ '/blog/thue-xe-may-ha-noi-giao-tan-noi/' }}). Mức giá theo ngày nằm ở trang bảng giá.
+Mùa cuối tuần, các dòng phổ thông và xe ga hay hết trước sáng thứ Bảy. Đặt trước qua trang liên hệ với thông tin cụ thể: dòng xe, ngày nhận, ngày trả, và địa điểm nếu cần giao tận nơi. Giao xe tận nhà hoặc khách sạn sáng thứ Bảy giúp bạn không phải xếp hàng tại điểm nhận, kinh nghiệm quy trình này nằm trong bài [thuê xe máy Hà Nội giao tận nơi]({{ '/blog/thue-xe-may-ha-noi-giao-tan-noi/' | relative_url }}). Mức giá theo ngày nằm ở trang bảng giá.
 
 ## Chọn khung giờ nhận ít đông
 
-Nếu tự đến điểm nhận, tránh khung sáng thứ Bảy vì đây là lúc đông nhất trong tuần. Khung giữa trưa thứ Bảy hoặc tối thứ Sáu ít đông hơn hẳn, bạn kiểm tra xe thoải mái không bị giục. Với lịch trả xe chiều Chủ nhật, hỏi trước giờ đóng cửa để không bị tính thêm ngày. Khách chọn xe điện nên hỏi pin và điểm sạc khi nhận, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}).
+Nếu tự đến điểm nhận, tránh khung sáng thứ Bảy vì đây là lúc đông nhất trong tuần. Khung giữa trưa thứ Bảy hoặc tối thứ Sáu ít đông hơn hẳn, bạn kiểm tra xe thoải mái không bị giục. Với lịch trả xe chiều Chủ nhật, hỏi trước giờ đóng cửa để không bị tính thêm ngày. Khách chọn xe điện nên hỏi pin và điểm sạc khi nhận, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}).
 
 ## Checklist kiểm tra khi nhận nhanh
 
-Dù vội, đừng bỏ các bước: kiểm tra ga, hai phanh, đèn còi, chạy thử vòng ngắn quanh điểm nhận, chụp hiện trạng xe kể cả vết xước sẵn có. Ba phút này giúp bạn không chịu trách nhiệm hư hỏng có sẵn khi trả xe. Lưu số hỗ trợ của cửa hàng cho mọi sự cố giữa đường. Kinh nghiệm đầy đủ cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}), dòng xe hợp từng loại chuyến nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}).
+Dù vội, đừng bỏ các bước: kiểm tra ga, hai phanh, đèn còi, chạy thử vòng ngắn quanh điểm nhận, chụp hiện trạng xe kể cả vết xước sẵn có. Ba phút này giúp bạn không chịu trách nhiệm hư hỏng có sẵn khi trả xe. Lưu số hỗ trợ của cửa hàng cho mọi sự cố giữa đường. Kinh nghiệm đầy đủ cho lần đầu thuê nằm trong bài thuê xe máy Hà Nội lần đầu, dòng xe hợp từng loại chuyến nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}).
 
 ## Chuẩn bị giấy tờ để ký nhanh
 
@@ -29,7 +29,7 @@ Chuẩn bị sẵn giấy tờ tùy thân bản gốc còn hiệu lực và gi�
 
 ## Trả xe nhanh và đúng hẹn
 
-Trước khi trả, lau sạch xe mức cơ bản, đổ lại mức xăng như khi nhận nếu hợp đồng yêu cầu, và trình diện đúng khung đã hẹn. Nhờ người nhận xe xác nhận hiện trạng và ghi chú hoàn cọc rõ ràng, chụp lại biên nhận. Trả đúng giờ giúp bạn lấy lại cọc sớm và giữ uy tín cho lần thuê sau, kể cả khi bạn định thuê gói dài ngày hơn vào dịp sau, các khoản ngoài giá thuê nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}).
+Trước khi trả, lau sạch xe mức cơ bản, đổ lại mức xăng như khi nhận nếu hợp đồng yêu cầu, và trình diện đúng khung đã hẹn. Nhờ người nhận xe xác nhận hiện trạng và ghi chú hoàn cọc rõ ràng, chụp lại biên nhận. Trả đúng giờ giúp bạn lấy lại cọc sớm và giữ uy tín cho lần thuê sau, kể cả khi bạn định thuê gói dài ngày hơn vào dịp sau, các khoản ngoài giá thuê nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}).
 
 ## Chuẩn bị sẵn phương án dự phòng
 

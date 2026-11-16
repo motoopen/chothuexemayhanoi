@@ -21,7 +21,7 @@ Phạm vi sử dụng của pin phụ thuộc vào bốn biến: số người c
 
 ## Thử xe trước khi nhận
 
-Trước khi ký, chạy thử vòng ngắn quanh khu phố để đánh giá ba thứ: độ nhạy của ga, độ ăn của phanh, và tốc độ xả pin theo cảm nhận. Trong vòng thử, để ý kim hoặc vạch pin tụ nhanh bất thường không, vì đó là dấu hiệu pin lão hóa hoặc đo không chuẩn. Hỏi kèm về chế độ đi của xe: chế độ nào tiết kiệm pin nhất, chuyển thế nào, và khi pin yếu xe có tự giới hạn tốc độ không. Nhóm câu hỏi đầy đủ về pin đã được tổng hợp trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}).
+Trước khi ký, chạy thử vòng ngắn quanh khu phố để đánh giá ba thứ: độ nhạy của ga, độ ăn của phanh, và tốc độ xả pin theo cảm nhận. Trong vòng thử, để ý kim hoặc vạch pin tụ nhanh bất thường không, vì đó là dấu hiệu pin lão hóa hoặc đo không chuẩn. Hỏi kèm về chế độ đi của xe: chế độ nào tiết kiệm pin nhất, chuyển thế nào, và khi pin yếu xe có tự giới hạn tốc độ không. Nhóm câu hỏi đầy đủ về pin đã được tổng hợp trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}).
 
 ## Đối chiếu thông số với kênh chính hãng
 
@@ -29,7 +29,7 @@ Các con số về dung lượng pin và tầm hoạt động của mẫu xe má
 
 ## Kế hoạch dự phòng khi tự lái
 
-Tự lái nghĩa là bạn tự xử lý mọi tình huống, nên trước khi lăn bánh: xác định trạm sạc hoặc điểm sạc dự phòng gần tuyến hay đi, lưu số hotline của cửa hàng, và đặt ngưỡng quay về ở mức pin nhất định, ví dụ khi còn dưới ba mươi phần trăm thì hướng về chỗ sạc. Quy định trả xe về mức pin nằm trong hợp đồng, đọc kỹ để tránh phụ phí. Thủ tục giấy tờ tại trang thủ tục thuê xe, thông tin liên hệ tại trang [liên hệ]({{ '/lienhe.html' | relative_url }}), và khung kinh nghiệm chung cho khách lần đầu trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Tự lái nghĩa là bạn tự xử lý mọi tình huống, nên trước khi lăn bánh: xác định trạm sạc hoặc điểm sạc dự phòng gần tuyến hay đi, lưu số hotline của cửa hàng, và đặt ngưỡng quay về ở mức pin nhất định, ví dụ khi còn dưới ba mươi phần trăm thì hướng về chỗ sạc. Quy định trả xe về mức pin nằm trong hợp đồng, đọc kỹ để tránh phụ phí. Thủ tục giấy tờ tại trang thủ tục thuê xe, thông tin liên hệ tại trang liên hệ, và khung kinh nghiệm chung cho khách lần đầu trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Kết luận
 

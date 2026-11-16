@@ -25,11 +25,11 @@ Không cần giấy phép lái không đồng nghĩa không cần giấy tờ kh
 
 ## Hiểu nhầm bốn: quy định không bao giờ thay đổi
 
-Quy định về phân loại xe và giấy phép lái là văn bản pháp luật, có thể được sửa đổi theo thời gian. Cách làm an toàn là kiểm tra quy định hiện hành từ nguồn chính thức của cơ quan chức năng trước chuyến đi, thay vì dựa vào câu quảng cáo đã đọc từ trước hoặc kinh nghiệm của người quen. Cách phân biệt đúng loại xe đã được trình bày trong bài [thuê xe điện không bằng lái]({{ '/blog/thue-xe-dien-khong-bang-lai/' }}), bạn nên đọc cùng bài này để có bức tranh đầy đủ.
+Quy định về phân loại xe và giấy phép lái là văn bản pháp luật, có thể được sửa đổi theo thời gian. Cách làm an toàn là kiểm tra quy định hiện hành từ nguồn chính thức của cơ quan chức năng trước chuyến đi, thay vì dựa vào câu quảng cáo đã đọc từ trước hoặc kinh nghiệm của người quen. Cách phân biệt đúng loại xe đã được trình bày trong bài [thuê xe điện không bằng lái]({{ '/blog/thue-xe-dien-khong-bang-lai/' | relative_url }}), bạn nên đọc cùng bài này để có bức tranh đầy đủ.
 
 ## Cách nói chuyện với cửa hàng cho thuê
 
-Khi đặt xe, mô tả thẳng hoàn cảnh của mình: chưa có giấy phép lái, đi một người, lộ trình dự kiến trong nội thành. Dịch vụ chuyên nghiệp sẽ tư vấn đúng loại xe phù hợp cả nhu cầu lẫn quy định, thay vì chỉ giao chiếc xe đang dư. Hỏi kèm về giá trên bảng giá, danh sách dòng xe hiện có tại trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), và liên hệ trước qua trang liên hệ. Khách lần đầu thuê ở Hà Nội nên đọc thêm khung kinh nghiệm chung trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Khi đặt xe, mô tả thẳng hoàn cảnh của mình: chưa có giấy phép lái, đi một người, lộ trình dự kiến trong nội thành. Dịch vụ chuyên nghiệp sẽ tư vấn đúng loại xe phù hợp cả nhu cầu lẫn quy định, thay vì chỉ giao chiếc xe đang dư. Hỏi kèm về giá trên bảng giá, danh sách dòng xe hiện có tại trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), và liên hệ trước qua trang liên hệ. Khách lần đầu thuê ở Hà Nội nên đọc thêm khung kinh nghiệm chung trong bài thuê xe máy Hà Nội lần đầu.
 
 ## Kết luận
 

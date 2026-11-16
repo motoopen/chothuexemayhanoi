@@ -17,15 +17,15 @@ Có lịch cần xe từ sáng sớm, chẳng hạn đón chuyến đi, đi làm
 
 ## Ưu tiên giao xe tận nơi cho khung sớm
 
-Với lịch trước bảy giờ sáng, gói giao xe tận nhà hoặc tận khách sạn thường là phương án nhanh nhất, vì bạn không tốn thời gian di chuyển tới điểm nhận lúc đường còn vắng. Kinh nghiệm quy trình giao tận nơi nằm trong bài [thuê xe máy Hà Nội giao tận nơi]({{ '/blog/thue-xe-may-ha-noi-giao-tan-noi/' }}). Hỏi phụ phí giao khung sớm trước khi chốt, và chuẩn bị sẵn giấy tờ cùng cọc để ký ngay tại chỗ khi xe tới.
+Với lịch trước bảy giờ sáng, gói giao xe tận nhà hoặc tận khách sạn thường là phương án nhanh nhất, vì bạn không tốn thời gian di chuyển tới điểm nhận lúc đường còn vắng. Kinh nghiệm quy trình giao tận nơi nằm trong bài [thuê xe máy Hà Nội giao tận nơi]({{ '/blog/thue-xe-may-ha-noi-giao-tan-noi/' | relative_url }}). Hỏi phụ phí giao khung sớm trước khi chốt, và chuẩn bị sẵn giấy tờ cùng cọc để ký ngay tại chỗ khi xe tới.
 
 ## Checklist nhận nhanh nhưng đủ
 
-Dù vội, giữ nguyên các bước kiểm tra: ga, hai phanh, đèn còi, chạy thử vòng ngắn quanh đầu hẻm, chụp hiện trạng xe kể cả vết xước sẵn có. Toàn bộ chỉ mất vài phút nhưng bảo vệ bạn khi trả xe. Lưu số hỗ trợ của cửa hàng vào điện thoại trước khi lăn bánh. Kinh nghiệm đầy đủ cho người mới thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}). Khách chọn xe điện cần hỏi pin lúc giao và điểm sạc gần tuyến, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}). Nếu trời còn tối, bật đèn xe và soi kỹ gương, biển số, kể cả xiên két quanh bánh, vì sáng sớm ánh sáng yếu dễ bỏ sót vết xước nhỏ.
+Dù vội, giữ nguyên các bước kiểm tra: ga, hai phanh, đèn còi, chạy thử vòng ngắn quanh đầu hẻm, chụp hiện trạng xe kể cả vết xước sẵn có. Toàn bộ chỉ mất vài phút nhưng bảo vệ bạn khi trả xe. Lưu số hỗ trợ của cửa hàng vào điện thoại trước khi lăn bánh. Kinh nghiệm đầy đủ cho người mới thuê nằm trong bài thuê xe máy Hà Nội lần đầu. Khách chọn xe điện cần hỏi pin lúc giao và điểm sạc gần tuyến, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}). Nếu trời còn tối, bật đèn xe và soi kỹ gương, biển số, kể cả xiên két quanh bánh, vì sáng sớm ánh sáng yếu dễ bỏ sót vết xước nhỏ.
 
 ## Giấy tờ chuẩn bị từ tối hôm trước
 
-Xếp sẵn giấy tờ tùy thân bản gốc và giấy phép lái phù hợp vào túi từ tối trước, cùng tiền cọc theo hình thức đã thỏa thuận. Điều khoản khi ký nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Với khách cần xe nhiều ngày liên tục cho lịch công việc sớm, cân nhắc gói tuần hoặc tháng, kinh nghiệm các khoản ngoài giá thuê nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}).
+Xếp sẵn giấy tờ tùy thân bản gốc và giấy phép lái phù hợp vào túi từ tối trước, cùng tiền cọc theo hình thức đã thỏa thuận. Điều khoản khi ký nằm ở trang thủ tục thuê xe. Với khách cần xe nhiều ngày liên tục cho lịch công việc sớm, cân nhắc gói tuần hoặc tháng, kinh nghiệm các khoản ngoài giá thuê nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}).
 
 
 ## Kinh nghiệm cho lịch sáng sớm thường xuyên

@@ -17,7 +17,7 @@ Hai chiếc xe ga cùng dòng, cùng mức giá, có thể khác nhau rõ về �
 
 ## So mức cọc theo dòng xe
 
-Với xe ga, khoản cọc thường cao hơn dòng số phổ thông vì giá trị xe lớn hơn. Hỏi trước mức cọc, hình thức giữ, và thời gian hoàn trả, kể cả điều kiện khấu trừ khi có vết xước nhỏ. Chụp hiện trạng xe chi tiết khi nhận để đối chiếu khi hoàn cọc. Điều khoản cọc nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), kinh nghiệm chuẩn bị đầy đủ cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Với xe ga, khoản cọc thường cao hơn dòng số phổ thông vì giá trị xe lớn hơn. Hỏi trước mức cọc, hình thức giữ, và thời gian hoàn trả, kể cả điều kiện khấu trừ khi có vết xước nhỏ. Chụp hiện trạng xe chi tiết khi nhận để đối chiếu khi hoàn cọc. Điều khoản cọc nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), kinh nghiệm chuẩn bị đầy đủ cho lần đầu thuê nằm trong bài thuê xe máy Hà Nội lần đầu.
 
 ## So các khoản phụ phí kèm theo
 
@@ -25,7 +25,7 @@ Ngoài giá ngày, rà các khoản: phí giao xe tận nơi theo khoảng cách
 
 ## So với các dòng khác theo nhu cầu
 
-Xe ga đáng tiền khi bạn đi chặng dài, chở thêm người hoặc cần sự êm cho ngày nhiều việc. Quãng ngắn quanh khu ở, một mình, thì dòng số phổ thông rẻ hơn mà đủ dùng, và nhóm xe điện còn rẻ chi phí xăng nữa, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}). Đi nhiều ngày liên tục thì so gói tuần của từng dòng, kinh nghiệm gói dài nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}).
+Xe ga đáng tiền khi bạn đi chặng dài, chở thêm người hoặc cần sự êm cho ngày nhiều việc. Quãng ngắn quanh khu ở, một mình, thì dòng số phổ thông rẻ hơn mà đủ dùng, và nhóm xe điện còn rẻ chi phí xăng nữa, chi tiết nằm trong bài cho thuê xe máy điện Hà Nội. Đi nhiều ngày liên tục thì so gói tuần của từng dòng, kinh nghiệm gói dài nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}).
 
 ## Ví dụ so hai gói xe ga cùng giá niêm yết
 

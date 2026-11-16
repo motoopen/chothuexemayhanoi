@@ -25,7 +25,7 @@ Ba tình huống thường gặp ở Hà Nội. Một, khách muốn thuê xe m�
 
 ## Nói chuyện với cửa hàng cho thuê
 
-Khi xác định được loại xe phù hợp, nói rõ với cửa hàng hoàn cảnh của mình: có bằng lái hay chưa, đi một hay hai người, lộ trình dự kiến. Dịch vụ tốt sẽ tư vấn đúng nhóm xe cho bạn thay vì chỉ bán chiếc xe đang dư. Hỏi kèm quy định khi trả xe, mức cọc và các điều kiện hợp đồng. Giá các gói nằm ở trang bảng giá, danh sách dòng xe hiện có tại trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), thông tin liên hệ tại trang liên hệ. Khách lần đầu thuê ở Hà Nội nên đọc thêm khung kinh nghiệm chung trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Khi xác định được loại xe phù hợp, nói rõ với cửa hàng hoàn cảnh của mình: có bằng lái hay chưa, đi một hay hai người, lộ trình dự kiến. Dịch vụ tốt sẽ tư vấn đúng nhóm xe cho bạn thay vì chỉ bán chiếc xe đang dư. Hỏi kèm quy định khi trả xe, mức cọc và các điều kiện hợp đồng. Giá các gói nằm ở trang bảng giá, danh sách dòng xe hiện có tại trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), thông tin liên hệ tại trang liên hệ. Khách lần đầu thuê ở Hà Nội nên đọc thêm khung kinh nghiệm chung trong bài thuê xe máy Hà Nội lần đầu.
 
 ## Kết luận
 

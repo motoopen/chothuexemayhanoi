@@ -21,11 +21,11 @@ Bảng giá thường chia theo dòng: xe số phổ thông rẻ nhất, xe ga c
 
 ## Phụ phí dễ bị bỏ qua
 
-Một số khoản thường xuất hiện ngoài giá niêm yết: phí giao xe tận nơi tính theo khoảng cách, phụ phí khung ngoài giờ mở cửa, phụ phí vượt phạm vi khu vực cho phép, và điều khoản hoàn cọc khi xe hư hỏng. Đọc kỹ phần điều khoản kèm bảng giá và hỏi lại các khoản chưa rõ qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước khi đặt cọc. Kinh nghiệm các khoản ngoài giá thuê cho gói dài ngày nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}).
+Một số khoản thường xuất hiện ngoài giá niêm yết: phí giao xe tận nơi tính theo khoảng cách, phụ phí khung ngoài giờ mở cửa, phụ phí vượt phạm vi khu vực cho phép, và điều khoản hoàn cọc khi xe hư hỏng. Đọc kỹ phần điều khoản kèm bảng giá và hỏi lại các khoản chưa rõ qua trang liên hệ trước khi đặt cọc. Kinh nghiệm các khoản ngoài giá thuê cho gói dài ngày nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}).
 
 ## Cọc không phải là giá thuê
 
-Tiền cọc là khoản bảo đảm, được hoàn trả khi xe về đúng hiện trạng, khác hoàn toàn với tiền thuê. Hỏi rõ hình thức giữ cọc, mức giữ theo dòng xe, và thời gian hoàn trả sau khi bạn trả xe. Chụp hiện trạng xe khi nhận làm bằng chứng đối chiếu. Điều khoản hợp đồng liên quan cọc nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), kinh nghiệm chuẩn bị đầy đủ cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}). Nếu lần đầu thuê ở Hà Nội, hãy đối chiếu mức cọc giữa các dòng xe trước khi chốt, vì mức giữ có thể chênh nhau đáng kể giữa dòng số thông thường và dòng ga cao hơn.
+Tiền cọc là khoản bảo đảm, được hoàn trả khi xe về đúng hiện trạng, khác hoàn toàn với tiền thuê. Hỏi rõ hình thức giữ cọc, mức giữ theo dòng xe, và thời gian hoàn trả sau khi bạn trả xe. Chụp hiện trạng xe khi nhận làm bằng chứng đối chiếu. Điều khoản hợp đồng liên quan cọc nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), kinh nghiệm chuẩn bị đầy đủ cho lần đầu thuê nằm trong bài thuê xe máy Hà Nội lần đầu. Nếu lần đầu thuê ở Hà Nội, hãy đối chiếu mức cọc giữa các dòng xe trước khi chốt, vì mức giữ có thể chênh nhau đáng kể giữa dòng số thông thường và dòng ga cao hơn.
 
 ## Kết luận
 

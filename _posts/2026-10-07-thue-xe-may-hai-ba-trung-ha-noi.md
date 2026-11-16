@@ -25,11 +25,11 @@ Khu dân cư Hai Bà Trưng nhiều dãy nhà ống, hẻm nhỏ và vỉa hè c
 
 ## Hỏi về giao xe tận nơi và phạm vi di chuyển
 
-Hai câu đáng hỏi khi đặt: có giao xe tận chỗ ở trong quận không và phụ phí thế nào; phạm vi cho phép có giới hạn không nếu bạn định đi ra ngoài nội thành. Với người ở lâu và đi làm quanh quận, gói giao tận nơi tiết kiệm thời gian đáng kể trong đợt thuê dài. Với khách định chạy xa cuối tuần, làm rõ phạm vi ngay từ đầu. Điều khoản hợp đồng và giấy tờ chuẩn bị tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), khung kinh nghiệm lần đầu thuê trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}). Với gói theo giờ, tham khảo cách tính trong bài [thuê xe máy Hà Nội theo giờ]({{ '/blog/thue-xe-may-ha-noi-theo-gio/' }}).
+Hai câu đáng hỏi khi đặt: có giao xe tận chỗ ở trong quận không và phụ phí thế nào; phạm vi cho phép có giới hạn không nếu bạn định đi ra ngoài nội thành. Với người ở lâu và đi làm quanh quận, gói giao tận nơi tiết kiệm thời gian đáng kể trong đợt thuê dài. Với khách định chạy xa cuối tuần, làm rõ phạm vi ngay từ đầu. Điều khoản hợp đồng và giấy tờ chuẩn bị tại trang thủ tục thuê xe, khung kinh nghiệm lần đầu thuê trong bài thuê xe máy Hà Nội lần đầu. Với gói theo giờ, tham khảo cách tính trong bài [thuê xe máy Hà Nội theo giờ]({{ '/blog/thue-xe-may-ha-noi-theo-gio/' | relative_url }}).
 
 ## Kiểm tra xe và giữ xe quanh khu chợ
 
-Khi nhận xe, làm bộ kiểm tra chuẩn: ga, phanh, đèn còi, chạy thử vòng ngắn, chụp tình trạng xe. Quanh khu chợ đông, tuyệt đối dùng bãi gửi có phí thay vì để xe hờ, vì va chạm nhỏ rất hay xảy ra ở khu vực tấp nập. Lưu số hotline hỗ trợ trước khi lăn bánh. Khách chọn xe điện nên hỏi thêm mức pin và điểm sạc gần khu định đi, nhóm câu hỏi chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}).
+Khi nhận xe, làm bộ kiểm tra chuẩn: ga, phanh, đèn còi, chạy thử vòng ngắn, chụp tình trạng xe. Quanh khu chợ đông, tuyệt đối dùng bãi gửi có phí thay vì để xe hờ, vì va chạm nhỏ rất hay xảy ra ở khu vực tấp nập. Lưu số hotline hỗ trợ trước khi lăn bánh. Khách chọn xe điện nên hỏi thêm mức pin và điểm sạc gần khu định đi, nhóm câu hỏi chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}).
 
 ## Kết luận
 

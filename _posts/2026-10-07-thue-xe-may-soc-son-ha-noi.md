@@ -25,7 +25,7 @@ Với các chặng nhiều chục cây số và đường xã có đoạn gồ g
 
 ## Hỏi về phạm vi di chuyển và giao xe tận nơi
 
-Hai câu nên hỏi khi đặt: phạm vi gói thuê có gồm trục về trung tâm và tuyến vòng quanh huyện không, vì có gói giới hạn bán kính; và gói giao xe tận nhà có phủ tới thôn xã bạn ở không, phụ phí ra sao. Với lịch trình liên quan sân bay, nói rõ để được tư vấn khung giờ hợp lý. Với khách công tác ở lại lâu, các khoản ngoài giá thuê được nói rõ trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}). Giấy tờ chuẩn bị khi ký nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Kinh nghiệm lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Hai câu nên hỏi khi đặt: phạm vi gói thuê có gồm trục về trung tâm và tuyến vòng quanh huyện không, vì có gói giới hạn bán kính; và gói giao xe tận nhà có phủ tới thôn xã bạn ở không, phụ phí ra sao. Với lịch trình liên quan sân bay, nói rõ để được tư vấn khung giờ hợp lý. Với khách công tác ở lại lâu, các khoản ngoài giá thuê được nói rõ trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}). Giấy tờ chuẩn bị khi ký nằm ở trang thủ tục thuê xe. Kinh nghiệm lần đầu thuê nằm trong bài thuê xe máy Hà Nội lần đầu.
 
 ## Kiểm tra xe và giữ xe trong vùng thưa dân
 

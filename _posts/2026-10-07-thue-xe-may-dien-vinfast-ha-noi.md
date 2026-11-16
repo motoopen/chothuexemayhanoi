@@ -17,11 +17,11 @@ Khi gọi qua số ở trang liên hệ, câu đầu tiên nên là: mẫu xe m�
 
 ## Bước hai: hỏi về pin và phạm vi thực tế
 
-Ba câu về pin: xe giao với mức pin bao nhiêu, chạy được bao xa thực tế ở mức đó với lịch trình của bạn, và nếu chở hai người thì còn bao nhiêu phần trăm. Đọc lộ trình dự kiến cho cửa hàng nghe và hỏi thẳng mẫu xe này có đủ hay không. Cách hỏi theo lộ trình khiến câu trả lời cụ thể hơn so với hỏi khoảng cách công bố. Nhóm câu hỏi đầy đủ về pin và sạc đã được liệt kê trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}).
+Ba câu về pin: xe giao với mức pin bao nhiêu, chạy được bao xa thực tế ở mức đó với lịch trình của bạn, và nếu chở hai người thì còn bao nhiêu phần trăm. Đọc lộ trình dự kiến cho cửa hàng nghe và hỏi thẳng mẫu xe này có đủ hay không. Cách hỏi theo lộ trình khiến câu trả lời cụ thể hơn so với hỏi khoảng cách công bố. Nhóm câu hỏi đầy đủ về pin và sạc đã được liệt kê trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}).
 
 ## Bước ba: xác định chỗ sạc
 
-Trước khi ký, trả lời được câu: trong suốt thời gian thuê, xe sạc ở đâu? Nếu khách sạn cho sạc ở phòng, hỏi bộ sạc kèm xe dùng được với ổ ở đó không. Nếu phải dùng trạm sạc công cộng, hỏi vị trí trạm gần khu lưu trú và thời gian sạc đầy. Nếu không có phương án sạc rõ ràng, hãy cân nhắc chọn mẫu pin lớn hơn hoặc rút ngắn lộ trình. Chi phí và thời gian sạc như một khoản thực của chuyến đi đã được phân tích trong bài [giá thuê xe máy điện Hà Nội]({{ '/blog/gia-thue-xe-may-dien-ha-noi/' }}).
+Trước khi ký, trả lời được câu: trong suốt thời gian thuê, xe sạc ở đâu? Nếu khách sạn cho sạc ở phòng, hỏi bộ sạc kèm xe dùng được với ổ ở đó không. Nếu phải dùng trạm sạc công cộng, hỏi vị trí trạm gần khu lưu trú và thời gian sạc đầy. Nếu không có phương án sạc rõ ràng, hãy cân nhắc chọn mẫu pin lớn hơn hoặc rút ngắn lộ trình. Chi phí và thời gian sạc như một khoản thực của chuyến đi đã được phân tích trong bài [giá thuê xe máy điện Hà Nội]({{ '/blog/gia-thue-xe-may-dien-ha-noi/' | relative_url }}).
 
 ## Bước bốn: chốt giá, cọc và quy định trả xe
 
@@ -29,7 +29,7 @@ So mức giá theo gói ngày hoặc gói dài hơn trên [bảng giá]({{ '/ban
 
 ## Bước năm: kiểm tra khi nhận xe
 
-Tại cửa hàng: xem mức pin hiển thị, thử đề và vặn ga, kiểm tra đèn còi phanh, chạy thử vòng ngắn, chụp lại tình trạng xe và các vết trầy sẵn có. Lưu số hotline hỗ trợ vào điện thoại. Nếu bất kỳ phép thử nào lệch xa với mô tả khi đặt, hỏi lại trước khi ký. Khách lần đầu thuê ở Hà Nội nên đọc thêm khung tổng quan trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Tại cửa hàng: xem mức pin hiển thị, thử đề và vặn ga, kiểm tra đèn còi phanh, chạy thử vòng ngắn, chụp lại tình trạng xe và các vết trầy sẵn có. Lưu số hotline hỗ trợ vào điện thoại. Nếu bất kỳ phép thử nào lệch xa với mô tả khi đặt, hỏi lại trước khi ký. Khách lần đầu thuê ở Hà Nội nên đọc thêm khung tổng quan trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Kết luận
 

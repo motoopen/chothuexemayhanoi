@@ -25,7 +25,7 @@ Thuê theo giờ buộc bạn quay về đúng điểm nhận trong khung, trễ
 
 ## Lưu ý khi nhận xe thuê theo giờ
 
-Khung ngắn không cho phép bỏ qua kiểm tra: ga, phanh, đèn còi, chạy thử vòng ngắn, chụp hiện trạng. Hỏi mốc tính giờ bắt đầu từ lúc ký hay lúc rời điểm, và mức phụ phí từng phút hoặc từng giờ nếu trễ. Khách chọn xe điện cho khung ngắn nên hỏi pin sẵn và điểm sạc nếu chặng dài hơn dự kiến, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}). Lưu số hỗ trợ của cửa hàng trong khung thuê.
+Khung ngắn không cho phép bỏ qua kiểm tra: ga, phanh, đèn còi, chạy thử vòng ngắn, chụp hiện trạng. Hỏi mốc tính giờ bắt đầu từ lúc ký hay lúc rời điểm, và mức phụ phí từng phút hoặc từng giờ nếu trễ. Khách chọn xe điện cho khung ngắn nên hỏi pin sẵn và điểm sạc nếu chặng dài hơn dự kiến, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}). Lưu số hỗ trợ của cửa hàng trong khung thuê.
 
 
 ## Kết luận

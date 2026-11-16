@@ -21,7 +21,7 @@ Tại cửa hàng, trước khi nhận xe, làm rõ phần giấy: hợp đồng
 
 ## Thao tác bàn giao: kiểm tra xe điện
 
-Với xe máy điện, trình tự kiểm tra gồm: xem mức pin hiển thị và ghi lại, thử đề và vặn ga nghe phản ứng, kiểm tra đèn pha, đèn hậu, còi, thử phanh trước và sau, chạy thử vòng ngắn quanh khu phố. Kiểm tra thêm bộ sạc kèm xe: dây, đầu cắm còn tốt không. Chụp lại hình ảnh tình trạng xe và các vết trầy sẵn có ngay tại cửa hàng. Nếu phát hiện bất thường, yêu cầu xử lý hoặc đổi xe trước khi ký. Trình tự chi tiết hơn cho khách lần đầu nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Với xe máy điện, trình tự kiểm tra gồm: xem mức pin hiển thị và ghi lại, thử đề và vặn ga nghe phản ứng, kiểm tra đèn pha, đèn hậu, còi, thử phanh trước và sau, chạy thử vòng ngắn quanh khu phố. Kiểm tra thêm bộ sạc kèm xe: dây, đầu cắm còn tốt không. Chụp lại hình ảnh tình trạng xe và các vết trầy sẵn có ngay tại cửa hàng. Nếu phát hiện bất thường, yêu cầu xử lý hoặc đổi xe trước khi ký. Trình tự chi tiết hơn cho khách lần đầu nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Nắm cách vận hành xe điện trước khi lăn bánh
 

@@ -17,7 +17,7 @@ Trong nhóm xe hai bánh, ranh giới giữa cần và không cần giấy phép
 
 ## Bước hai: xác định loại xe cụ thể bạn định thuê
 
-Đến bước cụ thể, cần biết chiếc xe mình định thuê thuộc nhóm nào. Cách làm: hỏi cửa hàng loại xe theo phân loại là gì, công suất bao nhiêu, và người lái cần giấy phép gì nếu có. Cửa hàng cho thuê chuyên nghiệp nắm rõ thông tin này vì họ làm dịch vụ hàng ngày. Nếu nhận được trả lời lấp lửng, hãy hỏi tiếp bằng đúng thuật ngữ phân loại. Sau đó, đối chiếu thông tin nhận được với quy định hiện hành do cơ quan chức năng công bố để chắc chắn. Quy trình đối chiếu này đã được mô tả trong bài [thuê xe điện không bằng lái]({{ '/blog/thue-xe-dien-khong-bang-lai/' }}).
+Đến bước cụ thể, cần biết chiếc xe mình định thuê thuộc nhóm nào. Cách làm: hỏi cửa hàng loại xe theo phân loại là gì, công suất bao nhiêu, và người lái cần giấy phép gì nếu có. Cửa hàng cho thuê chuyên nghiệp nắm rõ thông tin này vì họ làm dịch vụ hàng ngày. Nếu nhận được trả lời lấp lửng, hãy hỏi tiếp bằng đúng thuật ngữ phân loại. Sau đó, đối chiếu thông tin nhận được với quy định hiện hành do cơ quan chức năng công bố để chắc chắn. Quy trình đối chiếu này đã được mô tả trong bài [thuê xe điện không bằng lái]({{ '/blog/thue-xe-dien-khong-bang-lai/' | relative_url }}).
 
 ## Bước ba: chọn xe theo giấy tờ bạn có
 
@@ -29,7 +29,7 @@ Khi đặt xe, nói rõ: tôi có hoặc chưa có giấy phép lái, đi lộ t
 
 ## Trường hợp khách nước ngoài
 
-Khách quốc tế cần lưu ý thêm một lớp: giấy phép lái nước ngoài chỉ được dùng tại Việt Nam khi đáp ứng điều kiện quy định, và với nhóm xe không cần giấy phép, việc thiếu bằng lái không phải trở ngại. Vì vậy nhiều khách nước ngoài chọn nhóm xe nhỏ cho chuyến du lịch nội thành. Tuy nhiên vẫn cần giấy tờ tùy thân khi thuê, và nên hỏi trước qua điện thoại để tránh hiểu sai. Khung kinh nghiệm chung cho khách lần đầu thuê ở Hà Nội nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Khách quốc tế cần lưu ý thêm một lớp: giấy phép lái nước ngoài chỉ được dùng tại Việt Nam khi đáp ứng điều kiện quy định, và với nhóm xe không cần giấy phép, việc thiếu bằng lái không phải trở ngại. Vì vậy nhiều khách nước ngoài chọn nhóm xe nhỏ cho chuyến du lịch nội thành. Tuy nhiên vẫn cần giấy tờ tùy thân khi thuê, và nên hỏi trước qua điện thoại để tránh hiểu sai. Khung kinh nghiệm chung cho khách lần đầu thuê ở Hà Nội nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Kết luận
 
