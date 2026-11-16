@@ -70,7 +70,7 @@
 
       function applyDark(on) {
         document.body.classList.toggle('dark', !!on);
-        localStorage.setItem(DARK_KEY, on ? 'true' : 'false');
+        try { localStorage.setItem(DARK_KEY, on ? 'true' : 'false'); } catch (e) {}
 
         const ico = on ? '<i class="fa-solid fa-sun"></i>' : '<i class="fa-solid fa-moon"></i>';
 
@@ -86,7 +86,7 @@
         }
       }
 
-      let pref = localStorage.getItem(DARK_KEY);
+      let pref = null; try { pref = localStorage.getItem(DARK_KEY); } catch (e) {}
       if (pref === null) pref = window.matchMedia('(prefers-color-scheme:dark)').matches ? 'true' : 'false';
       applyDark(pref === 'true');
 

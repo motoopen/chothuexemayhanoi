@@ -332,7 +332,7 @@
     // để "xe 50cc 1 ngày" không bị hiểu thành 50 ngày. Ưu tiên số đứng ngay trước đơn vị thời gian.
     const s=String(t||"")
       .replace(/\d+\s*cc(?![\p{L}\p{N}])/giu," ")
-      .replace(/\d+(?:[.,]\d+)*\s*(?:k|đ|vnđ|vnd|tr|triệu|trieu|nghìn|ngàn)(?![\p{L}\p{N}])/giu," ")
+      .replace(/\d+(?:[.,]\d+)*\s*(?:trăm\s*(?:nghìn|ngàn|k)?|k|đ|vnđ|vnd|tr|triệu|trieu|nghìn|ngàn)(?![\p{L}\p{N}])/giu," ")
       .replace(/\d{4,}/g," ");
     const m=s.match(/(\d+)\s*(ngày|ngay|đêm|dem|day|tuần|tuan|week|tháng|thang|month)/i) || s.match(/(?<![\p{L}\p{N}])(\d{1,2})(?![\p{L}\p{N}])()/u);
     if(!m) return null; const n=parseInt(m[1],10); if(!n) return null;
@@ -867,13 +867,9 @@
         const arr = byType[t].sort((a,b)=>a-b);
         const p25 = arr[Math.floor(arr.length*0.25)];
         const p50 = arr[Math.floor(arr.length*0.50)];
-        if(PRICE_TABLE[t]){
-          const dayRange = [p25, p50].filter(Boolean);
-          if(dayRange.length) PRICE_TABLE[t].day = dayRange;
-        }else{
-          // Nếu có model mới chưa trong PRICE_TABLE, khởi tạo day từ dữ liệu
-          if(p25 || p50) PRICE_TABLE[t] = { day: [p25||p50, p50||p25].filter(Boolean), week:null, month:null };
-        }
+        // Không ghi đè giá có sẵn trong PRICE_TABLE: câu kiểu "thường từ 120.000 - 150.000" hay ô giá nhiều
+        // mẫu xe từng làm bot báo Wave 120k / Air Blade 150k trái với bảng giá công bố. Chỉ bổ sung mẫu xe mới.
+        if(!PRICE_TABLE[t] && (p25 || p50)) PRICE_TABLE[t] = { day: [p25||p50, p50||p25].filter(Boolean), week:null, month:null };
       });
     }catch{}
   }
