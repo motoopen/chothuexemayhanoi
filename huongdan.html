@@ -1,4 +1,8 @@
 ---
+seo_page_type: WebPage
+breadcrumb_name: "Hướng dẫn"
+seo_name: "Hướng dẫn thuê xe máy theo tháng tại Hà Nội"
+seo_description: "Quy trình 5 bước thuê xe máy tháng tại Motoopen: chọn xe, hỏi giá, chuẩn bị giấy tờ và tiền cọc 2–5 triệu đồng, nhận xe và ký hợp đồng, sử dụng và bảo dưỡng xe."
 ---
 <!doctype html>
 <html lang="vi">
@@ -18,13 +22,13 @@
   <meta name="description" content="Hướng dẫn chi tiết quy trình thuê xe máy tháng tại Hà Nội. 5 bước đơn giản để chọn xe, đặt cọc, nhận xe và xử lý sự cố. Tư vấn từ Motoopen.">
 
   <link rel="canonical" href="https://motoopen.github.io/chothuexemayhanoi/huongdan.html">
-  <link rel="icon" href="https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg" sizes="32x32">
-  <link rel="apple-touch-icon" href="https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg">
+  <link rel="icon" href="{{ '/assets/images/brand/favicon-48.png' | relative_url }}" sizes="48x48" type="image/png">
+  <link rel="apple-touch-icon" href="{{ '/assets/images/brand/apple-touch-icon-180.png' | relative_url }}">
 
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link id="fa-css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link id="fa-css" rel="stylesheet" href="{{ '/assets/vendor/fontawesome/fa-subset.css' | relative_url }}">
 
   <meta property="og:locale" content="vi_VN">
   <meta property="og:type" content="website">
@@ -40,12 +44,9 @@
   <meta name="twitter:title" content="Hướng Dẫn Thuê Xe Máy Tháng Hà Nội | Quy Trình 5 Bước | Motoopen">
   <meta name="twitter:description" content="Hướng dẫn chi tiết quy trình thuê xe máy tháng tại Hà Nội. 5 bước đơn giản để chọn xe, đặt cọc, nhận xe và xử lý sự cố.">
   <meta name="twitter:image" content="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg">
-    <link rel="stylesheet" href="/chothuexemayhanoi/assets/css/pages/gioithieu.css">
+  <link rel="stylesheet" href="/chothuexemayhanoi/assets/css/pages/gioithieu.css">
+  {% include seo/schema-graph.html %}
 </head>
-  
-  
-  <script src="/chothuexemayhanoi/assets/js/pages/gioithieu-page-fade.js"></script>
-  
 <body>
   {% include header.html %}
   
@@ -59,23 +60,23 @@
 
     <section class="hero-mini" aria-label="Thuê xe máy nhanh">
       <div class="wrap">
-        <div class="card reveal">
+        <div class="card">
           <div class="hmini-grid">
 
             <div>
-              <h1 class="hmini-title">Thuê Xe Máy Hà Nội – Giao Tận Nơi, Giá Từ 150k/ngày</h1>
-              <p class="hmini-sub">Xe số • Xe ga • 50cc/điện · Thuê ngày/tuần/tháng · Giao nhanh 20–40’, cọc nhẹ, xe bảo dưỡng kỹ.</p>
+              <h1 class="hmini-title">Hướng Dẫn Thuê Xe Máy Tháng Hà Nội – Quy Trình 5 Bước</h1>
+              <p class="hmini-sub">Thuê xe tháng tại Motoopen: chọn xe và hẹn ngày nhận qua điện thoại/Zalo 0857 255 868; chuẩn bị giấy tờ tùy thân, giấy phép lái xe phù hợp loại xe và tiền cọc 2–5 triệu đồng tùy dòng xe; kiểm tra xe, ký hợp đồng và trả tiền thuê tháng đầu. Giá tháng từ 900.000đ (Honda Wave, Click/Mio) đến 2.000.000đ (Honda Vision); tiền cọc hoàn lại theo điều kiện hợp đồng khi trả xe.</p>
               <div class="hmini-toggle" role="tablist" aria-label="Chọn gói thuê">
                 <button type="button" class="active" data-plan="day" role="tab" aria-selected="true">Ngày</button>
                 <button type="button" data-plan="week" role="tab" aria-selected="false">Tuần</button>
                 <button type="button" data-plan="month" role="tab" aria-selected="false">Tháng</button>
               </div>
 
-              <p class="hmini-price">Giá dự kiến: <span id="hminiPrice">150–200k/ngày</span> • <span id="hminiDeposit">Cọc nhẹ</span></p>
+              <p class="hmini-price">Giá dự kiến: <span id="hminiPrice">150–200k/ngày</span> • <span id="hminiDeposit">Cọc 2–5 triệu tùy xe</span></p>
 
               <div class="hmini-badges">
                 <span class="hmini-badge"><i class="fa-solid fa-shield-halved"></i> Hợp đồng rõ ràng</span>
-                <span class="hmini-badge"><i class="fa-solid fa-clock"></i> Giao nhanh 20–40’</span>
+                <span class="hmini-badge"><i class="fa-solid fa-clock"></i> 09:00–21:00 hằng ngày</span>
                 <span class="hmini-badge"><i class="fa-solid fa-screwdriver-wrench"></i> Xe bảo dưỡng kỹ</span>
               </div>
 
@@ -116,7 +117,7 @@
                 <div class="hmini-soft"></div>
 
                 <div class="hmini-stats" aria-label="Thông tin nhanh">
-                  <div class="hmini-stat"><i class="fa-solid fa-map"></i>Giao nội thành</div>
+                  <div class="hmini-stat"><i class="fa-solid fa-map"></i>Hẹn giao/nhận xe</div>
                   <div class="hmini-stat"><i class="fa-solid fa-battery-full"></i>Full điện</div>
                   <div class="hmini-stat"><i class="fa-solid fa-helmet-safety"></i>Kèm mũ </div>
                 </div>
@@ -133,16 +134,16 @@
     <section id="huongdan" class="mapp-wrap" aria-label="Chi tiết Hướng dẫn Thuê xe máy tháng">
       <div class="mapp-card">
         
-        <h2 class="mapp-h2" style="font-size: 1.5rem; margin-top: 0;">Hướng Dẫn Thuê Xe Máy Tháng Hà Nội (Chi Tiết 2025)</h2>
+        <h2 class="mapp-h2" style="font-size: 1.5rem; margin-top: 0;">Hướng Dẫn Thuê Xe Máy Tháng Hà Nội (Chi Tiết 2026)</h2>
         
         <p class="mapp-text">Thuê xe máy theo tháng là giải pháp tối ưu cho những ai sinh sống, làm việc hoặc du lịch dài ngày tại Hà Nội. Khác với thuê theo ngày, thuê tháng giúp bạn tiết kiệm chi phí đáng kể và hoàn toàn chủ động trong việc đi lại. Dưới đây là hướng dẫn chi tiết quy trình 5 bước để thuê xe tháng tại Motoopen một cách nhanh chóng và an toàn.</p>
 
         <h2 class="mapp-h2">1. Lợi Ích Khi Thuê Xe Theo Tháng</h2>
         <p class="mapp-text">Trước khi đi vào quy trình, hãy xem xét các lợi ích lớn khi bạn chọn gói thuê dài hạn:</p>
         <ul class="mapp-list">
-          <li><strong>Tiết kiệm chi phí:</strong> Giá thuê tháng luôn rẻ hơn rất nhiều so với giá thuê ngày cộng dồn. Bạn có thể tiết kiệm từ 50% - 70% chi phí.</li>
-          <li><strong>Chủ động phương tiện:</strong> Bạn sở hữu chiếc xe 24/7 trong suốt tháng, không cần lo lắng về việc đặt xe hay trả xe hàng ngày.</li>
-          <li><strong>Không lo bảo dưỡng:</strong> Khi thuê tháng, các đơn vị uy tín như Motoopen thường bao gồm dịch vụ bảo dưỡng định kỳ (thay dầu, kiểm tra phanh) miễn phí cho bạn.</li>
+          <li><strong>Tiết kiệm chi phí:</strong> Giá thuê tháng thấp hơn nhiều so với thuê lẻ cộng dồn. Ví dụ theo bảng giá Motoopen: Honda Vision 200.000đ/ngày × 30 ngày = 6.000.000đ, trong khi giá tháng là 1.800.000đ–2.000.000đ.</li>
+          <li><strong>Chủ động phương tiện:</strong> Bạn có xe để dùng bất cứ lúc nào trong suốt tháng, không cần lo lắng về việc đặt xe hay trả xe hàng ngày.</li>
+          <li><strong>Không lo bảo dưỡng:</strong> Khi thuê tháng tại Motoopen, bảo dưỡng định kỳ (thay dầu, kiểm tra phanh) được hỗ trợ miễn phí; điều khoản cụ thể ghi trong hợp đồng.</li>
           <li><strong>Linh hoạt:</strong> Bạn có thể dễ dàng gia hạn hợp đồng hàng tháng nếu có nhu cầu tiếp tục sử dụng.</li>
         </ul>
 
@@ -153,54 +154,55 @@
             <strong>Bước 1: Lựa chọn loại xe phù hợp</strong><br>
             Xác định nhu cầu của bạn: Bạn đi làm hàng ngày trong phố, hay thỉnh thoảng đi phượt cuối tuần?
             <ul>
-              <li><strong>Xe số (Wave, Sirius):</strong> Tiết kiệm xăng, chi phí thuê rẻ nhất, phù hợp đi lại hàng ngày.</li>
-              <li><strong>Xe ga (Vision, Lead, Air Blade):</strong> Cốp rộng, dễ điều khiển, phù hợp cho các bạn nữ hoặc di chuyển trong nội thành.</li>
+              <li><strong>Xe số (Honda Wave):</strong> Tiết kiệm xăng, giá tháng 900.000đ–1.200.000đ, phù hợp đi lại hàng ngày.</li>
+              <li><strong>Xe ga (Honda Vision, Air Blade, Click/Mio):</strong> Cốp rộng, dễ điều khiển, phù hợp di chuyển trong nội thành; giá tháng 900.000đ–1.200.000đ (Click/Mio), 1.500.000đ (Air Blade), 1.800.000đ–2.000.000đ (Vision).</li>
+              <li><strong>Xe tay ga 50cc, xe điện và mẫu xe khác:</strong> giá tháng báo khi liên hệ; mẫu ngoài bảng giá (Sirius, Lead…) cần liên hệ để kiểm tra xe và giá.</li>
             </ul>
-            <p class="mapp-text" style="margin-top: 8px;">Bạn có thể xem chi tiết các **<a href="loaixe.html" style="color: var(--accent); font-weight: bold;">loại xe</a>** chúng tôi đang cung cấp để có lựa chọn tốt nhất.</p>
+            <p class="mapp-text" style="margin-top: 8px;">Bạn có thể xem chi tiết các <a href="loaixe.html" style="color: var(--accent); font-weight: bold;">loại xe</a> chúng tôi đang cung cấp để có lựa chọn phù hợp.</p>
           </li>
           
           <li>
             <strong>Bước 2: Liên hệ và Nhận báo giá</strong><br>
             Hãy gọi điện hoặc chat Zalo trực tiếp với chúng tôi để yêu cầu báo giá thuê theo tháng cho dòng xe bạn đã chọn. 
-            <p class="mapp-text" style="margin-top: 8px;">Mức giá thuê tháng luôn được ưu đãi đặc biệt. Tham khảo **<a href="banggia.html" style="color: var(--accent); font-weight: bold;">bảng giá</a>** niêm yết và liên hệ để nhận giá chốt tốt nhất.</p>
+            <p class="mapp-text" style="margin-top: 8px;">Giá thuê tháng tham khảo có trong <a href="banggia.html" style="color: var(--accent); font-weight: bold;">bảng giá</a> niêm yết; giá chốt được ghi trong hợp đồng thuê.</p>
           </li>
 
           <li>
             <strong>Bước 3: Chuẩn bị Giấy tờ & Đặt cọc</strong><br>
             Đây là bước quan trọng nhất. Khi thuê xe tháng, bạn cần chuẩn bị:
             <ul>
-              <li>Giấy tờ tùy thân (CCCD/Hộ chiếu) để cửa hàng giữ lại.</li>
-              <li>Bằng lái xe (A1/A2) để đối chiếu và chụp ảnh.</li>
-              <li>Khoản tiền đặt cọc (thường từ 2-5 triệu, tùy giá trị xe).</li>
+              <li>Giấy tờ tùy thân (CCCD hoặc hộ chiếu) còn hiệu lực; cách cung cấp và đối chiếu giấy tờ được thỏa thuận khi làm hợp đồng.</li>
+              <li>Giấy phép lái xe phù hợp loại xe: hạng A1 cho xe đến 125 cm3, hạng A cho xe trên 125 cm3 (bằng A1, A2 cấp trước 01/01/2025 vẫn dùng theo phạm vi cũ). Xe gắn máy (đến 50 cm3 hoặc điện đến 4 kW, vận tốc thiết kế không quá 50 km/h) không yêu cầu bằng lái, người lái phải đủ 16 tuổi.</li>
+              <li>Tiền đặt cọc 2–5 triệu đồng tùy dòng xe (Click/Mio 2 triệu, Wave 2–3 triệu, Air Blade 3 triệu, tay ga 50cc 4 triệu, Vision 4–5 triệu), hoàn lại theo điều kiện hợp đồng khi trả xe.</li>
             </ul>
-            <p class="mapp-text" style="margin-top: 8px;">Để hiểu rõ hơn về số tiền cọc và giấy tờ, vui lòng xem trang **<a href="thutuc.html" style="color: var(--accent); font-weight: bold;">thủ tục thuê xe</a>** của chúng tôi.</p>
+            <p class="mapp-text" style="margin-top: 8px;">Để hiểu rõ hơn về số tiền cọc và giấy tờ, vui lòng xem trang <a href="thutuc.html" style="color: var(--accent); font-weight: bold;">thủ tục thuê xe</a> của chúng tôi.</p>
           </li>
           
           <li>
             <strong>Bước 4: Nhận xe và Ký hợp đồng</strong><br>
-            Chúng tôi sẽ giao xe tận nơi cho bạn (trong nội thành Hà Nội) hoặc bạn có thể qua cửa hàng để nhận.
+            Bạn nhận xe tại cửa hàng 114 Nguyễn Văn Cừ, Long Biên hoặc hẹn giao xe tận nơi; khu vực, thời gian và chi phí giao (nếu có) được thỏa thuận trước khi chốt.
             <ul>
               <li><strong>Kiểm tra xe kỹ:</strong> Kiểm tra phanh, lốp, đèn, còi, và quay video/chụp ảnh lại tình trạng xe.</li>
               <li><strong>Đọc hợp đồng:</strong> Đọc kỹ các điều khoản về bảo dưỡng, xử lý khi va chạm, và ngày trả xe.</li>
-              <li>Ký hợp đồng và thanh toán tiền thuê tháng đầu tiên + tiền cọc.</li>
+              <li>Ký hợp đồng; thanh toán tiền thuê tháng đầu và đặt cọc theo thỏa thuận ghi trong hợp đồng.</li>
             </ul>
           </li>
           
           <li>
             <strong>Bước 5: Sử dụng và Bảo dưỡng xe</strong><br>
-            Trong quá trình sử dụng, nếu xe đến hạn thay dầu hoặc có bất kỳ vấn đề kỹ thuật nào, hãy liên hệ ngay với chúng tôi để được hỗ trợ bảo dưỡng miễn phí.</li>
+            Trong quá trình sử dụng, nếu xe đến hạn thay dầu hoặc có bất kỳ vấn đề kỹ thuật nào, hãy liên hệ với chúng tôi (09:00–21:00 hằng ngày) để được hỗ trợ bảo dưỡng.</li>
         </ol>
 
         <h2 class="mapp-h2">3. Mẹo Quan Trọng Khi Thuê Xe Tháng</h2>
         <ul class="mapp-list">
           <li><strong>Hỏi rõ về bảo dưỡng:</strong> Đảm bảo rằng bạn biết xe sẽ được bảo dưỡng ở đâu, khi nào, và ai là người chịu chi phí. (Tại Motoopen, chúng tôi chịu 100% chi phí bảo dưỡng định kỳ).</li>
-          <li><strong>Xử lý sự cố:</strong> Hỏi rõ quy trình xử lý nếu xe không may hỏng hóc giữa đường. Chúng tôi có dịch vụ hỗ trợ cứu hộ và đổi xe (nếu lỗi do xe) cho bạn.</li>
+          <li><strong>Xử lý sự cố:</strong> Hỏi rõ quy trình xử lý nếu xe không may hỏng hóc giữa đường. Tại Motoopen, gọi hoặc nhắn Zalo 0857 255 868 trong giờ 09:00–21:00 hằng ngày để được hướng dẫn; tùy nguyên nhân (lỗi kỹ thuật của xe hay do sử dụng), hai bên xử lý theo điều khoản hợp đồng.</li>
           <li><strong>Giữ xe cẩn thận:</strong> Luôn khóa cổ, khóa từ và gửi xe ở nơi an toàn. Bạn sẽ chịu trách nhiệm nếu xe bị mất cắp.</li>
         </ul>
 
         <h2 class="mapp-h2">Sẵn Sàng Bắt Đầu Hành Trình?</h2>
-        <p class="mapp-text">Việc thuê xe máy tháng tại Hà Nội vô cùng đơn giản với Motoopen. Nếu bạn có bất kỳ câu hỏi nào, đừng ngần ngại liên hệ với chúng tôi qua Hotline/Zalo để được tư vấn ngay lập tức.</p>
-        <p class="mapp-text">Và đừng quên, hãy tham gia cộng đồng của chúng tôi trên **<a href="mangxahoi.html" style="color: var(--accent); font-weight: bold; text-decoration: underline;">mạng xã hội</a>** để chia sẻ những kinh nghiệm và khoảnh khắc tuyệt vời của bạn tại Hà Nội!</p>
+        <p class="mapp-text">Việc thuê xe máy tháng tại Hà Nội vô cùng đơn giản với Motoopen. Nếu bạn có bất kỳ câu hỏi nào, đừng ngần ngại liên hệ với chúng tôi qua Hotline/Zalo 0857 255 868 để được tư vấn trong giờ 09:00–21:00 hằng ngày.</p>
+        <p class="mapp-text">Và đừng quên, hãy tham gia cộng đồng của chúng tôi trên <a href="mangxahoi.html" style="color: var(--accent); font-weight: bold; text-decoration: underline;">mạng xã hội</a> để chia sẻ những kinh nghiệm và khoảnh khắc tuyệt vời của bạn tại Hà Nội!</p>
 
       </div>
     </section>
@@ -238,8 +240,7 @@
   
   <script src="/chothuexemayhanoi/assets/js/pages/gioithieu-contact-links.js"></script>
 
-  <script src="/chothuexemayhanoi/assets/js/pages/gioithieu-fontawesome-fallback.js"></script>
-<script defer src="https://motoopen.github.io/chothuexemayhanoi/motoai_v39_modelfirst_nomarkdown_nolink.js"></script>
+  {% include motoai.html %}
 </body>
 </html>
   

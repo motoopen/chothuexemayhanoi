@@ -1,4 +1,7 @@
 ---
+seo_page_type: WebPage
+breadcrumb_name: "Bảng giá"
+seo_name: "Bảng giá thuê xe máy Hà Nội"
 ---
 <!doctype html>
 <html lang="vi">
@@ -22,15 +25,13 @@
 
   <link rel="canonical" href="https://motoopen.github.io/chothuexemayhanoi/banggia.html">
 
-  <link rel="icon" href="https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg" sizes="32x32">
-  <link rel="apple-touch-icon" href="https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg">
+  <link rel="icon" href="{{ '/assets/images/brand/favicon-48.png' | relative_url }}" sizes="48x48" type="image/png">
+  <link rel="apple-touch-icon" href="{{ '/assets/images/brand/apple-touch-icon-180.png' | relative_url }}">
 
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link id="fa-css" rel="stylesheet" href="{{ '/assets/vendor/fontawesome/fa-subset.css' | relative_url }}">
 
 
   <meta property="og:locale" content="vi_VN">
@@ -48,11 +49,8 @@
   <meta name="twitter:description" content="Bảng giá thuê xe máy ngày/tuần/tháng. Cọc nhẹ, giao nhanh.">
   <meta name="twitter:image" content="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg">
 
-  
-
-  <script src="/chothuexemayhanoi/assets/js/page-fade.js"></script>
-  
   <link rel="stylesheet" href="/chothuexemayhanoi/assets/css/pages/banggia.css">
+  {% include seo/schema-graph.html %}
 </head>
 
 <body>
@@ -68,24 +66,23 @@
 
     <section class="hero-mini" aria-label="Thuê xe máy nhanh">
       <div class="wrap">
-        <div class="card reveal">
+        <div class="card">
           <div class="hmini-grid">
 
             <div>
-              <h1 class="hmini-title">Thuê Xe Máy Hà Nội – Giao Tận Nơi, Giá Từ 150k/ngày</h1>
-              <p class="hmini-sub">Xe số • Xe ga • 50cc/điện · Thuê ngày/tuần/tháng · Giao nhanh 20–40’, cọc nhẹ, xe
-                bảo dưỡng kỹ.</p>
+              <h1 class="hmini-title">Bảng Giá Thuê Xe Máy Hà Nội – Từ 150k/ngày, Cọc 2–5 Triệu</h1>
+              <p class="hmini-sub">Motoopen (114 Nguyễn Văn Cừ, Long Biên, Hà Nội) cho thuê xe máy giá 150.000–200.000đ/ngày, 700.000đ–1.000.000đ/tuần và 900.000đ–2.000.000đ/tháng cho các xe có giá niêm yết. Tiền cọc 2–5 triệu đồng tùy dòng xe, hoàn lại theo điều kiện hợp đồng khi trả xe.</p>
               <div class="hmini-toggle" role="tablist" aria-label="Chọn gói thuê">
                 <button type="button" class="active" data-plan="day" role="tab" aria-selected="true">Ngày</button>
                 <button type="button" data-plan="week" role="tab" aria-selected="false">Tuần</button>
                 <button type="button" data-plan="month" role="tab" aria-selected="false">Tháng</button>
               </div>
 
-              <p class="hmini-price">Giá dự kiến: <span id="hminiPrice">150–200k/ngày</span> • <span id="hminiDeposit">Cọc nhẹ</span></p>
+              <p class="hmini-price">Giá dự kiến: <span id="hminiPrice">150–200k/ngày</span> • <span id="hminiDeposit">Cọc 2–5 triệu tùy xe</span></p>
 
               <div class="hmini-badges">
                 <span class="hmini-badge"><i class="fa-solid fa-shield-halved"></i> Hợp đồng rõ ràng</span>
-                <span class="hmini-badge"><i class="fa-solid fa-clock"></i> Giao nhanh 20–40’</span>
+                <span class="hmini-badge"><i class="fa-solid fa-clock"></i> 09:00–21:00 hằng ngày</span>
                 <span class="hmini-badge"><i class="fa-solid fa-screwdriver-wrench"></i> Xe bảo dưỡng kỹ</span>
               </div>
 
@@ -126,7 +123,7 @@
                 <div class="hmini-soft"></div>
 
                 <div class="hmini-stats" aria-label="Thông tin nhanh">
-                  <div class="hmini-stat"><i class="fa-solid fa-map"></i>Giao nội thành</div>
+                  <div class="hmini-stat"><i class="fa-solid fa-map"></i>Hẹn giao/nhận xe</div>
                   <div class="hmini-stat"><i class="fa-solid fa-battery-full"></i>Full điện</div>
                   <div class="hmini-stat"><i class="fa-solid fa-helmet-safety"></i>Kèm mũ </div>
                 </div>
@@ -144,7 +141,7 @@
           <img src="https://i.postimg.cc/brsmsj5N/IMG_5215.jpg" alt="Motoopen" class="mapp-logo" loading="lazy">
           <div class="mapp-title">
             <h2 class="mapp-h1">Thuê Xe Máy Hà Nội – Giao Tận Nơi</h2>
-            <p class="mapp-kicker">Xe số • Xe ga • Xe điện · Cọc 1–5 triệu · 09:00–21:00</p>
+            <p class="mapp-kicker">Xe số • Xe ga • Xe điện · Cọc 2–5 triệu · 09:00–21:00</p>
           </div>
         </div>
 
@@ -156,112 +153,17 @@
         </div>
 
         <ul class="mapp-chips" aria-label="Ưu điểm dịch vụ">
-          <li>Giao tận nơi nội thành</li>
-          <li>Cọc nhẹ 1–5 triệu</li>
-          <li>Xe mới, bảo dưỡng định kỳ</li>
+          <li>Hẹn giao/nhận xe theo lịch</li>
+          <li>Cọc 2–5 triệu tùy xe</li>
+          <li>Xe bảo dưỡng định kỳ</li>
           <li>Hỗ trợ khách du lịch</li>
         </ul>
 
-        <section id="chon-xe" class="sx-wrap" aria-label="Chọn xe máy">
-          <h2 class="sx-head">Chọn xe máy</h2>
-          <p class="sx-desc">Thuê xe máy Hà Nội: xe số, xe ga, 50cc và xe điện — ảnh thật, giá rõ ràng, giao nhanh nội
-            thành.</p>
-
-          <div class="sx-grid" role="list">
-            <article class="sx-card" role="listitem">
-              <figure class="sx-thumb">
-                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5418.jpeg" alt="Xe số Honda/Yamaha cho thuê theo ngày, tuần, tháng tại Hà Nội" loading="lazy" decoding="async" width="800" height="800">
-                <span class="sx-badge">Từ 150k/ngày</span>
-              </figure>
-              <div class="sx-body">
-                <h3 class="sx-title">Xe số (Wave/RSX)</h3>
-                <div class="sx-meta">
-                  <span><i class="fa-solid fa-tag"></i>150k/ngày</span>
-                  <span><i class="fa-solid fa-battery-full"></i>Tiết kiệm xăng</span>
-                </div>
-              </div>
-            </article>
-
-            <article class="sx-card" role="listitem">
-              <figure class="sx-thumb">
-                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5421.jpeg" alt="Xe ga Air Blade cho thuê, phù hợp đi phố và đi xa, giao tận nơi" loading="lazy" decoding="async" width="800" height="800">
-                <span class="sx-badge">200k/ngày</span>
-              </figure>
-              <div class="sx-body">
-                <h3 class="sx-title">Xe ga Air Blade</h3>
-                <div class="sx-meta">
-                  <span><i class="fa-solid fa-tag"></i>200k/ngày</span>
-                  <span><i class="fa-solid fa-shield-halved"></i>Hợp đồng rõ ràng</span>
-                </div>
-              </div>
-            </article>
-
-            <article class="sx-card" role="listitem">
-              <figure class="sx-thumb">
-                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5419.jpeg" alt="Xe ga Honda Vision cho thuê tại Hà Nội, giao nhanh Phố Cổ, Hoàn Kiếm" loading="lazy" decoding="async" width="800" height="800">
-                <span class="sx-badge">200k/ngày</span>
-              </figure>
-              <div class="sx-body">
-                <h3 class="sx-title">Xe ga Vision</h3>
-                <div class="sx-meta">
-                  <span><i class="fa-solid fa-tag"></i>200k/ngày</span>
-                  <span><i class="fa-solid fa-location-dot"></i>Giao nội thành</span>
-                </div>
-              </div>
-            </article>
-
-            <article class="sx-card" role="listitem">
-              <figure class="sx-thumb">
-                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5426.jpeg" alt="Xe máy 50cc không cần bằng lái cho thuê tại Hà Nội" loading="lazy" decoding="async" width="800" height="800">
-                <span class="sx-badge">Giá như Vision</span>
-              </figure>
-              <div class="sx-body">
-                <h3 class="sx-title">Xe máy 50cc</h3>
-                <div class="sx-meta">
-                  <span><i class="fa-solid fa-scale-balanced"></i>Giá như Vision</span>
-                  <span><i class="fa-solid fa-id-card"></i>Không cần bằng lái</span>
-                </div>
-              </div>
-            </article>
-
-            <article class="sx-card" role="listitem">
-              <figure class="sx-thumb">
-                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5420.jpeg" alt="Xe đạp điện cho thuê, tiện lợi đi lại trong phố Hà Nội" loading="lazy" decoding="async" width="800" height="800">
-                <span class="sx-badge">Giá như Vision</span>
-              </figure>
-              <div class="sx-body">
-                <h3 class="sx-title">Xe đạp điện</h3>
-                <div class="sx-meta">
-                  <span><i class="fa-solid fa-bolt"></i>Sạc nhanh</span>
-                  <span><i class="fa-solid fa-leaf"></i>Thân thiện môi trường</span>
-                </div>
-              </div>
-            </article>
-
-            <article class="sx-card" role="listitem">
-              <figure class="sx-thumb">
-                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5431.jpeg" alt="Xe tay côn cho thuê đi phượt tại Hà Nội, máy khoẻ" loading="lazy" decoding="async" width="800" height="800">
-                <span class="sx-badge">350k/ngày</span>
-              </figure>
-              <div class="sx-body">
-                <h3 class="sx-title">Xe tay côn</h3>
-                <div class="sx-meta">
-                  <span><i class="fa-solid fa-tag"></i>350k/ngày</span>
-                  <span><i class="fa-solid fa-person-hiking"></i>Phù hợp đi phượt</span>
-                </div>
-              </div>
-            </article>
-          </div>
-
-          <div class="sx-cta" aria-label="Xem thêm thông tin">
-            <a class="primary" href="banggia.html"><i class="fa-solid fa-tags"></i> Xem bảng giá</a>
-            <a href="faq.html"><i class="fa-solid fa-circle-question"></i> Xem FAQ</a>
-          </div>
-        </section>
         <section id="mapp-banggia">
           <h2 class="mapp-h2">Bảng giá thuê xe máy</h2>
           <div class="mapp-table-wrap" role="table" aria-label="Bảng giá thuê xe máy">
             <table class="mapp-table">
+              <caption style="text-align: left; padding: 10px 14px; font-weight: 600;">Bảng giá thuê xe máy Motoopen (đơn vị: k = nghìn đồng), cập nhật 11/2026</caption>
               <thead>
                 <tr>
                   <th>Loại Xe</th>
@@ -275,95 +177,171 @@
                 <tr>
                   <td>Xe số Honda Wave</td>
                   <td>150k</td>
-                  <td>600k - 700k</td>
-                  <td>1.200k</td>
-                  <td>2 - 3 triệu</td>
+                  <td>700k</td>
+                  <td>900k – 1,2 triệu</td>
+                  <td>2 – 3 triệu</td>
                 </tr>
                 <tr>
                   <td>Xe ga Honda Vision</td>
                   <td>200k</td>
-                  <td>800k - 1.000k</td>
-                  <td>1.800k - 2.000k</td>
-                  <td>4 - 5 triệu</td>
+                  <td>1 triệu</td>
+                  <td>1,8 – 2 triệu</td>
+                  <td>4 – 5 triệu</td>
                 </tr>
                 <tr>
-                  <td>Xe ga Air Blade</td>
+                  <td>Xe ga Honda Air Blade</td>
                   <td>200k</td>
-                  <td>800k</td>
-                  <td>1.400k</td>
+                  <td>1 triệu</td>
+                  <td>1,5 triệu</td>
                   <td>3 triệu</td>
                 </tr>
                 <tr>
-                  <td>Xe ga giá rẻ (Click / Mio)</td>
+                  <td>Xe ga Honda Click / Yamaha Mio</td>
                   <td>150k</td>
-                  <td>600k - 700k</td>
-                  <td>1.000k - 1.200k</td>
+                  <td>700k</td>
+                  <td>900k – 1,2 triệu</td>
                   <td>2 triệu</td>
+                </tr>
+                <tr>
+                  <td>Xe tay ga 50cc</td>
+                  <td>200k</td>
+                  <td>Báo giá</td>
+                  <td>Báo giá</td>
+                  <td>4 triệu</td>
+                </tr>
+                <tr>
+                  <td>Xe máy điện / xe đạp điện</td>
+                  <td>Liên hệ</td>
+                  <td>Liên hệ</td>
+                  <td>Liên hệ</td>
+                  <td>Theo mẫu xe</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <p class="mapp-note">* Giá có thể thay đổi theo thời điểm/mẫu xe. Gọi <a href="tel:0857255868">0857 255 868</a>
-            để chốt giá.</p>
+          <p class="mapp-note">Mẫu xe khác (ngoài bảng): liên hệ để kiểm tra xe và giá. Tiền cọc hoàn lại theo điều kiện hợp đồng khi trả xe; giá chốt theo hợp đồng. Gọi <a href="tel:0857255868">0857 255 868</a> (09:00–21:00 hằng ngày) để kiểm tra xe còn trống.</p>
         </section>
 
+        <section id="chon-xe" class="sx-wrap" aria-label="Chọn xe máy">
+          <h2 class="sx-head">Chọn xe máy</h2>
+          <p class="sx-desc">Thuê xe máy Hà Nội: xe số, xe ga, 50cc và xe điện, giá theo bảng niêm yết. Ảnh dưới đây là ảnh minh họa; xe thực tế có thể khác màu hoặc đời xe.</p>
+
+          <div class="sx-grid" role="list">
+            <article class="sx-card" role="listitem">
+              <figure class="sx-thumb">
+                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5418.jpeg" alt="Xe số Honda Wave – ảnh minh họa" loading="lazy" decoding="async" width="800" height="800">
+                <span class="sx-badge">150k/ngày</span>
+              </figure>
+              <div class="sx-body">
+                <h3 class="sx-title">Xe số Honda Wave</h3>
+                <div class="sx-meta">
+                  <span><i class="fa-solid fa-tag"></i>150k/ngày</span>
+                  <span><i class="fa-solid fa-battery-full"></i>Tiết kiệm xăng</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="sx-card" role="listitem">
+              <figure class="sx-thumb">
+                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5421.jpeg" alt="Xe ga Honda Air Blade – ảnh minh họa" loading="lazy" decoding="async" width="800" height="800">
+                <span class="sx-badge">200k/ngày</span>
+              </figure>
+              <div class="sx-body">
+                <h3 class="sx-title">Xe ga Honda Air Blade</h3>
+                <div class="sx-meta">
+                  <span><i class="fa-solid fa-tag"></i>200k/ngày</span>
+                  <span><i class="fa-solid fa-shield-halved"></i>Hợp đồng rõ ràng</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="sx-card" role="listitem">
+              <figure class="sx-thumb">
+                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5419.jpeg" alt="Xe ga Honda Vision – ảnh minh họa" loading="lazy" decoding="async" width="800" height="800">
+                <span class="sx-badge">200k/ngày</span>
+              </figure>
+              <div class="sx-body">
+                <h3 class="sx-title">Xe ga Honda Vision</h3>
+                <div class="sx-meta">
+                  <span><i class="fa-solid fa-tag"></i>200k/ngày</span>
+                  <span><i class="fa-solid fa-coins"></i>Cọc 4–5 triệu</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="sx-card" role="listitem">
+              <figure class="sx-thumb">
+                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5426.jpeg" alt="Xe tay ga 50cc – ảnh minh họa" loading="lazy" decoding="async" width="800" height="800">
+                <span class="sx-badge">200k/ngày</span>
+              </figure>
+              <div class="sx-body">
+                <h3 class="sx-title">Xe tay ga 50cc</h3>
+                <div class="sx-meta">
+                  <span><i class="fa-solid fa-tag"></i>200k/ngày, cọc 4 triệu</span>
+                  <span><i class="fa-solid fa-id-card"></i>Không cần bằng lái (người lái đủ 16 tuổi)</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="sx-card" role="listitem">
+              <figure class="sx-thumb">
+                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5420.jpeg" alt="Xe máy điện – ảnh minh họa" loading="lazy" decoding="async" width="800" height="800">
+                <span class="sx-badge">Liên hệ báo giá</span>
+              </figure>
+              <div class="sx-body">
+                <h3 class="sx-title">Xe máy điện / xe đạp điện</h3>
+                <div class="sx-meta">
+                  <span><i class="fa-solid fa-bolt"></i>Cọc theo mẫu xe</span>
+                  <span><i class="fa-solid fa-leaf"></i>Thân thiện môi trường</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="sx-card" role="listitem">
+              <figure class="sx-thumb">
+                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5431.jpeg" alt="Xe tay côn – ảnh minh họa" loading="lazy" decoding="async" width="800" height="800">
+                <span class="sx-badge">Liên hệ</span>
+              </figure>
+              <div class="sx-body">
+                <h3 class="sx-title">Mẫu xe khác (xe tay côn…)</h3>
+                <div class="sx-meta">
+                  <span><i class="fa-solid fa-tag"></i>Liên hệ để kiểm tra xe và giá</span>
+                  <span><i class="fa-solid fa-id-card"></i>Cần bằng lái phù hợp</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="sx-cta" aria-label="Xem thêm thông tin">
+            <a class="primary" href="#mapp-banggia"><i class="fa-solid fa-tags"></i> Xem bảng giá</a>
+            <a href="faq.html"><i class="fa-solid fa-circle-question"></i> Xem FAQ</a>
+          </div>
+        </section>
         <section id="mapp-giao">
-          <h2 class="mapp-h2">Khu vực & Phí giao</h2>
+          <h2 class="mapp-h2">Nhận xe & giao xe</h2>
           <ul class="mapp-list">
-            <li>Long Biên, Gia Lâm, Phố Cổ, Hoàn Kiếm (ưu tiên giao nhanh).</li>
-            <li>Phí giao tiêu chuẩn: <strong>20k – 50k</strong> (tính theo quãng đường/điểm hẹn).</li>
-            <li>Nhận CMND/CCCD/Hộ chiếu; hợp đồng rõ ràng, thanh toán linh hoạt.</li>
+            <li>Nhận xe tại cửa hàng 114 Nguyễn Văn Cừ, Long Biên, Hà Nội (09:00–21:00 hằng ngày).</li>
+            <li>Có thể hẹn lịch giao/nhận xe khi đặt; khu vực giao và phí giao (nếu có) được báo trước khi chốt.</li>
+            <li>Thanh toán tiền thuê, đặt cọc và cung cấp giấy tờ theo thỏa thuận ghi trong hợp đồng thuê xe.</li>
           </ul>
         </section>
 
         <section id="mapp-faq">
           <h2 class="mapp-h2">FAQ nhanh</h2>
           <details class="mapp-qa"><summary>Thuê theo ngày/tuần/tháng thế nào?</summary>
-            <div>Ngày: 150–200k; Tuần: ~600–1.000k; Tháng: 1–2 triệu (tuỳ xe và thời điểm).</div>
+            <div>Ngày: 150–200k; Tuần: 700k–1 triệu; Tháng: 900k–2 triệu cho các xe có giá niêm yết (xe tay ga 50cc 200k/ngày, tuần/tháng báo giá; xe điện liên hệ).</div>
           </details>
           <details class="mapp-qa"><summary>Cần giấy tờ gì & đặt cọc bao nhiêu?</summary>
-            <div>CMND/CCCD hoặc hộ chiếu; cọc từ 1–5 triệu tuỳ dòng xe.</div>
+            <div>Giấy tờ tùy thân (CCCD hoặc hộ chiếu) và bằng lái phù hợp loại xe; cọc 2–5 triệu tùy dòng xe (tay ga 50cc 4 triệu). Giấy tờ và tiền cọc theo thỏa thuận; tiền cọc hoàn lại theo điều kiện hợp đồng khi trả xe.</div>
           </details>
           <details class="mapp-qa"><summary>Có giao tận nơi không?</summary>
-            <div>Có. Giao Long Biên, Gia Lâm, Phố Cổ, Hoàn Kiếm… Phí 20k–50k.</div>
+            <div>Có thể hẹn lịch giao/nhận xe khi đặt. Khu vực giao và phí giao (nếu có) được báo trước khi chốt; gọi hoặc nhắn Zalo 0857 255 868 để kiểm tra lịch.</div>
           </details>
         </section>
 
         <section class="sx-wrap sx-rev" aria-label="Đánh giá khách hàng">
-          <h2>Khách hàng tại Hà Nội nói gì</h2>
-          <div class="sx-revlist">
-            <figure class="sx-quote">
-              <div class="sx-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-              <blockquote>“Thuê xe Vision 3 ngày, xe chạy êm — giao tận nơi phố cổ nhanh, phí nhẹ.”</blockquote>
-              <figcaption>— Thu Hà · Phố Cổ</figcaption>
-            </figure>
-            <figure class="sx-quote">
-              <div class="sx-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-              <blockquote>“Giá thuê xe máy hợp lý, cọc nhẹ, nhân viên thân thiện. Ở Long Biên rất tiện.”</blockquote>
-              <figcaption>— Quang Lâm · Long Biên</figcaption>
-            </figure>
-            <figure class="sx-quote">
-              <div class="sx-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-              <blockquote>“Mình thuê xe ga theo tháng ở Tây Hồ — giá tốt, xe mới, bảo dưỡng kỹ.”</blockquote>
-              <figcaption>— Gia Nội · Tây Hồ</figcaption>
-            </figure>
-            <figure class="sx-quote">
-              <div class="sx-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-              <blockquote>“Thuê xe máy Hà Nội dễ, nhận xe nhanh, giao tận nơi đúng giờ — rất đáng tiền.”</blockquote>
-              <figcaption>— Lan Tây · Ba Đình</figcaption>
-            </figure>
-            <figure class="sx-quote">
-              <div class="sx-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-              <blockquote>“Giá thuê xe máy 150k/ngày, thuê tháng từ 1 triệu — quá hợp lý, xe cực mới.”</blockquote>
-              <figcaption>— Hồ Đức · Hoàn Kiếm</figcaption>
-            </figure>
-
-            <figure class="sx-quote">
-              <div class="sx-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-              <blockquote>“Xe chạy êm, nhân viên thân thiện, thủ tục nhanh gọn.”</blockquote>
-              <figcaption>— Nguyễn Đông – Cầu Giấy</figcaption>
-            </figure>
-          </div>
+          <h2>Đánh giá của khách hàng</h2>
+          <p>Đánh giá của khách thuê xe được hiển thị công khai trên Google Maps. <a href="https://maps.app.goo.gl/2icTBTxAToyvKTE78" target="_blank" rel="noopener">Xem đánh giá Motoopen trên Google Maps</a></p>
         </section>
         <div class="mapp-sticky" aria-hidden="true">
           <a id="mapp-sticky-call" class="mapp-sbtn" href="tel:0857255868"><i class="fa-solid fa-phone"></i>Gọi</a>
@@ -408,8 +386,7 @@
 
   <script src="/chothuexemayhanoi/assets/js/pages/banggia-contact-links.js"></script>
 
-  <script src="/chothuexemayhanoi/assets/js/pages/banggia-fontawesome-fallback.js"></script>
   <script src="/chothuexemayhanoi/assets/js/pwa.js"></script>
-    <script defer src="https://motoopen.github.io/chothuexemayhanoi/motoai_v39_modelfirst_nomarkdown_nolink.js"></script>
+  {% include motoai.html %}
 </body>
 </html>

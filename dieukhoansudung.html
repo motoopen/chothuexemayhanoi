@@ -1,4 +1,7 @@
 ---
+seo_page_type: WebPage
+breadcrumb_name: "Điều khoản sử dụng"
+seo_name: "Điều khoản sử dụng dịch vụ thuê xe máy Motoopen"
 ---
 <!doctype html>
 <html lang="vi">
@@ -23,13 +26,13 @@
   <link rel="canonical" href="https://motoopen.github.io/chothuexemayhanoi/dieukhoansudung.html">
   <!-- === KẾT THÚC THAY ĐỔI META === -->
 
-  <link rel="icon" href="https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg" sizes="32x32">
-  <link rel="apple-touch-icon" href="https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg">
+  <link rel="icon" href="{{ '/assets/images/brand/favicon-48.png' | relative_url }}" sizes="48x48" type="image/png">
+  <link rel="apple-touch-icon" href="{{ '/assets/images/brand/apple-touch-icon-180.png' | relative_url }}">
 
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link id="fa-css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link id="fa-css" rel="stylesheet" href="{{ '/assets/vendor/fontawesome/fa-subset.css' | relative_url }}">
 
   <!-- === (SEO) THAY ĐỔI META OG/TWITTER === -->
   <meta property="og:locale" content="vi_VN">
@@ -49,12 +52,8 @@
   <!-- === KẾT THÚC THAY ĐỔI META OG/TWITTER === -->
   
   <link rel="stylesheet" href="/chothuexemayhanoi/assets/css/pages/dieukhoansudung.css">
+  {% include seo/schema-graph.html %}
 </head>
-  <!-- TOÀN BỘ CSS GIỮ NGUYÊN TỪ FILE GIOITHIEU.HTML -->
-  
-  
-  <script src="/chothuexemayhanoi/assets/js/pages/gioithieu-page-fade.js"></script>
-  
 <body>
   <!-- TOÀN BỘ HEADER, DRAWER, TOC GIỮ NGUYÊN -->
   {% include header.html %}
@@ -80,7 +79,7 @@
         <!-- Thẻ H1 rất quan trọng cho SEO -->
         <h1 class="mapp-h2" style="font-size: 1.6rem; margin-top: 0; font-weight: 800;">Điều Khoản Sử Dụng Dịch Vụ Thuê Xe Máy - Motoopen</h1>
         
-        <p class="mapp-text">Chào mừng bạn đến với Motoopen! Vui lòng đọc kỹ các điều khoản sử dụng dịch vụ thuê xe máy dưới đây trước khi tiến hành giao dịch. Bằng việc ký vào hợp đồng và nhận xe, bạn được xem là đã đọc, hiểu và đồng ý tuân thủ toàn bộ các điều khoản này.</p>
+        <p class="mapp-text">Điều khoản này áp dụng cho dịch vụ thuê xe máy của Motoopen tại 114 Nguyễn Văn Cừ, Long Biên, Hà Nội (09:00–21:00 hằng ngày). Tiền cọc từ 2 đến 5 triệu đồng tùy dòng xe; thanh toán tiền thuê, đặt cọc và cung cấp giấy tờ theo thỏa thuận, tiền cọc hoàn lại theo điều kiện hợp đồng khi trả xe. Bằng việc ký hợp đồng và nhận xe, bạn được xem là đã đọc, hiểu và đồng ý với các điều khoản dưới đây.</p>
         
         <p class="mapp-text">Các điều khoản này là cơ sở pháp lý cho hợp đồng thuê xe giữa <strong>Bên Thuê</strong> (Khách hàng) và <strong>Bên Cho Thuê</strong> (Motoopen).</p>
 
@@ -88,27 +87,22 @@
         <p class="mapp-text">Để hoàn tất <a href="thutuc.html" style="color: var(--accent); font-weight: bold; text-decoration: underline;">thủ tục thuê xe</a>, Bên Thuê cần cung cấp các giấy tờ và/hoặc tiền đặt cọc theo quy định:</p>
         
         <ul class="mapp-list">
-          <li><strong>Giấy tờ bắt buộc:</strong> Cung cấp bản gốc Căn cước công dân (CCCD) hoặc Hộ chiếu (Passport) và Giấy phép lái xe (Bằng lái xe) hạng A1 hoặc A2 còn hiệu lực.</li>
-          <li><strong>Hình thức đặt cọc:</strong> Bên Thuê lựa chọn MỘT trong các hình thức sau:
-            <ul style="padding-left: 20px; margin-top: 8px;">
-              <li><strong>Hình thức 1 (Giữ giấy tờ):</strong> Giữ lại bản gốc CCCD/Hộ chiếu.</li>
-              <li><strong>Hình thức 2 (Đặt cọc tiền):</strong> Đặt cọc một khoản tiền mặt (hoặc chuyển khoản) trị giá từ 1.000.000 VNĐ đến 3.000.000 VNĐ, tùy thuộc vào giá trị của loại xe thuê.</li>
-            </ul>
-          </li>
-          <li>Motoopen sẽ hoàn trả 100% giấy tờ và/hoặc tiền đặt cọc ngay khi Bên Thuê trả xe và hai bên hoàn tất các nghĩa vụ thanh toán (nếu có).</li>
+          <li><strong>Giấy tờ:</strong> Căn cước (CCCD) hoặc Hộ chiếu (Passport) còn hiệu lực, cung cấp theo thỏa thuận khi làm hợp đồng; và Giấy phép lái xe phù hợp loại xe còn hiệu lực (hạng A1 cho xe mô tô hai bánh đến 125 cm3 hoặc động cơ điện đến 11 kW, hạng A cho xe lớn hơn). Người lái xe gắn máy (đến 50 cm3 hoặc động cơ điện đến 4 kW, vận tốc thiết kế không quá 50 km/h) không phải có giấy phép lái xe nhưng phải đủ 16 tuổi (Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15, Điều 34, 56, 57, 59).</li>
+          <li><strong>Đặt cọc:</strong> Mức cọc từ 2.000.000 VNĐ đến 5.000.000 VNĐ tùy dòng xe theo <a href="/chothuexemayhanoi/banggia.html" style="color: var(--accent); font-weight: bold; text-decoration: underline;">bảng giá</a>. Thanh toán tiền thuê, đặt cọc và cung cấp giấy tờ theo thỏa thuận ghi trong hợp đồng.</li>
+          <li>Tiền cọc được hoàn lại theo điều kiện hợp đồng khi Bên Thuê trả xe và hai bên hoàn tất các nghĩa vụ thanh toán (nếu có).</li>
         </ul>
 
         <h2 class="mapp-h2">2. Trách Nhiệm Của Bên Thuê Xe (Khách Hàng)</h2>
         <p class="mapp-text">Bên Thuê có trách nhiệm tuân thủ các quy định sau trong suốt thời gian sử dụng dịch vụ:</p>
         
         <ul class="mapp-list">
-          <li>Tuân thủ tuyệt đối Luật Giao thông đường bộ của Việt Nam (đội mũ bảo hiểm, không vượt đèn đỏ, không đi vào đường cấm, không sử dụng rượu bia khi lái xe...).</li>
+          <li>Tuân thủ pháp luật về trật tự, an toàn giao thông đường bộ của Việt Nam (đội mũ bảo hiểm, không vượt đèn đỏ, không đi vào đường cấm, không sử dụng rượu bia khi lái xe...).</li>
           <li>Bên Thuê hoàn toàn chịu trách nhiệm trước pháp luật và chi trả mọi chi phí phát sinh nếu vi phạm luật giao thông.</li>
           <li>Sử dụng xe đúng mục đích, không dùng xe để chở hàng hóa cồng kềnh, hàng cấm, hoặc thực hiện các hành vi vi phạm pháp luật.</li>
           <li>Không tự ý tháo dỡ, thay đổi kết cấu xe, hoặc sửa chữa xe tại các cơ sở không thuộc hệ thống của Motoopen (trừ trường hợp bất khả kháng và đã được Motoopen đồng ý).</li>
           <li>Bảo quản xe và các trang bị đi kèm (mũ bảo hiểm, áo mưa...) cẩn thận. Khóa cổ xe và rút chìa khóa khi không sử dụng.</li>
-          <li>Chịu trách nhiệm bồi thường nếu làm mất chìa khóa, mất mũ bảo hiểm, hoặc làm hỏng các phụ kiện đi kèm theo <a href="banggia.html" style="color: var(--accent); font-weight: bold; text-decoration: underline;">bảng giá</a> phụ phí.</li>
-          <li>Thông báo ngay cho Motoopen qua hotline khi xe gặp sự cố kỹ thuật, tai nạn, hoặc khi bị cơ quan chức năng làm việc.</li>
+          <li>Chịu trách nhiệm bồi thường nếu làm mất chìa khóa, mất mũ bảo hiểm, hoặc làm hỏng các phụ kiện đi kèm theo thỏa thuận trong hợp đồng.</li>
+          <li>Thông báo ngay cho Motoopen qua số 0857 255 868 (điện thoại/Zalo) khi xe gặp sự cố kỹ thuật, tai nạn, hoặc khi bị cơ quan chức năng làm việc.</li>
         </ul>
         
         <h2 class="mapp-h2">3. Trách Nhiệm Của Bên Cho Thuê (Motoopen)</h2>
@@ -118,9 +112,9 @@
           <li>Giao xe đúng loại xe, đúng thời gian và địa điểm đã thỏa thuận.</li>
           <li>Đảm bảo xe trong tình trạng kỹ thuật tốt, vận hành an toàn, đã được bảo dưỡng định kỳ và đổ đầy nhiên liệu (hoặc sạc đầy điện) trước khi giao.</li>
           <li>Cung cấp đầy đủ các trang bị đi kèm miễn phí: 02 mũ bảo hiểm đạt chuẩn, 01 áo mưa.</li>
-          <li>Thực hiện bảo hiểm và bảo dưỡng định kỳ cho xe (áp dụng cho khách thuê tháng).</li>
-          <li>Cung cấp hỗ trợ kỹ thuật 24/7 và dịch vụ cứu hộ trong trường hợp xe gặp sự cố kỹ thuật (không phải do lỗi của Bên Thuê).</li>
-          <li>Lưu trữ và bảo mật tuyệt đối thông tin cá nhân, giấy tờ của khách hàng theo <a href="chinhsachbaomat.html" style="color: var(--accent); font-weight: bold; text-decoration: underline;">Chính sách bảo mật</a>.</li>
+          <li>Bảo dưỡng định kỳ cho xe (với khách thuê tháng). Nội dung về bảo hiểm và trách nhiệm khi xe hư hỏng, va chạm được ghi rõ trong hợp đồng thuê.</li>
+          <li>Hỗ trợ kỹ thuật qua điện thoại/Zalo 0857 255 868 trong giờ làm việc 09:00–21:00 hằng ngày khi xe gặp sự cố kỹ thuật (không phải do lỗi của Bên Thuê).</li>
+          <li>Bảo mật thông tin cá nhân của khách hàng theo <a href="/chothuexemayhanoi/chinhsachbaomat.html" style="color: var(--accent); font-weight: bold; text-decoration: underline;">Chính sách bảo mật</a>.</li>
         </ul>
 
         <h2 class="mapp-h2">4. Chính Sách Xử Lý Sự Cố & Bồi Thường</h2>
@@ -149,6 +143,7 @@
         </ul>
 
         <p class="mapp-text" style="font-weight: bold; color: var(--text);">Motoopen có quyền thay đổi, cập nhật các điều khoản sử dụng này mà không cần thông báo trước. Các thay đổi sẽ có hiệu lực ngay khi được đăng tải trên trang web này. Chúng tôi khuyến khích bạn thường xuyên xem lại trang này để nắm rõ các quy định mới nhất.</p>
+        <p class="mapp-text">Cập nhật lần cuối: 11/2026.</p>
 
       </div>
     </section>
@@ -189,8 +184,6 @@
   
   <script src="/chothuexemayhanoi/assets/js/pages/gioithieu-contact-links.js"></script>
 
-  <script src="/chothuexemayhanoi/assets/js/pages/gioithieu-fontawesome-fallback.js"></script>
-
-  <script defer src="https://motoopen.github.io/chothuexemayhanoi/motoai_v39_modelfirst_nomarkdown_nolink.js"></script>
+  {% include motoai.html %}
 </body>
 </html>

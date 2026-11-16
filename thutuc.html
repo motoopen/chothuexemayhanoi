@@ -1,4 +1,7 @@
 ---
+seo_page_type: WebPage
+breadcrumb_name: "Thủ tục"
+seo_name: "Thủ tục thuê xe máy Hà Nội: giấy tờ và đặt cọc"
 ---
 <!doctype html>
 <html lang="vi">
@@ -18,13 +21,13 @@
   <meta name="description" content="Chi tiết thủ tục thuê xe máy Hà Nội tại Motoopen. Giấy tờ cần thiết (CCCD, Bằng lái), quy trình đặt cọc 2 triệu - 5 triệu, ký hợp đồng và nhận/trả xe.">
 
   <link rel="canonical" href="https://motoopen.github.io/chothuexemayhanoi/thutuc.html">
-  <link rel="icon" href="https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg" sizes="32x32">
-  <link rel="apple-touch-icon" href="https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg">
+  <link rel="icon" href="{{ '/assets/images/brand/favicon-48.png' | relative_url }}" sizes="48x48" type="image/png">
+  <link rel="apple-touch-icon" href="{{ '/assets/images/brand/apple-touch-icon-180.png' | relative_url }}">
 
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link id="fa-css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link id="fa-css" rel="stylesheet" href="{{ '/assets/vendor/fontawesome/fa-subset.css' | relative_url }}">
 
   <meta property="og:locale" content="vi_VN">
   <meta property="og:type" content="website">
@@ -40,12 +43,9 @@
   <meta name="twitter:title" content="Thủ Tục Thuê Xe Máy Hà Nội | Cọc 2-5 Triệu | Motoopen">
   <meta name="twitter:description" content="Chi tiết thủ tục thuê xe máy Hà Nội tại Motoopen. Giấy tờ cần thiết, quy trình đặt cọc 2 triệu - 5 triệu và các bước nhận xe.">
   <meta name="twitter:image" content="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg">
-    <link rel="stylesheet" href="/chothuexemayhanoi/assets/css/pages/gioithieu.css">
+  <link rel="stylesheet" href="/chothuexemayhanoi/assets/css/pages/gioithieu.css">
+  {% include seo/schema-graph.html %}
 </head>
-  
-  
-  <script src="/chothuexemayhanoi/assets/js/pages/gioithieu-page-fade.js"></script>
-  
 <body>
   {% include header.html %}
   
@@ -59,23 +59,23 @@
 
     <section class="hero-mini" aria-label="Thuê xe máy nhanh">
       <div class="wrap">
-        <div class="card reveal">
+        <div class="card">
           <div class="hmini-grid">
 
             <div>
-              <h1 class="hmini-title">Thuê Xe Máy Hà Nội – Giao Tận Nơi, Giá Từ 150k/ngày</h1>
-              <p class="hmini-sub">Xe số • Xe ga • 50cc/điện · Thuê ngày/tuần/tháng · Giao nhanh 20–40’, cọc nhẹ, xe bảo dưỡng kỹ.</p>
+              <h1 class="hmini-title">Thủ Tục Thuê Xe Máy Hà Nội – Giấy Tờ Và Đặt Cọc 2–5 Triệu</h1>
+              <p class="hmini-sub">Thuê xe tại Motoopen cần CCCD hoặc hộ chiếu, giấy phép lái xe phù hợp loại xe và tiền cọc 2–5 triệu đồng tùy dòng xe; tiền cọc hoàn lại theo điều kiện hợp đồng khi trả xe. Xe gắn máy (đến 50 cm3 hoặc điện đến 4 kW, vận tốc thiết kế không quá 50 km/h) không cần bằng lái, người lái phải đủ 16 tuổi.</p>
               <div class="hmini-toggle" role="tablist" aria-label="Chọn gói thuê">
                 <button type="button" class="active" data-plan="day" role="tab" aria-selected="true">Ngày</button>
                 <button type="button" data-plan="week" role="tab" aria-selected="false">Tuần</button>
                 <button type="button" data-plan="month" role="tab" aria-selected="false">Tháng</button>
               </div>
 
-              <p class="hmini-price">Giá dự kiến: <span id="hminiPrice">150–200k/ngày</span> • <span id="hminiDeposit">Cọc nhẹ</span></p>
+              <p class="hmini-price">Giá dự kiến: <span id="hminiPrice">150–200k/ngày</span> • <span id="hminiDeposit">Cọc 2–5 triệu tùy xe</span></p>
 
               <div class="hmini-badges">
                 <span class="hmini-badge"><i class="fa-solid fa-shield-halved"></i> Hợp đồng rõ ràng</span>
-                <span class="hmini-badge"><i class="fa-solid fa-clock"></i> Giao nhanh 20–40’</span>
+                <span class="hmini-badge"><i class="fa-solid fa-clock"></i> 09:00–21:00 hằng ngày</span>
                 <span class="hmini-badge"><i class="fa-solid fa-screwdriver-wrench"></i> Xe bảo dưỡng kỹ</span>
               </div>
 
@@ -116,7 +116,7 @@
                 <div class="hmini-soft"></div>
 
                 <div class="hmini-stats" aria-label="Thông tin nhanh">
-                  <div class="hmini-stat"><i class="fa-solid fa-map"></i>Giao nội thành</div>
+                  <div class="hmini-stat"><i class="fa-solid fa-map"></i>Hẹn giao/nhận xe</div>
                   <div class="hmini-stat"><i class="fa-solid fa-battery-full"></i>Full điện</div>
                   <div class="hmini-stat"><i class="fa-solid fa-helmet-safety"></i>Kèm mũ </div>
                 </div>
@@ -136,36 +136,41 @@
         
         <p class="mapp-text">Tại Motoopen, chúng tôi đã tinh giản quy trình và thủ tục thuê xe máy để đảm bảo sự nhanh gọn, minh bạch và thuận tiện nhất cho khách hàng. Chúng tôi hiểu rằng thời gian của bạn là quý giá. Dưới đây là toàn bộ thông tin chi tiết về giấy tờ cần thiết và quy trình đặt cọc.</p>
 
-        <h2 class="mapp-h2">1. Giấy Tờ Cần Thiết (Bắt Buộc)</h2>
-        <p class="mapp-text">Để hoàn tất hợp đồng thuê xe, bạn chỉ cần chuẩn bị 02 loại giấy tờ đơn giản sau:</p>
+        <h2 class="mapp-h2">1. Giấy Tờ Cần Thiết</h2>
+        <p class="mapp-text">Để làm hợp đồng thuê xe, bạn chuẩn bị các giấy tờ sau; cách cung cấp và đối chiếu giấy tờ được thống nhất khi ký hợp đồng:</p>
         <ul class="mapp-list">
-          <li><strong>Giấy Tờ Tùy Thân (1 trong 2):</strong> Căn cước công dân (CCCD) có gắn chip HOẶC Hộ chiếu (Passport) còn hiệu lực. Chúng tôi sẽ giữ lại giấy tờ này trong suốt thời gian bạn thuê xe.</li>
-          <li><strong>Giấy Phép Lái Xe (Bằng Lái):</strong> Bạn cần xuất trình Giấy phép lái xe hạng A1 hoặc A2 (đối với xe trên 175cc) để chúng tôi kiểm tra và chụp ảnh. Bạn sẽ được giữ lại bằng lái để sử dụng khi tham gia giao thông.</li>
+          <li><strong>Giấy Tờ Tùy Thân (1 trong 2):</strong> Căn cước (CCCD) hoặc Hộ chiếu (Passport) còn hiệu lực, cung cấp theo thỏa thuận khi làm hợp đồng thuê xe.</li>
+          <li><strong>Giấy Phép Lái Xe (Bằng Lái):</strong> Xe mô tô hai bánh đến 125 cm3 (hoặc động cơ điện đến 11 kW) cần bằng hạng A1; xe trên 125 cm3 (hoặc trên 11 kW) cần bằng hạng A. Bằng A1, A2 cấp trước ngày 01/01/2025 vẫn được dùng theo phạm vi cũ: A1 cho xe từ 50 cm3 đến dưới 175 cm3, A2 cho xe từ 175 cm3 trở lên. Bạn giữ bằng lái để mang theo khi lái xe.</li>
         </ul>
         <blockquote class="mapp-text" style="border-left: 4px solid var(--accent); padding-left: 12px; margin-left: 10px; font-style: italic;">
-          <strong>Lưu ý quan trọng:</strong> Nếu bạn không có bằng lái A1, bạn chỉ có thể thuê các dòng xe 50cc hoặc xe máy điện. Vui lòng thông báo trước cho chúng tôi để được tư vấn dòng xe phù hợp.
+          <strong>Lưu ý quan trọng:</strong> Nếu chưa có giấy phép lái xe, bạn chỉ được tự lái xe gắn máy: xe có vận tốc thiết kế không quá 50 km/h, động cơ xăng đến 50 cm3 hoặc động cơ điện đến 4 kW, và người lái phải đủ 16 tuổi. Vui lòng báo trước để chúng tôi tư vấn dòng xe phù hợp.
         </blockquote>
-        <p class="mapp-text"><strong>Đối với khách hàng nước ngoài (Foreigners):</strong> Bạn cần cung cấp Hộ chiếu (Passport) và Bằng lái xe quốc tế (International Driving Permit) hợp lệ tại Việt Nam.</p>
+        <p class="mapp-text"><strong>Đối với khách hàng nước ngoài (Foreigners):</strong> Để lái xe mô tô (trên 50 cm3), bạn cần giấy phép lái xe Việt Nam, hoặc giấy phép lái xe quốc tế (IDP) do nước thành viên Công ước Viên 1968 cấp, còn hạn và mang kèm giấy phép lái xe quốc gia phù hợp hạng xe, hoặc giấy phép được công nhận theo điều ước, thỏa thuận quốc tế mà Việt Nam tham gia. Nếu chưa có giấy phép hợp lệ, bạn chỉ được tự lái xe gắn máy (người lái đủ 16 tuổi). Hộ chiếu dùng làm giấy tờ tùy thân khi làm hợp đồng.</p>
+        <p class="mapp-text"><strong>Căn cứ pháp lý:</strong> Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (hiệu lực 01/01/2025, sửa đổi bởi Luật số 118/2025/QH15): Điều 34 khoản 1 điểm g (xe gắn máy), Điều 56 khoản 1 và 4 (người lái xe gắn máy không phải có giấy phép lái xe), Điều 57 khoản 1, 6 và 8 (hạng A1, A; giấy phép lái xe quốc tế), Điều 59 khoản 1 (đủ 16 tuổi được lái xe gắn máy, đủ 18 tuổi được cấp bằng A1, A), Điều 89 khoản 2 (bằng cấp trước 2025). Văn bản gốc: <a href="https://vanban.chinhphu.vn/?pageid=27160&amp;docid=211194&amp;classid=1&amp;typegroupid=3" target="_blank" rel="noopener">Cổng Thông tin điện tử Chính phủ</a>.</p>
 
-        <h2 class="mapp-h2">2. Quy Trình Đặt Cọc (Deposit)</h2>
-        <p class="mapp-text">Đây là phần quan trọng trong thủ tục thuê xe, đảm bảo trách nhiệm cho cả hai bên. Mức đặt cọc tại Motoopen rất linh hoạt, dao động <strong>từ 2 triệu đến 5 triệu đồng</strong>, tùy thuộc vào giá trị của chiếc xe bạn chọn.</p>
+        <h2 class="mapp-h2">2. Mức Đặt Cọc Theo Dòng Xe (Deposit)</h2>
+        <p class="mapp-text">Tiền cọc bảo đảm trách nhiệm của cả hai bên trong thời gian thuê. Mức cọc tại Motoopen <strong>từ 2 triệu đến 5 triệu đồng</strong> tùy dòng xe:</p>
         
         <ul class="mapp-list">
-          <li><strong>Mức cọc 2.000.000 VNĐ:</strong> Áp dụng cho các dòng xe phổ thông, giá trị vừa phải như Honda Wave, Yamaha Sirius, Honda Vision, Honda Lead...</li>
-          <li><strong>Mức cọc 3.000.000 - 5.000.000 VNĐ:</strong> Áp dụng cho các dòng xe cao cấp, giá trị lớn như Honda Air Blade 150/160, Honda SH, SH Mode, Vespa, hoặc các dòng xe côn tay (Winner X, Exciter).</li>
+          <li><strong>Honda Click / Yamaha Mio:</strong> cọc 2.000.000đ.</li>
+          <li><strong>Honda Wave:</strong> cọc 2.000.000–3.000.000đ.</li>
+          <li><strong>Honda Air Blade:</strong> cọc 3.000.000đ.</li>
+          <li><strong>Xe tay ga 50cc:</strong> cọc 4.000.000đ.</li>
+          <li><strong>Honda Vision:</strong> cọc 4.000.000–5.000.000đ.</li>
+          <li><strong>Xe máy điện, xe đạp điện:</strong> cọc theo mẫu xe, báo khi liên hệ.</li>
+          <li><strong>Mẫu xe khác (ngoài bảng giá):</strong> liên hệ để kiểm tra xe và giá.</li>
         </ul>
         
-        <p class="mapp-text"><strong>Hình thức đặt cọc:</strong> Bạn có thể đặt cọc bằng tiền mặt hoặc chuyển khoản ngân hàng. Toàn bộ số tiền cọc này sẽ được <strong>hoàn trả 100%</strong> ngay khi bạn trả xe và hợp đồng được thanh lý, với điều kiện xe được trả về đúng hiện trạng (không hỏng hóc, mất mát).</p>
-        <p class="mapp-text">Chúng tôi <strong>KHÔNG</strong> nhận đặt cọc bằng cách giữ Hộ chiếu hoặc CCCD thay cho tiền mặt. Chúng tôi bắt buộc giữ 1 loại giấy tờ tùy thân (CCCD/Passport) VÀ nhận tiền cọc.</p>
+        <p class="mapp-text"><strong>Thanh toán và hoàn cọc:</strong> Thanh toán tiền thuê, đặt cọc và cung cấp giấy tờ theo thỏa thuận ghi trong hợp đồng. Tiền cọc được hoàn lại theo điều kiện hợp đồng khi bạn trả xe (sau khi hai bên đối chiếu tình trạng xe và các khoản phát sinh, nếu có).</p>
 
 
-        <h2 class="mapp-h2">3. Quy Trình 4 Bước Thuê Xe Nhanh Gọn</h2>
-        <p class="mapp-text">Toàn bộ quá trình thuê xe tại Motoopen chỉ mất khoảng 5-10 phút làm thủ tục khi nhận xe.</p>
+        <h2 class="mapp-h2">3. Quy Trình 4 Bước Thuê Xe</h2>
+        <p class="mapp-text">Quy trình thuê xe tại Motoopen gồm 4 bước:</p>
         <ol class="mapp-list" type="1">
-          <li><strong>Bước 1: Liên hệ & Chọn xe:</strong> Bạn gọi điện (Hotline/Zalo) để cung cấp ngày thuê, loại xe mong muốn. Chúng tôi sẽ tư vấn và xác nhận tình trạng xe.</li>
-          <li><strong>Bước 2: Cung cấp thông tin:</strong> Bạn chốt xe, cung cấp địa chỉ và thời gian giao xe. Nếu đặt trước, bạn có thể cần chuyển khoản một phần nhỏ để giữ xe.</li>
-          <li><strong>Bước 3: Nhận xe & Ký hợp đồng:</strong> Nhân viên giao xe đúng hẹn. Bạn kiểm tra xe, cung cấp giấy tờ (CCCD/Passport + Bằng lái) và tiền đặt cọc (2-5 triệu). Hai bên ký hợp đồng thuê xe.</li>
-          <li><strong>Bước 4: Trả xe & Hoàn cọc:</strong> Khi hết hạn thuê, bạn trả xe tại địa điểm đã hẹn. Chúng tôi kiểm tra xe và hoàn trả 100% tiền cọc cùng giấy tờ tùy thân cho bạn.</li>
+          <li><strong>Bước 1: Liên hệ & Chọn xe:</strong> Bạn gọi điện hoặc nhắn Zalo 0857 255 868 (09:00–21:00 hằng ngày) để báo ngày thuê và loại xe mong muốn. Chúng tôi tư vấn và xác nhận xe còn trống.</li>
+          <li><strong>Bước 2: Chốt lịch:</strong> Bạn chốt xe, thời gian và địa điểm nhận xe (tại cửa hàng 114 Nguyễn Văn Cừ, Long Biên hoặc theo lịch hẹn giao xe; phí giao, nếu có, được báo trước khi chốt).</li>
+          <li><strong>Bước 3: Nhận xe & Ký hợp đồng:</strong> Bạn kiểm tra xe, xuất trình giấy tờ và đặt cọc 2–5 triệu tùy dòng xe theo thỏa thuận. Hai bên ký hợp đồng thuê xe.</li>
+          <li><strong>Bước 4: Trả xe & Hoàn cọc:</strong> Khi hết hạn thuê, bạn trả xe tại địa điểm đã hẹn. Hai bên kiểm tra xe và tiền cọc được hoàn lại theo điều kiện hợp đồng.</li>
         </ol>
         
         <h2 class="mapp-h2">Câu Hỏi Thường Gặp Về Thủ Tục</h2>
@@ -208,8 +213,6 @@
   
   <script src="/chothuexemayhanoi/assets/js/pages/gioithieu-contact-links.js"></script>
 
-  <script src="/chothuexemayhanoi/assets/js/pages/gioithieu-fontawesome-fallback.js"></script>
-
-  <script defer src="https://motoopen.github.io/chothuexemayhanoi/motoai_v39_modelfirst_nomarkdown_nolink.js"></script>
+  {% include motoai.html %}
 </body>
 </html>

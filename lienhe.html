@@ -1,4 +1,8 @@
 ---
+seo_page_type: ContactPage
+breadcrumb_name: "Liên hệ"
+seo_name: "Liên hệ Motoopen – thuê xe máy Hà Nội"
+seo_description: "Địa chỉ, giờ mở cửa, điện thoại, Zalo, email và bản đồ của Motoopen – cho thuê xe máy tại 114 Nguyễn Văn Cừ, Long Biên, Hà Nội."
 ---
 <!doctype html>
 <html lang="vi">
@@ -40,53 +44,24 @@
   <meta name="twitter:image" content="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg">
   <!-- ================== KẾT THÚC SEO ================== -->
 
-  <link rel="icon" href="https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg" sizes="32x32">
-  <link rel="apple-touch-icon" href="https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg">
+  <link rel="icon" href="{{ '/assets/images/brand/favicon-48.png' | relative_url }}" sizes="48x48" type="image/png">
+  <link rel="apple-touch-icon" href="{{ '/assets/images/brand/apple-touch-icon-180.png' | relative_url }}">
 
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-
-  
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ContactPage",
-    "name": "Thông tin liên hệ - Motoopen",
-    "url": "https://motoopen.github.io/chothuexemayhanoi/lienhe.html",
-    "description": "Thông tin liên hệ, địa chỉ, bản đồ và form liên hệ của Motoopen - Dịch vụ thuê xe máy Hà Nội.",
-    "mainEntity": {
-      "@type": "LocalBusiness",
-      "@id": "https://motoopen.github.io/chothuexemayhanoi/#localbusiness",
-      "name": "Motoopen - Thuê Xe Máy Hà Nội",
-      "image": "https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg",
-      "url": "https://motoopen.github.io/chothuexemayhanoi/",
-      "telephone": "+84857255868",
-      "email": "motoopen12@gmail.com",
-      "priceRange": "₫150000-₫2000000",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "114 Nguyễn Văn Cừ, Long Biên",
-        "addressLocality": "Hà Nội",
-        "postalCode": "100000",
-        "addressCountry": "VN"
-      },
-      "openingHours": "Mo-Su 09:00-21:00",
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 21.0409278,
-        "longitude": 105.8692028
-      }
-    }
-  }
-  </script>
-  <script src="/chothuexemayhanoi/assets/js/page-fade.js"></script>
+  <link id="fa-css" rel="stylesheet" href="{{ '/assets/vendor/fontawesome/fa-subset.css' | relative_url }}">
 
   <link rel="stylesheet" href="/chothuexemayhanoi/assets/css/pages/lienhe.css">
+  <style>
+    /* Click-to-load Google Maps facade (lienhe only) */
+    .map-responsive .map-facade{position:absolute;inset:0;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;border:0;padding:16px;background:var(--glass);color:inherit;font:inherit;font-weight:600;text-align:center;cursor:pointer}
+    .map-responsive .map-facade i{font-size:2rem;color:var(--accent)}
+    .map-responsive .map-facade small{font-weight:500;color:var(--muted,#6e6e73)}
+    .map-link{margin-top:8px;text-align:center}
+    .contact-options .mapp-actions{flex-wrap:wrap}
+  </style>
+  {% include seo/schema-graph.html %}
 </head>
 
 <body>
@@ -103,24 +78,23 @@
     <!-- ================== GIỮ NGUYÊN HERO-MINI THEO YÊU CẦU ================== -->
     <section class="hero-mini" aria-label="Thuê xe máy nhanh">
       <div class="wrap">
-        <div class="card reveal">
+        <div class="card">
           <div class="hmini-grid">
 
             <div>
-              <h1 class="hmini-title">Thuê Xe Máy Hà Nội – Giao Tận Nơi, Giá Từ 150k/ngày</h1>
-              <p class="hmini-sub">Xe số • Xe ga • 50cc/điện · Thuê ngày/tuần/tháng · Giao nhanh 20–40’, cọc nhẹ, xe
-                bảo dưỡng kỹ.</p>
+              <h1 class="hmini-title">Liên Hệ Motoopen – 0857 255 868, 114 Nguyễn Văn Cừ, Long Biên</h1>
+              <p class="hmini-sub">Motoopen ở 114 Nguyễn Văn Cừ, Long Biên, Hà Nội, mở cửa 09:00–21:00 hằng ngày. Đặt xe hoặc hỏi giá: gọi hoặc nhắn Zalo 0857 255 868, email motoopen12@gmail.com.</p>
               <div class="hmini-toggle" role="tablist" aria-label="Chọn gói thuê">
                 <button type="button" class="active" data-plan="day" role="tab" aria-selected="true">Ngày</button>
                 <button type="button" data-plan="week" role="tab" aria-selected="false">Tuần</button>
                 <button type="button" data-plan="month" role="tab" aria-selected="false">Tháng</button>
               </div>
 
-              <p class="hmini-price">Giá dự kiến: <span id="hminiPrice">150–200k/ngày</span> • <span id="hminiDeposit">Cọc nhẹ</span></p>
+              <p class="hmini-price">Giá dự kiến: <span id="hminiPrice">150–200k/ngày</span> • <span id="hminiDeposit">Cọc 2–5 triệu tùy xe</span></p>
 
               <div class="hmini-badges">
                 <span class="hmini-badge"><i class="fa-solid fa-shield-halved"></i> Hợp đồng rõ ràng</span>
-                <span class="hmini-badge"><i class="fa-solid fa-clock"></i> Giao nhanh 20–40’</span>
+                <span class="hmini-badge"><i class="fa-solid fa-clock"></i> 09:00–21:00 hằng ngày</span>
                 <span class="hmini-badge"><i class="fa-solid fa-screwdriver-wrench"></i> Xe bảo dưỡng kỹ</span>
               </div>
 
@@ -161,7 +135,7 @@
                 <div class="hmini-soft"></div>
 
                 <div class="hmini-stats" aria-label="Thông tin nhanh">
-                  <div class="hmini-stat"><i class="fa-solid fa-map"></i>Giao nội thành</div>
+                  <div class="hmini-stat"><i class="fa-solid fa-map"></i>Hẹn giao/nhận xe</div>
                   <div class="hmini-stat"><i class="fa-solid fa-battery-full"></i>Full điện</div>
                   <div class="hmini-stat"><i class="fa-solid fa-helmet-safety"></i>Kèm mũ </div>
                 </div>
@@ -177,10 +151,10 @@
     <section id="contact-section" class="mapp-wrap" aria-label="Thông tin liên hệ">
       <div class="mapp-card">
         <div class="mapp-head">
-          <img src="https://i.postimg.cc/brsmsj5N/IMG_5215.jpg" alt="Motoopen" class="mapp-logo" loading="lazy">
+          <img src="{{ site.data.site.brand.logo_small | relative_url }}" alt="Logo Motoopen" class="mapp-logo" width="54" height="54" loading="lazy" decoding="async">
           <div class="mapp-title">
-            <h1 class="mapp-h1">Thông Tin Liên Hệ</h1>
-            <p class="mapp-kicker">Gửi yêu cầu hoặc liên hệ trực tiếp với Motoopen (09:00–21:00)</p>
+            <h2 class="mapp-h1">Thông Tin Liên Hệ</h2>
+            <p class="mapp-kicker">Gọi, nhắn Zalo hoặc email cho Motoopen (09:00–21:00 hằng ngày)</p>
           </div>
         </div>
 
@@ -208,7 +182,7 @@
               </li>
               <li>
                 <i class="fa-solid fa-clock"></i>
-                <span><strong>Giờ làm việc:</strong> 09:00 – 21:00 (Hàng ngày)</span>
+                <span><strong>Giờ làm việc:</strong> 09:00–21:00 hằng ngày</span>
               </li>
             </ul>
 
@@ -221,39 +195,30 @@
             </div>
           </div>
 
-          <!-- Cột 2: Form liên hệ -->
-          <div class="contact-form">
-            <h2 class="mapp-h2">Gửi yêu cầu nhanh</h2>
-            <form id="main-contact-form" action="#" method="POST" onsubmit="alert('Chức năng đang phát triển. Quý khách vui lòng gọi hoặc Zalo 0857255868 để được hỗ trợ nhanh nhất. Xin cảm ơn!'); return false;">
-              <div class="form-group">
-                <label for="name">Họ và tên</label>
-                <input type="text" id="name" name="name" class="form-control" required>
-              </div>
-              <div class="form-group">
-                <label for="phone">Số điện thoại</label>
-                <input type="tel" id="phone" name="phone" class="form-control" required>
-              </div>
-              <div class="form-group">
-                <label for="message">Nội dung</label>
-                <textarea id="message" name="message" class="form-control" rows="5" placeholder="Ví dụ: Tôi muốn thuê xe Vision 3 ngày, giao tại Phố Cổ..."></textarea>
-              </div>
-              <button type="submit" class="btn-submit"><i class="fa-solid fa-paper-plane"></i> Gửi liên hệ</button>
-            </form>
+          <!-- Cột 2: Cách đặt xe (liên hệ trực tiếp, website không có biểu mẫu gửi yêu cầu) -->
+          <div class="contact-options">
+            <h2 class="mapp-h2">Đặt xe hoặc hỏi giá</h2>
+            <p class="mapp-text">Để kiểm tra xe còn trống và giá thuê, bạn liên hệ trực tiếp với Motoopen trong giờ 09:00–21:00 hằng ngày:</p>
+            <div class="mapp-actions" role="group" aria-label="Cách liên hệ Motoopen">
+              <a class="mapp-btn primary" href="tel:0857255868"><i class="fa-solid fa-phone"></i>Gọi 0857 255 868</a>
+              <a class="mapp-btn green" href="https://zalo.me/0857255868" target="_blank" rel="noopener"><i class="fa-solid fa-comment-dots"></i>Nhắn Zalo</a>
+              <a class="mapp-btn ghost" href="mailto:motoopen12@gmail.com?subject=Thu%C3%AA%20xe%20m%C3%A1y%20Motoopen"><i class="fa-solid fa-envelope"></i>Gửi email</a>
+              <a class="mapp-btn ghost" href="https://maps.app.goo.gl/2icTBTxAToyvKTE78" target="_blank" rel="noopener"><i class="fa-solid fa-location-dot"></i>Chỉ đường</a>
+            </div>
+            <p class="mapp-text">Khi nhắn tin, bạn ghi rõ mẫu xe, ngày nhận, số ngày thuê và nơi nhận xe để Motoopen kiểm tra xe và báo giá.</p>
+            <p class="mapp-text">Giá tham khảo theo từng dòng xe có trong <a href="banggia.html" style="color: var(--accent); font-weight: bold; text-decoration: underline;">bảng giá thuê xe máy</a>.</p>
           </div>
         </div>
 
         <!-- Bản đồ Iframe -->
         <h2 class="mapp-h2" style="margin-top: 28px;">Bản đồ đường đi</h2>
         <div class="map-responsive">
-          <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.9213551525424!2d105.8666331149328!3d21.03984648599451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a9686036b131%3A0x60f95e3a89369325!2sMOTOOPEN!5e0!3m2!1svi!2s!4v1730823050169!5m2!1svi!2s" 
-            width="600" 
-            height="450" 
-            allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade">
-          </iframe>
+          <button type="button" class="map-facade" data-map-title="Bản đồ Motoopen – 114 Nguyễn Văn Cừ, Long Biên, Hà Nội" data-map-src="https://maps.google.com/maps?q=Cho+thu%C3%AA+xe+m%C3%A1y+H%C3%A0+N%E1%BB%99i+-+Moto+Open,+114+%C4%90.+Nguy%E1%BB%85n+V%C4%83n+C%E1%BB%AB,+B%E1%BB%93+%C4%90%E1%BB%81,+Long+Bi%C3%AAn,+H%C3%A0+N%E1%BB%99i&amp;hl=vi&amp;z=16&amp;output=embed">
+            <i class="fa-solid fa-map-location-dot" aria-hidden="true"></i>
+            <span>Bấm để xem bản đồ Google Maps<br><small>114 Nguyễn Văn Cừ, Long Biên, Hà Nội</small></span>
+          </button>
         </div>
+        <p class="map-link"><a href="https://maps.app.goo.gl/2icTBTxAToyvKTE78" target="_blank" rel="noopener" style="color: var(--accent); font-weight: bold; text-decoration: underline;">Mở chỉ đường trên Google Maps</a></p>
       </div>
     </section>
     <!-- ================== KẾT THÚC NỘI DUNG MỚI ================== -->
@@ -275,7 +240,7 @@
 
   <div class="bottom-appbar" role="navigation" aria-label="Bottom app bar">
     <nav>
-      <a href="https://motoopen.github.io/chothuexemayhanoi/index.html" id="bab-home"><i class="fa-solid fa-house"></i><span>Trang
+      <a href="{{ '/' | relative_url }}" id="bab-home"><i class="fa-solid fa-house"></i><span>Trang
           chủ</span></a>
       <a href="tel:0857255868"><i class="fa-solid fa-phone"></i><span>Gọi</span></a>
       <a href="https://zalo.me/0857255868" target="_blank" rel="noopener"><i class="fa-solid fa-comment-dots"></i><span>Zalo</span></a>
@@ -293,9 +258,24 @@
 
   <script src="/chothuexemayhanoi/assets/js/pages/lienhe-contact-links.js"></script>
 
-  <script src="/chothuexemayhanoi/assets/js/pages/banggia-fontawesome-fallback.js"></script>
   <script src="/chothuexemayhanoi/assets/js/pwa.js"></script>
 
-  <script defer src="https://motoopen.github.io/chothuexemayhanoi/motoai_v39_modelfirst_nomarkdown_nolink.js"></script>
+  <script>
+    /* Map facade: load the Google Maps iframe only when the visitor asks for it. */
+    document.querySelectorAll('.map-facade[data-map-src]').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var f = document.createElement('iframe');
+        f.src = btn.getAttribute('data-map-src');
+        f.title = btn.getAttribute('data-map-title') || 'Bản đồ Google Maps';
+        f.width = '600';
+        f.height = '450';
+        f.setAttribute('allowfullscreen', '');
+        f.referrerPolicy = 'no-referrer-when-downgrade';
+        btn.replaceWith(f);
+      }, { once: true });
+    });
+  </script>
+
+  {% include motoai.html %}
 </body>
 </html>

@@ -1,4 +1,8 @@
 ---
+seo_page_type: WebPage
+breadcrumb_name: "Các loại xe"
+seo_name: "Các loại xe máy cho thuê tại Motoopen"
+seo_description: "Các dòng xe máy cho thuê tại Motoopen: Honda Wave, Honda Click/Yamaha Mio (150.000đ/ngày), Honda Vision, Honda Air Blade và xe tay ga 50cc (200.000đ/ngày); xe điện báo giá khi liên hệ."
 ---
 <!doctype html>
 <html lang="vi">
@@ -18,13 +22,13 @@
   <meta name="description" content="Motoopen chuyên cho thuê xe máy các loại theo tháng tại Hà Nội. Đa dạng xe số, xe ga, xe côn. Thủ tục nhanh, giá tốt, cọc linh hoạt. Liên hệ ngay!">
 
   <link rel="canonical" href="https://motoopen.github.io/chothuexemayhanoi/loaixe.html">
-  <link rel="icon" href="https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg" sizes="32x32">
-  <link rel="apple-touch-icon" href="https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg">
+  <link rel="icon" href="{{ '/assets/images/brand/favicon-48.png' | relative_url }}" sizes="48x48" type="image/png">
+  <link rel="apple-touch-icon" href="{{ '/assets/images/brand/apple-touch-icon-180.png' | relative_url }}">
 
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link id="fa-css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link id="fa-css" rel="stylesheet" href="{{ '/assets/vendor/fontawesome/fa-subset.css' | relative_url }}">
 
   <meta property="og:locale" content="vi_VN">
   <meta property="og:type" content="website">
@@ -40,12 +44,9 @@
   <meta name="twitter:title" content="Cho thuê xe máy các loại theo Tháng Hà Nội - Motoopen">
   <meta name="twitter:description" content="Motoopen chuyên cho thuê xe máy các loại theo tháng tại Hà Nội. Đa dạng xe số, xe ga, xe côn. Thủ tục nhanh, giá tốt, cọc linh hoạt.">
   <meta name="twitter:image" content="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg">
-    <link rel="stylesheet" href="/chothuexemayhanoi/assets/css/pages/loaixe.css">
+  <link rel="stylesheet" href="/chothuexemayhanoi/assets/css/pages/loaixe.css">
+  {% include seo/schema-graph.html %}
 </head>
-  
-  
-  <script src="/chothuexemayhanoi/assets/js/pages/gioithieu-page-fade.js"></script>
-  
 <body>
   {% include header.html %}
   <button class="toc-fab" id="tocFab" title="Mục lục (H2)">≡</button>
@@ -58,23 +59,23 @@
 
     <section class="hero-mini" aria-label="Thuê xe máy nhanh">
       <div class="wrap">
-        <div class="card reveal">
+        <div class="card">
           <div class="hmini-grid">
 
             <div>
-              <h1 class="hmini-title">Thuê Xe Máy Hà Nội – Giao Tận Nơi, Giá Từ 150k/ngày</h1>
-              <p class="hmini-sub">Xe số • Xe ga • 50cc/điện · Thuê ngày/tuần/tháng · Giao nhanh 20–40’, cọc nhẹ, xe bảo dưỡng kỹ.</p>
+              <h1 class="hmini-title">Các Loại Xe Máy Cho Thuê: Wave, Vision, Air Blade, Click, 50cc, Xe Điện</h1>
+              <p class="hmini-sub">Motoopen niêm yết giá cho Honda Wave, Honda Click/Yamaha Mio (150.000đ/ngày), Honda Vision, Honda Air Blade và xe tay ga 50cc (200.000đ/ngày); xe máy điện, xe đạp điện báo giá khi liên hệ. Thuê theo tháng từ 900.000đ (Wave, Click/Mio) đến 2.000.000đ (Vision), cọc 2–5 triệu đồng tùy xe.</p>
               <div class="hmini-toggle" role="tablist" aria-label="Chọn gói thuê">
                 <button type="button" class="active" data-plan="day" role="tab" aria-selected="true">Ngày</button>
                 <button type="button" data-plan="week" role="tab" aria-selected="false">Tuần</button>
                 <button type="button" data-plan="month" role="tab" aria-selected="false">Tháng</button>
               </div>
 
-              <p class="hmini-price">Giá dự kiến: <span id="hminiPrice">150–200k/ngày</span> • <span id="hminiDeposit">Cọc nhẹ</span></p>
+              <p class="hmini-price">Giá dự kiến: <span id="hminiPrice">150–200k/ngày</span> • <span id="hminiDeposit">Cọc 2–5 triệu tùy xe</span></p>
 
               <div class="hmini-badges">
                 <span class="hmini-badge"><i class="fa-solid fa-shield-halved"></i> Hợp đồng rõ ràng</span>
-                <span class="hmini-badge"><i class="fa-solid fa-clock"></i> Giao nhanh 20–40’</span>
+                <span class="hmini-badge"><i class="fa-solid fa-clock"></i> 09:00–21:00 hằng ngày</span>
                 <span class="hmini-badge"><i class="fa-solid fa-screwdriver-wrench"></i> Xe bảo dưỡng kỹ</span>
               </div>
 
@@ -115,7 +116,7 @@
                 <div class="hmini-soft"></div>
 
                 <div class="hmini-stats" aria-label="Thông tin nhanh">
-                  <div class="hmini-stat"><i class="fa-solid fa-map"></i>Giao nội thành</div>
+                  <div class="hmini-stat"><i class="fa-solid fa-map"></i>Hẹn giao/nhận xe</div>
                   <div class="hmini-stat"><i class="fa-solid fa-battery-full"></i>Full điện</div>
                   <div class="hmini-stat"><i class="fa-solid fa-helmet-safety"></i>Kèm mũ </div>
                 </div>
@@ -132,42 +133,55 @@
         
         <h2 class="mapp-h2" style="font-size: 1.5rem; margin-top: 0;">Cho Thuê Xe Máy Các Loại Theo Tháng tại Hà Nội</h2>
         
-        <p class="mapp-text">Motoopen tự hào là đơn vị cung cấp dịch vụ <strong>cho thuê xe máy các loại theo tháng tại Hà Nội</strong> uy tín, chuyên nghiệp. Chúng tôi hiểu rằng mỗi khách hàng có một nhu cầu di chuyển khác nhau, từ sinh viên cần xe tiết kiệm xăng, dân văn phòng cần xe thanh lịch, đến các phượt thủ cần xe mạnh mẽ. Vì vậy, chúng tôi cung cấp đa dạng các dòng xe để đáp ứng mọi yêu cầu của bạn.</p>
+        <p class="mapp-text">Motoopen cung cấp dịch vụ <strong>cho thuê xe máy các loại theo tháng tại Hà Nội</strong>, bên cạnh các gói thuê ngày và tuần. Mỗi khách có nhu cầu di chuyển khác nhau, từ sinh viên cần xe tiết kiệm xăng đến người đi làm cần xe ga êm, cốp rộng. Dưới đây là các dòng xe có giá niêm yết tại Motoopen; mẫu xe khác: liên hệ để kiểm tra xe và giá.</p>
 
         <h2 class="mapp-h2">1. Dòng Xe Số (Bền bỉ & Tiết kiệm)</h2>
-        <p class="mapp-text">Đây là lựa chọn hàng đầu cho những ai ưu tiên sự bền bỉ, tiết kiệm nhiên liệu và chi phí thuê rẻ. Xe số cực kỳ linh hoạt trong các con ngõ nhỏ của Hà Nội và dễ dàng sửa chữa.</p>
+        <p class="mapp-text">Đây là lựa chọn phù hợp cho những ai ưu tiên sự bền bỉ, tiết kiệm nhiên liệu và chi phí thuê rẻ. Xe số cực kỳ linh hoạt trong các con ngõ nhỏ của Hà Nội và dễ dàng sửa chữa.</p>
         <ul class="mapp-list">
-          <li><strong>Các xe tiêu biểu:</strong> Honda Wave Alpha, Honda Blade, Yamaha Sirius.</li>
+          <li><strong>Honda Wave:</strong> 150.000đ/ngày, 700.000đ/tuần, 900.000đ–1.200.000đ/tháng, cọc 2–3 triệu đồng.</li>
           <li><strong>Đối tượng phù hợp:</strong> Sinh viên, người đi làm cần tiết kiệm, shipper, hoặc người mới tập lái xe.</li>
-          <li><strong>Ưu điểm:</strong> Giá thuê rẻ nhất, cực kỳ tiết kiệm xăng, chi phí bảo dưỡng/sửa chữa thấp.</li>
+          <li><strong>Ưu điểm:</strong> Giá thuê thuộc nhóm thấp nhất trong bảng giá, tiết kiệm xăng, chi phí bảo dưỡng/sửa chữa thấp.</li>
+          <li><strong>Mẫu xe số khác</strong> (Blade, Sirius, Future…): liên hệ để kiểm tra xe và giá.</li>
         </ul>
-        <p class="mapp-text">Đây là lựa chọn kinh tế nhất khi thuê xe theo tháng. Bạn có thể xem chi tiết giá cho từng loại xe tại <a href="banggia.html">Bảng giá cho thuê xe máy</a> của chúng tôi.</p>
+        <p class="mapp-text">Đây là lựa chọn tiết kiệm khi thuê xe theo tháng. Bạn có thể xem giá từng dòng xe tại <a href="banggia.html">Bảng giá cho thuê xe máy</a> của chúng tôi.</p>
 
         <h2 class="mapp-h2">2. Dòng Xe Ga (Phổ thông & Tiện lợi)</h2>
         <p class="mapp-text">Xe ga là biểu tượng cho sự tiện lợi và thanh lịch. Với cốp xe rộng, sàn để chân thoải mái và khả năng vận hành êm ái, xe ga là lựa chọn hoàn hảo cho việc di chuyển hàng ngày trong nội thành.</p>
         <ul class="mapp-list">
-          <li><strong>Các xe tiêu biểu:</strong> Honda Vision, Honda Lead, Honda Air Blade, Yamaha Janus, SH Mode.</li>
+          <li><strong>Honda Vision:</strong> 200.000đ/ngày, 1.000.000đ/tuần, 1.800.000đ–2.000.000đ/tháng, cọc 4–5 triệu đồng.</li>
+          <li><strong>Honda Air Blade:</strong> 200.000đ/ngày, 1.000.000đ/tuần, 1.500.000đ/tháng, cọc 3 triệu đồng.</li>
+          <li><strong>Honda Click / Yamaha Mio:</strong> 150.000đ/ngày, 700.000đ/tuần, 900.000đ–1.200.000đ/tháng, cọc 2 triệu đồng.</li>
           <li><strong>Đối tượng phù hợp:</strong> Dân văn phòng, các bạn nữ, người cần cốp rộng để chứa đồ, người thích sự thoải mái.</li>
           <li><strong>Ưu điểm:</strong> Vận hành êm ái, cốp chứa đồ lớn, thiết kế đẹp, không cần sang số.</li>
+          <li><strong>Mẫu xe ga khác</strong> (Lead, Janus, SH Mode…): liên hệ để kiểm tra xe và giá.</li>
         </ul>
-        <p class="mapp-text">Chúng tôi có sẵn các dòng xe ga đời mới, bảo dưỡng kỹ càng. <a href="thutuc.html">Thủ tục thuê xe</a> ga rất đơn giản, chỉ cần CCCD và bằng lái là bạn đã sẵn sàng nhận xe.</p>
-        
-        <h2 class="mapp-h2">3. Dòng Xe Côn Tay & Xe Cao Cấp</h2>
-        <p class="mapp-text">Dành cho những ai đam mê tốc độ, yêu thích sự mạnh mẽ và muốn trải nghiệm cảm giác lái "bốc" hơn. Các dòng xe côn tay và xe ga cao cấp mang lại phong cách và trải nghiệm khác biệt.</p>
+        <p class="mapp-text">Xe ga được bảo dưỡng định kỳ trước khi giao. <a href="thutuc.html">Thủ tục thuê xe</a> ga gồm giấy tờ tùy thân (CCCD hoặc hộ chiếu), giấy phép lái xe phù hợp (hạng A1 cho xe đến 125 cm3, hạng A cho xe trên 125 cm3) và tiền cọc theo dòng xe.</p>
+
+        <h2 class="mapp-h2">3. Xe Tay Ga 50cc Và Xe Điện</h2>
+        <p class="mapp-text">Xe tay ga 50cc và xe điện thuộc nhóm xe gắn máy (động cơ xăng đến 50 cm3 hoặc động cơ điện đến 4 kW, vận tốc thiết kế không quá 50 km/h) không yêu cầu giấy phép lái xe; người lái phải đủ 16 tuổi. Xe điện vượt các ngưỡng này là xe mô tô và cần bằng A1 trở lên (Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15, Điều 34, 56, 57, 59; văn bản gốc trên <a href="https://vanban.chinhphu.vn/?pageid=27160&amp;docid=211194&amp;classid=1&amp;typegroupid=3" target="_blank" rel="noopener">Cổng Thông tin điện tử Chính phủ</a>).</p>
         <ul class="mapp-list">
-          <li><strong>Các xe tiêu biểu:</strong> Yamaha Exciter, Honda Winner X, Honda SH 125/150.</li>
+          <li><strong>Xe tay ga 50cc:</strong> 200.000đ/ngày, cọc 4 triệu đồng; giá tuần và tháng báo khi liên hệ.</li>
+          <li><strong>Xe máy điện, xe đạp điện:</strong> giá và tiền cọc theo mẫu xe, báo khi liên hệ.</li>
+          <li><strong>Đối tượng phù hợp:</strong> Người chưa có bằng lái (đủ 16 tuổi), người cần xe nhỏ gọn để đi quãng ngắn trong phố.</li>
+        </ul>
+        
+        <h2 class="mapp-h2">4. Xe Côn Tay &amp; Xe Ga Cao Cấp (Ngoài Bảng Giá)</h2>
+        <p class="mapp-text">Dành cho những ai muốn trải nghiệm cảm giác lái mạnh mẽ hơn. Các mẫu xe côn tay và xe ga cao cấp chưa có trong bảng giá niêm yết của Motoopen: liên hệ để kiểm tra xe và giá trước khi đặt.</p>
+        <ul class="mapp-list">
+          <li><strong>Ví dụ mẫu xe:</strong> Yamaha Exciter, Honda Winner X, Honda SH 125/150 (liên hệ để kiểm tra xe và giá).</li>
+          <li><strong>Bằng lái:</strong> xe đến 125 cm3 cần bằng hạng A1, xe trên 125 cm3 cần bằng hạng A.</li>
           <li><strong>Đối tượng phù hợp:</strong> Các bạn trẻ năng động, người có kinh nghiệm lái xe côn, người muốn có một chiếc xe "chất" để đi làm hoặc đi phượt ngắn cuối tuần.</li>
           <li><strong>Ưu điểm:</strong> Kiểu dáng thể thao, động cơ mạnh mẽ, mang lại trải nghiệm lái thú vị.</li>
         </ul>
-        <p class="mapp-text">Motoopen cũng thường xuyên chia sẻ các kinh nghiệm lái xe an toàn và các cung đường đẹp trên các trang <a href="mangxahoi.html">Mạng xã hội</a> của chúng tôi. Hãy theo dõi để cập nhật nhé!</p>
+        <p class="mapp-text">Motoopen chia sẻ kinh nghiệm lái xe an toàn và hình ảnh xe trên các trang <a href="mangxahoi.html">mạng xã hội</a> chính thức của chúng tôi.</p>
 
         <h2 class="mapp-h2">Tại Sao Nên Chọn Thuê Xe Theo Tháng Của Motoopen?</h2>
         <p class="mapp-text">Việc lựa chọn gói thuê xe theo tháng mang lại nhiều lợi ích vượt trội so với thuê lẻ theo ngày:</p>
         <ol class="mapp-list" type="1">
-          <li><strong>Tiết kiệm chi phí:</strong> Giá thuê tháng luôn rẻ hơn rất nhiều so với tổng chi phí thuê theo ngày.</li>
+          <li><strong>Tiết kiệm chi phí:</strong> Giá thuê tháng thấp hơn nhiều so với thuê lẻ theo ngày (ví dụ Honda Wave: 30 × 150.000đ = 4.500.000đ, trong khi giá tháng là 900.000đ–1.200.000đ).</li>
           <li><strong>Không lo bảo dưỡng:</strong> Chúng tôi chịu trách nhiệm bảo dưỡng định kỳ (thay dầu, kiểm tra phanh...) cho toàn bộ xe cho thuê tháng.</li>
           <li><strong>Linh hoạt:</strong> Bạn chủ động hoàn toàn về phương tiện di chuyển mà không cần đầu tư một khoản tiền lớn để mua xe.</li>
-          <li><strong>Hỗ trợ 24/7:</strong> Đội ngũ kỹ thuật luôn sẵn sàng hỗ trợ nếu xe gặp sự cố trên đường.</li>
+          <li><strong>Hỗ trợ khi xe gặp sự cố:</strong> Gọi hoặc nhắn Zalo 0857 255 868 trong giờ làm việc 09:00–21:00 hằng ngày.</li>
         </ol>
         
         <p class="mapp-text">Bạn đã sẵn sàng chọn xe? <a href="lienhe.html">Liên hệ với chúng tôi</a> ngay hôm nay qua Zalo hoặc Hotline để được tư vấn dòng xe phù hợp nhất với nhu cầu và ngân sách của bạn!</p>
@@ -207,10 +221,6 @@
   
   <script src="/chothuexemayhanoi/assets/js/pages/gioithieu-contact-links.js"></script>
 
-  <script src="/chothuexemayhanoi/assets/js/pages/gioithieu-fontawesome-fallback.js"></script>
-
-  <!-- MotoAI production -->
-    <script defer src="https://motoopen.github.io/chothuexemayhanoi/motoai_v39_modelfirst_nomarkdown_nolink.js"></script>
-  <!-- /MotoAI -->
+  {% include motoai.html %}
 </body>
 </html>

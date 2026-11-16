@@ -1,4 +1,8 @@
 ---
+seo_page_type: WebPage
+breadcrumb_name: "Dịch vụ"
+seo_name: "Dịch vụ thuê xe máy Hà Nội theo ngày, tuần, tháng"
+seo_description: "Dịch vụ thuê xe máy Hà Nội của Motoopen: gói ngày 150.000–200.000đ, tuần 700.000đ–1.000.000đ, tháng 900.000đ–2.000.000đ cho các xe có giá niêm yết, cọc 2–5 triệu đồng tùy dòng xe."
 ---
 <!doctype html>
 <html lang="vi">
@@ -21,13 +25,13 @@
   <link rel="canonical" href="https://motoopen.github.io/chothuexemayhanoi/dichvu.html">
   <!-- === KẾT THÚC THAY ĐỔI META === -->
 
-  <link rel="icon" href="https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg" sizes="32x32">
-  <link rel="apple-touch-icon" href="https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg">
+  <link rel="icon" href="{{ '/assets/images/brand/favicon-48.png' | relative_url }}" sizes="48x48" type="image/png">
+  <link rel="apple-touch-icon" href="{{ '/assets/images/brand/apple-touch-icon-180.png' | relative_url }}">
 
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link id="fa-css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link id="fa-css" rel="stylesheet" href="{{ '/assets/vendor/fontawesome/fa-subset.css' | relative_url }}">
 
   <!-- === THAY ĐỔI META OG/TWITTER === -->
   <meta property="og:locale" content="vi_VN">
@@ -47,12 +51,8 @@
   <!-- === KẾT THÚC THAY ĐỔI META OG/TWITTER === -->
   
   <link rel="stylesheet" href="/chothuexemayhanoi/assets/css/pages/gioithieu.css">
+  {% include seo/schema-graph.html %}
 </head>
-  <!-- TOÀN BỘ CSS GIỮ NGUYÊN TỪ FILE GIOITHIEU.HTML -->
-  
-  
-  <script src="/chothuexemayhanoi/assets/js/pages/gioithieu-page-fade.js"></script>
-  
 <body>
   <!-- TOÀN BỘ HEADER, DRAWER, TOC GIỮ NGUYÊN -->
   {% include header.html %}
@@ -68,23 +68,23 @@
     <!-- PHẦN HERO GIỮ NGUYÊN -->
     <section class="hero-mini" aria-label="Thuê xe máy nhanh">
       <div class="wrap">
-        <div class="card reveal">
+        <div class="card">
           <div class="hmini-grid">
 
             <div>
-              <h1 class="hmini-title">Thuê Xe Máy Hà Nội – Giao Tận Nơi, Giá Từ 150k/ngày</h1>
-              <p class="hmini-sub">Xe số • Xe ga • 50cc/điện · Thuê ngày/tuần/tháng · Giao nhanh 20–40’, cọc nhẹ, xe bảo dưỡng kỹ.</p>
+              <h1 class="hmini-title">Dịch Vụ Thuê Xe Máy Hà Nội: Gói Ngày, Tuần, Tháng</h1>
+              <p class="hmini-sub">Motoopen cho thuê Honda Wave, Honda Vision, Honda Air Blade, Honda Click/Yamaha Mio, xe tay ga 50cc và xe điện tại Hà Nội: 150.000–200.000đ/ngày, 700.000đ–1.000.000đ/tuần, 900.000đ–2.000.000đ/tháng cho các xe có giá niêm yết, cọc 2–5 triệu đồng tùy dòng xe. Nhận xe tại 114 Nguyễn Văn Cừ, Long Biên (09:00–21:00 hằng ngày) hoặc hẹn giao xe theo thỏa thuận.</p>
               <div class="hmini-toggle" role="tablist" aria-label="Chọn gói thuê">
                 <button type="button" class="active" data-plan="day" role="tab" aria-selected="true">Ngày</button>
                 <button type="button" data-plan="week" role="tab" aria-selected="false">Tuần</button>
                 <button type="button" data-plan="month" role="tab" aria-selected="false">Tháng</button>
               </div>
 
-              <p class="hmini-price">Giá dự kiến: <span id="hminiPrice">150–200k/ngày</span> • <span id="hminiDeposit">Cọc nhẹ</span></p>
+              <p class="hmini-price">Giá dự kiến: <span id="hminiPrice">150–200k/ngày</span> • <span id="hminiDeposit">Cọc 2–5 triệu tùy xe</span></p>
 
               <div class="hmini-badges">
                 <span class="hmini-badge"><i class="fa-solid fa-shield-halved"></i> Hợp đồng rõ ràng</span>
-                <span class="hmini-badge"><i class="fa-solid fa-clock"></i> Giao nhanh 20–40’</span>
+                <span class="hmini-badge"><i class="fa-solid fa-clock"></i> 09:00–21:00 hằng ngày</span>
                 <span class="hmini-badge"><i class="fa-solid fa-screwdriver-wrench"></i> Xe bảo dưỡng kỹ</span>
               </div>
 
@@ -125,7 +125,7 @@
                 <div class="hmini-soft"></div>
 
                 <div class="hmini-stats" aria-label="Thông tin nhanh">
-                  <div class="hmini-stat"><i class="fa-solid fa-map"></i>Giao nội thành</div>
+                  <div class="hmini-stat"><i class="fa-solid fa-map"></i>Hẹn giao/nhận xe</div>
                   <div class="hmini-stat"><i class="fa-solid fa-battery-full"></i>Full điện</div>
                   <div class="hmini-stat"><i class="fa-solid fa-helmet-safety"></i>Kèm mũ </div>
                 </div>
@@ -155,45 +155,45 @@
         <p class="mapp-text">Chúng tôi hiểu rằng mỗi hành trình đều có một khung thời gian khác nhau. Vì vậy, Motoopen cung cấp ba gói dịch vụ chính để phù hợp chính xác với kế hoạch của bạn, đảm bảo chi phí luôn ở mức tối ưu nhất:</p>
         
         <ul class="mapp-list">
-          <li><strong>Dịch vụ thuê theo ngày:</strong> Đây là lựa chọn hoàn hảo cho khách du lịch hoặc những người có nhu cầu di chuyển ngắn hạn (từ 1 đến 6 ngày). Bạn có thể tự do lên kế hoạch khám phá Hà Nội, chủ động dừng chân tại bất kỳ đâu mà không bị ràng buộc bởi taxi hay các ứng dụng gọi xe.</li>
-          <li><strong>Dịch vụ thuê theo tuần:</strong> Nếu bạn có chuyến công tác hoặc một kỳ nghỉ kéo dài khoảng một tuần, gói này sẽ mang lại chi phí tiết kiệm hơn đáng kể so với việc thuê lẻ từng ngày. Bạn nhận xe một lần và toàn quyền sử dụng trong suốt 7 ngày.</li>
-          <li><strong>Dịch vụ thuê theo tháng (Gói dài hạn):</strong> Giải pháp tối ưu cho sinh viên, người đi làm, hoặc người nước ngoài sinh sống tại Hà Nội. Với gói thuê tháng, bạn sở hữu một phương tiện cá nhân với mức giá cực kỳ ưu đãi, và đặc biệt, bạn không cần lo lắng về chi phí bảo dưỡng, sửa chữa hay khấu hao xe.</li>
+          <li><strong>Dịch vụ thuê theo ngày (150.000–200.000đ/ngày):</strong> Đây là lựa chọn phù hợp cho khách du lịch hoặc những người có nhu cầu di chuyển ngắn hạn (từ 1 đến 6 ngày). Bạn có thể tự do lên kế hoạch khám phá Hà Nội, chủ động dừng chân tại bất kỳ đâu mà không bị ràng buộc bởi taxi hay các ứng dụng gọi xe.</li>
+          <li><strong>Dịch vụ thuê theo tuần (700.000đ–1.000.000đ/tuần):</strong> Nếu bạn có chuyến công tác hoặc một kỳ nghỉ kéo dài khoảng một tuần, gói này có chi phí thấp hơn thuê lẻ từng ngày (ví dụ Honda Wave: 7 × 150.000đ = 1.050.000đ, giá tuần 700.000đ). Bạn nhận xe một lần và toàn quyền sử dụng trong suốt 7 ngày.</li>
+          <li><strong>Dịch vụ thuê theo tháng (900.000đ–2.000.000đ/tháng):</strong> Giải pháp cho sinh viên, người đi làm, hoặc người nước ngoài sinh sống tại Hà Nội. Với gói thuê tháng, bạn có phương tiện cá nhân mà không phải bỏ tiền mua xe; bảo dưỡng định kỳ và trách nhiệm sửa chữa được ghi trong hợp đồng thuê.</li>
         </ul>
         
-        <p class="mapp-text">Để có cái nhìn rõ ràng nhất về chi phí cho từng gói, mời bạn tham khảo <a href="banggia.html" style="color: var(--accent); font-weight: bold; text-decoration: underline;">Bảng Giá Dịch Vụ</a> chi tiết của chúng tôi. Chúng tôi cam kết không có chi phí ẩn.</p>
+        <p class="mapp-text">Để có cái nhìn rõ ràng nhất về chi phí cho từng gói, mời bạn tham khảo <a href="banggia.html" style="color: var(--accent); font-weight: bold; text-decoration: underline;">Bảng Giá Dịch Vụ</a> chi tiết của chúng tôi. Giá chốt được ghi trong hợp đồng thuê xe.</p>
 
         <h2 class="mapp-h2">Đa Dạng Loại Xe Phù Hợp Mọi Nhu Cầu</h2>
         <p class="mapp-text">Chất lượng xe là trọng tâm dịch vụ của Motoopen. Chúng tôi cung cấp đa dạng các dòng xe phổ biến, được bảo dưỡng định kỳ và kiểm tra kỹ lưỡng trước khi giao đến tay bạn.</p>
         
-        <p class="mapp-text" style="font-weight: bold; color: var(--text);">1. Dịch vụ thuê xe số (Honda Wave, Yamaha Sirius...)</p>
-        <p class="mapp-text">Đây là dòng xe "quốc dân" với ưu điểm vượt trội là tiết kiệm nhiên liệu, vận hành bền bỉ và chi phí thuê rẻ nhất. Xe số phù hợp cho mọi địa hình, từ đường phố đông đúc đến những chuyến đi dã ngoại ngoại thành. Đây là lựa chọn hàng đầu cho các bạn sinh viên và những ai ưu tiên tính kinh tế.</p>
+        <p class="mapp-text" style="font-weight: bold; color: var(--text);">1. Dịch vụ thuê xe số Honda Wave</p>
+        <p class="mapp-text">Honda Wave giá 150.000đ/ngày, 700.000đ/tuần, 900.000đ–1.200.000đ/tháng, cọc 2–3 triệu đồng. Xe số tiết kiệm nhiên liệu, vận hành bền bỉ, phù hợp cả đường phố đông đúc lẫn những chuyến đi ngoại thành; đây là lựa chọn kinh tế cho sinh viên và những ai cần đi lại nhiều.</p>
         
-        <p class="mapp-text" style="font-weight: bold; color: var(--text);">2. Dịch vụ thuê xe ga (Honda Vision, Air Blade, Lead...)</p>
-        <p class="mapp-text">Mang lại trải nghiệm vận hành êm ái, thanh lịch và cực kỳ tiện lợi với cốp xe rộng rãi. Xe ga là lựa chọn lý tưởng cho các chị em phụ nữ, khách du lịch dạo phố, hoặc những ai cần một phương tiện chỉn chu, dễ điều khiển. Cốp xe lớn cũng rất hữu ích để chứa đồ đạc cá nhân hoặc mua sắm.</p>
+        <p class="mapp-text" style="font-weight: bold; color: var(--text);">2. Dịch vụ thuê xe ga (Honda Vision, Air Blade, Click/Mio)</p>
+        <p class="mapp-text">Honda Vision 200.000đ/ngày (cọc 4–5 triệu đồng), Honda Air Blade 200.000đ/ngày (cọc 3 triệu đồng), Honda Click/Yamaha Mio 150.000đ/ngày (cọc 2 triệu đồng). Xe ga vận hành êm ái, dễ điều khiển, cốp rộng để chứa đồ cá nhân; phù hợp khách du lịch dạo phố và người đi làm cần một phương tiện chỉn chu.</p>
         
-        <p class="mapp-text" style="font-weight: bold; color: var(--text);">3. Dịch vụ thuê xe 50cc & xe điện (Dibao, Vinfast...)</p>
-        <p class="mapp-text">Giải pháp di chuyển "xanh", êm ái và đặc biệt là <strong>không yêu cầu bằng lái A1</strong>. Đây là dịch vụ hoàn hảo cho các bạn học sinh, sinh viên chưa có bằng lái, hoặc những du khách quốc tế chỉ có bằng lái xe ô tô và muốn một phương tiện nhỏ gọn để di chuyển trong phạm vi gần.</p>
+        <p class="mapp-text" style="font-weight: bold; color: var(--text);">3. Dịch vụ thuê xe tay ga 50cc &amp; xe điện</p>
+        <p class="mapp-text">Xe tay ga 50cc giá 200.000đ/ngày, cọc 4 triệu đồng; giá tuần, tháng và giá xe điện được báo khi liên hệ. Xe 50cc và xe máy điện thuộc nhóm xe gắn máy (động cơ xăng đến 50 cm3 hoặc động cơ điện đến 4 kW, vận tốc thiết kế không quá 50 km/h) <strong>không yêu cầu giấy phép lái xe</strong>, nhưng người lái phải đủ 16 tuổi; hãy hỏi trước vì không phải mẫu xe điện nào cũng thuộc nhóm này (Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15, Điều 34, 56, 59).</p>
         
-        <p class="mapp-text">Việc <strong id="chon-xe">chọn xe</strong> phù hợp với nhu cầu và kinh nghiệm lái xe là rất quan trọng để đảm bảo một chuyến đi an toàn. Nếu bạn phân vân, đội ngũ của Motoopen sẽ sẵn lòng tư vấn để bạn tìm được chiếc xe ưng ý nhất.</p>
+        <p class="mapp-text">Việc <strong id="chon-xe">chọn xe</strong> phù hợp với nhu cầu và kinh nghiệm lái xe là rất quan trọng để đảm bảo một chuyến đi an toàn. Nếu bạn phân vân, Motoopen sẽ tư vấn dòng xe phù hợp; mẫu xe khác ngoài bảng giá (Sirius, Lead, SH, xe côn tay…): liên hệ để kiểm tra xe và giá.</p>
 
         <h2 class="mapp-h2">Dịch Vụ Đi Kèm & Cam Kết Chất Lượng</h2>
         <p class="mapp-text">Khi thuê xe tại Motoopen, bạn không chỉ nhận được một chiếc xe. Bạn nhận được một gói dịch vụ hoàn chỉnh:</p>
         <ul class="mapp-list">
-          <li><strong>Giao xe tận nơi siêu tốc:</strong> Chúng tôi cung cấp dịch vụ giao xe miễn phí (hoặc có phí rất thấp) đến khách sạn, nhà riêng, bến xe, sân bay... trong nội thành Hà Nội, giúp bạn tiết kiệm tối đa thời gian.</li>
+          <li><strong>Giao xe tận nơi theo lịch hẹn:</strong> Ngoài nhận xe tại cửa hàng 114 Nguyễn Văn Cừ, Long Biên, bạn có thể hẹn giao xe đến khách sạn, nhà riêng hoặc văn phòng; khu vực, thời gian và chi phí giao (nếu có) được thỏa thuận trước khi chốt.</li>
           <li><strong>Trang bị đi kèm miễn phí:</strong> Mỗi xe cho thuê đều được trang bị sẵn 02 mũ bảo hiểm đạt chuẩn, 01 áo mưa tiện lợi, và một giá đỡ điện thoại (theo yêu cầu).</li>
-          <li><strong>Hỗ trợ kỹ thuật 24/7:</strong> Chúng tôi cam kết hỗ trợ bạn trong suốt quá trình thuê. Nếu xe không may gặp sự cố kỹ thuật, đội ngũ cứu hộ của chúng tôi sẽ có mặt nhanh chóng để xử lý hoặc đổi xe khác cho bạn.</li>
-          <li><strong>Bảo dưỡng định kỳ:</strong> Toàn bộ xe đều được kiểm tra và bảo dưỡng theo tiêu chuẩn của hãng, đảm bảo vận hành êm ái và an toàn tuyệt đối.</li>
+          <li><strong>Hỗ trợ khi xe gặp sự cố:</strong> Gọi hoặc nhắn Zalo 0857 255 868 trong giờ làm việc 09:00–21:00 hằng ngày để được hướng dẫn; tùy nguyên nhân (lỗi kỹ thuật của xe hay do sử dụng), hai bên xử lý theo điều khoản hợp đồng.</li>
+          <li><strong>Bảo dưỡng định kỳ:</strong> Xe được kiểm tra và bảo dưỡng định kỳ trước khi giao để vận hành ổn định.</li>
         </ul>
 
         <h2 class="mapp-h2">Quy Trình & Thủ Tục Thuê Xe Đơn Giản</h2>
         <p class="mapp-text">Motoopen đã tối ưu hóa quy trình thuê xe chỉ trong 4 bước đơn giản, đảm bảo sự nhanh chóng và minh bạch:</p>
         <ol class="mapp-list" type="1">
           <li><strong>Bước 1: Liên hệ & Chọn xe:</strong> Bạn chỉ cần gọi điện qua hotline, chat Zalo hoặc Facebook Messenger. Đội ngũ tư vấn sẽ giúp bạn chọn gói thuê và loại xe phù hợp.</li>
-          <li><strong>Bước 2: Xác nhận thông tin & Đặt cọc:</strong> Cung cấp thông tin về thời gian, địa điểm nhận/trả xe. Bạn chỉ cần đặt cọc một khoản nhỏ (hoặc không cần cọc tùy trường hợp) để xác nhận giữ xe.</li>
-          <li><strong>Bước 3: Nhận xe & Ký hợp đồng:</strong> Nhân viên của chúng tôi sẽ giao xe đúng hẹn. Bạn kiểm tra xe, cung cấp giấy tờ (CCCD, Bằng lái xe...) và ký hợp đồng. Thủ tục chỉ mất 5-10 phút.</li>
-          <li><strong>Bước 4: Trả xe & Hoàn cọc:</strong> Khi hết hạn thuê, bạn trả xe tại địa điểm đã hẹn và nhận lại toàn bộ giấy tờ, tiền cọc sau khi xác nhận tình trạng xe.</li>
+          <li><strong>Bước 2: Chốt lịch:</strong> Bạn chốt xe, thời gian và địa điểm nhận/trả xe (tại cửa hàng hoặc theo lịch hẹn giao xe; chi phí giao, nếu có, được báo trước khi chốt).</li>
+          <li><strong>Bước 3: Nhận xe & Ký hợp đồng:</strong> Bạn kiểm tra xe, xuất trình giấy tờ và đặt cọc 2–5 triệu đồng tùy dòng xe theo thỏa thuận, sau đó hai bên ký hợp đồng thuê xe.</li>
+          <li><strong>Bước 4: Trả xe & Hoàn cọc:</strong> Khi hết hạn thuê, bạn trả xe tại địa điểm đã hẹn; hai bên kiểm tra xe và tiền cọc được hoàn lại theo điều kiện hợp đồng.</li>
         </ol>
-        <p class="mappi-text">Bạn có thể xem chi tiết và các giấy tờ cần chuẩn bị tại trang <a href="thutuc.html" style="color: var(--accent); font-weight: bold; text-decoration: underline;">Thủ tục thuê xe</a> của chúng tôi.</p>
+        <p class="mapp-text">Bạn có thể xem chi tiết và các giấy tờ cần chuẩn bị tại trang <a href="thutuc.html" style="color: var(--accent); font-weight: bold; text-decoration: underline;">Thủ tục thuê xe</a> của chúng tôi.</p>
         
         <h2 class="mapp-h2">Câu Hỏi Thường Gặp Về Dịch Vụ (FAQ)</h2>
         <p class="mapp-text" id="mapp-faq">Chúng tôi đã tổng hợp một số câu hỏi phổ biến liên quan đến các gói dịch vụ, chính sách đặt cọc và xử lý sự cố. Bạn có thể tìm thấy câu trả lời nhanh cho các thắc mắc như: "Thuê xe có cần bằng lái không?", "Cần đặt cọc bao nhiêu?", "Xe hỏng giữa đường thì làm thế nào?".</p>
@@ -238,8 +238,6 @@
   
   <script src="/chothuexemayhanoi/assets/js/pages/gioithieu-contact-links.js"></script>
 
-  <script src="/chothuexemayhanoi/assets/js/pages/gioithieu-fontawesome-fallback.js"></script>
-
-  <script defer src="https://motoopen.github.io/chothuexemayhanoi/motoai_v39_modelfirst_nomarkdown_nolink.js"></script>
+  {% include motoai.html %}
 </body>
 </html>

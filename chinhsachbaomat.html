@@ -1,4 +1,7 @@
 ---
+seo_page_type: WebPage
+breadcrumb_name: "Chính sách bảo mật"
+seo_name: "Chính sách bảo mật Motoopen"
 ---
 <!doctype html>
 <html lang="vi">
@@ -22,13 +25,13 @@
 
   <link rel="canonical" href="https://motoopen.github.io/chothuexemayhanoi/chinhsachbaomat.html">
 
-  <link rel="icon" href="https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg" sizes="32x32">
-  <link rel="apple-touch-icon" href="https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg">
+  <link rel="icon" href="{{ '/assets/images/brand/favicon-48.png' | relative_url }}" sizes="48x48" type="image/png">
+  <link rel="apple-touch-icon" href="{{ '/assets/images/brand/apple-touch-icon-180.png' | relative_url }}">
 
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link id="fa-css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link id="fa-css" rel="stylesheet" href="{{ '/assets/vendor/fontawesome/fa-subset.css' | relative_url }}">
 
   <!-- === OPEN GRAPH (for Social Sharing) === -->
   <meta property="og:locale" content="vi_VN">
@@ -48,11 +51,7 @@
   <meta name="twitter:image" content="https://i.postimg.cc/brsmsj5N/IMG-5215.jpg">
   
   <link rel="stylesheet" href="/chothuexemayhanoi/assets/css/pages/gioithieu.css">
-</head>
-  
-  
-  <script src="/chothuexemayhanoi/assets/js/pages/gioithieu-page-fade.js"></script>
-
+  {% include seo/schema-graph.html %}
 </head>
 <body>
   {% include header.html %}
@@ -67,23 +66,23 @@
 
     <section class="hero-mini" aria-label="Thuê xe máy nhanh">
       <div class="wrap">
-        <div class="card reveal">
+        <div class="card">
           <div class="hmini-grid">
 
             <div>
-              <h1 class="hmini-title">Thuê Xe Máy Hà Nội – Giao Tận Nơi, Giá Từ 150k/ngày</h1>
-              <p class="hmini-sub">Xe số • Xe ga • 50cc/điện · Thuê ngày/tuần/tháng · Giao nhanh 20–40’, cọc nhẹ, xe bảo dưỡng kỹ.</p>
+              <h1 class="hmini-title">Chính sách bảo mật</h1>
+              <p class="hmini-sub">Motoopen chỉ dùng thông tin bạn cung cấp khi liên hệ và thuê xe để lập, thực hiện hợp đồng thuê xe và liên hệ với bạn; không chia sẻ cho bên thứ ba không liên quan, trừ khi cơ quan nhà nước có thẩm quyền yêu cầu theo pháp luật. Website không dùng công cụ phân tích hay quảng cáo; trợ lý chat chỉ lưu nội dung trò chuyện trong trình duyệt trên thiết bị của bạn.</p>
               <div class="hmini-toggle" role="tablist" aria-label="Chọn gói thuê">
                 <button type="button" class="active" data-plan="day" role="tab" aria-selected="true">Ngày</button>
                 <button type="button" data-plan="week" role="tab" aria-selected="false">Tuần</button>
                 <button type="button" data-plan="month" role="tab" aria-selected="false">Tháng</button>
               </div>
 
-              <p class="hmini-price">Giá dự kiến: <span id="hminiPrice">150–200k/ngày</span> • <span id="hminiDeposit">Cọc nhẹ</span></p>
+              <p class="hmini-price">Giá dự kiến: <span id="hminiPrice">150–200k/ngày</span> • <span id="hminiDeposit">Cọc 2–5 triệu tùy xe</span></p>
 
               <div class="hmini-badges">
                 <span class="hmini-badge"><i class="fa-solid fa-shield-halved"></i> Hợp đồng rõ ràng</span>
-                <span class="hmini-badge"><i class="fa-solid fa-clock"></i> Giao nhanh 20–40’</span>
+                <span class="hmini-badge"><i class="fa-solid fa-clock"></i> 09:00–21:00 hằng ngày</span>
                 <span class="hmini-badge"><i class="fa-solid fa-screwdriver-wrench"></i> Xe bảo dưỡng kỹ</span>
               </div>
 
@@ -124,7 +123,7 @@
                 <div class="hmini-soft"></div>
 
                 <div class="hmini-stats" aria-label="Thông tin nhanh">
-                  <div class="hmini-stat"><i class="fa-solid fa-map"></i>Giao nội thành</div>
+                  <div class="hmini-stat"><i class="fa-solid fa-map"></i>Hẹn giao/nhận xe</div>
                   <div class="hmini-stat"><i class="fa-solid fa-battery-full"></i>Full điện</div>
                   <div class="hmini-stat"><i class="fa-solid fa-helmet-safety"></i>Kèm mũ </div>
                 </div>
@@ -135,80 +134,29 @@
     </section>
     
     <nav class="breadcrumb-nav" aria-label="breadcrumb">
-      <a href="/chothuexemayhanoi/">Trang chủ</a> › Giới thiệu
+      <a href="/chothuexemayhanoi/">Trang chủ</a> › Chính sách bảo mật
     </nav>
-    <section id="gioithieu" class="mapp-wrap" aria-label="Giới thiệu về Motoopen">
+    <section id="chinhsachbaomat" class="mapp-wrap" aria-label="Chính sách bảo mật Motoopen">
       <div class="mapp-card">
-        
-        <h2 class="mapp-h2" style="font-size: 1.5rem; margin-top: 0;">Giới Thiệu Motoopen: Dịch Vụ Thuê Xe Máy Hà Nội Tận Tâm</h2>
-        
-        <p class="mapp-text">Chào mừng bạn đến với Motoopen! Chúng tôi tự hào là một trong những đơn vị hàng đầu cung cấp dịch vụ <b>thuê xe máy Hà Nội</b>, mang đến giải pháp di chuyển linh hoạt, an toàn và tiết kiệm cho mọi khách hàng. Giữa lòng thủ đô nhộn nhịp, việc sở hữu một phương tiện cơ động để len lỏi qua từng con phố, khám phá từng ngóc ngách ẩm thực (xem <a href="/chothuexemayhanoi/kinhnghiem.html" style="color: var(--accent); font-weight: bold; text-decoration: underline;">kinh nghiệm du lịch</a>) hay đơn giản là chủ động trong công việc hàng ngày là một nhu cầu thiết yếu. Thấu hiểu điều đó, Motoopen ra đời với sứ mệnh "Giải phóng hành trình của bạn", cam kết mang đến trải nghiệm thuê xe đơn giản, nhanh chóng và đáng tin cậy nhất.</p>
-        
-        <p class="mapp-text">Chúng tôi không chỉ cho thuê xe, chúng tôi mang đến sự an tâm. Với đội ngũ nhân viên nhiệt huyết, quy trình chuyên nghiệp và dàn xe được đầu tư kỹ lưỡng, Motoopen nỗ lực mỗi ngày để trở thành người bạn đồng hành tin cậy của bạn trên mọi nẻo đường Hà Nội, dù bạn là khách du lịch muốn khám phá 36 phố phường, một sinh viên cần xe đi học, hay một nhân viên văn phòng cần phương tiện tạm thời.</p>
 
-        <h2 class="mapp-h2">Giá Trị Cốt Lõi: Tiêu Chuẩn Vàng Của Motoopen</h2>
-        
-        <p class="mapp-text">Điều làm nên sự khác biệt của Motoopen chính là sự tập trung vào ba trụ cột chính: <strong>Sự tiện lợi tối đa</strong>, <strong>Chất lượng xe vượt trội</strong>, và <strong>Thủ tục minh bạch</strong>.</p>
-        
-        <p class="mapp-text" style="font-weight: bold; color: var(--text);">1. Giao Xe Tận Nơi: Tiết Kiệm Thời Gian, Tối Đa Tiện Lợi</p>
-        <p class="mapp-text">Chúng tôi hiểu rằng thời gian của bạn là vàng bạc. Thay vì bắt khách hàng phải tìm đến bãi xe, Motoopen triển khai dịch vụ <strong>giao xe tận nơi</strong> siêu tốc tại hầu hết các quận nội thành Hà Nội. Bạn chỉ cần ở tại khách sạn, nhà riêng, văn phòng, bến xe, hay thậm chí là một quán cà phê, đội ngũ của chúng tôi sẽ mang chiếc xe bạn chọn đến tận tay. Quy trình này không chỉ giúp bạn tiết kiệm công sức di chuyển mà còn cho phép bạn bắt đầu hành trình của mình ngay lập tức.</p>
-        
-        <p class="mapp-text" style="font-weight: bold; color: var(--text);">2. Chất Lượng Xe Đặt Lên Hàng Đầu: Bảo Dưỡng Định Kỳ</p>
-        <p class="mapp-text">An toàn của bạn là ưu tiên số một của chúng tôi. Toàn bộ dàn xe tại Motoopen, từ xe số đến xe ga, đều được trải qua quy trình <strong>bảo dưỡng định kỳ</strong> nghiêm ngặt. Trước khi giao đến tay khách hàng, mỗi chiếc xe đều được kiểm tra kỹ thuật tổng thể: từ hệ thống phanh, lốp xe, dầu máy, đèn tín hiệu cho đến khả năng vận hành êm ái. Chúng tôi cam kết cung cấp những chiếc xe đời mới, sạch sẽ, hoạt động ổn định, giúp bạn hoàn toàn an tâm trên mọi cung đường, dù là đi trong phố hay những chuyến đi dã ngoại xa.</p>
-        
-        <p class="mapp-text" style="font-weight: bold; color: var(--text);">3. Thủ Tục Đơn Giản & Cọc Nhẹ Nhàng</p>
-        <p class="mapp-text">Motoopen đã tối giản hóa mọi thủ tục để mang lại trải nghiệm thuê xe không rườm rà. Bạn không cần thế chấp những tài sản giá trị lớn. Chúng tôi áp dụng chính sách <strong>đặt cọc nhẹ</strong>, linh hoạt tùy theo dòng xe bạn chọn (thường chỉ cần CCCD, Bằng lái xe hoặc Hộ chiếu). Hợp đồng thuê xe rõ ràng, các <a href="/chothuexemayhanoi/thutuc.html" style="color: var(--accent); font-weight: bold; text-decoration: underline;">thủ tục thuê xe</a> được giải thích cặn kẽ, không có chi phí ẩn, đảm bảo sự minh bạch tuyệt đối cho khách hàng.</p>
+        <h2 class="mapp-h2" style="font-size: 1.5rem; margin-top: 0;">Thông Tin Motoopen Nhận Khi Bạn Thuê Xe</h2>
+        <p class="mapp-text">Khi bạn liên hệ và thuê xe, Motoopen có thể nhận: họ tên và số điện thoại khi bạn gọi hoặc nhắn Zalo; giấy tờ tùy thân và giấy phép lái xe (với xe cần bằng lái) theo đúng <a href="/chothuexemayhanoi/thutuc.html" style="color: var(--accent); font-weight: bold; text-decoration: underline;">thủ tục thuê xe</a>; thông tin tiền đặt cọc và hợp đồng thuê.</p>
 
-        <h2 class="mapp-h2">Đa Dạng Phương Tiện - Phù Hợp Mọi Nhu Cầu</h2>
-        
-        <p class="mapp-text">Dù nhu cầu của bạn là gì, Motoopen đều có dòng xe phù hợp. Chúng tôi cung cấp một danh mục xe phong phú (tham khảo các <a href="/chothuexemayhanoi/loaixe.html" style="color: var(--accent); font-weight: bold; text-decoration: underline;">loại xe cho thuê</a>), được bảo trì tốt và sẵn sàng lăn bánh:</p>
-        
-        <ul class="mapp-list">
-          <li><strong>Xe số (Honda Wave, Yamaha Sirius...):</strong> Đây là lựa chọn "quốc dân" cho những ai tìm kiếm sự bền bỉ, tiết kiệm nhiên liệu và chi phí thuê rẻ. Xe số cực kỳ phù hợp cho sinh viên, người đi làm cần di chuyển nhiều, hoặc những phượt thủ thích sự đơn giản và linh hoạt.</li>
-          <li><strong>Xe ga (Honda Vision, Air Blade, Lead...):</strong> Mang đến sự êm ái, thanh lịch và tiện lợi với cốp xe rộng rãi. Xe ga là lựa chọn lý tưởng cho khách du lịch dạo phố, các cặp đôi, hay nhân viên văn phòng cần một phương tiện chỉn chu, dễ điều khiển.</li>
-          <li><strong>Xe điện & Xe 50cc:</strong> Giải pháp di chuyển "xanh", êm ái và đặc biệt không yêu cầu bằng lái A1. Đây là lựa chọn tuyệt vời cho các bạn học sinh, sinh viên chưa có bằng lái, hoặc những du khách chỉ có nhu cầu di chuyển quãng đường ngắn trong nội đô.</li>
-        </ul>
+        <h2 class="mapp-h2">Mục Đích Sử Dụng Thông Tin</h2>
+        <p class="mapp-text">Thông tin chỉ dùng để xác minh người thuê, lập và thực hiện hợp đồng thuê xe, liên hệ giao nhận xe, xử lý sự cố và hoàn cọc theo hợp đồng. Motoopen không chia sẻ thông tin của bạn cho bên thứ ba không liên quan đến việc thực hiện hợp đồng, trừ khi cơ quan nhà nước có thẩm quyền yêu cầu theo quy định pháp luật.</p>
 
-        <h2 class="mapp-h2">Gói Thuê Linh Hoạt: Từ Ngày, Tuần Đến Tháng</h2>
-        
-        <p class="mapp-text">Motoopen cung cấp các gói dịch vụ đa dạng để phù hợp chính xác với lịch trình của bạn:</p>
-        
-        <ul class="mapp-list">
-          <li><strong>Thuê theo ngày:</strong> Hoàn hảo cho khách du lịch muốn khám phá Hà Nội trong 1-2 ngày. Tự do lên lịch trình, dừng chân bất cứ đâu bạn muốn mà không phụ thuộc vào taxi hay Grab.</li>
-          <li><strong>Thuê theo tuần:</strong> Phù hợp cho những chuyến công tác ngắn hạn hoặc kỳ nghỉ dài hơi. Giá thuê theo tuần luôn có ưu đãi tốt hơn so với thuê lẻ từng ngày.</li>
-          <li><strong>Thuê theo tháng:</strong> Đây là giải pháp siêu tiết kiệm dành cho sinh viên, nhân viên văn phòng, hoặc người nước ngoài sinh sống và làm việc tại Hà Nội. Với chi phí thuê tháng cực kỳ hợp lý, bạn sở hữu một phương tiện cá nhân mà không cần lo lắng về chi phí bảo dưỡng, sửa chữa.</li>
-        </ul>
-        
-        <p class="mapp-text">Để biết thông tin chi tiết về chi phí cho từng loại xe và gói thuê, mời bạn <a href="banggia.html" style="color: var(--accent); font-weight: bold; text-decoration: underline;">xem bảng giá</a> của chúng tôi.</p>
-        
-        <h2 class="mapp-h2">Motoopen - Người Bạn Đồng Hành Đáng Tin Cậy</h2>
-        
-        <p class="mapp-text">Chúng tôi tự hào được phục vụ đa dạng các nhóm khách hàng, và mỗi nhóm đều tìm thấy giá trị riêng khi sử dụng dịch vụ của Motoopen:</p>
-        
-        <ul class="mapp-list">
-          <li><strong>Khách du lịch (Trong nước và Quốc tế):</strong> Chúng tôi cung cấp xe tốt, kèm theo 2 mũ bảo hiểm đạt chuẩn, áo mưa và hỗ trợ tư vấn lộ trình, địa điểm tham quan. Dịch vụ giao xe tận khách sạn/sân bay giúp du khách bắt đầu chuyến đi ngay lập tức.</li>
-          <li><strong>Sinh viên:</strong> Với các gói thuê tháng giá rẻ, đặc biệt là xe số và xe 50cc, Motoopen giúp sinh viên chủ động việc học, việc làm thêm mà không tạo gánh nặng tài chính.</li>
-          <li><strong>Nhân viên văn phòng & Người đi công tác:</strong> Cần một phương tiện di chuyển nhanh chóng trong thời gian ngắn? Chúng tôi giao xe tận văn phòng, công ty, đảm bảo xe luôn trong tình trạng sạch sẽ, lịch sự và vận hành hoàn hảo.</li>
-        </ul>
+        <h2 class="mapp-h2">Dữ Liệu Khi Bạn Dùng Website</h2>
+        <p class="mapp-text">Trợ lý chat trên trang lưu nội dung trò chuyện và dữ liệu tạm trong bộ nhớ trình duyệt (localStorage) trên thiết bị của bạn; nội dung này không được gửi về máy chủ của Motoopen. Trình duyệt cũng có thể lưu bản sao một số trang và tệp của website trong bộ nhớ đệm để tải nhanh hơn. Bạn có thể xoá các dữ liệu này bằng cách xoá dữ liệu trang web trong trình duyệt.</p>
+        <p class="mapp-text">Website không dùng công cụ phân tích hay quảng cáo. Để hiển thị, trang tải tài nguyên từ Google Maps (bản đồ trang Liên hệ), Google Fonts, cdnjs.cloudflare.com và cdn.jsdelivr.net (bộ biểu tượng) và i.postimg.cc (ảnh); khi đó trình duyệt của bạn gửi địa chỉ IP và thông tin trình duyệt tới các dịch vụ này theo chính sách riêng của họ. Website được lưu trữ trên GitHub Pages; GitHub có thể ghi nhận địa chỉ IP truy cập vì mục đích bảo mật.</p>
+        <p class="mapp-text">Các liên kết Zalo, Facebook, Instagram đưa bạn sang nền tảng khác, nơi áp dụng chính sách bảo mật của nền tảng đó.</p>
 
-        <h2 class="mapp-h2">Cam Kết Dịch Vụ Của Chúng Tôi</h2>
-        
-        <p class="mapp-text">Tại Motoopen, sự hài lòng của khách hàng là thước đo thành công. Chúng tôi cam kết:</p>
-        
-        <ul class="mapp-list">
-          <li><strong>Minh bạch tuyệt đối:</strong> <a href="/chothuexemayhanoi/banggia.html" style="color: var(--accent); font-weight: bold; text-decoration: underline;">Giá cả niêm yết</a> rõ ràng, không phụ thu vô lý. Hợp đồng đơn giản, điều khoản dễ hiểu.</li>
-          <li><strong>An toàn là trên hết:</strong> Chỉ cung cấp xe đã qua kiểm tra kỹ thuật, bảo dưỡng định kỳ. Trang bị mũ bảo hiểm chất lượng.</li>
-          <li><strong>Hỗ trợ tận tâm:</strong> Đội ngũ hỗ trợ kỹ thuật sẵn sàng xử lý các vấn đề phát sinh (nếu có) trên đường đi một cách nhanh chóng.</li>
-          <li><strong>Linh hoạt tối đa:</strong> Đáp ứng nhanh các yêu cầu về thời gian, địa điểm giao nhận xe, hỗ trợ đổi xe nếu khách hàng có nhu cầu.</li>
-        </ul>
-        
-        <!-- === SEO SECTION FOR KEYWORD "Chính sách bảo mật" === -->
-        <h2 class="mapp-h2">Cam Kết Về Chính Sách Bảo Mật</h2>
-        <p class="mapp-text">Chúng tôi hiểu rằng sự tin tưởng của khách hàng không chỉ đến từ chất lượng xe mà còn từ sự tôn trọng thông tin cá nhân. Tại Motoopen, <strong>chính sách bảo mật thuê xe máy Hà Nội</strong> của chúng tôi được xây dựng với ưu tiên hàng đầu là bảo vệ dữ liệu của bạn. Mọi thông tin cá nhân (như CCCD, Bằng lái, số điện thoại) bạn cung cấp trong quá trình làm <a href="/chothuexemayhanoi/thutuc.html" style="color: var(--accent); font-weight: bold; text-decoration: underline;">thủ tục thuê xe</a> đều được cam kết bảo mật tuyệt đối, chỉ sử dụng cho mục đích xác minh và làm hợp đồng. Chúng tôi không chia sẻ thông tin của bạn cho bất kỳ bên thứ ba nào không liên quan. (Xem chi tiết <a href="chinhsachbaomat.html" style="color: var(--accent); font-weight: bold; text-decoration: underline;">Chính sách bảo mật</a> của chúng tôi).</p>
-        <!-- === END SEO SECTION === -->
+        <h2 class="mapp-h2">Quyền Của Bạn Và Cách Liên Hệ</h2>
+        <p class="mapp-text">Bạn có thể hỏi Motoopen đang lưu thông tin gì của mình, đề nghị sửa thông tin sai hoặc xoá thông tin không còn cần cho hợp đồng, qua số 0857 255 868 hoặc email motoopen12@gmail.com (09:00–21:00 hằng ngày). Việc xử lý dữ liệu cá nhân tại Việt Nam được điều chỉnh bởi Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15, có hiệu lực từ 01/01/2026 (<a href="https://vanban.chinhphu.vn/?pageid=27160&amp;docid=214590&amp;classid=1&amp;typegroupid=3" target="_blank" rel="noopener">xem văn bản trên Cổng Thông tin điện tử Chính phủ</a>).</p>
 
-        <p class="mapp-text">Hãy để Motoopen đồng hành cùng bạn trên mọi hành trình khám phá Hà Nội. Sự tự do, an toàn và tiện lợi là những gì chúng tôi mang đến trong từng dịch vụ. Đừng ngần ngại, hãy <a href="lienhe.html" style="color: var(--accent); font-weight: bold; text-decoration: underline;">liên hệ</a> với chúng tôi ngay hôm nay để được tư vấn và đặt xe nhanh nhất!</p>
-        
+        <p class="mapp-text">Thông tin về doanh nghiệp, địa chỉ và dịch vụ nằm ở trang <a href="/chothuexemayhanoi/gioithieu.html" style="color: var(--accent); font-weight: bold; text-decoration: underline;">giới thiệu Motoopen</a>.</p>
+
+        <p class="mapp-text">Cập nhật lần cuối: 11/2026.</p>
+
       </div>
     </section>
     </main>
@@ -245,8 +193,6 @@
   
   <script src="/chothuexemayhanoi/assets/js/pages/gioithieu-contact-links.js"></script>
 
-  <script src="/chothuexemayhanoi/assets/js/pages/gioithieu-fontawesome-fallback.js"></script>
-
-<script defer src="https://motoopen.github.io/chothuexemayhanoi/motoai_v39_modelfirst_nomarkdown_nolink.js"></script>
+  {% include motoai.html %}
 </body>
 </html>

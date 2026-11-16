@@ -1,0 +1,62 @@
+# Single source for the visible FAQ on /faq.html AND its FAQPage JSON-LD.
+# - `a` is HTML. It may contain at most ONE internal link (owner rule). JSON-LD uses `a | strip_html`.
+# - Prices must match the canonical table in _data/site.yml / banggia.html:
+#   Honda Wave 150k/ngày, 700k/tuần, 900k–1,2tr/tháng, cọc 2–3tr; Honda Vision 200k, 1tr, 1,8–2tr, cọc 4–5tr;
+#   Honda Air Blade 200k, 1tr, 1,5tr, cọc 3tr; Honda Click / Yamaha Mio 150k, 700k, 900k–1,2tr, cọc 2tr;
+#   tay ga 50cc 200k/ngày, tuần/tháng báo giá, cọc 4tr; xe máy điện / xe đạp điện: liên hệ, cọc theo mẫu.
+# - Policies the owner has not decided (deposit form, ID handling, insurance, delivery areas/fees,
+#   discounts, after-hours support) stay neutral. Do not put Liquid tags in this file.
+- id: q1
+  q: "Giá thuê xe máy 1 ngày bao nhiêu?"
+  a: 'Giá thuê theo ngày tại Motoopen từ 150.000đ đến 200.000đ tùy dòng xe: Honda Wave, Honda Click và Yamaha Mio 150.000đ/ngày; Honda Vision, Honda Air Blade và xe tay ga 50cc 200.000đ/ngày. Xe máy điện và xe đạp điện vui lòng liên hệ để được báo giá. Xem <a href="/chothuexemayhanoi/banggia.html">bảng giá chi tiết</a> để so sánh từng dòng xe.'
+- id: q2
+  q: "Chi phí thuê xe máy theo tuần là bao nhiêu?"
+  a: 'Giá thuê theo tuần từ 700.000đ đến 1.000.000đ: Honda Wave, Honda Click và Yamaha Mio 700.000đ/tuần; Honda Vision và Honda Air Blade 1.000.000đ/tuần. Xe tay ga 50cc thuê theo tuần được báo giá khi liên hệ. Bạn có thể tham khảo <a href="/chothuexemayhanoi/banggia.html">bảng giá thuê tuần/tháng</a>.'
+- id: q3
+  q: "Giá thuê xe máy theo tháng để đi làm bao nhiêu?"
+  a: 'Giá thuê theo tháng từ 900.000đ đến 2.000.000đ cho các xe có giá niêm yết: Honda Wave, Honda Click và Yamaha Mio 900.000đ – 1.200.000đ/tháng; Honda Air Blade 1.500.000đ/tháng; Honda Vision 1.800.000đ – 2.000.000đ/tháng. Xe tay ga 50cc và xe điện thuê theo tháng được báo giá khi liên hệ. Xem chi tiết tại <a href="/chothuexemayhanoi/banggia.html">bảng giá thuê xe</a>.'
+- id: q4
+  q: "Tại sao khi thuê xe phải đặt cọc?"
+  a: 'Tiền cọc bảo đảm trách nhiệm với xe trong thời gian thuê. Mức cọc từ 2 – 5 triệu đồng tùy dòng xe: Honda Click/Yamaha Mio 2 triệu, Honda Wave 2 – 3 triệu, Honda Air Blade 3 triệu, xe tay ga 50cc 4 triệu, Honda Vision 4 – 5 triệu; xe điện cọc theo mẫu xe. Việc thanh toán tiền thuê, đặt cọc và cung cấp giấy tờ thực hiện theo thỏa thuận; tiền cọc được hoàn lại theo điều kiện hợp đồng khi trả xe. Xem chi tiết <a href="/chothuexemayhanoi/thutuc.html">thủ tục thuê xe</a> và các giấy tờ cần thiết.'
+- id: q5
+  q: "Thuê xe máy Hà Nội có bảo hiểm không?"
+  a: 'Nội dung về bảo hiểm và trách nhiệm khi xe hư hỏng hoặc va chạm được ghi trong hợp đồng thuê. Vui lòng hỏi Motoopen khi đặt xe và đọc kỹ hợp đồng trước khi ký.'
+- id: q6
+  q: "Thuê xe ở Motoopen có bảo hành khi xe hỏng không?"
+  a: 'Có. Khi xe gặp sự cố, hãy gọi hoặc nhắn Zalo 0857 255 868 (09:00 – 21:00 hằng ngày) để được hướng dẫn; tùy nguyên nhân (lỗi kỹ thuật của xe hay do sử dụng), hai bên xử lý theo điều khoản hợp đồng. Nếu va chạm giao thông thì khách hàng phải bồi thường thiệt hại theo hợp đồng.'
+- id: q7
+  q: "Motoopen không bảo hành những gì?"
+  a: 'Chúng tôi không bảo hành săm xe khi thủng. Khách cần tự vá hoặc thay mới.'
+- id: q8
+  q: "Thuê Honda Vision giá bao nhiêu?"
+  a: 'Honda Vision: 200.000đ/ngày, 1.000.000đ/tuần, 1.800.000đ – 2.000.000đ/tháng, đặt cọc 4 – 5 triệu. (Xem <a href="/chothuexemayhanoi/banggia.html">bảng giá</a>)'
+- id: q9
+  q: "Thuê Honda Air Blade giá bao nhiêu?"
+  a: 'Honda Air Blade: 200.000đ/ngày, 1.000.000đ/tuần, 1.500.000đ/tháng, đặt cọc 3 triệu. (Xem <a href="/chothuexemayhanoi/banggia.html">bảng giá</a>)'
+- id: q10
+  q: "Motoopen có Honda SH cho thuê không?"
+  a: 'Honda SH không có trong bảng giá niêm yết của Motoopen. Với các mẫu xe khác, vui lòng liên hệ 0857 255 868 để kiểm tra xe và giá.'
+- id: q11
+  q: "Chi phí thuê Piaggio Vespa?"
+  a: 'Piaggio Vespa không có trong bảng giá niêm yết của Motoopen. Vui lòng liên hệ 0857 255 868 để kiểm tra xe và giá.'
+- id: q12
+  q: "Không có bằng lái thì thuê được xe không?"
+  a: 'Chưa có giấy phép lái xe thì bạn chỉ được tự lái xe gắn máy: xe có vận tốc thiết kế không quá 50 km/h, động cơ xăng đến 50 cm3 hoặc động cơ điện đến 4 kW, và người lái phải đủ 16 tuổi (Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15, Điều 34 khoản 1 điểm g, Điều 56 khoản 4, Điều 59 khoản 1 điểm a). Xe mô tô hai bánh đến 125 cm3 (hoặc động cơ điện đến 11 kW) cần bằng hạng A1, xe lớn hơn cần bằng hạng A (Điều 57 khoản 1), vì vậy hãy hỏi thông số mẫu xe trước khi thuê. Xem thêm <a href="/chothuexemayhanoi/thutuc.html">thủ tục thuê xe</a>.'
+- id: q13
+  q: "Sinh viên thuê xe có được giảm giá không?"
+  a: 'Giá thuê áp dụng theo bảng giá niêm yết. Nếu có chương trình ưu đãi, Motoopen sẽ báo khi bạn liên hệ đặt xe qua 0857 255 868.'
+- id: q14
+  q: "Motoopen cung cấp dịch vụ gì?"
+  a: 'Motoopen cho thuê xe số, xe ga, xe tay ga 50cc và xe điện tại Hà Nội theo ngày, tuần và tháng. Bạn có thể xem chi tiết <a href="/chothuexemayhanoi/dichvu.html">tất cả dịch vụ tại đây</a>.'
+- id: q15
+  q: "Tại sao nên chọn Motoopen thay vì chỗ khác?"
+  a: 'Motoopen niêm yết giá thuê theo ngày, tuần, tháng và mức cọc theo từng dòng xe, ký hợp đồng thuê rõ ràng và bảo dưỡng xe định kỳ. Bạn có thể nhận xe tại cửa hàng hoặc hẹn lịch giao/nhận xe khi đặt.'
+- id: q16
+  q: "Làm cách nào để liên hệ nhanh với Motoopen?"
+  a: 'Gọi hoặc nhắn Zalo 0857 255 868 (09:00 – 21:00 hằng ngày), hoặc email motoopen12@gmail.com. Địa chỉ và bản đồ có ở trang <a href="/chothuexemayhanoi/lienhe.html">liên hệ</a>.'
+- id: q17
+  q: "Motoopen có địa chỉ cụ thể không?"
+  a: 'Có. Cửa hàng Motoopen ở 114 Nguyễn Văn Cừ, Long Biên, Hà Nội, mở cửa 09:00 – 21:00 hằng ngày.'
+- id: q18
+  q: "Có hỗ trợ giao xe tận nhà hoặc khách sạn không?"
+  a: 'Bạn có thể hẹn lịch giao/nhận xe khi đặt. Khu vực giao và phí giao (nếu có) được báo trước khi chốt; gọi hoặc nhắn Zalo 0857 255 868 để kiểm tra lịch.'
