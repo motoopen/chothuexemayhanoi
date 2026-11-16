@@ -331,10 +331,10 @@
     // Bỏ dung tích (50cc), số tiền (150k, 2tr, 200.000đ) và số điện thoại trước khi đọc số lượng,
     // để "xe 50cc 1 ngày" không bị hiểu thành 50 ngày. Ưu tiên số đứng ngay trước đơn vị thời gian.
     const s=String(t||"")
-      .replace(/\d+\s*cc(?![a-z0-9])/gi," ")
-      .replace(/\d+(?:[.,]\d+)*\s*(?:k|đ|vnđ|vnd|tr|triệu|trieu|nghìn|ngàn)(?![a-z0-9])/gi," ")
-      .replace(/\d{5,}/g," ");
-    const m=s.match(/(\d+)\s*(ngày|ngay|day|tuần|tuan|week|tháng|thang|month)/i) || s.match(/(\d{1,3})()/);
+      .replace(/\d+\s*cc(?![\p{L}\p{N}])/giu," ")
+      .replace(/\d+(?:[.,]\d+)*\s*(?:k|đ|vnđ|vnd|tr|triệu|trieu|nghìn|ngàn)(?![\p{L}\p{N}])/giu," ")
+      .replace(/\d{4,}/g," ");
+    const m=s.match(/(\d+)\s*(ngày|ngay|đêm|dem|day|tuần|tuan|week|tháng|thang|month)/i) || s.match(/(?<![\p{L}\p{N}])(\d{1,2})(?![\p{L}\p{N}])()/u);
     if(!m) return null; const n=parseInt(m[1],10); if(!n) return null;
     let unit="ngày"; if(m[2]){ if(/tuần|tuan|week/i.test(m[2])) unit="tuần"; else if(/tháng|thang|month/i.test(m[2])) unit="tháng"; }
     return {n,unit};
@@ -421,7 +421,8 @@
   // Trích giá theo MODEL, chỉ học "ngày"
   function extractPricesFromText(txt){
     const clean = String(txt||'');
-    const lines = clean.replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').split(/[\n\.•\-–]|<br\s*\/?>/i);
+    // Tách theo câu/gạch đầu dòng nhưng KHÔNG cắt số kiểu 150.000 hay khoảng 150k-200k.
+    const lines = clean.replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').split(/\.(?=\s|$)|[•–]|\s-\s|<br\s*\/?>/i);
     const out = [];
     const models = [
       {key:/\bair\s*blade\b|airblade|\bab\b/i,  type:'air blade'},
@@ -444,7 +445,7 @@
     ];
     // Giá hợp lệ phải có đơn vị tiền (150k, 1.5tr) hoặc dạng hàng nghìn (150.000): bỏ dung tích "50cc",
     // số đời xe "Vision 110"... vốn từng bị học nhầm thành giá 50đ/110đ.
-    const reMoney = /(\d+(?:[.,]\d+)?)\s*(k|tr|triệu|million)(?![a-z])|\b(\d{1,3}(?:[.,]\d{3})+)\b/i;
+    const reMoney = /(\d+(?:[.,]\d+)?)\s*(k|nghìn|ngàn|tr|triệu|million)(?![\p{L}])|(?<![\p{L}\p{N}])(\d{1,3}(?:[.,]\d{3})+)(?![\p{N}])/iu;
     function parseVND(line){
       const m = line.replace(/\d+\s*cc(?![a-z0-9])/gi,' ').match(reMoney);
       if(!m) return null;
@@ -454,7 +455,7 @@
       }else{
         const num = parseFloat(String(m[1]||'0').replace(',','.'));
         const unit = (m[2]||'').toLowerCase();
-        if(unit==='k'){ val = Math.round(num*1000); }
+        if(unit==='k' || unit==='nghìn' || unit==='ngàn'){ val = Math.round(num*1000); }
         else if(unit==='tr' || unit==='triệu' || unit==='million'){ val = Math.round(num*1000000); }
         else { val = Math.round(num); }
       }

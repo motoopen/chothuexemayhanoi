@@ -744,6 +744,6 @@
   }
 }
 
-/* Header controls: 44px touch targets; only one dark-mode toggle on wide screens. */
-.hamburger, .toggle-dark { min-width: 44px; min-height: 44px; }
+/* Header controls: 44px touch targets on touch-size screens; only one dark-mode toggle on wide screens. */
+@media (max-width: 1120px) { .hamburger, .toggle-dark { min-width: 44px; min-height: 44px; } }
 @media (min-width: 1121px) { #toggle-dark-mobile { display: none !important; } }
