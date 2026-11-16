@@ -1,0 +1,9 @@
+{% assign sitecfg = site.data.site %}
+<div class="bottom-appbar" role="navigation" aria-label="Liên hệ nhanh">
+  <nav>
+    <a href="{{ '/' | relative_url }}"><i class="fa-solid fa-house" aria-hidden="true"></i><span>Trang chủ</span></a>
+    <a href="tel:{{ sitecfg.contact.phone_raw }}"><i class="fa-solid fa-phone" aria-hidden="true"></i><span>Gọi</span></a>
+    <a href="{{ sitecfg.contact.zalo_url }}" target="_blank" rel="noopener"><i class="fa-solid fa-comment-dots" aria-hidden="true"></i><span>Zalo</span></a>
+    <a href="{{ sitecfg.contact.map_url }}" target="_blank" rel="noopener"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>Bản đồ</span></a>
+  </nav>
+</div>
