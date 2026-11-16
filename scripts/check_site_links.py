@@ -85,9 +85,10 @@ def main() -> int:
             if parsed.netloc != "motoopen.github.io":
                 continue
             if not (parsed.path == "/chothuexemayhanoi" or parsed.path.startswith(PREFIX)):
-                # Root-relative refs ("/blog/x/") resolve to the host root, outside the
-                # project site, and 404 on GitHub Pages (usually a missing | relative_url).
-                if raw.startswith("/") and not raw.startswith("//"):
+                # Root-relative ("/blog/x/") or relative ("../x/") refs that resolve outside
+                # the project site 404 on GitHub Pages (usually a missing | relative_url).
+                # Absolute links to sibling projects (https://motoopen.github.io/other/) are allowed.
+                if not raw.startswith(("http://", "https://", "//")):
                     fail(f"{path.relative_to(ROOT)} -> escapes base path {raw}", errors)
                 continue
 

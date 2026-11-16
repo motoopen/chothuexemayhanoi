@@ -222,7 +222,7 @@
           <!-- Cột 2: Form liên hệ -->
           <div class="contact-form">
             <h2 class="mapp-h2">Gửi yêu cầu nhanh</h2>
-            <form id="main-contact-form" action="mailto:{{ site.data.site.contact.email }}" method="post" enctype="text/plain" data-email="{{ site.data.site.contact.email }}" data-phone="{{ site.data.site.contact.phone_raw }}" novalidate>
+            <form id="main-contact-form" action="mailto:{{ site.data.site.contact.email }}" method="post" enctype="text/plain" data-email="{{ site.data.site.contact.email }}" data-phone="{{ site.data.site.contact.phone_raw }}" data-phone-display="{{ site.data.site.contact.phone_display }}" novalidate>
               <div class="form-group">
                 <label for="name">Họ và tên</label>
                 <input type="text" id="name" name="name" class="form-control" required>

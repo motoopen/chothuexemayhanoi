@@ -35,7 +35,8 @@ class AuditParser(HTMLParser):
             self._p_links = 0
         if self._p_links is not None and tag == "a":
             href = data.get("href") or ""
-            if href.startswith("/chothuexemayhanoi") or href.startswith(BASE):
+            relative = not re.match(r"^[a-zA-Z][a-zA-Z0-9+.-]*:", href) and not href.startswith(("#", "//"))
+            if href and (href.startswith(BASE) or relative):
                 self._p_links += 1
         if tag == "h1":
             self.h1 += 1

@@ -631,7 +631,7 @@
 
       // 1) moto_sitemap.json (ưu tiên)
       const candidatesJSON = [
-        ...(key === location.origin && SCRIPT_BASE ? [SCRIPT_BASE + "moto_sitemap.json"] : []),
+        ...(SCRIPT_BASE && new URL(SCRIPT_BASE).origin === key ? [SCRIPT_BASE + "moto_sitemap.json"] : []),
         location.origin + (location.pathname.replace(/\/[^\/]*$/,'') || '') + "/moto_sitemap.json",
         key + "/moto_sitemap.json"
       ];

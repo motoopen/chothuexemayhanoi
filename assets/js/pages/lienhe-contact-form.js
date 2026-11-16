@@ -6,6 +6,7 @@
   var status = document.getElementById('contact-form-status');
   var email = form.getAttribute('data-email') || '';
   var phone = form.getAttribute('data-phone') || '';
+  var phoneDisplay = form.getAttribute('data-phone-display') || phone;
 
   function field(id) {
     var el = form.querySelector('#' + id);
@@ -37,7 +38,7 @@
       '&body=' + encodeURIComponent(body);
 
     say('Đang mở ứng dụng email với nội dung đã soạn sẵn. Nếu không thấy, vui lòng <a href="tel:' + phone +
-      '">gọi ' + phone + '</a> hoặc <a href="https://zalo.me/' + phone + '" target="_blank" rel="noopener">nhắn Zalo</a>.', false);
+      '">gọi ' + phoneDisplay + '</a> hoặc <a href="https://zalo.me/' + phone + '" target="_blank" rel="noopener">nhắn Zalo</a>.', false);
     window.location.href = href;
   });
 })();
