@@ -42,7 +42,7 @@ permalink: /blog/
       <article class="blog-item">
         <h2><a class="blog-title-link" href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
         <p class="blog-meta">
-          {{ post.date | date: "%-d %B %Y" }} • {{ post.author | default: site.author }}
+          {{ post.date | date: "%d/%m/%Y" }} • {{ post.author | default: site.author }}
           {% if post.hub_category %}
             {% assign p_parent = site.data.taxonomy.parents | where: "slug", post.hub_parent | first %}
             {% assign p_child = p_parent.children | where: "slug", post.hub_category | first %}
