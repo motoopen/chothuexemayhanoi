@@ -1,4 +1,6 @@
-const CACHE_NAME = 'motoopen-v3';
+// v3.1: activate no longer calls client.navigate(); that deadlocked navigations (fetch events
+// wait for activation while activation waited for the navigation) on first visit.
+const CACHE_NAME = 'motoopen-v3.1';
 const SITE_PREFIX = '/chothuexemayhanoi/';
 const STATIC_ASSETS = [
   '/chothuexemayhanoi/assets/css/home.css',
@@ -11,7 +13,8 @@ const STATIC_ASSETS = [
 self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CACHE_NAME)
-      .then(cache => cache.addAll(STATIC_ASSETS))
+      // cache: 'reload' bypasses the HTTP cache so a new version never precaches stale assets.
+      .then(cache => cache.addAll(STATIC_ASSETS.map(url => new Request(url, { cache: 'reload' }))))
       .then(() => self.skipWaiting())
   );
 });
@@ -25,8 +28,6 @@ self.addEventListener('activate', event => {
           .map(key => caches.delete(key))
       ))
       .then(() => self.clients.claim())
-      .then(() => self.clients.matchAll({ type: 'window' }))
-      .then(clients => Promise.all(clients.map(client => client.navigate(client.url).catch(() => null))))
   );
 });
 
