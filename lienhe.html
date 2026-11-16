@@ -46,9 +46,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link id="fa-css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 
   
@@ -107,7 +105,7 @@
           <div class="hmini-grid">
 
             <div>
-              <h1 class="hmini-title">Thuê Xe Máy Hà Nội – Giao Tận Nơi, Giá Từ 150k/ngày</h1>
+              <h1 class="hmini-title">Liên Hệ Thuê Xe Máy Hà Nội – Motoopen</h1>
               <p class="hmini-sub">Xe số • Xe ga • 50cc/điện · Thuê ngày/tuần/tháng · Giao nhanh 20–40’, cọc nhẹ, xe
                 bảo dưỡng kỹ.</p>
               <div class="hmini-toggle" role="tablist" aria-label="Chọn gói thuê">
@@ -179,7 +177,7 @@
         <div class="mapp-head">
           <img src="https://i.postimg.cc/brsmsj5N/IMG_5215.jpg" alt="Motoopen" class="mapp-logo" loading="lazy">
           <div class="mapp-title">
-            <h1 class="mapp-h1">Thông Tin Liên Hệ</h1>
+            <h2 class="mapp-h1">Thông Tin Liên Hệ</h2>
             <p class="mapp-kicker">Gửi yêu cầu hoặc liên hệ trực tiếp với Motoopen (09:00–21:00)</p>
           </div>
         </div>
@@ -224,7 +222,7 @@
           <!-- Cột 2: Form liên hệ -->
           <div class="contact-form">
             <h2 class="mapp-h2">Gửi yêu cầu nhanh</h2>
-            <form id="main-contact-form" action="#" method="POST" onsubmit="alert('Chức năng đang phát triển. Quý khách vui lòng gọi hoặc Zalo 0857255868 để được hỗ trợ nhanh nhất. Xin cảm ơn!'); return false;">
+            <form id="main-contact-form" action="mailto:{{ site.data.site.contact.email }}" method="post" enctype="text/plain" data-email="{{ site.data.site.contact.email }}" data-phone="{{ site.data.site.contact.phone_raw }}" novalidate>
               <div class="form-group">
                 <label for="name">Họ và tên</label>
                 <input type="text" id="name" name="name" class="form-control" required>
@@ -238,6 +236,7 @@
                 <textarea id="message" name="message" class="form-control" rows="5" placeholder="Ví dụ: Tôi muốn thuê xe Vision 3 ngày, giao tại Phố Cổ..."></textarea>
               </div>
               <button type="submit" class="btn-submit"><i class="fa-solid fa-paper-plane"></i> Gửi liên hệ</button>
+              <p class="form-status" id="contact-form-status" role="status" aria-live="polite">Yêu cầu được soạn sẵn thành email gửi {{ site.data.site.contact.email }}. Cần nhanh hơn, hãy <a href="tel:{{ site.data.site.contact.phone_raw }}">gọi {{ site.data.site.contact.phone_display }}</a> hoặc nhắn Zalo.</p>
             </form>
           </div>
         </div>
@@ -292,6 +291,7 @@
   <script src="/chothuexemayhanoi/assets/js/pages/banggia-hero-pricing.js"></script>
 
   <script src="/chothuexemayhanoi/assets/js/pages/lienhe-contact-links.js"></script>
+  <script src="{{ '/assets/js/pages/lienhe-contact-form.js' | relative_url }}"></script>
 
   <script src="/chothuexemayhanoi/assets/js/pages/banggia-fontawesome-fallback.js"></script>
   <script src="/chothuexemayhanoi/assets/js/pwa.js"></script>

@@ -1628,6 +1628,23 @@
       font-size: 1.05rem;
     }
 
+    .contact-form .form-status {
+      margin: 10px 0 0;
+      font-size: 14px;
+      line-height: 1.5;
+      opacity: .85;
+    }
+
+    .contact-form .form-status.is-error {
+      color: #d70015;
+      opacity: 1;
+      font-weight: 600;
+    }
+
+    body.dark .contact-form .form-status.is-error {
+      color: #ff6961;
+    }
+
     .contact-form .btn-submit:hover {
       filter: brightness(1.1);
     }
