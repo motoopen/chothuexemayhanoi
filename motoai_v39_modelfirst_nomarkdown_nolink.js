@@ -888,6 +888,7 @@
   function openChat(){
     if(isOpen) return;
     $("#mta-card").classList.add("open");
+    $("#mta-card").setAttribute("aria-hidden","false");
     $("#mta-backdrop").classList.add("show");
     $("#mta-bubble").style.display="none";
     isOpen=true; renderSess();
@@ -896,8 +897,10 @@
   function closeChat(){
     if(!isOpen) return;
     $("#mta-card").classList.remove("open");
+    $("#mta-card").setAttribute("aria-hidden","true");
     $("#mta-backdrop").classList.remove("show");
     $("#mta-bubble").style.display="flex";
+    try{ $("#mta-bubble").focus({preventScroll:true}); }catch(e){}
     isOpen=false; hideTyping();
   }
   function autoAvoid(){
