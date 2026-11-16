@@ -1,0 +1,27 @@
+{% comment %}
+WebPage + BreadcrumbList for root static pages. Params: name (visible page name), type (default WebPage).
+Links the page to the site-wide WebSite/LocalBusiness entities declared on the homepage by @id.
+{% endcomment %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": {{ include.type | default: "WebPage" | jsonify }},
+      "@id": {{ page.url | absolute_url | append: '#webpage' | jsonify }},
+      "url": {{ page.url | absolute_url | jsonify }},
+      "name": {{ include.name | jsonify }},
+      "inLanguage": "vi-VN",
+      "isPartOf": {"@id": {{ '/' | absolute_url | append: '#website' | jsonify }}},
+      "about": {"@id": {{ '/' | absolute_url | append: '#localbusiness' | jsonify }}}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Trang chủ", "item": {{ '/' | absolute_url | jsonify }}},
+        {"@type": "ListItem", "position": 2, "name": {{ include.name | jsonify }}, "item": {{ page.url | absolute_url | jsonify }}}
+      ]
+    }
+  ]
+}
+</script>
