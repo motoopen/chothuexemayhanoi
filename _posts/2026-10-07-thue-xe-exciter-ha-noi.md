@@ -17,7 +17,7 @@ Exciter đòi lai côn mượt ở vòng tua cao, vì côn thể thao đậm và
 
 ## Tư thế lái và trải nghiệm
 
-Exciter có yên cao, ghi đông xoắn sau, và tư thế chúi nhẹ về trước, hợp đường trường hơn phố chen chúc. Nếu lịch của bạn nhiều chặng nội thành ngắn, tư thế này mỏi cổ và lưng nhanh hơn xe ga. Ngược lại, trên đường trường như ra ngoại thành hoặc tuyến đèo, Exciter cho cảm giác chắc và bứt mà dòng ga nhỏ thiếu. So sánh xe số thường đã có trong bài [thuê xe số Hà Nội]({{ '/blog/thue-xe-so-ha-noi/' | relative_url }}).
+Exciter có yên cao và tư thế chúi nhẹ về trước, hợp đường trường hơn phố chen chúc. Nếu lịch của bạn nhiều chặng nội thành ngắn, tư thế này mỏi cổ và lưng nhanh hơn xe ga. Ngược lại, trên đường trường như ra ngoại thành hoặc tuyến đèo, Exciter cho cảm giác chắc và bứt mà dòng ga nhỏ thiếu. So sánh xe số thường đã có trong bài [thuê xe số Hà Nội]({{ '/blog/thue-xe-so-ha-noi/' | relative_url }}).
 
 ## Kiểm côn và bộ số trước tiên
 

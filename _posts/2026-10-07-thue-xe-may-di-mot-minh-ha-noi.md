@@ -13,7 +13,7 @@ hub_category: cac-loai-xe
 
 ## Khi nào xe nhẹ thắng
 
-Đi một mình với balo nhỏ, lịch nội thành lẻ tẻ, và hay đỗ ở ngõ hẹp hoặc khu đông: xe nhẹ thắng tuyệt đối. Nhấc chỉnh xe dễ, quay đầu trong ngóc nhỏ được, và dấu xe gọn. Nhóm nhẹ gồm 50cc và xe điện mini, tham khảo bài so sánh Cub 50cc và xe ga 50cc và [thuê xe 50cc không cần bằng lái]({{ '/blog/thue-xe-50cc-khong-can-bang-lai/' | relative_url }}) cho lựa chọn không cần giấy tờ. Xe điện mini còn êm và rẻ nhiên liệu, xem bài thuê xe máy điện đi quãng ngắn.
+Đi một mình với balo nhỏ, lịch nội thành lẻ tẻ, và hay đỗ ở ngõ hẹp hoặc khu đông: xe nhẹ thắng tuyệt đối. Nhấc chỉnh xe dễ, quay đầu trong ngõ nhỏ được, và dấu xe gọn. Nhóm nhẹ gồm 50cc và xe điện mini, tham khảo bài so sánh Cub 50cc và xe ga 50cc và [thuê xe 50cc không cần bằng lái]({{ '/blog/thue-xe-50cc-khong-can-bang-lai/' | relative_url }}) cho lựa chọn không cần giấy tờ. Xe điện mini còn êm và rẻ nhiên liệu, xem bài thuê xe máy điện đi quãng ngắn.
 
 ## Khi nào cốp lớn thắng
 
