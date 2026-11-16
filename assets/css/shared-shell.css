@@ -508,6 +508,11 @@ footer.premium.app-footer .author a:hover { color: #fff; }
     padding-right: 64px;
     text-wrap: pretty;
   }
+  /* One persistent contact bar on mobile (same rule the homepage already uses):
+     the quick-contact FAB and the in-card sticky call/Zalo bar duplicate the
+     bottom app bar and the sticky bar slid underneath it. */
+  body:has(.bottom-appbar) #miniApp,
+  body:has(.bottom-appbar) .mapp-sticky { display: none !important; }
 }
 /* 781–1320px: the fixed chat bubble sits over the end of the copyright line. */
 @media (min-width: 781px) and (max-width: 1320px) {

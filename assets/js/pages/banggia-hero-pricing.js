@@ -30,7 +30,7 @@
           cta: 'theo tuần'
         },
         month: {
-          price: '1D–2 triệu/tháng',
+          price: '1–2 triệu/tháng',
           cta: 'theo tháng'
         }
       };

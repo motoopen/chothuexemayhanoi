@@ -16,7 +16,7 @@
     const map = {
       day:   {price:'150–200k/ngày',   cta:'theo ngày'},
       week:  {price:'600–900k/tuần',   cta:'theo tuần'},
-      month: {price:'1D–2 triệu/tháng', cta:'theo tháng'}
+      month: {price:'1–2 triệu/tháng', cta:'theo tháng'}
     };
     const priceEl = document.getElementById('hminiPrice');
     const ctaEl   = document.getElementById('hminiCtaLabel');
