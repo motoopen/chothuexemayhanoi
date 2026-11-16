@@ -13,7 +13,7 @@ Hà Giang là điểm đến quen thuộc của dân phượt, và câu hỏi đ
 
 ## Thuê ở Hà Nội và tự chạy lên
 
-Phương án này hợp ai muốn chủ động lịch trình từ chính nơi ở của mình, ghé qua các điểm dọc đường như vùng đất tỉnh lân cận. Điểm cần cân nhắc: chặng từ Hà Nội lên Hà Giang dài, mất trọn một ngày chạy đường trường, cộng thêm sức lực cho những ngày vòng cung đá sau đó. Xe thuê phải là dòng bền, vì trục đường có nhiều đoạn đồi dốc và quanh co. Hỏi trước cửa hàng xem gói thuê có cho phép xe rời khỏi phạm vi Hà Nội và các tỉnh lân cận không, vì nhiều gói giới hạn khu vực. Phạm vi và giá gói hỏi rõ qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), mức giá các dòng xe tại trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Phương án này hợp ai muốn chủ động lịch trình từ chính nơi ở của mình, ghé qua các điểm dọc đường như vùng đất tỉnh lân cận. Điểm cần cân nhắc: chặng từ Hà Nội lên Hà Giang dài, mất trọn một ngày chạy đường trường, cộng thêm sức lực cho những ngày vòng cung đá sau đó. Xe thuê phải là dòng bền, vì trục đường có nhiều đoạn đồi dốc và quanh co. Hỏi trước cửa hàng xem gói thuê có cho phép xe rời khỏi phạm vi Hà Nội và các tỉnh lân cận không, vì nhiều gói giới hạn khu vực. Phạm vi và giá gói hỏi rõ qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), mức giá các dòng xe tại trang bảng giá.
 
 ## Đi xe khách lên rồi thuê tại Hà Giang
 
@@ -21,11 +21,11 @@ Phương án này hợp ai muốn chủ động lịch trình từ chính nơi �
 
 ## Kinh nghiệm lái và độ dài hành trình
 
-Yếu tố quyết định quan trọng nhất là kinh nghiệm lái xe máy đường núi. Cung đường Hà Giang có nhiều đoạn dốc, cua gắt và thời tiết thay đổi nhanh trong ngày. Nếu bạn chỉ quen chạy phố, phương án đi xe khách lên rồi thuê tại chỗ để tập trung sức cho các cung chính là an toàn hơn. Nếu đã có nhiều chuyến đường trường, tự chạy lên giúp bạn chủ động dừng nghỉ và khám phá dọc đường. Theo quy định hiện hành, tham gia giao thông phải tuân thủ tốc độ cho phép và đội mũ bảo hiểm đạt chuẩn, các quy định này được công bố trên trang chính thức của cơ quan quản lý giao thông đường bộ. Kinh nghiệm chuẩn bị cho người mới thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Yếu tố quyết định quan trọng nhất là kinh nghiệm lái xe máy đường núi. Cung đường Hà Giang có nhiều đoạn dốc, cua gắt và thời tiết thay đổi nhanh trong ngày. Nếu bạn chỉ quen chạy phố, phương án đi xe khách lên rồi thuê tại chỗ để tập trung sức cho các cung chính là an toàn hơn. Nếu đã có nhiều chuyến đường trường, tự chạy lên giúp bạn chủ động dừng nghỉ và khám phá dọc đường. Theo quy định hiện hành, tham gia giao thông phải tuân thủ tốc độ cho phép và đội mũ bảo hiểm đạt chuẩn, các quy định này được công bố trên trang chính thức của cơ quan quản lý giao thông đường bộ. Kinh nghiệm chuẩn bị cho người mới thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Chi phí và thủ tục cần tính trước
 
-Khi thuê để chạy xa, hỏi rõ các khoản: phụ phí vượt phạm vi nếu có, chính sách hỏng hóc giữa đường, cách xử lý khi xe gặp sự cố ở tỉnh khác, và thời hạn thuê tối thiểu của gói tuần. Chụp hiện trạng xe kỹ hơn bình thường, kể cả vỏ bánh và đồ nghề sửa, vì trách nhiệm hư hỏng trên chặng xa dễ gây tranh luận. Giấy tờ chuẩn bị khi ký hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Danh sách dòng xe bền hợp đường trường nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}).
+Khi thuê để chạy xa, hỏi rõ các khoản: phụ phí vượt phạm vi nếu có, chính sách hỏng hóc giữa đường, cách xử lý khi xe gặp sự cố ở tỉnh khác, và thời hạn thuê tối thiểu của gói tuần. Chụp hiện trạng xe kỹ hơn bình thường, kể cả vỏ bánh và đồ nghề sửa, vì trách nhiệm hư hỏng trên chặng xa dễ gây tranh luận. Giấy tờ chuẩn bị khi ký hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Danh sách dòng xe bền hợp đường trường nằm ở trang các loại xe cho thuê.
 
 ## Kết luận
 

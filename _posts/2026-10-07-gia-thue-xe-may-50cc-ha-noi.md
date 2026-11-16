@@ -8,12 +8,13 @@ matrix_id: 36
 primary_keyword: "giá thuê xe máy 50cc hà nội"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+last_modified_at: 2026-11-16 12:00:00 +0700
 ---
 Nhóm xe 50cc và dưới 50cc là lựa chọn cho người muốn xe nhẹ, dễ điều khiển và không yêu cầu giấy phép lái nặng. Nhưng mức giá giữa dòng Cub, xe ga nhỏ và các dòng dưới 50cc khác nhau, và cách so cũng khác. Bài này hướng dẫn so đúng nhóm xe nhỏ này ở Hà Nội.
 
 ## Hiểu đúng nhóm 50cc và dưới 50cc
 
-Trong nhóm xe nhỏ, xe Cub dạng số cổ điển, xe ga nhỏ có vận hành tự động, và các dòng dưới 50cc thường là xe máy điện hoặc xe hai thì nhẹ. Mỗi nhóm có giá thuê riêng theo ngày và gói dài, niêm yết tại trang [bảng giá]({{ '/banggia.html' | relative_url }}). Yếu tố quan trọng nhất với nhóm này không phải giá, mà là khớp giữa loại xe và điều kiện giấy phép lái của bạn theo quy định hiện hành, vì phân khối và thiết kế quyết định yêu cầu giấy phép khác nhau. Nhóm câu hỏi về xe điện không cần bằng nằm trong bài [thuê xe điện không cần bằng lái]({{ '/blog/thue-xe-dien-khong-bang-lai/' | relative_url }}).
+Trong nhóm xe nhỏ, xe Cub dạng số cổ điển, xe ga nhỏ có vận hành tự động, và các dòng dưới 50cc thường là xe máy điện hoặc xe hai thì nhẹ. Mỗi nhóm có giá thuê riêng theo ngày và gói dài, niêm yết tại trang [bảng giá]({{ '/banggia.html' | relative_url }}). Yếu tố quan trọng nhất với nhóm này không phải giá, mà là khớp giữa loại xe và điều kiện giấy phép lái của bạn theo quy định hiện hành, vì phân khối và thiết kế quyết định yêu cầu giấy phép khác nhau. Nhóm câu hỏi về xe điện không cần bằng nằm trong bài thuê xe điện không cần bằng lái.
 
 ## So dòng Cub với xe ga nhỏ
 
@@ -25,11 +26,11 @@ Trong nhóm nhỏ, xe máy điện là đối thủ trực tiếp về trải ng
 
 ## Các khoản nên hỏi ngoài giá ngày
 
-Với nhóm xe nhỏ, rà trọn: mức cọc thường thấp hơn xe ga lớn nhưng vẫn cần hỏi hình thức giữ và hoàn trả, phí giao xe tận nơi nếu dùng, và chính sách xăng về đúng mức. Khách mới thuê nên đọc kinh nghiệm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}) và điều khoản tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Hỏi cụ thể dòng và khung qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước khi đặt cọc.
+Với nhóm xe nhỏ, rà trọn: tại Motoopen cọc xe tay ga 50cc là 4 triệu (Vision 4–5 triệu, Air Blade 3 triệu, Wave 2–3 triệu), hoàn lại theo điều kiện hợp đồng khi trả xe, vẫn cần hỏi hình thức đặt cọc, phí giao xe tận nơi nếu dùng, và chính sách xăng về đúng mức. Khách mới thuê nên đọc kinh nghiệm trong bài thuê xe máy Hà Nội lần đầu và điều khoản tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Hỏi cụ thể dòng và khung qua trang liên hệ trước khi đặt cọc.
 
 ## Ví dụ so theo ba kiểu lịch trình
 
-Lịch chỉ quanh khu ở, một mình, quãng ngắn: dòng dưới 50cc hoặc xe điện rẻ nhất tổng chi phí. Lịch có chặng qua các quận xa hơn: dòng Cub bền hơn trên chặng dài chút, đáng phần chênh giá nhỏ. Lịch dày nhiều ngày: so gói tuần giữa các dòng thay vì giá ngày, vì phần chêch giữa các dòng bị gói dài làm mờ đi. So đúng kiểu lịch trình của mình giúp nhóm xe nhỏ phát huy đúng lợi thế rẻ và nhẹ.
+Lịch chỉ quanh khu ở, một mình, quãng ngắn: dòng dưới 50cc hoặc xe điện tiết kiệm nhiên liệu, nhưng giá thuê ngày xe tay ga 50cc tại Motoopen (200k) cao hơn Wave, Click, Mio (150k), nên hãy so tổng chi phí. Lịch có chặng qua các quận xa hơn: dòng Cub bền hơn trên chặng dài chút; Cub nằm ngoài bảng giá niêm yết, nên liên hệ để kiểm tra xe và giá. Lịch dày nhiều ngày: so gói tuần giữa các dòng thay vì giá ngày, vì phần chênh giữa các dòng bị gói dài làm mờ đi. So đúng kiểu lịch trình của mình giúp nhóm xe nhỏ phát huy đúng lợi thế nhẹ và tiết kiệm xăng.
 
 ## Kết luận
 

@@ -8,6 +8,7 @@ matrix_id: 224
 primary_keyword: "thuê xe máy dùng căn cước hay hộ chiếu"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+last_modified_at: 2026-11-16 12:00:00 +0700
 ---
 Khi thuê xe máy, giấy tờ tùy thân bạn dùng để thuê phụ vào việc bạn là công dân Việt Nam hay khách nước ngoài, và bên cho thuê luôn giữ lại một bản xác minh. Bài này giúp bạn chuẩn bị đúng loại giấy tờ và biết cần xác minh gì với bên cho thuê.
 
@@ -17,7 +18,7 @@ Với khách Việt Nam, thẻ căn cước công dân là giấy tờ chuẩn n
 
 ## Khách nước ngoài dùng hộ chiếu
 
-Khách nước ngoài nên dùng hộ chiếu gốc kèm thị thực hoặc tờ khai nhập cảnh còn hiệu lực, vì bên cho thuê cần thông tin đầy đủ để xác minh. Hộ chiếu không có cũng nên photo sẵn trang thông tin để trình nhanh, nhưng bản gốc vẫn cần khi ký hợp đồng. Danh sách giấy tờ cho khách nước ngoài nằm trong bài [thuê xe máy Hà Nội cho người nước ngoài]({{ '/blog/thue-xe-may-ha-noi-cho-nguoi-nuoc-ngoai/' | relative_url }}), và phần thủ tục chung nằm trong bài [thủ tục thuê xe máy]({{ '/thutuc.html' | relative_url }}).
+Khách nước ngoài nên dùng hộ chiếu gốc kèm thị thực hoặc tờ khai nhập cảnh còn hiệu lực, vì bên cho thuê cần thông tin đầy đủ để xác minh. Hộ chiếu không có cũng nên photo sẵn trang thông tin để trình nhanh, nhưng bản gốc vẫn cần khi ký hợp đồng. Danh sách giấy tờ cho khách nước ngoài nằm trong bài thuê xe máy Hà Nội cho người nước ngoài, và phần thủ tục chung nằm trong bài [thủ tục thuê xe máy]({{ '/thutuc.html' | relative_url }}).
 
 ## Xác minh thông tin hai chiều
 
@@ -25,12 +26,11 @@ Xác minh là việc hai chiều: bên cho thuê xác minh bạn qua giấy tờ
 
 ## Giấy tờ nào bị giữ, giấy tờ nào không
 
-Thông lệ chung: bên cho thuê giữ bản photo hoặc bản xác minh số, còn bản gốc trả lại bạn ngay sau khi ghi thông tin. Nếu nơi thuê yêu cầu giữ bản gốc, hỏi rõ thời g
-ian trả lại và ghi vào hợp đồng. Bạn cũng nên hỏi luôn về phần đặt cọc, vì một số nơi lấy cọc thay cho giữ giấy tờ, tham khảo bài [tiền cọc thuê xe máy Hà Nội]({{ '/blog/tien-coc-thue-xe-may-ha-noi/' | relative_url }}) để biết mức thường gặp.
+Thông lệ chung: bên cho thuê giữ bản photo hoặc bản xác minh số, còn bản gốc trả lại bạn ngay sau khi ghi thông tin. Nếu nơi thuê đề nghị giữ bản gốc thẻ căn cước, nên cân nhắc: Luật Căn cước 2023 (Điều 7) cấm giữ thẻ căn cước trái quy định của pháp luật và cấm cầm cố, nhận cầm cố thẻ căn cước; hãy đề nghị đối chiếu bản gốc rồi nhận lại ngay, và ghi rõ giấy tờ đã xuất trình vào hợp đồng. Bạn cũng nên hỏi luôn về phần đặt cọc, vì một số nơi lấy cọc thay cho giữ giấy tờ, tham khảo bài [tiền cọc thuê xe máy Hà Nội]({{ '/blog/tien-coc-thue-xe-may-ha-noi/' | relative_url }}) để biết mức thường gặp.
 
 ## Bằng lái là chuyện riêng của giấy tờ tùy thân
 
-Nhiều người nhầm giấy tờ thuê và giấy phép lái xe là một, nhưng đây là hai việc khác nhau: giấy tờ tùy thân để xác minh người thuê, còn bằng lái để bạn được phép điều khiển xe trên đường. Nhóm xe 50cc có quy định riêng, xem chi tiết trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}), và nhóm xe điện không cần bằng nằm trong bài [thuê xe điện không cần bằng lái]({{ '/blog/thue-xe-dien-khong-can-bang-lai/' | relative_url }}). Không có bằng lái phù hợp thì dù đã thuê được xe, bạn vẫn không nên điều khiển xe.
+Nhiều người nhầm giấy tờ thuê và giấy phép lái xe là một, nhưng đây là hai việc khác nhau: giấy tờ tùy thân để xác minh người thuê, còn bằng lái để bạn được phép điều khiển xe trên đường. Nhóm xe 50cc có quy định riêng, xem chi tiết trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}), và nhóm xe điện không cần bằng nằm trong bài thuê xe điện không cần bằng lái. Không có bằng lái phù hợp thì dù đã thuê được xe, bạn vẫn không nên điều khiển xe.
 
 ## Kiểm tra lại trước khi ký
 

@@ -8,6 +8,7 @@ matrix_id: 139
 primary_keyword: "thuê xe vision hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+last_modified_at: 2026-11-16 12:00:00 +0700
 ---
 Honda Vision là một trong những dòng xe ga được thuê nhiều nhất tại Hà Nội nhờ nhỏ gọn, nhẹ và dễ lái. Nhưng chính vì được thuê dày đặc, nhiều chiếc Vision ở các cửa hàng đã có quãng đường sử dụng đáng kể. Bảy tiêu chí dưới đây giúp bạn chọn được chiếc Vision đáng tiền trước khi đặt cọc.
 
@@ -19,7 +20,7 @@ Thứ năm, bật toàn bộ đèn: đèn pha, đèn hậu, xi-nhan và còi; đ
 
 ## Giấy tờ và điều khoản khi thuê Vision
 
-Vì là xe ga phổ thông, thuê Vision cần giấy phép lái xe hạng phù hợp theo quy định hiện hành; khách nước ngoài cần giấy phép lái quốc tế hoặc bằng lái Việt Nam được cấp cho người nước ngoài. Hợp đồng thuê nên ghi rõ biển số, mức xăng khi nhận, tiền cọc và các vết trầy có sẵn, kèm bộ ảnh chụp hai bên xe. Quy trình chuẩn bị giấy tờ và kiểm tra xe được tóm tắt trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}). Trước khi đi, bạn cũng nên xem nhanh danh sách các dòng xe hiện có tại trang [loại xe]({{ '/loaixe.html' | relative_url }}) và so mức giá từng dòng tại [bảng giá cho thuê]({{ '/banggia.html' | relative_url }}) để chắc chắn Vision vẫn sẵn và hợp túi tiền.
+Vision là xe mô tô dung tích dưới 125 cm3, nên người lái cần giấy phép lái xe hạng A1 trở lên; khách nước ngoài cần giấy phép lái xe Việt Nam, hoặc giấy phép lái xe quốc tế do nước thành viên Công ước Viên 1968 cấp mang kèm giấy phép lái xe quốc gia. Hợp đồng thuê nên ghi rõ biển số, mức xăng khi nhận, tiền cọc và các vết trầy có sẵn, kèm bộ ảnh chụp hai bên xe. Quy trình chuẩn bị giấy tờ và kiểm tra xe được tóm tắt trong bài thuê xe máy Hà Nội lần đầu. Trước khi đi, bạn cũng nên xem nhanh danh sách các dòng xe hiện có tại trang [loại xe]({{ '/loaixe.html' | relative_url }}) và so mức giá từng dòng tại bảng giá cho thuê để chắc chắn Vision vẫn sẵn và hợp túi tiền.
 
 ## Vì sao Vision hợp với đi phố Hà Nội
 

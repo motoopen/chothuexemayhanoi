@@ -21,15 +21,15 @@ Hai khung giờ cần lưu ý: từ rất sớm đến khoảng giữa sáng, d�
 
 ## Loại xe hợp địa hình phía bắc sông
 
-Long Biên có cả khu đô thị mới đường rộng lẫn khu dân cư và vùng ven quãng đường dài, nên loại xe nên chọn theo lịch trình của bạn. Đi qua cầu vào trung tâm mỗi ngày: chọn dòng xe ga hoặc xe số phổ thông đủ ổn cho chặng dốc nhẹ của cầu. Chỉ đi quãng ngắn quanh khu phố: dòng xe nhỏ gọn tiết kiệm đủ dùng. Khách định chạy vòng ra vùng ven trong ngày nên chọn xe êm, vì quãng đường cộng dồn dễ gây mỏi. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Long Biên có cả khu đô thị mới đường rộng lẫn khu dân cư và vùng ven quãng đường dài, nên loại xe nên chọn theo lịch trình của bạn. Đi qua cầu vào trung tâm mỗi ngày: chọn dòng xe ga hoặc xe số phổ thông đủ ổn cho chặng dốc nhẹ của cầu. Chỉ đi quãng ngắn quanh khu phố: dòng xe nhỏ gọn tiết kiệm đủ dùng. Khách định chạy vòng ra vùng ven trong ngày nên chọn xe êm, vì quãng đường cộng dồn dễ gây mỏi. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang bảng giá.
 
 ## Hỏi về phạm vi di chuyển và giao xe tận nơi
 
-Hai câu đáng hỏi khi đặt: phạm vi cho phép có gồm các tuyến qua cầu và vùng ven không, vì một số gói giới hạn nội thành trung tâm; và có giao xe tận chỗ ở trong quận không, phụ phí thế nào. Với khách công tác ở lâu, tham khảo các khoản ngoài giá thuê trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}) trước khi ký gói tháng. Điều khoản và giấy tờ chuẩn bị tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Khung kinh nghiệm lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Hai câu đáng hỏi khi đặt: phạm vi cho phép có gồm các tuyến qua cầu và vùng ven không, vì một số gói giới hạn nội thành trung tâm; và có giao xe tận chỗ ở trong quận không, phụ phí thế nào. Với khách công tác ở lâu, tham khảo các khoản ngoài giá thuê trong bài thuê xe máy dài hạn Hà Nội trước khi ký gói tháng. Điều khoản và giấy tờ chuẩn bị tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Khung kinh nghiệm lần đầu thuê nằm trong bài thuê xe máy Hà Nội lần đầu.
 
 ## Kiểm tra xe và giữ xe quanh khu chợ
 
-Bộ kiểm tra chuẩn khi nhận: ga, phanh trước và sau, đèn còi, chạy thử vòng ngắn, chụp lại tình trạng xe. Quanh khu chợ đầu mối, dùng bãi gửi có phí và giữ chìa cẩn thận, vì khu vực đông người và hàng hóa qua lại liên tục. Lưu số hotline hỗ trợ trước khi lăn bánh. Khách chọn xe điện nên hỏi mức pin khi nhận và điểm sạc gần tuyến định đi, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}).
+Bộ kiểm tra chuẩn khi nhận: ga, phanh trước và sau, đèn còi, chạy thử vòng ngắn, chụp lại tình trạng xe. Quanh khu chợ đầu mối, dùng bãi gửi có phí và giữ chìa cẩn thận, vì khu vực đông người và hàng hóa qua lại liên tục. Lưu số hotline hỗ trợ trước khi lăn bánh. Khách chọn xe điện nên hỏi mức pin khi nhận và điểm sạc gần tuyến định đi, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}).
 
 ## Kết luận
 

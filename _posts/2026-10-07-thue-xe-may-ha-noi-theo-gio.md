@@ -25,7 +25,7 @@ Khoản dễ gây tranh cãi nhất của gói giờ là cách tính khi trả t
 
 ## Kiểm tra điều kiện đặt cọc và giấy tờ
 
-Với gói giờ, quy trình giấy tờ thường gọn hơn gói dài hạn, nhưng vẫn cần đáp ứng các yêu cầu cơ bản về [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}): mang theo chứng minh nhân dân hoặc căn cước công dân hợp lệ, và đặt cọc theo quy định cửa hàng. Cọc với gói giờ đôi khi thấp hơn, vì giá trị rủi ro thời gian ngắn. Nếu bạn không muốn đóng cọc, hãy tham khảo thêm điều kiện của gói [thuê xe máy Hà Nội không cọc]({{ '/blog/thue-xe-may-ha-noi-khong-coc/' | relative_url }}) trước khi quyết định.
+Với gói giờ, quy trình giấy tờ thường gọn hơn gói dài hạn, nhưng vẫn cần đáp ứng các yêu cầu cơ bản về [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}): mang theo chứng minh nhân dân hoặc căn cước công dân hợp lệ, và đặt cọc theo quy định cửa hàng. Cọc với gói giờ đôi khi thấp hơn, vì giá trị rủi ro thời gian ngắn. Nếu bạn không muốn đóng cọc, hãy tham khảo thêm điều kiện của gói thuê xe máy Hà Nội không cọc trước khi quyết định.
 
 ## Tình trạng xe và những điểm cần soi khi nhận xe giờ
 

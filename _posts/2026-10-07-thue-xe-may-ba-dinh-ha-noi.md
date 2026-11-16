@@ -21,15 +21,15 @@ Ba Đình có những tuyến vành khúc rộng nhưng vẫn đông vào giờ 
 
 ## Loại xe hợp địa hình khu vực
 
-Ba Đình có nhiều đoạn ven hồ và dốc nhẹ quanh khu vực đường chạy sát bờ, nên dòng xe có lực vừa phải đi thoải mái hơn xe quá nhỏ. Nếu lịch trình của bạn gồm vòng quanh hồ hoặc chạy sang các quận lân cận trong ngày, chọn xe ga hoặc xe số phổ thông êm và ổn định. Nếu chỉ đi quãng ngắn quanh khu phố, dòng nhỏ gọn vẫn đủ dùng và tiết kiệm hơn. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang [bảng giá]({{ '/banggia.html' | relative_url }}). Khách thuê dài ngày nên tham khảo các khoản ngoài giá thuê trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}).
+Ba Đình có nhiều đoạn ven hồ và dốc nhẹ quanh khu vực đường chạy sát bờ, nên dòng xe có lực vừa phải đi thoải mái hơn xe quá nhỏ. Nếu lịch trình của bạn gồm vòng quanh hồ hoặc chạy sang các quận lân cận trong ngày, chọn xe ga hoặc xe số phổ thông êm và ổn định. Nếu chỉ đi quãng ngắn quanh khu phố, dòng nhỏ gọn vẫn đủ dùng và tiết kiệm hơn. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang bảng giá. Khách thuê dài ngày nên tham khảo các khoản ngoài giá thuê trong bài thuê xe máy dài hạn Hà Nội.
 
 ## Hỏi về phạm vi di chuyển và giao xe tận nơi
 
-Với gói thuê quanh Ba Đình, hai câu đáng hỏi: có giao xe tận khách sạn hay nhà trọ trong quận không và phụ phí thế nào; phạm vi di chuyển có giới hạn không nếu bạn định chạy ra ngoài nội thành trong ngày. Khách du lịch thường lợi từ gói giao xe tận nơi, vì vị trí lưu trú quanh khu vực này khá thuận cho việc đi bộ tham quan, chỉ cần xe cho các chặng xa hơn. Điều khoản hợp đồng và giấy tờ cần chuẩn bị được tóm tắt tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Khung kinh nghiệm chung cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Với gói thuê quanh Ba Đình, hai câu đáng hỏi: có giao xe tận khách sạn hay nhà trọ trong quận không và phụ phí thế nào; phạm vi di chuyển có giới hạn không nếu bạn định chạy ra ngoài nội thành trong ngày. Khách du lịch thường lợi từ gói giao xe tận nơi, vì vị trí lưu trú quanh khu vực này khá thuận cho việc đi bộ tham quan, chỉ cần xe cho các chặng xa hơn. Điều khoản hợp đồng và giấy tờ cần chuẩn bị được tóm tắt tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Khung kinh nghiệm chung cho lần đầu thuê nằm trong bài thuê xe máy Hà Nội lần đầu.
 
 ## Kiểm tra xe và giữ xe trong ngày
 
-Bộ kiểm tra chuẩn khi nhận: thử ga, phanh trước và sau, đèn còi, chạy thử vòng ngắn, chụp tình trạng xe. Trong ngày tham quan quanh các khu di tích, dùng bãi gửi xe có phí gần điểm thăm thay vì để xe hờ, vì khu vực đông người qua lại dễ xảy ra va chạm nhỏ. Lưu số hỗ trợ của cửa hàng vào điện thoại. Với khách chọn xe điện, hỏi thêm mức pin khi nhận và điểm sạc gần khu định đi, chi tiết câu hỏi nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}).
+Bộ kiểm tra chuẩn khi nhận: thử ga, phanh trước và sau, đèn còi, chạy thử vòng ngắn, chụp tình trạng xe. Trong ngày tham quan quanh các khu di tích, dùng bãi gửi xe có phí gần điểm thăm thay vì để xe hờ, vì khu vực đông người qua lại dễ xảy ra va chạm nhỏ. Lưu số hỗ trợ của cửa hàng vào điện thoại. Với khách chọn xe điện, hỏi thêm mức pin khi nhận và điểm sạc gần khu định đi, chi tiết câu hỏi nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}).
 
 ## Kết luận
 

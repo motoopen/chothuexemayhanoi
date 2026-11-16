@@ -17,7 +17,7 @@ Thứ nhất là êm: máy điện không ồn, hợp khung sớm khi khu phố 
 
 ## Nhược điểm cần tính
 
-Thứ nhất là tầm và sạc: nếu bạn lưu trú ngoài khu phố cổ và định về khuya, phải chắc chắn đủ pin cho chặng về và biết chỗ sạc. Thứ hai là gửi xe: bãi quanh phố cổ quen với mọi loại xe nên không phải vấn đề lớn, nhưng hỏi khách sạn chỗ cắm sạc qua đêm mới là điểm then chốt. Thứ ba là khung giờ đông: tối cuối tuần khu đông gấp, xe điện nhẹ dễ bị lùa choạng như mọi dòng nhỏ, không phải lỗi của xe nhưng cần giữ khoảng cách. So với dòng xăng nhỏ, chêch trải nghiệm nằm chủ yếu ở chỗ êm và chi năng lượng, phần còn lại gần như tương đương.
+Thứ nhất là tầm và sạc: nếu bạn lưu trú ngoài khu phố cổ và định về khuya, phải chắc chắn đủ pin cho chặng về và biết chỗ sạc. Thứ hai là gửi xe: bãi quanh phố cổ quen với mọi loại xe nên không phải vấn đề lớn, nhưng hỏi khách sạn chỗ cắm sạc qua đêm mới là điểm then chốt. Thứ ba là khung giờ đông: tối cuối tuần khu đông gấp, xe điện nhẹ dễ bị lùa choạng như mọi dòng nhỏ, không phải lỗi của xe nhưng cần giữ khoảng cách. So với dòng xăng nhỏ, chênh trải nghiệm nằm chủ yếu ở chỗ êm và chi năng lượng, phần còn lại gần như tương đương.
 
 ## Chỗ sạc quanh khu lưu trú
 
@@ -29,7 +29,7 @@ Một lịch gọn quanh phố cổ: sáng sớm quanh hồ khi khu vắng, trư
 
 ## Ví dụ hai khách trong khu
 
-Tình huống một: khách ở khách sạn trong khu ba đêm, cắm sạc qua đêm, mỗi ngày quanh hồ và các ngõ, kỳ nghỉ êm và chi thấp. Tình huống hai: khách ở khu khác, không hỏi chỗ sạc, ngày hai giữa phố pin xuống thấp phải về sớm cắm chờ, mất khung chiều. Cùng khu phố, khác nhau ở câu hỏi sạc lúc đặt. Kinh nghiệm cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}), và so giá các dòng ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Tình huống một: khách ở khách sạn trong khu ba đêm, cắm sạc qua đêm, mỗi ngày quanh hồ và các ngõ, kỳ nghỉ êm và chi thấp. Tình huống hai: khách ở khu khác, không hỏi chỗ sạc, ngày hai giữa phố pin xuống thấp phải về sớm cắm chờ, mất khung chiều. Cùng khu phố, khác nhau ở câu hỏi sạc lúc đặt. Kinh nghiệm cho lần đầu thuê nằm trong bài thuê xe máy Hà Nội lần đầu, và so giá các dòng ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
 
 ## Ví dụ ba chặng quen quanh khu phố cổ
 

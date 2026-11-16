@@ -8,20 +8,22 @@ matrix_id: 143
 primary_keyword: "thuê xe sh hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+blog_notice: "Lưu ý về mẫu xe: bảng giá Motoopen hiện niêm yết Honda Wave, Honda Vision, Honda Air Blade, Honda Click/Yamaha Mio, xe tay ga 50cc và xe máy điện/xe đạp điện (giá liên hệ). Với mẫu xe khác được nhắc trong bài, gọi 0857 255 868 để kiểm tra xe và giá trước khi đặt."
+last_modified_at: 2026-11-16 12:00:00 +0700
 ---
 Honda SH là dòng ga lớn sang nhất trong nhóm xe cho thuê ở Hà Nội, và cũng là dòng đòi cân nhắc nhất về cân nặng, chi phí và kinh nghiệm. Bài này đi qua từng yếu tố để bạn quyết nhanh có nên thuê SH hay không.
 
 ## Trọng lượng là yếu tố đầu tiên
 
-SH nặng gần 130 ký, hơn hẳn dòng ga nhỏ và gần gấp đôi xe 50cc. Người thấp dưới một mét sáu chân chống xa dễ đu, và dừng đèn đỏ phải chống thường xuyên khiến mỏi trong lịch phố. Kéo xe vào ô dấu hẹp cũng cần sức. Nếu bạn chỉ quen xe nhỏ, SH cần một buổi làm quen trước khi vào đường đông. Ai cần xe nhẹ cân nhắc nhóm nhỏ trong bài [thuê xe 50cc không cần bằng lái]({{ '/blog/thue-xe-50cc-khong-can-bang-lai/' | relative_url }}) hoặc bài [thuê xe máy điện đi quãng ngắn]({{ '/blog/thue-xe-may-dien-di-quang-ngan/' | relative_url }}).
+SH nặng gần 130 ký, hơn hẳn dòng ga nhỏ và gần gấp đôi xe 50cc. Người thấp dưới một mét sáu chân chống xa dễ đu, và dừng đèn đỏ phải chống thường xuyên khiến mỏi trong lịch phố. Kéo xe vào ô dấu hẹp cũng cần sức. Nếu bạn chỉ quen xe nhỏ, SH cần một buổi làm quen trước khi vào đường đông. Ai cần xe nhẹ cân nhắc nhóm nhỏ trong bài [thuê xe 50cc không cần bằng lái]({{ '/blog/thue-xe-50cc-khong-can-bang-lai/' | relative_url }}) hoặc bài thuê xe máy điện đi quãng ngắn.
 
 ## Chi phí thuê cao hơn rõ
 
-Giá thuê SH thường gấp rưỡi đến gấp đôi dòng ga phổ thông, cộng tiền cọc cao hơn và trách nhiệm hỏng hóc lớn hơn vì phụ tùng đắt. Nếu nhu cầu của bạn chỉ là di chuyển, dòng ga nhỏ đủ dùng với giá vừa, xem bài [thuê xe Vision Hà Nội]({{ '/blog/thue-xe-vision-ha-noi/' | relative_url }}). SH đáng tiền khi bạn cần sự êm trên đường trường, tải nặng, hoặc đơn giản muốn trải nghiệm dòng xe đẳng cao. So khung giá trước ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Giá thuê SH thường gấp rưỡi đến gấp đôi dòng ga phổ thông, cộng tiền cọc cao hơn và trách nhiệm hỏng hóc lớn hơn vì phụ tùng đắt. Nếu nhu cầu của bạn chỉ là di chuyển, dòng ga nhỏ đủ dùng với giá vừa, xem bài thuê xe Vision Hà Nội. SH đáng tiền khi bạn cần sự êm trên đường trường, tải nặng, hoặc đơn giản muốn trải nghiệm dòng xe đẳng cao. So khung giá trước ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
 
 ## Kinh nghiệm lái cần thiết
 
-SH hợp người đã quen tay ga cỡ lớn: tự tin mở hết dải ga cao, giữ xe chắc khi lách, và phanh đĩa trước sau ăn sâu. Nếu lần lái ga lớn của bạn là lần này, đừng học giữa giờ cao điểm. Khách quốc tế quen scooter châu Âu thường hợp SH vì tư thế và trọng lượng giống, chuẩn bị giấy tờ theo bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). Người quen xe số muốn lên ga lớn xem thêm bài [thuê xe ga Hà Nội]({{ '/blog/thue-xe-ga-ha-noi/' | relative_url }}) cho nhóm chuyển tiếp.
+SH hợp người đã quen tay ga cỡ lớn: tự tin mở hết dải ga cao, giữ xe chắc khi lách, và phanh đĩa trước sau ăn sâu. Nếu lần lái ga lớn của bạn là lần này, đừng học giữa giờ cao điểm. Khách quốc tế quen scooter châu Âu thường hợp SH vì tư thế và trọng lượng giống, chuẩn bị giấy tờ theo bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). Người quen xe số muốn lên ga lớn xem thêm bài thuê xe ga Hà Nội cho nhóm chuyển tiếp.
 
 ## Kiểm SH trước khi nhận
 
@@ -29,7 +31,7 @@ Kiểm máy: đề nhanh, ga đều, không rít, và nghe hộp số tự độ
 
 ## Giấy tờ và điều khoản riêng
 
-SH cần bằng lái A1 như mọi xe trên 50 phân khối, nhóm 50cc thì không cần, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Hợp đồng SH nên ghi rõ mức khấu trừ nếu trầy xước vì chi phí sơn cao. Chụp thân xe chi tiết lúc nhận để có bằng chứng. Hỏi tồn kho qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước vài ngày vì SH ít và kẹt quanh lễ. Ai định chở hai người cân thêm tải trong bài [xe 50cc cho 2 người]({{ '/blog/xe-50cc-cho-2-nguoi/' | relative_url }}).
+SH cần bằng lái: A1 cho bản 125 cm3, A cho bản 160 cm3 (bằng A1 cấp trước 01/01/2025 vẫn lái được xe dưới 175 cm3), nhóm 50cc thì không cần, phân biệt trong bài xe 50cc có cần bằng lái không. Hợp đồng SH nên ghi rõ mức khấu trừ nếu trầy xước vì chi phí sơn cao. Chụp thân xe chi tiết lúc nhận để có bằng chứng. Hỏi tồn kho qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước vài ngày vì SH ít và kẹt quanh lễ. Ai định chở hai người cân thêm tải trong bài xe 50cc cho 2 người.
 
 ## Kết luận
 

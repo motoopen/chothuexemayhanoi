@@ -8,6 +8,7 @@ matrix_id: 34
 primary_keyword: "giá thuê xe ga hà nội theo ngày"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+last_modified_at: 2026-11-16 12:00:00 +0700
 ---
 Xe ga là dòng được thuê nhiều ở Hà Nội vì êm và dễ lái, nên giá theo ngày của dòng này cũng nhiều nơi niêm yết. Nhưng chọn chỉ theo con số niêm yết dễ dẫn tới sai lầm, vì tổng chi phí và trải nghiệm phụ thuộc nhiều yếu tố ngoài giá. Bài này nói các gì nên so khi chọn gói xe ga theo ngày.
 
@@ -17,15 +18,15 @@ Hai chiếc xe ga cùng dòng, cùng mức giá, có thể khác nhau rõ về �
 
 ## So mức cọc theo dòng xe
 
-Với xe ga, khoản cọc thường cao hơn dòng số phổ thông vì giá trị xe lớn hơn. Hỏi trước mức cọc, hình thức giữ, và thời gian hoàn trả, kể cả điều kiện khấu trừ khi có vết xước nhỏ. Chụp hiện trạng xe chi tiết khi nhận để đối chiếu khi hoàn cọc. Điều khoản cọc nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), kinh nghiệm chuẩn bị đầy đủ cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Với xe ga, khoản cọc thường cao hơn dòng số phổ thông vì giá trị xe lớn hơn. Hỏi trước mức cọc, hình thức giữ, và thời gian hoàn trả, kể cả điều kiện khấu trừ khi có vết xước nhỏ. Chụp hiện trạng xe chi tiết khi nhận để đối chiếu khi hoàn cọc. Điều khoản cọc nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), kinh nghiệm chuẩn bị đầy đủ cho lần đầu thuê nằm trong bài thuê xe máy Hà Nội lần đầu.
 
 ## So các khoản phụ phí kèm theo
 
-Ngoài giá ngày, rà các khoản: phí giao xe tận nơi theo khoảng cách, phụ phí ngoài giờ mở cửa, chính sách xăng về đúng mức khi nhận, và phạm vi khu vực cho phép. Một mức giá ngày thấp kèm phí giao cao có khi đắt hơn mức giá cao kèm giao gần miễn phí với lịch của bạn. So tổng ước tính thay vì so từng khoản rời rạc. Mức giá niêm yết nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), hỏi thêm qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) theo dòng xe cụ thể.
+Ngoài giá ngày, rà các khoản: phí giao xe tận nơi theo khoảng cách, phụ phí ngoài giờ mở cửa, chính sách xăng về đúng mức khi nhận, và phạm vi khu vực cho phép. Một mức giá ngày thấp kèm phí giao cao có khi đắt hơn mức giá cao kèm giao gần miễn phí với lịch của bạn. So tổng ước tính thay vì so từng khoản rời rạc. Mức giá niêm yết nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), hỏi thêm qua trang liên hệ theo dòng xe cụ thể.
 
 ## So với các dòng khác theo nhu cầu
 
-Xe ga đáng tiền khi bạn đi chặng dài, chở thêm người hoặc cần sự êm cho ngày nhiều việc. Quãng ngắn quanh khu ở, một mình, thì dòng số phổ thông rẻ hơn mà đủ dùng, và nhóm xe điện còn rẻ chi phí xăng nữa, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}). Đi nhiều ngày liên tục thì so gói tuần của từng dòng, kinh nghiệm gói dài nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}).
+Xe ga đáng tiền khi bạn đi chặng dài, chở thêm người hoặc cần sự êm cho ngày nhiều việc. Quãng ngắn quanh khu ở, một mình, thì xe số Wave hoặc xe ga nhỏ như Click, Mio (cùng 150k/ngày tại Motoopen) là đủ dùng, và nhóm xe điện còn rẻ chi phí xăng nữa, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}). Đi nhiều ngày liên tục thì so gói tuần của từng dòng, kinh nghiệm gói dài nằm trong bài thuê xe máy dài hạn Hà Nội.
 
 ## Ví dụ so hai gói xe ga cùng giá niêm yết
 

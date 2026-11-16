@@ -8,6 +8,8 @@ matrix_id: 125
 primary_keyword: "thuê pin hay mua pin xe máy điện vinfast"
 hub_parent: loai-xe
 hub_category: xe-dien
+blog_notice: "Lưu ý về mẫu xe: bảng giá Motoopen hiện niêm yết Honda Wave, Honda Vision, Honda Air Blade, Honda Click/Yamaha Mio, xe tay ga 50cc và xe máy điện/xe đạp điện (giá liên hệ). Với mẫu xe khác được nhắc trong bài, gọi 0857 255 868 để kiểm tra xe và giá trước khi đặt."
+last_modified_at: 2026-11-16 12:00:00 +0700
 ---
 Với dòng xe máy điện dùng pin rời, có một câu hỏi đặc trưng: thuê cả chiếc xe, thuê riêng pin, hay mua hẳn pin. Bài này so ba phương án theo trách nhiệm, chi phí và hoàn cảnh sử dụng.
 
@@ -25,7 +27,7 @@ Chi phí mua pin là khoản lớn trả một lần, chỉ hợp khi bạn đi 
 
 ## Với khách du lịch và người mới đến
 
-Khách du lịch, người mới đến hoặc người chỉ cần vài ngày tất cả đều rơi vào phương án thuê cả chiếc: nhận xe pin đầy, cắm sạc ở khách sạn, trả xe xong mọi trách nhiệm kết thúc. Đừng vì tò mò mô hình pin rời mà chọn hình thức phức tạp hơn nhu cầu, mỗi lớp trách nhiệm thêm là một lớp việc phải lo. Với khách muốn tìm hiểu thêm về dòng điện trước khi chọn, bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}) cho góc nhìn tổng quan, và câu hỏi cụ thể gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Khách du lịch, người mới đến hoặc người chỉ cần vài ngày tất cả đều rơi vào phương án thuê cả chiếc: nhận xe pin đầy, cắm sạc ở khách sạn, trả xe xong mọi trách nhiệm kết thúc. Đừng vì tò mò mô hình pin rời mà chọn hình thức phức tạp hơn nhu cầu, mỗi lớp trách nhiệm thêm là một lớp việc phải lo. Với khách muốn tìm hiểu thêm về dòng điện trước khi chọn, bài cho thuê xe máy điện Hà Nội cho góc nhìn tổng quan, và câu hỏi cụ thể gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
 
 ## Ví dụ hai người hai bài toán pin
 

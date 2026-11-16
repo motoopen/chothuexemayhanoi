@@ -17,7 +17,7 @@ Nếu bạn gia hạn thuê lần thứ ba trở lên trong tuần, hoặc lịc
 
 ## Cách so sánh giữa các gói
 
-Hỏi cửa hàng giá gói ngày, gói tuần và gói tháng cho cùng dòng xe, rồi quy ra giá trên một ngày cho từng gói. Chú ý các khoản đi kèm: gói dài ngày có gồm bảo dưỡng định kỳ giữa kỳ không, có giảm giá khi trả trước không, và có phụ phí gì khi kết thúc sớm hơn dự kiến. Các khoản ngoài giá thuê thường gặp được nói rõ trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}). Hỏi trực tiếp qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để có mức chính xác theo dòng xe bạn đang dùng.
+Hỏi cửa hàng giá gói ngày, gói tuần và gói tháng cho cùng dòng xe, rồi quy ra giá trên một ngày cho từng gói. Chú ý các khoản đi kèm: gói dài ngày có gồm bảo dưỡng định kỳ giữa kỳ không, có giảm giá khi trả trước không, và có phụ phí gì khi kết thúc sớm hơn dự kiến. Các khoản ngoài giá thuê thường gặp được nói rõ trong bài thuê xe máy dài hạn Hà Nội. Hỏi trực tiếp qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để có mức chính xác theo dòng xe bạn đang dùng.
 
 ## Điều khoản cần đọc kỹ khi ký gói dài
 
@@ -25,11 +25,11 @@ Với gói tuần hoặc tháng, hợp đồng thường dài hơn và có thêm
 
 ## Dòng xe nên chọn cho gói dài ngày
 
-Với lịch dùng hằng ngày, chọn dòng xe bền và dễ tìm phụ tùng thay thế, vì thời gian xe nằm sửa chính là thời gian bạn vẫn mất tiền thuê. Xe ga phổ thông là lựa chọn cân bằng cho chặng đi làm trong nội thành. Quãng đi ngắn quanh khu ở thì dòng xe nhỏ gọn đủ dùng, còn khách quan tâm chi phí xăng cho quãng ngắn nên xem nhóm xe điện trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}). Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}).
+Với lịch dùng hằng ngày, chọn dòng xe bền và dễ tìm phụ tùng thay thế, vì thời gian xe nằm sửa chính là thời gian bạn vẫn mất tiền thuê. Xe ga phổ thông là lựa chọn cân bằng cho chặng đi làm trong nội thành. Quãng đi ngắn quanh khu ở thì dòng xe nhỏ gọn đủ dùng, còn khách quan tâm chi phí xăng cho quãng ngắn nên xem nhóm xe điện trong bài cho thuê xe máy điện Hà Nội. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}).
 
 ## Kinh nghiệm chuyển gói từ ngày sang tuần tháng
 
-Khi chuyển gói, làm lại hợp đồng mới thay vì gia hạn miên man, và hỏi thời điểm chuyển có được tính trừ phần ngày còn lại không. Kinh nghiệm chuẩn bị đầy đủ cho người mới thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}). Nếu lịch của bạn theo đợt cao thấp khác nhau, ví dụ dồn về cuối tuần, hỏi gói linh hoạt kết hợp ngày và tuần.
+Khi chuyển gói, làm lại hợp đồng mới thay vì gia hạn miên man, và hỏi thời điểm chuyển có được tính trừ phần ngày còn lại không. Kinh nghiệm chuẩn bị đầy đủ cho người mới thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}). Nếu lịch của bạn theo đợt cao thấp khác nhau, ví dụ dồn về cuối tuần, hỏi gói linh hoạt kết hợp ngày và tuần.
 
 ## Theo dõi chi phí để quyết định đúng lúc
 

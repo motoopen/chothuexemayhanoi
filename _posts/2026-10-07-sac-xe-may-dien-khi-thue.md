@@ -25,7 +25,7 @@ Hỏi: một lần sạc đầy mất bao lâu, nhận xe pin bao nhiêu phần 
 
 ## Cắm thử và kiểm tra tại bàn giao
 
-Lúc nhận xe, cắm thử bộ sạc vào xe và ổ tại điểm, đèn báo hoạt động là đạt. Vặn ga nghe máy, xem màn hình pin đúng mức đã chốt, bóp hai phanh, bật đèn còi, chạy thử vòng ngắn. Chụp hiện trạng kể cả vết xước sẵn có, chụp cả bộ sạc và màn hình pin làm bằng chứng. Nếu bất kỳ điểm nào không đạt, xử ngay tại bàn giao, đừng hẹn xử sau. Điều khoản hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), các dòng xe hiện có ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}).
+Lúc nhận xe, cắm thử bộ sạc vào xe và ổ tại điểm, đèn báo hoạt động là đạt. Vặn ga nghe máy, xem màn hình pin đúng mức đã chốt, bóp hai phanh, bật đèn còi, chạy thử vòng ngắn. Chụp hiện trạng kể cả vết xước sẵn có, chụp cả bộ sạc và màn hình pin làm bằng chứng. Nếu bất kỳ điểm nào không đạt, xử ngay tại bàn giao, đừng hẹn xử sau. Điều khoản hợp đồng nằm ở trang thủ tục thuê xe, các dòng xe hiện có ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}).
 
 ## Ví dụ hai kỳ thuê khác một câu hỏi
 

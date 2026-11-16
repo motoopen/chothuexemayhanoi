@@ -8,6 +8,8 @@ matrix_id: 165
 primary_keyword: "cub và wave khi thuê"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+blog_notice: "Lưu ý về mẫu xe: bảng giá Motoopen hiện niêm yết Honda Wave, Honda Vision, Honda Air Blade, Honda Click/Yamaha Mio, xe tay ga 50cc và xe máy điện/xe đạp điện (giá liên hệ). Với mẫu xe khác được nhắc trong bài, gọi 0857 255 868 để kiểm tra xe và giá trước khi đặt."
+last_modified_at: 2026-11-16 12:00:00 +0700
 ---
 Cub và Wave đều là xe số nhỏ bền, nhưng Cub mang phong cách cổ điển còn Wave là chọn phổ thông. Với lịch đi phố ngắn quanh Hà Nội, khác biệt nằm ở vài điểm rất cụ thể. Bài này so từng điểm.
 
@@ -17,19 +19,19 @@ Cub cho cái riêng: thân hình cổ điển, chân chống nghiêng kiểu cũ
 
 ## Đi phố ngắn: cả hai đều gọn
 
-Ngõ nhỏ, quãng chặng vài cây số, dừng nhiều điểm: cả hai đều lọt tốt, chống chân dễ và dấu xe gọn. Cub nhỉnh phần chữ A che chân trước, mưa bụi văng ít hơn và túi để sau chắn được, cách xếp đồ trong bài [xe 50cc mang hành lý]({{ '/blog/xe-50cc-mang-hanh-ly/' | relative_url }}). Wave yên đầm và khung chắc hơn chút khi chở hai người, cân tải trong bài [xe 50cc cho 2 người]({{ '/blog/xe-50cc-cho-2-nguoi/' | relative_url }}). Với phố đông, thêm tiêu chí gọn trong bài [thuê xe máy đi phố đông Hà Nội]({{ '/blog/thue-xe-may-di-pho-dong-ha-noi/' | relative_url }}).
+Ngõ nhỏ, quãng chặng vài cây số, dừng nhiều điểm: cả hai đều lọt tốt, chống chân dễ và dấu xe gọn. Cub nhỉnh phần chữ A che chân trước, mưa bụi văng ít hơn và túi để sau chắn được, cách xếp đồ trong bài [xe 50cc mang hành lý]({{ '/blog/xe-50cc-mang-hanh-ly/' | relative_url }}). Wave yên đầm và khung chắc hơn chút khi chở hai người, cân tải trong bài xe 50cc cho 2 người. Với phố đông, thêm tiêu chí gọn trong bài thuê xe máy đi phố đông Hà Nội.
 
 ## Độ quen tay và thao tác
 
-Cả hai đều số, ga số và đề, thao tác như nhau cho người quen số. Cub tay ga và côn nhẹ kiểu cũ, người quen xe số mới thấy dễ; người chỉ từng đi ga sẽ cần làm quen cả hai như nhau, hướng dẫn cho người mới trong bài [thuê xe máy cho người mới lái Hà Nội]({{ '/blog/thue-xe-may-cho-nguoi-moi-lai-ha-noi/' | relative_url }}). Chạy thử tại quầy là bắt buộc cho cả hai dòng, và Cub đời cũ cần kiểm tay lái khung kỹ vì đã qua nhiều chủ, xem phần kiểm trong bài [thuê xe Cub Hà Nội]({{ '/blog/thue-xe-cub-ha-noi/' | relative_url }}).
+Cả hai đều số, ga số và đề, thao tác như nhau cho người quen số. Cub tay ga và côn nhẹ kiểu cũ, người quen xe số mới thấy dễ; người chỉ từng đi ga sẽ cần làm quen cả hai như nhau, hướng dẫn cho người mới trong bài [thuê xe máy cho người mới lái Hà Nội]({{ '/blog/thue-xe-may-cho-nguoi-moi-lai-ha-noi/' | relative_url }}). Chạy thử tại quầy là bắt buộc cho cả hai dòng, và Cub đời cũ cần kiểm tay lái khung kỹ vì đã qua nhiều chủ, xem phần kiểm trong bài thuê xe Cub Hà Nội.
 
 ## Giá thuê, xăng và sửa giữa kỳ
 
-Wave rẻ hơn, phụ tùng có khắp nơi, hỏng vặt giữa kỳ sửa nhanh và rẻ. Cub giá nhỉnh vì ít xe và tính phong cách, phụ tùng phải đúng loại nên thợ ít quen hơn. Mức xăng hai dòng gần nhau, cách so thật trong bài [thuê xe máy tiết kiệm xăng Hà Nội]({{ '/blog/thue-xe-may-tiet-kiem-xang-ha-noi/' | relative_url }}). Với kỳ dài, phần chênh giá và khả năng sửa dễ của Wave cộng lại đáng cân, còn kỳ ngắn trải nghiệm thì Cub trọn phần vui.
+Wave có giá niêm yết tại Motoopen (150k/ngày, 700k/tuần), phụ tùng có khắp nơi, hỏng vặt giữa kỳ sửa nhanh và rẻ. Cub nằm ngoài bảng giá niêm yết nên cần liên hệ để kiểm tra xe và giá, phụ tùng phải đúng loại nên thợ ít quen hơn. Mức xăng hai dòng gần nhau, cách so thật trong bài [thuê xe máy tiết kiệm xăng Hà Nội]({{ '/blog/thue-xe-may-tiet-kiem-xang-ha-noi/' | relative_url }}). Với kỳ dài, giá niêm yết rõ và khả năng sửa dễ của Wave cộng lại đáng cân, còn kỳ ngắn trải nghiệm thì Cub trọn phần vui.
 
 ## Giấy tờ và đặt trước
 
-Cub 50cc không cần bằng lái, bản phổ thông cần A1, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Wave bản 110 cần A1. Hợp đồng ghi giá, cọc, giờ trả, mức xăng. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). Cub hiếm hơn hẳn nên gọi trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) đặt sớm, Wave thì gần như lúc nào cũng có.
+Cub 50cc không cần bằng lái, bản phổ thông cần A1, phân biệt trong bài xe 50cc có cần bằng lái không. Wave bản 110 cần A1. Hợp đồng ghi giá, cọc, giờ trả, mức xăng. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài thuê xe 50cc cho người nước ngoài. Cub hiếm hơn hẳn nên gọi trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) đặt sớm, Wave thì gần như lúc nào cũng có.
 
 ## Kết luận
 

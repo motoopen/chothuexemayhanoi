@@ -8,6 +8,8 @@ matrix_id: 77
 primary_keyword: "cub 50cc và wave 50cc"
 hub_parent: loai-xe
 hub_category: xe-50cc
+blog_notice: "Lưu ý về mẫu xe: bảng giá Motoopen hiện niêm yết Honda Wave, Honda Vision, Honda Air Blade, Honda Click/Yamaha Mio, xe tay ga 50cc và xe máy điện/xe đạp điện (giá liên hệ). Với mẫu xe khác được nhắc trong bài, gọi 0857 255 868 để kiểm tra xe và giá trước khi đặt."
+last_modified_at: 2026-11-16 12:00:00 +0700
 ---
 Cub và Wave là hai dòng xe số 50cc quen thuộc của người Việt, cùng nhẹ, bền và quen tay với nhiều khách lớn tuổi. Nhưng trải nghiệm sử dụng của hai dòng khác nhau ở vài điểm đáng kể. Bài này so từng khía cạnh để bạn chọn dòng khớp với thói quen đi xe của mình.
 
@@ -21,11 +23,11 @@ Cả hai đều chuyển số bằng chân và phanh sau bằng bàn đạp, nê
 
 ## Cốp và chở đồ
 
-Wave có cốp sau rộng hơn rõ, dễ buộc thùng hàng hoặc khóa hai thùng hai bên, nên khách đi chợ, chở hàng nhỏ thường chọn Wave. Cub cốp sau hẹp kiểu cổ, chở được vài món nhưng không thư thả như Wave. Nếu lịch của bạn có chở đồ đạc định kỳ, đây là điểm quyết định chứ không phải mức giá chêch nhỏ. Mức giá hai dòng nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Wave có cốp sau rộng hơn rõ, dễ buộc thùng hàng hoặc khóa hai thùng hai bên, nên khách đi chợ, chở hàng nhỏ thường chọn Wave. Cub cốp sau hẹp kiểu cổ, chở được vài món nhưng không thư thả như Wave. Nếu lịch của bạn có chở đồ đạc định kỳ, đây là điểm quyết định chứ không phải mức giá chênh nhỏ. Mức giá hai dòng nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
 
 ## Độ bền và bảo trì giữa kỳ
 
-Hai dòng đều thuộc nhóm bền của xe số nhỏ, ít hỏng vặt nếu bảo dưỡng đều. Điểm nên hỏi nơi thuê: chiếc được giao năm sử dụng khoảng bao lâu, chạy được bao nhiêu, và lịch bảo dưỡng gần nhất lúc nào. Với gói dài, hỏi chính sách bảo dưỡng giữa kỳ và xe thay khi vào xưởng. Điều khoản nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), câu hỏi gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}). Kinh nghiệm cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
+Hai dòng đều thuộc nhóm bền của xe số nhỏ, ít hỏng vặt nếu bảo dưỡng đều. Điểm nên hỏi nơi thuê: chiếc được giao năm sử dụng khoảng bao lâu, chạy được bao nhiêu, và lịch bảo dưỡng gần nhất lúc nào. Với gói dài, hỏi chính sách bảo dưỡng giữa kỳ và xe thay khi vào xưởng. Điều khoản nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), câu hỏi gửi qua trang liên hệ. Kinh nghiệm cho lần đầu thuê nằm trong bài thuê xe máy Hà Nội lần đầu.
 
 ## Ví dụ hai khách chọn khác dòng
 

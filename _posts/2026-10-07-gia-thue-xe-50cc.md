@@ -21,7 +21,7 @@ Hai chiếc xe cùng mẫu nhưng một chiếc hai năm tuổi, một chiếc m
 
 ## Thời gian thuê và cách tính gói
 
-Giá theo ngày chỉ là một điểm trong hệ thống gói: theo giờ, theo ngày, theo tuần và theo tháng có đơn giá giảm dần theo thời gian. Với khách chỉ cần vài tiếng, gói giờ như đã phân tích trong bài [thuê xe máy Hà Nội theo giờ]({{ '/blog/thue-xe-may-ha-noi-theo-gio/' }}) thường rẻ hơn gói ngày. Với khách ở lâu, gói tuần hoặc tháng giúp tiết kiệm đáng kể, nhưng cần hỏi thêm các khoản ngoài giá thuê như đã liệt kê trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}). So sánh đúng cách là quy mọi gói về tổng chi phí theo khung thời gian thực tế của mình, rồi mới so với [bảng giá]({{ '/banggia.html' | relative_url }}).
+Giá theo ngày chỉ là một điểm trong hệ thống gói: theo giờ, theo ngày, theo tuần và theo tháng có đơn giá giảm dần theo thời gian. Với khách chỉ cần vài tiếng, gói giờ như đã phân tích trong bài thuê xe máy Hà Nội theo giờ thường rẻ hơn gói ngày. Với khách ở lâu, gói tuần hoặc tháng giúp tiết kiệm đáng kể, nhưng cần hỏi thêm các khoản ngoài giá thuê như đã liệt kê trong bài thuê xe máy dài hạn Hà Nội. So sánh đúng cách là quy mọi gói về tổng chi phí theo khung thời gian thực tế của mình, rồi mới so với [bảng giá]({{ '/banggia.html' | relative_url }}).
 
 ## Dịch vụ kèm theo nằm trong mức giá
 
@@ -29,7 +29,7 @@ Hai mức giá giống nhau nhưng gói kèm theo khác nhau là chuyện thư�
 
 ## Mức cọc và điều kiện hoàn trả
 
-Giá thuê thấp nhưng cọc cao là cấu trúc một số nơi áp dụng, và nó ảnh hưởng dòng tiền của bạn trong suốt thời gian thuê. Hỏi rõ mức cọc, hình thức giữ và điều kiện hoàn đủ, kèm quy định trừ khi có trầy xước. Nếu muốn giảm cọc, tham khảo thêm điều kiện của gói [thuê xe máy Hà Nội không cọc]({{ '/blog/thue-xe-may-ha-noi-khong-coc/' }}) để biết cách các gói ưu đãi này vận hành. Thủ tục giấy tờ theo quy định chung nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).
+Giá thuê thấp nhưng cọc cao là cấu trúc một số nơi áp dụng, và nó ảnh hưởng dòng tiền của bạn trong suốt thời gian thuê. Hỏi rõ mức cọc, hình thức giữ và điều kiện hoàn đủ, kèm quy định trừ khi có trầy xước. Nếu muốn giảm cọc, tham khảo thêm điều kiện của gói thuê xe máy Hà Nội không cọc để biết cách các gói ưu đãi này vận hành. Thủ tục giấy tờ theo quy định chung nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).
 
 ## Kết luận
 

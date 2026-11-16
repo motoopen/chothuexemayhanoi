@@ -13,7 +13,7 @@ hub_category: xe-50cc
 
 ## Đánh giá tải trước tiên
 
-Tải gồm người lái, người ngồi sau và đồ mang theo. Một người nhẹ trên 50cc lên được hầu hết dốc đô thị và dốc đê ngắn. Thêm một người lớn làm xe xuống sức rõ, dốc dài sẽ phải đè ga cao, máy nóng và có đoạn phải đi vòng. Nếu lịch thường xuyên chở hai người qua dốc, nên chuyển lên dòng lớn hơn ngay từ đầu, phần chêch giá nhỏ không đáng đổi bằng việc mệt mỗi dốc. Mức giá so giữa các dòng nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Tải gồm người lái, người ngồi sau và đồ mang theo. Một người nhẹ trên 50cc lên được hầu hết dốc đô thị và dốc đê ngắn. Thêm một người lớn làm xe xuống sức rõ, dốc dài sẽ phải đè ga cao, máy nóng và có đoạn phải đi vòng. Nếu lịch thường xuyên chở hai người qua dốc, nên chuyển lên dòng lớn hơn ngay từ đầu, phần chênh giá nhỏ không đáng đổi bằng việc mệt mỗi dốc. Mức giá so giữa các dòng nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
 
 ## Đánh giá độ dốc và độ dài
 

@@ -25,11 +25,11 @@ Mười phút kiểm tra khi nhận xe giúp cả kỳ thuê yên ổn, nhưng c
 
 ## Nhóm bằng chứng, hai điểm cuối
 
-Điểm mười một: chụp hiện trạng xe vòng quanh, kể cả vết xước sẵn có, và đồng hồ xăng, ảnh có dấu thời gian là bằng chứng tốt nhất khi trả xe. Điểm mười hai: xác nhận khung nhận trả và địa điểm, nếu có phí giao thì chốt lại mức cụ thể qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước khi rời điểm. Hai điểm cuối chiếm chưa đến hai phút nhưng xử được phần tranh chấp hay gặp nhất lúc trả. Mức giá các gói nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Điểm mười một: chụp hiện trạng xe vòng quanh, kể cả vết xước sẵn có, và đồng hồ xăng, ảnh có dấu thời gian là bằng chứng tốt nhất khi trả xe. Điểm mười hai: xác nhận khung nhận trả và địa điểm, nếu có phí giao thì chốt lại mức cụ thể qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước khi rời điểm. Hai điểm cuối chiếm chưa đến hai phút nhưng xử được phần tranh chấp hay gặp nhất lúc trả. Mức giá các gói nằm ở trang bảng giá.
 
 ## Ví dụ hai lần nhận xe
 
-Tình huống một: khách đi trọn mười hai điểm trong mười phút, phát hiện phanh trước yếu, đổi chiếc khác ngay, cả tuần không sự cố. Tình huống hai: khách vội nhận, giữa tuần phanh kêu rít phải mang đi chỉnh giữa lịch bận, tốn cả buổi. Chêch chỉ là mười phút kiểm tra lúc đầu. Kinh nghiệm cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
+Tình huống một: khách đi trọn mười hai điểm trong mười phút, phát hiện phanh trước yếu, đổi chiếc khác ngay, cả tuần không sự cố. Tình huống hai: khách vội nhận, giữa tuần phanh kêu rít phải mang đi chỉnh giữa lịch bận, tốn cả buổi. Chênh chỉ là mười phút kiểm tra lúc đầu. Kinh nghiệm cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Trình tự đi vòng xe trong mười phút
 

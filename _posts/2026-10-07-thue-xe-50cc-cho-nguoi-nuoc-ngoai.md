@@ -8,16 +8,17 @@ matrix_id: 65
 primary_keyword: "thuê xe 50cc cho người nước ngoài"
 hub_parent: loai-xe
 hub_category: xe-50cc
+last_modified_at: 2026-11-16 12:00:00 +0700
 ---
 Người nước ngoài muốn thuê xe 50cc đi lại ở Hà Nội cần chuẩn bị một bộ giấy tờ khác với khách nội địa, và quy định về giấy phép lái cho người nước ngoài cũng có phần riêng. Bài này liệt kê các khoản cần kiểm tra để chuyến đi không bị gián đoạn giữa kỳ.
 
 ## Giấy phép lái của người nước ngoài
 
-Điểm quan trọng nhất: giấy phép lái nước ngoài muốn được công nhận ở Việt Nam cần thuộc diện được chấp thuận theo quy định hiện hành, và nhiều giấy phép chưa thuộc diện đó. Người nước ngoài nên tra trước xem giấy phép của mình có được dùng điều khiển xe máy ở Việt Nam không, bằng cách đọc văn bản và hỏi đáp chính thức trên trang của lực lượng cảnh sát giao thông tại địa chỉ https://www.csgt.vn . Nếu giấy phép chưa được công nhận, các phương án thay thế là xin giấy phép lái xe máy theo quy trình dành cho người nước ngoài, hoặc dùng phương tiện khác. Bước tra này nên làm trước cả khi đặt cọc thuê xe, vì nó quyết định bạn nên thuê xe hay chọn phương án đi lại khác. Khi đã chắc chắn giấy phép của mình thuộc diện được công nhận, hãy in hoặc lưu bản sao kết quả tra để mang theo, một số trường hợp bị dừng kiểm tra sẽ nhanh hơn nếu bạn trình ngay được căn cứ.
+Điểm quan trọng nhất: giấy phép lái nước ngoài muốn được công nhận ở Việt Nam cần thuộc diện được chấp thuận theo quy định hiện hành, và nhiều giấy phép chưa thuộc diện đó. Người nước ngoài nên tra trước xem giấy phép của mình có được dùng điều khiển xe máy ở Việt Nam không, bằng cách đọc văn bản và hỏi đáp chính thức trên trang của lực lượng cảnh sát giao thông tại địa chỉ https://www.csgt.vn . Nếu giấy phép chưa được công nhận, bạn vẫn có thể lái xe gắn máy (không quá 50 cm3 hoặc 4 kW, vận tốc thiết kế không quá 50 km/h), vì Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 không yêu cầu giấy phép lái xe với xe gắn máy, người lái cần đủ 16 tuổi; với xe mô tô lớn hơn, cần giấy phép lái xe Việt Nam hoặc giấy phép lái xe quốc tế do nước thành viên Công ước Viên 1968 cấp mang kèm bằng lái quốc gia. Bước tra này nên làm trước cả khi đặt cọc thuê xe, vì nó quyết định bạn nên thuê xe hay chọn phương án đi lại khác. Khi đã chắc chắn giấy phép của mình thuộc diện được công nhận, hãy in hoặc lưu bản sao kết quả tra để mang theo, một số trường hợp bị dừng kiểm tra sẽ nhanh hơn nếu bạn trình ngay được căn cứ.
 
 ## Giấy tờ nơi cho thuê thường yêu cầu
 
-Với khách là người nước ngoài, nơi cho thuê thường yêu cầu hộ chiếu còn hạn và thị thực hoặc tạm trú tùy trường hợp, giữ bản photo và đặt cọc qua chuyển khoản. Một số nơi có nhân viên giao tiếp được tiếng Anh, nên hỏi trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) nếu bạn cần hỗ trợ ngôn ngữ. Bộ giấy tờ cụ thể và điều khoản hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), nên đọc kỹ trước khi ký, kể cả nhờ dịch nếu cần.
+Với khách là người nước ngoài, nơi cho thuê thường yêu cầu hộ chiếu còn hạn và thị thực hoặc tạm trú tùy trường hợp, giữ bản photo và đặt cọc qua chuyển khoản. Một số nơi có nhân viên giao tiếp được tiếng Anh, nên hỏi trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) nếu bạn cần hỗ trợ ngôn ngữ. Bộ giấy tờ cụ thể và điều khoản hợp đồng nằm ở trang thủ tục thuê xe, nên đọc kỹ trước khi ký, kể cả nhờ dịch nếu cần.
 
 ## Kỹ năng và địa hình: 50cc có đủ chưa
 

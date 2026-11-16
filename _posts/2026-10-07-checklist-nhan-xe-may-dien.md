@@ -17,7 +17,7 @@ Nhìn màn hình hoặc đèn báo và chụp lại mức pin lúc nhận, đa s
 
 ## Bộ sạc và chỗ cắm thử
 
-Kiểm xe có kèm bộ sạc không, đúng model xe, và dây không rách. Cắm thử ngay tại điểm bàn giao, đèn báo sạc sáng đều là đạt, chập chờn thì đổi. Hỏi thêm về kế hoạch sạc qua đêm ở chỗ lưu trú theo các câu trong bài [sạc xe máy điện khi thuê]({{ '/blog/sac-xe-may-dien-khi-thue/' | relative_url }}) và thời gian sạc đầy trong bài [thời gian sạc xe máy điện thuê]({{ '/blog/thoi-gian-sac-xe-may-dien-thue/' | relative_url }}).
+Kiểm xe có kèm bộ sạc không, đúng model xe, và dây không rách. Cắm thử ngay tại điểm bàn giao, đèn báo sạc sáng đều là đạt, chập chờn thì đổi. Hỏi thêm về kế hoạch sạc qua đêm ở chỗ lưu trú theo các câu trong bài [sạc xe máy điện khi thuê]({{ '/blog/sac-xe-may-dien-khi-thue/' | relative_url }}) và thời gian sạc đầy trong bài thời gian sạc xe máy điện thuê.
 
 ## Phanh, lốp và đèn
 
@@ -29,7 +29,7 @@ Bóp phanh trước và sau khi đẩy xe chậm, phanh phải ăn tức thì. X
 
 ## Giấy tờ và thông tin liên hệ
 
-Chụp giấy đăng ký xe hoặc bản photo nơi thuê giao, và lưu số điện thoại hỗ trợ lúc xe lỗi giữa đường. Ghi lại tên người bàn giao. Kiểm hợp đồng ghi rõ giá, tiền cọc, mức pin tối thiểu và giờ trả. Ai không có bằng lái nên chắc nhóm xe thuê không yêu cầu, xem bài [thuê xe điện không bằng lái]({{ '/blog/thue-xe-dien-khong-bang-lai/' | relative_url }}) cho nhóm giấy tờ. Khách nước ngoài mang hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}).
+Chụp giấy đăng ký xe hoặc bản photo nơi thuê giao, và lưu số điện thoại hỗ trợ lúc xe lỗi giữa đường. Ghi lại tên người bàn giao. Kiểm hợp đồng ghi rõ giá, tiền cọc, mức pin tối thiểu và giờ trả. Ai không có bằng lái nên chắc nhóm xe thuê không yêu cầu, xem bài [thuê xe điện không bằng lái]({{ '/blog/thue-xe-dien-khong-bang-lai/' | relative_url }}) cho nhóm giấy tờ. Khách nước ngoài mang hộ chiếu theo hướng dẫn trong bài thuê xe 50cc cho người nước ngoài.
 
 ## Chạy thử một vòng quanh điểm
 

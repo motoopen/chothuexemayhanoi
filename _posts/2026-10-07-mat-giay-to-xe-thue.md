@@ -21,7 +21,7 @@ Như mọi thứ để quên, lục theo lộ trình ngược: quán cà phê v�
 
 ## Báo ngay cho nơi cho thuê
 
-Không tìm lại được thì gọi ngay nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}): họ cần biết sớm để khai báo với cơ quan chức năng và chuẩn bị bản photo đăng ký thay thế nếu có. Hỏi rõ phần trách nhiệm trong hợp đồng khi mất giấy tờ xe, vì khoản bồi thường loại này nên được ghi từ đầu, xem các mục nên có trong bài [hợp đồng thuê xe máy cần có gì]({{ '/blog/hop-dong-thue-xe-may-can-co-gi/' | relative_url }}). Nếu chỉ để quên ở khách sạn nhà, nhiều khi chỉ cần quay lại lấy trong ngày.
+Không tìm lại được thì gọi ngay nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}): họ cần biết sớm để khai báo với cơ quan chức năng và chuẩn bị bản photo đăng ký thay thế nếu có. Hỏi rõ phần trách nhiệm trong hợp đồng khi mất giấy tờ xe, vì khoản bồi thường loại này nên được ghi từ đầu, xem các mục nên có trong bài hợp đồng thuê xe máy cần có gì. Nếu chỉ để quên ở khách sạn nhà, nhiều khi chỉ cần quay lại lấy trong ngày.
 
 ## Báo với cơ quan chức năng khi nghi bị lấy
 

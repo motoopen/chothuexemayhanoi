@@ -13,23 +13,23 @@ Khách du lịch đến Hà Nội thường muốn tự mình chạy vòng phố
 
 ## Chọn xe theo loại lịch trình
 
-Lịch trình trong phố cũ và quanh hồ: dòng xe nhỏ gọn là đủ, dễ luồn các phố đông và đổ vào chỗ để xe hẹp. Lịch trình ghé các điểm ven xa hơn như vùng đồi phía tây hoặc làng nghề các huyện: nên chọn dòng xe ga phổ thông êm hơn cho chặng dài. Nếu đi nhóm đông, đặt trước số lượng xe cùng loại qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để điểm nhận chuẩn bị đủ, kể cả mũ bảo hiểm nhiều kích cỡ. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá theo ngày tại trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Lịch trình trong phố cũ và quanh hồ: dòng xe nhỏ gọn là đủ, dễ luồn các phố đông và đổ vào chỗ để xe hẹp. Lịch trình ghé các điểm ven xa hơn như vùng đồi phía tây hoặc làng nghề các huyện: nên chọn dòng xe ga phổ thông êm hơn cho chặng dài. Nếu đi nhóm đông, đặt trước số lượng xe cùng loại qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để điểm nhận chuẩn bị đủ, kể cả mũ bảo hiểm nhiều kích cỡ. Danh sách dòng xe hiện có nằm ở trang các loại xe cho thuê, mức giá theo ngày tại trang bảng giá.
 
 ## Xe số hay xe điện cho khách lần đầu
 
-Khách chưa quen xe số của Việt Nam nên cân nhắc dòng xe ga hoặc xe máy điện, vì vận hành đơn giản và nhẹ hơn trên phố đông. Nhóm câu hỏi về xe điện, pin và sạc nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}). Với khách quốc tế, hỏi trước về loại xe có dễ làm quen không, vì cấu tạo một số dòng khác với mẫu ở nước ngoài. Chạy thử vòng ngắn quanh điểm nhận trước khi nhận chính thức để chắc tay lái đã hợp với xe.
+Khách chưa quen xe số của Việt Nam nên cân nhắc dòng xe ga hoặc xe máy điện, vì vận hành đơn giản và nhẹ hơn trên phố đông. Nhóm câu hỏi về xe điện, pin và sạc nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}). Với khách quốc tế, hỏi trước về loại xe có dễ làm quen không, vì cấu tạo một số dòng khác với mẫu ở nước ngoài. Chạy thử vòng ngắn quanh điểm nhận trước khi nhận chính thức để chắc tay lái đã hợp với xe.
 
 ## Thủ tục nhanh cho người mới đến
 
-Chuẩn bị sẵn giấy tờ tùy thân bản gốc và giấy phép lái phù hợp với loại xe, theo quy định hiện hành về điều kiện lái xe trên đường. Hỏi trước qua trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}) xem cần gì thêm, kể cả với khách quốc tế dùng hộ chiếu. Khoản cọc thường bắt buộc, nên hỏi rõ hình thức giữ và thời gian hoàn trả. Kinh nghiệm đầy đủ cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Chuẩn bị sẵn giấy tờ tùy thân bản gốc và giấy phép lái phù hợp với loại xe, theo quy định hiện hành về điều kiện lái xe trên đường. Hỏi trước qua trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}) xem cần gì thêm, kể cả với khách quốc tế dùng hộ chiếu. Khoản cọc thường bắt buộc, nên hỏi rõ hình thức giữ và thời gian hoàn trả. Kinh nghiệm đầy đủ cho lần đầu thuê nằm trong bài thuê xe máy Hà Nội lần đầu.
 
 ## Nhận và trả xe đúng lịch trình bay
 
-Khách du lịch thường bó trong lịch bay, nên khung giờ nhận trả xe phải khớp giờ ghé thăm. Hỏi điểm nhận về gói giao xe tận khách sạn hoặc sân bay kèm phụ phí, vì tiết kiệm được khung giờ vàng giữa chuyến. Khi trả xe gấp, chụp lại hiện trạng xe làm bằng chứng đã trả đúng hẹn. Nếu lưu lại Hà Nội lâu hơn dự kiến, các khoản ngoài giá thuê được nói rõ trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}).
+Khách du lịch thường bó trong lịch bay, nên khung giờ nhận trả xe phải khớp giờ ghé thăm. Hỏi điểm nhận về gói giao xe tận khách sạn hoặc sân bay kèm phụ phí, vì tiết kiệm được khung giờ vàng giữa chuyến. Khi trả xe gấp, chụp lại hiện trạng xe làm bằng chứng đã trả đúng hẹn. Nếu lưu lại Hà Nội lâu hơn dự kiến, các khoản ngoài giá thuê được nói rõ trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}).
 
 ## Giữ xe an toàn quanh điểm tham quan
 
-Quanh phố cổ và các điểm tham quan, chỗ để xe miễn phí hiếm vào giờ đông, nên dùng bãi gửi có phí gần điểm dừng cho an toàn. Khóa xe kỹ và không để đồ dùng cá nhân trên yên. Lưu số hỗ trợ của cửa hàng khi cần hỗ trợ giữa đường. Những lưu ý cho chặng chạy ven xa hơn nằm trong bài [thuê xe máy Hà Nội giao tận nơi]({{ '/blog/thue-xe-may-ha-noi-giao-tan-noi/' }}) khi bạn chọn phương án giao xe tại chỗ ở.
+Quanh phố cổ và các điểm tham quan, chỗ để xe miễn phí hiếm vào giờ đông, nên dùng bãi gửi có phí gần điểm dừng cho an toàn. Khóa xe kỹ và không để đồ dùng cá nhân trên yên. Lưu số hỗ trợ của cửa hàng khi cần hỗ trợ giữa đường. Những lưu ý cho chặng chạy ven xa hơn nằm trong bài [thuê xe máy Hà Nội giao tận nơi]({{ '/blog/thue-xe-may-ha-noi-giao-tan-noi/' | relative_url }}) khi bạn chọn phương án giao xe tại chỗ ở.
 
 ## Lên kế hoạch tuyến đi trước khi nhận xe
 

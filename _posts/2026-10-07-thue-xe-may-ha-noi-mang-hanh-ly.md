@@ -13,7 +13,7 @@ Mang nhiều hành lý đi cùng xe máy thuê là tình huống dễ xảy ra t
 
 ## Chọn dòng xe theo lượng hành lý
 
-Ít hành lý như một balo nhỏ thì dòng xe phổ thông nào cũng đủ, cốp xe để thêm mũ dự phòng. Hành lý cồng kềnh như va li hoặc thùng hàng thì nên chọn dòng xe ga có cốp rộng và sàn để rộng, hoặc hỏi trước xe có sẵn móc treo và dây buộc không. Một số điểm có dòng xe chuyên chở hàng, hỏi trực tiếp qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) khi đặt. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá theo ngày tại trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Ít hành lý như một balo nhỏ thì dòng xe phổ thông nào cũng đủ, cốp xe để thêm mũ dự phòng. Hành lý cồng kềnh như va li hoặc thùng hàng thì nên chọn dòng xe ga có cốp rộng và sàn để rộng, hoặc hỏi trước xe có sẵn móc treo và dây buộc không. Một số điểm có dòng xe chuyên chở hàng, hỏi trực tiếp qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) khi đặt. Danh sách dòng xe hiện có nằm ở trang các loại xe cho thuê, mức giá theo ngày tại trang bảng giá.
 
 ## Nguyên tắc sắp xếp đồ trên xe
 
@@ -21,11 +21,11 @@ Mang nhiều hành lý đi cùng xe máy thuê là tình huống dễ xảy ra t
 
 ## Hành lý khi di chuyển xa
 
-Với chặng dài ra ngoài Hà Nội, hành lý càng gọn càng tốt, vì gió và xóc đường làm dây buộc lỏng dần. Ghim lịch kiểm tra đồ vào mỗi điểm dừng xăng. Nếu đi nhóm có nhiều hành lý, cân nhắc thuê thêm một xe hoặc gói giao xe chở đồ, kinh nghiệm quy trình giao tận nơi nằm trong bài [thuê xe máy Hà Nội giao tận nơi]({{ '/blog/thue-xe-may-ha-noi-giao-tan-noi/' }}). Khách ở lại lâu nên xem gói dài ngày để tiết kiệm, các khoản ngoài giá thuê nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}).
+Với chặng dài ra ngoài Hà Nội, hành lý càng gọn càng tốt, vì gió và xóc đường làm dây buộc lỏng dần. Ghim lịch kiểm tra đồ vào mỗi điểm dừng xăng. Nếu đi nhóm có nhiều hành lý, cân nhắc thuê thêm một xe hoặc gói giao xe chở đồ, kinh nghiệm quy trình giao tận nơi nằm trong bài [thuê xe máy Hà Nội giao tận nơi]({{ '/blog/thue-xe-may-ha-noi-giao-tan-noi/' | relative_url }}). Khách ở lại lâu nên xem gói dài ngày để tiết kiệm, các khoản ngoài giá thuê nằm trong bài thuê xe máy dài hạn Hà Nội.
 
 ## Kiểm tra xe khi có hành lý
 
-Trước khi rời điểm nhận, chạy thử vòng ngắn cùng hành lý đã sắp sẵn, để cảm nhận xe vặn trở khác thường không khi thêm tải. Kiểm tra phanh đủ ăn với tải nặng hơn, đèn còi hoạt động, và gương không bị che bởi đồ xếp. Chụp hiện trạng xe và đồ đã buộc để đối chiếu khi trả. Kinh nghiệm đầy đủ cho người mới thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}). Điều khoản hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).
+Trước khi rời điểm nhận, chạy thử vòng ngắn cùng hành lý đã sắp sẵn, để cảm nhận xe vặn trở khác thường không khi thêm tải. Kiểm tra phanh đủ ăn với tải nặng hơn, đèn còi hoạt động, và gương không bị che bởi đồ xếp. Chụp hiện trạng xe và đồ đã buộc để đối chiếu khi trả. Kinh nghiệm đầy đủ cho người mới thuê nằm trong bài thuê xe máy Hà Nội lần đầu. Điều khoản hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).
 
 ## Kết luận
 

@@ -13,7 +13,7 @@ Kế hoạch kéo dài hơn dự kiến là chuyện thường gặp, và lúc �
 
 ## Hỏi trước cả khi ký hợp đồng
 
-Ngay lúc ký, hỏi rõ ba điểm về thời gian: giờ đóng cửa điểm nhận ngày thường và cuối tuần, mức phụ phí tính theo giờ khi trả trễ, và ngưỡng nào thì bị tính thêm trọn một ngày. Một số nơi cho vài giờ ân hạn, số khác tính từng giờ bắt đầu từ phút trễ đầu tiên. Biết trước các mức này giúp bạn chủ động kéo lịch hoặc thương lượng gia hạn thay vì bị tính giá bị động. Điều khoản chung nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), mức giá ngày nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Ngay lúc ký, hỏi rõ ba điểm về thời gian: giờ đóng cửa điểm nhận ngày thường và cuối tuần, mức phụ phí tính theo giờ khi trả trễ, và ngưỡng nào thì bị tính thêm trọn một ngày. Một số nơi cho vài giờ ân hạn, số khác tính từng giờ bắt đầu từ phút trễ đầu tiên. Biết trước các mức này giúp bạn chủ động kéo lịch hoặc thương lượng gia hạn thay vì bị tính giá bị động. Điều khoản chung nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), mức giá ngày nằm ở trang bảng giá.
 
 ## Báo sớm thay vì báo muộn
 
@@ -21,11 +21,11 @@ Khi thấy lịch có nguy cơ trễ, gọi ngay cho cửa hàng thay vì chờ 
 
 ## Các phương án thay trả xe muộn
 
-Nếu khung trễ nằm ngoài giờ mở cửa, hỏi phương án trả thay thế: để xe tại bãi gửi có người trông gần điểm nhận và chốt công vào sáng hôm sau, hoặc trả tại điểm khác nếu cửa hàng có nhiều địa chỉ. Mỗi phương án có điều kiện riêng về trách nhiệm giữ xe qua đêm, nên chốt rõ ai chịu rủi ro trong khung đó. Khách định kéo dài nhiều ngày nên chuyển hẳn sang gói tuần hoặc tháng, kinh nghiệm các khoản ngoài giá thuê nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}).
+Nếu khung trễ nằm ngoài giờ mở cửa, hỏi phương án trả thay thế: để xe tại bãi gửi có người trông gần điểm nhận và chốt công vào sáng hôm sau, hoặc trả tại điểm khác nếu cửa hàng có nhiều địa chỉ. Mỗi phương án có điều kiện riêng về trách nhiệm giữ xe qua đêm, nên chốt rõ ai chịu rủi ro trong khung đó. Khách định kéo dài nhiều ngày nên chuyển hẳn sang gói tuần hoặc tháng, kinh nghiệm các khoản ngoài giá thuê nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}).
 
 ## Chuẩn bị cho lần thuê sau
 
-Sau một lần trễ, rút kinh nghiệm cho lần sau: đặt khung trả dư thêm vài giờ ngay lúc ký, và hỏi gói giá ngày trọn thay vì tính nửa ngày. Kinh nghiệm chuẩn bị đầy đủ cho người mới thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}). Khách chọn xe điện nên hỏi thêm chính sách trễ liên quan pin và sạc, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}). Đặt trước khung linh hoạt qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để các lần sau đỡ vướng.
+Sau một lần trễ, rút kinh nghiệm cho lần sau: đặt khung trả dư thêm vài giờ ngay lúc ký, và hỏi gói giá ngày trọn thay vì tính nửa ngày. Kinh nghiệm chuẩn bị đầy đủ cho người mới thuê nằm trong bài thuê xe máy Hà Nội lần đầu. Khách chọn xe điện nên hỏi thêm chính sách trễ liên quan pin và sạc, chi tiết nằm trong bài cho thuê xe máy điện Hà Nội. Đặt trước khung linh hoạt qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để các lần sau đỡ vướng.
 
 ## Kết luận
 

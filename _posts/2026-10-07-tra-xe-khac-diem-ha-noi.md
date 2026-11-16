@@ -21,7 +21,7 @@ Trả khác điểm thường có phí chặng chuyển, tính theo khoảng cá
 
 ## Trách nhiệm và thủ tục khi trả khác điểm
 
-Khi trả tại điểm khác, các thủ tục như xác nhận hiện trạng, hoàn cọc và biên nhận vẫn phải đầy đủ như trả tại điểm gốc. Chụp xe lần cuối, nhờ người nhận ghi rõ tình trạng, và lưu biên nhận hoàn cọc. Nếu cọc giữ tại điểm nhận gốc, hỏi rõ cách hoàn từ xa và thời gian xử lý. Điều khoản nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Kinh nghiệm đầy đủ cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
+Khi trả tại điểm khác, các thủ tục như xác nhận hiện trạng, hoàn cọc và biên nhận vẫn phải đầy đủ như trả tại điểm gốc. Chụp xe lần cuối, nhờ người nhận ghi rõ tình trạng, và lưu biên nhận hoàn cọc. Nếu cọc giữ tại điểm nhận gốc, hỏi rõ cách hoàn từ xa và thời gian xử lý. Điều khoản nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Kinh nghiệm đầy đủ cho lần đầu thuê nằm trong bài thuê xe máy Hà Nội lần đầu.
 
 ## Kỹ thuật lên lịch một chiều gọn
 

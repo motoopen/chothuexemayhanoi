@@ -17,23 +17,23 @@ Sáng sớm cho phố cổ với nắng xiên và chợ đông, giữa trưa cho
 
 ## Lên điểm dừng theo tuyến
 
-Gom các điểm chụp theo một trục: một buổi chỉ đi phố cổ, một buổi chỉ ven hồ, tránh băng qua lại. Mỗi điểm dừng tính mười lăm phút, cộng thời gian di chuyển, một buổi bốn tiếng chỉ nên bốn đến năm điểm. Nếu buổi quá ngắn, gói hai tiếng trong bài [thuê xe máy Hà Nội 2 giờ]({{ '/blog/thue-xe-may-ha-noi-2-gio/' | relative_url }}) đủ cho một tuyến nhỏ, còn đi cả ngày chụp thì so gói trong bài [thuê xe máy Hà Nội 1 ngày tính như thế nào]({{ '/blog/thue-xe-may-ha-noi-1-ngay-tinh-nhu-the-nao/' | relative_url }}).
+Gom các điểm chụp theo một trục: một buổi chỉ đi phố cổ, một buổi chỉ ven hồ, tránh băng qua lại. Mỗi điểm dừng tính mười lăm phút, cộng thời gian di chuyển, một buổi bốn tiếng chỉ nên bốn đến năm điểm. Nếu buổi quá ngắn, gói hai tiếng trong bài [thuê xe máy Hà Nội 2 giờ]({{ '/blog/thue-xe-may-ha-noi-2-gio/' | relative_url }}) đủ cho một tuyến nhỏ, còn đi cả ngày chụp thì so gói trong bài thuê xe máy Hà Nội 1 ngày tính như thế nào.
 
 ## Chuẩn bị chỗ gửi xe và đồ chụp
 
-Xe máy chở được máy ảnh và chân máy, nhưng cần cốp hoặc hộp đựng kín, cách chọn cốp theo đồ đã trình bày trong bài [chọn cốp xe máy thuê]({{ '/blog/chon-cop-xe-may-thue/' | relative_url }}). Kiểm tra trước điểm gửi xe gần mỗi điểm chụp, vì góc đẹp thường nằm trong phố nhỏ không có chỗ đỗ, khung chi phí gửi lẻ đã liệt kê trong bài [chi phí ăn khi thuê xe máy]({{ '/blog/chi-phi-an-khi-thue-xe-may/' | relative_url }}).
+Xe máy chở được máy ảnh và chân máy, nhưng cần cốp hoặc hộp đựng kín, cách chọn cốp theo đồ đã trình bày trong bài [chọn cốp xe máy thuê]({{ '/blog/chon-cop-xe-may-thue/' | relative_url }}). Kiểm tra trước điểm gửi xe gần mỗi điểm chụp, vì góc đẹp thường nằm trong phố nhỏ không có chỗ đỗ, khung chi phí gửi lẻ đã liệt kê trong bài chi phí ăn khi thuê xe máy.
 
 ## Chọn xe cho chuyến chụp ảnh
 
-Xe ga nhỏ gọn với cốp kín là lựa chọn tốt, so sánh dòng đã có trong bài [xe ga hay xe số]({{ '/blog/xe-ga-hay-xe-so/' | relative_url }}). Rà phanh, đèn theo checklist trong bài [checklist 10 phút trước khi nhận xe]({{ '/blog/checklist-10-phut-truoc-khi-nhan-xe/' | relative_url }}), và chụp bốn góc xe như thói quen trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}), vì dừng nhiều điểm làm tăng rủi ro vết cấn, phần trách nhiệm đã phân trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/blog/chi-phi-hu-hong-khi-thue-xe-may/' | relative_url }}).
+Xe ga nhỏ gọn với cốp kín là lựa chọn tốt, so sánh dòng đã có trong bài [xe ga hay xe số]({{ '/blog/xe-ga-hay-xe-so/' | relative_url }}). Rà phanh, đèn theo checklist trong bài checklist 10 phút trước khi nhận xe, và chụp bốn góc xe như thói quen trong bài chụp ảnh xe trước khi thuê, vì dừng nhiều điểm làm tăng rủi ro vết cấn, phần trách nhiệm đã phân trong bài chi phí hư hỏng khi thuê xe máy.
 
 ## Né cao điểm khi dừng giữa đường
 
-Dừng xe giữa phố để chụp cần chọn khung vắng: sớm trước bảy giờ, hoặc giữa trưa, vì dừng sai lúc đông bị cản giao thông và có thể bị xử phạt theo quy định hiện hành, phần trách nhiệm với xe thuê đã nêu trong bài [thuê xe máy bị phạt giao thông]({{ '/blog/thue-xe-may-bi-phat-giao-thong/' | relative_url }}). Ưu tiên dừng vào lề rộng hoặc hẻm nhỏ, và kinh nghiệm khung giờ đã có trong bài [thuê xe máy Hà Nội cao điểm]({{ '/blog/thue-xe-may-ha-noi-mua-cao-diem/' | relative_url }}).
+Dừng xe giữa phố để chụp cần chọn khung vắng: sớm trước bảy giờ, hoặc giữa trưa, vì dừng sai lúc đông bị cản giao thông và có thể bị xử phạt theo quy định hiện hành, phần trách nhiệm với xe thuê đã nêu trong bài [thuê xe máy bị phạt giao thông]({{ '/blog/thue-xe-may-bi-phat-giao-thong/' | relative_url }}). Ưu tiên dừng vào lề rộng hoặc hẻm nhỏ, và kinh nghiệm khung giờ đã có trong bài thuê xe máy Hà Nội cao điểm.
 
 ## Giấy tờ, thời tiết và trả xe
 
-Mang giấy phép lái, căn cận, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/blog/thue-xe-may-ha-noi-can-giay-to-gi/' | relative_url }}). Trời mưa thì áp dụng phần lái mưa trong bài [thuê xe máy Hà Nội mùa mưa]({{ '/blog/thue-xe-may-ha-noi-mua-mua/' | relative_url }}) và che máy ảnh kỹ. Nếu buổi chụp kéo dài, gọi trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), phụ phí trễ tính theo khung trong bài [phí trả xe muộn thuê xe máy]({{ '/blog/phi-tra-xe-muon-thue-xe-may/' | relative_url }}).
+Mang giấy phép lái, căn cước, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài thuê xe máy Hà Nội cần giấy tờ gì. Trời mưa thì áp dụng phần lái mưa trong bài thuê xe máy Hà Nội mùa mưa và che máy ảnh kỹ. Nếu buổi chụp kéo dài, gọi trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), phụ phí trễ tính theo khung trong bài phí trả xe muộn thuê xe máy.
 
 Với người mang nhiều máy ảnh, cân nhắc cốp có khóa riêng và túi chống nước, vì mưa Hà Nội tới nhanh chiều, phần chuẩn bị theo mùa đã có trong bài [thuê xe máy Hà Nội mùa mưa]({{ '/blog/thue-xe-may-ha-noi-mua-mua/' | relative_url }}).
 

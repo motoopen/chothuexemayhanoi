@@ -8,6 +8,7 @@ matrix_id: 135
 primary_keyword: "thuê xe điện công cộng và thuê xe máy điện cửa hàng"
 hub_parent: loai-xe
 hub_category: xe-dien
+last_modified_at: 2026-11-16 12:00:00 +0700
 ---
 Trong các lựa chọn di chuyển bằng xe máy điện tại Hà Nội, nhiều người đứng giữa hai phương án: dùng xe điện công cộng dạng thuê theo giờ qua ứng dụng, và thuê nguyên chiếc xe máy điện tại cửa hàng cho thuê. Hai phương án này nhìn giống nhau nhưng phục vụ hai nhu cầu rất khác nhau. Bài này so sánh chi tiết để bạn chọn đúng theo từng loại chuyến đi.
 
@@ -25,9 +26,9 @@ Cũng cần tính thời gian giữ xe. Xe công cộng tính tiền theo phút 
 
 ## Chi phí và hỗ trợ khi sự cố
 
-Về chi phí, xe công cộng rẻ cho chuyến ngắn: mỗi chặng vài nghìn đến vài chục nghìn đồng tùy hệ thống, không cần đặt cọc. Nhưng nếu dùng liên tục cả ngày, tổng tiền theo phút có thể vượt giá thuê nguyên ngày tại cửa hàng; mức giá tham khảo theo ngày và theo tuần được niêm yết tại trang [bảng giá cho thuê]({{ '/banggia.html' | relative_url }}). Về sự cố, xe công cộng phụ thuộc ứng dụng: hết pin hay lỗi khóa phải liên hệ tổng đài và chờ. Xe thuê cửa hàng có người chịu trách nhiệm rõ ràng: hỏng giữa đường thường được hỗ trợ thay xe theo chính sách của từng nơi, thông tin hỗ trợ tại trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Về chi phí, xe công cộng rẻ cho chuyến ngắn: mỗi chặng vài nghìn đến vài chục nghìn đồng tùy hệ thống, không cần đặt cọc. Nhưng nếu dùng liên tục cả ngày, tổng tiền theo phút có thể vượt giá thuê nguyên ngày tại cửa hàng; mức giá tham khảo theo ngày và theo tuần được niêm yết tại trang [bảng giá cho thuê]({{ '/banggia.html' | relative_url }}). Về sự cố, xe công cộng phụ thuộc ứng dụng: hết pin hay lỗi khóa phải liên hệ tổng đài và chờ. Xe thuê cửa hàng có người chịu trách nhiệm rõ ràng: hỏng giữa đường thường được hỗ trợ thay xe theo chính sách của từng nơi, thông tin hỗ trợ tại trang liên hệ.
 
-Về giấy tờ, xe máy điện có tốc độ thiết kế trong ngưỡng xe máy vẫn yêu cầu giấy phép lái xe hợp lệ khi lưu thông, bất kể bạn thuê theo hình thức nào. Cả hai phương án vì vậy ngang nhau về điều kiện giấy tờ.
+Về giấy tờ, xe máy điện trên 4 kW hoặc có vận tốc thiết kế trên 50 km/h là xe mô tô và yêu cầu giấy phép lái xe hợp lệ khi lưu thông, bất kể bạn thuê theo hình thức nào. Cả hai phương án vì vậy ngang nhau về điều kiện giấy tờ.
 
 ## Chọn theo từng tình huống
 

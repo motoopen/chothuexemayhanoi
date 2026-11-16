@@ -21,7 +21,7 @@ Câu hỏi quan trọng với sinh viên: sạc ở đâu. Hỏi nơi thuê xe g
 
 ## Chọn theo ngân sách tổng
 
-Ngân sách sinh viên tính theo tháng: mức gói chia ra từng ngày dùng thật, cộng chi năng lượng gần như bỏ qua được với xe điện, cộng phí gửi xe ở trường hoặc phòng trọ. Gói tuần hoặc tháng thường rẻ hơn tính lẻ rõ, hỏi cả hai cách tính rồi so. Với lịch có ngày vắng về quê, hỏi chính sách tạm ngưng hoặc bù ngày. So mức giữa các dòng và các gói ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), và thủ tục cần mang gì ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).
+Ngân sách sinh viên tính theo tháng: mức gói chia ra từng ngày dùng thật, cộng chi năng lượng gần như bỏ qua được với xe điện, cộng phí gửi xe ở trường hoặc phòng trọ. Gói tuần hoặc tháng thường rẻ hơn tính lẻ rõ, hỏi cả hai cách tính rồi so. Với lịch có ngày vắng về quê, hỏi chính sách tạm ngưng hoặc bù ngày. So mức giữa các dòng và các gói ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), và thủ tục cần mang gì ở trang thủ tục thuê xe.
 
 ## Kiểm tra xe điện khi nhận
 

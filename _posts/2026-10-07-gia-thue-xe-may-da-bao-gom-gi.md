@@ -33,7 +33,7 @@ Câu một: giá này đã gồm xăng chưa, nếu chưa thì trả xe cần m�
 
 ## Ví dụ tổng của một ngày thuê
 
-Một khách thuê xe một ngày trong phố: giá niêm yết, cộng phí giao tận khách sạn hai đầu, và mức xăng chêch nhỏ khi trả. Nếu ba khoản hỏi trước, tổng được ước đúng từ sáng. Nếu không, từng khoản nhỏ cộng lại có khi lên gần một nửa giá thuê. Với gói dài ngày, phần phí giao chia đều ra số ngày nên nhỏ dần, trong khi các phụ phí theo tình huống lại tăng theo số ngày, nên lịch càng dài càng cần bảng ước tổng. Kinh nghiệm gói dài ngày nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}).
+Một khách thuê xe một ngày trong phố: giá niêm yết, cộng phí giao tận khách sạn hai đầu, và mức xăng chênh nhỏ khi trả. Nếu ba khoản hỏi trước, tổng được ước đúng từ sáng. Nếu không, từng khoản nhỏ cộng lại có khi lên gần một nửa giá thuê. Với gói dài ngày, phần phí giao chia đều ra số ngày nên nhỏ dần, trong khi các phụ phí theo tình huống lại tăng theo số ngày, nên lịch càng dài càng cần bảng ước tổng. Kinh nghiệm gói dài ngày nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}).
 
 ## Kết luận
 

@@ -25,11 +25,11 @@ Bốn dấu hiệu đổi xe: phanh rít sau khi đẩy thử, phanh ăn lệch 
 
 ## Giữ phanh và lốp ổn trong kỳ thuê
 
-Trong kỳ, có ba thói quen giữ hai bộ này ổn. Thứ nhất, phanh nhịp, bóp thả thay vì ghì một cục, giúp lá phanh khỏi nóng trên đèo dốc và đường trơn. Thứ hai, tránh lội nước sâu và đường đá sỏi to, hai thứ hại lốp nhỏ nhất trên dòng 50cc. Thứ ba, giữa kỳ nghe tiếng lạ phát triển dần thì báo nơi thuê sớm, xử nhỏ rẻ hơn xử lớn. Điều khoản về hư hỏng giữa kỳ nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), câu hỏi gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Trong kỳ, có ba thói quen giữ hai bộ này ổn. Thứ nhất, phanh nhịp, bóp thả thay vì ghì một cục, giúp lá phanh khỏi nóng trên đèo dốc và đường trơn. Thứ hai, tránh lội nước sâu và đường đá sỏi to, hai thứ hại lốp nhỏ nhất trên dòng 50cc. Thứ ba, giữa kỳ nghe tiếng lạ phát triển dần thì báo nơi thuê sớm, xử nhỏ rẻ hơn xử lớn. Điều khoản về hư hỏng giữa kỳ nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), câu hỏi gửi qua trang liên hệ.
 
 ## Ví dụ hai lần kiểm tra khác nhau
 
-Tình huống một: khách bóp thử hai phanh, thấy phanh trước ăn muộn, xin đổi chiếc, cả kỳ êm. Tình huống hai: khách nhận xe vội vì trễ hẹn, hôm sau mưa phanh trượt phải dắt bộ về, vừa mất lịch vừa phiền. Hai khách, khác nhau ở hai phút bóp phanh lúc nhận. Kinh nghiệm cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}), và so mức giữa các nơi ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Tình huống một: khách bóp thử hai phanh, thấy phanh trước ăn muộn, xin đổi chiếc, cả kỳ êm. Tình huống hai: khách nhận xe vội vì trễ hẹn, hôm sau mưa phanh trượt phải dắt bộ về, vừa mất lịch vừa phiền. Hai khách, khác nhau ở hai phút bóp phanh lúc nhận. Kinh nghiệm cho lần đầu thuê nằm trong bài thuê xe máy Hà Nội lần đầu, và so mức giữa các nơi ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
 
 ## Giữa kỳ nên tự kiểm tra lại khi nào
 

@@ -17,15 +17,15 @@ Thứ nhất, hỏi đèn pha và đèn hậu sáng đủ không, kể cả ch�
 
 ## Nhóm điều về dịch vụ và khung giờ
 
-Thứ tư, xác nhận khung giờ mở cửa của điểm nhận và trả xe, vì nhiều điểm đóng trước khuya, lịch của bạn phải khớp khung này. Thứ năm, hỏi chính sách hỗ trợ khi xe gặp sự cố giữa đêm, số hotline có nghe khuya không và quy trình xử lý ra sao. Thứ sáu, nếu cần nhận hoặc trả ngoài giờ, hỏi trước phụ phí mở cửa ngoài giờ. Hỏi trọn bộ qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) và đối chiếu với trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Thứ tư, xác nhận khung giờ mở cửa của điểm nhận và trả xe, vì nhiều điểm đóng trước khuya, lịch của bạn phải khớp khung này. Thứ năm, hỏi chính sách hỗ trợ khi xe gặp sự cố giữa đêm, số hotline có nghe khuya không và quy trình xử lý ra sao. Thứ sáu, nếu cần nhận hoặc trả ngoài giờ, hỏi trước phụ phí mở cửa ngoài giờ. Hỏi trọn bộ qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) và đối chiếu với trang bảng giá.
 
 ## Nhóm điều về hợp đồng và giấy tờ
 
-Thứ bảy, chuẩn bị giấy tờ tùy thân bản gốc còn hiệu lực và giấy phép lái phù hợp, theo quy định hiện hành, vì ban đêm không có thời gian quay về lấy. Thứ tám, đọc kỹ khoản về trách nhiệm khi trả trễ hẹn hoặc sự cố ngoài ý muốn, kể cả mức phụ phí phát sinh. Điều khoản chung nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Kinh nghiệm chuẩn bị đầy đủ cho người mới thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Thứ bảy, chuẩn bị giấy tờ tùy thân bản gốc còn hiệu lực và giấy phép lái phù hợp, theo quy định hiện hành, vì ban đêm không có thời gian quay về lấy. Thứ tám, đọc kỹ khoản về trách nhiệm khi trả trễ hẹn hoặc sự cố ngoài ý muốn, kể cả mức phụ phí phát sinh. Điều khoản chung nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Kinh nghiệm chuẩn bị đầy đủ cho người mới thuê nằm trong bài thuê xe máy Hà Nội lần đầu.
 
 ## Lưu ý khi chạy ban đêm
 
-Trên đường đêm, đi với tốc độ vừa phải, pha đèn đúng quy định khi gặp xe ngược chiều, và tăng khoảng cách với xe tải lớn. Tránh các tuyến thiếu đèn đường nếu chưa quen. Khách chọn xe điện nên hỏi pin còn đủ cho dự kiến đêm không và điểm sạc còn mở khuya không, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}). Gửi xe qua đêm ở bãi có người trông nếu lịch kéo dài tới sáng hôm sau.
+Trên đường đêm, đi với tốc độ vừa phải, pha đèn đúng quy định khi gặp xe ngược chiều, và tăng khoảng cách với xe tải lớn. Tránh các tuyến thiếu đèn đường nếu chưa quen. Khách chọn xe điện nên hỏi pin còn đủ cho dự kiến đêm không và điểm sạc còn mở khuya không, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}). Gửi xe qua đêm ở bãi có người trông nếu lịch kéo dài tới sáng hôm sau.
 
 ## Chuẩn bị lộ trình và vật dụng cho khuya
 

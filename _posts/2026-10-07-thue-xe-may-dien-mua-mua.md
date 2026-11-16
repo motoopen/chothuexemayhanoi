@@ -33,7 +33,7 @@ Mùa mưa ở Hà Nội kéo dài nhiều tháng, và xe máy điện thuê vẫ
 
 ## Khi nào hoãn hoặc đổi xe
 
-Điểm tám là quyết định đổi: nếu xe có dấu hiệu ẩm như màn hình chập chờn, ga giật hoặc còi lỗi, trả lại ngay và xin xe khác, đừng đi tiếp. Nếu cả ngày mưa lớn liên tục và lịch không gấp, hoãn chuyến hoặc đổi sang xe ga vì ít phần điện hở. Kiểm tra khi bàn giao theo danh sách trong bài [checklist nhận xe 50cc]({{ '/blog/checklist-nhan-xe-50cc/' | relative_url }}) cho nhóm bước nhận xe nói chung. Báo lỗi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để nơi thuê ghi nhận.
+Điểm tám là quyết định đổi: nếu xe có dấu hiệu ẩm như màn hình chập chờn, ga giật hoặc còi lỗi, trả lại ngay và xin xe khác, đừng đi tiếp. Nếu cả ngày mưa lớn liên tục và lịch không gấp, hoãn chuyến hoặc đổi sang xe ga vì ít phần điện hở. Kiểm tra khi bàn giao theo danh sách trong bài checklist nhận xe 50cc cho nhóm bước nhận xe nói chung. Báo lỗi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để nơi thuê ghi nhận.
 
 ## Kết luận
 

@@ -8,6 +8,7 @@ matrix_id: 298
 primary_keyword: "thuê xe giá rẻ hay xe mới"
 hub_parent: kinh-nghiem
 hub_category: so-sanh-lua-chon
+last_modified_at: 2026-11-16 12:00:00 +0700
 ---
 Mọi khách thuê xe đều muốn rẻ, nhưng không phải lúc nào rẻ cũng là lời. Một chiếc xe cũ giá rẻ có thể khiến bạn dở chuyến vì hỏng giữa đường, trong khi chiếc xe đời mới đắt hơn vài chục nghìn lại chạy êm và đỡ rủi ro. Bài này giúp bạn xác định chỗ nào nên đánh đổi và chỗ nào không nên, dựa trên ba yếu tố thực tế.
 
@@ -30,4 +31,4 @@ Chốt lại: hãy rẻ ở những chuyến ngắn, và bỏ tiền cho độ t
 ## Nguồn
 
 - Mức giá tham khảo theo dòng xe hiện hành của Motoopen: {{ '/banggia.html' | relative_url }}
-- Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15: https://vanban.chinhphu.vn/luat-trat-tu-an-toan-giao-thong-duong-bo-36-2024-qh15-250124126135554846.htm
+- Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15: https://vanban.chinhphu.vn/?pageid=27160&docid=211194&classid=1&typegroupid=3

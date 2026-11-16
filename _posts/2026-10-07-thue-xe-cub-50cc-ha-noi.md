@@ -8,6 +8,8 @@ matrix_id: 57
 primary_keyword: "thuê xe cub 50cc hà nội"
 hub_parent: loai-xe
 hub_category: xe-50cc
+blog_notice: "Lưu ý về mẫu xe: bảng giá Motoopen hiện niêm yết Honda Wave, Honda Vision, Honda Air Blade, Honda Click/Yamaha Mio, xe tay ga 50cc và xe máy điện/xe đạp điện (giá liên hệ). Với mẫu xe khác được nhắc trong bài, gọi 0857 255 868 để kiểm tra xe và giá trước khi đặt."
+last_modified_at: 2026-11-16 12:00:00 +0700
 ---
 Xe Cub 50cc là dòng quen thuộc, nhẹ và dễ điều khiển, nên nhiều khách tìm thuê cho nhu cầu đi phố hoặc tập lái. Nhưng hợp không còn tùy vào lịch trình và kỹ năng của người đi. Bài này giúp bạn xác định Cub 50cc có phù hợp với mình không và kiểm tra xe thế nào trước khi nhận.
 
@@ -25,7 +27,7 @@ Xe Cub đời cũ thường được bảo dưỡng tốt nhưng vẫn nên rà 
 
 ## Câu hỏi nên hỏi khi thuê dòng 50cc
 
-Hỏi rõ: năm hoặc thời gian sử dụng của chiếc xe được giao, chính sách đổi xe giữa kỳ nếu xe hỏng vặt, và phạm vi chạy của gói có giới hạn khu vực không. Với khách cần giấy tờ xe bản photo để trình khi bị dừng, hỏi trước nơi thuê có hỗ trợ không. Thủ tục cần gì nằm trong trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Ba câu này làm rõ phần dịch vụ đi kèm, thứ quyết định trải nghiệm giữa kỳ nhiều hơn mức giá chêch nhỏ.
+Hỏi rõ: năm hoặc thời gian sử dụng của chiếc xe được giao, chính sách đổi xe giữa kỳ nếu xe hỏng vặt, và phạm vi chạy của gói có giới hạn khu vực không. Với khách cần giấy tờ xe bản photo để trình khi bị dừng, hỏi trước nơi thuê có hỗ trợ không. Thủ tục cần gì nằm trong trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Ba câu này làm rõ phần dịch vụ đi kèm, thứ quyết định trải nghiệm giữa kỳ nhiều hơn mức giá chênh nhỏ.
 
 ## Ví dụ hai lịch trình với Cub 50cc
 

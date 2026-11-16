@@ -13,19 +13,19 @@ Chở hai người đổi hẳn yêu cầu với xe thuê: tải, yên và cốp
 
 ## Chọn theo tải trọng
 
-Tải tối đa ghi trên tem xe gồm cả thân xe và đồ, nên phần người và hành lý phải vừa phần còn lại. Hai người lớn vừa khít trên dòng ga nhỏ, thoải mái trên dòng ga lớn. Khi gọi đặt qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), nói thẳng hai người đi và cân nặng tổng để nơi chọn đúng dòng. Nhóm tải đã tóm trong bài [xe 50cc cho 2 người]({{ '/blog/xe-50cc-cho-2-nguoi/' | relative_url }}) và [xe máy điện chở 2 người]({{ '/blog/xe-may-dien-cho-2-nguoi-khi-thue/' | relative_url }}) nếu bạn cân xe điện, pin tụ nhanh hơn khi chở đôi.
+Tải tối đa ghi trên tem xe gồm cả thân xe và đồ, nên phần người và hành lý phải vừa phần còn lại. Hai người lớn vừa khít trên dòng ga nhỏ, thoải mái trên dòng ga lớn. Khi gọi đặt qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), nói thẳng hai người đi và cân nặng tổng để nơi chọn đúng dòng. Nhóm tải đã tóm trong bài xe 50cc cho 2 người và xe máy điện chở 2 người nếu bạn cân xe điện, pin tụ nhanh hơn khi chở đôi.
 
 ## Chọn theo chiều rộng yên
 
-Yên hẹp khiến người sau trượt về trước mỗi lần phanh, mỏi cả hai. Chọn dòng yên dài phẳng, ưu tiên ga lớn và ga trung như trong bài [thuê xe ga Hà Nội]({{ '/blog/thue-xe-ga-ha-noi/' | relative_url }}) và [thuê xe Air Blade Hà Nội]({{ '/blog/thue-xe-air-blade-ha-noi/' | relative_url }}). Ngồi thử hai người ngay tại quầy: người sau ngồi rồi chân chống được thoải, hai người không chen khớp gối. Nếu người sau cao, yên ngắn làm tư thế gò, đổi dòng lớn hơn thay vì chịu.
+Yên hẹp khiến người sau trượt về trước mỗi lần phanh, mỏi cả hai. Chọn dòng yên dài phẳng, ưu tiên ga lớn và ga trung như trong bài [thuê xe ga Hà Nội]({{ '/blog/thue-xe-ga-ha-noi/' | relative_url }}) và thuê xe Air Blade Hà Nội. Ngồi thử hai người ngay tại quầy: người sau ngồi rồi chân chống được thoải, hai người không chen khớp gối. Nếu người sau cao, yên ngắn làm tư thế gò, đổi dòng lớn hơn thay vì chịu.
 
 ## Chọn theo cốp và hành lý
 
-Hai người nghĩa là hai mũ và đồ đôi, cốp phải rộng. Dòng Lead mạnh về cốp như bài [thuê xe Lead Hà Nội]({{ '/blog/thue-xe-lead-ha-noi/' | relative_url }}), cách xếp đồ trong cốp nằm trong bài [xe 50cc mang hành lý]({{ '/blog/xe-50cc-mang-hanh-ly/' | relative_url }}). Đồ không cho vào cốp thì treo chịu lực hoặc đeo người, không để lỏng giữa hai người. Nếu hành lý nhiều, cân thêm dịch vụ đưa vali về khách sạn trước rồi hai người đi xe nhẹ, an toàn hơn chở quá tải.
+Hai người nghĩa là hai mũ và đồ đôi, cốp phải rộng. Dòng Lead mạnh về cốp như bài [thuê xe Lead Hà Nội]({{ '/blog/thue-xe-lead-ha-noi/' | relative_url }}), cách xếp đồ trong cốp nằm trong bài xe 50cc mang hành lý. Đồ không cho vào cốp thì treo chịu lực hoặc đeo người, không để lỏng giữa hai người. Nếu hành lý nhiều, cân thêm dịch vụ đưa vali về khách sạn trước rồi hai người đi xe nhẹ, an toàn hơn chở quá tải.
 
 ## Kiểm tra kỹ hơn khi chở đôi
 
-Tải nặng làm mọi hư hỏng lộ nhanh, nên rà kỹ hơn thường lệ: phanh trước sau ăn sâu, lốp căng đúng áp suất ghi trên tem vì lốp non chở đôi dễ xệ và nóng lốp nhanh, đèn và còi sáng kêu. Danh sách chuẩn nằm trong bài [kiểm tra phanh lốp xe 50cc]({{ '/blog/kiem-tra-phanh-lop-xe-50cc/' | relative_url }}). Trời mưa gần thì cân cả dòng có chắn bùn và lốp gai tốt, tiêu chí trong bài [thuê xe máy mùa mưa loại nào]({{ '/blog/thue-xe-may-mua-mua-loai-nao/' | relative_url }}). Chạy thử có người ngồi sau vòng quanh quầy trước khi nhận.
+Tải nặng làm mọi hư hỏng lộ nhanh, nên rà kỹ hơn thường lệ: phanh trước sau ăn sâu, lốp căng đúng áp suất ghi trên tem vì lốp non chở đôi dễ xệ và nóng lốp nhanh, đèn và còi sáng kêu. Danh sách chuẩn nằm trong bài [kiểm tra phanh lốp xe 50cc]({{ '/blog/kiem-tra-phanh-lop-xe-50cc/' | relative_url }}). Trời mưa gần thì cân cả dòng có chắn bùn và lốp gai tốt, tiêu chí trong bài thuê xe máy mùa mưa loại nào. Chạy thử có người ngồi sau vòng quanh quầy trước khi nhận.
 
 ## Nguyên tắc lái an toàn khi chở hai
 

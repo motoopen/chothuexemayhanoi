@@ -17,7 +17,7 @@ Thứ nhất, chạy thử vòng ngắn nghe tiếng máy và cảm phanh, vì x
 
 ## Nhóm điểm về giá và cọc
 
-Thứ năm, lấy mức giá cụ thể theo dòng tại trang [bảng giá]({{ '/banggia.html' | relative_url }}) và so với các dòng khác để biết rẻ thật hay rẻ do dòng nhỏ hơn. Thứ sáu, hỏi mức cọc, hình thức giữ và điều kiện hoàn trả, vì cọc cao có khi làm tổng bạn phải chuẩn bị lớn hơn phần chêch giá. Thứ bảy, rà phụ phí: giao xe, ngoài giờ, vượt phạm vi, chính sách xăng. Thứ tám, đọc kỹ điều khoản hư hỏng trong hợp đồng tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).
+Thứ năm, lấy mức giá cụ thể theo dòng tại trang [bảng giá]({{ '/banggia.html' | relative_url }}) và so với các dòng khác để biết rẻ thật hay rẻ do dòng nhỏ hơn. Thứ sáu, hỏi mức cọc, hình thức giữ và điều kiện hoàn trả, vì cọc cao có khi làm tổng bạn phải chuẩn bị lớn hơn phần chênh giá. Thứ bảy, rà phụ phí: giao xe, ngoài giờ, vượt phạm vi, chính sách xăng. Thứ tám, đọc kỹ điều khoản hư hỏng trong hợp đồng tại trang thủ tục thuê xe.
 
 ## Nhóm điểm về dịch vụ
 
@@ -25,7 +25,7 @@ Thứ chín, hỏi khung giờ mở cửa và số hỗ trợ giữa kỳ, vì g
 
 ## Ví dụ so hai gói giá chênh nhau
 
-Giả sử cùng một dòng quen thuộc, một gói rẻ hơn phần chêch nhỏ mỗi ngày. Với gói một ngày quãng ngắn, gói rẻ qua trọn mười điểm là chọn đúng. Với gói tuần đi chặng ven hằng ngày, gói nhỉnh hơn kèm xe được bảo dưỡng đều và hỗ trợ nhanh lại đáng tiền hơn, vì một ngày xe nằm sửa giữa tuần là mất cả tiền thuê lẫn lịch trình. Mức chêch nhỏ chỉ đáng khi rủi ro thấp, đó là quy tắc chung khi so gói rẻ.
+Giả sử cùng một dòng quen thuộc, một gói rẻ hơn phần chênh nhỏ mỗi ngày. Với gói một ngày quãng ngắn, gói rẻ qua trọn mười điểm là chọn đúng. Với gói tuần đi chặng ven hằng ngày, gói nhỉnh hơn kèm xe được bảo dưỡng đều và hỗ trợ nhanh lại đáng tiền hơn, vì một ngày xe nằm sửa giữa tuần là mất cả tiền thuê lẫn lịch trình. Mức chênh nhỏ chỉ đáng khi rủi ro thấp, đó là quy tắc chung khi so gói rẻ.
 
 ## Kinh nghiệm mặc cả đúng chỗ với gói giá rẻ
 
@@ -33,7 +33,7 @@ Với gói giá rẻ, chỗ đáng mặc cả không phải con số niêm yết
 
 ## Lịch trình nào hợp với gói rẻ
 
-Gói giá rẻ hợp nhất với ba kiểu lịch: thuê ngắn một hai ngày trong phố, chạy quãng ngắn mỗi ngày, và khách đã quen đường nên ít phụ thuộc hỗ trợ giữa kỳ. Ngược lại, lịch dài nhiều chặng ven, đi sáng về tối liên tục, hoặc dịp phải chắc chắn tuyệt đối, thì nên ưu tiên dòng xe ổn định hơn phần chêch giá nhỏ. Đặt câu hỏi mức rủi ro của lịch mình là cách nhanh nhất để biết gói rẻ có hợp không, vì cùng một gói, với người này là tiết kiệm, với người khác là nguồn phiền toái giữa chừng.
+Gói giá rẻ hợp nhất với ba kiểu lịch: thuê ngắn một hai ngày trong phố, chạy quãng ngắn mỗi ngày, và khách đã quen đường nên ít phụ thuộc hỗ trợ giữa kỳ. Ngược lại, lịch dài nhiều chặng ven, đi sáng về tối liên tục, hoặc dịp phải chắc chắn tuyệt đối, thì nên ưu tiên dòng xe ổn định hơn phần chênh giá nhỏ. Đặt câu hỏi mức rủi ro của lịch mình là cách nhanh nhất để biết gói rẻ có hợp không, vì cùng một gói, với người này là tiết kiệm, với người khác là nguồn phiền toái giữa chừng.
 
 ## Kết luận
 

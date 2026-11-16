@@ -21,11 +21,11 @@ Chi phí thuê hai loại không nằm trong cùng một cấp: thuê xe máy đ
 
 ## Cách tìm đúng dịch vụ mình cần
 
-Khi tìm kiếm hoặc gọi điện, dùng từ ngữ chính xác: "thuê xe máy điện" hoặc "thuê ô tô điện", tránh chỉ nói "thuê xe điện" để bên nhận không hiểu lầm. Với xe máy điện, danh sách các dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}) và mức giá tại trang [bảng giá]({{ '/banggia.html' | relative_url }}). Trước khi đến, gọi qua số điện thoại ở trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để xác nhận loại xe còn sẵn và hỏi rõ khung giá. Cách tìm đúng dịch vụ ngay từ đầu tiết kiệm nhiều vòng điện thoại hơn là hỏi tổng quát rồi phải giải thích lại.
+Khi tìm kiếm hoặc gọi điện, dùng từ ngữ chính xác: "thuê xe máy điện" hoặc "thuê ô tô điện", tránh chỉ nói "thuê xe điện" để bên nhận không hiểu lầm. Với xe máy điện, danh sách các dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}) và mức giá tại trang bảng giá. Trước khi đến, gọi qua số điện thoại ở trang liên hệ để xác nhận loại xe còn sẵn và hỏi rõ khung giá. Cách tìm đúng dịch vụ ngay từ đầu tiết kiệm nhiều vòng điện thoại hơn là hỏi tổng quát rồi phải giải thích lại.
 
 ## Câu hỏi nên đặt khi thuê xe máy điện
 
-Nếu nhu cầu của bạn là xe máy điện, bốn câu hỏi đáng đặt nhất: xe chạy được bao xa với một lần sạc đầy, mức pin khi nhận là bao nhiêu, trả xe cần mức pin bao nhiêu, và khi hết pin hoặc hỏng giữa đường thì quy trình hỗ trợ ra sao. Chi tiết về các khoản đi kèm khi thuê xe điện đã được phân tích trong bài [giá thuê xe máy điện Hà Nội]({{ '/blog/gia-thue-xe-may-dien-ha-noi/' }}), còn với gói dài hạn, tham khảo thêm các câu hỏi về pin trong bài [thuê xe máy điện theo tháng ở Hà Nội]({{ '/blog/thue-xe-may-dien-theo-thang-ha-noi/' }}).
+Nếu nhu cầu của bạn là xe máy điện, bốn câu hỏi đáng đặt nhất: xe chạy được bao xa với một lần sạc đầy, mức pin khi nhận là bao nhiêu, trả xe cần mức pin bao nhiêu, và khi hết pin hoặc hỏng giữa đường thì quy trình hỗ trợ ra sao. Chi tiết về các khoản đi kèm khi thuê xe điện đã được phân tích trong bài [giá thuê xe máy điện Hà Nội]({{ '/blog/gia-thue-xe-may-dien-ha-noi/' | relative_url }}), còn với gói dài hạn, tham khảo thêm các câu hỏi về pin trong bài thuê xe máy điện theo tháng ở Hà Nội.
 
 ## Câu hỏi nên đặt khi thuê ô tô điện
 

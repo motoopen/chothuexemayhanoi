@@ -17,7 +17,7 @@ Xe ga xăng tự do hoàn toàn về nhiên liệu: trạm xăng Hà Nội dày,
 
 ## Tiêu chí hai: tổng quãng đường
 
-Dưới 40 cây số mỗi ngày: xe điện thoải mái, tính thêm dư địa theo bài [quãng đường xe máy điện khi thuê]({{ '/blog/quang-duong-xe-may-dien-khi-thue/' | relative_url }}). Trên 40 đến 70: cân thời gian sạc giữa ngày theo bài [thời gian sạc xe máy điện thuê]({{ '/blog/thoi-gian-sac-xe-may-dien-thue/' | relative_url }}), được thì điện vẫn tiện. Trên 70 và nhất là liên tỉnh: xe ga xăng, và nếu vẫn muốn điện thì bắt buộc kế hoạch pin như bài [thuê xe máy điện đi đường dài]({{ '/blog/thue-xe-may-dien-di-duong-dai/' | relative_url }}). Quãng đường là ranh giới khách quan nhất của bài toán này.
+Dưới 40 cây số mỗi ngày: xe điện thoải mái, tính thêm dư địa theo bài [quãng đường xe máy điện khi thuê]({{ '/blog/quang-duong-xe-may-dien-khi-thue/' | relative_url }}). Trên 40 đến 70: cân thời gian sạc giữa ngày theo bài thời gian sạc xe máy điện thuê, được thì điện vẫn tiện. Trên 70 và nhất là liên tỉnh: xe ga xăng, và nếu vẫn muốn điện thì bắt buộc kế hoạch pin như bài thuê xe máy điện đi đường dài. Quãng đường là ranh giới khách quan nhất của bài toán này.
 
 ## Tiêu chí ba: thao tác bạn quen
 
@@ -25,11 +25,11 @@ Cả hai đều tay ga không số, nhưng ga điện nhạy và phanh tái tạ
 
 ## Chi phí cộng dồn theo kỳ
 
-Điện rẻ nhiên liệu rõ rệt, xăng tốn nhưng dễ dự báo. Cộng giá thuê trọn kỳ với ước tính nhiên liệu rồi so, ví dụ đã minh họa trong bài [thuê xe máy điện đi quãng ngắn]({{ '/blog/thue-xe-may-dien-di-quang-ngan/' | relative_url }}). Lưu ý mức pin tối thiểu khi trả của xe điện có thể sinh phí nếu không chú ý, và mùa mưa hai loại đều cần kiểm lốp phanh kỹ, tiêu chí trong bài [thuê xe máy mùa mưa loại nào]({{ '/blog/thue-xe-may-mua-mua-loai-nao/' | relative_url }}). Kỳ càng dài phần chênh nhiên liệu càng lớn.
+Điện rẻ nhiên liệu rõ rệt, xăng tốn nhưng dễ dự báo. Cộng giá thuê trọn kỳ với ước tính nhiên liệu rồi so, ví dụ đã minh họa trong bài [thuê xe máy điện đi quãng ngắn]({{ '/blog/thue-xe-may-dien-di-quang-ngan/' | relative_url }}). Lưu ý mức pin tối thiểu khi trả của xe điện có thể sinh phí nếu không chú ý, và mùa mưa hai loại đều cần kiểm lốp phanh kỹ, tiêu chí trong bài thuê xe máy mùa mưa loại nào. Kỳ càng dài phần chênh nhiên liệu càng lớn.
 
 ## Các tình huống thường gặp
 
-Khách du lịch nội thành ở khách sạn: điện trọn, êm và rẻ, tham khảo [thuê xe máy điện phố cổ Hà Nội]({{ '/blog/thue-xe-may-dien-pho-co-ha-noi/' | relative_url }}). Khách công tác chạy nhiều nơi mỗi ngày: ga xăng chủ động. Khách ở nhà trọ ngõ nhỏ: hỏi được chủ nhà về ổ cắm thì cân tiếp, không thì xăng. Khách chở hai người: cả hai đều được, tính pin theo bài [xe máy điện chở 2 người]({{ '/blog/xe-may-dien-cho-2-nguoi-khi-thue/' | relative_url }}) hoặc tải theo bài [xe 50cc cho 2 người]({{ '/blog/xe-50cc-cho-2-nguoi/' | relative_url }}).
+Khách du lịch nội thành ở khách sạn: điện trọn, êm và rẻ, tham khảo [thuê xe máy điện phố cổ Hà Nội]({{ '/blog/thue-xe-may-dien-pho-co-ha-noi/' | relative_url }}). Khách công tác chạy nhiều nơi mỗi ngày: ga xăng chủ động. Khách ở nhà trọ ngõ nhỏ: hỏi được chủ nhà về ổ cắm thì cân tiếp, không thì xăng. Khách chở hai người: cả hai đều được, tính pin theo bài xe máy điện chở 2 người hoặc tải theo bài xe 50cc cho 2 người.
 
 ## Kết luận
 

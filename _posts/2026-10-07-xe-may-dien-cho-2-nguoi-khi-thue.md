@@ -17,15 +17,15 @@ Xe máy điện kiểu phổ thông thường ghi tải tối đa quanh 150 ký,
 
 ## Pin tụ nhanh hơn khi chở hai
 
-Cân nặng tăng khiến pin tụ nhanh, ước tính thêm 15 đến 20 phần trăm so với đi một mình trên cùng quãng đường. Quãng chạy thực tế vì thế rút ngắn lại, con số gốc nằm trong bài [quãng đường xe máy điện khi thuê]({{ '/blog/quang-duong-xe-may-dien-khi-thue/' | relative_url }}). Ví dụ xe chạy 70 cây số một mình thì chở hai chỉ nên tính 55. Lên lịch sạc dày hơn, và hỏi trước những câu trong bài [thời gian sạc xe máy điện thuê]({{ '/blog/thoi-gian-sac-xe-may-dien-thue/' | relative_url }}) để biết một lần sạc đầy mất bao lâu.
+Cân nặng tăng khiến pin tụ nhanh, ước tính thêm 15 đến 20 phần trăm so với đi một mình trên cùng quãng đường. Quãng chạy thực tế vì thế rút ngắn lại, con số gốc nằm trong bài [quãng đường xe máy điện khi thuê]({{ '/blog/quang-duong-xe-may-dien-khi-thue/' | relative_url }}). Ví dụ xe chạy 70 cây số một mình thì chở hai chỉ nên tính 55. Lên lịch sạc dày hơn, và hỏi trước những câu trong bài thời gian sạc xe máy điện thuê để biết một lần sạc đầy mất bao lâu.
 
 ## Chọn xe đúng khi chở hai
 
-Ưu tiên loại yên dài, sàn phẳng và phanh đĩa trước. Xe điện gọn kiểu mini cho một người không hợp chở đôi dù nhẹ. Yêu cầu nơi thuê loại đời cao có đèn hậu và gương hai bên đầy đủ, vì chở hai người cần quan sát sau nhiều hơn. Kiểm tra toàn diện khi bàn giao theo danh sách trong bài [checklist nhận xe máy điện]({{ '/blog/checklist-nhan-xe-may-dien/' | relative_url }}) và [checklist nhận xe 50cc]({{ '/blog/checklist-nhan-xe-50cc/' | relative_url }}) cho phần cơ bản.
+Ưu tiên loại yên dài, sàn phẳng và phanh đĩa trước. Xe điện gọn kiểu mini cho một người không hợp chở đôi dù nhẹ. Yêu cầu nơi thuê loại đời cao có đèn hậu và gương hai bên đầy đủ, vì chở hai người cần quan sát sau nhiều hơn. Kiểm tra toàn diện khi bàn giao theo danh sách trong bài [checklist nhận xe máy điện]({{ '/blog/checklist-nhan-xe-may-dien/' | relative_url }}) và checklist nhận xe 50cc cho phần cơ bản.
 
 ## Nguyên tắc lái an toàn cho hai người
 
-Ra ga từ tốn, tránh bốc đầu vì tải nặng khiến xe dễ ngửa. Giảm tốc sớm trước ngã tư, phanh khi chở hai cần khoảng cách dài hơn. Người ngồi sau không nhúc nhích hoặc đứng lên khi xe đang chạy, và cả hai đội mũ. Đường ướt thì giảm thêm và tuyệt đối không phanh gấp, hướng dẫn chi tiết trong bài [thuê xe máy điện mùa mưa]({{ '/blog/thue-xe-may-dien-mua-mua/' | relative_url }}). Với lộ trình xa, đọc trước cách chia chặng trong bài [thuê xe máy điện đi đường dài]({{ '/blog/thue-xe-may-dien-di-duong-dai/' | relative_url }}).
+Ra ga từ tốn, tránh bốc đầu vì tải nặng khiến xe dễ ngửa. Giảm tốc sớm trước ngã tư, phanh khi chở hai cần khoảng cách dài hơn. Người ngồi sau không nhúc nhích hoặc đứng lên khi xe đang chạy, và cả hai đội mũ. Đường ướt thì giảm thêm và tuyệt đối không phanh gấp, hướng dẫn chi tiết trong bài [thuê xe máy điện mùa mưa]({{ '/blog/thue-xe-may-dien-mua-mua/' | relative_url }}). Với lộ trình xa, đọc trước cách chia chặng trong bài thuê xe máy điện đi đường dài.
 
 ## Trả xe và mức pin
 

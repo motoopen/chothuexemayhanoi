@@ -13,7 +13,7 @@ Thuê xe tự lái nghĩa là bạn cầm lái và chịu trách nhiệm trong s
 
 ## Giấy tờ cần chuẩn bị trước khi đến
 
-Về cơ bản, dịch vụ cho thuê xe máy yêu cầu giấy tờ tùy thân bản gốc hợp lệ để đối chiếu, kèm đặt cọc theo quy định của từng nơi. Chi tiết các loại giấy tờ được tóm tắt tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}) và bạn nên đọc trước khi đi. Với khách nước ngoài, hộ chiếu và giấy tờ tùy thân hợp lệ là bắt buộc. Gọi trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để xác nhận giấy tờ cần mang theo tránh phải quay lại. Mọi thỏa thuận quan trọng nên lưu lại bằng tin nhắn được hai bên xác nhận.
+Về cơ bản, dịch vụ cho thuê xe máy yêu cầu giấy tờ tùy thân bản gốc hợp lệ để đối chiếu, kèm đặt cọc theo quy định của từng nơi. Chi tiết các loại giấy tờ được tóm tắt tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}) và bạn nên đọc trước khi đi. Với khách nước ngoài, hộ chiếu và giấy tờ tùy thân hợp lệ là bắt buộc. Gọi trước qua trang liên hệ để xác nhận giấy tờ cần mang theo tránh phải quay lại. Mọi thỏa thuận quan trọng nên lưu lại bằng tin nhắn được hai bên xác nhận.
 
 ## Thao tác bàn giao: phần giấy tờ xe và hợp đồng
 
@@ -21,7 +21,7 @@ Tại cửa hàng, trước khi nhận xe, làm rõ phần giấy: hợp đồng
 
 ## Thao tác bàn giao: kiểm tra xe điện
 
-Với xe máy điện, trình tự kiểm tra gồm: xem mức pin hiển thị và ghi lại, thử đề và vặn ga nghe phản ứng, kiểm tra đèn pha, đèn hậu, còi, thử phanh trước và sau, chạy thử vòng ngắn quanh khu phố. Kiểm tra thêm bộ sạc kèm xe: dây, đầu cắm còn tốt không. Chụp lại hình ảnh tình trạng xe và các vết trầy sẵn có ngay tại cửa hàng. Nếu phát hiện bất thường, yêu cầu xử lý hoặc đổi xe trước khi ký. Trình tự chi tiết hơn cho khách lần đầu nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Với xe máy điện, trình tự kiểm tra gồm: xem mức pin hiển thị và ghi lại, thử đề và vặn ga nghe phản ứng, kiểm tra đèn pha, đèn hậu, còi, thử phanh trước và sau, chạy thử vòng ngắn quanh khu phố. Kiểm tra thêm bộ sạc kèm xe: dây, đầu cắm còn tốt không. Chụp lại hình ảnh tình trạng xe và các vết trầy sẵn có ngay tại cửa hàng. Nếu phát hiện bất thường, yêu cầu xử lý hoặc đổi xe trước khi ký. Trình tự chi tiết hơn cho khách lần đầu nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Nắm cách vận hành xe điện trước khi lăn bánh
 
@@ -29,7 +29,7 @@ Xe máy điện vận hành khác xe xăng ở vài điểm: không tiếng nổ
 
 ## Sau khi nhận: giữ mối liên lạc và trả xe đúng cách
 
-Lưu số hotline hỗ trợ của cửa hàng vào điện thoại ngay khi nhận xe. Giữ mức pin theo đúng lộ trình dự kiến và sạc kịp khi cần. Trước giờ trả, kiểm tra mức pin với quy định trong hợp đồng, vệ sinh bề mặt xe nếu cần, và đến trả đúng giờ. Khi trả, cùng cửa hàng đối chiếu tình trạng xe với bộ ảnh chụp lúc nhận. Giá các gói thuê nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), danh sách dòng xe hiện có tại trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}).
+Lưu số hotline hỗ trợ của cửa hàng vào điện thoại ngay khi nhận xe. Giữ mức pin theo đúng lộ trình dự kiến và sạc kịp khi cần. Trước giờ trả, kiểm tra mức pin với quy định trong hợp đồng, vệ sinh bề mặt xe nếu cần, và đến trả đúng giờ. Khi trả, cùng cửa hàng đối chiếu tình trạng xe với bộ ảnh chụp lúc nhận. Giá các gói thuê nằm ở trang bảng giá, danh sách dòng xe hiện có tại trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}).
 
 ## Kết luận
 

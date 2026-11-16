@@ -25,11 +25,11 @@ Hai câu đáng hỏi khi đặt xe quanh phố cổ: gói thuê có hỗ trợ 
 
 ## Loại xe nên chọn cho khu phố cổ
 
-Khu phố cổ có hẻm nhỏ, đường ô tô đi khó, nên loại xe nhỏ gọn có ưu thế rõ: dễ luồn, dễ đỗ, dễ đẩy khi gặp tuyến tắc. Xe máy điện còn thêm ưu điểm vận hành êm, không khói, hợp không gian khu phố. Nếu lịch trình của bạn chủ yếu trong khu và quãng ngắn, chọn xe nhỏ; nếu định đi xa hơn trong ngày, cân nhắc dòng mạnh hơn. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang [bảng giá]({{ '/banggia.html' | relative_url }}). Với khách thuê xe điện, các câu hỏi về pin đã được tổng hợp trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}).
+Khu phố cổ có hẻm nhỏ, đường ô tô đi khó, nên loại xe nhỏ gọn có ưu thế rõ: dễ luồn, dễ đỗ, dễ đẩy khi gặp tuyến tắc. Xe máy điện còn thêm ưu điểm vận hành êm, không khói, hợp không gian khu phố. Nếu lịch trình của bạn chủ yếu trong khu và quãng ngắn, chọn xe nhỏ; nếu định đi xa hơn trong ngày, cân nhắc dòng mạnh hơn. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang bảng giá. Với khách thuê xe điện, các câu hỏi về pin đã được tổng hợp trong bài cho thuê xe máy điện Hà Nội.
 
 ## Kiểm tra khi nhận và giữ xe trong khu
 
-Khi nhận xe quanh phố cổ, làm bộ kiểm tra chuẩn: ga, phanh, đèn còi, chạy thử vòng ngắn, chụp tình trạng xe. Trong ngày, chủ động gửi xe ở bãi có phí quanh khu thay vì để hờ trên vỉa hè, vừa an toàn vừa tránh phiền phức. Lưu số hotline hỗ trợ của cửa hàng, và nếu không quen đường một chiều các tuyến quanh hồ, hãy hỏi trước hướng đi cho tuyến định lấy. Khung kinh nghiệm tổng hợp cho khách lần đầu nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Khi nhận xe quanh phố cổ, làm bộ kiểm tra chuẩn: ga, phanh, đèn còi, chạy thử vòng ngắn, chụp tình trạng xe. Trong ngày, chủ động gửi xe ở bãi có phí quanh khu thay vì để hờ trên vỉa hè, vừa an toàn vừa tránh phiền phức. Lưu số hotline hỗ trợ của cửa hàng, và nếu không quen đường một chiều các tuyến quanh hồ, hãy hỏi trước hướng đi cho tuyến định lấy. Khung kinh nghiệm tổng hợp cho khách lần đầu nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Kết luận
 

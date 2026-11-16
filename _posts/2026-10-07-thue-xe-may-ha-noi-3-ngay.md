@@ -13,11 +13,11 @@ Ba ngày là thời gian vừa đủ cho một lịch trình đầy ở Hà Nộ
 
 ## Quy đổi giá ba ngày lẻ ra sao
 
-Lấy mức giá ngày tại trang [bảng giá]({{ '/banggia.html' | relative_url }}) nhân ba làm chuẩn so sánh. Sau đó hỏi cửa hàng gói riêng cho ba ngày, gói tuần, hoặc gói linh hoạt ba ngày trong vòng một tuần nếu lịch của bạn rời rạc. Có khi gói tuần chỉ nhỉnh hơn giá ba ngày lẻ nhưng cho phép bảy ngày, rất đáng nếu lịch ba ngày có nguy cơ kéo dài. Hỏi cụ thể qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) với dòng xe và khung dự kiến của bạn.
+Lấy mức giá ngày tại trang [bảng giá]({{ '/banggia.html' | relative_url }}) nhân ba làm chuẩn so sánh. Sau đó hỏi cửa hàng gói riêng cho ba ngày, gói tuần, hoặc gói linh hoạt ba ngày trong vòng một tuần nếu lịch của bạn rời rạc. Có khi gói tuần chỉ nhỉnh hơn giá ba ngày lẻ nhưng cho phép bảy ngày, rất đáng nếu lịch ba ngày có nguy cơ kéo dài. Hỏi cụ thể qua trang liên hệ với dòng xe và khung dự kiến của bạn.
 
 ## Khi nào nên hỏi gói riêng thay vì lẻ
 
-Ba dòng tình huống nên chuyển sang gói: lịch của bạn cần xe hằng ngày không gián đoạn, có khả năng kéo dài quá ba ngày, hoặc bạn định quay lại thuê tiếp trong cùng tháng. Trong các trường hợp này, gói riêng hoặc gói tuần giúp giá quy đổi mỗi ngày giảm rõ, kể cả điều kiện đổi xe giữa kỳ khi có sự cố. Kinh nghiệm các khoản ngoài giá thuê cho gói dài nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}).
+Ba dòng tình huống nên chuyển sang gói: lịch của bạn cần xe hằng ngày không gián đoạn, có khả năng kéo dài quá ba ngày, hoặc bạn định quay lại thuê tiếp trong cùng tháng. Trong các trường hợp này, gói riêng hoặc gói tuần giúp giá quy đổi mỗi ngày giảm rõ, kể cả điều kiện đổi xe giữa kỳ khi có sự cố. Kinh nghiệm các khoản ngoài giá thuê cho gói dài nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}).
 
 ## Chốt khung nhận trả cho ba ngày
 
@@ -25,7 +25,7 @@ Ba ngày tính theo khung hai mứ tư giờ nhân ba từ lúc nhận, nhưng m
 
 ## Chọn dòng xe và các khoản rà trước khi ký
 
-Ba ngày thường gồm chặng ven, nên dòng xe ga phổ thông êm là lựa chọn cân bằng, hoặc dòng số nhỏ gọn nếu lịch toàn nội thành. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), nhóm xe điện với kế hoạch sạc nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}). Rà trước: phí giao xe tận nơi hai đầu, chính sách xăng về đúng mức, phạm vi cho phép có tuyến ven dự kiến, và điều khoản hoàn cọc. Kinh nghiệm cho người mới thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Ba ngày thường gồm chặng ven, nên dòng xe ga phổ thông êm là lựa chọn cân bằng, hoặc dòng số nhỏ gọn nếu lịch toàn nội thành. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), nhóm xe điện với kế hoạch sạc nằm trong bài cho thuê xe máy điện Hà Nội. Rà trước: phí giao xe tận nơi hai đầu, chính sách xăng về đúng mức, phạm vi cho phép có tuyến ven dự kiến, và điều khoản hoàn cọc. Kinh nghiệm cho người mới thuê nằm trong bài thuê xe máy Hà Nội lần đầu.
 
 ## Kết luận
 

@@ -17,7 +17,7 @@ Ba nhóm khách hợp nhất: khách công tác ở Hà Nội một tuần đi l
 
 ## Hỏi về bảo dưỡng trong tuần
 
-Xe chạy cả tuần có thể tới lịch bảo dưỡng, nên hỏi trước: nếu xe vào bảo dưỡng giữa gói, có xe thay tạm không và mất bao lâu. Nơi nghiêm túc có quy trình đổi tạm trong nửa ngày, giữ lịch đi của bạn liên tục. Hỏi luôn xe hỏng vặt giữa tuần xử trong bao lâu kể cả cuối tuần, số hỗ trợ khung nào hoạt động. Câu trả lời cụ thể cho ba câu này đáng giá hơn phần chêch giá giữa các nơi. Câu hỏi gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Xe chạy cả tuần có thể tới lịch bảo dưỡng, nên hỏi trước: nếu xe vào bảo dưỡng giữa gói, có xe thay tạm không và mất bao lâu. Nơi nghiêm túc có quy trình đổi tạm trong nửa ngày, giữ lịch đi của bạn liên tục. Hỏi luôn xe hỏng vặt giữa tuần xử trong bao lâu kể cả cuối tuần, số hỗ trợ khung nào hoạt động. Câu trả lời cụ thể cho ba câu này đáng giá hơn phần chênh giá giữa các nơi. Câu hỏi gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
 
 ## Hỏi về tạm ngưng và đổi dòng
 
@@ -25,7 +25,7 @@ Tuần nào cũng có thể có ngày bạn vắng, nên hỏi trước: có t�
 
 ## Kiểm tra xe đầu tuần là lần quan trọng nhất
 
-Với gói tuần, lần kiểm tra lúc nhận quyết định cả bảy ngày, nên làm đủ: phanh, bánh, đèn còi, ga số, chạy thử, và chụp hiện trạng vòng quanh. Checklist đầy đủ mười hai điểm nằm trong bài [checklist nhận xe 50cc]({{ '/blog/checklist-nhan-xe-50cc/' | relative_url }}). Giữa tuần, một lần rà lại nhanh sau ba bốn ngày là đủ, nghe tiếng lạ thì báo sớm. Các dòng xe cho thuê nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}).
+Với gói tuần, lần kiểm tra lúc nhận quyết định cả bảy ngày, nên làm đủ: phanh, bánh, đèn còi, ga số, chạy thử, và chụp hiện trạng vòng quanh. Checklist đầy đủ mười hai điểm nằm trong bài checklist nhận xe 50cc. Giữa tuần, một lần rà lại nhanh sau ba bốn ngày là đủ, nghe tiếng lạ thì báo sớm. Các dòng xe cho thuê nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}).
 
 ## Ví dụ hai khách lấy gói tuần
 

@@ -8,6 +8,8 @@ matrix_id: 138
 primary_keyword: "thuê xe côn hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+blog_notice: "Lưu ý về mẫu xe: bảng giá Motoopen hiện niêm yết Honda Wave, Honda Vision, Honda Air Blade, Honda Click/Yamaha Mio, xe tay ga 50cc và xe máy điện/xe đạp điện (giá liên hệ). Với mẫu xe khác được nhắc trong bài, gọi 0857 255 868 để kiểm tra xe và giá trước khi đặt."
+last_modified_at: 2026-11-16 12:00:00 +0700
 ---
 Xe côn cho cảm giác lái thật nhất trong các loại xe thuê, nhưng cũng đòi hỏi thao tác nhiều nhất. Bài này liệt kê các kỹ năng bạn cần có trước khi thuê xe côn ở Hà Nội, và cách kiểm chiếc xe trước khi nhận.
 
@@ -17,7 +19,7 @@ Không thuê xe côn nếu bạn chưa thuần thục lai côn trong đường �
 
 ## Phối hợp ga số và phanh gấp
 
-Thao tác thứ hai là phối ga số suôn: lên số đúng vòng tua, về số giảm tốc trước ngã tư, và không về số khi đang phanh gấp mà hoảng tay. Phanh gấp trên xe côn cần lấy côn cùng lúc để máy không chết, thói quen này phải thành bản năng. Đường ướt càng đòi chính xác hơn, nguyên tắc chung nằm trong bài [thuê xe máy điện mùa mưa]({{ '/blog/thue-xe-may-dien-mua-mua/' | relative_url }}). Ai chưa chắc các thao tác này nên chọn xe ga dễ lái, xem bài [thuê xe ga Hà Nội]({{ '/blog/thue-xe-ga-ha-noi/' | relative_url }}).
+Thao tác thứ hai là phối ga số suôn: lên số đúng vòng tua, về số giảm tốc trước ngã tư, và không về số khi đang phanh gấp mà hoảng tay. Phanh gấp trên xe côn cần lấy côn cùng lúc để máy không chết, thói quen này phải thành bản năng. Đường ướt càng đòi chính xác hơn, nguyên tắc chung nằm trong bài [thuê xe máy điện mùa mưa]({{ '/blog/thue-xe-may-dien-mua-mua/' | relative_url }}). Ai chưa chắc các thao tác này nên chọn xe ga dễ lái, xem bài thuê xe ga Hà Nội.
 
 ## Tình huống xe côn hợp lý
 
@@ -29,7 +31,7 @@ Kiểm lai côn không trượt bằng cách vào số, giữ phanh và thả t�
 
 ## Giấy tờ và điều khoản
 
-Xe côn hầu hết trên 50 phân khối nên bắt buộc bằng lái A1, khác với nhóm 50cc không cần như bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Hợp đồng côn nên ghi rõ trách nhiệm hư bộ số và côn vì chi phí sửa cao. Khách quốc tế mang hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). Hỏi tồn kho trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) vì côn ít và thường kẹt cuối tuần.
+Xe côn hầu hết trên 50 cm3 nên bắt buộc có bằng lái: A1 với xe đến 125 cm3, A với xe trên 125 cm3 như Exciter hay Winner bản 150, khác với nhóm 50cc không cần như bài xe 50cc có cần bằng lái không. Hợp đồng côn nên ghi rõ trách nhiệm hư bộ số và côn vì chi phí sửa cao. Khách quốc tế mang hộ chiếu theo hướng dẫn trong bài thuê xe 50cc cho người nước ngoài. Hỏi tồn kho trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) vì côn ít và thường kẹt cuối tuần.
 
 ## Kết luận
 

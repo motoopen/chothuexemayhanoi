@@ -8,6 +8,7 @@ matrix_id: 1
 primary_keyword: "thuê xe máy hà nội lần đầu"
 hub_parent: thue-xe
 hub_category: bat-dau-thue
+last_modified_at: 2026-11-16 12:00:00 +0700
 ---
 Nếu bạn chưa từng thuê xe máy ở Hà Nội, vòng đầu tiên thường kéo theo nhiều câu hỏi: cần mang giấy tờ gì, cọc bao nhiêu, xe gặp sự cố thì xử lý ra sao. Bài này tổng hợp mười hai điều nên biết trước khi nhận xe, sắp xếp theo đúng trình tự bạn sẽ trải qua.
 
@@ -25,7 +26,7 @@ Chín, kiểm tra xe theo trình tự: đèn, còi, phanh trước và sau, lố
 
 ## Những lỗi phổ biến của người thuê lần đầu
 
-Người mới thường mắc vài lỗi dễ tránh. Thứ nhất, chỉ hỏi giá thuê mà quên hỏi giá trị cọc và điều kiện hoàn trả, dẫn đến bất ngờ tài chính cuối vòng thuê. Thứ hai, không đọc kỹ điều khoản về giờ trả xe, trong khi trả trễ thường phát sinh phụ phí tính theo giờ. Thứ ba, nhận xe lúc vội nên bỏ qua kiểm tra, đến khi trả xe mới phát hiện tranh cãi về vết xước có sẵn. Thứ tư, không lưu số hỗ trợ của bên cho thuê, nên khi xe gặp sự cố giữa đường không biết gọi ai. Tránh được bốn lỗi này, bạn đã hơn phần lớn khách thuê lần đầu.
+Người mới thường mắc vài lỗi dễ tránh. Thứ nhất, chỉ hỏi giá thuê mà quên hỏi giá trị cọc và điều kiện hoàn trả, dẫn đến bất ngờ tài chính cuối vòng thuê. Thứ hai, không đọc kỹ điều khoản về giờ trả xe, trong khi trả trễ thường phát sinh phụ phí tính theo giờ. Thứ ba, nhận xe lúc vội nên bỏ qua kiểm tra, đến khi trả xe mới phát hiện tranh cãi về vết xước có sẵn. Thứ tư, không lưu số hỗ trợ của bên cho thuê, nên khi xe gặp sự cố giữa đường không biết gọi ai. Tránh được bốn lỗi này, lần thuê đầu của bạn sẽ suôn sẻ hơn nhiều.
 
 ## Trong và sau vòng thuê
 

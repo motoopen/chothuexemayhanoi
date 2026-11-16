@@ -8,12 +8,14 @@ matrix_id: 102
 primary_keyword: "thuê xe máy điện vinfast theo ngày"
 hub_parent: loai-xe
 hub_category: xe-dien
+blog_notice: "Lưu ý về mẫu xe: bảng giá Motoopen hiện niêm yết Honda Wave, Honda Vision, Honda Air Blade, Honda Click/Yamaha Mio, xe tay ga 50cc và xe máy điện/xe đạp điện (giá liên hệ). Với mẫu xe khác được nhắc trong bài, gọi 0857 255 868 để kiểm tra xe và giá trước khi đặt."
+last_modified_at: 2026-11-16 12:00:00 +0700
 ---
 Xe máy điện của VinFast là dòng xe được nhiều khách du lịch quan tâm khi tìm phương tiện đi lại ở Hà Nội, vì xe vận hành êm, không tốn xăng và dễ điều khiển. Tuy nhiên, thuê dòng xe điện cao cấp theo ngày khác với thuê xe số thông thường ở vài điểm quan trọng. Bài viết này cung cấp checklist từng bước, từ lúc đặt xe đến lúc trả, giúp bạn nhận xe nhanh và không bỏ sót chi tiết nào gây phát sinh về sau.
 
 ## Bước một: đặt xe và xác nhận thông tin
 
-Trước khi đến cửa hàng, hãy gọi hoặc nhắn tin xác nhận mẫu xe còn sẵn, kèm khung giờ nhận xe.Khi liên hệ qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), nên hỏi kèm: giá thuê ngày theo [bảng giá]({{ '/banggia.html' | relative_url }}), mức cọc, và giấy tờ cần mang theo. Danh sách giấy tờ và quy trình cơ bản đã được tóm tắt ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), bạn chỉ cần chuẩn bị theo là đủ.
+Trước khi đến cửa hàng, hãy gọi hoặc nhắn tin xác nhận mẫu xe còn sẵn, kèm khung giờ nhận xe.Khi liên hệ qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), nên hỏi kèm: giá thuê ngày theo bảng giá, mức cọc, và giấy tờ cần mang theo. Danh sách giấy tờ và quy trình cơ bản đã được tóm tắt ở trang thủ tục thuê xe, bạn chỉ cần chuẩn bị theo là đủ.
 
 ## Bước hai: kiểm tra tình trạng pin khi nhận xe
 

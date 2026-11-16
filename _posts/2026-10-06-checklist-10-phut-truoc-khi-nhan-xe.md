@@ -6,6 +6,7 @@ description: "Checklist ngắn giúp kiểm tra xe, giấy tờ bàn giao và c�
 categories: [kinh-nghiem, thue-xe]
 hub_parent: huong-dan
 hub_category: an-toan-su-co
+last_modified_at: 2026-11-16 12:00:00 +0700
 ---
 
 Nhận xe xong rồi chạy ngay nghe thì nhanh, nhưng dành khoảng **10 phút kiểm tra trước khi đi** sẽ giúp bạn đỡ bối rối nếu sau đó phát hiện một chi tiết bất thường. Đây là checklist đơn giản, phù hợp cả người thuê xe lần đầu lẫn người đã quen đi xe máy.
@@ -49,13 +50,13 @@ Nếu điều kiện cho phép, hãy chạy chậm một đoạn ngắn để c�
 
 Trước khi xuất phát, nên lưu sẵn trang liên hệ hoặc số liên hệ của nơi thuê xe. Nếu cần hỏi thêm trong quá trình sử dụng, bạn sẽ không phải tìm lại từ đầu.
 
-Bạn có thể xem trang [Liên hệ]({{ '/lienhe.html' | relative_url }}) hoặc [Hướng dẫn thuê xe]({{ '/huongdan.html' | relative_url }}) để xem thêm thông tin đang được công bố trên website.
+Bạn có thể xem trang [Liên hệ]({{ '/lienhe.html' | relative_url }}) hoặc Hướng dẫn thuê xe để xem thêm thông tin đang được công bố trên website.
 
 ## Checklist nhanh trước khi đi
 
 - [ ] Chụp tình trạng xe khi nhận.
 - [ ] Kiểm tra phanh trước và sau.
-- [ ] Kiểm tra lốp bằng quan sát thực tế.
+- [ ] Kiểm tra lốp bằng mắt: độ mòn, vết nứt, vật lạ găm vào lốp.
 - [ ] Thử đèn, xi-nhan và còi.
 - [ ] Chỉnh gương.
 - [ ] Làm quen khóa và cốp.

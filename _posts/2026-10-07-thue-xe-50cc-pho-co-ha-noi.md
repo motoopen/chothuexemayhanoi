@@ -25,11 +25,11 @@ Chi phí gửi xe quanh phố cổ thường theo lượt và tăng theo khung g
 
 ## Xe 50cc có lợi khi nào, bất lợi khi nào
 
-Có lợi khi: lịch của bạn gọn trong khu và các phố lân cận, đi chặng ngắn nhiều lần trong ngày, và cần đẩy bộ đoạn ngõ. Bất lợi khi: lịch có chặng ra các khu xa trong ngày, phải chở đồ cồng kềnh, hoặc hai người lớn cùng đi, dòng nhỏ sẽ vất và chậm. Trong trường hợp bất lợi, nên chọn dòng lớn hơn hoặc kết hợp taxi cho chặng xa. Mức giá so giữa các dòng nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), phần chêch giữa dòng nhỏ và dòng vừa thường nhỏ so với phần thoải mái.
+Có lợi khi: lịch của bạn gọn trong khu và các phố lân cận, đi chặng ngắn nhiều lần trong ngày, và cần đẩy bộ đoạn ngõ. Bất lợi khi: lịch có chặng ra các khu xa trong ngày, phải chở đồ cồng kềnh, hoặc hai người lớn cùng đi, dòng nhỏ sẽ vất và chậm. Trong trường hợp bất lợi, nên chọn dòng lớn hơn hoặc kết hợp taxi cho chặng xa. Mức giá so giữa các dòng nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), phần chênh giữa dòng nhỏ và dòng vừa thường nhỏ so với phần thoải mái.
 
 ## Ví dụ một ngày quanh phố cổ
 
-Một khách lưu trú ba đêm trong khu: sáng đi quanh hồ ăn sáng, trưa ghé chợ, chiều chạy vài phố mua đồ, tối đi bộ, chỉ cần 50cc với xăng gần như không đáng kể. So với một khách định sáng phố cổ, trưa chạy lên khu cửa ô, tối qua bờ hồ xa, chặng dài hơn nhiều, dòng nhỏ chạy mệt. Cùng khu, hai lịch khác nhau cho hai câu trả lời. Kinh nghiệm cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}), và đặt xe trước gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Một khách lưu trú ba đêm trong khu: sáng đi quanh hồ ăn sáng, trưa ghé chợ, chiều chạy vài phố mua đồ, tối đi bộ, chỉ cần 50cc với xăng gần như không đáng kể. So với một khách định sáng phố cổ, trưa chạy lên khu cửa ô, tối qua bờ hồ xa, chặng dài hơn nhiều, dòng nhỏ chạy mệt. Cùng khu, hai lịch khác nhau cho hai câu trả lời. Kinh nghiệm cho lần đầu thuê nằm trong bài thuê xe máy Hà Nội lần đầu, và đặt xe trước gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
 
 ## Đi bộ kết hợp xe thuê quanh khu
 

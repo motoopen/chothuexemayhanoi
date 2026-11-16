@@ -17,7 +17,7 @@ Ngay khi nhận ra không kịp giờ hẹn, gọi hoặc nhắn qua trang [liê
 
 ## Hỏi phụ phí tính theo giờ hay theo ngày
 
-Mỗi nơi có cách tính khác nhau: một số tính nửa ngày cho vài giờ đầu, một số chuyển hẳn sang giá ngày mới. Hỏi cụ thể khung miễn phí nếu có, đơn giá giờ trễ, và trần của nó. Cách tính phụ phí này đã phân tích trong bài [phí trả xe muộn thuê xe máy]({{ '/blog/phi-tra-xe-muon-thue-xe-may/' | relative_url }}). Nếu bạn thuê theo gói dài, xem trước cách thời gian ảnh hưởng giá trong bài [thuê xe máy Hà Nội theo tuần]({{ '/blog/thue-xe-may-ha-noi-theo-tuan/' | relative_url }}), vì phụ phí trễ với gói tuần thường dễ thương lượng hơn gói theo giờ.
+Mỗi nơi có cách tính khác nhau: một số tính nửa ngày cho vài giờ đầu, một số chuyển hẳn sang giá ngày mới. Hỏi cụ thể khung miễn phí nếu có, đơn giá giờ trễ, và trần của nó. Cách tính phụ phí này đã phân tích trong bài [phí trả xe muộn thuê xe máy]({{ '/blog/phi-tra-xe-muon-thue-xe-may/' | relative_url }}). Nếu bạn thuê theo gói dài, xem trước cách thời gian ảnh hưởng giá trong bài thuê xe máy Hà Nội theo tuần, vì phụ phí trễ với gói tuần thường dễ thương lượng hơn gói theo giờ.
 
 ## Đối chiếu điều khoản trong hợp đồng
 
@@ -25,7 +25,7 @@ Lấy hợp đồng ra đọc phần giờ trả và phụ phí, vì điều kho
 
 ## Chụp tình trạng xe trước khi giao
 
-Vài giờ di chuyển thêm cũng tạo thêm rủi ro vết xước hay cạn nhiên liệu, nên trước khi giao, chụp đủ bốn góc xe và bảng đồng hồ nhiên liệu, thói quen khuyến nghị trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}). Nếu có hỏng nhỏ phát sinh trong quãng trễ, đối chiếu phần trách nhiệm theo bài [chi phí hư hỏng khi thuê xe máy]({{ '/blog/chi-phi-hu-hong-khi-thue-xe-may/' | relative_url }}). Nếu gặp sự cố giao thông trên đường, trình tự xử lý nằm trong bài [thuê xe máy bị phạt giao thông]({{ '/blog/thue-xe-may-bi-phat-giao-thong/' | relative_url }}).
+Vài giờ di chuyển thêm cũng tạo thêm rủi ro vết xước hay cạn nhiên liệu, nên trước khi giao, chụp đủ bốn góc xe và bảng đồng hồ nhiên liệu, thói quen khuyến nghị trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}). Nếu có hỏng nhỏ phát sinh trong quãng trễ, đối chiếu phần trách nhiệm theo bài chi phí hư hỏng khi thuê xe máy. Nếu gặp sự cố giao thông trên đường, trình tự xử lý nằm trong bài thuê xe máy bị phạt giao thông.
 
 ## Yêu cầu biên nhận ghi rõ khoản trễ
 

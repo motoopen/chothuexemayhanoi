@@ -21,11 +21,11 @@ Thuê theo giờ đáng khi bạn cần đi lại nhiều chặng nối tiếp t
 
 ## Nhược điểm của thuê theo giờ cần lường
 
-Thuê theo giờ buộc bạn quay về đúng điểm nhận trong khung, trễ là phát sinh phụ phí, và bạn phải tự lái kể cả khi trời nắng gắt. Với người không có giấy phép lái phù hợp hoặc không quen đường, xe công nghệ an toàn hơn. Nếu chọn thuê, chuẩn bị sẵn giấy tờ tùy thân và giấy phép lái phù hợp, điều khoản nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), đặt trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để xe sẵn sàng đúng khung.
+Thuê theo giờ buộc bạn quay về đúng điểm nhận trong khung, trễ là phát sinh phụ phí, và bạn phải tự lái kể cả khi trời nắng gắt. Với người không có giấy phép lái phù hợp hoặc không quen đường, xe công nghệ an toàn hơn. Nếu chọn thuê, chuẩn bị sẵn giấy tờ tùy thân và giấy phép lái phù hợp, điều khoản nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), đặt trước qua trang liên hệ để xe sẵn sàng đúng khung.
 
 ## Lưu ý khi nhận xe thuê theo giờ
 
-Khung ngắn không cho phép bỏ qua kiểm tra: ga, phanh, đèn còi, chạy thử vòng ngắn, chụp hiện trạng. Hỏi mốc tính giờ bắt đầu từ lúc ký hay lúc rời điểm, và mức phụ phí từng phút hoặc từng giờ nếu trễ. Khách chọn xe điện cho khung ngắn nên hỏi pin sẵn và điểm sạc nếu chặng dài hơn dự kiến, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}). Lưu số hỗ trợ của cửa hàng trong khung thuê.
+Khung ngắn không cho phép bỏ qua kiểm tra: ga, phanh, đèn còi, chạy thử vòng ngắn, chụp hiện trạng. Hỏi mốc tính giờ bắt đầu từ lúc ký hay lúc rời điểm, và mức phụ phí từng phút hoặc từng giờ nếu trễ. Khách chọn xe điện cho khung ngắn nên hỏi pin sẵn và điểm sạc nếu chặng dài hơn dự kiến, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}). Lưu số hỗ trợ của cửa hàng trong khung thuê.
 
 
 ## Kết luận

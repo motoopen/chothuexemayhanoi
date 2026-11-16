@@ -13,7 +13,7 @@ Với người thấp, hai yếu tố quyết định an toàn trên xe ga 50cc 
 
 ## Kiểm tra chiều cao yên khi nhận
 
-Bước quan trọng nhất: ngồi lên xe ở chỗ đỗ, đặt hai chân xuống đất. Chân đặt thoải mái, gót chân chạm được là yên hợp, chỉ mũi chân chạm là cao với bạn. Thử thêm tư thế dừng đèn đỏ: ngại ngùng nhón chân sau mỗi lần dừng là dấu hiệu yên chưa hợp. Giữa các dòng ga 50cc, chiều cao yên chêch nhau ít, nhưng độ rộng yên và độ lún khác nhau, nên cứ thử bằng người thật. Các dòng hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}).
+Bước quan trọng nhất: ngồi lên xe ở chỗ đỗ, đặt hai chân xuống đất. Chân đặt thoải mái, gót chân chạm được là yên hợp, chỉ mũi chân chạm là cao với bạn. Thử thêm tư thế dừng đèn đỏ: ngại ngùng nhón chân sau mỗi lần dừng là dấu hiệu yên chưa hợp. Giữa các dòng ga 50cc, chiều cao yên chênh nhau ít, nhưng độ rộng yên và độ lún khác nhau, nên cứ thử bằng người thật. Các dòng hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}).
 
 ## Kiểm tra độ nặng khi dắt và đỗ
 
@@ -29,7 +29,7 @@ Mẹo một: ghế làn gần mép phải khi dừng đèn đỏ, để chân đ
 
 ## Hỏi nơi thuê khi đặt xe
 
-Hỏi trước: trong dòng ga 50cc sẵn có, chiếc nào yên thấp và nhẹ nhất, cho thử ngồi lúc nhận. Hỏi luôn về chính sách đổi chiếc trong ngày đầu nếu thấy không hợp, đa số nơi thoải mái đổi với lý do hợp dáng người. Câu hỏi gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), điều khoản ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), và so giá giữa các dòng ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Hỏi trước: trong dòng ga 50cc sẵn có, chiếc nào yên thấp và nhẹ nhất, cho thử ngồi lúc nhận. Hỏi luôn về chính sách đổi chiếc trong ngày đầu nếu thấy không hợp, đa số nơi thoải mái đổi với lý do hợp dáng người. Câu hỏi gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), điều khoản ở trang thủ tục thuê xe, và so giá giữa các dòng ở trang bảng giá.
 
 ## Ví dụ hai khách thấp chọn khác nhau
 

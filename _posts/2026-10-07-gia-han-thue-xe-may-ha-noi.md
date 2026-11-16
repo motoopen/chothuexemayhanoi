@@ -25,7 +25,7 @@ Nếu tổng thời gian sau gia hạn vượt quá vài ngày, so ngay: giá ng
 
 ## Kỹ thuật giữ gọn khi gia hạn
 
-Khi gia hạn, tận dụng để rà lại các khoản: cọc có cần bổ sung không, chính sách xăng có đổi theo gói mới không, và phạm vi có giữ nguyên không. Hỏi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) càng sớm càng tốt, vì khung bạn muốn giữ có thể đã có khách sau xếp lịch. Kinh nghiệm đầy đủ cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
+Khi gia hạn, tận dụng để rà lại các khoản: cọc có cần bổ sung không, chính sách xăng có đổi theo gói mới không, và phạm vi có giữ nguyên không. Hỏi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) càng sớm càng tốt, vì khung bạn muốn giữ có thể đã có khách sau xếp lịch. Kinh nghiệm đầy đủ cho lần đầu thuê nằm trong bài thuê xe máy Hà Nội lần đầu.
 
 ## Ví dụ hai cách gia hạn
 

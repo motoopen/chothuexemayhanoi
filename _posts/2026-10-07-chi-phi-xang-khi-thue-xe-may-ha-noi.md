@@ -17,7 +17,7 @@ Bước đầu là liệt kê các điểm định đi trong ngày và ước qu
 
 ## Quy đổi quãng ra chi phí theo dòng xe
 
-Mỗi dòng xe có mức tiêu hao khác nhau, xe số phổ thông tiết kiệm nhất, xe ga nhỉnh hơn chút, xe máy điện gần như không tốn xăng thay bằng chi phí sạc nhỏ. Hỏi cửa hàng về mức tiêu hao tham khảo của dòng định thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), rồi quy đổi quãng đường tổng thành số tiền theo giá xăng tại thời điểm đi. Danh sách dòng xe nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá các gói tại trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Mỗi dòng xe có mức tiêu hao khác nhau, xe số phổ thông tiết kiệm nhất, xe ga nhỉnh hơn chút, xe máy điện gần như không tốn xăng thay bằng chi phí sạc nhỏ. Hỏi cửa hàng về mức tiêu hao tham khảo của dòng định thuê qua trang liên hệ, rồi quy đổi quãng đường tổng thành số tiền theo giá xăng tại thời điểm đi. Danh sách dòng xe nằm ở trang các loại xe cho thuê, mức giá các gói tại trang [bảng giá]({{ '/banggia.html' | relative_url }}).
 
 ## Hỏi chính sách xăng của gói thuê
 
@@ -38,4 +38,4 @@ Lịch một: vòng quanh nội thành cả ngày, tổng quãng nhiều chục 
 
 ## Ví dụ bảng ước cho lịch ba ngày
 
-Giả sử bạn thuê ba ngày với ba kiểu lịch: ngày một vòng nội thành, ngày hai chạy chặng ven khứ hồi, ngày ba chỉ việc lặt vặt quanh khu ở. Liệt kê quãng từng ngày ra giấy, cộng dồn thành tổng, rồi quy đổi theo mức tiêu hao tham khảo của dòng xe đã chọn. Cộng cột tiền xăng ba ngày vào giá gói thuê và phí giao, bạn có con số tổng để so với ngân sách định sẵn. Nếu cột xăng vượt phần chêch giữa hai dòng xe, đó là tín hiệu nên đổi sang dòng tiết kiệm hơn hoặc cân nhắc xe điện cho phần lịch trong phố. Bảng ước như vậy mất mười phút nhưng giúp mọi quyết định đổi dòng hay đổi gói đều dựa trên số thật.
+Giả sử bạn thuê ba ngày với ba kiểu lịch: ngày một vòng nội thành, ngày hai chạy chặng ven khứ hồi, ngày ba chỉ việc lặt vặt quanh khu ở. Liệt kê quãng từng ngày ra giấy, cộng dồn thành tổng, rồi quy đổi theo mức tiêu hao tham khảo của dòng xe đã chọn. Cộng cột tiền xăng ba ngày vào giá gói thuê và phí giao, bạn có con số tổng để so với ngân sách định sẵn. Nếu cột xăng vượt phần chênh giữa hai dòng xe, đó là tín hiệu nên đổi sang dòng tiết kiệm hơn hoặc cân nhắc xe điện cho phần lịch trong phố. Bảng ước như vậy mất mười phút nhưng giúp mọi quyết định đổi dòng hay đổi gói đều dựa trên số thật.

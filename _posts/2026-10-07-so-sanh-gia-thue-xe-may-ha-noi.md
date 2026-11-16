@@ -25,18 +25,18 @@ Dòng năm ghi dòng xe sẵn có đúng ngày bạn cần, lấy từ trang [c�
 
 ## Dòng thứ bảy và tám: dịch vụ và tổng ước tính
 
-Dòng bảy ghi dịch vụ: khung giờ mở cửa, hỗ trợ giữa kỳ, phương án đổi xe khi có sự cố. Dòng tám ghi tổng ước tính cho chính lịch của bạn, cộng giá thuê, phụ phí và ước xăng. Cột tổng là cột quyết định, vì nó phản ánh đúng chi phí và tiện ích bạn nhận được, không phải mốc niêm yết. Điều khoản hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), kinh nghiệm lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
+Dòng bảy ghi dịch vụ: khung giờ mở cửa, hỗ trợ giữa kỳ, phương án đổi xe khi có sự cố. Dòng tám ghi tổng ước tính cho chính lịch của bạn, cộng giá thuê, phụ phí và ước xăng. Cột tổng là cột quyết định, vì nó phản ánh đúng chi phí và tiện ích bạn nhận được, không phải mốc niêm yết. Điều khoản hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), kinh nghiệm lần đầu thuê nằm trong bài thuê xe máy Hà Nội lần đầu.
 
 ## Ví dụ điền checklist cho hai nơi
 
-Giả sử nơi một giá ngày nhỉnh hơn nhưng phí giao gần, nơi hai giá rẻ hơn nhưng cọc cao và phí giao theo khoảng cách. Với lịch một ngày, cột tổng thường nghiêng về nơi một. Với gói tuần, phần chêch phí giao chia đều bảy ngày, cột tổng có khi đảo chiều. Checklist tám dòng cho phép bạn thử nhiều kiểu lịch trong vài phút, thay vì phải tính lại đầu mỗi lần.
+Giả sử nơi một giá ngày nhỉnh hơn nhưng phí giao gần, nơi hai giá rẻ hơn nhưng cọc cao và phí giao theo khoảng cách. Với lịch một ngày, cột tổng thường nghiêng về nơi một. Với gói tuần, phần chênh phí giao chia đều bảy ngày, cột tổng có khi đảo chiều. Checklist tám dòng cho phép bạn thử nhiều kiểu lịch trong vài phút, thay vì phải tính lại đầu mỗi lần.
 
 ## Kỹ thuật dùng checklist nhanh trong một buổi
 
 Đặt dòng tiêu đề cho từng nơi ở đầu cột, rồi gọi hoặc nhắn hỏi tất cả các nơi cùng một bản câu hỏi trong một lượt, đừng hỏi rải rác từng nơi vì dễ quên mất khoản. Ghi câu trả lời thẳng vào ô tương ứng ngay khi nhận được, kể cả mức chưa chắc, để sau chỉ cần cập nhật lại ô nào thiếu. Sau khi có đủ hai hoặc ba nơi, điền cột tổng cho đúng lịch của bạn và so trực tiếp. Toàn bộ quá trình thường chỉ mất một buổi chiều, và kết quả cho bạn không chỉ gói rẻ nhất mà còn hiểu vì sao mình chọn, điều rất hữu ích cho các lần thuê sau khi chỉ cần cập nhật mức mới.
 
 
-Nếu sau khi điền, hai nơi chêch nhau rất ít trên cột tổng, đừng kéo dài việc so thêm. Hãy nhìn lại dòng năm và sáu: nơi nào có đúng dòng xe sẵn có ngày bạn cần và tình trạng xe tốt hơn thì chọn nơi đó, vì phần chêch nhỏ không đáng để đánh đổi bằng rủi ro nhận xe kém. Một cách khác là hỏi cả hai nơi xem có khoản nào điều chỉnh được không, ví dụ gộp phí giao hoặc nâng dòng xe giữ nguyên tổng, nơi nào linh hoạt hơn thường cũng hỗ trợ giữa kỳ tốt hơn. Nguyên tắc là khi tổng đã gần nhau, các yếu tố ngoài giá trở thành yếu tố quyết định.
+Nếu sau khi điền, hai nơi chênh nhau rất ít trên cột tổng, đừng kéo dài việc so thêm. Hãy nhìn lại dòng năm và sáu: nơi nào có đúng dòng xe sẵn có ngày bạn cần và tình trạng xe tốt hơn thì chọn nơi đó, vì phần chênh nhỏ không đáng để đánh đổi bằng rủi ro nhận xe kém. Một cách khác là hỏi cả hai nơi xem có khoản nào điều chỉnh được không, ví dụ gộp phí giao hoặc nâng dòng xe giữ nguyên tổng, nơi nào linh hoạt hơn thường cũng hỗ trợ giữa kỳ tốt hơn. Nguyên tắc là khi tổng đã gần nhau, các yếu tố ngoài giá trở thành yếu tố quyết định.
 
 ## Kết luận
 

@@ -8,6 +8,8 @@ matrix_id: 144
 primary_keyword: "thuê xe vespa hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+blog_notice: "Lưu ý về mẫu xe: bảng giá Motoopen hiện niêm yết Honda Wave, Honda Vision, Honda Air Blade, Honda Click/Yamaha Mio, xe tay ga 50cc và xe máy điện/xe đạp điện (giá liên hệ). Với mẫu xe khác được nhắc trong bài, gọi 0857 255 868 để kiểm tra xe và giá trước khi đặt."
+last_modified_at: 2026-11-16 12:00:00 +0700
 ---
 Vespa cho trải nghiệm lái khác hẳn mọi dòng xe ga Nhật, và khi thuê ở Hà Nội bạn cần biết trước những khác biệt thao tác lẫn điểm cần kiểm tình trạng xe. Bài này tóm gọn cả hai.
 
@@ -21,15 +23,15 @@ Thân thép Vespa dễ trầy và móp, nên soi kỹ quanh thân, ghi lại v�
 
 ## Ai hợp thuê Vespa
 
-Vespa hợp hai nhóm: khách muốn phong cách và trải nghiệm dòng xe Ý, và người quen Vespa từ trước. Với nhu cầu thuần di chuyển, dòng ga Nhật rẻ hơn và dễ lái hơn, xem bài [thuê xe ga Hà Nội]({{ '/blog/thue-xe-ga-ha-noi/' | relative_url }}). Với chụp ảnh phố cổ hoặc đi quanh Hoàn Kiếm, Vespa đẹp và hợp không khí khu phố, tham khảo tuyến trong bài [thuê xe máy điện phố cổ Hà Nội]({{ '/blog/thue-xe-may-dien-pho-co-ha-noi/' | relative_url }}) nếu cân nhắc điện cho cùng khu vực.
+Vespa hợp hai nhóm: khách muốn phong cách và trải nghiệm dòng xe Ý, và người quen Vespa từ trước. Với nhu cầu thuần di chuyển, dòng ga Nhật rẻ hơn và dễ lái hơn, xem bài [thuê xe ga Hà Nội]({{ '/blog/thue-xe-ga-ha-noi/' | relative_url }}). Với chụp ảnh phố cổ hoặc đi quanh Hoàn Kiếm, Vespa đẹp và hợp không khí khu phố, tham khảo tuyến trong bài thuê xe máy điện phố cổ Hà Nội nếu cân nhắc điện cho cùng khu vực.
 
 ## Cốp, mũ và phụ kiện
 
-Cốp Vespa vừa mũ và ít đồ hơn Lead, nếu mang túi lớn thì xin móc và đeo chéo, cách xếp an toàn trong bài [xe 50cc mang hành lý]({{ '/blog/xe-50cc-mang-hanh-ly/' | relative_url }}). Đếm mũ đạt cho từng người, kính sạch. Chở hai người cân tải theo hướng dẫn chung trong bài [xe 50cc cho 2 người]({{ '/blog/xe-50cc-cho-2-nguoi/' | relative_url }}). Trời mưa gần thì thêm nguyên tắc đường ướt trong bài [thuê xe máy điện mùa mưa]({{ '/blog/thue-xe-may-dien-mua-mua/' | relative_url }}) vì thân thép trơn hơn khi ướt.
+Cốp Vespa vừa mũ và ít đồ hơn Lead, nếu mang túi lớn thì xin móc và đeo chéo, cách xếp an toàn trong bài [xe 50cc mang hành lý]({{ '/blog/xe-50cc-mang-hanh-ly/' | relative_url }}). Đếm mũ đạt cho từng người, kính sạch. Chở hai người cân tải theo hướng dẫn chung trong bài xe 50cc cho 2 người. Trời mưa gần thì thêm nguyên tắc đường ướt trong bài thuê xe máy điện mùa mưa vì thân thép trơn hơn khi ướt.
 
 ## Giấy tờ và điều khoản
 
-Vespa trên 50 phân khối cần bằng lái A1, nhóm 50cc không cần, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Hợp đồng ghi rõ trách nhiệm trầy xước vì sơn Vespa đắt. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). Hỏi tồn kho qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước ngày nhận vì Vespa ít hơn dòng Nhật.
+Vespa trên 50 cm3 cần bằng lái: A1 cho bản đến 125 cm3, A cho bản lớn hơn, nhóm 50cc không cần, phân biệt trong bài xe 50cc có cần bằng lái không. Hợp đồng ghi rõ trách nhiệm trầy xước vì sơn Vespa đắt. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài thuê xe 50cc cho người nước ngoài. Hỏi tồn kho qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước ngày nhận vì Vespa ít hơn dòng Nhật.
 
 ## Kết luận
 

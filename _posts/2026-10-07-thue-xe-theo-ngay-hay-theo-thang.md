@@ -8,14 +8,15 @@ matrix_id: 294
 primary_keyword: "thuê xe theo ngày hay theo tháng"
 hub_parent: kinh-nghiem
 hub_category: so-sanh-lua-chon
+last_modified_at: 2026-11-16 12:00:00 +0700
 ---
 Giữa thuê xe máy theo ngày và theo tháng, lựa chọn đúng có thể chênh nhau cả triệu đồng mỗi tháng. Quy tắc chung ai cũng biết: thuê dài thì rẻ hơn tính trên mỗi ngày. Nhưng điểm hòa vốn nằm ở đâu, và gói tháng kèm theo điều kiện gì, thì không phải ai cũng tính. Bài này đưa ra cách tính cụ thể.
 
 ## Tính điểm hòa vốn bằng chính lịch trình của bạn
 
-Bắt đầu bằng hai con số: giá ngày lẻ và giá tháng của cùng một dòng xe, đều được niêm yết tại trang [bảng giá cho thuê]({{ '/banggia.html' | relative_url }}). Chia giá tháng cho giá ngày, bạn có số ngày hòa vốn. Ví dụ, nếu gói tháng bằng giá của 14 ngày lẻ, thì từ ngày dùng thứ 15 trở đi bạn đã lời: mỗi ngày thêm chỉ là chi phí biên gần bằng không. Nhiều cửa hàng ở Hà Nội đặt gói tháng ở mức tương đương 12 đến 15 ngày lẻ, tức là ai cần xe hơn nửa tháng mỗi tháng đều nên lấy gói tháng.
+Bắt đầu bằng hai con số: giá ngày lẻ và giá tháng của cùng một dòng xe, đều được niêm yết tại trang [bảng giá cho thuê]({{ '/banggia.html' | relative_url }}). Chia giá tháng cho giá ngày, bạn có số ngày hòa vốn. Ví dụ, nếu gói tháng bằng giá của 14 ngày lẻ, thì từ ngày dùng thứ 15 trở đi bạn đã lời: mỗi ngày thêm chỉ là chi phí biên gần bằng không. Theo bảng giá Motoopen, gói tháng tương đương khoảng 6 đến 10 ngày thuê lẻ tùy dòng xe (ví dụ Honda Wave 150k/ngày, tháng 900k–1,2 triệu), nên ai cần xe từ khoảng một tuần rưỡi mỗi tháng trở lên thường nên hỏi gói tháng.
 
-Tuy nhiên, số ngày dùng thực tế mới là thứ quyết định. Người đi làm cố định năm ngày một tuần, bốn tuần một tháng là 20 ngày dùng, vượt xa hòa vốn. Người chỉ ở Hà Nội ba tuần một tháng rồi về quê một tuần, chỉ dùng 15 ngày, vẫn lời nhưng nên hỏi gói ba tuần nếu có. Còn ai dùng dưới 10 ngày thì thuê ngày rẻ hơn và linh hoạt hơn. Hãy đếm số ngày chắc chắn có dùng, đừng đếm số ngày có mặt ở Hà Nội.
+Tuy nhiên, số ngày dùng thực tế mới là thứ quyết định. Người đi làm cố định năm ngày một tuần, bốn tuần một tháng là 20 ngày dùng, vượt xa hòa vốn. Người chỉ ở Hà Nội ba tuần một tháng rồi về quê một tuần, chỉ dùng 15 ngày, vẫn lời nhưng nên hỏi gói ba tuần nếu có. Còn ai chỉ dùng vài ngày thì thuê ngày linh hoạt hơn; từ khoảng 5 ngày, so thêm gói tuần (Honda Wave 700k/tuần so với 150k/ngày). Hãy đếm số ngày chắc chắn có dùng, đừng đếm số ngày có mặt ở Hà Nội.
 
 ## Các điều khoản khác nhau giữa hai chu kỳ
 
@@ -31,5 +32,5 @@ Chốt lại: lấy gói tháng khi số ngày chắc chắn dùng vượt đi�
 
 ## Nguồn
 
-- Bộ luật Dân sự 2015 về hợp đồng thuê tài sản: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/3012018/
+- Bộ luật Dân sự 2015 (Luật số 91/2015/QH13), phần hợp đồng thuê tài sản: https://thuvienphapluat.vn/van-ban/Quyen-dan-su/Bo-luat-dan-su-2015-296215.aspx
 - Mức giá theo ngày và theo tháng hiện hành của Motoopen: {{ '/banggia.html' | relative_url }}

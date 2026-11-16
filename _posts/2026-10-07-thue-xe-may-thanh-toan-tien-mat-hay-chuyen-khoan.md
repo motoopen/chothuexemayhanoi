@@ -21,7 +21,7 @@ Chuyển khoản cho bạn sẵn một dòng lịch sử giao dịch mang tên v
 
 ## Câu hỏi nên hỏi trước khi thanh toán
 
-Trước khi đặt, hỏi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}): nơi thuê nhận hình thức nào, tiền cọc đặt bằng tiền mặt hay chuyển khoản, và cọc hoàn về tài khoản hay trả tay. Mức giá gốc để đối chiếu nằm trong trang [bảng giá]({{ '/banggia.html' | relative_url }}), và phần cọc thường gặp nằm trong bài [tiền cọc thuê xe máy Hà Nội]({{ '/blog/tien-coc-thue-xe-may-ha-noi/' | relative_url }}).
+Trước khi đặt, hỏi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}): nơi thuê nhận hình thức nào, tiền cọc đặt bằng tiền mặt hay chuyển khoản, và cọc hoàn về tài khoản hay trả tay. Mức giá gốc để đối chiếu nằm trong trang bảng giá, và phần cọc thường gặp nằm trong bài tiền cọc thuê xe máy Hà Nội.
 
 ## Lưu bằng chứng khi nhận và khi trả
 
@@ -29,7 +29,7 @@ Dù thanh toán cách nào, hãy lưu đủ bộ: biên nhận hoặc ảnh màn
 
 ## Thanh toán cho khách nước ngoài
 
-Khách nước ngoài nên hỏi trước về thanh toán quốc tế: nhiều nơi chỉ nhận tiền mặt Việt Nam, nên đổi sẵn hoặc hỏi nơi đổi tiền gần cửa hàng. Danh sách chuẩn bị cho khách nước ngoài nằm trong bài [thuê xe máy cho người nước ngoài cần gì]({{ '/blog/thue-xe-may-cho-nguoi-nuoc-ngoai-can-gi/' | relative_url }}), và giấy tờ xác minh kèm theo nằm trong bài [thuê xe máy dùng căn cước hay hộ chiếu]({{ '/blog/thue-xe-may-dung-can-cuoc-hay-ho-chieu/' | relative_url }}).
+Khách nước ngoài nên hỏi trước về thanh toán quốc tế: nhiều nơi chỉ nhận tiền mặt Việt Nam, nên đổi sẵn hoặc hỏi nơi đổi tiền gần cửa hàng. Danh sách chuẩn bị cho khách nước ngoài nằm trong bài [thuê xe máy cho người nước ngoài cần gì]({{ '/blog/thue-xe-may-cho-nguoi-nuoc-ngoai-can-gi/' | relative_url }}), và giấy tờ xác minh kèm theo nằm trong bài thuê xe máy dùng căn cước hay hộ chiếu.
 
 Một điều nữa nên chuẩn bị là tiền lẻ khi trả xe: phí phát sinh như phạt giờ trễ hay đền mũ thường là số lẻ, và cầm sẵn tiền lẻ giúp bạn trả gọn trong một lần. Với cọc nhận lại bằng tiền mặt, đếm tiền trước khi rời cửa hàng, vì sau khi đã đi, mọi khoản thiếu đều khó truy lại. Ghi lại ngày giờ trả xe kèm người nhận, và bạn đã có đủ bằng chứng cho mọi tình huống.
 

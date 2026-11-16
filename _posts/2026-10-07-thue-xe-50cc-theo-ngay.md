@@ -21,7 +21,7 @@ Chuyến ngắn ít thời gian xử lý sự cố, nên lúc nhận phải rà 
 
 ## Xăng, cọc và các khoản phụ
 
-Ba khoản hay quên nhất của thuê ngày. Xăng: hỏi mức nhận xe thế nào và yêu cầu trả ở mức đó, với 50cc là khoản nhỏ nhưng bị tính theo giá đổ điểm trả thì gấp đôi. Cọc: hỏi mức, hình thức giữ và điều kiện hoàn, giữ tin nhắn xác nhận. Phụ phí: phí giao xe tận nơi và nhận lại, tính theo khoảng cách, với chuyến ngắn nên cân so giữa phí giao và thời gian tự đến điểm nhận. Mức giá các gói nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), điều khoản cọc ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).
+Ba khoản hay quên nhất của thuê ngày. Xăng: hỏi mức nhận xe thế nào và yêu cầu trả ở mức đó, với 50cc là khoản nhỏ nhưng bị tính theo giá đổ điểm trả thì gấp đôi. Cọc: hỏi mức, hình thức giữ và điều kiện hoàn, giữ tin nhắn xác nhận. Phụ phí: phí giao xe tận nơi và nhận lại, tính theo khoảng cách, với chuyến ngắn nên cân so giữa phí giao và thời gian tự đến điểm nhận. Mức giá các gói nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), điều khoản cọc ở trang thủ tục thuê xe.
 
 ## Lên lịch cho một ngày gọn
 
@@ -33,7 +33,7 @@ Tình huống một: khách thuê một ngày đi ba việc trong phố, hỏi t
 
 ## So giá ngày và gói cuối tuần
 
-Nếu chuyến ngắn của bạn rơi vào cuối tuần hoặc ngày lễ, nên hỏi trước cách tính của khung đó, vì một số nơi áp mức khác cho khung cao điểm. So luôn hai phương án: tính lẻ hai ngày và lấy gói cuối tuần nếu có, phần chêch nhiều khi đáng kể. Với chuyến bắt đầu chiều thứ sáu và trả chiều chủ nhật, hỏi cách tính hai ngày đó là hai ngày trọn hay tính theo hai mươi tư giờ nhân đôi. Chốt bằng văn bản mức đã hỏi, kể cả mức xăng và khung trả, để cuối chuyến đối chiếu nhanh, không phải cãi lại từng khoản nhỏ.
+Nếu chuyến ngắn của bạn rơi vào cuối tuần hoặc ngày lễ, nên hỏi trước cách tính của khung đó, vì một số nơi áp mức khác cho khung cao điểm. So luôn hai phương án: tính lẻ hai ngày và lấy gói cuối tuần nếu có, phần chênh nhiều khi đáng kể. Với chuyến bắt đầu chiều thứ sáu và trả chiều chủ nhật, hỏi cách tính hai ngày đó là hai ngày trọn hay tính theo hai mươi tư giờ nhân đôi. Chốt bằng văn bản mức đã hỏi, kể cả mức xăng và khung trả, để cuối chuyến đối chiếu nhanh, không phải cãi lại từng khoản nhỏ.
 
 ## Kết luận
 

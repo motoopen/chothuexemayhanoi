@@ -13,7 +13,7 @@ Ga Hà Nội nằm giữa khu phố, quanh ga nhiều nơi cho thuê xe, và kh�
 
 ## Chốt điểm nhận quanh ga
 
-Cách gọn là đặt trước và chốt điểm nhận cụ thể vài phút đi bộ từ ga, kể cả địa chỉ để gửi vào bản đồ. Khung quanh ga đông giờ tàu lớn đến, nên chốt khung nhận lệch nếu lịch cho phép, và nếu trễ tàu thì báo ngay để dời khung, báo trước luôn dễ hơn xử tại chỗ. Hỏi luôn phí giao xe tận điểm chờ hoặc khách sạn nếu hành lý nhiều, phí theo khoảng cách chốt bằng văn bản. Câu hỏi đặt gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), các dòng xe hiện có ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}).
+Cách gọn là đặt trước và chốt điểm nhận cụ thể vài phút đi bộ từ ga, kể cả địa chỉ để gửi vào bản đồ. Khung quanh ga đông giờ tàu lớn đến, nên chốt khung nhận lệch nếu lịch cho phép, và nếu trễ tàu thì báo ngay để dời khung, báo trước luôn dễ hơn xử tại chỗ. Hỏi luôn phí giao xe tận điểm chờ hoặc khách sạn nếu hành lý nhiều, phí theo khoảng cách chốt bằng văn bản. Câu hỏi đặt gửi qua trang liên hệ, các dòng xe hiện có ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}).
 
 ## Xử lý hành lý lúc nhận xe điện
 

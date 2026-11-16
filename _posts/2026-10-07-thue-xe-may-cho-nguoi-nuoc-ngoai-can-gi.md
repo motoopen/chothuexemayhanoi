@@ -8,24 +8,25 @@ matrix_id: 225
 primary_keyword: "thuê xe máy cho người nước ngoài cần gì"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+last_modified_at: 2026-11-16 12:00:00 +0700
 ---
 Khách nước ngoài hoàn toàn thuê được xe máy ở Hà Nội, nhưng cần chuẩn bị sớm vài thứ: giấy tờ tùy thân, giấy phép lái đúng quy định, và cách thanh toán. Bài này giúp bạn có đủ thứ trước ngày nhận xe.
 
 ## Hộ chiếu, thị thực và giấy tờ tùy thân
 
-Điều đầu tiên là hộ chiếu còn hiệu lực, kèm thị thực hoặc giấy tờ nhập cảnh hợp lệ: bên cho thuê ghi thông tin này vào hợp đồng trước khi giao xe. Nên photo sẵn trang thông tin hộ chiếu để trình nhanh, nhưng bản gốc vẫn phải mang theo lúc ký. Danh sách chi tiết về giấy tờ cho khách nước ngoài nằm trong bài [thuê xe máy Hà Nội cho người nước ngoài]({{ '/blog/thue-xe-may-ha-noi-cho-nguoi-nuoc-ngoai/' | relative_url }}), và phần thủ tục chung nằm trong bài [thủ tục thuê xe máy]({{ '/thutuc.html' | relative_url }}).
+Điều đầu tiên là hộ chiếu còn hiệu lực, kèm thị thực hoặc giấy tờ nhập cảnh hợp lệ: bên cho thuê ghi thông tin này vào hợp đồng trước khi giao xe. Nên photo sẵn trang thông tin hộ chiếu để trình nhanh, nhưng bản gốc vẫn phải mang theo lúc ký. Danh sách chi tiết về giấy tờ cho khách nước ngoài nằm trong bài thuê xe máy Hà Nội cho người nước ngoài, và phần thủ tục chung nằm trong bài [thủ tục thuê xe máy]({{ '/thutuc.html' | relative_url }}).
 
 ## Giấy phép lái xe phù hợp
 
-Đây là phần khách nước ngoài hay bỏ sót nhất: điều khiển xe máy ở Việt Nam cần giấy phép lái do Việt Nam cấp, hoặc giấy phép lái nước ngoài kèm bản dịch công chứng, hoặc giấy phép lái quốc tế tùy trường hợp. Trước khi thuê, hỏi bên cho thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) xem loại bằng bạn có được chấp nhận không. Nếu không có bằng phù hợp, cân nhóm xe 50cc hoặc xe điện theo quy định, xem trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}) và bài [thuê xe điện không cần bằng lái]({{ '/blog/thue-xe-dien-khong-can-bang-lai/' | relative_url }}), hoặc chọn thuê xe có tài xế để khỏi lo bằng lái.
+Đây là phần khách nước ngoài hay bỏ sót nhất: để lái xe mô tô (trên 50 cm3) ở Việt Nam, bạn cần giấy phép lái xe do Việt Nam cấp, hoặc giấy phép lái xe quốc tế do nước thành viên Công ước Viên 1968 cấp mang kèm giấy phép lái xe quốc gia phù hợp hạng xe (Điều 57 khoản 6, khoản 8 Luật số 36/2024/QH15). Giấy phép lái xe nước ngoài chỉ dùng trực tiếp được khi nước cấp có điều ước hoặc thỏa thuận công nhận giấy phép lái xe với Việt Nam, nên hãy kiểm tra với cơ quan chức năng trước chuyến đi. Trước khi thuê, hỏi bên cho thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) xem loại bằng bạn có được chấp nhận không. Nếu không có bằng phù hợp, cân nhóm xe gắn máy 50cc hoặc xe điện không quá 4 kW, vận tốc thiết kế không quá 50 km/h (người lái đủ 16 tuổi), xem trong bài xe 50cc có cần bằng lái không và bài thuê xe điện không cần bằng lái, hoặc chọn thuê xe có tài xế để khỏi lo bằng lái.
 
 ## Chọn loại xe dễ lái với người mới
 
-Khách chưa quen đường Hà Nội nên chọn xe nhẹ, nhỏ gọn và dễ cân bằng: dòng 50cc hoặc xe điện mini là nhóm phổ biến nhất với khách nước ngoài, tham khảo bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}) và bài [thuê xe máy điện cho người nước ngoài]({{ '/blog/thue-xe-may-dien-cho-nguoi-nuoc-ngoai/' | relative_url }}). Khi nhận, kiểm xe kỹ theo checklist trong bài [checklist nhận xe 50cc]({{ '/blog/checklist-nhan-xe-50cc/' | relative_url }}), và hỏi rõ chỗ giữ xe qua đêm gần chỗ ở.
+Khách chưa quen đường Hà Nội nên chọn xe nhẹ, nhỏ gọn và dễ cân bằng: dòng 50cc hoặc xe điện mini là nhóm dễ làm quen, tham khảo bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}) và bài thuê xe máy điện cho người nước ngoài. Khi nhận, kiểm xe kỹ theo checklist trong bài checklist nhận xe 50cc, và hỏi rõ chỗ giữ xe qua đêm gần chỗ ở.
 
 ## Đặt cọc và thanh toán
 
-Khách nước ngoài thường đặt cọc bằng tiền mặt hoặc giữ nguyên giấy tờ xác minh, tùy nơi. Hỏi trước mức cọc và cách hoàn cọc, ghi rõ vào hợp đồng, và tham khảo bài [tiền cọc thuê xe máy Hà Nội]({{ '/blog/tien-coc-thue-xe-may-ha-noi/' | relative_url }}) để biết mức thường gặp. Nếu bạn không mang tiền Việt, hỏi trước qua trang liên hệ xem nơi thuê nhận thanh toán quốc tế hoặc đổi tiền gần đó không, và đối chiếu giá trước với trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Khách nước ngoài thường đặt cọc bằng tiền mặt hoặc giữ nguyên giấy tờ xác minh, tùy nơi. Hỏi trước mức cọc và cách hoàn cọc, ghi rõ vào hợp đồng, và tham khảo bài tiền cọc thuê xe máy Hà Nội để biết mức thường gặp. Nếu bạn không mang tiền Việt, hỏi trước qua trang liên hệ xem nơi thuê nhận thanh toán quốc tế hoặc đổi tiền gần đó không, và đối chiếu giá trước với trang [bảng giá]({{ '/banggia.html' | relative_url }}).
 
 ## Đặt trước và nhận xe tận nơi
 

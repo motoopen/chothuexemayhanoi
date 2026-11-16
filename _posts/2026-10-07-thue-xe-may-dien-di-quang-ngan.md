@@ -25,11 +25,11 @@ Quãng ngắn thường dừng nhiều: vào cửa hàng, gặp bạn, dừng ch
 
 ## Kế hoạch pin cho lộ trình ngắn
 
-Quãng ngắn không cần kế hoạch pin phức tạp, nhưng vẫn nên nhận xe với pin trên 80 phần trăm và hỏi mức tối thiểu khi trả, chi tiết trong bài [thời gian sạc xe máy điện thuê]({{ '/blog/thoi-gian-sac-xe-may-dien-thue/' | relative_url }}). Cắm qua đêm ở chỗ lưu trú một lần là đủ cho cả ngày hôm sau. Nếu chỉ thuê vài giờ, chọn nơi có giao pin đầy sẵn để khỏi chờ sạc. Danh sách câu hỏi trước khi nhận đã có trong bài [sạc xe máy điện khi thuê]({{ '/blog/sac-xe-may-dien-khi-thue/' | relative_url }}).
+Quãng ngắn không cần kế hoạch pin phức tạp, nhưng vẫn nên nhận xe với pin trên 80 phần trăm và hỏi mức tối thiểu khi trả, chi tiết trong bài [thời gian sạc xe máy điện thuê]({{ '/blog/thoi-gian-sac-xe-may-dien-thue/' | relative_url }}). Cắm qua đêm ở chỗ lưu trú một lần là đủ cho cả ngày hôm sau. Nếu chỉ thuê vài giờ, chọn nơi có giao pin đầy sẵn để khỏi chờ sạc. Danh sách câu hỏi trước khi nhận đã có trong bài sạc xe máy điện khi thuê.
 
 ## Khi nào quãng ngắn không nên dùng xe điện
 
-Trời mưa to nhiều giờ liên tục, xe điện ướt pin và phanh kém an toàn hơn, xem hướng dẫn trong bài [thuê xe máy điện mùa mưa]({{ '/blog/thue-xe-may-dien-mua-mua/' | relative_url }}). Chở theo người lớn kèm đồ nặng cũng làm pin tụ nhanh, tham khảo bài [xe máy điện chở 2 người]({{ '/blog/xe-may-dien-cho-2-nguoi-khi-thue/' | relative_url }}). Nếu quãng ngắn nhưng dốc nhiều hoặc đường xấu, xe ga hoặc xe số bền hơn.
+Trời mưa to nhiều giờ liên tục, xe điện ướt pin và phanh kém an toàn hơn, xem hướng dẫn trong bài [thuê xe máy điện mùa mưa]({{ '/blog/thue-xe-may-dien-mua-mua/' | relative_url }}). Chở theo người lớn kèm đồ nặng cũng làm pin tụ nhanh, tham khảo bài xe máy điện chở 2 người. Nếu quãng ngắn nhưng dốc nhiều hoặc đường xấu, xe ga hoặc xe số bền hơn.
 
 ## Kết luận
 

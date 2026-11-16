@@ -13,19 +13,19 @@ Với sinh viên ở Hà Nội, xe máy thuê là phương án trung gian giữa
 
 ## Dòng xe tiết kiệm cho quãng đi học
 
-Với quãng đường đi học quanh khu đại học và nội thành, dòng xe nhỏ gọn là đủ, vừa nhẹ tiền thuê vừa ít hao xăng. Xe ga phổ thông chỉ đáng cân khi quãng đi hằng ngày thật dài hoặc bạn thường chở thêm người, đồ. Nhóm xe điện đáng xem xét nếu quanh khu ở có điểm sạc và quãng đi ngắn, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}). Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá theo ngày tại trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Với quãng đường đi học quanh khu đại học và nội thành, dòng xe nhỏ gọn là đủ, vừa nhẹ tiền thuê vừa ít hao xăng. Xe ga phổ thông chỉ đáng cân khi quãng đi hằng ngày thật dài hoặc bạn thường chở thêm người, đồ. Nhóm xe điện đáng xem xét nếu quanh khu ở có điểm sạc và quãng đi ngắn, chi tiết nằm trong bài cho thuê xe máy điện Hà Nội. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá theo ngày tại trang bảng giá.
 
 ## Chọn gói theo thời gian thực tế cần
 
-Nếu chỉ cần xe vài ngày trong tuần cho lịch học partime, gói theo ngày hợp lý. Nếu dùng hằng ngày cả tháng, gói tuần hoặc tháng thường rẻ hơn nhiều tính trên mỗi ngày, nên hỏi trước các gói này. Chuyển hẳn sang gói dài hạn khi tổng số ngày thuê vượt ngưỡng mà cửa hàng khuyên, kinh nghiệm các khoản ngoài giá thuê nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}). Đừng thuê gói dài ngay từ đầu nếu lịch còn chưa chắc.
+Nếu chỉ cần xe vài ngày trong tuần cho lịch học partime, gói theo ngày hợp lý. Nếu dùng hằng ngày cả tháng, gói tuần hoặc tháng thường rẻ hơn nhiều tính trên mỗi ngày, nên hỏi trước các gói này. Chuyển hẳn sang gói dài hạn khi tổng số ngày thuê vượt ngưỡng mà cửa hàng khuyên, kinh nghiệm các khoản ngoài giá thuê nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}). Đừng thuê gói dài ngay từ đầu nếu lịch còn chưa chắc.
 
 ## Cọc và giấy tờ khi ký hợp đồng
 
-Chuẩn bị giấy tờ tùy thân bản gốc còn hiệu lực và giấy phép lái phù hợp, theo quy định hiện hành. Với sinh viên, khoản cọc là rào cản lớn nhất, nên hỏi trước hình thức giữ cọc là tiền mặt hay cách khác, cùng thời gian hoàn trả. Một số nơi chấp nhận phương án bảo đảm khác, hỏi rõ qua trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}) và [liên hệ]({{ '/lienhe.html' | relative_url }}). Chụp hiện trạng xe khi nhận để tránh tranh luận lúc hoàn cọc.
+Chuẩn bị giấy tờ tùy thân bản gốc còn hiệu lực và giấy phép lái phù hợp, theo quy định hiện hành. Với sinh viên, khoản cọc là rào cản lớn nhất, nên hỏi trước hình thức giữ cọc là tiền mặt hay cách khác, cùng thời gian hoàn trả. Một số nơi chấp nhận phương án bảo đảm khác, hỏi rõ qua trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}) và liên hệ. Chụp hiện trạng xe khi nhận để tránh tranh luận lúc hoàn cọc.
 
 ## Thuê theo nhóm bạn để giảm chi phí
 
-Nhiều điểm cho phép đặt trước nhiều xe cùng lúc cho nhóm bạn ở cùng ký túc xá, việc này vừa đảm bảo có xe trong mùa cao điểm vừa có thể hỏi giá theo số lượng. Nhóm nên thống nhất trước ai chịu trách nhiệm mỗi xe, vì hợp đồng ký tên ai thì người đó chịu trách nhiệm hoàn cọc. Kinh nghiệm chuẩn bị chung cho người lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Nhiều điểm cho phép đặt trước nhiều xe cùng lúc cho nhóm bạn ở cùng ký túc xá, việc này vừa đảm bảo có xe trong mùa cao điểm vừa có thể hỏi giá theo số lượng. Nhóm nên thống nhất trước ai chịu trách nhiệm mỗi xe, vì hợp đồng ký tên ai thì người đó chịu trách nhiệm hoàn cọc. Kinh nghiệm chuẩn bị chung cho người lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Giữ xe quanh khu ký túc xá và trường
 

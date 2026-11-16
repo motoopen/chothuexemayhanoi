@@ -29,7 +29,7 @@ Khoản thứ tư là phụ phí nhận hoặc trả ngoài giờ mở cửa, th
 
 ## Phạm vi khu vực và điều khoản hư hỏng
 
-Khoản thứ sáu là phụ phí vượt phạm vi nếu gói giới hạn khu vực mà lịch của bạn có chặng ven. Khoản thứ bảy là phần khấu trừ tại cọc theo điều khoản hư hỏng. Rà hai khoản này trước khi ký, chụp hiện trạng xe kỹ ở đầu kỳ làm bằng chứng. Mức giá các gói nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), các dòng xe tại trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}).
+Khoản thứ sáu là phụ phí vượt phạm vi nếu gói giới hạn khu vực mà lịch của bạn có chặng ven. Khoản thứ bảy là phần khấu trừ tại cọc theo điều khoản hư hỏng. Rà hai khoản này trước khi ký, chụp hiện trạng xe kỹ ở đầu kỳ làm bằng chứng. Mức giá các gói nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), các dòng xe tại trang các loại xe cho thuê.
 
 ## Ví dụ tổng ba ngày có và không có bảy khoản
 

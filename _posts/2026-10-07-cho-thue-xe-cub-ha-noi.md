@@ -8,6 +8,8 @@ matrix_id: 58
 primary_keyword: "cho thuê xe cub hà nội"
 hub_parent: loai-xe
 hub_category: xe-50cc
+blog_notice: "Lưu ý về mẫu xe: bảng giá Motoopen hiện niêm yết Honda Wave, Honda Vision, Honda Air Blade, Honda Click/Yamaha Mio, xe tay ga 50cc và xe máy điện/xe đạp điện (giá liên hệ). Với mẫu xe khác được nhắc trong bài, gọi 0857 255 868 để kiểm tra xe và giá trước khi đặt."
+last_modified_at: 2026-11-16 12:00:00 +0700
 ---
 Xe Cub là dòng xe số cổ điển được nhiều khách tìm đến đúng vì kiểu dáng riêng, nhưng cũng là dòng đòi hỏi chọn kỹ hơn trước khi nhận. Vì hầu hết xe Cub cho thuê là xe đã qua sử dụng lâu năm, chất lượng từng chiếc khác nhau đáng kể. Bài viết này đưa ra checklist chọn xe Cub khi thuê ở Hà Nội, giúp bạn nhận được chiếc xe chạy ổn trong suốt chuyến đi.
 
@@ -25,11 +27,11 @@ Phanh xe Cub là loại cơ cấu cũ, khoảng cách phanh dài hơn xe hiện 
 
 ## Hỏi tuổi xe và lịch bảo dưỡng
 
-Xe Cub cho thuê thường có tuổi đời cao, và tuổi tác ảnh hưởng trực tiếp đến độ ổn định. Nên hỏi: xe đã được bảo dưỡng định kỳ không, gần nhất thay nhớt và bugi khi nào, và có phụ tùng thay thế sẵn hay không. Cửa hàng chăm sóc xe kỹ sẽ trả lời rõ ràng, thậm chí chủ động nói ra điểm yếu của từng chiếc. Trả lời mơ hồ về lịch bảo dưỡng là tín hiệu nên cân nhắc. Với khách lần đầu thuê xe ở Hà Nội, các bước kiểm tra chung đã được tóm tắt trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Xe Cub cho thuê thường có tuổi đời cao, và tuổi tác ảnh hưởng trực tiếp đến độ ổn định. Nên hỏi: xe đã được bảo dưỡng định kỳ không, gần nhất thay nhớt và bugi khi nào, và có phụ tùng thay thế sẵn hay không. Cửa hàng chăm sóc xe kỹ sẽ trả lời rõ ràng, thậm chí chủ động nói ra điểm yếu của từng chiếc. Trả lời mơ hồ về lịch bảo dưỡng là tín hiệu nên cân nhắc. Với khách lần đầu thuê xe ở Hà Nội, các bước kiểm tra chung đã được tóm tắt trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Giá thuê, cọc và điều kiện hợp đồng
 
-Giá thuê xe Cub thường ở phân khúc dễ chịu, so sánh trực tiếp trên [bảng giá]({{ '/banggia.html' | relative_url }}). Điểm cần hỏi riêng với Cub là mức cọc, vì một số chiếc được bảo quản đẹp có giá trị cao hơn mặt bằng dòng nhỏ. Hỏi rõ điều kiện hoàn cọc và trách nhiệm với hư hỏng trong hợp đồng. Thủ tục giấy tờ theo quy định chung nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Khi cần hỏi trước về các chiếc Cub còn sẵn, thông tin liên hệ nằm ở trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Giá thuê xe Cub thường ở phân khúc dễ chịu, so sánh trực tiếp trên [bảng giá]({{ '/banggia.html' | relative_url }}). Điểm cần hỏi riêng với Cub là mức cọc, vì một số chiếc được bảo quản đẹp có giá trị cao hơn mặt bằng dòng nhỏ. Hỏi rõ điều kiện hoàn cọc và trách nhiệm với hư hỏng trong hợp đồng. Thủ tục giấy tờ theo quy định chung nằm ở trang thủ tục thuê xe. Khi cần hỏi trước về các chiếc Cub còn sẵn, thông tin liên hệ nằm ở trang liên hệ.
 
 ## Kết luận
 

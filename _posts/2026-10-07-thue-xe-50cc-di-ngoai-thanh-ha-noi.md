@@ -17,7 +17,7 @@ Với chặng dưới mười lăm cây số một chiều, đường chậm ho�
 
 ## Khi nào nên chuyển dòng lớn hơn
 
-Chặng trên hai mươi cây số một chiều, đường tỉnh nhanh nhiều xe tải, hoặc hai người cùng đi, là ba dấu hiệu nên chuyển lên dòng lớn hơn. Xe 50cc chạy đường dài nhanh mệt vì máy quay cao, và tốc thấp khiến bạn bị tụt sau dòng xe xung quanh trên đường nhanh. Chở thêm người lớn làm xe rất vất, lên dốc dài đuối hẳn. Phần chêch giá giữa dòng nhỏ và dòng vừa thường nhỏ, nên với lịch ngoại thành thật, dòng vừa gần như luôn đáng tiền hơn. Mức giá các dòng nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Chặng trên hai mươi cây số một chiều, đường tỉnh nhanh nhiều xe tải, hoặc hai người cùng đi, là ba dấu hiệu nên chuyển lên dòng lớn hơn. Xe 50cc chạy đường dài nhanh mệt vì máy quay cao, và tốc thấp khiến bạn bị tụt sau dòng xe xung quanh trên đường nhanh. Chở thêm người lớn làm xe rất vất, lên dốc dài đuối hẳn. Phần chênh giá giữa dòng nhỏ và dòng vừa thường nhỏ, nên với lịch ngoại thành thật, dòng vừa gần như luôn đáng tiền hơn. Mức giá các dòng nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
 
 ## Tải và đồ mang theo
 
@@ -25,7 +25,7 @@ Xe 50cc có rất ít chỗ để đồ, nên nếu lịch ngoại thành cần 
 
 ## Kiểm tra xe trước khi lên chặng dài
 
-Với chặng ngoại thành, phần kiểm tra xe phải kỹ hơn trong phố: hai phanh, độ căng bánh, đèn còi, và nghe tiếng máy khi vặn ga. Hỏi nơi thuê về các điểm hỗ trợ gần tuyến bạn định đi, và số hỗ trợ giữa kỳ hoạt động đến giờ nào. Chụp hiện trạng xe và giấy tờ kèm theo. Điều khoản hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), và câu hỏi đặt trước gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Với chặng ngoại thành, phần kiểm tra xe phải kỹ hơn trong phố: hai phanh, độ căng bánh, đèn còi, và nghe tiếng máy khi vặn ga. Hỏi nơi thuê về các điểm hỗ trợ gần tuyến bạn định đi, và số hỗ trợ giữa kỳ hoạt động đến giờ nào. Chụp hiện trạng xe và giấy tờ kèm theo. Điều khoản hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), và câu hỏi đặt trước gửi qua trang liên hệ.
 
 ## Ví dụ hai chuyến ngoại thành
 

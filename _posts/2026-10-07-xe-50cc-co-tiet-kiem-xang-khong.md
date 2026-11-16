@@ -21,11 +21,11 @@ Xe 50cc thuộc nhóm tiết kiệm nhất trong các dòng xe máy, mức tiêu
 
 ## Chính sách xăng khi trả xe
 
-Khoản hay gây tranh luận nhất không phải mức tiêu hao, mà là chính sách trả xe với mức xăng ban đầu. Hỏi trước: nhận xe mức bao nhiêu, trả cần mức đó hay được phép thấp hơn và tính theo giá đổ tại điểm trả. Giá đổ tại điểm trả thường cao hơn tự đổ, nên nếu kỳ thuê dài, chủ động tự đổ đúng mức trước khi trả là cách tiết kiệm vài chục nghìn thật. Chụp đồng hồ xăng lúc nhận làm bằng chứng. Câu hỏi gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), và điều khoản về xăng nằm trong trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).
+Khoản hay gây tranh luận nhất không phải mức tiêu hao, mà là chính sách trả xe với mức xăng ban đầu. Hỏi trước: nhận xe mức bao nhiêu, trả cần mức đó hay được phép thấp hơn và tính theo giá đổ tại điểm trả. Giá đổ tại điểm trả thường cao hơn tự đổ, nên nếu kỳ thuê dài, chủ động tự đổ đúng mức trước khi trả là cách tiết kiệm vài chục nghìn thật. Chụp đồng hồ xăng lúc nhận làm bằng chứng. Câu hỏi gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), và điều khoản về xăng nằm trong trang thủ tục thuê xe.
 
 ## Ví dụ ước xăng cho hai kỳ thuê
 
-Tình huống một: khách thuê tuần, mỗi ngày trong phố tám cây số, tổng quãng năm mươi sáu cây số, đổ một lần suốt kỳ là đủ, khoản xăng không đáng kể. Tình huống hai: khách thuê ba ngày nhưng mỗi ngày chặng ven hai chục cây số, quãng tương đương nhưng dồn ngắn ngày, vẫn rẻ nhưng phần chêch với dòng vừa thu hẹp lại. Cùng là 50cc, quãng quyết định khoản xăng. Kinh nghiệm cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
+Tình huống một: khách thuê tuần, mỗi ngày trong phố tám cây số, tổng quãng năm mươi sáu cây số, đổ một lần suốt kỳ là đủ, khoản xăng không đáng kể. Tình huống hai: khách thuê ba ngày nhưng mỗi ngày chặng ven hai chục cây số, quãng tương đương nhưng dồn ngắn ngày, vẫn rẻ nhưng phần chênh với dòng vừa thu hẹp lại. Cùng là 50cc, quãng quyết định khoản xăng. Kinh nghiệm cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Ba thói quen giữ mức tiêu hao thấp
 

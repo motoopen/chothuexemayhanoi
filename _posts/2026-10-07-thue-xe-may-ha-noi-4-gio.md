@@ -21,11 +21,11 @@ Bốn giờ giờ cao điểm đi được ít hơn nhiều so với bốn giờ
 
 ## Ngưỡng chuyển sang nửa ngày hoặc trọn ngày
 
-Hỏi trước ngưỡng: bốn giờ tính theo giá giờ là bao lâu thì bằng nửa ngày, và nửa ngày bằng bao nhiêu phần trọn ngày. Biết hai ngưỡng này, bạn quyết nhanh theo nhu cầu thật thay vì cộng dồn phí giờ. Với khách hay cần khung ngắn nhiều lần trong tuần, hỏi luôn gói linh hoạt hoặc ưu đãi khách quen. Kinh nghiệm gói dài hơn nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}).
+Hỏi trước ngưỡng: bốn giờ tính theo giá giờ là bao lâu thì bằng nửa ngày, và nửa ngày bằng bao nhiêu phần trọn ngày. Biết hai ngưỡng này, bạn quyết nhanh theo nhu cầu thật thay vì cộng dồn phí giờ. Với khách hay cần khung ngắn nhiều lần trong tuần, hỏi luôn gói linh hoạt hoặc ưu đãi khách quen. Kinh nghiệm gói dài hơn nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}).
 
 ## Chuẩn bị để bốn giờ không lãng phí
 
-Chuẩn bị sẵn giấy tờ tùy thân và giấy phép lái phù hợp để ký nhanh, điều khoản nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Kiểm tra xe theo checklist ngắn: ga, phanh, đèn còi, chạy thử vòng ngắn, chụp hiện trạng kể cả vết xước. Hỏi mốc tính giờ bắt đầu từ lúc ký hay lúc rời điểm, và phụ phí nếu trễ. Khách chọn xe điện nên hỏi pin và điểm sạc trong khung, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}).
+Chuẩn bị sẵn giấy tờ tùy thân và giấy phép lái phù hợp để ký nhanh, điều khoản nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Kiểm tra xe theo checklist ngắn: ga, phanh, đèn còi, chạy thử vòng ngắn, chụp hiện trạng kể cả vết xước. Hỏi mốc tính giờ bắt đầu từ lúc ký hay lúc rời điểm, và phụ phí nếu trễ. Khách chọn xe điện nên hỏi pin và điểm sạc trong khung, chi tiết nằm trong bài cho thuê xe máy điện Hà Nội.
 
 ## Ví dụ tình huống chọn gói
 

@@ -33,8 +33,8 @@ Bóp thử giảm xóc trước bằng tay đẩy nhún xuống: xe nảy lên �
 
 ## Tiêu chí sáu và bảy: khoang đồ và giấy tờ kèm xe
 
-Kiểm tra khóa yên và khoang dưới yên: mở được, khóa còn chắc không, để vừa mũ hoặc túi nhỏ. Hỏi giấy tờ kèm xe: giấy đăng ký bản photo hoặc thẻ xe có được giao cùng không, vì việc mang theo khi đi vòng quanh thành phố là điều nên làm. Chụp lại hình ảnh các vết trầy sẵn có trên thân xe trước khi rời cửa hàng. Với khách lần đầu, khung tổng quan các bước nhận xe nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Kiểm tra khóa yên và khoang dưới yên: mở được, khóa còn chắc không, để vừa mũ hoặc túi nhỏ. Hỏi giấy tờ kèm xe: giấy đăng ký bản photo hoặc thẻ xe có được giao cùng không, vì việc mang theo khi đi vòng quanh thành phố là điều nên làm. Chụp lại hình ảnh các vết trầy sẵn có trên thân xe trước khi rời cửa hàng. Với khách lần đầu, khung tổng quan các bước nhận xe nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Sau khi kiểm tra: hỏi và chốt
 
-Nếu bảy tiêu chí đều đạt, hỏi nốt ba điều: mức giá theo gói thời gian trên [bảng giá]({{ '/banggia.html' | relative_url }}), thủ tục giấy tờ tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), và quy trình hỗ trợ khi hỏng giữa đường. Danh sách mẫu xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), thông tin liên hệ tại trang [liên hệ]({{ '/lienhe.html' | relative_url }}). Kiểm tra đủ bảy tiêu chí trước khi ký, bạn sẽ có một chuyến đi êm và không phát sinh.
+Nếu bảy tiêu chí đều đạt, hỏi nốt ba điều: mức giá theo gói thời gian trên bảng giá, thủ tục giấy tờ tại trang thủ tục thuê xe, và quy trình hỗ trợ khi hỏng giữa đường. Danh sách mẫu xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), thông tin liên hệ tại trang liên hệ. Kiểm tra đủ bảy tiêu chí trước khi ký, bạn sẽ có một chuyến đi êm và không phát sinh.

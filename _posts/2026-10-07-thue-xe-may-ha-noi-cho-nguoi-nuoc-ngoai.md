@@ -8,12 +8,13 @@ matrix_id: 5
 primary_keyword: "thuê xe máy hà nội cho người nước ngoài"
 hub_parent: thue-xe
 hub_category: bat-dau-thue
+last_modified_at: 2026-11-16 12:00:00 +0700
 ---
 Khách quốc tế đến Hà Nội thường muốn tự lái xe máy để chủ động lịch trình, nhưng vòng thuê xe cho người nước ngoài có vài điểm khác biệt so với khách nội địa. Bài này tóm gọn giấy tờ nên chuẩn bị và những câu hỏi nên hỏi trước khi nhận xe.
 
 ## Giấy tờ người nước ngoài nên chuẩn bị
 
-Về cơ bản, bên cho thuê sẽ cần một giấy tờ tùy thân có ảnh để ghi vào hợp đồng, phổ biến nhất là hộ chiếu hoặc thẻ tạm trú kèm số liên hệ tại Việt Nam. Về giấy phép lái xe, lưu ý quan trọng: giấy phép lái xe của nước ngoài không tự động có hiệu lực khi điều khiển xe máy tại Việt Nam. Khách quốc tế thường cần giấy phép lái xe quốc tế được công nhận theo công ước mà Việt Nam là thành viên, hoặc giấy phép lái xe do Việt Nam cấp. Vì quy định có thể thay đổi và phụ thuộc quốc gia cấp phép, bạn nên kiểm tra thông tin mới nhất từ nguồn chính thống trước chuyến đi, và xác nhận trực tiếp với bên cho thuê xem họ yêu cầu giấy tờ gì khi thuê. Quy trình thuê nói chung được mô tả tại phần [thủ tục]({{ '/thutuc.html' | relative_url }}).
+Về cơ bản, bên cho thuê sẽ cần một giấy tờ tùy thân có ảnh để ghi vào hợp đồng, phổ biến nhất là hộ chiếu hoặc thẻ tạm trú kèm số liên hệ tại Việt Nam. Về giấy phép lái xe, lưu ý quan trọng: giấy phép lái xe của nước ngoài không tự động có hiệu lực khi điều khiển xe máy tại Việt Nam. Để lái xe mô tô, khách quốc tế cần giấy phép lái xe do Việt Nam cấp, hoặc giấy phép lái xe quốc tế do nước thành viên Công ước Viên 1968 cấp mang kèm giấy phép lái xe quốc gia phù hợp hạng xe (Điều 57 Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15). Vì quy định có thể thay đổi và phụ thuộc quốc gia cấp phép, bạn nên kiểm tra thông tin mới nhất từ nguồn chính thống trước chuyến đi, và xác nhận trực tiếp với bên cho thuê xem họ yêu cầu giấy tờ gì khi thuê. Quy trình thuê nói chung được mô tả tại phần [thủ tục]({{ '/thutuc.html' | relative_url }}).
 
 Ngoài giấy tờ tùy thân, nên chuẩn bị sẵn số điện thoại liên lạc tại Việt Nam và địa chỉ nơi bạn lưu trú, vì nhiều bên cho thuê ghi các thông tin này vào hợp đồng để liên hệ khi cần.
 
@@ -30,3 +31,7 @@ Về việc đỗ xe, Hà Nội quy định điểm gửi và lề đường kh�
 ## Quy trình nhận xe cho khách quốc tế
 
 Ngày nhận xe, mang theo giấy tờ gốc để đối chiếu, đọc kỹ hợp đồng trước khi ký, và làm vòng kiểm tra xe: đèn, còi, phanh, lốp, vết xước sẵn có, chụp ảnh hiện trạng hai đầu mối. Yêu cầu bên cho thuê ghi rõ các vết xước sẵn có vào biên bản để tránh tranh chấp khi hoàn cọc. Giữ bản chụp hợp đồng và số điện thoại hỗ trợ trong điện thoại. Với vòng thuê ngắn, ba mươi phút chuẩn bị này là khoản đầu tư nhỏ cho cả chuyến đi suôn sẻ.
+
+## Nguồn
+
+- Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (Điều 56, 57, 59): [vanban.chinhphu.vn](https://vanban.chinhphu.vn/?pageid=27160&docid=211194&classid=1&typegroupid=3)

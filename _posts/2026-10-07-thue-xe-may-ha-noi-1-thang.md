@@ -19,13 +19,13 @@ Một hợp đồng tháng thường gồm: giá thuê trọn tháng theo loại
 
 ## Checklist điều khoản cần hỏi trước khi ký
 
-Sáu câu hỏi cho hợp đồng tháng. Một, bảo dưỡng định kỳ trong tháng ai đứng ra tổ chức và ai trả tiền: thay dầu, căng lốp, kiểm tra giữa kỳ. Hai, nếu xe hỏng nặng không do lỗi bạn, thời gian đổi xe cam kết là bao lâu để lịch đi lại không gián đoạn. Ba, hoàn cọc trong bao nhiêu ngày và bằng hình thức nào. Bốn, nếu bạn cần kết thúc sớm, cách tính phần còn lại ra sao. Năm, bạn được phép cho ai đó vay sử dụng xe trong tháng không. Sáu, giờ liên hệ hỗ trợ khi xe gặp sự cố ngoài giờ hành chính. Quy trình thuê chuẩn tại [thủ tục]({{ '/thutuc.html' | relative_url }}); kênh hỗ trợ chính thức tại trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Sáu câu hỏi cho hợp đồng tháng. Một, bảo dưỡng định kỳ trong tháng ai đứng ra tổ chức và ai trả tiền: thay dầu, căng lốp, kiểm tra giữa kỳ. Hai, nếu xe hỏng nặng không do lỗi bạn, thời gian đổi xe cam kết là bao lâu để lịch đi lại không gián đoạn. Ba, hoàn cọc trong bao nhiêu ngày và bằng hình thức nào. Bốn, nếu bạn cần kết thúc sớm, cách tính phần còn lại ra sao. Năm, bạn được phép cho ai đó vay sử dụng xe trong tháng không. Sáu, giờ liên hệ hỗ trợ khi xe gặp sự cố ngoài giờ hành chính. Quy trình thuê chuẩn tại [thủ tục]({{ '/thutuc.html' | relative_url }}); kênh hỗ trợ chính thức tại trang liên hệ.
 
 Câu trả lời cho sáu câu hỏi này cũng là thước đo độ chuyên nghiệp: bên có quy trình sẽ trả lời trực tiếp và nhất quán; bên trả lời vòng vo thường sẽ gây phiền toái về sau.
 
 ## Chọn loại xe cho thuê tháng
 
-Với một tháng sử dụng, độ bền và tiết kiệm nhiên liệu quan hơn vẻ ngoài. Nếu lịch trình chủ yếu trong nội đô, xe số hoặc xe ga nhỏ gọn dễ luồn lách và đổ xăng ít. Nếu có chặng đường trường cuối tuần, ưu tiên xe đủ công suất và tư thế ngồi thoải mái. Xe điện cũng là lựa chọn cho quãng đường ngắn đều đặn, nhưng cần bàn rõ về pin và điểm sạc với bên cho thuê; so sánh các loại xe tại [loại xe]({{ '/loaixe.html' | relative_url }}). Với người mới thuê, các bước chuẩn bị chung nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
+Với một tháng sử dụng, độ bền và tiết kiệm nhiên liệu quan hơn vẻ ngoài. Nếu lịch trình chủ yếu trong nội đô, xe số hoặc xe ga nhỏ gọn dễ luồn lách và đổ xăng ít. Nếu có chặng đường trường cuối tuần, ưu tiên xe đủ công suất và tư thế ngồi thoải mái. Xe điện cũng là lựa chọn cho quãng đường ngắn đều đặn, nhưng cần bàn rõ về pin và điểm sạc với bên cho thuê; so sánh các loại xe tại [loại xe]({{ '/loaixe.html' | relative_url }}). Với người mới thuê, các bước chuẩn bị chung nằm trong bài thuê xe máy Hà Nội lần đầu.
 
 ## Trong suốt tháng thuê
 

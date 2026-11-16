@@ -17,7 +17,7 @@ Yếu tố một là tổng quãng một chiều: dưới mười lăm cây số
 
 ## Nhóm yếu tố về người và đồ
 
-Yếu tố tư là số người đi: hai người lớn trên 50cc đường dài là chặng vất cả cho xe lẫn người. Yếu tố năm là đồ mang theo: kiện buộc sau yên làm lệch tay lái trên đoạn nhanh. Yếu tố sáu là sức người lái: chạy đường dài cần tay lái chắc, người mới không nên dùng chặng xa để tập. Với các yếu tố này rơi vào nhóm nặng, dòng vừa hoặc lớn hơn gần như luôn đáng phần chêch giá nhỏ của nó, mức so nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Yếu tố tư là số người đi: hai người lớn trên 50cc đường dài là chặng vất cả cho xe lẫn người. Yếu tố năm là đồ mang theo: kiện buộc sau yên làm lệch tay lái trên đoạn nhanh. Yếu tố sáu là sức người lái: chạy đường dài cần tay lái chắc, người mới không nên dùng chặng xa để tập. Với các yếu tố này rơi vào nhóm nặng, dòng vừa hoặc lớn hơn gần như luôn đáng phần chênh giá nhỏ của nó, mức so nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
 
 ## Nhóm yếu tố về hậu cần giữa đường
 

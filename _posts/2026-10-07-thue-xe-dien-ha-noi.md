@@ -21,7 +21,7 @@ Xe máy điện hợp với hành trình ngắn, nhiều điểm dừng, di chuy
 
 ## Chi phí thuê và các khoản đi kèm
 
-Về chi phí, hai loại hình không cùng cấp: thuê xe máy điện theo ngày ở mức dễ chịu, trong khi thuê ô tô điện đắt hơn đáng kể do giá trị tài sản. Nhưng đừng chỉ so đơn giá: với xe máy điện, cần tính thêm quy định về pin khi nhận và khi trả, như đã phân tích trong bài [giá thuê xe máy điện Hà Nội]({{ '/blog/gia-thue-xe-may-dien-ha-noi/' }}). Với ô tô điện, cần hỏi phạm vi km được phép chạy và phụ phí vượt định mức. Mức giá niêm yết của các dòng xe máy điện nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Về chi phí, hai loại hình không cùng cấp: thuê xe máy điện theo ngày ở mức dễ chịu, trong khi thuê ô tô điện đắt hơn đáng kể do giá trị tài sản. Nhưng đừng chỉ so đơn giá: với xe máy điện, cần tính thêm quy định về pin khi nhận và khi trả, như đã phân tích trong bài giá thuê xe máy điện Hà Nội. Với ô tô điện, cần hỏi phạm vi km được phép chạy và phụ phí vượt định mức. Mức giá niêm yết của các dòng xe máy điện nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
 
 ## Chỗ sạc và thời gian chờ sạc
 
@@ -29,7 +29,7 @@ Về chi phí, hai loại hình không cùng cấp: thuê xe máy điện theo n
 
 ## Thủ tục và giấy tờ cần chuẩn bị
 
-Thuê xe máy điện cần giấy tờ tùy thân và đặt cọc theo quy định cửa hàng, chi tiết tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Thuê ô tô điện cần giấy phép lái xe hợp lệ cho loại xe đó và các điều khoản hợp đồng chặt hơn, vì giá trị tài sản lớn. Hai loại hình cũng có cách tính cọc khác nhau rõ rệt. Khi gọi hỏi trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), nói rõ loại dịch vụ mình cần để nhận tư vấn đúng ngay từ đầu.
+Thuê xe máy điện cần giấy tờ tùy thân và đặt cọc theo quy định cửa hàng, chi tiết tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Thuê ô tô điện cần giấy phép lái xe hợp lệ cho loại xe đó và các điều khoản hợp đồng chặt hơn, vì giá trị tài sản lớn. Hai loại hình cũng có cách tính cọc khác nhau rõ rệt. Khi gọi hỏi trước qua trang liên hệ, nói rõ loại dịch vụ mình cần để nhận tư vấn đúng ngay từ đầu.
 
 ## Kết luận
 

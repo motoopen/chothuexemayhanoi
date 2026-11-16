@@ -29,11 +29,11 @@ Bàn giao tại chỗ thiếu người chứng kiến thứ ba, nên ảnh là b
 
 ## Trả xe cũng cần chốt từ trước
 
-Giao tận nơi thường kéo theo trả tận nơi, nên hỏi trước: điểm trả có thể là địa chỉ khác không, ví dụ nhận ở khách sạn A trả ở ga, phí chặng chuyển tính thế nào, và khung trả có phụ phí ngoài giờ không. Khách đi một chiều nên đọc thêm bài [trả xe khác điểm nhận]({{ '/blog/thue-xe-may-ha-noi-giao-tan-noi/' | relative_url }}) và so gói ở trang [bảng giá]({{ '/banggia.html' | relative_url }}). Chốt các khoản này từ lúc đặt giúp khung trả cũng gọn như khung nhận.
+Giao tận nơi thường kéo theo trả tận nơi, nên hỏi trước: điểm trả có thể là địa chỉ khác không, ví dụ nhận ở khách sạn A trả ở ga, phí chặng chuyển tính thế nào, và khung trả có phụ phí ngoài giờ không. Khách đi một chiều nên đọc thêm bài trả xe khác điểm nhận và so gói ở trang [bảng giá]({{ '/banggia.html' | relative_url }}). Chốt các khoản này từ lúc đặt giúp khung trả cũng gọn như khung nhận.
 
 ## Ví dụ hai lần giao tận nơi
 
-Tình huống một: khách chốt khung rõ, kiểm tra năm phút trước mặt, chụp đủ hiện trạng, cả tuần êm và hoàn cọc nhanh. Tình huống hai: khách vội ra nhận xe, hai hôm sau phát hiện đèn hậu cháy và xước mới, không có ảnh bàn giao phải tự chịu phần tranh luận. Chêch nằm ở bộ ảnh và năm phút kiểm tra. Kinh nghiệm cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
+Tình huống một: khách chốt khung rõ, kiểm tra năm phút trước mặt, chụp đủ hiện trạng, cả tuần êm và hoàn cọc nhanh. Tình huống hai: khách vội ra nhận xe, hai hôm sau phát hiện đèn hậu cháy và xước mới, không có ảnh bàn giao phải tự chịu phần tranh luận. Chênh nằm ở bộ ảnh và năm phút kiểm tra. Kinh nghiệm cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 
 Tình huống một: khách ở ngõ nhỏ xe không vào được, chốt hẹn ở đầu ngõ và ra nhận, cách này nên báo trước từ lúc đặt để người giao tính đúng thời gian. Tình huống hai: khách ở khách sạn có bãi giữ riêng, hỏi trước giữ xe qua đêm ở bãi khách sạn có được tính phí thế nào, với 50cc thường là mục phí nhỏ nhưng đáng biết. Tình huống ba: khách muốn nhận tại điểm này trả tại điểm khác, hỏi phí chặng chuyển từ sớm vì có nơi gộp được vào gói dài. Nắm trước ba tình huống giúp lần giao tận nơi đầu tiên của bạn trôi suốt, không có bất ngờ tại cửa.

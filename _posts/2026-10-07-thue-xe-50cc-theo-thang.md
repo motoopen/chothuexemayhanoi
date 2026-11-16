@@ -13,15 +13,15 @@ Gói tháng với dòng 50cc là lựa chọn của khách đi lại hằng ngà
 
 ## Hỏi về bảo dưỡng giữa kỳ
 
-Xe 50cc chạy cả tháng sẽ tới lịch bảo dưỡng, và câu hỏi quan trọng nhất là ai lo phần đó. Hỏi cụ thể: xe được bảo dưỡng định kỳ trong kỳ thuê hay không, nếu có thì tại đâu, mất bao lâu và bạn có xe thay trong lúc chờ không. Với gói tháng, nơi thuê nghiêm túc thường có phương án bảo dưỡng không làm gián đoạn lịch đi của bạn. Nếu không có, một hai ngày xe nằm bảo dưỡng là bạn vẫn trả tiền thuê mà không có xe dùng. Đây là điều khoản đáng giá hơn cả phần chêch giá giữa các nơi.
+Xe 50cc chạy cả tháng sẽ tới lịch bảo dưỡng, và câu hỏi quan trọng nhất là ai lo phần đó. Hỏi cụ thể: xe được bảo dưỡng định kỳ trong kỳ thuê hay không, nếu có thì tại đâu, mất bao lâu và bạn có xe thay trong lúc chờ không. Với gói tháng, nơi thuê nghiêm túc thường có phương án bảo dưỡng không làm gián đoạn lịch đi của bạn. Nếu không có, một hai ngày xe nằm bảo dưỡng là bạn vẫn trả tiền thuê mà không có xe dùng. Đây là điều khoản đáng giá hơn cả phần chênh giá giữa các nơi.
 
 ## Hỏi về đổi xe khi có sự cố
 
-Sự cố giữa kỳ không tránh hẳn, nên hỏi trước phương án: xe hỏng vặt thì có người tới coi trong bao lâu, hỏng lớn thì có xe thay dòng tương đương không, và việc đổi xe có tính thêm không. Lưu số hỗ trợ hoạt động mọi khung giờ, kể cả cuối tuần. Với khách đi làm cố định, thời gian phản ứng là chỉ số quan trọng nhất khi so các nơi. Câu hỏi đặt gói gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), và điều khoản hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).
+Sự cố giữa kỳ không tránh hẳn, nên hỏi trước phương án: xe hỏng vặt thì có người tới coi trong bao lâu, hỏng lớn thì có xe thay dòng tương đương không, và việc đổi xe có tính thêm không. Lưu số hỗ trợ hoạt động mọi khung giờ, kể cả cuối tuần. Với khách đi làm cố định, thời gian phản ứng là chỉ số quan trọng nhất khi so các nơi. Câu hỏi đặt gói gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), và điều khoản hợp đồng nằm ở trang thủ tục thuê xe.
 
 ## Hỏi về tạm ngưng và điều chỉnh
 
-Cuối tháng khách hay về quê hoặc đi vắng vài ngày, nên hỏi trước: có tạm ngưng gói vài ngày không, cách tính lại ra sao, và có bù ngày vào kỳ sau không. Hỏi luôn về việc đổi dòng giữa kỳ, ví dụ từ 50cc lên dòng lớn cho một tuần có nhiều chặng xa, mức tính lại thế nào. Các nơi có chính sách linh hoạt thường xứng đáng hơn phần chêch nhỏ so với nơi giữ nguyên cứng. Mức giá gói tháng theo dòng nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Cuối tháng khách hay về quê hoặc đi vắng vài ngày, nên hỏi trước: có tạm ngưng gói vài ngày không, cách tính lại ra sao, và có bù ngày vào kỳ sau không. Hỏi luôn về việc đổi dòng giữa kỳ, ví dụ từ 50cc lên dòng lớn cho một tuần có nhiều chặng xa, mức tính lại thế nào. Các nơi có chính sách linh hoạt thường xứng đáng hơn phần chênh nhỏ so với nơi giữ nguyên cứng. Mức giá gói tháng theo dòng nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
 
 ## Cọc, phạm vi và giấy tờ cho gói dài
 
@@ -29,7 +29,7 @@ Với gói tháng, cọc thường giữ qua nhiều tuần, nên hỏi hình th
 
 ## Ví dụ hai khách lấy gói tháng
 
-Tình huống một: khách đi làm hỏi trước bảo dưỡng và được hẹn đổi xe trong nửa ngày, cả tháng không gián đoạn. Tình huống hai: khách chọn nơi rẻ hơn chút nhưng giữa tháng xe vào bảo dưỡng ba ngày không có xe thay, phải thuê thêm nơi khác, tổng còn đắt hơn. Chêch quyết định nằm ở câu hỏi bảo dưỡng và đổi xe, không nằm ở mức giá niêm yết. Kinh nghiệm cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
+Tình huống một: khách đi làm hỏi trước bảo dưỡng và được hẹn đổi xe trong nửa ngày, cả tháng không gián đoạn. Tình huống hai: khách chọn nơi rẻ hơn chút nhưng giữa tháng xe vào bảo dưỡng ba ngày không có xe thay, phải thuê thêm nơi khác, tổng còn đắt hơn. Chênh quyết định nằm ở câu hỏi bảo dưỡng và đổi xe, không nằm ở mức giá niêm yết. Kinh nghiệm cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Đánh giá nơi thuê qua ba chỉ số
 

@@ -21,11 +21,11 @@ Huyện ít kẹt xe cục bộ nhưng có các khung đáng chú ý: sáng sớ
 
 ## Loại xe hợp chặng dài và đường xã
 
-Với các chặng nhiều chục cây số và đường xã có đoạn gồ ghề, ưu tiên dòng xe bền, giảm xóc khỏe và bình xăng lớn. Xe ga phổ thông hợp khách đi trục chính mỗi ngày, êm trên chặng dày. Dòng xe nhỏ gọn đủ cho quãng ngắn quanh thị trấn, nhưng nên cân nhắc nếu bạn định chạy về vùng chân núi. Khách đi nhóm nên đặt trước loại xe để có đủ số lượng cùng dòng. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Với các chặng nhiều chục cây số và đường xã có đoạn gồ ghề, ưu tiên dòng xe bền, giảm xóc khỏe và bình xăng lớn. Xe ga phổ thông hợp khách đi trục chính mỗi ngày, êm trên chặng dày. Dòng xe nhỏ gọn đủ cho quãng ngắn quanh thị trấn, nhưng nên cân nhắc nếu bạn định chạy về vùng chân núi. Khách đi nhóm nên đặt trước loại xe để có đủ số lượng cùng dòng. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang bảng giá.
 
 ## Hỏi về phạm vi di chuyển và giao xe tận nơi
 
-Hai câu nên hỏi khi đặt: phạm vi gói thuê có gồm trục về trung tâm và tuyến vòng quanh huyện không, vì có gói giới hạn bán kính; và gói giao xe tận nhà có phủ tới thôn xã bạn ở không, phụ phí ra sao. Với lịch trình liên quan sân bay, nói rõ để được tư vấn khung giờ hợp lý. Với khách công tác ở lại lâu, các khoản ngoài giá thuê được nói rõ trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}). Giấy tờ chuẩn bị khi ký nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Kinh nghiệm lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Hai câu nên hỏi khi đặt: phạm vi gói thuê có gồm trục về trung tâm và tuyến vòng quanh huyện không, vì có gói giới hạn bán kính; và gói giao xe tận nhà có phủ tới thôn xã bạn ở không, phụ phí ra sao. Với lịch trình liên quan sân bay, nói rõ để được tư vấn khung giờ hợp lý. Với khách công tác ở lại lâu, các khoản ngoài giá thuê được nói rõ trong bài thuê xe máy dài hạn Hà Nội. Giấy tờ chuẩn bị khi ký nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Kinh nghiệm lần đầu thuê nằm trong bài thuê xe máy Hà Nội lần đầu.
 
 ## Kiểm tra xe và giữ xe trong vùng thưa dân
 

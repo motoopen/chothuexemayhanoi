@@ -25,7 +25,7 @@ Trộm ngại chỗ có người ngồi uống nước cạnh xe, nên chọn đ
 
 ## Che đồ và không bày đồ trên yên
 
-Túi rời trên yên là lời mời, nên mọi đồ đựng vào cốp hoặc mang theo, cách chọn xe có cốp rộng đã trình bày trong bài [thuê xe máy có cốp rộng Hà Nội]({{ '/blog/thue-xe-may-cop-rong-ha-noi/' | relative_url }}). Mũ bảo hiểm buộc ngoài yên nên buộc chặt bằng dây co, vì mũ là món bị nhặt nhiều nhất, và thay mũ bị mất tính vào chi phí, khung các khoản tính thêm đã có trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/blog/chi-phi-hu-hong-khi-thue-xe-may/' | relative_url }}).
+Túi rời trên yên là lời mời, nên mọi đồ đựng vào cốp hoặc mang theo, cách chọn xe có cốp rộng đã trình bày trong bài [thuê xe máy có cốp rộng Hà Nội]({{ '/blog/thue-xe-may-cop-rong-ha-noi/' | relative_url }}). Mũ bảo hiểm buộc ngoài yên nên buộc chặt bằng dây co, vì mũ là món bị nhặt nhiều nhất, và thay mũ bị mất tính vào chi phí, khung các khoản tính thêm đã có trong bài chi phí hư hỏng khi thuê xe máy.
 
 ## Kiểm tra xe mỗi lần lấy lại
 
@@ -37,7 +37,7 @@ Xe điện có thêm pin và sạc, nên không để sạc rời trên yên, v�
 
 ## Nếu xe bị mất
 
-Báo ngay nơi thuê để hai bên kịp trình công an khu vực, đừng tự tìm đến tối mới báo, vì hợp đồng thường ghi thời hạn báo tin. Trình báo cần mô tả xe, giấy tờ kèm xe và điểm đỗ cuối, thủ tục với giấy tờ xe đã có trong bài [mất giấy tờ xe thuê]({{ '/blog/mat-giay-to-xe-thue/' | relative_url }}). Chụp xe trước mỗi lần đỗ giúp mô tả chính xác hơn, thói quen chụp ảnh đã trình bày trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}), và liên hệ nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) ngay khi phát hiện.
+Báo ngay nơi thuê để hai bên kịp trình công an khu vực, đừng tự tìm đến tối mới báo, vì hợp đồng thường ghi thời hạn báo tin. Trình báo cần mô tả xe, giấy tờ kèm xe và điểm đỗ cuối, thủ tục với giấy tờ xe đã có trong bài mất giấy tờ xe thuê. Chụp xe trước mỗi lần đỗ giúp mô tả chính xác hơn, thói quen chụp ảnh đã trình bày trong bài chụp ảnh xe trước khi thuê, và liên hệ nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) ngay khi phát hiện.
 
 ## Kết luận
 

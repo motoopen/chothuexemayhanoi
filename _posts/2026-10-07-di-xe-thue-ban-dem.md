@@ -13,7 +13,7 @@ Ban đêm là khung giờ rủi ro nhất với xe máy, và với xe thuê thì
 
 ## Kiểm tra đèn pha và cồ trước khi nhận xe
 
-Tại điểm nhận, bật đèn pha xem cả chiếu xa lẫn chiếu gần, vì chiếu xa lỏng sẽ giật lên mỗi lần gặp ổ gà. Thử cồ đèn xem nhả có nhẹ không, cồ kẹt khiến bạn bịt cồ lâu trong tư thế khó xử lý. Toàn bộ thao tác kiểm nhận đã liệt kê trong bài [checklist 10 phút trước khi nhận xe]({{ '/blog/checklist-10-phut-truoc-khi-nhan-xe/' | relative_url }}), và đèn yếu là lý do chính đáng đề nghị đổi xe ngay, tiêu chí chọn nơi thuê nằm trong bài [thuê xe máy Hà Nội uy tín]({{ '/blog/thue-xe-may-ha-noi-uy-tin/' | relative_url }}).
+Tại điểm nhận, bật đèn pha xem cả chiếu xa lẫn chiếu gần, vì chiếu xa lỏng sẽ giật lên mỗi lần gặp ổ gà. Thử cồ đèn xem nhả có nhẹ không, cồ kẹt khiến bạn bịt cồ lâu trong tư thế khó xử lý. Toàn bộ thao tác kiểm nhận đã liệt kê trong bài [checklist 10 phút trước khi nhận xe]({{ '/blog/checklist-10-phut-truoc-khi-nhan-xe/' | relative_url }}), và đèn yếu là lý do chính đáng đề nghị đổi xe ngay, tiêu chí chọn nơi thuê nằm trong bài thuê xe máy Hà Nội uy tín.
 
 ## Đèn hậu và xi nhan là phần hay bị bỏ quên
 
@@ -29,7 +29,7 @@ Nhiều người chỉ soi đèn trước, nhưng đèn hậu là thứ giúp xe
 
 ## Chọn tốc độ theo tầm đèn
 
-Nguyên tắc đêm là dừng được trong khoảng đèn chiếu: nếu đèn gần chiếu ba mươi mét thì chạy ở tốc độ phanh lại trong ba mươi mét. Đêm cũng là lúc ổ gà, vạch sơn và cột ẩn hiện muộn, nên hạ tốc qua mọi ngã tư kể cả đèn xanh. Tuyến đèn đẹp cho đêm Hà Nội đã giới thiệu trong bài [đi xe máy Hà Nội buổi tối]({{ '/blog/di-xe-may-ha-noi-buoi-toi/' | relative_url }}), và nếu mưa thêm vào đêm thì dựng xe ở chỗ mái che, cách đi trong mưa đã nêu trong bài [thuê xe máy Hà Nội mùa mưa]({{ '/blog/thue-xe-may-ha-noi-mua-mua/' | relative_url }}).
+Nguyên tắc đêm là dừng được trong khoảng đèn chiếu: nếu đèn gần chiếu ba mươi mét thì chạy ở tốc độ phanh lại trong ba mươi mét. Đêm cũng là lúc ổ gà, vạch sơn và cột ẩn hiện muộn, nên hạ tốc qua mọi ngã tư kể cả đèn xanh. Tuyến đèn đẹp cho đêm Hà Nội đã giới thiệu trong bài [đi xe máy Hà Nội buổi tối]({{ '/blog/di-xe-may-ha-noi-buoi-toi/' | relative_url }}), và nếu mưa thêm vào đêm thì dựng xe ở chỗ mái che, cách đi trong mưa đã nêu trong bài thuê xe máy Hà Nội mùa mưa.
 
 ## Điểm dừng và gửi xe ban đêm
 
@@ -37,7 +37,7 @@ Nguyên tắc đêm là dừng được trong khoảng đèn chiếu: nếu đè
 
 ## Khi đèn hỏng giữa chặng
 
-Đèn tắt giữa đêm thì kéo vào lề ở chỗ sáng, mở sẵn đèn pin điện thoại để báo hiệu xe sau, và gọi nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}), phần chi phí phân định nằm trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/blog/chi-phi-hu-hong-khi-thue-xe-may/' | relative_url }}). Không cố chạy tiếp với đèn chết, vì đó là lỗi bị xử phạt và là rủi ro lớn nhất đêm. Nếu phải gửi xe qua đêm ở điểm dừng, nhớ khóa cổ và lấy hết đồ có giá trị, kinh nghiệm mất chìa đã trình bày trong bài [mất chìa khóa xe thuê]({{ '/blog/mat-chia-khoa-xe-thue/' | relative_url }}).
+Đèn tắt giữa đêm thì kéo vào lề ở chỗ sáng, mở sẵn đèn pin điện thoại để báo hiệu xe sau, và gọi nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) theo trình tự trong bài xe thuê bị hỏng giữa đường, phần chi phí phân định nằm trong bài chi phí hư hỏng khi thuê xe máy. Không cố chạy tiếp với đèn chết, vì đó là lỗi bị xử phạt và là rủi ro lớn nhất đêm. Nếu phải gửi xe qua đêm ở điểm dừng, nhớ khóa cổ và lấy hết đồ có giá trị, kinh nghiệm mất chìa đã trình bày trong bài mất chìa khóa xe thuê.
 
 ## Kết luận
 

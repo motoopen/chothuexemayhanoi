@@ -8,20 +8,21 @@ matrix_id: 229
 primary_keyword: "thuê xe máy điện cần bằng lái không"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+last_modified_at: 2026-11-16 12:00:00 +0700
 ---
 Xe máy điện ngày càng phổ biến trong các cửa hàng cho thuê, nhưng không phải chiếc nào cũng thuộc diện không cần bằng lái. Bài này giúp bạn phân loại xe điện trước khi kết luận có cần giấy phép hay không.
 
 ## Phân loại xe điện theo công suất
 
-Xe điện cho thuê chia làm hai nhóm: xe đạp điện và xe máy điện công suất nhỏ thuộc nhóm không cần giấy phép lái, còn xe máy điện công suất lớn tương đương xe máy xăng yêu cầu giấy phép hạng phù hợp. Căn cứ là công suất và tốc độ thiết kế của xe, không phải xe dùng pin hay xăng. Vì vậy khi đặt xe, hỏi bên cho thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) model cụ thể thuộc nhóm nào, thay vì hỏi chung xe điện có cần bằng không.
+Xe điện cho thuê chia làm hai nhóm: xe đạp điện và xe máy điện thuộc nhóm xe gắn máy (công suất không quá 4 kW, vận tốc thiết kế không quá 50 km/h) không cần giấy phép lái, người lái xe gắn máy cần đủ 16 tuổi; xe máy điện vượt một trong hai ngưỡng này là xe mô tô và cần bằng A1 (đến 11 kW) hoặc A (trên 11 kW). Căn cứ là công suất và tốc độ thiết kế của xe, không phải xe dùng pin hay xăng. Vì vậy khi đặt xe, hỏi bên cho thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) model cụ thể thuộc nhóm nào, thay vì hỏi chung xe điện có cần bằng không.
 
 ## Nhóm không cần bằng lái
 
-Nhóm xe điện công suất nhỏ là lựa chọn cho người chưa có giấy phép lái: hợp pháp để tự lái, nhẹ và dễ cân bằng. Chi tiết quy định nằm trong bài [thuê xe điện không cần bằng lái]({{ '/blog/thue-xe-dien-khong-can-bang-lai/' | relative_url }}) và câu hỏi gốc trong bài [xe điện có cần bằng lái không]({{ '/blog/xe-dien-co-can-bang-lai-khong/' | relative_url }}). Khi thuê nhóm này, bạn vẫn cần giấy tờ tùy thân để xác minh người thuê, xem danh sách trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/blog/thue-xe-may-ha-noi-can-giay-to-gi/' | relative_url }}).
+Nhóm xe điện công suất nhỏ là lựa chọn cho người chưa có giấy phép lái: hợp pháp để tự lái, nhẹ và dễ cân bằng. Chi tiết quy định nằm trong bài [thuê xe điện không cần bằng lái]({{ '/blog/thue-xe-dien-khong-can-bang-lai/' | relative_url }}) và câu hỏi gốc trong bài xe điện có cần bằng lái không. Khi thuê nhóm này, bạn vẫn cần giấy tờ tùy thân để xác minh người thuê, xem danh sách trong bài thuê xe máy Hà Nội cần giấy tờ gì.
 
 ## Nhóm cần bằng lái
 
-Xe máy điện công suất lớn được quản lý như xe máy xăng cùng phân khối: người lái cần giấy phép lái hạng phù hợp với công suất xe. Nếu bạn có bằng phổ thông, nhóm này vẫn nằm trong tầm với, đọc thêm phần khớp hạng trong bài [bằng lái Việt Nam khi thuê xe máy]({{ '/blog/bang-lai-viet-nam-thue-xe-may/' | relative_url }}). Khách nước ngoài cần kiểm tra hiệu lực bằng của mình, xem trong bài [bằng lái quốc tế khi thuê xe máy Việt Nam]({{ '/blog/bang-lai-quoc-te-thue-xe-may-viet-nam/' | relative_url }}).
+Xe máy điện trên 4 kW hoặc có vận tốc thiết kế trên 50 km/h là xe mô tô: người lái cần bằng A1 nếu công suất đến 11 kW, bằng A nếu trên 11 kW. Nếu bạn đã có bằng A1 hoặc A, nhóm này vẫn nằm trong tầm với, đọc thêm phần khớp hạng trong bài [bằng lái Việt Nam khi thuê xe máy]({{ '/blog/bang-lai-viet-nam-thue-xe-may/' | relative_url }}). Khách nước ngoài cần kiểm tra hiệu lực bằng của mình, xem trong bài bằng lái quốc tế khi thuê xe máy Việt Nam.
 
 ## Câu hỏi nên hỏi bên cho thuê
 
@@ -29,15 +30,14 @@ Ba câu giúp bạn chốt nhanh: xe này thuộc nhóm cần bằng hay không,
 
 ## Nhận xe và kiểm nhanh
 
-Khi nhận xe điện, kiểm pin, phanh và đèn theo checklist trong bài [checklist nhận xe máy điện]({{ '/blog/checklist-nhan-xe-may-dien/' | relative_url }}), chạy thử một vòng quanh khu, và hỏi rõ quãng đường đi được mỗi lần sạc đầy. Đối chiếu giá theo trang [bảng giá]({{ '/banggia.html' | relative_url }}), và ghi model xe cụ thể vào hợp đồng, xem các mục nên có trong bài [hợp đồng thuê xe máy cần có gì]({{ '/blog/hop-dong-thue-xe-may-can-co-gi/' | relative_url }}). Mùa mưa thì hỏi thêm phần giao xe ướt trong bài [thuê xe máy điện mùa mưa]({{ '/blog/thue-xe-may-dien-mua-mua/' | relative_url }}).
+Khi nhận xe điện, kiểm pin, phanh và đèn theo checklist trong bài checklist nhận xe máy điện, chạy thử một vòng quanh khu, và hỏi rõ quãng đường đi được mỗi lần sạc đầy. Đối chiếu giá theo trang [bảng giá]({{ '/banggia.html' | relative_url }}), và ghi model xe cụ thể vào hợp đồng, xem các mục nên có trong bài hợp đồng thuê xe máy cần có gì. Mùa mưa thì hỏi thêm phần giao xe ướt trong bài thuê xe máy điện mùa mưa.
 
 Một điều nữa nên hỏi là phạm vi hoạt động của xe điện: pin đầy đi được bao xa tùy dòng xe và tải, nên nếu lịch trình của bạn có chặng xa, hỏi trước quãng đường thực tế và chỗ sạc trên tuyến. Với dòng xe điện công suất nhỏ, tránh chặng dốc dài hoặc chở hai người nặng, vì pin tụ nhanh hơn công bố. Cuối cùng, hỏi nơi thuê về việc đổi xe giữa kỳ nếu pin chai, để kỳ thuê dài không bị gián đoạn giữa chừng.
 
 ## Kết luận
 
-Xe điện công suất nhỏ không cần bằng lái, xe điện công suất lớn cần hạng phù hợp, và căn cứ là công suất thiết kế của xe. Phân loại xe trước, hỏi bên cho thuê model cụ thể, và chọn dòng khớp với giấy phép mình có để kỳ thuê suôn sẻ.
+Xe máy điện không quá 4 kW và không quá 50 km/h không cần bằng lái (người lái đủ 16 tuổi), xe mạnh hơn cần bằng A1 hoặc A, và căn cứ là công suất, vận tốc thiết kế của xe. Phân loại xe trước, hỏi bên cho thuê model cụ thể, và chọn dòng khớp với giấy phép mình có để kỳ thuê suôn sẻ.
 
 ## Nguồn
 
 - Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 của Quốc hội: [vanban.chinhphu.vn](https://vanban.chinhphu.vn/?pageid=27160&docid=211194&classid=1&typegroupid=3)
-- Thông tư 35/2024/TT-BGTVT của Bộ Giao thông vận tải về đào tạo, cấp giấy phép lái xe và giấy phép lái xe quốc tế: [luatvietnam.vn](https://luatvietnam.vn/giao-thong/thong-tu-35-2024-tt-bgtvt-dao-tao-cap-giay-phep-lai-xe-giay-phep-lai-xe-quoc-te-chung-chi-giao-thong-duong-bo-378513-d1.html)

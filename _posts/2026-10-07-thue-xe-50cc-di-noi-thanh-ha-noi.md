@@ -25,7 +25,7 @@ Giờ cao điểm nội thành, mọi dòng xe đều chậm, và dòng 50cc có
 
 ## Kiểm tra xe và thủ tục khi nhận
 
-Xe 50cc chạy nội thành nhiều đèn đỏ, nên phanh ăn và đèn còi là hai điểm phải kiểm tra kỹ. Chạy thử vòng ngắn, kiểm tra ga đều, và chụp hiện trạng kể cả vết xước sẵn có. Hỏi chính sách đổi xe giữa kỳ và số hỗ trợ khi có sự cố. Điều khoản hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), và mọi câu hỏi trước khi nhận gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Xe 50cc chạy nội thành nhiều đèn đỏ, nên phanh ăn và đèn còi là hai điểm phải kiểm tra kỹ. Chạy thử vòng ngắn, kiểm tra ga đều, và chụp hiện trạng kể cả vết xước sẵn có. Hỏi chính sách đổi xe giữa kỳ và số hỗ trợ khi có sự cố. Điều khoản hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), và mọi câu hỏi trước khi nhận gửi qua trang liên hệ.
 
 ## Ví dụ hai lịch nội thành trong tuần
 
@@ -33,7 +33,7 @@ Tình huống một: khách ở phố nhỏ, đi làm ba cây số, trưa chạy
 
 ## Ba câu hỏi nhanh trước khi chọn dòng
 
-Câu một: tổng quãng mỗi ngày của tôi vào khoảng bao nhiêu cây số. Câu hai: trên tuyến có cầu lớn hoặc trục nhanh hay không. Câu ba: tôi có thường chở thêm người hoặc đồ to không. Ba câu trả lời gần như quyết định luôn dòng xe: quãng ngắn, không trục nhanh, ít tải thì 50cc là đủ, còn ngược lại thì dòng vừa sẽ thoải mái hơn phần chêch giá nhỏ. Đặt ba câu hỏi này cho chính mình trước khi gọi nơi thuê, rồi hỏi thêm mức gói theo tuần hoặc tháng cho lịch cố định, vì nội thành đi hằng ngày là dạng lịch được giá nhất khi lấy gói dài.
+Câu một: tổng quãng mỗi ngày của tôi vào khoảng bao nhiêu cây số. Câu hai: trên tuyến có cầu lớn hoặc trục nhanh hay không. Câu ba: tôi có thường chở thêm người hoặc đồ to không. Ba câu trả lời gần như quyết định luôn dòng xe: quãng ngắn, không trục nhanh, ít tải thì 50cc là đủ, còn ngược lại thì dòng vừa sẽ thoải mái hơn phần chênh giá nhỏ. Đặt ba câu hỏi này cho chính mình trước khi gọi nơi thuê, rồi hỏi thêm mức gói theo tuần hoặc tháng cho lịch cố định, vì nội thành đi hằng ngày là dạng lịch được giá nhất khi lấy gói dài.
 
 ## Kết luận
 
