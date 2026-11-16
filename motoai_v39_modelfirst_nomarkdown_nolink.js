@@ -322,7 +322,13 @@
     return null;
   }
   function detectQty(t){
-    const m=(t||"").match(/(\d+)\s*(ngày|day|tuần|tuan|week|tháng|thang|month)?/i);
+    // Bỏ dung tích (50cc), số tiền (150k, 2tr, 200.000đ) và số điện thoại trước khi đọc số lượng,
+    // để "xe 50cc 1 ngày" không bị hiểu thành 50 ngày. Ưu tiên số đứng ngay trước đơn vị thời gian.
+    const s=String(t||"")
+      .replace(/\d+\s*cc(?![a-z0-9])/gi," ")
+      .replace(/\d+(?:[.,]\d+)*\s*(?:k|đ|vnđ|vnd|tr|triệu|trieu|nghìn|ngàn)(?![a-z0-9])/gi," ")
+      .replace(/\d{5,}/g," ");
+    const m=s.match(/(\d+)\s*(ngày|ngay|day|tuần|tuan|week|tháng|thang|month)/i) || s.match(/(\d{1,3})()/);
     if(!m) return null; const n=parseInt(m[1],10); if(!n) return null;
     let unit="ngày"; if(m[2]){ if(/tuần|tuan|week/i.test(m[2])) unit="tuần"; else if(/tháng|thang|month/i.test(m[2])) unit="tháng"; }
     return {n,unit};
@@ -331,7 +337,8 @@
     return {
       needPrice:   /(giá|bao nhiêu|thuê|tính tiền|cost|price)/i.test(t),
       needDocs:    /(thủ tục|giấy tờ|cccd|passport|hộ chiếu)/i.test(t),
-      needContact: /(liên hệ|zalo|gọi|hotline|sđt|sdt|phone)/i.test(t),
+      needContact: /(liên hệ|zalo|gọi|hotline|sđt|sdt|số đt|điện thoại|phone)/i.test(t),
+      thanks:      /(cảm ơn|cám ơn|thank)/i.test(t),
       needDelivery:/(giao|ship|tận nơi|đưa xe|mang xe)/i.test(t),
       needReturn:  /(trả xe|gia hạn|đổi xe|kết thúc thuê)/i.test(t),
       needPolicy:  /(điều kiện|chính sách|bảo hiểm|hư hỏng|sự cố|đặt cọc|cọc)/i.test(t)
@@ -429,9 +436,11 @@
       {key:/\bxe\s*số\b/i,                      type:'xe số'},
       {key:/\bxe\s*ga\b/i,                      type:'xe ga'}
     ];
-    const reNum = /(\d+(?:[.,]\d+)?)(?:\s*(k|tr|triệu|million))?|\b(\d{1,3}(?:[.,]\d{3})+)\b/i;
+    // Giá hợp lệ phải có đơn vị tiền (150k, 1.5tr) hoặc dạng hàng nghìn (150.000): bỏ dung tích "50cc",
+    // số đời xe "Vision 110"... vốn từng bị học nhầm thành giá 50đ/110đ.
+    const reMoney = /(\d+(?:[.,]\d+)?)\s*(k|tr|triệu|million)(?![a-z])|\b(\d{1,3}(?:[.,]\d{3})+)\b/i;
     function parseVND(line){
-      const m = line.match(reNum);
+      const m = line.replace(/\d+\s*cc(?![a-z0-9])/gi,' ').match(reMoney);
       if(!m) return null;
       let val = 0;
       if(m[3]){ // 150.000 hoặc 1,200,000
@@ -454,10 +463,11 @@
       const isWeek  = /\b(tuần|week)\b/i.test(line);
       const isMonth = /\b(tháng|month)\b/i.test(line);
       if(isWeek || isMonth) continue; // CHỈ học giá theo NGÀY
+      if(/cọc|đặt\s*cọc|deposit/i.test(line)) continue; // dòng tiền cọc không phải giá thuê
 
       const price = parseVND(line);
       if(!price) continue;
-      if(price && price<5000000){ out.push({type:found.type, unit:'day', price}); }
+      if(price>=50000 && price<1000000){ out.push({type:found.type, unit:'day', price}); } // giá NGÀY hợp lý: 50k–1tr
     }
     return out;
   }
@@ -799,24 +809,26 @@
 
     const qty  = detectQty(q);
 
-    // Deep context: lấy model/qty gần nhất nếu thiếu
-    if(CFG.deepContext){
-      const ctx = getCtx();
-      for(let i=ctx.turns.length-1;i>=0;i--){
-        const t = ctx.turns[i];
-        if(!model && t.type) model=t.type;
-        if(!qty && t.qty)   return composePrice(model||t.type, t.qty);
-        if(model && qty) break;
-      }
-    }
-
-    if(intents.needContact) return polite(`anh/chị gọi ${CFG.phone} hoặc Zalo ${CFG.zalo||CFG.phone} là có người nhận ngay.`);
+    if(intents.needContact) return polite(`anh/chị gọi hoặc nhắn Zalo ${CFG.phone} là có người nhận ngay.`);
     if(intents.needDocs)    return polite(`thủ tục gọn: CCCD/hộ chiếu + cọc theo xe. Có phương án giảm cọc khi đủ giấy tờ.`);
     if(intents.needPolicy)  return polite(`đặt cọc tham khảo: xe số 2–3 triệu; xe ga 2–5 triệu; 50cc khoảng 4 triệu. Liên hệ Zalo ${CFG.phone} để chốt theo mẫu xe.`);
     if(intents.needDelivery)return polite(`bên em giao xe tận nơi tại các quận nội thành theo lịch hẹn; phí giao tiêu chuẩn 20k–50k tùy khoảng cách và điểm hẹn, nhận xe tại cửa hàng 114 Nguyễn Văn Cừ, Long Biên thì không mất phí. Nhắn Zalo ${CFG.phone} để em set lịch.`);
     if(intents.needReturn)  return polite(`trả xe tại cửa hàng hoặc hẹn trả tận nơi (thỏa thuận). Báo trước 30 phút để em sắp xếp, hoàn cọc nhanh.`);
 
-    if(intents.needPrice)   return composePrice(model, qty);
+    // Deep context: lấy model/qty gần nhất nếu thiếu (chỉ khi khách hỏi giá hoặc nêu mẫu xe)
+    const askedModel = model;
+    if(CFG.deepContext){
+      const ctx = getCtx();
+      for(let i=ctx.turns.length-1;i>=0;i--){
+        const t = ctx.turns[i];
+        if(!model && t.type) model=t.type;
+        if(!qty && t.qty && (intents.needPrice || askedModel)) return composePrice(model||t.type, t.qty);
+        if(model && qty) break;
+      }
+    }
+
+    if(intents.needPrice || (askedModel && qty)) return composePrice(model, qty);
+    if(intents.thanks)      return polite(`dạ không có gì ạ. Anh/chị cần giữ xe hay hỏi thêm cứ nhắn em, hoặc gọi ${CFG.phone}.`);
 
     // Semantic retrieval + Extractive QA (KHÔNG chèn link)
     try{
@@ -840,7 +852,8 @@
   function mergeAutoPrices(){
     if(!CFG.smart.autoPriceLearn) return;
     try{
-      const autos = safe(localStorage.getItem(K.autoprices))||[];
+      // Bỏ giá rác (< 50.000đ) có thể còn trong bộ nhớ của khách từ phiên bản cũ.
+      const autos = (safe(localStorage.getItem(K.autoprices))||[]).filter(a=> a && a.price>=50000 && a.price<1000000);
       if(!autos.length) return;
       const byType = autos.reduce((m,a)=>{ (m[a.type]||(m[a.type]=[])).push(a.price); return m; },{});
       Object.keys(byType).forEach(t=>{
@@ -892,6 +905,7 @@
     $("#mta-backdrop").classList.add("show");
     $("#mta-bubble").style.display="none";
     isOpen=true; renderSess();
+    if(typeof kickLearn === "function") kickLearn();
     setTimeout(()=>{ const i=$("#mta-in"); if(i) i.focus(); }, 160);
   }
   function closeChat(){
@@ -903,6 +917,8 @@
     try{ $("#mta-bubble").focus({preventScroll:true}); }catch(e){}
     isOpen=false; hideTyping();
   }
+  // Esc đóng khung chat (bàn phím / trình đọc màn hình)
+  document.addEventListener("keydown", function(e){ if(e.key==="Escape" && isOpen) closeChat(); });
   function autoAvoid(){
     // tránh đè với quick call / bottom bar + iOS keyboard
     const root=$("#mta-root"); const body=$("#mta-body"); if(!root||!body) return;
@@ -948,6 +964,7 @@
 
   function ready(fn){ if(document.readyState==="complete"||document.readyState==="interactive") fn(); else document.addEventListener("DOMContentLoaded", fn); }
 
+  let kickLearn = null; // set at boot when autolearn is on; also triggered by the first chat open
   /* ====== BOOT ====== */
   ready(async ()=>{
     // dọn cache 7 ngày/lần
@@ -966,20 +983,28 @@
     // merge auto-prices (MODEL-first)
     mergeAutoPrices();
 
-    // AutoLearn nhiều site
+    // AutoLearn nhiều site — chạy khi trình duyệt rảnh sau khi trang tải xong (hoặc ngay khi mở chat),
+    // để ~20 lượt tải nền không tranh băng thông với nội dung/ảnh lúc trang đang hiển thị.
     if(CFG.autolearn){
-      try{
-        const origins = Array.from(new Set([location.origin, ...(CFG.extraSites||[])]));
-        const last = parseInt(localStorage.getItem(K.stamp)||0);
-        if(!last || (Date.now()-last) >= CFG.refreshHours*3600*1000){
-          if(CFG.debug) console.groupCollapsed("%cMotoAI v38.1 — AutoLearn start","color:"+CFG.themeColor+";font-weight:bold");
-          await learnSites(origins, false);
-          if(CFG.debug) console.groupEnd();
-          console.log("%cMotoAI v38.1 — learned from multiple sites","color:"+CFG.themeColor+";font-weight:bold;");
-        }else{
-          console.log("MotoAI v38.1 — skip learn (fresh cache)");
-        }
-      }catch(e){ console.warn("MotoAI v38.1 autolearn error", e); }
+      let learnStarted = false;
+      kickLearn = async ()=>{
+        if(learnStarted) return; learnStarted = true;
+        try{
+          const origins = Array.from(new Set([location.origin, ...(CFG.extraSites||[])]));
+          const last = parseInt(localStorage.getItem(K.stamp)||0);
+          if(!last || (Date.now()-last) >= CFG.refreshHours*3600*1000){
+            if(CFG.debug) console.groupCollapsed("%cMotoAI v38.1 — AutoLearn start","color:"+CFG.themeColor+";font-weight:bold");
+            await learnSites(origins, false);
+            if(CFG.debug) console.groupEnd();
+            console.log("%cMotoAI v38.1 — learned from multiple sites","color:"+CFG.themeColor+";font-weight:bold;");
+          }else{
+            console.log("MotoAI v38.1 — skip learn (fresh cache)");
+          }
+        }catch(e){ console.warn("MotoAI v38.1 autolearn error", e); }
+      };
+      const whenIdle = (fn)=> (window.requestIdleCallback ? window.requestIdleCallback(fn, {timeout: 8000}) : setTimeout(fn, 3000));
+      if(document.readyState === "complete") whenIdle(kickLearn);
+      else window.addEventListener("load", ()=> whenIdle(kickLearn), {once: true});
     }
   });
 
