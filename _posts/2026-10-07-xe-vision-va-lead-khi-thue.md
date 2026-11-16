@@ -13,7 +13,7 @@ Vision và Lead là hai dòng ga nhỏ được thuê nhiều nhất, và khác 
 
 ## Độ gọn và lách phố
 
-Vision gọn và nhẹ hơn chút, lọt ngõ và dấu xe dễ hơn, hợp lịch nội thành lẻ tẻ. Lead dài hơn một nhịp và thân đầy đặn hơn, lách trong ngóc hẹp kém nhẹ nhàng hơn. Nếu ngày của bạn quanh phố cổ và ngõ nhỏ, Vision nhỉnh phần cơ động, xem thêm tiêu chí gọn trong bài [thuê xe máy đi phố đông Hà Nội]({{ '/blog/thue-xe-may-di-pho-dong-ha-noi/' | relative_url }}). Nếu lịch ít lách và đường rộng hơn, phần chênh gọn không đáng kể.
+Vision gọn và nhẹ hơn chút, lọt ngõ và dấu xe dễ hơn, hợp lịch nội thành lẻ tẻ. Lead dài hơn một nhịp và thân đầy đặn hơn, lách trong ngõ hẹp kém nhẹ nhàng hơn. Nếu ngày của bạn quanh phố cổ và ngõ nhỏ, Vision nhỉnh phần cơ động, xem thêm tiêu chí gọn trong bài [thuê xe máy đi phố đông Hà Nội]({{ '/blog/thue-xe-may-di-pho-dong-ha-noi/' | relative_url }}). Nếu lịch ít lách và đường rộng hơn, phần chênh gọn không đáng kể.
 
 ## Cốp và đồ đạc
 

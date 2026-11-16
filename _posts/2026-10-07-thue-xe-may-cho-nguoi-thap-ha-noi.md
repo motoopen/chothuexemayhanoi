@@ -21,7 +21,7 @@ Nhóm 50cc và xe ga nhỏ có yên thấp nhất: Wave, Vision, xe điện mini
 
 ## Chỉnh yên và ghế lót tại điểm thuê
 
-Xe ga nhiều bản có chỉnh được độ cao khoảng nhỏ, hỏi nơi thuê chỉnh thử. Nếu không chỉnh được, xin thêm tấm lót yên hoặc gối nhỏ, được vài ly cũng giúp chân chạm chắc hơn. Nới ghìe và chuyển tay lái gần hơn cũng giúp tư thế gọn cho người thấp. Yêu cầu các chỉnh này ngay tại bàn giao, đừng về nhà rồi mới thấy khó chịu. Nơi thuê quen yêu cầu này lắm vì khách thấp chiếm phần không nhỏ.
+Xe ga nhiều bản có chỉnh được độ cao khoảng nhỏ, hỏi nơi thuê chỉnh thử. Nếu không chỉnh được, xin thêm tấm lót yên hoặc gối nhỏ, được vài ly cũng giúp chân chạm chắc hơn. Nới ghi đông và chuyển tay lái gần hơn cũng giúp tư thế gọn cho người thấp. Yêu cầu các chỉnh này ngay tại bàn giao, đừng về nhà rồi mới thấy khó chịu. Nơi thuê quen yêu cầu này lắm vì khách thấp chiếm phần không nhỏ.
 
 ## Kiểm thêm khi đã chọn được xe thấp
 

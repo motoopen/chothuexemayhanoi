@@ -17,7 +17,7 @@ Ngõ hẹp, vỉa hè chắn và làn đông đòi xe ngắn và nhẹ: 50cc và
 
 ## Bán kính vòng và khả năng quay đầu
 
-Quay đầu trong ngóc hẹp cần bán kính vòng nhỏ và ghìe gần: nhóm số và 50cc vòng gọn hơn dòng ga to. Thử ngay tại quầy bằng cách quay xe quanh giữa lối đi, thấy phải đạp nhiều vòng là biết. Xe điện mini nhiều bản vòng rất gọn nhờ bánh nhỏ. Nếu lịch của bạn lắm ngõ cụt và chợ buổi sáng, tiêu chí này đáng giá hơn sức máy. So thêm độ rộng của gương vì gương to dễ hít cửa hoặc người khi lách.
+Quay đầu trong ngõ hẹp cần bán kính vòng nhỏ và ghi đông gần: nhóm số và 50cc vòng gọn hơn dòng ga to. Thử ngay tại quầy bằng cách quay xe quanh giữa lối đi, thấy phải đạp nhiều vòng là biết. Xe điện mini nhiều bản vòng rất gọn nhờ bánh nhỏ. Nếu lịch của bạn lắm ngõ cụt và chợ buổi sáng, tiêu chí này đáng giá hơn sức máy. So thêm độ rộng của gương vì gương to dễ hít cửa hoặc người khi lách.
 
 ## Phanh khi dừng liên tục
 

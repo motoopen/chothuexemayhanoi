@@ -25,7 +25,7 @@ Nhóm 50cc và ga nhỏ thấp nhất: Cub, Wave, Vision, xem so sánh trong bà
 
 ## Chỉnh được gì tại điểm thuê
 
-Hỏi chỉnh độ cao yên nếu bản có, xin lót yên hoặc gối nhỏ, và nới ghìe gần hơn cho tay với chân đều gọn. Nơi thuê quen các yêu cầu này và thường có sẵn phụ kiện. Nếu sau các chỉnh vẫn thấy chân chạm căng, đổi xe ngay tại quầy, đừng nhận về rồi chịu đựng cả kỳ. Một chiếc xe hợp về yên còn phải đạt phanh lốp đèn, rà theo chuẩn trong bài [kiểm tra phanh lốp xe 50cc]({{ '/blog/kiem-tra-phanh-lop-xe-50cc/' | relative_url }}).
+Hỏi chỉnh độ cao yên nếu bản có, xin lót yên hoặc gối nhỏ, và nới ghi đông gần hơn cho tay với chân đều gọn. Nơi thuê quen các yêu cầu này và thường có sẵn phụ kiện. Nếu sau các chỉnh vẫn thấy chân chạm căng, đổi xe ngay tại quầy, đừng nhận về rồi chịu đựng cả kỳ. Một chiếc xe hợp về yên còn phải đạt phanh lốp đèn, rà theo chuẩn trong bài [kiểm tra phanh lốp xe 50cc]({{ '/blog/kiem-tra-phanh-lop-xe-50cc/' | relative_url }}).
 
 ## Yên thấp và an toàn khi đi
 

@@ -17,7 +17,7 @@ SH nặng gần 130 ký và yên cao, người thấp chống chân căng, xem c
 
 ## Khi ngõ hẹp và chỗ đỗ chật
 
-Ngõ Hà Nội nhiều chỗ chỉ vừa một xe, SH dài và rộng hơn Air Blade một khoảng cảm nhận được: lách và quay đầu trong ngóc hẹp tốn thêm động tác. Chỗ đỗ ép như sảnh chung cư hay vỉa hè đông thì Air Blade dấu gọn hơn. Nếu chỗ lưu trú của bạn là ngõ nhỏ nhà trọ, đây là lý do đủ để bỏ SH, xem thêm tiêu chí gọn trong bài [thuê xe máy đi phố đông Hà Nội]({{ '/blog/thue-xe-may-di-pho-dong-ha-noi/' | relative_url }}).
+Ngõ Hà Nội nhiều chỗ chỉ vừa một xe, SH dài và rộng hơn Air Blade một khoảng cảm nhận được: lách và quay đầu trong ngõ hẹp tốn thêm động tác. Chỗ đỗ ép như sảnh chung cư hay vỉa hè đông thì Air Blade dấu gọn hơn. Nếu chỗ lưu trú của bạn là ngõ nhỏ nhà trọ, đây là lý do đủ để bỏ SH, xem thêm tiêu chí gọn trong bài [thuê xe máy đi phố đông Hà Nội]({{ '/blog/thue-xe-may-di-pho-dong-ha-noi/' | relative_url }}).
 
 ## Khi phanh gấp và đường ướt
 

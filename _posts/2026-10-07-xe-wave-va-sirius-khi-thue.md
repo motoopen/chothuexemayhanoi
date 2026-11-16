@@ -17,7 +17,7 @@ Wave ga nhẹ và máy êm kiểu Honda, lên số mượt, hợp người quen 
 
 ## Yên, tư thế và chiều cao
 
-Wave yên thấp và tư thế ngồi gọn, hợp người thấp, xem nhóm yên thấp trong bài [thuê xe máy yên thấp Hà Nội]({{ '/blog/thue-xe-may-yen-thap-ha-noi/' | relative_url }}). Sirius yên nhỉnh hơn chút và ghìe rộng, người cao thoáng hơn. Chở hai người thì Sirius dài hơn nhịp, cân tải theo bài xe 50cc cho 2 người. Ngồi thử cả hai với tư thế thật của bạn, kể cả mũ đội, trước khi quyết.
+Wave yên thấp và tư thế ngồi gọn, hợp người thấp, xem nhóm yên thấp trong bài [thuê xe máy yên thấp Hà Nội]({{ '/blog/thue-xe-may-yen-thap-ha-noi/' | relative_url }}). Sirius yên nhỉnh hơn chút và ghi đông rộng, người cao thoáng hơn. Chở hai người thì Sirius dài hơn nhịp, cân tải theo bài xe 50cc cho 2 người. Ngồi thử cả hai với tư thế thật của bạn, kể cả mũ đội, trước khi quyết.
 
 ## Độ bền và sửa giữa kỳ
 
