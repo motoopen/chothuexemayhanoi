@@ -9,7 +9,9 @@
 
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines }}{% endif %}">
-  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  {% unless page.url == '/404.html' %}<link rel="canonical" href="{% if page.canonical_url %}{{ page.canonical_url | absolute_url }}{% else %}{{ page.url | absolute_url }}{% endif %}">{% endunless %}
+  <link rel="icon" href="{{ site.data.site.brand.favicon | relative_url }}" sizes="48x48" type="image/png">
+  <link rel="apple-touch-icon" href="{{ site.data.site.brand.apple_touch_icon | relative_url }}">
 
   <meta property="og:locale" content="vi_VN">
   <meta property="og:site_name" content="{{ site.title }}">
@@ -27,9 +29,13 @@
   <meta name="twitter:title" content="{{ page.title | default: site.title }}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines }}{% endif %}">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap">
   <link id="fa-css" rel="stylesheet" href="{{ site.fa_css | default: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css' }}">
   <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% include seo/schema-graph.html %}
 </head>
 <body class="{{ page.body_class | default: '' }}">
   {% include header.html %}
@@ -38,6 +44,5 @@
 
   {% include footer.html %}
   <script defer src="{{ '/assets/js/site.js' | relative_url }}"></script>
-  <script defer src="{{ '/assets/js/fontawesome-fallback.js' | relative_url }}"></script>
 </body>
 </html>

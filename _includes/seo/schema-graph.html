@@ -1,0 +1,102 @@
+{%- comment -%}
+  ONE JSON-LD @graph for every page except the homepage and the 404 page.
+  Include it once inside <head>: {% include seo/schema-graph.html %}
+  (_layouts/default.html already does this for blog, category and post pages.)
+
+  The homepage keeps _includes/home/schema.html; both use the same @ids:
+  <home>#organization, <home>#localbusiness, <home>#website.
+
+  Data: _data/site.yml (brand, contact, social, schema), _data/taxonomy.json.
+  No Review/AggregateRating, no postal code, sameAs = social.facebook + social.instagram only.
+
+  FRONT-MATTER CONTRACT (all optional; standalone pages set what they need):
+    seo_page_type:          WebPage (default) | AboutPage | ContactPage | CollectionPage | FAQPage
+                            Blog index, /blog/danh-muc/ and category layouts default to CollectionPage.
+    seo_name:               name of the page node. Default: breadcrumb_name, then page.title, then brand.
+    seo_description:        description of the page node. Default: page.description (posts: excerpt).
+    breadcrumb_name:        last breadcrumb item. Default: seo_name / page.title.
+    breadcrumb_parent_name: optional middle item between "Trang chủ" and this page
+    breadcrumb_parent_url:  its URL, site-relative (e.g. "/dichvu.html"); both are needed.
+    seo_faq_data:           FAQPage only: name of the _data file with the visible FAQ items
+                            (default "faq_page"). Items: {id, q, a} or {question, answer}.
+                            The FAQ must be visible on the page with the same text. When the
+                            data file is missing the page node falls back to WebPage.
+    seo_article:            optional Article node on a standalone guide page:
+                            {headline, date_published: YYYY-MM-DD, date_modified: YYYY-MM-DD}
+  Posts (layout: post) get BlogPosting automatically: headline = title, datePublished = date,
+  dateModified = last_modified_at | default: date, image = image | default: brand.logo_square,
+  author/publisher = the Organization @id. Set `last_modified_at:` only on material updates.
+{%- endcomment -%}
+{%- unless page.url == '/' or page.url == '/index.html' or page.url == '/404.html' -%}
+{%- assign cfg = site.data.site -%}
+{%- assign sc = cfg.schema -%}
+{%- assign home_url = '/' | absolute_url -%}
+{%- assign org_id = home_url | append: '#organization' -%}
+{%- assign biz_id = home_url | append: '#localbusiness' -%}
+{%- assign site_id = home_url | append: '#website' -%}
+{%- assign logo_id = home_url | append: '#logo' -%}
+{%- assign logo_abs = cfg.brand.logo_square | absolute_url -%}
+{%- assign page_abs = page.url | absolute_url -%}
+{%- assign webpage_id = page_abs | append: '#webpage' -%}
+{%- assign crumb_id = page_abs | append: '#breadcrumb' -%}
+{%- assign article_id = page_abs | append: '#article' -%}
+{%- capture same_as -%}[{{ cfg.social.facebook | jsonify }},{{ cfg.social.instagram | jsonify }}]{%- endcapture -%}
+
+{%- assign wp_type = page.seo_page_type | default: 'WebPage' -%}
+{%- if page.seo_page_type == nil -%}
+  {%- if page.layout == 'category' or page.url == '/blog/' or page.url == '/blog/danh-muc/' -%}{%- assign wp_type = 'CollectionPage' -%}{%- endif -%}
+{%- endif -%}
+{%- assign faq_items = nil -%}
+{%- if wp_type == 'FAQPage' -%}
+  {%- assign faq_key = page.seo_faq_data | default: 'faq_page' -%}
+  {%- assign faq_items = site.data[faq_key] -%}
+  {%- if faq_items == nil or faq_items.size == 0 -%}{%- assign wp_type = 'WebPage' -%}{%- assign faq_items = nil -%}{%- endif -%}
+{%- endif -%}
+
+{%- assign tx_parent = nil -%}
+{%- assign tx_child = nil -%}
+{%- if page.layout == 'post' -%}
+  {%- assign tx_parent = site.data.taxonomy.parents | where: "slug", page.hub_parent | first -%}
+  {%- if tx_parent and page.hub_category -%}{%- assign tx_child = tx_parent.children | where: "slug", page.hub_category | first -%}{%- endif -%}
+{%- elsif page.layout == 'category' -%}
+  {%- assign tx_parent = site.data.taxonomy.parents | where: "slug", page.parent_slug | first -%}
+  {%- if tx_parent and page.child_slug -%}{%- assign tx_child = tx_parent.children | where: "slug", page.child_slug | first -%}{%- endif -%}
+{%- endif -%}
+
+{%- assign wp_name = page.seo_name | default: page.breadcrumb_name | default: page.title | default: cfg.brand.name -%}
+{%- if page.layout == 'category' -%}
+  {%- if tx_child -%}{%- assign wp_name = page.seo_name | default: tx_child.label -%}{%- elsif tx_parent -%}{%- assign wp_name = page.seo_name | default: tx_parent.label -%}{%- endif -%}
+{%- endif -%}
+{%- assign crumb_name = page.breadcrumb_name | default: wp_name -%}
+
+{%- capture page_desc -%}{% if page.seo_description %}{{ page.seo_description | strip_html | normalize_whitespace }}{% elsif page.description %}{{ page.description | strip_html | normalize_whitespace }}{% elsif page.layout == 'post' and page.excerpt %}{{ page.excerpt | strip_html | normalize_whitespace | truncate: 160 }}{% endif %}{%- endcapture -%}
+{%- assign page_desc = page_desc | strip -%}
+
+{%- assign pos = 1 -%}
+{%- capture crumbs -%}{"@type":"ListItem","position":1,"name":"Trang chủ","item":{{ home_url | jsonify }}}
+{%- if page.layout == 'post' or page.layout == 'category' or page.url == '/blog/danh-muc/' -%}
+{%- assign pos = pos | plus: 1 -%},{"@type":"ListItem","position":{{ pos }},"name":"Blog","item":{{ '/blog/' | absolute_url | jsonify }}}
+{%- endif -%}
+{%- if page.layout == 'category' -%}
+{%- assign pos = pos | plus: 1 -%},{"@type":"ListItem","position":{{ pos }},"name":"Danh mục","item":{{ '/blog/danh-muc/' | absolute_url | jsonify }}}
+{%- if tx_child -%}{%- assign pos = pos | plus: 1 -%},{"@type":"ListItem","position":{{ pos }},"name":{{ tx_parent.label | jsonify }},"item":{{ tx_parent.url | absolute_url | jsonify }}}{%- endif -%}
+{%- elsif page.layout == 'post' -%}
+{%- if tx_parent -%}{%- assign pos = pos | plus: 1 -%},{"@type":"ListItem","position":{{ pos }},"name":{{ tx_parent.label | jsonify }},"item":{{ tx_parent.url | absolute_url | jsonify }}}{%- endif -%}
+{%- if tx_child -%}{%- assign pos = pos | plus: 1 -%},{"@type":"ListItem","position":{{ pos }},"name":{{ tx_child.label | jsonify }},"item":{{ tx_child.url | absolute_url | jsonify }}}{%- endif -%}
+{%- elsif page.breadcrumb_parent_name and page.breadcrumb_parent_url -%}
+{%- assign pos = pos | plus: 1 -%},{"@type":"ListItem","position":{{ pos }},"name":{{ page.breadcrumb_parent_name | jsonify }},"item":{{ page.breadcrumb_parent_url | absolute_url | jsonify }}}
+{%- endif -%}
+{%- assign pos = pos | plus: 1 -%},{"@type":"ListItem","position":{{ pos }},"name":{{ crumb_name | jsonify }},"item":{{ page_abs | jsonify }}}
+{%- endcapture -%}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"Organization","@id":{{ org_id | jsonify }},"name":{{ cfg.brand.name | jsonify }},"alternateName":{{ sc.alternate_name | jsonify }},"url":{{ home_url | jsonify }},"logo":{"@type":"ImageObject","@id":{{ logo_id | jsonify }},"url":{{ logo_abs | jsonify }},"contentUrl":{{ logo_abs | jsonify }},"width":{{ cfg.brand.logo_square_size }},"height":{{ cfg.brand.logo_square_size }}},"image":{"@id":{{ logo_id | jsonify }}},"email":{{ cfg.contact.email | jsonify }},"telephone":{{ cfg.contact.phone_e164 | jsonify }},"contactPoint":{"@type":"ContactPoint","telephone":{{ cfg.contact.phone_e164 | jsonify }},"email":{{ cfg.contact.email | jsonify }},"contactType":"customer service","areaServed":"VN","availableLanguage":["vi"]},"sameAs":{{ same_as }}},
+{"@type":{{ sc.business_type | default: 'AutoRental' | jsonify }},"@id":{{ biz_id | jsonify }},"name":{{ cfg.brand.name | jsonify }},"alternateName":{{ sc.alternate_name | jsonify }},"description":{{ sc.description | jsonify }},"url":{{ home_url | jsonify }},"image":{{ logo_abs | jsonify }},"logo":{"@id":{{ logo_id | jsonify }}},"telephone":{{ cfg.contact.phone_e164 | jsonify }},"email":{{ cfg.contact.email | jsonify }},"priceRange":{{ sc.price_range | jsonify }},"currenciesAccepted":"VND","address":{"@type":"PostalAddress","streetAddress":{{ cfg.contact.street_address | jsonify }},"addressLocality":{{ cfg.contact.address_locality | jsonify }},"addressRegion":{{ cfg.contact.address_region | jsonify }},"addressCountry":{{ cfg.contact.address_country | jsonify }}},"geo":{"@type":"GeoCoordinates","latitude":{{ cfg.contact.latitude }},"longitude":{{ cfg.contact.longitude }}},"hasMap":{{ cfg.contact.map_url | jsonify }},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":{{ cfg.contact.opens | jsonify }},"closes":{{ cfg.contact.closes | jsonify }}}],"areaServed":{"@type":"City","name":"Hà Nội"},"parentOrganization":{"@id":{{ org_id | jsonify }}},"sameAs":{{ same_as }}},
+{"@type":"WebSite","@id":{{ site_id | jsonify }},"url":{{ home_url | jsonify }},"name":{{ cfg.brand.name | jsonify }},"inLanguage":"vi","publisher":{"@id":{{ org_id | jsonify }}}},
+{"@type":{{ wp_type | jsonify }},"@id":{{ webpage_id | jsonify }},"url":{{ page_abs | jsonify }},"name":{{ wp_name | jsonify }},{% if page_desc != '' %}"description":{{ page_desc | jsonify }},{% endif %}"inLanguage":"vi","isPartOf":{"@id":{{ site_id | jsonify }}},{% if wp_type == 'ContactPage' %}"mainEntity":{"@id":{{ biz_id | jsonify }}},{% elsif wp_type == 'AboutPage' %}"mainEntity":{"@id":{{ org_id | jsonify }}},{% elsif faq_items %}"mainEntity":[{% for item in faq_items %}{% assign fq = item.q | default: item.question %}{% assign fa = item.a | default: item.answer %}{"@type":"Question",{% if item.id %}"@id":{{ page_abs | append: '#' | append: item.id | jsonify }},{% endif %}"name":{{ fq | strip_html | normalize_whitespace | strip | jsonify }},"acceptedAnswer":{"@type":"Answer","text":{{ fa | strip_html | normalize_whitespace | strip | jsonify }}}}{% unless forloop.last %},{% endunless %}{% endfor %}],{% endif %}"breadcrumb":{"@id":{{ crumb_id | jsonify }}},"publisher":{"@id":{{ org_id | jsonify }}}},
+{"@type":"BreadcrumbList","@id":{{ crumb_id | jsonify }},"itemListElement":[{{ crumbs }}]}{% if page.layout == 'post' %},
+{"@type":"BlogPosting","@id":{{ article_id | jsonify }},"headline":{{ page.title | jsonify }},{% if page_desc != '' %}"description":{{ page_desc | jsonify }},{% endif %}"datePublished":{{ page.date | date_to_xmlschema | jsonify }},"dateModified":{{ page.last_modified_at | default: page.date | date_to_xmlschema | jsonify }},"author":{"@id":{{ org_id | jsonify }}},"publisher":{"@id":{{ org_id | jsonify }}},"mainEntityOfPage":{"@id":{{ webpage_id | jsonify }}},"isPartOf":{"@id":{{ webpage_id | jsonify }}},"image":[{% if page.image %}{{ page.image | absolute_url | jsonify }}{% else %}{{ logo_abs | jsonify }}{% endif %}],{% if tx_child %}"articleSection":{{ tx_child.label | jsonify }},{% elsif tx_parent %}"articleSection":{{ tx_parent.label | jsonify }},{% endif %}"inLanguage":"vi"}{% elsif page.seo_article.headline %},
+{"@type":"Article","@id":{{ article_id | jsonify }},"headline":{{ page.seo_article.headline | jsonify }},"datePublished":{{ page.seo_article.date_published | date: '%Y-%m-%d' | jsonify }},"dateModified":{{ page.seo_article.date_modified | default: page.seo_article.date_published | date: '%Y-%m-%d' | jsonify }},"author":{"@id":{{ org_id | jsonify }}},"publisher":{"@id":{{ org_id | jsonify }}},"mainEntityOfPage":{"@id":{{ webpage_id | jsonify }}},"image":[{{ logo_abs | jsonify }}],"inLanguage":"vi"}{% endif %}
+]}
+</script>
+{%- endunless -%}

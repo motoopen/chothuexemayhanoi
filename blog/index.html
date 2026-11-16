@@ -3,6 +3,8 @@ layout: default
 title: "Blog"
 description: "Bài viết và tin tức về Motoopen – Thuê xe máy Hà Nội."
 permalink: /blog/
+seo_page_type: CollectionPage
+breadcrumb_name: "Blog"
 ---
 <main class="blog-shell">
   <header class="blog-heading">
@@ -42,7 +44,7 @@ permalink: /blog/
       <article class="blog-item">
         <h2><a class="blog-title-link" href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
         <p class="blog-meta">
-          {{ post.date | date: "%-d %B %Y" }} • {{ post.author | default: site.author }}
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d/%-m/%Y" }}</time> • {{ post.author | default: site.author }}
           {% if post.hub_category %}
             {% assign p_parent = site.data.taxonomy.parents | where: "slug", post.hub_parent | first %}
             {% assign p_child = p_parent.children | where: "slug", post.hub_category | first %}

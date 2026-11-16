@@ -1,0 +1,26 @@
+{%- comment -%}
+  "Căn cứ pháp lý" block for posts about licences, age, documents or traffic rules.
+  Rendered automatically by _includes/blog/slot-after-content.html; do NOT include it
+  again inside a post body. Front matter:
+    legal_sources: true            -> the verified default list in _data/site.yml (legal.default_sources)
+    legal_sources:                 -> or the post's own list (only verified, live official URLs)
+      - title: "Luật ... số 36/2024/QH15"
+        url: "https://vanban.chinhphu.vn/?pageid=27160&docid=211194&classid=1&typegroupid=3"
+        note: "Điều 59 khoản 1"   (optional)
+    legal_checked_on: "16/11/2026" (optional; default legal.checked_on)
+{%- endcomment -%}
+{%- assign cfg = site.data.site -%}
+{%- if page.legal_sources -%}
+{%- if page.legal_sources == true -%}{%- assign legal_list = cfg.legal.default_sources -%}{%- else -%}{%- assign legal_list = page.legal_sources -%}{%- endif -%}
+{%- if legal_list and legal_list.size > 0 %}
+<aside class="blog-component blog-legal" aria-label="Căn cứ pháp lý">
+  <p class="blog-component-kicker">Căn cứ pháp lý</p>
+  <p><strong>Thông tin tham khảo, không phải tư vấn pháp lý.</strong> Nội dung được đối chiếu với các văn bản dưới đây (kiểm tra ngày {{ page.legal_checked_on | default: cfg.legal.checked_on }}). Văn bản có thể được sửa đổi; hãy kiểm tra bản hiện hành trước khi áp dụng.</p>
+  <ul>
+    {%- for s in legal_list %}
+    <li><a href="{{ s.url | escape }}" target="_blank" rel="noopener">{{ s.title | escape }}</a>{% if s.note %} — {{ s.note }}{% endif %}</li>
+    {%- endfor %}
+  </ul>
+</aside>
+{%- endif -%}
+{%- endif -%}

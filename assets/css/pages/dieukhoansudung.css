@@ -302,7 +302,7 @@
     @keyframes fadeIn{ from{opacity:0; transform:translateY(4px)} to{opacity:1; transform:none} }
 
     /* ---------- Helpers & responsive ---------- */
-    main{padding-top:84px}
+    main#main{padding-top:var(--top-offset,68px)} /* first paint = JS-computed offset: no layout shift */
     @media (max-width: 900px){
       .nav-links{display:none}
       .hamburger{display:block}

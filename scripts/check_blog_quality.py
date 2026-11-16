@@ -82,9 +82,11 @@ def main() -> int:
         desc = p.meta.get("description", "").strip()
         if not desc:
             errors.append(f"{rel}: missing meta description")
-        if not p.canonical or not p.canonical.startswith(BASE + "/blog/"):
+        if not p.canonical or not p.canonical.startswith(BASE + "/"):
             errors.append(f"{rel}: invalid canonical {p.canonical!r}")
         elif f"<loc>{p.canonical}</loc>" not in SITEMAP:
+            # Self-canonical posts must be in the sitemap; a post whose canonical_url points to
+            # another page (merge proposal) must point to a URL that is in the sitemap.
             errors.append(f"{rel}: canonical missing from sitemap")
         for img in p.images:
             if not img.get("alt", "").strip():
@@ -96,8 +98,13 @@ def main() -> int:
             except json.JSONDecodeError as exc:
                 errors.append(f"{rel}: invalid JSON-LD: {exc}")
                 continue
-            if isinstance(data, dict) and data.get("@type"):
-                types.add(data["@type"])
+            nodes = data.get("@graph", [data]) if isinstance(data, dict) else (data if isinstance(data, list) else [])
+            for node in nodes:
+                if isinstance(node, dict) and node.get("@type"):
+                    node_type = node["@type"]
+                    types.update(node_type if isinstance(node_type, list) else [node_type])
+        if types & {"BlogPosting", "NewsArticle"}:
+            types.add("Article")
         for required in ("Article", "BreadcrumbList"):
             if required not in types:
                 errors.append(f"{rel}: missing {required} schema")

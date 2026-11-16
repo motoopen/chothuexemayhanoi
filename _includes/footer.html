@@ -1,10 +1,10 @@
-{% assign sitecfg = site.data.site %}
+{% assign sitecfg = site.data.site %}{%- assign is_home = false -%}{%- if page.url == '/' or page.url == '/index.html' -%}{%- assign is_home = true -%}{%- endif %}
 <footer class="premium app-footer" role="contentinfo" aria-label="Thông tin Motoopen">
   <div class="footer-inner">
     <div class="footer-top">
       <section class="footer-brand-panel" aria-label="Giới thiệu và liên hệ Motoopen">
         <div class="footer-brand-lockup">
-          <img src="{{ sitecfg.brand.logo }}" alt="Logo {{ sitecfg.brand.name }}" width="56" height="56" loading="lazy" decoding="async">
+          <img src="{% if is_home %}{{ sitecfg.brand.logo }}{% else %}{{ sitecfg.brand.logo_small | relative_url }}{% endif %}" alt="Logo {{ sitecfg.brand.name }}" width="56" height="56" loading="lazy" decoding="async">
           <div>
             <strong class="footer-brand-name">{{ sitecfg.brand.name }}</strong>
             <span class="footer-brand-tagline">{{ sitecfg.brand.tagline }}</span>
@@ -76,7 +76,7 @@
           <a href="{{ sitecfg.social.instagram }}" title="Instagram" aria-label="Motoopen trên Instagram" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
         </div>
       </div>
-      <p class="author"><i class="fa-regular fa-copyright" aria-hidden="true"></i> {{ site.time | date: "%Y" }} <a href="{{ sitecfg.social.app }}" target="_blank" rel="noopener noreferrer">@ Motoopen</a>. Tất cả quyền được bảo lưu.</p>
+      <p class="author"><i class="fa-regular fa-copyright" aria-hidden="true"></i> {{ site.time | date: "%Y" }} {% if is_home %}<a href="{{ sitecfg.social.app }}" target="_blank" rel="noopener noreferrer">@ Motoopen</a>{% else %}<a href="{{ '/' | relative_url }}">@ Motoopen</a>{% endif %}. Tất cả quyền được bảo lưu.</p>
     </div>
   </div>
 </footer>

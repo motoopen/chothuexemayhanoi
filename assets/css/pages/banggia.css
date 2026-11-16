@@ -617,8 +617,9 @@
     }
 
     /* ---------- Helpers & responsive ---------- */
-    main {
-      padding-top: 84px
+    /* First paint matches the JS-computed offset (topbar 60px + 8px): no layout shift. */
+    main#main {
+      padding-top: var(--top-offset, 68px)
     }
 
     @media (max-width: 900px) {

@@ -23,11 +23,13 @@
   <url><loc>{{ child.url | absolute_url }}</loc></url>
   {% endfor %}
 {% endfor %}
-{% for post in site.posts %}
+{% comment %}lastmod = last_modified_at (set it only when a post's content materially changes), else the publish date.
+Posts that point their canonical to another URL (canonical_url) or set sitemap: false are left out.{% endcomment %}
+{% for post in site.posts %}{% unless post.canonical_url or post.sitemap == false %}
   <url>
     <loc>{{ post.url | absolute_url }}</loc>
-    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+    <lastmod>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</lastmod>
   </url>
-{% endfor %}
+{% endunless %}{% endfor %}
 
 </urlset>

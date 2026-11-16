@@ -89,6 +89,14 @@ jobs:
         shell: bash
         run: python3 scripts/check_blog_quality.py _site
 
+      - name: Check owner SEO rules
+        shell: bash
+        run: python3 scripts/check_seo_rules.py _site
+
+      - name: Check Font Awesome subset covers every icon used
+        shell: bash
+        run: python3 scripts/check_fa_subset.py _site
+
       - name: Verify generated public pages
         shell: bash
         run: |
@@ -121,8 +129,30 @@ jobs:
           grep -q "Xe ga hay xe số: chọn loại nào khi đi Hà Nội?" _site/blog/xe-ga-hay-xe-so/index.html
           grep -q "classList.add('in')" _site/assets/js/site.js
           grep -q ".reveal.in" _site/assets/css/home.css
-          grep -q "motoopen-v3" _site/service-worker.js
+          grep -q "motoopen-v4" _site/service-worker.js
           grep -q "cache: 'no-store'" _site/service-worker.js
+          if grep -q "client.navigate" _site/service-worker.js; then
+            echo "Service worker must not force-reload tabs."
+            exit 1
+          fi
+          if grep -q "motoai_v39_modelfirst_nomarkdown_nolink.js" _site/service-worker.js; then
+            echo "Service worker must not precache the chatbot (it is lazy-loaded)."
+            exit 1
+          fi
+          test -f _site/assets/vendor/fontawesome/fa-subset.css
+          for icon in favicon-48.png apple-touch-icon-180.png icon-192.png icon-512.png motoopen-logo-192.webp; do
+            test -f "_site/assets/images/brand/$icon"
+          done
+          grep -q '/chothuexemayhanoi/assets/images/brand/icon-192.png' _site/manifest.json
+          test -f _site/llms.txt
+          grep -q "0857 255 868" _site/llms.txt
+          for private in README.md seo-optimization-matrix.md seo-optimization-matrix.json scripts; do
+            test ! -e "_site/$private"
+          done
+          if grep -q '<link rel="canonical"' _site/404.html; then
+            echo "404 page must not declare a canonical."
+            exit 1
+          fi
           grep -q '"start_url": "/chothuexemayhanoi/"' _site/manifest.json
           if grep -q 'class="hero-mini reveal"' _site/blog/checklist-10-phut-truoc-khi-nhan-xe/index.html; then
             echo "Blog post hero must not depend on reveal animation for visibility."

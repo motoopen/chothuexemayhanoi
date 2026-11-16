@@ -1,0 +1,68 @@
+# Canonical rental price table (VNĐ). Single source for the non-home chatbot
+# config (_includes/motoai.html) and llms.txt. Keep it identical to the price
+# table the owner publishes; do not add models the shop has not priced.
+# day/week/month/deposit: number, [min, max] range, or null (= "liên hệ báo giá").
+# Rows with `family: true` are only aliases for the chatbot ("xe số", "xe ga").
+updated: "2026-11-16"
+policy_text: "Ngày 150–200k; tuần 700k–1 triệu; tháng 900k–2 triệu cho xe có giá niêm yết; cọc 2–5 triệu tùy xe. Thanh toán tiền thuê, đặt cọc và cung cấp giấy tờ theo thỏa thuận; hoàn cọc theo điều kiện hợp đồng khi trả xe."
+other_models_text: "Mẫu khác (SH, Lead, Vespa, Exciter, Winner, Future, Sirius, Cub, xe côn, VinFast…): liên hệ để kiểm tra xe và giá."
+rows:
+  - key: "wave"
+    name: "Honda Wave"
+    group: "Xe số"
+    day: [150000]
+    week: [700000]
+    month: [900000, 1200000]
+    deposit: [2000000, 3000000]
+    text: { day: "150.000đ", week: "700.000đ", month: "900.000đ–1.200.000đ", deposit: "2–3 triệu" }
+  - key: "vision"
+    name: "Honda Vision"
+    group: "Xe tay ga"
+    day: [200000]
+    week: [1000000]
+    month: [1800000, 2000000]
+    deposit: [4000000, 5000000]
+    text: { day: "200.000đ", week: "1.000.000đ", month: "1.800.000đ–2.000.000đ", deposit: "4–5 triệu" }
+  - key: "air blade"
+    name: "Honda Air Blade"
+    group: "Xe tay ga"
+    day: [200000]
+    week: [1000000]
+    month: [1500000]
+    deposit: [3000000]
+    text: { day: "200.000đ", week: "1.000.000đ", month: "1.500.000đ", deposit: "3 triệu" }
+  - key: "click"
+    name: "Honda Click / Yamaha Mio"
+    group: "Xe tay ga"
+    aliases: ["click", "mio"]
+    day: [150000]
+    week: [700000]
+    month: [900000, 1200000]
+    deposit: [2000000]
+    text: { day: "150.000đ", week: "700.000đ", month: "900.000đ–1.200.000đ", deposit: "2 triệu" }
+  - key: "50cc"
+    name: "Xe tay ga 50cc"
+    group: "Xe 50cc"
+    day: [200000]
+    week: null
+    month: null
+    deposit: [4000000]
+    text: { day: "200.000đ", week: "báo giá khi liên hệ", month: "báo giá khi liên hệ", deposit: "4 triệu" }
+  - key: "xe điện"
+    name: "Xe máy điện / xe đạp điện"
+    group: "Xe điện"
+    day: null
+    week: null
+    month: null
+    deposit: null
+    text: { day: "liên hệ", week: "liên hệ", month: "liên hệ", deposit: "theo mẫu xe" }
+  - key: "xe số"
+    family: true
+    day: [150000]
+    week: [700000]
+    month: [900000, 1200000]
+  - key: "xe ga"
+    family: true
+    day: [150000, 200000]
+    week: [700000, 1000000]
+    month: [900000, 2000000]

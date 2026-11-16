@@ -1,0 +1,30 @@
+---
+layout: null
+permalink: /llms.txt
+sitemap: false
+---
+{%- assign c = site.data.site.contact -%}
+{%- assign pr = site.data.prices -%}
+# {{ site.data.site.brand.name }} – Thuê xe máy Hà Nội
+
+> {{ site.data.site.brand.name }} cho thuê xe máy tại {{ c.address }}. Giờ làm việc: {{ c.hours_text }}. Điện thoại/Zalo: {{ c.phone_display }} ({{ c.phone_e164 }}). Email: {{ c.email }}. Bản đồ: {{ c.map_url }}
+
+Tóm tắt do {{ site.data.site.brand.name }} công bố trên {{ '/' | absolute_url }} (cập nhật {{ pr.updated }}). Giá có thể thay đổi; giá chốt là giá ghi khi thuê.
+
+## Bảng giá (VNĐ)
+{% for r in pr.rows %}{% unless r.family %}- {{ r.name }}: ngày {{ r.text.day }}; tuần {{ r.text.week }}; tháng {{ r.text.month }}; cọc {{ r.text.deposit }}.
+{% endunless %}{% endfor %}- {{ pr.other_models_text }}
+- {{ pr.policy_text }}
+
+## Bằng lái và độ tuổi (thông tin tham khảo)
+- Xe gắn máy (vận tốc thiết kế không quá 50 km/h; động cơ đến 50 cm3 hoặc động cơ điện đến 4 kW): không yêu cầu giấy phép lái xe; người lái phải đủ 16 tuổi và hiểu quy tắc giao thông.
+- Mô tô hai bánh đến 125 cm3 (hoặc động cơ điện đến 11 kW): giấy phép lái xe hạng A1; trên mức đó: hạng A; được cấp từ đủ 18 tuổi.
+- Nguồn: Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (Điều 34, 56, 57, 59) – https://vanban.chinhphu.vn/?pageid=27160&docid=211194&classid=1&typegroupid=3
+
+## Trang chính
+- [Bảng giá]({{ '/banggia.html' | absolute_url }})
+- [Thủ tục thuê xe]({{ '/thutuc.html' | absolute_url }})
+- [Các loại xe]({{ '/loaixe.html' | absolute_url }})
+- [Câu hỏi thường gặp]({{ '/faq.html' | absolute_url }})
+- [Liên hệ]({{ '/lienhe.html' | absolute_url }})
+- [Blog]({{ '/blog/' | absolute_url }})

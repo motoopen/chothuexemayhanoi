@@ -85,6 +85,10 @@ def main() -> int:
             if parsed.netloc != "motoopen.github.io":
                 continue
             if not (parsed.path == "/chothuexemayhanoi" or parsed.path.startswith(PREFIX)):
+                # A root-relative path without the project baseurl ("/blog/x/", "/banggia.html")
+                # resolves to motoopen.github.io/<path> and is a 404 on GitHub Pages.
+                if raw.startswith("/") and not raw.startswith("//"):
+                    fail(f"{path.relative_to(ROOT)} -> root-relative {attr} missing the /chothuexemayhanoi baseurl (404 on GitHub Pages): {raw}", errors)
                 continue
 
             checked += 1

@@ -6,7 +6,7 @@ lang: "vi"
 author: "Motoopen"
 timezone: "Asia/Ho_Chi_Minh"
 
-fa_css: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+fa_css: "/chothuexemayhanoi/assets/vendor/fontawesome/fa-subset.css"
 logo: "https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg"
 social_image: "https://i.postimg.cc/brsmsj5N/IMG-5215.jpg"
 
@@ -15,6 +15,10 @@ exclude:
   - _factory
   - _seo
   - _archive
+  - README.md
+  - seo-optimization-matrix.md
+  - seo-optimization-matrix.json
+  - scripts
 
 defaults:
   - scope:

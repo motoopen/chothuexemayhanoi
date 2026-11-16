@@ -1,11 +1,12 @@
 {% assign cfg = site.data.site %}
 {% if cfg.features.author_box %}
-<aside class="blog-component blog-author" aria-label="Tác giả">
-  <img src="{{ cfg.brand.logo }}" alt="{{ page.author | default: cfg.brand.author }}" loading="lazy" width="48" height="48">
+<aside class="blog-component blog-author" aria-label="Tác giả và biên tập">
+  <img src="{{ cfg.brand.logo_small | relative_url }}" alt="Logo {{ cfg.brand.name }}" loading="lazy" decoding="async" width="48" height="48">
   <div>
     <p class="blog-component-kicker">Tác giả</p>
-    <strong>{{ page.author | default: cfg.brand.author }}</strong>
-    <p>{{ cfg.blog.default_author_bio }}</p>
+    <strong>{{ cfg.brand.team_name }}</strong>
+    <p>{{ cfg.editorial.note }}{% if page.last_modified_at %} Cập nhật ngày <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: "%-d/%-m/%Y" }}</time>.{% endif %}</p>
+    <p>{{ cfg.editorial.report_text }} <a href="mailto:{{ cfg.contact.email }}">{{ cfg.contact.email }}</a> · <a href="{{ cfg.editorial.about_url | relative_url }}">Về {{ cfg.brand.name }}</a></p>
   </div>
 </aside>
 {% endif %}

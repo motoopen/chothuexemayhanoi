@@ -106,6 +106,28 @@ def body_hash(markdown):
     return hashlib.sha256(plain_text(markdown).lower().encode("utf-8")).hexdigest()
 
 
+SHINGLE_LIMIT = 0.5
+_EXISTING_SHINGLES = None
+
+
+def shingles(markdown, k=5):
+    words = re.findall(r"[a-zà-ỹđ0-9]+", plain_text(markdown).lower())
+    return {" ".join(words[i:i + k]) for i in range(max(0, len(words) - k + 1))}
+
+
+def existing_shingles():
+    global _EXISTING_SHINGLES
+    if _EXISTING_SHINGLES is None:
+        _EXISTING_SHINGLES = []
+        for path in POSTS.glob("*.md") if POSTS.exists() else []:
+            try:
+                _, body = parse_frontmatter(path)
+            except Exception:
+                continue
+            _EXISTING_SHINGLES.append((path.name, shingles(body)))
+    return _EXISTING_SHINGLES
+
+
 def existing_hashes():
     hashes = set()
     if not POSTS.exists():
@@ -156,6 +178,24 @@ def validate_draft(path, row, seen_hashes):
     digest = body_hash(body)
     if digest in seen_hashes:
         errors.append("duplicate normalized body already exists")
+    draft_shingles = shingles(body)
+    for name, other in existing_shingles():
+        if draft_shingles and other and name != path.name:
+            jac = len(draft_shingles & other) / len(draft_shingles | other)
+            if jac >= SHINGLE_LIMIT:
+                errors.append(f"near-duplicate of {name}: 5-gram Jaccard {jac:.2f} >= {SHINGLE_LIMIT}")
+                break
+    # Owner rule: at most one internal link per paragraph; each list item counts as its own paragraph.
+    too_many_links = False
+    for block in re.split(r"\n\s*\n", body):
+        if block.lstrip().startswith("#"):
+            continue
+        units = re.split(r"\n(?=\s*(?:[-*+]|\d+[.)])\s)", block)
+        if any(len(VALID_LIQUID_LINK_RE.findall(unit)) > 1 for unit in units):
+            too_many_links = True
+            break
+    if too_many_links:
+        errors.append("paragraph or list item with more than one internal link (owner rule: max 1 per paragraph)")
     if not RELATIVE_URL_RE.search(body):
         errors.append("add at least one internal Jekyll link using | relative_url")
     if body.count("{{") != body.count("}}"):

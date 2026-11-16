@@ -5,7 +5,6 @@ layout: default
 {% if hub_parent and page.hub_category %}
   {% assign hub_child = hub_parent.children | where: "slug", page.hub_category | first %}
 {% endif %}
-{% include blog/schema.html %}
 <main class="blog-shell" role="main">
   <nav class="blog-breadcrumb" aria-label="Breadcrumb">
     <a class="blog-breadcrumb-home" href="{{ '/' | relative_url }}"><i class="fa-solid fa-house"></i> Trang chủ</a>
@@ -28,8 +27,8 @@ layout: default
       <div class="card post-hero-card">
         <div class="hmini-grid post-hero-grid">
           <div>
-            <h1 class="hmini-title post-hero-title">{{ page.title }}</h1>
-            <p class="hmini-sub post-hero-sub">{% if page.date %}Đăng ngày {{ page.date | date: "%-d %B %Y" }}{% endif %} • {{ site.title }}</p>
+            <h1 class="hmini-title post-hero-title">{{ page.h1 | default: page.title }}</h1>
+            <p class="hmini-sub post-hero-sub">{% if page.date %}Đăng ngày <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d/%-m/%Y" }}</time>{% endif %}{% if page.last_modified_at %} • Cập nhật ngày <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: "%-d/%-m/%Y" }}</time>{% endif %} • {{ site.title }}</p>
             <div class="post-hero-actions">
               {% if hub_child %}
               <a class="hmini-btn ghost" href="{{ hub_child.url | relative_url }}"><i class="{{ hub_child.icon }}"></i> {{ hub_child.label }}</a>

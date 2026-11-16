@@ -105,14 +105,17 @@
   }
 
   /* ====== STORAGE KEYS ====== */
+  // CFG.storageNamespace (optional) isolates this site's chat history, learn cache
+  // and learned prices from other MotoAI widgets on the same origin. Default: "MotoAI_v38".
+  const NS = (typeof CFG.storageNamespace === "string" && CFG.storageNamespace) ? CFG.storageNamespace : "MotoAI_v38";
   const K = {
-    sess:  "MotoAI_v38_session",
-    ctx:   "MotoAI_v38_ctx",
-    learn: "MotoAI_v38_learn",       // { domainKey: {ts, pages:[{url,title,text}] } }
-    autoprices: "MotoAI_v38_auto_prices",
-    stamp: "MotoAI_v38_learnStamp",
-    clean: "MotoAI_v38_lastClean",
-    dbg:   "MotoAI_v38_debug_stats"
+    sess:  NS+"_session",
+    ctx:   NS+"_ctx",
+    learn: NS+"_learn",       // { domainKey: {ts, pages:[{url,title,text}] } }
+    autoprices: NS+"_auto_prices",
+    stamp: NS+"_learnStamp",
+    clean: NS+"_lastClean",
+    dbg:   NS+"_debug_stats"
   };
 
   /* ====== UI (Messenger-like, input ~32px) ====== */
@@ -317,7 +320,7 @@
     return null;
   }
   function detectQty(t){
-    const m=(t||"").match(/(\d+)\s*(ngày|day|tuần|tuan|week|tháng|thang|month)?/i);
+    const m=(STRICT_PRICES ? String(t||"").replace(/\b\d+\s*cc\b/gi," ") : (t||"")).match(/(\d+)\s*(ngày|day|tuần|tuan|week|tháng|thang|month)?/i);
     if(!m) return null; const n=parseInt(m[1],10); if(!n) return null;
     let unit="ngày"; if(m[2]){ if(/tuần|tuan|week/i.test(m[2])) unit="tuần"; else if(/tháng|thang|month/i.test(m[2])) unit="tháng"; }
     return {n,unit};
@@ -354,6 +357,23 @@
   PRICE_TABLE['grande'] = PRICE_TABLE['grande'] || { day:[220000], week:[900000], month:[1700000,2000000] };
   PRICE_TABLE['janus']  = PRICE_TABLE['janus']  || { day:[200000], week:[800000], month:[1500000,1900000] };
   PRICE_TABLE['sh']     = PRICE_TABLE['sh']     || { day:[450000], week:[1800000], month:[4500000] };
+
+  // CFG.priceTable (optional): replace the built-in table with the site's own published
+  // prices. Models outside it get the "cần kiểm tra" reply instead of a family price,
+  // learned prices are ignored, and "50cc" is not read as a quantity.
+  // Entries may carry aliases (e.g. ["click","mio"]) so those model names are recognised.
+  const STRICT_PRICES = !!(CFG.priceTable && typeof CFG.priceTable === "object");
+  if (STRICT_PRICES) {
+    Object.keys(PRICE_TABLE).forEach(function (k) { delete PRICE_TABLE[k]; });
+    Object.keys(CFG.priceTable).forEach(function (k) {
+      const e = CFG.priceTable[k] || {};
+      PRICE_TABLE[k] = { day: e.day || null, week: e.week || null, month: e.month || null };
+      if (Array.isArray(e.aliases) && e.aliases.length) {
+        const re = new RegExp("\\b(" + e.aliases.map(function (a) { return String(a).replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }).join("|") + ")\\b", "i");
+        TYPE_MAP.unshift({ k: k, re: re, canon: k });
+      }
+    });
+  }
 
   function baseFor(type,unit){
     const it=PRICE_TABLE[type]; if(!it) return null;
@@ -392,6 +412,7 @@
       const arr = Array.isArray(entry[key]) ? entry[key] : [entry[key]];
       return arr[0];
     }
+    if (STRICT_PRICES) return null;
     const fam = modelFamily(model);
     if(fam && PRICE_TABLE[fam] && PRICE_TABLE[fam][key]){
       const arr = Array.isArray(PRICE_TABLE[fam][key]) ? PRICE_TABLE[fam][key] : [PRICE_TABLE[fam][key]];
@@ -794,21 +815,26 @@
     const qty  = detectQty(q);
 
     // Deep context: lấy model/qty gần nhất nếu thiếu
+    // CFG.intentFirst (optional): reuse an earlier price question only when this message
+    // is itself about price or a model, so "giao xe", "đặt cọc", "thủ tục" get their own answer.
+    const otherIntent = intents.needContact || intents.needDocs || intents.needPolicy || intents.needDelivery || intents.needReturn;
+    const reusePrice = !CFG.intentFirst || (!otherIntent && (intents.needPrice || !!model));
     if(CFG.deepContext){
       const ctx = getCtx();
       for(let i=ctx.turns.length-1;i>=0;i--){
         const t = ctx.turns[i];
         if(!model && t.type) model=t.type;
-        if(!qty && t.qty)   return composePrice(model||t.type, t.qty);
+        if(!qty && t.qty && reusePrice)   return composePrice(model||t.type, t.qty);
         if(model && qty) break;
       }
     }
 
-    if(intents.needContact) return polite(`anh/chị gọi ${CFG.phone} hoặc Zalo ${CFG.zalo||CFG.phone} là có người nhận ngay.`);
-    if(intents.needDocs)    return polite(`thủ tục gọn: CCCD/hộ chiếu + cọc theo xe. Có phương án giảm cọc khi đủ giấy tờ.`);
-    if(intents.needPolicy)  return polite(`đặt cọc tham khảo: xe số 2–3 triệu; xe ga 2–5 triệu; 50cc khoảng 4 triệu. Liên hệ Zalo ${CFG.phone} để chốt theo mẫu xe.`);
-    if(intents.needDelivery)return polite(`thuê 1–4 ngày vui lòng đến cửa hàng chọn xe; thuê tuần/tháng em giao tận nơi. Phí nội thành 20–100k tùy quận. Nhắn Zalo ${CFG.phone} để em set lịch.`);
-    if(intents.needReturn)  return polite(`trả xe tại cửa hàng hoặc hẹn trả tận nơi (thỏa thuận). Báo trước 30 phút để em sắp xếp, hoàn cọc nhanh.`);
+    // CFG.replyContact / replyDocs / replyPolicy / replyDelivery / replyReturn (optional) override the built-in texts.
+    if(intents.needContact) return polite(CFG.replyContact || `anh/chị gọi ${CFG.phone} hoặc Zalo ${CFG.zalo||CFG.phone} là có người nhận ngay.`);
+    if(intents.needDocs)    return polite(CFG.replyDocs || `thủ tục gọn: CCCD/hộ chiếu + cọc theo xe. Có phương án giảm cọc khi đủ giấy tờ.`);
+    if(intents.needPolicy)  return polite(CFG.replyPolicy || `đặt cọc tham khảo: xe số 2–3 triệu; xe ga 2–5 triệu; 50cc khoảng 4 triệu. Liên hệ Zalo ${CFG.phone} để chốt theo mẫu xe.`);
+    if(intents.needDelivery)return polite(CFG.replyDelivery || `thuê 1–4 ngày vui lòng đến cửa hàng chọn xe; thuê tuần/tháng em giao tận nơi. Phí nội thành 20–100k tùy quận. Nhắn Zalo ${CFG.phone} để em set lịch.`);
+    if(intents.needReturn)  return polite(CFG.replyReturn || `trả xe tại cửa hàng hoặc hẹn trả tận nơi (thỏa thuận). Báo trước 30 phút để em sắp xếp, hoàn cọc nhanh.`);
 
     if(intents.needPrice)   return composePrice(model, qty);
 
@@ -827,12 +853,12 @@
     }catch(e){}
 
     if(/(chào|xin chào|hello|hi|alo)/i.test(q)) return polite(`em là nhân viên hỗ trợ của ${CFG.brand}. Anh/chị muốn xem Xe số, Xe ga, Xe điện hay Thủ tục thuê xe?`);
-    return polite(`anh/chị quan tâm mẫu xe nào (vision, air blade, wave, sirius, 50cc, côn tay…) và thuê mấy ngày để em báo giá phù hợp.`);
+    return polite(CFG.replyFallback || `anh/chị quan tâm mẫu xe nào (vision, air blade, wave, sirius, 50cc, côn tay…) và thuê mấy ngày để em báo giá phù hợp.`);
   }
 
   /* ====== TÍCH HỢP AUTO-PRICE LEARN vào PRICE_TABLE (percentile) ====== */
   function mergeAutoPrices(){
-    if(!CFG.smart.autoPriceLearn) return;
+    if(!CFG.smart.autoPriceLearn || STRICT_PRICES) return;
     try{
       const autos = safe(localStorage.getItem(K.autoprices))||[];
       if(!autos.length) return;

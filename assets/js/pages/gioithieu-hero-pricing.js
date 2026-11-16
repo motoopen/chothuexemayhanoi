@@ -12,11 +12,11 @@
       io.observe(card);
     }
 
-    // Segmented control logic
+    // Segmented control logic (canonical price table: _data/prices.yml)
     const map = {
       day:   {price:'150–200k/ngày',   cta:'theo ngày'},
-      week:  {price:'600–900k/tuần',   cta:'theo tuần'},
-      month: {price:'1D–2 triệu/tháng', cta:'theo tháng'}
+      week:  {price:'700k–1 triệu/tuần', cta:'theo tuần'},
+      month: {price:'900k–2 triệu/tháng', cta:'theo tháng'}
     };
     const priceEl = document.getElementById('hminiPrice');
     const ctaEl   = document.getElementById('hminiCtaLabel');

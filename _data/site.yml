@@ -3,6 +3,14 @@ brand:
   tagline: "Thuê xe máy Hà Nội"
   author: "Motoopen"
   logo: "https://i.postimg.cc/brsmsj5N/IMG_5215.jpg"
+  # Self-hosted copies of the same logo artwork (added for non-home pages; the
+  # homepage keeps `logo`). Paths are relative to baseurl: use `| relative_url`.
+  logo_small: "/assets/images/brand/motoopen-logo-192.webp"
+  logo_square: "/assets/images/brand/icon-512.png"
+  logo_square_size: 512
+  favicon: "/assets/images/brand/favicon-48.png"
+  apple_touch_icon: "/assets/images/brand/apple-touch-icon-180.png"
+  team_name: "Đội ngũ Motoopen"
 
 contact:
   phone_raw: "0857255868"
@@ -12,6 +20,17 @@ contact:
   hours: "09:00 – 21:00 (Hàng ngày)"
   map_url: "https://maps.app.goo.gl/2icTBTxAToyvKTE78"
   zalo_url: "https://zalo.me/0857255868"
+  # Structured parts of the same canonical address/hours (used by JSON-LD and llms.txt).
+  phone_e164: "+84857255868"
+  street_address: "114 Nguyễn Văn Cừ"
+  address_locality: "Long Biên"
+  address_region: "Hà Nội"
+  address_country: "VN"
+  latitude: 21.0409776
+  longitude: 105.8692561
+  opens: "09:00"
+  closes: "21:00"
+  hours_text: "09:00–21:00 hằng ngày"
 
 social:
   facebook: "https://m.facebook.com/motoopenvn/"
@@ -48,3 +67,28 @@ blog:
   related_limit: 5
   related_minimum: 0
   default_author_bio: "Nội dung được xuất bản bởi Motoopen."
+
+# --- Added for the site-wide JSON-LD graph (_includes/seo/schema-graph.html) ---
+# Non-home pages only. sameAs uses social.facebook and social.instagram above;
+# no review/rating data, no postal code, no third-party listing URLs until the
+# owner confirms them.
+schema:
+  business_type: "AutoRental"
+  alternate_name: "Moto Open"
+  description: "Motoopen cho thuê xe máy tại Hà Nội theo ngày, tuần, tháng: Honda Wave, Honda Vision, Honda Air Blade, Honda Click/Yamaha Mio, xe tay ga 50cc và xe điện."
+  price_range: "150.000đ–2.000.000đ"
+
+# Author box and editorial note on blog posts (_includes/blog/author-box.html).
+editorial:
+  about_url: "/gioithieu.html"
+  note: "Bài viết do đội ngũ Motoopen biên soạn để hỗ trợ khách thuê xe tại Hà Nội. Giá và mức cọc theo bảng giá đang công bố; nội dung về giấy tờ, bằng lái và luật giao thông chỉ để tham khảo, hãy đối chiếu văn bản gốc trước khi áp dụng."
+  report_text: "Thấy thông tin chưa chính xác? Báo cho Motoopen qua email"
+
+# Default sources for _includes/blog/legal-sources.html when a post sets
+# `legal_sources: true`. A post can instead list its own sources (title, url, note).
+legal:
+  checked_on: "16/11/2026"
+  default_sources:
+    - title: "Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (hiệu lực 01/01/2025, sửa đổi bởi Luật số 118/2025/QH15)"
+      url: "https://vanban.chinhphu.vn/?pageid=27160&docid=211194&classid=1&typegroupid=3"
+      note: "Điều 34 khoản 1 điểm g (xe gắn máy); Điều 56 khoản 4; Điều 57 khoản 1 (hạng A1, A); Điều 59 khoản 1 (độ tuổi)"

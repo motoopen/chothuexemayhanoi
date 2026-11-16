@@ -1,0 +1,74 @@
+{%- comment -%}
+  MotoAI chatbot for NON-HOME pages: one config + one lazy loader.
+  Usage: put {% include motoai.html %} where the page used to load
+  motoai_v39_modelfirst_nomarkdown_nolink.js (end of <body>). The homepage keeps its own
+  script tag and the chatbot's built-in defaults (owner approval needed to change it).
+
+  - Brand, phone, Zalo and map come from _data/site.yml; prices from _data/prices.yml.
+  - storageNamespace keeps chat history and caches separate from other MotoAI widgets
+    on motoopen.github.io (they all share one localStorage origin).
+  - autolearn and price learning are off: du-lieu/*.txt still carries outdated data.
+  - intentFirst: questions about delivery, deposit, documents or contact are answered as such
+    instead of repeating the previous price answer.
+  - Replies for docs/deposit/delivery/return use neutral wording until the owner decides
+    those policies (no fees, delivery times or ID handling are promised here).
+  - The script is injected on the first user interaction (pointerdown, keydown,
+    touchstart, scroll) or when the browser is idle after load (timeout 5 s).
+{%- endcomment -%}
+{%- assign mcfg = site.data.site -%}
+{%- assign mprices = site.data.prices -%}
+{%- assign mphone = mcfg.contact.phone_display -%}
+{%- capture m_contact -%}anh/chị gọi {{ mphone }} hoặc nhắn Zalo {{ mphone }} ({{ mcfg.contact.hours_text }}).{%- endcapture -%}
+{%- capture m_docs -%}thủ tục thuê xe: thanh toán tiền thuê, đặt cọc và cung cấp giấy tờ theo thỏa thuận; hoàn cọc theo điều kiện hợp đồng khi trả xe. Anh/chị nhắn Zalo {{ mphone }} để được báo giấy tờ cần chuẩn bị cho mẫu xe đã chọn.{%- endcapture -%}
+{%- assign mrows = mprices.rows | where_exp: "r", "r.family != true" -%}
+{%- capture m_policy -%}đặt cọc tham khảo: {% for r in mrows %}{{ r.name }} {{ r.text.deposit }}{% unless forloop.last %}; {% endunless %}{% endfor %}. Đặt cọc và giấy tờ theo thỏa thuận; hoàn cọc theo điều kiện hợp đồng khi trả xe. Nhắn Zalo {{ mphone }} để chốt theo mẫu xe.{%- endcapture -%}
+{%- capture m_delivery -%}bên em có thể hẹn giao/nhận xe; khu vực, thời gian và chi phí giao (nếu có) được thỏa thuận trước khi chốt. Anh/chị nhắn Zalo {{ mphone }} để kiểm tra lịch.{%- endcapture -%}
+{%- capture m_return -%}trả xe tại cửa hàng {{ mcfg.contact.address }} ({{ mcfg.contact.hours_text }}) hoặc theo lịch đã thỏa thuận; hoàn cọc theo điều kiện hợp đồng khi trả xe. Muốn gia hạn hoặc đổi xe, anh/chị nhắn Zalo {{ mphone }}.{%- endcapture -%}
+{%- capture m_fallback -%}anh/chị quan tâm mẫu xe nào (Honda Wave, Vision, Air Blade, Click/Mio, xe ga 50cc hay xe điện) và thuê mấy ngày để em báo giá. Mẫu khác: liên hệ để kiểm tra xe và giá.{%- endcapture -%}
+<script>
+  window.MotoAI_CONFIG = {
+    brand: {{ mcfg.brand.name | jsonify }},
+    phone: {{ mcfg.contact.phone_raw | jsonify }},
+    zalo: {{ mcfg.contact.zalo_url | jsonify }},
+    map: {{ mcfg.contact.map_url | jsonify }},
+    storageNamespace: "Motoopen_chothuexemayhanoi",
+    autolearn: false,
+    debug: false,
+    smart: { autoPriceLearn: false },
+    intentFirst: true,
+    priceTable: {
+{%- for r in mprices.rows %}
+      {{ r.key | jsonify }}: { day: {{ r.day | jsonify }}, week: {{ r.week | jsonify }}, month: {{ r.month | jsonify }}{% if r.aliases %}, aliases: {{ r.aliases | jsonify }}{% endif %} }{% unless forloop.last %},{% endunless %}
+{%- endfor %}
+    },
+    replyContact: {{ m_contact | jsonify }},
+    replyDocs: {{ m_docs | jsonify }},
+    replyPolicy: {{ m_policy | jsonify }},
+    replyDelivery: {{ m_delivery | jsonify }},
+    replyReturn: {{ m_return | jsonify }},
+    replyFallback: {{ m_fallback | jsonify }}
+  };
+  (function () {
+    var SRC = {{ '/motoai_v39_modelfirst_nomarkdown_nolink.js' | relative_url | jsonify }};
+    var EVENTS = ['pointerdown', 'keydown', 'touchstart', 'scroll'];
+    var loaded = false;
+    function load() {
+      if (loaded) return;
+      loaded = true;
+      EVENTS.forEach(function (type) { window.removeEventListener(type, load, true); });
+      var s = document.createElement('script');
+      s.src = SRC;
+      s.async = true;
+      document.body.appendChild(s);
+    }
+    EVENTS.forEach(function (type) {
+      window.addEventListener(type, load, { once: true, passive: true, capture: true });
+    });
+    function idle() {
+      if (window.requestIdleCallback) window.requestIdleCallback(load, { timeout: 5000 });
+      else setTimeout(load, 3000);
+    }
+    if (document.readyState === 'complete') idle();
+    else window.addEventListener('load', idle, { once: true });
+  })();
+</script>

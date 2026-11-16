@@ -36,7 +36,7 @@ layout: default
     {% else %}
     <div class="blog-list">{% for post in category_posts %}<article class="blog-item">
       <h3><a class="blog-title-link" href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-      <p class="blog-meta">{{ post.date | date: "%-d %B %Y" }} • {{ post.author | default: site.author }}</p>
+      <p class="blog-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d/%-m/%Y" }}</time> • {{ post.author | default: site.author }}</p>
       <p class="blog-excerpt">{{ post.excerpt | strip_html | truncate:180 }}</p>
       <a class="mapp-btn ghost" href="{{ post.url | relative_url }}"><i class="fa-solid fa-arrow-right"></i> Đọc tiếp</a>
     </article>{% endfor %}</div>

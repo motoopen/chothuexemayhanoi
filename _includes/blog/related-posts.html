@@ -9,14 +9,14 @@
   </div>
   <div class="blog-related-list">
     {% for item in site.posts %}
-      {% if item.url != page.url and item.hub_category == page.hub_category and related_count < related_limit %}
+      {% if item.url != page.url and item.canonical_url == nil and item.hub_category == page.hub_category and related_count < related_limit %}
         <a class="blog-related-item" href="{{ item.url | relative_url }}"><strong>{{ item.title }}</strong><span>{{ item.date | date: "%d/%m/%Y" }}</span></a>
         {% assign related_count = related_count | plus: 1 %}
       {% endif %}
     {% endfor %}
     {% if related_count < related_limit %}
       {% for item in site.posts %}
-        {% if item.url != page.url and item.hub_parent == page.hub_parent and item.hub_category != page.hub_category and related_count < related_limit %}
+        {% if item.url != page.url and item.canonical_url == nil and item.hub_parent == page.hub_parent and item.hub_category != page.hub_category and related_count < related_limit %}
           <a class="blog-related-item" href="{{ item.url | relative_url }}"><strong>{{ item.title }}</strong><span>{{ item.date | date: "%d/%m/%Y" }}</span></a>
           {% assign related_count = related_count | plus: 1 %}
         {% endif %}
