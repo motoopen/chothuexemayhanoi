@@ -1,63 +1,82 @@
 {% assign sitecfg = site.data.site %}
-<footer class="premium app-footer" role="contentinfo" aria-label="Footer">
-  <div>
-    <h4>{{ sitecfg.brand.name }}</h4>
-    <p>Chúng tôi cung cấp xe máy đã qua sử dụng chất lượng để bán và cho thuê dài hạn tại Hà Nội.</p>
-    <ul class="app-contact">
-      <li><i class="fa-solid fa-location-dot"></i> {{ sitecfg.contact.address }}</li>
-      <li><i class="fa-solid fa-phone"></i> <a href="tel:{{ sitecfg.contact.phone_raw }}">{{ sitecfg.contact.phone_display }}</a></li>
-      <li><i class="fa-solid fa-clock"></i> {{ sitecfg.contact.hours }}</li>
-      <li><i class="fa-solid fa-envelope"></i> <a href="mailto:{{ sitecfg.contact.email }}">{{ sitecfg.contact.email }}</a></li>
-    </ul>
-  </div>
+<footer class="premium app-footer" role="contentinfo" aria-label="Thông tin Motoopen">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <section class="footer-brand-panel" aria-label="Giới thiệu và liên hệ Motoopen">
+        <div class="footer-brand-lockup">
+          <img src="{{ sitecfg.brand.logo }}" alt="Logo {{ sitecfg.brand.name }}" width="56" height="56" loading="lazy" decoding="async">
+          <div>
+            <strong class="footer-brand-name">{{ sitecfg.brand.name }}</strong>
+            <span class="footer-brand-tagline">{{ sitecfg.brand.tagline }}</span>
+          </div>
+        </div>
+        <p class="footer-description">Chúng tôi cung cấp xe máy đã qua sử dụng chất lượng để bán và cho thuê dài hạn tại Hà Nội.</p>
+        <ul class="app-contact" aria-label="Thông tin liên hệ">
+          <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i><a href="{{ sitecfg.contact.map_url }}" target="_blank" rel="noopener noreferrer" aria-label="Chỉ đường đến {{ sitecfg.contact.address }}">{{ sitecfg.contact.address }}</a></li>
+          <li><i class="fa-solid fa-phone" aria-hidden="true"></i><a href="tel:{{ sitecfg.contact.phone_raw }}">{{ sitecfg.contact.phone_display }}</a></li>
+          <li><i class="fa-regular fa-clock" aria-hidden="true"></i><span>{{ sitecfg.contact.hours }}</span></li>
+          <li><i class="fa-regular fa-envelope" aria-hidden="true"></i><a href="mailto:{{ sitecfg.contact.email }}">{{ sitecfg.contact.email }}</a></li>
+        </ul>
+      </section>
 
-  <div>
-    <h4>Điều hướng</h4>
-    <ul class="quick-links">
-      {% for item in site.data.navigation.primary %}
-      <li><a href="{{ item.url | relative_url }}"><i class="{{ item.icon }}"></i>{{ item.label }}</a></li>
-      {% endfor %}
-      <li><a href="{{ '/chinhsachbaomat.html' | relative_url }}"><i class="fa-solid fa-shield-halved"></i>Bảo mật</a></li>
-      <li><a href="{{ '/dieukhoansudung.html' | relative_url }}"><i class="fa-solid fa-scale-balanced"></i>Điều khoản</a></li>
-    </ul>
-  </div>
-
-  <div>
-    <h4>Dịch vụ</h4>
-    <ul class="quick-links">
-      {% assign service_nav = site.data.navigation.primary | where: "key", "services" | first %}
-      {% for child in service_nav.children %}
-      <li><a href="{{ child.url | relative_url }}"><i class="{{ child.icon }}"></i>{{ child.label }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
-
-  <div>
-    <h4>Danh mục Blog</h4>
-    <div class="footer-taxonomy">
-      {% for parent in site.data.taxonomy.parents %}
-      <div class="footer-taxonomy-group">
-        <a class="footer-taxonomy-parent" href="{{ parent.url | relative_url }}"><i class="{{ parent.icon }}"></i><strong>{{ parent.label }}</strong></a>
-        <div class="footer-taxonomy-children">
-          {% for child in parent.children %}
-          <a href="{{ child.url | relative_url }}"><i class="{{ child.icon }}"></i>{{ child.label }}</a>
+      <nav class="footer-links-panel" aria-labelledby="footer-navigation-heading">
+        <h2 id="footer-navigation-heading" class="footer-heading">Điều hướng</h2>
+        <ul class="quick-links">
+          {% for item in site.data.navigation.primary %}
+          <li><a href="{{ item.url | relative_url }}"><i class="{{ item.icon }}" aria-hidden="true"></i><span>{{ item.label }}</span></a></li>
           {% endfor %}
+          <li><a href="{{ '/chinhsachbaomat.html' | relative_url }}"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i><span>Bảo mật</span></a></li>
+          <li><a href="{{ '/dieukhoansudung.html' | relative_url }}"><i class="fa-solid fa-scale-balanced" aria-hidden="true"></i><span>Điều khoản</span></a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-links-panel" aria-labelledby="footer-services-heading">
+        <h2 id="footer-services-heading" class="footer-heading">Dịch vụ</h2>
+        <ul class="quick-links">
+          {% assign service_nav = site.data.navigation.primary | where: "key", "services" | first %}
+          {% for child in service_nav.children %}
+          <li><a href="{{ child.url | relative_url }}"><i class="{{ child.icon }}" aria-hidden="true"></i><span>{{ child.label }}</span></a></li>
+          {% endfor %}
+        </ul>
+        <a class="footer-service-cta" href="{{ '/banggia.html' | relative_url }}">
+          <i class="fa-solid fa-tags" aria-hidden="true"></i><span>Xem bảng giá</span><i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+        </a>
+      </nav>
+    </div>
+
+    <section class="footer-blog-panel" aria-labelledby="footer-blog-heading">
+      <div class="footer-blog-heading-row">
+        <div>
+          <span class="footer-eyebrow">CẨM NANG THUÊ XE</span>
+          <h2 id="footer-blog-heading" class="footer-heading">Danh mục Blog</h2>
+        </div>
+        <a class="footer-blog-all" href="{{ '/blog/danh-muc/' | relative_url }}">Tất cả danh mục <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+      </div>
+      <div class="footer-taxonomy">
+        {% for parent in site.data.taxonomy.parents %}
+        <div class="footer-taxonomy-group">
+          <a class="footer-taxonomy-parent" href="{{ parent.url | relative_url }}"><i class="{{ parent.icon }}" aria-hidden="true"></i><strong>{{ parent.label }}</strong></a>
+          <div class="footer-taxonomy-children">
+            {% for child in parent.children %}
+            <a href="{{ child.url | relative_url }}">{{ child.label }}</a>
+            {% endfor %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+
+    <div class="footer-bottom">
+      <div class="footer-social-block">
+        <span class="footer-social-title">Kết nối &amp; hỗ trợ</span>
+        <div class="social-row" aria-label="Các kênh liên hệ Motoopen">
+          <a href="{{ sitecfg.contact.zalo_url }}" title="Zalo" aria-label="Chat Motoopen trên Zalo" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-comment-dots" aria-hidden="true"></i></a>
+          <a href="{{ sitecfg.social.facebook }}" title="Facebook" aria-label="Motoopen trên Facebook" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+          <a href="mailto:{{ sitecfg.contact.email }}" title="Email" aria-label="Gửi email cho Motoopen"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+          <a href="{{ sitecfg.social.instagram }}" title="Instagram" aria-label="Motoopen trên Instagram" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
         </div>
       </div>
-      {% endfor %}
+      <p class="author"><i class="fa-regular fa-copyright" aria-hidden="true"></i> {{ site.time | date: "%Y" }} <a href="{{ sitecfg.social.app }}" target="_blank" rel="noopener noreferrer">@ Motoopen</a>. Tất cả quyền được bảo lưu.</p>
     </div>
-  </div>
-
-  <div>
-    <h4>Kết nối & Hỗ trợ</h4>
-    <div class="social-row">
-      <a href="{{ sitecfg.contact.zalo_url }}" title="Zalo" aria-label="Zalo"><i class="fa-solid fa-comment-dots"></i></a>
-      <a href="{{ sitecfg.social.facebook }}" title="Facebook" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-      <a href="mailto:{{ sitecfg.contact.email }}" title="Email" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
-      <a href="{{ sitecfg.social.instagram }}" title="Instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-    </div>
-    <p class="author" style="margin-top:10px"><i class="fa-solid fa-copyright"></i> {{ site.time | date: "%Y" }}
-      <a href="{{ sitecfg.social.app }}" target="_blank" rel="noopener">@ Motoopen</a>
-    </p>
   </div>
 </footer>
