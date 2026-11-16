@@ -1,0 +1,35 @@
+{% comment %}
+CollectionPage + BreadcrumbList + ItemList for blog listing pages.
+Params: crumbs (array of [name,url] pairs joined as "name|url;;name|url"), items (array of posts).
+Only mirrors visible content: page title/description, the visible breadcrumb and the listed posts.
+{% endcomment %}
+{% assign crumb_list = include.crumbs | split: ";;" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": {{ page.url | absolute_url | append: '#collection' | jsonify }},
+      "url": {{ page.url | absolute_url | jsonify }},
+      "name": {{ page.title | default: site.title | jsonify }},
+      "description": {{ page.description | default: site.description | strip_html | strip_newlines | jsonify }},
+      "inLanguage": "vi-VN",
+      "isPartOf": {"@type": "WebSite", "@id": {{ '/' | absolute_url | append: '#website' | jsonify }}, "url": {{ '/' | absolute_url | jsonify }}, "name": {{ site.title | jsonify }}},
+      "publisher": {"@type": "Organization", "name": {{ site.data.site.brand.name | jsonify }}, "url": {{ '/' | absolute_url | jsonify }}}{% if include.items and include.items.size > 0 %},
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": [{% for post in include.items limit: 100 %}
+          {"@type": "ListItem", "position": {{ forloop.index }}, "url": {{ post.url | absolute_url | jsonify }}, "name": {{ post.title | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}
+        ]
+      }{% endif %}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [{% for crumb in crumb_list %}{% assign c = crumb | split: "|" %}
+        {"@type": "ListItem", "position": {{ forloop.index }}, "name": {{ c[0] | jsonify }}, "item": {{ c[1] | absolute_url | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}
+      ]
+    }
+  ]
+}
+</script>

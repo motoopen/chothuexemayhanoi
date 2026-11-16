@@ -8,10 +8,12 @@
   "headline": {{ page.title | jsonify }},
   "description": {{ schema_description | strip | jsonify }},
   "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
-  "author": {"@type": "Organization", "name": {{ page.author | default: cfg.brand.author | jsonify }}},
-  "publisher": {"@type": "Organization", "name": {{ cfg.brand.name | jsonify }}},
-  "mainEntityOfPage": {{ page.url | absolute_url | jsonify }}{% if page.image %},
-  "image": {{ page.image | absolute_url | jsonify }}{% endif %}
+  "dateModified": {{ page.last_modified_at | default: page.date | date_to_xmlschema | jsonify }},
+  "inLanguage": "vi-VN",
+  "author": {"@type": "Organization", "name": {{ page.author | default: cfg.brand.author | jsonify }}, "url": {{ '/' | absolute_url | jsonify }}},
+  "publisher": {"@type": "Organization", "name": {{ cfg.brand.name | jsonify }}, "url": {{ '/' | absolute_url | jsonify }}, "logo": {"@type": "ImageObject", "url": {{ site.logo | jsonify }}}},
+  "mainEntityOfPage": {"@type": "WebPage", "@id": {{ page.url | absolute_url | jsonify }}},
+  "image": {% if page.image %}{{ page.image | absolute_url | jsonify }}{% else %}{{ site.social_image | jsonify }}{% endif %}
 }
 </script>
 {% endif %}
