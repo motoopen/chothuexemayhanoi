@@ -27,7 +27,12 @@
   <meta name="twitter:title" content="{{ page.title | default: site.title }}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines }}{% endif %}">
 
-  <link id="fa-css" rel="stylesheet" href="{{ site.fa_css | default: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css' }}">
+  <link rel="icon" href="{{ '/assets/images/brand/favicon-32.png' | relative_url }}" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="{{ '/assets/images/brand/apple-touch-icon-180.png' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap">
+  <link id="fa-css" rel="stylesheet" href="{{ site.fa_css | default: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css' }}">
   <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
@@ -37,6 +42,7 @@
   {{ content }}
 
   {% include footer.html %}
+  {% include bottom-appbar.html %}
   <script defer src="{{ '/assets/js/site.js' | relative_url }}"></script>
   <script defer src="{{ '/assets/js/fontawesome-fallback.js' | relative_url }}"></script>
 </body>
