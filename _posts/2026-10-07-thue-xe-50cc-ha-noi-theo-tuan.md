@@ -25,7 +25,7 @@ Tuần nào cũng có thể có ngày bạn vắng, nên hỏi trước: có t�
 
 ## Kiểm tra xe đầu tuần là lần quan trọng nhất
 
-Với gói tuần, lần kiểm tra lúc nhận quyết định cả bảy ngày, nên làm đủ: phanh, bánh, đèn còi, ga số, chạy thử, và chụp hiện trạng vòng quanh. Checklist đầy đủ mười hai điểm nằm trong bài [checklist nhận xe 50cc]({{ '/blog/checklist-nhan-xe-50cc/' | relative_url }}). Giữa tuần, một lần rà lại nhanh sau ba bốn ngày là đủ, nghe tiếng lạ thì báo sớm. Các dòng xe cho thuê nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}).
+Với gói tuần, lần kiểm tra lúc nhận quyết định cả bảy ngày, nên làm đủ: phanh, bánh, đèn còi, ga số, chạy thử, và chụp hiện trạng vòng quanh. Checklist đầy đủ mười hai điểm nằm trong bài [checklist nhận xe 50cc]({{ '/blog/checklist-nhan-xe-50cc/' | relative_url }}). Giữa tuần, một lần rà lại nhanh sau ba bốn ngày là đủ, nghe tiếng lạ thì báo sớm. Các dòng xe cho thuê nằm ở trang các loại xe cho thuê.
 
 ## Ví dụ hai khách lấy gói tuần
 

@@ -25,7 +25,7 @@ Khách đáp Nội Bài muốn dùng xe điện trong phố nên làm hai chặn
 
 ## Mức pin và kế hoạch sạc quanh khu
 
-Nếu lịch của bạn thật sự quanh sân bay, hỏi khi nhận: màn hình pin giao mức bao nhiêu, tầm thật trong khu khoảng bao nhiêu, và gần khu có điểm sạc hoặc đổi pin nào. Cắm qua đêm ở nơi lưu trú là chuẩn, và với quãng quanh khu ngắn, một lần sạc dư cả ngày. Kiểm tra thêm ga, phanh, đèn còi và chạy thử vòng ngắn. Chụp hiện trạng kể cả vết xước sẵn có. Điều khoản hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), và so gói theo các khung giờ ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Nếu lịch của bạn thật sự quanh sân bay, hỏi khi nhận: màn hình pin giao mức bao nhiêu, tầm thật trong khu khoảng bao nhiêu, và gần khu có điểm sạc hoặc đổi pin nào. Cắm qua đêm ở nơi lưu trú là chuẩn, và với quãng quanh khu ngắn, một lần sạc dư cả ngày. Kiểm tra thêm ga, phanh, đèn còi và chạy thử vòng ngắn. Chụp hiện trạng kể cả vết xước sẵn có. Điều khoản hợp đồng nằm ở trang thủ tục thuê xe, và so gói theo các khung giờ ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
 
 ## Ví dụ hai khách quanh Nội Bài
 

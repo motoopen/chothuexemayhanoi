@@ -25,7 +25,7 @@ Tại chỗ, nhấc mông khỏi yên rồi chống chân, giữ vài giây, l�
 
 ## Nhóm xe theo chiều cao yên
 
-Yên thấp nhất: 50cc và xe điện mini, tham khảo bài [xe máy điện và xe 50cc khi thuê]({{ '/blog/xe-may-dien-va-xe-50cc-khi-thue/' | relative_url }}). Vừa phải: Vision, Air Blade, xem so sánh trong bài [thuê Air Blade hay Vision]({{ '/blog/air-blade-va-vision-khi-thue/' | relative_url }}). Cao: SH và dòng ga lớn, cân trong bài [thuê SH hay Air Blade]({{ '/blog/sh-va-air-blade-khi-thue/' | relative_url }}). Xe côn thể thao yên cao kèm trọng lượng, chỉ hợp người quen, xem [thuê xe côn Hà Nội]({{ '/blog/thue-xe-con-ha-noi/' | relative_url }}).
+Yên thấp nhất: 50cc và xe điện mini, tham khảo bài xe máy điện và xe 50cc khi thuê. Vừa phải: Vision, Air Blade, xem so sánh trong bài [thuê Air Blade hay Vision]({{ '/blog/air-blade-va-vision-khi-thue/' | relative_url }}). Cao: SH và dòng ga lớn, cân trong bài thuê SH hay Air Blade. Xe côn thể thao yên cao kèm trọng lượng, chỉ hợp người quen, xem thuê xe côn Hà Nội.
 
 ## Chỉnh được gì sau khi thử
 

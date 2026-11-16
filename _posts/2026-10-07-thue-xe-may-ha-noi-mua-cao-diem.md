@@ -13,7 +13,7 @@ Mùa cao điểm ở Hà Nội, mùa lễ tết và dịp hội họp đông kh�
 
 ## Đặt sớm thay vì chọn tại chỗ
 
-Trong khung cao điểm, các dòng phổ thông và xe ga hết trước, phần còn lại thường không phải lựa chọn tốt nhất. Đặt trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) ngay khi biết lịch, chốt rõ dòng xe, khung nhận trả và địa điểm. Xác nhận lại một lần sát ngày đi để tránh thay đổi ngoài ý muốn. Mức giá các gói nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), nên đối chiếu giữa các dòng trước khi chọn.
+Trong khung cao điểm, các dòng phổ thông và xe ga hết trước, phần còn lại thường không phải lựa chọn tốt nhất. Đặt trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) ngay khi biết lịch, chốt rõ dòng xe, khung nhận trả và địa điểm. Xác nhận lại một lần sát ngày đi để tránh thay đổi ngoài ý muốn. Mức giá các gói nằm ở trang bảng giá, nên đối chiếu giữa các dòng trước khi chọn.
 
 ## Kiểm tra giá có đổi theo mùa không
 
@@ -21,7 +21,7 @@ Hỏi rõ mức giá trong khung cao điểm có điều chỉnh không, và cá
 
 ## Kiểm tra tình trạng xe kỹ hơn ngày thường
 
-Cao điểm là lúc xe được thuê dày liên tục, nên tình trạng mỗi chiếc khác nhau. Khi nhận, chạy thử vòng ngắn, kiểm tra ga, hai phanh, đèn còi, và chụp hiện trạng kể cả vết xước sẵn có. Nếu thấy xe có dấu hiệu không ổn, yêu cầu đổi ngay tại điểm nhận, vì trong mùa đông khách xe dự trộn nhiều. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}). Điều khoản hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).
+Cao điểm là lúc xe được thuê dày liên tục, nên tình trạng mỗi chiếc khác nhau. Khi nhận, chạy thử vòng ngắn, kiểm tra ga, hai phanh, đèn còi, và chụp hiện trạng kể cả vết xước sẵn có. Nếu thấy xe có dấu hiệu không ổn, yêu cầu đổi ngay tại điểm nhận, vì trong mùa đông khách xe dự trộn nhiều. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}). Điều khoản hợp đồng nằm ở trang thủ tục thuê xe.
 
 ## Kỹ thuật giữ lịch gọn trong mùa đông
 

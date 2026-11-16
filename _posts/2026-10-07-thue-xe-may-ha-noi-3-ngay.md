@@ -13,7 +13,7 @@ Ba ngày là thời gian vừa đủ cho một lịch trình đầy ở Hà Nộ
 
 ## Quy đổi giá ba ngày lẻ ra sao
 
-Lấy mức giá ngày tại trang [bảng giá]({{ '/banggia.html' | relative_url }}) nhân ba làm chuẩn so sánh. Sau đó hỏi cửa hàng gói riêng cho ba ngày, gói tuần, hoặc gói linh hoạt ba ngày trong vòng một tuần nếu lịch của bạn rời rạc. Có khi gói tuần chỉ nhỉnh hơn giá ba ngày lẻ nhưng cho phép bảy ngày, rất đáng nếu lịch ba ngày có nguy cơ kéo dài. Hỏi cụ thể qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) với dòng xe và khung dự kiến của bạn.
+Lấy mức giá ngày tại trang [bảng giá]({{ '/banggia.html' | relative_url }}) nhân ba làm chuẩn so sánh. Sau đó hỏi cửa hàng gói riêng cho ba ngày, gói tuần, hoặc gói linh hoạt ba ngày trong vòng một tuần nếu lịch của bạn rời rạc. Có khi gói tuần chỉ nhỉnh hơn giá ba ngày lẻ nhưng cho phép bảy ngày, rất đáng nếu lịch ba ngày có nguy cơ kéo dài. Hỏi cụ thể qua trang liên hệ với dòng xe và khung dự kiến của bạn.
 
 ## Khi nào nên hỏi gói riêng thay vì lẻ
 

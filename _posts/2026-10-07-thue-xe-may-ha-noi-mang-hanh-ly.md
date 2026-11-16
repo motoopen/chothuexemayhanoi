@@ -13,7 +13,7 @@ Mang nhiều hành lý đi cùng xe máy thuê là tình huống dễ xảy ra t
 
 ## Chọn dòng xe theo lượng hành lý
 
-Ít hành lý như một balo nhỏ thì dòng xe phổ thông nào cũng đủ, cốp xe để thêm mũ dự phòng. Hành lý cồng kềnh như va li hoặc thùng hàng thì nên chọn dòng xe ga có cốp rộng và sàn để rộng, hoặc hỏi trước xe có sẵn móc treo và dây buộc không. Một số điểm có dòng xe chuyên chở hàng, hỏi trực tiếp qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) khi đặt. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá theo ngày tại trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Ít hành lý như một balo nhỏ thì dòng xe phổ thông nào cũng đủ, cốp xe để thêm mũ dự phòng. Hành lý cồng kềnh như va li hoặc thùng hàng thì nên chọn dòng xe ga có cốp rộng và sàn để rộng, hoặc hỏi trước xe có sẵn móc treo và dây buộc không. Một số điểm có dòng xe chuyên chở hàng, hỏi trực tiếp qua trang liên hệ khi đặt. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá theo ngày tại trang bảng giá.
 
 ## Nguyên tắc sắp xếp đồ trên xe
 

@@ -29,7 +29,7 @@ Xe 50cc cho thuê thường là xe cũ đã qua nhiều tay, nên tuổi xe ản
 
 ## Giấy tờ, giá thuê và mức cọc
 
-Về thủ tục, thuê xe 50cc giống các dòng khác: cần giấy tờ tùy thân hợp lệ và đặt cọc theo quy định, chi tiết nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Điểm đáng chú ý là giá thuê dòng xe nhỏ thường thấp hơn xe ga và xe số phổ thông, bạn có thể so sánh trực tiếp trên [bảng giá]({{ '/banggia.html' | relative_url }}). Mức cọc thường cũng nhẹ hơn, vì giá trị xe thấp. Nếu chỉ cần xe trong vài tiếng, tham khảo thêm cách tính [thuê xe máy Hà Nội theo giờ]({{ '/blog/thue-xe-may-ha-noi-theo-gio/' }}) để chọn gói tối ưu.
+Về thủ tục, thuê xe 50cc giống các dòng khác: cần giấy tờ tùy thân hợp lệ và đặt cọc theo quy định, chi tiết nằm ở trang thủ tục thuê xe. Điểm đáng chú ý là giá thuê dòng xe nhỏ thường thấp hơn xe ga và xe số phổ thông, bạn có thể so sánh trực tiếp trên [bảng giá]({{ '/banggia.html' | relative_url }}). Mức cọc thường cũng nhẹ hơn, vì giá trị xe thấp. Nếu chỉ cần xe trong vài tiếng, tham khảo thêm cách tính [thuê xe máy Hà Nội theo giờ]({{ '/blog/thue-xe-may-ha-noi-theo-gio/' }}) để chọn gói tối ưu.
 
 ## Những câu hỏi nên đưa ra cho cửa hàng
 

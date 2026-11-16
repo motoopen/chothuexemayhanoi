@@ -29,7 +29,7 @@ Mẹo một: ghế làn gần mép phải khi dừng đèn đỏ, để chân đ
 
 ## Hỏi nơi thuê khi đặt xe
 
-Hỏi trước: trong dòng ga 50cc sẵn có, chiếc nào yên thấp và nhẹ nhất, cho thử ngồi lúc nhận. Hỏi luôn về chính sách đổi chiếc trong ngày đầu nếu thấy không hợp, đa số nơi thoải mái đổi với lý do hợp dáng người. Câu hỏi gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), điều khoản ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), và so giá giữa các dòng ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Hỏi trước: trong dòng ga 50cc sẵn có, chiếc nào yên thấp và nhẹ nhất, cho thử ngồi lúc nhận. Hỏi luôn về chính sách đổi chiếc trong ngày đầu nếu thấy không hợp, đa số nơi thoải mái đổi với lý do hợp dáng người. Câu hỏi gửi qua trang liên hệ, điều khoản ở trang thủ tục thuê xe, và so giá giữa các dòng ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
 
 ## Ví dụ hai khách thấp chọn khác nhau
 

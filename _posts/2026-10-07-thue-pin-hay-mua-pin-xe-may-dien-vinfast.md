@@ -25,7 +25,7 @@ Chi phí mua pin là khoản lớn trả một lần, chỉ hợp khi bạn đi 
 
 ## Với khách du lịch và người mới đến
 
-Khách du lịch, người mới đến hoặc người chỉ cần vài ngày tất cả đều rơi vào phương án thuê cả chiếc: nhận xe pin đầy, cắm sạc ở khách sạn, trả xe xong mọi trách nhiệm kết thúc. Đừng vì tò mò mô hình pin rời mà chọn hình thức phức tạp hơn nhu cầu, mỗi lớp trách nhiệm thêm là một lớp việc phải lo. Với khách muốn tìm hiểu thêm về dòng điện trước khi chọn, bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}) cho góc nhìn tổng quan, và câu hỏi cụ thể gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Khách du lịch, người mới đến hoặc người chỉ cần vài ngày tất cả đều rơi vào phương án thuê cả chiếc: nhận xe pin đầy, cắm sạc ở khách sạn, trả xe xong mọi trách nhiệm kết thúc. Đừng vì tò mò mô hình pin rời mà chọn hình thức phức tạp hơn nhu cầu, mỗi lớp trách nhiệm thêm là một lớp việc phải lo. Với khách muốn tìm hiểu thêm về dòng điện trước khi chọn, bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}) cho góc nhìn tổng quan, và câu hỏi cụ thể gửi qua trang liên hệ.
 
 ## Ví dụ hai người hai bài toán pin
 

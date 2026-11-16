@@ -25,7 +25,7 @@ Wave có cốp sau rộng hơn rõ, dễ buộc thùng hàng hoặc khóa hai th
 
 ## Độ bền và bảo trì giữa kỳ
 
-Hai dòng đều thuộc nhóm bền của xe số nhỏ, ít hỏng vặt nếu bảo dưỡng đều. Điểm nên hỏi nơi thuê: chiếc được giao năm sử dụng khoảng bao lâu, chạy được bao nhiêu, và lịch bảo dưỡng gần nhất lúc nào. Với gói dài, hỏi chính sách bảo dưỡng giữa kỳ và xe thay khi vào xưởng. Điều khoản nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), câu hỏi gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}). Kinh nghiệm cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
+Hai dòng đều thuộc nhóm bền của xe số nhỏ, ít hỏng vặt nếu bảo dưỡng đều. Điểm nên hỏi nơi thuê: chiếc được giao năm sử dụng khoảng bao lâu, chạy được bao nhiêu, và lịch bảo dưỡng gần nhất lúc nào. Với gói dài, hỏi chính sách bảo dưỡng giữa kỳ và xe thay khi vào xưởng. Điều khoản nằm ở trang thủ tục thuê xe, câu hỏi gửi qua trang liên hệ. Kinh nghiệm cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Ví dụ hai khách chọn khác dòng
 

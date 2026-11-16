@@ -29,7 +29,7 @@ Có con số thời gian đầy thật, kế hoạch sạc dựng dễ: nếu s�
 
 ## Ví dụ hai chiếc xe khác thời gian sạc
 
-Tình huống một: khách thuê chiếc pin nhỏ, sạc đầy khoảng ba tiếng, mỗi tối cắm sau khi về là sáng đầy, suốt tuần không chuyện gì. Tình huống hai: khách thuê chiếc pin lớn hơn nhưng không hỏi thời gian, tưởng sạc qua đêm là đủ như mọi xe, trong khi chiếc này cần lâu hơn và chiếc lại giao sạc loại chậm, hai hôm liền sáng ra pin chưa đầy, lịch bị co. Cùng là xe điện, khác nhau ở một câu hỏi. So gói các dòng ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), và điều khoản ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).
+Tình huống một: khách thuê chiếc pin nhỏ, sạc đầy khoảng ba tiếng, mỗi tối cắm sau khi về là sáng đầy, suốt tuần không chuyện gì. Tình huống hai: khách thuê chiếc pin lớn hơn nhưng không hỏi thời gian, tưởng sạc qua đêm là đủ như mọi xe, trong khi chiếc này cần lâu hơn và chiếc lại giao sạc loại chậm, hai hôm liền sáng ra pin chưa đầy, lịch bị co. Cùng là xe điện, khác nhau ở một câu hỏi. So gói các dòng ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), và điều khoản ở trang thủ tục thuê xe.
 
 ## Kết luận
 

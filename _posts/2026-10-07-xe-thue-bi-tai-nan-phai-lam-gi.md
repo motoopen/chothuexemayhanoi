@@ -21,7 +21,7 @@ Nếu không ai bị thương và xe vẫn đi được, chụp ngay hiện trư
 
 ## Thông báo cho nơi cho thuê
 
-Gọi ngay cho nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để báo tình huống: nơi thuê cần biết xe nằm ở đâu, hư hỏng tới đâu, và bạn có an toàn không. Hỏi hướng dẫn cụ thể, vì một số nơi có thợ cứu hộ quen hoặc muốn đưa xe về cửa hàng riêng. Phần trách nhiệm bồi thường nên đối chiếu theo hợp đồng đã ký, xem các mục nên có trong bài [hợp đồng thuê xe máy cần có gì]({{ '/blog/hop-dong-thue-xe-may-can-co-gi/' | relative_url }}).
+Gọi ngay cho nơi thuê qua trang liên hệ để báo tình huống: nơi thuê cần biết xe nằm ở đâu, hư hỏng tới đâu, và bạn có an toàn không. Hỏi hướng dẫn cụ thể, vì một số nơi có thợ cứu hộ quen hoặc muốn đưa xe về cửa hàng riêng. Phần trách nhiệm bồi thường nên đối chiếu theo hợp đồng đã ký, xem các mục nên có trong bài [hợp đồng thuê xe máy cần có gì]({{ '/blog/hop-dong-thue-xe-may-can-co-gi/' | relative_url }}).
 
 ## Thông báo cho cơ quan chức năng
 

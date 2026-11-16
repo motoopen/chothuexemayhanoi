@@ -17,7 +17,7 @@ Thuê trực tiếp: bạn đến cửa hàng, xem xe thực tế, kiểm tra b�
 
 ## Thanh toán, cọc và điều khoản
 
-Với thuê trực tiếp, thanh toán và đặt cọc thường thực hiện ngay tại quầy, mọi điều khoản nằm trong hợp đồng giấy bạn cầm trên tay. Với thuê qua app, thanh toán thường qua ứng dụng, mức cọc có thể được chặn trong tài khoản, và điều khoản nằm trong phần thỏa thuận điện tử. Ưu điểm của app là minh bạch số liệu: giá, thời gian thuê, mức cọc đều ghi rõ trên giao diện. Nhược điểm là điều khoản dễ bị lướt qua khi bấm xác nhận nhanh, nên hãy đọc phần điều khoản về trễ hẹn, mức pin khi trả và trách nhiệm hư hỏng trước khi hoàn tất đặt xe. Mức giá các gói niêm yết nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), thủ tục giấy tờ chung tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).
+Với thuê trực tiếp, thanh toán và đặt cọc thường thực hiện ngay tại quầy, mọi điều khoản nằm trong hợp đồng giấy bạn cầm trên tay. Với thuê qua app, thanh toán thường qua ứng dụng, mức cọc có thể được chặn trong tài khoản, và điều khoản nằm trong phần thỏa thuận điện tử. Ưu điểm của app là minh bạch số liệu: giá, thời gian thuê, mức cọc đều ghi rõ trên giao diện. Nhược điểm là điều khoản dễ bị lướt qua khi bấm xác nhận nhanh, nên hãy đọc phần điều khoản về trễ hẹn, mức pin khi trả và trách nhiệm hư hỏng trước khi hoàn tất đặt xe. Mức giá các gói niêm yết nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), thủ tục giấy tờ chung tại trang thủ tục thuê xe.
 
 ## Hỗ trợ khi có sự cố
 
@@ -25,7 +25,7 @@ Với thuê trực tiếp, thanh toán và đặt cọc thường thực hiện 
 
 ## Chọn theo tình huống thực tế
 
-Chọn app khi: bạn cần đặt trước khung giờ cao điểm, đi theo lịch kín, quen thao tác trên điện thoại và muốn mọi giao dịch ghi lại tự động. Chọn trực tiếp khi: bạn lần đầu thuê ở Hà Nội, muốn xem và thử nhiều mẫu trước khi chốt, cần tư vấn mặt đối mặt về loại xe, hoặc có yêu cầu đặc biệt cần thương lượng. Cách phối hợp cũng phổ biến: đặt qua app trước để chắc có xe, rồi đến điểm nhận sớm để kiểm tra kỹ. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), thông tin liên hệ tại trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Chọn app khi: bạn cần đặt trước khung giờ cao điểm, đi theo lịch kín, quen thao tác trên điện thoại và muốn mọi giao dịch ghi lại tự động. Chọn trực tiếp khi: bạn lần đầu thuê ở Hà Nội, muốn xem và thử nhiều mẫu trước khi chốt, cần tư vấn mặt đối mặt về loại xe, hoặc có yêu cầu đặc biệt cần thương lượng. Cách phối hợp cũng phổ biến: đặt qua app trước để chắc có xe, rồi đến điểm nhận sớm để kiểm tra kỹ. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), thông tin liên hệ tại trang liên hệ.
 
 ## Khâu kiểm tra vẫn không thay thế được
 

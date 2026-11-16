@@ -17,11 +17,11 @@ Giấy phép lái nước ngoài muốn dùng ở Việt Nam cần thuộc diệ
 
 ## Giấy tờ nơi cho thuê yêu cầu
 
-Với khách là người nước ngoài, nơi cho thuê thường yêu cầu hộ chiếu còn hạn và thị thực hoặc giấy tạm trú tùy trường hợp, giữ bản photo và đặt cọc qua chuyển khoản. Một số nơi có nhân viên giao tiếp tiếng Anh, nên hỏi trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) nếu cần hỗ trợ ngôn ngữ, và đọc kỹ điều khoản ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}) trước khi ký, kể cả nhờ dịch.
+Với khách là người nước ngoài, nơi cho thuê thường yêu cầu hộ chiếu còn hạn và thị thực hoặc giấy tạm trú tùy trường hợp, giữ bản photo và đặt cọc qua chuyển khoản. Một số nơi có nhân viên giao tiếp tiếng Anh, nên hỏi trước qua trang liên hệ nếu cần hỗ trợ ngôn ngữ, và đọc kỹ điều khoản ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}) trước khi ký, kể cả nhờ dịch.
 
 ## Chọn xe điện theo lịch của mình
 
-Xe máy điện hợp khách ở trong nội đô, đi quãng ngắn nhiều chặng, vì êm, không số và rẻ chi năng lượng. Với lịch định đi các điểm ven xa, phải tính tầm pin và chỗ sạc trước, hoặc chọn dòng xăng. Người mới đến cũng nên làm quen giao thông Hà Nội trên đoạn vắng trước khi vào giờ cao điểm, kể cả xe điện dễ lái. Các dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), và so gói ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Xe máy điện hợp khách ở trong nội đô, đi quãng ngắn nhiều chặng, vì êm, không số và rẻ chi năng lượng. Với lịch định đi các điểm ven xa, phải tính tầm pin và chỗ sạc trước, hoặc chọn dòng xăng. Người mới đến cũng nên làm quen giao thông Hà Nội trên đoạn vắng trước khi vào giờ cao điểm, kể cả xe điện dễ lái. Các dòng xe hiện có nằm ở trang các loại xe cho thuê, và so gói ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
 
 ## Các khoản nên hỏi trước khi nhận
 

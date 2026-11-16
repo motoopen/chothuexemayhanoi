@@ -25,11 +25,11 @@ Xe ga 50cc có hộc dưới yên vừa áo mưa, mũ và vài món lặt vặt,
 
 ## Nên chọn theo hành trình của bạn
 
-Chọn Cub nếu: bạn từng đi xe số, thích máy bền kiểu cổ điển, và lịch toàn chặng ngắn trong phố. Chọn xe ga nếu: bạn người mới, cần thao tác đơn giản nhất, hay chở vài món cần hộc đựng. Cả hai đều không hợp với chặng xa hoặc tải nặng, bài so dòng cho hành trình nội thành nằm trong [thuê xe tay ga 50cc Hà Nội]({{ '/blog/thue-xe-tay-ga-50cc-ha-noi/' | relative_url }}). Kinh nghiệm cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
+Chọn Cub nếu: bạn từng đi xe số, thích máy bền kiểu cổ điển, và lịch toàn chặng ngắn trong phố. Chọn xe ga nếu: bạn người mới, cần thao tác đơn giản nhất, hay chở vài món cần hộc đựng. Cả hai đều không hợp với chặng xa hoặc tải nặng, bài so dòng cho hành trình nội thành nằm trong [thuê xe tay ga 50cc Hà Nội]({{ '/blog/thue-xe-tay-ga-50cc-ha-noi/' | relative_url }}). Kinh nghiệm cho lần đầu thuê nằm trong bài thuê xe máy Hà Nội lần đầu.
 
 ## Kiểm tra khi nhận mỗi dòng
 
-Với Cub, thử đủ các số lên xuống, nghe tiếng côn, kiểm tra chân chống và xăm bánh. Với xe ga, vặn ga đều nghe máy, kiểm tra phanh hai bánh và mở hộc xe xem khóa hoạt động không. Hai dòng đều nên chạy thử vòng ngắn và chụp hiện trạng kể cả vết xước sẵn có. Điều khoản hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), câu hỏi trước khi nhận gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Với Cub, thử đủ các số lên xuống, nghe tiếng côn, kiểm tra chân chống và xăm bánh. Với xe ga, vặn ga đều nghe máy, kiểm tra phanh hai bánh và mở hộc xe xem khóa hoạt động không. Hai dòng đều nên chạy thử vòng ngắn và chụp hiện trạng kể cả vết xước sẵn có. Điều khoản hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), câu hỏi trước khi nhận gửi qua trang liên hệ.
 
 ## Ví dụ hai khách mới chọn dòng
 

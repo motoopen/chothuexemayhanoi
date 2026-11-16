@@ -21,15 +21,15 @@ Chọn một lối hẹp gần quầy, quay xe 180 độ: xe nhẹ xoay bằng c
 
 ## Thử bằng dựng chống
 
-Nhấc xe khỏi chống, dựng lại, và giữ xe nghiêng nhẹ vài giây: khối xe khác nhau lộ rõ qua động tác lặp. Người yếu tay hoặc thấp nên ưu tiên nhóm dưới 100 ký gồm 50cc và xe điện mini, tham khảo bài [xe máy điện và xe 50cc khi thuê]({{ '/blog/xe-may-dien-va-xe-50cc-khi-thue/' | relative_url }}). Chống chân liên tục trong kẹt xe là tình huống tiêu tốn sức nhất, và bài [chọn chiều cao yên khi thuê xe]({{ '/blog/chon-chieu-cao-yen-xe-thue/' | relative_url }}) giải quyết phần tư thế cho cùng động tác.
+Nhấc xe khỏi chống, dựng lại, và giữ xe nghiêng nhẹ vài giây: khối xe khác nhau lộ rõ qua động tác lặp. Người yếu tay hoặc thấp nên ưu tiên nhóm dưới 100 ký gồm 50cc và xe điện mini, tham khảo bài xe máy điện và xe 50cc khi thuê. Chống chân liên tục trong kẹt xe là tình huống tiêu tốn sức nhất, và bài [chọn chiều cao yên khi thuê xe]({{ '/blog/chon-chieu-cao-yen-xe-thue/' | relative_url }}) giải quyết phần tư thế cho cùng động tác.
 
 ## Khối xe gợi ý theo từng dòng
 
-Dưới 100 ký: nhóm 50cc, xe điện mini, dễ nhất cho người mới và người thấp, hướng dẫn trong bài [thuê xe máy cho người mới lái Hà Nội]({{ '/blog/thue-xe-may-cho-nguoi-moi-lai-ha-noi/' | relative_url }}). Khoảng 100 đến 110 ký: Vision, Air Blade, Lead, cân bằng gọn và chắc, so dòng trong bài [thuê Vision hay Lead]({{ '/blog/xe-vision-va-lead-khi-thue/' | relative_url }}). Trên 120 ký: SH, dòng ga lớn và thể thao, chỉ nên chọn khi thể lực và kinh nghiệm đủ, cân trong bài [thuê SH hay Air Blade]({{ '/blog/sh-va-air-blade-khi-thue/' | relative_url }}).
+Dưới 100 ký: nhóm 50cc, xe điện mini, dễ nhất cho người mới và người thấp, hướng dẫn trong bài thuê xe máy cho người mới lái Hà Nội. Khoảng 100 đến 110 ký: Vision, Air Blade, Lead, cân bằng gọn và chắc, so dòng trong bài [thuê Vision hay Lead]({{ '/blog/xe-vision-va-lead-khi-thue/' | relative_url }}). Trên 120 ký: SH, dòng ga lớn và thể thao, chỉ nên chọn khi thể lực và kinh nghiệm đủ, cân trong bài thuê SH hay Air Blade.
 
 ## Trọng lượng và an toàn
 
-Xe nặng đầm khi chạy nhanh nhưng phanh gấp cần lực bóp lớn hơn và khoảng dừng dài hơn, đặc biệt chở hai người, tải trong bài [xe 50cc cho 2 người]({{ '/blog/xe-50cc-cho-2-nguoi/' | relative_url }}). Đường ướt càng rõ phần chênh, nguyên tắc trong bài [thuê xe máy mùa mưa loại nào]({{ '/blog/thue-xe-may-mua-mua-loai-nao/' | relative_url }}). Lịch của bạn chủ yếu chặng chậm dưới 40 cây số mỗi giờ thì độ đầm ít dùng tới, còn phần nặng phải trả bằng tay chân mỗi ngày. Cân đúng phần trăm bằng ra phần dùng được.
+Xe nặng đầm khi chạy nhanh nhưng phanh gấp cần lực bóp lớn hơn và khoảng dừng dài hơn, đặc biệt chở hai người, tải trong bài xe 50cc cho 2 người. Đường ướt càng rõ phần chênh, nguyên tắc trong bài [thuê xe máy mùa mưa loại nào]({{ '/blog/thue-xe-may-mua-mua-loai-nao/' | relative_url }}). Lịch của bạn chủ yếu chặng chậm dưới 40 cây số mỗi giờ thì độ đầm ít dùng tới, còn phần nặng phải trả bằng tay chân mỗi ngày. Cân đúng phần trăm bằng ra phần dùng được.
 
 ## Kết luận
 

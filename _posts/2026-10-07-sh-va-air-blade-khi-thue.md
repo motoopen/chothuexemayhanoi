@@ -13,7 +13,7 @@ SH đẳng cấp hơn Air Blade nhưng cũng nặng và to hơn, và có những
 
 ## Khi người lái thấp hoặc ít kinh nghiệm
 
-SH nặng gần 130 ký và yên cao, người thấp chống chân căng, xem cách kiểm trong bài [thuê xe máy yên thấp Hà Nội]({{ '/blog/thue-xe-may-yen-thap-ha-noi/' | relative_url }}). Air Blade nhẹ hơn hẳn và yên thấp hơn, dễ cho người mới, hướng dẫn trong bài [thuê xe máy cho người mới lái Hà Nội]({{ '/blog/thue-xe-may-cho-nguoi-moi-lai-ha-noi/' | relative_url }}). Dừng đèn đỏ liên tục trong phố, trọng lượng SH lộ rõ: chống chân mỏi và kéo xe khó. Chưa quen xe lớn thì Air Blade an toàn hơn cho bạn và người xung quanh.
+SH nặng gần 130 ký và yên cao, người thấp chống chân căng, xem cách kiểm trong bài [thuê xe máy yên thấp Hà Nội]({{ '/blog/thue-xe-may-yen-thap-ha-noi/' | relative_url }}). Air Blade nhẹ hơn hẳn và yên thấp hơn, dễ cho người mới, hướng dẫn trong bài thuê xe máy cho người mới lái Hà Nội. Dừng đèn đỏ liên tục trong phố, trọng lượng SH lộ rõ: chống chân mỏi và kéo xe khó. Chưa quen xe lớn thì Air Blade an toàn hơn cho bạn và người xung quanh.
 
 ## Khi ngõ hẹp và chỗ đỗ chật
 
@@ -21,15 +21,15 @@ Ngõ Hà Nội nhiều chỗ chỉ vừa một xe, SH dài và rộng hơn Air B
 
 ## Khi phanh gấp và đường ướt
 
-Cả hai đều có phanh đĩa tốt, nhưng xe nặng dừng dài hơn: phanh gấp trên SH cần khoảng cách và lực bóp lớn hơn. Đường ướt càng rõ phần chênh, nguyên tắc chung trong bài [thuê xe máy mùa mưa loại nào]({{ '/blog/thue-xe-may-mua-mua-loai-nao/' | relative_url }}). Ai đi đường ướt nhiều hoặc chở hai người thường xuyên thì Air Blade dễ kiểm soát, cân tải trong bài [xe 50cc cho 2 người]({{ '/blog/xe-50cc-cho-2-nguoi/' | relative_url }}). Rà phanh lốp theo chuẩn trong bài [kiểm tra phanh lốp xe 50cc]({{ '/blog/kiem-tra-phanh-lop-xe-50cc/' | relative_url }}) cho cả hai.
+Cả hai đều có phanh đĩa tốt, nhưng xe nặng dừng dài hơn: phanh gấp trên SH cần khoảng cách và lực bóp lớn hơn. Đường ướt càng rõ phần chênh, nguyên tắc chung trong bài [thuê xe máy mùa mưa loại nào]({{ '/blog/thue-xe-may-mua-mua-loai-nao/' | relative_url }}). Ai đi đường ướt nhiều hoặc chở hai người thường xuyên thì Air Blade dễ kiểm soát, cân tải trong bài xe 50cc cho 2 người. Rà phanh lốp theo chuẩn trong bài kiểm tra phanh lốp xe 50cc cho cả hai.
 
 ## Khi đường trường là chặng chính
 
-Đây là vùng SH mạnh: máy đầm, êm và giữ tốc đường trường trọn vẹn, hợp liên tỉnh và dài ngày. Air Blade làm tốt đường trường ngắn, xem bài [thuê xe máy đi đường dài từ Hà Nội]({{ '/blog/thue-xe-may-di-duong-dai-tu-ha-noi/' | relative_url }}) cho khung lựa chọn. Nếu kỳ thuê của bạn phần lớn là cao tốc và đại lộ, SH đáng phần chênh giá và trọng lượng. Cân nhắc thêm dòng khác cho cùng nhu cầu trong bài [thuê Air Blade hay Vision]({{ '/blog/air-blade-va-vision-khi-thue/' | relative_url }}).
+Đây là vùng SH mạnh: máy đầm, êm và giữ tốc đường trường trọn vẹn, hợp liên tỉnh và dài ngày. Air Blade làm tốt đường trường ngắn, xem bài thuê xe máy đi đường dài từ Hà Nội cho khung lựa chọn. Nếu kỳ thuê của bạn phần lớn là cao tốc và đại lộ, SH đáng phần chênh giá và trọng lượng. Cân nhắc thêm dòng khác cho cùng nhu cầu trong bài [thuê Air Blade hay Vision]({{ '/blog/air-blade-va-vision-khi-thue/' | relative_url }}).
 
 ## Giá, cọc và điều khoản
 
-SH giá thuê gấp rưỡi trở lên, cọc cao và trách nhiệm trầy xước đắt vì sơn và phụ tùng dòng lớn. Air Blade vừa giá và điều khoản nhẹ hơn. Cả hai cần bằng lái A1, nhóm 50cc không cần, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Chụp thân xe kỹ khi nhận SH, hợp đồng ghi rõ mức khấu trừ. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). Hỏi tồn kho qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước, SH kẹt quanh lễ.
+SH giá thuê gấp rưỡi trở lên, cọc cao và trách nhiệm trầy xước đắt vì sơn và phụ tùng dòng lớn. Air Blade vừa giá và điều khoản nhẹ hơn. Cả hai cần bằng lái A1, nhóm 50cc không cần, phân biệt trong bài xe 50cc có cần bằng lái không. Chụp thân xe kỹ khi nhận SH, hợp đồng ghi rõ mức khấu trừ. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). Hỏi tồn kho qua trang liên hệ trước, SH kẹt quanh lễ.
 
 ## Kết luận
 

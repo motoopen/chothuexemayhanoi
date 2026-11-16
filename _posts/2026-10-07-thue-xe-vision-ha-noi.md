@@ -19,7 +19,7 @@ Thứ năm, bật toàn bộ đèn: đèn pha, đèn hậu, xi-nhan và còi; đ
 
 ## Giấy tờ và điều khoản khi thuê Vision
 
-Vì là xe ga phổ thông, thuê Vision cần giấy phép lái xe hạng phù hợp theo quy định hiện hành; khách nước ngoài cần giấy phép lái quốc tế hoặc bằng lái Việt Nam được cấp cho người nước ngoài. Hợp đồng thuê nên ghi rõ biển số, mức xăng khi nhận, tiền cọc và các vết trầy có sẵn, kèm bộ ảnh chụp hai bên xe. Quy trình chuẩn bị giấy tờ và kiểm tra xe được tóm tắt trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}). Trước khi đi, bạn cũng nên xem nhanh danh sách các dòng xe hiện có tại trang [loại xe]({{ '/loaixe.html' | relative_url }}) và so mức giá từng dòng tại [bảng giá cho thuê]({{ '/banggia.html' | relative_url }}) để chắc chắn Vision vẫn sẵn và hợp túi tiền.
+Vì là xe ga phổ thông, thuê Vision cần giấy phép lái xe hạng phù hợp theo quy định hiện hành; khách nước ngoài cần giấy phép lái quốc tế hoặc bằng lái Việt Nam được cấp cho người nước ngoài. Hợp đồng thuê nên ghi rõ biển số, mức xăng khi nhận, tiền cọc và các vết trầy có sẵn, kèm bộ ảnh chụp hai bên xe. Quy trình chuẩn bị giấy tờ và kiểm tra xe được tóm tắt trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}). Trước khi đi, bạn cũng nên xem nhanh danh sách các dòng xe hiện có tại trang loại xe và so mức giá từng dòng tại bảng giá cho thuê để chắc chắn Vision vẫn sẵn và hợp túi tiền.
 
 ## Vì sao Vision hợp với đi phố Hà Nội
 

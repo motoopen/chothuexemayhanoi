@@ -25,7 +25,7 @@ Nhầm lẫn thứ nhất: nghĩ mọi xe điện đều như xe đạp, không 
 
 ## Điều kiện nơi cho thuê đặt ra
 
-Nơi cho thuê xe điện nghiêm túc thường hỏi người lái đã đủ điều kiện theo loại xe chưa, vì trách nhiệm người lái thuộc về khách khi xe đã giao. Giấy tờ cần mang theo khi nhận nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), và câu hỏi trước gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}). Nếu chưa rõ loại xe mình định thuê thuộc nhóm nào, hỏi thẳng để được chỉ đúng, đó cũng là cách kiểm tra độ minh bạch của nơi thuê.
+Nơi cho thuê xe điện nghiêm túc thường hỏi người lái đã đủ điều kiện theo loại xe chưa, vì trách nhiệm người lái thuộc về khách khi xe đã giao. Giấy tờ cần mang theo khi nhận nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), và câu hỏi trước gửi qua trang liên hệ. Nếu chưa rõ loại xe mình định thuê thuộc nhóm nào, hỏi thẳng để được chỉ đúng, đó cũng là cách kiểm tra độ minh bạch của nơi thuê.
 
 ## Ví dụ hai khách tra trước và không tra
 

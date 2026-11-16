@@ -13,7 +13,7 @@ Khách du lịch đến Hà Nội thường muốn tự mình chạy vòng phố
 
 ## Chọn xe theo loại lịch trình
 
-Lịch trình trong phố cũ và quanh hồ: dòng xe nhỏ gọn là đủ, dễ luồn các phố đông và đổ vào chỗ để xe hẹp. Lịch trình ghé các điểm ven xa hơn như vùng đồi phía tây hoặc làng nghề các huyện: nên chọn dòng xe ga phổ thông êm hơn cho chặng dài. Nếu đi nhóm đông, đặt trước số lượng xe cùng loại qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để điểm nhận chuẩn bị đủ, kể cả mũ bảo hiểm nhiều kích cỡ. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá theo ngày tại trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Lịch trình trong phố cũ và quanh hồ: dòng xe nhỏ gọn là đủ, dễ luồn các phố đông và đổ vào chỗ để xe hẹp. Lịch trình ghé các điểm ven xa hơn như vùng đồi phía tây hoặc làng nghề các huyện: nên chọn dòng xe ga phổ thông êm hơn cho chặng dài. Nếu đi nhóm đông, đặt trước số lượng xe cùng loại qua trang liên hệ để điểm nhận chuẩn bị đủ, kể cả mũ bảo hiểm nhiều kích cỡ. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá theo ngày tại trang bảng giá.
 
 ## Xe số hay xe điện cho khách lần đầu
 

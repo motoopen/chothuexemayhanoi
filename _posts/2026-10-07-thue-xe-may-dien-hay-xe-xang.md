@@ -27,7 +27,7 @@ Về thủ tục, cả hai loại đều cần giấy phép lái xe hợp lệ k
 
 Chọn xe máy điện nếu: bạn chạy nội thành và vùng ven gần, ưa sự êm ái, muốn chi phí vận hành thấp, và biết trước vị trí trạm sạc dọc lộ trình. Chọn xe xăng nếu: lịch trình dài, hay thay đổi lộ trình đột xuất, đi nhiều người hoặc chở đồ nặng, và quen với vận hành tay ga tay côn. Nếu vẫn lưỡng lự, một mẹo nhỏ là thuê một ngày xe điện thử cảm giác; hầu hết cửa hàng cho đổi sang xe xăng ngày hôm sau nếu bạn thấy không hợp.
 
-Trước khi quyết định, cũng nên xem nhanh danh sách loại xe tại trang [loại xe]({{ '/loaixe.html' | relative_url }}) để nắm dòng nào đang có sẵn, vì mùa cao điểm xe điện hay hết trước. Và nếu là lần đầu thuê xe ở Hà Nội, bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}) sẽ giúp bạn chuẩn bị giấy tờ và các bước cơ bản.
+Trước khi quyết định, cũng nên xem nhanh danh sách loại xe tại trang loại xe để nắm dòng nào đang có sẵn, vì mùa cao điểm xe điện hay hết trước. Và nếu là lần đầu thuê xe ở Hà Nội, bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}) sẽ giúp bạn chuẩn bị giấy tờ và các bước cơ bản.
 
 ## Nguồn
 

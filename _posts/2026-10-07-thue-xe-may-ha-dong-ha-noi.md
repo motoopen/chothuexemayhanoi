@@ -21,7 +21,7 @@ Hà Đông có hai khung đông rõ: sáng sớm trên các tuyến lớn hướ
 
 ## Loại xe hợp khu vực phía tây
 
-Quãng đường từ Hà Đông lên trung tâm khá dài, nên dòng xe êm và đủ lực giúp phần mỏi tay trên chặng dày. Xe ga phổ thông là lựa chọn cân bằng tốt nếu bạn đi trục lớn mỗi ngày. Nếu chỉ đi quãng ngắn quanh khu phố và chợ, dòng xe nhỏ gọn tiết kiệm đủ dùng. Khách định kết hợp chạy về các khu vực ven phía tây trong ngày nên chọn dòng ổn định, vì quãng đường cộng dồn dễ gây mỏi. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Quãng đường từ Hà Đông lên trung tâm khá dài, nên dòng xe êm và đủ lực giúp phần mỏi tay trên chặng dày. Xe ga phổ thông là lựa chọn cân bằng tốt nếu bạn đi trục lớn mỗi ngày. Nếu chỉ đi quãng ngắn quanh khu phố và chợ, dòng xe nhỏ gọn tiết kiệm đủ dùng. Khách định kết hợp chạy về các khu vực ven phía tây trong ngày nên chọn dòng ổn định, vì quãng đường cộng dồn dễ gây mỏi. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang bảng giá.
 
 ## Hỏi về phạm vi di chuyển và giao xe tận nơi
 

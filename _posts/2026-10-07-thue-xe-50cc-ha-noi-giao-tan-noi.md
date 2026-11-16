@@ -29,7 +29,7 @@ Bàn giao tại chỗ thiếu người chứng kiến thứ ba, nên ảnh là b
 
 ## Trả xe cũng cần chốt từ trước
 
-Giao tận nơi thường kéo theo trả tận nơi, nên hỏi trước: điểm trả có thể là địa chỉ khác không, ví dụ nhận ở khách sạn A trả ở ga, phí chặng chuyển tính thế nào, và khung trả có phụ phí ngoài giờ không. Khách đi một chiều nên đọc thêm bài [trả xe khác điểm nhận]({{ '/blog/thue-xe-may-ha-noi-giao-tan-noi/' | relative_url }}) và so gói ở trang [bảng giá]({{ '/banggia.html' | relative_url }}). Chốt các khoản này từ lúc đặt giúp khung trả cũng gọn như khung nhận.
+Giao tận nơi thường kéo theo trả tận nơi, nên hỏi trước: điểm trả có thể là địa chỉ khác không, ví dụ nhận ở khách sạn A trả ở ga, phí chặng chuyển tính thế nào, và khung trả có phụ phí ngoài giờ không. Khách đi một chiều nên đọc thêm bài [trả xe khác điểm nhận]({{ '/blog/thue-xe-may-ha-noi-giao-tan-noi/' | relative_url }}) và so gói ở trang bảng giá. Chốt các khoản này từ lúc đặt giúp khung trả cũng gọn như khung nhận.
 
 ## Ví dụ hai lần giao tận nơi
 

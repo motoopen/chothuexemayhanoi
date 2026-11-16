@@ -21,7 +21,7 @@ Tây Hồ thoáng hơn các quận nội thành, nhưng có hai khung giờ cầ
 
 ## Loại xe hợp tuyến ven hồ
 
-Tuyến ven hồ đẹp nhưng dài, nên dòng xe êm và đủ lực giúp quãng chạy thoải mái, đặc biệt khi có gió hồ mùa lạnh. Xe ga phổ thông là lựa chọn cân bằng tốt cho các chặng quanh hồ và vào trung tâm. Nếu bạn chỉ đi quãng ngắn trong khu, ví dụ từ chỗ ở tới quán quen, dòng xe nhỏ gọn đủ dùng. Khách thuê để chạy quanh hồ nhiều vòng trong ngày cũng nên ưu tiên xe êm để tránh mỏi tay. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang [bảng giá]({{ '/banggia.html' | relative_url }}). Với khách thuê dài ngày, tham khảo các khoản ngoài giá thuê trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}).
+Tuyến ven hồ đẹp nhưng dài, nên dòng xe êm và đủ lực giúp quãng chạy thoải mái, đặc biệt khi có gió hồ mùa lạnh. Xe ga phổ thông là lựa chọn cân bằng tốt cho các chặng quanh hồ và vào trung tâm. Nếu bạn chỉ đi quãng ngắn trong khu, ví dụ từ chỗ ở tới quán quen, dòng xe nhỏ gọn đủ dùng. Khách thuê để chạy quanh hồ nhiều vòng trong ngày cũng nên ưu tiên xe êm để tránh mỏi tay. Danh sách dòng xe hiện có nằm ở trang các loại xe cho thuê, mức giá tại trang [bảng giá]({{ '/banggia.html' | relative_url }}). Với khách thuê dài ngày, tham khảo các khoản ngoài giá thuê trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}).
 
 ## Hỏi về giao xe tận nơi và phạm vi di chuyển
 

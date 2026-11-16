@@ -13,7 +13,7 @@ Có lịch cần xe từ sáng sớm, chẳng hạn đón chuyến đi, đi làm
 
 ## Đặt trước và chốt khung nhận
 
-Đừng chờ sáng hôm đó mới gọi, vì khung sớm cần cửa hàng sắp người giao xe hoặc mở điểm sớm hơn. Đặt trước từ hôm trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), chốt rõ dòng xe, giờ nhận, địa điểm và số điện thoại liên hệ lúc đó. Xác nhận lại một lần vào buổi tối trước hôm đi để không có thay đổi bất ngờ. Mức giá theo ngày nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}).
+Đừng chờ sáng hôm đó mới gọi, vì khung sớm cần cửa hàng sắp người giao xe hoặc mở điểm sớm hơn. Đặt trước từ hôm trước qua trang liên hệ, chốt rõ dòng xe, giờ nhận, địa điểm và số điện thoại liên hệ lúc đó. Xác nhận lại một lần vào buổi tối trước hôm đi để không có thay đổi bất ngờ. Mức giá theo ngày nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), dòng xe hiện có nằm ở trang các loại xe cho thuê.
 
 ## Ưu tiên giao xe tận nơi cho khung sớm
 

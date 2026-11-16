@@ -21,7 +21,7 @@ Hai khung giờ cần lưu ý: từ rất sớm đến khoảng giữa sáng, d�
 
 ## Loại xe hợp địa hình phía bắc sông
 
-Long Biên có cả khu đô thị mới đường rộng lẫn khu dân cư và vùng ven quãng đường dài, nên loại xe nên chọn theo lịch trình của bạn. Đi qua cầu vào trung tâm mỗi ngày: chọn dòng xe ga hoặc xe số phổ thông đủ ổn cho chặng dốc nhẹ của cầu. Chỉ đi quãng ngắn quanh khu phố: dòng xe nhỏ gọn tiết kiệm đủ dùng. Khách định chạy vòng ra vùng ven trong ngày nên chọn xe êm, vì quãng đường cộng dồn dễ gây mỏi. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Long Biên có cả khu đô thị mới đường rộng lẫn khu dân cư và vùng ven quãng đường dài, nên loại xe nên chọn theo lịch trình của bạn. Đi qua cầu vào trung tâm mỗi ngày: chọn dòng xe ga hoặc xe số phổ thông đủ ổn cho chặng dốc nhẹ của cầu. Chỉ đi quãng ngắn quanh khu phố: dòng xe nhỏ gọn tiết kiệm đủ dùng. Khách định chạy vòng ra vùng ven trong ngày nên chọn xe êm, vì quãng đường cộng dồn dễ gây mỏi. Danh sách dòng xe hiện có nằm ở trang các loại xe cho thuê, mức giá tại trang [bảng giá]({{ '/banggia.html' | relative_url }}).
 
 ## Hỏi về phạm vi di chuyển và giao xe tận nơi
 

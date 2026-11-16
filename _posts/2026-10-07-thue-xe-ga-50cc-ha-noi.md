@@ -25,7 +25,7 @@ Với xe ga 50cc, bốn phép thử nhanh: đề máy và nghe tiếng nổ đ�
 
 ## Giá thuê và cách chọn gói theo thời gian
 
-Giá thuê xe ga 50cc thường thấp trong bảng các dòng, so sánh trực tiếp trên [bảng giá]({{ '/banggia.html' | relative_url }}). Với chuyến vài tiếng, cân nhắc gói giờ như đã phân tích trong bài [thuê xe máy Hà Nội theo giờ]({{ '/blog/thue-xe-may-ha-noi-theo-gio/' }}); với đợt ở lâu, hỏi giá tuần hoặc tháng vì chiết khấu theo thời gian thường đáng kể. Hỏi rõ cách tính khi trễ hẹn để tránh phát sinh. Thủ tục giấy tờ theo quy định chung nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).
+Giá thuê xe ga 50cc thường thấp trong bảng các dòng, so sánh trực tiếp trên [bảng giá]({{ '/banggia.html' | relative_url }}). Với chuyến vài tiếng, cân nhắc gói giờ như đã phân tích trong bài [thuê xe máy Hà Nội theo giờ]({{ '/blog/thue-xe-may-ha-noi-theo-gio/' }}); với đợt ở lâu, hỏi giá tuần hoặc tháng vì chiết khấu theo thời gian thường đáng kể. Hỏi rõ cách tính khi trễ hẹn để tránh phát sinh. Thủ tục giấy tờ theo quy định chung nằm ở trang thủ tục thuê xe.
 
 ## Hỏi cửa hàng trước khi chốt
 

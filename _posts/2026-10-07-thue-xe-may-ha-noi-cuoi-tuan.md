@@ -13,7 +13,7 @@ Cuối tuần là lúc nhu cầu thuê xe máy ở Hà Nội tăng vọt, khung 
 
 ## Đặt trước thay vì đến chọn trực tiếp
 
-Mùa cuối tuần, các dòng phổ thông và xe ga hay hết trước sáng thứ Bảy. Đặt trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) với thông tin cụ thể: dòng xe, ngày nhận, ngày trả, và địa điểm nếu cần giao tận nơi. Giao xe tận nhà hoặc khách sạn sáng thứ Bảy giúp bạn không phải xếp hàng tại điểm nhận, kinh nghiệm quy trình này nằm trong bài [thuê xe máy Hà Nội giao tận nơi]({{ '/blog/thue-xe-may-ha-noi-giao-tan-noi/' }}). Mức giá theo ngày nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Mùa cuối tuần, các dòng phổ thông và xe ga hay hết trước sáng thứ Bảy. Đặt trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) với thông tin cụ thể: dòng xe, ngày nhận, ngày trả, và địa điểm nếu cần giao tận nơi. Giao xe tận nhà hoặc khách sạn sáng thứ Bảy giúp bạn không phải xếp hàng tại điểm nhận, kinh nghiệm quy trình này nằm trong bài [thuê xe máy Hà Nội giao tận nơi]({{ '/blog/thue-xe-may-ha-noi-giao-tan-noi/' }}). Mức giá theo ngày nằm ở trang bảng giá.
 
 ## Chọn khung giờ nhận ít đông
 

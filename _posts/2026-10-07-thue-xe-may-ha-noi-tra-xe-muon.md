@@ -13,7 +13,7 @@ Kế hoạch kéo dài hơn dự kiến là chuyện thường gặp, và lúc �
 
 ## Hỏi trước cả khi ký hợp đồng
 
-Ngay lúc ký, hỏi rõ ba điểm về thời gian: giờ đóng cửa điểm nhận ngày thường và cuối tuần, mức phụ phí tính theo giờ khi trả trễ, và ngưỡng nào thì bị tính thêm trọn một ngày. Một số nơi cho vài giờ ân hạn, số khác tính từng giờ bắt đầu từ phút trễ đầu tiên. Biết trước các mức này giúp bạn chủ động kéo lịch hoặc thương lượng gia hạn thay vì bị tính giá bị động. Điều khoản chung nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), mức giá ngày nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Ngay lúc ký, hỏi rõ ba điểm về thời gian: giờ đóng cửa điểm nhận ngày thường và cuối tuần, mức phụ phí tính theo giờ khi trả trễ, và ngưỡng nào thì bị tính thêm trọn một ngày. Một số nơi cho vài giờ ân hạn, số khác tính từng giờ bắt đầu từ phút trễ đầu tiên. Biết trước các mức này giúp bạn chủ động kéo lịch hoặc thương lượng gia hạn thay vì bị tính giá bị động. Điều khoản chung nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), mức giá ngày nằm ở trang bảng giá.
 
 ## Báo sớm thay vì báo muộn
 

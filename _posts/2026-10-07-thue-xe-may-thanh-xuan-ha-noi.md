@@ -21,7 +21,7 @@ Thanh Xuân có nhiều khung đông đan xen: sáng sớm dòng đi làm lên t
 
 ## Loại xe hợp khu vực nội thành đông
 
-Với lịch trình chủ yếu trong phố, dòng xe nhỏ gọn là lựa chọn tiện luồn hẻm và dễ đổ chỗ để xe hẹp. Xe ga phổ thông hợp khách đi trục dài lên trung tâm mỗi ngày, êm hơn trên chặng dày. Khách cần chở người hoặc đồ đạc nên hỏi dòng có cốp rộng khi đặt. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang [bảng giá]({{ '/banggia.html' | relative_url }}). Nhóm xe máy điện cho khu nội thành được nói kỹ trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}).
+Với lịch trình chủ yếu trong phố, dòng xe nhỏ gọn là lựa chọn tiện luồn hẻm và dễ đổ chỗ để xe hẹp. Xe ga phổ thông hợp khách đi trục dài lên trung tâm mỗi ngày, êm hơn trên chặng dày. Khách cần chở người hoặc đồ đạc nên hỏi dòng có cốp rộng khi đặt. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang bảng giá. Nhóm xe máy điện cho khu nội thành được nói kỹ trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}).
 
 ## Hỏi về phạm vi di chuyển và giao xe tận nơi
 

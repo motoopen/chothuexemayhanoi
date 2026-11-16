@@ -21,7 +21,7 @@ Với xe ga, khoản cọc thường cao hơn dòng số phổ thông vì giá t
 
 ## So các khoản phụ phí kèm theo
 
-Ngoài giá ngày, rà các khoản: phí giao xe tận nơi theo khoảng cách, phụ phí ngoài giờ mở cửa, chính sách xăng về đúng mức khi nhận, và phạm vi khu vực cho phép. Một mức giá ngày thấp kèm phí giao cao có khi đắt hơn mức giá cao kèm giao gần miễn phí với lịch của bạn. So tổng ước tính thay vì so từng khoản rời rạc. Mức giá niêm yết nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), hỏi thêm qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) theo dòng xe cụ thể.
+Ngoài giá ngày, rà các khoản: phí giao xe tận nơi theo khoảng cách, phụ phí ngoài giờ mở cửa, chính sách xăng về đúng mức khi nhận, và phạm vi khu vực cho phép. Một mức giá ngày thấp kèm phí giao cao có khi đắt hơn mức giá cao kèm giao gần miễn phí với lịch của bạn. So tổng ước tính thay vì so từng khoản rời rạc. Mức giá niêm yết nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), hỏi thêm qua trang liên hệ theo dòng xe cụ thể.
 
 ## So với các dòng khác theo nhu cầu
 

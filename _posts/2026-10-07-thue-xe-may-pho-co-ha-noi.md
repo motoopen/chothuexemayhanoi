@@ -25,7 +25,7 @@ Hai câu đáng hỏi khi đặt xe quanh phố cổ: gói thuê có hỗ trợ 
 
 ## Loại xe nên chọn cho khu phố cổ
 
-Khu phố cổ có hẻm nhỏ, đường ô tô đi khó, nên loại xe nhỏ gọn có ưu thế rõ: dễ luồn, dễ đỗ, dễ đẩy khi gặp tuyến tắc. Xe máy điện còn thêm ưu điểm vận hành êm, không khói, hợp không gian khu phố. Nếu lịch trình của bạn chủ yếu trong khu và quãng ngắn, chọn xe nhỏ; nếu định đi xa hơn trong ngày, cân nhắc dòng mạnh hơn. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang [bảng giá]({{ '/banggia.html' | relative_url }}). Với khách thuê xe điện, các câu hỏi về pin đã được tổng hợp trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}).
+Khu phố cổ có hẻm nhỏ, đường ô tô đi khó, nên loại xe nhỏ gọn có ưu thế rõ: dễ luồn, dễ đỗ, dễ đẩy khi gặp tuyến tắc. Xe máy điện còn thêm ưu điểm vận hành êm, không khói, hợp không gian khu phố. Nếu lịch trình của bạn chủ yếu trong khu và quãng ngắn, chọn xe nhỏ; nếu định đi xa hơn trong ngày, cân nhắc dòng mạnh hơn. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang bảng giá. Với khách thuê xe điện, các câu hỏi về pin đã được tổng hợp trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}).
 
 ## Kiểm tra khi nhận và giữ xe trong khu
 

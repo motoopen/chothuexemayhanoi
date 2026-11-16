@@ -29,7 +29,7 @@ Ba tiêu chí chọn nhanh: kiểu trải nghiệm, hành lý và kỹ năng lá
 
 ## Giá thuê, giấy tờ và điều kiện hợp đồng
 
-Giá thuê giữa các dòng xe nhỏ thường chênh không nhiều, so sánh trực tiếp trên [bảng giá]({{ '/banggia.html' | relative_url }}). Thủ tục giấy tờ theo quy định chung được tóm tắt ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Điểm khác biệt đáng hỏi là mức cọc với xe Cub đời cổ, vì một số chiếc có giá trị sưu tầm cao hơn xe ga nhỏ cùng phân khúc. Nếu muốn giảm cọc, tham khảo thêm điều kiện trong bài [thuê xe máy Hà Nội không cọc]({{ '/blog/thue-xe-may-ha-noi-khong-coc/' }}) trước khi ký.
+Giá thuê giữa các dòng xe nhỏ thường chênh không nhiều, so sánh trực tiếp trên [bảng giá]({{ '/banggia.html' | relative_url }}). Thủ tục giấy tờ theo quy định chung được tóm tắt ở trang thủ tục thuê xe. Điểm khác biệt đáng hỏi là mức cọc với xe Cub đời cổ, vì một số chiếc có giá trị sưu tầm cao hơn xe ga nhỏ cùng phân khúc. Nếu muốn giảm cọc, tham khảo thêm điều kiện trong bài [thuê xe máy Hà Nội không cọc]({{ '/blog/thue-xe-may-ha-noi-khong-coc/' }}) trước khi ký.
 
 ## Kiểm tra khi nhận xe theo từng dòng
 

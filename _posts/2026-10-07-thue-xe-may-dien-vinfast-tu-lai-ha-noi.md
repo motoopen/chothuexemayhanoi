@@ -25,11 +25,11 @@ Trước khi ký, chạy thử vòng ngắn quanh khu phố để đánh giá ba
 
 ## Đối chiếu thông số với kênh chính hãng
 
-Các con số về dung lượng pin và tầm hoạt động của mẫu xe máy điện VinFast được công bố trên kênh thông tin chính thức của hãng. Trước khi dựa vào bất kỳ con số nào do trung gian cung cấp, đối chiếu với nguồn chính hãng để chắc chắn là của đúng mẫu và đúng đời xe. Cách làm này biến các phóng đo của bạn thành ước lượng có cơ sở. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), giá các gói tại trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Các con số về dung lượng pin và tầm hoạt động của mẫu xe máy điện VinFast được công bố trên kênh thông tin chính thức của hãng. Trước khi dựa vào bất kỳ con số nào do trung gian cung cấp, đối chiếu với nguồn chính hãng để chắc chắn là của đúng mẫu và đúng đời xe. Cách làm này biến các phóng đo của bạn thành ước lượng có cơ sở. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), giá các gói tại trang bảng giá.
 
 ## Kế hoạch dự phòng khi tự lái
 
-Tự lái nghĩa là bạn tự xử lý mọi tình huống, nên trước khi lăn bánh: xác định trạm sạc hoặc điểm sạc dự phòng gần tuyến hay đi, lưu số hotline của cửa hàng, và đặt ngưỡng quay về ở mức pin nhất định, ví dụ khi còn dưới ba mươi phần trăm thì hướng về chỗ sạc. Quy định trả xe về mức pin nằm trong hợp đồng, đọc kỹ để tránh phụ phí. Thủ tục giấy tờ tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), thông tin liên hệ tại trang [liên hệ]({{ '/lienhe.html' | relative_url }}), và khung kinh nghiệm chung cho khách lần đầu trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Tự lái nghĩa là bạn tự xử lý mọi tình huống, nên trước khi lăn bánh: xác định trạm sạc hoặc điểm sạc dự phòng gần tuyến hay đi, lưu số hotline của cửa hàng, và đặt ngưỡng quay về ở mức pin nhất định, ví dụ khi còn dưới ba mươi phần trăm thì hướng về chỗ sạc. Quy định trả xe về mức pin nằm trong hợp đồng, đọc kỹ để tránh phụ phí. Thủ tục giấy tờ tại trang thủ tục thuê xe, thông tin liên hệ tại trang [liên hệ]({{ '/lienhe.html' | relative_url }}), và khung kinh nghiệm chung cho khách lần đầu trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
 
 ## Kết luận
 

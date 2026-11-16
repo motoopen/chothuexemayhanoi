@@ -17,7 +17,7 @@ Nếu bị cảnh sát giao thông dừng và lập lệnh xử phạt, thứ nh
 
 ## Phạt lỗi xe hay lỗi người
 
-Lệnh phạt chia hai loại: lỗi người điều khiển như vượt đèn, không mũ, đi sai làn, và lỗi xe như không đèn, không gương, hết đăng ký. Lỗi người thì bạn tự nộp như mô tả trong lệnh; lỗi xe có thể quy về bên cho thuê nếu xe không đạt tiêu chuẩn lưu thông, nên gọi ngay cho nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để họ hướng dẫn ai nộp. Đây cũng là lúc các mục ghi trong bài [hợp đồng thuê xe máy cần có gì]({{ '/blog/hop-dong-thue-xe-may-can-co-gi/' | relative_url }}) phát huy tác dụng, vì hợp đồng ghi rõ trách nhiệm phạt của mỗi bên.
+Lệnh phạt chia hai loại: lỗi người điều khiển như vượt đèn, không mũ, đi sai làn, và lỗi xe như không đèn, không gương, hết đăng ký. Lỗi người thì bạn tự nộp như mô tả trong lệnh; lỗi xe có thể quy về bên cho thuê nếu xe không đạt tiêu chuẩn lưu thông, nên gọi ngay cho nơi thuê qua trang liên hệ để họ hướng dẫn ai nộp. Đây cũng là lúc các mục ghi trong bài [hợp đồng thuê xe máy cần có gì]({{ '/blog/hop-dong-thue-xe-may-can-co-gi/' | relative_url }}) phát huy tác dụng, vì hợp đồng ghi rõ trách nhiệm phạt của mỗi bên.
 
 ## Lưu thông tin cần thiết
 

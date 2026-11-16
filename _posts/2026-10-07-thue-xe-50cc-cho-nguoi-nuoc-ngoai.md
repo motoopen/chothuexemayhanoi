@@ -17,7 +17,7 @@ Người nước ngoài muốn thuê xe 50cc đi lại ở Hà Nội cần chu�
 
 ## Giấy tờ nơi cho thuê thường yêu cầu
 
-Với khách là người nước ngoài, nơi cho thuê thường yêu cầu hộ chiếu còn hạn và thị thực hoặc tạm trú tùy trường hợp, giữ bản photo và đặt cọc qua chuyển khoản. Một số nơi có nhân viên giao tiếp được tiếng Anh, nên hỏi trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) nếu bạn cần hỗ trợ ngôn ngữ. Bộ giấy tờ cụ thể và điều khoản hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), nên đọc kỹ trước khi ký, kể cả nhờ dịch nếu cần.
+Với khách là người nước ngoài, nơi cho thuê thường yêu cầu hộ chiếu còn hạn và thị thực hoặc tạm trú tùy trường hợp, giữ bản photo và đặt cọc qua chuyển khoản. Một số nơi có nhân viên giao tiếp được tiếng Anh, nên hỏi trước qua trang liên hệ nếu bạn cần hỗ trợ ngôn ngữ. Bộ giấy tờ cụ thể và điều khoản hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), nên đọc kỹ trước khi ký, kể cả nhờ dịch nếu cần.
 
 ## Kỹ năng và địa hình: 50cc có đủ chưa
 

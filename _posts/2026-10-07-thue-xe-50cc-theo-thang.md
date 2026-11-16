@@ -17,7 +17,7 @@ Xe 50cc chạy cả tháng sẽ tới lịch bảo dưỡng, và câu hỏi quan
 
 ## Hỏi về đổi xe khi có sự cố
 
-Sự cố giữa kỳ không tránh hẳn, nên hỏi trước phương án: xe hỏng vặt thì có người tới coi trong bao lâu, hỏng lớn thì có xe thay dòng tương đương không, và việc đổi xe có tính thêm không. Lưu số hỗ trợ hoạt động mọi khung giờ, kể cả cuối tuần. Với khách đi làm cố định, thời gian phản ứng là chỉ số quan trọng nhất khi so các nơi. Câu hỏi đặt gói gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), và điều khoản hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).
+Sự cố giữa kỳ không tránh hẳn, nên hỏi trước phương án: xe hỏng vặt thì có người tới coi trong bao lâu, hỏng lớn thì có xe thay dòng tương đương không, và việc đổi xe có tính thêm không. Lưu số hỗ trợ hoạt động mọi khung giờ, kể cả cuối tuần. Với khách đi làm cố định, thời gian phản ứng là chỉ số quan trọng nhất khi so các nơi. Câu hỏi đặt gói gửi qua trang liên hệ, và điều khoản hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).
 
 ## Hỏi về tạm ngưng và điều chỉnh
 

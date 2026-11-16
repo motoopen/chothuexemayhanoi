@@ -25,7 +25,7 @@ Người mới nên chọn dòng nhẹ, yên thấp, chân chạm đất chắc,
 
 ## Các khoản sinh viên hay bỏ quên
 
-Khoản thứ nhất là phí gửi xe ở trường hoặc ký túc xá, mỗi ngày ít nhưng cộng cả tháng đáng kể. Khoản thứ hai là điều kiện hoàn cọc, nên chụp hiện trạng xe khi nhận để không bị trừ oan vết xước sẵn có. Khoản thứ ba là khung giờ nhận trả trùng giờ học, nên chọn nơi giao xe theo khung hẹn được. Thủ tục cần mang gì nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), và câu hỏi đặt trước gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Khoản thứ nhất là phí gửi xe ở trường hoặc ký túc xá, mỗi ngày ít nhưng cộng cả tháng đáng kể. Khoản thứ hai là điều kiện hoàn cọc, nên chụp hiện trạng xe khi nhận để không bị trừ oan vết xước sẵn có. Khoản thứ ba là khung giờ nhận trả trùng giờ học, nên chọn nơi giao xe theo khung hẹn được. Thủ tục cần mang gì nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), và câu hỏi đặt trước gửi qua trang liên hệ.
 
 ## Ví dụ hai bạn sinh viên chọn khác dòng
 

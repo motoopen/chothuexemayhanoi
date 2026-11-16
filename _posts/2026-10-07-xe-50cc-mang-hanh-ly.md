@@ -29,7 +29,7 @@ Laptop, máy ảnh và giấy tờ nên mang theo người thay vì để trên 
 
 ## Hỏi nơi thuê trước khi nhận
 
-Hỏi một: dòng xe được giao có hộc yên không, dung tích khoảng bao nhiêu, có thể xem trước hình ảnh không. Hỏi hai: nơi thuê có cho mượn lưới buộc hoặc thùng đựng đồ không. Hỏi ba: nếu hành lý nhiều, gợi ý dòng nào khớp. Câu hỏi gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), thủ tục ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), và so giá giữa các dòng ở trang [bảng giá]({{ '/banggia.html' | relative_url }}). Kinh nghiệm cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
+Hỏi một: dòng xe được giao có hộc yên không, dung tích khoảng bao nhiêu, có thể xem trước hình ảnh không. Hỏi hai: nơi thuê có cho mượn lưới buộc hoặc thùng đựng đồ không. Hỏi ba: nếu hành lý nhiều, gợi ý dòng nào khớp. Câu hỏi gửi qua trang liên hệ, thủ tục ở trang thủ tục thuê xe, và so giá giữa các dòng ở trang bảng giá. Kinh nghiệm cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Gói thuê cho khách nhiều đồ
 

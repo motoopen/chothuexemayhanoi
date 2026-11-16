@@ -21,7 +21,7 @@ Bước một, xác định chiếc xe định thuê thuộc loại nào theo ph
 
 ## Điều kiện của nơi cho thuê
 
-Nơi cho thuê nghiêm túc thường hỏi người lái đã đủ điều kiện chưa, vì nếu khách không đủ điều kiện, trách nhiệm trên đường thuộc về người điều khiển. Khi đặt xe, nơi thuê yêu cầu giấy tờ tùy thân và một số nơi giữ bản photo hoặc đặt cọc, thủ tục cụ thể nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Hỏi trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để biết cần mang gì. Nếu nơi nào cam kết không cần bất kỳ giấy tờ gì của người lái, đó là dấu hiệu nên cân nhắc, vì chính sách càng lỏng với giấy tờ thì rủi ro của bạn càng lớn.
+Nơi cho thuê nghiêm túc thường hỏi người lái đã đủ điều kiện chưa, vì nếu khách không đủ điều kiện, trách nhiệm trên đường thuộc về người điều khiển. Khi đặt xe, nơi thuê yêu cầu giấy tờ tùy thân và một số nơi giữ bản photo hoặc đặt cọc, thủ tục cụ thể nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Hỏi trước qua trang liên hệ để biết cần mang gì. Nếu nơi nào cam kết không cần bất kỳ giấy tờ gì của người lái, đó là dấu hiệu nên cân nhắc, vì chính sách càng lỏng với giấy tờ thì rủi ro của bạn càng lớn.
 
 ## Hai tình huống thực tế
 
@@ -29,7 +29,7 @@ Tình huống một: khách chưa có bằng lái, thấy quảng cáo không c�
 
 ## Câu hỏi nên hỏi nơi thuê trước khi cọc
 
-Hỏi một: chiếc xe định giao xếp loại nào theo đăng ký. Hỏi hai: điều kiện người lái theo quy định hiện hành là gì, và nơi thuê yêu cầu chứng minh thế nào. Hỏi ba: nếu khách không đủ điều kiện thì chính sách hoàn cọc ra sao. Ba câu này vừa kiểm tra dòng xe, vừa kiểm tra độ minh bạch của nơi thuê, và câu trả lời càng cụ thể bao nhiêu thì bạn càng yên tâm bấy nhiêu. Ghi lại các câu trả lời bằng tin nhắn để có bằng chứng đối chiếu lúc ký hợp đồng. Kinh nghiệm đầy đủ cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}), và các dòng xe cho thuê nằm tại trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}).
+Hỏi một: chiếc xe định giao xếp loại nào theo đăng ký. Hỏi hai: điều kiện người lái theo quy định hiện hành là gì, và nơi thuê yêu cầu chứng minh thế nào. Hỏi ba: nếu khách không đủ điều kiện thì chính sách hoàn cọc ra sao. Ba câu này vừa kiểm tra dòng xe, vừa kiểm tra độ minh bạch của nơi thuê, và câu trả lời càng cụ thể bao nhiêu thì bạn càng yên tâm bấy nhiêu. Ghi lại các câu trả lời bằng tin nhắn để có bằng chứng đối chiếu lúc ký hợp đồng. Kinh nghiệm đầy đủ cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}), và các dòng xe cho thuê nằm tại trang các loại xe cho thuê.
 
 ## Nguồn
 

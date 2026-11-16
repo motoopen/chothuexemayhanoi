@@ -29,7 +29,7 @@ Ba món nên mang theo suốt mùa mưa: áo mưa gấp gọn, túi nilon bọc 
 
 ## Ví dụ hai khách ngày mưa
 
-Tình huống một: khách có áo mưa sẵn trong hộc, mưa tới mặc vào đi tiếp, tầm chuyến chỉ chậm chút. Tình huống hai: khách không chuẩn bị, mưa tới phải nấp dưới gầm cầu nửa tiếng, lịch xáo trộn. Cùng cơn mưa, khác nhau ở món áo mưa hai chục nghìn. Hỏi trước nơi thuê có cho mượn áo mưa không qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), và so gói theo mùa ở trang [bảng giá]({{ '/banggia.html' | relative_url }}). Kinh nghiệm cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
+Tình huống một: khách có áo mưa sẵn trong hộc, mưa tới mặc vào đi tiếp, tầm chuyến chỉ chậm chút. Tình huống hai: khách không chuẩn bị, mưa tới phải nấp dưới gầm cầu nửa tiếng, lịch xáo trộn. Cùng cơn mưa, khác nhau ở món áo mưa hai chục nghìn. Hỏi trước nơi thuê có cho mượn áo mưa không qua trang liên hệ, và so gói theo mùa ở trang bảng giá. Kinh nghiệm cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Mưa to bất chợt giữa chặng nên làm gì
 

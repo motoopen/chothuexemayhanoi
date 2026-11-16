@@ -17,7 +17,7 @@ Thứ nhất, hỏi đèn pha và đèn hậu sáng đủ không, kể cả ch�
 
 ## Nhóm điều về dịch vụ và khung giờ
 
-Thứ tư, xác nhận khung giờ mở cửa của điểm nhận và trả xe, vì nhiều điểm đóng trước khuya, lịch của bạn phải khớp khung này. Thứ năm, hỏi chính sách hỗ trợ khi xe gặp sự cố giữa đêm, số hotline có nghe khuya không và quy trình xử lý ra sao. Thứ sáu, nếu cần nhận hoặc trả ngoài giờ, hỏi trước phụ phí mở cửa ngoài giờ. Hỏi trọn bộ qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) và đối chiếu với trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Thứ tư, xác nhận khung giờ mở cửa của điểm nhận và trả xe, vì nhiều điểm đóng trước khuya, lịch của bạn phải khớp khung này. Thứ năm, hỏi chính sách hỗ trợ khi xe gặp sự cố giữa đêm, số hotline có nghe khuya không và quy trình xử lý ra sao. Thứ sáu, nếu cần nhận hoặc trả ngoài giờ, hỏi trước phụ phí mở cửa ngoài giờ. Hỏi trọn bộ qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) và đối chiếu với trang bảng giá.
 
 ## Nhóm điều về hợp đồng và giấy tờ
 

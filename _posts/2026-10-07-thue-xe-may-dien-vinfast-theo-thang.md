@@ -25,7 +25,7 @@ Thuê theo tháng là cam kết dài, và với dòng xe điện, mọi điểm 
 
 ## Tham chiếu thông tin hãng và giá gói
 
-Vì dòng xe gắn với một nhà sản xuất cụ thể, thông số pin và các quy định hỗ trợ chính hãng nên được đối chiếu từ kênh thông tin chính thức của VinFast trước khi đưa vào quyết định hợp đồng dài. Về giá, so mức gói tháng trên [bảng giá]({{ '/banggia.html' | relative_url }}) với tổng chi phí nếu thuê gói ngày nhân lên, để thấy chiết khấu dài hạn thực tế. Danh sách dòng xe hiện có tại trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), thông tin liên hệ tại trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Vì dòng xe gắn với một nhà sản xuất cụ thể, thông số pin và các quy định hỗ trợ chính hãng nên được đối chiếu từ kênh thông tin chính thức của VinFast trước khi đưa vào quyết định hợp đồng dài. Về giá, so mức gói tháng trên bảng giá với tổng chi phí nếu thuê gói ngày nhân lên, để thấy chiết khấu dài hạn thực tế. Danh sách dòng xe hiện có tại trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), thông tin liên hệ tại trang liên hệ.
 
 ## Kết luận
 

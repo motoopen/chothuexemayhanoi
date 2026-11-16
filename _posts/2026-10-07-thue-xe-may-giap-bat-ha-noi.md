@@ -17,7 +17,7 @@ Nhận xe tại khách sạn hoặc nhà nghỉ quanh các phố Giải Phóng, 
 
 ## Nhận tại điểm hẹn trên tuyến di chuyển
 
-Nếu lịch trình của bạn đã bắt đầu từ sáng sớm, hẹn nhận xe tại một điểm giữa tuyến như gần đầu phố lớn hay cạnh một quán quen sẽ đỡ vòng đi lại. Ưu điểm là gọn giờ, nhược điểm là bàn giao gấp, nên kiểm nhanh theo checklist trong bài [checklist nhận xe máy điện]({{ '/blog/checklist-nhan-xe-may-dien/' | relative_url }}) hoặc bản dành cho nhóm xăng trong bài [checklist nhận xe 50cc]({{ '/blog/checklist-nhan-xe-50cc/' | relative_url }}). Gặp hôm mưa thì cân phần giao xe ướt trong bài [thuê xe máy điện mùa mưa]({{ '/blog/thue-xe-may-dien-mua-mua/' | relative_url }}).
+Nếu lịch trình của bạn đã bắt đầu từ sáng sớm, hẹn nhận xe tại một điểm giữa tuyến như gần đầu phố lớn hay cạnh một quán quen sẽ đỡ vòng đi lại. Ưu điểm là gọn giờ, nhược điểm là bàn giao gấp, nên kiểm nhanh theo checklist trong bài checklist nhận xe máy điện hoặc bản dành cho nhóm xăng trong bài checklist nhận xe 50cc. Gặp hôm mưa thì cân phần giao xe ướt trong bài [thuê xe máy điện mùa mưa]({{ '/blog/thue-xe-may-dien-mua-mua/' | relative_url }}).
 
 ## Nhận tại cửa hàng quanh khu
 
@@ -25,11 +25,11 @@ Cửa hàng cho bạn chọn giữa nhiều chiếc và bàn giao đầy đủ: 
 
 ## Chọn điểm nhận theo hướng hành trình
 
-Hành trình chủ yếu trong khu và các quận lân cận: nhận gần chỗ ở, tham khảo cách cân xe cho chặng ngắn trong bài [thuê xe máy điện đi quãng ngắn]({{ '/blog/thue-xe-may-dien-di-quang-ngan/' | relative_url }}). Hành trình có chặng xa ngay ngày đầu: nhận tại cửa hàng để thử máy kỹ, xem cách chọn cho chặng dài trong bài [thuê xe máy điện đi đường dài]({{ '/blog/thue-xe-may-dien-di-duong-dai/' | relative_url }}). Hành trình về phố cổ buổi chiều: chọn điểm nhận ở phía bắc khu để thuận hướng di chuyển, đỡ rẽ ngược đường trục đông đúc.
+Hành trình chủ yếu trong khu và các quận lân cận: nhận gần chỗ ở, tham khảo cách cân xe cho chặng ngắn trong bài thuê xe máy điện đi quãng ngắn. Hành trình có chặng xa ngay ngày đầu: nhận tại cửa hàng để thử máy kỹ, xem cách chọn cho chặng dài trong bài [thuê xe máy điện đi đường dài]({{ '/blog/thue-xe-may-dien-di-duong-dai/' | relative_url }}). Hành trình về phố cổ buổi chiều: chọn điểm nhận ở phía bắc khu để thuận hướng di chuyển, đỡ rẽ ngược đường trục đông đúc.
 
 ## Chốt điểm nhận trước khi đến
 
-Gọi hoặc nhắn trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để chốt địa điểm và giờ nhận: nơi thuê sẽ chuẩn bị xe, mũ và giấy tờ đầy đủ, và báo trước nếu dòng xe bạn cần không giao tận nơi được. Hỏi luôn cả giờ trả xe để cân lịch cuối ngày, và mức phí trong trang [bảng giá]({{ '/banggia.html' | relative_url }}) để tránh phát sinh. Khách lần đầu nên đọc thêm phần thủ tục trong bài [thủ tục thuê xe máy]({{ '/thutuc.html' | relative_url }}).
+Gọi hoặc nhắn trước qua trang liên hệ để chốt địa điểm và giờ nhận: nơi thuê sẽ chuẩn bị xe, mũ và giấy tờ đầy đủ, và báo trước nếu dòng xe bạn cần không giao tận nơi được. Hỏi luôn cả giờ trả xe để cân lịch cuối ngày, và mức phí trong trang [bảng giá]({{ '/banggia.html' | relative_url }}) để tránh phát sinh. Khách lần đầu nên đọc thêm phần thủ tục trong bài thủ tục thuê xe máy.
 
 Giáp Bát gần bến xe lớn nên khu vực quanh bến thường đông và chật giờ cao điểm, nên nếu bạn đến bằng xe khách, chọn điểm nhận lệch khỏi cổng bến sẽ dễ bàn giao hơn. Đi nhóm thì nhận cùng lúc một điểm để kiểm xe song song, đỡ chờ nhau. Với khách nước ngoài, gửi sẵn địa chỉ bằng tiếng Việt cho nơi thuê để tránh phải mô tả địa điểm qua điện thoại, và hỏi trước về việc kiểm xe giữa kỳ nếu thuê nhiều ngày.
 

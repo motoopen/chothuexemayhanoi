@@ -49,7 +49,7 @@ Nếu điều kiện cho phép, hãy chạy chậm một đoạn ngắn để c�
 
 Trước khi xuất phát, nên lưu sẵn trang liên hệ hoặc số liên hệ của nơi thuê xe. Nếu cần hỏi thêm trong quá trình sử dụng, bạn sẽ không phải tìm lại từ đầu.
 
-Bạn có thể xem trang [Liên hệ]({{ '/lienhe.html' | relative_url }}) hoặc [Hướng dẫn thuê xe]({{ '/huongdan.html' | relative_url }}) để xem thêm thông tin đang được công bố trên website.
+Bạn có thể xem trang Liên hệ hoặc [Hướng dẫn thuê xe]({{ '/huongdan.html' | relative_url }}) để xem thêm thông tin đang được công bố trên website.
 
 ## Checklist nhanh trước khi đi
 

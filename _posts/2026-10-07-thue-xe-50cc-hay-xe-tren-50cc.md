@@ -21,7 +21,7 @@ Một cách đặt câu hỏi nhanh: bạn có dự kiến chạy quá 30 ki lô
 
 Đây là điểm quan trọng nhất khi thuê 50cc. Theo quy định hiện hành của Việt Nam, người điều khiển xe máy, bao gồm cả xe 50cc chạy xăng, vẫn phải có giấy phép lái xe hạng phù hợp. Đừng tin các thông tin cũ cho rằng 50cc không cần bằng; pháp luật giao thông đường bộ đã được cập nhật và mức xử phạt hiện hành theo Nghị định 168/2024/NĐ-CP khá nặng với hành vi không giấy phép. Trước khi nhận xe 50cc, hãy chuẩn bị GPLX của bạn; nếu là khách nước ngoài, cần giấy phép lái quốc tế hoặc bằng Việt Nam được cấp cho người nước ngoài.
 
-Với xe máy điện, giới hạn nằm ở tốc độ thiết kế: xe điện có tốc độ lớn hơn mức quy định cho xe đạp điện vẫn được quản lý như xe máy và cần giấy phép lái. Danh sách xe hiện có theo phân khúc được cập nhật tại trang [loại xe]({{ '/loaixe.html' | relative_url }}), và mức giá từng dòng tại [bảng giá cho thuê]({{ '/banggia.html' | relative_url }}).
+Với xe máy điện, giới hạn nằm ở tốc độ thiết kế: xe điện có tốc độ lớn hơn mức quy định cho xe đạp điện vẫn được quản lý như xe máy và cần giấy phép lái. Danh sách xe hiện có theo phân khúc được cập nhật tại trang [loại xe]({{ '/loaixe.html' | relative_url }}), và mức giá từng dòng tại bảng giá cho thuê.
 
 ## Cảm giác vận hành và chi phí thực tế
 

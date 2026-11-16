@@ -21,7 +21,7 @@ Wave có khung chắc, treo cứng chịu sốc, và gầm cao nên hợp ngõ x
 
 ## Hành trình dài và liên tỉnh
 
-Wave đầm hơn cỡ nhỏ của nó, chạy 50 đến 60 cây số mỗi giờ đường trường ổn, nên hợp cả chuyến Hà Nội đi tỉnh lân cận như Hưng Yên, Bắc Ninh trong ngày. Chỗ yếu là yên cứng và thiếu cốp, nên chuyến dài nên nghỉ giữa chặng và mang đồ gọn. Với lộ trình trên 100 cây số, cân nhắc dòng ga lớn, xem hướng dẫn trong bài [thuê xe ga Hà Nội]({{ '/blog/thue-xe-ga-ha-noi/' | relative_url }}). Ai định thuê điện cho đường dài thì đọc trước kế hoạch pin trong bài [thuê xe máy điện đi đường dài]({{ '/blog/thue-xe-may-dien-di-duong-dai/' | relative_url }}).
+Wave đầm hơn cỡ nhỏ của nó, chạy 50 đến 60 cây số mỗi giờ đường trường ổn, nên hợp cả chuyến Hà Nội đi tỉnh lân cận như Hưng Yên, Bắc Ninh trong ngày. Chỗ yếu là yên cứng và thiếu cốp, nên chuyến dài nên nghỉ giữa chặng và mang đồ gọn. Với lộ trình trên 100 cây số, cân nhắc dòng ga lớn, xem hướng dẫn trong bài [thuê xe ga Hà Nội]({{ '/blog/thue-xe-ga-ha-noi/' | relative_url }}). Ai định thuê điện cho đường dài thì đọc trước kế hoạch pin trong bài thuê xe máy điện đi đường dài.
 
 ## Kiểm tra Wave trước khi nhận
 
@@ -29,7 +29,7 @@ Kiểm bộ số: ga số rõ nấc, không văng số, nghe bộ máy không r�
 
 ## Giấy tờ, mũ và điều khoản
 
-Wave phổ biến ở bản 110 nên cần bằng lái A1, nhóm 50cc thì không cần, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Ký hợp đồng ghi giá, cọc, giờ trả, và xin đăng ký bản photo. Đếm mũ cho từng người, kính sạch. Khách quốc tế mang hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). Hỏi tồn kho qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước ngày nhận vì Wave được chọn nhiều cuối tuần.
+Wave phổ biến ở bản 110 nên cần bằng lái A1, nhóm 50cc thì không cần, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Ký hợp đồng ghi giá, cọc, giờ trả, và xin đăng ký bản photo. Đếm mũ cho từng người, kính sạch. Khách quốc tế mang hộ chiếu theo hướng dẫn trong bài thuê xe 50cc cho người nước ngoài. Hỏi tồn kho qua trang liên hệ trước ngày nhận vì Wave được chọn nhiều cuối tuần.
 
 ## Kết luận
 

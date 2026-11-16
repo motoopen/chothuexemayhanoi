@@ -33,7 +33,7 @@ Hỏi cụ thể: nếu pin báo lỗi hoặc sạc không vào giữa chuyến 
 
 ## Giấy tờ, cọc và thủ tục thuê xe điện
 
-Về mặt thủ tục, thuê xe điện giống thuê xe xăng: bạn vẫn cần giấy tờ tùy thân hợp lệ và đặt cọc theo quy định cửa hàng, chi tiết đã được tóm tắt ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).Nếu muốn giảm cọc, hãy hỏi chính sách thay thế cọc bằng giấy tờ hoặc các gói ưu đãi, và gọi trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để chắc chắn mẫu xe mình muốn còn sẵn.
+Về mặt thủ tục, thuê xe điện giống thuê xe xăng: bạn vẫn cần giấy tờ tùy thân hợp lệ và đặt cọc theo quy định cửa hàng, chi tiết đã được tóm tắt ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).Nếu muốn giảm cọc, hãy hỏi chính sách thay thế cọc bằng giấy tờ hoặc các gói ưu đãi, và gọi trước qua trang liên hệ để chắc chắn mẫu xe mình muốn còn sẵn.
 
 ## Kết luận
 

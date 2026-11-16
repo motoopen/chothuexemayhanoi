@@ -25,7 +25,7 @@ Mười phút kiểm tra khi nhận xe giúp cả kỳ thuê yên ổn, nhưng c
 
 ## Nhóm bằng chứng, hai điểm cuối
 
-Điểm mười một: chụp hiện trạng xe vòng quanh, kể cả vết xước sẵn có, và đồng hồ xăng, ảnh có dấu thời gian là bằng chứng tốt nhất khi trả xe. Điểm mười hai: xác nhận khung nhận trả và địa điểm, nếu có phí giao thì chốt lại mức cụ thể qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước khi rời điểm. Hai điểm cuối chiếm chưa đến hai phút nhưng xử được phần tranh chấp hay gặp nhất lúc trả. Mức giá các gói nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Điểm mười một: chụp hiện trạng xe vòng quanh, kể cả vết xước sẵn có, và đồng hồ xăng, ảnh có dấu thời gian là bằng chứng tốt nhất khi trả xe. Điểm mười hai: xác nhận khung nhận trả và địa điểm, nếu có phí giao thì chốt lại mức cụ thể qua trang liên hệ trước khi rời điểm. Hai điểm cuối chiếm chưa đến hai phút nhưng xử được phần tranh chấp hay gặp nhất lúc trả. Mức giá các gói nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
 
 ## Ví dụ hai lần nhận xe
 

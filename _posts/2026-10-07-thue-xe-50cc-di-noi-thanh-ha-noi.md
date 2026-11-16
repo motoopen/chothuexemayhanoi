@@ -25,7 +25,7 @@ Giờ cao điểm nội thành, mọi dòng xe đều chậm, và dòng 50cc có
 
 ## Kiểm tra xe và thủ tục khi nhận
 
-Xe 50cc chạy nội thành nhiều đèn đỏ, nên phanh ăn và đèn còi là hai điểm phải kiểm tra kỹ. Chạy thử vòng ngắn, kiểm tra ga đều, và chụp hiện trạng kể cả vết xước sẵn có. Hỏi chính sách đổi xe giữa kỳ và số hỗ trợ khi có sự cố. Điều khoản hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), và mọi câu hỏi trước khi nhận gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Xe 50cc chạy nội thành nhiều đèn đỏ, nên phanh ăn và đèn còi là hai điểm phải kiểm tra kỹ. Chạy thử vòng ngắn, kiểm tra ga đều, và chụp hiện trạng kể cả vết xước sẵn có. Hỏi chính sách đổi xe giữa kỳ và số hỗ trợ khi có sự cố. Điều khoản hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), và mọi câu hỏi trước khi nhận gửi qua trang liên hệ.
 
 ## Ví dụ hai lịch nội thành trong tuần
 

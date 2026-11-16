@@ -21,7 +21,7 @@ Sau mẫu xe, kiểm tra chiếc xe bạn sẽ nhận. Hỏi tuổi xe, tình tr
 
 ## Lớp ba: khâu hỗ trợ vận hành ra sao
 
-Kiểm tra cuối cùng là dịch vụ hậu mãi: khi xe hỏng giữa đường, ai nhận cuộc gọi, phản hồi trong bao lâu, có xe thay thế không. Hỏi thêm quy định sạc trong thời gian thuê: bộ sạc có kèm xe không, trả xe cần mức pin bao nhiêu, phụ phí trễ hẹn tính thế nào. Một dịch vụ đúng nhu cầu là dịch vụ trả lời được cụ thể từng mục này, không phải chỉ đưa xe và lấy cọc. Giá các gói nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), thủ tục giấy tờ tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), thông tin liên hệ tại trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Kiểm tra cuối cùng là dịch vụ hậu mãi: khi xe hỏng giữa đường, ai nhận cuộc gọi, phản hồi trong bao lâu, có xe thay thế không. Hỏi thêm quy định sạc trong thời gian thuê: bộ sạc có kèm xe không, trả xe cần mức pin bao nhiêu, phụ phí trễ hẹn tính thế nào. Một dịch vụ đúng nhu cầu là dịch vụ trả lời được cụ thể từng mục này, không phải chỉ đưa xe và lấy cọc. Giá các gói nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), thủ tục giấy tờ tại trang thủ tục thuê xe, thông tin liên hệ tại trang liên hệ.
 
 ## Đối chiếu thông tin mẫu xe với nguồn chính hãng
 

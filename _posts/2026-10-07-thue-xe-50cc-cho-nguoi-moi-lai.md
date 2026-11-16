@@ -21,7 +21,7 @@ Với người chưa quen xe số, xe ga 50cc là lựa chọn tối ưu: vặn 
 
 ## Tiêu chí ba: dịch vụ hỗ trợ giữa kỳ
 
-Người mới hay gặp sự cố nhỏ hơn người đi lâu, nên chất lượng hỗ trợ là tiêu chí đáng giá hơn phần chêch giá. Hỏi trước: số hỗ trợ hoạt động khung nào, xe hỏng vặt có người coi trong bao lâu, và có xe thay nhanh không. Nơi trả lời cụ thể là nơi có quy trình thật. Câu hỏi gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), điều khoản hợp đồng ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Đây là tiêu chí người mới hay bỏ qua, và cũng là tiêu chí quyết định trải nghiệm.
+Người mới hay gặp sự cố nhỏ hơn người đi lâu, nên chất lượng hỗ trợ là tiêu chí đáng giá hơn phần chêch giá. Hỏi trước: số hỗ trợ hoạt động khung nào, xe hỏng vặt có người coi trong bao lâu, và có xe thay nhanh không. Nơi trả lời cụ thể là nơi có quy trình thật. Câu hỏi gửi qua trang liên hệ, điều khoản hợp đồng ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Đây là tiêu chí người mới hay bỏ qua, và cũng là tiêu chí quyết định trải nghiệm.
 
 ## Tiêu chí tư: xe ổn định hơn xe rẻ
 

@@ -21,7 +21,7 @@ Xác định trước lịch trình chính: lên trung tâm mỗi ngày, hay đi
 
 ## Loại xe hợp quãng đường dài
 
-Chặng đi trong Đông Anh và lên trung tâm thường dài, nên ưu tiên dòng xe bền, êm và bình xăng đủ sức cho quãng nhiều chục cây số. Xe ga phổ thông là lựa chọn cân bằng giữa êm và tiết kiệm cho lịch trình đi trục chính. Nếu chỉ chạy vòng quanh cụm xã, dòng xe nhỏ gọn đủ dùng và dễ luồn đường thôn. Khách đi về vùng ven sông nhiều bãi gồ ghề nên chọn dòng có bánh cao, giảm xóc khỏe. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Chặng đi trong Đông Anh và lên trung tâm thường dài, nên ưu tiên dòng xe bền, êm và bình xăng đủ sức cho quãng nhiều chục cây số. Xe ga phổ thông là lựa chọn cân bằng giữa êm và tiết kiệm cho lịch trình đi trục chính. Nếu chỉ chạy vòng quanh cụm xã, dòng xe nhỏ gọn đủ dùng và dễ luồn đường thôn. Khách đi về vùng ven sông nhiều bãi gồ ghề nên chọn dòng có bánh cao, giảm xóc khỏe. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang bảng giá.
 
 ## Hỏi về phạm vi di chuyển và giao xe tận nơi
 

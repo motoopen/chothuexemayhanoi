@@ -21,7 +21,7 @@ Chi phí thuê hai loại không nằm trong cùng một cấp: thuê xe máy đ
 
 ## Cách tìm đúng dịch vụ mình cần
 
-Khi tìm kiếm hoặc gọi điện, dùng từ ngữ chính xác: "thuê xe máy điện" hoặc "thuê ô tô điện", tránh chỉ nói "thuê xe điện" để bên nhận không hiểu lầm. Với xe máy điện, danh sách các dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}) và mức giá tại trang [bảng giá]({{ '/banggia.html' | relative_url }}). Trước khi đến, gọi qua số điện thoại ở trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để xác nhận loại xe còn sẵn và hỏi rõ khung giá. Cách tìm đúng dịch vụ ngay từ đầu tiết kiệm nhiều vòng điện thoại hơn là hỏi tổng quát rồi phải giải thích lại.
+Khi tìm kiếm hoặc gọi điện, dùng từ ngữ chính xác: "thuê xe máy điện" hoặc "thuê ô tô điện", tránh chỉ nói "thuê xe điện" để bên nhận không hiểu lầm. Với xe máy điện, danh sách các dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}) và mức giá tại trang bảng giá. Trước khi đến, gọi qua số điện thoại ở trang liên hệ để xác nhận loại xe còn sẵn và hỏi rõ khung giá. Cách tìm đúng dịch vụ ngay từ đầu tiết kiệm nhiều vòng điện thoại hơn là hỏi tổng quát rồi phải giải thích lại.
 
 ## Câu hỏi nên đặt khi thuê xe máy điện
 

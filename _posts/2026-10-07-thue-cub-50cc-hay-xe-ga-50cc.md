@@ -25,7 +25,7 @@ Về gửi xe, Cub kiểu dáng cổ điển thường được gửi ở bãi v
 
 ## Phong cách và tình huống nên chọn dòng nào
 
-Chọn Cub 50cc nếu bạn có kinh nghiệm xe số, thích phong cách hoài cổ, và muốn trải nghiệm gắn bó với hình ảnh Hà Nội xưa; dòng này cũng rất được ưa chuộng cho chụp ảnh du lịch nhờ dáng xe đặc trưng từng gắn liền với các thước phim kinh điển. Chọn xe ga 50cc nếu bạn ưu tiên sự đơn giản, đi cùng người không rành xe số, hoặc cần thùng đồ rộng hơn. Về giấy tờ, cả hai đều thuộc xe máy 50cc nên yêu cầu giấy phép lái xe như nhau theo quy định hiện hành; hãy chuẩn bị trước khi nhận xe. Danh sách xe 50cc hiện có và giá thuê được cập nhật tại các trang [loại xe]({{ '/loaixe.html' | relative_url }}) và [bảng giá cho thuê]({{ '/banggia.html' | relative_url }}).
+Chọn Cub 50cc nếu bạn có kinh nghiệm xe số, thích phong cách hoài cổ, và muốn trải nghiệm gắn bó với hình ảnh Hà Nội xưa; dòng này cũng rất được ưa chuộng cho chụp ảnh du lịch nhờ dáng xe đặc trưng từng gắn liền với các thước phim kinh điển. Chọn xe ga 50cc nếu bạn ưu tiên sự đơn giản, đi cùng người không rành xe số, hoặc cần thùng đồ rộng hơn. Về giấy tờ, cả hai đều thuộc xe máy 50cc nên yêu cầu giấy phép lái xe như nhau theo quy định hiện hành; hãy chuẩn bị trước khi nhận xe. Danh sách xe 50cc hiện có và giá thuê được cập nhật tại các trang [loại xe]({{ '/loaixe.html' | relative_url }}) và bảng giá cho thuê.
 
 Mẹo cuối: nếu đi nhóm hai người mà cả hai đều mới lái, thuê một Cub cho người có kinh nghiệm và một xe ga cho người còn lại là cấu hình cân bằng tốt giữa trải nghiệm và an toàn. Khi nhận xe, hãy thử đề và đi một vòng ngắn quanh điểm thuê để chắc chắn tay ga và phanh hợp ý bạn.
 

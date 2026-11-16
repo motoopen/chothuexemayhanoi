@@ -13,7 +13,7 @@ Công tác ở Hà Nội thường là lịch kín: họp sáng, khách hàng ch
 
 ## Chọn gói theo độ dài chuyến công tác
 
-Chuyến dưới ba ngày: gói theo ngày là đủ, nên đặt trước dòng xe qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) từ khi biết lịch bay. Chuyến một tuần trở lên: hỏi ngay gói tuần hoặc tháng vì rẻ hơn tính trên mỗi ngày, kinh nghiệm các khoản ngoài giá thuê nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}). Nếu lịch bay về có nguy cơ thay đổi, hỏi trước chính sách đổi khung trả để không bị tính phụ phí trễ. Mức giá các dòng xe nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Chuyến dưới ba ngày: gói theo ngày là đủ, nên đặt trước dòng xe qua trang liên hệ từ khi biết lịch bay. Chuyến một tuần trở lên: hỏi ngay gói tuần hoặc tháng vì rẻ hơn tính trên mỗi ngày, kinh nghiệm các khoản ngoài giá thuê nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}). Nếu lịch bay về có nguy cơ thay đổi, hỏi trước chính sách đổi khung trả để không bị tính phụ phí trễ. Mức giá các dòng xe nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
 
 ## Giao xe tận nơi để giữ nguyên khung giờ
 

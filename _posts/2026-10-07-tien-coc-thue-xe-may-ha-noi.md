@@ -17,7 +17,7 @@ Cọc có thể được giữ bằng tiền mặt, giữ trên tài khoản, ho
 
 ## Hỏi mức cọc theo dòng xe
 
-Mức cọc thường tỷ lệ với giá trị xe, nên dòng số phổ thông có mức thấp, xe ga và xe máy điện cao hơn tùy dòng. Lấy mức cụ thể theo dòng xe định thuê tại trang [bảng giá]({{ '/banggia.html' | relative_url }}) và hỏi thêm qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}). Với khách định thuê nhiều ngày, hỏi mức cọc có khác theo thời gian thuê không, vì một số nơi giữ cao hơn cho gói dài.
+Mức cọc thường tỷ lệ với giá trị xe, nên dòng số phổ thông có mức thấp, xe ga và xe máy điện cao hơn tùy dòng. Lấy mức cụ thể theo dòng xe định thuê tại trang [bảng giá]({{ '/banggia.html' | relative_url }}) và hỏi thêm qua trang liên hệ. Với khách định thuê nhiều ngày, hỏi mức cọc có khác theo thời gian thuê không, vì một số nơi giữ cao hơn cho gói dài.
 
 ## Hỏi điều kiện khấu trừ
 

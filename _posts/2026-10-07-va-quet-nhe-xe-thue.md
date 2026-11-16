@@ -21,11 +21,11 @@ Chụp vị trí xe, chướng ngại gây va và bối cảnh xung quanh, rồi
 
 ## Chụp cận vết hư trên xe
 
-Chụp cận từng vết mới và so ngay với bộ ảnh nhận xe để chắc đó không phải vết cũ, phần đối chiếu này rất quan trọng vì vết xước quanh che bánh dễ bị quy là mới. Khung phân định chi phí theo tính chất hư hỏng đã có trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/blog/chi-phi-hu-hong-khi-thue-xe-may/' | relative_url }}), còn cách xử vết trầy đã có trong bài [xe thuê bị trầy xước]({{ '/blog/xe-thue-bi-tray-xuoc/' | relative_url }}).
+Chụp cận từng vết mới và so ngay với bộ ảnh nhận xe để chắc đó không phải vết cũ, phần đối chiếu này rất quan trọng vì vết xước quanh che bánh dễ bị quy là mới. Khung phân định chi phí theo tính chất hư hỏng đã có trong bài chi phí hư hỏng khi thuê xe máy, còn cách xử vết trầy đã có trong bài [xe thuê bị trầy xước]({{ '/blog/xe-thue-bi-tray-xuoc/' | relative_url }}).
 
 ## Báo nơi thuê sớm qua tin nhắn
 
-Gửi ngay hai ba ảnh và mô tả ngắn qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) hoặc tin nhắn đã có từ lúc nhận xe. Báo sớm tạo ghi nhận đúng thời điểm, và nơi thuê có thể nói luôn là vết đó nằm trong mức thông thường hay cần chốt bồi thường. Nếu xe vẫn hoạt động bình thường như phanh, đèn, lái, và nơi thuê đồng ý tiếp tục, chuyến đi cứ tiến hành, phần điều kiện tiếp tục chạy sau va chạm đã nêu trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}).
+Gửi ngay hai ba ảnh và mô tả ngắn qua trang liên hệ hoặc tin nhắn đã có từ lúc nhận xe. Báo sớm tạo ghi nhận đúng thời điểm, và nơi thuê có thể nói luôn là vết đó nằm trong mức thông thường hay cần chốt bồi thường. Nếu xe vẫn hoạt động bình thường như phanh, đèn, lái, và nơi thuê đồng ý tiếp tục, chuyến đi cứ tiến hành, phần điều kiện tiếp tục chạy sau va chạm đã nêu trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}).
 
 ## Va với người hoặc tài sản bên thứ ba
 
@@ -33,11 +33,11 @@ Va vào xe đậu, gương ô tô hoặc hàng quán thì chụp và trao đổi
 
 ## Va quẹt do lỗi mình: đối chiếu hợp đồng và cọc
 
-Phần lỗi mình gây ra thường tính theo thỏa thuận trong hợp đồng, danh mục điều khoản đã liệt kê trong bài [hợp đồng thuê xe máy cần có gì]({{ '/blog/hop-dong-thue-xe-may-can-co-gi/' | relative_url }}), và khung cọc liên quan nằm trong bài [tiền cọc thuê xe máy Hà Nội]({{ '/blog/tien-coc-thue-xe-may-ha-noi/' | relative_url }}). Không tự mang xe đi sơn lại trước khi hỏi, vì sơn lệch màu có khi còn khó trả xe hơn vết xước gốc.
+Phần lỗi mình gây ra thường tính theo thỏa thuận trong hợp đồng, danh mục điều khoản đã liệt kê trong bài [hợp đồng thuê xe máy cần có gì]({{ '/blog/hop-dong-thue-xe-may-can-co-gi/' | relative_url }}), và khung cọc liên quan nằm trong bài tiền cọc thuê xe máy Hà Nội. Không tự mang xe đi sơn lại trước khi hỏi, vì sơn lệch màu có khi còn khó trả xe hơn vết xước gốc.
 
 ## Kể lại đầy đủ lúc trả xe
 
-Lúc trả, chủ động chỉ vết và bộ ảnh đã gửi, đừng để nơi thuê phát hiện trước, vì chủ động ghi nhận luôn được xử thiện chí hơn. Quy trình trả và đối chiếu đã trình bày trong bài [trả xe khác điểm Hà Nội]({{ '/blog/tra-xe-khac-diem-ha-noi/' | relative_url }}), và nếu va quẹt làm bạn trễ giờ trả thì báo trước để tính phụ phí theo khung đã nêu trong bài [phí trả xe muộn thuê xe máy]({{ '/blog/phi-tra-xe-muon-thue-xe-may/' | relative_url }}).
+Lúc trả, chủ động chỉ vết và bộ ảnh đã gửi, đừng để nơi thuê phát hiện trước, vì chủ động ghi nhận luôn được xử thiện chí hơn. Quy trình trả và đối chiếu đã trình bày trong bài [trả xe khác điểm Hà Nội]({{ '/blog/tra-xe-khac-diem-ha-noi/' | relative_url }}), và nếu va quẹt làm bạn trễ giờ trả thì báo trước để tính phụ phí theo khung đã nêu trong bài phí trả xe muộn thuê xe máy.
 
 ## Kết luận
 

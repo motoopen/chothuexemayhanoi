@@ -25,7 +25,7 @@ Câu bảy: khi trả xe, pin cần ở mức bao nhiêu, và nếu thấp hơn 
 
 ## Sau khi hỏi: kiểm tra bằng tay
 
-Đến nhận xe, làm ba việc: xem mức pin trên màn hình, chạy thử vòng ngắn, chụp lại tình trạng xe. So mức pin thực tế với câu trả lời bạn nhận được khi đặt, nếu lệch xa thì hỏi lại trước khi ký. Khách lần đầu thuê ở Hà Nội nên tham khảo thêm khung tổng quan trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}). Giá các gói nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), thủ tục giấy tờ tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).
+Đến nhận xe, làm ba việc: xem mức pin trên màn hình, chạy thử vòng ngắn, chụp lại tình trạng xe. So mức pin thực tế với câu trả lời bạn nhận được khi đặt, nếu lệch xa thì hỏi lại trước khi ký. Khách lần đầu thuê ở Hà Nội nên tham khảo thêm khung tổng quan trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}). Giá các gói nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), thủ tục giấy tờ tại trang thủ tục thuê xe.
 
 ## Kết luận
 

@@ -17,7 +17,7 @@ Trước khi khẳng định mất, lục lại toàn bộ nơi có thể: túi 
 
 ## Báo ngay cho nơi cho thuê
 
-Nếu chắc chắn mất, gọi ngay nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) thay vì tự tìm thợ: nhiều nơi giữ mỗi xe hai bộ chìa, và họ có thể mang chìa dự phòng đến hoặc chỉ bạn địa điểm nhận gần nhất. Quan trọng là họ sẽ báo trước chi phí có thể phát sinh, và phần nào tính vào cọc, xem mức thường gặp trong bài [tiền cọc thuê xe máy Hà Nội]({{ '/blog/tien-coc-thue-xe-may-ha-noi/' | relative_url }}).
+Nếu chắc chắn mất, gọi ngay nơi thuê qua trang liên hệ thay vì tự tìm thợ: nhiều nơi giữ mỗi xe hai bộ chìa, và họ có thể mang chìa dự phòng đến hoặc chỉ bạn địa điểm nhận gần nhất. Quan trọng là họ sẽ báo trước chi phí có thể phát sinh, và phần nào tính vào cọc, xem mức thường gặp trong bài [tiền cọc thuê xe máy Hà Nội]({{ '/blog/tien-coc-thue-xe-may-ha-noi/' | relative_url }}).
 
 ## Đừng tự đục khóa hay kéo xe
 

@@ -13,7 +13,7 @@ Gửi xe là lúc xe rời khỏi tầm mắt bạn, và mọi rủi ro mất tr
 
 ## Chọn bãi gửi có người trông và vé gửi
 
-Bãi có người trông và phát vé luôn an toàn hơn lối gửi tự do, vì có người ghi nhận giờ vào và chứng nhận tình trạng xe. Bãi không vé thì chụp xe ngay khi đỗ, thói quen chụp ảnh đã trình bày trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}), và phần trách nhiệm khi xe có vấn đề trong bãi đã nêu trong bài [xe thuê bị trầy xước]({{ '/blog/xe-thue-bi-tray-xuoc/' | relative_url }}).
+Bãi có người trông và phát vé luôn an toàn hơn lối gửi tự do, vì có người ghi nhận giờ vào và chứng nhận tình trạng xe. Bãi không vé thì chụp xe ngay khi đỗ, thói quen chụp ảnh đã trình bày trong bài chụp ảnh xe trước khi thuê, và phần trách nhiệm khi xe có vấn đề trong bãi đã nêu trong bài [xe thuê bị trầy xước]({{ '/blog/xe-thue-bi-tray-xuoc/' | relative_url }}).
 
 ## Vị trí đỗ trong bãi
 
@@ -29,7 +29,7 @@ Khóa cổ xe, khóa tráng xe, và để số nếu là xe số trước khi r�
 
 ## Không để đồ trên xe
 
-Mũ bảo hiểm, găng và đồ mua sắm đều nên mang theo, vì bãi gửi không chịu trách nhiệm đồ để trên yên. Đồ buộc sau xe chỉ giữ khi bạn đứng cạnh, nguyên tắc buộc hành lý đã trình bày trong bài [thuê xe máy Hà Nội mang hành lý]({{ '/blog/thue-xe-may-ha-noi-mang-hanh-ly/' | relative_url }}). Nếu bắt buộc để lại, dùng cốp có khóa, cách chọn xe cốp rộng đã có trong bài [thuê xe máy có cốp rộng Hà Nội]({{ '/blog/thue-xe-may-cop-rong-ha-noi/' | relative_url }}).
+Mũ bảo hiểm, găng và đồ mua sắm đều nên mang theo, vì bãi gửi không chịu trách nhiệm đồ để trên yên. Đồ buộc sau xe chỉ giữ khi bạn đứng cạnh, nguyên tắc buộc hành lý đã trình bày trong bài thuê xe máy Hà Nội mang hành lý. Nếu bắt buộc để lại, dùng cốp có khóa, cách chọn xe cốp rộng đã có trong bài [thuê xe máy có cốp rộng Hà Nội]({{ '/blog/thue-xe-may-cop-rong-ha-noi/' | relative_url }}).
 
 ## Gửi xe qua đêm và gửi dài giờ
 
@@ -37,7 +37,7 @@ Qua đêm thì chọn bãi trông xe có bảng giá qua đêm rõ ràng, và ch
 
 ## Khi lấy xe thấy hư hỏng
 
-Kiểm xe theo đúng bộ góc ảnh đã chụp lúc đỗ: vết mới do bãi gây thì báo ngay quản bãi để có ghi nhận, rồi gọi nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), trình tự xử lý đã có trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}), và phần phân định chi phí nằm trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/blog/chi-phi-hu-hong-khi-thue-xe-may/' | relative_url }}). Nếu xe mất trong bãi có trông xe, trình báo ngay quản bãi và báo nơi thuê, thủ tục mất giấy tờ kèm xe đã có trong bài [mất giấy tờ xe thuê]({{ '/blog/mat-giay-to-xe-thue/' | relative_url }}).
+Kiểm xe theo đúng bộ góc ảnh đã chụp lúc đỗ: vết mới do bãi gây thì báo ngay quản bãi để có ghi nhận, rồi gọi nơi thuê qua trang liên hệ, trình tự xử lý đã có trong bài xe thuê bị hỏng giữa đường, và phần phân định chi phí nằm trong bài chi phí hư hỏng khi thuê xe máy. Nếu xe mất trong bãi có trông xe, trình báo ngay quản bãi và báo nơi thuê, thủ tục mất giấy tờ kèm xe đã có trong bài [mất giấy tờ xe thuê]({{ '/blog/mat-giay-to-xe-thue/' | relative_url }}).
 
 ## Kết luận
 

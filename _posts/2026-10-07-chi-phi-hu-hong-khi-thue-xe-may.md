@@ -13,7 +13,7 @@ Trầy xước hay hỏng hóc giữa kỳ thuê là tình huống không ai mu�
 
 ## Điều khoản xác định trách nhiệm trong hợp đồng
 
-Trước khi cầm xe, đọc kỹ phần hợp đồng về hư hỏng: trường hợp nào thuộc hao mòn thông thường không bị tính, trường hợp nào bị khấu trừ tại cọc, và xe gặp tai nạn hay mất cắp thì xử lý ra sao. Điều khoản chung nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Hỏi lại các mục chưa rõ trước khi ký, vì sau khi xảy ra sự cố, mọi tranh luận đều dựa vào những dòng này. Kinh nghiệm chuẩn bị đầy đủ cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}), và nếu bạn định thuê dài ngày, các khoản ngoài giá thuê trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}) cũng nên rà trước khi ký.
+Trước khi cầm xe, đọc kỹ phần hợp đồng về hư hỏng: trường hợp nào thuộc hao mòn thông thường không bị tính, trường hợp nào bị khấu trừ tại cọc, và xe gặp tai nạn hay mất cắp thì xử lý ra sao. Điều khoản chung nằm ở trang thủ tục thuê xe. Hỏi lại các mục chưa rõ trước khi ký, vì sau khi xảy ra sự cố, mọi tranh luận đều dựa vào những dòng này. Kinh nghiệm chuẩn bị đầy đủ cho lần đầu thuê nằm trong bài thuê xe máy Hà Nội lần đầu, và nếu bạn định thuê dài ngày, các khoản ngoài giá thuê trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}) cũng nên rà trước khi ký.
 
 ## Bộ bằng chứng khi nhận xe
 

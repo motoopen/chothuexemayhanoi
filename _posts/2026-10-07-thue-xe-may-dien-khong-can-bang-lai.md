@@ -25,7 +25,7 @@ Việc xe có thuộc diện không cần giấy phép lái hay không được 
 
 ## Hỏi cửa hàng đúng câu trước khi đặt
 
-Bốn câu đáng hỏi: mẫu này công suất bao nhiêu và thuộc diện yêu cầu giấy phép không; tốc độ tối đa thực tế bao nhiêu với người nặng như tôi; chở thêm một người có được không và ảnh hưởng ra sao; nếu xe yếu dần giữa đường thì quy trình hỗ trợ thế nào. Cửa hàng trả lời được cả bốn câu một cách cụ thể là nơi đáng tin. Giá các gói nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), thủ tục giấy tờ tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), thông tin liên hệ tại trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Bốn câu đáng hỏi: mẫu này công suất bao nhiêu và thuộc diện yêu cầu giấy phép không; tốc độ tối đa thực tế bao nhiêu với người nặng như tôi; chở thêm một người có được không và ảnh hưởng ra sao; nếu xe yếu dần giữa đường thì quy trình hỗ trợ thế nào. Cửa hàng trả lời được cả bốn câu một cách cụ thể là nơi đáng tin. Giá các gói nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), thủ tục giấy tờ tại trang thủ tục thuê xe, thông tin liên hệ tại trang liên hệ.
 
 ## Kiểm tra thực tế khi nhận xe
 

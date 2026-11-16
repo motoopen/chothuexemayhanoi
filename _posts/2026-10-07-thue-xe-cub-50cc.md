@@ -29,7 +29,7 @@ Với xe Cub, bốn điểm hao mòn nhất là cần số, dây ga, phanh cơ c
 
 ## Giá, giấy tờ và điều kiện thuê
 
-Giá thuê Cub thường ở phân khúc dễ chịu, so sánh trực tiếp trên [bảng giá]({{ '/banggia.html' | relative_url }}). Chú ý mức cọc: một số chiếc Cub được bảo quản kỹ có giá trị cao hơn mặt bằng dòng nhỏ, cọc có thể nhỉnh hơn xe ga cùng phân khúc, nên hỏi trước. Thủ tục giấy tờ theo quy định chung, tóm tắt tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Hỏi thêm về phạm vi di chuyển cho phép và quy trình hỗ trợ khi hỏng giữa đường, thông tin liên hệ nằm ở trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Giá thuê Cub thường ở phân khúc dễ chịu, so sánh trực tiếp trên [bảng giá]({{ '/banggia.html' | relative_url }}). Chú ý mức cọc: một số chiếc Cub được bảo quản kỹ có giá trị cao hơn mặt bằng dòng nhỏ, cọc có thể nhỉnh hơn xe ga cùng phân khúc, nên hỏi trước. Thủ tục giấy tờ theo quy định chung, tóm tắt tại trang thủ tục thuê xe. Hỏi thêm về phạm vi di chuyển cho phép và quy trình hỗ trợ khi hỏng giữa đường, thông tin liên hệ nằm ở trang liên hệ.
 
 ## Kết luận
 

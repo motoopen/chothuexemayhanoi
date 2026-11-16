@@ -17,7 +17,7 @@ Không thuê xe côn nếu bạn chưa thuần thục lai côn trong đường �
 
 ## Phối hợp ga số và phanh gấp
 
-Thao tác thứ hai là phối ga số suôn: lên số đúng vòng tua, về số giảm tốc trước ngã tư, và không về số khi đang phanh gấp mà hoảng tay. Phanh gấp trên xe côn cần lấy côn cùng lúc để máy không chết, thói quen này phải thành bản năng. Đường ướt càng đòi chính xác hơn, nguyên tắc chung nằm trong bài [thuê xe máy điện mùa mưa]({{ '/blog/thue-xe-may-dien-mua-mua/' | relative_url }}). Ai chưa chắc các thao tác này nên chọn xe ga dễ lái, xem bài [thuê xe ga Hà Nội]({{ '/blog/thue-xe-ga-ha-noi/' | relative_url }}).
+Thao tác thứ hai là phối ga số suôn: lên số đúng vòng tua, về số giảm tốc trước ngã tư, và không về số khi đang phanh gấp mà hoảng tay. Phanh gấp trên xe côn cần lấy côn cùng lúc để máy không chết, thói quen này phải thành bản năng. Đường ướt càng đòi chính xác hơn, nguyên tắc chung nằm trong bài thuê xe máy điện mùa mưa. Ai chưa chắc các thao tác này nên chọn xe ga dễ lái, xem bài [thuê xe ga Hà Nội]({{ '/blog/thue-xe-ga-ha-noi/' | relative_url }}).
 
 ## Tình huống xe côn hợp lý
 
@@ -29,7 +29,7 @@ Kiểm lai côn không trượt bằng cách vào số, giữ phanh và thả t�
 
 ## Giấy tờ và điều khoản
 
-Xe côn hầu hết trên 50 phân khối nên bắt buộc bằng lái A1, khác với nhóm 50cc không cần như bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Hợp đồng côn nên ghi rõ trách nhiệm hư bộ số và côn vì chi phí sửa cao. Khách quốc tế mang hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). Hỏi tồn kho trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) vì côn ít và thường kẹt cuối tuần.
+Xe côn hầu hết trên 50 phân khối nên bắt buộc bằng lái A1, khác với nhóm 50cc không cần như bài xe 50cc có cần bằng lái không. Hợp đồng côn nên ghi rõ trách nhiệm hư bộ số và côn vì chi phí sửa cao. Khách quốc tế mang hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). Hỏi tồn kho trước qua trang liên hệ vì côn ít và thường kẹt cuối tuần.
 
 ## Kết luận
 

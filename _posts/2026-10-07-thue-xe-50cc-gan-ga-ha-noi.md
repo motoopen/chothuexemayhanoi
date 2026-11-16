@@ -13,7 +13,7 @@ Tàu đến Ga Hà Nội, việc đầu tiên nhiều khách nghĩ tới là thu
 
 ## Nhận xe quanh ga thay vì dắt đồ đi tìm
 
-Ga Hà Nội nằm giữa khu phố đông, và xung quanh có nhiều điểm cho thuê xe. Cách gọn nhất là đặt trước và chốt nhận xe tại một điểm cụ thể gần ga, đi bộ vài phút là tới, thay vì dắt vali đi dọc đường tìm nơi thuê. Đặt trước cũng giúp biết sẵn dòng xe và mức giá, các dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), so gói ở trang [bảng giá]({{ '/banggia.html' | relative_url }}). Với hành lý nhiều, hỏi luôn phí giao xe tận điểm chờ hoặc khách sạn, nhiều khi rẻ hơn thời gian và công sức.
+Ga Hà Nội nằm giữa khu phố đông, và xung quanh có nhiều điểm cho thuê xe. Cách gọn nhất là đặt trước và chốt nhận xe tại một điểm cụ thể gần ga, đi bộ vài phút là tới, thay vì dắt vali đi dọc đường tìm nơi thuê. Đặt trước cũng giúp biết sẵn dòng xe và mức giá, các dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), so gói ở trang bảng giá. Với hành lý nhiều, hỏi luôn phí giao xe tận điểm chờ hoặc khách sạn, nhiều khi rẻ hơn thời gian và công sức.
 
 ## Chọn khung giờ nhận quanh ga
 
@@ -21,7 +21,7 @@ Khu quanh ga đông nhất vào giờ cao điểm và giờ tàu lớn đến, n
 
 ## Kiểm tra xe trước khi rời điểm gần ga
 
-Xung quanh các cửa ga, mọi người vội, nhưng đừng vì vội mà bỏ khâu kiểm tra: bóp hai phanh, bật đèn còi, vặn ga nghe máy, chạy thử vòng ngắn nếu điểm nhận cho. Chụp hiện trạng kể cả vết xước sẵn có và đồng hồ xăng. Lưu số hỗ trợ vào điện thoại trước khi rời đi. Mười hai điểm kiểm tra đầy đủ nằm trong bài [checklist nhận xe 50cc]({{ '/blog/checklist-nhan-xe-50cc/' | relative_url }}), và điều khoản hợp đồng ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Vài phút ở bước này cứu cả kỳ thuê sau đó.
+Xung quanh các cửa ga, mọi người vội, nhưng đừng vì vội mà bỏ khâu kiểm tra: bóp hai phanh, bật đèn còi, vặn ga nghe máy, chạy thử vòng ngắn nếu điểm nhận cho. Chụp hiện trạng kể cả vết xước sẵn có và đồng hồ xăng. Lưu số hỗ trợ vào điện thoại trước khi rời đi. Mười hai điểm kiểm tra đầy đủ nằm trong bài [checklist nhận xe 50cc]({{ '/blog/checklist-nhan-xe-50cc/' | relative_url }}), và điều khoản hợp đồng ở trang thủ tục thuê xe. Vài phút ở bước này cứu cả kỳ thuê sau đó.
 
 ## Cất hành lý lên xe đúng cách
 

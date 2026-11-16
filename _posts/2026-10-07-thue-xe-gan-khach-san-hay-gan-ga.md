@@ -25,7 +25,7 @@ Câu hỏi quyết định thực tế: điểm đến cuối của bạn ở H�
 
 ## Các yếu tố nên hỏi song song vị trí
 
-Vị trí chỉ là một phần; khi chọn, hãy hỏi kèm: giờ nhận sớm nhất và trả muộn nhất, chính sách giao xe tận nơi nếu bạn đổi kế hoạch, khả năng đổi xe giữa chuyến, và kênh hỗ trợ khi sự cố. Các mức giá theo loại xe được niêm yết tại trang [bảng giá cho thuê]({{ '/banggia.html' | relative_url }}), và thông tin liên hệ các điểm nhận xe nằm tại trang [liên hệ]({{ '/lienhe.html' | relative_url }}). Nếu bạn cân nhắc phương án giao tận nơi thay vì tự đến, đọc thêm bài về [giao xe tận nơi hay tự đến nhận]({{ '/blog/giao-xe-tan-noi-hay-tu-den-nhan-xe/' | relative_url }}) để so sánh chi phí theo tình huống của mình.
+Vị trí chỉ là một phần; khi chọn, hãy hỏi kèm: giờ nhận sớm nhất và trả muộn nhất, chính sách giao xe tận nơi nếu bạn đổi kế hoạch, khả năng đổi xe giữa chuyến, và kênh hỗ trợ khi sự cố. Các mức giá theo loại xe được niêm yết tại trang bảng giá cho thuê, và thông tin liên hệ các điểm nhận xe nằm tại trang liên hệ. Nếu bạn cân nhắc phương án giao tận nơi thay vì tự đến, đọc thêm bài về [giao xe tận nơi hay tự đến nhận]({{ '/blog/giao-xe-tan-noi-hay-tu-den-nhan-xe/' | relative_url }}) để so sánh chi phí theo tình huống của mình.
 
 Một lưu ý nhỏ cuối: hãy chọn cửa hàng cho phép trả xe ở điểm khác với điểm nhận nếu lịch trình của bạn là tuyến một chiều, ví dụ nhận ở khách sạn và trả ở ga trước giờ tàu. Tiện nghi này không phải nơi nào cũng có, nên hỏi trước khi đặt cọc. Chọn đúng vị trí, bạn tiết kiệm không chỉ tiền mà cả quỹ thời gian quý giá nhất của chuyến đi.
 

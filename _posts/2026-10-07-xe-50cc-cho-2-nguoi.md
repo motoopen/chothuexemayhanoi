@@ -25,7 +25,7 @@ Với tải nặng, khoảng phanh dài hơn, nên giữ khoảng cách với xe
 
 ## Hỏi nơi thuê những gì
 
-Hỏi một: dòng 50cc sẵn có chiếc nào máy khỏe nhất cho chuyến hai người, xin chạy thử trước. Hỏi hai: nếu giữa chuyến thấy quá tải, có thể đổi lên dòng lớn với cách tính ra sao. Hỏi ba: phạm vi gói có giới hạn khu vực không, vì chuyến hai người thường đi xa hơn lịch một mình. Các dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), câu hỏi gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), và điều khoản hợp đồng ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).
+Hỏi một: dòng 50cc sẵn có chiếc nào máy khỏe nhất cho chuyến hai người, xin chạy thử trước. Hỏi hai: nếu giữa chuyến thấy quá tải, có thể đổi lên dòng lớn với cách tính ra sao. Hỏi ba: phạm vi gói có giới hạn khu vực không, vì chuyến hai người thường đi xa hơn lịch một mình. Các dòng xe hiện có nằm ở trang các loại xe cho thuê, câu hỏi gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), và điều khoản hợp đồng ở trang thủ tục thuê xe.
 
 ## Ví dụ hai chuyến hai người
 

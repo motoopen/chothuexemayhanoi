@@ -21,7 +21,7 @@ Chuyến ngắn ít thời gian xử lý sự cố, nên lúc nhận phải rà 
 
 ## Xăng, cọc và các khoản phụ
 
-Ba khoản hay quên nhất của thuê ngày. Xăng: hỏi mức nhận xe thế nào và yêu cầu trả ở mức đó, với 50cc là khoản nhỏ nhưng bị tính theo giá đổ điểm trả thì gấp đôi. Cọc: hỏi mức, hình thức giữ và điều kiện hoàn, giữ tin nhắn xác nhận. Phụ phí: phí giao xe tận nơi và nhận lại, tính theo khoảng cách, với chuyến ngắn nên cân so giữa phí giao và thời gian tự đến điểm nhận. Mức giá các gói nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), điều khoản cọc ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).
+Ba khoản hay quên nhất của thuê ngày. Xăng: hỏi mức nhận xe thế nào và yêu cầu trả ở mức đó, với 50cc là khoản nhỏ nhưng bị tính theo giá đổ điểm trả thì gấp đôi. Cọc: hỏi mức, hình thức giữ và điều kiện hoàn, giữ tin nhắn xác nhận. Phụ phí: phí giao xe tận nơi và nhận lại, tính theo khoảng cách, với chuyến ngắn nên cân so giữa phí giao và thời gian tự đến điểm nhận. Mức giá các gói nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), điều khoản cọc ở trang thủ tục thuê xe.
 
 ## Lên lịch cho một ngày gọn
 

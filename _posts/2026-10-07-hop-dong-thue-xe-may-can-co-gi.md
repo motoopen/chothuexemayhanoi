@@ -13,7 +13,7 @@ Hợp đồng là căn cứ để đối chiếu khi nhận và trả xe, nên m
 
 ## Thông tin hai bên ghi rõ ràng
 
-Hợp đồng nên ghi đầy đủ họ tên, số giấy tờ và số điện thoại của người thuê, kèm thông tin bên cho thuê và người giao xe. Nếu bạn thuê cho người khác đi, tên người thực sự cầm xe cũng phải ghi vào hợp đồng, vì khi có sự cố, bên cho thuê đối chiếu theo đúng người được ghi. Khách lần đầu nên đọc thêm phần thủ tục trong bài [thủ tục thuê xe máy]({{ '/thutuc.html' | relative_url }}) và danh sách giấy tờ cần mang trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/blog/thue-xe-may-ha-noi-can-giay-to-gi/' | relative_url }}).
+Hợp đồng nên ghi đầy đủ họ tên, số giấy tờ và số điện thoại của người thuê, kèm thông tin bên cho thuê và người giao xe. Nếu bạn thuê cho người khác đi, tên người thực sự cầm xe cũng phải ghi vào hợp đồng, vì khi có sự cố, bên cho thuê đối chiếu theo đúng người được ghi. Khách lần đầu nên đọc thêm phần thủ tục trong bài thủ tục thuê xe máy và danh sách giấy tờ cần mang trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/blog/thue-xe-may-ha-noi-can-giay-to-gi/' | relative_url }}).
 
 ## Mô tả tình trạng xe khi giao
 
@@ -26,7 +26,7 @@ Hợp đồng nên liệt kê phụ kiện đi kèm xe: mũ bảo hiểm mấy c
 ## Điều khoản tiền thuê, cọc và hoàn cọc
 
 Hợp đồng nên ghi rõ giá thuê theo ngày hoặc theo tuần, tổng số tiền đã trả trước, số tiền cọc và điều kiện hoàn cọc. Mức giá nên khớp 
-với bảng giá công bố, tham khảo trang [bảng giá]({{ '/banggia.html' | relative_url }}) để đối chiếu trước khi ký. Phần cọc nên nêu rõ khoản nào bị trừ: mất mũ, hết xăng, trả trễ giờ, và khoản nào bên cho thuê không được tự ý giữ, xem thêm phần đặt cọc trong bài [tiền cọc thuê xe máy Hà Nội]({{ '/blog/tien-coc-thue-xe-may-ha-noi/' | relative_url }}).
+với bảng giá công bố, tham khảo trang bảng giá để đối chiếu trước khi ký. Phần cọc nên nêu rõ khoản nào bị trừ: mất mũ, hết xăng, trả trễ giờ, và khoản nào bên cho thuê không được tự ý giữ, xem thêm phần đặt cọc trong bài [tiền cọc thuê xe máy Hà Nội]({{ '/blog/tien-coc-thue-xe-may-ha-noi/' | relative_url }}).
 
 ## Trách nhiệm khi hư hỏng hoặc mất mát
 

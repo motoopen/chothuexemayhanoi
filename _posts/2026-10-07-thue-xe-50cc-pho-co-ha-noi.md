@@ -29,7 +29,7 @@ Có lợi khi: lịch của bạn gọn trong khu và các phố lân cận, đi
 
 ## Ví dụ một ngày quanh phố cổ
 
-Một khách lưu trú ba đêm trong khu: sáng đi quanh hồ ăn sáng, trưa ghé chợ, chiều chạy vài phố mua đồ, tối đi bộ, chỉ cần 50cc với xăng gần như không đáng kể. So với một khách định sáng phố cổ, trưa chạy lên khu cửa ô, tối qua bờ hồ xa, chặng dài hơn nhiều, dòng nhỏ chạy mệt. Cùng khu, hai lịch khác nhau cho hai câu trả lời. Kinh nghiệm cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}), và đặt xe trước gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Một khách lưu trú ba đêm trong khu: sáng đi quanh hồ ăn sáng, trưa ghé chợ, chiều chạy vài phố mua đồ, tối đi bộ, chỉ cần 50cc với xăng gần như không đáng kể. So với một khách định sáng phố cổ, trưa chạy lên khu cửa ô, tối qua bờ hồ xa, chặng dài hơn nhiều, dòng nhỏ chạy mệt. Cùng khu, hai lịch khác nhau cho hai câu trả lời. Kinh nghiệm cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}), và đặt xe trước gửi qua trang liên hệ.
 
 ## Đi bộ kết hợp xe thuê quanh khu
 

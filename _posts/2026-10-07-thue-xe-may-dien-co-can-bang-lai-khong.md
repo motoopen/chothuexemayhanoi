@@ -25,7 +25,7 @@ Sau khi biết ranh giới, chọn theo điều kiện của chính mình. Nếu
 
 ## Hỏi cửa hàng và kiểm tra khi nhận
 
-Khi đặt xe, nói rõ: tôi có hoặc chưa có giấy phép lái, đi lộ trình thế nào, và nhờ tư vấn mẫu phù hợp. Hỏi kèm giá theo gói trên [bảng giá]({{ '/banggia.html' | relative_url }}), thủ tục giấy tờ cần mang theo tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), và liên hệ trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}). Khi nhận xe, làm bộ kiểm tra chuẩn: thử ga và phanh, xem đèn còi, chạy thử vòng ngắn, chụp tình trạng xe. Với xe điện, xem thêm mức pin và hỏi quãng đường còn lại. Danh sách dòng xe hiện có tại trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}).
+Khi đặt xe, nói rõ: tôi có hoặc chưa có giấy phép lái, đi lộ trình thế nào, và nhờ tư vấn mẫu phù hợp. Hỏi kèm giá theo gói trên bảng giá, thủ tục giấy tờ cần mang theo tại trang thủ tục thuê xe, và liên hệ trước qua trang liên hệ. Khi nhận xe, làm bộ kiểm tra chuẩn: thử ga và phanh, xem đèn còi, chạy thử vòng ngắn, chụp tình trạng xe. Với xe điện, xem thêm mức pin và hỏi quãng đường còn lại. Danh sách dòng xe hiện có tại trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}).
 
 ## Trường hợp khách nước ngoài
 

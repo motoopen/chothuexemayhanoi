@@ -25,7 +25,7 @@ Xe 50cc có rất ít chỗ để đồ, nên nếu lịch ngoại thành cần 
 
 ## Kiểm tra xe trước khi lên chặng dài
 
-Với chặng ngoại thành, phần kiểm tra xe phải kỹ hơn trong phố: hai phanh, độ căng bánh, đèn còi, và nghe tiếng máy khi vặn ga. Hỏi nơi thuê về các điểm hỗ trợ gần tuyến bạn định đi, và số hỗ trợ giữa kỳ hoạt động đến giờ nào. Chụp hiện trạng xe và giấy tờ kèm theo. Điều khoản hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), và câu hỏi đặt trước gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Với chặng ngoại thành, phần kiểm tra xe phải kỹ hơn trong phố: hai phanh, độ căng bánh, đèn còi, và nghe tiếng máy khi vặn ga. Hỏi nơi thuê về các điểm hỗ trợ gần tuyến bạn định đi, và số hỗ trợ giữa kỳ hoạt động đến giờ nào. Chụp hiện trạng xe và giấy tờ kèm theo. Điều khoản hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), và câu hỏi đặt trước gửi qua trang liên hệ.
 
 ## Ví dụ hai chuyến ngoại thành
 

@@ -29,7 +29,7 @@ Một lịch gọn quanh phố cổ: sáng sớm quanh hồ khi khu vắng, trư
 
 ## Ví dụ hai khách trong khu
 
-Tình huống một: khách ở khách sạn trong khu ba đêm, cắm sạc qua đêm, mỗi ngày quanh hồ và các ngõ, kỳ nghỉ êm và chi thấp. Tình huống hai: khách ở khu khác, không hỏi chỗ sạc, ngày hai giữa phố pin xuống thấp phải về sớm cắm chờ, mất khung chiều. Cùng khu phố, khác nhau ở câu hỏi sạc lúc đặt. Kinh nghiệm cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}), và so giá các dòng ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Tình huống một: khách ở khách sạn trong khu ba đêm, cắm sạc qua đêm, mỗi ngày quanh hồ và các ngõ, kỳ nghỉ êm và chi thấp. Tình huống hai: khách ở khu khác, không hỏi chỗ sạc, ngày hai giữa phố pin xuống thấp phải về sớm cắm chờ, mất khung chiều. Cùng khu phố, khác nhau ở câu hỏi sạc lúc đặt. Kinh nghiệm cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}), và so giá các dòng ở trang bảng giá.
 
 ## Ví dụ ba chặng quen quanh khu phố cổ
 

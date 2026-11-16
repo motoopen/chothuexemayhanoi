@@ -21,7 +21,7 @@ Xe ga có hộc dưới yên kín, vừa áo mưa, mũ và vài món lặt vặt
 
 ## Tiêu chí ba: hành trình thật của bạn
 
-Với chặng ngắn trong phố, cả hai dòng như nhau. Khác biệt hiện ra khi: dốc dài xuất hiện nhiều, Cub giữ đà bằng số tốt hơn chút, xe ga phải đè ga cao làm máy nóng. Chở thêm người, xe ga yên dài rộng chỗ ngồi hơn. Tải đồ buộc sau, côp rộng của Cub hẹp, xe ga có gác sau tiện buộc kiện. Các dòng hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), và bài so chi tiết thao tác nằm trong [Cub 50cc và xe ga 50cc]({{ '/blog/cub-50cc-va-xe-ga-50cc/' | relative_url }}).
+Với chặng ngắn trong phố, cả hai dòng như nhau. Khác biệt hiện ra khi: dốc dài xuất hiện nhiều, Cub giữ đà bằng số tốt hơn chút, xe ga phải đè ga cao làm máy nóng. Chở thêm người, xe ga yên dài rộng chỗ ngồi hơn. Tải đồ buộc sau, côp rộng của Cub hẹp, xe ga có gác sau tiện buộc kiện. Các dòng hiện có nằm ở trang các loại xe cho thuê, và bài so chi tiết thao tác nằm trong [Cub 50cc và xe ga 50cc]({{ '/blog/cub-50cc-va-xe-ga-50cc/' | relative_url }}).
 
 ## Ba câu hỏi tự vấn trước khi chốt
 
@@ -29,7 +29,7 @@ Câu một: tôi đã từng đi xe số trong bao lâu, có thấy gò khi ph�
 
 ## Kiểm tra và thủ tục khi nhận
 
-Xe ga kiểm tra ga đều, phanh hai bánh và khóa hộc. Cub kiểm tra đủ các số, tiếng côn và chân chống. Cả hai đều chụp hiện trạng kể cả vết xước sẵn có và chụp đồng hồ xăng. Điều khoản hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), câu hỏi trước gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Xe ga kiểm tra ga đều, phanh hai bánh và khóa hộc. Cub kiểm tra đủ các số, tiếng côn và chân chống. Cả hai đều chụp hiện trạng kể cả vết xước sẵn có và chụp đồng hồ xăng. Điều khoản hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), câu hỏi trước gửi qua trang liên hệ.
 
 ## Gói thuê nên lấy cho từng dòng
 

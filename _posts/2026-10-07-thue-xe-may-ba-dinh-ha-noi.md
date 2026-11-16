@@ -21,7 +21,7 @@ Ba Đình có những tuyến vành khúc rộng nhưng vẫn đông vào giờ 
 
 ## Loại xe hợp địa hình khu vực
 
-Ba Đình có nhiều đoạn ven hồ và dốc nhẹ quanh khu vực đường chạy sát bờ, nên dòng xe có lực vừa phải đi thoải mái hơn xe quá nhỏ. Nếu lịch trình của bạn gồm vòng quanh hồ hoặc chạy sang các quận lân cận trong ngày, chọn xe ga hoặc xe số phổ thông êm và ổn định. Nếu chỉ đi quãng ngắn quanh khu phố, dòng nhỏ gọn vẫn đủ dùng và tiết kiệm hơn. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang [bảng giá]({{ '/banggia.html' | relative_url }}). Khách thuê dài ngày nên tham khảo các khoản ngoài giá thuê trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}).
+Ba Đình có nhiều đoạn ven hồ và dốc nhẹ quanh khu vực đường chạy sát bờ, nên dòng xe có lực vừa phải đi thoải mái hơn xe quá nhỏ. Nếu lịch trình của bạn gồm vòng quanh hồ hoặc chạy sang các quận lân cận trong ngày, chọn xe ga hoặc xe số phổ thông êm và ổn định. Nếu chỉ đi quãng ngắn quanh khu phố, dòng nhỏ gọn vẫn đủ dùng và tiết kiệm hơn. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang bảng giá. Khách thuê dài ngày nên tham khảo các khoản ngoài giá thuê trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}).
 
 ## Hỏi về phạm vi di chuyển và giao xe tận nơi
 

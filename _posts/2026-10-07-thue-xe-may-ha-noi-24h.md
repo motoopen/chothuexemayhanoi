@@ -25,7 +25,7 @@ Kịch bản đáng chuẩn bị nhất: chuyến về muộn sau giờ đóng c
 
 ## Tối ưu một vòng thuê 24h
 
-Một ngày trọn gói dùng hiệu quả khi bạn gộp lịch thành các cụm gần nhau thay vì điểm rải rác. Ví dụ: sáng đi cụm phía Tây hồ, trưa gộp khu trung tâm, chiều ngoại thành, tối trả xe. Hỏi trước mức xăng giao và cách tính khi trả để chủ động đổ xăng đúng lượng, tránh vừa đủ về đích. Với người mới, các bước chuẩn bị chung như giấy tờ, cọc và kiểm tra xe được tổng hợp trong bài [thuê xe máy lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}). Tổng quan dịch vụ nằm tại [trang chủ]({{ '/' | relative_url }}).
+Một ngày trọn gói dùng hiệu quả khi bạn gộp lịch thành các cụm gần nhau thay vì điểm rải rác. Ví dụ: sáng đi cụm phía Tây hồ, trưa gộp khu trung tâm, chiều ngoại thành, tối trả xe. Hỏi trước mức xăng giao và cách tính khi trả để chủ động đổ xăng đúng lượng, tránh vừa đủ về đích. Với người mới, các bước chuẩn bị chung như giấy tờ, cọc và kiểm tra xe được tổng hợp trong bài thuê xe máy lần đầu. Tổng quan dịch vụ nằm tại [trang chủ]({{ '/' | relative_url }}).
 
 Nếu dự kiến cần xe liên tục nhiều ngày, đọc thêm hướng dẫn về các gói tuần hoặc tháng để so sánh tổng chi phí trước khi quyết định theo ngày. Với lịch hai ngày trở lên, sự chênh lệch giữa giá ngày lẻ và gói trọn thường đủ lớn để đáng việc hỏi thêm một câu.
 

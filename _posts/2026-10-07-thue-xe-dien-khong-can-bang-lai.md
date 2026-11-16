@@ -29,7 +29,7 @@ Quy định về phân loại xe và giấy phép lái là văn bản pháp lu�
 
 ## Cách nói chuyện với cửa hàng cho thuê
 
-Khi đặt xe, mô tả thẳng hoàn cảnh của mình: chưa có giấy phép lái, đi một người, lộ trình dự kiến trong nội thành. Dịch vụ chuyên nghiệp sẽ tư vấn đúng loại xe phù hợp cả nhu cầu lẫn quy định, thay vì chỉ giao chiếc xe đang dư. Hỏi kèm về giá trên [bảng giá]({{ '/banggia.html' | relative_url }}), danh sách dòng xe hiện có tại trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), và liên hệ trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}). Khách lần đầu thuê ở Hà Nội nên đọc thêm khung kinh nghiệm chung trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
+Khi đặt xe, mô tả thẳng hoàn cảnh của mình: chưa có giấy phép lái, đi một người, lộ trình dự kiến trong nội thành. Dịch vụ chuyên nghiệp sẽ tư vấn đúng loại xe phù hợp cả nhu cầu lẫn quy định, thay vì chỉ giao chiếc xe đang dư. Hỏi kèm về giá trên bảng giá, danh sách dòng xe hiện có tại trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), và liên hệ trước qua trang liên hệ. Khách lần đầu thuê ở Hà Nội nên đọc thêm khung kinh nghiệm chung trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}).
 
 ## Kết luận
 

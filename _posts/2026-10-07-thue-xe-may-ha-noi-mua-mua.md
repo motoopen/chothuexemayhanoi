@@ -13,7 +13,7 @@ Mùa mưa ở Hà Nội kéo dài nhiều tháng, cơn mưa tới bất chợt v
 
 ## Chọn dòng xe hợp đường ướt
 
-Với đường ướt và ngập cục bộ, ưu tiên dòng xe có bánh ăn đường tốt, giữ nguyên bản xưởng, không độ cao quá. Xe ga phổ thông thường ổn định hơn xe máy đã qua độ chế. Quãng ngắn quanh khu ở thì dòng xe nhỏ gọn đủ, nhưng nên hỏi trước vỏ bánh còn tốt không khi nhận. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá theo ngày tại trang [bảng giá]({{ '/banggia.html' | relative_url }}). Khách quan tâm xe điện mùa mưa nên đọc kỹ phần pin và các khoảng cách nước trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}).
+Với đường ướt và ngập cục bộ, ưu tiên dòng xe có bánh ăn đường tốt, giữ nguyên bản xưởng, không độ cao quá. Xe ga phổ thông thường ổn định hơn xe máy đã qua độ chế. Quãng ngắn quanh khu ở thì dòng xe nhỏ gọn đủ, nhưng nên hỏi trước vỏ bánh còn tốt không khi nhận. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá theo ngày tại trang bảng giá. Khách quan tâm xe điện mùa mưa nên đọc kỹ phần pin và các khoảng cách nước trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' }}).
 
 ## Đồ cần chuẩn bị khi nhận xe
 

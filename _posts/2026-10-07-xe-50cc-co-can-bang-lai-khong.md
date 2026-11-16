@@ -21,7 +21,7 @@ Nguồn đáng tin nhất để kiểm tra là trang thông tin của lực lư�
 
 ## Điều kiện đặt xe ở nơi thuê
 
-Nơi cho thuê thường yêu cầu bộ giấy tờ cơ bản của khách: giấy tờ tùy thân, và một số nơi giữ bản photo hoặc đặt cọc. Với dòng xe nhỏ, nơi thuê thường hỏi người lái đã đủ điều kiện theo quy định chưa, vì trách nhiệm người lái thuộc về khách. Hỏi rõ qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước khi đến, và rà thủ tục cần mang theo tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Chuẩn bị đúng bộ giấy tờ giúp bạn nhận xe trong vài phút thay vì phải quay lại.
+Nơi cho thuê thường yêu cầu bộ giấy tờ cơ bản của khách: giấy tờ tùy thân, và một số nơi giữ bản photo hoặc đặt cọc. Với dòng xe nhỏ, nơi thuê thường hỏi người lái đã đủ điều kiện theo quy định chưa, vì trách nhiệm người lái thuộc về khách. Hỏi rõ qua trang liên hệ trước khi đến, và rà thủ tục cần mang theo tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Chuẩn bị đúng bộ giấy tờ giúp bạn nhận xe trong vài phút thay vì phải quay lại.
 
 ## Nhầm lẫn hay gặp khi thuê dòng 50cc
 
@@ -29,7 +29,7 @@ Nhầm lẫn thứ nhất: nghĩ xe nhỏ là không cần bất kỳ giấy t�
 
 ## Ví dụ trước và sau khi tra nguồn chính thức
 
-Tình huống một: khách nghe bạn nói dòng 50cc không cần gì, đi cả tuần yên ổn, nhưng một lần bị dừng kiểm tra giấy tờ thì mọi lập luận truyền miệng đều vô dụng, căn cứ duy nhất là văn bản hiện hành. Tình huống hai: khách dành mười phút tra trên trang cảnh sát giao thông trước khi thuê, biết rõ mình thuộc trường hợp nào, mang đúng giấy tờ và đi cả kỳ không lo. Chêch giữa hai cách chỉ là mười phút tra cứu, nhưng một bên dựa trên may mắn, một bên dựa trên căn cứ. Kinh nghiệm đầy đủ cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}), và các dòng xe cho thuê nằm tại trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}).
+Tình huống một: khách nghe bạn nói dòng 50cc không cần gì, đi cả tuần yên ổn, nhưng một lần bị dừng kiểm tra giấy tờ thì mọi lập luận truyền miệng đều vô dụng, căn cứ duy nhất là văn bản hiện hành. Tình huống hai: khách dành mười phút tra trên trang cảnh sát giao thông trước khi thuê, biết rõ mình thuộc trường hợp nào, mang đúng giấy tờ và đi cả kỳ không lo. Chêch giữa hai cách chỉ là mười phút tra cứu, nhưng một bên dựa trên may mắn, một bên dựa trên căn cứ. Kinh nghiệm đầy đủ cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}), và các dòng xe cho thuê nằm tại trang các loại xe cho thuê.
 
 ## Nguồn
 

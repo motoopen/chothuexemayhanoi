@@ -21,7 +21,7 @@ Các trục lớn qua Hoàng Mai có hai khung đông: sáng sớm dòng xe từ
 
 ## Loại xe hợp quãng đường trong quận
 
-Quãng đường trong Hoàng Mai thường dài hơn các quận nội thành, nên dòng xe êm và đủ lực giúp phần mỏi tay và lưng trên chặng dày. Nếu bạn đi lên nội thành mỗi ngày, xe ga phổ thông là lựa chọn cân bằng tốt giữa êm và tiết kiệm. Nếu chỉ đi quãng ngắn quanh cụm dân cư, dòng xe nhỏ gọn đủ dùng. Khách định kết hợp chạy ra vùng ven phía nam trong ngày nên chọn dòng ổn định. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang [bảng giá]({{ '/banggia.html' | relative_url }}). Với khách thuê lâu, các khoản ngoài giá thuê đã được liệt kê trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}).
+Quãng đường trong Hoàng Mai thường dài hơn các quận nội thành, nên dòng xe êm và đủ lực giúp phần mỏi tay và lưng trên chặng dày. Nếu bạn đi lên nội thành mỗi ngày, xe ga phổ thông là lựa chọn cân bằng tốt giữa êm và tiết kiệm. Nếu chỉ đi quãng ngắn quanh cụm dân cư, dòng xe nhỏ gọn đủ dùng. Khách định kết hợp chạy ra vùng ven phía nam trong ngày nên chọn dòng ổn định. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang bảng giá. Với khách thuê lâu, các khoản ngoài giá thuê đã được liệt kê trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}).
 
 ## Hỏi về phạm vi và giao xe tận nơi
 

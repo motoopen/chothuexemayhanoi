@@ -13,7 +13,7 @@ Thuê xe máy trọn một tuần là ngưỡng mà gói tuần rõ rệt rẻ h
 
 ## Quy đổi giá gói tuần ra một ngày
 
-Bước đầu luôn là quy đổi: lấy mức gói tuần tại trang [bảng giá]({{ '/banggia.html' | relative_url }}) chia bảy, rồi so với mức giá ngày của cùng dòng xe. Con số chênh là khoản tiết kiệm thật mỗi ngày, nhưng chỉ có nghĩa khi bạn dùng xe gần đủ bảy ngày. Nếu lịch chỉ cần bốn ngày, so gói tuần với giá ngày nhân bốn và hỏi luôn phương án gói linh hoạt nếu có. Hỏi cụ thể dòng xe và khung dự kiến qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để có mức chính xác.
+Bước đầu luôn là quy đổi: lấy mức gói tuần tại trang [bảng giá]({{ '/banggia.html' | relative_url }}) chia bảy, rồi so với mức giá ngày của cùng dòng xe. Con số chênh là khoản tiết kiệm thật mỗi ngày, nhưng chỉ có nghĩa khi bạn dùng xe gần đủ bảy ngày. Nếu lịch chỉ cần bốn ngày, so gói tuần với giá ngày nhân bốn và hỏi luôn phương án gói linh hoạt nếu có. Hỏi cụ thể dòng xe và khung dự kiến qua trang liên hệ để có mức chính xác.
 
 ## Các khoản ngoài giá gói
 

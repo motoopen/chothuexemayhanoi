@@ -17,7 +17,7 @@ Nhận tại khách sạn tiện cho khách du lịch: xe giao tận sảnh, ký
 
 ## Nhận tại điểm hẹn giữa phố
 
-Điểm hẹn hợp khách công tác hoặc khách đang di chuyển giữa các quận: hẹn tại một góc phố dễ tìm như gần đầu tuyến lớn hoặc trước một quán quen. Ưu điểm là tiết kiệm giờ, và có thể nhận lúc đang đi giữa chừng. Nhược điểm là không có bàn giao đầy đủ: mũ, pin hoặc xăng phải kiểm nhanh tại chỗ theo checklist trong bài [checklist nhận xe máy điện]({{ '/blog/checklist-nhan-xe-may-dien/' | relative_url }}) hoặc bản dành cho nhóm xăng trong bài [checklist nhận xe 50cc]({{ '/blog/checklist-nhan-xe-50cc/' | relative_url }}). Trời mưa gần thì cân phần giao xe đường ướt trong bài [thuê xe máy điện mùa mưa]({{ '/blog/thue-xe-may-dien-mua-mua/' | relative_url }}).
+Điểm hẹn hợp khách công tác hoặc khách đang di chuyển giữa các quận: hẹn tại một góc phố dễ tìm như gần đầu tuyến lớn hoặc trước một quán quen. Ưu điểm là tiết kiệm giờ, và có thể nhận lúc đang đi giữa chừng. Nhược điểm là không có bàn giao đầy đủ: mũ, pin hoặc xăng phải kiểm nhanh tại chỗ theo checklist trong bài checklist nhận xe máy điện hoặc bản dành cho nhóm xăng trong bài checklist nhận xe 50cc. Trời mưa gần thì cân phần giao xe đường ướt trong bài [thuê xe máy điện mùa mưa]({{ '/blog/thue-xe-may-dien-mua-mua/' | relative_url }}).
 
 ## Nhận tại cửa hàng quanh khu
 
@@ -25,7 +25,7 @@ Cửa hàng cho bàn giao đầy đủ nhất: chạy thử tại chỗ, đổi 
 
 ## Cân theo loại xe bạn cần
 
-Xe đặc biệt như Cub hoặc dòng ga lớn hiếm hơn, nhiều khi không có sẵn để giao lẻ: nhận tại cửa hàng cho bạn chọn đúng chiếc, xem so sánh dòng xe trong bài [Cub 50cc và xe ga 50cc]({{ '/blog/cub-50cc-va-xe-ga-50cc/' | relative_url }}). Xe phổ thông như 50cc hoặc xe điện mini giao tận nơi dễ, tham khảo nhóm không cần bằng trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Với xe điện, giao tại khách sạn còn giúp bàn giao phần sạc chỗ ở ngay, các câu hỏi cần có trong bài [thời gian sạc xe máy điện khi thuê]({{ '/blog/thoi-gian-sac-xe-may-dien-thue/' | relative_url }}). Hỏi tồn kho trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để biết cách nào khả thi.
+Xe đặc biệt như Cub hoặc dòng ga lớn hiếm hơn, nhiều khi không có sẵn để giao lẻ: nhận tại cửa hàng cho bạn chọn đúng chiếc, xem so sánh dòng xe trong bài [Cub 50cc và xe ga 50cc]({{ '/blog/cub-50cc-va-xe-ga-50cc/' | relative_url }}). Xe phổ thông như 50cc hoặc xe điện mini giao tận nơi dễ, tham khảo nhóm không cần bằng trong bài xe 50cc có cần bằng lái không. Với xe điện, giao tại khách sạn còn giúp bàn giao phần sạc chỗ ở ngay, các câu hỏi cần có trong bài thời gian sạc xe máy điện khi thuê. Hỏi tồn kho trước qua trang liên hệ để biết cách nào khả thi.
 
 ## Cân theo lịch trình trong khu
 

@@ -25,7 +25,7 @@ Với khách du lịch chọn điện, câu đầu tiên nên hỏi: xe giao kè
 
 ## Kinh nghiệm đi phố cho khách mới đến
 
-Giao thông Hà Nội cần làm quen, kể cả với xe dễ lái như điện: đèn đỏ dài, xe lùa nhiều, và còi dùng để báo hiệu liên tục chứ không phải tức giận. Ngày đầu đi khung vắng, giữ tốc vừa, và để ý làn đường. Với khách chưa từng đi xe hai bánh ở châu Á, một buổi tập trên đoạn vắng trước khi vào giờ cao điểm là khoản đầu tư đáng giá. Kinh nghiệm đầy đủ cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}), và góc nhìn chi tiết theo từng dạng chuyến nằm trong bài [thuê xe máy điện theo ngày Hà Nội]({{ '/blog/thue-xe-may-dien-theo-ngay-ha-noi/' | relative_url }}).
+Giao thông Hà Nội cần làm quen, kể cả với xe dễ lái như điện: đèn đỏ dài, xe lùa nhiều, và còi dùng để báo hiệu liên tục chứ không phải tức giận. Ngày đầu đi khung vắng, giữ tốc vừa, và để ý làn đường. Với khách chưa từng đi xe hai bánh ở châu Á, một buổi tập trên đoạn vắng trước khi vào giờ cao điểm là khoản đầu tư đáng giá. Kinh nghiệm đầy đủ cho lần đầu thuê nằm trong bài thuê xe máy Hà Nội lần đầu, và góc nhìn chi tiết theo từng dạng chuyến nằm trong bài [thuê xe máy điện theo ngày Hà Nội]({{ '/blog/thue-xe-may-dien-theo-ngay-ha-noi/' | relative_url }}).
 
 ## Ví dụ hai kỳ nghỉ khác lịch
 

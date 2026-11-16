@@ -25,17 +25,17 @@ Nứt tóc phần thành, mảng vá lộ rõ, và phồng cục là ba dấu b�
 
 ## Lốp theo dòng xe và loại cung
 
-Xe 50cc lốp nhỏ mòn nhanh nếu chạy tải, phần giới hạn của dòng này đã nêu trong bài [thuê xe 50cc đi đường dài]({{ '/blog/thue-xe-50cc-di-duong-dai/' | relative_url }}). Cung núi và cung mưa đòi gai sâu hơn, phần cân chọn xe cho cung núi đã trình bày trong bài [xe ga và xe số khi thuê]({{ '/blog/xe-ga-va-xe-so-khi-thue/' | relative_url }}). Xe điện nặng pin, nên lốp xe điện cần đủ hơi hơn, phần đặc thù đã nêu trong bài [checklist nhận xe máy điện]({{ '/blog/checklist-nhan-xe-may-dien/' | relative_url }}).
+Xe 50cc lốp nhỏ mòn nhanh nếu chạy tải, phần giới hạn của dòng này đã nêu trong bài [thuê xe 50cc đi đường dài]({{ '/blog/thue-xe-50cc-di-duong-dai/' | relative_url }}). Cung núi và cung mưa đòi gai sâu hơn, phần cân chọn xe cho cung núi đã trình bày trong bài xe ga và xe số khi thuê. Xe điện nặng pin, nên lốp xe điện cần đủ hơi hơn, phần đặc thù đã nêu trong bài checklist nhận xe máy điện.
 
 ## Ghi nhận bằng ảnh
 
-Chụp cận hai lốp ngay lúc nhận, kèm ảnh bốn góc xe theo thói quen trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}), để đối chiếu khi trả. Chèn ngày giờ trong ảnh nếu điện thoại có chế độ, cách đối chiếu vết xước đã trình bày trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}). Trình tự kiểm tra tổng thể nằm trong bài [checklist 10 phút trước khi nhận xe]({{ '/blog/checklist-10-phut-truoc-khi-nhan-xe/' | relative_url }}).
+Chụp cận hai lốp ngay lúc nhận, kèm ảnh bốn góc xe theo thói quen trong bài chụp ảnh xe trước khi thuê, để đối chiếu khi trả. Chèn ngày giờ trong ảnh nếu điện thoại có chế độ, cách đối chiếu vết xước đã trình bày trong bài chụp ảnh xe trước khi thuê. Trình tự kiểm tra tổng thể nằm trong bài [checklist 10 phút trước khi nhận xe]({{ '/blog/checklist-10-phut-truoc-khi-nhan-xe/' | relative_url }}).
 
 ## Lốp yếu giữa chặng
 
-Non dần giữa cung thì ghé trạm bơm sớm, bơm theo áp suất ghi trên thành lốp, và kiểm tra dằm nếu có. Nổ lốp thì kéo lề, không phanh gấp, và gọi nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}), phần chi phí đã phân trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/blog/chi-phi-hu-hong-khi-thue-xe-may/' | relative_url }}).
+Non dần giữa cung thì ghé trạm bơm sớm, bơm theo áp suất ghi trên thành lốp, và kiểm tra dằm nếu có. Nổ lốp thì kéo lề, không phanh gấp, và gọi nơi thuê qua trang liên hệ theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}), phần chi phí đã phân trong bài chi phí hư hỏng khi thuê xe máy.
 
-Trước các cung núi như Ba Vì hay Tam Đảo, chuẩn bị lốp còn kỹ hơn: gai sâu, đủ hơi, và không có vá cũ gần vai lốp, vì dốc ướt là điều kiện khắc nhất cho lốp yếu, phần chuẩn bị cung núi đã trình bày trong bài [thuê xe máy Hà Nội đi Ba Vì]({{ '/blog/thue-xe-may-ha-noi-di-ba-vi/' | relative_url }}) và bài [thuê xe máy Hà Nội đi Tam Đảo]({{ '/blog/thue-xe-may-ha-noi-di-tam-dao/' | relative_url }}). Với hành trình dài nhiều ngày, mang theo bộ bơm mini và bơm lại mỗi sáng trước khi xuất phát, vì lốp non dần qua đêm ở nhiệt độ thấp dễ gây cảm giác xe nặng từ ngày thứ hai, và nên đổi lịch chạy cung núi nếu mưa đêm hôm trước.
+Trước các cung núi như Ba Vì hay Tam Đảo, chuẩn bị lốp còn kỹ hơn: gai sâu, đủ hơi, và không có vá cũ gần vai lốp, vì dốc ướt là điều kiện khắc nhất cho lốp yếu, phần chuẩn bị cung núi đã trình bày trong bài [thuê xe máy Hà Nội đi Ba Vì]({{ '/blog/thue-xe-may-ha-noi-di-ba-vi/' | relative_url }}) và bài thuê xe máy Hà Nội đi Tam Đảo. Với hành trình dài nhiều ngày, mang theo bộ bơm mini và bơm lại mỗi sáng trước khi xuất phát, vì lốp non dần qua đêm ở nhiệt độ thấp dễ gây cảm giác xe nặng từ ngày thứ hai, và nên đổi lịch chạy cung núi nếu mưa đêm hôm trước.
 
 ## Kết luận
 

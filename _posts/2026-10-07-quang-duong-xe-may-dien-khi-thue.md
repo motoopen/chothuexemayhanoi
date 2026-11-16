@@ -17,7 +17,7 @@ Bốn yếu tố chính. Thứ nhất là đường: đèn đỏ nhiều, dừng
 
 ## Cách ước cho chính lịch của mình
 
-Ba bước. Bước một, ghi lại tổng quãng dự kiến mỗi ngày, kể cả các chạy việc phát sinh thường có. Bước hai, hỏi nơi thuê tầm thật trong phố của chính chiếc xe định giao, nơi đi chiếc đó mỗi ngày sẽ biết đúng hơn tài liệu. Bước ba, so tổng quãng với tầm thật, nếu quãng chạm gần giới hạn thì chốt thêm biện pháp: dòng pin lớn hơn, pin dự phòng, hoặc một ngày ghép dòng xăng. Ba bước này mất mười phút và cho kế hoạch đáng tin. Câu hỏi gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), các dòng xe hiện có ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}).
+Ba bước. Bước một, ghi lại tổng quãng dự kiến mỗi ngày, kể cả các chạy việc phát sinh thường có. Bước hai, hỏi nơi thuê tầm thật trong phố của chính chiếc xe định giao, nơi đi chiếc đó mỗi ngày sẽ biết đúng hơn tài liệu. Bước ba, so tổng quãng với tầm thật, nếu quãng chạm gần giới hạn thì chốt thêm biện pháp: dòng pin lớn hơn, pin dự phòng, hoặc một ngày ghép dòng xăng. Ba bước này mất mười phút và cho kế hoạch đáng tin. Câu hỏi gửi qua trang liên hệ, các dòng xe hiện có ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}).
 
 ## Xem màn hình pin như xem đồng hồ xăng
 
@@ -29,7 +29,7 @@ Lối một: mượn hoặc đổi pin dự phòng nếu nơi thuê có, phù h�
 
 ## Ví dụ hai lịch và hai con số tầm
 
-Tình huống một: khách lịch trong phố hai mươi cây số mỗi ngày, chiếc giao tầm thật bốn mươi, thoải mái cả tuần với sạc qua đêm. Tình huống hai: khách cùng chiếc nhưng lịch hai chuyến vào khu xa cộng tải hai người, tầm thật giảm còn khoảng hai mươi lăm, sát quãng một ngày, phải cắm thêm giữa ngày mới đủ. Cùng xe, cùng pin, khác nhau ở tải và số chuyến. So gói và dòng ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), điều khoản ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).
+Tình huống một: khách lịch trong phố hai mươi cây số mỗi ngày, chiếc giao tầm thật bốn mươi, thoải mái cả tuần với sạc qua đêm. Tình huống hai: khách cùng chiếc nhưng lịch hai chuyến vào khu xa cộng tải hai người, tầm thật giảm còn khoảng hai mươi lăm, sát quãng một ngày, phải cắm thêm giữa ngày mới đủ. Cùng xe, cùng pin, khác nhau ở tải và số chuyến. So gói và dòng ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), điều khoản ở trang thủ tục thuê xe.
 
 ## Kết luận
 

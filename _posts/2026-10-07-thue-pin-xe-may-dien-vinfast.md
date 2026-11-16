@@ -29,7 +29,7 @@ Hỏi rõ: pin này sạc thế nào, bộ sạc có kèm xe không, và nếu c
 
 ## Kết luận và bước chốt
 
-Trước khi ký gói thuê liên quan tới pin xe máy điện, kiểm tra bốn điểm: cấu trúc gói gồm pin hay tính riêng, tình trạng pin của chiếc xe nhận, phương án sạc và trao đổi quanh chuyến, và phân định trách nhiệm khi sự cố. Đối chiếu chính sách với kênh chính hãng, và yêu cầu mọi thỏa thuận nằm trong hợp đồng. Giá các gói nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), thủ tục giấy tờ tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), danh sách dòng xe hiện có tại trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), và thông tin liên hệ tại trang [liên hệ]({{ '/lienhe.html' | relative_url }}). Làm đủ bốn kiểm tra, phần pin của hợp đồng thuê sẽ minh bạch và không còn là điểm rủi ro.
+Trước khi ký gói thuê liên quan tới pin xe máy điện, kiểm tra bốn điểm: cấu trúc gói gồm pin hay tính riêng, tình trạng pin của chiếc xe nhận, phương án sạc và trao đổi quanh chuyến, và phân định trách nhiệm khi sự cố. Đối chiếu chính sách với kênh chính hãng, và yêu cầu mọi thỏa thuận nằm trong hợp đồng. Giá các gói nằm ở trang bảng giá, thủ tục giấy tờ tại trang thủ tục thuê xe, danh sách dòng xe hiện có tại trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), và thông tin liên hệ tại trang liên hệ. Làm đủ bốn kiểm tra, phần pin của hợp đồng thuê sẽ minh bạch và không còn là điểm rủi ro.
 
 ## Nguồn
 

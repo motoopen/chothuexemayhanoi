@@ -21,7 +21,7 @@ Xe máy điện VinFast phù hợp lộ trình ngắn, nhiều điểm dừng tr
 
 ## Tiêu chí chi phí và thủ tục
 
-Chi phí thuê hai loại hình khác nhau rõ rệt: xe máy điện có giá thuê theo ngày dễ chịu và cọc vừa phải; ô tô điện đắt hơn nhiều vì giá trị tài sản, kèm phạm vi km giới hạn và giấy phép lái xe hợp lệ. Về thủ tục, thuê xe máy điện cần giấy tờ tùy thân theo quy định chung, chi tiết tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}); thuê ô tô điện đòi hỏi hồ sơ chặt hơn. Giá các gói xe máy điện nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), còn danh sách dòng xe hiện có tại trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}).
+Chi phí thuê hai loại hình khác nhau rõ rệt: xe máy điện có giá thuê theo ngày dễ chịu và cọc vừa phải; ô tô điện đắt hơn nhiều vì giá trị tài sản, kèm phạm vi km giới hạn và giấy phép lái xe hợp lệ. Về thủ tục, thuê xe máy điện cần giấy tờ tùy thân theo quy định chung, chi tiết tại trang thủ tục thuê xe; thuê ô tô điện đòi hỏi hồ sơ chặt hơn. Giá các gói xe máy điện nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), còn danh sách dòng xe hiện có tại trang các loại xe cho thuê.
 
 ## Cách tìm đúng dịch vụ theo nhu cầu đã xác định
 

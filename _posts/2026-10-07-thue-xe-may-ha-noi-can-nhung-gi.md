@@ -21,7 +21,7 @@ Nếu bạn tự lái xe thuê, bạn cần giấy phép lái xe phù hợp vớ
 
 ## Thông tin cần hỏi cửa hàng trước khi đến
 
-Trước khi đến, liên hệ qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để chốt các điểm sau: dòng xe sẵn có đúng ngày bạn cần, mức giá và gói thuê theo trang [bảng giá]({{ '/banggia.html' | relative_url }}), khoản cọc và hình thức giữ, khung giờ mở cửa của điểm nhận, cùng phạm vi di chuyển cho phép của gói. Hỏi đủ ngay từ đầu giúp bạn so sánh và chọn gói hợp lý, thay vì bị động khi đến nơi. Ghi lại kết quả trao đổi để đối chiếu khi ký hợp đồng.
+Trước khi đến, liên hệ qua trang liên hệ để chốt các điểm sau: dòng xe sẵn có đúng ngày bạn cần, mức giá và gói thuê theo trang [bảng giá]({{ '/banggia.html' | relative_url }}), khoản cọc và hình thức giữ, khung giờ mở cửa của điểm nhận, cùng phạm vi di chuyển cho phép của gói. Hỏi đủ ngay từ đầu giúp bạn so sánh và chọn gói hợp lý, thay vì bị động khi đến nơi. Ghi lại kết quả trao đổi để đối chiếu khi ký hợp đồng.
 
 ## Tiền cọc và các khoản cần chuẩn bị
 

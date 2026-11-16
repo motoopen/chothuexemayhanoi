@@ -13,7 +13,7 @@ Phát hiện vết xước trên xe thuê lúc trả là tình huống căng nh�
 
 ## Nền tảng: ảnh chụp ngày nhận xe
 
-Mọi đối chiếu đều dựa trên bộ ảnh chụp ngày nhận xe: bốn góc, hai bên hông, mốp trước, và các chi tiết hay xước như tay ga, gương, cốp. Trình tự chụp gợi ý trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}). Nếu ngày nhận bạn chưa chụp, mục đối chiếu mất một nửa giá trị, nên lần sau áp ngay checklist trong bài [checklist 10 phút trước khi nhận xe]({{ '/blog/checklist-10-phut-truoc-khi-nhan-xe/' | relative_url }}).
+Mọi đối chiếu đều dựa trên bộ ảnh chụp ngày nhận xe: bốn góc, hai bên hông, mốp trước, và các chi tiết hay xước như tay ga, gương, cốp. Trình tự chụp gợi ý trong bài chụp ảnh xe trước khi thuê. Nếu ngày nhận bạn chưa chụp, mục đối chiếu mất một nửa giá trị, nên lần sau áp ngay checklist trong bài [checklist 10 phút trước khi nhận xe]({{ '/blog/checklist-10-phut-truoc-khi-nhan-xe/' | relative_url }}).
 
 ## Đối chiếu từng vết với ảnh gốc
 
@@ -21,7 +21,7 @@ Khi bị chỉ ra một vết xước, mở ảnh ngày nhận lên và tìm đ�
 
 ## Phân biệt vết hao mòn và hỏng hóc
 
-Vết xước nhỏ do dùng thông thường, ví dụ vết kê xe hay hạt cát bắn, thường nằm trong mức hao mòn được chấp nhận. Hỏng hóc là mốp nứt, vỡ tay ga, trầy sâu tới kim loại: đây là nhóm phải thỏa thuận bồi thường, khung trách nhiệm đã phân loại trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/blog/chi-phi-hu-hong-khi-thue-xe-may/' | relative_url }}). Nếu vết phát sinh do tai nạn, trình tự ưu tiên an toàn và thông báo nằm trong bài [xe thuê bị tai nạn phải làm gì]({{ '/blog/xe-thue-bi-tai-nan-phai-lam-gi/' | relative_url }}).
+Vết xước nhỏ do dùng thông thường, ví dụ vết kê xe hay hạt cát bắn, thường nằm trong mức hao mòn được chấp nhận. Hỏng hóc là mốp nứt, vỡ tay ga, trầy sâu tới kim loại: đây là nhóm phải thỏa thuận bồi thường, khung trách nhiệm đã phân loại trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/blog/chi-phi-hu-hong-khi-thue-xe-may/' | relative_url }}). Nếu vết phát sinh do tai nạn, trình tự ưu tiên an toàn và thông báo nằm trong bài xe thuê bị tai nạn phải làm gì.
 
 ## Thỏa thuận mức bồi thường hợp lý
 

@@ -17,11 +17,11 @@ Chỉ một balo đeo lưng và mũ đội: gần như chiếc xe nào cũng đ�
 
 ## Mức hai: mũ thêm túi xách hoặc đồ mua
 
-Túi xách, máy ảnh, vài vật mua sắm mỗi ngày: cần cốp tầm 18 lít trở lên, đựng được mũ cùng túi cùng lúc. Vision và Air Blade ở mức vừa, so hai dòng trong bài [thuê Air Blade hay Vision]({{ '/blog/air-blade-va-vision-khi-thue/' | relative_url }}). Mức này là phổ biến nhất với khách du lịch, và cách xếp cốp an toàn đã tóm trong bài [xe 50cc mang hành lý]({{ '/blog/xe-50cc-mang-hanh-ly/' | relative_url }}). Nhớ thử mũ và túi của bạn vào cốp thật tại quầy, không ước lượng.
+Túi xách, máy ảnh, vài vật mua sắm mỗi ngày: cần cốp tầm 18 lít trở lên, đựng được mũ cùng túi cùng lúc. Vision và Air Blade ở mức vừa, so hai dòng trong bài [thuê Air Blade hay Vision]({{ '/blog/air-blade-va-vision-khi-thue/' | relative_url }}). Mức này là phổ biến nhất với khách du lịch, và cách xếp cốp an toàn đã tóm trong bài xe 50cc mang hành lý. Nhớ thử mũ và túi của bạn vào cốp thật tại quầy, không ước lượng.
 
 ## Mức ba: hai mũ và đồ đôi, hoặc vali nhỏ
 
-Hai người với hai mũ và đồ đôi, hoặc bạn mang vali nhỏ: cần cốp trên 30 lít, Lead dẫn đầu nhóm nhỏ, xem bài [thuê xe Lead Hà Nội]({{ '/blog/thue-xe-lead-ha-noi/' | relative_url }}). Dòng ga lớn cốp cũng rộng nhưng nặng và đắt hơn, cân trong bài [thuê SH hay Air Blade]({{ '/blog/sh-va-air-blade-khi-thue/' | relative_url }}). Chở hai người thì cốp phải còn chừa mũ người sau, tải trong bài [xe 50cc cho 2 người]({{ '/blog/xe-50cc-cho-2-nguoi/' | relative_url }}). Vali thật lớn thì gửi khách sạn trước rồi đi xe nhẹ, an toàn hơn chở quá tải.
+Hai người với hai mũ và đồ đôi, hoặc bạn mang vali nhỏ: cần cốp trên 30 lít, Lead dẫn đầu nhóm nhỏ, xem bài thuê xe Lead Hà Nội. Dòng ga lớn cốp cũng rộng nhưng nặng và đắt hơn, cân trong bài [thuê SH hay Air Blade]({{ '/blog/sh-va-air-blade-khi-thue/' | relative_url }}). Chở hai người thì cốp phải còn chừa mũ người sau, tải trong bài xe 50cc cho 2 người. Vali thật lớn thì gửi khách sạn trước rồi đi xe nhẹ, an toàn hơn chở quá tải.
 
 ## Kiểm cốp trước khi nhận
 
@@ -29,7 +29,7 @@ Bốn điểm rà: khóa êm đóng mở, cánh cốp không hờ, bên trong s�
 
 ## Cốp và giấy tờ, giá thuê
 
-Cốp không đổi quy định giấy tờ: trên 50 phân khối cần bằng A1, nhóm 50cc không cần, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Dòng cốp lớn giá nhỉnh hơn chút, so khung giá theo kỳ ở trang [bảng giá]({{ '/banggia.html' | relative_url }}). Hợp đồng ghi trách nhiệm nếu hỏng khóa cốp. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). Gọi trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) nói khối đồ để nơi giữ sẵn dòng cốp đúng mức.
+Cốp không đổi quy định giấy tờ: trên 50 phân khối cần bằng A1, nhóm 50cc không cần, phân biệt trong bài xe 50cc có cần bằng lái không. Dòng cốp lớn giá nhỉnh hơn chút, so khung giá theo kỳ ở trang bảng giá. Hợp đồng ghi trách nhiệm nếu hỏng khóa cốp. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). Gọi trước qua trang liên hệ nói khối đồ để nơi giữ sẵn dòng cốp đúng mức.
 
 ## Kết luận
 

@@ -25,7 +25,7 @@ Giá theo ngày chỉ hợp với chuyến một hai ngày. Với khung dài hơ
 
 ## Mức cọc và các phụ phí
 
-Mức cọc cho dòng xe điện thương hiệu lớn có thể nhỉnh hơn xe số thông thường vì giá trị tài sản cao. Hỏi rõ hình thức giữ cọc, điều kiện hoàn đủ và các phụ phí có thể phát sinh: giao xe tận nơi, trễ hẹn, mức pin khi trả thấp hơn quy định. Liệt kê các phụ phí thành một cột riêng khi so sánh hai dịch vụ. Thủ tục giấy tờ theo quy định chung nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Danh sách dòng xe hiện có tại trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), thông tin liên hệ tại trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Mức cọc cho dòng xe điện thương hiệu lớn có thể nhỉnh hơn xe số thông thường vì giá trị tài sản cao. Hỏi rõ hình thức giữ cọc, điều kiện hoàn đủ và các phụ phí có thể phát sinh: giao xe tận nơi, trễ hẹn, mức pin khi trả thấp hơn quy định. Liệt kê các phụ phí thành một cột riêng khi so sánh hai dịch vụ. Thủ tục giấy tờ theo quy định chung nằm ở trang thủ tục thuê xe. Danh sách dòng xe hiện có tại trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), thông tin liên hệ tại trang liên hệ.
 
 ## Đối chiếu thông số với kênh chính hãng
 

@@ -25,7 +25,7 @@ Khu Hoàn Kiếm vắng nhất buổi sáng sớm và trưa, đông nhất tối
 
 ## Kiểm tra xe điện khi nhận quanh khu
 
-Khi nhận xe tại điểm quanh Hoàn Kiếm: xem màn hình pin báo đầy như đã chốt, ga lên đều, phanh ăn, đèn còi hoạt động. Thử chạy vòng ngắn quanh khối phố, nghe tiếng bánh. Nếu nơi thuê giao kèm sạc, cắm thử tại chỗ. Nếu thấy bất ổn, đổi ngay tại điểm nhận vì quanh khu có nhiều nơi cho thuê, dễ so. Các dòng hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), so gói ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Khi nhận xe tại điểm quanh Hoàn Kiếm: xem màn hình pin báo đầy như đã chốt, ga lên đều, phanh ăn, đèn còi hoạt động. Thử chạy vòng ngắn quanh khối phố, nghe tiếng bánh. Nếu nơi thuê giao kèm sạc, cắm thử tại chỗ. Nếu thấy bất ổn, đổi ngay tại điểm nhận vì quanh khu có nhiều nơi cho thuê, dễ so. Các dòng hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), so gói ở trang bảng giá.
 
 ## Ví dụ hai kế hoạch cho một ngày
 

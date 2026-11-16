@@ -25,7 +25,7 @@ Quy tắc nhanh để quyết định: tổng chi phí đi lại nhận xe, tín
 
 ## Chuẩn bị cho từng phương án
 
-Với giao tận nơi, hãy xác nhận trước qua điện thoại hoặc tin nhắn: giờ giao, địa chỉ cụ thể kèm mô tả điểm dễ tìm, và người giao sẽ chờ bao lâu để bạn kiểm tra xe. Chuẩn bị sẵn giấy tờ tùy thân và giấy phép lái để không kéo dài thời gian giao. Với tự nhận, hãy xem trước vị trí trên bản đồ, hỏi giờ mở của, và mang theo bản photo giấy tờ. Mức phụ phí giao tùy khu vực thường được ghi tại trang [bảng giá cho thuê]({{ '/banggia.html' | relative_url }}), còn thông tin liên hệ để đặt lịch giao xe nằm tại trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Với giao tận nơi, hãy xác nhận trước qua điện thoại hoặc tin nhắn: giờ giao, địa chỉ cụ thể kèm mô tả điểm dễ tìm, và người giao sẽ chờ bao lâu để bạn kiểm tra xe. Chuẩn bị sẵn giấy tờ tùy thân và giấy phép lái để không kéo dài thời gian giao. Với tự nhận, hãy xem trước vị trí trên bản đồ, hỏi giờ mở của, và mang theo bản photo giấy tờ. Mức phụ phí giao tùy khu vực thường được ghi tại trang [bảng giá cho thuê]({{ '/banggia.html' | relative_url }}), còn thông tin liên hệ để đặt lịch giao xe nằm tại trang liên hệ.
 
 Nếu lần đầu thuê ở Hà Nội, đọc thêm bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}) để nắm toàn bộ quy trình trước khi chọn hình thức nhận xe.
 

@@ -29,7 +29,7 @@ Mỗi cửa hàng có quy định riêng về mức pin: nơi giao xe với pin 
 
 ## Kiểm tra khi nhận xe và hỗ trợ giữa đường
 
-Khi nhận, xem mức pin hiển thị, chạy thử vòng ngắn, thử đèn còi phanh, và chụp lại tình trạng xe. Lưu sẵn số hotline hỗ trợ: khi xe báo pin yếu bất thường hoặc sự cố giữa đường, thời gian phản hồi của cửa hàng là thứ đáng giá nhất. Khách lần đầu thuê xe ở Hà Nội nên đọc thêm tổng quan trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}). Giá các gói nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), thủ tục giấy tờ tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), thông tin liên hệ tại trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Khi nhận, xem mức pin hiển thị, chạy thử vòng ngắn, thử đèn còi phanh, và chụp lại tình trạng xe. Lưu sẵn số hotline hỗ trợ: khi xe báo pin yếu bất thường hoặc sự cố giữa đường, thời gian phản hồi của cửa hàng là thứ đáng giá nhất. Khách lần đầu thuê xe ở Hà Nội nên đọc thêm tổng quan trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' }}). Giá các gói nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), thủ tục giấy tờ tại trang thủ tục thuê xe, thông tin liên hệ tại trang liên hệ.
 
 ## Kết luận
 

@@ -29,7 +29,7 @@ Xe máy điện gần như im lặng hoàn toàn, hợp đi sớm hoặc khuya q
 
 ## Phạm vi hoạt động trong ngày
 
-Xe ga đổ đầy bình chạy cả ngày nội thành và cả ngoại thành gần mà không cần lo. Xe điện giới hạn theo pin, một lần sạc thường đủ 50 đến 80 cây số tùy loại, con số chi tiết trong bài [quãng đường xe máy điện khi thuê]({{ '/blog/quang-duong-xe-may-dien-khi-thue/' | relative_url }}). Lịch của bạn dưới 40 cây số một ngày thì thoải mái với cả hai, còn xen kẽ nhiều thì xe ga chủ động hơn. Ai định chạy lộ trình xa nên xem thêm bài [thuê xe máy điện đi đường dài]({{ '/blog/thue-xe-may-dien-di-duong-dai/' | relative_url }}) trước khi quyết.
+Xe ga đổ đầy bình chạy cả ngày nội thành và cả ngoại thành gần mà không cần lo. Xe điện giới hạn theo pin, một lần sạc thường đủ 50 đến 80 cây số tùy loại, con số chi tiết trong bài [quãng đường xe máy điện khi thuê]({{ '/blog/quang-duong-xe-may-dien-khi-thue/' | relative_url }}). Lịch của bạn dưới 40 cây số một ngày thì thoải mái với cả hai, còn xen kẽ nhiều thì xe ga chủ động hơn. Ai định chạy lộ trình xa nên xem thêm bài thuê xe máy điện đi đường dài trước khi quyết.
 
 ## Chi phí thuê theo ngày
 

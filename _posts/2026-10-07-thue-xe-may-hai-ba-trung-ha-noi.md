@@ -21,7 +21,7 @@ Hai Bà Trưng có ba khung giờ cần lưu ý: sáng sớm quanh các trườn
 
 ## Loại xe hợp với khu phố của quận
 
-Khu dân cư Hai Bà Trưng nhiều dãy nhà ống, hẻm nhỏ và vỉa hè chật, nên xe nhỏ gọn có lợi thế rõ khi ra vào hẻm và đỗ trước nhà. Tuy nhiên nếu lịch trình của bạn gồm chặng dài lên phía hồ hoặc sang các quận phía tây, dòng xe phổ thông êm và đủ lực sẽ thoải mái hơn trên quãng đường. Cân nhắc tần suất: đi hẻm nhiều lần mỗi ngày thì chọn xe nhỏ, đi ít nhưng xa thì chọn dòng ổn hơn. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Khu dân cư Hai Bà Trưng nhiều dãy nhà ống, hẻm nhỏ và vỉa hè chật, nên xe nhỏ gọn có lợi thế rõ khi ra vào hẻm và đỗ trước nhà. Tuy nhiên nếu lịch trình của bạn gồm chặng dài lên phía hồ hoặc sang các quận phía tây, dòng xe phổ thông êm và đủ lực sẽ thoải mái hơn trên quãng đường. Cân nhắc tần suất: đi hẻm nhiều lần mỗi ngày thì chọn xe nhỏ, đi ít nhưng xa thì chọn dòng ổn hơn. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang bảng giá.
 
 ## Hỏi về giao xe tận nơi và phạm vi di chuyển
 

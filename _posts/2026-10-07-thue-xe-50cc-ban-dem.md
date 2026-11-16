@@ -29,7 +29,7 @@ Khung tối nguy nhất là sau chín giờ tối trên các trục lớn, xe ch
 
 ## Ví dụ hai chuyến đêm
 
-Tình huống một: khách kiểm tra đèn đủ, mang áo phản quang, đi tuyến quen tốc vừa, tới nơi gọn. Tình huống hai: khách nhận xe đèn hậu cháy, về đêm không biết, xe sau phản ứng chậm suốt đường, một phanh gấp là sự cố. Chêch giữa hai chuyến chỉ là hai phút bật đèn thử. So gói và phí giao xe ban đêm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), vì khung tối có nơi tính phụ phí ngoài giờ. Kinh nghiệm cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
+Tình huống một: khách kiểm tra đèn đủ, mang áo phản quang, đi tuyến quen tốc vừa, tới nơi gọn. Tình huống hai: khách nhận xe đèn hậu cháy, về đêm không biết, xe sau phản ứng chậm suốt đường, một phanh gấp là sự cố. Chêch giữa hai chuyến chỉ là hai phút bật đèn thử. So gói và phí giao xe ban đêm ở trang bảng giá, vì khung tối có nơi tính phụ phí ngoài giờ. Kinh nghiệm cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Chuyến đêm đầu tiên nên đi đoạn quen
 

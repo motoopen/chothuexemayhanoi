@@ -25,11 +25,11 @@ Kiểm theo thứ tự: bình xăng, công tắc đèn cốt, khóa cổ đã v�
 
 ## Bước bốn: gọi nơi thuê
 
-Gọi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), nói vị trí theo cột mốc gần nhất, tình trạng máy và thời điểm chết máy. Nơi thuê sẽ chỉ một trong ba hướng: gửi xe cứu tới, chỉ hàng sửa đối tác gần, hoặc đổi xe tại điểm gần nhất. Trình tự chung cho mọi hỏng hóc giữa chặng đã có trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}).
+Gọi qua trang liên hệ, nói vị trí theo cột mốc gần nhất, tình trạng máy và thời điểm chết máy. Nơi thuê sẽ chỉ một trong ba hướng: gửi xe cứu tới, chỉ hàng sửa đối tác gần, hoặc đổi xe tại điểm gần nhất. Trình tự chung cho mọi hỏng hóc giữa chặng đã có trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}).
 
 ## Bước năm: giữ xe đúng chỗ
 
-Trong lúc chờ, không rời xe quá xa và không gửi xe cho người lạ nhận giúp. Nếu phải nhờ trông xe ở quán gần, ghi biển số và chụp xe từ hai góc, thói quen lưu ảnh đã trình bày trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}). Chìa mang theo người, vì mất chìa lúc chờ xe cứu là chồng rủi ro, kinh nghiệm đã có trong bài [mất chìa khóa xe thuê]({{ '/blog/mat-chia-khoa-xe-thue/' | relative_url }}).
+Trong lúc chờ, không rời xe quá xa và không gửi xe cho người lạ nhận giúp. Nếu phải nhờ trông xe ở quán gần, ghi biển số và chụp xe từ hai góc, thói quen lưu ảnh đã trình bày trong bài chụp ảnh xe trước khi thuê. Chìa mang theo người, vì mất chìa lúc chờ xe cứu là chồng rủi ro, kinh nghiệm đã có trong bài [mất chìa khóa xe thuê]({{ '/blog/mat-chia-khoa-xe-thue/' | relative_url }}).
 
 ## Bước sáu: lưu mọi thông tin cuộc xử lý
 
@@ -37,11 +37,11 @@ Chụp ảnh vị trí dừng, ghi giờ gọi và tên người nhận cuộc g
 
 ## Bước bảy: theo đúng hướng xử của nơi thuê
 
-Nếu nơi thuê yêu cầu kéo về điểm gần nhất thì kéo, không cố nổ máy chạy tiếp, vì hư lan tăng chi phí tính cho bạn. Nếu được chỉ hàng sửa, chỉ sửa đúng phần được đồng ý và giữ hóa đơn. Nếu sự cố làm trễ giờ trả, báo trước thay vì để trễ tự nhiên, khung phụ phí đã nêu trong bài [phí trả xe muộn thuê xe máy]({{ '/blog/phi-tra-xe-muon-thue-xe-may/' | relative_url }}), và nếu chết máy do va chạm thì chụp hiện trường trước khi di chuyển xe, trình tự đã có trong bài [xe thuê bị tai nạn phải làm gì]({{ '/blog/xe-thue-bi-tai-nan-phai-lam-gi/' | relative_url }}).
+Nếu nơi thuê yêu cầu kéo về điểm gần nhất thì kéo, không cố nổ máy chạy tiếp, vì hư lan tăng chi phí tính cho bạn. Nếu được chỉ hàng sửa, chỉ sửa đúng phần được đồng ý và giữ hóa đơn. Nếu sự cố làm trễ giờ trả, báo trước thay vì để trễ tự nhiên, khung phụ phí đã nêu trong bài [phí trả xe muộn thuê xe máy]({{ '/blog/phi-tra-xe-muon-thue-xe-may/' | relative_url }}), và nếu chết máy do va chạm thì chụp hiện trường trước khi di chuyển xe, trình tự đã có trong bài xe thuê bị tai nạn phải làm gì.
 
 ## Phòng trước bằng kiểm nhận kỹ
 
-Phần lớn chết máy giữa đường đến từ công tắc cốt, bình yếu hoặc lỏng giắc, đều bắt được trong mười phút kiểm nhận theo bài [checklist 10 phút trước khi nhận xe]({{ '/blog/checklist-10-phut-truoc-khi-nhan-xe/' | relative_url }}), và chọn nơi có hỗ trợ giữa chặng cũng là tiêu chí chọn, phần đã nêu trong bài [thuê xe máy Hà Nội uy tín]({{ '/blog/thue-xe-may-ha-noi-uy-tin/' | relative_url }}).
+Phần lớn chết máy giữa đường đến từ công tắc cốt, bình yếu hoặc lỏng giắc, đều bắt được trong mười phút kiểm nhận theo bài checklist 10 phút trước khi nhận xe, và chọn nơi có hỗ trợ giữa chặng cũng là tiêu chí chọn, phần đã nêu trong bài [thuê xe máy Hà Nội uy tín]({{ '/blog/thue-xe-may-ha-noi-uy-tin/' | relative_url }}).
 
 ## Kết luận
 

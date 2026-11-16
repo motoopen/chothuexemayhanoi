@@ -29,7 +29,7 @@ Xe Cub cho thuê thường có tuổi đời cao, và tuổi tác ảnh hưởng
 
 ## Giá thuê, cọc và điều kiện hợp đồng
 
-Giá thuê xe Cub thường ở phân khúc dễ chịu, so sánh trực tiếp trên [bảng giá]({{ '/banggia.html' | relative_url }}). Điểm cần hỏi riêng với Cub là mức cọc, vì một số chiếc được bảo quản đẹp có giá trị cao hơn mặt bằng dòng nhỏ. Hỏi rõ điều kiện hoàn cọc và trách nhiệm với hư hỏng trong hợp đồng. Thủ tục giấy tờ theo quy định chung nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Khi cần hỏi trước về các chiếc Cub còn sẵn, thông tin liên hệ nằm ở trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Giá thuê xe Cub thường ở phân khúc dễ chịu, so sánh trực tiếp trên [bảng giá]({{ '/banggia.html' | relative_url }}). Điểm cần hỏi riêng với Cub là mức cọc, vì một số chiếc được bảo quản đẹp có giá trị cao hơn mặt bằng dòng nhỏ. Hỏi rõ điều kiện hoàn cọc và trách nhiệm với hư hỏng trong hợp đồng. Thủ tục giấy tờ theo quy định chung nằm ở trang thủ tục thuê xe. Khi cần hỏi trước về các chiếc Cub còn sẵn, thông tin liên hệ nằm ở trang liên hệ.
 
 ## Kết luận
 

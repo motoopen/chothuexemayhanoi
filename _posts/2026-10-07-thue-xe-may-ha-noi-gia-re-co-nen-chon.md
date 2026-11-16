@@ -17,7 +17,7 @@ Thứ nhất, chạy thử vòng ngắn nghe tiếng máy và cảm phanh, vì x
 
 ## Nhóm điểm về giá và cọc
 
-Thứ năm, lấy mức giá cụ thể theo dòng tại trang [bảng giá]({{ '/banggia.html' | relative_url }}) và so với các dòng khác để biết rẻ thật hay rẻ do dòng nhỏ hơn. Thứ sáu, hỏi mức cọc, hình thức giữ và điều kiện hoàn trả, vì cọc cao có khi làm tổng bạn phải chuẩn bị lớn hơn phần chêch giá. Thứ bảy, rà phụ phí: giao xe, ngoài giờ, vượt phạm vi, chính sách xăng. Thứ tám, đọc kỹ điều khoản hư hỏng trong hợp đồng tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).
+Thứ năm, lấy mức giá cụ thể theo dòng tại trang [bảng giá]({{ '/banggia.html' | relative_url }}) và so với các dòng khác để biết rẻ thật hay rẻ do dòng nhỏ hơn. Thứ sáu, hỏi mức cọc, hình thức giữ và điều kiện hoàn trả, vì cọc cao có khi làm tổng bạn phải chuẩn bị lớn hơn phần chêch giá. Thứ bảy, rà phụ phí: giao xe, ngoài giờ, vượt phạm vi, chính sách xăng. Thứ tám, đọc kỹ điều khoản hư hỏng trong hợp đồng tại trang thủ tục thuê xe.
 
 ## Nhóm điểm về dịch vụ
 

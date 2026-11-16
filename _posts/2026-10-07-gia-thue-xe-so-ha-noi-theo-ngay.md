@@ -13,7 +13,7 @@ Xe số phổ thông là dòng rẻ nhất khi thuê xe máy ở Hà Nội, như
 
 ## Yếu tố dòng xe và thời gian thuê
 
-Trong nhóm xe số, các dòng xe khác nhau có mức khác nhau tùy cấu tạo và độ phổ biến, xe càng phổ thông càng dễ thuê giá tốt. Thời gian thuê là yếu tố lớn nhất: giá theo ngày quy đổi cao hơn gói tuần rõ rệt, nên nếu cần nhiều ngày, hỏi luôn gói dài thay vì cộng lẻ. Mức giá các dòng nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), danh sách dòng hiện có ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}). Kinh nghiệm gói dài ngày nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}).
+Trong nhóm xe số, các dòng xe khác nhau có mức khác nhau tùy cấu tạo và độ phổ biến, xe càng phổ thông càng dễ thuê giá tốt. Thời gian thuê là yếu tố lớn nhất: giá theo ngày quy đổi cao hơn gói tuần rõ rệt, nên nếu cần nhiều ngày, hỏi luôn gói dài thay vì cộng lẻ. Mức giá các dòng nằm ở trang bảng giá, danh sách dòng hiện có ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}). Kinh nghiệm gói dài ngày nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' }}).
 
 ## Yếu tố cọc và điều khoản
 

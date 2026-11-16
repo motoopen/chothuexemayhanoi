@@ -29,6 +29,6 @@ Một lưu ý về sự cố: nếu app chỉ cung cấp kênh chat tự động
 
 ## Dù chọn cách nào, chuẩn bị là giống nhau
 
-Cả hai hình thức đều yêu cầu bạn: mang giấy tờ tùy thân, chốt trước loại xe và khung giờ, hỏi rõ cọc và mức xăng, kiểm tra xe trước khi ký và chụp ảnh hiện trạng. Các tiêu chí đánh giá một bên cho thuê đáng tin được tổng hợp trong bài [thuê xe máy Hà Nội uy tín]({{ '/blog/thue-xe-may-ha-noi-uy-tin/' | relative_url }}), và tổng quan dịch vụ nằm ở [trang chủ]({{ '/' | relative_url }}).
+Cả hai hình thức đều yêu cầu bạn: mang giấy tờ tùy thân, chốt trước loại xe và khung giờ, hỏi rõ cọc và mức xăng, kiểm tra xe trước khi ký và chụp ảnh hiện trạng. Các tiêu chí đánh giá một bên cho thuê đáng tin được tổng hợp trong bài [thuê xe máy Hà Nội uy tín]({{ '/blog/thue-xe-may-ha-noi-uy-tin/' | relative_url }}), và tổng quan dịch vụ nằm ở trang chủ.
 
 Kết lại, app tiện cho thao tác và so sánh; trực tiếp mạnh ở linh hoạt và kiểm tra thực tế. Chọn theo tính chất chuyến đi, và giữ nguyên tắc chuẩn bị như nhau bất kể kênh đặt xe.

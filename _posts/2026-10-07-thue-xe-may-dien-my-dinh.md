@@ -13,7 +13,7 @@ Mỹ Đình là khu bến xe lớn, nhiều người đến bằng xe khách r�
 
 ## Nhận xe gần bến thay vì dắt đồ đi tìm
 
-Tàu và xe khách vào bến Mỹ Đình, khách thường có hành lý, nên cách tốt nhất là đặt trước và chốt điểm nhận cụ thể gần bến, đi bộ vài phút là tới. Hỏi luôn phí giao xe tận điểm chờ nếu hành lý nhiều, đôi khi rẻ hơn công sức dắt đồ. Đặt trước giúp biết sẵn dòng xe và mức giá, các dòng hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), so gói ở trang [bảng giá]({{ '/banggia.html' | relative_url }}). Khung bến đông giờ xe khách lớn đến, chốt khung nhận lệch các khung đó nếu lịch cho phép.
+Tàu và xe khách vào bến Mỹ Đình, khách thường có hành lý, nên cách tốt nhất là đặt trước và chốt điểm nhận cụ thể gần bến, đi bộ vài phút là tới. Hỏi luôn phí giao xe tận điểm chờ nếu hành lý nhiều, đôi khi rẻ hơn công sức dắt đồ. Đặt trước giúp biết sẵn dòng xe và mức giá, các dòng hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), so gói ở trang bảng giá. Khung bến đông giờ xe khách lớn đến, chốt khung nhận lệch các khung đó nếu lịch cho phép.
 
 ## Xử lý hành lý khi chuyển sang xe điện
 

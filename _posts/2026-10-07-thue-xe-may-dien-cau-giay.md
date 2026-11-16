@@ -13,7 +13,7 @@ Cầu Giấy là khu rộng gồm cả phố đông và các khu ở, trục l�
 
 ## Chọn điểm nhận ở Cầu Giấy
 
-Cầu Giấy trải dài vài trục lớn, nên điểm nhận nên gần chỗ ở hoặc gần trục đi lại chính của bạn, tránh nhận đầu này rồi mỗi ngày ngược hai đầu. Đặt trước và chốt địa chỉ nhận cụ thể, hỏi phí giao tận nơi nếu muốn xe tới tận chỗ, mức phí theo khoảng cách chốt bằng văn bản. Với khách ở chung cư, chốt nhận tại sảnh hoặc điểm quen tầng trệt, dễ cho cả hai bên. Câu hỏi đặt xe gửi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), các dòng xe hiện có ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}).
+Cầu Giấy trải dài vài trục lớn, nên điểm nhận nên gần chỗ ở hoặc gần trục đi lại chính của bạn, tránh nhận đầu này rồi mỗi ngày ngược hai đầu. Đặt trước và chốt địa chỉ nhận cụ thể, hỏi phí giao tận nơi nếu muốn xe tới tận chỗ, mức phí theo khoảng cách chốt bằng văn bản. Với khách ở chung cư, chốt nhận tại sảnh hoặc điểm quen tầng trệt, dễ cho cả hai bên. Câu hỏi đặt xe gửi qua trang liên hệ, các dòng xe hiện có ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}).
 
 ## Kế hoạch sạc theo chỗ ở
 

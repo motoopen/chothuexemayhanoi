@@ -13,7 +13,7 @@ Mùa mưa không cần đổi lịch trình, chỉ cần đổi tiêu chí chọ
 
 ## Tiêu chí một: lốp
 
-Lốp là ưu tiên tuyệt đối trên đường ướt: chọn gai sâu và rãnh thoát nước rõ, không mòn mép hay nứt thành. Bóp thử áp suất căng đều, và soi mặt lốp không có mảng chai cứng. Xe thuê cũ hay mang lốp mòn, nên đây là mục từ chối xe số một, rà theo chuẩn trong bài [kiểm tra phanh lốp xe 50cc]({{ '/blog/kiem-tra-phanh-lop-xe-50cc/' | relative_url }}). Xe điện thêm phần phanh tái tạo trượt nhẹ hơn trên đường ướt, xem bài [thuê xe máy điện mùa mưa]({{ '/blog/thue-xe-may-dien-mua-mua/' | relative_url }}).
+Lốp là ưu tiên tuyệt đối trên đường ướt: chọn gai sâu và rãnh thoát nước rõ, không mòn mép hay nứt thành. Bóp thử áp suất căng đều, và soi mặt lốp không có mảng chai cứng. Xe thuê cũ hay mang lốp mòn, nên đây là mục từ chối xe số một, rà theo chuẩn trong bài [kiểm tra phanh lốp xe 50cc]({{ '/blog/kiem-tra-phanh-lop-xe-50cc/' | relative_url }}). Xe điện thêm phần phanh tái tạo trượt nhẹ hơn trên đường ướt, xem bài thuê xe máy điện mùa mưa.
 
 ## Tiêu chí hai: phanh
 
@@ -25,7 +25,7 @@ Chắn bùn đủ dài giữ nước bẩn khỏi tung lên lưng và người n
 
 ## Loại xe nào hợp mùa mưa
 
-Xe ga lớn che tốt nhất cho người và đồ, xem bài [thuê xe ga Hà Nội]({{ '/blog/thue-xe-ga-ha-noi/' | relative_url }}). Xe số vừa giá, chắn đủ và lốp dễ thay, tham khảo [thuê xe số Hà Nội]({{ '/blog/thue-xe-so-ha-noi/' | relative_url }}). Xe điện chạy mưa được nếu các mạch được che, hỏi nơi thuê trực tiếp về cụ thể từng mẫu qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}). Nhóm 50cc nhẹ dễ văng trên đường trơn, ai cân nhóm nhỏ đọc thêm [thuê xe máy đi phố đông Hà Nội]({{ '/blog/thue-xe-may-di-pho-dong-ha-noi/' | relative_url }}) về độ gọn trong mưa phố.
+Xe ga lớn che tốt nhất cho người và đồ, xem bài [thuê xe ga Hà Nội]({{ '/blog/thue-xe-ga-ha-noi/' | relative_url }}). Xe số vừa giá, chắn đủ và lốp dễ thay, tham khảo thuê xe số Hà Nội. Xe điện chạy mưa được nếu các mạch được che, hỏi nơi thuê trực tiếp về cụ thể từng mẫu qua trang liên hệ. Nhóm 50cc nhẹ dễ văng trên đường trơn, ai cân nhóm nhỏ đọc thêm thuê xe máy đi phố đông Hà Nội về độ gọn trong mưa phố.
 
 ## Phụ kiện đi kèm không thể thiếu
 

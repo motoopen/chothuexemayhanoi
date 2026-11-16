@@ -21,7 +21,7 @@ Với xe điện đã qua sử dụng, pin là điểm cần soi kỹ nhất. H�
 
 ## Xác minh chính sách hỗ trợ của bên cho thuê
 
-Bên cho thuê là bên chịu trách nhiệm phục vụ bạn, nên cần xác minh quy trình của họ: khi xe hỏng giữa đường thì gọi ai, thời gian phản hồi trung bình bao lâu, có được xe thay thế không, và có phụ phí nào trong các tình huống này không. Hỏi thêm về quy định trả xe: mức pin yêu cầu khi trả, giờ trả trễ hẹn tính thế nào. Đây là những câu quyết định trải nghiệm thực tế nhiều hơn mẫu xe. Giá các gói nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), thủ tục giấy tờ tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).
+Bên cho thuê là bên chịu trách nhiệm phục vụ bạn, nên cần xác minh quy trình của họ: khi xe hỏng giữa đường thì gọi ai, thời gian phản hồi trung bình bao lâu, có được xe thay thế không, và có phụ phí nào trong các tình huống này không. Hỏi thêm về quy định trả xe: mức pin yêu cầu khi trả, giờ trả trễ hẹn tính thế nào. Đây là những câu quyết định trải nghiệm thực tế nhiều hơn mẫu xe. Giá các gói nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), thủ tục giấy tờ tại trang thủ tục thuê xe.
 
 ## Tham khảo thông tin chính hãng
 

@@ -29,7 +29,7 @@ Về chi phí, hai loại hình không cùng cấp: thuê xe máy điện theo n
 
 ## Thủ tục và giấy tờ cần chuẩn bị
 
-Thuê xe máy điện cần giấy tờ tùy thân và đặt cọc theo quy định cửa hàng, chi tiết tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Thuê ô tô điện cần giấy phép lái xe hợp lệ cho loại xe đó và các điều khoản hợp đồng chặt hơn, vì giá trị tài sản lớn. Hai loại hình cũng có cách tính cọc khác nhau rõ rệt. Khi gọi hỏi trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), nói rõ loại dịch vụ mình cần để nhận tư vấn đúng ngay từ đầu.
+Thuê xe máy điện cần giấy tờ tùy thân và đặt cọc theo quy định cửa hàng, chi tiết tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Thuê ô tô điện cần giấy phép lái xe hợp lệ cho loại xe đó và các điều khoản hợp đồng chặt hơn, vì giá trị tài sản lớn. Hai loại hình cũng có cách tính cọc khác nhau rõ rệt. Khi gọi hỏi trước qua trang liên hệ, nói rõ loại dịch vụ mình cần để nhận tư vấn đúng ngay từ đầu.
 
 ## Kết luận
 

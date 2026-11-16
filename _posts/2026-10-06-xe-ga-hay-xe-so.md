@@ -64,7 +64,7 @@ Nếu cả ba thao tác đều tự nhiên, đó là dấu hiệu tốt hơn nhi
 
 Nếu lịch trình có nhiều điểm dừng, hãy ưu tiên chiếc xe khiến bạn thao tác thoải mái khi dựng xe và khởi hành lại. Nếu mang nhiều đồ, hãy kiểm tra chỗ để đồ thực tế thay vì đoán theo loại xe.
 
-Bạn có thể xem danh sách và mô tả hiện có tại trang [Loại xe]({{ '/loaixe.html' | relative_url }}), sau đó đối chiếu với [Bảng giá]({{ '/banggia.html' | relative_url }}) và [Thủ tục]({{ '/thutuc.html' | relative_url }}).
+Bạn có thể xem danh sách và mô tả hiện có tại trang Loại xe, sau đó đối chiếu với [Bảng giá]({{ '/banggia.html' | relative_url }}) và Thủ tục.
 
 ## Quy tắc chọn nhanh
 

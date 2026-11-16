@@ -13,7 +13,7 @@ hub_category: xe-dien
 
 ## Bước một: xác nhận mẫu xe và sự sẵn có
 
-Khi gọi qua số ở trang [liên hệ]({{ '/lienhe.html' | relative_url }}), câu đầu tiên nên là: mẫu xe máy điện VinFast hiện cho thuê là mẫu nào, còn bao nhiêu chiếc trong khung ngày bạn cần. Cuối tuần và dịp lễ là khung đông khách, mẫu được quan tâm thường hết sớm, nên đặt sớm hoặc đến sớm. Xác nhận đúng tên mẫu, vì cùng thương hiệu nhưng các mẫu chênh nhau về pin và tầm hoạt động rõ rệt. Danh sách các dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}) để bạn xem trước.
+Khi gọi qua số ở trang liên hệ, câu đầu tiên nên là: mẫu xe máy điện VinFast hiện cho thuê là mẫu nào, còn bao nhiêu chiếc trong khung ngày bạn cần. Cuối tuần và dịp lễ là khung đông khách, mẫu được quan tâm thường hết sớm, nên đặt sớm hoặc đến sớm. Xác nhận đúng tên mẫu, vì cùng thương hiệu nhưng các mẫu chênh nhau về pin và tầm hoạt động rõ rệt. Danh sách các dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}) để bạn xem trước.
 
 ## Bước hai: hỏi về pin và phạm vi thực tế
 
@@ -25,7 +25,7 @@ Trước khi ký, trả lời được câu: trong suốt thời gian thuê, xe 
 
 ## Bước bốn: chốt giá, cọc và quy định trả xe
 
-So mức giá theo gói ngày hoặc gói dài hơn trên [bảng giá]({{ '/banggia.html' | relative_url }}), hỏi mức cọc và hình thức giữ. Hỏi rõ quy định khi trả xe: mức pin tối thiểu, giờ trả, phụ phí trễ hẹn và cách tính. Yêu cầu các thỏa thuận được ghi rõ trong hợp đồng hoặc tin nhắn được hai bên xác nhận. Thủ tục giấy tờ cần mang theo nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Với thông số kỹ thuật của mẫu xe, đối chiếu với kênh thông tin chính thức của hãng VinFast để chắc chắn số liệu đúng mẫu mình thuê.
+So mức giá theo gói ngày hoặc gói dài hơn trên [bảng giá]({{ '/banggia.html' | relative_url }}), hỏi mức cọc và hình thức giữ. Hỏi rõ quy định khi trả xe: mức pin tối thiểu, giờ trả, phụ phí trễ hẹn và cách tính. Yêu cầu các thỏa thuận được ghi rõ trong hợp đồng hoặc tin nhắn được hai bên xác nhận. Thủ tục giấy tờ cần mang theo nằm ở trang thủ tục thuê xe. Với thông số kỹ thuật của mẫu xe, đối chiếu với kênh thông tin chính thức của hãng VinFast để chắc chắn số liệu đúng mẫu mình thuê.
 
 ## Bước năm: kiểm tra khi nhận xe
 

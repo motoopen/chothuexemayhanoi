@@ -13,7 +13,7 @@ Thuê theo ngày mà cần dùng thêm vài ngày là tình huống rất phổ 
 
 ## Xác nhận lại giá thuê cho ngày thêm
 
-Nhiều nơi cho giá theo tuần hoặc theo tháng rẻ hơn giá theo ngày, nên khi thuê thêm ba ngày trở lên, hỏi trước liệu gói dài hơn có lợi không. Cách đọc bảng giá đã có trong bài [cách đọc bảng giá thuê xe máy Hà Nội]({{ '/blog/cach-doc-bang-gia-thue-xe-may-ha-noi/' | relative_url }}), và nếu dự định dùng thật dài, so thêm với gói trong bài [thuê xe máy Hà Nội theo tháng]({{ '/blog/thue-xe-may-ha-noi-theo-thang/' | relative_url }}). Gia hạn từng ngày rời rạc thường đắt hơn một lần chuyển sang gói dài, nên hỏi cả hai phương án rồi mới chọn.
+Nhiều nơi cho giá theo tuần hoặc theo tháng rẻ hơn giá theo ngày, nên khi thuê thêm ba ngày trở lên, hỏi trước liệu gói dài hơn có lợi không. Cách đọc bảng giá đã có trong bài [cách đọc bảng giá thuê xe máy Hà Nội]({{ '/blog/cach-doc-bang-gia-thue-xe-may-ha-noi/' | relative_url }}), và nếu dự định dùng thật dài, so thêm với gói trong bài thuê xe máy Hà Nội theo tháng. Gia hạn từng ngày rời rạc thường đắt hơn một lần chuyển sang gói dài, nên hỏi cả hai phương án rồi mới chọn.
 
 ## Hỏi rõ phụ phí nếu đổi loại xe
 
@@ -21,11 +21,11 @@ Gia hạn đúng xe thì đơn giản, nhưng nếu xe cũ có vấn đề và b
 
 ## Kiểm tra lại tình trạng xe trước khi ký tiếp
 
-Xe đã đi vài ngày, nên trước khi gia hạn, tự rà một lượt: đèn, còi, phanh, áp suất lốp, và mức nhiên liệu hoặc pin. Ghi rõ vào phần gia hạn mọi hỏng nhỏ đã tồn tại, để khi trả xe không bị quy trách nhiệm, cách làm chi tiết xem trong bài [checklist 10 phút trước khi nhận xe]({{ '/blog/checklist-10-phut-truoc-khi-nhan-xe/' | relative_url }}). Nếu xe điện, hỏi thêm chính sách sạc trong phần gia hạn, vì pin cũ hao nhanh hơn xe mới, xem bài [thời gian sạc xe máy điện thuê]({{ '/blog/thoi-gian-sac-xe-may-dien-thue/' | relative_url }}).
+Xe đã đi vài ngày, nên trước khi gia hạn, tự rà một lượt: đèn, còi, phanh, áp suất lốp, và mức nhiên liệu hoặc pin. Ghi rõ vào phần gia hạn mọi hỏng nhỏ đã tồn tại, để khi trả xe không bị quy trách nhiệm, cách làm chi tiết xem trong bài checklist 10 phút trước khi nhận xe. Nếu xe điện, hỏi thêm chính sách sạc trong phần gia hạn, vì pin cũ hao nhanh hơn xe mới, xem bài [thời gian sạc xe máy điện thuê]({{ '/blog/thoi-gian-sac-xe-may-dien-thue/' | relative_url }}).
 
 ## Ghi lại thời gian nhận và trả mới
 
-Thời điểm trả xe mới là điều kiện xác định phụ phí trễ sau này, nên ghi rõ giờ trả mới vào văn bản gia hạn chứ không chỉ nói miệng. Nếu lịch thay đổi, gọi sớm qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để dời giờ, vì báo trước luôn dễ thương lượng hơn báo muộn. Thói quen này giống phần trả xe muộn đã phân tích trong bài [phí trả xe muộn thuê xe máy]({{ '/blog/phi-tra-xe-muon-thue-xe-may/' | relative_url }}).
+Thời điểm trả xe mới là điều kiện xác định phụ phí trễ sau này, nên ghi rõ giờ trả mới vào văn bản gia hạn chứ không chỉ nói miệng. Nếu lịch thay đổi, gọi sớm qua trang liên hệ để dời giờ, vì báo trước luôn dễ thương lượng hơn báo muộn. Thói quen này giống phần trả xe muộn đã phân tích trong bài [phí trả xe muộn thuê xe máy]({{ '/blog/phi-tra-xe-muon-thue-xe-may/' | relative_url }}).
 
 ## Rà lại phần tiền cọc
 

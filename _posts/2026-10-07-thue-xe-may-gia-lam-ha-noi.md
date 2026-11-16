@@ -21,7 +21,7 @@ Khu vực phía bắc cầu có nhịp riêng: từ rất sớm đến giữa s�
 
 ## Loại xe hợp quãng đường ven
 
-Quãng đường trong Gia Lâm và các chặng qua cầu khá dài, nên dòng xe êm và đủ lực giúp phần mỏi trên chặng dày, đặc biệt khi qua cầu có gió sông. Xe ga phổ thông là lựa chọn cân bằng tốt cho lịch trình qua cầu hàng ngày. Nếu chỉ đi quãng ngắn quanh khu phố, dòng xe nhỏ gọn tiết kiệm đủ dùng. Khách định chạy vòng ra các khu ven trong ngày nên chọn dòng ổn định và kiểm tra lốp kỹ, vì một số tuyến ven mặt đường chưa đều. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Quãng đường trong Gia Lâm và các chặng qua cầu khá dài, nên dòng xe êm và đủ lực giúp phần mỏi trên chặng dày, đặc biệt khi qua cầu có gió sông. Xe ga phổ thông là lựa chọn cân bằng tốt cho lịch trình qua cầu hàng ngày. Nếu chỉ đi quãng ngắn quanh khu phố, dòng xe nhỏ gọn tiết kiệm đủ dùng. Khách định chạy vòng ra các khu ven trong ngày nên chọn dòng ổn định và kiểm tra lốp kỹ, vì một số tuyến ven mặt đường chưa đều. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang bảng giá.
 
 ## Hỏi về phạm vi và giao xe tận nơi
 

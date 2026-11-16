@@ -21,7 +21,7 @@ Khi nhận xe tại cửa hàng, bạn có toàn quyền kiểm tra theo trình 
 
 Tại cửa hàng, kênh hỗ trợ là trực tiếp: bạn gọi đúng số đã ghi trong hợp đồng, người chịu trách nhiệm rõ ràng, và thỏa thuận đổi xe hay cứu hộ thường được nói chuyện ngay. Với app, tin nhắn đi qua bộ phận chăm sóc khách hàng; thời gian phản hồi tùy khung giờ, và người trò chuyện với bạn không phải người quản lý trực tiếp chiếc xe. Với sự cố nhỏ như thủng lốp, nhiều app hướng dẫn khách tự sửa rồi hoàn tiền theo hóa đơn, một quy trình ổn nhưng không ngay lập tức. Với sự cố lớn như chết máy giữa tỉnh, việc có một đầu mối cụ thể gọi được liên tục là khác biệt giữa chuyến đi tiếp tục và chuyến đi đứng lại.
 
-Điểm cộng của app là tính toán và lưu vết: đơn, giá, hóa đơn đều có bản ghi số, dễ đối chiếu khi cần hoàn tiền hay khiếu nại. Cửa hàng truyền thống bù lại bằng linh hoạt: các yêu cầu như giao tận nơi, trả ở điểm khác, đổi xe giữa kỳ thường thương lượng được ngay tại quầy. Để so khung giá giữa hai kênh trước khi quyết, xem trang [bảng giá cho thuê]({{ '/banggia.html' | relative_url }}) và hỏi thêm phụ phí giao xe nếu đặt qua app. Thông tin liên hệ trực tiếp nằm tại trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Điểm cộng của app là tính toán và lưu vết: đơn, giá, hóa đơn đều có bản ghi số, dễ đối chiếu khi cần hoàn tiền hay khiếu nại. Cửa hàng truyền thống bù lại bằng linh hoạt: các yêu cầu như giao tận nơi, trả ở điểm khác, đổi xe giữa kỳ thường thương lượng được ngay tại quầy. Để so khung giá giữa hai kênh trước khi quyết, xem trang [bảng giá cho thuê]({{ '/banggia.html' | relative_url }}) và hỏi thêm phụ phí giao xe nếu đặt qua app. Thông tin liên hệ trực tiếp nằm tại trang liên hệ.
 
 ## Chọn thế nào cho chuyến đi của bạn
 

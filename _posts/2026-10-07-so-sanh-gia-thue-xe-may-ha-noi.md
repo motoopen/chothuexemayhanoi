@@ -25,7 +25,7 @@ Dòng năm ghi dòng xe sẵn có đúng ngày bạn cần, lấy từ trang [c�
 
 ## Dòng thứ bảy và tám: dịch vụ và tổng ước tính
 
-Dòng bảy ghi dịch vụ: khung giờ mở cửa, hỗ trợ giữa kỳ, phương án đổi xe khi có sự cố. Dòng tám ghi tổng ước tính cho chính lịch của bạn, cộng giá thuê, phụ phí và ước xăng. Cột tổng là cột quyết định, vì nó phản ánh đúng chi phí và tiện ích bạn nhận được, không phải mốc niêm yết. Điều khoản hợp đồng nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), kinh nghiệm lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
+Dòng bảy ghi dịch vụ: khung giờ mở cửa, hỗ trợ giữa kỳ, phương án đổi xe khi có sự cố. Dòng tám ghi tổng ước tính cho chính lịch của bạn, cộng giá thuê, phụ phí và ước xăng. Cột tổng là cột quyết định, vì nó phản ánh đúng chi phí và tiện ích bạn nhận được, không phải mốc niêm yết. Điều khoản hợp đồng nằm ở trang thủ tục thuê xe, kinh nghiệm lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
 
 ## Ví dụ điền checklist cho hai nơi
 

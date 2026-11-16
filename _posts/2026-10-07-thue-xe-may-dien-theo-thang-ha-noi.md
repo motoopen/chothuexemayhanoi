@@ -33,7 +33,7 @@ Gói tháng thường có quy định riêng về việc kết thúc sớm và g
 
 ## Giấy tờ và thủ tục cho gói tháng
 
-Về thủ tục, gói tháng cần giấy tờ tùy thân hợp lệ và đặt cọc theo quy định, chi tiết nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Với hợp đồng dài, đề nghị cửa hàng ghi rõ mọi thỏa thuận về sạc, bảo dưỡng và trách nhiệm thành văn bản, dù là bản hợp đồng in hay chuỗi tin nhắn được cả hai bên xác nhận. Khi cần hỏi thêm về gói tháng trước khi quyết định, thông tin liên hệ của cửa hàng nằm ở trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Về thủ tục, gói tháng cần giấy tờ tùy thân hợp lệ và đặt cọc theo quy định, chi tiết nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Với hợp đồng dài, đề nghị cửa hàng ghi rõ mọi thỏa thuận về sạc, bảo dưỡng và trách nhiệm thành văn bản, dù là bản hợp đồng in hay chuỗi tin nhắn được cả hai bên xác nhận. Khi cần hỏi thêm về gói tháng trước khi quyết định, thông tin liên hệ của cửa hàng nằm ở trang liên hệ.
 
 ## Kết luận
 

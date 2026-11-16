@@ -25,11 +25,11 @@ Vision yên thấp và thân thon, hợp người thấp dưới một mét sáu
 
 ## Máy, xăng và cảm giác lái
 
-Hai dòng cùng khung máy 110 nên mức tiêu hao gần như nhau, xem cách so thật trong bài [thuê xe máy tiết kiệm xăng Hà Nội]({{ '/blog/thue-xe-may-tiet-kiem-xang-ha-noi/' | relative_url }}). Cảm giác: Vision nhẹ tay và hơi nhún hơn, Lead đầm và chắc hơn trên đường trường ngắn. Cả hai đều dễ cho người mới, xem hướng dẫn trong bài [thuê xe máy cho người mới lái Hà Nội]({{ '/blog/thue-xe-may-cho-nguoi-moi-lai-ha-noi/' | relative_url }}). Kiểm máy phanh lốp đèn theo chuẩn chung trong bài [kiểm tra phanh lốp xe 50cc]({{ '/blog/kiem-tra-phanh-lop-xe-50cc/' | relative_url }}) cho cả hai.
+Hai dòng cùng khung máy 110 nên mức tiêu hao gần như nhau, xem cách so thật trong bài [thuê xe máy tiết kiệm xăng Hà Nội]({{ '/blog/thue-xe-may-tiet-kiem-xang-ha-noi/' | relative_url }}). Cảm giác: Vision nhẹ tay và hơi nhún hơn, Lead đầm và chắc hơn trên đường trường ngắn. Cả hai đều dễ cho người mới, xem hướng dẫn trong bài thuê xe máy cho người mới lái Hà Nội. Kiểm máy phanh lốp đèn theo chuẩn chung trong bài kiểm tra phanh lốp xe 50cc cho cả hai.
 
 ## Giá thuê và giấy tờ
 
-Giá hai dòng chênh nhau nhỏ, Lead đôi lúc nhỉnh vì cốp được ưa. Cả hai trên 50 phân khối nên cần bằng lái A1, khác nhóm 50cc, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Hợp đồng ghi giá, cọc, giờ trả và mức xăng. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). So khung giá theo kỳ ở trang [bảng giá]({{ '/banggia.html' | relative_url }}) và hỏi tồn kho hai dòng qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+Giá hai dòng chênh nhau nhỏ, Lead đôi lúc nhỉnh vì cốp được ưa. Cả hai trên 50 phân khối nên cần bằng lái A1, khác nhóm 50cc, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Hợp đồng ghi giá, cọc, giờ trả và mức xăng. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài thuê xe 50cc cho người nước ngoài. So khung giá theo kỳ ở trang bảng giá và hỏi tồn kho hai dòng qua trang liên hệ.
 
 ## Kết luận
 

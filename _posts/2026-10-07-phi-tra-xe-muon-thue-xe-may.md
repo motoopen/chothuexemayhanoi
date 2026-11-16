@@ -13,7 +13,7 @@ Trễ giờ trả xe là cách nhanh nhất để hóa đơn thuê tăng ngoài 
 
 ## Hỏi ngưỡng tính ngay lúc ký
 
-Mỗi cửa hàng có cách tính khác: một số cho vài phút đến nửa giờ ân hạn, số khác tính phụ phí từ phút trễ đầu tiên, và có nơi trễ quá ngưỡng nào đó thì tính trọn thêm một ngày. Hỏi rõ cả ba mức này ngay lúc ký hợp đồng, đừng chờ tới lúc gần trễ mới hỏi. Ghi lại khung trả đã chốt và các mức phụ phí vào điện thoại để đối chiếu nhanh. Điều khoản khung giờ nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), mức giá các gói nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Mỗi cửa hàng có cách tính khác: một số cho vài phút đến nửa giờ ân hạn, số khác tính phụ phí từ phút trễ đầu tiên, và có nơi trễ quá ngưỡng nào đó thì tính trọn thêm một ngày. Hỏi rõ cả ba mức này ngay lúc ký hợp đồng, đừng chờ tới lúc gần trễ mới hỏi. Ghi lại khung trả đã chốt và các mức phụ phí vào điện thoại để đối chiếu nhanh. Điều khoản khung giờ nằm ở trang thủ tục thuê xe, mức giá các gói nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
 
 ## Chốt khung dư thời gian từ đầu
 

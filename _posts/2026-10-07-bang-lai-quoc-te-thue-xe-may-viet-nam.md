@@ -17,11 +17,11 @@ Giấy phép lái quốc tế là bản dịch chuẩn hóa của giấy phép l
 
 ## Kiểm tra hạng ghi trong giấy phép
 
-Mở giấy phép ra và đọc kỹ phần hạng: hạng dành cho xe hai bánh mới là căn cứ để lái xe máy. Xe dưới 50cc có quy định riêng, xem trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}), còn xe trên 50cc cần hạng hai bánh đúng dung tích. Nếu bạn không chắc hạng của mình hợp lệ, hỏi bên cho thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) trước khi đặt xe, kèm ảnh giấy phép để họ báo trước chính xác.
+Mở giấy phép ra và đọc kỹ phần hạng: hạng dành cho xe hai bánh mới là căn cứ để lái xe máy. Xe dưới 50cc có quy định riêng, xem trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}), còn xe trên 50cc cần hạng hai bánh đúng dung tích. Nếu bạn không chắc hạng của mình hợp lệ, hỏi bên cho thuê qua trang liên hệ trước khi đặt xe, kèm ảnh giấy phép để họ báo trước chính xác.
 
 ## Các lựa chọn khi giấy phép không hợp lệ
 
-Nếu giấy phép quốc tế của bạn không có hạng hai bánh, bạn vẫn có ba lựa chọn: một là thuê dòng xe không yêu cầu bằng lái, tham khảo bài [thuê xe điện không cần bằng lái]({{ '/blog/thue-xe-dien-khong-can-bang-lai/' | relative_url }}); hai là chuyển sang thuê xe có tài xế để khỏi tự lái; ba là làm thủ tục đổi giấy phép lái Việt Nam nếu bạn ở lâu, và đọc thêm phần thủ tục chung trong bài [thủ tục thuê xe máy]({{ '/thutuc.html' | relative_url }}). Tự lái khi bằng không hợp lệ vừa rủi ro tai nạn, vừa mất bảo hiểm khi có sự cố.
+Nếu giấy phép quốc tế của bạn không có hạng hai bánh, bạn vẫn có ba lựa chọn: một là thuê dòng xe không yêu cầu bằng lái, tham khảo bài [thuê xe điện không cần bằng lái]({{ '/blog/thue-xe-dien-khong-can-bang-lai/' | relative_url }}); hai là chuyển sang thuê xe có tài xế để khỏi tự lái; ba là làm thủ tục đổi giấy phép lái Việt Nam nếu bạn ở lâu, và đọc thêm phần thủ tục chung trong bài thủ tục thuê xe máy. Tự lái khi bằng không hợp lệ vừa rủi ro tai nạn, vừa mất bảo hiểm khi có sự cố.
 
 ## Bên cho thuê kiểm tra gì khi bạn trình giấy phép
 
@@ -30,7 +30,7 @@ u, kiểm tra ngày hết hạn và hạng ghi trong giấy phép, rồi ghi th�
 
 ## Chọn xe khớp với hạng và kinh nghiệm
 
-Khớp giấy phép xong, chọn xe khớp kinh nghiệm: khách mới lái ở Hà Nội nên chọn dòng nhẹ, tham khảo bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}), và kiểm xe kỹ theo checklist trong bài [checklist nhận xe 50cc]({{ '/blog/checklist-nhan-xe-50cc/' | relative_url }}). Với kỳ thuê dài, cân phần đặt cọc và hoàn cọc trong bài [tiền cọc thuê xe máy Hà Nội]({{ '/blog/tien-coc-thue-xe-may-ha-noi/' | relative_url }}), và đối chiếu giá trước ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Khớp giấy phép xong, chọn xe khớp kinh nghiệm: khách mới lái ở Hà Nội nên chọn dòng nhẹ, tham khảo bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}), và kiểm xe kỹ theo checklist trong bài checklist nhận xe 50cc. Với kỳ thuê dài, cân phần đặt cọc và hoàn cọc trong bài tiền cọc thuê xe máy Hà Nội, và đối chiếu giá trước ở trang bảng giá.
 
 Một phần nữa đáng hỏi trước là bảo hiểm và trách nhiệm khi có tai nạn: giấy phép hợp lệ giúp bạn giữ quyền lợi bảo hiểm, nhưng mức tự trả và cách xử lý tại chỗ nên được ghi rõ vào hợp đồng trước khi nhận xe. Hỏi kèm cả phần giao xe ướt nếu bạn thuê trong mùa mưa, và phần kiểm xe giữa kỳ nếu kỳ thuê kéo dài nhiều ngày, để mọi thứ được bàn trước thay vì phải thương lượng giữa chừng.
 

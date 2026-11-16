@@ -17,7 +17,7 @@ Bước đầu là liệt kê các điểm định đi trong ngày và ước qu
 
 ## Quy đổi quãng ra chi phí theo dòng xe
 
-Mỗi dòng xe có mức tiêu hao khác nhau, xe số phổ thông tiết kiệm nhất, xe ga nhỉnh hơn chút, xe máy điện gần như không tốn xăng thay bằng chi phí sạc nhỏ. Hỏi cửa hàng về mức tiêu hao tham khảo của dòng định thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), rồi quy đổi quãng đường tổng thành số tiền theo giá xăng tại thời điểm đi. Danh sách dòng xe nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá các gói tại trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Mỗi dòng xe có mức tiêu hao khác nhau, xe số phổ thông tiết kiệm nhất, xe ga nhỉnh hơn chút, xe máy điện gần như không tốn xăng thay bằng chi phí sạc nhỏ. Hỏi cửa hàng về mức tiêu hao tham khảo của dòng định thuê qua trang liên hệ, rồi quy đổi quãng đường tổng thành số tiền theo giá xăng tại thời điểm đi. Danh sách dòng xe nằm ở trang các loại xe cho thuê, mức giá các gói tại trang [bảng giá]({{ '/banggia.html' | relative_url }}).
 
 ## Hỏi chính sách xăng của gói thuê
 

@@ -37,4 +37,4 @@ Kiểm tra khóa yên và khoang dưới yên: mở được, khóa còn chắc 
 
 ## Sau khi kiểm tra: hỏi và chốt
 
-Nếu bảy tiêu chí đều đạt, hỏi nốt ba điều: mức giá theo gói thời gian trên [bảng giá]({{ '/banggia.html' | relative_url }}), thủ tục giấy tờ tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), và quy trình hỗ trợ khi hỏng giữa đường. Danh sách mẫu xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), thông tin liên hệ tại trang [liên hệ]({{ '/lienhe.html' | relative_url }}). Kiểm tra đủ bảy tiêu chí trước khi ký, bạn sẽ có một chuyến đi êm và không phát sinh.
+Nếu bảy tiêu chí đều đạt, hỏi nốt ba điều: mức giá theo gói thời gian trên bảng giá, thủ tục giấy tờ tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), và quy trình hỗ trợ khi hỏng giữa đường. Danh sách mẫu xe hiện có nằm ở trang các loại xe cho thuê, thông tin liên hệ tại trang liên hệ. Kiểm tra đủ bảy tiêu chí trước khi ký, bạn sẽ có một chuyến đi êm và không phát sinh.

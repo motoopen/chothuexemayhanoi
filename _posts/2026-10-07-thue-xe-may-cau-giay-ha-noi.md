@@ -21,7 +21,7 @@ Các tuyến lớn chạy qua Cầu Giấy sáng sớm và cuối chiều thư�
 
 ## Loại xe phù hợp với địa hình quận
 
-Cầu Giấy có cả khu phố mới đường rộng lẫn khu dân cư hẻm nhỏ, và một số tuyến quanh khu vực hồ điều hòa có đoạn dốc nhẹ. Xe số hoặc xe ga phổ thông đáp ứng tốt mọi tuyến trong quận. Nếu lịch trình của bạn chủ yếu quãng ngắn trong khu, dòng xe nhỏ gọn tiết kiệm đủ dùng; nếu định từ Cầu Giấy chạy sang khu vực xa hơn như phố cổ hoặc bờ hồ Tây, chọn dòng êm và ổn định hơn cho quãng dài. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Cầu Giấy có cả khu phố mới đường rộng lẫn khu dân cư hẻm nhỏ, và một số tuyến quanh khu vực hồ điều hòa có đoạn dốc nhẹ. Xe số hoặc xe ga phổ thông đáp ứng tốt mọi tuyến trong quận. Nếu lịch trình của bạn chủ yếu quãng ngắn trong khu, dòng xe nhỏ gọn tiết kiệm đủ dùng; nếu định từ Cầu Giấy chạy sang khu vực xa hơn như phố cổ hoặc bờ hồ Tây, chọn dòng êm và ổn định hơn cho quãng dài. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang bảng giá.
 
 ## Hỏi về phạm vi di chuyển và giao xe tận nơi
 

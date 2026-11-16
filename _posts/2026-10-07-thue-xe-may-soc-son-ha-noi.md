@@ -21,7 +21,7 @@ Huyện ít kẹt xe cục bộ nhưng có các khung đáng chú ý: sáng sớ
 
 ## Loại xe hợp chặng dài và đường xã
 
-Với các chặng nhiều chục cây số và đường xã có đoạn gồ ghề, ưu tiên dòng xe bền, giảm xóc khỏe và bình xăng lớn. Xe ga phổ thông hợp khách đi trục chính mỗi ngày, êm trên chặng dày. Dòng xe nhỏ gọn đủ cho quãng ngắn quanh thị trấn, nhưng nên cân nhắc nếu bạn định chạy về vùng chân núi. Khách đi nhóm nên đặt trước loại xe để có đủ số lượng cùng dòng. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Với các chặng nhiều chục cây số và đường xã có đoạn gồ ghề, ưu tiên dòng xe bền, giảm xóc khỏe và bình xăng lớn. Xe ga phổ thông hợp khách đi trục chính mỗi ngày, êm trên chặng dày. Dòng xe nhỏ gọn đủ cho quãng ngắn quanh thị trấn, nhưng nên cân nhắc nếu bạn định chạy về vùng chân núi. Khách đi nhóm nên đặt trước loại xe để có đủ số lượng cùng dòng. Danh sách dòng xe hiện có nằm ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), mức giá tại trang bảng giá.
 
 ## Hỏi về phạm vi di chuyển và giao xe tận nơi
 

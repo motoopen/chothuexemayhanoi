@@ -25,15 +25,15 @@ Bóp còi nghe rõ giòn, không bị khàn. Nhấn phanh xong, đèn phanh sau 
 
 ## Ghi nhận lỗi ngay khi nhận
 
-Xe thiếu đèn hoặc còi là căn cứ đổi xe ngay tại điểm nhận, tiêu chí đã nêu trong bài [thuê xe máy Hà Nội uy tín]({{ '/blog/thue-xe-may-ha-noi-uy-tin/' | relative_url }}). Chụp bốn góc xe kèm đèn đang bật theo thói quen trong bài [chụp ảnh xe trước khi thuê]({{ '/blog/chup-anh-xe-truoc-khi-thue/' | relative_url }}), để tránh tranh chấp về tình trạng đèn lúc trả. Nếu nhận xe buổi tối hôm trước cho sáng đi sớm, phần chuẩn bị đã có trong bài [thuê xe máy Hà Nội nhận xe sớm]({{ '/blog/thue-xe-may-ha-noi-nhan-xe-som/' | relative_url }}).
+Xe thiếu đèn hoặc còi là căn cứ đổi xe ngay tại điểm nhận, tiêu chí đã nêu trong bài thuê xe máy Hà Nội uy tín. Chụp bốn góc xe kèm đèn đang bật theo thói quen trong bài chụp ảnh xe trước khi thuê, để tránh tranh chấp về tình trạng đèn lúc trả. Nếu nhận xe buổi tối hôm trước cho sáng đi sớm, phần chuẩn bị đã có trong bài [thuê xe máy Hà Nội nhận xe sớm]({{ '/blog/thue-xe-may-ha-noi-nhan-xe-som/' | relative_url }}).
 
 ## Theo dòng xe
 
-Xe điện đèn gọn dễ cháy mạch, thử đủ hai chế độ, phần đặc thù xe điện đã có trong bài [checklist nhận xe máy điện]({{ '/blog/checklist-nhan-xe-may-dien/' | relative_url }}). Xe số cũ dễ ốm công tắc xi nhan, gạt vài lần nghe tiếng lạch cạch ổn, so sánh dòng đã có trong bài [xe ga và xe số khi thuê]({{ '/blog/xe-ga-va-xe-so-khi-thue/' | relative_url }}).
+Xe điện đèn gọn dễ cháy mạch, thử đủ hai chế độ, phần đặc thù xe điện đã có trong bài checklist nhận xe máy điện. Xe số cũ dễ ốm công tắc xi nhan, gạt vài lần nghe tiếng lạch cạch ổn, so sánh dòng đã có trong bài [xe ga và xe số khi thuê]({{ '/blog/xe-ga-va-xe-so-khi-thue/' | relative_url }}).
 
 ## Hỏng giữa chặng
 
-Đèn hoặc xi nhan hỏng giữa đường thì giảm tốc, ra hiệu bằng tay khi rẽ, và ghé điểm dừng an toàn. Gọi nơi thuê qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}), phần chi phí đã phân trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/blog/chi-phi-hu-hong-khi-thue-xe-may/' | relative_url }}). Trả đúng giờ, khung phụ phí nằm trong bài [phí trả xe muộn thuê xe máy]({{ '/blog/phi-tra-xe-muon-thue-xe-may/' | relative_url }}).
+Đèn hoặc xi nhan hỏng giữa đường thì giảm tốc, ra hiệu bằng tay khi rẽ, và ghé điểm dừng an toàn. Gọi nơi thuê qua trang liên hệ theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}), phần chi phí đã phân trong bài chi phí hư hỏng khi thuê xe máy. Trả đúng giờ, khung phụ phí nằm trong bài phí trả xe muộn thuê xe máy.
 
 Trường hợp nhận xe vào buổi tối hôm trước cho sáng sớm đi, hãy thử đèn ngay tại điểm nhận chứ đừng đợi sáng, vì đèn là thứ duy nhất bạn không thử được khi trời đã sáng, phần kinh nghiệm nhận xe sớm đã trình bày trong bài [thuê xe máy Hà Nội nhận xe sớm]({{ '/blog/thue-xe-may-ha-noi-nhan-xe-som/' | relative_url }}), và các dòng xe điện cần kiểm thêm đèn pha tự động. Nếu định đi nhiều đêm liên tiếp, mang theo một cuộn băng chống nước nhỏ, vì mưa đêm là nguyên nhân phổ biến khiến giắc đèn lỏng và đèn chớp tắt giữa chừng. Với xe chạy đường dài nhiều ngày, nên đề nghị nơi thuê cho đổi xe ngay trong ngày đầu nếu đèn pha đã ngả vàng, vì ánh ngả vàng làm tầm nhìn thực tế ngắn hơn thấy.
 
