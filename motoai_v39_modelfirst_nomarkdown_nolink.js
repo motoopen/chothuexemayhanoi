@@ -13,6 +13,12 @@
 (function(){
   if (window.MotoAI_v38_LOADED) return;
   window.MotoAI_v38_LOADED = true;
+  // Storage that never throws: falls back to memory when localStorage is blocked
+  // (privacy modes, in-app browsers), so the chat still opens and answers.
+  const LS = (function(){
+    try { const k="__motoai_t"; window.localStorage.setItem(k,"1"); window.localStorage.removeItem(k); return window.localStorage; }
+    catch(e){ const m={}; return { getItem:k=> (k in m ? m[k] : null), setItem:(k,v)=>{ m[k]=String(v); }, removeItem:k=>{ delete m[k]; } }; }
+  })();
   // Base folder of this script (e.g. https://motoopen.github.io/chothuexemayhanoi/) for moto_sitemap.json lookup.
   const SCRIPT_BASE = (function(){
     try { const src = (document.currentScript && document.currentScript.src) || ''; return src ? new URL('.', src).href : ''; }
@@ -266,8 +272,8 @@
 
   /* ====== SESSION / CONTEXT ====== */
   const MAX_MSG = 10;
-  function getSess(){ const arr = safe(localStorage.getItem(K.sess))||[]; return Array.isArray(arr)?arr:[]; }
-  function saveSess(a){ try{ localStorage.setItem(K.sess, JSON.stringify(a.slice(-MAX_MSG))); }catch{} }
+  function getSess(){ const arr = safe(LS.getItem(K.sess))||[]; return Array.isArray(arr)?arr:[]; }
+  function saveSess(a){ try{ LS.setItem(K.sess, JSON.stringify(a.slice(-MAX_MSG))); }catch{} }
   function addMsg(role,text){
     if(!text) return;
     const body=$("#mta-body"); if(!body) return;
@@ -281,12 +287,12 @@
     if(arr.length) arr.forEach(m=> addMsg(m.role,m.text));
     else addMsg("bot", naturalize(`Xin chào, em là nhân viên hỗ trợ của ${CFG.brand}. Anh/chị cần thuê xe số, xe ga hay theo tháng?`));
   }
-  function getCtx(){ return safe(localStorage.getItem(K.ctx)) || {turns:[]}; }
+  function getCtx(){ return safe(LS.getItem(K.ctx)) || {turns:[]}; }
   function pushCtx(delta){
     try{
       const ctx=getCtx(); ctx.turns.push(Object.assign({t:Date.now()}, delta||{}));
       ctx.turns = ctx.turns.slice(-clamp(CFG.maxContextTurns||5,3,8));
-      localStorage.setItem(K.ctx, JSON.stringify(ctx));
+      LS.setItem(K.ctx, JSON.stringify(ctx));
     }catch{}
   }
 
@@ -474,8 +480,8 @@
 
   /* ====== SIMPLE INDEX + BM25 mini ====== */
   function tk(s){ return (s||"").toLowerCase().normalize('NFC').replace(/[^\p{L}\p{N}\s]+/gu,' ').split(/\s+/).filter(Boolean); }
-  function loadLearn(){ return safe(localStorage.getItem(K.learn)) || {}; }
-  function saveLearn(o){ try{ localStorage.setItem(K.learn, JSON.stringify(o)); }catch{} }
+  function loadLearn(){ return safe(LS.getItem(K.learn)) || {}; }
+  function saveLearn(o){ try{ LS.setItem(K.learn, JSON.stringify(o)); }catch{} }
   function getIndexFlat(){
     const cache=loadLearn(); const out=[];
     Object.keys(cache).forEach(key=>{ (cache[key].pages||[]).forEach(pg=> out.push(Object.assign({source:key}, pg))); });
@@ -552,9 +558,9 @@
   }
   function finishStats(st){ st.durationMs = Date.now() - st.startedAt; return st; }
   function saveStatsAll(all){
-    try{ localStorage.setItem(K.dbg, JSON.stringify(all)); }catch{}
+    try{ LS.setItem(K.dbg, JSON.stringify(all)); }catch{}
   }
-  function loadStatsAll(){ return safe(localStorage.getItem(K.dbg)) || {}; }
+  function loadStatsAll(){ return safe(LS.getItem(K.dbg)) || {}; }
 
   async function readSitemap(url){
     const xml = await fetchText(url); if(!xml) return [];
@@ -616,9 +622,9 @@
           const autos = extractPricesFromText(txt);
           if(autos && autos.length){
             stats.autoPriceHits += autos.length;
-            const stash = safe(localStorage.getItem(K.autoprices))||[];
+            const stash = safe(LS.getItem(K.autoprices))||[];
             stash.push(...autos.map(a=> Object.assign({url:u}, a)));
-            localStorage.setItem(K.autoprices, JSON.stringify(stash.slice(-500)));
+            LS.setItem(K.autoprices, JSON.stringify(stash.slice(-500)));
           }
         }catch{}
       }
@@ -678,9 +684,9 @@
                   const autos = extractPricesFromText(txt);
                   if(autos && autos.length){
                     stats.autoPriceHits += autos.length;
-                    const stash = safe(localStorage.getItem(K.autoprices))||[];
+                    const stash = safe(LS.getItem(K.autoprices))||[];
                     stash.push(...autos.map(a=> Object.assign({url:u}, a)));
-                    localStorage.setItem(K.autoprices, JSON.stringify(stash.slice(-500)));
+                    LS.setItem(K.autoprices, JSON.stringify(stash.slice(-500)));
                   }
                 }
                 pages.push({url:u,title,text:desc}); stats.htmlPages++; stats.pagesKept++;
@@ -774,7 +780,7 @@
     }
 
     try{ saveLearnCache(cache); }catch{}
-    localStorage.setItem(K.stamp, Date.now());
+    LS.setItem(K.stamp, Date.now());
     return results;
   }
 
@@ -853,7 +859,7 @@
     if(!CFG.smart.autoPriceLearn) return;
     try{
       // Bỏ giá rác (< 50.000đ) có thể còn trong bộ nhớ của khách từ phiên bản cũ.
-      const autos = (safe(localStorage.getItem(K.autoprices))||[]).filter(a=> a && a.price>=50000 && a.price<1000000);
+      const autos = (safe(LS.getItem(K.autoprices))||[]).filter(a=> a && a.price>=50000 && a.price<1000000);
       if(!autos.length) return;
       const byType = autos.reduce((m,a)=>{ (m[a.type]||(m[a.type]=[])).push(a.price); return m; },{});
       Object.keys(byType).forEach(t=>{
@@ -902,6 +908,7 @@
     if(isOpen) return;
     $("#mta-card").classList.add("open");
     $("#mta-card").setAttribute("aria-hidden","false");
+    $("#mta-card").inert = false;
     $("#mta-backdrop").classList.add("show");
     $("#mta-bubble").style.display="none";
     isOpen=true; renderSess();
@@ -912,6 +919,7 @@
     if(!isOpen) return;
     $("#mta-card").classList.remove("open");
     $("#mta-card").setAttribute("aria-hidden","true");
+    $("#mta-card").inert = true;
     $("#mta-backdrop").classList.remove("show");
     $("#mta-bubble").style.display="flex";
     try{ $("#mta-bubble").focus({preventScroll:true}); }catch(e){}
@@ -968,10 +976,10 @@
   /* ====== BOOT ====== */
   ready(async ()=>{
     // dọn cache 7 ngày/lần
-    const lastClean = parseInt(localStorage.getItem(K.clean)||0);
+    const lastClean = parseInt(LS.getItem(K.clean)||0);
     if(!lastClean || (Date.now()-lastClean) > 7*24*3600*1000){
-      localStorage.removeItem(K.ctx);
-      localStorage.setItem(K.clean, Date.now());
+      LS.removeItem(K.ctx);
+      LS.setItem(K.clean, Date.now());
       console.log("MotoAI v38.1: maintenance OK");
     }
 
@@ -979,6 +987,7 @@
     const wrap=document.createElement("div"); wrap.innerHTML=HTML; document.body.appendChild(wrap.firstElementChild);
     const st=document.createElement("style"); st.textContent=CSS; document.head.appendChild(st);
     bindEvents(); autoAvoid(); maybeDisableQuickMap();
+    const card0 = $("#mta-card"); if(card0) card0.inert = true; // closed chat: not reachable by Tab
 
     // merge auto-prices (MODEL-first)
     mergeAutoPrices();
@@ -991,7 +1000,7 @@
         if(learnStarted) return; learnStarted = true;
         try{
           const origins = Array.from(new Set([location.origin, ...(CFG.extraSites||[])]));
-          const last = parseInt(localStorage.getItem(K.stamp)||0);
+          const last = parseInt(LS.getItem(K.stamp)||0);
           if(!last || (Date.now()-last) >= CFG.refreshHours*3600*1000){
             if(CFG.debug) console.groupCollapsed("%cMotoAI v38.1 — AutoLearn start","color:"+CFG.themeColor+";font-weight:bold");
             await learnSites(origins, false);
@@ -1018,7 +1027,7 @@
       return await learnSites(Array.from(new Set(list)), !!force);
     },
     getIndex: getIndexFlat,
-    clearLearnCache: ()=> { try{ localStorage.removeItem(K.learn); localStorage.removeItem(K.autoprices); localStorage.removeItem(K.dbg);}catch{} },
-    debugDump: ()=> ({stats: loadStatsAll(), indexSize: getIndexFlat().length, priceSamples:(safe(localStorage.getItem(K.autoprices))||[]).length})
+    clearLearnCache: ()=> { try{ LS.removeItem(K.learn); LS.removeItem(K.autoprices); LS.removeItem(K.dbg);}catch{} },
+    debugDump: ()=> ({stats: loadStatsAll(), indexSize: getIndexFlat().length, priceSamples:(safe(LS.getItem(K.autoprices))||[]).length})
   };
 })();
