@@ -107,16 +107,26 @@
           return `<a href="#${h.id}">${h.textContent.trim()}</a>`;
         }).join('');
         tocList.querySelectorAll?.('a')?.forEach?.(a => {
-          a.addEventListener('click', () => tocDrawer.classList.remove('open'));
+          a.addEventListener('click', () => { tocDrawer.classList.remove('open'); tocFab.setAttribute('aria-expanded', 'false'); });
         });
       }
       buildTOC();
       tocFab.addEventListener('click', (e) => {
         e.stopPropagation();
-        tocDrawer.classList.toggle('open');
+        const isOpen = tocDrawer.classList.toggle('open');
+        tocFab.setAttribute('aria-expanded', String(isOpen));
       });
       document.addEventListener('click', (e) => {
-        if (!tocDrawer.contains(e.target) && e.target !== tocFab) tocDrawer.classList.remove('open');
+        if (!tocDrawer.contains(e.target) && e.target !== tocFab) {
+          tocDrawer.classList.remove('open');
+          tocFab.setAttribute('aria-expanded', 'false');
+        }
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          tocDrawer.classList.remove('open');
+          tocFab.setAttribute('aria-expanded', 'false');
+        }
       });
 
       /* ===== FAQ polish ===== */
@@ -138,12 +148,26 @@
       if (miniToggle && miniSheet) {
         miniToggle.addEventListener('click', (e) => {
           e.stopPropagation();
-          miniSheet.style.display = (miniSheet.style.display === 'block' ? 'none' : 'block');
+          const show = miniSheet.style.display !== 'block';
+          miniSheet.style.display = show ? 'block' : 'none';
+          miniToggle.setAttribute('aria-expanded', String(show));
         });
         document.addEventListener('click', (e) => {
-          if (!miniSheet.contains(e.target) && e.target !== miniToggle) miniSheet.style.display = 'none';
+          if (!miniSheet.contains(e.target) && e.target !== miniToggle) {
+            miniSheet.style.display = 'none';
+            miniToggle.setAttribute('aria-expanded', 'false');
+          }
         });
-        miniSheet.querySelectorAll('a').forEach(a => a.addEventListener('click', () => miniSheet.style.display = 'none'));
+        miniSheet.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+          miniSheet.style.display = 'none';
+          miniToggle.setAttribute('aria-expanded', 'false');
+        }));
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape') {
+            miniSheet.style.display = 'none';
+            miniToggle.setAttribute('aria-expanded', 'false');
+          }
+        });
       }
 
       const style = document.createElement('style');

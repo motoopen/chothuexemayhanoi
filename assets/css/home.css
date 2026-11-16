@@ -1988,3 +1988,11 @@
   .nav-links { display: none !important; }
   .hamburger { display: block !important; }
 }
+
+/* Homepage QA: one persistent contact bar on mobile; avoid overlay duplication. */
+@media (max-width: 780px) {
+  #miniApp, .mapp-sticky { display: none !important; }
+  .bottom-appbar a { min-height: 48px; }
+  body { padding-bottom: calc(86px + env(safe-area-inset-bottom)); }
+}
+main [id] { scroll-margin-top: calc(var(--top-offset, 84px) + 12px); }

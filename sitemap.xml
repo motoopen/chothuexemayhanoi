@@ -29,14 +29,5 @@
     <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
   </url>
 {% endfor %}
-  <url><loc>{{ '/du-lieu/thuengay.txt' | absolute_url }}</loc></url>
-  <url><loc>{{ '/du-lieu/tuan.txt' | absolute_url }}</loc></url>
-  <url><loc>{{ '/du-lieu/thang.txt' | absolute_url }}</loc></url>
-  <url><loc>{{ '/du-lieu/xe50cc.txt' | absolute_url }}</loc></url>
-  <url><loc>{{ '/du-lieu/xeso.txt' | absolute_url }}</loc></url>
-  <url><loc>{{ '/du-lieu/xega.txt' | absolute_url }}</loc></url>
-  <url><loc>{{ '/du-lieu/thutuc.txt' | absolute_url }}</loc></url>
-  <url><loc>{{ '/du-lieu/dieukien.txt' | absolute_url }}</loc></url>
-  <url><loc>{{ '/du-lieu/hoidap.txt' | absolute_url }}</loc></url>
-  <url><loc>{{ '/du-lieu/huongdanthue.txt' | absolute_url }}</loc></url>
+
 </urlset>
