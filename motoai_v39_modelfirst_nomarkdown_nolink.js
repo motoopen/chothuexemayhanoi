@@ -13,13 +13,18 @@
 (function(){
   if (window.MotoAI_v38_LOADED) return;
   window.MotoAI_v38_LOADED = true;
+  // Base folder of this script (e.g. https://motoopen.github.io/chothuexemayhanoi/) for moto_sitemap.json lookup.
+  const SCRIPT_BASE = (function(){
+    try { const src = (document.currentScript && document.currentScript.src) || ''; return src ? new URL('.', src).href : ''; }
+    catch(e){ return ''; }
+  })();
 
   /* ====== CONFIG ====== */
   const DEF = {
-    brand: "Nguyen Tu",
-    phone: "0942467674",
+    brand: "Motoopen",
+    phone: "0857255868",
     zalo:  "",
-    map:   "",
+    map:   "https://maps.app.goo.gl/2icTBTxAToyvKTE78",
     avatar: "👩‍💼",
     themeColor: "#0084FF",
 
@@ -626,8 +631,9 @@
 
       // 1) moto_sitemap.json (ưu tiên)
       const candidatesJSON = [
-        key + "/moto_sitemap.json",
-        location.origin + (location.pathname.replace(/\/[^\/]*$/,'') || '') + "/moto_sitemap.json"
+        ...(key === location.origin && SCRIPT_BASE ? [SCRIPT_BASE + "moto_sitemap.json"] : []),
+        location.origin + (location.pathname.replace(/\/[^\/]*$/,'') || '') + "/moto_sitemap.json",
+        key + "/moto_sitemap.json"
       ];
       for(const j of Array.from(new Set(candidatesJSON))){
         try{
@@ -807,7 +813,7 @@
     if(intents.needContact) return polite(`anh/chị gọi ${CFG.phone} hoặc Zalo ${CFG.zalo||CFG.phone} là có người nhận ngay.`);
     if(intents.needDocs)    return polite(`thủ tục gọn: CCCD/hộ chiếu + cọc theo xe. Có phương án giảm cọc khi đủ giấy tờ.`);
     if(intents.needPolicy)  return polite(`đặt cọc tham khảo: xe số 2–3 triệu; xe ga 2–5 triệu; 50cc khoảng 4 triệu. Liên hệ Zalo ${CFG.phone} để chốt theo mẫu xe.`);
-    if(intents.needDelivery)return polite(`thuê 1–4 ngày vui lòng đến cửa hàng chọn xe; thuê tuần/tháng em giao tận nơi. Phí nội thành 20–100k tùy quận. Nhắn Zalo ${CFG.phone} để em set lịch.`);
+    if(intents.needDelivery)return polite(`bên em giao xe tận nơi tại các quận nội thành theo lịch hẹn; phí giao tiêu chuẩn 20k–50k tùy khoảng cách và điểm hẹn, nhận xe tại cửa hàng 114 Nguyễn Văn Cừ, Long Biên thì không mất phí. Nhắn Zalo ${CFG.phone} để em set lịch.`);
     if(intents.needReturn)  return polite(`trả xe tại cửa hàng hoặc hẹn trả tận nơi (thỏa thuận). Báo trước 30 phút để em sắp xếp, hoàn cọc nhanh.`);
 
     if(intents.needPrice)   return composePrice(model, qty);

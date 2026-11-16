@@ -15,6 +15,13 @@ exclude:
   - _factory
   - _seo
   - _archive
+  # Internal tooling/reports: kept in the repo, not published on GitHub Pages
+  - README.md
+  - scripts
+  - seo-optimization-matrix.json
+  - seo-optimization-matrix.md
+  # Third-party chatbot dataset (another brand's NAP/policy): OWNER_REVIEW before re-publishing
+  - du-lieu/huongdanthue.txt
 
 defaults:
   - scope:
