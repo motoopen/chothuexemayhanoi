@@ -255,6 +255,8 @@ footer.premium.app-footer .footer-service-cta {
   font-weight: 750;
 }
 footer.premium.app-footer .footer-service-cta span { flex: 1 1 auto; }
+/* Keep the button's own 12px corners when the generic a:focus-visible applies. */
+footer.premium.app-footer .footer-service-cta:focus-visible { border-radius: 12px; }
 footer.premium.app-footer .footer-service-cta:hover {
   background: rgba(140, 202, 255, .18);
   border-color: rgba(140, 202, 255, .52);
@@ -289,6 +291,8 @@ footer.premium.app-footer .footer-blog-all {
   align-items: center;
   gap: 8px;
   min-height: 44px;
+  /* 44px tap box, but its text lines up with the heading's last line. */
+  margin-bottom: -12px;
   font-size: .86rem;
   font-weight: 700;
   color: var(--footer-accent);
@@ -405,6 +409,9 @@ footer.premium.app-footer .social-row a:hover {
   background: rgba(140, 202, 255, .19);
   border-color: rgba(140, 202, 255, .48);
   box-shadow: none;
+  /* Neutralise legacy .social-row a:hover translateY(-4px) (sticky on touch);
+     the fine-pointer block below restores a small lift for mouse users. */
+  transform: none;
 }
 footer.premium.app-footer .author,
 footer.premium.app-footer .author a {
@@ -424,6 +431,9 @@ footer.premium.app-footer .author a:hover { color: #fff; }
 @media (hover: hover) and (pointer: fine) {
   footer.premium.app-footer .quick-links li a:hover { transform: translateX(3px); }
   footer.premium.app-footer .social-row a:hover { transform: translateY(-2px); }
+  /* Category titles are already white: give them their own hover cue. */
+  footer.premium.app-footer .footer-taxonomy-parent:hover strong { color: var(--footer-accent); }
+  footer.premium.app-footer .footer-taxonomy-parent:hover { border-bottom-color: rgba(140, 202, 255, .45); }
 }
 /* Touch screens of any size get comfortable tap targets. */
 @media (pointer: coarse) {
@@ -492,6 +502,16 @@ footer.premium.app-footer .author a:hover { color: #fff; }
   /* Pages without the bar (blog/category/post layouts) don't need the space.
      Browsers without :has() ignore this rule and simply keep the safe space. */
   body:not(:has(.bottom-appbar)) footer.premium.app-footer { --footer-appbar-space: 0px; }
+  /* Keep the copyright clear of the 54px quick-contact button (right:16px)
+     that floats above the app bar on content pages. */
+  body:has(#miniAppToggle) footer.premium.app-footer .author {
+    padding-right: 64px;
+    text-wrap: pretty;
+  }
+}
+/* 781–1320px: the fixed chat bubble sits over the end of the copyright line. */
+@media (min-width: 781px) and (max-width: 1320px) {
+  body:has(#mta-root) footer.premium.app-footer .footer-bottom { padding-right: 64px; }
 }
 
 /* 561–640px: 2 category cards per row; a lone last card spans the row. */
