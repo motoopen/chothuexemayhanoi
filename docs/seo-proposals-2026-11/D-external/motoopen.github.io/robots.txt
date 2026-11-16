@@ -1,0 +1,23 @@
+# robots.txt for the HOST ROOT https://motoopen.github.io/robots.txt
+# Publish this file from a GitHub repository named exactly "motoopen.github.io"
+# (user site, Pages: branch main, folder /). Do NOT add a CNAME / custom domain.
+# Crawlers only read robots.txt at the host root; /chothuexemayhanoi/robots.txt is ignored.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://motoopen.github.io/chothuexemayhanoi/sitemap.xml
+
+# Add these only after the owner decides what happens to the other projects on this host
+# (IDX-12 / OFF-03: they carry other brands' names and phone numbers):
+# Sitemap: https://motoopen.github.io/thuexemayohoankiem/sitemap.xml
+# Sitemap: https://motoopen.github.io/appthuexemay/sitemap.xml
+
+# Optional: SEO-tool crawlers. Leave commented while you want to use Ahrefs/Semrush
+# to monitor backlinks (OFF-08). Blocking them does not affect Google or Bing.
+# User-agent: AhrefsBot
+# Disallow: /
+# User-agent: SemrushBot
+# Disallow: /
+# User-agent: MJ12bot
+# Disallow: /

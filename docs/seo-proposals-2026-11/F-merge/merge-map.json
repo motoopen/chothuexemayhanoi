@@ -1,0 +1,228 @@
+{
+ "generated": "2026-11-16",
+ "status": "ĐỀ XUẤT – chưa áp dụng. Không xóa/gộp bài nào trước khi có dữ liệu GSC 28 ngày và quyết định vai trò domain (critic-01).",
+ "decision_rules": [
+  "Loser có >=10 click/28 ngày: chuyển phần riêng sang winner rồi redirect_from (option A).",
+  "Loser 0 hiển thị/28 ngày: gộp ngay theo option A.",
+  "Nhóm có loser được nhiều click hơn winner: đổi winner thành URL đó.",
+  "Không gộp nhóm nào trùng ý định với bài trên chothuexemayhanoi.ceovanta.com trước khi chốt vai trò 2 domain (critic-01)."
+ ],
+ "groups": [
+  {
+   "group": 1,
+   "source": "7b-06",
+   "winner_7b06": "/blog/xe-50cc-co-can-bang-lai-khong/",
+   "merge": [
+    "/blog/thue-xe-50cc-can-bang-lai-khong/",
+    "/blog/thue-xe-50cc-khong-can-bang-lai/"
+   ]
+  },
+  {
+   "group": 2,
+   "source": "7b-06",
+   "winner_7b06": "/blog/thue-xe-dien-khong-can-bang-lai/",
+   "merge": [
+    "/blog/thue-xe-dien-khong-bang-lai/",
+    "/blog/thue-xe-may-dien-khong-can-bang-lai/",
+    "/blog/thue-xe-may-dien-co-can-bang-lai-khong/",
+    "/blog/thue-xe-may-dien-can-bang-lai-khong/",
+    "/blog/xe-dien-co-can-bang-lai-khong/"
+   ],
+   "winner_idx03_khac": "/blog/thue-xe-may-dien-co-can-bang-lai-khong/",
+   "note": "Hai auditor chọn winner khác nhau: chọn URL có nhiều click/hiển thị GSC hơn (28 ngày); hòa thì giữ winner_7b06 (nhiều link nội bộ trỏ tới hơn)."
+  },
+  {
+   "group": 3,
+   "source": "7b-06",
+   "winner_7b06": "/blog/thue-xe-may-50cc-ha-noi/",
+   "merge": [
+    "/blog/thue-xe-may-50cc/",
+    "/blog/thue-xe-50cc-ha-noi/",
+    "/blog/cho-thue-xe-may-50cc-ha-noi/"
+   ],
+   "winner_idx03_khac": "/blog/thue-xe-may-50cc/",
+   "note": "Hai auditor chọn winner khác nhau: chọn URL có nhiều click/hiển thị GSC hơn (28 ngày); hòa thì giữ winner_7b06 (nhiều link nội bộ trỏ tới hơn)."
+  },
+  {
+   "group": 4,
+   "source": "7b-06",
+   "winner_7b06": "/blog/cho-thue-xe-may-dien-ha-noi/",
+   "merge": [
+    "/blog/thue-xe-dien/",
+    "/blog/thue-xe-dien-ha-noi/",
+    "/blog/thue-xe-may-dien-ha-noi/"
+   ],
+   "winner_idx03_khac": "/blog/thue-xe-may-dien-ha-noi/",
+   "note": "Hai auditor chọn winner khác nhau: chọn URL có nhiều click/hiển thị GSC hơn (28 ngày); hòa thì giữ winner_7b06 (nhiều link nội bộ trỏ tới hơn)."
+  },
+  {
+   "group": 5,
+   "source": "7b-06",
+   "winner_7b06": "/blog/thue-xe-may-dien-vinfast-ha-noi/",
+   "merge": [
+    "/blog/thue-xe-may-dien-vinfast/",
+    "/blog/thue-xe-dien-vinfast/",
+    "/blog/cho-thue-xe-may-dien-vinfast-ha-noi/"
+   ],
+   "winner_idx03_khac": "/blog/thue-xe-may-dien-vinfast/",
+   "note": "Hai auditor chọn winner khác nhau: chọn URL có nhiều click/hiển thị GSC hơn (28 ngày); hòa thì giữ winner_7b06 (nhiều link nội bộ trỏ tới hơn)."
+  },
+  {
+   "group": 6,
+   "source": "7b-06",
+   "winner_7b06": "/blog/thue-xe-tay-ga-50cc-ha-noi/",
+   "merge": [
+    "/blog/thue-xe-ga-50cc/",
+    "/blog/thue-xe-ga-50cc-ha-noi/",
+    "/blog/thue-xe-tay-ga-50cc/"
+   ],
+   "winner_idx03_khac": "/blog/thue-xe-ga-50cc/",
+   "note": "Hai auditor chọn winner khác nhau: chọn URL có nhiều click/hiển thị GSC hơn (28 ngày); hòa thì giữ winner_7b06 (nhiều link nội bộ trỏ tới hơn)."
+  },
+  {
+   "group": 7,
+   "source": "7b-06",
+   "winner_7b06": "/blog/thue-xe-cub-50cc-ha-noi/",
+   "merge": [
+    "/blog/thue-xe-cub-50cc/"
+   ],
+   "winner_idx03_khac": "/blog/thue-xe-cub-50cc/",
+   "note": "Hai auditor chọn winner khác nhau: chọn URL có nhiều click/hiển thị GSC hơn (28 ngày); hòa thì giữ winner_7b06 (nhiều link nội bộ trỏ tới hơn)."
+  },
+  {
+   "group": 8,
+   "source": "7b-06",
+   "winner_7b06": "/blog/cub-50cc-va-xe-ga-50cc/",
+   "merge": [
+    "/blog/xe-ga-50cc-va-cub-50cc/",
+    "/blog/thue-cub-50cc-hay-xe-ga-50cc/"
+   ],
+   "winner_idx03_khac": "/blog/thue-cub-50cc-hay-xe-ga-50cc/",
+   "note": "Hai auditor chọn winner khác nhau: chọn URL có nhiều click/hiển thị GSC hơn (28 ngày); hòa thì giữ winner_7b06 (nhiều link nội bộ trỏ tới hơn)."
+  },
+  {
+   "group": 9,
+   "source": "7b-06",
+   "winner_7b06": "/blog/gia-thue-xe-may-50cc-ha-noi/",
+   "merge": [
+    "/blog/gia-thue-xe-50cc/"
+   ],
+   "winner_idx03_khac": "/blog/gia-thue-xe-50cc/",
+   "note": "Hai auditor chọn winner khác nhau: chọn URL có nhiều click/hiển thị GSC hơn (28 ngày); hòa thì giữ winner_7b06 (nhiều link nội bộ trỏ tới hơn)."
+  },
+  {
+   "group": 10,
+   "source": "7b-06",
+   "winner_7b06": "/blog/thue-xe-cub-ha-noi/",
+   "merge": [
+    "/blog/cho-thue-xe-cub-ha-noi/"
+   ],
+   "winner_idx03_khac": "/blog/cho-thue-xe-cub-ha-noi/",
+   "note": "Hai auditor chọn winner khác nhau: chọn URL có nhiều click/hiển thị GSC hơn (28 ngày); hòa thì giữ winner_7b06 (nhiều link nội bộ trỏ tới hơn)."
+  },
+  {
+   "group": 11,
+   "source": "7b-06",
+   "winner_7b06": "/blog/thue-xe-may-ha-noi-cho-2-nguoi/",
+   "merge": [
+    "/blog/thue-xe-may-cho-2-nguoi-ha-noi/"
+   ]
+  },
+  {
+   "group": 12,
+   "source": "7b-06",
+   "winner_7b06": "/blog/phi-tra-xe-muon-thue-xe-may/",
+   "merge": [
+    "/blog/thue-xe-may-ha-noi-tra-xe-muon/",
+    "/blog/tra-xe-thue-muon/"
+   ],
+   "winner_idx03_khac": "/blog/thue-xe-may-ha-noi-tra-xe-muon/",
+   "note": "Hai auditor chọn winner khác nhau: chọn URL có nhiều click/hiển thị GSC hơn (28 ngày); hòa thì giữ winner_7b06 (nhiều link nội bộ trỏ tới hơn)."
+  },
+  {
+   "group": 13,
+   "source": "7b-06",
+   "winner_7b06": "/blog/thue-xe-may-dai-han-ha-noi/",
+   "merge": [
+    "/blog/thue-xe-may-ha-noi-theo-thang/",
+    "/blog/thue-xe-may-ha-noi-1-thang/"
+   ],
+   "winner_idx03_khac": "/blog/thue-xe-may-ha-noi-theo-thang/",
+   "note": "Hai auditor chọn winner khác nhau: chọn URL có nhiều click/hiển thị GSC hơn (28 ngày); hòa thì giữ winner_7b06 (nhiều link nội bộ trỏ tới hơn)."
+  },
+  {
+   "group": 14,
+   "source": "7b-06",
+   "winner_7b06": "/blog/giao-xe-tan-noi-hay-tu-den-nhan-xe/",
+   "merge": [
+    "/blog/giao-nhan-xe-may-thue-ba-dinh-ha-noi/",
+    "/blog/giao-nhan-xe-may-thue-bac-tu-liem-ha-noi/",
+    "/blog/giao-nhan-xe-may-thue-cau-giay-ha-noi/",
+    "/blog/giao-nhan-xe-may-thue-dong-anh-ha-noi/",
+    "/blog/giao-nhan-xe-may-thue-dong-da-ha-noi/",
+    "/blog/giao-nhan-xe-may-thue-duong-lang-ha-noi/",
+    "/blog/giao-nhan-xe-may-thue-ga-ha-noi-ha-noi/",
+    "/blog/giao-nhan-xe-may-thue-gia-lam-ha-noi/",
+    "/blog/giao-nhan-xe-may-thue-giap-bat-ha-noi/",
+    "/blog/giao-nhan-xe-may-thue-ha-dong-ha-noi/",
+    "/blog/giao-nhan-xe-may-thue-hai-ba-trung-ha-noi/",
+    "/blog/giao-nhan-xe-may-thue-hoan-kiem-ha-noi/",
+    "/blog/giao-nhan-xe-may-thue-hoang-mai-ha-noi/",
+    "/blog/giao-nhan-xe-may-thue-khuat-duy-tien-ha-noi/",
+    "/blog/giao-nhan-xe-may-thue-le-duan-ha-noi/",
+    "/blog/giao-nhan-xe-may-thue-long-bien-ha-noi/",
+    "/blog/giao-nhan-xe-may-thue-my-dinh-ha-noi/",
+    "/blog/giao-nhan-xe-may-thue-nam-tu-liem-ha-noi/",
+    "/blog/giao-nhan-xe-may-thue-noi-bai-ha-noi/",
+    "/blog/giao-nhan-xe-may-thue-o-cho-dua-ha-noi/",
+    "/blog/giao-nhan-xe-may-thue-pho-co-ha-noi/",
+    "/blog/giao-nhan-xe-may-thue-soc-son-ha-noi/",
+    "/blog/giao-nhan-xe-may-thue-tay-ho-ha-noi/",
+    "/blog/giao-nhan-xe-may-thue-thanh-xuan-ha-noi/",
+    "/blog/giao-nhan-xe-may-thue-trau-quy-ha-noi/"
+   ],
+   "note": "Chỉ chuyển sang bài thue-xe-may-<khu-vực> những câu thật sự riêng của khu vực và đã được chủ xác nhận (điểm nhận, có giao hay không, phí). Không hứa giao ở khu vực chủ chưa xác nhận."
+  },
+  {
+   "group": 15,
+   "source": "IDX-03 (bổ sung)",
+   "winner_7b06": "/blog/thue-xe-may-ha-noi-theo-tuan/",
+   "merge": [
+    "/blog/thue-xe-may-ha-noi-1-tuan/"
+   ],
+   "note": "Nhóm chỉ IDX-03 có (tuần)."
+  },
+  {
+   "group": 16,
+   "source": "IDX-03 (bổ sung)",
+   "winner_7b06": "/blog/thue-xe-may-ha-noi-khong-coc/",
+   "merge": [
+    "/blog/thue-xe-may-khong-coc-can-gi/"
+   ],
+   "note": "Nhóm chỉ IDX-03 có. Bài giữ lại phải nói rõ Motoopen nhận cọc 2–5 triệu, hoàn cọc theo hợp đồng."
+  },
+  {
+   "group": 17,
+   "source": "IDX-03 (bổ sung)",
+   "winner_7b06": "/blog/thue-xe-may-ha-noi-cho-sinh-vien/",
+   "merge": [
+    "/blog/sinh-vien-thue-xe-may-can-gi/"
+   ],
+   "note": "Nhóm chỉ IDX-03 có (sinh viên)."
+  }
+ ],
+ "conditional_rewrite_or_merge": [
+  "/blog/thue-xe-may-bac-tu-liem-ha-noi/",
+  "/blog/thue-xe-may-dong-da-ha-noi/",
+  "/blog/thue-xe-may-duong-lang-ha-noi/",
+  "/blog/thue-xe-may-ga-ha-noi-ha-noi/",
+  "/blog/thue-xe-may-giap-bat-ha-noi/",
+  "/blog/thue-xe-may-khuat-duy-tien-ha-noi/",
+  "/blog/thue-xe-may-le-duan-ha-noi/",
+  "/blog/thue-xe-may-my-dinh-ha-noi/",
+  "/blog/thue-xe-may-nam-tu-liem-ha-noi/",
+  "/blog/thue-xe-may-noi-bai-ha-noi/",
+  "/blog/thue-xe-may-o-cho-dua-ha-noi/",
+  "/blog/thue-xe-may-trau-quy-ha-noi/"
+ ]
+}

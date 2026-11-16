@@ -1,0 +1,491 @@
+diff --git a/_includes/home/audiences.html b/_includes/home/audiences.html
+index 7a50893..5229b5f 100644
+--- a/_includes/home/audiences.html
++++ b/_includes/home/audiences.html
+@@ -17,3 +17,3 @@
+           <p class="seoo-text">
+-            Một lợi thế ít người để ý: nếu công ty chưa hỗ trợ xe, chi phí thuê tháng (khoảng 1–2 triệu) thường thấp
++            Một lợi thế ít người để ý: nếu công ty chưa hỗ trợ xe, chi phí thuê tháng (khoảng 900.000đ–2 triệu) thường thấp
+             hơn chi phí nuôi xe cá nhân (khấu hao + bảo dưỡng + gửi xe tháng). Bạn cũng không phải lo chỗ gửi xe qua
+@@ -32,3 +32,3 @@
+             <a class="seoo-link" href="#thue-xe-theo-thang">thuê xe máy theo tháng</a> với chi phí chỉ từ khoảng
+-            <strong>1.000k – 1.200k/tháng</strong> cho xe ga giá rẻ hoặc xe số, cọc từ 2 triệu.
++            <strong>900k – 1.200k/tháng</strong> cho xe ga giá rẻ hoặc xe số, cọc từ 2 triệu.
+           </p>
+@@ -48,3 +48,3 @@
+               <h3>Chưa có bằng lái?</h3>
+-              <p>Có thể chọn xe máy 50cc hoặc xe đạp điện — không yêu cầu bằng lái, phù hợp đi học trong bán kính gần.</p>
++              <p>Có thể chọn xe gắn máy 50cc hoặc xe đạp điện — không yêu cầu bằng lái (người lái xe gắn máy đủ 16 tuổi), phù hợp đi học trong bán kính gần.</p>
+             </article>
+@@ -55,5 +55,3 @@
+             chi phí phát sinh cần hỏi trước (phí giao xe, phí quá
+-            hạn, trách nhiệm khi xe hỏng). Nếu ở khu vực Cầu Giấy, Đống Đa, Hai Bà Trưng hay Long Biên, bạn đều có thể
+-            hẹn giao xe tận nơi tại nhà trọ hoặc ký túc xá theo thỏa
+-            thuận.
++            hạn, trách nhiệm khi xe hỏng). Nếu muốn nhận xe tại nhà trọ hoặc ký túc xá, hãy hỏi trước khả năng giao xe và phí giao (nếu có) cho khu vực của bạn.
+           </p>
+@@ -78,3 +76,3 @@
+               <h3>Nhận xe tại khách sạn/homestay</h3>
+-              <p>Xe được giao tận nơi quanh Phố Cổ, Hoàn Kiếm, Tây Hồ… với phí 20k–50k tùy điểm hẹn. Giờ làm việc 09:00–21:00 hằng ngày.</p>
++              <p>Có thể hẹn giao xe tận nơi; khu vực, thời gian và phí giao (nếu có) được thỏa thuận trước khi chốt. Giờ làm việc 09:00–21:00 hằng ngày.</p>
+             </article>
+diff --git a/_includes/home/delivery-terms.html b/_includes/home/delivery-terms.html
+index 2954edf..ce1fa9b 100644
+--- a/_includes/home/delivery-terms.html
++++ b/_includes/home/delivery-terms.html
+@@ -46,4 +46,3 @@
+             biệt hữu ích khi mang theo hành lý, đi cùng trẻ nhỏ hoặc nhận xe ngoài giờ hành chính cá nhân. Motoopen
+-            giao xe tại các quận nội thành theo lịch hẹn trước; phí giao tiêu chuẩn <strong>20k–50k</strong> tùy
+-            khoảng cách và điểm hẹn. Thời gian giao phụ thuộc vị trí, tình trạng xe sẵn có và thời điểm trong ngày —
++            giao xe tại các quận nội thành theo lịch hẹn trước; phí giao (nếu có) được báo trước khi chốt. Thời gian giao phụ thuộc vị trí, tình trạng xe sẵn có và thời điểm trong ngày —
+             hãy liên hệ trước để được sắp xếp khung giờ phù hợp.
+@@ -58,3 +57,3 @@
+               <h3><span style="color:var(--accent)">Bước 2.</span> Chuẩn bị giấy tờ</h3>
+-              <p>CCCD/CMND hoặc hộ chiếu, tiền cọc theo dòng xe (xem <a class="seoo-link" href="#dat-coc-thue-xe">mức cọc từng xe</a>). Chuẩn bị sẵn giúp việc giao nhận nhanh gọn tại chỗ.</p>
++              <p>CCCD hoặc hộ chiếu, tiền cọc theo dòng xe (xem <a class="seoo-link" href="#dat-coc-thue-xe">mức cọc từng xe</a>). Chuẩn bị sẵn giúp việc giao nhận nhanh gọn tại chỗ.</p>
+             </article>
+@@ -81,3 +80,3 @@
+             Cửa hàng Motoopen đặt tại <strong>114 Nguyễn Văn Cừ, Long Biên</strong> — vị trí thuận tiện cho cả khu vực
+-            bờ Đông và trung tâm phố cổ. Xe được giao tận nơi tại các khu vực sau (phí 20k–50k tùy điểm hẹn):
++            bờ Đông và trung tâm phố cổ. Phạm vi giao xe và phí giao (nếu có) được xác nhận khi bạn đặt xe; bạn có thể hỏi giao nhận tại các khu vực như:
+           </p>
+@@ -99,5 +98,3 @@
+             Bồ Đề, Ngọc Lâm hay dọc trục Nguyễn Văn Cừ đều dễ hẹn điểm. Khách ở <strong>Phố Cổ – Hoàn Kiếm</strong>
+-            nên chọn điểm nhận ở đầu phố hoặc sảnh khách sạn vì nhiều tuyến phố cấm dừng đỗ theo giờ. Các quận
+-            <strong>Tây Hồ, Ba Đình, Cầu Giấy, Đống Đa, Hai Bà Trưng, Hoàng Mai</strong> đều nằm trong phạm vi phục
+-            vụ; nếu bạn ở khu vực khác của Hà Nội, hãy liên hệ trước để xác nhận khả năng giao xe và mức phí cụ thể.
++            nên chọn điểm nhận ở đầu phố hoặc sảnh khách sạn vì nhiều tuyến phố cấm dừng đỗ theo giờ. Với các quận <strong>Tây Hồ, Ba Đình, Cầu Giấy, Đống Đa, Hai Bà Trưng, Hoàng Mai</strong> hoặc khu vực khác của Hà Nội, hãy liên hệ trước để xác nhận khả năng giao xe và mức phí (nếu có).
+           </p>
+@@ -118,5 +115,5 @@
+           <ol class="seoo-list" style="margin:6px 0 0 20px;padding:0;color:var(--muted);font-weight:600">
+-            <li style="margin:8px 0"><strong style="color:var(--text)">Xác nhận loại xe & thời gian thuê:</strong> chọn dòng xe (xe số, xe ga, 50cc, điện, tay côn) và số ngày/tuần/tháng thuê. Nhân viên báo giá cuối cùng gồm tiền thuê và phí giao (nếu có).</li>
+-            <li style="margin:8px 0"><strong style="color:var(--text)">Xuất trình giấy tờ:</strong> CMND/CCCD hoặc hộ chiếu. Đây là giấy tờ cơ bản để làm hợp đồng; các yêu cầu khác (nếu có với từng trường hợp cụ thể) sẽ được trao đổi trước khi bạn đến nhận xe.</li>
+-            <li style="margin:8px 0"><strong style="color:var(--text)">Đặt cọc:</strong> mức cọc 1–5 triệu tùy dòng xe, được ghi rõ trong hợp đồng và hoàn lại khi trả xe đúng thỏa thuận. Xem chi tiết ở phần <a class="seoo-link" href="#dat-coc-thue-xe">tiền đặt cọc thuê xe máy</a>.</li>
++            <li style="margin:8px 0"><strong style="color:var(--text)">Xác nhận loại xe & thời gian thuê:</strong> chọn dòng xe (xe số, xe ga, 50cc, xe điện) và số ngày/tuần/tháng thuê. Nhân viên báo giá cuối cùng gồm tiền thuê và phí giao (nếu có).</li>
++            <li style="margin:8px 0"><strong style="color:var(--text)">Xuất trình giấy tờ:</strong> CCCD hoặc hộ chiếu. Đây là giấy tờ cơ bản để làm hợp đồng; các yêu cầu khác (nếu có với từng trường hợp cụ thể) sẽ được trao đổi trước khi bạn đến nhận xe.</li>
++            <li style="margin:8px 0"><strong style="color:var(--text)">Đặt cọc:</strong> mức cọc 2–5 triệu tùy dòng xe, được ghi rõ trong hợp đồng và hoàn lại theo điều kiện hợp đồng khi trả xe. Xem chi tiết ở phần <a class="seoo-link" href="#dat-coc-thue-xe">tiền đặt cọc thuê xe máy</a>.</li>
+             <li style="margin:8px 0"><strong style="color:var(--text)">Kiểm tra xe cùng nhân viên:</strong> phanh, lốp, đèn, còi, xi nhan, gương, mức xăng, vết xước có sẵn… và ghi chú vào biên bản. Bạn có thể chụp ảnh/quay video để lưu.</li>
+@@ -138,3 +135,3 @@
+             <strong>Đặt cọc thuê xe máy Hà Nội</strong> là thông lệ chung của các đơn vị cho thuê, nhằm đảm bảo trách
+-            nhiệm của người thuê với tài sản có giá trị. Tại Motoopen, mức <strong>cọc từ 1 đến 5 triệu đồng</strong>
++            nhiệm của người thuê với tài sản có giá trị. Tại Motoopen, mức <strong>cọc từ 2 đến 5 triệu đồng</strong>
+             tùy dòng xe — mức cụ thể theo bảng giá hiện hành:
+@@ -144,3 +141,3 @@
+               <h3>Click / Mio</h3>
+-              <p><strong>Cọc ~2 triệu.</strong> Nhóm xe ga giá rẻ, mức cọc thấp nhất — phù hợp sinh viên.</p>
++              <p><strong>Cọc 2 triệu.</strong> Nhóm xe ga giá rẻ, mức cọc thấp nhất — phù hợp sinh viên.</p>
+             </article>
+@@ -152,3 +149,3 @@
+               <h3>Air Blade</h3>
+-              <p><strong>Cọc ~3 triệu.</strong> Xe ga tầm trung, máy khoẻ, giá trị cao hơn xe số.</p>
++              <p><strong>Cọc 3 triệu.</strong> Xe ga tầm trung, máy khoẻ, giá trị cao hơn xe số.</p>
+             </article>
+@@ -164,6 +161,6 @@
+             <li style="margin:6px 0">Nếu xe hư hỏng do va chạm, mất phụ tùng hoặc trả trễ hẹn, chi phí liên quan được xử lý theo điều khoản hợp đồng; phần cọc còn lại (nếu có) hoàn lại cho bạn.</li>
+-            <li style="margin:6px 0">Chuẩn bị cọc bằng tiền mặt hoặc chuyển khoản theo hướng dẫn khi làm thủ tục; giữ lại biên nhận cọc.</li>
++            <li style="margin:6px 0">Chuẩn bị tiền cọc theo hướng dẫn khi làm thủ tục; giữ lại biên nhận cọc.</li>
+           </ul>
+           <p class="seoo-text">
+-            So với việc bỏ ra hàng chục triệu để mua xe, mức cọc 1–5 triệu khi
++            So với việc bỏ ra hàng chục triệu để mua xe, mức cọc 2–5 triệu khi
+             <strong>thuê xe máy giá rẻ Hà Nội</strong> theo tháng là rào cản tài chính khá nhẹ — đây cũng là lý do
+diff --git a/_includes/home/hero.html b/_includes/home/hero.html
+index 0ce18a8..209c2ae 100644
+--- a/_includes/home/hero.html
++++ b/_includes/home/hero.html
+@@ -7,3 +7,3 @@
+               <h1 class="hmini-title">Thuê Xe Máy Tháng Hà Nội Giao Tận Nơi – Xe Ga, Xe Số Giá Hợp Lý</h1>
+-              <p class="hmini-sub">Xe số • Xe ga • 50cc/điện · Thuê ngày/tuần/tháng · Giao tận nơi nội thành, cọc nhẹ, xe bảo dưỡng kỹ. Thuê tháng từ 1–2 triệu, thuê ngày từ 150k.</p>
++              <p class="hmini-sub">Xe số • Xe ga • 50cc/điện · Thuê ngày/tuần/tháng · Giao tận nơi nội thành, cọc 2–5 triệu tùy xe, xe bảo dưỡng kỹ. Thuê tháng từ 900k–2 triệu, thuê ngày từ 150k.</p>
+               <div class="hmini-toggle" role="tablist" aria-label="Chọn gói thuê">
+@@ -14,3 +14,3 @@
+ 
+-              <p class="hmini-price">Giá dự kiến: <span id="hminiPrice">1–2 triệu/tháng</span> • <span id="hminiDeposit">Cọc 1–5 triệu tuỳ xe</span></p>
++              <p class="hmini-price">Giá dự kiến: <span id="hminiPrice">900k–2 triệu/tháng</span> • <span id="hminiDeposit">Cọc 2–5 triệu tuỳ xe</span></p>
+ 
+diff --git a/_includes/home/monthly-overview.html b/_includes/home/monthly-overview.html
+index 8e07d72..19ab089 100644
+--- a/_includes/home/monthly-overview.html
++++ b/_includes/home/monthly-overview.html
+@@ -7,3 +7,3 @@
+             thuê theo ngày với chi phí cộng dồn rất cao, gói <strong>thuê xe máy theo tháng Hà Nội</strong> cho bạn một
+-            phương tiện ổn định với mức chi phí dự trù được ngay từ đầu — chỉ từ khoảng 1 triệu đồng/tháng với xe số
++            phương tiện ổn định với mức chi phí dự trù được ngay từ đầu — từ 900.000đ/tháng với xe số
+             hoặc xe ga giá rẻ.
+@@ -67,3 +67,3 @@
+                   <td>150k/ngày (~4.500k/30 ngày*)</td>
+-                  <td>1.200k/tháng</td>
++                  <td>900k – 1.200k/tháng</td>
+                 </tr>
+@@ -77,3 +77,3 @@
+                   <td>200k/ngày (~6.000k/30 ngày*)</td>
+-                  <td>1.400k/tháng</td>
++                  <td>1.500k/tháng</td>
+                 </tr>
+diff --git a/_includes/home/pricing.html b/_includes/home/pricing.html
+index 21bdc7d..b78dfb9 100644
+--- a/_includes/home/pricing.html
++++ b/_includes/home/pricing.html
+@@ -17,4 +17,4 @@
+                 <div><span>1 ngày</span><span>150k</span></div>
+-                <div><span>1 tuần</span><span>600k – 700k</span></div>
+-                <div><span>1 tháng</span><span>1.200k</span></div>
++                <div><span>1 tuần</span><span>700k</span></div>
++                <div><span>1 tháng</span><span>900k – 1.200k</span></div>
+                 <div><span>Đặt cọc</span><span>2 – 3 triệu</span></div>
+@@ -30,3 +30,3 @@
+                 <div><span>1 ngày</span><span>200k</span></div>
+-                <div><span>1 tuần</span><span>800k – 1.000k</span></div>
++                <div><span>1 tuần</span><span>1.000k</span></div>
+                 <div><span>1 tháng</span><span>1.800k – 2.000k</span></div>
+@@ -43,4 +43,4 @@
+                 <div><span>1 ngày</span><span>200k</span></div>
+-                <div><span>1 tuần</span><span>800k</span></div>
+-                <div><span>1 tháng</span><span>1.400k</span></div>
++                <div><span>1 tuần</span><span>1.000k</span></div>
++                <div><span>1 tháng</span><span>1.500k</span></div>
+                 <div><span>Đặt cọc</span><span>3 triệu</span></div>
+@@ -56,4 +56,4 @@
+                 <div><span>1 ngày</span><span>150k</span></div>
+-                <div><span>1 tuần</span><span>600k – 700k</span></div>
+-                <div><span>1 tháng</span><span>1.000k – 1.200k</span></div>
++                <div><span>1 tuần</span><span>700k</span></div>
++                <div><span>1 tháng</span><span>900k – 1.200k</span></div>
+                 <div><span>Đặt cọc</span><span>2 triệu</span></div>
+@@ -78,4 +78,4 @@
+                   <td>150k</td>
+-                  <td>600k - 700k</td>
+-                  <td>1.200k</td>
++                  <td>700k</td>
++                  <td>900k - 1.200k</td>
+                   <td>2 - 3 triệu</td>
+@@ -85,3 +85,3 @@
+                   <td>200k</td>
+-                  <td>800k - 1.000k</td>
++                  <td>1.000k</td>
+                   <td>1.800k - 2.000k</td>
+@@ -92,4 +92,4 @@
+                   <td>200k</td>
+-                  <td>800k</td>
+-                  <td>1.400k</td>
++                  <td>1.000k</td>
++                  <td>1.500k</td>
+                   <td>3 triệu</td>
+@@ -99,4 +99,4 @@
+                   <td>150k</td>
+-                  <td>600k - 700k</td>
+-                  <td>1.000k - 1.200k</td>
++                  <td>700k</td>
++                  <td>900k - 1.200k</td>
+                   <td>2 triệu</td>
+@@ -104,11 +104,15 @@
+                 <tr>
+-                  <td>Xe máy 50cc / Xe đạp điện</td>
+-                  <td colspan="3">Giá tương đương Vision theo gói thuê — liên hệ để báo giá theo tháng</td>
+-                  <td>Liên hệ</td>
++                  <td>Xe tay ga 50cc</td>
++                  <td>200k</td>
++                  <td colspan="2">Tuần/tháng: báo giá khi liên hệ</td>
++                  <td>4 triệu</td>
++                </tr>
++                <tr>
++                  <td>Xe máy điện / xe đạp điện</td>
++                  <td colspan="3">Liên hệ báo giá</td>
++                  <td>Theo mẫu xe</td>
+                 </tr>
+                 <tr>
+-                  <td>Xe tay côn (đi phượt)</td>
+-                  <td>350k</td>
+-                  <td colspan="2">Thuê tuần/tháng: liên hệ báo giá</td>
+-                  <td>Liên hệ</td>
++                  <td>Mẫu khác (SH, Lead, Vespa, xe côn tay…)</td>
++                  <td colspan="4">Liên hệ để kiểm tra xe và giá</td>
+                 </tr>
+@@ -116,3 +120,3 @@
+                   <td>Phí giao xe tận nơi</td>
+-                  <td colspan="4">20k – 50k/lượt tuỳ khoảng cách &amp; điểm hẹn (nhận xe tại cửa hàng: miễn phí)</td>
++                  <td colspan="4">Báo trước khi chốt (nếu có); nhận xe tại cửa hàng không mất phí giao</td>
+                 </tr>
+@@ -122,3 +126,3 @@
+           <p class="mapp-note">
+-            * Giá có thể thay đổi theo thời điểm/mẫu xe. Giá thuê tháng với xe 50cc, xe điện, tay côn hoặc hợp đồng
++            * Giá có thể thay đổi theo thời điểm/mẫu xe. Giá thuê tuần/tháng với xe 50cc, xe điện, mẫu khác hoặc hợp đồng
+             nhiều tháng phụ thuộc dòng xe, thời gian thuê và tình trạng xe — liên hệ
+diff --git a/_includes/home/rental-process.html b/_includes/home/rental-process.html
+index 49de84c..67fad18 100644
+--- a/_includes/home/rental-process.html
++++ b/_includes/home/rental-process.html
+@@ -3,5 +3,5 @@
+           <ul class="mapp-list">
+-            <li>Long Biên, Gia Lâm, Phố Cổ, Hoàn Kiếm (ưu tiên giao nhanh).</li>
+-            <li>Phí giao tiêu chuẩn: <strong>20k – 50k</strong> (tính theo quãng đường/điểm hẹn).</li>
+-            <li>Nhận CMND/CCCD/Hộ chiếu; hợp đồng rõ ràng, thanh toán linh hoạt.</li>
++            <li>Nhận xe tại cửa hàng 114 Nguyễn Văn Cừ, Long Biên (09:00–21:00 hằng ngày) hoặc hẹn giao tận nơi.</li>
++            <li>Khu vực giao và phí giao (nếu có) được báo trước khi chốt.</li>
++            <li>Thanh toán tiền thuê, đặt cọc và cung cấp giấy tờ theo thỏa thuận; hoàn cọc theo điều kiện hợp đồng khi trả xe.</li>
+           </ul>
+@@ -21,3 +21,3 @@
+               <p>
+-                Gọi/Zalo <strong>0857 255 868</strong>, cho biết ngày giờ, khu vực nhận xe và loại xe bạn muốn (xe số, xe ga, 50cc, tay côn…).
++                Gọi/Zalo <strong>0857 255 868</strong>, cho biết ngày giờ, khu vực nhận xe và loại xe bạn muốn (xe số, xe ga, 50cc, xe điện…).
+               </p>
+@@ -33,7 +33,7 @@
+               <p>
+-                Chuẩn bị <strong>CMND/CCCD hoặc hộ chiếu</strong> và tiền cọc theo loại xe. Nhân viên sẽ giải thích nhanh điều kiện thuê và hợp đồng.
++                Chuẩn bị <strong>CCCD hoặc hộ chiếu</strong> và tiền cọc theo loại xe. Nhân viên sẽ giải thích nhanh điều kiện thuê và hợp đồng.
+               </p>
+               <div class="mapp-step-meta">
+-                <span><i class="fa-solid fa-id-card"></i> CMND/CCCD hoặc Passport</span>
+-                <span><i class="fa-solid fa-hand-holding-dollar"></i> Cọc 1–5 triệu tuỳ xe</span>
++                <span><i class="fa-solid fa-id-card"></i> CCCD hoặc hộ chiếu</span>
++                <span><i class="fa-solid fa-hand-holding-dollar"></i> Cọc 2–5 triệu tuỳ xe</span>
+               </div>
+diff --git a/_includes/home/rental-tips.html b/_includes/home/rental-tips.html
+index 2fb7119..772b2ed 100644
+--- a/_includes/home/rental-tips.html
++++ b/_includes/home/rental-tips.html
+@@ -42,3 +42,3 @@
+               <h3>Phí giao – nhận xe</h3>
+-              <p>Giao tận nơi 20k–50k tùy khoảng cách/điểm hẹn. Hỏi rõ phí áp dụng một chiều hay cả chiều trả xe.</p>
++              <p>Hỏi rõ phí giao tận nơi (nếu có) và phí áp dụng một chiều hay cả chiều trả xe.</p>
+             </article>
+@@ -182,3 +182,3 @@
+                   <td>Chi phí ban đầu</td>
+-                  <td>Cọc 1–5 triệu + tiền thuê tháng</td>
++                  <td>Cọc 2–5 triệu + tiền thuê tháng</td>
+                   <td>10–30+ triệu tùy xe</td>
+@@ -187,3 +187,3 @@
+                   <td>Chi phí dùng 3 tháng (tham khảo, xe số)</td>
+-                  <td>~3.600k tiền thuê (1.200k × 3)</td>
++                  <td>2.700k–3.600k tiền thuê (900k–1.200k × 3)</td>
+                   <td>Giá mua + sang tên + bảo dưỡng + rủi ro sửa chữa</td>
+diff --git a/_includes/home/reviews.html b/_includes/home/reviews.html
+index e5a08dc..a92b40f 100644
+--- a/_includes/home/reviews.html
++++ b/_includes/home/reviews.html
+@@ -1,35 +1,6 @@
+         <section class="sx-wrap sx-rev" aria-label="Đánh giá khách hàng">
+-          <h2>Khách hàng tại Hà Nội nói gì</h2>
+-          <div class="sx-revlist">
+-            <figure class="sx-quote">
+-              <div class="sx-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+-              <blockquote>“Thuê xe Vision 3 ngày, xe chạy êm — giao tận nơi phố cổ nhanh, phí nhẹ.”</blockquote>
+-              <figcaption>— Thu Hà · Phố Cổ</figcaption>
+-            </figure>
+-            <figure class="sx-quote">
+-              <div class="sx-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+-              <blockquote>“Giá thuê xe máy hợp lý, cọc nhẹ, nhân viên thân thiện. Ở Long Biên rất tiện.”</blockquote>
+-              <figcaption>— Quang Lâm · Long Biên</figcaption>
+-            </figure>
+-            <figure class="sx-quote">
+-              <div class="sx-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+-              <blockquote>“Mình thuê xe ga theo tháng ở Tây Hồ — giá tốt, xe mới, bảo dưỡng kỹ.”</blockquote>
+-              <figcaption>— Gia Nội · Tây Hồ</figcaption>
+-            </figure>
+-            <figure class="sx-quote">
+-              <div class="sx-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+-              <blockquote>“Thuê xe máy Hà Nội dễ, nhận xe nhanh, giao tận nơi đúng giờ — rất đáng tiền.”</blockquote>
+-              <figcaption>— Lan Tây · Ba Đình</figcaption>
+-            </figure>
+-            <figure class="sx-quote">
+-              <div class="sx-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+-              <blockquote>“Giá thuê xe máy 150k/ngày, thuê tháng từ 1 triệu — quá hợp lý, xe cực mới.”</blockquote>
+-              <figcaption>— Hồ Đức · Hoàn Kiếm</figcaption>
+-            </figure>
+-
+-            <figure class="sx-quote">
+-              <div class="sx-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+-              <blockquote>“Xe chạy êm, nhân viên thân thiện, thủ tục nhanh gọn.”</blockquote>
+-              <figcaption>— Nguyễn Đông – Cầu Giấy</figcaption>
+-            </figure>
++          <h2>Đánh giá của khách hàng</h2>
++          <p class="sx-desc">Đọc đánh giá công khai của khách đã thuê xe và để lại nhận xét của bạn trên Google Maps.</p>
++          <div class="sx-cta" aria-label="Đánh giá trên Google Maps">
++            <a class="primary" href="https://maps.app.goo.gl/2icTBTxAToyvKTE78" target="_blank" rel="noopener"><i class="fa-solid fa-location-dot"></i> Xem đánh giá trên Google Maps</a>
+           </div>
+diff --git a/_includes/home/service-intro.html b/_includes/home/service-intro.html
+index d1d6646..a6833d4 100644
+--- a/_includes/home/service-intro.html
++++ b/_includes/home/service-intro.html
+@@ -4,3 +4,3 @@
+             <h2 class="mapp-h1">Dịch Vụ Thuê Xe Máy Hà Nội – Giao Tận Nơi</h2>
+-            <p class="mapp-kicker">Xe số • Xe ga • Xe điện · Cọc 1–5 triệu · 09:00–21:00</p>
++            <p class="mapp-kicker">Xe số • Xe ga • Xe điện · Cọc 2–5 triệu · 09:00–21:00</p>
+           </div>
+@@ -17,3 +17,3 @@
+           <li>Giao tận nơi nội thành</li>
+-          <li>Cọc nhẹ 1–5 triệu</li>
++          <li>Cọc 2–5 triệu tùy xe</li>
+           <li>Xe mới, bảo dưỡng định kỳ</li>
+@@ -25,3 +25,3 @@
+           <p class="mapp-text">
+-            Motoopen cung cấp dịch vụ <strong>thuê xe máy tháng Hà Nội giao tận nơi</strong> cùng các gói thuê ngày và thuê tuần. Danh mục xe gồm <strong>thuê xe số theo tháng</strong> (Honda Wave/RSX), <strong>thuê xe ga theo tháng</strong> (Vision, Air Blade, Click/Mio), xe 50cc, xe đạp điện và xe tay côn. Thủ tục đơn giản, <strong>cọc 1–5 triệu</strong> tùy loại xe, hợp đồng rõ ràng.
++            Motoopen cung cấp dịch vụ <strong>thuê xe máy tháng Hà Nội giao tận nơi</strong> cùng các gói thuê ngày và thuê tuần. Danh mục xe gồm <strong>thuê xe số theo tháng</strong> (Honda Wave/RSX), <strong>thuê xe ga theo tháng</strong> (Vision, Air Blade, Click/Mio), xe tay ga 50cc và xe điện. Thủ tục đơn giản, <strong>cọc 2–5 triệu</strong> tùy loại xe, hợp đồng rõ ràng.
+           </p>
+@@ -31,5 +31,3 @@
+           <p class="mapp-text">
+-            Khu vực giao xe phổ biến: <strong>Long Biên</strong>, <strong>Gia Lâm</strong>,
+-            <strong>Phố Cổ</strong>, <strong>Hoàn Kiếm</strong>… (có tính phí giao từ <strong>20k–50k</strong> tuỳ
+-            khoảng cách).
++            Có thể hẹn giao xe tận nơi; khu vực giao và phí giao (nếu có) được báo trước khi chốt.
+             Gọi/Zalo để nhận báo giá chính xác và sắp xếp thời gian giao xe phù hợp.
+diff --git a/_includes/home/vehicle-guides.html b/_includes/home/vehicle-guides.html
+index 2b2e36f..16daf11 100644
+--- a/_includes/home/vehicle-guides.html
++++ b/_includes/home/vehicle-guides.html
+@@ -18,3 +18,3 @@
+                 <li>Đi phố đông lẫn đường dài đều ổn</li>
+-                <li>Giá tham khảo: 150k/ngày · 1.200k/tháng · cọc 2–3 triệu</li>
++                <li>Giá tham khảo: 150k/ngày · 900k–1.200k/tháng · cọc 2–3 triệu</li>
+               </ul>
+@@ -40,3 +40,3 @@
+                 <li>Đi đường trường ổn định hơn xe ga nhỏ</li>
+-                <li>Giá tham khảo: 200k/ngày · 1.400k/tháng · cọc 3 triệu</li>
++                <li>Giá tham khảo: 200k/ngày · 1.500k/tháng · cọc 3 triệu</li>
+               </ul>
+@@ -51,3 +51,3 @@
+                 <li>Gọn nhẹ, dễ luồn lách phố nhỏ, ngõ hẹp</li>
+-                <li>Giá tham khảo: 150k/ngày · 1.000k–1.200k/tháng · cọc 2 triệu</li>
++                <li>Giá tham khảo: 150k/ngày · 900k–1.200k/tháng · cọc 2 triệu</li>
+               </ul>
+@@ -57,8 +57,8 @@
+               <span class="seoo-icon"><i class="fa-solid fa-scale-balanced"></i></span>
+-              <h3>Xe máy 50cc</h3>
+-              <p><strong>Phù hợp:</strong> học sinh, người chưa có bằng lái, người lớn tuổi đi gần.</p>
++              <h3>Xe tay ga 50cc</h3>
++              <p><strong>Phù hợp:</strong> người từ đủ 16 tuổi, người chưa có bằng lái, người lớn tuổi đi gần.</p>
+               <ul>
+-                <li>Không yêu cầu bằng lái theo quy định hiện hành với phân khối dưới 50cc</li>
++                <li>Không yêu cầu bằng lái với xe gắn máy (không quá 50 cm3, tốc độ thiết kế không quá 50 km/h); người lái đủ 16 tuổi</li>
+                 <li>Tốc độ vừa phải, dễ kiểm soát</li>
+-                <li>Giá thuê ngày tương đương Vision; giá tháng liên hệ để được báo theo xe sẵn có</li>
++                <li>Giá thuê 200k/ngày; tuần/tháng báo giá; cọc 4 triệu</li>
+               </ul>
+@@ -68,3 +68,3 @@
+               <span class="seoo-icon"><i class="fa-solid fa-leaf"></i></span>
+-              <h3>Xe đạp điện</h3>
++              <h3>Xe máy điện / xe đạp điện</h3>
+               <p><strong>Phù hợp:</strong> di chuyển ngắn trong phố, người muốn tiết kiệm tối đa chi phí nhiên liệu.</p>
+@@ -73,3 +73,3 @@
+                 <li>Yên tĩnh, thân thiện môi trường</li>
+-                <li>Giá thuê ngày tương đương Vision; thuê tháng liên hệ báo giá</li>
++                <li>Giá thuê và cọc: liên hệ báo giá theo mẫu xe</li>
+               </ul>
+@@ -79,3 +79,3 @@
+               <span class="seoo-icon"><i class="fa-solid fa-person-hiking"></i></span>
+-              <h3>Xe tay côn</h3>
++              <h3>Xe côn tay và mẫu khác</h3>
+               <p><strong>Phù hợp:</strong> người thích cảm giác lái, đi phượt cuối tuần, đi tỉnh.</p>
+@@ -83,4 +83,4 @@
+                 <li>Máy khoẻ, phanh và khung sườn chắc chắn</li>
+-                <li>Giá thuê ngày 350k; gói tuần/tháng liên hệ báo giá</li>
+-                <li>Cần tay lái vững và bằng lái phù hợp</li>
++                <li>Mẫu khác: liên hệ để kiểm tra xe và giá</li>
++                <li>Cần giấy phép lái xe đúng hạng (A1 đến 125 cm3, A trên 125 cm3)</li>
+               </ul>
+@@ -95,4 +95,4 @@
+                 <li>Sinh viên: Wave hoặc Click/Mio</li>
+-                <li>Chưa có bằng lái: xe 50cc, xe đạp điện</li>
+-                <li>Đi phượt: tay côn, Air Blade</li>
++                <li>Chưa có bằng lái: xe gắn máy 50cc (đủ 16 tuổi)</li>
++                <li>Đi xa cuối tuần: Air Blade</li>
+               </ul>
+@@ -117,3 +117,3 @@
+             <strong>Thuê xe số theo tháng Hà Nội</strong> là lựa chọn "ăn chắc mặc bền" cho người dùng xe nhiều mỗi
+-            ngày. Dòng Honda Wave/Wave RSX tại Motoopen có giá thuê tháng khoảng <strong>1.200k</strong>, cọc 2–3
++            ngày. Dòng Honda Wave/Wave RSX tại Motoopen có giá thuê tháng <strong>900k–1.200k</strong>, cọc 2–3
+             triệu — thuộc nhóm chi phí thấp nhất trong các dòng xe cho thuê. Với người đi làm cách chỗ làm 5–10km hoặc
+@@ -145,3 +145,3 @@
+             <strong>Vision</strong> (1.800k–2.000k/tháng, cọc 4–5 triệu), <strong>Air Blade</strong>
+-            (1.400k/tháng, cọc 3 triệu) và nhóm <strong>xe ga giá rẻ Click/Mio</strong> (1.000k–1.200k/tháng, cọc 2
++            (1.500k/tháng, cọc 3 triệu) và nhóm <strong>xe ga giá rẻ Click/Mio</strong> (900k–1.200k/tháng, cọc 2
+             triệu).
+diff --git a/_includes/home/vehicles.html b/_includes/home/vehicles.html
+index b9a4f85..5fdac67 100644
+--- a/_includes/home/vehicles.html
++++ b/_includes/home/vehicles.html
+@@ -2,4 +2,3 @@
+           <h2 class="sx-head">Chọn xe máy</h2>
+-          <p class="sx-desc">Thuê xe máy Hà Nội: xe số, xe ga, 50cc và xe điện — ảnh thật, giá rõ ràng, giao nhanh nội
+-            thành.</p>
++          <p class="sx-desc">Thuê xe máy Hà Nội: xe số, xe ga, 50cc và xe điện — giá rõ ràng, hẹn giao xe nội thành. Ảnh là ảnh mẫu của hãng; xe giao thực tế có thể khác màu hoặc đời xe.</p>
+ 
+@@ -8,3 +7,3 @@
+               <figure class="sx-thumb">
+-                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5418.jpeg" alt="Xe số Honda Wave/RSX cho thuê theo ngày, tuần, tháng tại Hà Nội" loading="lazy" decoding="async" width="800" height="800">
++                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5418.jpeg" alt="Honda Wave màu đen – ảnh mẫu của hãng" loading="lazy" decoding="async" width="600" height="600">
+                 <span class="sx-badge">Từ 150k/ngày</span>
+@@ -22,3 +21,3 @@
+               <figure class="sx-thumb">
+-                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5421.jpeg" alt="Xe ga Air Blade cho thuê theo tháng, phù hợp đi phố và đi xa, giao tận nơi" loading="lazy" decoding="async" width="800" height="800">
++                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5421.jpeg" alt="Honda Air Blade màu đỏ đen – ảnh mẫu của hãng" loading="lazy" decoding="async" width="600" height="600">
+                 <span class="sx-badge">200k/ngày</span>
+@@ -36,3 +35,3 @@
+               <figure class="sx-thumb">
+-                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5419.jpeg" alt="Xe ga Honda Vision cho thuê tháng tại Hà Nội, giao nhanh Phố Cổ, Hoàn Kiếm" loading="lazy" decoding="async" width="800" height="800">
++                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5419.jpeg" alt="Honda Vision màu xanh – ảnh mẫu của hãng" loading="lazy" decoding="async" width="600" height="600">
+                 <span class="sx-badge">200k/ngày</span>
+@@ -50,10 +49,10 @@
+               <figure class="sx-thumb">
+-                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5426.jpeg" alt="Xe máy 50cc không cần bằng lái cho thuê tại Hà Nội" loading="lazy" decoding="async" width="800" height="800">
+-                <span class="sx-badge">Giá như Vision</span>
++                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5426.jpeg" alt="Xe tay ga 50cc SYM Elite 50 – ảnh mẫu của hãng" loading="lazy" decoding="async" width="600" height="600">
++                <span class="sx-badge">200k/ngày</span>
+               </figure>
+               <div class="sx-body">
+-                <h3 class="sx-title">Xe máy 50cc</h3>
++                <h3 class="sx-title">Xe tay ga 50cc</h3>
+                 <div class="sx-meta">
+-                  <span><i class="fa-solid fa-scale-balanced"></i>Giá như Vision</span>
+-                  <span><i class="fa-solid fa-id-card"></i>Không cần bằng lái</span>
++                  <span><i class="fa-solid fa-tag"></i>200k/ngày</span>
++                  <span><i class="fa-solid fa-id-card"></i>Không cần GPLX, đủ 16 tuổi</span>
+                 </div>
+@@ -64,7 +63,7 @@
+               <figure class="sx-thumb">
+-                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5420.jpeg" alt="Xe đạp điện cho thuê, tiện lợi đi lại trong phố Hà Nội" loading="lazy" decoding="async" width="800" height="800">
+-                <span class="sx-badge">Giá như Vision</span>
++                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5420.jpeg" alt="Xe máy điện màu kem – ảnh mẫu" loading="lazy" decoding="async" width="600" height="600">
++                <span class="sx-badge">Liên hệ</span>
+               </figure>
+               <div class="sx-body">
+-                <h3 class="sx-title">Xe đạp điện</h3>
++                <h3 class="sx-title">Xe máy điện / xe đạp điện</h3>
+                 <div class="sx-meta">
+@@ -78,9 +77,9 @@
+               <figure class="sx-thumb">
+-                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5431.jpeg" alt="Xe tay côn cho thuê đi phượt tại Hà Nội, máy khoẻ" loading="lazy" decoding="async" width="800" height="800">
+-                <span class="sx-badge">350k/ngày</span>
++                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5431.jpeg" alt="Yamaha Exciter – ảnh mẫu của hãng" loading="lazy" decoding="async" width="600" height="600">
++                <span class="sx-badge">Liên hệ</span>
+               </figure>
+               <div class="sx-body">
+-                <h3 class="sx-title">Xe tay côn</h3>
++                <h3 class="sx-title">Mẫu khác (xe côn tay…)</h3>
+                 <div class="sx-meta">
+-                  <span><i class="fa-solid fa-tag"></i>350k/ngày</span>
++                  <span><i class="fa-solid fa-tag"></i>Liên hệ kiểm tra xe và giá</span>
+                   <span><i class="fa-solid fa-person-hiking"></i>Phù hợp đi phượt</span>
+diff --git a/assets/js/hero-pricing.js b/assets/js/hero-pricing.js
+index 4580260..063d6d7 100644
+--- a/assets/js/hero-pricing.js
++++ b/assets/js/hero-pricing.js
+@@ -23,13 +23,13 @@
+           cta: 'theo ngày',
+-          deposit: 'Cọc 1–5 triệu tuỳ xe'
++          deposit: 'Cọc 2–5 triệu tuỳ xe'
+         },
+         week: {
+-          price: '600–1.000k/tuần',
++          price: '700k–1 triệu/tuần',
+           cta: 'theo tuần',
+-          deposit: 'Cọc 1–5 triệu tuỳ xe'
++          deposit: 'Cọc 2–5 triệu tuỳ xe'
+         },
+         month: {
+-          price: '1–2 triệu/tháng',
++          price: '900k–2 triệu/tháng',
+           cta: 'theo tháng',
+-          deposit: 'Cọc 1–5 triệu tuỳ xe'
++          deposit: 'Cọc 2–5 triệu tuỳ xe'
+         }

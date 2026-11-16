@@ -1,0 +1,9 @@
+diff --git a/index.html b/index.html
+index ebbc391..11baa23 100644
+--- a/index.html
++++ b/index.html
+@@ -135,3 +135,3 @@
+   <script src="/chothuexemayhanoi/assets/js/pwa.js"></script>
+-    <script defer src="https://motoopen.github.io/chothuexemayhanoi/motoai_v39_modelfirst_nomarkdown_nolink.js"></script>
++  {% include motoai.html %}
+ </body>

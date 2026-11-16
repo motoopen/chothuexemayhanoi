@@ -1,0 +1,13 @@
+diff --git a/_includes/footer.html b/_includes/footer.html
+index 6b27424..ad55109 100644
+--- a/_includes/footer.html
++++ b/_includes/footer.html
+@@ -10,7 +10,7 @@
+             <span class="footer-brand-tagline">{{ sitecfg.brand.tagline }}</span>
+           </div>
+         </div>
+-        <p class="footer-description">Chúng tôi cung cấp xe máy đã qua sử dụng chất lượng để bán và cho thuê dài hạn tại Hà Nội.</p>
++        <p class="footer-description">Motoopen cho thuê xe máy theo ngày, tuần, tháng tại Hà Nội.</p>
+         <ul class="app-contact" aria-label="Thông tin liên hệ">
+           <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i><a href="{{ sitecfg.contact.map_url }}" target="_blank" rel="noopener noreferrer" aria-label="Chỉ đường đến {{ sitecfg.contact.address }}">{{ sitecfg.contact.address }}</a></li>
+           <li><i class="fa-solid fa-phone" aria-hidden="true"></i><a href="tel:{{ sitecfg.contact.phone_raw }}">{{ sitecfg.contact.phone_display }}</a></li>

@@ -1,0 +1,50 @@
+diff --git a/_includes/footer.html b/_includes/footer.html
+index 6b27424..4208d93 100644
+--- a/_includes/footer.html
++++ b/_includes/footer.html
+@@ -1,10 +1,10 @@
+-{% assign sitecfg = site.data.site %}{%- assign is_home = false -%}{%- if page.url == '/' or page.url == '/index.html' -%}{%- assign is_home = true -%}{%- endif %}
++{% assign sitecfg = site.data.site %}
+ <footer class="premium app-footer" role="contentinfo" aria-label="Thông tin Motoopen">
+   <div class="footer-inner">
+     <div class="footer-top">
+       <section class="footer-brand-panel" aria-label="Giới thiệu và liên hệ Motoopen">
+         <div class="footer-brand-lockup">
+-          <img src="{% if is_home %}{{ sitecfg.brand.logo }}{% else %}{{ sitecfg.brand.logo_small | relative_url }}{% endif %}" alt="Logo {{ sitecfg.brand.name }}" width="56" height="56" loading="lazy" decoding="async">
++          <img src="{{ sitecfg.brand.logo_small | relative_url }}" alt="Logo {{ sitecfg.brand.name }}" width="56" height="56" loading="lazy" decoding="async">
+           <div>
+             <strong class="footer-brand-name">{{ sitecfg.brand.name }}</strong>
+             <span class="footer-brand-tagline">{{ sitecfg.brand.tagline }}</span>
+@@ -76,7 +76,7 @@
+           <a href="{{ sitecfg.social.instagram }}" title="Instagram" aria-label="Motoopen trên Instagram" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+         </div>
+       </div>
+-      <p class="author"><i class="fa-regular fa-copyright" aria-hidden="true"></i> {{ site.time | date: "%Y" }} {% if is_home %}<a href="{{ sitecfg.social.app }}" target="_blank" rel="noopener noreferrer">@ Motoopen</a>{% else %}<a href="{{ '/' | relative_url }}">@ Motoopen</a>{% endif %}. Tất cả quyền được bảo lưu.</p>
++      <p class="author"><i class="fa-regular fa-copyright" aria-hidden="true"></i> {{ site.time | date: "%Y" }} <a href="{{ '/' | relative_url }}">@ Motoopen</a>. Tất cả quyền được bảo lưu.</p>
+     </div>
+   </div>
+ </footer>
+diff --git a/_includes/header.html b/_includes/header.html
+index 49db03a..38a6ac8 100644
+--- a/_includes/header.html
++++ b/_includes/header.html
+@@ -1,8 +1,8 @@
+ <link rel="stylesheet" href="{{ '/assets/css/shared-shell.css' | relative_url }}">
+-{% assign sitecfg = site.data.site %}{%- assign is_home = false -%}{%- if page.url == '/' or page.url == '/index.html' -%}{%- assign is_home = true -%}{%- endif %}
++{% assign sitecfg = site.data.site %}
+ <header class="topbar" id="topbar" role="banner">
+   <div class="brand">
+-    <img src="{% if is_home %}{{ sitecfg.brand.logo }}{% else %}{{ sitecfg.brand.logo_small | relative_url }}{% endif %}" alt="{{ sitecfg.brand.name }}">
++    <img src="{{ sitecfg.brand.logo_small | relative_url }}" alt="{{ sitecfg.brand.name }}">
+     <h3>{{ sitecfg.brand.name }}</h3>
+   </div>
+ 
+@@ -57,7 +57,7 @@
+ 
+ <aside class="drawer" id="drawer" role="menu" aria-hidden="true">
+   <div class="drawer-header">
+-    <img src="{% if is_home %}{{ sitecfg.brand.logo }}{% else %}{{ sitecfg.brand.logo_small | relative_url }}{% endif %}" alt="{{ sitecfg.brand.name }}">
++    <img src="{{ sitecfg.brand.logo_small | relative_url }}" alt="{{ sitecfg.brand.name }}">
+     <div><strong>{{ sitecfg.brand.name }}</strong><small>{{ sitecfg.brand.tagline }}</small></div>
+   </div>
+ 
