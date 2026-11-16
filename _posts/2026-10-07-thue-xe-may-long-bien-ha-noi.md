@@ -11,6 +11,8 @@ hub_category: ha-noi-theo-khu-vuc
 ---
 Long Biên là cửa ngõ phía bắc của Hà Nội, nơi các tuyến cầu nối trung tâm với các huyện phía bắc, và có khu chợ đầu mối hoạt động từ nửa đêm đến sáng. Nhịp giao thông ở đây đặc thù: dòng xe chở hàng qua cầu từ rất sớm, và giờ tan chợ sáng tạo mật độ đột biến. Chọn đúng điểm nhận xe ở Long Biên giúp bạn chủ động với những đặc thù này.
 
+Motoopen có cửa hàng ngay tại Long Biên, địa chỉ {{ site.data.site.contact.address }}, mở cửa {{ site.data.site.contact.hours }}. Nếu muốn tự đến chọn xe, bạn xem đường đi và số điện thoại ở trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+
 ## Chọn điểm nhận theo hướng qua cầu
 
 Câu hỏi đầu tiên của mọi kế hoạch ở Long Biên là: bạn cần qua cầu vào trung tâm hay ở lại phía bắc. Nếu lịch trình mỗi ngày gồm việc qua cầu, chọn điểm nhận ở phía đầu cầu thuận với hướng đi buổi sáng, để không phải chạy ngược trong dòng xe đông giờ. Nếu lịch trình chỉ trong quận, đi chợ và công việc quanh khu, nhận gần chỗ vào khung giữa trưa là hợp lý. Với khách ở xa chân cầu, gói giao xe tận nơi đáng cân nhắc vì khoảng cách trong quận khá rộng. Khi gọi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), nói rõ bạn ở gần phía nào của quận để nhận tư vấn chuẩn.
