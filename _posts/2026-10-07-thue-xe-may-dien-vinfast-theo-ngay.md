@@ -15,7 +15,7 @@ Xe máy điện của VinFast là dòng xe được nhiều khách du lịch qua
 
 ## Bước một: đặt xe và xác nhận thông tin
 
-Trước khi đến cửa hàng, hãy gọi hoặc nhắn tin xác nhận mẫu xe còn sẵn, kèm khung giờ nhận xe.Khi liên hệ qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), nên hỏi kèm: giá thuê ngày theo bảng giá, mức cọc, và giấy tờ cần mang theo. Danh sách giấy tờ và quy trình cơ bản đã được tóm tắt ở trang thủ tục thuê xe, bạn chỉ cần chuẩn bị theo là đủ.
+Trước khi đến cửa hàng, hãy gọi hoặc nhắn tin xác nhận mẫu xe còn sẵn, kèm khung giờ nhận xe. Khi liên hệ qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}), nên hỏi kèm: giá thuê ngày theo bảng giá, mức cọc, và giấy tờ cần mang theo. Danh sách giấy tờ và quy trình cơ bản đã được tóm tắt ở trang thủ tục thuê xe, bạn chỉ cần chuẩn bị theo là đủ.
 
 ## Bước hai: kiểm tra tình trạng pin khi nhận xe
 

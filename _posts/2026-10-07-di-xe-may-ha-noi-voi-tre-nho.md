@@ -31,7 +31,7 @@ Rà phanh, lốp và đèn theo checklist trong bài [checklist 10 phút trướ
 
 Hành trình với trẻ hay kéo dài hơn dự kiến, nên đặt giờ trả có dư, và nếu thấy trễ, gọi trước, khung phụ phí trễ nằm trong bài [phí trả xe muộn thuê xe máy]({{ '/blog/phi-tra-xe-muon-thue-xe-may/' | relative_url }}). Mang đủ giấy phép lái, căn cước, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài thuê xe máy Hà Nội cần giấy tờ gì. Sự cố gọi ngay nơi thuê theo trình tự trong bài xe thuê bị hỏng giữa đường.
 
-Với gia đình có hai trẻ, cân nhắc thuê hai xe với hai người lớn thay vì ba người một xe, vì chở quá số người quy định là lỗi bị xử phạt theo Nghị định hiện hành, phần trách nhiệm khi đi xe thuê đã nêu trong bài [thuê xe máy bị phạt giao thông]({{ '/blog/thue-xe-may-bi-phat-giao-thong/' | relative_url }}).
+Với gia đình có hai trẻ, nên thuê hai xe với hai người lớn thay vì ba người một xe cho an toàn; luật chỉ cho chở tối đa hai người trong một số trường hợp, trong đó có chở trẻ em dưới 12 tuổi (Luật 36/2024/QH15, Điều 33 khoản 1 điểm c), ngoài các trường hợp đó chở quá số người là lỗi bị xử phạt, phần trách nhiệm khi đi xe thuê đã nêu trong bài [thuê xe máy bị phạt giao thông]({{ '/blog/thue-xe-may-bi-phat-giao-thong/' | relative_url }}).
 
 Một điểm hay quên: hỏi nơi thuê về chính sách mũ bảo hiểm trẻ em và số lượng mũ kèm xe, vì nhiều nơi chỉ kèm một mũ lớn, phần chuẩn bị đồ đi kèm đã trình bày trong bài [thuê xe máy Hà Nội cần những gì]({{ '/blog/thue-xe-may-ha-noi-can-nhung-gi/' | relative_url }}).
 

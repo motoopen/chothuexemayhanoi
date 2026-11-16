@@ -313,6 +313,6 @@ Lưu ý: kết luận "0/301 bài được index" mới dựa trên dò `site:` 
   - Không thêm bài mới khi bài cũ chưa được index.
 
 ## Phụ lục – ghi chú cho các nhóm triển khai
-1. Chatbot (cấu hình chung): "số điện thoại" không được nhận là ý định liên hệ; "wave 1 tuần" (thiếu chữ "giá") nhận câu fallback. Thấy trên banggia hiện tại và trên trang chủ sau A.1. Nếu sửa, nên đưa vào khóa cấu hình mới để giữ nguyên hành vi trang chủ hiện tại.
+1. Chatbot (cấu hình chung): đã sửa ở 12 trang con (17/11/2026) – trả lời đúng số điện thoại, địa chỉ, giờ mở cửa, email, bằng lái theo Luật 36/2024, câu hỏi ngoài giờ/CCCD/bảo hiểm/sự cố, "wave 1 tuần" không cần chữ "giá", không còn hiểu "24/7" hay "17 tuổi" thành số ngày thuê. Trang chủ nhận cùng bản sửa khi duyệt A.1.
 2. URL `vanban.chinhphu.vn/?pageid=27160&docid=211194…` bị timeout từ môi trường này ngày 16/11 (auditor trước đó ghi 200). Nên mở thử bằng trình duyệt.
 3. Thông tư 108/2026/TT-BCA: chỉ trích dẫn khi có URL văn bản chính thức đã kiểm tra.

@@ -13,11 +13,11 @@ Thuê xe theo tháng là giải pháp được nhiều người ở Hà Nội l�
 
 ## Hỏi về tình trạng pin tại thời điểm nhận xe
 
-Pin là bộ phận đắt nhất và xuống cấp nhanh nhất trên xe máy điện. Khi ký hợp đồng theo tháng, bạn sẽ dùng qua cả chu kỳ hao mòn, nên tình trạng pin lúc nhận quyết định trải nghiệm của suốt cả tháng. Cần hỏi cụ thể: xe hiện đã sử dụng bao lâu, dung lượng pin còn khoảng bao nhiêu phần trăm so với lúc mới, và quãng đường thực tế còn chạy được bao xa khi đầy pin.Danh sách các dòng xe điện hiện có được cập nhật ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), bạn nên xem trước để chọn mẫu phù hợp nhu cầu.
+Pin là bộ phận đắt nhất và xuống cấp nhanh nhất trên xe máy điện. Khi ký hợp đồng theo tháng, bạn sẽ dùng qua cả chu kỳ hao mòn, nên tình trạng pin lúc nhận quyết định trải nghiệm của suốt cả tháng. Cần hỏi cụ thể: xe hiện đã sử dụng bao lâu, dung lượng pin còn khoảng bao nhiêu phần trăm so với lúc mới, và quãng đường thực tế còn chạy được bao xa khi đầy pin. Danh sách các dòng xe điện hiện có được cập nhật ở trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}), bạn nên xem trước để chọn mẫu phù hợp nhu cầu.
 
 ## Hỏi về phương án sạc trong suốt tháng thuê
 
-Với gói ngày, bạn chỉ cần đủ pin cho một ngày. Với gói tháng, bạn cần giải pháp sạc bền vững. Nếu nơi bạn ở có chỗ sạc thuận tiện, xe có thể tháo pin để mang lên phòng sạc là lựa chọn lý tưởng.Một số cửa hàng cho phép đổi pin tại điểm trao đổi khi pin yếu, hình thức này tiện nhất cho người bận rộn. Khoản chi phí và thời gian sạc cộng dồn theo tuần sẽ khác nhau rất nhiều giữa các phương án.
+Với gói ngày, bạn chỉ cần đủ pin cho một ngày. Với gói tháng, bạn cần giải pháp sạc bền vững. Nếu nơi bạn ở có chỗ sạc thuận tiện, xe có thể tháo pin để mang lên phòng sạc là lựa chọn lý tưởng. Một số cửa hàng cho phép đổi pin tại điểm trao đổi khi pin yếu, hình thức này tiện nhất cho người bận rộn. Khoản chi phí và thời gian sạc cộng dồn theo tuần sẽ khác nhau rất nhiều giữa các phương án.
 
 ## Hỏi về lịch bảo dưỡng định kỳ trong hợp đồng
 

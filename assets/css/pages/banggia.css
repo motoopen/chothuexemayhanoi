@@ -1267,6 +1267,16 @@
       background: rgba(10, 132, 255, .06)
     }
 
+    /* Phones: keep the vehicle column pinned and the price columns readable. */
+    @media (max-width:600px){
+      .mapp-table-wrap{container-type:inline-size}
+      .mapp-table{min-width:560px}
+      .mapp-table caption{position:sticky;left:0;width:100cqi;box-sizing:border-box}
+      .mapp-table th:first-child,.mapp-table td:first-child{position:sticky;left:0;z-index:1;width:112px;min-width:112px;max-width:112px;padding-left:10px;padding-right:8px;background:var(--surface,#fff);box-shadow:inset -1px 0 0 var(--glass-border)}
+      .mapp-table thead th:first-child{background:linear-gradient(rgba(0,0,0,.04),rgba(0,0,0,.04)),var(--surface,#fff)}
+      .mapp-table tr:hover td:first-child{background:linear-gradient(rgba(10,132,255,.06),rgba(10,132,255,.06)),var(--surface,#fff)}
+    }
+
     .mapp-note {
       color: var(--muted, #6e6e73);
       margin-top: 8px

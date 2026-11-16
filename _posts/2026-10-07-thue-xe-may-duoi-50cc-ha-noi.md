@@ -30,7 +30,7 @@ Với xe dưới 50cc đã qua sử dụng, bốn điểm cần soi kỹ là pha
 
 ## Giá thuê và điều kiện hợp đồng
 
-Tại Motoopen, xe tay ga 50cc thuê 200k/ngày, cọc 4 triệu, không thấp hơn các dòng khác; so sánh trực tiếp tại trang [bảng giá]({{ '/banggia.html' | relative_url }}). Khi ký hợp đồng, chú ý ba điều khoản: phạm vi di chuyển cho phép, trách nhiệm khi hỏng hóc, và điều kiện hoàn cọc. Nếu bạn muốn ràng buộc nhẹ về tiền cọc, đọc thêm các điều kiện trong bài thuê xe máy Hà Nội không cọc để biết cách gói ưu đãi này vận hành. Mọi thỏa thuận nên được ghi lại bằng văn bản hoặc tin nhắn được cả hai bên xác nhận.
+Tại Motoopen, xe tay ga 50cc thuê 200k/ngày, cọc 4 triệu, không thấp hơn các dòng khác; so sánh trực tiếp tại trang [bảng giá]({{ '/banggia.html' | relative_url }}). Khi ký hợp đồng, chú ý ba điều khoản: phạm vi di chuyển cho phép, trách nhiệm khi hỏng hóc, và điều kiện hoàn cọc. Nếu cần phương án đặt cọc khác, hỏi rõ điều kiện trước khi chốt; các điểm cần soi với hình thức thuê không cọc nằm trong bài thuê xe máy Hà Nội không cọc. Mọi thỏa thuận nên được ghi lại bằng văn bản hoặc tin nhắn được cả hai bên xác nhận.
 
 ## Kết luận
 

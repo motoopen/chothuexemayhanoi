@@ -187,9 +187,10 @@ def validate_draft(path, row, seen_hashes):
                 break
     # Owner rule: at most one internal link per paragraph; each list item counts as its own paragraph.
     too_many_links = False
-    for block in re.split(r"\n\s*\n", body):
-        if block.lstrip().startswith("#"):
+    for block in re.split(r"(?m)^[ \t]*#{1,6}[ \t].*$|\n\s*\n", body):
+        if not block or not block.strip():
             continue
+        block = block.strip("\n")
         units = re.split(r"\n(?=\s*(?:[-*+]|\d+[.)])\s)", block)
         if any(len(VALID_LIQUID_LINK_RE.findall(unit)) > 1 for unit in units):
             too_many_links = True

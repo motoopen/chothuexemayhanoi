@@ -266,17 +266,18 @@
   const MAX_MSG = 10;
   function getSess(){ const arr = safe(localStorage.getItem(K.sess))||[]; return Array.isArray(arr)?arr:[]; }
   function saveSess(a){ try{ localStorage.setItem(K.sess, JSON.stringify(a.slice(-MAX_MSG))); }catch{} }
-  function addMsg(role,text){
+  function addMsg(role,text,persist){
     if(!text) return;
     const body=$("#mta-body"); if(!body) return;
     const el=document.createElement("div"); el.className="m-msg "+(role==="user"?"user":"bot"); el.textContent=text;
     body.appendChild(el); body.scrollTop=body.scrollHeight;
+    if(persist===false) return;
     const arr=getSess(); arr.push({role,text,t:Date.now()}); saveSess(arr);
   }
   function renderSess(){
     const body=$("#mta-body"); body.innerHTML="";
     const arr=getSess();
-    if(arr.length) arr.forEach(m=> addMsg(m.role,m.text));
+    if(arr.length) arr.forEach(m=> addMsg(m.role,m.text, CFG.storageNamespace ? false : undefined));
     else addMsg("bot", naturalize(`Xin chào, em là nhân viên hỗ trợ của ${CFG.brand}. Anh/chị cần thuê xe số, xe ga hay theo tháng?`));
   }
   function getCtx(){ return safe(localStorage.getItem(K.ctx)) || {turns:[]}; }
@@ -320,6 +321,15 @@
     return null;
   }
   function detectQty(t){
+    if(STRICT_PRICES){
+      const s=String(t||"").replace(/\b\d+\s*cc\b/gi," ");
+      const m=s.match(/(\d+)\s*(ngày|ngay|hôm|hom|day|tuần|tuan|week|tháng|thang|month)/i);
+      const w=m ? null : s.match(/(?:theo|thuê|thue|một|mot|mỗi|moi|\/)\s*(ngày|ngay|tuần|tuan|tháng|thang)(?![\p{L}])|(?<![\p{L}])(ngày|tuần|tháng)\s*(?:bao nhiêu|giá)/iu);
+      if(!m && !w) return null;
+      const n=m ? parseInt(m[1],10) : 1; if(!n) return null;
+      const u=m ? m[2] : (w[1]||w[2]);
+      return {n, unit: /tuần|tuan|week/i.test(u) ? "tuần" : (/tháng|thang|month/i.test(u) ? "tháng" : "ngày")};
+    }
     const m=(STRICT_PRICES ? String(t||"").replace(/\b\d+\s*cc\b/gi," ") : (t||"")).match(/(\d+)\s*(ngày|day|tuần|tuan|week|tháng|thang|month)?/i);
     if(!m) return null; const n=parseInt(m[1],10); if(!n) return null;
     let unit="ngày"; if(m[2]){ if(/tuần|tuan|week/i.test(m[2])) unit="tuần"; else if(/tháng|thang|month/i.test(m[2])) unit="tháng"; }
@@ -375,6 +385,18 @@
     });
   }
 
+  if (STRICT_PRICES) {
+    TYPE_MAP.forEach(function (it) {
+      if (it.k === "xe số") it.re = /(?<![\p{L}\p{N}])xe\s*số(?![\p{L}\p{N}])/iu;
+      if (it.k === "xe ga") it.re = /(?<![\p{L}\p{N}])xe\s*(?:tay\s*)?ga(?![\p{L}\p{N}])/iu;
+    });
+  }
+  function rangeForModel(model, unit){
+    const e = model && PRICE_TABLE[model]; if(!e) return null;
+    const key = unit==="tuần"?"week":(unit==="tháng"?"month":"day");
+    if(!e[key]) return null; const a = Array.isArray(e[key]) ? e[key] : [e[key]];
+    return [a[0], a[a.length-1]];
+  }
   function baseFor(type,unit){
     const it=PRICE_TABLE[type]; if(!it) return null;
     const key = unit==="tuần"?"week":(unit==="tháng"?"month":"day");
@@ -787,7 +809,31 @@
   const PREFIX = ["Chào anh/chị,","Xin chào,","Em chào anh/chị,","Em ở "+CFG.brand+" đây,"];
   function polite(s){ s = s || "em chưa nhận được câu hỏi, anh/chị nhập lại giúp em."; return naturalize(`${pick(PREFIX)} ${s}`); }
 
+  function composePriceStrict(model, qty){
+    const ph = CFG.phoneDisplay || CFG.phone;
+    const row = (model && CFG.priceTable[model]) || null;
+    const label = (row && row.name) || model;
+    if(!model){
+      return naturalize((CFG.priceSummary ? "Giá thuê tham khảo: " + CFG.priceSummary + " " : "") + "Anh/chị cho em biết mẫu xe (Honda Wave, Vision, Air Blade, Click/Mio, xe ga 50cc hay xe điện) và thời gian thuê để em báo giá cụ thể");
+    }
+    if(!PRICE_TABLE[model]) return naturalize(`Mẫu ${model} chưa có giá niêm yết. Anh/chị nhắn Zalo ${ph} để kiểm tra xe và giá`);
+    if(!qty){
+      if(row && row.text && row.day) return naturalize(`${label}: ${row.text.day}/ngày; theo tuần ${row.text.week}; theo tháng ${row.text.month}; cọc ${row.text.deposit}. Anh/chị thuê bao lâu để em báo tổng tiền`);
+      if(row && row.text && !row.day) return naturalize(`Giá thuê ${label} cần kiểm tra theo mẫu xe. Anh/chị nhắn Zalo ${ph} để em báo giá`);
+      return naturalize(`Anh/chị định thuê ${label} theo ngày, tuần hay tháng để em báo giá chính xác`);
+    }
+    const r = rangeForModel(model, qty.unit);
+    if(!r) return naturalize(`Giá thuê ${label} theo ${qty.unit} cần kiểm tra. Anh/chị nhắn Zalo ${ph} để em chốt theo mẫu xe`);
+    const lo = r[0]*qty.n, hi = r[1]*qty.n;
+    let text = `Giá thuê ${label} ${qty.n} ${qty.unit} khoảng ${lo===hi ? nfVND(lo) : nfVND(lo)+"–"+nfVND(hi)}đ`;
+    if(qty.unit==="ngày"){
+      const w = rangeForModel(model, "tuần");
+      if(w && qty.n<7 && lo>w[0]) text += `. Thuê 1 tuần: ${w[0]===w[1] ? nfVND(w[0]) : nfVND(w[0])+"–"+nfVND(w[1])}đ`;
+    }
+    return naturalize(`${text}. Anh/chị cần em giữ xe và gửi ảnh xe qua Zalo ${ph} không?`);
+  }
   function composePrice(model, qty){
+    if(STRICT_PRICES) return composePriceStrict(model, qty);
     const labelUnit = qty ? (qty.unit==="tuần"?"tuần":(qty.unit==="tháng"?"tháng":"ngày")) : null;
     if(!model && !qty){
       return naturalize(`Anh/chị thuê theo ngày, tuần hay tháng để em báo đúng giá nhé.`);
@@ -814,6 +860,12 @@
 
     const qty  = detectQty(q);
 
+    if(Array.isArray(CFG.extraIntents)){
+      for(const it of CFG.extraIntents){
+        try{ if(it && it.re && it.reply && new RegExp(it.re, "iu").test(q)) return polite(it.reply); }catch(e){}
+      }
+    }
+
     // Deep context: lấy model/qty gần nhất nếu thiếu
     // CFG.intentFirst (optional): reuse an earlier price question only when this message
     // is itself about price or a model, so "giao xe", "đặt cọc", "thủ tục" get their own answer.
@@ -836,7 +888,7 @@
     if(intents.needDelivery)return polite(CFG.replyDelivery || `thuê 1–4 ngày vui lòng đến cửa hàng chọn xe; thuê tuần/tháng em giao tận nơi. Phí nội thành 20–100k tùy quận. Nhắn Zalo ${CFG.phone} để em set lịch.`);
     if(intents.needReturn)  return polite(CFG.replyReturn || `trả xe tại cửa hàng hoặc hẹn trả tận nơi (thỏa thuận). Báo trước 30 phút để em sắp xếp, hoàn cọc nhanh.`);
 
-    if(intents.needPrice)   return composePrice(model, qty);
+    if(intents.needPrice || (CFG.intentFirst && model && qty)) return composePrice(model, qty);
 
     // Semantic retrieval + Extractive QA (KHÔNG chèn link)
     try{

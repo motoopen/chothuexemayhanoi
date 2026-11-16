@@ -9,7 +9,11 @@
     on motoopen.github.io (they all share one localStorage origin).
   - autolearn and price learning are off: du-lieu/*.txt still carries outdated data.
   - intentFirst: questions about delivery, deposit, documents or contact are answered as such
-    instead of repeating the previous price answer.
+    instead of repeating the previous price answer; a model + duration is priced even
+    without the word "giá".
+  - extraIntents: licence/age (Luật 36/2024/QH15), after-hours, ID, insurance, breakdown and
+    NAP questions get fixed factual replies; durations need an explicit unit (ngày/tuần/tháng),
+    so "24/7", "17 tuổi" or "23h" are never read as rental days.
   - Replies for docs/deposit/delivery/return use neutral wording until the owner decides
     those policies (no fees, delivery times or ID handling are promised here).
   - The script is injected on the first user interaction (pointerdown, keydown,
@@ -18,8 +22,13 @@
 {%- assign mcfg = site.data.site -%}
 {%- assign mprices = site.data.prices -%}
 {%- assign mphone = mcfg.contact.phone_display -%}
-{%- capture m_contact -%}anh/chị gọi {{ mphone }} hoặc nhắn Zalo {{ mphone }} ({{ mcfg.contact.hours_text }}).{%- endcapture -%}
-{%- capture m_docs -%}thủ tục thuê xe: thanh toán tiền thuê, đặt cọc và cung cấp giấy tờ theo thỏa thuận; hoàn cọc theo điều kiện hợp đồng khi trả xe. Anh/chị nhắn Zalo {{ mphone }} để được báo giấy tờ cần chuẩn bị cho mẫu xe đã chọn.{%- endcapture -%}
+{%- capture m_contact -%}Motoopen ở {{ mcfg.contact.address }}, mở cửa {{ mcfg.contact.hours_text }}; gọi hoặc nhắn Zalo {{ mphone }}, email {{ mcfg.contact.email }}.{%- endcapture -%}
+{%- capture m_docs -%}giấy tờ tùy thân (CCCD hoặc hộ chiếu) và bằng lái phù hợp loại xe (xe gắn máy đến 50 cm3 không cần bằng, người lái đủ 16 tuổi); cọc 2–5 triệu tùy xe. Cách xuất trình giấy tờ và đặt cọc theo thỏa thuận khi làm hợp đồng; hoàn cọc theo điều kiện hợp đồng khi trả xe.{%- endcapture -%}
+{%- capture m_licence -%}theo Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (sửa đổi bởi Luật 118/2025/QH15), xe gắn máy (đến 50 cm3 hoặc điện đến 4 kW, vận tốc thiết kế không quá 50 km/h) không cần bằng lái; người lái phải đủ 16 tuổi, hiểu quy tắc giao thông và có kỹ năng điều khiển. Xe mô tô đến 125 cm3 (hoặc điện đến 11 kW) cần bằng A1, trên 125 cm3 cần bằng A; người được cấp bằng A1/A phải đủ 18 tuổi. Anh/chị nhắn Zalo {{ mphone }} để chọn xe phù hợp.{%- endcapture -%}
+{%- capture m_after -%}cửa hàng mở {{ mcfg.contact.hours_text }}; nhu cầu nhận hoặc trả xe ngoài khung giờ này anh/chị nhắn Zalo {{ mphone }} để hỏi trước.{%- endcapture -%}
+{%- capture m_helmet -%}người lái và người ngồi sau phải đội mũ bảo hiểm đạt quy chuẩn và cài quai đúng cách (Luật 36/2024/QH15, Điều 33 khoản 2); anh/chị nhắn Zalo {{ mphone }} để kiểm tra mũ đi kèm xe khi đặt.{%- endcapture -%}
+{%- capture m_ins -%}nội dung về bảo hiểm và trách nhiệm khi xe hư hỏng, va chạm được ghi trong hợp đồng thuê; anh/chị nhắn Zalo {{ mphone }} để được báo trước khi chốt.{%- endcapture -%}
+{%- capture m_brk -%}khi xe gặp sự cố, anh/chị gọi hoặc nhắn Zalo {{ mphone }} ({{ mcfg.contact.hours_text }}) để được hướng dẫn; trách nhiệm và chi phí xử lý theo hợp đồng thuê.{%- endcapture -%}
 {%- assign mrows = mprices.rows | where_exp: "r", "r.family != true" -%}
 {%- capture m_policy -%}đặt cọc tham khảo: {% for r in mrows %}{{ r.name }} {{ r.text.deposit }}{% unless forloop.last %}; {% endunless %}{% endfor %}. Đặt cọc và giấy tờ theo thỏa thuận; hoàn cọc theo điều kiện hợp đồng khi trả xe. Nhắn Zalo {{ mphone }} để chốt theo mẫu xe.{%- endcapture -%}
 {%- capture m_delivery -%}bên em có thể hẹn giao/nhận xe; khu vực, thời gian và chi phí giao (nếu có) được thỏa thuận trước khi chốt. Anh/chị nhắn Zalo {{ mphone }} để kiểm tra lịch.{%- endcapture -%}
@@ -38,7 +47,7 @@
     intentFirst: true,
     priceTable: {
 {%- for r in mprices.rows %}
-      {{ r.key | jsonify }}: { day: {{ r.day | jsonify }}, week: {{ r.week | jsonify }}, month: {{ r.month | jsonify }}{% if r.aliases %}, aliases: {{ r.aliases | jsonify }}{% endif %} }{% unless forloop.last %},{% endunless %}
+      {{ r.key | jsonify }}: { day: {{ r.day | jsonify }}, week: {{ r.week | jsonify }}, month: {{ r.month | jsonify }}{% if r.aliases %}, aliases: {{ r.aliases | jsonify }}{% endif %}{% if r.name %}, name: {{ r.name | jsonify }}, text: {{ r.text | jsonify }}{% endif %} }{% unless forloop.last %},{% endunless %}
 {%- endfor %}
     },
     replyContact: {{ m_contact | jsonify }},
@@ -46,7 +55,20 @@
     replyPolicy: {{ m_policy | jsonify }},
     replyDelivery: {{ m_delivery | jsonify }},
     replyReturn: {{ m_return | jsonify }},
-    replyFallback: {{ m_fallback | jsonify }}
+    replyFallback: {{ m_fallback | jsonify }},
+    phoneDisplay: {{ mphone | jsonify }},
+    priceSummary: {{ mprices.policy_text | jsonify }},
+    /* Checked in order before price handling; the NAP entry stays last so the
+       more specific intents win. Patterns are compiled with flags "iu". */
+    extraIntents: [
+      { re: "bằng lái|giấy phép lái|gplx|bằng a1|bằng a(?![\\p{L}\\p{N}])|tuổi", reply: {{ m_licence | jsonify }} },
+      { re: "24/7|ngoài giờ|ban đêm|nửa đêm|đêm khuya|sau 21|(lúc|khoảng|tầm)\\s*\\d{1,2}\\s*(h|giờ)(?![\\p{L}])", reply: {{ m_after | jsonify }} },
+      { re: "căn cước|cmnd|giữ giấy|giữ cccd|giữ hộ chiếu|giữ passport", reply: {{ m_docs | jsonify }} },
+      { re: "mũ bảo hiểm|nón bảo hiểm|mũ|nón", reply: {{ m_helmet | jsonify }} },
+      { re: "(?<!mũ\\s)(?<!nón\\s)bảo hiểm", reply: {{ m_ins | jsonify }} },
+      { re: "hỏng|thủng|xịt|chết máy|sự cố|tai nạn|va chạm", reply: {{ m_brk | jsonify }} },
+      { re: "địa chỉ|ở đâu|chỗ nào|điện thoại|số đt|mấy giờ|giờ mở|mở cửa|đóng cửa|giờ làm|e-?mail|gmail", reply: {{ m_contact | jsonify }} }
+    ]
   };
   (function () {
     var SRC = {{ '/motoai_v39_modelfirst_nomarkdown_nolink.js' | relative_url | jsonify }};

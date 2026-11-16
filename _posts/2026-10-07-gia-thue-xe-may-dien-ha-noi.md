@@ -14,7 +14,7 @@ Xe máy điện ngày càng phổ biến trên đường phố Hà Nội, và nh
 
 ## Tiền thuê niêm yết chỉ là phần nổi
 
-Mức giá niêm yết trên [bảng giá]({{ '/banggia.html' | relative_url }}) chưa niêm yết cố định giá xe máy điện và xe đạp điện: Motoopen báo giá theo mẫu xe khi bạn liên hệ, nên hãy hỏi giá cụ thể trước khi so với xe xăng. Tuy nhiên, để so sánh đúng, bạn cần hỏi xe được giao kèm lượng pin bao nhiêu phần trăm, và quy định về mức pin khi trả. Chỉ riêng điểm này cũng tạo ra khác biệt thực tế giữa các cửa hàng.
+[Bảng giá]({{ '/banggia.html' | relative_url }}) chưa niêm yết giá cố định cho xe máy điện và xe đạp điện: Motoopen báo giá theo mẫu xe khi bạn liên hệ, nên hãy hỏi giá cụ thể trước khi so với xe xăng. Tuy nhiên, để so sánh đúng, bạn cần hỏi xe được giao kèm lượng pin bao nhiêu phần trăm, và quy định về mức pin khi trả. Chỉ riêng điểm này cũng tạo ra khác biệt thực tế giữa các cửa hàng.
 
 ## Chi phí sạc và thời gian chờ của bạn
 

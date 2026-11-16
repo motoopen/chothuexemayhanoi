@@ -34,7 +34,7 @@ Tình huống một: khách ở gần nơi làm, mỗi ngày đi về khoảng b
 
 ## Chi phí đi kèm khi chọn dòng 50cc
 
-Tại Motoopen, xe tay ga 50cc thuê 200k/ngày, cao hơn Honda Wave, Click, Yamaha Mio (150k/ngày), nên hãy ước cả các khoản quanh nó. Xăng tiêu hao rất ít nếu chỉ chạy trong phố, phần này gần như bỏ qua được. Cọc xe tay ga 50cc tại Motoopen là 4 triệu đồng, hoàn lại theo điều kiện hợp đồng khi trả xe. Phí giao xe vẫn tính theo khoảng cách, nên nếu điểm nhận xa chỗ ở, cân nhắc nhận tại chỗ và đi bộ đoạn ngắn. Nhân viên nơi thuê cũng nên được hỏi về chính sách đổi dòng giữa kỳ, vì có nơi cho nâng lên dòng lớn với phần chênh tính lại từ ngày đổi, hữu ích khi giữa kỳ lịch của bạn bất ngờ có chặng dài.
+Tại Motoopen, xe tay ga 50cc thuê 200k/ngày, cao hơn Honda Wave, Click, Yamaha Mio (150k/ngày), nên hãy ước cả các khoản quanh nó. Xăng tiêu hao rất ít nếu chỉ chạy trong phố, phần này gần như bỏ qua được. Cọc xe tay ga 50cc tại Motoopen là 4 triệu đồng, hoàn lại theo điều kiện hợp đồng khi trả xe. Nếu cần giao xe tận nơi, hỏi khu vực giao và phí giao (nếu có) trước khi chốt. Nhân viên nơi thuê cũng nên được hỏi về chính sách đổi dòng giữa kỳ, vì có nơi cho nâng lên dòng lớn với phần chênh tính lại từ ngày đổi, hữu ích khi giữa kỳ lịch của bạn bất ngờ có chặng dài.
 
 ## Kết luận
 

@@ -67,6 +67,30 @@ jobs:
           PY
           python3 scripts/article_factory.py check _factory/incoming/001.md
           rm -f _factory/incoming/001.md
+          python3 - <<'PY'
+          from pathlib import Path
+          text = " ".join(["hướng dẫn thuê xe máy hà nội thực tế an toàn thuận tiện"] * 90)
+          lines = [
+              "---",
+              "matrix_id: 1",
+              'description: "Hướng dẫn thử nghiệm cho factory smoke, dùng để kiểm tra parser và QA scoped trước khi publish."',
+              "---",
+              "## Chuẩn bị",
+              "Xem [thủ tục]({{ '/thutuc.html' | relative_url }}) và [bảng giá]({{ '/banggia.html' | relative_url }}) trước khi đi.",
+              "",
+              text,
+              "",
+              "## Kiểm tra",
+              text,
+          ]
+          Path('_factory/incoming/001.md').write_text("\n".join(lines) + "\n", encoding='utf-8')
+          PY
+          if python3 scripts/article_factory.py check _factory/incoming/001.md; then
+            echo "A paragraph under a heading with two internal links must fail the factory check."
+            rm -f _factory/incoming/001.md
+            exit 1
+          fi
+          rm -f _factory/incoming/001.md
 
       - name: Verify SEO article matrix
         shell: bash

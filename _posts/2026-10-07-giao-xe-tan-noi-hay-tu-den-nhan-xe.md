@@ -26,11 +26,11 @@ Quy tắc nhanh để quyết định: tổng chi phí đi lại nhận xe, tín
 
 ## Chuẩn bị cho từng phương án
 
-Với giao tận nơi, hãy xác nhận trước qua điện thoại hoặc tin nhắn: giờ giao, địa chỉ cụ thể kèm mô tả điểm dễ tìm, và người giao sẽ chờ bao lâu để bạn kiểm tra xe. Chuẩn bị sẵn giấy tờ tùy thân và giấy phép lái để không kéo dài thời gian giao. Với tự nhận, hãy xem trước vị trí trên bản đồ, hỏi giờ mở của, và mang theo bản photo giấy tờ. Mức phụ phí giao tùy khu vực thường được ghi tại trang [bảng giá cho thuê]({{ '/banggia.html' | relative_url }}), còn thông tin liên hệ để đặt lịch giao xe nằm tại trang liên hệ.
+Với giao tận nơi, hãy xác nhận trước qua điện thoại hoặc tin nhắn: giờ giao, địa chỉ cụ thể kèm mô tả điểm dễ tìm, và người giao sẽ chờ bao lâu để bạn kiểm tra xe. Chuẩn bị sẵn giấy tờ tùy thân và giấy phép lái để không kéo dài thời gian giao. Với tự nhận, hãy xem trước vị trí trên bản đồ, hỏi giờ mở cửa, và mang theo bản photo giấy tờ. Giá thuê từng dòng xe có tại trang [bảng giá cho thuê]({{ '/banggia.html' | relative_url }}); khu vực và phí giao (nếu có) được báo trước khi chốt, và bạn đặt lịch giao xe qua trang liên hệ.
 
 Nếu lần đầu thuê ở Hà Nội, đọc thêm bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}) để nắm toàn bộ quy trình trước khi chọn hình thức nhận xe.
 
 ## Nguồn
 
 - Bộ luật Dân sự 2015 (Luật số 91/2015/QH13), phần hợp đồng thuê tài sản: https://thuvienphapluat.vn/van-ban/Quyen-dan-su/Bo-luat-dan-su-2015-296215.aspx
-- Mức phụ phí giao xe và giá thuê hiện hành của Motoopen: {{ '/banggia.html' | relative_url }}
+- Giá thuê hiện hành của Motoopen: [bảng giá thuê xe]({{ '/banggia.html' | relative_url }})

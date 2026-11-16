@@ -26,7 +26,7 @@ Nếu cửa hàng nhận, nhóm xe máy hợp pháp cho người từ đủ 16 �
 
 ## Giấy tờ cần chuẩn bị theo độ tuổi
 
-Người mười tám tuổi trở lên mang thẻ căn cước công dân để xác minh, đọc chi tiết trong bài thuê xe máy dùng căn cước hay hộ chiếu. Khách dưới mười tám tuổi thường chưa có căn cước, nên chuẩn bị giấy tờ tùy thân đang có và người giám hộ kèm giấy tờ của họ, vì hợp đồng có thể phải ký qua người đại diện. Danh sách thủ tục chung nằm trong bài [thủ tục thuê xe máy]({{ '/thutuc.html' | relative_url }}), và các mục nên ghi trong hợp đồng nằm trong bài hợp đồng thuê xe máy cần có gì.
+Người mười tám tuổi trở lên mang thẻ căn cước công dân để xác minh, đọc chi tiết trong bài thuê xe máy dùng căn cước hay hộ chiếu. Công dân Việt Nam từ đủ 14 tuổi đã phải làm thẻ căn cước (Luật Căn cước 2023, Điều 19 khoản 2), nên khách 16–17 tuổi cũng mang thẻ căn cước; nơi thuê nhận khách dưới 18 tuổi có thể yêu cầu người giám hộ đi cùng, mang giấy tờ và ký hợp đồng, vì người chưa thành niên giao dịch qua người đại diện. Danh sách thủ tục chung nằm trong bài [thủ tục thuê xe máy]({{ '/thutuc.html' | relative_url }}), và các mục nên ghi trong hợp đồng nằm trong bài hợp đồng thuê xe máy cần có gì.
 
 ## Hỏi trước để tránh hủy giữa chừng
 
