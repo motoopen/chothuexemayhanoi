@@ -22,9 +22,21 @@ class AuditParser(HTMLParser):
         self.schemas = []
         self._schema = False
         self._schema_buf = []
+        # Article-body paragraphs: internal link count per <p> inside .blog-content
+        self._content_depth = 0
+        self._p_links = None
+        self.paragraph_links = []
 
     def handle_starttag(self, tag, attrs):
         data = dict(attrs)
+        if tag == "div" and (self._content_depth or "blog-content" in (data.get("class") or "").split()):
+            self._content_depth += 1
+        if self._content_depth and tag == "p":
+            self._p_links = 0
+        if self._p_links is not None and tag == "a":
+            href = data.get("href") or ""
+            if href.startswith("/chothuexemayhanoi") or href.startswith(BASE):
+                self._p_links += 1
         if tag == "h1":
             self.h1 += 1
         elif tag == "title":
@@ -42,6 +54,11 @@ class AuditParser(HTMLParser):
             self._schema_buf = []
 
     def handle_endtag(self, tag):
+        if tag == "p" and self._p_links is not None:
+            self.paragraph_links.append(self._p_links)
+            self._p_links = None
+        if tag == "div" and self._content_depth:
+            self._content_depth -= 1
         if tag == "title":
             self._in_title = False
         elif tag == "script" and self._schema:
@@ -101,6 +118,9 @@ def main() -> int:
         for required in ("Article", "BreadcrumbList"):
             if required not in types:
                 errors.append(f"{rel}: missing {required} schema")
+        crowded = sum(1 for n in p.paragraph_links if n > 1)
+        if crowded:
+            errors.append(f"{rel}: {crowded} paragraph(s) with more than one internal link")
         if "blog-component" not in path.read_text("utf-8", errors="replace"):
             errors.append(f"{rel}: shared post components not rendered")
 
@@ -110,7 +130,7 @@ def main() -> int:
         for err in errors:
             print(" -", err)
         return 1
-    print("PASS: blog titles, H1, meta, canonical, sitemap, image alt, schema and shared components.")
+    print("PASS: blog titles, H1, meta, canonical, sitemap, image alt, schema, one internal link per paragraph and shared components.")
     return 0
 
 if __name__ == "__main__":
