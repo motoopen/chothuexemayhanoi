@@ -1,10 +1,10 @@
-{% assign sitecfg = site.data.site %}
+{% assign sitecfg = site.data.site %}{% comment %} Homepage keeps the original logo URL (owner rule). {% endcomment %}{% if page.url == "/" %}{% assign brand_logo = sitecfg.brand.logo %}{% else %}{% assign brand_logo = sitecfg.brand.logo_small | default: sitecfg.brand.logo | relative_url %}{% endif %}
 <footer class="premium app-footer" role="contentinfo" aria-label="Thông tin Motoopen">
   <div class="footer-inner">
     <div class="footer-top">
       <section class="footer-brand-panel" aria-label="Giới thiệu và liên hệ Motoopen">
         <div class="footer-brand-lockup">
-          <img src="{{ sitecfg.brand.logo }}" alt="Logo {{ sitecfg.brand.name }}" width="56" height="56" loading="lazy" decoding="async">
+          <img src="{{ brand_logo }}" alt="Logo {{ sitecfg.brand.name }}" width="56" height="56" loading="lazy" decoding="async">
           <div>
             <strong class="footer-brand-name">{{ sitecfg.brand.name }}</strong>
             <span class="footer-brand-tagline">{{ sitecfg.brand.tagline }}</span>

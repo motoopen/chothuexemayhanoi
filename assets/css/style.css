@@ -1,6 +1,6 @@
 /* Motoopen Blog — supplementary styles.
    The shared visual system lives in assets/css/home.css. */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+/* Inter is loaded with <link> + preconnect in _layouts/default.html (an @import here chained 3 render-blocking requests). */
 
 :root {
   --blog-component-gap: 16px;
@@ -482,3 +482,15 @@ body.dark .blog-component h2,
 body.dark .blog-related-item strong { color: var(--text); }
 body.dark .blog-component p,
 body.dark .blog-related-item span { color: var(--muted); }
+
+/* ===== SEO/UX audit 2026-11 (blog, category and post layouts) ===== */
+/* Long post lists: skip rendering work for off-screen items (content stays in the HTML). */
+.blog-list > .blog-item { content-visibility: auto; contain-intrinsic-size: auto 220px; }
+/* Small phones: hide the decorative hero tiles so the article starts above the fold. */
+@media (max-width: 560px) {
+  .post-hero-card .post-mini-grid,
+  .post-hero-card .post-mini-spacer { display: none; }
+}
+/* Header controls: 44px touch targets on touch-size screens; only one dark-mode toggle on wide screens. */
+@media (max-width: 1120px) { .hamburger, .toggle-dark { min-width: 44px; min-height: 44px; } }
+@media (min-width: 1121px) { #toggle-dark-mobile { display: none !important; } }

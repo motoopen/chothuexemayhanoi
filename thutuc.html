@@ -45,12 +45,11 @@
 </head>
   
   
-  <script src="/chothuexemayhanoi/assets/js/pages/gioithieu-page-fade.js"></script>
   
 <body>
   {% include header.html %}
   
-  <button class="toc-fab" id="tocFab" title="Mục lục (H2)">≡</button>
+  <button class="toc-fab" id="tocFab" type="button" title="Mục lục (H2)" aria-label="Mở mục lục" aria-controls="tocDrawer">≡</button>
   <nav class="toc-drawer" id="tocDrawer" aria-label="Mục lục (H2)">
     <h4>📚 Mục lục</h4>
     <div id="tocList"></div>
@@ -178,7 +177,7 @@
     </main>
 
   <div id="miniApp" style="position:fixed; right: max(16px, env(safe-area-inset-right)); bottom:92px; z-index:var(--z-fab);">
-    <button id="miniAppToggle" class="contact-fab" title="Liên hệ nhanh"><i class="fa-solid fa-phone"></i></button>
+    <button id="miniAppToggle" type="button" class="contact-fab" title="Liên hệ nhanh" aria-label="Mở liên hệ nhanh" aria-controls="miniAppSheet"><i class="fa-solid fa-phone"></i></button>
     <div id="miniAppSheet" style="display:none; position:absolute; right:0; bottom:68px; width:300px; max-width:88vw;
          background:var(--surface); border:1px solid var(--glass-border); border-radius:12px; padding:12px; box-shadow:0 16px 40px rgba(0,0,0,.18);">
       <h4 style="margin:0 0 8px 0;color:var(--accent)">Liên hệ nhanh</h4>
@@ -203,11 +202,9 @@
 
   <script src="/chothuexemayhanoi/assets/js/pages/thutuc-page-ui.js"></script>
 
-  <script src="/chothuexemayhanoi/assets/js/pages/thutuc-bottom-appbar.js"></script>
 
   <script src="/chothuexemayhanoi/assets/js/pages/gioithieu-hero-pricing.js"></script>
   
-  <script src="/chothuexemayhanoi/assets/js/pages/gioithieu-contact-links.js"></script>
 
   <script src="/chothuexemayhanoi/assets/js/pages/gioithieu-fontawesome-fallback.js"></script>
 

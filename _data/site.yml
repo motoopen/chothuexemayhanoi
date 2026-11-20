@@ -3,6 +3,8 @@ brand:
   tagline: "Thuê xe máy Hà Nội"
   author: "Motoopen"
   logo: "https://i.postimg.cc/brsmsj5N/IMG_5215.jpg"
+  # Same logo resized to 128px and served locally (the original is 749x746 / 85 KB for a 38-56px slot)
+  logo_small: "/assets/images/brand/motoopen-logo-128.jpg"
 
 contact:
   phone_raw: "0857255868"
