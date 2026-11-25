@@ -9,6 +9,16 @@ primary_keyword: "lịch trình xe máy tham quan hà nội 1 ngày"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
 seo_hub: hanh-trinh
+quick_answer: "Nên chia một ngày thành ba cụm: sáng cho Phố Cổ với chợ và đền chùa, trưa cho Hồ Tây với bảo tàng và quán ven hồ, chiều muộn cho khu Tây Nam hoặc phố ẩm thực. Trong cụm thì đi bộ, giữa các cụm mới đi xe, và thuê gói theo ngày."
+qa:
+  - q: "Mỗi lần di chuyển giữa các cụm điểm ở Hà Nội mất bao lâu?"
+    a: "Mỗi lần băng ngang thành phố có thể mất khoảng ba mươi phút, nên càng ít lần đổi cụm càng đỡ mất thời gian. Hãy đổi cụm vào giữa trưa hoặc sau tám giờ tối, tránh hai khung bảy giờ tới tám giờ rưỡi và năm giờ tới bảy giờ."
+  - q: "Khách ở khách sạn có thể nhận xe ngay tại chỗ không?"
+    a: "Có thể. Motoopen giao xe tận nơi trong khu vực nội thành, phí khoảng 20k–50k tùy quãng đường; nếu nhận tại cửa hàng 114 Nguyễn Văn Cừ, Long Biên thì không mất phí giao."
+  - q: "Nên nhận xe lúc mấy giờ cho lịch trình một ngày?"
+    a: "Nên chốt giờ nhận sát lịch thực tế: nhận quá sớm phí mất phần đầu ngày, nhận muộn thì cụm buổi sáng bị cắt. Cửa hàng Motoopen mở cửa từ 09:00, nếu cần xe sớm hơn nên hỏi rõ khi đặt."
+  - q: "Gửi xe nhiều điểm trong ngày có tốn nhiều không?"
+    a: "Phí gửi lẻ cộng dồn cả ngày có thể lên tới vài chục nghìn, nên ưu tiên điểm gửi miễn phí hoặc quán có chỗ giữ xe riêng. Đỗ đúng vạch, nhất là ở Phố Cổ, nơi hay xử phạt đỗ sai."
 ---
 Một ngày khám phá Hà Nội bằng xe máy đi được nhiều hơn taxi, nhưng chỉ khi lịch trình được nhóm đúng: mỗi lần băng ngang thành phố là ba mươi phút mất oan. Bài này xếp các điểm thành ba cụm để đi tròn một ngày mà không mệt.
 
@@ -37,6 +47,8 @@ Chi phí gửi xe lẻ ăn từng chục nghìn cả ngày, nên ưu tiên đi�
 Mang giấy phép lái, căn cước, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài thuê xe máy Hà Nội cần giấy tờ gì. Xe hỏng giữa cụm thì gọi nơi thuê qua trang liên hệ theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}). Trả đúng giờ hẹn, khung phụ phí trễ nằm trong bài phí trả xe muộn thuê xe máy.
 
 Cuối cùng, chốt khung giờ nhận xe sát với lịch: nhận quá sớm làm mất phần gói đầu ngày, nhận muộn làm cụm sáng bị cắt, khung cân nhắc đã trình bày trong bài [thuê xe máy Hà Nội 4 giờ]({{ '/blog/thue-xe-may-ha-noi-4-gio/' | relative_url }}).
+
+Trước ngày đi, có thể lướt qua [tổng hợp kinh nghiệm thuê xe máy]({{ '/kinhnghiem.html' | relative_url }}) để chuẩn bị giấy tờ và biết cần kiểm tra gì khi nhận xe buổi sáng.
 
 ## Kết luận
 

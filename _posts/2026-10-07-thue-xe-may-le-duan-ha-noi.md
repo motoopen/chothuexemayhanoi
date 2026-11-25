@@ -9,6 +9,14 @@ primary_keyword: "thuê xe máy lê duẩn hà nội"
 hub_parent: khu-vuc
 hub_category: ha-noi-theo-khu-vuc
 seo_hub: khu-vuc
+quick_answer: "Quanh phố Lê Duẩn, nên nhận xe tại khách sạn hoặc nhà nghỉ ở các đoạn Lê Duẩn, Hòa Mã hay khu Bà Triệu nếu chỉ đi chặng ngắn tới phố cổ, ga; chiều định vào phố cổ thì chọn điểm ở phía bắc phố, và tránh hẹn ngay nút giao chính giờ cao điểm."
+qa:
+  - q: "Giờ cao điểm trên trục Lê Duẩn có ảnh hưởng đến việc bàn giao xe không?"
+    a: "Có, vì các nút giao trên trục Lê Duẩn thường kẹt giờ cao điểm, chờ bàn giao ngay tại nút sẽ mất thời gian. Hẹn ở phố nhỏ hoặc ngõ cạnh khách sạn, lệch khỏi nút chính, giúp người giao tới dễ và bạn có chỗ kiểm xe."
+  - q: "Thuê xe quanh Lê Duẩn có phải đặt cọc không, cọc bao nhiêu?"
+    a: "Có đặt cọc, và mức cọc tùy dòng xe; bạn xem trên bảng giá hoặc hỏi khi đặt để được báo cụ thể. Nên hỏi luôn hình thức cọc, khi nào hoàn cọc và có cần để lại giấy tờ gốc không trước khi nhận xe."
+  - q: "Ở khách sạn trên phố Lê Duẩn, thuê xe để đi phố cổ và ga có cần xe lớn không?"
+    a: "Không cần. Chặng tới phố cổ hay ga đều ngắn, nên xe số hoặc xe ga nhỏ gọn như Wave, Click/Mio là đủ, dễ đỗ và tiết kiệm. Chỉ khi có chặng xa ngay ngày đầu mới nên cân nhắc dòng êm hơn và nhận tại cửa hàng để thử kỹ."
 ---
 Lê Duẩn là trục chính phía nam Hồ Gươm với nhiều khách sạn và cơ quan, nên chỗ nhận xe thuê ảnh hưởng nhiều đến buổi đầu tiên của bạn. Bài này giúp bạn chọn điểm nhận xe hợp với hành trình quanh phố Lê Duẩn.
 
@@ -33,6 +41,8 @@ Hành trình chủ yếu trong nội thành với chặng ngắn tới phố c�
 Gọi hoặc nhắn trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để chốt địa điểm và giờ nhận: nơi thuê sẽ chuẩn bị xe, mũ và giấy tờ đầy đủ, và báo trước nếu dòng xe bạn cần không giao tận nơi được. Hỏi luôn cả giờ trả xe để cân lịch cuối ngày, và mức phí trong trang bảng giá để tránh phát sinh. Khách lần đầu nên đọc thêm phần thủ tục trong bài thủ tục thuê xe máy.
 
 Lê Duẩn là trục lớn nên giờ cao điểm thường kẹt ở các nút giao, chọn điểm nhận lệch khỏi nút chính sẽ đỡ mất giờ chờ bàn giao. Đi nhóm thì nhận cùng lúc một điểm để kiểm xe song song, đỡ chờ nhau. Với khách nước ngoài, gửi sẵn địa chỉ bằng tiếng Việt cho nơi thuê để tránh phải mô tả địa điểm qua điện thoại, và hỏi trước về việc kiểm xe giữa kỳ nếu thuê nhiều ngày.
+
+Nếu chỉ thuê vài ngày cho các chặng ngắn quanh Hồ Gươm, bạn có thể xem [giá thuê xe theo ngày]({{ '/banggia.html' | relative_url }}) để chọn dòng xe vừa túi tiền trước khi chốt điểm nhận.
 
 ## Kết luận
 

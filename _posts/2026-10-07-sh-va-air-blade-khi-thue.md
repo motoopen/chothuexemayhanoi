@@ -17,7 +17,7 @@ qa:
     a: "SH nặng gần 130 ký và yên cao, trong khi Air Blade nhẹ hơn hẳn và yên thấp hơn. Phần chênh lộ rõ nhất khi dừng đèn đỏ liên tục, dắt xe trong ngõ hoặc kéo xe vào chỗ đỗ chật."
   - q: "Ở nhà trọ trong ngõ nhỏ có nên thuê SH không?"
     a: "Không nên. SH dài và rộng hơn Air Blade một khoảng cảm nhận được, nên lách và quay đầu trong ngõ chỉ vừa một xe tốn thêm nhiều động tác. Chỗ đỗ chật như sảnh chung cư hay vỉa hè đông thì Air Blade gọn hơn."
-  - q: "Đi cao tốc và đại lộ nhiều thì chọn SH hay Air Blade?"
+  - q: "Đi đại lộ và đường vành đai nhiều thì chọn SH hay Air Blade?"
     a: "SH phát huy tốt hơn trên đường rộng: máy đầm, êm, giữ tốc và che gió tốt, trọng lượng ít lộ ra. Nếu chặng xa chỉ chiếm một phần nhỏ kỳ thuê, Air Blade vẫn hợp lý hơn về giá và độ gọn."
   - q: "Hợp đồng thuê xe ga lớn cần chú ý điều khoản nào nhất?"
     a: "Mức khấu trừ khi trầy xước, vì sơn và phụ tùng dòng lớn đắt. Chụp thân xe kỹ khi nhận, đọc rõ trách nhiệm hỏng hóc và mức cọc trước khi ký, đồng thời hỏi tồn kho sớm nếu thuê quanh dịp lễ."
@@ -39,7 +39,7 @@ Cả hai đều có phanh đĩa tốt, nhưng xe nặng dừng dài hơn: phanh 
 
 ## Khi đường trường là chặng chính
 
-Đây là vùng SH mạnh: máy đầm, êm và giữ tốc đường trường trọn vẹn, hợp liên tỉnh và dài ngày. Air Blade làm tốt đường trường ngắn, xem bài thuê xe máy đi đường dài từ Hà Nội cho khung lựa chọn. Nếu kỳ thuê của bạn phần lớn là cao tốc và đại lộ, SH đáng phần chênh giá và trọng lượng. Cân nhắc thêm dòng khác cho cùng nhu cầu trong bài [thuê Air Blade hay Vision]({{ '/blog/air-blade-va-vision-khi-thue/' | relative_url }}).
+Đây là vùng SH mạnh: máy đầm, êm và giữ tốc đường trường trọn vẹn, hợp liên tỉnh và dài ngày. Air Blade làm tốt đường trường ngắn, xem bài thuê xe máy đi đường dài từ Hà Nội cho khung lựa chọn. Nếu kỳ thuê của bạn phần lớn là đại lộ và đường vành đai, SH đáng phần chênh giá và trọng lượng. Cân nhắc thêm dòng khác cho cùng nhu cầu trong bài [thuê Air Blade hay Vision]({{ '/blog/air-blade-va-vision-khi-thue/' | relative_url }}).
 
 Nếu muốn đặt Air Blade cạnh các dòng ga khác trước khi quyết, bạn có thể xem [trang các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}) để chọn theo chiều cao, chỗ đỗ và quãng đường của mình.
 
@@ -49,4 +49,4 @@ SH giá thuê gấp rưỡi trở lên, cọc cao và trách nhiệm trầy xư�
 
 ## Kết luận
 
-Trọng lượng và kích thước quan trọng khi bạn thấp, chưa quen xe lớn, ở ngõ hẹp hoặc thường phanh gấp đường ướt: lấy Air Blade. Chúng nhường vị trí khi chặng đường trường chiếm phần lớn kỳ: SH đầm và êm xứng phần giá. Cân đúng tình huống của mình trước khi nghe cảm hứng, và ngồi thử cả hai trước khi ký. Ghi chú cuối về khung giờ và tuyến: nếu lịch của bạn là đưa đón sân bay hoặc đi cao tốc Phạm Hùng, Đại lộ Thăng Long, SH giữ tốc và che gió trọn vẹn, phần trọng lượng không lộ vì đường rộng. Ngược lại tuyến phố cổ, ngõ Tràng Tiền hoặc khu chợ, mỗi lần đỗ đẩy SH cũng là một bài tập, Air Blade tiết kiệm cho bạn cả trăm động tác nhỏ mỗi ngày. Khách lần đầu thử dòng lớn nên đi SH một ngày thứ bảy đường vắng trước khi dùng cả tuần giờ cao điểm, một ngày thử rẻ hơn một tuần khó chịu. Với ai vẫn phân vân sau tất cả, lời khuyên thực tế là lấy Air Blade cho kỳ đầu ở Hà Nội, và thuê SH cho một chuyến đặc biệt cần sự chỉn chu, mỗi dòng có đúng sân khấu của nó.
+Trọng lượng và kích thước quan trọng khi bạn thấp, chưa quen xe lớn, ở ngõ hẹp hoặc thường phanh gấp đường ướt: lấy Air Blade. Chúng nhường vị trí khi chặng đường trường chiếm phần lớn kỳ: SH đầm và êm xứng phần giá. Cân đúng tình huống của mình trước khi nghe cảm hứng, và ngồi thử cả hai trước khi ký. Ghi chú cuối về khung giờ và tuyến: nếu lịch của bạn là đưa đón sân bay hoặc đi đường Phạm Hùng, Đại lộ Thăng Long, SH giữ tốc và che gió trọn vẹn, phần trọng lượng không lộ vì đường rộng. Ngược lại tuyến phố cổ, ngõ Tràng Tiền hoặc khu chợ, mỗi lần đỗ đẩy SH cũng là một bài tập, Air Blade tiết kiệm cho bạn cả trăm động tác nhỏ mỗi ngày. Khách lần đầu thử dòng lớn nên đi SH một ngày thứ bảy đường vắng trước khi dùng cả tuần giờ cao điểm, một ngày thử rẻ hơn một tuần khó chịu. Với ai vẫn phân vân sau tất cả, lời khuyên thực tế là lấy Air Blade cho kỳ đầu ở Hà Nội, và thuê SH cho một chuyến đặc biệt cần sự chỉn chu, mỗi dòng có đúng sân khấu của nó.

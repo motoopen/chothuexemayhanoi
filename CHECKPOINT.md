@@ -7,6 +7,8 @@
 | 2 | 2026-11-25 | Static pages: "Cẩm nang" box (≤3 links) on 9 pages, contact page local service-area block | branch | QA PASS |
 | 3 | 2026-11-25 | Performance/a11y: WebP vehicles, CSS in head, CLS 0, AA contrast, page-fade removed | branch | QA PASS · Lighthouse a11y 100 (home, pricing) |
 | 4 | 2026-11-25 | Content batches B01–B07 (165 posts): quick answer + 3–6 visible FAQ + 1 contextual link; homepage pillar now linked from 83 post bodies (was 6) | branch | QA PASS · schema lock OK |
+| 5 | 2026-11-25 | PR #22 merged into main (`1ea03c0`); Pages deploy #1265 success | main | CI #75 PASS |
+| 6 | 2026-11-25 | Batches B08–B13 → 301/301 posts optimized (1,418 FAQ items); legal/safety notices (16 posts); factual body fixes; silo→pillar box on categories; QA-REPORT | branch → PR #2 | QA PASS · schema lock 631/631 |
 
 ## Restore
 ```bash

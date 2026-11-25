@@ -9,6 +9,18 @@ primary_keyword: "đi xe máy hà nội cà phê"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
 seo_hub: hanh-trinh
+quick_answer: "Nên nhóm quán cà phê theo ba khu và mỗi buổi chỉ đi một khu: phố cổ với quán trong ngõ vào buổi sáng, ven Hồ Tây với quán sân vườn lúc chiều muộn, các quận mới với quán rộng vào buổi tối. Loại ngay những quán không có chỗ gửi xe gần."
+qa:
+  - q: "Quán cà phê trong ngõ phố cổ thường gửi xe ở đâu?"
+    a: "Thường phải gửi ở đầu ngõ rồi đi bộ vào, vì ngõ nhỏ không có chỗ đỗ. Nên tính đoạn đi bộ này vào lịch và chụp ảnh xe lúc nhận, vì đỗ chen trong ngõ dễ cấn vết."
+  - q: "Giờ nào đẹp nhất để ngồi cà phê ven Hồ Tây?"
+    a: "Sau bốn giờ chiều, khi bắt đầu có hoàng hôn, là khung đẹp cho quán ven hồ. Khi di chuyển giữa các khu, nhớ né hai khung giờ cao điểm để không mất ánh sáng đẹp vì kẹt xe."
+  - q: "Đi cà phê cùng nhóm bạn nên chọn quán thế nào?"
+    a: "Nên chọn quán có sân rộng để cả nhóm đỗ xe cùng chỗ, thay vì mỗi người gửi một nơi. Mang theo khóa để khóa xe hoặc cốp cho chắc khi ngồi lâu."
+  - q: "Người mới lái có nên chọn tuyến cà phê trong phố cổ?"
+    a: "Nên cân nhắc kỹ. Ngõ phố cổ hẹp và đông, người mới nên tập trước ở đường rộng vắng; nếu vẫn đi thì chọn sáng sớm khi phố còn thưa và dùng xe ga nhỏ gọn cho dễ xoay xở."
+  - q: "Thuê xe máy đi cà phê có tốn thêm khoản nào ngoài giá thuê?"
+    a: "Có thể có phí gửi xe lẻ ở từng quán, cộng qua ba quán một buổi cũng đáng kể. Trước khi thuê, nên hỏi giá đã gồm mũ bảo hiểm, áo mưa hay chưa và còn khoản phát sinh nào khác."
 ---
 Tuyến cà phê Hà Nội là thú riêng của người có xe máy, vì các quán đẹp nằm rải từ phố cổ tới ven hồ, không quán nào gần nhau. Bài này giúp nhóm chúng thành các cung đi được trong một buổi.
 
@@ -34,9 +46,11 @@ Xe ga nhỏ gọn hợp tuyến cà phê, so sánh dòng đã có trong bài [xe
 
 ## Giấy tờ và sự cố
 
-Mang giấy phép lái, căn cận, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài thuê xe máy Hà Nội cần giấy tờ gì. Sự cố giữa buổi gọi nơi thuê qua trang liên hệ theo trình tự trong bài xe thuê bị hỏng giữa đường. Nếu dự kiến về sau giờ đóng cửa điểm trả, so gói qua đêm trong bài [thuê xe máy Hà Nội qua đêm]({{ '/blog/thue-xe-may-ha-noi-qua-dem/' | relative_url }}) thay vì chấp nhận phụ phí trễ theo bài phí trả xe muộn thuê xe máy.
+Mang giấy phép lái, căn cước, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài thuê xe máy Hà Nội cần giấy tờ gì. Sự cố giữa buổi gọi nơi thuê qua trang liên hệ theo trình tự trong bài xe thuê bị hỏng giữa đường. Nếu dự kiến về sau giờ đóng cửa điểm trả, so gói qua đêm trong bài [thuê xe máy Hà Nội qua đêm]({{ '/blog/thue-xe-may-ha-noi-qua-dem/' | relative_url }}) thay vì chấp nhận phụ phí trễ theo bài phí trả xe muộn thuê xe máy.
 
 Với ai hẹn chụp ảnh cùng bạn bè ở quán, chọn quán có sân rộng để có chỗ đỗ cả nhóm xe, và nhớ mang khóa bọc cốp cho chắc, phần chuẩn bị đồ mang theo đã trình bày trong bài [thuê xe máy Hà Nội mang hành lý]({{ '/blog/thue-xe-may-ha-noi-mang-hanh-ly/' | relative_url }}).
+
+Muốn tránh các khoản phát sinh khi thuê, bạn có thể xem thêm [kinh nghiệm tránh bẫy giá rẻ khi thuê xe]({{ '/kinhnghiem.html' | relative_url }}) trước khi chọn nơi thuê cho buổi cà phê.
 
 ## Kết luận
 

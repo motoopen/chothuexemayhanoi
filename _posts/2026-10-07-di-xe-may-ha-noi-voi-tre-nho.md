@@ -9,6 +9,18 @@ primary_keyword: "đi xe máy hà nội với trẻ nhỏ"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
 seo_hub: hanh-trinh
+quick_answer: "Chỉ nên chở trẻ trên xe thuê khi đã chốt đủ các yếu tố: trẻ đủ vóc để ngồi vững, có mũ bảo hiểm trẻ em đạt chuẩn, hành trình ngắn trên đường vắng, xe được kiểm tra phanh, lốp, đèn kỹ hơn bình thường và thời tiết đẹp. Thiếu một yếu tố, hãy chọn phương án khác."
+qa:
+  - q: "Trẻ như thế nào thì đủ điều kiện ngồi sau xe máy thuê?"
+    a: "Trẻ phải đủ cao, ngồi vững sau yên và gác chân được; trẻ quá nhỏ nên chọn phương án di chuyển khác. Khi có thể, cho trẻ ngồi giữa hai người lớn, và kiểm tra quy định hiện hành về chở trẻ em trước khi đi."
+  - q: "Nơi thuê xe có kèm mũ bảo hiểm trẻ em không?"
+    a: "Tùy nơi, nhiều nơi chỉ kèm mũ người lớn. Khi đặt xe ở Motoopen, nên hỏi rõ số lượng và loại mũ kèm theo; tốt nhất vẫn mang mũ riêng vừa đầu trẻ, đạt chuẩn và cài quai chặt."
+  - q: "Gia đình hai người lớn và hai trẻ nên thuê mấy xe?"
+    a: "Nên thuê hai xe, mỗi người lớn chở một trẻ, thay vì dồn nhiều người lên một xe. Chở quá số người quy định có thể bị xử phạt và làm xe khó kiểm soát khi phanh."
+  - q: "Chở trẻ nhỏ bằng xe máy nên giới hạn quãng đường bao xa?"
+    a: "Nên giữ hành trình ngắn, dưới khoảng mười lăm ki lômét, trên tuyến có làn chậm, ít xe container và tránh trục lớn giờ cao điểm. Nếu trời xấu, hãy hoãn chuyến thay vì chở trẻ trong mưa."
+  - q: "Trẻ hay ngủ gật khi ngồi sau thì nên chọn xe thế nào?"
+    a: "Nên chọn xe có tay vịn sau hoặc yên sau có tựa lưng nếu nơi thuê có, và để trẻ ngồi giữa hai người lớn khi có thể. Thấy trẻ buồn ngủ thì dừng nghỉ thay vì cố chạy tiếp."
 ---
 Chở trẻ nhỏ trên xe máy là chuyện phổ biến ở Hà Nội, nhưng với xe thuê, các yếu tố an toàn cần được cân nhắc kỹ hơn xe nhà, vì bạn không biết lịch sử chiếc xe. Bài này liệt kê các yếu tố cần quyết trước khi chọn.
 
@@ -30,11 +42,13 @@ Rà phanh, lốp và đèn theo checklist trong bài [checklist 10 phút trướ
 
 ## Gói thuê và giấy tờ
 
-Hành trình với trẻ hay kéo dài hơn dự kiến, nên đặt giờ trả có dư, và nếu thấy trễ, gọi trước, khung phụ phí trễ nằm trong bài [phí trả xe muộn thuê xe máy]({{ '/blog/phi-tra-xe-muon-thue-xe-may/' | relative_url }}). Mang đủ giấy phép lái, căn cận, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài thuê xe máy Hà Nội cần giấy tờ gì. Sự cố gọi ngay nơi thuê theo trình tự trong bài xe thuê bị hỏng giữa đường.
+Hành trình với trẻ hay kéo dài hơn dự kiến, nên đặt giờ trả có dư, và nếu thấy trễ, gọi trước, khung phụ phí trễ nằm trong bài [phí trả xe muộn thuê xe máy]({{ '/blog/phi-tra-xe-muon-thue-xe-may/' | relative_url }}). Mang đủ giấy phép lái, căn cước, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài thuê xe máy Hà Nội cần giấy tờ gì. Sự cố gọi ngay nơi thuê theo trình tự trong bài xe thuê bị hỏng giữa đường.
 
 Với gia đình có hai trẻ, cân nhắc thuê hai xe với hai người lớn thay vì ba người một xe, vì chở quá số người quy định là lỗi bị xử phạt theo Nghị định hiện hành, phần trách nhiệm khi đi xe thuê đã nêu trong bài [thuê xe máy bị phạt giao thông]({{ '/blog/thue-xe-may-bi-phat-giao-thong/' | relative_url }}).
 
 Một điểm hay quên: hỏi nơi thuê về chính sách mũ bảo hiểm trẻ em và số lượng mũ kèm xe, vì nhiều nơi chỉ kèm một mũ lớn, phần chuẩn bị đồ đi kèm đã trình bày trong bài [thuê xe máy Hà Nội cần những gì]({{ '/blog/thue-xe-may-ha-noi-can-nhung-gi/' | relative_url }}).
+
+Trước khi chở trẻ, bạn có thể đọc thêm [kinh nghiệm thuê xe an toàn]({{ '/kinhnghiem.html' | relative_url }}) để biết cách rà phanh, lốp và đèn của xe thuê kỹ hơn bình thường.
 
 ## Kết luận
 

@@ -9,6 +9,18 @@ primary_keyword: "giao nhận xe máy thuê ba đình hà nội"
 hub_parent: khu-vuc
 hub_category: ha-noi-theo-khu-vuc
 seo_hub: khu-vuc
+quick_answer: "Ở Ba Đình, khách mới đến và chưa quen các đoạn phố một chiều nên nhận xe tại khách sạn, người đang di chuyển giữa các điểm tham quan hợp với điểm hẹn, còn ai cần chọn xe và kiểm kỹ thì nên ra cửa hàng. Dù chọn cách nào, hãy hỏi trước chỗ đỗ xe qua đêm."
+qa:
+  - q: "Motoopen có giao xe tới khách sạn ở Ba Đình không, phí giao khoảng bao nhiêu?"
+    a: "Có. Ba Đình thuộc khu vực nội thành nên có thể đặt giao tận nơi, phí khoảng 20k–50k tùy quãng đường và điểm hẹn; nếu tự đến cửa hàng 114 Nguyễn Văn Cừ, Long Biên thì không mất phí giao. Nên gửi trước tên khách sạn và giờ muốn nhận."
+  - q: "Khách sạn ở Kim Mã hay Giảng Võ đóng cổng sớm thì xe thuê để qua đêm ở đâu?"
+    a: "Nên hỏi lễ tân giờ đóng cổng và chỗ đỗ trước khi chốt giao xe. Nếu khách sạn chỉ có vỉa hè chật hoặc không mở cổng khuya, hãy tìm bãi gửi có người trông gần đó, hoặc nhận tại cửa hàng rồi tự chọn chỗ đỗ hợp với giờ về của bạn."
+  - q: "Hẹn nhận xe gần một vòng xoay ở Ba Đình thì cần kiểm tra nhanh những gì?"
+    a: "Kiểm mũ, mức xăng hoặc pin, phanh, lốp và đèn ngay tại chỗ, vì bàn giao ở điểm hẹn gọn hơn ở cửa hàng. Chụp ảnh các vết trầy có sẵn, đọc kỹ hợp đồng rồi mới chạy vào các đoạn phố một chiều quanh khu."
+  - q: "Chỉ đi các bảo tàng và công viên quanh Ba Đình vài ngày thì thuê theo ngày có hợp không?"
+    a: "Hợp. Với chặng ngắn quanh khu, thuê theo ngày là đủ, giá tham khảo từ 150k cho xe số hoặc Click/Mio đến 200k cho Vision, Air Blade. Nếu ở lâu hơn, nên hỏi thêm giá tuần hoặc tháng để so tổng chi phí trước khi chốt."
+  - q: "Nhận xe ở khách sạn Ba Đình thì có trả xe ở nơi khác được không?"
+    a: "Không nên mặc định là được. Thông thường trả xe là quay lại đúng chỗ đã nhận, vì vậy hãy chọn điểm nhận gần lộ trình cuối ngày; nếu muốn trả ở địa điểm khác, nên hỏi rõ khi đặt xe."
 ---
 Ba Đình là khu tập trung nhiều cơ quan, bảo tàng và khách sạn, và bạn có ba cách nhận xe thuê: tại khách sạn, tại điểm hẹn, hoặc tại cửa hàng. Bài này giúp bạn chọn cách phù hợp cho kỳ thuê quanh Ba Đình.
 
@@ -33,6 +45,8 @@ Xe đặc biệt như Cub hoặc dòng ga lớn hiếm hơn, nhiều khi không 
 Lịch quanh khu với chặng ngắn tới các bảo tàng hoặc công viên: nhận tại khách sạn là trọn nhất, tham khảo kiểu thuê theo ngày trong bài [thuê xe máy điện theo ngày Hà Nội]({{ '/blog/thue-xe-may-dien-theo-ngay-ha-noi/' | relative_url }}). Lịch có liên tỉnh ngay buổi đầu: nhận tại cửa hàng để thử máy đường trường kỹ, xem cách chọn xe cho chặng xa trong bài thuê xe máy đi đường dài từ Hà Nội. Lịch lắt nhắt giờ cao điểm: nhận gần chỗ ở giúp tránh vòng qua cửa hàng lúc đường trung tâm đông.
 
 Ba Đình nhiều đoạn phố một chiều và vỉa hè chật, nên nếu bạn định đỗ xe qua đêm ở khách sạn, hãy hỏi trước cả về cổng mở khuya. Với nhóm khách đi cùng, nhận cùng lúc tại một điểm giúp kiểm xe song song và đỡ chờ nhau. Cuối kỳ thuê, cách trả xe thường là quay lại đúng chỗ nhận, nên chọn điểm gần lộ trình cuối ngày để trả gọn trước giờ về.
+
+Khi đã chọn được cách nhận, bạn có thể gửi tên khách sạn và giờ muốn nhận xe qua [trang liên hệ Motoopen]({{ '/lienhe.html' | relative_url }}) để được báo phí giao và dòng xe còn sẵn.
 
 ## Kết luận
 

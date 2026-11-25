@@ -9,6 +9,14 @@ primary_keyword: "thuê xe máy giáp bát hà nội"
 hub_parent: khu-vuc
 hub_category: ha-noi-theo-khu-vuc
 seo_hub: khu-vuc
+quick_answer: "Ở Giáp Bát, nếu vừa xuống xe khách thì nên hẹn nhận xe ở điểm lệch khỏi cổng bến cho dễ bàn giao; ở lại quanh Giải Phóng, Định Công Thượng thì nhận ngay chỗ ở, còn chiều định về phố cổ thì chọn điểm phía bắc khu để khỏi rẽ ngược trục đông."
+qa:
+  - q: "Đến Giáp Bát hôm trời mưa thì nhận xe thuê cần lưu ý gì?"
+    a: "Nên hẹn điểm có mái che để vẫn kiểm xe kỹ dù trời ướt: thử phanh, xem lốp, đèn và chụp ảnh xe trước khi đi. Mang sẵn áo mưa hoặc hỏi nơi thuê có kèm không, vì mặt đường quanh bến xe đông và trơn khi mưa."
+  - q: "Ở gần đường Giải Phóng, nhận xe vào giờ cao điểm có vất vả không?"
+    a: "Có thể khá chật, vì khu quanh bến xe và các trục như Giải Phóng thường đông giờ cao điểm. Nên chọn điểm nhận trong phố nhỏ gần chỗ ở hoặc dời sang giờ thấp điểm, rồi chạy thử một vòng ngắn trước khi nhập vào trục lớn."
+  - q: "Chưa có bằng A1 mà cần xe đi lại quanh Giáp Bát thì thuê loại nào?"
+    a: "Theo trang Thủ tục của Motoopen, khách chưa có bằng A1 được tư vấn xe 50cc hoặc xe điện. Các trục quanh bến xe khá đông, nên chạy thử kỹ trước khi nhập dòng và kiểm tra quy định hiện hành về giấy tờ, độ tuổi khi lái loại xe này."
 ---
 Giáp Bát là khu gần bến xe và ga phía nam với nhiều đường trục quan trọng, nên chỗ nhận xe thuê ảnh hưởng nhiều đến buổi đầu tiên của bạn. Bài này giúp bạn chọn điểm nhận xe hợp với hành trình quanh Giáp Bát.
 
@@ -33,6 +41,8 @@ Hành trình chủ yếu trong khu và các quận lân cận: nhận gần ch�
 Gọi hoặc nhắn trước qua trang liên hệ để chốt địa điểm và giờ nhận: nơi thuê sẽ chuẩn bị xe, mũ và giấy tờ đầy đủ, và báo trước nếu dòng xe bạn cần không giao tận nơi được. Hỏi luôn cả giờ trả xe để cân lịch cuối ngày, và mức phí trong trang [bảng giá]({{ '/banggia.html' | relative_url }}) để tránh phát sinh. Khách lần đầu nên đọc thêm phần thủ tục trong bài thủ tục thuê xe máy.
 
 Giáp Bát gần bến xe lớn nên khu vực quanh bến thường đông và chật giờ cao điểm, nên nếu bạn đến bằng xe khách, chọn điểm nhận lệch khỏi cổng bến sẽ dễ bàn giao hơn. Đi nhóm thì nhận cùng lúc một điểm để kiểm xe song song, đỡ chờ nhau. Với khách nước ngoài, gửi sẵn địa chỉ bằng tiếng Việt cho nơi thuê để tránh phải mô tả địa điểm qua điện thoại, và hỏi trước về việc kiểm xe giữa kỳ nếu thuê nhiều ngày.
+
+Nếu đến bằng xe khách, bạn có thể [gọi hoặc nhắn Motoopen]({{ '/lienhe.html' | relative_url }}) báo giờ xe về dự kiến để hẹn điểm nhận lệch khỏi cổng bến.
 
 ## Kết luận
 

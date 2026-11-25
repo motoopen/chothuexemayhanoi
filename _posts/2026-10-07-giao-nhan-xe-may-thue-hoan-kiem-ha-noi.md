@@ -9,6 +9,14 @@ primary_keyword: "giao nhận xe máy thuê hoàn kiếm hà nội"
 hub_parent: khu-vuc
 hub_category: ha-noi-theo-khu-vuc
 seo_hub: khu-vuc
+quick_answer: "Ở Hoàn Kiếm, khách du lịch lưu trú trong khu và chưa quen phố nên nhận xe tại khách sạn, người đang đi chơi ghé qua có thể hẹn ở đầu cầu hay một quán quen, còn ai cần chạy thử và chọn xe thì ra cửa hàng. Khu này hẹp nên phải hỏi trước chỗ đỗ qua đêm."
+qa:
+  - q: "Quanh hồ Gươm khách sạn hiếm gara, có nên để xe thuê ngoài vỉa hè qua đêm?"
+    a: "Không nên. Hãy hỏi lễ tân về bãi gửi có người trông gần khách sạn trước khi nhận xe, vì gửi xe đêm ở bãi gần an toàn hơn để ngoài vỉa hè; nhớ giữ vé gửi và khóa xe cẩn thận."
+  - q: "Ở khách sạn Hoàn Kiếm thì nên đặt giao xe hay qua sông sang cửa hàng Motoopen?"
+    a: "Tùy bạn ưu tiên gì. Cửa hàng ở 114 Nguyễn Văn Cừ, Long Biên, bên kia sông Hồng; nếu muốn chọn xe tại chỗ và không mất phí giao thì sang cửa hàng; còn không, có thể đặt giao tới khách sạn trong nội thành với phí khoảng 20k–50k tùy quãng đường."
+  - q: "Hẹn nhận xe ở đầu cầu gần Hoàn Kiếm có ổn không?"
+    a: "Ổn nếu bạn đang di chuyển và chọn chỗ dừng rộng, ít người đi bộ. Bàn giao ở điểm hẹn gọn hơn cửa hàng, nên hãy tự kiểm mũ, xăng hoặc pin, phanh, đèn và chụp ảnh xe; trời sắp mưa thì chọn nơi có mái che."
 ---
 Hoàn Kiếm là khu nhận xe thuê sôi động nhất Hà Nội, và bạn có ba cách nhận xe: tại khách sạn, tại điểm hẹn, hoặc tại cửa hàng. Bài này cân từng cách cho đúng lịch trình của bạn.
 
@@ -33,6 +41,8 @@ Xe đặc biệt như Cub hoặc dòng ga lớn hiếm hơn, nhiều khi không 
 Lịch quanh phố cổ với chặng ngắn: nhận tại khách sạn là trọn nhất, tham khảo tuyến trong bài [thuê xe máy điện phố cổ Hà Nội]({{ '/blog/thue-xe-may-dien-pho-co-ha-noi/' | relative_url }}). Lịch có liên tỉnh ngay buổi đầu: nhận tại cửa hàng để thử máy đường trường kỹ, xem cách chọn xe cho chặng xa trong bài thuê xe máy đi đường dài từ Hà Nội. Lịch lắt nhắt giờ cao điểm: nhận gần chỗ ở giúp tránh vòng qua cửa hàng lúc đông.
 
 Quanh hồ Gươm nhiều đoạn vỉa hè chật, nên nếu bạn định để xe qua đêm, hãy hỏi khách sạn trước về chỗ đỗ an toàn hoặc gửi xe đêm ở bãi gần. Đi nhóm thì nên nhận cùng lúc một điểm để kiểm xe song song, đỡ chờ nhau. Cuối kỳ thuê, cách trả xe thường là quay lại đúng chỗ nhận, nên chọn điểm gần lộ trình cuối ngày để trả gọn gàng.
+
+Nếu chỉ thuê vài ngày để dạo quanh hồ Gươm, bạn có thể xem [bảng giá thuê xe]({{ '/banggia.html' | relative_url }}) trước để chọn dòng xe hợp ngân sách rồi mới chốt cách nhận.
 
 ## Kết luận
 

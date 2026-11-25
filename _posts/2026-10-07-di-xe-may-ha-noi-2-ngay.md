@@ -9,6 +9,18 @@ primary_keyword: "đi xe máy hà nội 2 ngày"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
 seo_hub: hanh-trinh
+quick_answer: "Nên chia hai ngày theo khu vực: ngày một dành cho Phố Cổ và phố quanh hồ, đi bộ là chính và xe chỉ dùng cho chặng vào ra; ngày hai dành cho Hồ Tây và một chuyến ngoại thành gần như Bát Tràng hay Đường Lâm, xuất phát sớm để kịp về trước tối."
+qa:
+  - q: "Đi Hà Nội 2 ngày bằng xe máy nên thuê liền hai ngày hay thuê từng ngày lẻ?"
+    a: "Nên hỏi gói liền hai ngày trước. Thuê liền thường gọn và rẻ hơn hai lần ngày lẻ, lại khỏi phải trả xe rồi nhận lại giữa chừng. Ở Motoopen, giá ngày tham khảo từ 150k đến 200k tùy dòng xe, giá cho nhiều ngày nên hỏi khi đặt."
+  - q: "Giữ xe thuê qua đêm giữa hai ngày tham quan thế nào cho an toàn?"
+    a: "Nên gửi xe ở bãi có người trông thay vì để trên vỉa hè, khóa cổ mỗi lần đỗ qua đêm và giữ lại vé gửi. Ảnh chụp bốn góc xe lúc nhận là căn cứ đối chiếu nếu sáng hôm sau phát hiện vết xước lạ."
+  - q: "Lịch hai ngày có thể kéo sang ngày thứ ba thì nên xử lý thế nào?"
+    a: "Nên báo nơi thuê càng sớm càng tốt và so thêm gói tuần thay vì cộng dồn ngày lẻ. Nếu chỉ về muộn vào chiều ngày hai, hãy gọi trước để thống nhất giờ trả; với Motoopen là số 0857 255 868."
+  - q: "Ngày thứ hai ghép chuyến ngoại thành thì nên sắp xếp giờ ra sao?"
+    a: "Nên dành buổi sáng cho bảo tàng, buổi trưa cho ven Hồ Tây và buổi chiều cho chuyến ngoại thành ngắn để kịp về trước tối. Điểm xa hơn như Chùa Hương thì cần chuẩn bị như một chuyến đường dài, không nên ghép vội vào buổi chiều."
+  - q: "Khách du lịch nước ngoài đi Hà Nội 2 ngày bằng xe máy cần chuẩn bị giấy tờ gì?"
+    a: "Khi thuê tại Motoopen, người nước ngoài cần hộ chiếu và bằng lái quốc tế hợp lệ. Lúc lái, mang theo giấy tờ này cùng đăng ký xe và giấy bảo hiểm đi kèm xe; một số bảo tàng nên đặt vé sớm nên cân thời gian từ trước."
 ---
 Hai ngày là khoảng đủ để thấy Hà Nội bằng xe máy mà không phải chạy nước rút, nhưng chỉ khi chia đúng: mỗi ngày một khu vực, mỗi khu vực một phong cách di chuyển. Bài này chia lịch và chỉ luôn khung gói thuê phù hợp.
 
@@ -34,7 +46,7 @@ Ngày một né hai khung cao điểm đã nêu trong bài thuê xe máy Hà N�
 
 ## Giấy tờ và sự cố hai ngày
 
-Mang đủ giấy phép lái, căn cận, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài thuê xe máy Hà Nội cần giấy tờ gì. Sự cố giữa hai ngày gọi ngay nơi thuê theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}), phần chi phí sửa đã phân trong bài chi phí hư hỏng khi thuê xe máy.
+Mang đủ giấy phép lái, căn cước, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài thuê xe máy Hà Nội cần giấy tờ gì. Sự cố giữa hai ngày gọi ngay nơi thuê theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}), phần chi phí sửa đã phân trong bài chi phí hư hỏng khi thuê xe máy.
 
 Với khách du lịch nước ngoài đi hai ngày, chuẩn bị trước giấy tờ theo danh mục trong bài thuê xe máy Hà Nội cho người nước ngoài, và nên lưu ý một số bảo tàng cần đặt vé sớm, phần cân thời gian đã nêu trong bài [thuê xe máy Hà Nội cho khách du lịch]({{ '/blog/thue-xe-may-ha-noi-cho-khach-du-lich/' | relative_url }}).
 

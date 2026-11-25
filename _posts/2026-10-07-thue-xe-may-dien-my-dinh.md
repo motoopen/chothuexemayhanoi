@@ -9,6 +9,18 @@ primary_keyword: "thuê xe máy điện mỹ đình"
 hub_parent: loai-xe
 hub_category: xe-dien
 seo_hub: xe-dien
+quick_answer: "Từ bến Mỹ Đình, nên đặt trước xe điện và chốt điểm nhận cách bến vài phút đi bộ, chuyển vali lớn về nơi ở bằng xe lớn rồi mới nhận xe. Vì Mỹ Đình cách khu trung tâm chừng mười cây số, hãy hỏi tầm thật của chiếc xe và cắm sạc qua đêm ở nơi lưu trú."
+qa:
+  - q: "Một ngày vào phố hai lượt từ Mỹ Đình thì pin xe điện có đủ không?"
+    a: "Có thể không đủ. Mỗi lượt vào phố là khoảng hai mươi cây số khứ hồi, hai lượt đã chạm tầm của nhiều dòng phổ thông. Hãy hỏi nơi thuê về dòng pin lớn hơn hoặc phương án đổi pin giữa ngày trước khi đặt cọc."
+  - q: "Xuống xe khách ở bến với nhiều hành lý có nên nhờ giao xe tận điểm chờ?"
+    a: "Nên hỏi. Phí giao xe tận điểm chờ đôi khi rẻ hơn công sức dắt đồ đi tìm nơi thuê. Chốt khung nhận lệch giờ xe khách lớn đến nếu lịch cho phép, vì lúc đó bến rất đông."
+  - q: "Nhận xe điện ở bến đông người thì cần chụp lại những gì?"
+    a: "Chụp hiện trạng xe kể cả vết xước sẵn có và chụp đồng hồ báo pin, ảnh có dấu thời gian. Sau đó thử ga, phanh, đèn còi, chạy một vòng ngắn và lưu số hỗ trợ trước khi rời điểm nhận."
+  - q: "Mới đến Mỹ Đình thì làm quen đường đi thế nào cho kế hoạch pin chính xác?"
+    a: "Nên dành một buổi chiều vắng để chạy thử hai ba tuyến quen: một tuyến vào phố, một tuyến đi chợ hoặc trung tâm thương mại, một tuyến đi việc gần. Biết tuyến giúp ước quãng sát hơn, nhờ đó kế hoạch pin đáng tin hơn."
+  - q: "Làm sao tránh nhận phải chiếc xe điện có tầm ngắn hơn lịch đi lại?"
+    a: "Hỏi tầm và pin trước khi đặt cọc, rồi xem màn hình pin ngay lúc nhận. Nhận vội không xem pin dễ dẫn tới việc vài hôm sau mới biết tầm thiếu và phải đổi xe giữa kỳ."
 ---
 Mỹ Đình là khu bến xe lớn, nhiều người đến bằng xe khách rồi cần thuê xe đi tiếp. Với xe máy điện, việc nhận xe gần bến và xử lý hành lý có vài điểm riêng. Bài này chỉ trình tự gọn cho khách đến Mỹ Đình.
 
@@ -35,6 +47,8 @@ Tình huống một: khách đặt trước, chốt nhận gần bến, vali to 
 ## Khung giờ và đường quen quanh Mỹ Đình
 
 Mỹ Đình giờ cao điểm đông xe quanh các nút lớn, nên với xe điện nhẹ, khung sớm và trưa vẫn là lựa chọn dễ đi nhất. Học nhanh hai ba tuyến quen trong tuần đầu: một tuyến vào phố, một tuyến đi chợ hoặc trung tâm thương mại, một tuyến đi việc gần. Biết tuyến quen giúp ước quãng chính xác hơn, và quãng chính xác là thứ khiến kế hoạch pin tin được. Với khách mới đến khu, một buổi chiều đi thử các tuyến khi vắng là cách đầu tư vài giờ đáng giá nhất cho cả tuần sau đó.
+
+Nếu bạn ở khu Mỹ Đình nhiều tuần để đi học hoặc đi làm, có thể so thêm [gói thuê xe máy theo tháng]({{ '/' | relative_url }}) trước khi chốt kỳ thuê.
 
 ## Kết luận
 

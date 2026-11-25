@@ -9,6 +9,14 @@ primary_keyword: "thuê xe máy phố cổ hà nội"
 hub_parent: khu-vuc
 hub_category: ha-noi-theo-khu-vuc
 seo_hub: khu-vuc
+quick_answer: "Ở Phố Cổ, nên nhận xe ở đầu tuyến định đi: sáng có lịch đi Văn Miếu thì chọn điểm nằm trên hướng ra khỏi phố cổ, cả ngày ở trong khu thì nhận gần khách sạn vào buổi trưa; tối cuối tuần cần hỏi trước vì nhiều tuyến quanh hồ cấm xe theo giờ."
+qa:
+  - q: "Tối cuối tuần ở phố cổ có giao xe thuê tới khách sạn được không?"
+    a: "Còn tùy giờ và tuyến, vì cuối tuần một số phố đi bộ quanh hồ cấm xe trong khung giờ nhất định. Hãy hỏi trước nơi thuê khung giờ giao được, hoặc hẹn ở đầu phố nằm ngoài tuyến cấm để khỏi đứng chờ."
+  - q: "Xe máy điện có hợp để đi lại trong phố cổ không?"
+    a: "Khá hợp, vì xe điện vận hành êm, không khói và thường nhỏ gọn, dễ luồn hẻm, dễ đẩy qua đoạn tắc. Nếu lịch có chặng xa trong ngày, hỏi kỹ mức pin khi nhận, bộ sạc đi kèm và chỗ sạc gần khách sạn."
+  - q: "Vì sao nhận xe ở giữa khu phố cổ dễ gây mệt?"
+    a: "Vì nếu điểm nhận không thuận, bạn có thể phải dắt xe qua đoạn phố đông người đi bộ, đi ngược lộ trình hoặc vòng lại nhiều lần qua đường một chiều. Chọn điểm ở rìa khu, nằm trên hướng bạn sẽ đi, giúp bắt đầu nhẹ nhàng hơn."
 ---
 Phố cổ Hà Nội là khu vực đông nhất thành phố về người đi bộ, quán bar và xe cộ, và lựa chọn điểm nhận xe quyết định nhiều đến việc chuyến đi của bạn thoải mái hay mệt mỏi. Nhận xe ở điểm không thuận có nghĩa bạn phải đẩy xe qua phố đông, đi ngược lộ trình hoặc quay lại vòng vèo. Bài viết này hướng dẫn cách chọn điểm nhận xe phù hợp hành trình quanh Phố Cổ.
 
@@ -31,6 +39,8 @@ Khu phố cổ có hẻm nhỏ, đường ô tô đi khó, nên loại xe nhỏ 
 ## Kiểm tra khi nhận và giữ xe trong khu
 
 Khi nhận xe quanh phố cổ, làm bộ kiểm tra chuẩn: ga, phanh, đèn còi, chạy thử vòng ngắn, chụp tình trạng xe. Trong ngày, chủ động gửi xe ở bãi có phí quanh khu thay vì để hờ trên vỉa hè, vừa an toàn vừa tránh phiền phức. Lưu số hotline hỗ trợ của cửa hàng, và nếu không quen đường một chiều các tuyến quanh hồ, hãy hỏi trước hướng đi cho tuyến định lấy. Khung kinh nghiệm tổng hợp cho khách lần đầu nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
+
+Nếu muốn chọn trước một dòng xe nhỏ gọn cho hẻm phố cổ, bạn có thể xem [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}) rồi báo dòng xe khi đặt.
 
 ## Kết luận
 

@@ -9,6 +9,18 @@ primary_keyword: "xe máy điện và xe 50cc khi thuê"
 hub_parent: loai-xe
 hub_category: xe-dien
 seo_hub: xe-dien
+quick_answer: "Chọn xe máy điện nếu bạn ưu tiên êm, gọn, trọng tâm thấp dễ cầm lái và có chỗ sạc qua đêm; chọn xe 50cc nếu cần tự do đổ xăng, chở thêm người hoặc mang hành lý. Cả hai đều hợp chạy phố Hà Nội nhưng không hợp đường trường dài."
+qa:
+  - q: "Người nhỏ người hoặc mới tập lái nên chọn xe điện hay xe 50cc?"
+    a: "Nghiêng về xe điện. Hai loại nặng tương đương, nhưng xe điện đặt pin ở sàn nên trọng tâm thấp, chống chân và cầm lái trong ngõ hẹp dễ hơn. Người mới, phụ nữ hoặc khách nước ngoài lần đầu thường thấy xe điện chắc tay hơn."
+  - q: "Chưa có bằng A1 thì chọn xe 50cc hay xe điện cho hợp?"
+    a: "Tại Motoopen, khách chưa có bằng A1 được tư vấn xe 50cc hoặc xe điện và cần mang CCCD hoặc hộ chiếu. Chọn loại nào tùy chỗ sạc, hành lý và người đi cùng; quy định giấy phép của từng loại nên kiểm tra quy định hiện hành."
+  - q: "Chỗ ở không có ổ cắm an toàn thì nên chọn loại nào?"
+    a: "Nên chọn xe 50cc. Xe điện ràng buộc chỗ sạc qua đêm, còn 50cc tốn rất ít xăng, khoảng 1,5 lít cho 100 cây số, và đổ xăng ở đâu cũng được nên tự do hơn hẳn."
+  - q: "Chạy bao nhiêu cây số mỗi ngày thì không nên chọn xe nhẹ nữa?"
+    a: "Quá khoảng 70 cây số mỗi ngày thì nên xem nhóm xe lớn hơn. Xe 50cc chạy 60 cây số một ngày thoải mái với bình xăng đầy, còn xe điện phụ thuộc pin nên cần tính kỹ theo quãng đường thực tế."
+  - q: "Có nên chạy thử cả xe điện lẫn xe 50cc trước khi quyết không?"
+    a: "Nên. Vài phút chạy thử tại điểm bàn giao cho biết rõ cảm giác ga, độ êm và trọng tâm hơn mọi bài so sánh. Hỏi trước nơi thuê về tồn kho hai loại để thử trong cùng một buổi."
 ---
 Nhiều khách tìm một chiếc xe nhẹ khi đến Hà Nội, và hai lựa chọn hay gặp nhất là xe máy điện và xe 50cc. Bài này so sánh hai loại theo đúng tiêu chí người cần xe nhẹ quan tâm, để bạn chọn nhanh.
 
@@ -35,6 +47,8 @@ Cả hai loại đều hợp nội thành và ngoại thành gần, không hợp
 ## Chọn theo hành lý và người ngồi
 
 Xe 50cc có cốp và móc hành lý truyền thống, hợp ai đi cùng vali nhỏ, xem bài [xe 50cc mang hành lý]({{ '/blog/xe-50cc-mang-hanh-ly/' | relative_url }}). Xe điện nhiều loại cũng có cốp nhưng gọn hơn. Chở hai người thì 50cc dày dạn hơn, tham khảo xe 50cc cho 2 người về tải trọng và quy định. Một mình đi nhẹ, xe điện tiện; hai người hoặc nhiều đồ, 50cc chắc.
+
+Để biết nhóm xe nhẹ nào đang có sẵn, có thể xem [các loại xe nhẹ đang cho thuê]({{ '/loaixe.html' | relative_url }}) trước khi nhắn hỏi tồn kho.
 
 ## Kết luận
 

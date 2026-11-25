@@ -9,6 +9,18 @@ primary_keyword: "đi xe máy hà nội chụp ảnh"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
 seo_hub: hanh-trinh
+quick_answer: "Lịch chụp ảnh bằng xe máy nên chạy theo ánh sáng: sáng sớm cho phố cổ, giữa trưa cho góc kiến trúc, chiều muộn cho ven hồ, tối cho phố đèn. Gom điểm theo một trục để không băng qua lại, và kiểm tra trước chỗ gửi xe gần từng góc chụp."
+qa:
+  - q: "Một buổi chụp ảnh bốn tiếng bằng xe máy nên dừng mấy điểm?"
+    a: "Chỉ nên bốn đến năm điểm. Mỗi điểm dừng tính khoảng mười lăm phút, cộng thời gian di chuyển và tìm chỗ gửi xe, nên nhồi thêm điểm dễ lỡ khung ánh sáng đẹp."
+  - q: "Mang máy ảnh và chân máy trên xe máy thuê thế nào cho an toàn?"
+    a: "Nên chọn xe có cốp kín hoặc dùng hộp đựng có khóa, kèm túi chống nước vì mưa chiều ở Hà Nội đến nhanh. Không treo đồ ở tay lái, vì túi đung đưa dễ làm vướng khi điều khiển."
+  - q: "Dừng xe giữa phố để chụp ảnh có bị phạt không?"
+    a: "Có thể bị xử phạt nếu dừng sai chỗ hoặc gây cản trở giao thông. Nên chọn lúc phố vắng như sớm trước bảy giờ hoặc giữa trưa, và tấp vào lề rộng hay hẻm nhỏ thay vì dừng giữa dòng xe."
+  - q: "Đi chụp ảnh từ sáng sớm tới tối thì nên thuê xe thế nào?"
+    a: "Nên thuê theo ngày, vì lịch chạy theo ánh sáng từ sáng sớm tới tối, khó gói vào vài tiếng. Nếu muốn bắt nắng sớm, hãy hỏi khi đặt về việc nhận xe từ hôm trước, vì cửa hàng Motoopen mở cửa từ 09:00."
+  - q: "Trời mưa giữa buổi chụp thì nên làm gì?"
+    a: "Ưu tiên che máy ảnh và giấy tờ trong túi chống nước, rồi giảm tốc và tấp vào chỗ có mái che chờ ngớt. Khung ánh sáng đã lỡ thì nên rút ngắn tuyến thay vì cố chạy cho đủ điểm."
 ---
 Chụp ảnh phố bằng xe máy là cách hay nhất để bắt Hà Nội: di chuyển nhanh giữa các điểm, và dừng được ở những góc ô tô không tới. Nhưng lịch chụp ảnh khác lịch tham quan: nó chạy theo ánh sáng, không chạy theo điểm.
 
@@ -34,9 +46,11 @@ Dừng xe giữa phố để chụp cần chọn khung vắng: sớm trước b�
 
 ## Giấy tờ, thời tiết và trả xe
 
-Mang giấy phép lái, căn cận, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài thuê xe máy Hà Nội cần giấy tờ gì. Trời mưa thì áp dụng phần lái mưa trong bài thuê xe máy Hà Nội mùa mưa và che máy ảnh kỹ. Nếu buổi chụp kéo dài, gọi trước qua trang liên hệ, phụ phí trễ tính theo khung trong bài [phí trả xe muộn thuê xe máy]({{ '/blog/phi-tra-xe-muon-thue-xe-may/' | relative_url }}).
+Mang giấy phép lái, căn cước, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài thuê xe máy Hà Nội cần giấy tờ gì. Trời mưa thì áp dụng phần lái mưa trong bài thuê xe máy Hà Nội mùa mưa và che máy ảnh kỹ. Nếu buổi chụp kéo dài, gọi trước qua trang liên hệ, phụ phí trễ tính theo khung trong bài [phí trả xe muộn thuê xe máy]({{ '/blog/phi-tra-xe-muon-thue-xe-may/' | relative_url }}).
 
 Với người mang nhiều máy ảnh, cân nhắc cốp có khóa riêng và túi chống nước, vì mưa Hà Nội tới nhanh chiều, phần chuẩn bị theo mùa đã có trong bài [thuê xe máy Hà Nội mùa mưa]({{ '/blog/thue-xe-may-ha-noi-mua-mua/' | relative_url }}).
+
+Nếu chưa quen chọn xe cho kiểu đi dừng liên tục, bạn có thể tham khảo [kinh nghiệm chọn loại xe phù hợp]({{ '/kinhnghiem.html' | relative_url }}) trước khi đặt xe cho buổi chụp.
 
 ## Kết luận
 

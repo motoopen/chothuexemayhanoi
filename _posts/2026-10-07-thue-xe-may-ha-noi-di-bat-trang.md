@@ -9,6 +9,16 @@ primary_keyword: "thuê xe máy hà nội đi bát tràng"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
 seo_hub: hanh-trinh
+quick_answer: "Đi Bát Tràng chỉ cần xe gọn, dễ đỗ: xe ga nhỏ hoặc xe 50cc là đủ vì đường phẳng và ngắn, khoảng mười lăm ki lômét từ trung tâm. Nên đi trong nửa ngày, xuất phát sau chín giờ sáng và về trước bốn giờ chiều để tránh cao điểm."
+qa:
+  - q: "Mua nhiều đồ gốm ở Bát Tràng thì chở về bằng xe máy thế nào?"
+    a: "Chọn xe có cốp rộng hoặc mang theo ba lô gấp, và tính trước chỗ để đồ trên yên sau. Gốm dễ vỡ nên bọc kỹ, buộc chắc và không xếp che gương hay đèn; món quá lớn nên cân nhắc nhờ vận chuyển riêng."
+  - q: "Đi nhóm ba bốn người đến Bát Tràng nên thuê loại xe nào?"
+    a: "Có thể cân nhắc hai xe số thay vì hai xe ga, vì chở đồ gốm về cần yên sau rộng. Nếu mua ít, xe ga nhỏ lại dễ đỗ hơn trong khu chợ gốm đông đúc."
+  - q: "Đỗ xe trong khu chợ gốm Bát Tràng cần lưu ý gì?"
+    a: "Khu chợ đông nên xe dễ bị cấn xước khi đỗ sát nhau. Chụp bốn góc xe lúc nhận, gửi ở chỗ có người trông và đọc trước điều khoản trách nhiệm vết xước trong hợp đồng."
+  - q: "Chuyến Bát Tràng ngắn có cần mang đủ giấy tờ không?"
+    a: "Có. Ngoại thành vẫn có tuần tra, nhất là quanh khu vực đường 5, nên mang giấy phép lái, căn cước, đăng ký xe và giấy bảo hiểm. Khách nước ngoài khi thuê tại Motoopen cần hộ chiếu và bằng lái quốc tế hợp lệ."
 ---
 Bát Tràng cách trung tâm Hà Nội khoảng mười lăm ki lômét, là chuyến ngoại thành ngắn nhất trong nhóm điểm quanh phố. Với chuyến kiểu này, câu hỏi không phải xe có đủ khỏe không, mà là xe nào gọn, dễ đỗ, và thuê theo khung giờ nào rẻ.
 
@@ -37,6 +47,8 @@ Ngoại thành có tuần tra quanh khu vực đường 5, nên mang đăng ký 
 Xe hỏng giữa chặng ngắn thì gọi nơi thuê qua trang liên hệ trước khi tự kéo đi sửa, trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}). Trả đúng giờ hẹn để khỏi bị tính phụ phí trễ, khung tính đã nêu trong bài phí trả xe muộn thuê xe máy.
 
 Nếu đi theo nhóm ba bốn người, thuê hai xe số thay vì hai xe ga cũng đáng cân, vì chở đồ gốm về cần yên sau rộng, phần cân chọn xe theo trọng lượng đã có trong bài [chọn trọng lượng xe thuê]({{ '/blog/chon-trong-luong-xe-thue/' | relative_url }}).
+
+Nếu còn phân vân giữa xe ga và xe số cho chuyến chở đồ, phần [lời khuyên chọn xe khi thuê]({{ '/kinhnghiem.html' | relative_url }}) giúp bạn so nhanh theo nhu cầu trước khi đặt.
 
 ## Kết luận
 

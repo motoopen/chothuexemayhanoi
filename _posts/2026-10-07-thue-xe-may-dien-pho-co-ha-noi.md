@@ -9,6 +9,18 @@ primary_keyword: "thuê xe máy điện phố cổ hà nội"
 hub_parent: loai-xe
 hub_category: xe-dien
 seo_hub: xe-dien
+quick_answer: "Xe máy điện hợp hành trình ngắn trong Phố Cổ nhờ êm, nhỏ gọn và chi phí năng lượng gần như không đáng kể với các chặng hai ba cây số. Nhược điểm chính là tầm pin và chỗ sạc nếu bạn lưu trú ngoài khu và về khuya, nên hỏi khách sạn chỗ cắm qua đêm trước khi thuê."
+qa:
+  - q: "Ở ngoài khu phố cổ rồi chạy vào mỗi ngày thì có nên thuê xe điện?"
+    a: "Vẫn được nếu bạn kiểm tra pin trước mỗi chuyến, chắc chắn đủ cho chặng về và cắm lại khi về đến nơi ở. Nếu định về khuya mà chưa biết chỗ sạc, xe điện dễ thành gánh nặng hơn là tiện ích."
+  - q: "Một ngày quanh phố cổ thường đi khoảng bao nhiêu cây số?"
+    a: "Thường dưới hai mươi cây số. Ba chặng tiêu biểu là vòng Hồ Gươm chừng hai cây số, qua các ngõ hàng chợ ba cây số và ra điểm bờ hồ gần chừng bốn cây số; cộng việc lặt vặt vẫn nằm trong tầm một lần sạc của dòng phổ thông."
+  - q: "Tối cuối tuần đi xe điện trong phố cổ cần lưu ý gì?"
+    a: "Giữ khoảng cách và đi chậm vì khu đông gấp, xe điện nhẹ dễ chòng chành như mọi dòng xe nhỏ. Hợp lý nhất là để xe ở bãi quen rồi đi bộ khu phố đi bộ."
+  - q: "Có một ngày định đi điểm ven xa thì có cần bỏ xe điện cho cả kỳ không?"
+    a: "Không cần. Ngày đó có thể hỏi đổi sang dòng xăng hoặc gọi xe lớn cho riêng chặng xa, còn các ngày quanh khu vẫn giữ xe điện cho êm và rẻ."
+  - q: "So với xe xăng nhỏ, xe điện trong phố cổ khác ở điểm nào?"
+    a: "Khác chủ yếu ở độ êm và chi phí năng lượng: xe điện không ồn, hợp khung sáng sớm khi phố còn yên tĩnh, tiền điện gần như bỏ qua được. Về len khe, đỗ lề và gửi bãi thì hai loại gần như tương đương."
 ---
 Phố Cổ với đường nhỏ và ngõ hẹp là khu mà xe máy điện tỏ ra thuận kiểu riêng, nhưng cũng có vài điểm cần tính trước khi cọc. Bài này so ưu nhược điểm của dòng điện cho hành trình ngắn quanh khu phố cổ.
 
@@ -35,6 +47,8 @@ Tình huống một: khách ở khách sạn trong khu ba đêm, cắm sạc qua
 ## Ví dụ ba chặng quen quanh khu phố cổ
 
 Ba chặng đại diện cho hầu hết lịch quanh khu: từ khách sạn vòng Hồ Gươm chừng hai cây số, qua các ngõ hàng chợ ba cây số, và ra điểm bờ hồ gần chừng bốn cây số. Cộng thêm chạy việc lặt vặt, tổng mỗi ngày của khách trong khu thường dưới hai mươi cây số, tức tầm của một lần sạc của dòng điện phổ thông. Con số này giải thích vì sao xe điện hợp khu phố cổ đến vậy: lịch thật ngắn, chặng dừng nhiều, và mỗi tối có chỗ cắm lại. Cùng con số đó cũng cho thấy khi nào điện hết hợp, là lúc lịch của bạn vươn ra ngoài các chặng quen này.
+
+Nếu chỉ thuê vài ngày cho các chặng quanh phố cổ, có thể so giá trên [bảng giá từng dòng xe]({{ '/banggia.html' | relative_url }}) trước khi chọn.
 
 ## Kết luận
 

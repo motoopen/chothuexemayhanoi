@@ -9,6 +9,18 @@ primary_keyword: "đi xe máy hà nội nửa ngày"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
 seo_hub: hanh-trinh
+quick_answer: "Với nửa ngày, chỉ nên chọn một khu vực như Phố Cổ, Hồ Tây hoặc một khu ẩm thực, lập tối đa ba điểm và đi bộ xen giữa. Chọn xe ga gọn, đặt giờ trả dư khoảng mười lăm phút và di chuyển ngoài hai khung cao điểm."
+qa:
+  - q: "Bốn tiếng có nên đi cả Phố Cổ lẫn Hồ Tây không?"
+    a: "Không nên cố. Nửa ngày hợp nhất với một vùng; nhét nhiều khu vào bốn tiếng thường khiến phần lớn thời gian dành cho đèn đỏ, chỗ gửi xe và quãng chạy qua lại."
+  - q: "Chuyến nửa ngày nên bắt đầu lúc nào để đỡ kẹt?"
+    a: "Bắt đầu từ giữa trưa là gọn nhất, vừa tránh cả hai cao điểm vừa gặp quán ven hồ lúc vắng. Nếu đi buổi sáng thì xuất phát sau tám giờ rưỡi, còn buổi chiều nên đi trước bốn giờ rưỡi."
+  - q: "Thêm điểm ngoài kế hoạch có ảnh hưởng nhiều đến chuyến nửa ngày không?"
+    a: "Có. Mỗi điểm thêm ngoài kế hoạch có thể lấy đi khoảng hai mươi phút của buổi. Nên chốt danh sách điểm và ghi vào điện thoại trước khi nhận xe để không bị lệch tuyến."
+  - q: "Motoopen có cho thuê xe theo gói bốn tiếng không?"
+    a: "Motoopen công bố thuê theo ngày, tuần và tháng, giá ngày tham khảo từ 150k đến 200k tùy dòng xe. Gói theo giờ có áp dụng hay không và tính thế nào nên hỏi rõ khi đặt."
+  - q: "Ăn trưa giữa chuyến nửa ngày nên chọn quán thế nào?"
+    a: "Ưu tiên quán có chỗ giữ xe riêng để đỡ phí gửi lẻ, và xếp điểm ăn theo tuyến một chiều. Đỗ đúng nơi quy định và giữ biên nhận gửi xe để lấy xe nhanh khi rời quán."
 ---
 Nửa ngày chỉ đủ cho một khu vực nếu bạn muốn thật sự tận hưởng nó, và đó là nguyên tắc số một của bài này: chọn vùng, bỏ danh sách. Ai cố nhét ba khu vào bốn tiếng đều kết thúc chỉ thấy đèn đỏ.
 
@@ -34,9 +46,11 @@ Giữa các điểm, ưu tiên quán có chỗ giữ xe riêng để giảm chi 
 
 ## Giấy tờ và sự cố
 
-Nửa ngày trong phố vẫn cần đủ giấy phép lái, căn cận, đăng ký xe, chứng nhận bảo hiểm, danh sách trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/blog/thue-xe-may-ha-noi-can-giay-to-gi/' | relative_url }}). Chụp bốn góc xe lúc nhận theo thói quen trong bài chụp ảnh xe trước khi thuê. Sự cố gọi ngay nơi thuê qua trang liên hệ theo trình tự trong bài xe thuê bị hỏng giữa đường.
+Nửa ngày trong phố vẫn cần đủ giấy phép lái, căn cước, đăng ký xe, chứng nhận bảo hiểm, danh sách trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/blog/thue-xe-may-ha-noi-can-giay-to-gi/' | relative_url }}). Chụp bốn góc xe lúc nhận theo thói quen trong bài chụp ảnh xe trước khi thuê. Sự cố gọi ngay nơi thuê qua trang liên hệ theo trình tự trong bài xe thuê bị hỏng giữa đường.
 
 Một mẹo nhỏ cho chuyến nửa ngày: chốt danh sách điểm trước khi nhận xe và ghi vào điện thoại, vì giữa phố dễ bị quán hay góc đẹp làm lệch tuyến, và mỗi điểm thêm ngoài kế hoạch lấy đi hai mươi phút của buổi, phần kinh nghiệm giữ lịch trình gọn đã nêu trong bài [thuê xe máy Hà Nội theo giờ]({{ '/blog/thue-xe-may-ha-noi-theo-gio/' | relative_url }}).
+
+Nếu đây là lần đầu bạn thuê xe ở Hà Nội, đọc trước [những kinh nghiệm thuê xe cần biết]({{ '/kinhnghiem.html' | relative_url }}) giúp khâu nhận xe nhanh hơn, để thời gian còn lại dành trọn cho khu vực đã chọn.
 
 ## Kết luận
 

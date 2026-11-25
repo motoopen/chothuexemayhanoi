@@ -23,6 +23,24 @@ layout: default
       <h1>{% if child %}{{ child.label }}{% else %}{{ parent.label }}{% endif %}</h1>
       <p>{% if child %}{{ child.description }}{% else %}{{ parent.description }}{% endif %}</p></div>
   </header>
+  {% comment %} Silo -> pillar: money pages of the SEO hubs whose silo is this category (data: _data/seo_hubs.yml). {% endcomment %}
+  {% assign cat_url = page.url %}
+  {% assign silo_hubs = site.data.seo_hubs.hubs | where: "silo_url", cat_url %}
+  {% if silo_hubs.size > 0 %}
+  <aside class="page-guides silo-pillars" aria-label="Trang chính liên quan">
+    <div class="page-guides-head">
+      <p class="blog-component-kicker">Trang chính</p>
+      <h2 class="page-guides-title">Xem thông tin dịch vụ liên quan</h2>
+      <p>Các bài trong danh mục này bổ trợ cho những trang dịch vụ dưới đây.</p>
+    </div>
+    <ul class="page-guides-list">
+      {% assign shown = "" %}
+      {% for h in silo_hubs %}{% unless shown contains h.pillar_url %}{% assign shown = shown | append: h.pillar_url | append: "|" %}
+      <li><a href="{{ h.pillar_url | relative_url }}"><span>{{ h.pillar_label }} <small class="silo-hub-label">· {{ h.label }}</small></span><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></li>
+      {% endunless %}{% endfor %}
+    </ul>
+  </aside>
+  {% endif %}
   {% unless child %}
   <section class="taxonomy-grid taxonomy-child-grid" aria-label="Danh mục con">
     {% for item in parent.children %}{% assign child_posts = site.posts | where: "hub_category", item.slug %}

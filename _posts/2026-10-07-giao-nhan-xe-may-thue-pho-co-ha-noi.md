@@ -9,6 +9,16 @@ primary_keyword: "giao nhận xe máy thuê phố cổ hà nội"
 hub_parent: khu-vuc
 hub_category: ha-noi-theo-khu-vuc
 seo_hub: khu-vuc
+quick_answer: "Chỗ đỗ xe quyết định cách nhận ở Phố Cổ: khách sạn có chỗ để an toàn thì nhận ngay tại đó, không có thì nhận tại cửa hàng gần khu, còn điểm hẹn hợp khách đang đi chơi ghé giữa chừng. Dù chọn cách nào, hãy hỏi kỹ chỗ đỗ qua đêm và chốt luôn điểm trả xe."
+qa:
+  - q: "Homestay trong phố cổ phải dắt xe qua ngõ hẹp thì có nên nhận xe tại đó?"
+    a: "Chỉ nên khi đã hỏi rõ có sân trong để xe không, phải dắt xe qua ngõ bao xa và có tốn phí giữ xe quanh khu không. Nếu chỗ để không an toàn, nhận tại cửa hàng gần khu sẽ tiện hơn cho việc lấy xe sáng hôm sau."
+  - q: "Ở phố cổ muốn đi Hoàng thành, Văn Miếu trong ngày thì nên nhận xe thế nào?"
+    a: "Nên cân nhận tại cửa hàng để chọn xe ưng ý và kiểm kỹ trước khi rời các phố hẹp. Nếu chỉ dạo phố cổ buổi tối và chợ Đồng Xuân buổi sáng, nhận tại chỗ ở là đủ vì chặng rất ngắn."
+  - q: "Nên chốt điểm trả xe ở đâu khi thuê trong phố cổ?"
+    a: "Nên chốt trước với nơi thuê một điểm trả gần chợ hoặc gần bến, chỗ dễ dừng xe, để khỏi phải đẩy xe xa trong ngõ. Nếu trả vào buổi tối, hỏi luôn giờ làm việc; Motoopen mở cửa 09:00–21:00 hằng ngày."
+  - q: "Khách quốc tế ở phố cổ thuê xe cần chuẩn bị giấy tờ gì?"
+    a: "Cần hộ chiếu và bằng lái quốc tế hợp lệ cho mọi cách nhận, dù tại khách sạn, điểm hẹn hay cửa hàng. Khách chưa có bằng phù hợp có thể được tư vấn xe 50cc hoặc xe điện, nhưng vẫn nên kiểm tra quy định hiện hành."
 ---
 Phố Cổ khác các khu khác một điểm then chốt: chỗ đỗ xe hiếm và ngõ hẹp, nên cách nhận xe quyết định cả sự thuận tiện của kỳ thuê. Bài này cân ba cách nhận cho khu này riêng.
 
@@ -33,6 +43,8 @@ Chơi phố cổ buổi tối ngắm phố và sáng đi chợ Đồng Xuân: nh
 Xe điện mini và 50cc giao lẻ dễ, hợp khách sạn hoặc điểm hẹn, và nhóm 50cc không cần bằng lái, quy định trong bài xe 50cc có cần bằng lái không. Xe ga lớn và Cub hiếm hơn, thường phải nhận tại cửa hàng có sẵn. Với xe điện, bàn giao tại chỗ ở giúp bàn luôn kế hoạch sạc qua đêm, câu hỏi đã liệt kê trong bài sạc xe máy điện khi thuê. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}) cho mọi cách nhận.
 
 Trong Phố Cổ chỗ đỗ hiếm, nên chốt trước với nơi thuê cả điểm trả xe: trả gần chợ hoặc gần bến sẽ đỡ phải đẩy xe xa trong ngõ. Đi nhóm thì nhận cùng lúc một điểm để kiểm xe song song và đỡ chờ nhau, đồng thời hỏi trước xem có xe đủ cho cả nhóm hay không. Với buổi tối về muộn, hỏi luôn giờ làm việc của nơi thuê để không phải đứng chờ giữa phố lúc vắng.
+
+Với lịch chơi ngắn ngày trong phố cổ, bạn có thể xem [giá thuê xe theo ngày]({{ '/banggia.html' | relative_url }}) để chọn dòng xe vừa túi tiền trước khi chốt cách nhận.
 
 ## Kết luận
 

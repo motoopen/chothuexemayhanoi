@@ -9,6 +9,14 @@ primary_keyword: "thuê xe máy mỹ đình hà nội"
 hub_parent: khu-vuc
 hub_category: ha-noi-theo-khu-vuc
 seo_hub: khu-vuc
+quick_answer: "Ở Mỹ Đình, nên nhận xe tại khách sạn hoặc nhà nghỉ quanh các phố Mỹ Đình, Mễ Trì, Đỗ Đình Thiện nếu chủ yếu đi trong khu; trùng ngày có sự kiện ở sân vận động thì chốt điểm nhận cách xa khu sân, còn lịch gấp thì hẹn giữa tuyến."
+qa:
+  - q: "Đi xem bóng đá hoặc hội chợ ở Mỹ Đình bằng xe thuê cần lưu ý gì?"
+    a: "Nên đến sớm, gửi xe ở bãi có phí và giữ vé cẩn thận, vì ngày có sự kiện khu sân vận động rất đông. Nếu nhận xe đúng hôm đó, hẹn điểm cách xa sân để bàn giao không vướng dòng người, rồi mới chạy vào khu."
+  - q: "Muốn nhận đúng dòng xe mình thích ở Mỹ Đình thì nên làm gì?"
+    a: "Nên đặt trước và nói rõ dòng xe, ngày giờ nhận khi gọi hoặc nhắn, để nơi thuê chuẩn bị xe, mũ và giấy tờ. Nếu dòng bạn chọn không giao tận nơi được, nơi thuê sẽ báo trước để bạn đổi dòng hoặc tự đến nhận."
+  - q: "Ở tòa nhà cao tầng tại Mỹ Đình, hẹn giao xe sao cho nhanh?"
+    a: "Hãy gửi rõ tên tòa, sảnh và một mốc dễ thấy khi hẹn, vì người giao cần biết đúng chỗ dừng xe. Chọn nơi có thể chạy thử một vòng quanh khối nhà trước khi ký nhận, tránh lối ra vào hầm đông xe."
 ---
 Mỹ Đình là khu trung tâm mới với sân vận động và nhiều tòa nhà cao tầng, nên chỗ nhận xe thuê ảnh hưởng nhiều đến buổi đầu tiên của bạn. Bài này giúp bạn chọn điểm nhận xe hợp với hành trình quanh Mỹ Đình.
 
@@ -33,6 +41,8 @@ Hành trình chủ yếu trong khu và các quận lân cận: nhận gần ch�
 Gọi hoặc nhắn trước qua trang liên hệ để chốt địa điểm và giờ nhận: nơi thuê sẽ chuẩn bị xe, mũ và giấy tờ đầy đủ, và báo trước nếu dòng xe bạn cần không giao tận nơi được. Hỏi luôn cả giờ trả xe để cân lịch cuối ngày, và mức phí trong trang bảng giá để tránh phát sinh. Khách lần đầu nên đọc thêm phần thủ tục trong bài [thủ tục thuê xe máy]({{ '/thutuc.html' | relative_url }}).
 
 Mỹ Đình có nhiều sự kiện thể thao và hội chợ, nên nếu bạn đến đúng ngày có sự kiện, chốt điểm nhận cách xa khu sân vận động sẽ đỡ vướng đông người. Đi nhóm thì nhận cùng lúc một điểm để kiểm xe song song, đỡ chờ nhau. Với khách nước ngoài, gửi sẵn địa chỉ bằng tiếng Việt cho nơi thuê để tránh phải mô tả địa điểm qua điện thoại, và hỏi trước về việc kiểm xe giữa kỳ nếu thuê nhiều ngày.
+
+Nếu lịch của bạn trùng ngày có sự kiện ở sân vận động, hãy nhắn trước qua [trang liên hệ Motoopen]({{ '/lienhe.html' | relative_url }}) để hẹn điểm nhận tránh khu đông.
 
 ## Kết luận
 
