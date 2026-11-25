@@ -1,4 +1,5 @@
 ---
+css_in_head: true
 ---
 <!doctype html>
 <html lang="{{ site.lang | default: 'vi' }}">
@@ -36,6 +37,8 @@
   <link id="fa-css" rel="stylesheet" href="{{ '/assets/vendor/fontawesome/icons.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/shared-shell.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/apple.css' | relative_url }}">
 </head>
 <body class="{{ page.body_class | default: '' }}">
   {% include header.html %}
