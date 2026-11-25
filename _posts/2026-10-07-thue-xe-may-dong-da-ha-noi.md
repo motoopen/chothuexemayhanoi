@@ -9,6 +9,16 @@ primary_keyword: "thuê xe máy đống đa hà nội"
 hub_parent: khu-vuc
 hub_category: ha-noi-theo-khu-vuc
 seo_hub: khu-vuc
+quick_answer: "Ở Đống Đa, nếu chủ yếu đi trong khu thì nên nhận xe ngay tại khách sạn hoặc nhà nghỉ quanh Thái Hà, Chùa Bộc, Tôn Đức Thắng, vì phố nhiều dốc nhỏ và đường một chiều; lịch gấp thì hẹn giữa tuyến, cần chọn xe kỹ thì đến cửa hàng."
+qa:
+  - q: "Ngõ ở Đống Đa chật và có dốc thì để xe thuê qua đêm thế nào?"
+    a: "Nên hỏi trước chỗ ở có chỗ đỗ an toàn không, ưu tiên nơi có người trông hoặc cửa khóa, tránh dựng xe ở đầu ngõ dốc. Nếu chỗ ở không có, dùng bãi gửi có phí gần đó và chụp ảnh xe khi gửi."
+  - q: "Thuê xe ở Đống Đa có trả ở chỗ khác chỗ nhận được không?"
+    a: "Cần hỏi trước. Thường trả xe là quay lại đúng chỗ nhận, nên khi chọn điểm nhận hãy tính luôn nơi bạn về vào buổi cuối. Muốn trả ở điểm khác thì thống nhất khi đặt, kể cả phí giao nhận nếu có."
+  - q: "Phố một chiều ở Đống Đa có làm khó việc hẹn điểm nhận không?"
+    a: "Có, vì điểm nhận nằm ngược chiều hướng đi buổi đầu sẽ buộc bạn vòng khá xa. Khi hẹn, nói rõ bạn định đi hướng nào sau khi nhận để chọn điểm nằm thuận chiều, và hỏi người giao lối ra gần nhất."
+  - q: "Thuê xe nhiều ngày ở Đống Đa mà xe trục trặc giữa kỳ thì xử lý ra sao?"
+    a: "Nên hỏi trước khi ký về việc kiểm xe giữa kỳ và cách báo sự cố, rồi lưu số hỗ trợ vào điện thoại; với Motoopen là 0857 255 868, có cả Zalo. Các chi tiết như đổi xe hay ai chịu chi phí sửa thì nên hỏi rõ khi đặt."
 ---
 Đống Đa là khu đông dân với nhiều con dốc nhỏ và phố một chiều, nên chỗ nhận xe thuê ảnh hưởng nhiều đến buổi đầu tiên của bạn. Bài này giúp bạn chọn điểm nhận xe hợp với hành trình quanh Đống Đa.
 
@@ -35,6 +45,8 @@ Gọi hoặc nhắn trước qua trang liên hệ để chốt địa điểm v�
 Đống Đa có nhiều con dốc nhỏ và ngõ chật, nên nếu bạn định để xe qua đêm, hãy hỏi trước chỗ ở về chỗ đỗ an toàn. Đi nhóm thì nên nhận cùng lúc một điểm để kiểm xe song song, đỡ chờ nhau. Cuối kỳ thuê, trả xe thường là quay lại đúng chỗ nhận, nên chọn điểm gần nơi bạn về buổi cuối để trả gọn gàng.
 
 Với khách nước ngoài đến Đống Đa lần đầu, nhận xe tận nơi còn giúp bạn đỡ phải miêu tả địa điểm bằng tiếng Việt qua điện thoại, chỉ cần gửi địa chỉ khách sạn cho nơi thuê. Nếu bạn thuê nhiều ngày, hãy hỏi trước về việc kiểm xe giữa kỳ và cách báo sự cố để không bị động khi xe có trục trặc giữa chừng.
+
+Khi đã khoanh được điểm nhận quanh Thái Hà hay Chùa Bộc, bạn có thể [liên hệ Motoopen]({{ '/lienhe.html' | relative_url }}) để gửi địa chỉ kèm giờ nhận và giờ trả dự kiến.
 
 ## Kết luận
 

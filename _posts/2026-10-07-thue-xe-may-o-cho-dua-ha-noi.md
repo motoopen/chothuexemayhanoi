@@ -9,6 +9,14 @@ primary_keyword: "thuê xe máy ô chợ dừa hà nội"
 hub_parent: khu-vuc
 hub_category: ha-noi-theo-khu-vuc
 seo_hub: khu-vuc
+quick_answer: "Ở Ô Chợ Dừa, nên nhận xe tại chỗ ở trên La Thành, Xã Đàn hoặc Láng nếu chỉ đi chặng ngắn quanh khu; lịch gấp thì hẹn ngay đầu phố Xã Đàn hay một quán quen trên La Thành, còn chiều về hướng ga, phố cổ thì chọn điểm gần đầu phố."
+qa:
+  - q: "Khởi hành sớm từ Ô Chợ Dừa có thể hẹn nhận xe ở quán ăn sáng không?"
+    a: "Có thể, nếu thống nhất trước giờ và địa điểm với nơi thuê: hẹn gần một quán ăn quen ven phố vừa tiện ăn sáng vừa có chỗ dừng để kiểm xe. Nếu hẹn trước 09:00, giờ mở cửa của Motoopen, nên hỏi rõ có giao được không."
+  - q: "Ở ngay các phố quanh nút Ô Chợ Dừa thì có cần ra cửa hàng để nhận xe không?"
+    a: "Không nhất thiết. Nếu ở ngay quanh nút giao, nhận xe tại chỗ ở thường gọn hơn, vì đi ra cửa hàng mất thêm thời gian di chuyển. Chỉ nên đến cửa hàng khi muốn chọn giữa nhiều chiếc, cần dòng xe hiếm hoặc muốn chạy thử và đổi xe tại chỗ."
+  - q: "Đi lại giữa Ô Chợ Dừa, Thái Hà và Kim Mã mỗi ngày nên thuê xe gì?"
+    a: "Các chặng này ngắn và nhiều phố đông, nên xe số hoặc xe ga nhỏ gọn là hợp: dễ luồn, dễ đỗ, tiết kiệm xăng. Nếu dùng xe điện, hỏi mức pin khi nhận và bảo đảm chỗ ở có thể sạc qua đêm."
 ---
 Ô Chợ Dừa là nút giao đầu phố La Thành và Xã Đàn, nơi nhiều người bắt đầu hành trình đi qua các phố trung tâm, nên chỗ nhận xe thuê ảnh hưởng trực tiếp đến buổi đầu tiên của bạn. Bài này giúp bạn chọn điểm nhận xe hợp với hành trình quanh Ô Chợ Dừa.
 
@@ -33,6 +41,8 @@ Hành trình chủ yếu quanh khu với chặng ngắn tới các phố ven nh�
 Gọi hoặc nhắn trước qua trang liên hệ để chốt địa điểm và giờ nhận: nơi thuê sẽ chuẩn bị xe, mũ và giấy tờ đầy đủ, và báo trước nếu dòng xe bạn cần không giao tận nơi được. Hỏi luôn cả giờ trả xe để cân lịch cuối ngày, và mức phí trong trang bảng giá để tránh phát sinh. Khách lần đầu nên đọc thêm phần thủ tục trong bài [thủ tục thuê xe máy]({{ '/thutuc.html' | relative_url }}).
 
 Ô Chợ Dừa sáng sớm có hàng ăn ven phố, nên nếu bạn khởi hành sớm, nhận xe tại điểm gần quán ăn quen vừa tiện ăn sáng vừa kiểm xe. Đi nhóm thì nhận cùng lúc một điểm để kiểm xe song song, đỡ chờ nhau. Với khách nước ngoài, gửi sẵn địa chỉ bằng tiếng Việt cho nơi thuê để tránh phải mô tả địa điểm qua điện thoại, và hỏi trước về việc kiểm xe giữa kỳ nếu thuê nhiều ngày.
+
+Nếu muốn hẹn ở một quán quen trên La Thành hay đầu phố Xã Đàn, bạn có thể [nhắn Motoopen]({{ '/lienhe.html' | relative_url }}) tên quán và giờ dự kiến để chốt điểm nhận.
 
 ## Kết luận
 

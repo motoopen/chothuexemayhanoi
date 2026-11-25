@@ -9,6 +9,14 @@ primary_keyword: "thuê xe máy ga hà nội hà nội"
 hub_parent: khu-vuc
 hub_category: ha-noi-theo-khu-vuc
 seo_hub: khu-vuc
+quick_answer: "Quanh Ga Hà Nội, nên chọn điểm nhận lệch khỏi quảng trường ga, chẳng hạn khách sạn ở Trần Quý Cáp hay khu Bà Triệu, để bàn giao không chen chúc; chiều định đi phố cổ thì nhận ở phía bắc khu cho thuận hướng, đỡ rẽ ngược đường một chiều."
+qa:
+  - q: "Xuống tàu ở Ga Hà Nội có nên hẹn nhận xe ngay trước cổng ga không?"
+    a: "Không nên. Quảng trường ga luôn đông người và xe, khó dừng lại để kiểm xe và ký giấy. Hẹn ở một phố lệch khỏi cổng ga hoặc ngay khách sạn sẽ bàn giao gọn hơn, có chỗ chạy thử và chụp ảnh xe kỹ."
+  - q: "Có nên cất hành lý ở khách sạn rồi mới nhận xe gần Ga Hà Nội?"
+    a: "Nên, nhất là khi mang vali lớn: cất đồ trước rồi nhận xe tại khách sạn giúp bạn khỏi chở hành lý cồng kềnh giữa khu đông, có thời gian chạy thử và kiểm xe kỹ. Chỉ cần báo nơi thuê địa chỉ khách sạn và giờ dự kiến."
+  - q: "Thuê xe vài ngày quanh Ga Hà Nội hết khoảng bao nhiêu tiền?"
+    a: "Theo bảng giá Motoopen, thuê ngày từ 150k với xe số hoặc Click/Mio đến 200k với Vision, Air Blade; nhân với số ngày rồi cộng phí giao nếu nhận tại khách sạn, khoảng 20k–50k. Giá có thể thay đổi và được chốt khi liên hệ."
 ---
 Ga Hà Nội là đầu mối giao thông đông đúc nhất nội thành, nên chỗ nhận xe thuê ảnh hưởng nhiều đến buổi đầu tiên của bạn. Bài này giúp bạn chọn điểm nhận xe hợp với hành trình quanh Ga Hà Nội.
 
@@ -33,6 +41,8 @@ Hành trình chủ yếu trong nội thành với chặng ngắn: nhận gần c
 Gọi hoặc nhắn trước qua trang liên hệ để chốt địa điểm và giờ nhận: nơi thuê sẽ chuẩn bị xe, mũ và giấy tờ đầy đủ, và báo trước nếu dòng xe bạn cần không giao tận nơi được. Hỏi luôn cả giờ trả xe để cân lịch cuối ngày, và mức phí trong trang [bảng giá]({{ '/banggia.html' | relative_url }}) để tránh phát sinh. Khách lần đầu nên đọc thêm phần thủ tục trong bài thủ tục thuê xe máy.
 
 Xung quanh Ga Hà Nội luôn đông người và xe nên nếu bạn đến bằng tàu, chọn điểm nhận lệch khỏi quảng trường ga sẽ dễ bàn giao và đỡ chen chúc. Đi nhóm thì nhận cùng lúc một điểm để kiểm xe song song, đỡ chờ nhau. Với khách nước ngoài, gửi sẵn địa chỉ bằng tiếng Việt cho nơi thuê để tránh phải mô tả địa điểm qua điện thoại, và hỏi trước về việc kiểm xe giữa kỳ nếu thuê nhiều ngày.
+
+Nếu đến bằng tàu, bạn có thể nhắn giờ tàu đến và địa chỉ khách sạn qua [trang liên hệ]({{ '/lienhe.html' | relative_url }}) để hẹn điểm nhận lệch khỏi quảng trường ga.
 
 ## Kết luận
 

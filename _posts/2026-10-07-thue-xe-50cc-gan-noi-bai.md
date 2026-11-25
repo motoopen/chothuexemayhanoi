@@ -21,6 +21,7 @@ qa:
     a: "Nên trả xe tại điểm đã nhận trong thành phố rồi ra sân bay bằng xe lớn, hoặc trả sớm trước giờ bay với thời gian dư dả. Cách chia này giữ mỗi chặng đúng phương tiện: xe lớn cho cao tốc, 50cc cho phố."
   - q: "Chỉ mang balo nhẹ thì nhận xe 50cc ở sân bay có được không?"
     a: "Khả thi hơn, vì khi chỉ có balo nhẹ, hai phương án đều dùng được và lịch chi tiết sẽ quyết định. Tuy vậy, nếu phải chạy chặng cao tốc dài vào phố, nhận xe trong thành phố vẫn an toàn và đỡ mệt hơn."
+blog_notice: "<strong>Lưu ý an toàn:</strong> Theo quy định, xe máy không được đi vào đường cao tốc. Những chỗ bài viết nhắc tới chặng hay trục cao tốc, hãy chọn tuyến đường thường hoặc làn đường dành cho xe máy và luôn đi theo biển báo; kiểm tra lộ trình trên bản đồ trước khi xuất phát."
 ---
 Nội Bài cách trung tâm Hà Nội khoảng ba mươi cây số, và câu hỏi nhận xe 50cc ở sân bay hay trong thành phố không có đáp án chung, mà phụ thuộc quãng, loại đường và lịch của bạn. Bài này so hai phương án theo từng tiêu chí.
 

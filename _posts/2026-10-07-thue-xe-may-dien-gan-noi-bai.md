@@ -21,6 +21,7 @@ qa:
     a: "Vì gió và các quãng đường dài quanh sân bay làm pin hao nhanh hơn điều kiện đo công bố. Đừng ước tầm theo số quảng cáo; hãy hỏi nơi thuê mức thật theo khu và theo đúng chiếc xe sẽ giao cho bạn."
   - q: "Khách đáp Nội Bài có thể nhận xe Motoopen ở đâu?"
     a: "Có hai cách: nhận tại cửa hàng 114 Nguyễn Văn Cừ, Long Biên không mất phí giao, hoặc nhờ giao tận nơi trong khu vực nội thành với phí khoảng 20k–50k tùy quãng đường và điểm hẹn. Điểm hẹn ngay tại sân bay thì nên hỏi rõ khi đặt."
+blog_notice: "<strong>Lưu ý an toàn:</strong> Theo quy định, xe máy không được đi vào đường cao tốc. Những chỗ bài viết nhắc tới chặng hay trục cao tốc, hãy chọn tuyến đường thường hoặc làn đường dành cho xe máy và luôn đi theo biển báo; kiểm tra lộ trình trên bản đồ trước khi xuất phát."
 ---
 Nội Bài cách trung tâm ba mươi cây số qua đường cao tốc, và đây là quãng vượt tầm thoải mái của đa số xe máy điện phổ thông. Bài này giúp cân nhắc đúng trước khi quyết nhận xe điện quanh sân bay.
 
