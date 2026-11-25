@@ -21,6 +21,7 @@ qa:
     a: "SH phát huy tốt hơn trên đường rộng: máy đầm, êm, giữ tốc và che gió tốt, trọng lượng ít lộ ra. Nếu chặng xa chỉ chiếm một phần nhỏ kỳ thuê, Air Blade vẫn hợp lý hơn về giá và độ gọn."
   - q: "Hợp đồng thuê xe ga lớn cần chú ý điều khoản nào nhất?"
     a: "Mức khấu trừ khi trầy xước, vì sơn và phụ tùng dòng lớn đắt. Chụp thân xe kỹ khi nhận, đọc rõ trách nhiệm hỏng hóc và mức cọc trước khi ký, đồng thời hỏi tồn kho sớm nếu thuê quanh dịp lễ."
+blog_notice: "<strong>Cập nhật pháp lý:</strong> Theo Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (hiệu lực từ 01/01/2025), giấy phép lái xe hạng A1 cấp mới dùng cho xe mô tô hai bánh đến 125 cm³ (hoặc động cơ điện đến 11 kW); xe trên 125 cm³ cần hạng A. Bằng A1 cấp trước 01/01/2025 vẫn được điều khiển xe từ 50 cm³ đến dưới 175 cm³. Một số nội dung có thể được soạn theo quy định cũ, vì vậy hãy kiểm tra quy định hiện hành và hạng bằng của bạn trước khi thuê."
 ---
 SH đẳng cấp hơn Air Blade nhưng cũng nặng và to hơn, và có những tình huống trọng lượng với kích thước quan trọng hơn mọi tiện nghi. Bài này chỉ đúng các tình huống đó để bạn chọn không tiếc.
 

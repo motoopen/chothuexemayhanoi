@@ -32,7 +32,7 @@ Ba dòng tình huống nên chuyển sang gói: lịch của bạn cần xe hằ
 
 ## Chốt khung nhận trả cho ba ngày
 
-Ba ngày tính theo khung hai mứ tư giờ nhân ba từ lúc nhận, nhưng một số nơi khớp khung trả với giờ đóng cửa, nên xác nhận trước. Nếu ngày cuối chỉ cần xe buổi sáng, hỏi phương án trả trưa với mức trừ nhẹ. Ghi lại khung đã chốt, mốc phụ phí trễ, và chụp hiện trạng xe khi nhận. Điều khoản khung giờ nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).
+Ba ngày tính theo khung hai mươi tư giờ nhân ba từ lúc nhận, nhưng một số nơi khớp khung trả với giờ đóng cửa, nên xác nhận trước. Nếu ngày cuối chỉ cần xe buổi sáng, hỏi phương án trả trưa với mức trừ nhẹ. Ghi lại khung đã chốt, mốc phụ phí trễ, và chụp hiện trạng xe khi nhận. Điều khoản khung giờ nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).
 
 ## Chọn dòng xe và các khoản rà trước khi ký
 

@@ -26,7 +26,7 @@ Bảng giá thuê xe máy ở Hà Nội nhìn qua tưởng đơn giản, nhưng 
 
 ## Phân biệt giá ngày, giá giờ và giá gói
 
-Một ngày thuê thường tính theo khung hai mứ tư giờ, không phải theo lịch thiên nhiên, nên nhận chiều hôm trước và trả sáng hôm sau có khi vẫn tính trọn một ngày. Giá giờ chỉ áp dụng khi cửa hàng niêm yết riêng, thường đắt hơn nhiều nếu quy đổi. Gói tuần và tháng có mức riêng rẻ hơn tính trên mỗi ngày, chỉ đáng lấy khi thời gian thuê đủ dài. Xem kỹ các mức này tại trang [bảng giá]({{ '/banggia.html' | relative_url }}), và so sánh theo quy đổi ra một ngày trước khi chốt.
+Một ngày thuê thường tính theo khung hai mươi tư giờ, không phải theo lịch thiên nhiên, nên nhận chiều hôm trước và trả sáng hôm sau có khi vẫn tính trọn một ngày. Giá giờ chỉ áp dụng khi cửa hàng niêm yết riêng, thường đắt hơn nhiều nếu quy đổi. Gói tuần và tháng có mức riêng rẻ hơn tính trên mỗi ngày, chỉ đáng lấy khi thời gian thuê đủ dài. Xem kỹ các mức này tại trang [bảng giá]({{ '/banggia.html' | relative_url }}), và so sánh theo quy đổi ra một ngày trước khi chốt.
 
 ## Các dòng xe khác nhau khác giá
 

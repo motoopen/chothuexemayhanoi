@@ -24,7 +24,7 @@ Thuê xe máy một ngày là gói phổ biến nhất ở Hà Nội, nhưng cũ
 
 ## Khung một ngày được tính từ khi nào
 
-Một ngày thuê thường tính theo khung hai mứ tư giờ kể từ lúc nhận xe, không phải theo mốc nửa đêm. Nghĩa là nhận lúc chín giờ sáng thì hạn trả là chín giờ sáng hôm sau, trễ hơn là phát sinh phụ phí theo giờ hoặc trọn ngày thứ hai. Một số cửa hàng lại quy khung trả về giờ đóng cửa tối, nên cách chắc nhất là hỏi rõ mốc hạn khi ký hợp đồng và ghi lại khung đã chốt. Mức giá niêm yết theo ngày nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Một ngày thuê thường tính theo khung hai mươi tư giờ kể từ lúc nhận xe, không phải theo mốc nửa đêm. Nghĩa là nhận lúc chín giờ sáng thì hạn trả là chín giờ sáng hôm sau, trễ hơn là phát sinh phụ phí theo giờ hoặc trọn ngày thứ hai. Một số cửa hàng lại quy khung trả về giờ đóng cửa tối, nên cách chắc nhất là hỏi rõ mốc hạn khi ký hợp đồng và ghi lại khung đã chốt. Mức giá niêm yết theo ngày nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
 
 ## So giá ngày với gói khi cần hơn một ngày
 
@@ -42,8 +42,8 @@ Nếu bạn định quay lại Hà Nội nhiều lần hoặc cần xe gần nh�
 
 ## Kết luận
 
-Giá một ngày tính theo khung hai mứ tư giờ từ lúc nhận xe, nên chốt rõ mốc hạn trả ngay lúc ký. So quy đổi phụ phí giờ với giá ngày thứ hai, hỏi trước phí giao xe, ngoài giờ và chính sách xăng. Làm đúng các bước, một ngày thuê xe máy ở Hà Nội chỉ tốn đúng mức bạn dự tính.
+Giá một ngày tính theo khung hai mươi tư giờ từ lúc nhận xe, nên chốt rõ mốc hạn trả ngay lúc ký. So quy đổi phụ phí giờ với giá ngày thứ hai, hỏi trước phí giao xe, ngoài giờ và chính sách xăng. Làm đúng các bước, một ngày thuê xe máy ở Hà Nội chỉ tốn đúng mức bạn dự tính.
 
-## Ví dụ cụ thể về khung hai mứ tư giờ
+## Ví dụ cụ thể về khung hai mươi tư giờ
 
-Hãy lấy ví dụ dễ hình dung: bạn nhận xe lúc tám giờ sáng, khung hai mứ tư giờ nghĩa là hạn trả trước tám giờ sáng hôm sau. Nếu kế hoạch của bạn kết thúc lúc mười giờ tối hôm đó, trả sớm mười hai tiếng vẫn tính trọn một ngày, không được trừ, vì gói ngày không tách theo phần giờ còn dư. Ngược lại, nếu bạn nhận lúc bảy giờ tối hôm trước và trả lúc mười giờ sáng hôm sau, đó là chưa đầy một ngày theo khung, nhưng nhiều nơi vẫn tính trọn ngày, chỉ một số nơi có mức nửa ngày cho khung ngắn ngủn. Chính vì cách tính khác nhau giữa các điểm, câu hỏi quan trọng nhất khi ký không phải giá bao nhiêu, mà là khung của tôi tính từ giờ nào tới giờ nào. Biết rõ điều này, bạn có thể dịch khung nhận để khớp lịch thật, ví dụ dời giờ nhận sang buổi sáng để hạn trả rơi vào buổi sáng ngày sau đúng lúc bạn rảnh.
+Hãy lấy ví dụ dễ hình dung: bạn nhận xe lúc tám giờ sáng, khung hai mươi tư giờ nghĩa là hạn trả trước tám giờ sáng hôm sau. Nếu kế hoạch của bạn kết thúc lúc mười giờ tối hôm đó, trả sớm mười hai tiếng vẫn tính trọn một ngày, không được trừ, vì gói ngày không tách theo phần giờ còn dư. Ngược lại, nếu bạn nhận lúc bảy giờ tối hôm trước và trả lúc mười giờ sáng hôm sau, đó là chưa đầy một ngày theo khung, nhưng nhiều nơi vẫn tính trọn ngày, chỉ một số nơi có mức nửa ngày cho khung ngắn ngủn. Chính vì cách tính khác nhau giữa các điểm, câu hỏi quan trọng nhất khi ký không phải giá bao nhiêu, mà là khung của tôi tính từ giờ nào tới giờ nào. Biết rõ điều này, bạn có thể dịch khung nhận để khớp lịch thật, ví dụ dời giờ nhận sang buổi sáng để hạn trả rơi vào buổi sáng ngày sau đúng lúc bạn rảnh.

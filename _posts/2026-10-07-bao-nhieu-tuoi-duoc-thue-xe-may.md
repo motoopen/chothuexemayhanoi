@@ -21,6 +21,7 @@ qa:
     a: "Nên mang giấy tờ tùy thân đang có và đi cùng người giám hộ mang giấy tờ của họ, vì hợp đồng có thể phải ký qua người đại diện. Người từ mười tám tuổi trở lên dùng CCCD hoặc hộ chiếu như yêu cầu chung."
   - q: "Nên xác nhận gì về độ tuổi với cửa hàng trước khi đến nhận xe?"
     a: "Nên chốt bằng tin nhắn ba điều: tuổi của người lái chính, dòng xe thuộc nhóm nào và ai sẽ ký hợp đồng. Làm vậy giúp tránh bị từ chối hoặc hủy giữa chừng khi đã đến cửa hàng."
+blog_notice: "<strong>Cập nhật pháp lý:</strong> Theo Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (hiệu lực từ 01/01/2025), giấy phép lái xe hạng A1 cấp mới dùng cho xe mô tô hai bánh đến 125 cm³ (hoặc động cơ điện đến 11 kW); xe trên 125 cm³ cần hạng A. Bằng A1 cấp trước 01/01/2025 vẫn được điều khiển xe từ 50 cm³ đến dưới 175 cm³. Một số nội dung có thể được soạn theo quy định cũ, vì vậy hãy kiểm tra quy định hiện hành và hạng bằng của bạn trước khi thuê."
 ---
 Độ tuổi để thuê xe và để điều khiển xe máy là hai ngưỡng khác nhau, và nhiều cửa hàng còn có chính sách riêng cao hơn quy định tối thiểu. Bài này giúp bạn phân biệt rõ để chuẩn bị đúng.
 

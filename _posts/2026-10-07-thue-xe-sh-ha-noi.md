@@ -23,6 +23,7 @@ qa:
     a: "Thường hợp, vì tư thế và trọng lượng SH khá giống scooter châu Âu. Người nước ngoài cần hộ chiếu và bằng lái quốc tế hợp lệ; nên kiểm tra quy định hiện hành về loại bằng trước khi lái."
   - q: "SH có tốn xăng hơn dòng ga nhỏ không?"
     a: "Có. SH hút xăng hơn dòng nhỏ, nên tính thêm chi phí nhiên liệu vào ngân sách kỳ thuê, nhất là khi lịch có nhiều chặng đường trường."
+blog_notice: "<strong>Cập nhật pháp lý:</strong> Theo Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (hiệu lực từ 01/01/2025), giấy phép lái xe hạng A1 cấp mới dùng cho xe mô tô hai bánh đến 125 cm³ (hoặc động cơ điện đến 11 kW); xe trên 125 cm³ cần hạng A. Bằng A1 cấp trước 01/01/2025 vẫn được điều khiển xe từ 50 cm³ đến dưới 175 cm³. Một số nội dung có thể được soạn theo quy định cũ, vì vậy hãy kiểm tra quy định hiện hành và hạng bằng của bạn trước khi thuê."
 ---
 Honda SH là dòng ga lớn sang nhất trong nhóm xe cho thuê ở Hà Nội, và cũng là dòng đòi cân nhắc nhất về cân nặng, chi phí và kinh nghiệm. Bài này đi qua từng yếu tố để bạn quyết nhanh có nên thuê SH hay không.
 

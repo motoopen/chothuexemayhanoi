@@ -21,6 +21,7 @@ qa:
     a: "Gom giấy tờ người và giấy tờ xe vào một túi chống thấm, để ở một túi áo cố định và rà lại mỗi sáng. Không nên để trong cốp rồi quên, vì mở cốp giữa đường vừa mất thời gian vừa dễ rơi vãi."
   - q: "Có cần kiểm tra mũ bảo hiểm được giao kèm xe thuê không?"
     a: "Có. Mũ bảo hiểm đạt chuẩn là thứ bắt buộc khi lưu thông, nên hãy xem mũ giao kèm còn tốt, quai cài chắc và đội đúng cách trên mọi quãng đường, kể cả chặng rất ngắn."
+blog_notice: "<strong>Cập nhật pháp lý:</strong> Theo Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (hiệu lực từ 01/01/2025), giấy phép lái xe hạng A1 cấp mới dùng cho xe mô tô hai bánh đến 125 cm³ (hoặc động cơ điện đến 11 kW); xe trên 125 cm³ cần hạng A. Bằng A1 cấp trước 01/01/2025 vẫn được điều khiển xe từ 50 cm³ đến dưới 175 cm³. Một số nội dung có thể được soạn theo quy định cũ, vì vậy hãy kiểm tra quy định hiện hành và hạng bằng của bạn trước khi thuê."
 ---
 Bị cảnh sát giao thông làm hiệu lệnh dừng xe khi đang đi xe thuê khiến nhiều người lo hơn đi xe của mình, vì không biết giấy tờ nào phải có và phần nào do bên cho thuê lo. Thực tế trình tự rất gọn nếu bạn chuẩn bị đủ từ đầu.
 

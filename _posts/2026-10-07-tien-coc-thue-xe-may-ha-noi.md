@@ -32,7 +32,7 @@ Mức cọc thường tỷ lệ với giá trị xe, nên dòng số phổ thôn
 
 ## Hỏi điều kiện khấu trừ
 
-Câu quan trọng nhất: trường hợp nào thì cọc bị khấu trừ và mức tính ra sao. Trầy xước nhỏ do va chạm thường ngày có bị tính không, hay chỉ những hư hỏng rõ mới trừ. Xe mất cắm hoặc hư hỏng lớn thì xử lý theo điều khoản nào trong hợp đồng. Hiểu trước các trường hợp giúp bạn quyết định nên mua thêm phương án bảo vệ nếu cửa hàng có, hoặc chọn dòng xe có mức rủi ro hợp lý.
+Câu quan trọng nhất: trường hợp nào thì cọc bị khấu trừ và mức tính ra sao. Trầy xước nhỏ do va chạm thường ngày có bị tính không, hay chỉ những hư hỏng rõ mới trừ. Xe mất cắp hoặc hư hỏng lớn thì xử lý theo điều khoản nào trong hợp đồng. Hiểu trước các trường hợp giúp bạn quyết định nên mua thêm phương án bảo vệ nếu cửa hàng có, hoặc chọn dòng xe có mức rủi ro hợp lý.
 
 ## Tự bảo vệ mình bằng bằng chứng
 

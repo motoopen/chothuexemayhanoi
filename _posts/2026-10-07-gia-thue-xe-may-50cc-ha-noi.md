@@ -40,7 +40,7 @@ Với nhóm xe nhỏ, rà trọn: mức cọc thường thấp hơn xe ga lớn 
 
 ## Ví dụ so theo ba kiểu lịch trình
 
-Lịch chỉ quanh khu ở, một mình, quãng ngắn: dòng dưới 50cc hoặc xe điện rẻ nhất tổng chi phí. Lịch có chặng qua các quận xa hơn: dòng Cub bền hơn trên chặng dài chút, đáng phần chênh giá nhỏ. Lịch dày nhiều ngày: so gói tuần giữa các dòng thay vì giá ngày, vì phần chêch giữa các dòng bị gói dài làm mờ đi. So đúng kiểu lịch trình của mình giúp nhóm xe nhỏ phát huy đúng lợi thế rẻ và nhẹ.
+Lịch chỉ quanh khu ở, một mình, quãng ngắn: dòng dưới 50cc hoặc xe điện rẻ nhất tổng chi phí. Lịch có chặng qua các quận xa hơn: dòng Cub bền hơn trên chặng dài chút, đáng phần chênh giá nhỏ. Lịch dày nhiều ngày: so gói tuần giữa các dòng thay vì giá ngày, vì phần chênh lệch giữa các dòng bị gói dài làm mờ đi. So đúng kiểu lịch trình của mình giúp nhóm xe nhỏ phát huy đúng lợi thế rẻ và nhẹ.
 
 Mức giá theo ngày và gói dài của từng nhóm xe được niêm yết trên [bảng giá cho thuê xe]({{ '/banggia.html' | relative_url }}), nên mở song song khi so ba kiểu lịch trình ở trên.
 

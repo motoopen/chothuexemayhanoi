@@ -32,7 +32,7 @@ Khung nhận tối hôm trước và trả khuya hôm sau nhiều khi vẫn nằ
 
 ## Chọn dòng xe cho lịch hai ngày
 
-Hai ngày thường gồm cả chặng ven, nên dòng xe ga phổ thông êm là lựa chọn cân bằng, vừa đủ sức cho quãng dài vừa thoải mái trong phố. Quỹ tựu quanh nội thành hai ngày thì dòng số nhỏ gọn rẻ hơn rõ. Danh sách dòng xe hiện có nằm ở trang các loại xe cho thuê. Khách chọn xe điện cho lịch hai ngày cần hỏi kế hoạch sạc giữa hai ngày, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}).
+Hai ngày thường gồm cả chặng ven, nên dòng xe ga phổ thông êm là lựa chọn cân bằng, vừa đủ sức cho quãng dài vừa thoải mái trong phố. Chỉ đi quanh nội thành hai ngày thì dòng số nhỏ gọn rẻ hơn rõ. Danh sách dòng xe hiện có nằm ở trang các loại xe cho thuê. Khách chọn xe điện cho lịch hai ngày cần hỏi kế hoạch sạc giữa hai ngày, chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}).
 
 ## Các khoản hỏi trước khi chốt hai ngày
 

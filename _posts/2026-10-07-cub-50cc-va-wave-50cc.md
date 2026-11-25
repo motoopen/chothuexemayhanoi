@@ -34,7 +34,7 @@ Cả hai đều chuyển số bằng chân và phanh sau bằng bàn đạp, nê
 
 ## Cốp và chở đồ
 
-Wave có cốp sau rộng hơn rõ, dễ buộc thùng hàng hoặc khóa hai thùng hai bên, nên khách đi chợ, chở hàng nhỏ thường chọn Wave. Cub cốp sau hẹp kiểu cổ, chở được vài món nhưng không thư thả như Wave. Nếu lịch của bạn có chở đồ đạc định kỳ, đây là điểm quyết định chứ không phải mức giá chêch nhỏ. Mức giá hai dòng nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Wave có cốp sau rộng hơn rõ, dễ buộc thùng hàng hoặc khóa hai thùng hai bên, nên khách đi chợ, chở hàng nhỏ thường chọn Wave. Cub cốp sau hẹp kiểu cổ, chở được vài món nhưng không thư thả như Wave. Nếu lịch của bạn có chở đồ đạc định kỳ, đây là điểm quyết định chứ không phải mức giá chênh lệch nhỏ. Mức giá hai dòng nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
 
 ## Độ bền và bảo trì giữa kỳ
 

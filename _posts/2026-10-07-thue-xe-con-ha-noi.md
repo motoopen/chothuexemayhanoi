@@ -23,6 +23,7 @@ qa:
     a: "Có, Motoopen có nhóm xe tay côn bên cạnh xe số, xe ga, xe 50cc và xe đạp điện. Mẫu cụ thể và tình trạng còn xe nên hỏi trước qua điện thoại hoặc Zalo 0857 255 868, nhất là khi thuê dịp cuối tuần."
   - q: "Có nên nói thật trình độ lái khi đặt xe côn không?"
     a: "Có. Nói thẳng trình độ giúp nơi thuê tư vấn đúng loại xe; nếu chưa chắc tay, hãy tập lai côn ở bãi trống trên xe của người quen trước, rẻ hơn nhiều so với một cú ngã giữa đường."
+blog_notice: "<strong>Cập nhật pháp lý:</strong> Theo Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (hiệu lực từ 01/01/2025), giấy phép lái xe hạng A1 cấp mới dùng cho xe mô tô hai bánh đến 125 cm³ (hoặc động cơ điện đến 11 kW); xe trên 125 cm³ cần hạng A. Bằng A1 cấp trước 01/01/2025 vẫn được điều khiển xe từ 50 cm³ đến dưới 175 cm³. Một số nội dung có thể được soạn theo quy định cũ, vì vậy hãy kiểm tra quy định hiện hành và hạng bằng của bạn trước khi thuê."
 ---
 Xe côn cho cảm giác lái thật nhất trong các loại xe thuê, nhưng cũng đòi hỏi thao tác nhiều nhất. Bài này liệt kê các kỹ năng bạn cần có trước khi thuê xe côn ở Hà Nội, và cách kiểm chiếc xe trước khi nhận.
 

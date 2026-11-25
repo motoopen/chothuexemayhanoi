@@ -26,7 +26,7 @@ Nhu cầu thuê xe qua đêm, nhận buổi tối hôm trước và trả sáng 
 
 ## Khung qua đêm tính thế nào
 
-Tùy cửa hàng, khung qua đêm có thể tính trọn một ngày theo khung hai mứ tư giờ từ lúc nhận, hoặc tính theo mức riêng cho khung ngắn ngủn. Nghĩa là nhận lúc tám giờ tối và trả lúc chín giờ sáng hôm sau, khoảng mười ba tiếng, có nơi tính trọn một ngày, có nơi tính mức nửa ngày hoặc mức qua đêm riêng nếu có. Cách chắc nhất là hỏi rõ hai câu: khung của tôi tính từ giờ nào tới giờ nào, và khung ngắn như vậy có mức tính riêng không. Mức giá các gói nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Tùy cửa hàng, khung qua đêm có thể tính trọn một ngày theo khung hai mươi tư giờ từ lúc nhận, hoặc tính theo mức riêng cho khung ngắn ngủn. Nghĩa là nhận lúc tám giờ tối và trả lúc chín giờ sáng hôm sau, khoảng mười ba tiếng, có nơi tính trọn một ngày, có nơi tính mức nửa ngày hoặc mức qua đêm riêng nếu có. Cách chắc nhất là hỏi rõ hai câu: khung của tôi tính từ giờ nào tới giờ nào, và khung ngắn như vậy có mức tính riêng không. Mức giá các gói nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
 
 ## Hỏi trước về nhận tối và trả sớm
 

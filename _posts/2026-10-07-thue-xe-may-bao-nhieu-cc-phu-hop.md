@@ -21,6 +21,7 @@ qa:
     a: "Hỏi luôn phương án nhóm thấp hơn ngay khi gọi đặt. Xe 110 vẫn làm được phần lớn lịch trình nếu không có nhiều chặng đường trường dài hay chở nặng."
   - q: "Mùa lạnh thuê xe 50cc cần thử gì trước khi nhận?"
     a: "Nên đề thử kỹ tại quầy. Máy nhỏ khởi động yếu hơn chút khi trời lạnh, và chiếc 50cc đề khó vào mùa lạnh có thể báo hiệu ắc quy hoặc bugi cần xem; khi đó nên xin xe khác."
+blog_notice: "<strong>Cập nhật pháp lý:</strong> Theo Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (hiệu lực từ 01/01/2025), giấy phép lái xe hạng A1 cấp mới dùng cho xe mô tô hai bánh đến 125 cm³ (hoặc động cơ điện đến 11 kW); xe trên 125 cm³ cần hạng A. Bằng A1 cấp trước 01/01/2025 vẫn được điều khiển xe từ 50 cm³ đến dưới 175 cm³. Một số nội dung có thể được soạn theo quy định cũ, vì vậy hãy kiểm tra quy định hiện hành và hạng bằng của bạn trước khi thuê."
 ---
 Số cc trên tem xe không nói lên chất lượng kỳ thuê, mà chỉ nói lên một điều: mức đủ hay thừa cho lịch của bạn. Bài này quy các nhóm cc về đúng hai câu hỏi kinh nghiệm và hành trình.
 

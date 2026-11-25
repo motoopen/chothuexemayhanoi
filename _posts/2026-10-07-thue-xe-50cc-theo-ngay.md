@@ -40,7 +40,7 @@ Ba khoản hay quên nhất của thuê ngày. Xăng: hỏi mức nhận xe th�
 
 ## Lên lịch cho một ngày gọn
 
-Với một ngày, nên xếp việc xa vào buổi sáng khi xe khỏe và đường thoáng hơn, giữ buổi chiều cho các chặng gần. Chừa thời gian trả dư nửa tiếng so với dự kiến, vì trễ khung là phụ phí hay gặp nhất của thuê ngày. Nếu lịch có nhiều chặng rải rác, đánh dấu sẵn điểm đỗ xe quen cho từng khu để khỏi đi tìm giữa trưa. Ghi lại địa điểm trả xe vào bản đồ trên điện thoại dès sáng, để cuối ngày mệt không phải tra lại.
+Với một ngày, nên xếp việc xa vào buổi sáng khi xe khỏe và đường thoáng hơn, giữ buổi chiều cho các chặng gần. Chừa thời gian trả dư nửa tiếng so với dự kiến, vì trễ khung là phụ phí hay gặp nhất của thuê ngày. Nếu lịch có nhiều chặng rải rác, đánh dấu sẵn điểm đỗ xe quen cho từng khu để khỏi đi tìm giữa trưa. Ghi lại địa điểm trả xe vào bản đồ trên điện thoại từ sáng, để cuối ngày mệt không phải tra lại.
 
 ## Ví dụ hai chuyến một ngày
 

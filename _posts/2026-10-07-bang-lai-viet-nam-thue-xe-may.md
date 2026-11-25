@@ -21,6 +21,7 @@ qa:
     a: "Nên chọn dòng xe không yêu cầu bằng lái cho đến khi có bằng mới, như xe 50cc hoặc xe điện theo tư vấn của cửa hàng. Điều kiện cụ thể với từng loại xe nên kiểm tra quy định hiện hành."
   - q: "Người mới có bằng nên làm gì trong những ngày đầu chạy xe thuê ở Hà Nội?"
     a: "Nên chạy thử quanh khu ít xe, chọn giờ vắng cho những chuyến đầu và hỏi nơi thuê về các đoạn đường một chiều quanh chỗ ở. Sau vài chuyến ngắn đã quen xe và quen đường, hãy tăng dần phạm vi đi xa."
+blog_notice: "<strong>Cập nhật pháp lý:</strong> Theo Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (hiệu lực từ 01/01/2025), giấy phép lái xe hạng A1 cấp mới dùng cho xe mô tô hai bánh đến 125 cm³ (hoặc động cơ điện đến 11 kW); xe trên 125 cm³ cần hạng A. Bằng A1 cấp trước 01/01/2025 vẫn được điều khiển xe từ 50 cm³ đến dưới 175 cm³. Một số nội dung có thể được soạn theo quy định cũ, vì vậy hãy kiểm tra quy định hiện hành và hạng bằng của bạn trước khi thuê."
 ---
 Người có giấy phép lái Việt Nam cũng cần kiểm tra hạng bằng trước khi thuê xe máy, vì nhóm xe từ 50cc trở lên yêu cầu hạng phù hợp theo dung tích. Bài này giúp bạn khớp hạng bằng với loại xe định thuê.
 

@@ -26,7 +26,7 @@ Nhiều khách chọn xe ga 50cc vì nghe đồn dễ lái, nhưng vẫn gặp b
 
 ## Chọn xe theo chiều cao người lái
 
-Chiều cao ảnh hưởng trực tiếp đến việc hai chân chạm đất khi dừng xe, yếu tố an toàn quan trọng nhất với người ít kinh nghiệm. Người dưới một mét sáu thường hợp với yên xe ga thấp, hai chân đặt vững, không phải kiễng khi chờ đèn đỏ. Người cao trên một mét bảy nên chọn mẫu có yên rộng và khoảng cách tay lái thoáng hơn, tránh tư thế gập gönh tạo mỏi lưng trên quãng dài. Khi đến cửa hàng, đừng ngại ngồi lên thử: cảm giác hai chân chạm đất và tư thế với tay lái nói lên nhiều hơn mọi thông số. Yêu cầu ngồi thử hai hoặc ba mẫu khác nhau trước khi quyết định.
+Chiều cao ảnh hưởng trực tiếp đến việc hai chân chạm đất khi dừng xe, yếu tố an toàn quan trọng nhất với người ít kinh nghiệm. Người dưới một mét sáu thường hợp với yên xe ga thấp, hai chân đặt vững, không phải kiễng khi chờ đèn đỏ. Người cao trên một mét bảy nên chọn mẫu có yên rộng và khoảng cách tay lái thoáng hơn, tránh tư thế gò bó tạo mỏi lưng trên quãng dài. Khi đến cửa hàng, đừng ngại ngồi lên thử: cảm giác hai chân chạm đất và tư thế với tay lái nói lên nhiều hơn mọi thông số. Yêu cầu ngồi thử hai hoặc ba mẫu khác nhau trước khi quyết định.
 
 ## Chọn xe theo đặc điểm hành trình
 

@@ -28,7 +28,7 @@ Hai chiếc cùng mẫu nhưng pin khác tuổi thì giá trị trải nghiệm 
 
 ## Biến số hai: chi phí và thời gian sạc
 
-Xe điện cần điện như xe xăng cần nhiên liệu, nhưng dòng tiền khác nhau: tiền điện thường nhỏ, còn thời gian chờ sạc mới là chi phí lớn của bạn. Hỏi trước: bộ sạc có kèm xe không, sạc ở khách sạn được không, và quy định mức pin khi trả xe là bao nhiêu. Nếu buộc phải trả pin gần đầy, phần giờ chờ sạc cuối ngày thuộc về bạn. Nếu phải dùng trạm sạc công cộng, tính cả thời gian di chuyển tới trạm. Quy đổi thời gian chờ theo giá trị chuyến đi của mình rồi cộng vào mức giá thuê, bạn sẽ thấy hai mức niêm yết ban đầu khác hẳng tổng chi phí thực.
+Xe điện cần điện như xe xăng cần nhiên liệu, nhưng dòng tiền khác nhau: tiền điện thường nhỏ, còn thời gian chờ sạc mới là chi phí lớn của bạn. Hỏi trước: bộ sạc có kèm xe không, sạc ở khách sạn được không, và quy định mức pin khi trả xe là bao nhiêu. Nếu buộc phải trả pin gần đầy, phần giờ chờ sạc cuối ngày thuộc về bạn. Nếu phải dùng trạm sạc công cộng, tính cả thời gian di chuyển tới trạm. Quy đổi thời gian chờ theo giá trị chuyến đi của mình rồi cộng vào mức giá thuê, bạn sẽ thấy hai mức niêm yết ban đầu khác hẳn tổng chi phí thực.
 
 ## Biến số ba: khung thời gian thuê
 

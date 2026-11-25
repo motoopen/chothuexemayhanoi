@@ -21,6 +21,7 @@ qa:
     a: "Trước mỗi chặng dài, kiểm dây xích và đổ đầy xăng vì bình xăng không lớn. Trong phố nên giữ vòng tua thấp để tiết kiệm xăng và đỡ mỏi tay côn; trời mưa thì đi chậm hơn hẳn."
   - q: "Thuê Exciter cần chuẩn bị giấy tờ và cọc thế nào?"
     a: "Cần CCCD hoặc hộ chiếu và bằng lái đúng hạng với dung tích xe; nên kiểm tra quy định hiện hành về phân hạng. Motoopen có nhóm xe tay côn, còn mẫu cụ thể và mức cọc tùy dòng xe nên hỏi khi đặt qua 0857 255 868."
+blog_notice: "<strong>Cập nhật pháp lý:</strong> Theo Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (hiệu lực từ 01/01/2025), giấy phép lái xe hạng A1 cấp mới dùng cho xe mô tô hai bánh đến 125 cm³ (hoặc động cơ điện đến 11 kW); xe trên 125 cm³ cần hạng A. Bằng A1 cấp trước 01/01/2025 vẫn được điều khiển xe từ 50 cm³ đến dưới 175 cm³. Một số nội dung có thể được soạn theo quy định cũ, vì vậy hãy kiểm tra quy định hiện hành và hạng bằng của bạn trước khi thuê."
 ---
 Yamaha Exciter là dòng côn tay thể thao phổ biến nhất Việt Nam, và thuê Exciter ở Hà Nội chỉ hợp khi bạn đã thuộc thao tác côn tay như bản năng. Bài này chỉ rõ mức quen cần có và cách kiểm chiếc Exciter trước khi nhận.
 

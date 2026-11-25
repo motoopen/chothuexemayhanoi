@@ -30,7 +30,7 @@ Câu hỏi đầu tiên cần trả lời là bạn đi bao xa và bao nhiêu l�
 
 ## Số người và hành lý chở theo
 
-Xe 50cc thiết kế cho một người, chở thêm người thứ hai vẫn được nhưng sẽ ảnh hưởng tốc độ và độ an toàn, nhất là khi leo dốc. Nếu bạn thường đi hai người hoặc chở balo, túi đồ lớn, nên cân nhắc dòng xe số hoặc xe ga có công suất cao hơn. Trẻ em đi cùng cũng cần tính đến: ghế sau của xe nhỏ thường thấp và bốn bệ, dễ tổn thương khi phanh gấp. Nhìn vào cấu trúc xe thực tế tại cửa hàng và hình dung đến hành trình của bạn là cách kiểm tra nhanh nhất.
+Xe 50cc thiết kế cho một người, chở thêm người thứ hai vẫn được nhưng sẽ ảnh hưởng tốc độ và độ an toàn, nhất là khi leo dốc. Nếu bạn thường đi hai người hoặc chở balo, túi đồ lớn, nên cân nhắc dòng xe số hoặc xe ga có công suất cao hơn. Trẻ em đi cùng cũng cần tính đến: ghế sau của xe nhỏ thường thấp và chật hẹp, dễ tổn thương khi phanh gấp. Nhìn vào cấu trúc xe thực tế tại cửa hàng và hình dung đến hành trình của bạn là cách kiểm tra nhanh nhất.
 
 ## Điều kiện đường sá khu vực bạn lưu trú
 

@@ -23,6 +23,7 @@ qa:
     a: "Gọi hỏi trước số xe còn trống, vì nhiều nơi chỉ giữ một vài chiếc côn tay thể thao và dịp cuối tuần dễ hết. Motoopen có nhóm xe tay côn; mẫu cụ thể và số lượng nên hỏi qua 0857 255 868 khi đặt."
   - q: "Thuê Winner cần mang những giấy tờ gì?"
     a: "Cần CCCD hoặc hộ chiếu cùng bằng lái đúng hạng với dung tích xe; phân hạng theo luật có thể thay đổi nên kiểm tra quy định hiện hành. Hợp đồng nên ghi giá, cọc, giờ trả, mức xăng và trách nhiệm với bộ số."
+blog_notice: "<strong>Cập nhật pháp lý:</strong> Theo Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (hiệu lực từ 01/01/2025), giấy phép lái xe hạng A1 cấp mới dùng cho xe mô tô hai bánh đến 125 cm³ (hoặc động cơ điện đến 11 kW); xe trên 125 cm³ cần hạng A. Bằng A1 cấp trước 01/01/2025 vẫn được điều khiển xe từ 50 cm³ đến dưới 175 cm³. Một số nội dung có thể được soạn theo quy định cũ, vì vậy hãy kiểm tra quy định hiện hành và hạng bằng của bạn trước khi thuê."
 ---
 Honda Winner là dòng côn tay thể thao chạy đường trường, và thuê Winner ở Hà Nội chỉ dành cho người đã quen côn tay thật sự. Bài này là checklist trọn từ thao tác cần có đến từng điểm rà trước khi nhận.
 

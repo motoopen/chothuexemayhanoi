@@ -42,7 +42,7 @@ Tình huống một: khách thuê tuần, mỗi ngày trong phố tám cây số
 
 ## Ba thói quen giữ mức tiêu hao thấp
 
-Thói quen một: đi đều ga, không rú lên thả xuống giữa đèn đỏ, giữ đà từ xa khi thấy đèn sắp đỏ. Thói quen hai: kiểm tra căng bánh lúc nhận, bánh non làm xe nặng và tiêu hao tăng. Thói năng ba: không để máy nổ lâu khi dừng chờ, dòng nhỏ khởi động nhẹ nên tắt máy khi dừng trên một phút. Ba thói quen này không tốn công sức nhưng giữ khoản xăng của dòng nhỏ luôn ở mức thấp nhất trong suốt kỳ thuê.
+Thói quen một: đi đều ga, không rú lên thả xuống giữa đèn đỏ, giữ đà từ xa khi thấy đèn sắp đỏ. Thói quen hai: kiểm tra căng bánh lúc nhận, bánh non làm xe nặng và tiêu hao tăng. Thói quen ba: không để máy nổ lâu khi dừng chờ, dòng nhỏ khởi động nhẹ nên tắt máy khi dừng trên một phút. Ba thói quen này không tốn công sức nhưng giữ khoản xăng của dòng nhỏ luôn ở mức thấp nhất trong suốt kỳ thuê.
 
 ## Hỏi nơi thuê về xăng trước khi cọc
 
