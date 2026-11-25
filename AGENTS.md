@@ -18,7 +18,13 @@ Business: Motoopen — thuê xe máy Hà Nội, 114 Nguyễn Văn Cừ, Long Bi�
 3. Never delete posts, cut useful content or keywords, or shorten posts in bulk. Additive edits only.
 4. Never change URLs/permalinks, or titles/meta descriptions that already perform.
 5. Never change NAP, prices, deposits or business policy without owner verification.
-   Single sources: `_data/site.yml` (NAP, CTA copy) and `banggia.html` (price table).
+   **Owner rule (2026-11-25): prices, deposits and the vehicle list are standardised on the main
+   website — homepage https://chothuexemayhanoi.ceovanta.com and its price page
+   https://chothuexemayhanoi.ceovanta.com/bang-gia-thue-xe-may/. This GitHub site must mirror them.**
+   In-repo copies to keep in sync: `banggia.html`, `_includes/home/*` (hero, pricing, FAQ, monthly
+   overview), static-page hero minis, `_data/site.yml` (CTA copy), `assets/js/*hero-pricing.js`,
+   the MotoAI price table, `du-lieu/motoopen-business.json`, and price mentions in post `qa`/`quick_answer`.
+   Prices inside homepage JSON-LD stay locked (rule 1) unless the owner explicitly unlocks them.
 6. Never copy data from other brands (Nguyễn Tú / thuexemaynguyentu.com, Nguyễn Hà / rentbikehanoi.com).
 7. No fabricated reviews, ratings, experiences, prices or business data. No artificial backlinks.
 8. Free tools only. No paid APIs/services, no hosting upgrades.
