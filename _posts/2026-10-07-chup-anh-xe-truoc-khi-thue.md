@@ -8,6 +8,7 @@ matrix_id: 234
 primary_keyword: "chụp ảnh xe trước khi thuê"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: thu-tuc-hop-dong
 ---
 Mười bức ảnh lúc nhận xe có thể cứu bạn vài trăm nghìn lúc trả xe, vì ảnh là bằng chứng khách quan nhất khi hai bên nhớ khác nhau về vết xước. Bài này cho bạn checklist góc chụp gọn trong hai phút.
 

@@ -8,6 +8,7 @@ matrix_id: 57
 primary_keyword: "thuê xe cub 50cc hà nội"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
 ---
 Xe Cub 50cc là dòng quen thuộc, nhẹ và dễ điều khiển, nên nhiều khách tìm thuê cho nhu cầu đi phố hoặc tập lái. Nhưng hợp không còn tùy vào lịch trình và kỹ năng của người đi. Bài này giúp bạn xác định Cub 50cc có phù hợp với mình không và kiểm tra xe thế nào trước khi nhận.
 

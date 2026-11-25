@@ -8,6 +8,7 @@ matrix_id: 133
 primary_keyword: "checklist nhận xe máy điện"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Nhận xe máy điện thuê chỉ mất năm phút nếu bạn rà theo danh sách. Bài này là checklist đầy đủ từ pin đến giấy tờ, để bạn không phải quay lại vì lỗi đáng lẽ thấy ngay.
 

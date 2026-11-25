@@ -8,6 +8,7 @@ matrix_id: 48
 primary_keyword: "gia hạn thuê xe máy hà nội"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+seo_hub: thue-xe-thang
 ---
 Gia hạn giữa kỳ là nhu cầu thường gặp, nhưng nhiều người chỉ nhắn một câu giữ thêm rồi bất ngờ khi hóa đơn khác dự tính. Bài này nói cách hỏi lại giá và mốc thời gian khi gia hạn ở Hà Nội.
 

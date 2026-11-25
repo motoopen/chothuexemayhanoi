@@ -8,6 +8,7 @@ matrix_id: 145
 primary_keyword: "thuê xe exciter hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-so
 ---
 Yamaha Exciter là dòng côn tay thể thao phổ biến nhất Việt Nam, và thuê Exciter ở Hà Nội chỉ hợp khi bạn đã thuộc thao tác côn tay như bản năng. Bài này chỉ rõ mức quen cần có và cách kiểm chiếc Exciter trước khi nhận.
 

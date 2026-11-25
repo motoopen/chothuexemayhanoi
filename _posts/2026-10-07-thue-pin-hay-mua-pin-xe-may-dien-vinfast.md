@@ -8,6 +8,7 @@ matrix_id: 125
 primary_keyword: "thuê pin hay mua pin xe máy điện vinfast"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Với dòng xe máy điện dùng pin rời, có một câu hỏi đặc trưng: thuê cả chiếc xe, thuê riêng pin, hay mua hẳn pin. Bài này so ba phương án theo trách nhiệm, chi phí và hoàn cảnh sử dụng.
 

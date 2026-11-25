@@ -8,6 +8,7 @@ matrix_id: 167
 primary_keyword: "thuê xe máy bao nhiêu cc phù hợp"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-tay-ga
 ---
 Số cc trên tem xe không nói lên chất lượng kỳ thuê, mà chỉ nói lên một điều: mức đủ hay thừa cho lịch của bạn. Bài này quy các nhóm cc về đúng hai câu hỏi kinh nghiệm và hành trình.
 

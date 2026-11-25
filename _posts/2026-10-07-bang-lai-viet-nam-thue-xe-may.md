@@ -8,6 +8,7 @@ matrix_id: 227
 primary_keyword: "bằng lái việt nam thuê xe máy"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: thu-tuc-hop-dong
 ---
 Người có giấy phép lái Việt Nam cũng cần kiểm tra hạng bằng trước khi thuê xe máy, vì nhóm xe từ 50cc trở lên yêu cầu hạng phù hợp theo dung tích. Bài này giúp bạn khớp hạng bằng với loại xe định thuê.
 

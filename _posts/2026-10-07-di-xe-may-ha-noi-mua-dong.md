@@ -8,6 +8,7 @@ matrix_id: 270
 primary_keyword: "đi xe máy hà nội mùa đông"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
+seo_hub: hanh-trinh
 ---
 Mùa đông Hà Nội lạnh khô rồi chuyển sang ẩm mưa, và lái xe máy trong lạnh buốt là trải nghiệm khác hẳn những tháng khác. Lịch trình mùa đông vì thế phải xây quanh cửa sổ trời ấm và đồ giữ nhiệt.
 

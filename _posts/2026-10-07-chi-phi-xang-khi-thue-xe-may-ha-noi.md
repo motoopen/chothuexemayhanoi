@@ -8,6 +8,7 @@ matrix_id: 42
 primary_keyword: "chi phí xăng khi thuê xe máy hà nội"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+seo_hub: gia-coc
 ---
 Chi phí xăng là khoản biến động nhất trong tổng tiền thuê xe máy, và ước sai là cách nhanh nhất để ngân sách chuyến đi lệch. Bài này hướng dẫn cách ước chi phí xăng theo hành trình cụ thể thay vì theo cảm tính.
 

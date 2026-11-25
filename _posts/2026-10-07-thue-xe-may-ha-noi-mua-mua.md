@@ -8,6 +8,7 @@ matrix_id: 11
 primary_keyword: "thuê xe máy hà nội mùa mưa"
 hub_parent: thue-xe
 hub_category: bat-dau-thue
+seo_hub: kinh-nghiem
 ---
 Mùa mưa ở Hà Nội kéo dài nhiều tháng, cơn mưa tới bất chợt và đường ngập cục bộ. Thuê xe máy trong mùa này cần chuẩn bị khác với mùa khô, từ dòng xe đến đồ mang theo. Bài này gom các lưu ý để chuyến đi mùa mưa không biến thành vất vả.
 

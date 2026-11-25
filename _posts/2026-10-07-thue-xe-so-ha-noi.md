@@ -8,6 +8,7 @@ matrix_id: 137
 primary_keyword: "thuê xe số hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-so
 ---
 Xe số từng là xe phổ thông nhất Việt Nam, và khi thuê ở Hà Nội nó vẫn có chỗ đứng riêng. Bài này chỉ các tình huống xe số thắng xe ga, và những mục cần kiểm trước khi nhận một chiếc số.
 

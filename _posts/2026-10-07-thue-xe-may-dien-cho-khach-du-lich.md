@@ -8,6 +8,7 @@ matrix_id: 113
 primary_keyword: "thuê xe máy điện cho khách du lịch"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Với khách du lịch ở Hà Nội vài ngày, chọn giữa xe máy điện và xe xăng không phải câu hỏi sở thích mà là câu hỏi lịch trình. Bài này so hai lựa chọn theo từng tiêu chí để bạn chốt nhanh.
 

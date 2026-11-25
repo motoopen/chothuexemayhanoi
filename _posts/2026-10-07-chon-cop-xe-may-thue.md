@@ -8,6 +8,7 @@ matrix_id: 170
 primary_keyword: "chọn cốp xe máy thuê"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-tay-ga
 ---
 Cốp lớn không phải lúc nào cũng đáng, và cốp nhỏ nhiều khi đủ. Bài này quy các mức cốp theo đúng loại hành lý bạn mang, để chọn vừa mà khỏi trả thừa.
 

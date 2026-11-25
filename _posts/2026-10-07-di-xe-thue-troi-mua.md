@@ -8,6 +8,7 @@ matrix_id: 283
 primary_keyword: "đi xe thuê trời mưa"
 hub_parent: huong-dan
 hub_category: an-toan-su-co
+seo_hub: kinh-nghiem
 ---
 Mưa đến giữa chuyến là tình huống chắc chắn gặp nếu thuê xe mùa hè ở Hà Nội. Checklist dưới đây giúp bạn ra đường được an toàn và biết khi nào nên dừng hẳn.
 

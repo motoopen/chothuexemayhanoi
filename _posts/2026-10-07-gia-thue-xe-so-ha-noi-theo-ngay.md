@@ -8,6 +8,7 @@ matrix_id: 35
 primary_keyword: "giá thuê xe số hà nội theo ngày"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+seo_hub: gia-coc
 ---
 Xe số phổ thông là dòng rẻ nhất khi thuê xe máy ở Hà Nội, nhưng tổng chi phí giữa các nơi và các gói vẫn khác nhau đáng kể. Bài này nói các yếu tố làm giá thuê xe số theo ngày khác nhau và cách so để chọn được gói hợp lý.
 

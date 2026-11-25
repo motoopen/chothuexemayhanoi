@@ -8,6 +8,7 @@ matrix_id: 148
 primary_keyword: "thuê xe future hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-so
 ---
 Honda Future nằm giữa xe số nhỏ và xe ga lớn: đầm, chắc và có chút cốp, nên quyết định thuê Future gắn với hai câu hỏi về quãng đường và hành lý. Bài này trả lời cả hai.
 

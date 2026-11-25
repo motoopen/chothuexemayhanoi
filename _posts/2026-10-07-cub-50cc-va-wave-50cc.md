@@ -8,6 +8,7 @@ matrix_id: 77
 primary_keyword: "cub 50cc và wave 50cc"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
 ---
 Cub và Wave là hai dòng xe số 50cc quen thuộc của người Việt, cùng nhẹ, bền và quen tay với nhiều khách lớn tuổi. Nhưng trải nghiệm sử dụng của hai dòng khác nhau ở vài điểm đáng kể. Bài này so từng khía cạnh để bạn chọn dòng khớp với thói quen đi xe của mình.
 

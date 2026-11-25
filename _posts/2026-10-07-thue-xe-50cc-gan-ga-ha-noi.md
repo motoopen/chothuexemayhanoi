@@ -8,6 +8,7 @@ matrix_id: 87
 primary_keyword: "thuê xe 50cc gần ga hà nội"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
 ---
 Tàu đến Ga Hà Nội, việc đầu tiên nhiều khách nghĩ tới là thuê xe đi tiếp, và câu hỏi là nhận xe ở đâu cho đỡ mang hành lý xa. Bài này chỉ cách chọn điểm nhận quanh ga và chốt các khoản liên quan.
 

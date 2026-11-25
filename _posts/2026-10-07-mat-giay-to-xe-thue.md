@@ -8,6 +8,7 @@ matrix_id: 239
 primary_keyword: "mất giấy tờ xe thuê"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: thu-tuc-hop-dong
 ---
 Giấy tờ xe thuê gồm đăng ký và bảo hiểm đi kèm xe, và để quên hoặc làm mất chúng gây rắc rối lớn hơn mất chìa. Bài này giúp bạn biết cần báo cho ai và lưu thông tin gì.
 

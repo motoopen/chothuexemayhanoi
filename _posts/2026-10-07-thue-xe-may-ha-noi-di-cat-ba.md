@@ -8,6 +8,7 @@ matrix_id: 253
 primary_keyword: "thuê xe máy hà nội đi cát bà"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
+seo_hub: hanh-trinh
 ---
 Cát Bà là điểm đến đảo, nên khác mọi cung núi: câu hỏi lớn nhất không phải xe gì, mà là chiếc xe thuê ấy đi theo bạn bằng cách nào. Giải quyết được phương án vận chuyển, phần còn lại của chuyến đi là cung đẹp quanh đảo.
 

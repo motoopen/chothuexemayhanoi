@@ -8,6 +8,7 @@ matrix_id: 154
 primary_keyword: "thuê xe máy cho 2 người hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-tay-ga
 ---
 Chở hai người đổi hẳn yêu cầu với xe thuê: tải, yên và cốp đều phải tính. Bài này chỉ cách chọn đúng theo cả ba, và nguyên tắc lái an toàn cho hành trình đôi.
 

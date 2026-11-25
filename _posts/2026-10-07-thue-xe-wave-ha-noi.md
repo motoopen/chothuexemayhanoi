@@ -8,6 +8,7 @@ matrix_id: 140
 primary_keyword: "thuê xe wave hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-so
 ---
 Honda Wave là mẫu xe số nhỏ bền bỉ, và khi thuê ở Hà Nội nó phục vụ được nhiều loại hành trình hơn tưởng tượng. Bài này chỉ đúng nhóm hành trình Wave hợp nhất, và cách kiểm chiếc Wave trước khi nhận.
 

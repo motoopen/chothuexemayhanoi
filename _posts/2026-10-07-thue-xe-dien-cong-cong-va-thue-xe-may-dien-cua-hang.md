@@ -8,6 +8,7 @@ matrix_id: 135
 primary_keyword: "thuê xe điện công cộng và thuê xe máy điện cửa hàng"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Trong các lựa chọn di chuyển bằng xe máy điện tại Hà Nội, nhiều người đứng giữa hai phương án: dùng xe điện công cộng dạng thuê theo giờ qua ứng dụng, và thuê nguyên chiếc xe máy điện tại cửa hàng cho thuê. Hai phương án này nhìn giống nhau nhưng phục vụ hai nhu cầu rất khác nhau. Bài này so sánh chi tiết để bạn chọn đúng theo từng loại chuyến đi.
 

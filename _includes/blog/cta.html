@@ -5,15 +5,20 @@
   {% else %}
     {% assign cta = cfg.cta.rental %}
   {% endif %}
-<section class="blog-component blog-cta" aria-label="Thông tin tiếp theo">
-  <div>
-    <p class="blog-component-kicker">Motoopen</p>
+<section class="blog-component blog-cta monthly-cta" aria-label="Thuê xe máy Motoopen">
+  <div class="monthly-cta-copy">
+    <p class="blog-component-kicker">Motoopen · Thuê xe máy Hà Nội</p>
     <h2>{{ cta.title }}</h2>
     <p>{{ cta.text }}</p>
+    <ul class="monthly-cta-facts">
+      {% for f in cfg.cta.quick_facts %}<li><i class="{{ f.icon }}" aria-hidden="true"></i> {{ f.label }}</li>{% endfor %}
+    </ul>
   </div>
-  <div class="blog-component-actions">
-    <a class="mapp-btn" href="tel:{{ cfg.contact.phone_raw }}"><i class="fa-solid fa-phone"></i> {{ cta.primary_label }}</a>
+  <div class="blog-component-actions monthly-cta-actions">
+    <a class="mapp-btn pill-primary" href="tel:{{ cfg.contact.phone_raw }}"><i class="fa-solid fa-phone" aria-hidden="true"></i> {{ cta.primary_label }} {{ cfg.contact.phone_display }}</a>
+    <a class="mapp-btn pill-zalo" href="{{ cfg.contact.zalo_url }}" target="_blank" rel="noopener"><i class="fa-solid fa-comment-dots" aria-hidden="true"></i> Nhắn Zalo</a>
     <a class="mapp-btn ghost" href="{{ cta.secondary_url | relative_url }}">{{ cta.secondary_label }}</a>
+    <a class="mapp-btn ghost" href="{{ cta.monthly_url | relative_url }}">{{ cta.monthly_label }}</a>
   </div>
 </section>
 {% endif %}

@@ -8,6 +8,7 @@ matrix_id: 49
 primary_keyword: "trả xe khác điểm hà nội"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+seo_hub: gia-coc
 ---
 Trả xe ở điểm khác với nơi nhận là dịch vụ tiện cho hành trình một chiều, nhưng nếu không xác nhận trước, tiện có thể biến thành phí ngoài dự tính. Bài này liệt kê những gì cần chốt trước khi chọn phương án này.
 

@@ -8,6 +8,7 @@ matrix_id: 162
 primary_keyword: "xe wave và sirius khi thuê"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-so
 ---
 Wave và Sirius là hai dòng xe số gọn được thuê nhiều, và khác biệt của chúng không nằm ở thông số mà ở cảm giác quen thuộc với tay lái của bạn. Bài này so đúng phần cảm nhận để bạn chọn nhanh.
 

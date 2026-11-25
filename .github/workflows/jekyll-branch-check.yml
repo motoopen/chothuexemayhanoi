@@ -89,6 +89,19 @@ jobs:
         shell: bash
         run: python3 scripts/check_blog_quality.py _site
 
+      - name: Schema lock (JSON-LD must be identical to the stored baseline)
+        shell: bash
+        run: python3 scripts/schema_snapshot.py compare _site qa/schema-baseline.json
+
+      - name: AI search files (llms.txt, llms-full.txt, business JSON)
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s _site/llms.txt && grep -q "0857 255 868" _site/llms.txt
+          test -s _site/llms-full.txt && test "$(grep -c '/chothuexemayhanoi/blog/' _site/llms-full.txt)" -ge 301
+          python3 -c "import json; d=json.load(open('_site/du-lieu/motoopen-business.json')); assert d['name']=='Motoopen'"
+          grep -q "Sitemap: https://motoopen.github.io/chothuexemayhanoi/sitemap.xml" _site/robots.txt
+
       - name: Verify generated public pages
         shell: bash
         run: |

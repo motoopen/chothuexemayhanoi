@@ -8,6 +8,7 @@ matrix_id: 221
 primary_keyword: "thuê xe máy hà nội cần giấy tờ gì"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: thu-tuc-hop-dong
 ---
 Đến điểm nhận xe mà thiếu giấy tờ là cách nhanh nhất để chuyến đi bị hoãn. Bài này gom lại checklist những gì nên chuẩn bị trước khi đến nhận xe thuê ở Hà Nội, để bạn chỉ cần ký hợp đồng và lăn bánh.
 

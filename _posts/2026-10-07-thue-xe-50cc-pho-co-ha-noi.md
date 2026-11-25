@@ -8,6 +8,7 @@ matrix_id: 67
 primary_keyword: "thuê xe 50cc phố cổ hà nội"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
 ---
 Phố Cổ là khu đường nhỏ, vỉa hè hẹp và đông bộ hành, nên loại xe nhỏ gọn có lúc rất lợi, có lúc lại không phải lựa chọn tốt nhất. Bài này chỉ rõ khi nào thuê xe 50cc đi Phố Cổ có lợi và cần chú ý gì để ngày đi thêm phần thuận tiện.
 

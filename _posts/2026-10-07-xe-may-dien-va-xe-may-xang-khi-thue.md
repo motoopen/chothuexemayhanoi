@@ -8,6 +8,7 @@ matrix_id: 126
 primary_keyword: "xe máy điện và xe máy xăng khi thuê"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Chọn thuê xe máy điện hay xe máy xăng ở Hà Nội phụ thuộc trước hết vào hành trình bạn định chạy, chứ không chỉ vào giá thuê. Bài này so sánh hai loại theo từng nhóm lộ trình để bạn chọn đúng ngay từ bước đặt xe.
 

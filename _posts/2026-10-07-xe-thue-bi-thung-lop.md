@@ -8,6 +8,7 @@ matrix_id: 287
 primary_keyword: "xe thuê bị thủng lốp"
 hub_parent: huong-dan
 hub_category: an-toan-su-co
+seo_hub: kinh-nghiem
 ---
 Thủng lốp là sự cố nhỏ nhưng xử sai thì thành to: tự vá ở hàng vặt khiến nơi thuê từ chối, còn cố chạy về điểm trả thì hỏng vành. Quy tắc là dừng an toàn, gọi trước, sửa sau.
 

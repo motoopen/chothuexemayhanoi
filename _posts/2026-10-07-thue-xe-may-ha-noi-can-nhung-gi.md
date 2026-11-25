@@ -8,6 +8,7 @@ matrix_id: 222
 primary_keyword: "thuê xe máy hà nội cần những gì"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: thu-tuc-hop-dong
 ---
 Nhiều khách đến điểm nhận xe rồi mới phát hiện thiếu thứ này thiếu thứ kia, làm kế hoạch đi lại bị xô lệch. Bài này liệt kê trọn bộ những gì bạn cần chuẩn bị khi thuê xe máy ở Hà Nội, từ giấy tờ đến thông tin liên hệ với cửa hàng.
 

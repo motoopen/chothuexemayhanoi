@@ -8,6 +8,7 @@ matrix_id: 1
 primary_keyword: "thuê xe máy hà nội lần đầu"
 hub_parent: thue-xe
 hub_category: bat-dau-thue
+seo_hub: kinh-nghiem
 ---
 Nếu bạn chưa từng thuê xe máy ở Hà Nội, vòng đầu tiên thường kéo theo nhiều câu hỏi: cần mang giấy tờ gì, cọc bao nhiêu, xe gặp sự cố thì xử lý ra sao. Bài này tổng hợp mười hai điều nên biết trước khi nhận xe, sắp xếp theo đúng trình tự bạn sẽ trải qua.
 

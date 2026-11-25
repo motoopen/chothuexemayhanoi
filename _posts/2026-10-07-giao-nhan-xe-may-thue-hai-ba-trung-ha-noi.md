@@ -8,6 +8,7 @@ matrix_id: 182
 primary_keyword: "giao nhận xe máy thuê hai bà trưng hà nội"
 hub_parent: khu-vuc
 hub_category: ha-noi-theo-khu-vuc
+seo_hub: khu-vuc
 ---
 Hai Bà Trưng là khu gần ga và nhiều trường đại học, và bạn có ba cách nhận xe thuê: tại khách sạn, tại điểm hẹn, hoặc tại cửa hàng. Bài này giúp bạn chọn cách phù hợp cho kỳ thuê quanh Hai Bà Trưng.
 

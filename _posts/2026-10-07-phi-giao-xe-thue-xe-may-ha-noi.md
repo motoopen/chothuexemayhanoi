@@ -8,6 +8,7 @@ matrix_id: 40
 primary_keyword: "phí giao xe thuê xe máy hà nội"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+seo_hub: gia-coc
 ---
 Giao xe tận nơi là dịch vụ phổ biến khi thuê xe máy ở Hà Nội, nhưng phí giao có thể làm tổng chi phí thay đổi đáng kể nếu không hỏi rõ từ đầu. Bài này nói cách hỏi phí giao để biết tổng chi phí thực của gói thuê.
 

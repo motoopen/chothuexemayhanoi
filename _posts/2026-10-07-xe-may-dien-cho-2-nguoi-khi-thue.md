@@ -8,6 +8,7 @@ matrix_id: 132
 primary_keyword: "xe máy điện chở 2 người khi thuê"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Chở thêm một người trên xe máy điện thuê làm thay đổi cả tải trọng lẫn mức pin, và nhiều khách chỉ tính một trong hai. Bài này chỉ cách xem cả hai trước khi nhận xe.
 

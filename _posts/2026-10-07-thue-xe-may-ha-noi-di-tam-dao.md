@@ -8,6 +8,7 @@ matrix_id: 249
 primary_keyword: "thuê xe máy hà nội đi tam đảo"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
+seo_hub: hanh-trinh
 ---
 Tam Đảo hõm sâu hơn Ba Vì về độ dốc và độ trơn, và đường lên chỉ có một trục chính nên mọi lỗi lái đều không có đường lách. Trước khi thuê xe cho chuyến này, cân nhắc cả ba yếu tố: xe, kinh nghiệm bản thân, và phương án nếu đổi kế hoạch.
 

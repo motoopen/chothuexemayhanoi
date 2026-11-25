@@ -8,6 +8,7 @@ matrix_id: 29
 primary_keyword: "thuê xe máy dài hạn hà nội"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+seo_hub: thue-xe-thang
 ---
 Thuê xe máy dài hạn Hà Nội là lựa chọn phổ biến với người làm việc theo dự án, sinh viên trọ xa nhà hoặc khách du lịch ở lại nhiều tuần. Khi so sánh các gói thuê, hầu hết mọi người chỉ nhìn vào mức giá niêm yết trên [bảng giá]({{ '/banggia.html' | relative_url }}) rồi quyết định nhanh. Thực tế, giá thuê chỉ là một phần của tổng chi phí thực tế. Bài viết này điểm lại bảy khoản nên tính kỹ trước khi ký hợp đồng thuê dài hạn.
 

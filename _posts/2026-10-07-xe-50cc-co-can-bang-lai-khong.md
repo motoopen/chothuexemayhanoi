@@ -8,6 +8,7 @@ matrix_id: 63
 primary_keyword: "xe 50cc có cần bằng lái không"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
 ---
 Câu hỏi xe 50cc có cần bằng lái không thuộc nhóm bị hiểu sai nhiều nhất khi thuê xe. Câu trả lời phụ thuộc vào quy định phân loại xe và giấy tờ người lái, hai thứ không phải lúc nào cũng đi cùng nhau. Bài này giúp bạn kiểm tra đúng trước khi cọc.
 

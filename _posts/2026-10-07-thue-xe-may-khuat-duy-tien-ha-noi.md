@@ -8,6 +8,7 @@ matrix_id: 215
 primary_keyword: "thuê xe máy khuất duy tiến hà nội"
 hub_parent: khu-vuc
 hub_category: ha-noi-theo-khu-vuc
+seo_hub: khu-vuc
 ---
 Khuất Duy Tiến là trục đường dài phía Nam Từ Liêm, nơi nhiều người di chuyển giữa khu đô thị cao tầng và các trường đại học, nên chỗ nhận xe thuê ảnh hưởng trực tiếp đến buổi đầu tiên của bạn. Bài này giúp bạn chọn điểm nhận xe hợp với hành trình quanh Khuất Duy Tiến.
 

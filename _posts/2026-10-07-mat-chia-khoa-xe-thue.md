@@ -8,6 +8,7 @@ matrix_id: 238
 primary_keyword: "mất chìa khóa xe thuê"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: thu-tuc-hop-dong
 ---
 Mất chìa khóa xe thuê dễ hốt hoảng hơn mức cần, vì phần lớn nơi thuê có chìa dự phòng và quy trình sẵn cho tình huống này. Bài này cho bạn thứ tự việc cần làm trước khi gọi thợ hay di chuyển xe.
 

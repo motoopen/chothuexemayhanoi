@@ -8,6 +8,7 @@ matrix_id: 112
 primary_keyword: "thuê xe máy điện cho sinh viên"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: sinh-vien
 ---
 Với sinh viên ở Hà Nội, xe máy điện là lựa chọn được hỏi nhiều sau dòng 50cc, vì chi năng lượng rẻ và xe êm dễ lái. Nhưng chọn đúng cần so theo quãng đường, chỗ sạc và tổng ngân sách. Bài này chỉ cách chọn cho từng hoàn cảnh.
 

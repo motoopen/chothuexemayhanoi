@@ -8,6 +8,7 @@ matrix_id: 243
 primary_keyword: "xe thuê bị trầy xước"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: thu-tuc-hop-dong
 ---
 Phát hiện vết xước trên xe thuê lúc trả là tình huống căng nhất trong mọi lần thuê, vì bên cho thuê nói mới, bạn nói cũ. Bài này trình bày cách đối chiếu để kết luận được dựa trên bằng chứng chứ không phải tranh cãi.
 

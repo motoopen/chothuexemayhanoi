@@ -8,6 +8,7 @@ matrix_id: 22
 primary_keyword: "thuê xe máy hà nội 1 ngày tính như thế nào"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+seo_hub: gia-coc
 ---
 Thuê xe máy một ngày là gói phổ biến nhất ở Hà Nội, nhưng cũng là gói dễ bị hiểu nhầm nhất về cách tính. Bài này nói rõ cơ chế tính giá một ngày và các câu nên hỏi để chỉ trả đúng những gì mình dùng.
 

@@ -8,6 +8,7 @@ matrix_id: 76
 primary_keyword: "cub 50cc và xe ga 50cc"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
 ---
 Giữa hai dòng 50cc quen thuộc, Cub và xe ga, câu hỏi được hỏi nhiều nhất là cái nào dễ làm quen hơn cho người mới. Cả hai đều nhẹ và dễ chịu, nhưng thao tác khác nhau ở một điểm cốt lõi: số. Bài này so sánh để bạn chọn nhanh theo kinh nghiệm của mình.
 

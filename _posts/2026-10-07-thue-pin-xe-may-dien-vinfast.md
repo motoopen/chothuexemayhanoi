@@ -8,6 +8,7 @@ matrix_id: 124
 primary_keyword: "thuê pin xe máy điện vinfast"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Với xe máy điện, pin là bộ phận giá trị nhất, và một số dịch vụ cho thuê còn tách riêng dịch vụ pin hoặc quảng cáo "thuê pin" như một phần của gói. Trước khi chốt gói liên quan tới pin, bạn cần kiểm tra chính sách hiện hành xung quanh nó: pin của xe thuê được quản lý ra sao, trách nhiệm giữa bên cho thuê và hãng sản xuất phân định thế nào. Bài viết này liệt kê các điểm cần kiểm tra.
 

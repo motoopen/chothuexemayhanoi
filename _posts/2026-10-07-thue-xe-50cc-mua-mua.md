@@ -8,6 +8,7 @@ matrix_id: 83
 primary_keyword: "thuê xe 50cc mùa mưa"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
 ---
 Mùa mưa ở Hà Nội kéo dài và mưa đến bất chợt, nên thuê xe 50cc trong mùa này cần chuẩn bị hơn ngày nắng. Ba điểm ảnh hưởng an toàn nhất là lốp, phanh và tầm nhìn. Bài này chỉ cách rà từng điểm và chuẩn bị cho ngày mưa.
 

@@ -8,6 +8,7 @@ matrix_id: 201
 primary_keyword: "thuê xe máy thanh xuân hà nội"
 hub_parent: khu-vuc
 hub_category: ha-noi-theo-khu-vuc
+seo_hub: khu-vuc
 ---
 Thanh Xuân là quận nội thành phía tây nam Hà Nội, nơi dày đặc khu đại học, chung cư và các cụm thương mại. Nhịp giao thông ở đây dồn vào các trục lớn chạy quanh quận và dòng sinh viên đổ ra vào theo tiết học. Chọn điểm nhận xe hợp lý giúp bạn đỡ mất thời gian chen vào các khung đông quanh khu.
 

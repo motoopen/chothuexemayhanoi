@@ -8,6 +8,7 @@ matrix_id: 130
 primary_keyword: "thuê xe máy điện đi đường dài"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Đi đường dài bằng xe máy điện thuê không khó nếu bạn lập kế hoạch pin đúng cách. Bài này cho quy trình ba bước: chọn xe, tính pin, đặt điểm dừng, để lộ trình xa không thành rủi ro.
 

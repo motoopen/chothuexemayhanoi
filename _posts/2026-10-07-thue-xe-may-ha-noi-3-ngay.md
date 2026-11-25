@@ -8,6 +8,7 @@ matrix_id: 24
 primary_keyword: "thuê xe máy hà nội 3 ngày"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+seo_hub: gia-coc
 ---
 Ba ngày là thời gian vừa đủ cho một lịch trình đầy ở Hà Nội, đi phố, đi ven và chừa ngày trả dư. Ở ngưỡng này, cách tính của gói ảnh hưởng đáng kể tới tổng chi phí, nên bài này giúp bạn quyết định giữa giá ngày lẻ và gói riêng.
 

@@ -8,6 +8,7 @@ matrix_id: 131
 primary_keyword: "thuê xe máy điện mùa mưa"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Mùa mưa ở Hà Nội kéo dài nhiều tháng, và xe máy điện thuê vẫn đi được nếu bạn kiểm tra đúng trước khi lăn bánh. Bài này liệt kê tám điểm nên rà trước và trong chuyến đi mưa.
 

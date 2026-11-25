@@ -8,6 +8,7 @@ matrix_id: 245
 primary_keyword: "cảnh sát kiểm tra xe thuê cần gì"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: thu-tuc-hop-dong
 ---
 Bị cảnh sát giao thông làm hiệu lệnh dừng xe khi đang đi xe thuê khiến nhiều người lo hơn đi xe của mình, vì không biết giấy tờ nào phải có và phần nào do bên cho thuê lo. Thực tế trình tự rất gọn nếu bạn chuẩn bị đủ từ đầu.
 

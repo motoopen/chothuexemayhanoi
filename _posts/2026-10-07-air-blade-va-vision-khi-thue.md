@@ -8,6 +8,7 @@ matrix_id: 163
 primary_keyword: "air blade và vision khi thuê"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-tay-ga
 ---
 Air Blade và Vision cùng nhà Honda nhưng phục vụ hai cảm giác khác nhau: một dòng đầm thể thao nhẹ, một dòng gọn tiện dụng. Bài này tách cảm giác điều khiển để bạn chọn đúng.
 

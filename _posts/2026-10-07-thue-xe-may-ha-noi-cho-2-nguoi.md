@@ -8,6 +8,7 @@ matrix_id: 17
 primary_keyword: "thuê xe máy hà nội cho 2 người"
 hub_parent: thue-xe
 hub_category: bat-dau-thue
+seo_hub: kinh-nghiem
 ---
 Đi hai người trên một xe máy thuê là tình huống phổ biến, từ cặp đôi dạo phố đến hai bạn cùng đi làm. Nhưng chọn sai dòng xe hoặc sắp sai chỗ ngồi sẽ mỏi cả hai và khó xử lý trên đường. Bài này giúp bạn chọn xe theo tải và hành trình khi đi cùng nhau.
 

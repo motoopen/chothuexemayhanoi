@@ -8,6 +8,7 @@ matrix_id: 259
 primary_keyword: "lịch trình xe máy tham quan hà nội 1 ngày"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
+seo_hub: hanh-trinh
 ---
 Một ngày khám phá Hà Nội bằng xe máy đi được nhiều hơn taxi, nhưng chỉ khi lịch trình được nhóm đúng: mỗi lần băng ngang thành phố là ba mươi phút mất oan. Bài này xếp các điểm thành ba cụm để đi tròn một ngày mà không mệt.
 

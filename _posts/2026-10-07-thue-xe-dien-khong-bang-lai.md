@@ -8,6 +8,7 @@ matrix_id: 106
 primary_keyword: "thuê xe điện không bằng lái"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Nhiều khách tìm thuê xe điện với câu hỏi quen thuộc: xe điện có cần bằng lái không? Câu trả lời không phụ thuộc vào xe chạy điện hay chạy xăng, mà vào loại xe đó được phân loại thế nào theo quy định hiện hành về giấy phép lái. Nhầm lẫn giữa các loại xe có thể khiến bạn đi không đúng quy định mà không biết. Bài viết này giúp phân biệt đúng loại xe và nắm cách kiểm tra quy định trước khi thuê xe điện.
 

@@ -8,6 +8,7 @@ matrix_id: 174
 primary_keyword: "giao nhận xe máy thuê phố cổ hà nội"
 hub_parent: khu-vuc
 hub_category: ha-noi-theo-khu-vuc
+seo_hub: khu-vuc
 ---
 Phố Cổ khác các khu khác một điểm then chốt: chỗ đỗ xe hiếm và ngõ hẹp, nên cách nhận xe quyết định cả sự thuận tiện của kỳ thuê. Bài này cân ba cách nhận cho khu này riêng.
 

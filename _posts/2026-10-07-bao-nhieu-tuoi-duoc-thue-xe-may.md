@@ -8,6 +8,7 @@ matrix_id: 230
 primary_keyword: "bao nhiêu tuổi được thuê xe máy"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: thu-tuc-hop-dong
 ---
 Độ tuổi để thuê xe và để điều khiển xe máy là hai ngưỡng khác nhau, và nhiều cửa hàng còn có chính sách riêng cao hơn quy định tối thiểu. Bài này giúp bạn phân biệt rõ để chuẩn bị đúng.
 

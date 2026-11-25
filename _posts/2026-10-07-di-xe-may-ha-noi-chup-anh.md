@@ -8,6 +8,7 @@ matrix_id: 264
 primary_keyword: "đi xe máy hà nội chụp ảnh"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
+seo_hub: hanh-trinh
 ---
 Chụp ảnh phố bằng xe máy là cách hay nhất để bắt Hà Nội: di chuyển nhanh giữa các điểm, và dừng được ở những góc ô tô không tới. Nhưng lịch chụp ảnh khác lịch tham quan: nó chạy theo ánh sáng, không chạy theo điểm.
 

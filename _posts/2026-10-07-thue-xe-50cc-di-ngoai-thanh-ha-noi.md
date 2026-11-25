@@ -8,6 +8,7 @@ matrix_id: 69
 primary_keyword: "thuê xe 50cc đi ngoại thành hà nội"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
 ---
 Ngoại thành Hà Nội có chặng dài hơn, đường đê, đường tỉnh và vài đoạn trũng mùa mưa, nên việc đưa xe 50cc ra khỏi nội đô cần tính kỹ hơn. Bài này chỉ cách cân nhắc quãng đường và tải để quyết định dòng nhỏ có đáng chọn không.
 

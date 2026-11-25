@@ -8,6 +8,7 @@ matrix_id: 233
 primary_keyword: "thuê xe máy thanh toán tiền mặt hay chuyển khoản"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: gia-coc
 ---
 Cả tiền mặt và chuyển khoản đều phổ biến khi thuê xe máy, và mỗi cách có cái giá riêng về bằng chứng. Bài này giúp bạn chọn cách thanh toán và lưu bằng chứng để đối chiếu khi trả xe.
 

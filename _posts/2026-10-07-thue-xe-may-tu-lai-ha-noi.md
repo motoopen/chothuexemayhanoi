@@ -8,6 +8,7 @@ matrix_id: 9
 primary_keyword: "thuê xe máy tự lái hà nội"
 hub_parent: thue-xe
 hub_category: bat-dau-thue
+seo_hub: kinh-nghiem
 ---
 Thuê xe máy tự lái cho bạn toàn quyền chủ động, đồng thời chuyển phần lớn trách nhiệm vận hành sang phía bạn. Vì vậy, checklist trước khi ký nhận xe không chỉ để bảo vệ tiền cọc, mà còn để bạn hiểu rõ phạm vi trách nhiệm của mình trong suốt vòng thuê.
 

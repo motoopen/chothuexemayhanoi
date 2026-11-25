@@ -8,6 +8,7 @@ matrix_id: 161
 primary_keyword: "xe vision và lead khi thuê"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-tay-ga
 ---
 Vision và Lead là hai dòng ga nhỏ được thuê nhiều nhất, và khác biệt của chúng nằm ở đúng ba thứ: độ gọn, cốp và chiều cao người ngồi. Bài này so từng thứ để bạn chốt trong một lần đọc.
 

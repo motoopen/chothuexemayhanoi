@@ -8,6 +8,7 @@ matrix_id: 241
 primary_keyword: "trả xe thuê sớm"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: thu-tuc-hop-dong
 ---
 Kế hoạch đổi bất ngờ và bạn muốn trả xe sớm hơn ngày đã thuê. Trả sớm làm đúng cách vẫn giúp bạn giữ lại phần tiền hợp lý và khép hồ sơ sạch, thay vì chấp nhận mất cả gói.
 

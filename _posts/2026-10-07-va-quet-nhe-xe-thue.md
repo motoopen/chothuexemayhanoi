@@ -8,6 +8,7 @@ matrix_id: 289
 primary_keyword: "va quẹt nhẹ xe thuê"
 hub_parent: huong-dan
 hub_category: an-toan-su-co
+seo_hub: kinh-nghiem
 ---
 Va quẹt nhẹ là sự cố ai cũng gặp: đổ xe khi dắt, cấn vào cột khi lùi, hoặc chạm gương ở ngõ nhỏ. Với xe tư nhân thì xước vài chỗ là chuyện nhỏ, nhưng với xe thuê thì mọi vết đều được đối chiếu lúc trả, nên cách ghi nhận quyết định bạn trả thêm hay không.
 

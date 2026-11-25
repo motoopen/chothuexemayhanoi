@@ -8,6 +8,7 @@ matrix_id: 122
 primary_keyword: "thời gian sạc xe máy điện thuê"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Thời gian sạc của xe máy điện không có con số chung cho mọi xe: nó phụ thuộc model xe, loại pin và bộ sạc đi kèm. Vì vậy khi thuê, phải hỏi theo đúng chiếc xe được giao. Bài này giải thích vì sao và cách hỏi.
 

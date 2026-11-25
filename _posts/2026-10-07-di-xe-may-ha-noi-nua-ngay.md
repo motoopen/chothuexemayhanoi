@@ -8,6 +8,7 @@ matrix_id: 260
 primary_keyword: "đi xe máy hà nội nửa ngày"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
+seo_hub: hanh-trinh
 ---
 Nửa ngày chỉ đủ cho một khu vực nếu bạn muốn thật sự tận hưởng nó, và đó là nguyên tắc số một của bài này: chọn vùng, bỏ danh sách. Ai cố nhét ba khu vào bốn tiếng đều kết thúc chỉ thấy đèn đỏ.
 

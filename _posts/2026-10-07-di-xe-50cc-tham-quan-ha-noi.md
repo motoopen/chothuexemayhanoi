@@ -8,6 +8,7 @@ matrix_id: 273
 primary_keyword: "đi xe 50cc tham quan hà nội"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
+seo_hub: xe-50cc
 ---
 Xe 50cc là lựa chọn rẻ và nhẹ cho tham quan nội đô, nhưng nó có giới hạn rõ: tốc độ khiêm tốn và động cơ nhỏ. Hành trình vì thế phải chọn đúng tầm hoạt động của nó.
 

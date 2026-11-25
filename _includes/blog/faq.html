@@ -1,0 +1,22 @@
+{% comment %}
+Visible FAQ accordion (HTML only). Data: front matter `qa` (list of {q, a}).
+Deliberately NOT the `faq` key: _includes/blog/schema.html turns `page.faq` into FAQPage
+JSON-LD, and the owner's schema lock forbids adding structured data. Answers are plain
+text rendered in the HTML so crawlers and AI search can read them without JavaScript.
+{% endcomment %}
+{% if page.qa and page.qa.size > 0 %}
+<section class="faq-block" id="cau-hoi-thuong-gap" aria-labelledby="cau-hoi-thuong-gap-title">
+  <div class="faq-block-head">
+    <p class="blog-component-kicker">Hỏi đáp</p>
+    <h2 id="cau-hoi-thuong-gap-title">Câu hỏi thường gặp</h2>
+  </div>
+  <div class="faq-list">
+    {% for item in page.qa %}
+    <details class="faq-item"{% if forloop.first %} open{% endif %}>
+      <summary><span>{{ item.q | escape }}</span></summary>
+      <div class="faq-answer"><p>{{ item.a | escape }}</p></div>
+    </details>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

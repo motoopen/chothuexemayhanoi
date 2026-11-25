@@ -8,6 +8,7 @@ matrix_id: 116
 primary_keyword: "thuê xe máy điện cầu giấy"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Cầu Giấy là khu rộng gồm cả phố đông và các khu ở, trục lớn nhiều và quãng đi việc thường dài hơn khu phố cổ. Thuê xe máy điện ở đây cần chọn điểm nhận hợp và kế hoạch sạc theo trục đường. Bài này chỉ cách làm cả hai.
 

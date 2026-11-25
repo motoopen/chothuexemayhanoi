@@ -8,6 +8,7 @@ matrix_id: 121
 primary_keyword: "sạc xe máy điện khi thuê"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Kế hoạch sạc là phần quyết định trải nghiệm của kỳ thuê xe máy điện, và cả kế hoạch bắt đầu từ vài câu hỏi trước khi nhận xe. Bài này liệt kê trọn các câu nên hỏi về sạc, bộ sạc và nơi sạc.
 

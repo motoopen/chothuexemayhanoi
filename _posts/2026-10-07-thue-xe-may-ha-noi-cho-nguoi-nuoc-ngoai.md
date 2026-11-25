@@ -8,6 +8,7 @@ matrix_id: 5
 primary_keyword: "thuê xe máy hà nội cho người nước ngoài"
 hub_parent: thue-xe
 hub_category: bat-dau-thue
+seo_hub: di-lam-dai-han
 ---
 Khách quốc tế đến Hà Nội thường muốn tự lái xe máy để chủ động lịch trình, nhưng vòng thuê xe cho người nước ngoài có vài điểm khác biệt so với khách nội địa. Bài này tóm gọn giấy tờ nên chuẩn bị và những câu hỏi nên hỏi trước khi nhận xe.
 

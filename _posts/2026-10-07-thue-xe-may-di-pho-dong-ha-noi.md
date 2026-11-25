@@ -8,6 +8,7 @@ matrix_id: 156
 primary_keyword: "thuê xe máy đi phố đông hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-tay-ga
 ---
 Phố đông Hà Nội không phân biệt xe mạnh hay yếu, chỉ phân biệt xe gọn và xe vướng. Bài này chỉ các tiêu chí gọn và quay đầu cần ưu tiên khi chọn xe thuê cho lịch trong phố.
 

@@ -8,6 +8,7 @@ matrix_id: 44
 primary_keyword: "thuê xe máy hà nội mùa cao điểm"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+seo_hub: gia-coc
 ---
 Mùa cao điểm ở Hà Nội, mùa lễ tết và dịp hội họp đông khách, là lúc xe tốt mau hết và giá các khoản dễ thay đổi theo nhu cầu. Chốt gói trong mùa này cần vài bước kiểm tra kỹ hơn ngày thường.
 

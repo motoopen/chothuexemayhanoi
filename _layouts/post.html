@@ -5,66 +5,56 @@ layout: default
 {% if hub_parent and page.hub_category %}
   {% assign hub_child = hub_parent.children | where: "slug", page.hub_category | first %}
 {% endif %}
+{% assign seo_hub = site.data.seo_hubs.hubs | where: "key", page.seo_hub | first %}
+{% comment %} Structured data: unchanged include (schema lock). {% endcomment %}
 {% include blog/schema.html %}
-<main class="blog-shell" role="main">
+{% assign read_minutes = content | strip_html | number_of_words | divided_by: 230 | at_least: 1 %}
+<main class="blog-shell article-shell" id="main" role="main">
   <nav class="blog-breadcrumb" aria-label="Breadcrumb">
-    <a class="blog-breadcrumb-home" href="{{ '/' | relative_url }}"><i class="fa-solid fa-house"></i> Trang chủ</a>
-    <span class="blog-breadcrumb-sep">›</span>
+    <a class="blog-breadcrumb-home" href="{{ '/' | relative_url }}"><i class="fa-solid fa-house" aria-hidden="true"></i> Trang chủ</a>
+    <span class="blog-breadcrumb-sep" aria-hidden="true">›</span>
     <a class="blog-breadcrumb-blog" href="{{ '/blog/' | relative_url }}">Blog</a>
     {% if hub_parent %}
-      <span class="blog-breadcrumb-sep">›</span>
+      <span class="blog-breadcrumb-sep" aria-hidden="true">›</span>
       <a class="blog-breadcrumb-blog" href="{{ hub_parent.url | relative_url }}">{{ hub_parent.label }}</a>
     {% endif %}
     {% if hub_child %}
-      <span class="blog-breadcrumb-sep">›</span>
+      <span class="blog-breadcrumb-sep" aria-hidden="true">›</span>
       <a class="blog-breadcrumb-blog" href="{{ hub_child.url | relative_url }}">{{ hub_child.label }}</a>
     {% endif %}
-    <span class="blog-breadcrumb-sep">›</span>
+    <span class="blog-breadcrumb-sep" aria-hidden="true">›</span>
     <span class="blog-breadcrumb-current" aria-current="page">{{ page.title }}</span>
   </nav>
 
-  <section class="hero-mini" aria-label="Hero post">
-    <div class="wrap post-hero-wrap">
-      <div class="card post-hero-card">
-        <div class="hmini-grid post-hero-grid">
-          <div>
-            <h1 class="hmini-title post-hero-title">{{ page.title }}</h1>
-            <p class="hmini-sub post-hero-sub">{% if page.date %}Đăng ngày {{ page.date | date: "%d/%m/%Y" }}{% endif %} • {{ site.title }}</p>
-            <div class="post-hero-actions">
-              {% if hub_child %}
-              <a class="hmini-btn ghost" href="{{ hub_child.url | relative_url }}"><i class="{{ hub_child.icon }}"></i> {{ hub_child.label }}</a>
-              {% else %}
-              <a class="hmini-btn ghost" href="{{ '/blog/danh-muc/' | relative_url }}"><i class="fa-solid fa-layer-group"></i> Danh mục</a>
-              {% endif %}
-              <a class="hmini-btn ghost" href="{{ '/lienhe.html' | relative_url }}"><i class="fa-solid fa-phone"></i> Liên hệ</a>
-            </div>
-          </div>
-          <div>
-            <div class="hmini-tiles">
-              <div class="grid post-mini-grid">
-                <div class="hmini-tile"><span class="hmini-icon"><i class="fa-solid fa-newspaper"></i></span><span>Blog</span></div>
-                <div class="hmini-tile"><span class="hmini-icon"><i class="fa-solid fa-location-dot"></i></span><span>Hà Nội</span></div>
-              </div>
-              <div class="hmini-soft post-mini-spacer"></div>
-              <div class="hmini-stats post-mini-stats">
-                <div class="hmini-stat post-mini-stat"><i class="fa-solid fa-user"></i> {{ page.author | default: site.author }}</div>
-                {% if hub_child %}
-                <a class="hmini-stat post-mini-stat post-taxonomy-link" href="{{ hub_child.url | relative_url }}"><i class="{{ hub_child.icon }}"></i> {{ hub_child.label }}</a>
-                {% else %}
-                <a class="hmini-stat post-mini-stat post-taxonomy-link" href="{{ '/blog/danh-muc/' | relative_url }}"><i class="fa-solid fa-layer-group"></i> Danh mục</a>
-                {% endif %}
-              </div>
-            </div>
-          </div>
-        </div>
+  <article class="article post-card">
+    <header class="article-header">
+      <div class="article-chips">
+        {% if hub_child %}<a class="article-chip" href="{{ hub_child.url | relative_url }}"><i class="{{ hub_child.icon }}" aria-hidden="true"></i> {{ hub_child.label }}</a>{% endif %}
+        {% if seo_hub %}<a class="article-chip article-chip-hub" href="{{ seo_hub.pillar_url | relative_url }}"><i class="{{ seo_hub.icon }}" aria-hidden="true"></i> {{ seo_hub.label }}</a>{% endif %}
       </div>
-    </div>
-  </section>
+      <h1 class="article-title">{{ page.title }}</h1>
+      <p class="article-meta">
+        {% if page.date %}<span><i class="fa-regular fa-calendar-days" aria-hidden="true"></i> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d/%m/%Y" }}</time></span>{% endif %}
+        <span><i class="fa-solid fa-user" aria-hidden="true"></i> {{ page.author | default: site.author }}</span>
+        <span><i class="fa-regular fa-clock" aria-hidden="true"></i> {{ read_minutes }} phút đọc</span>
+      </p>
+      {% if page.quick_answer %}
+      <aside class="quick-answer" aria-label="Trả lời nhanh">
+        <p class="quick-answer-label"><i class="fa-solid fa-bolt" aria-hidden="true"></i> Trả lời nhanh</p>
+        <p class="quick-answer-text">{{ page.quick_answer | escape }}</p>
+      </aside>
+      {% endif %}
+      <div class="article-actions">
+        <a class="pill-btn pill-primary" href="tel:{{ site.data.site.contact.phone_raw }}"><i class="fa-solid fa-phone" aria-hidden="true"></i> Gọi {{ site.data.site.contact.phone_display }}</a>
+        <a class="pill-btn pill-soft" href="{{ site.data.site.contact.zalo_url }}" target="_blank" rel="noopener"><i class="fa-solid fa-comment-dots" aria-hidden="true"></i> Zalo</a>
+      </div>
+    </header>
 
-  <article class="mapp-card post-card">
+    {% include blog/toc.html %}
     {% include blog/slot-before-content.html %}
-    <div class="mapp-text blog-content">{{ content }}</div>
+    <div class="mapp-text blog-content article-body">{{ content }}</div>
+    {% include blog/faq.html %}
     {% include blog/slot-after-content.html %}
-    <p class="blog-back"><a href="{{ '/blog/' | relative_url }}" class="mapp-btn ghost"><i class="fa-solid fa-arrow-left"></i> Quay lại Blog</a></p>
+    <p class="blog-back"><a href="{{ '/blog/' | relative_url }}" class="mapp-btn ghost"><i class="fa-solid fa-arrow-left" aria-hidden="true"></i> Quay lại Blog</a></p>
   </article>
 </main>

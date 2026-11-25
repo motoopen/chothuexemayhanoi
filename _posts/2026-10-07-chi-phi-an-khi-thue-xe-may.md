@@ -8,6 +8,7 @@ matrix_id: 47
 primary_keyword: "chi phí ẩn khi thuê xe máy"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+seo_hub: gia-coc
 ---
 Tổng chi phí thuê xe máy không dừng ở mức giá ngày, và bảy khoản dưới đây là những cái dễ bị bỏ sót nhất, khiến hóa đơn cuối vượt dự tính của nhiều người.
 

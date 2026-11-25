@@ -8,6 +8,7 @@ matrix_id: 280
 primary_keyword: "kiểm tra mức xăng xe thuê"
 hub_parent: huong-dan
 hub_category: an-toan-su-co
+seo_hub: kinh-nghiem
 ---
 Kim xăng là điểm cãi nhau nhỏ nhất nhưng phổ biến nhất lúc nhận và trả xe. Kiểm tra đúng ngay đầu, bạn miễn mọi tranh chấp về nhiên liệu sau này.
 

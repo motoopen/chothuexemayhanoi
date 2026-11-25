@@ -108,5 +108,9 @@
       button?.addEventListener('click', function () { applyDark(!document.body.classList.contains('dark')); });
     });
     window.addEventListener('touchstart', function () {}, { passive: true });
+
+    // Article TOC: closed by default (mobile-first), opened on wide screens.
+    const toc = document.getElementById('article-toc');
+    if (toc && window.matchMedia && window.matchMedia('(min-width: 1024px)').matches) toc.open = true;
   });
 })();

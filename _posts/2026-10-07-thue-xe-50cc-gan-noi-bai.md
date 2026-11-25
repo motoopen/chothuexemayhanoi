@@ -8,6 +8,7 @@ matrix_id: 88
 primary_keyword: "thuê xe 50cc gần nội bài"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
 ---
 Nội Bài cách trung tâm Hà Nội khoảng ba mươi cây số, và câu hỏi nhận xe 50cc ở sân bay hay trong thành phố không có đáp án chung, mà phụ thuộc quãng, loại đường và lịch của bạn. Bài này so hai phương án theo từng tiêu chí.
 

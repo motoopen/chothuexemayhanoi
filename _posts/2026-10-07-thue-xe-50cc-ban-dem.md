@@ -8,6 +8,7 @@ matrix_id: 84
 primary_keyword: "thuê xe 50cc ban đêm"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
 ---
 Đi xe ban đêm khác đi ban ngày ở một điểm: xe khác thấy bạn nhờ đèn, bạn thấy đường nhờ đèn. Với dòng 50cc nhẹ, việc được thấy sớm lại càng quan trọng. Bài này chỉ cách kiểm tra đèn và phản quang trước khi lên đường đêm.
 

@@ -8,6 +8,7 @@ matrix_id: 72
 primary_keyword: "xe 50cc chở 2 người"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
 ---
 Nhiều khách hỏi xe 50cc chở được hai người không, và câu trả lời không chỉ là được hay không, mà là nên hay không tùy tải, quãng đường và quy định. Bài này giúp bạn kiểm tra trọn trước khi lên chuyến hai người.
 

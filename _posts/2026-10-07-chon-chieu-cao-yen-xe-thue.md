@@ -8,6 +8,7 @@ matrix_id: 168
 primary_keyword: "chọn chiều cao yên xe thuê"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-tay-ga
 ---
 Chiều cao yên đúng là ngồi lên là biết, và bài này cho quy trình thử xe trong hai phút để quyết chắc tại quầy thay vì đoán từ thông số.
 

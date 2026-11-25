@@ -8,6 +8,7 @@ matrix_id: 45
 primary_keyword: "thuê xe máy hà nội giá rẻ có nên chọn"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+seo_hub: gia-coc
 ---
 Mức giá rẻ luôn hấp dẫn, nhưng với xe máy thuê ở Hà Nội, rẻ chưa chắc là tiết kiệm nếu bỏ qua các điểm kiểm tra. Bài này gom mười điểm nên rà trước khi chốt gói giá rẻ.
 

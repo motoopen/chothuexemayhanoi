@@ -8,6 +8,7 @@ matrix_id: 267
 primary_keyword: "đi xe máy hà nội với trẻ nhỏ"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
+seo_hub: hanh-trinh
 ---
 Chở trẻ nhỏ trên xe máy là chuyện phổ biến ở Hà Nội, nhưng với xe thuê, các yếu tố an toàn cần được cân nhắc kỹ hơn xe nhà, vì bạn không biết lịch sử chiếc xe. Bài này liệt kê các yếu tố cần quyết trước khi chọn.
 

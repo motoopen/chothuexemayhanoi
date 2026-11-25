@@ -8,6 +8,7 @@ matrix_id: 109
 primary_keyword: "thuê xe máy điện có cần bằng lái không"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Câu hỏi "xe máy điện có cần bằng lái không" có một câu trả lời ngắn: tùy loại xe. Nhưng câu trả lời ngắn ấy chưa giúp gì khi bạn đang đứng trước lựa chọn cụ thể nên thuê mẫu nào. Bài viết này đưa ra quy trình xác định theo ba bước để bạn tự trả lời được câu hỏi cho chiếc xe mình định thuê.
 

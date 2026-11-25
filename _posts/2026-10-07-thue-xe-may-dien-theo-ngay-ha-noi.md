@@ -8,6 +8,7 @@ matrix_id: 100
 primary_keyword: "thuê xe máy điện theo ngày hà nội"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Xe máy điện theo ngày là lựa chọn ngày càng phổ biến ở Hà Nội, phù hợp với một số dạng chuyến đi rõ rệt và không hợp với một số dạng khác. Bài này giúp bạn xác định chuyến của mình thuộc nhóm nào và tính tổng chi trước khi cọc.
 

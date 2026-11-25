@@ -8,6 +8,7 @@ matrix_id: 150
 primary_keyword: "thuê xe máy cho người thấp hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-tay-ga
 ---
 Chiều cao yên quyết định tự tin lái hơn mọi thông số khác nếu bạn thấp dưới một mét sáu. Bài này chỉ cách kiểm chiều cao yên đúng tại điểm thuê, và nhóm xe gợi ý cho người thấp.
 

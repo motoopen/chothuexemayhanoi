@@ -8,6 +8,7 @@ matrix_id: 96
 primary_keyword: "thuê xe máy điện vinfast hà nội"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Đặt xe máy điện VinFast ở Hà Nội thường nhanh gọn, nhưng nếu đặt vội, bạn có thể nhận chiếc xe khác mẫu với hình dung, pin yếu hơn dự kiến hoặc bị phụ phí khi trả. Checklist dưới đây đi theo đúng thứ tự các bước từ lúc gọi đặt đến lúc ký, giúp bạn chốt gói thuê không bỏ sót chi tiết nào.
 

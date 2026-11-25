@@ -8,6 +8,7 @@ matrix_id: 262
 primary_keyword: "đi xe máy hà nội ăn uống"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
+seo_hub: hanh-trinh
 ---
 Ăn uống bằng xe máy ở Hà Nội thoải hơn ô tô vì lách được phố nhỏ, nhưng nó cũng có cái giá riêng: tìm chỗ đỗ giữa phố đông và gửi xe qua nhiều điểm. Bài này giúp chọn tuyến và chỗ gửi trước khi bạn xếp danh sách quán.
 

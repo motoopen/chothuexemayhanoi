@@ -8,6 +8,7 @@ matrix_id: 157
 primary_keyword: "thuê xe máy đi đường dài từ hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-tay-ga
 ---
 Đường dài từ Hà Nội phạt cả loại xe và người lái, nên chọn sai xe là mỏi lưng giữa chặng. Bài này chỉ cách chọn theo tư thế và quãng đường trước khi đặt.
 

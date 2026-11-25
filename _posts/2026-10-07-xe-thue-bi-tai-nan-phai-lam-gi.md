@@ -8,6 +8,7 @@ matrix_id: 236
 primary_keyword: "xe thuê bị tai nạn phải làm gì"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: thu-tuc-hop-dong
 ---
 Tai nạn giữa kỳ thuê là tình huống không ai muốn, nhưng thứ tự xử lý đúng giúp bạn bảo vệ an toàn, quyền lợi và tránh tranh chấp về trách nhiệm. Bài này liệt kê thứ tự việc cần làm.
 

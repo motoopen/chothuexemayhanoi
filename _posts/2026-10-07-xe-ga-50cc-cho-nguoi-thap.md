@@ -8,6 +8,7 @@ matrix_id: 86
 primary_keyword: "xe ga 50cc cho người thấp"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
 ---
 Với người thấp, hai yếu tố quyết định an toàn trên xe ga 50cc là chiều cao yên và độ nặng chiếc xe. May là dòng 50cc vốn nhẹ và yên thấp, nhưng giữa các chiếc vẫn có khác nhau. Bài này chỉ cách kiểm tra để chọn được chiếc hợp dáng người mình.
 

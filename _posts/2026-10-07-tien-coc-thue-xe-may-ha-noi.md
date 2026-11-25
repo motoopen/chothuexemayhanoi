@@ -8,6 +8,7 @@ matrix_id: 38
 primary_keyword: "tiền cọc thuê xe máy hà nội"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+seo_hub: gia-coc
 ---
 Chuyển tiền cọc là bước khiến nhiều người băn khoăn nhất khi thuê xe máy, vì khoản này thường lớn hơn tiền thuê và liên quan tới việc hoàn trả sau. Bài này liệt kê trọn các câu nên hỏi trước khi chuyển cọc ở Hà Nội.
 

@@ -8,6 +8,7 @@ matrix_id: 114
 primary_keyword: "thuê xe máy điện phố cổ hà nội"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Phố Cổ với đường nhỏ và ngõ hẹp là khu mà xe máy điện tỏ ra thuận kiểu riêng, nhưng cũng có vài điểm cần tính trước khi cọc. Bài này so ưu nhược điểm của dòng điện cho hành trình ngắn quanh khu phố cổ.
 

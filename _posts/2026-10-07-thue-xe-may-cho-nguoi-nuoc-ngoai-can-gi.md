@@ -8,6 +8,7 @@ matrix_id: 225
 primary_keyword: "thuê xe máy cho người nước ngoài cần gì"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: di-lam-dai-han
 ---
 Khách nước ngoài hoàn toàn thuê được xe máy ở Hà Nội, nhưng cần chuẩn bị sớm vài thứ: giấy tờ tùy thân, giấy phép lái đúng quy định, và cách thanh toán. Bài này giúp bạn có đủ thứ trước ngày nhận xe.
 

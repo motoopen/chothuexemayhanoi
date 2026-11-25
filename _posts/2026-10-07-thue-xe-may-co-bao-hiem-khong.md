@@ -8,6 +8,7 @@ matrix_id: 244
 primary_keyword: "thuê xe máy có bảo hiểm không"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: thu-tuc-hop-dong
 ---
 Câu hỏi "thuê xe có bảo hiểm không" có hai lớp nghĩa khác nhau: bảo hiểm pháp lý gắn với chiếc xe, và chính sách hỗ trợ riêng của nơi cho thuê. Nhầm lẫn hai lớp này khiến nhiều người tin mình được đền mọi thiệt hại rồi bị bất ngờ lúc sự việc xảy ra.
 

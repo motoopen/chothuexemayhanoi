@@ -8,6 +8,7 @@ matrix_id: 257
 primary_keyword: "thuê xe máy hà nội đi sóc sơn"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
+seo_hub: hanh-trinh
 ---
 Sóc Sơn nghe gần nhưng huyện này rộng: điểm gần nội đô hơn ba mươi ki lômét, điểm quanh chân núi Ba Vì phía bắc xa hơn, nên tiêu chí chọn xe phụ thuộc điểm đến cụ thể chứ không phải cái tên huyện.
 

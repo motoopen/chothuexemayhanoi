@@ -8,6 +8,7 @@ matrix_id: 278
 primary_keyword: "kiểm tra lốp xe máy thuê"
 hub_parent: huong-dan
 hub_category: an-toan-su-co
+seo_hub: kinh-nghiem
 ---
 Lốp là bộ phận giữ bạn dính mặt đường, và trên xe thuê nó là thứ bị mặc nhiều nhất mà ít người kiểm. Bài này hướng dẫn đọc lốp trong hai phút bằng mắt thường.
 

@@ -8,6 +8,7 @@ matrix_id: 155
 primary_keyword: "thuê xe máy đi một mình hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-tay-ga
 ---
 Đi một mình nghe đơn giản nhưng chọn sai loại xe vẫn làm kỳ thuê mất thoải mái: xe nhẹ nhanh gọn, xe cốp lớn tiện đồ. Bài này cân hai phía theo từng yếu tố để bạn chốt nhanh.
 

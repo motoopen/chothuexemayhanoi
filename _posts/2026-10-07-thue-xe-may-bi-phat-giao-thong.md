@@ -8,6 +8,7 @@ matrix_id: 235
 primary_keyword: "thuê xe máy bị phạt giao thông"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: thu-tuc-hop-dong
 ---
 Xe thuê bị dừng và xử phạt giao thông là tình huống dễ hoảng, nhưng nếu bạn xử theo thứ tự đúng thì không đến mức phạt kép. Bài này giúp bạn biết thứ tự việc cần làm và thông tin cần lưu.
 

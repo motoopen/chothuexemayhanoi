@@ -8,6 +8,7 @@ matrix_id: 284
 primary_keyword: "đi xe thuê ban đêm"
 hub_parent: huong-dan
 hub_category: an-toan-su-co
+seo_hub: kinh-nghiem
 ---
 Ban đêm là khung giờ rủi ro nhất với xe máy, và với xe thuê thì bạn chưa quen xe lại cộng thêm tầm nhìn ngắn. Mọi rủi ro đó gom về hai việc làm trước khi xuất phát: kiểm tra đèn và tự trang bị phản quang.
 

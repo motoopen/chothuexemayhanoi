@@ -8,6 +8,7 @@ matrix_id: 228
 primary_keyword: "thuê xe 50cc cần bằng lái không"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: xe-50cc
 ---
 Câu hỏi xe 50cc có cần bằng lái không được hỏi nhiều nhất khi thuê, và câu trả lời phụ thuộc nhóm xe cụ thể. Bài này giúp bạn đọc quy định hiện hành đúng cách và chọn dòng xe hợp pháp cho mình.
 

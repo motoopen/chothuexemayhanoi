@@ -8,6 +8,7 @@ matrix_id: 268
 primary_keyword: "đi xe máy hà nội cho người mới"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
+seo_hub: hanh-trinh
 ---
 Người mới cầm lái ở Hà Nội đối mặt hai thứ cùng lúc: kỹ năng lái và dòng xe. Bài này đề xuất trình tự luyện theo hành trình ngắn, để việc làm quen không bị nhét vào giờ cao điểm phố cổ.
 

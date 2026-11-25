@@ -1,0 +1,17 @@
+---
+layout: null
+permalink: /llms-full.txt
+---
+{% assign c = site.data.site.contact %}# Motoopen — Thuê xe máy Hà Nội (bản đầy đủ)
+
+> Dịch vụ cho thuê xe máy tại Hà Nội: xe số, xe ga, 50cc, xe điện; thuê theo ngày, tuần, tháng. Cửa hàng: {{ c.address }}. Điện thoại/Zalo: {{ c.phone_display }}. Giờ mở cửa: {{ c.hours }}.
+
+Nguồn: nội dung công khai trên {{ '/' | absolute_url }}. Giá và chính sách tham khảo theo trang Bảng giá ({{ '/banggia.html' | absolute_url }}) và Thủ tục ({{ '/thutuc.html' | absolute_url }}); giá có thể thay đổi, giá chốt khi liên hệ.
+
+{% for hub in site.data.seo_hubs.hubs %}{% assign hub_posts = site.posts | where: "seo_hub", hub.key %}
+## {{ hub.label }}
+{{ hub.summary }}
+Trang chính: {{ hub.pillar_url | absolute_url }}
+
+{% for post in hub_posts %}- [{{ post.title }}]({{ post.url | absolute_url }}): {% if post.quick_answer %}{{ post.quick_answer | strip_newlines }}{% elsif post.description %}{{ post.description | strip_newlines }}{% else %}{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}{% endif %}
+{% endfor %}{% endfor %}

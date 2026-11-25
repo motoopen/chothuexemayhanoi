@@ -8,6 +8,7 @@ matrix_id: 248
 primary_keyword: "thuê xe máy hà nội đi ba vì"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
+seo_hub: hanh-trinh
 ---
 Ba Vì gần Hà Nội nhưng đường lên khu vực quốc gia chủ yếu là dốc nối tiếp, nên chiếc xe bạn thuê quyết định nhiều hơn kế hoạch dự kiến. Checklist dưới đây gồm ba phần: xe, thời tiết, hành lý.
 

@@ -8,6 +8,7 @@ matrix_id: 285
 primary_keyword: "gửi xe máy thuê an toàn"
 hub_parent: huong-dan
 hub_category: an-toan-su-co
+seo_hub: kinh-nghiem
 ---
 Gửi xe là lúc xe rời khỏi tầm mắt bạn, và mọi rủi ro mất trộm hay trầy xước đều bắt đầu từ lúc đỗ. Với xe thuê, mỗi rủi ro lại dính đến khoản cọc, nên gửi xe an toàn là kỹ năng đáng tập như kỹ năng lái.
 

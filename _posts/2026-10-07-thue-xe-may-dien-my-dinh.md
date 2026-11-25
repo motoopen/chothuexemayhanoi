@@ -8,6 +8,7 @@ matrix_id: 117
 primary_keyword: "thuê xe máy điện mỹ đình"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Mỹ Đình là khu bến xe lớn, nhiều người đến bằng xe khách rồi cần thuê xe đi tiếp. Với xe máy điện, việc nhận xe gần bến và xử lý hành lý có vài điểm riêng. Bài này chỉ trình tự gọn cho khách đến Mỹ Đình.
 

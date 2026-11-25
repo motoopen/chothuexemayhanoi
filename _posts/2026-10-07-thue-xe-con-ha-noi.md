@@ -8,6 +8,7 @@ matrix_id: 138
 primary_keyword: "thuê xe côn hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-so
 ---
 Xe côn cho cảm giác lái thật nhất trong các loại xe thuê, nhưng cũng đòi hỏi thao tác nhiều nhất. Bài này liệt kê các kỹ năng bạn cần có trước khi thuê xe côn ở Hà Nội, và cách kiểm chiếc xe trước khi nhận.
 

@@ -8,6 +8,7 @@ matrix_id: 298
 primary_keyword: "thuê xe giá rẻ hay xe mới"
 hub_parent: kinh-nghiem
 hub_category: so-sanh-lua-chon
+seo_hub: gia-coc
 ---
 Mọi khách thuê xe đều muốn rẻ, nhưng không phải lúc nào rẻ cũng là lời. Một chiếc xe cũ giá rẻ có thể khiến bạn dở chuyến vì hỏng giữa đường, trong khi chiếc xe đời mới đắt hơn vài chục nghìn lại chạy êm và đỡ rủi ro. Bài này giúp bạn xác định chỗ nào nên đánh đổi và chỗ nào không nên, dựa trên ba yếu tố thực tế.
 

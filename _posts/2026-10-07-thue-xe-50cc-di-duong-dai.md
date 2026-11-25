@@ -8,6 +8,7 @@ matrix_id: 70
 primary_keyword: "thuê xe 50cc đi đường dài"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
 ---
 Dùng xe 50cc cho chuyến đường dài là quyết định cần cân nhắc kỹ, vì dòng nhỏ sinh ra cho phố, không phải cho hành trình hàng chục cây số. Bài này gom chín yếu tố nên rà trước khi chốt dòng xe cho chuyến xa.
 

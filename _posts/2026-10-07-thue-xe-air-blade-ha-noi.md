@@ -8,6 +8,7 @@ matrix_id: 141
 primary_keyword: "thuê xe air blade hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-tay-ga
 ---
 Honda Air Blade nằm ở khung ga trung bình, đầm hơn Wave và gọn hơn SH, và khi thuê ở Hà Nội nó phục vụ nhóm nhu cầu rất rõ ràng. Bài này chỉ đúng những gì Air Blade làm tốt nhất và cách kiểm chiếc xe trước khi nhận.
 

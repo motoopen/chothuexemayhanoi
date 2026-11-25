@@ -8,6 +8,7 @@ matrix_id: 80
 primary_keyword: "xe 50cc mang hành lý"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
 ---
 Mang theo hành lý là nhu cầu thường gặp, từ khách du lịch balo hai chiếc đến khách chở thùng quà. Với dòng 50cc, chỗ để đồ có hạn, nên kiểm tra trước khi nhận xe quyết định cả kỳ thuê có thoải mái hay không. Bài này chỉ cách kiểm tra chỗ để đồ và tải.
 

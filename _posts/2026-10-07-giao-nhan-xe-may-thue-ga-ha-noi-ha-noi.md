@@ -8,6 +8,7 @@ matrix_id: 206
 primary_keyword: "giao nhận xe máy thuê ga hà nội hà nội"
 hub_parent: khu-vuc
 hub_category: ha-noi-theo-khu-vuc
+seo_hub: khu-vuc
 ---
 Ga Hà Nội là khu đầu mối giao thông đông đúc với nhiều khách sạn quanh quảng trường ga, và bạn có ba cách nhận xe thuê: tại khách sạn, tại điểm hẹn, hoặc tại cửa hàng. Bài này giúp bạn chọn cách phù hợp cho kỳ thuê quanh Ga Hà Nội.
 

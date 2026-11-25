@@ -8,6 +8,7 @@ matrix_id: 279
 primary_keyword: "kiểm tra đèn còi xi nhan xe thuê"
 hub_parent: huong-dan
 hub_category: an-toan-su-co
+seo_hub: kinh-nghiem
 ---
 Đèn, còi và xi-nhan là bộ phận khiến người khác biết bạn ở đâu, và trên xe thuê chúng hỏng lẻ tẻ hơn mọi thứ khác. Thử đủ từng cái trước khi rời điểm nhận chỉ mất một phút.
 

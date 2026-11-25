@@ -8,6 +8,7 @@ matrix_id: 23
 primary_keyword: "thuê xe máy hà nội 2 ngày"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+seo_hub: gia-coc
 ---
 Hai ngày là thời gian đủ để vừa đi phố vừa ghé các điểm ven Hà Nội, nhưng cũng là ngưỡng mà nhiều người băn khoăn nên thuê lẻ theo ngày hay hỏi gói riêng. Bài này giúp bạn so sánh đúng để hai ngày thuê không trả hớ.
 

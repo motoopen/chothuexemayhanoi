@@ -8,6 +8,7 @@ matrix_id: 68
 primary_keyword: "thuê xe 50cc đi nội thành hà nội"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
 ---
 Nội thành Hà Nội gồm cả ngõ nhỏ lẫn các trục lớn nhiều xe, nên dòng 50cc có những hành trình rất hợp và những hành trình nên tránh. Bài này phân tích theo từng kiểu hành trình để bạn chọn đúng xe trước khi đặt cọc.
 

@@ -8,6 +8,7 @@ matrix_id: 229
 primary_keyword: "thuê xe máy điện cần bằng lái không"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: xe-dien
 ---
 Xe máy điện ngày càng phổ biến trong các cửa hàng cho thuê, nhưng không phải chiếc nào cũng thuộc diện không cần bằng lái. Bài này giúp bạn phân loại xe điện trước khi kết luận có cần giấy phép hay không.
 

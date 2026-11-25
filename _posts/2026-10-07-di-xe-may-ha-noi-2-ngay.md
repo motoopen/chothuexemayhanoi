@@ -8,6 +8,7 @@ matrix_id: 261
 primary_keyword: "đi xe máy hà nội 2 ngày"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
+seo_hub: hanh-trinh
 ---
 Hai ngày là khoảng đủ để thấy Hà Nội bằng xe máy mà không phải chạy nước rút, nhưng chỉ khi chia đúng: mỗi ngày một khu vực, mỗi khu vực một phong cách di chuyển. Bài này chia lịch và chỉ luôn khung gói thuê phù hợp.
 

@@ -8,6 +8,7 @@ matrix_id: 203
 primary_keyword: "thuê xe máy giáp bát hà nội"
 hub_parent: khu-vuc
 hub_category: ha-noi-theo-khu-vuc
+seo_hub: khu-vuc
 ---
 Giáp Bát là khu gần bến xe và ga phía nam với nhiều đường trục quan trọng, nên chỗ nhận xe thuê ảnh hưởng nhiều đến buổi đầu tiên của bạn. Bài này giúp bạn chọn điểm nhận xe hợp với hành trình quanh Giáp Bát.
 

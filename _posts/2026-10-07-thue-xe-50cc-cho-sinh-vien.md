@@ -8,6 +8,7 @@ matrix_id: 66
 primary_keyword: "thuê xe 50cc cho sinh viên"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: sinh-vien
 ---
 Với sinh viên ở Hà Nội, xe 50cc thường là lựa chọn đầu tiên khi cần phương tiện đi học và đi làm thêm. Nhưng chọn theo bạn bè chọn không phải lúc nào cũng đúng, vì ngân sách, quãng đường và kinh nghiệm lái của mỗi người khác nhau. Bài này giúp bạn chọn dòng 50cc theo đúng hoàn cảnh của mình.
 

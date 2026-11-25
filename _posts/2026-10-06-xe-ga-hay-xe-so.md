@@ -6,6 +6,7 @@ description: "So sánh nhanh xe ga và xe số theo nhu cầu sử dụng để 
 categories: [kinh-nghiem, loaixe]
 hub_parent: kinh-nghiem
 hub_category: so-sanh-lua-chon
+seo_hub: xe-so
 ---
 
 Khi thuê xe máy, câu hỏi thường gặp nhất không phải “xe nào tốt nhất?” mà là **“xe nào hợp với cách mình sẽ sử dụng?”**. Xe ga và xe số đều có ưu điểm riêng; chọn đúng loại sẽ giúp chuyến đi thoải mái hơn nhiều.

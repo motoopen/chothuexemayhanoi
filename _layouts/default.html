@@ -29,10 +29,11 @@
 
   <link rel="icon" href="{{ '/assets/images/brand/favicon-32.png' | relative_url }}" sizes="32x32" type="image/png">
   <link rel="apple-touch-icon" href="{{ '/assets/images/brand/apple-touch-icon-180.png' | relative_url }}">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap">
-  <link id="fa-css" rel="stylesheet" href="{{ site.fa_css | default: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css' }}">
+  <link rel="manifest" href="{{ '/manifest.json' | relative_url }}">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f5f5f7">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000">
+  <link rel="preload" href="{{ '/assets/vendor/fontawesome/fa-solid-900-subset.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link id="fa-css" rel="stylesheet" href="{{ '/assets/vendor/fontawesome/icons.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
@@ -44,6 +45,5 @@
   {% include footer.html %}
   {% include bottom-appbar.html %}
   <script defer src="{{ '/assets/js/site.js' | relative_url }}"></script>
-  <script defer src="{{ '/assets/js/fontawesome-fallback.js' | relative_url }}"></script>
 </body>
 </html>

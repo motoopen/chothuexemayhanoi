@@ -8,6 +8,7 @@ matrix_id: 142
 primary_keyword: "thuê xe lead hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-tay-ga
 ---
 Honda Lead nổi tiếng nhất vì cái cốp rộng nhất trong nhóm xe ga nhỏ, và khi thuê ở Hà Nội đúng là ưu tiên cốp và tiện dụng quyết định bạn có nên chọn nó hay không. Bài này giúp bạn trả lời nhanh, kèm cách kiểm xe.
 

@@ -8,6 +8,7 @@ matrix_id: 127
 primary_keyword: "xe máy điện và xe 50cc khi thuê"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Nhiều khách tìm một chiếc xe nhẹ khi đến Hà Nội, và hai lựa chọn hay gặp nhất là xe máy điện và xe 50cc. Bài này so sánh hai loại theo đúng tiêu chí người cần xe nhẹ quan tâm, để bạn chọn nhanh.
 

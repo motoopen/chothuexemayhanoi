@@ -8,6 +8,7 @@ matrix_id: 277
 primary_keyword: "kiểm tra phanh xe máy thuê"
 hub_parent: huong-dan
 hub_category: an-toan-su-co
+seo_hub: kinh-nghiem
 ---
 Phanh là thứ không được phép sai trên xe thuê, vì bạn không biết người trước đã đi nó kiểu gì. Bài này trình bày cách kiểm tra phanh trong vài phút, trước khi rời điểm nhận.
 

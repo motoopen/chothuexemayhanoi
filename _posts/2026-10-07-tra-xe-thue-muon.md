@@ -8,6 +8,7 @@ matrix_id: 242
 primary_keyword: "trả xe thuê muộn"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: thu-tuc-hop-dong
 ---
 Kẹt việc đến vài giờ hoặc cả một ngày, và giờ trả xe thuê đã qua. Trả muộn không đáng lo nếu bạn xử đúng trình tự: báo sớm, hỏi phụ phí trước, và khép hồ sơ rõ ràng.
 

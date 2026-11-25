@@ -8,6 +8,7 @@ matrix_id: 43
 primary_keyword: "chi phí hư hỏng khi thuê xe máy"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+seo_hub: gia-coc
 ---
 Trầy xước hay hỏng hóc giữa kỳ thuê là tình huống không ai muốn nhưng cần biết xử lý đúng để tránh trả thêm oan. Bài này nói cách chi phí hư hỏng thường được xác định và các bước bạn nên làm khi xe thuê gặp vấn đề.
 

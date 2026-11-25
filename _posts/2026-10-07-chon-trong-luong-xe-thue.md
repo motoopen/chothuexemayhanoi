@@ -8,6 +8,7 @@ matrix_id: 169
 primary_keyword: "chọn trọng lượng xe thuê"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-tay-ga
 ---
 Trọng lượng xe không ghi trên quảng cáo nhưng quyết định mỗi lần bạn dắt, đẩy và chống chân. Bài này cho cách thử trọng lượng tại quầy trong ba động tác, và khối xe gợi ý theo thể lực.
 

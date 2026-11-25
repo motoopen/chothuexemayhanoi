@@ -8,6 +8,7 @@ matrix_id: 55
 primary_keyword: "thuê xe máy dưới 50cc hà nội"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
 ---
 Trên giấy tờ pháp lý ở Việt Nam, nhóm xe có dung tích xi lanh dưới 50cc thường được xếp vào loại xe gắn máy, khác với xe máy có dung tích lớn hơn. Phân biệt này nghe như kiến thức chuyên ngành, nhưng lại ảnh hưởng trực tiếp đến việc bạn cần giấy tờ gì khi thuê và đi lại thế nào cho đúng quy định. Bài viết này hướng dẫn cách xác định đúng loại xe dưới 50cc trước khi thuê ở Hà Nội, kèm các điểm kiểm tra thực tế.
 

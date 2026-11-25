@@ -8,6 +8,7 @@ matrix_id: 297
 primary_keyword: "thuê cub 50cc hay xe ga 50cc"
 hub_parent: kinh-nghiem
 hub_category: so-sanh-lua-chon
+seo_hub: xe-50cc
 ---
 Trong nhóm 50cc, hai lựa chọn được khách hay cân nhắc nhất là Cub 50cc và xe ga 50cc. Cả hai đều nhẹ, rẻ và dễ lái, nhưng trải nghiệm lại khác nhau từ thao tác đến phong cách. Chọn đúng dòng, chuyến đi thoải mái; chọn theo cảm tính, bạn có thể phải làm quen giữa phố đông. Bài này so sánh chi tiết để bạn quyết định nhanh và chắc.
 

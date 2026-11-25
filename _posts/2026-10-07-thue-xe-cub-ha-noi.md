@@ -8,6 +8,7 @@ matrix_id: 149
 primary_keyword: "thuê xe cub hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-so
 ---
 Honda Cub có hai mặt khi thuê ở Hà Nội: Cub phổ thông bản số máy lớn, và Cub 50cc nhóm nhỏ không cần bằng lái. Hai dòng trông giống nhau nhưng phục vụ nhu cầu khác nhau. Bài này chỉ cách chọn đúng, kèm kiểm tra cho cả hai.
 

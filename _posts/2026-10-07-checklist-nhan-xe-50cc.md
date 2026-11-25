@@ -8,6 +8,7 @@ matrix_id: 81
 primary_keyword: "checklist nhận xe 50cc"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
 ---
 Mười phút kiểm tra khi nhận xe giúp cả kỳ thuê yên ổn, nhưng chỉ khi bạn biết kiểm tra gì. Bài này gom mười hai điểm theo trình tự, đi vòng xe một lượt là xong, không bỏ sót và không kéo dài.
 

@@ -8,6 +8,7 @@ matrix_id: 92
 primary_keyword: "thuê xe điện hà nội"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Xe điện hiện diện ngày càng nhiều trên đường Hà Nội, và nhu cầu thuê cũng theo đó mà phong phú. Nhưng trước khi so sánh giá hay mẫu xe, câu hỏi đầu tiên bạn cần trả lời là: mình cần xe máy điện hay dịch vụ ô tô điện? Đây là hai loại hình phục vụ hai nhóm nhu cầu khác hẳn nhau, và chọn đúng từ đầu giúp bạn tiết kiệm thời gian tìm kiếm cũng như tránh so sánh lệch giá. Bài viết này phân tích theo từng tiêu chí thực tế.
 

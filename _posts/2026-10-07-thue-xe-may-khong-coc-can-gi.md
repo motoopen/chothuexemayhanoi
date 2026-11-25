@@ -8,6 +8,7 @@ matrix_id: 232
 primary_keyword: "thuê xe máy không cọc cần gì"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: gia-coc
 ---
 Nhiều nơi quảng cáo thuê xe không cần đặt cọc, nhưng không cọc không có nghĩa là không điều kiện: bên cho thuê thường yêu cầu một hình thức bảo đảm khác. Bài này giúp bạn biết có thể bị yêu cầu gì thay thế và chuẩn bị thế nào.
 

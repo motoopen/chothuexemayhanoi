@@ -8,6 +8,7 @@ matrix_id: 8
 primary_keyword: "thuê xe máy hà nội dài ngày"
 hub_parent: thue-xe
 hub_category: bat-dau-thue
+seo_hub: thue-xe-thang
 ---
 Nhiều người thuê xe máy theo ngày rồi gia hạn liên tục nhiều tuần, đến khi tính lại mới thấy số tiền vượt xa gói tháng. Bài này giúp bạn nhận biết thời điểm nên chuyển sang gói tuần hoặc tháng ở Hà Nội.
 

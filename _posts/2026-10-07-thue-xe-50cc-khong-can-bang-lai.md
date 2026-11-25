@@ -8,6 +8,7 @@ matrix_id: 64
 primary_keyword: "thuê xe 50cc không cần bằng lái"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
 ---
 Quảng cáo xe 50cc không cần bằng lái xuất hiện nhiều, nhưng đây là cách nói gộp dễ gây hiểu sai. Điều kiện của người lái là một chuyện, dung tích chiếc xe là chuyện khác. Bài này tách rõ hai khái niệm và chỉ cách kiểm tra đúng trước khi đặt cọc.
 

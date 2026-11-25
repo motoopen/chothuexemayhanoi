@@ -8,6 +8,7 @@ matrix_id: 152
 primary_keyword: "thuê xe máy cốp rộng hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-tay-ga
 ---
 Cốp rộng là ưu tiên số một nếu bạn thuê xe kèm hành lý, và chọn sai cốp là lỗi hay gặp nhất. Bài này chỉ cách chọn theo khối đồ, dòng xe cốp lớn nhất, và cách dùng cốp cho an toàn.
 

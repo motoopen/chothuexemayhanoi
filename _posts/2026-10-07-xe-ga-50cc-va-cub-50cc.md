@@ -8,6 +8,7 @@ matrix_id: 78
 primary_keyword: "xe ga 50cc và cub 50cc"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
 ---
 Xe ga 50cc và Cub 50cc đều nhỏ nhẹ đi phố tốt, nhưng chọn sai dòng khiến cả kỳ thuê thiếu thoải mái ở đúng chỗ mình cần. Bài này gom ba tiêu chí quyết định, thao tác, cốp xe và hành trình, để bạn chốt trong vài phút.
 

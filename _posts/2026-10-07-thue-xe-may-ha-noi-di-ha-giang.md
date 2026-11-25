@@ -8,6 +8,7 @@ matrix_id: 246
 primary_keyword: "thuê xe máy hà nội đi hà giang"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
+seo_hub: hanh-trinh
 ---
 Hà Giang là điểm đến quen thuộc của dân phượt, và câu hỏi đầu tiên luôn là: lấy xe ở Hà Nội chạy lên, hay đi xe khách lên rồi thuê xe tại chỗ. Mỗi phương án có chi phí và rủi ro riêng, bài này giúp bạn chọn theo lịch trình và kinh nghiệm lái của mình.
 

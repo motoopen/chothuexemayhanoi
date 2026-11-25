@@ -8,6 +8,7 @@ matrix_id: 151
 primary_keyword: "thuê xe máy yên thấp hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-tay-ga
 ---
 Thông số chiều cao yên trên mạng chỉ là con số đầu tiên, không phải câu trả lời. Bài này chỉ những gì cần kiểm thêm khi thuê xe yên thấp ở Hà Nội, để chiếc xe hợp thật sự chứ không hợp trên giấy.
 

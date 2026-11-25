@@ -8,6 +8,7 @@ matrix_id: 153
 primary_keyword: "thuê xe máy tiết kiệm xăng hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-tay-ga
 ---
 Mọi nơi thuê xe đều nói xe mình tiết kiệm xăng, nên so sánh bằng quảng cáo vô nghĩa. Bài này cho các tiêu chí đo được tại quầy để bạn tự xác định chiếc xe nào thật sự tốn ít nhiên liệu cho lịch của mình.
 

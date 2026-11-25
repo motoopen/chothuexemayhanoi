@@ -8,6 +8,7 @@ matrix_id: 111
 primary_keyword: "thuê xe máy điện cho người nước ngoài"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: di-lam-dai-han
 ---
 Người nước ngoài chọn xe máy điện để đi lại Hà Nội ngày càng nhiều vì xe êm và dễ lái, nhưng giấy tờ và quy định cho người nước ngoài có phần riêng cần kiểm tra. Bài này liệt kê các khoản nên rà trước khi đặt cọc.
 

@@ -8,6 +8,7 @@ matrix_id: 223
 primary_keyword: "hợp đồng thuê xe máy cần có gì"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: thu-tuc-hop-dong
 ---
 Hợp đồng là căn cứ để đối chiếu khi nhận và trả xe, nên một bản hợp đồng thuê xe máy rõ ràng giúp bạn tránh tranh chấp về tiền cọc, xăng hay vết xước. Bài này điểm qua các mục nên có trong hợp đồng trước khi bạn ký.
 

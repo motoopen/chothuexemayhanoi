@@ -8,6 +8,7 @@ matrix_id: 12
 primary_keyword: "thuê xe máy hà nội mùa lạnh"
 hub_parent: thue-xe
 hub_category: bat-dau-thue
+seo_hub: kinh-nghiem
 ---
 Mùa lạnh ở Hà Nội mang theo rét đậm rét hại kèm gió mùa, chạy xe trong điều kiện này khác hẳn ngày nắng ấm. Thuê xe máy mùa lạnh cần chuẩn bị trang phục và kiểm tra xe kỹ hơn. Bài này nói các lưu ý khi nhận và chạy xe thuê trong ngày lạnh.
 

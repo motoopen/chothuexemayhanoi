@@ -8,6 +8,7 @@ matrix_id: 209
 primary_keyword: "thuê xe máy lê duẩn hà nội"
 hub_parent: khu-vuc
 hub_category: ha-noi-theo-khu-vuc
+seo_hub: khu-vuc
 ---
 Lê Duẩn là trục chính phía nam Hồ Gươm với nhiều khách sạn và cơ quan, nên chỗ nhận xe thuê ảnh hưởng nhiều đến buổi đầu tiên của bạn. Bài này giúp bạn chọn điểm nhận xe hợp với hành trình quanh phố Lê Duẩn.
 

@@ -8,6 +8,7 @@ matrix_id: 263
 primary_keyword: "đi xe máy hà nội cà phê"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
+seo_hub: hanh-trinh
 ---
 Tuyến cà phê Hà Nội là thú riêng của người có xe máy, vì các quán đẹp nằm rải từ phố cổ tới ven hồ, không quán nào gần nhau. Bài này giúp nhóm chúng thành các cung đi được trong một buổi.
 

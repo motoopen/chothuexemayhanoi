@@ -8,6 +8,7 @@ matrix_id: 281
 primary_keyword: "chụp vết xước xe thuê"
 hub_parent: huong-dan
 hub_category: an-toan-su-co
+seo_hub: kinh-nghiem
 ---
 Bộ ảnh sáu góc là bằng chứng mạnh nhất khi tranh chấp vết xước, nhưng chụp kiểu lung tung thì lúc cần vẫn thiếu đúng góc bị hỏi. Bài này định nghĩa sáu góc chuẩn, chụp trong ba phút.
 

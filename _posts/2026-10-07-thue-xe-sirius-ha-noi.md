@@ -8,6 +8,7 @@ matrix_id: 147
 primary_keyword: "thuê xe sirius hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-so
 ---
 Yamaha Sirius là dòng xe số gọn nhẹ, rẻ và rất bền, và khi thuê ở Hà Nội nó hợp một nhóm người rất rõ ràng. Bài này chỉ các tình huống Sirius là lựa chọn hợp lý nhất, và những mục cần kiểm trước khi nhận.
 

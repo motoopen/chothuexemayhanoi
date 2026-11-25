@@ -1,0 +1,34 @@
+---
+layout: null
+permalink: /llms.txt
+---
+{% assign c = site.data.site.contact %}# Motoopen — Thuê xe máy Hà Nội
+
+> Motoopen là dịch vụ cho thuê xe máy tại Hà Nội (cửa hàng: {{ c.address }}). Cho thuê xe số, xe ga, xe 50cc và xe điện theo ngày, tuần và tháng; trọng tâm là thuê xe máy theo tháng cho người đi làm, sinh viên và người ở Hà Nội dài ngày. Giao xe tận nơi khu vực nội thành (có phí giao theo quãng đường).
+
+Thông tin dưới đây lấy từ các trang công khai của website. Giá là giá tham khảo đang công bố trên trang Bảng giá và có thể thay đổi theo thời điểm/mẫu xe; giá chốt khi liên hệ.
+
+## Liên hệ (NAP)
+- Tên: Motoopen
+- Địa chỉ: {{ c.address }}
+- Điện thoại / Zalo: {{ c.phone_display }} ({{ c.zalo_url }})
+- Email: {{ c.email }}
+- Giờ mở cửa: {{ c.hours }}
+- Bản đồ: {{ c.map_url }}
+
+## Trang chính
+- [Thuê xe máy tháng Hà Nội (trang chủ)]({{ '/' | absolute_url }}): gói thuê tháng, loại xe, quy trình, FAQ.
+- [Bảng giá thuê xe máy]({{ '/banggia.html' | absolute_url }}): giá theo ngày, tuần, tháng và mức cọc theo dòng xe.
+- [Dịch vụ]({{ '/dichvu.html' | absolute_url }}): gói thuê ngày, tuần, tháng.
+- [Các loại xe]({{ '/loaixe.html' | absolute_url }}): xe số, xe ga, 50cc, xe điện, xe côn.
+- [Thủ tục thuê xe]({{ '/thutuc.html' | absolute_url }}): giấy tờ, đặt cọc, hợp đồng.
+- [Hướng dẫn]({{ '/huongdan.html' | absolute_url }}) · [Kinh nghiệm]({{ '/kinhnghiem.html' | absolute_url }}) · [FAQ]({{ '/faq.html' | absolute_url }})
+- [Liên hệ]({{ '/lienhe.html' | absolute_url }}) · [Giới thiệu]({{ '/gioithieu.html' | absolute_url }})
+
+## Cụm chủ đề (SEO hub)
+{% for hub in site.data.seo_hubs.hubs %}{% assign hub_posts = site.posts | where: "seo_hub", hub.key %}- {{ hub.label }} ({{ hub_posts.size }} bài) — trang chính: {{ hub.pillar_url | absolute_url }} · danh mục: {{ hub.silo_url | absolute_url }}
+{% endfor %}
+## Tài liệu đầy đủ
+- [llms-full.txt]({{ '/llms-full.txt' | absolute_url }}): danh sách toàn bộ bài viết kèm tóm tắt.
+- [Dữ liệu doanh nghiệp (JSON)]({{ '/du-lieu/motoopen-business.json' | absolute_url }})
+- [Sitemap]({{ '/sitemap.xml' | absolute_url }})

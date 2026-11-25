@@ -8,6 +8,7 @@ matrix_id: 50
 primary_keyword: "giá thuê xe máy đã bao gồm gì"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+seo_hub: gia-coc
 ---
 Mức giá niêm yết chỉ là một phần của tổng chi phí thuê xe. Biết rõ giá đã bao gồm gì và chưa bao gồm gì giúp bạn so gói đúng và tránh các khoản phát sinh lúc trả xe. Bài này tách mức giá thành các nhóm khoản để bạn kiểm tra trọn trước khi cọc.
 

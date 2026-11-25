@@ -8,6 +8,7 @@ matrix_id: 85
 primary_keyword: "thuê xe 50cc cho người mới lái"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
 ---
 Người mới lái chọn xe thuê khác người đã đi lâu: tiêu chí hàng đầu không phải giá mà là xe dễ đi và chỗ hỗ trợ khi cần. Bài này xếp các tiêu chí người mới nên ưu tiên khi thuê dòng 50cc.
 

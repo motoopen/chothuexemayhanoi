@@ -8,6 +8,7 @@ matrix_id: 159
 primary_keyword: "thuê xe máy cho người mới lái hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-tay-ga
 ---
 Người mới lái cần chiếc xe tha thứ, không cần chiếc xe mạnh. Bài này chỉ nhóm xe hợp người mới nhất và cách làm quen an toàn buổi đầu tiên ở Hà Nội.
 

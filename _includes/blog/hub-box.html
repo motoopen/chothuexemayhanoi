@@ -1,0 +1,42 @@
+{% comment %}
+SEO hub box: Pillar (money page) -> Silo (category) -> sibling posts of the same seo_hub.
+Siblings rotate backwards through the hub (related-posts rotates forwards through the
+category), so every post in a hub receives links from other posts. Data: _data/seo_hubs.yml.
+{% endcomment %}
+{% assign seo_hub = site.data.seo_hubs.hubs | where: "key", page.seo_hub | first %}
+{% if seo_hub %}
+  {% assign hub_posts = site.posts | where: "seo_hub", page.seo_hub %}
+  {% assign hub_size = hub_posts.size %}
+  {% assign hub_index = -1 %}
+  {% for item in hub_posts %}{% if item.url == page.url %}{% assign hub_index = forloop.index0 %}{% break %}{% endif %}{% endfor %}
+<section class="blog-component hub-box" aria-label="Cụm chủ đề {{ seo_hub.label }}">
+  <div class="hub-box-head">
+    <span class="hub-box-icon"><i class="{{ seo_hub.icon }}" aria-hidden="true"></i></span>
+    <div>
+      <p class="blog-component-kicker">Cụm chủ đề</p>
+      <h2>{{ seo_hub.label }}</h2>
+      <p>{{ seo_hub.summary }}</p>
+    </div>
+  </div>
+  <div class="hub-box-links">
+    <a class="hub-box-pillar" href="{{ seo_hub.pillar_url | relative_url }}"><i class="fa-solid fa-star" aria-hidden="true"></i><span><small>Trang chính</small>{{ seo_hub.pillar_label }}</span></a>
+    <a class="hub-box-silo" href="{{ seo_hub.silo_url | relative_url }}"><i class="fa-solid fa-layer-group" aria-hidden="true"></i><span><small>Danh mục</small>{{ seo_hub.silo_label }}</span></a>
+    {% if seo_hub.pillar_url != '/' %}
+      {% assign mp = site.data.seo_hubs.monthly_pillar %}
+      {% assign anchor_count = mp.anchors.size %}
+      {% assign anchor_idx = page.matrix_id | default: hub_index | modulo: anchor_count %}
+    <a class="hub-box-silo" href="{{ mp.url | relative_url }}"><i class="fa-solid fa-calendar-days" aria-hidden="true"></i><span><small>Dịch vụ</small>{{ mp.anchors[anchor_idx] }}</span></a>
+    {% endif %}
+  </div>
+  {% if hub_index >= 0 and hub_size > 1 %}
+  <ul class="hub-box-siblings">
+    {% assign take = hub_size | minus: 1 %}{% if take > 4 %}{% assign take = 4 %}{% endif %}
+    {% for n in (1..take) %}
+      {% assign idx = hub_index | minus: n | plus: hub_size | modulo: hub_size %}
+      {% assign sib = hub_posts[idx] %}
+      <li><a href="{{ sib.url | relative_url }}">{{ sib.title }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</section>
+{% endif %}

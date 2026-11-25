@@ -6,6 +6,7 @@ description: "Checklist ngắn giúp kiểm tra xe, giấy tờ bàn giao và c�
 categories: [kinh-nghiem, thue-xe]
 hub_parent: huong-dan
 hub_category: an-toan-su-co
+seo_hub: kinh-nghiem
 ---
 
 Nhận xe xong rồi chạy ngay nghe thì nhanh, nhưng dành khoảng **10 phút kiểm tra trước khi đi** sẽ giúp bạn đỡ bối rối nếu sau đó phát hiện một chi tiết bất thường. Đây là checklist đơn giản, phù hợp cả người thuê xe lần đầu lẫn người đã quen đi xe máy.

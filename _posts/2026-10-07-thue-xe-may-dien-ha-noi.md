@@ -8,6 +8,7 @@ matrix_id: 93
 primary_keyword: "thuê xe máy điện hà nội"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Thuê xe máy điện không khó, nhưng chọn đúng mẫu xe cho lộ trình của mình thì cần chút tính toán. Khác với xe xăng, khả năng của xe điện bị giới hạn bởi pin và chỗ sạc, nên hai yếu tố quyết định là quãng đường trong ngày và điểm sạc bạn tiếp cận được. Bài viết này hướng dẫn chọn thuê xe máy điện Hà Nội theo hai trục đó.
 

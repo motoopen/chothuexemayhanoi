@@ -8,6 +8,7 @@ matrix_id: 46
 primary_keyword: "so sánh giá thuê xe máy hà nội"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+seo_hub: gia-coc
 ---
 So giá thuê xe máy giữa các nơi dễ rối vì mỗi nơi niêm yết theo cách riêng. Bài này đưa một checklist tám dòng, bạn chỉ cần điền theo từng nơi rồi so, kết quả ra ngay gói nào hợp nhất.
 

@@ -8,6 +8,7 @@ matrix_id: 136
 primary_keyword: "thuê xe ga hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-tay-ga
 ---
 Xe ga là lựa chọn phổ biến nhất khi thuê xe ở Hà Nội vì dễ lái và phổ thông, nhưng không phải ai cũng cần, và không phải chiếc ga nào cũng nên nhận. Bài này chỉ rõ nhóm người hợp xe ga và những mục cần kiểm tra trước khi nhận.
 

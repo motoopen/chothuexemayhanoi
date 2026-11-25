@@ -8,6 +8,7 @@ matrix_id: 129
 primary_keyword: "thuê xe máy điện đi quãng ngắn"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Quãng ngắn là lĩnh vực xe máy điện mạnh nhất khi thuê ở Hà Nội. Bài này chỉ rõ những tình huống thuê xe điện cho lộ trình ngắn là lựa chọn hợp lý nhất, và cách tính để không mất tiền.
 

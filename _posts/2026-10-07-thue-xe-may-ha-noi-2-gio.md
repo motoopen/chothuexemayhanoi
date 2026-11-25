@@ -8,6 +8,7 @@ matrix_id: 31
 primary_keyword: "thuê xe máy hà nội 2 giờ"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+seo_hub: gia-coc
 ---
 Nhu cầu chỉ hai giờ, đi vài điểm trong bán kính ngắn, là tình huống khiến nhiều người phân vân giữa thuê xe máy theo giờ và gọi xe công nghệ từng chặng. Bài này so sánh hai phương án để bạn chọn đúng theo kiểu lịch trình của mình.
 

@@ -8,6 +8,7 @@ matrix_id: 71
 primary_keyword: "xe 50cc đi đường dốc"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
 ---
 Đường dốc là chỗ dòng 50cc bộc lộ rõ giới hạn, nhưng không phải mọi dốc đều quá sức với dòng nhỏ. Điều quyết định là tải, độ dốc dài hay ngắn, và tình trạng chiếc xe cụ thể. Bài này chỉ cách đánh giá ba yếu tố đó trước khi lên dốc.
 

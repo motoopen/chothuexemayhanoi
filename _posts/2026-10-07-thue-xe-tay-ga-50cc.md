@@ -8,6 +8,7 @@ matrix_id: 61
 primary_keyword: "thuê xe tay ga 50cc"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
 ---
 Xe tay ga 50cc nghe là dòng dễ lái nhất trong các loại xe cho thuê, nhưng chính vì dễ nên nhiều khách nhận xe rất nhanh, bỏ qua khâu kiểm tra rồi gặp rắc rối giữa chuyến. Với xe ga nhỏ đã qua sử dụng, có bảy tiêu chí đáng kiểm tra trước khi lăn bánh. Bài viết này đi qua từng tiêu chí, kèm cách kiểm tra nhanh tại cửa hàng.
 

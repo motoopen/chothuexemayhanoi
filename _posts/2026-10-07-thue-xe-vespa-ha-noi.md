@@ -8,6 +8,7 @@ matrix_id: 144
 primary_keyword: "thuê xe vespa hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-tay-ga
 ---
 Vespa cho trải nghiệm lái khác hẳn mọi dòng xe ga Nhật, và khi thuê ở Hà Nội bạn cần biết trước những khác biệt thao tác lẫn điểm cần kiểm tình trạng xe. Bài này tóm gọn cả hai.
 

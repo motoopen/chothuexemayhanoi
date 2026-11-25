@@ -8,6 +8,7 @@ matrix_id: 158
 primary_keyword: "thuê xe máy mùa mưa loại nào"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-tay-ga
 ---
 Mùa mưa không cần đổi lịch trình, chỉ cần đổi tiêu chí chọn xe. Ba thứ quyết định an toàn khi đường ướt là lốp, phanh và chắn bùn, và bài này kiểm từng mục một.
 

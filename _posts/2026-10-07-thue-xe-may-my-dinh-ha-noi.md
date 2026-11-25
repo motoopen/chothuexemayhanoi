@@ -8,6 +8,7 @@ matrix_id: 195
 primary_keyword: "thuê xe máy mỹ đình hà nội"
 hub_parent: khu-vuc
 hub_category: ha-noi-theo-khu-vuc
+seo_hub: khu-vuc
 ---
 Mỹ Đình là khu trung tâm mới với sân vận động và nhiều tòa nhà cao tầng, nên chỗ nhận xe thuê ảnh hưởng nhiều đến buổi đầu tiên của bạn. Bài này giúp bạn chọn điểm nhận xe hợp với hành trình quanh Mỹ Đình.
 

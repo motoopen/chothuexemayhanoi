@@ -8,6 +8,7 @@ matrix_id: 75
 primary_keyword: "thuê xe 50cc theo tháng"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: thue-xe-thang
 ---
 Gói tháng với dòng 50cc là lựa chọn của khách đi lại hằng ngày, nhưng thuê dài khác thuê ngày ở một điểm: xe phải bền giữa kỳ và điều khoản phải rõ từ đầu. Bài này liệt kê các câu nên hỏi trước khi chốt gói tháng.
 

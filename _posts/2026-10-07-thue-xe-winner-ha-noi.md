@@ -8,6 +8,7 @@ matrix_id: 146
 primary_keyword: "thuê xe winner hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-so
 ---
 Honda Winner là dòng côn tay thể thao chạy đường trường, và thuê Winner ở Hà Nội chỉ dành cho người đã quen côn tay thật sự. Bài này là checklist trọn từ thao tác cần có đến từng điểm rà trước khi nhận.
 

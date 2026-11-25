@@ -8,6 +8,7 @@ matrix_id: 16
 primary_keyword: "thuê xe máy hà nội mang hành lý"
 hub_parent: thue-xe
 hub_category: bat-dau-thue
+seo_hub: kinh-nghiem
 ---
 Mang nhiều hành lý đi cùng xe máy thuê là tình huống dễ xảy ra trầy xước người lẫn mất đồ nếu chuẩn bị không đúng. Bài này nói cách chọn xe và sắp xếp hành lý an toàn khi thuê xe máy ở Hà Nội.
 

@@ -8,6 +8,7 @@ matrix_id: 160
 primary_keyword: "xe ga và xe số khi thuê"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-so
 ---
 Xe ga và xe số phục vụ hai phong cách di chuyển khác nhau, và chọn sai làm kỳ thuê thêm mỏi tay chứ không thêm tiện. Bài này so thao tác và từng tình huống để bạn chốt nhanh.
 

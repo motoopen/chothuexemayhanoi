@@ -8,6 +8,7 @@ matrix_id: 237
 primary_keyword: "xe thuê bị hỏng giữa đường"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: thu-tuc-hop-dong
 ---
 Xe chết máy giữa phố là chuyện thường gặp với xe thuê, nhưng xử sai một bước có thể biến hỏng nhỏ thành khoản đền lớn. Bài này cho bạn checklist xử lý theo đúng thứ tự.
 

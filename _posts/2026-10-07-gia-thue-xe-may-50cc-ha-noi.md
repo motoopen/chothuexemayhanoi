@@ -8,6 +8,7 @@ matrix_id: 36
 primary_keyword: "giá thuê xe máy 50cc hà nội"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+seo_hub: gia-coc
 ---
 Nhóm xe 50cc và dưới 50cc là lựa chọn cho người muốn xe nhẹ, dễ điều khiển và không yêu cầu giấy phép lái nặng. Nhưng mức giá giữa dòng Cub, xe ga nhỏ và các dòng dưới 50cc khác nhau, và cách so cũng khác. Bài này hướng dẫn so đúng nhóm xe nhỏ này ở Hà Nội.
 

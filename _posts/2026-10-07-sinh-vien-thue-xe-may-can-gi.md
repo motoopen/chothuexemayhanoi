@@ -8,6 +8,7 @@ matrix_id: 231
 primary_keyword: "sinh viên thuê xe máy cần gì"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: sinh-vien
 ---
 Sinh viên là nhóm khách thuê xe máy đông đảo nhất ở Hà Nội, nhưng lần đầu thuê thường băn khoăn cần mang gì và làm sao để tiết kiệm. Bài này gom checklist giấy tờ, ngân sách và cách chọn xe cho sinh viên.
 

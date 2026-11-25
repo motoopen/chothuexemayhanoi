@@ -8,6 +8,7 @@ matrix_id: 282
 primary_keyword: "mũ bảo hiểm khi thuê xe máy"
 hub_parent: huong-dan
 hub_category: an-toan-su-co
+seo_hub: kinh-nghiem
 ---
 Mũ bảo hiểm kèm xe thuê thường được coi là đồ cho không, nhưng nó là thiết bị an toàn duy nhất chạm đầu bạn. Kiểm tra mũ trước khi nhận xe đáng ba phút của nó.
 

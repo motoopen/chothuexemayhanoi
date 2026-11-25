@@ -119,6 +119,15 @@ def main() -> int:
         for required in ("Article", "BreadcrumbList"):
             if required not in types:
                 errors.append(f"{rel}: missing {required} schema")
+        content_links = sum(p.paragraph_links)
+        if content_links > 8:
+            errors.append(f"{rel}: {content_links} internal links in article body (owner limit: 8)")
+        page_html = path.read_text("utf-8", errors="replace")
+        faq_items = page_html.count('<details class="faq-item"')
+        if faq_items and not 3 <= faq_items <= 8:
+            errors.append(f"{rel}: {faq_items} FAQ items (expected 3-8 when present)")
+        if faq_items and '"FAQPage"' in page_html:
+            errors.append(f"{rel}: post FAQ produced FAQPage JSON-LD (schema lock: visible HTML only)")
         crowded = sum(1 for n in p.paragraph_links if n > 1)
         if crowded:
             errors.append(f"{rel}: {crowded} paragraph(s) with more than one internal link")
@@ -131,7 +140,7 @@ def main() -> int:
         for err in errors:
             print(" -", err)
         return 1
-    print("PASS: blog titles, H1, meta, canonical, sitemap, image alt, schema, one internal link per paragraph and shared components.")
+    print("PASS: blog titles, H1, meta, canonical, sitemap, image alt, schema, one internal link per paragraph, <=8 body links, FAQ 3-8 (HTML only) and shared components.")
     return 0
 
 if __name__ == "__main__":

@@ -8,6 +8,7 @@ matrix_id: 272
 primary_keyword: "đi xe máy điện tham quan hà nội"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
+seo_hub: xe-dien
 ---
 Xe máy điện cho tham quan phố yên và rẻ, nhưng lịch trình với xe điện là lịch trình của pin: mỗi cụm điểm cần tính dư quãng đường và sạc giữa chuyến. Bài này giúp lập kế hoạch đó.
 

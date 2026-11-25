@@ -8,6 +8,7 @@ matrix_id: 128
 primary_keyword: "xe máy điện và xe ga khi thuê"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Xe ga và xe máy điện là hai lựa chọn quen thuộc nhất khi thuê xe ở Hà Nội, và cả hai đều dễ lái. Khác biệt nằm ở thao tác, cách tiếp nhiên liệu và chỗ để đồ, và bài này so sánh từng yếu tố để bạn chọn nhanh.
 

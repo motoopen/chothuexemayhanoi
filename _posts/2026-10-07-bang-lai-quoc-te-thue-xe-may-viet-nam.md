@@ -8,6 +8,7 @@ matrix_id: 226
 primary_keyword: "bằng lái quốc tế thuê xe máy việt nam"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: thu-tuc-hop-dong
 ---
 Giấy phép lái quốc tế giúp khách nước ngoài lái xe ở Việt Nam trong một số trường hợp, nhưng hiệu lực của nó phụ thuộc loại giấy phép và loại xe. Bài này giúp bạn kiểm tra đúng trước khi đặt xe.
 

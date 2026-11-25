@@ -8,6 +8,7 @@ matrix_id: 256
 primary_keyword: "thuê xe máy hà nội đi đường lâm"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
+seo_hub: hanh-trinh
 ---
 Đường Lâm cách Hà Nội khoảng bốn mươi lăm ki lômét, là chuyến trong ngày vừa đủ tham quan làng cổ mà không cần nghỉ lại. Checklist dưới đây gói từ khâu chọn xe tới lúc trả xe cho khung giờ đóng cửa của điểm thuê.
 

@@ -8,6 +8,7 @@ matrix_id: 266
 primary_keyword: "đi xe máy hà nội mua sắm"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
+seo_hub: hanh-trinh
 ---
 Mua sắm bằng xe máy tiện đến khi đồ nhiều: chợ, cửa hàng và trung tâm thương mại đều đỗ được xe máy gần cửa hơn ô tô. Vấn đề duy nhất là chở hàng về, và bài này xử lý đúng phần đó.
 

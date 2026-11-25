@@ -8,6 +8,7 @@ matrix_id: 21
 primary_keyword: "cách đọc bảng giá thuê xe máy hà nội"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+seo_hub: gia-coc
 ---
 Bảng giá thuê xe máy ở Hà Nội nhìn qua tưởng đơn giản, nhưng nhiều người đến lúc trả xe mới phát hiện mình hiểu nhầm giữa giá ngày và giá giờ, hoặc bỏ qua các khoản phụ phí. Bài này hướng dẫn cách đọc bảng giá đúng để tổng chi phí không vượt dự tính.
 

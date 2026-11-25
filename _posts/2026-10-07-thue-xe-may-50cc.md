@@ -8,6 +8,7 @@ matrix_id: 51
 primary_keyword: "thuê xe máy 50cc"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
 ---
 Xe máy 50cc là dòng xe nhỏ, nhẹ và dễ điều khiển, thường được khách quan tâm khi cần phương tiện đi lại ngắn trong thành phố. Không phải ai cũng phù hợp với dòng xe này, và không phải cửa hàng nào cũng cho thuê loại xe phân khúc nhỏ. Bài viết này giúp bạn xác định xem thuê xe máy 50cc có đúng nhu cầu của mình không, cùng những điểm cần kiểm tra trước khi nhận xe.
 

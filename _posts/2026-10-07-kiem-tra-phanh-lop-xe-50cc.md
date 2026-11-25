@@ -8,6 +8,7 @@ matrix_id: 82
 primary_keyword: "kiểm tra phanh lốp xe 50cc"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
 ---
 Phanh và lốp là hai bộ phận giữ an toàn nhất trên xe, cũng là hai điểm hay bị bỏ qua khi nhận xe thuê. Với dòng 50cc nhẹ, kiểm tra hai bộ này chỉ mất vài phút. Bài này chỉ cách kiểm tra đúng và dấu hiệu nào là nên xin đổi chiếc khác.
 

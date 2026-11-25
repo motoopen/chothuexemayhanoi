@@ -8,6 +8,7 @@ matrix_id: 250
 primary_keyword: "thuê xe máy hà nội đi hòa bình"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
+seo_hub: hanh-trinh
 ---
 Hòa Bình có hai kiểu chuyến: về phía hồ trong ngày, hoặc băng lên Mộc Châu Mai Châu qua các cung dài. Mỗi kiểu đòi hỏi chiếc xe thuê khác nhau, nên chọn theo quãng đường và lượng đồ bạn chở.
 

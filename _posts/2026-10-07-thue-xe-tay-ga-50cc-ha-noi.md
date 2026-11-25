@@ -8,6 +8,7 @@ matrix_id: 62
 primary_keyword: "thuê xe tay ga 50cc hà nội"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
 ---
 Xe tay ga 50cc gộp hai ưu điểm quen thuộc: không cần chuyển số và nhẹ dễ điều khiển. Nhưng đi phố Hà Nội có thuận tiện thật không còn tùy vào khung đường, tải và kỹ năng của bạn. Bài này phân tích hai mặt để bạn chọn đúng dòng trước khi cọc.
 

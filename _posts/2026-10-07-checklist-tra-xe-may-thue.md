@@ -8,6 +8,7 @@ matrix_id: 290
 primary_keyword: "checklist trả xe máy thuê"
 hub_parent: huong-dan
 hub_category: an-toan-su-co
+seo_hub: kinh-nghiem
 ---
 Trả xe nhanh gọn không phải là giao xe rồi đi, mà là làm đủ mười việc nhỏ để không bị nhắc lại sau khi bạn đã rời đi. Bộ này mất khoảng mười lăm phút nếu chuẩn bị sẵn từ lúc nhận xe.
 
@@ -29,7 +30,7 @@ Kể cả vết va quẹt đã báo trước, vẫn kể lại đầy đủ khi 
 
 ## Năm: lau xe sạch trước khi giao
 
-Lau khô người xe để vết mới cũ hiện rõ lúc đối chiếu, và giúp nơi thuê thấy bạn giữ xe tử tế. Với chuyến đi mưa bùn, rửa nhẹ ở điểm rửa gần chỗ trả là phép lịch sự và cũng làm nổi vết cần đối chiếu, phần chăm xe trong mưa đã nêu trong bài [thuê xe máy Hà Nội mùa mưa]({{ '/blog/thue-xe-may-ha-noi-mua-mua/' | relative_url }}).
+Lau khô người xe để vết mới cũ hiện rõ lúc đối chiếu, và giúp nơi thuê thấy bạn giữ xe tử tế. Với chuyến đi mưa bùn, rửa nhẹ ở điểm rửa gần chỗ trả là phép lịch sự và cũng làm nổi vết cần đối chiếu, phần chăm xe trong mưa đã nêu trong bài thuê xe máy Hà Nội mùa mưa.
 
 ## Sáu: kiểm giờ và báo trước nếu có nguy cơ trễ
 
@@ -49,7 +50,7 @@ Với xe điện có ghép app, yêu cầu nơi thuê ngắt ghép điện tho�
 
 ## Mười: đánh giá và lưu thông tin liên hệ
 
-Ghi lại trải nghiệm thật cho khách sau, và lưu thông tin nơi thuê nếu hài lòng để lần sau đặt nhanh, tiêu chí chọn nơi đáng quay lại đã nêu trong bài [thuê xe máy Hà Nội uy tín]({{ '/blog/thue-xe-may-ha-noi-uy-tin/' | relative_url }}), phần liên hệ chính thức nằm ở trang liên hệ.
+Ghi lại trải nghiệm thật cho khách sau, và lưu thông tin nơi thuê nếu hài lòng để lần sau đặt nhanh, tiêu chí chọn nơi đáng quay lại đã nêu trong bài thuê xe máy Hà Nội uy tín, phần liên hệ chính thức nằm ở trang liên hệ.
 
 ## Kết luận
 

@@ -8,6 +8,7 @@ matrix_id: 165
 primary_keyword: "cub và wave khi thuê"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-so
 ---
 Cub và Wave đều là xe số nhỏ bền, nhưng Cub mang phong cách cổ điển còn Wave là chọn phổ thông. Với lịch đi phố ngắn quanh Hà Nội, khác biệt nằm ở vài điểm rất cụ thể. Bài này so từng điểm.
 

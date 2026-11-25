@@ -8,6 +8,7 @@ matrix_id: 251
 primary_keyword: "thuê xe máy hà nội đi mai châu"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
+seo_hub: hanh-trinh
 ---
 Mai Châu cách Hà Nội khoảng một trăm sáu mươi ki lômét, là chuyến dài nhất nhóm cung phía Hòa Bình, và với phần lớn người đi xe thuê, đây là chuyến cần chuẩn bị như một hành trình thực thụ chứ không phải chuyến chơi bờm.
 

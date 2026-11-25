@@ -8,6 +8,7 @@ matrix_id: 107
 primary_keyword: "thuê xe điện không cần bằng lái"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Cụm từ "thuê xe điện không cần bằng lái" xuất hiện nhiều trong quảng cáo dịch vụ cho thuê ở Hà Nội và thu hút đúng nhóm khách chưa có giấy phép lái xe. Nhưng cụm từ ngắn ấy dễ gây hiểu nhầm ở vài điểm, và nếu tin nhầm, bạn có thể nhận chiếc xe không đúng như mong đợi hoặc đi không phù hợp quy định. Bài viết này chỉ rõ từng điểm hiểu nhầm phổ biến để bạn thuê đúng và đi đúng.
 

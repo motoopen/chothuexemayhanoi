@@ -8,6 +8,7 @@ matrix_id: 74
 primary_keyword: "thuê xe 50cc theo ngày"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
 ---
 Chuyến ngắn một hoặc hai ngày là dạng thuê phổ biến nhất với dòng 50cc, cũng là dạng dễ chủ quan nhất vì tưởng gọn. Bài này gom checklist cho chuyến ngắn, giúp bạn nhận xe nhanh và trả xe không phát sinh.
 

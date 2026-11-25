@@ -8,6 +8,7 @@ matrix_id: 164
 primary_keyword: "sh và air blade khi thuê"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-tay-ga
 ---
 SH đẳng cấp hơn Air Blade nhưng cũng nặng và to hơn, và có những tình huống trọng lượng với kích thước quan trọng hơn mọi tiện nghi. Bài này chỉ đúng các tình huống đó để bạn chọn không tiếc.
 

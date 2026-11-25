@@ -8,6 +8,7 @@ matrix_id: 269
 primary_keyword: "đi xe máy hà nội mùa mưa"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
+seo_hub: hanh-trinh
 ---
 Mùa mưa Hà Nội đổ cơn nhanh rồi tạnh cũng nhanh, nên chiến lược đúng không phải là hủy mọi chuyến, mà là rút ngắn hành trình và chọn điểm dừng thông minh. Bài này xếp lịch đi mưa sao cho vẫn đi được mà không ướt tới tận da.
 

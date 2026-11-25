@@ -8,6 +8,7 @@ matrix_id: 58
 primary_keyword: "cho thuê xe cub hà nội"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
 ---
 Xe Cub là dòng xe số cổ điển được nhiều khách tìm đến đúng vì kiểu dáng riêng, nhưng cũng là dòng đòi hỏi chọn kỹ hơn trước khi nhận. Vì hầu hết xe Cub cho thuê là xe đã qua sử dụng lâu năm, chất lượng từng chiếc khác nhau đáng kể. Bài viết này đưa ra checklist chọn xe Cub khi thuê ở Hà Nội, giúp bạn nhận được chiếc xe chạy ổn trong suốt chuyến đi.
 

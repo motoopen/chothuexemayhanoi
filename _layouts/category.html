@@ -10,7 +10,7 @@ layout: default
 {% endif %}
 {% capture crumbs %}Trang chủ|/;;Blog|/blog/;;Danh mục|/blog/danh-muc/{% if child %};;{{ parent.label }}|{{ parent.url }};;{{ child.label }}|{{ child.url }}{% else %};;{{ parent.label }}|{{ parent.url }}{% endif %}{% endcapture %}
 {% include blog/collection-schema.html crumbs=crumbs items=category_posts %}
-<main class="blog-shell taxonomy-shell" role="main">
+<main class="blog-shell taxonomy-shell" id="main" role="main">
   <nav class="blog-breadcrumb" aria-label="Breadcrumb">
     <a class="blog-breadcrumb-home" href="{{ '/' | relative_url }}"><i class="fa-solid fa-house"></i> Trang chủ</a><span class="blog-breadcrumb-sep">›</span>
     <a class="blog-breadcrumb-blog" href="{{ '/blog/' | relative_url }}">Blog</a><span class="blog-breadcrumb-sep">›</span>

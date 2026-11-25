@@ -8,6 +8,7 @@ matrix_id: 7
 primary_keyword: "thuê xe máy hà nội cho sinh viên"
 hub_parent: thue-xe
 hub_category: bat-dau-thue
+seo_hub: sinh-vien
 ---
 Với sinh viên ở Hà Nội, xe máy thuê là phương án trung gian giữa đi xe buýt mệt mỏi và mua xe tốn kém. Nhưng chọn sai gói thuê có khi còn tốn hơn mua xe. Bài này nói cách chọn gói thuê hợp ngân sách sinh viên.
 

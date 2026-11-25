@@ -8,6 +8,7 @@ matrix_id: 288
 primary_keyword: "xe thuê chết máy giữa đường"
 hub_parent: huong-dan
 hub_category: an-toan-su-co
+seo_hub: kinh-nghiem
 ---
 Chết máy giữa đường không nguy hiểm bằng cách phản ứng sai: phanh gấp giữa dòng xe hoặc đứng lơ đãng giữa làn. Bảy bước dưới giữ an toàn cho bạn và giữ rõ trách nhiệm với nơi thuê.
 

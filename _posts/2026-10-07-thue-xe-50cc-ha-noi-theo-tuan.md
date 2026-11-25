@@ -8,6 +8,7 @@ matrix_id: 89
 primary_keyword: "thuê xe 50cc hà nội theo tuần"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: thue-xe-thang
 ---
 Gói tuần là lựa chọn giữa tính lẻ ngày và gói tháng, hợp với khách đi lại đều trong bảy đến mười ngày. Bài này cho biết gói tuần phù hợp ai và các câu nên hỏi về bảo dưỡng để cả tuần không gián đoạn.
 

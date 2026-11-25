@@ -8,6 +8,7 @@ matrix_id: 254
 primary_keyword: "thuê xe máy hà nội đi chùa hương"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
+seo_hub: hanh-trinh
 ---
 Chùa Hương cách Hà Nội chừng sáu mươi ki lômét, là chuyến trong ngày đi được, nhưng dòng người dồn vào lễ hội và cung đèo quanh bến khiến nó mệt hơn số ki lômét. Chuẩn bị đúng thì về tới phố vẫn còn sức làm việc buổi tối.
 

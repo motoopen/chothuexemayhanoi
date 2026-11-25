@@ -8,6 +8,7 @@ matrix_id: 79
 primary_keyword: "xe 50cc có tiết kiệm xăng không"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
 ---
 Tiết kiệm xăng là lý do lớn khiến khách chọn dòng 50cc, nhưng tiết kiệm bao nhiêu thì phải ước theo quãng đường thật của mình. Bài này cho cách tính nhanh để bạn biết khoản xăng của cả kỳ thuê trước khi nhận xe.
 
