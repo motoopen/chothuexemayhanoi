@@ -9,6 +9,18 @@ primary_keyword: "thuê xe máy hà nội cho khách du lịch"
 hub_parent: thue-xe
 hub_category: bat-dau-thue
 seo_hub: kinh-nghiem
+quick_answer: "Khách du lịch nên chọn xe theo lịch trình: dòng nhỏ gọn cho phố cổ và quanh hồ, xe ga phổ thông êm hơn cho chặng ven xa, xe ga hoặc xe điện nếu chưa quen xe số; chuẩn bị giấy tờ gốc, giấy phép lái phù hợp và hỏi trước cọc, giờ nhận trả."
+qa:
+  - q: "Khách nước ngoài thuê xe máy ở Motoopen cần giấy tờ gì?"
+    a: "Theo trang Thủ tục của Motoopen, người nước ngoài cần hộ chiếu và bằng lái quốc tế hợp lệ. Mức cọc tùy dòng xe, xem bảng giá hoặc hỏi khi đặt; điều kiện lái xe cụ thể nên kiểm tra quy định hiện hành trước chuyến đi."
+  - q: "Thuê xe máy theo ngày để đi chơi Hà Nội giá bao nhiêu?"
+    a: "Bảng giá Motoopen hiện công bố thuê ngày từ 150k với xe số hoặc Click/Mio đến 200k với Vision, Air Blade; giá có thể thay đổi và được chốt khi liên hệ. Ngoài giá thuê, nên tính thêm xăng và tiền gửi xe ở các điểm tham quan."
+  - q: "Motoopen có giao xe tới khách sạn không?"
+    a: "Có giao xe tận nơi trong khu vực nội thành, phí giao khoảng 20k–50k tùy quãng đường và điểm hẹn; nhận xe tại cửa hàng thì không mất phí giao. Nếu muốn giao hoặc nhận xe ở sân bay, nên hỏi rõ khi đặt."
+  - q: "Trả xe trước giờ bay cần lưu ý gì?"
+    a: "Nên chốt giờ trả khớp lịch bay ngay khi đặt, chừa thời gian di chuyển ra sân bay và chụp lại hiện trạng xe lúc bàn giao làm bằng chứng đã trả đúng hẹn. Cửa hàng Motoopen mở cửa 09:00–21:00, nên chuyến bay sớm hoặc khuya cần hỏi phương án trả từ trước."
+  - q: "Đi tham quan phố cổ thì để xe thuê ở đâu?"
+    a: "Nên gửi ở bãi có người trông gần điểm dừng, dù mất phí, vì chỗ để xe miễn phí quanh phố cổ hiếm vào giờ đông. Khóa xe kỹ, không để đồ cá nhân trên yên và lưu số hỗ trợ của cửa hàng phòng khi cần."
 ---
 Khách du lịch đến Hà Nội thường muốn tự mình chạy vòng phố cổ và các điểm ven thay vì phụ thuộc taxi. Thuê xe máy là lựa chọn linh hoạt, nhưng chọn sai dòng xe hoặc gói thuê có thể làm mất cả ngày chơi. Bài này giúp khách du lịch chọn xe theo đúng lịch trình.
 
@@ -35,6 +47,8 @@ Quanh phố cổ và các điểm tham quan, chỗ để xe miễn phí hiếm v
 ## Lên kế hoạch tuyến đi trước khi nhận xe
 
 Trước ngày nhận xe, phác sẵn tuyến chính trong ngày: các điểm muốn ghé theo thứ tự, chỗ để xe dự kiến gần từng điểm, và trạm xăng quen trên đường. Mỗi buổi tối, xem lại dự báo thời tiết cho ngày hôm sau để chủ động áo mưa hoặc đổi tuyến trong phố thay vì chạy ven. Chia lịch thành khung sáng chiều, chừa thời gian nghỉ giữa trưa khi nắng gắt. Có kế hoạch sẵn, bạn tận dụng tối đa ngày thuê và đỡ phải tìm đường giữa phố đông lúc đang mỏi tay.
+
+Khách lần đầu thuê ở Hà Nội có thể đọc [hướng dẫn thuê xe máy từng bước]({{ '/huongdan.html' | relative_url }}) để biết trước quy trình từ chọn xe, đặt cọc đến nhận xe, giúp buổi bàn giao nhanh hơn.
 
 ## Kết luận
 

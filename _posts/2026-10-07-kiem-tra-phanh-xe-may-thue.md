@@ -9,6 +9,20 @@ primary_keyword: "kiểm tra phanh xe máy thuê"
 hub_parent: huong-dan
 hub_category: an-toan-su-co
 seo_hub: kinh-nghiem
+quick_answer: "Ngay tại khu vực nhận xe, chạy chậm một đoạn ngắn rồi bóp riêng phanh trước và phanh sau: phanh phải ăn ngay và xe không bị lệch. Nhìn thêm má phanh, mặt đĩa và thử ở dốc nhẹ; xe gạt về một bên khi phanh là lý do đề nghị đổi xe."
+qa:
+  - q: "Xe bị kéo lệch khi bóp phanh có nguy hiểm không?"
+    a: "Có. Xe gạt về một bên khi bóp phanh là dấu má phanh mòn không đều, nên đề nghị đổi xe ngay tại điểm nhận thay vì cố dùng cho cả chuyến."
+  - q: "Đi cung đèo dốc nên thuê xe có phanh đĩa không?"
+    a: "Nên. Với cung núi dốc, hãy yêu cầu xe có phanh đĩa trước; đi phố thì phanh vừa ổn vẫn chấp nhận được. Chở thêm người phía sau cũng đòi hỏi phanh tốt hơn."
+  - q: "Phanh yếu dần khi xuống dốc dài thì làm sao?"
+    a: "Kéo vào lề, để máy và phanh nguội rồi mới đi tiếp, vì phanh nóng sau dốc dài là hiện tượng thường gặp. Nếu nghỉ rồi vẫn yếu, gọi ngay nơi thuê và không tự vào tiệm sửa khi chưa thống nhất chi phí."
+  - q: "Làm sao tránh phanh bị nóng khi đổ dốc?"
+    a: "Hạ số để dùng phanh động cơ kết hợp với bóp phanh, thay vì đè phanh liên tục. Má phanh quá nóng mất hiệu quả chính là nguyên nhân khiến phanh yếu giữa dốc."
+  - q: "Xe 50cc dùng phanh trống thì cần kiểm tra gì?"
+    a: "Bóp phanh và nghe tiếng kêu, vì phanh trống mòn thường phát ra tiếng. Kết hợp chạy chậm thử từng bên để chắc phanh ăn đều trước khi rời điểm nhận."
+  - q: "Phanh xe máy điện có cảm giác khác xe xăng không?"
+    a: "Có. Xe điện có phanh hồi năng nên cảm giác phanh khác xe xăng, vì vậy hãy chạy thử chậm ở khu nhận xe để quen trước khi ra đường đông."
 ---
 Phanh là thứ không được phép sai trên xe thuê, vì bạn không biết người trước đã đi nó kiểu gì. Bài này trình bày cách kiểm tra phanh trong vài phút, trước khi rời điểm nhận.
 
@@ -37,6 +51,8 @@ Phanh nhả dần giữa cung thì kéo lề, để máy và phanh nguội rồi
 Chụp bốn góc xe kèm ghi chú về phanh ngay lúc nhận, thói quen trong bài chụp ảnh xe trước khi thuê, để nếu phanh hỏng sau này, hai bên có ảnh đối chiếu. Mang đủ giấy phép lái và giấy tờ xe theo danh sách trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/blog/thue-xe-may-ha-noi-can-giay-to-gi/' | relative_url }}), và trả đúng giờ theo khung trong bài phí trả xe muộn thuê xe máy.
 
 Với chuyến đi núi, nhắc lại nguyên tắc hạ số kết hợp phanh động cơ thay vì đè phanh liên tục, vì má phanh nóng mất hiệu quả chính là nguyên nhân khiến phanh yếu giữa dốc, phần kỹ thuật đã gợi ý trong bài [xe ga và xe số khi thuê]({{ '/blog/xe-ga-va-xe-so-khi-thue/' | relative_url }}).
+
+Nếu dự định đi đường dốc, có thể xem trước [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}) để hỏi nơi thuê đúng dòng xe phù hợp với cung đường của mình.
 
 ## Kết luận
 

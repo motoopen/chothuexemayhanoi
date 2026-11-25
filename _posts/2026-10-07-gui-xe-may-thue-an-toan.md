@@ -9,6 +9,18 @@ primary_keyword: "gửi xe máy thuê an toàn"
 hub_parent: huong-dan
 hub_category: an-toan-su-co
 seo_hub: kinh-nghiem
+quick_answer: "Gửi xe máy thuê an toàn là chọn bãi có người trông và phát vé, đỗ giữa bãi thay vì mép ngoài hay lối ra vào, khóa cổ kèm khóa phụ, giữ vé cẩn thận và không để mũ hay đồ đạc trên xe. Bãi không có vé thì chụp ảnh xe ngay khi đỗ."
+qa:
+  - q: "Làm mất vé gửi xe thì phải xử lý thế nào?"
+    a: "Thường phải trình giấy tờ xe và đôi khi bồi thường lệ phí cho bãi, việc này có thể làm bạn trễ giờ lấy xe và trễ cả giờ trả xe thuê. Vì vậy nên cất vé vào ngăn điện thoại hoặc ví, đừng cầm tay khi đi bộ."
+  - q: "Vì sao không nên đỗ xe ở mép ngoài bãi gửi?"
+    a: "Vì mép ngoài và lối ra vào là chỗ xe bị kê, bị chèn và bị người khác đẩy đi để mở đường nhiều nhất, nguồn trầy xước phổ biến. Đỗ giữa các xe đã dựng giúp xe ít bị va chạm hơn."
+  - q: "Bãi gửi có chịu trách nhiệm với mũ bảo hiểm để trên xe không?"
+    a: "Thường là không, bãi gửi không chịu trách nhiệm đồ để trên yên. Hãy mang theo mũ, găng và đồ mua sắm, hoặc cất vào cốp có khóa nếu bắt buộc phải để lại."
+  - q: "Gửi xe thuê qua đêm cần kiểm tra gì về giá gửi?"
+    a: "Chọn bãi trông xe có bảng giá qua đêm rõ ràng và chụp lại bảng giá để đối chiếu khi lấy xe, tránh bị cộng thêm phí. Ở khu phố cổ chỗ gửi thường chật, nên hỏi trước bãi gần khách sạn ngay khi nhận phòng."
+  - q: "Lấy xe ở bãi thấy vết xước mới thì làm gì?"
+    a: "Đối chiếu với ảnh đã chụp lúc đỗ; nếu là vết mới do bãi gây thì báo ngay quản lý bãi để có ghi nhận, rồi gọi cho nơi thuê. Ghi nhận tại chỗ giúp phân định chi phí rõ ràng hơn."
 ---
 Gửi xe là lúc xe rời khỏi tầm mắt bạn, và mọi rủi ro mất trộm hay trầy xước đều bắt đầu từ lúc đỗ. Với xe thuê, mỗi rủi ro lại dính đến khoản cọc, nên gửi xe an toàn là kỹ năng đáng tập như kỹ năng lái.
 
@@ -39,6 +51,8 @@ Qua đêm thì chọn bãi trông xe có bảng giá qua đêm rõ ràng, và ch
 ## Khi lấy xe thấy hư hỏng
 
 Kiểm xe theo đúng bộ góc ảnh đã chụp lúc đỗ: vết mới do bãi gây thì báo ngay quản bãi để có ghi nhận, rồi gọi nơi thuê qua trang liên hệ, trình tự xử lý đã có trong bài xe thuê bị hỏng giữa đường, và phần phân định chi phí nằm trong bài chi phí hư hỏng khi thuê xe máy. Nếu xe mất trong bãi có trông xe, trình báo ngay quản bãi và báo nơi thuê, thủ tục mất giấy tờ kèm xe đã có trong bài [mất giấy tờ xe thuê]({{ '/blog/mat-giay-to-xe-thue/' | relative_url }}).
+
+Khi thuê xe theo tháng, thói quen khóa đủ và gửi xe ở nơi an toàn cũng được nhắc trong [quy trình thuê xe tháng tại Motoopen]({{ '/huongdan.html' | relative_url }}), nên xem qua trước khi nhận xe.
 
 ## Kết luận
 

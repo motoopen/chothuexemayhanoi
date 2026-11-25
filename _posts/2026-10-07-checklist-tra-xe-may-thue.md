@@ -9,6 +9,20 @@ primary_keyword: "checklist trả xe máy thuê"
 hub_parent: huong-dan
 hub_category: an-toan-su-co
 seo_hub: kinh-nghiem
+quick_answer: "Trước khi bàn giao xe thuê, hãy chụp lại đủ góc, kiểm đồ kèm xe, đổ nhiên liệu theo quy ước, kể lại sự cố, lau xe, đến đúng giờ, đối chiếu hợp đồng, lấy biên nhận hoàn cọc, giao chìa tận tay và lưu liên hệ. Cả bộ mất khoảng mười lăm phút nếu chuẩn bị từ lúc nhận."
+qa:
+  - q: "Nên có mặt ở điểm trả xe sớm bao lâu so với giờ hẹn?"
+    a: "Đến trước giờ hẹn khoảng mười phút là chuẩn, đủ để chụp ảnh, đối chiếu và ký biên nhận. Nếu có nguy cơ trễ, hãy báo tin trước; trả sớm hơn dự kiến cũng nên báo để hai bên chủ động."
+  - q: "Khi trả xe cần lấy xác nhận gì để chắc được hoàn cọc?"
+    a: "Nên yêu cầu biên nhận hoặc tin nhắn xác nhận đã trả xe đúng giờ, xe nguyên trạng, cùng thông tin cọc hoàn về tài khoản nào và trong bao lâu. Đây là bằng chứng quan trọng nếu khoản cọc về chậm."
+  - q: "Vết va quẹt đã báo trong chuyến có cần nhắc lại lúc trả xe không?"
+    a: "Có. Kể cả vết đã báo trước, vẫn nên kể lại đầy đủ khi trả để nơi thuê kiểm lại tại chỗ; nếu xe từng hỏng giữa đường, mang theo hóa đơn sửa chữa để hai bên đối chiếu."
+  - q: "Có cần rửa xe thuê trước khi mang trả không?"
+    a: "Không nhất thiết phải rửa, nhưng nên lau khô người xe để vết cũ và vết mới hiện rõ lúc đối chiếu. Sau chuyến đi mưa bùn, rửa nhẹ ở điểm rửa gần chỗ trả vừa là phép lịch sự vừa giúp kiểm tra nhanh hơn."
+  - q: "Trả xe máy điện thuê cần làm thêm những việc gì?"
+    a: "Sạc về đúng phần trăm pin đã thỏa thuận, trả đủ bộ sạc đi kèm, và nếu xe có ghép app thì đề nghị nơi thuê ngắt kết nối điện thoại của bạn khỏi xe trước khi rời đi."
+  - q: "Để chìa khóa trên yên rồi đi khi trả xe có sao không?"
+    a: "Không nên. Chìa cần giao trực tiếp vào tay người nhận, vì để chìa trên yên rồi đi là cách mất chìa phổ biến nhất và dễ dẫn đến tranh cãi sau khi bạn đã rời điểm trả."
 ---
 Trả xe nhanh gọn không phải là giao xe rồi đi, mà là làm đủ mười việc nhỏ để không bị nhắc lại sau khi bạn đã rời đi. Bộ này mất khoảng mười lăm phút nếu chuẩn bị sẵn từ lúc nhận xe.
 

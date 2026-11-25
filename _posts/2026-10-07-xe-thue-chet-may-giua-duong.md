@@ -9,12 +9,26 @@ primary_keyword: "xe thuê chết máy giữa đường"
 hub_parent: huong-dan
 hub_category: an-toan-su-co
 seo_hub: kinh-nghiem
+quick_answer: "Khi xe thuê chết máy giữa đường, hãy tấp vào lề an toàn, bật đèn báo vị trí, kiểm tra nhanh xăng, công tắc và khóa, gọi nơi thuê báo vị trí, giữ xe và chìa bên mình, lưu ảnh cùng giờ gọi, rồi làm đúng hướng xử nơi thuê đưa ra."
+qa:
+  - q: "Xe thuê tắt máy đột ngột khi đang chạy thì làm gì đầu tiên?"
+    a: "Giữ bình tĩnh, không phanh gấp giữa dòng xe; tận dụng đà còn lại để tấp từ từ vào lề gần nhất, bật xi nhan hoặc ra hiệu tay, chọn chỗ phẳng tránh miệng cống rồi đứng về phía an toàn ngoài làn xe chạy."
+  - q: "Có nên tự tháo máy hay kiểm tra dây điện xe thuê không?"
+    a: "Không nên. Chỉ kiểm tra nhanh bình xăng, công tắc đèn, khóa cổ và xem xi nhan còn sáng không để biết bình còn điện; tháo máy hoặc chọc dây điện khi chưa được đồng ý dễ bị tính vào khoản tự sửa."
+  - q: "Gọi cho nơi thuê khi xe chết máy cần nói những thông tin gì?"
+    a: "Nói vị trí theo cột mốc hoặc địa điểm dễ nhận biết gần nhất, tình trạng máy và thời điểm chết máy. Với Motoopen, gọi hoặc nhắn Zalo 0857 255 868; cách hỗ trợ cụ thể như cử người tới hay chỉ chỗ sửa nên hỏi rõ khi đặt xe."
+  - q: "Chờ hỗ trợ lâu có thể gửi xe nhờ quán gần đó không?"
+    a: "Chỉ nên nhờ khi thật cần, và ghi lại biển số, chụp xe từ hai góc trước khi gửi. Không giao xe cho người lạ nhận giúp và luôn giữ chìa khóa bên mình, vì mất chìa lúc chờ là thêm rủi ro."
+  - q: "Chết máy làm trễ giờ trả xe thì có bị tính phí không?"
+    a: "Có thể phát sinh tùy điều khoản, nên hãy báo nơi thuê trước thay vì để trễ tự nhiên. Lưu ảnh vị trí, giờ gọi và tên người nhận cuộc gọi để khi trả xe mọi việc minh bạch."
+  - q: "Làm sao giảm nguy cơ chết máy khi thuê xe?"
+    a: "Kiểm tra kỹ lúc nhận xe, vì phần lớn trường hợp đến từ công tắc, bình điện yếu hoặc lỏng giắc, đều có thể phát hiện trong khoảng mười phút. Chọn nơi cho thuê có hỗ trợ khi xe gặp sự cố giữa chặng cũng là tiêu chí nên cân nhắc."
 ---
 Chết máy giữa đường không nguy hiểm bằng cách phản ứng sai: phanh gấp giữa dòng xe hoặc đứng lơ đãng giữa làn. Bảy bước dưới giữ an toàn cho bạn và giữ rõ trách nhiệm với nơi thuê.
 
 ## Bước một: dừng vào chỗ an toàn
 
-Khi máy chết, bạn vẫn còn quán xế lãi xe, nên tấp từ từ sang lề gần nhất, mở xi nhan hoặc ra tay hiệu, và chọn chỗ phẳng tránh miệng cống. Đứng về phía rào chắn ngoài xe, không đứng giữa làn dòng xe chạy.
+Khi máy chết, bạn vẫn còn quán tính để xe lăn bánh, nên tấp từ từ sang lề gần nhất, mở xi nhan hoặc ra tay hiệu, và chọn chỗ phẳng tránh miệng cống. Đứng về phía rào chắn ngoài xe, không đứng giữa làn dòng xe chạy.
 
 ## Bước hai: bật đèn báo hiệu vị trí
 
@@ -43,6 +57,8 @@ Nếu nơi thuê yêu cầu kéo về điểm gần nhất thì kéo, không c�
 ## Phòng trước bằng kiểm nhận kỹ
 
 Phần lớn chết máy giữa đường đến từ công tắc cốt, bình yếu hoặc lỏng giắc, đều bắt được trong mười phút kiểm nhận theo bài checklist 10 phút trước khi nhận xe, và chọn nơi có hỗ trợ giữa chặng cũng là tiêu chí chọn, phần đã nêu trong bài [thuê xe máy Hà Nội uy tín]({{ '/blog/thue-xe-may-ha-noi-uy-tin/' | relative_url }}).
+
+Trước khi nhận xe, đọc qua [quy trình xử lý sự cố khi thuê xe]({{ '/huongdan.html' | relative_url }}) của Motoopen giúp bạn biết trước cần liên hệ thế nào nếu xe trục trặc giữa đường.
 
 ## Kết luận
 

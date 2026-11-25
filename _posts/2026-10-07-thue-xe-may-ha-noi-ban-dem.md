@@ -9,6 +9,18 @@ primary_keyword: "thuê xe máy hà nội ban đêm"
 hub_parent: thue-xe
 hub_category: bat-dau-thue
 seo_hub: kinh-nghiem
+quick_answer: "Trước khi nhận xe cho lịch ban đêm, hãy xác nhận tám điều chia ba nhóm: đèn, phanh, còi và gương hoạt động tốt; khung giờ mở cửa, cách hỗ trợ sự cố khuya và phụ phí ngoài giờ; cùng giấy tờ gốc và điều khoản trả trễ trong hợp đồng."
+qa:
+  - q: "Motoopen mở cửa đến mấy giờ để nhận hoặc trả xe buổi tối?"
+    a: "Cửa hàng Motoopen tại 114 Nguyễn Văn Cừ, Long Biên mở cửa từ 09:00 đến 21:00 hằng ngày. Nếu lịch của bạn cần nhận hoặc trả xe ngoài khung này, nên hỏi rõ khả năng và chi phí qua số 0857 255 868 ngay khi đặt."
+  - q: "Cần kiểm tra đèn xe thế nào khi nhận xe để chạy đêm?"
+    a: "Bật thử đèn pha, đèn hậu và chuyển qua lại chế độ pha cốt ngay tại điểm nhận, vì ban đêm đèn là yếu tố an toàn chính. Nếu khung giờ cho phép, chạy thử một vòng ngắn trong chỗ tối để chắc đèn đủ sáng và phanh ăn ngay ở tốc độ thấp."
+  - q: "Xe hỏng lúc nửa đêm thì có gọi được cửa hàng không?"
+    a: "Không nên mặc định là có. Trước khi nhận xe, hãy hỏi rõ số hotline có nghe máy khuya không và quy trình xử lý sự cố giữa đêm ra sao; với Motoopen, nên hỏi trực tiếp điều này khi đặt thay vì đoán."
+  - q: "Thuê xe điện để đi đêm cần lưu ý gì về pin?"
+    a: "Nên hỏi pin còn đủ cho quãng đường dự kiến trong đêm không và điểm sạc gần tuyến có mở khuya không. Hết pin giữa phố vắng ban đêm khó xử lý hơn ban ngày nhiều, nên tính dư quãng đường so với kế hoạch."
+  - q: "Chạy xe đêm ở Hà Nội nên mang theo những gì?"
+    a: "Nên mang pin sạc dự phòng cho điện thoại, áo mưa mỏng phòng khi khuya trở lạnh và nước lọc để giữ tỉnh táo. Lưu sẵn lộ trình cùng vài trạm xăng lớn mở khuya trên tuyến chính, và báo người thân lộ trình dự kiến."
 ---
 Đi xe máy ban đêm ở Hà Nội rủi ro hơn ban ngày vì đèn đường thiếu cục bộ, dòng xe tải lớn và tầm nhìn hạn chế. Trước khi nhận xe cho lịch đêm, có tám điều nên xác nhận với cửa hàng để không gặp sự cố giữa khuya.
 
@@ -31,6 +43,8 @@ Trên đường đêm, đi với tốc độ vừa phải, pha đèn đúng quy 
 ## Chuẩn bị lộ trình và vật dụng cho khuya
 
 Trước khi lăn bánh, phác sẵn lộ trình các điểm dừng trong đêm để không phải tra bản đồ giữa phố thiếu sáng. Lưu sẵn địa chỉ những trạm xăng lớn mở khuya trên tuyến chính, vì nhiều điểm xăng đóng sau nửa đêm. Mang theo điện thoại dự phòng hoặc pin sạc ngoài, kể cả áo mưa mỏng cho khuya trở lạnh và nước lọc để tỉnh táo. Báo một người thân lộ trình dự kiến để có người biết bạn đang ở đâu trong khung qua đêm. Nếu chạy theo nhóm, thống nhất trước đèn báo hiệu khi tách xe, vì ban đêm kèn liên lạc bằng giọng nói khó nghe giữa gió. Chuẩn bị càng kỹ, các tình huống bất ngờ trong đêm càng không đủ sức làm kế hoạch của bạn đổ vỡ.
+
+Nếu đây là lần đầu bạn thuê xe ở Motoopen, xem trước [hướng dẫn quy trình thuê xe]({{ '/huongdan.html' | relative_url }}) để nắm các bước chọn xe, đặt cọc, nhận xe và xử lý sự cố trước khi lên lịch chạy đêm.
 
 ## Kết luận
 

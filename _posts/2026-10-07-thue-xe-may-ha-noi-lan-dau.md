@@ -9,6 +9,18 @@ primary_keyword: "thuê xe máy hà nội lần đầu"
 hub_parent: thue-xe
 hub_category: bat-dau-thue
 seo_hub: kinh-nghiem
+quick_answer: "Người thuê lần đầu nên xác định nhu cầu, đặt xe sớm, mang giấy tờ gốc, hỏi rõ giá trọn gói, tiền cọc và điều kiện hoàn, đọc hợp đồng trước khi ký, kiểm tra và chụp ảnh xe khi nhận, rồi giữ liên lạc với bên cho thuê suốt vòng thuê."
+qa:
+  - q: "Thuê xe máy lần đầu ở Motoopen cần mang giấy tờ gì?"
+    a: "Cần CCCD hoặc hộ chiếu cùng bằng lái phù hợp loại xe, thường là A1. Nếu chưa có bằng A1, Motoopen tư vấn xe 50cc hoặc xe điện; người nước ngoài cần hộ chiếu và bằng lái quốc tế hợp lệ. Nếu chưa chắc, nên kiểm tra quy định hiện hành."
+  - q: "Tiền cọc thuê xe lần đầu khoảng bao nhiêu?"
+    a: "Mức cọc ở Motoopen tùy dòng xe, xem bảng giá hoặc hỏi khi đặt. Điều quan trọng là hỏi rõ cả hình thức giữ cọc, thời gian hoàn và các trường hợp bị trừ trước khi ký, vì đây là chỗ người mới hay bỏ qua."
+  - q: "Chưa quen xe thì nên làm gì ngay sau khi nhận?"
+    a: "Thử khởi động và dắt xe lăn vài mét để cảm nhận tay ga, phanh, rồi tập vài phút ở chỗ vắng thay vì đi thẳng vào dòng xe đông. Nếu chưa quen xe số, có thể hỏi các dòng xe ga dễ điều khiển hơn ngay khi đặt."
+  - q: "Người mới thuê xe hay quên những việc gì?"
+    a: "Hay quên hỏi giá trị cọc và điều kiện hoàn, không đọc điều khoản giờ trả, nhận xe vội nên bỏ qua kiểm tra, và không lưu số hỗ trợ. Với Motoopen, hãy lưu sẵn số 0857 255 868 trước khi rời cửa hàng."
+  - q: "Lần đầu ở Hà Nội lâu ngày thì thuê theo ngày hay theo tháng?"
+    a: "Nếu ở từ vài tuần trở lên và đi lại hằng ngày, thuê theo tháng thường hợp lý hơn gia hạn từng ngày. Bảng giá Motoopen hiện công bố thuê tháng khoảng 1–2 triệu tùy dòng xe, thuê ngày từ 150k đến 200k; giá chốt khi liên hệ."
 ---
 Nếu bạn chưa từng thuê xe máy ở Hà Nội, vòng đầu tiên thường kéo theo nhiều câu hỏi: cần mang giấy tờ gì, cọc bao nhiêu, xe gặp sự cố thì xử lý ra sao. Bài này tổng hợp mười hai điều nên biết trước khi nhận xe, sắp xếp theo đúng trình tự bạn sẽ trải qua.
 
@@ -27,6 +39,8 @@ Chín, kiểm tra xe theo trình tự: đèn, còi, phanh trước và sau, lố
 ## Những lỗi phổ biến của người thuê lần đầu
 
 Người mới thường mắc vài lỗi dễ tránh. Thứ nhất, chỉ hỏi giá thuê mà quên hỏi giá trị cọc và điều kiện hoàn trả, dẫn đến bất ngờ tài chính cuối vòng thuê. Thứ hai, không đọc kỹ điều khoản về giờ trả xe, trong khi trả trễ thường phát sinh phụ phí tính theo giờ. Thứ ba, nhận xe lúc vội nên bỏ qua kiểm tra, đến khi trả xe mới phát hiện tranh cãi về vết xước có sẵn. Thứ tư, không lưu số hỗ trợ của bên cho thuê, nên khi xe gặp sự cố giữa đường không biết gọi ai. Tránh được bốn lỗi này, bạn đã hơn phần lớn khách thuê lần đầu.
+
+Để hình dung trọn vòng thuê trước khi liên hệ, bạn có thể xem [trang hướng dẫn thuê xe]({{ '/huongdan.html' | relative_url }}) của Motoopen, gồm chọn xe, đặt cọc, nhận xe và xử lý sự cố.
 
 ## Trong và sau vòng thuê
 

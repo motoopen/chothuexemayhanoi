@@ -9,6 +9,20 @@ primary_keyword: "va quẹt nhẹ xe thuê"
 hub_parent: huong-dan
 hub_category: an-toan-su-co
 seo_hub: kinh-nghiem
+quick_answer: "Khi va quẹt nhẹ với xe thuê, hãy dừng hẳn và kiểm tra người trước, chụp hiện trường trước khi dắt xe, chụp cận vết hư và so với ảnh lúc nhận, báo nơi thuê sớm qua tin nhắn kèm ảnh, rồi chủ động kể lại khi trả xe."
+qa:
+  - q: "Va quẹt nhẹ có cần báo nơi thuê ngay không?"
+    a: "Nên báo sớm, gửi hai ba ảnh và mô tả ngắn qua kênh tin nhắn đã dùng lúc nhận xe. Báo sớm tạo ghi nhận đúng thời điểm, và nơi thuê có thể cho biết vết đó nằm trong mức thông thường hay cần chốt bồi thường."
+  - q: "Có nên tự mang xe thuê đi sơn lại vết xước không?"
+    a: "Không nên tự sơn trước khi hỏi nơi thuê. Sơn lệch màu có khi còn khó trả xe hơn vết xước gốc, và phần lỗi do mình gây ra thường được tính theo thỏa thuận trong hợp đồng."
+  - q: "Quẹt vào gương ô tô đang đỗ thì xử lý thế nào?"
+    a: "Dừng lại, chụp ảnh vị trí hai bên và trao đổi ngay tại chỗ với người liên quan, không dắt xe đi trước rồi tính sau. Nếu thỏa thuận bồi thường nhỏ, ghi rõ số tiền và nội dung bằng tin nhắn giữa hai bên."
+  - q: "Làm sao chứng minh vết xước không phải do mình gây ra?"
+    a: "So vết đó với bộ ảnh chụp lúc nhận xe; nếu vết đã có trong ảnh nhận thì đó là vết cũ. Vì vậy hãy chụp kỹ quanh xe khi nhận, nhất là khu vực che bánh, nơi vết xước dễ bị quy là mới."
+  - q: "Sau va quẹt, khi nào thì có thể tiếp tục chạy xe thuê?"
+    a: "Khi người không bị thương, xe vẫn hoạt động bình thường về phanh, đèn, lái và nơi thuê đồng ý cho tiếp tục. Nếu té nhẹ nhưng có va đầu, đừng chạy đường dài ngay."
+  - q: "Vết hư do va quẹt có bị trừ vào tiền cọc không?"
+    a: "Có thể, tùy thỏa thuận trong hợp đồng về phần hư hỏng do lỗi người thuê. Mức cọc ở Motoopen tùy dòng xe; cách tính khi có vết hư nên hỏi rõ lúc ký và đối chiếu bằng ảnh khi trả."
 ---
 Va quẹt nhẹ là sự cố ai cũng gặp: đổ xe khi dắt, cấn vào cột khi lùi, hoặc chạm gương ở ngõ nhỏ. Với xe tư nhân thì xước vài chỗ là chuyện nhỏ, nhưng với xe thuê thì mọi vết đều được đối chiếu lúc trả, nên cách ghi nhận quyết định bạn trả thêm hay không.
 
@@ -39,6 +53,8 @@ Phần lỗi mình gây ra thường tính theo thỏa thuận trong hợp đồ
 ## Kể lại đầy đủ lúc trả xe
 
 Lúc trả, chủ động chỉ vết và bộ ảnh đã gửi, đừng để nơi thuê phát hiện trước, vì chủ động ghi nhận luôn được xử thiện chí hơn. Quy trình trả và đối chiếu đã trình bày trong bài [trả xe khác điểm Hà Nội]({{ '/blog/tra-xe-khac-diem-ha-noi/' | relative_url }}), và nếu va quẹt làm bạn trễ giờ trả thì báo trước để tính phụ phí theo khung đã nêu trong bài phí trả xe muộn thuê xe máy.
+
+Nếu muốn nắm trước cách liên hệ khi có tình huống phát sinh, bạn có thể đọc phần xử lý sự cố trong [hướng dẫn thuê xe của Motoopen]({{ '/huongdan.html' | relative_url }}).
 
 ## Kết luận
 

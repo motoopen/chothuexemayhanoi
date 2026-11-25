@@ -9,6 +9,18 @@ primary_keyword: "thuê xe máy hà nội mùa lạnh"
 hub_parent: thue-xe
 hub_category: bat-dau-thue
 seo_hub: kinh-nghiem
+quick_answer: "Thuê xe mùa lạnh nên mặc nhiều lớp, mang găng tay dày và khẩu trang giữ ấm, chọn xe ga có chắn gió nếu đi chặng dài, để máy nổ ổn vài phút và thử phanh, đèn khi nhận, tránh khung sương mù sớm và giữ xe nơi kín gió qua đêm."
+qa:
+  - q: "Sáng lạnh xe khó nổ thì có phải xe kém không?"
+    a: "Không hẳn. Nhiệt độ thấp làm dầu đặc nên máy nổ lâu hơn, hãy để máy chạy ổn vài phút rồi thử ga. Nhưng nếu ngay lúc nhận xe đã nổ rất khó hoặc có tiếng lạ, nên đề nghị đổi xe khác ngay tại điểm nhận."
+  - q: "Thuê xe điện vào mùa lạnh cần hỏi gì khi nhận?"
+    a: "Nên hỏi kỹ tình trạng pin và quãng đường dự kiến, vì nhiệt độ thấp ảnh hưởng đến mức pin hiển thị, đồng thời tính dư cho chặng về. Với chặng dài trong lạnh, xe ga có chắn gió thường thoải mái hơn."
+  - q: "Trời sương mù buổi sớm có nên chạy xe không?"
+    a: "Nếu được, nên lùi lịch sang giữa buổi sáng khi sương đã tan, vì sương mù làm tầm nhìn giảm rõ rệt. Bắt buộc phải đi thì bật đèn, giảm tốc và giữ khoảng cách xa hơn với xe phía trước."
+  - q: "Mặc gì khi chạy xe máy ngày rét ở Hà Nội?"
+    a: "Mặc nhiều lớp áo thay vì một áo thật dày để dễ cởi bớt khi trưa nắng lên, kèm găng tay dày, khẩu trang giữ ấm, khăn che cổ, quần dài và giày kín. Tay và mặt là hai chỗ chịu rét nhiều nhất."
+  - q: "Chạy đường dài ngày lạnh bao lâu thì nên nghỉ?"
+    a: "Nên nghỉ ngắn khoảng mỗi giờ một lần, vào nơi kín gió, vận động tay chân và uống nước ấm. Khi tay tê cứng hoặc run thì dừng hẳn, vì lúc đó khả năng xử lý tình huống đã giảm nhiều."
 ---
 Mùa lạnh ở Hà Nội mang theo rét đậm rét hại kèm gió mùa, chạy xe trong điều kiện này khác hẳn ngày nắng ấm. Thuê xe máy mùa lạnh cần chuẩn bị trang phục và kiểm tra xe kỹ hơn. Bài này nói các lưu ý khi nhận và chạy xe thuê trong ngày lạnh.
 
@@ -31,6 +43,8 @@ Mùa lạnh có những ngày sương mù buổi sớm làm giảm tầm nhìn r
 ## Giữ xe qua đêm trong lạnh
 
 Đêm mùa lạnh có sương muối và độ ẩm, nên để xe trong sân có mái che hoặc bãi gửi kín gió nếu có thể. Trước khung trả xe, nổ máy sớm vài phút cho máy ổn định rồi mới lăn bánh, đừng mở ga lớn ngay khi máy còn lạnh. Khi trả xe, trình diện đúng hẹn và lau xe sạch để nhận lại cọc nhanh. Điều khoản hợp đồng nằm ở trang thủ tục thuê xe, kinh nghiệm gói dài ngày cho mùa lạnh nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}).
+
+Nếu cần nắm lại các bước nhận xe và cách xử lý khi xe trục trặc, xem [hướng dẫn nhận xe và xử lý sự cố]({{ '/huongdan.html' | relative_url }}) của Motoopen trước ngày đi.
 
 ## Kết luận
 

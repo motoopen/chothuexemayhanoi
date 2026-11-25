@@ -9,6 +9,20 @@ primary_keyword: "kiểm tra lốp xe máy thuê"
 hub_parent: huong-dan
 hub_category: an-toan-su-co
 seo_hub: kinh-nghiem
+quick_answer: "Nhìn lốp xe thuê trong khoảng hai phút: đọc gai ở giữa, hai vai và sát mép, bóp thành lốp xem đủ hơi, rồi quét tìm vết nứt, mảng vá lộ hay chỗ phồng. Gai mòn tới chỉ báo hoặc thành lốp nứt, phồng là dấu hiệu nên đề nghị đổi xe."
+qa:
+  - q: "Lốp mòn lệch một bên nói lên điều gì?"
+    a: "Gai mòn một vai là dấu xe chạy lệch hoặc giảm xóc yếu, còn mòn thành vệt loang là dấu từng chạy non hơi lâu. Gai mòn đều ở chính giữa là mòn bình thường."
+  - q: "Không có đồng hồ đo áp suất thì kiểm tra hơi lốp thế nào?"
+    a: "Bóp mạnh hai bên thành lốp: thành cứng là đủ hơi, mềm lún là non. Nếu nghi non, hỏi nơi thuê về áp suất chuẩn hoặc bơm theo thông số ghi trên thành lốp."
+  - q: "Lốp non hơi ảnh hưởng gì khi đi xe thuê?"
+    a: "Lốp non làm xe đầm vặt và hao xăng hơn. Nếu thấy xe nặng dần giữa chặng, nên ghé trạm bơm sớm, bơm theo áp suất ghi trên thành lốp và kiểm tra xem có dằm cắm vào lốp không."
+  - q: "Lốp xe thuê bị nổ khi đang chạy thì xử lý ra sao?"
+    a: "Giữ chắc tay lái, kéo xe vào lề và không phanh gấp, sau đó gọi nơi thuê để được hướng dẫn. Chụp lại lốp và vị trí sự cố để đối chiếu phần chi phí sau này."
+  - q: "Trước chuyến đi đường núi cần kiểm tra lốp kỹ hơn thế nào?"
+    a: "Cần lốp gai sâu, đủ hơi và không có vá cũ gần vai lốp, vì dốc ướt là điều kiện khắc nghiệt nhất với lốp yếu. Với hành trình nhiều ngày, mang bộ bơm mini và bơm lại mỗi sáng trước khi xuất phát."
+  - q: "Lốp xe điện và xe 50cc cần chú ý gì riêng?"
+    a: "Xe điện nặng do pin nên lốp cần được giữ đủ hơi hơn; xe 50cc lốp nhỏ, mòn nhanh nếu chở nặng. Với cả hai dòng, hãy chụp cận hai lốp lúc nhận để đối chiếu khi trả."
 ---
 Lốp là bộ phận giữ bạn dính mặt đường, và trên xe thuê nó là thứ bị mặc nhiều nhất mà ít người kiểm. Bài này hướng dẫn đọc lốp trong hai phút bằng mắt thường.
 
@@ -37,6 +51,8 @@ Chụp cận hai lốp ngay lúc nhận, kèm ảnh bốn góc xe theo thói que
 Non dần giữa cung thì ghé trạm bơm sớm, bơm theo áp suất ghi trên thành lốp, và kiểm tra dằm nếu có. Nổ lốp thì kéo lề, không phanh gấp, và gọi nơi thuê qua trang liên hệ theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}), phần chi phí đã phân trong bài chi phí hư hỏng khi thuê xe máy.
 
 Trước các cung núi như Ba Vì hay Tam Đảo, chuẩn bị lốp còn kỹ hơn: gai sâu, đủ hơi, và không có vá cũ gần vai lốp, vì dốc ướt là điều kiện khắc nhất cho lốp yếu, phần chuẩn bị cung núi đã trình bày trong bài [thuê xe máy Hà Nội đi Ba Vì]({{ '/blog/thue-xe-may-ha-noi-di-ba-vi/' | relative_url }}) và bài thuê xe máy Hà Nội đi Tam Đảo. Với hành trình dài nhiều ngày, mang theo bộ bơm mini và bơm lại mỗi sáng trước khi xuất phát, vì lốp non dần qua đêm ở nhiệt độ thấp dễ gây cảm giác xe nặng từ ngày thứ hai, và nên đổi lịch chạy cung núi nếu mưa đêm hôm trước.
+
+Bước kiểm tra lốp nằm trong chuỗi rà phanh, đèn, còi và chụp ảnh lúc nhận xe, được tóm lược trong phần [các bước kiểm tra khi nhận xe]({{ '/huongdan.html' | relative_url }}) cho người dùng xe dài ngày.
 
 ## Kết luận
 
