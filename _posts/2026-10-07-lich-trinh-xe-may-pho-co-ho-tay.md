@@ -9,8 +9,22 @@ primary_keyword: "lịch trình xe máy phố cổ hồ tây"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
 seo_hub: hanh-trinh
+quick_answer: "Nên đi một chiều theo trục: bắt đầu phía Nam Hồ Tây với các bảo tàng, vòng lên phía Bắc cho vườn và quán, rồi quay về Phố Cổ theo hướng trung tâm. Chọn xe ga gọn, di chuyển ngoài giờ cao điểm và đặt giờ trả có dư."
+qa:
+  - q: "Từ Phố Cổ ra Hồ Tây xa bao nhiêu?"
+    a: "Chỉ chừng mười ki lômét, nên quãng đường không phải vấn đề. Cái làm mất thời gian là chạy qua lại giữa các điểm, vì vậy hãy xếp điểm thành một trục và đi một chiều."
+  - q: "Giờ nào các trục giữa Phố Cổ và Hồ Tây kẹt nặng nhất?"
+    a: "Khoảng bảy giờ tới tám giờ rưỡi sáng và năm giờ tới bảy giờ tối. Nên di chuyển giữa các điểm vào khung trưa hoặc muộn hơn, còn lúc cao điểm thì dành để tham quan, ăn uống."
+  - q: "Muốn trả xe sớm hơn giờ hẹn thì có được tính lại tiền không?"
+    a: "Tùy chính sách từng nơi, nên hỏi cách quy đổi khi trả sớm ngay lúc thuê, kể cả khi thuê ở Motoopen. Ngược lại, nếu thấy sẽ trễ, hãy gọi báo trước thay vì để quá giờ hẹn."
+  - q: "Đi trong nội đô có bị kiểm tra giấy tờ như khi đi tỉnh không?"
+    a: "Có thể có. Tuần tra trong phố cũng kiểm tra đủ giấy tờ, nên mang giấy phép lái, căn cước, đăng ký xe và giấy bảo hiểm, để giấy tờ xe luôn theo xe trong túi kèm."
+  - q: "Trời nồm hoặc mưa phùn có nên đi lịch Phố Cổ, Hồ Tây không?"
+    a: "Vẫn đi được nhưng nên dời sang buổi trưa, khi đường bớt trơn và tầm nhìn tốt hơn. Giảm tốc, giữ khoảng cách và mang áo mưa, vì mưa phố thường tới nhanh vào buổi chiều."
+  - q: "Lần đầu thuê xe ở Hà Nội cho lịch trình này cần chuẩn bị gì?"
+    a: "Nên đọc trước quy trình nhận xe và chuẩn bị sẵn giấy tờ để khâu lấy xe không ngốn nửa buổi sáng. Tại Motoopen, cần căn cước hoặc hộ chiếu và bằng lái phù hợp loại xe; cửa hàng mở cửa từ 09:00."
 ---
-Đi từ Phố Cổ ra Hồ Tay chỉ chừng mười ki lômét, nhưng ai cứ điểm theo danh sách tham quan đều kết thúc buổi với cảm giác chạy vòng cả buổi. Bài này giúp xếp các điểm thành một trục để đi một chiều, không chạy qua lại.
+Đi từ Phố Cổ ra Hồ Tây chỉ chừng mười ki lômét, nhưng ai cứ điểm theo danh sách tham quan đều kết thúc buổi với cảm giác chạy vòng cả buổi. Bài này giúp xếp các điểm thành một trục để đi một chiều, không chạy qua lại.
 
 ## Nhóm điểm theo trục
 

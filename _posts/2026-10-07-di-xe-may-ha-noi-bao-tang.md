@@ -9,6 +9,18 @@ primary_keyword: "đi xe máy hà nội bảo tàng"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
 seo_hub: hanh-trinh
+quick_answer: "Nên xếp bảo tàng theo tuyến trong ngày: sáng sớm cho bảo tàng trong phố, trưa cho nhóm gần Hồ Tây, chiều cho nhóm ngoại ô phía tây. Kiểm tra giờ mở cửa và ngày nghỉ từ tối hôm trước, thuê xe theo ngày và chuyển điểm vào giữa trưa để né cao điểm."
+qa:
+  - q: "Một ngày đi xe máy nên ghép mấy bảo tàng ở Hà Nội?"
+    a: "Chỉ nên hai đến ba bảo tàng. Mỗi điểm cần khoảng một hai tiếng bên trong, cộng thời gian di chuyển, gửi xe và nghỉ, nên ghép nhiều hơn dễ bị giờ đóng cửa cắt ngang lịch."
+  - q: "Đến bảo tàng sát giờ đóng cửa có vào được không?"
+    a: "Có thể không, vì nhiều bảo tàng dừng bán vé trước giờ đóng và nghỉ một ngày cố định trong tuần. Nên xếp điểm xa nhất vào sáng sớm và không để điểm mình muốn xem nhất vào cuối ngày."
+  - q: "Bảo tàng ở Hà Nội có chỗ gửi xe máy không?"
+    a: "Đa số có bãi xe máy, nhưng một số bảo tàng trong phố nhỏ chỉ có điểm gửi lẻ quanh đó. Nên tính trước khoản gửi xe cho cả ngày và đỗ đúng nơi quy định, vì đỗ sai quanh khu bảo tàng có thể bị xử phạt."
+  - q: "Thuê xe cả ngày đi bảo tàng ở Motoopen giá tham khảo bao nhiêu?"
+    a: "Giá ngày tham khảo từ 150k cho xe số hoặc Click/Mio đến 200k cho Vision, Air Blade, giá chốt khi liên hệ. Ngày bảo tàng thường kéo từ sáng tới chiều nên gói theo ngày hợp hơn tính theo giờ."
+  - q: "Mùa đông đi bảo tàng ngoại ô bằng xe máy nên chọn giờ nào?"
+    a: "Nên dành khung giữa trưa, lúc trời ấm nhất, cho bảo tàng ngoại ô, còn sáng sớm cho bảo tàng trong phố. Tận dụng quán hoặc ghế nghỉ trong sân bảo tàng để nghỉ giữa hai điểm thay vì chạy liền."
 ---
 Hà Nội có nhóm bảo tàng nằm rải từ phố cổ tới vành đai, và xe máy là phương tiện hợp để chạy hội lộ trong một ngày. Nhưng bảo tàng khác quán cà phê: giờ mở cửa khép lịch, và mỗi điểm cần một hai tiếng bên trong.
 
@@ -34,7 +46,7 @@ Chuyển điểm vào giữa trưa, né hai khung kẹt đã nêu trong bài [th
 
 ## Giấy tờ và sự cố
 
-Mang giấy phép lái, căn cận, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài thuê xe máy Hà Nội cần giấy tờ gì. Sự cố giữa các điểm gọi nơi thuê theo trình tự trong bài xe thuê bị hỏng giữa đường, phần chi phí sửa đã phân trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/blog/chi-phi-hu-hong-khi-thue-xe-may/' | relative_url }}).
+Mang giấy phép lái, căn cước, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài thuê xe máy Hà Nội cần giấy tờ gì. Sự cố giữa các điểm gọi nơi thuê theo trình tự trong bài xe thuê bị hỏng giữa đường, phần chi phí sửa đã phân trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/blog/chi-phi-hu-hong-khi-thue-xe-may/' | relative_url }}).
 
 Một lưu ý nhỏ: bảo tàng ở Hà Nội thường có quán hoặc ghế nghỉ trong sân, nên tận dụng điểm giữa để nghỉ giữa hai điểm, và mùa đông thì chọn khung giữa trưa ấm nhất cho bảo tàng ngoại ô, phần lên lịch theo thời tiết đã gợi ý trong bài [thuê xe máy Hà Nội mùa lạnh]({{ '/blog/thue-xe-may-ha-noi-mua-lanh/' | relative_url }}).
 

@@ -9,6 +9,18 @@ primary_keyword: "thuê xe máy hà nội đi cát bà"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
 seo_hub: hanh-trinh
+quick_answer: "Trước khi thuê xe đi Cát Bà, hãy quyết phương án vận chuyển: mang xe qua phà theo lịch hiện hành, hoặc gửi xe tại bến rồi đi tàu cao tốc và thuê xe khác trên đảo. Dù chọn cách nào, nên hỏi trước nơi thuê về việc xe rời đất liền và kiểm tra lịch phà trước ngày đi."
+qa:
+  - q: "Có mang được xe máy thuê lên phà ra Cát Bà không?"
+    a: "Còn tùy điều kiện từng bến, từng thời điểm và chính sách của nơi thuê. Nếu thuê ở Motoopen, hãy hỏi rõ khi đặt, đồng thời chuẩn bị sẵn phương án gửi xe tại bến nếu không mang lên phà được."
+  - q: "Gửi xe thuê ở bến trước khi ra đảo cần làm gì?"
+    a: "Tính phí gửi theo ngày vào tổng chi phí, chụp ảnh xe tại điểm gửi và giữ phiếu gửi cẩn thận. Nếu dự kiến về khuya, hỏi trước giờ đóng cửa của điểm gửi để không kẹt xe qua đêm."
+  - q: "Lỡ chuyến phà cuối ngày thì ảnh hưởng gì đến hợp đồng thuê xe?"
+    a: "Bạn có thể phải ở lại đất liền qua đêm và cần gia hạn thời gian thuê. Nên kiểm tra giờ phà cuối từ trước và báo nơi thuê ngay khi thấy có nguy cơ trễ."
+  - q: "Rủi ro khi vận chuyển xe thuê bằng phà thuộc về ai?"
+    a: "Không có câu trả lời chung. Xe là tài sản của bên cho thuê nên mọi rủi ro khi vận chuyển cần được hỏi rõ và ghi trong hợp đồng; chụp bốn góc xe trước khi rời Hà Nội để làm căn cứ đối chiếu."
+  - q: "Cung từ Hà Nội ra Hải Phòng cần chuẩn bị gì cho xe thuê?"
+    a: "Kiểm tra kỹ xe trước khi rời Hà Nội, đi sớm để tránh tải đông trên quốc lộ và đổ xăng trước những đoạn vắng. Cung này nhiều chốt nên mang đủ giấy phép lái, căn cước, đăng ký xe và giấy bảo hiểm."
 ---
 Cát Bà là điểm đến đảo, nên khác mọi cung núi: câu hỏi lớn nhất không phải xe gì, mà là chiếc xe thuê ấy đi theo bạn bằng cách nào. Giải quyết được phương án vận chuyển, phần còn lại của chuyến đi là cung đẹp quanh đảo.
 
@@ -33,6 +45,8 @@ Nếu đi hai ngày một đêm, so gói trong bài thuê xe máy Hà Nội 2 ng
 Cung từ Hà Nội ra Hải Phòng nhiều chốt, nên mang đăng ký xe, chứng nhận bảo hiểm, giấy phép lái và căn cước, danh sách trong bài thuê xe máy Hà Nội cần giấy tờ gì. Đi sớm tránh tải đông trên quốc lộ, và đổ xăng trước đoạn vắng, ước tính chi phí nhiên liệu theo bài [chi phí xăng khi thuê xe máy Hà Nội]({{ '/blog/chi-phi-xang-khi-thue-xe-may-ha-noi/' | relative_url }}). Sự cố giữa cung thì gọi nơi thuê theo trình tự trong bài xe thuê bị hỏng giữa đường.
 
 Một lưu ý nhỏ nhưng hay quên: kiểm tra lại khung giờ phà cuối cùng trong ngày, vì nếu lỡ chuyến cuối, bạn kẹt lại đất liền qua đêm, và hợp đồng thuê xe cần gia hạn, phần gia hạn đã trình bày trong bài [gia hạn thuê xe máy Hà Nội]({{ '/blog/gia-han-thue-xe-may-ha-noi/' | relative_url }}).
+
+Vì chuyến Cát Bà có thêm khâu phà và gửi xe, nên đọc lại [các lưu ý khi thuê xe máy ở Hà Nội]({{ '/kinhnghiem.html' | relative_url }}) về kiểm tra xe và hợp đồng trước khi rời thành phố.
 
 ## Kết luận
 

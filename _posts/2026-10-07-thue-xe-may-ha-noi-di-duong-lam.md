@@ -9,6 +9,18 @@ primary_keyword: "thuê xe máy hà nội đi đường lâm"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
 seo_hub: hanh-trinh
+quick_answer: "Đi Đường Lâm trong ngày chỉ cần xe ga nhỏ gọn vì cung khoảng bốn mươi lăm ki lômét chủ yếu là đường tỉnh bằng phẳng. Trước khi rời phố, rà phanh, đèn, còi, lốp và xăng, mang đủ giấy tờ cho chặng tỉnh, áo mưa, nước và về trước cao điểm chiều."
+qa:
+  - q: "Vào làng cổ Đường Lâm nên đỗ xe ở đâu?"
+    a: "Nên đỗ ở đầu làng rồi đi bộ vào, vì trong làng nhiều ngõ gạch, cổng vòm hẹp. Cách này vừa an toàn cho xe vừa giữ được không gian yên tĩnh của khu tham quan."
+  - q: "Đi Đường Lâm có cần mang theo đồ ăn không?"
+    a: "Không bắt buộc vì làng cổ có hàng quán, nhưng nên mang nước cho chặng về giữa trưa. Nếu định mua đặc sản về, tính trước chỗ chứa trong cốp hoặc túi buộc chắc sau xe."
+  - q: "Chặng khứ hồi Đường Lâm có tốn nhiều xăng không?"
+    a: "Không nhiều, quãng khứ hồi khoảng chín mươi ki lômét nên chi phí xăng nhỏ so với tiền thuê. Vẫn nên đổ đầy trước khi rời phố để khỏi phải tìm trạm giữa đường tỉnh."
+  - q: "Đi Đường Lâm cùng người lớn tuổi cần tính thêm gì?"
+    a: "Nên tính thêm thời gian nghỉ giữa chặng, vì cung khoảng bốn mươi lăm ki lômét với tốc độ vừa phải cũng mất hơn một tiếng. Đi chậm và dừng nghỉ khi người ngồi sau thấy mỏi."
+  - q: "Làng cổ Đường Lâm đẹp nhất vào lúc nào trong ngày?"
+    a: "Sáng sớm và chiều muộn, khi nắng chéo. Vì vậy nên rời Hà Nội trước bảy giờ để tới nơi trước chín giờ, dành khoảng hai giờ cho các nhà cổ rồi ăn trưa tại làng."
 ---
 Đường Lâm cách Hà Nội khoảng bốn mươi lăm ki lômét, là chuyến trong ngày vừa đủ tham quan làng cổ mà không cần nghỉ lại. Checklist dưới đây gói từ khâu chọn xe tới lúc trả xe cho khung giờ đóng cửa của điểm thuê.
 

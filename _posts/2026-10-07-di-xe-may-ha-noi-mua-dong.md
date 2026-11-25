@@ -9,6 +9,18 @@ primary_keyword: "đi xe máy hà nội mùa đông"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
 seo_hub: hanh-trinh
+quick_answer: "Mùa đông nên dồn điểm chính vào khung khoảng mười giờ sáng tới ba giờ chiều, mặc nhiều lớp giữ nhiệt, rà kỹ xe vì máy lạnh khó nổ và thuê theo khung ngắn khớp với ngày ngắn, thay vì chạy từ sáng sớm tới tối như mùa hè."
+qa:
+  - q: "Mùa đông Hà Nội nên mặc gì khi đi xe máy cả ngày?"
+    a: "Nên mặc ba lớp: lớp trong giữ ẩm, lớp giữa giữ nhiệt, lớp ngoài chắn gió, cộng găng tay và khăn bịt cổ. Bàn tay lạnh làm chậm phản xạ phanh, nên găng tay là món không nên thiếu."
+  - q: "Xe thuê khó nổ máy vào sáng lạnh thì làm sao?"
+    a: "Có thể hẹn nhận xe từ tối hôm trước để sáng không phải chờ nổ máy giữa gió. Nếu xe khó nổ giữa chặng, đẩy xe khỏi dòng xe rồi gọi nơi thuê, không tự tháo sửa."
+  - q: "Trời lạnh nên thuê xe ga hay xe số?"
+    a: "Xe ga đời mới thường đề nhanh và che chân tốt hơn xe số cũ, nên hợp trời lạnh. Khi đặt, hãy hỏi chiếc xe đã được chăm gần đây chưa và rà lại phanh, đèn, lốp trước khi đi."
+  - q: "Mưa rét mùa đông có nên vẫn đi theo lịch đã định?"
+    a: "Không nên cố. Mưa mùa đông lạnh buốt hơn mưa hè, nên rút ngắn hành trình, chọn điểm dừng có mái che, hoặc dời sang ngày trời quang vì một ngày nắng đẹp đáng giá hơn nhiều ngày rét."
+  - q: "Đi xe máy mùa đông nên cất giấy tờ ở đâu?"
+    a: "Nên để giấy tờ trong túi zip sát người, vì áo nhiều lớp và mưa phùn dễ làm ướt hoặc rơi giấy tờ. Mang đủ giấy phép lái, căn cước, đăng ký xe và giấy bảo hiểm đi kèm xe."
 ---
 Mùa đông Hà Nội lạnh khô rồi chuyển sang ẩm mưa, và lái xe máy trong lạnh buốt là trải nghiệm khác hẳn những tháng khác. Lịch trình mùa đông vì thế phải xây quanh cửa sổ trời ấm và đồ giữ nhiệt.
 
@@ -35,6 +47,8 @@ Mưa mùa đông lạnh buốt hơn mưa hè, nên áp dụng luôn chiến lư�
 Một mẹo nhỏ cho mùa đông: hẹn nhận xe buổi tối hôm trước để sáng không phải chờ nổ máy lạnh giữa gió, phần nhận xe sớm đã trình bày trong bài [thuê xe máy Hà Nội nhận xe sớm]({{ '/blog/thue-xe-may-ha-noi-nhan-xe-som/' | relative_url }}), và kiểm tra nhớm dầu sớm trong buổi.
 
 Với ai sợ rét kiểu dữ dội, chọn ngày nắng đẹp trong tuần thay vì cố đi từng ngày, vì một ngày trời quang cho trải nghiệm bằng ba ngày rét, kinh nghiệm chọn ngày đã gợi ý trong bài [thuê xe máy Hà Nội 2 ngày]({{ '/blog/thue-xe-may-ha-noi-2-ngay/' | relative_url }}).
+
+Nếu bạn ở Hà Nội trọn mùa lạnh và cần xe đi lại hằng ngày, có thể so thêm [gói thuê xe máy theo tháng]({{ '/' | relative_url }}) thay vì thuê lẻ vào từng ngày có nắng.
 
 ## Kết luận
 

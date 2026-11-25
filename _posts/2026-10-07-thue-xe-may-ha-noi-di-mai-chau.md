@@ -9,6 +9,18 @@ primary_keyword: "thuê xe máy hà nội đi mai châu"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
 seo_hub: hanh-trinh
+quick_answer: "Mai Châu cách Hà Nội khoảng một trăm sáu mươi ki lômét, nên chuẩn bị như một hành trình thực thụ: chọn xe động cơ khỏe có phanh đĩa trước, kiểm tra kỹ hơn checklist đi phố, thuê đúng số ngày, mang giấy tờ kèm bản chụp và nghỉ đều giữa chặng."
+qa:
+  - q: "Đi Mai Châu bằng xe 50cc có ổn không?"
+    a: "Không phù hợp. Cung Mai Châu gồm quốc lộ dài và đèo dài nên cần xe động cơ khỏe, phanh đĩa trước; nếu đi hai người còn phải tính thêm tải và yên xe."
+  - q: "Có nên đi Mai Châu về trong ngày bằng xe thuê?"
+    a: "Không nên. Với quãng đường dài và đèo, nên ở lại qua đêm và thuê gói hai hoặc ba ngày thay vì ngày lẻ. Nếu định đi thêm Mộc Châu trong cùng chuyến, hãy so gói tuần vì thường rẻ hơn."
+  - q: "Mất túi giấy tờ giữa cung Mai Châu thì xử lý thế nào?"
+    a: "Chụp sẵn bản mềm giấy tờ xe và giấy tờ cá nhân trước khi đi; nếu mất, gọi ngay nơi thuê để được hướng dẫn. Lưu số liên hệ của nơi thuê vào điện thoại trước khi ra khỏi phố."
+  - q: "Hành lý cho chuyến Mai Châu nên chia thế nào?"
+    a: "Chia làm hai phần: đồ cần dùng trong ngày đeo trước ngực, đồ để buổi tối cho vào cốp. Mỗi một tiếng rưỡi nên nghỉ cho cả người lẫn máy, và đổ xăng sớm hơn mức dự tính."
+  - q: "Va chạm trên đường đi Mai Châu bằng xe thuê thì cần làm gì?"
+    a: "Ưu tiên an toàn, đưa người và xe ra khỏi làn, rồi báo ngay nơi thuê và trao đổi thông tin với bên liên quan. Giữ lại biên bản và ảnh chụp để đối chiếu khi tất toán hợp đồng."
 ---
 Mai Châu cách Hà Nội khoảng một trăm sáu mươi ki lômét, là chuyến dài nhất nhóm cung phía Hòa Bình, và với phần lớn người đi xe thuê, đây là chuyến cần chuẩn bị như một hành trình thực thụ chứ không phải chuyến chơi bờm.
 
@@ -35,6 +47,8 @@ Chia đồ thành hai phần: phần cần trong ngày đeo trước ngực, ph�
 ## Xử lý va chạm hoặc hỏng lớn
 
 Va chạm trên cung tỉnh có trình tự riêng: ưu tiên an toàn, di chuyển khỏi làn đường, thông báo nơi thuê, và trao đổi thông tin với bên liên quan, chi tiết trong bài [xe thuê bị tai nạn phải làm gì]({{ '/blog/xe-thue-bi-tai-nan-phai-lam-gi/' | relative_url }}). Phân trách nhiệm chi phí theo bài chi phí hư hỏng khi thuê xe máy, và giữ mọi biên bản, ảnh chụp cho lần tất toán.
+
+Nếu Mai Châu chỉ là một chặng trong thời gian dài bạn ở Hà Nội, có thể so gói [thuê xe máy dài hạn tại Hà Nội]({{ '/' | relative_url }}) với gói tuần, và hỏi rõ phạm vi đi tỉnh của từng gói khi đặt.
 
 ## Kết luận
 

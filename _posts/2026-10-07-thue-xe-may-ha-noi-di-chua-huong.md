@@ -9,12 +9,24 @@ primary_keyword: "thuê xe máy hà nội đi chùa hương"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
 seo_hub: hanh-trinh
+quick_answer: "Đi Chùa Hương trong ngày bằng xe thuê nên xuất phát trước sáu giờ sáng để tới bến trước dòng người, chọn xe ga đời mới phanh tốt, kiểm tra phanh, lốp, đèn và mức xăng trước khi đi, mang đồ gọn và đủ giấy tờ cho chặng tỉnh."
+qa:
+  - q: "Muốn rời Hà Nội trước sáu giờ sáng thì nên nhận xe lúc nào?"
+    a: "Nên nhận xe từ chiều hôm trước. Cửa hàng Motoopen mở cửa 09:00–21:00 hằng ngày, nên với giờ xuất phát rất sớm, hãy hẹn nhận xe trong giờ mở cửa ngày hôm trước và hỏi rõ cách tính ngày thuê khi đặt."
+  - q: "Ngoài tiền thuê xe, chuyến Chùa Hương phát sinh những khoản nào?"
+    a: "Tiền xăng cho quãng khứ hồi khoảng một trăm hai mươi ki lômét chỉ là phần nhỏ; đáng tính hơn là phí gửi xe ở bến và vé thuyền. Nên giữ đủ biên nhận để đối chiếu và hỏi trước các khoản ngoài giá thuê."
+  - q: "Đi Chùa Hương mùa lễ hội có nên chở hai người trên xe ga?"
+    a: "Được, nhưng nên chọn xe có phanh đĩa trước, vì đường gồm quốc lộ nhanh cộng đoạn đèo quanh bến. Nếu kẹt xe lâu trên đèo làm máy nóng, hãy tấp lề nghỉ thay vì cố bóp ga."
+  - q: "Đi lễ Chùa Hương bằng xe máy nên mang những gì?"
+    a: "Mang gọn: mũ bảo hiểm đạt chuẩn, áo mưa, nước uống và giày bám tốt cho đoạn bến trơn. Cốp xe ga thường vừa những món này; giấy tờ nên để trong túi chống nước."
+  - q: "Đoạn quanh bến Chùa Hương có hay kiểm tra giấy tờ không?"
+    a: "Đoạn quanh bến hay có tuần tra vào giờ cao điểm, nên mang giấy phép lái, căn cước cùng đăng ký xe và giấy bảo hiểm của bên cho thuê. Giấy tờ xe cần luôn theo xe; nếu thất lạc, báo nơi thuê ngay."
 ---
 Chùa Hương cách Hà Nội chừng sáu mươi ki lômét, là chuyến trong ngày đi được, nhưng dòng người dồn vào lễ hội và cung đèo quanh bến khiến nó mệt hơn số ki lômét. Chuẩn bị đúng thì về tới phố vẫn còn sức làm việc buổi tối.
 
 ## Xuất phát sớm hơn dự tính
 
-Chùa Hương đông nhất từ sáng tới giữa trưa, nên rời Hà Nội trước sáu giờ, bạn đến bến Suối Tiên trước khi dòng xe dài lại. Với ai cần lấy xe rất sớm, gói giờ đã trình bày trong bài thuê xe máy Hà Nội theo giờ và nhận xe hôm trước buổi chiều đều là lựa chọn, phần nhận xe sớm đã nêu trong bài [thuê xe máy Hà Nội nhận xe sớm]({{ '/blog/thue-xe-may-ha-noi-nhan-xe-som/' | relative_url }}).
+Chùa Hương đông nhất từ sáng tới giữa trưa, nên rời Hà Nội trước sáu giờ, bạn đến bến Đục trước khi dòng xe dài lại. Với ai cần lấy xe rất sớm, gói giờ đã trình bày trong bài thuê xe máy Hà Nội theo giờ và nhận xe hôm trước buổi chiều đều là lựa chọn, phần nhận xe sớm đã nêu trong bài [thuê xe máy Hà Nội nhận xe sớm]({{ '/blog/thue-xe-may-ha-noi-nhan-xe-som/' | relative_url }}).
 
 ## Chọn xe cho cung hỗn hợp
 
@@ -37,6 +49,8 @@ Mang đăng ký xe, chứng nhận bảo hiểm, giấy phép lái, và căn cư
 Kẹt xe dài trên đèo làm máy nóng, nên tấp lề nghỉ nếu thấy có dấu hiệu. Hỏng lớn thì gọi nơi thuê trước khi kéo vào tiệm, trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}), và phân trách nhiệm chi phí theo bài chi phí hư hỏng khi thuê xe máy. Mưa giữa cung thì áp dụng phần lái mưa trong bài thuê xe máy Hà Nội mùa mưa.
 
 Cuối cùng, nên giữ biên nhận phí gửi xe tại bến và vé thuyền để đối chiếu khi cần: chuyến lễ hội có nhiều khoản lẻ, và gom đủ giấy tờ giúp bạn tất toán hợp đồng thuê nhanh gọn, phần các khoản nên hỏi trước nằm trong bài [hợp đồng thuê xe máy cần có gì]({{ '/blog/hop-dong-thue-xe-may-can-co-gi/' | relative_url }}).
+
+Với chuyến lễ hội nhiều khoản lẻ, phần [kinh nghiệm thủ tục và giấy tờ thuê xe]({{ '/kinhnghiem.html' | relative_url }}) giúp bạn chuẩn bị hồ sơ gọn trước khi nhận xe từ hôm trước.
 
 ## Kết luận
 

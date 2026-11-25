@@ -9,6 +9,18 @@ primary_keyword: "đi xe máy hà nội mua sắm"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
 seo_hub: hanh-trinh
+quick_answer: "Đi mua sắm bằng xe máy cần ước lượng khối hàng trước khi đi: chợ thực phẩm là túi nặng, trung tâm thương mại là hộp to, phố quần áo là nhiều túi nhẹ. Nếu hàng vượt cốp quá nhiều, nên chia hai đợt hoặc nhờ giao tận nhà, và ưu tiên nơi có bãi xe nội bộ."
+qa:
+  - q: "Mua đồ ở chợ và trung tâm thương mại, gửi xe máy ở đâu tiện hơn?"
+    a: "Trung tâm thương mại thường có bãi xe máy nội bộ, miễn phí hoặc tính theo giờ, nên tiện và chắc chắn hơn. Chợ đông thường gửi ở bãi vỉa hè tính theo lượt; hãy giữ kỹ phiếu gửi và khóa thêm một lớp khóa ngoài."
+  - q: "Chở hàng che gương hoặc đèn xe có bị phạt không?"
+    a: "Có thể bị xử phạt theo quy định hiện hành, vì hàng cản tầm nhìn và che đèn làm giảm an toàn. Nên xếp hàng thấp, gọn, buộc chắc và không để vướng tay lái."
+  - q: "Định mua đồ cồng kềnh như đồ điện thì chọn xe thế nào?"
+    a: "Nên hỏi trước nơi thuê về xe có yên sau rộng hoặc tựa lưng, vì hàng cao sau yên làm xe chòng chành, dễ ngã khi dừng. Nếu hàng quá lớn, nhờ cửa hàng giao tận nhà thường an toàn hơn tự chở."
+  - q: "Trời mưa giữa buổi mua sắm thì nên đổi lịch thế nào?"
+    a: "Nên chuyển sang các điểm có bãi xe mái che như trung tâm thương mại để hàng và người không bị ướt. Bọc túi hàng kỹ và kiểm tra lại dây buộc trước khi chạy tiếp."
+  - q: "Xe ga hay xe số chở hàng đi chợ tiện hơn?"
+    a: "Xe ga tiện hơn khi có hộp cứng nhờ cốp dưới yên và chỗ để chân phía trước, còn túi mềm có thể móc gọng yên sau. Dù chọn xe nào, nên thử phanh kỹ trước buổi mua vì hàng nặng làm lộ điểm yếu của phanh."
 ---
 Mua sắm bằng xe máy tiện đến khi đồ nhiều: chợ, cửa hàng và trung tâm thương mại đều đỗ được xe máy gần cửa hơn ô tô. Vấn đề duy nhất là chở hàng về, và bài này xử lý đúng phần đó.
 
@@ -34,7 +46,7 @@ Rà phanh, đèn, còi và lốp trước buổi mua, vì hàng nặng làm lộ
 
 ## Giấy tờ và sự cố
 
-Mang giấy phép lái, căn cận, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/blog/thue-xe-may-ha-noi-can-giay-to-gi/' | relative_url }}). Sự cố giữa các điểm mua gọi nơi thuê qua trang liên hệ theo trình tự trong bài xe thuê bị hỏng giữa đường. Trả đúng giờ, khung phụ phí trễ nằm trong bài phí trả xe muộn thuê xe máy.
+Mang giấy phép lái, căn cước, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài [thuê xe máy Hà Nội cần giấy tờ gì]({{ '/blog/thue-xe-may-ha-noi-can-giay-to-gi/' | relative_url }}). Sự cố giữa các điểm mua gọi nơi thuê qua trang liên hệ theo trình tự trong bài xe thuê bị hỏng giữa đường. Trả đúng giờ, khung phụ phí trễ nằm trong bài phí trả xe muộn thuê xe máy.
 
 Với ai định mua hàng lớn như đồ điện hoặc gốm sứ, hỏi trước nơi thuê về cân xe và tựa lưng, vì hàng cao sau yên làm xe vất dễ ngã khi dừng, phần cân chọn xe theo tải đã trình bày trong bài [chọn trọng lượng xe thuê]({{ '/blog/chon-trong-luong-xe-thue/' | relative_url }}).
 

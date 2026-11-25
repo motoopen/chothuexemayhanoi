@@ -9,12 +9,24 @@ primary_keyword: "road trip từ hà nội bằng xe thuê"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
 seo_hub: hanh-trinh
+quick_answer: "Trước khi rời Hà Nội bằng xe thuê, hãy chốt đủ mười lăm mục trong bốn nhóm: bốn mục giấy tờ, năm mục kiểm tra xe, ba mục tuyến và thời gian, ba mục logistics. Xe phải hợp cung đường, còn phạm vi được đi tỉnh của gói thuê nên hỏi rõ khi đặt."
+qa:
+  - q: "Bốn loại giấy tờ cần có trước khi road trip bằng xe thuê là gì?"
+    a: "Gồm giấy phép lái phù hợp dung tích xe, căn cước hoặc hộ chiếu, đăng ký xe theo xe và chứng nhận bảo hiểm bắt buộc còn hiệu lực. Nếu nơi thuê có giấy xác nhận cho thuê, nên xin thêm để giải trình nhanh khi gặp kiểm tra."
+  - q: "Năm mục kiểm tra xe trước chuyến đi dài gồm những gì?"
+    a: "Thử phanh trước sau ở tốc độ thấp, xem gai lốp và áp suất, kiểm tra đèn pha, đèn hậu, xi nhan, mức nhớt hoặc pin, cùng bộ đồ vá và bơm mini nếu nơi thuê có. Sau đó chụp bốn góc xe trước khi đi."
+  - q: "Trước road trip nên hỏi nơi thuê những gì?"
+    a: "Nên hỏi phạm vi được đi của gói thuê, cách hỗ trợ khi xe gặp sự cố xa thành phố và số điện thoại hỗ trợ để lưu offline. Với Motoopen, những điều này nên hỏi rõ khi đặt, trước khi chốt tuyến."
+  - q: "Có cần mang tiền mặt khi road trip bằng xe máy?"
+    a: "Nên mang. Trạm xăng ở đoạn vắng và một số khoản phí dọc đường có thể chỉ nhận tiền mặt, nên chuẩn bị sẵn một khoản dự phòng ngoài chi phí nhiên liệu ước tính."
+  - q: "Trước khi khởi hành road trip nên báo lộ trình cho ai?"
+    a: "Nên gửi lộ trình và số hỗ trợ của nơi thuê cho một người ở lại thành phố, đồng thời lưu bản đồ offline có tuyến chính và tuyến dự phòng. Giữa cung vắng sóng yếu, thông tin này rất hữu ích."
 ---
 Road trip bằng xe thuê khác một chuyến phố: bạn mang cả chiếc xe của người khác vào vùng không quen, và mọi thiếu sót đều đắt hơn. Checklist mười lăm mục dưới đây là cửa trước khi rời vành đai.
 
 ## Nhóm giấy tờ: bốn mục
 
-Một, giấy phép lái phù hợp dung tích xe. Hai, căn cận hoặc hộ chiếu. Ba, đăng ký xe bản gốc theo xe. Bốn, chứng nhận bảo hiểm bắt buộc còn hiệu lực, danh sách chi tiết trong bài thuê xe máy Hà Nội cần giấy tờ gì, và xin thêm công văn cho thuê nếu nơi có, phần giải trình ở chốt đã nêu trong bài [mất giấy tờ xe thuê]({{ '/blog/mat-giay-to-xe-thue/' | relative_url }}).
+Một, giấy phép lái phù hợp dung tích xe. Hai, căn cước hoặc hộ chiếu. Ba, đăng ký xe bản gốc theo xe. Bốn, chứng nhận bảo hiểm bắt buộc còn hiệu lực, danh sách chi tiết trong bài thuê xe máy Hà Nội cần giấy tờ gì, và xin thêm công văn cho thuê nếu nơi có, phần giải trình ở chốt đã nêu trong bài [mất giấy tờ xe thuê]({{ '/blog/mat-giay-to-xe-thue/' | relative_url }}).
 
 ## Nhóm kiểm tra xe: năm mục
 
@@ -37,6 +49,8 @@ Cung núi cần phanh đĩa và động cơ khỏe, so sánh dòng đã có tron
 Hỏng giữa đường gọi trước, trình tự trong bài xe thuê bị hỏng giữa đường, phần chi phí đã phân trong bài chi phí hư hỏng khi thuê xe máy. Va chạm thì ưu tiên người rồi thủ tục theo bài [xe thuê bị tai nạn phải làm gì]({{ '/blog/xe-thue-bi-tai-nan-phai-lam-gi/' | relative_url }}), và vướng vi phạm giao thông xử lý theo bài thuê xe máy bị phạt giao thông. Về trễ hẹn, gọi sớm theo khung trong bài phí trả xe muộn thuê xe máy.
 
 Trước khi khởi hành, gửi lộ trình và số hỗ trợ cho một người ở lại thành phố, vì giữa cung vắng mỗi thông tin từ ngoài đều quý, và phần kinh nghiệm lên kế hoạch chuyến dài đã gói trong bài [thuê xe máy Hà Nội 2 ngày]({{ '/blog/thue-xe-may-ha-noi-2-ngay/' | relative_url }}).
+
+Nếu muốn ôn lại cách kiểm tra xe và giấy tờ trước chuyến dài, trang [kinh nghiệm thuê xe máy ở Hà Nội]({{ '/kinhnghiem.html' | relative_url }}) tóm tắt những điểm cần xem ngay lúc nhận xe.
 
 ## Kết luận
 

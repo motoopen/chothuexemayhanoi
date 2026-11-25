@@ -9,6 +9,18 @@ primary_keyword: "đi xe máy hà nội ăn uống"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
 seo_hub: hanh-trinh
+quick_answer: "Muốn đi ăn bằng xe máy ở Hà Nội cho nhàn, hãy xếp quán theo một tuyến trong cùng khu vực, kiểm tra chỗ gửi xe trước khi thêm quán vào danh sách và xuất phát trước năm giờ rưỡi chiều hoặc sau tám giờ tối để né giờ ăn trùng giờ kẹt."
+qa:
+  - q: "Một buổi đi ăn bằng xe máy ở Hà Nội nên đi mấy khu vực?"
+    a: "Chỉ nên một khu vực, ví dụ buổi này đi Ba Đình, buổi khác đi Tây Hồ. Mỗi lần băng quận có thể mất khoảng ba mươi phút di chuyển, nên xếp quán dọc một trục lớn giúp ăn được nhiều quán mà ít phải chạy."
+  - q: "Quán vỉa hè không có chỗ giữ xe thì nên gửi xe ở đâu?"
+    a: "Nên tìm điểm gửi xe công cộng gần nhất rồi đi bộ thêm một đoạn, thay vì đỗ tạm bên lề. Đỗ sai vạch quanh phố ăn có thể bị xử phạt theo quy định hiện hành, kể cả khi bạn đang đi xe thuê."
+  - q: "Có nên đặt bàn trước khi đi ăn bằng xe máy vào giờ đông?"
+    a: "Nên, nhất là với quán đông vào khoảng tám giờ tối. Đặt trước và ghé quán theo chiều ngược dòng người giúp bạn khỏi vừa chờ bàn vừa loay hoay tìm chỗ gửi xe giữa phố đông."
+  - q: "Đi ăn theo nhóm nhiều xe làm sao để không lạc nhau trong phố nhỏ?"
+    a: "Nên hẹn một điểm tập trung ở đầu tuyến và đi theo thứ tự quán đã chốt, thay vì để từng xe tự tìm chỗ đỗ. Trong phố nhỏ, mỗi xe rẽ một ngả là cả nhóm mất thời gian gọi nhau."
+  - q: "Sống ở Hà Nội và hay đi ăn tối bằng xe máy thì có nên thuê theo tháng?"
+    a: "Nên cân nhắc nếu bạn ở Hà Nội vài tuần trở lên và ra ngoài gần như mỗi tối. Giá thuê tháng tham khảo ở Motoopen khoảng 1–2 triệu tùy dòng xe, thường đỡ hơn cộng dồn nhiều ngày lẻ; giá chốt khi liên hệ."
 ---
 Ăn uống bằng xe máy ở Hà Nội thoải hơn ô tô vì lách được phố nhỏ, nhưng nó cũng có cái giá riêng: tìm chỗ đỗ giữa phố đông và gửi xe qua nhiều điểm. Bài này giúp chọn tuyến và chỗ gửi trước khi bạn xếp danh sách quán.
 
@@ -34,9 +46,11 @@ Chuyến ăn trong phố chỉ cần xe ga nhỏ, so sánh dòng đã có trong 
 
 ## Giấy tờ và sự cố trên tuyến ăn
 
-Mang đủ giấy phép lái, căn cận, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài thuê xe máy Hà Nội cần giấy tờ gì, vì khu phố nhiều tuần tra buổi tối. Đỗ sai vạch quanh phố ăn bị xử phạt theo Nghị định hiện hành, phần trách nhiệm khi đi xe thuê đã trình bày trong bài thuê xe máy bị phạt giao thông. Sự cố xe gọi ngay nơi thuê theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}).
+Mang đủ giấy phép lái, căn cước, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài thuê xe máy Hà Nội cần giấy tờ gì, vì khu phố nhiều tuần tra buổi tối. Đỗ sai vạch quanh phố ăn bị xử phạt theo Nghị định hiện hành, phần trách nhiệm khi đi xe thuê đã trình bày trong bài thuê xe máy bị phạt giao thông. Sự cố xe gọi ngay nơi thuê theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}).
 
 Trường hợp đi ăn theo nhóm đông, hẹn điểm đập chung ở đầu tuyến thay vì từng xe tự tìm chỗ, vì giữa phố nhỏ mỗi xe rẽ một ngả là mất cả nhóm, kinh nghiệm đi nhóm đã gợi ý trong bài [thuê xe máy Hà Nội cho 2 người]({{ '/blog/thue-xe-may-ha-noi-cho-2-nguoi/' | relative_url }}).
+
+Trước buổi đi ăn đầu tiên bằng xe thuê, bạn có thể đọc thêm [kinh nghiệm kiểm tra xe khi thuê]({{ '/kinhnghiem.html' | relative_url }}) để biết nên thử đèn, còi và phanh thế nào ngay lúc nhận xe.
 
 ## Kết luận
 

@@ -9,6 +9,18 @@ primary_keyword: "đi xe máy hà nội buổi tối"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
 seo_hub: hanh-trinh
+quick_answer: "Đi xe máy Hà Nội buổi tối an toàn nhất khi chọn trục đường đủ đèn và quen thuộc, dừng ở điểm có người trông xe, kiểm tra đèn pha, đèn hậu, xi nhan ngay lúc nhận xe và giữ tốc độ thấp. Nếu về khuya, chốt giờ trả trước khi điểm thuê đóng cửa."
+qa:
+  - q: "Buổi tối ở Hà Nội nên chọn đường vắng hay đường đông để đi xe máy?"
+    a: "Nên chọn đường đông nhưng sáng và quen. Đường vắng mà thiếu đèn nguy hiểm hơn, vì tầm nhìn ban đêm ngắn khiến ổ gà, vật cản hay xe ngược chiều khó xử lý kịp."
+  - q: "Nhận xe thuê thấy đèn pha yếu có nên đổi xe không?"
+    a: "Nên đổi ngay tại điểm nhận. Ban đêm đèn là yếu tố an toàn số một, nên thử cả đèn pha, đèn hậu và xi nhan trước khi đi, rồi chụp bốn góc xe làm căn cứ đối chiếu lúc trả."
+  - q: "Gửi xe ở quán đêm cần để ý gì?"
+    a: "Ưu tiên điểm có người trông và giữ kỹ phiếu gửi. Về khuya nhiều bãi đóng dần, nên hỏi giờ đóng của bãi trước khi chọn quán làm điểm dừng cuối của buổi tối."
+  - q: "Muốn trả xe sau 21:00 ở Motoopen thì làm thế nào?"
+    a: "Cửa hàng mở cửa 09:00–21:00 hằng ngày, nên nếu định đi chơi tới khuya, hãy nói trước khi đặt và hỏi rõ cách tính nếu giữ xe qua đêm rồi trả vào sáng hôm sau. Đừng đợi sát giờ đóng cửa mới gọi."
+  - q: "Đi xe máy ban đêm có nên vừa lái vừa xem bản đồ trên điện thoại?"
+    a: "Không nên. Tầm nhìn ban đêm đã ngắn, dùng điện thoại khi lái càng dễ gây va chạm và có thể bị xử phạt. Hãy xem trước lộ trình, hoặc tấp vào chỗ an toàn rồi mới mở bản đồ."
 ---
 Hà Nội buổi tối đổi sắc hoàn toàn, và xe máy là cách rẻ nhất để thấy phố đèn. Nhưng ban đêm có bộ luật riêng của nó: tầm nhìn, đèn xe, và chỗ gửi xe đóng cửa.
 
@@ -34,9 +46,11 @@ Nếu buổi bắt đầu từ tối hôm trước, so gói qua đêm trong bài
 
 ## Giấy tờ và sự cố đêm
 
-Đêm tuần tra dày hơn, nên mang đủ giấy phép lái, căn cận, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài thuê xe máy Hà Nội cần giấy tờ gì. Sự cố đêm gọi ngay nơi thuê theo trình tự trong bài xe thuê bị hỏng giữa đường, phần chi phí đã phân trong bài chi phí hư hỏng khi thuê xe máy, và nếu có va chạm, làm theo bài [xe thuê bị tai nạn phải làm gì]({{ '/blog/xe-thue-bi-tai-nan-phai-lam-gi/' | relative_url }}).
+Đêm tuần tra dày hơn, nên mang đủ giấy phép lái, căn cước, đăng ký xe, chứng nhận bảo hiểm theo danh sách trong bài thuê xe máy Hà Nội cần giấy tờ gì. Sự cố đêm gọi ngay nơi thuê theo trình tự trong bài xe thuê bị hỏng giữa đường, phần chi phí đã phân trong bài chi phí hư hỏng khi thuê xe máy, và nếu có va chạm, làm theo bài [xe thuê bị tai nạn phải làm gì]({{ '/blog/xe-thue-bi-tai-nan-phai-lam-gi/' | relative_url }}).
 
 Với ai đêm về khuya thường xuyên, cân nhắc luôn phương án giao và nhận xe tại nhà để bớt chặng cuối đêm mệt, khung dịch vụ đã trình bày trong bài [thuê xe máy Hà Nội giao tận nơi]({{ '/blog/thue-xe-may-ha-noi-giao-tan-noi/' | relative_url }}), và hỏi thêm phí giao đêm theo khung trong bài phí giao xe thuê xe máy Hà Nội.
+
+Nếu đây là lần đầu bạn lái xe thuê vào ban đêm, phần [mẹo kiểm tra xe trước khi nhận]({{ '/kinhnghiem.html' | relative_url }}) giúp bạn biết cần thử đèn, phanh và lốp những gì trước khi lăn bánh.
 
 ## Kết luận
 
