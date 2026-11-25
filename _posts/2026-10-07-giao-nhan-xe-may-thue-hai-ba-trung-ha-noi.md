@@ -9,6 +9,14 @@ primary_keyword: "giao nhận xe máy thuê hai bà trưng hà nội"
 hub_parent: khu-vuc
 hub_category: ha-noi-theo-khu-vuc
 seo_hub: khu-vuc
+quick_answer: "Ở Hai Bà Trưng, khách du lịch chưa quen các đoạn một chiều nên nhận xe tại khách sạn quanh phố Huế hay Đại Cồ Việt, người kết hợp xe buýt với xe thuê có thể hẹn gần tuyến mình hay đi, còn ai cần chọn và thử xe kỹ thì nên đến cửa hàng."
+qa:
+  - q: "Chạy vào các đoạn một chiều quanh Bạch Mai, Đại Cồ Việt lần đầu cần chú ý gì?"
+    a: "Nên xem bản đồ trước và để ý biển báo ở đầu mỗi phố, vì khu này nhiều đoạn một chiều. Ngày đầu hãy chạy chậm, đi đúng làn và tránh dừng đột ngột giữa dòng xe để xem điện thoại."
+  - q: "Đến Hai Bà Trưng bằng xe buýt rồi mới lấy xe thuê có bất tiện gì không?"
+    a: "Không nhiều, nếu bạn hẹn nhận gần điểm dừng của tuyến mình hay đi. Như vậy bạn không phải mang mũ và giấy tờ đi bộ xa; chỉ cần chọn chỗ có thể dừng xe để kiểm phanh, đèn và chụp ảnh xe."
+  - q: "Thuê xe ở Hai Bà Trưng có bị giữ CCCD hoặc hộ chiếu bản gốc không?"
+    a: "Nên hỏi rõ khi đặt. Giấy tờ cần có là CCCD hoặc hộ chiếu cùng bằng lái phù hợp; cách giữ giấy tờ và mức cọc tùy dòng xe, bạn có thể xem bảng giá hoặc hỏi trực tiếp, rồi đọc kỹ hợp đồng trước khi nhận xe."
 ---
 Hai Bà Trưng là khu gần ga và nhiều trường đại học, và bạn có ba cách nhận xe thuê: tại khách sạn, tại điểm hẹn, hoặc tại cửa hàng. Bài này giúp bạn chọn cách phù hợp cho kỳ thuê quanh Hai Bà Trưng.
 
@@ -33,6 +41,8 @@ Xe đặc biệt như Cub hoặc dòng ga lớn hiếm hơn, nhiều khi không 
 Lịch quanh khu với chặng ngắn tới các trường đại học hoặc chợ: nhận tại khách sạn là trọn nhất, tham khảo kiểu thuê theo ngày trong bài [thuê xe máy điện theo ngày Hà Nội]({{ '/blog/thue-xe-may-dien-theo-ngay-ha-noi/' | relative_url }}). Lịch có liên tỉnh ngay buổi đầu: nhận tại cửa hàng để thử máy đường trường kỹ, xem cách chọn xe cho chặng xa trong bài thuê xe máy đi đường dài từ Hà Nội. Lịch lắt nhắt giờ cao điểm: nhận gần chỗ ở giúp tránh vòng qua cửa hàng lúc đường Bạch Mai đông.
 
 Hai Bà Trưng gần ga và nhiều bến xe buýt, nên nếu bạn dự định kết hợp xe công cộng với xe thuê, chọn điểm nhận gần tuyến mình hay đi sẽ đỡ vác mũ và giấy tờ quanh chặng bộ. Đi nhóm thì nhận cùng lúc một điểm để kiểm xe song song, đỡ chờ nhau. Cuối kỳ thuê, cách trả xe thường là quay lại đúng chỗ nhận, nên chọn điểm gần lộ trình cuối ngày để trả gọn trước giờ về.
+
+Nếu bạn là sinh viên ở trọ quanh các trường trong khu và cần đi lại cả học kỳ, có thể tham khảo dịch vụ [thuê xe máy tháng Hà Nội]({{ '/' | relative_url }}) thay vì hẹn thuê và trả xe nhiều lần.
 
 ## Kết luận
 

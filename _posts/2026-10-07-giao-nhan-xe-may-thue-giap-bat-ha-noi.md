@@ -9,6 +9,14 @@ primary_keyword: "giao nhận xe máy thuê giáp bát hà nội"
 hub_parent: khu-vuc
 hub_category: ha-noi-theo-khu-vuc
 seo_hub: khu-vuc
+quick_answer: "Khách vừa xuống xe khách ở Giáp Bát nên nhận xe tại khách sạn gần bến hoặc ở điểm hẹn lệch khỏi cổng bến cho dễ bàn giao, còn người sắp đi tỉnh phía nam hay muốn chọn kỹ dòng xe thì nên nhận tại cửa hàng để chạy thử trước khi lên đường."
+qa:
+  - q: "Định chạy xe thuê từ Giáp Bát đi các tỉnh phía nam ngay ngày đầu thì nên chuẩn bị gì?"
+    a: "Nên nhận tại cửa hàng để chạy thử máy, kiểm phanh, lốp, đèn và mức xăng kỹ trước khi ra đường trường. Hỏi rõ khi đặt về việc mang xe đi tỉnh, cách liên hệ khi xe gặp sự cố và các điều khoản ghi trong hợp đồng."
+  - q: "Xuống bến Giáp Bát với nhiều hành lý, có đáng trả phí để được giao xe tới khách sạn không?"
+    a: "Tự đến cửa hàng 114 Nguyễn Văn Cừ, Long Biên thì không mất phí giao, còn giao tận nơi trong nội thành tốn khoảng 20k–50k tùy quãng đường. Khi mang nhiều hành lý, khoản phí giao tới khách sạn có thể đáng cân nhắc hơn việc tự di chuyển sang Long Biên."
+  - q: "Thuê xe ở Giáp Bát cần đặt cọc bao nhiêu?"
+    a: "Mức cọc tùy dòng xe, bạn nên xem bảng giá hoặc hỏi khi đặt. Khi nhận xe, hãy đọc kỹ hợp đồng, kiểm tra khoản cọc và điều kiện hoàn cọc được ghi rõ, đồng thời chụp ảnh tình trạng xe để tránh tranh cãi lúc trả."
 ---
 Giáp Bát là khu phía nam gần bến xe lớn với nhiều đường trục, và bạn có ba cách nhận xe thuê: tại khách sạn, tại điểm hẹn, hoặc tại cửa hàng. Bài này giúp bạn chọn cách phù hợp cho kỳ thuê quanh Giáp Bát.
 
@@ -33,6 +41,8 @@ Xe đặc biệt như Cub hoặc dòng ga lớn hiếm hơn, nhiều khi không 
 Lịch quanh khu với chặng ngắn tới các khu dân cư hoặc công viên: nhận tại khách sạn là trọn nhất, tham khảo kiểu thuê theo ngày trong bài [thuê xe máy điện theo ngày Hà Nội]({{ '/blog/thue-xe-may-dien-theo-ngay-ha-noi/' | relative_url }}). Lịch có chặng vào trung tâm hoặc đi tỉnh phía nam ngay buổi đầu: nhận tại cửa hàng để thử máy đường trường kỹ, xem cách chọn xe cho chặng xa trong bài thuê xe máy đi đường dài từ Hà Nội. Lịch lắt nhắt giờ cao điểm: nhận gần chỗ ở giúp tránh vòng qua cửa hàng lúc quanh bến xe đông.
 
 Giáp Bát gần bến xe lớn nên khu vực cổng bến thường đông giờ cao điểm, nên nếu bạn đến bằng xe khách, chọn điểm nhận lệch khỏi cổng bến sẽ dễ bàn giao hơn. Đi nhóm thì nhận cùng lúc một điểm để kiểm xe song song, đỡ chờ nhau. Cuối kỳ thuê, cách trả xe thường là quay lại đúng chỗ nhận, nên chọn điểm gần lộ trình cuối ngày để trả gọn trước giờ về.
+
+Nếu đến bằng xe khách, bạn có thể báo trước giờ đến qua [trang liên hệ đặt xe]({{ '/lienhe.html' | relative_url }}) để hẹn điểm nhận lệch khỏi cổng bến cho dễ bàn giao.
 
 ## Kết luận
 

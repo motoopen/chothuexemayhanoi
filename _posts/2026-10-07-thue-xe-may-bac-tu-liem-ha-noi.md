@@ -22,7 +22,7 @@ Bắc Từ Liêm là khu phía bắc với nhiều chung cư cao tầng và đư
 
 ## Nhận xe gần chỗ ở
 
-Nhận xe tại khách sạn hoặc nhà nghỉ quanh các phố Phạm Hùng, Mễ Trì Thượng hay Phương Canh giúp bạn bắt đầu ngày bằng một vòng chạy thử quen đường ngay quanh khối nhà. Ưu điểm là khỏi vác giấy tờ đi xa, và gặp trục trặc thì gọi cửa hàng tới xử lý gần. Phù hợp khách du lịch và khách công tác ở lại nhiều ngày. Với xe điện, nhận tại chỗ ở còn giúp cắm sạc ngay tối đầu tiên, các câu hỏi cần hỏi trong bài [sạc xe máy điện khi thuê]({{ '/blog/sac-xe-may-dien-khi-thue/' | relative_url }}).
+Nhận xe tại khách sạn hoặc nhà nghỉ quanh các phố Phạm Văn Đồng, khu Xuân Đỉnh hay Cổ Nhuế giúp bạn bắt đầu ngày bằng một vòng chạy thử quen đường ngay quanh khối nhà. Ưu điểm là khỏi vác giấy tờ đi xa, và gặp trục trặc thì gọi cửa hàng tới xử lý gần. Phù hợp khách du lịch và khách công tác ở lại nhiều ngày. Với xe điện, nhận tại chỗ ở còn giúp cắm sạc ngay tối đầu tiên, các câu hỏi cần hỏi trong bài [sạc xe máy điện khi thuê]({{ '/blog/sac-xe-may-dien-khi-thue/' | relative_url }}).
 
 ## Nhận tại điểm hẹn trên tuyến di chuyển
 
