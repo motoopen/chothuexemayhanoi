@@ -9,6 +9,18 @@ primary_keyword: "thuê xe máy điện gần ga hà nội"
 hub_parent: loai-xe
 hub_category: xe-dien
 seo_hub: xe-dien
+quick_answer: "Nên đặt trước và chốt một điểm nhận cách Ga Hà Nội vài phút đi bộ, chuyển vali lớn về nơi lưu trú trước rồi mới nhận xe điện, chỉ giữ balo nhỏ hoặc đồ vừa hộc xe. Trước khi rời điểm nhận, xem màn hình pin, thử ga, phanh, đèn còi và hỏi rõ chỗ cắm sạc qua đêm."
+qa:
+  - q: "Tàu đến Ga Hà Nội trễ so với giờ hẹn nhận xe thì phải làm sao?"
+    a: "Nên báo nơi thuê ngay khi biết tàu trễ để dời khung nhận, vì báo trước luôn dễ xử lý hơn đến nơi mới nói. Lúc đặt, hỏi luôn khung nhận quanh ga hoạt động từ giờ nào tới giờ nào và cách dời khung ra sao."
+  - q: "Có thể cài vali lên yên xe máy điện để đi từ ga về khách sạn không?"
+    a: "Không nên. Vali to cài lên yên làm trọng tâm cao, xe dễ ngả giữa phố đông quanh ga. Cách gọn hơn là chuyển vali về nơi lưu trú bằng xe lớn, rồi chỉ mang balo nhỏ hoặc đồ vừa hộc xe khi đi phố."
+  - q: "Lịch đi phố xuất phát từ ga có cần sạc xe điện giữa ngày không?"
+    a: "Thường là không. Lịch quanh ga chủ yếu là các chặng hai ba cây số, tổng mỗi ngày dưới hai mươi cây số, nên cắm sạc qua đêm ở nơi lưu trú thường đủ. Vẫn nên hỏi tầm thật của chiếc được giao và xe có kèm bộ sạc không."
+  - q: "Chiếc xe điện được giao không đầy pin như đã chốt thì nên làm gì?"
+    a: "Nên đổi ngay tại điểm nhận, đừng rời ga với chiếc xe pin thấp. Quanh ga có nhiều nơi cho thuê nên dễ so; bỏ qua bước xem màn hình pin có thể khiến bạn hụt tầm giữa chặng hôm sau và mất cả buổi tìm chỗ sạc."
+  - q: "Xuống tàu với nhiều hành lý thì có nhờ Motoopen mang xe đến điểm chờ được không?"
+    a: "Có thể. Motoopen giao xe tận nơi trong khu vực nội thành, phí khoảng 20k–50k tùy quãng đường và điểm hẹn, nên nhắn trước giờ tàu đến qua số 0857 255 868 để chốt điểm chờ. Tự đến cửa hàng 114 Nguyễn Văn Cừ, Long Biên thì không mất phí giao."
 ---
 Ga Hà Nội nằm giữa khu phố, quanh ga nhiều nơi cho thuê xe, và khách tàu đến thường cần xe đi tiếp. Với xe máy điện, trình tự nhận xe quanh ga và xử lý hành lý có vài điểm đáng tính. Bài này chỉ cách làm gọn.
 
@@ -35,6 +47,8 @@ Tình huống một: khách đặt trước, nhận xe cách ga vài phút đi b
 ## Ba câu nên hỏi nơi thuê lúc đặt
 
 Câu một: chiếc xe giao có kèm sạc không, cắm ở đâu gần nơi lưu trú của tôi. Câu hai: khung nhận quanh ga hoạt động từ giờ nào tới giờ nào, và trễ tàu thì cách dời khung ra sao. Câu ba: nếu lịch có một ngày đi ven, có ghép được một ngày dòng khác không, tính thế nào. Ba câu này làm rõ phần sạc, phần khung và phần linh hoạt, đúng ba chỗ dễ phát sinh bất ngờ nhất với khách tàu. Nơi trả lời cụ thể cả ba là nơi đáng cọc, và bạn mang theo cả ba câu trả lời làm căn cứ suốt kỳ thuê.
+
+Nếu bạn xuống tàu để ở lại Hà Nội nhiều tuần cho việc học hoặc công việc, có thể tham khảo [dịch vụ thuê xe theo tháng]({{ '/' | relative_url }}) thay vì gia hạn từng ngày.
 
 ## Kết luận
 

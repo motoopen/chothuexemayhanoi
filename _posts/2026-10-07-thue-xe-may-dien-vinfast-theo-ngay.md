@@ -9,6 +9,20 @@ primary_keyword: "thuê xe máy điện vinfast theo ngày"
 hub_parent: loai-xe
 hub_category: xe-dien
 seo_hub: xe-dien
+quick_answer: "Khi nhận xe máy điện VinFast thuê theo ngày, hãy làm theo sáu bước: xác nhận mẫu và giờ nhận trước khi đến, xem mức pin so với lộ trình, đối chiếu phụ kiện theo biên bản, chạy thử quanh cửa hàng, làm rõ quy định sạc và giờ trả, rồi lưu sẵn số hỗ trợ."
+qa:
+  - q: "Phụ kiện nào thường đi kèm xe điện thuê theo ngày?"
+    a: "Thường có bộ sạc theo xe, áo mưa, mũ bảo hiểm, đôi khi kèm giấy đăng ký photo. Kiểm tra từng món theo biên bản giao nhận: bộ sạc còn hoạt động, dây sạc kín, ổ khóa và chìa dự phòng để ở đâu."
+  - q: "Gói thuê theo ngày thường tính mốc thời gian từ lúc nào?"
+    a: "Gói ngày thường lấy giờ nhận xe làm mốc; trả trễ quá ngưỡng có thể bị quy đổi thành giá giờ hoặc giá ngày bổ sung. Hỏi rõ ngưỡng và cách tính trước khi ký để tránh phát sinh."
+  - q: "Sạc ở trạm công cộng trong ngày thuê thì ai chịu chi phí?"
+    a: "Thường là khách. Nếu phải sạc tại trạm công cộng trong ngày, chi phí và thời gian chờ thuộc về bạn, nên tính trước vào lịch trình và hỏi nơi thuê để chắc chắn."
+  - q: "Chạy thử xe điện quanh cửa hàng nên kiểm tra những gì?"
+    a: "Dành vài phút thử phanh trước và sau ở tốc độ thấp, đèn xi nhan, đèn pha, còi và màn hình hiển thị. Nếu xe có chế độ tiến lùi, thử gài và nhả trước khi rời đi."
+  - q: "Nên hỏi trước gì về hỗ trợ nếu xe điện gặp sự cố giữa ngày?"
+    a: "Hỏi có được xe thay thế không, thời gian phản hồi trung bình bao lâu, và nếu phải để xe lại giữa đường thì thủ tục ra sao. Lưu số hỗ trợ vào điện thoại ngay khi nhận xe."
+  - q: "Thuê theo ngày ở Motoopen thì hẹn nhận xe vào giờ nào?"
+    a: "Cửa hàng Motoopen ở 114 Nguyễn Văn Cừ, Long Biên mở 09:00–21:00 hằng ngày, nên hẹn giờ nhận trong khung này. Nếu muốn giao tận nơi nội thành, phí khoảng 20k–50k tùy quãng đường và điểm hẹn."
 ---
 Xe máy điện của VinFast là dòng xe được nhiều khách du lịch quan tâm khi tìm phương tiện đi lại ở Hà Nội, vì xe vận hành êm, không tốn xăng và dễ điều khiển. Tuy nhiên, thuê dòng xe điện cao cấp theo ngày khác với thuê xe số thông thường ở vài điểm quan trọng. Bài viết này cung cấp checklist từng bước, từ lúc đặt xe đến lúc trả, giúp bạn nhận xe nhanh và không bỏ sót chi tiết nào gây phát sinh về sau.
 
@@ -35,6 +49,8 @@ Hỏi cụ thể trước khi ký: khi trả xe, pin cần ở mức bao nhiêu 
 ## Bước sáu: lưu sẵn kênh hỗ trợ khi cần
 
 Dù đã chuẩn bị kỹ, sự cố vẫn có thể xảy ra, từ hết pin bất ngờ đến lỗi màn hình. Lưu số hotline hỗ trợ của cửa hàng vào điện thoại ngay khi nhận xe, và hỏi rõ quy trình khi cần hỗ trợ: có được xe thay thế hay không, thời gian phản hồi trung bình bao lâu, và nếu phải bỏ xe lại giữa đường thì thủ tục ra sao. Khách lần đầu thuê xe ở Hà Nội nên đọc thêm tổng quan trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}) để nắm các quy định phổ biến giữa các cửa hàng.
+
+Danh sách giấy tờ cần mang khi nhận xe có ở trang [hướng dẫn thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), nên xem trước khi gọi xác nhận mẫu xe.
 
 ## Kết luận
 

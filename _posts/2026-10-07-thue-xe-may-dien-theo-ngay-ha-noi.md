@@ -9,6 +9,18 @@ primary_keyword: "thuê xe máy điện theo ngày hà nội"
 hub_parent: loai-xe
 hub_category: xe-dien
 seo_hub: xe-dien
+quick_answer: "Thuê xe máy điện theo ngày hợp nhất với chuyến ngắn trong nội đô, lịch cố định vài điểm quen và khách cần xe êm cho khung sáng sớm. Nếu có chặng trên hai mươi cây số một chiều, phải về khuya hoặc đi tuyến thiếu chỗ sạc, nên cân nhắc dòng xăng nhỏ."
+qa:
+  - q: "Vì sao hết pin giữa đường khó xử lý hơn hết xăng?"
+    a: "Vì không thể mua năng lượng ở ven đường như mua chai xăng. Bạn phải tìm ổ cắm và chờ sạc, có khi mất cả tiếng, nên với tuyến vắng hoặc chặng dài, hãy tính kỹ tầm pin trước khi chọn xe điện."
+  - q: "Thuê xe điện một ngày nên hỏi những gì về sạc?"
+    a: "Hỏi xe giao có đầy pin không, một lần sạc chạy được khoảng bao nhiêu cây số thật trong phố, sạc ở đâu, mất bao lâu và có kèm bộ sạc không. Với lịch trong phố khoảng mười lăm cây số mỗi ngày, một lần sạc gần như dư."
+  - q: "Thuê theo ngày ở Motoopen, xe xăng và xe đạp điện được báo giá thế nào?"
+    a: "Theo bảng giá tham khảo, thuê ngày từ 150k với xe số, Click/Mio đến 200k với Vision, Air Blade. Giá xe đạp điện nên xem trang Bảng giá hoặc hỏi khi đặt; giá có thể thay đổi và được chốt khi liên hệ."
+  - q: "Lịch một ngày tổng hai mươi cây số trong phố thì xe điện có thừa pin không?"
+    a: "Thường là thừa. Nhận xe pin đầy, đi ba việc trong phố với tổng quãng như vậy, cuối ngày vẫn có thể còn hơn nửa pin. Ngược lại, chuyến khứ hồi sáu mươi cây số ra khu ven dễ hụt pin giữa đường."
+  - q: "Có nên hỏi giá cả xe điện lẫn xe xăng trước khi chốt gói ngày?"
+    a: "Nên hỏi. Nhiều nơi có cả hai dòng, chỉ mất vài phút nhắn tin để so theo đúng lịch của bạn: lịch gọn trong phố và có chỗ sạc thì điện lợi, còn mỗi ngày trên hai mươi cây số hoặc có chặng ven thì xăng tiện hơn."
 ---
 Xe máy điện theo ngày là lựa chọn ngày càng phổ biến ở Hà Nội, phù hợp với một số dạng chuyến đi rõ rệt và không hợp với một số dạng khác. Bài này giúp bạn xác định chuyến của mình thuộc nhóm nào và tính tổng chi trước khi cọc.
 
@@ -35,6 +47,8 @@ Tình huống một: khách đi ba việc trong phố, tổng hai mươi cây s�
 ## So gói ngày giữa xe điện và xe xăng
 
 Với khách lần đầu cân hai loại, cách so nhanh là lấy chính lịch của mình ra tính theo từng bên. Bên điện: gói ngày cộng chi năng lượng gần bằng không, trừ đi giới hạn tầm pin. Bên xăng: gói ngày cộng tiền xăng nhỏ, cộng phần ồn và số nếu chọn dòng số, đổi được tự do đi xa không lo sạc. Nếu lịch của bạn mỗi ngày trên hai mươi cây số hoặc có chặng ven, xăng thắng về tổng tiện. Nếu lịch gọn trong phố và có chỗ sạc qua đêm, điện thắng cả về chi lẫn về êm. Nhiều nơi cho thuê có cả hai dòng, nên hỏi luôn hai mức rồi so, chỉ mất vài phút nhắn tin.
+
+Nếu số ngày thuê cộng dồn thành vài tuần, có thể so thêm với [thuê xe máy theo tháng]({{ '/' | relative_url }}) trước khi gia hạn tiếp.
 
 ## Kết luận
 

@@ -339,3 +339,4 @@ main#main:not(.blog-shell) { padding-top: var(--top-offset) !important; }
 }
 .blog-notice { max-width: var(--measure); margin: 12px auto 18px !important; font-size: .95rem; }
 body.dark .legal-update, body.dark .blog-notice { background: rgba(217, 119, 6, .14) !important; }
+.page-guides .blog-component-kicker { color: var(--accent) !important; }

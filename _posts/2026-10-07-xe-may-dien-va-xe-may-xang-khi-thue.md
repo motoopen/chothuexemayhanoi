@@ -9,6 +9,18 @@ primary_keyword: "xe máy điện và xe máy xăng khi thuê"
 hub_parent: loai-xe
 hub_category: xe-dien
 seo_hub: xe-dien
+quick_answer: "Chọn theo hành trình: dưới 30 cây số mỗi ngày trong nội thành thì xe máy điện rẻ, êm và gọn hơn; từ 30 đến 70 cây số thì tùy chỗ sạc bạn có; trên 80 cây số hoặc đi liên tỉnh như Hòa Bình, Ninh Bình thì xe máy xăng là lựa chọn an toàn."
+qa:
+  - q: "Đi Hòa Bình hoặc Ninh Bình trong ngày có nên thuê xe điện không?"
+    a: "Không nên với xe điện phổ thông. Một lần sạc đầy thường không đủ khứ hồi và ven đường không có mạng trạm đổi pin dày; chỉ nên cân nhắc xe điện đời cao khi chắc chắn có điểm sạc ở đích đến."
+  - q: "Vì sao trả xe điện cần đúng giờ hơn xe xăng?"
+    a: "Vì nơi thuê cần thời gian cắm pin cho khách sau. Xe xăng linh hoạt hơn về giờ giấc, nên nếu lịch của bạn dễ trễ, hỏi trước khả năng trả muộn khi đặt."
+  - q: "Xe điện có dễ lái hơn xe máy xăng không?"
+    a: "Sau vài phút làm quen thì có. Xe điện cần thích nghi với ga nhẹ và phanh tái tạo, nhưng yên thường thấp, chân chạm đất dễ; xe xăng thì quen tay với đa số người gần như ngay lập tức."
+  - q: "Thuê ngắn ngày và dài ngày thì loại nào tiết kiệm hơn?"
+    a: "Ngắn ngày thường xe điện rẻ hơn vì tiền điện gần như không đáng kể; dài ngày thì xe xăng dễ dự báo chi phí hơn. Hỏi trước mức pin tối thiểu khi trả để tránh phụ phí làm lệch phép so."
+  - q: "Nên hỏi gì về tồn kho xe trước ngày nhận?"
+    a: "Hỏi nơi thuê gần chỗ ở có sẵn loại nào trong ngày bạn cần và có cho trả muộn không. Với Motoopen, có thể gọi hoặc nhắn Zalo 0857 255 868 để hỏi trước; cửa hàng mở 09:00–21:00 hằng ngày."
 ---
 Chọn thuê xe máy điện hay xe máy xăng ở Hà Nội phụ thuộc trước hết vào hành trình bạn định chạy, chứ không chỉ vào giá thuê. Bài này so sánh hai loại theo từng nhóm lộ trình để bạn chọn đúng ngay từ bước đặt xe.
 
@@ -35,6 +47,8 @@ Xe máy xăng quen tay với đa số người, ga đều, làm quen gần như 
 ## Chọn theo điểm nhận và trả xe
 
 Cuối cùng, tính cả vị trí. Nơi thuê gần chỗ ở của bạn có loại nào sẵn, và trả muộn có được không. Xe điện cần trả đúng giờ để nơi thuê cắm pin cho khách sau, xe xăng linh hoạt hơn về giờ giấc. Hỏi qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) về tồn kho từng loại trước ngày nhận, tránh đến nơi mới đổi ý. Chốt lại: ngắn trong nội thành lấy điện, dài liên tỉnh lấy xăng, ở giữa thì tính theo chỗ sạc bạn có.
+
+Trước khi nhắn hỏi tồn kho, có thể xem [các loại xe số, xe ga và xe điện]({{ '/loaixe.html' | relative_url }}) để chọn sẵn nhóm hợp hành trình.
 
 ## Kết luận
 

@@ -9,6 +9,18 @@ primary_keyword: "thuê xe máy điện tây hồ"
 hub_parent: loai-xe
 hub_category: xe-dien
 seo_hub: xe-dien
+quick_answer: "Xe máy điện hợp nhất với vòng bờ Hồ Tây chừng mười lăm cây số và các chặng ngắn quanh khu ở, chợ, quán ven hồ. Nếu ngày nào cũng đi lại giữa Tây Hồ và trung tâm, quãng khứ hồi khoảng hai mươi cây số mỗi chuyến, nên hỏi kỹ tầm pin hoặc cân nhắc xe xăng."
+qa:
+  - q: "Ở chung cư hoặc Airbnb khu Tây Hồ thì sạc xe điện thế nào?"
+    a: "Nên hỏi chủ nhà hoặc ban quản lý về ổ cắm ngay từ lúc đặt chỗ ở, song song với lúc đặt xe. Với nhà mặt đất hay phòng trọ, cắm qua đêm tại nhà là phương án chuẩn; hỏi luôn nơi thuê có giao bộ sạc kèm xe không."
+  - q: "Đi vòng Hồ Tây lúc sáng sớm hoặc buổi tối cần chuẩn bị gì?"
+    a: "Đèn xe phải hoạt động tốt vì một số đoạn ven hồ vắng đèn phụ, có thể mang thêm đèn pin nhỏ. Nhiều đoạn có gió ngang, xe nhẹ dễ chệch, nên giữ tay lái chắc và đi tốc độ vừa phải."
+  - q: "Cuối tuần quanh Hồ Tây nên sạc pin thế nào?"
+    a: "Nên cắm sạc đầy từ tối thứ bảy nếu định chạy nhiều cả chủ nhật. Cuối tuần ven hồ đông, chỗ đỗ dày, nên chọn sẵn bãi hoặc đoạn lề quen; sáng sớm chủ nhật là khung vắng và đẹp nhất để đi vòng hồ."
+  - q: "Ở Tây Hồ nhưng làm việc khu phố cổ thì xe điện có hợp không?"
+    a: "Có thể không hợp nếu mỗi ngày hai chuyến vào phố, vì lịch dài làm pin xuống nhanh. Nên hỏi dòng pin lớn, hoặc dùng xe xăng cho phần đi lại xa và chỉ dùng điện cho các buổi quanh khu."
+  - q: "Motoopen có nhận thuê theo tuần cho khách lưu trú quanh Hồ Tây không?"
+    a: "Có. Motoopen nhận thuê theo ngày, tuần và tháng tại cửa hàng 114 Nguyễn Văn Cừ, Long Biên, mở 09:00–21:00 hằng ngày. Lựa chọn xe điện đang công bố là xe đạp điện, nên hỏi trước qua 0857 255 868 nếu lịch của bạn cần đi xa hơn quanh hồ."
 ---
 Tây Hồ với đường quanh hồ dài và các phố ven yên tĩnh là khu hợp với xe máy điện kiểu riêng: chặng vừa, đường thoáng và phong cảnh cho đi chậm. Bài này chỉ những hành trình ngắn hợp nhất quanh Tây Hồ và cách lo phần pin.
 
@@ -35,6 +47,8 @@ Tình huống một: khách lưu trú ven hồ một tuần, mỗi ngày vòng h
 ## Cuối tuần nên tính gì khác ngày thường
 
 Cuối tuần quanh Tây Hồ đông hơn hẳn vì khách ra hồ chơi, các đoạn ven hồ đỗ dày và có lúc ùn nhẹ. Với xe điện đi chậm, điều này ít ảnh hưởng tốc vì mọi xe đều chậm, nhưng ảnh hưởng chỗ đỗ: chọn bãi hoặc đoạn lề quen trước thay vì vòng tìm lúc đông. Ngày cuối tuần cũng là lúc nhiều khách kéo dài lịch, vì thế cắm sạc đầy từ tối thứ bảy nếu định cả chủ nhật chạy nhiều. Ngược lại, sáng sớm chủ nhật là khung quanh hồ đẹp và vắng nhất tuần, xứng đáng để xe đầy pin đón khách sớm.
+
+Với khách ở Tây Hồ nhiều tháng để làm việc, có thể tham khảo [thuê xe máy dài hạn tại Hà Nội]({{ '/' | relative_url }}) để có một chiếc đi lại hằng ngày thay vì gia hạn lẻ.
 
 ## Kết luận
 

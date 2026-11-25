@@ -9,6 +9,18 @@ primary_keyword: "xe máy điện và xe ga xăng"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
 seo_hub: xe-dien
+quick_answer: "Chọn giữa xe máy điện và xe ga xăng theo ba câu hỏi: có chỗ sạc qua đêm không, mỗi ngày chạy bao nhiêu cây số, tay quen loại ga nào. Không có chỗ cắm hoặc chạy trên 70 cây số mỗi ngày thì chọn xe xăng; dưới 40 cây số và có chỗ sạc thì xe điện thoải mái."
+qa:
+  - q: "Chạy khoảng 40 đến 70 cây số mỗi ngày thì có nên thuê xe điện?"
+    a: "Vẫn được nếu sạc được giữa ngày. Ở mức này cần tính thời gian sạc vào lịch; sắp xếp được thì xe điện vẫn tiện, còn không thì xe ga xăng an toàn hơn."
+  - q: "Khách ở nhà trọ trong ngõ nhỏ nên chọn xe điện hay xe ga xăng?"
+    a: "Phụ thuộc vào ổ cắm. Nếu chủ nhà đồng ý cho cắm sạc an toàn thì có thể cân nhắc xe điện; nếu không, xe ga xăng là đáp án gọn nhất vì trạm xăng ở Hà Nội dày."
+  - q: "Đã thuê xe điện mà lịch phát sinh nhiều chặng xa thì xử lý thế nào?"
+    a: "Nên hỏi khả năng đổi sang xe xăng giữa kỳ ngay lúc ký hợp đồng, kèm phụ phí nếu có, thay vì chịu đựng đến hết kỳ. Mỗi nơi có quy định riêng, nên hỏi rõ khi đặt."
+  - q: "Làm sao biết loại xe nào hợp lịch của mình sau vài ngày đi thử?"
+    a: "Chụp lại mức pin hoặc đồng hồ xăng mỗi sáng. Dữ liệu vài ngày cho bạn biết chính xác loại xe nào hợp lịch, thay vì kết luận vội sau một hôm không may."
+  - q: "Thuê cả tháng thì phần chênh nhiên liệu giữa xe điện và xe ga xăng có đáng kể không?"
+    a: "Có, kỳ càng dài thì phần chênh nhiên liệu càng lớn, nên cộng giá thuê trọn kỳ với ước tính nhiên liệu rồi so. Tham khảo Motoopen, thuê tháng khoảng 1–2 triệu tùy dòng xe, như Air Blade khoảng 1.400k hay Vision 1.800k–2.000k, giá chốt khi liên hệ."
 ---
 Tranh luận xe điện hay xe ga xăng thường dừng ở cảm giác, trong khi quyết định thật chỉ cần ba tiêu chí đo được: chỗ sạc, tổng quãng đường và thao tác bạn quen. Bài này đi theo đúng ba tiêu chí đó.
 
@@ -31,6 +43,8 @@ Cả hai đều tay ga không số, nhưng ga điện nhạy và phanh tái tạ
 ## Các tình huống thường gặp
 
 Khách du lịch nội thành ở khách sạn: điện trọn, êm và rẻ, tham khảo thuê xe máy điện phố cổ Hà Nội. Khách công tác chạy nhiều nơi mỗi ngày: ga xăng chủ động. Khách ở nhà trọ ngõ nhỏ: hỏi được chủ nhà về ổ cắm thì cân tiếp, không thì xăng. Khách chở hai người: cả hai đều được, tính pin theo bài [xe máy điện chở 2 người]({{ '/blog/xe-may-dien-cho-2-nguoi-khi-thue/' | relative_url }}) hoặc tải theo bài xe 50cc cho 2 người.
+
+Có thể xem [danh mục xe ga và xe điện]({{ '/loaixe.html' | relative_url }}) để chọn hai chiếc chạy thử tại quầy trong cùng một buổi.
 
 ## Kết luận
 
