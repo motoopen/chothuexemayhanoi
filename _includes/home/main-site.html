@@ -1,0 +1,5 @@
+{% comment %} Homepage mid-body link to the owner's main website (URL single source: _data/site.yml contact.website_url). {% endcomment %}
+{% assign main_site = site.data.site.contact.website_url %}
+        <section class="main-site-link" aria-label="Website chính Motoopen">
+          <p class="main-site-text"><i class="fa-solid fa-globe" aria-hidden="true"></i> Thông tin dịch vụ và bảng giá thuê xe máy Hà Nội đầy đủ được cập nhật trên <a href="{{ main_site }}" target="_blank" rel="noopener">website chính của Motoopen ({{ main_site | remove: "https://" }})</a>.</p>
+        </section>
