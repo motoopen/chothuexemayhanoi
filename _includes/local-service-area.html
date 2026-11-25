@@ -1,0 +1,15 @@
+{% comment %} Local SEO block (contact page): NAP + delivery areas from _data/site.yml only. {% endcomment %}
+{% assign c = site.data.site.contact %}
+<section class="page-guides local-area" aria-labelledby="khu-vuc-giao-xe">
+  <div class="page-guides-head">
+    <p class="blog-component-kicker">Khu vực phục vụ</p>
+    <h2 class="page-guides-title" id="khu-vuc-giao-xe">Nhận xe tại Long Biên hoặc giao tận nơi nội thành</h2>
+    <p>Cửa hàng Motoopen ở <strong>{{ c.address }}</strong>, mở cửa {{ c.hours }}. Nhận xe tại cửa hàng không mất phí giao; giao tận nơi tính phí {{ c.delivery_fee }}.</p>
+  </div>
+  <div>
+    <ul class="local-area-chips" aria-label="Khu vực giao xe">
+      {% for a in c.service_areas %}<li>{{ a }}</li>{% endfor %}
+    </ul>
+    <p class="local-area-note">Khi gọi hoặc nhắn Zalo để thuê theo tháng, hãy báo trước: dòng xe muốn thuê, ngày bắt đầu, số tháng dự kiến, điểm nhận xe và giấy tờ bạn có (CCCD hoặc hộ chiếu, bằng lái) để được báo giá và hẹn giao nhanh hơn.</p>
+  </div>
+</section>

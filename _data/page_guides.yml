@@ -1,0 +1,66 @@
+# "Cẩm nang liên quan" box on static pages (_includes/page-guides.html).
+# Owner rule: max 3 contextual internal links per static page; anchors describe the
+# linked article's own angle (no exact-match stuffing, no cannibalising the page's keyword).
+# Legal pages (chính sách, điều khoản) and faq.html (already link-dense) are intentionally absent.
+home:
+  title: "Cẩm nang thuê xe máy theo tháng"
+  intro: "Ba bài giúp bạn tính chi phí và chọn gói trước khi gọi đặt xe dùng cả tháng."
+  links:
+    - { url: "/blog/thue-xe-theo-ngay-hay-theo-thang/", label: "Thuê theo ngày hay theo tháng: cách tính điểm hòa vốn" }
+    - { url: "/blog/thue-xe-may-ha-noi-1-thang/", label: "Checklist chi phí và điều khoản khi thuê 1 tháng" }
+    - { url: "/blog/thue-xe-may-ha-noi-cho-sinh-vien/", label: "Sinh viên chọn gói thuê xe phù hợp ngân sách" }
+banggia:
+  title: "Đọc bảng giá cho đúng"
+  intro: "Trước khi so giá, xem giá thuê đã gồm gì và tiền cọc được tính, hoàn trả ra sao."
+  links:
+    - { url: "/blog/cach-doc-bang-gia-thue-xe-may-ha-noi/", label: "Cách đọc bảng giá thuê xe máy để không nhầm" }
+    - { url: "/blog/gia-thue-xe-may-da-bao-gom-gi/", label: "Giá thuê xe máy thường bao gồm những gì" }
+    - { url: "/blog/tien-coc-thue-xe-may-ha-noi/", label: "Tiền cọc: nên hỏi gì trước khi chuyển tiền" }
+dichvu:
+  title: "Chọn gói theo nhu cầu"
+  intro: "Mỗi nhóm khách có cách chọn gói thuê khác nhau; đây là ba tình huống hay gặp nhất."
+  links:
+    - { url: "/blog/thue-xe-may-ha-noi-di-cong-tac/", label: "Đi công tác Hà Nội: chọn gói thuê nào tiết kiệm" }
+    - { url: "/blog/thue-xe-may-dai-han-ha-noi/", label: "Thuê dài hạn: 7 khoản nên tính ngoài giá thuê" }
+    - { url: "/blog/thue-xe-may-ha-noi-cho-nguoi-nuoc-ngoai/", label: "Người nước ngoài thuê xe: giấy tờ và lưu ý" }
+loaixe:
+  title: "So sánh trước khi chọn xe"
+  intro: "Xe số, xe ga, 50cc hay xe điện: ba bài so sánh theo cách bạn sẽ dùng xe hằng ngày."
+  links:
+    - { url: "/blog/xe-ga-hay-xe-so/", label: "Xe ga hay xe số: chọn loại nào khi đi Hà Nội" }
+    - { url: "/blog/thue-xe-50cc-theo-thang/", label: "Thuê xe 50cc theo tháng: hỏi gì về bảo dưỡng, đổi xe" }
+    - { url: "/blog/thue-xe-may-dien-theo-thang-ha-noi/", label: "Thuê xe máy điện theo tháng: pin và bảo dưỡng" }
+thutuc:
+  title: "Giấy tờ và hợp đồng"
+  intro: "Chuẩn bị đúng giấy tờ và đọc kỹ hợp đồng giúp nhận xe nhanh, trả xe không vướng."
+  links:
+    - { url: "/blog/thue-xe-may-ha-noi-can-giay-to-gi/", label: "Thuê xe máy Hà Nội cần giấy tờ gì" }
+    - { url: "/blog/hop-dong-thue-xe-may-can-co-gi/", label: "Hợp đồng thuê xe máy cần có những điều khoản nào" }
+    - { url: "/blog/gia-han-hop-dong-thue-xe-may/", label: "Gia hạn hợp đồng: 6 điều nên xác nhận lại" }
+huongdan:
+  title: "Checklist nhận và trả xe"
+  intro: "Ba checklist ngắn để nhận xe an tâm, xử lý sự cố đúng cách và trả xe không mất cọc."
+  links:
+    - { url: "/blog/checklist-10-phut-truoc-khi-nhan-xe/", label: "Checklist 10 phút trước khi nhận xe" }
+    - { url: "/blog/xe-thue-chet-may-giua-duong/", label: "Xe thuê chết máy giữa đường: 7 bước xử lý" }
+    - { url: "/blog/checklist-tra-xe-may-thue/", label: "Checklist trả xe: 10 việc trước khi bàn giao" }
+kinhnghiem:
+  title: "Kinh nghiệm đi xe ở Hà Nội"
+  intro: "Dành cho người mới thuê xe hoặc mới đến Hà Nội: từ lần thuê đầu tiên đến lịch trình và thời tiết."
+  links:
+    - { url: "/blog/thue-xe-may-ha-noi-lan-dau/", label: "Thuê xe máy lần đầu: 12 điều nên biết" }
+    - { url: "/blog/lich-trinh-xe-may-tham-quan-ha-noi-1-ngay/", label: "Lịch trình Hà Nội 1 ngày bằng xe máy" }
+    - { url: "/blog/thue-xe-may-ha-noi-mua-mua/", label: "Mùa mưa: chọn xe và đồ cần chuẩn bị" }
+lienhe:
+  title: "Nhận xe gần bạn"
+  intro: "Cửa hàng ở Long Biên và giao xe nội thành; xem cách chọn điểm nhận phù hợp lịch trình."
+  links:
+    - { url: "/blog/thue-xe-may-long-bien-ha-noi/", label: "Thuê xe máy Long Biên: nhận xe tại cửa hàng" }
+    - { url: "/blog/thue-xe-may-ha-noi-giao-tan-noi/", label: "Giao xe tận nơi: quy trình nhận xe nên kiểm tra" }
+    - { url: "/blog/thue-xe-may-ha-noi-gan-day/", label: "Chọn điểm nhận xe gần đây theo khoảng cách" }
+gioithieu:
+  title: "Tìm hiểu thêm về Motoopen"
+  intro: "Cách đánh giá một nơi cho thuê xe và câu chuyện dịch vụ của Motoopen."
+  links:
+    - { url: "/blog/gioi-thieu-motoopen/", label: "Giới thiệu về Motoopen" }
+    - { url: "/blog/thue-xe-may-ha-noi-uy-tin/", label: "9 tiêu chí đánh giá nơi thuê xe uy tín" }
