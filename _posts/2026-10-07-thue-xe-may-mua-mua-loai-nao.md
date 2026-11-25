@@ -8,6 +8,19 @@ matrix_id: 158
 primary_keyword: "thuê xe máy mùa mưa loại nào"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-tay-ga
+quick_answer: "Mùa mưa nên chọn xe theo ba tiêu chí: lốp còn gai sâu, phanh ăn chắc, ưu tiên phanh đĩa trước nếu có đường trường, và chắn bùn đủ dài. Xe ga che người và đồ tốt nhất, xe số đủ dùng và rẻ, còn xe điện cần hỏi kỹ phần che mạch."
+qa:
+  - q: "Lốp xe thuê như thế nào thì nên từ chối khi đang mùa mưa?"
+    a: "Lốp mòn mép, nứt thành, gai nông hoặc mặt lốp có mảng chai cứng thì nên xin xe khác. Đây là mục từ chối xe quan trọng nhất mùa mưa, vì lốp mòn bám đường ướt rất kém."
+  - q: "Thuê xe mùa mưa có được kèm áo mưa không?"
+    a: "Nên hỏi rõ khi đặt xem áo mưa có đi kèm hay không. Nếu tự chuẩn bị, chọn áo mưa tấm rộng thay vì áo bó, mang thêm khăn lau kính mũ vì kính mù rất nhanh trong mưa nhỏ."
+  - q: "Gặp mưa đầu cơn có nên đi tiếp không?"
+    a: "Nên trú năm đến mười phút đầu. Lúc mới mưa, mặt đường trơn nhất vì nước hòa với dầu và tầm nhìn kém; chờ qua đợt đầu rồi đi sẽ an toàn hơn."
+  - q: "Xe điện có chạy được khi trời mưa không?"
+    a: "Chạy được nếu mạch điện được che kín, nhưng mỗi mẫu một khác. Hãy hỏi nơi thuê trực tiếp về mẫu cụ thể trước khi nhận, và lưu ý một số bản xe điện mini có chắn bùn ngắn."
+  - q: "Mùa mưa nên sắp chặng xa vào buổi nào trong ngày?"
+    a: "Nên dồn chặng xa vào buổi sáng và chặng gần vào chiều, vì mưa Hà Nội thường to về chiều tối và ngắn về sáng. Cách sắp lịch này giúp bạn ít phải dầm mưa lâu trên đường."
 ---
 Mùa mưa không cần đổi lịch trình, chỉ cần đổi tiêu chí chọn xe. Ba thứ quyết định an toàn khi đường ướt là lốp, phanh và chắn bùn, và bài này kiểm từng mục một.
 
@@ -26,6 +39,8 @@ Chắn bùn đủ dài giữ nước bẩn khỏi tung lên lưng và người n
 ## Loại xe nào hợp mùa mưa
 
 Xe ga lớn che tốt nhất cho người và đồ, xem bài [thuê xe ga Hà Nội]({{ '/blog/thue-xe-ga-ha-noi/' | relative_url }}). Xe số vừa giá, chắn đủ và lốp dễ thay, tham khảo thuê xe số Hà Nội. Xe điện chạy mưa được nếu các mạch được che, hỏi nơi thuê trực tiếp về cụ thể từng mẫu qua trang liên hệ. Nhóm 50cc nhẹ dễ văng trên đường trơn, ai cân nhóm nhỏ đọc thêm thuê xe máy đi phố đông Hà Nội về độ gọn trong mưa phố.
+
+Muốn so trước xe ga và xe số theo các tiêu chí mùa mưa, bạn có thể xem [các dòng xe ga và xe số cho thuê]({{ '/loaixe.html' | relative_url }}) rồi hỏi tình trạng lốp khi đặt.
 
 ## Phụ kiện đi kèm không thể thiếu
 

@@ -8,6 +8,7 @@ matrix_id: 275
 primary_keyword: "road trip từ hà nội bằng xe thuê"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
+seo_hub: hanh-trinh
 ---
 Road trip bằng xe thuê khác một chuyến phố: bạn mang cả chiếc xe của người khác vào vùng không quen, và mọi thiếu sót đều đắt hơn. Checklist mười lăm mục dưới đây là cửa trước khi rời vành đai.
 

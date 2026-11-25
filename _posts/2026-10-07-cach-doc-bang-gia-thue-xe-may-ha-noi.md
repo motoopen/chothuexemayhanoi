@@ -8,12 +8,25 @@ matrix_id: 21
 primary_keyword: "cách đọc bảng giá thuê xe máy hà nội"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+seo_hub: gia-coc
+quick_answer: "Đọc bảng giá đúng là quy đổi giá ngày và gói tuần, tháng ra mức trên một ngày, đối chiếu dòng xe với nhu cầu thật, rồi hỏi rõ phụ phí và cọc. Một ngày thuê thường tính theo khung 24 giờ từ lúc nhận, không theo mốc nửa đêm."
+qa:
+  - q: "Giá giờ trên bảng giá thuê xe có rẻ hơn giá ngày không?"
+    a: "Không hẳn. Giá giờ chỉ áp dụng khi cửa hàng niêm yết riêng và nếu quy đổi thường đắt hơn nhiều so với giá ngày. Chỉ nên chọn khi bạn chắc chắn dùng xe vài tiếng và trả đúng khung."
+  - q: "Motoopen có những dòng xe nào và giá ngày chênh nhau ra sao?"
+    a: "Motoopen cho thuê xe số như Honda Wave/RSX, xe ga như Vision, Air Blade, Click/Mio, cùng xe 50cc, xe đạp điện và xe tay côn. Trên bảng giá, giá ngày tham khảo từ 150k cho xe số, Click/Mio đến 200k cho Vision, Air Blade; giá chốt khi liên hệ."
+  - q: "Thuê khoảng sáu ngày thì gói tuần có lợi hơn thuê lẻ không?"
+    a: "Thường là có. Trong ví dụ của bài, quy đổi gói tuần ra mỗi ngày rẻ hơn thuê lẻ sáu ngày, kể cả khi hôm cuối không dùng xe. Ngược lại, với hai ngày lẻ thì gói tuần không đáng vì tổng trả ban đầu cao hơn."
+  - q: "Tiền cọc có được tính vào tiền thuê xe không?"
+    a: "Không. Cọc là khoản bảo đảm, được hoàn khi xe trả về đúng hiện trạng, còn tiền thuê là chi phí sử dụng xe. Tại Motoopen, mức cọc tùy dòng xe, xem bảng giá hoặc hỏi khi đặt."
+  - q: "Ở Hà Nội vài tháng thì nên xem mục nào trên bảng giá?"
+    a: "Nên xem mục giá tháng. Theo bảng giá Motoopen đang công bố, thuê tháng khoảng 1–2 triệu tùy dòng xe, ví dụ Wave khoảng 1.200k, Vision 1.800k–2.000k. Giá có thể thay đổi nên hãy xác nhận khi liên hệ."
 ---
 Bảng giá thuê xe máy ở Hà Nội nhìn qua tưởng đơn giản, nhưng nhiều người đến lúc trả xe mới phát hiện mình hiểu nhầm giữa giá ngày và giá giờ, hoặc bỏ qua các khoản phụ phí. Bài này hướng dẫn cách đọc bảng giá đúng để tổng chi phí không vượt dự tính.
 
 ## Phân biệt giá ngày, giá giờ và giá gói
 
-Một ngày thuê thường tính theo khung hai mứ tư giờ, không phải theo lịch thiên nhiên, nên nhận chiều hôm trước và trả sáng hôm sau có khi vẫn tính trọn một ngày. Giá giờ chỉ áp dụng khi cửa hàng niêm yết riêng, thường đắt hơn nhiều nếu quy đổi. Gói tuần và tháng có mức riêng rẻ hơn tính trên mỗi ngày, chỉ đáng lấy khi thời gian thuê đủ dài. Xem kỹ các mức này tại trang [bảng giá]({{ '/banggia.html' | relative_url }}), và so sánh theo quy đổi ra một ngày trước khi chốt.
+Một ngày thuê thường tính theo khung hai mươi tư giờ, không phải theo lịch thiên nhiên, nên nhận chiều hôm trước và trả sáng hôm sau có khi vẫn tính trọn một ngày. Giá giờ chỉ áp dụng khi cửa hàng niêm yết riêng, thường đắt hơn nhiều nếu quy đổi. Gói tuần và tháng có mức riêng rẻ hơn tính trên mỗi ngày, chỉ đáng lấy khi thời gian thuê đủ dài. Xem kỹ các mức này tại trang [bảng giá]({{ '/banggia.html' | relative_url }}), và so sánh theo quy đổi ra một ngày trước khi chốt.
 
 ## Các dòng xe khác nhau khác giá
 
@@ -26,6 +39,8 @@ Một số khoản thường xuất hiện ngoài giá niêm yết: phí giao xe
 ## Cọc không phải là giá thuê
 
 Tiền cọc là khoản bảo đảm, được hoàn trả khi xe về đúng hiện trạng, khác hoàn toàn với tiền thuê. Hỏi rõ hình thức giữ cọc, mức giữ theo dòng xe, và thời gian hoàn trả sau khi bạn trả xe. Chụp hiện trạng xe khi nhận làm bằng chứng đối chiếu. Điều khoản hợp đồng liên quan cọc nằm ở trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), kinh nghiệm chuẩn bị đầy đủ cho lần đầu thuê nằm trong bài thuê xe máy Hà Nội lần đầu. Nếu lần đầu thuê ở Hà Nội, hãy đối chiếu mức cọc giữa các dòng xe trước khi chốt, vì mức giữ có thể chênh nhau đáng kể giữa dòng số thông thường và dòng ga cao hơn.
+
+Nếu sau khi quy đổi bạn thấy mình cần xe nhiều tuần liền, hãy so thêm [gói thuê xe máy theo tháng]({{ '/' | relative_url }}), vì gói dài thường có mức tính trên mỗi ngày thấp hơn thuê lẻ.
 
 ## Kết luận
 

@@ -8,6 +8,7 @@ matrix_id: 119
 primary_keyword: "thuê xe máy điện gần nội bài"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Nội Bài cách trung tâm ba mươi cây số qua đường cao tốc, và đây là quãng vượt tầm thoải mái của đa số xe máy điện phổ thông. Bài này giúp cân nhắc đúng trước khi quyết nhận xe điện quanh sân bay.
 

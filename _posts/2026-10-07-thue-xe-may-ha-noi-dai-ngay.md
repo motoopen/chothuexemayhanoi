@@ -8,6 +8,19 @@ matrix_id: 8
 primary_keyword: "thuê xe máy hà nội dài ngày"
 hub_parent: thue-xe
 hub_category: bat-dau-thue
+seo_hub: thue-xe-thang
+quick_answer: "Nên chuyển sang gói tuần hoặc tháng khi bạn đã gia hạn gói ngày nhiều lần hoặc cần xe hằng ngày cho đi làm, đi học. Cách kiểm tra là quy giá các gói ra một ngày cho cùng dòng xe và so tổng tiền đã trả mười ngày gần nhất với giá gói tháng."
+qa:
+  - q: "Gia hạn bao nhiêu lần thì nên đổi sang gói dài?"
+    a: "Một dấu hiệu rõ là bạn đã gia hạn lần thứ ba trở lên trong tuần, hoặc lịch cần xe hằng ngày. Lúc đó nên hỏi giá gói tuần, gói tháng cho cùng dòng xe và quy ra giá mỗi ngày để so."
+  - q: "Chuyển từ gói ngày sang gói tháng có được trừ phần đã trả không?"
+    a: "Tùy nơi thuê, nên hỏi trước khi chuyển. Cách gọn là làm hợp đồng mới thay vì gia hạn miên man, và hỏi rõ phần ngày đã trả hoặc còn lại có được tính trừ vào gói mới không."
+  - q: "Giá thuê ngày và thuê tháng ở Motoopen chênh nhau thế nào?"
+    a: "Theo bảng giá tham khảo, thuê ngày từ 150k đến 200k, còn thuê tháng khoảng 1–2 triệu tùy dòng xe. Vì vậy với người cần xe gần như mỗi ngày, gói tháng rẻ hơn nhiều tính trên mỗi ngày; giá chốt khi liên hệ."
+  - q: "Làm sao biết mình thực sự dùng xe bao nhiêu ngày mỗi tháng?"
+    a: "Ghi lại mỗi lần thuê và trả: ngày, số tiền, dòng xe và phụ phí nếu có. Sau một tháng, bảng ghi cho biết chính xác số ngày dùng; nhiều người phát hiện mình thuê gần hai mươi ngày mỗi tháng dù tưởng chỉ dăm bảy ngày."
+  - q: "Lịch dùng xe dồn về cuối tuần thì nên chọn gói nào?"
+    a: "Nếu lịch theo đợt và chủ yếu dồn về cuối tuần, gói tháng nguyên có thể chưa lợi. Hãy hỏi phương án kết hợp ngày và tuần, rồi tính tổng theo lịch thực tế trước khi chốt."
 ---
 Nhiều người thuê xe máy theo ngày rồi gia hạn liên tục nhiều tuần, đến khi tính lại mới thấy số tiền vượt xa gói tháng. Bài này giúp bạn nhận biết thời điểm nên chuyển sang gói tuần hoặc tháng ở Hà Nội.
 
@@ -34,6 +47,8 @@ Khi chuyển gói, làm lại hợp đồng mới thay vì gia hạn miên man, 
 ## Theo dõi chi phí để quyết định đúng lúc
 
 Nên ghi lại mỗi lần trả xe: ngày, số tiền, dòng xe và ghi chú phát sinh nếu có. Sau một tháng, bảng ghi này cho biết chính xác bạn dùng bao nhiêu ngày, bao nhiêu giờ và có phát sinh phụ phí nào lặp lại không. Con số thực tế là căn cứ vững nhất khi thương lượng chuyển gói hoặc đổi dòng xe rẻ hơn. Nhiều người phát hiện mình thuê gần đủ hai mươi ngày mỗi tháng chỉ sau khi ngồi tổng hợp, trong khi vẫn tưởng nhu cầu chỉ dăm bảy ngày. Biết số của mình, bạn không phải dựa vào cảm tính nữa.
+
+Khi bảng ghi cho thấy bạn dùng xe gần như mỗi ngày, đó là lúc tìm hiểu [dịch vụ thuê xe theo tháng]({{ '/' | relative_url }}) và so với số tiền đang trả cho gói ngày.
 
 ## Kết luận
 

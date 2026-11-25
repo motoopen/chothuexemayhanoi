@@ -8,6 +8,17 @@ matrix_id: 53
 primary_keyword: "thuê xe 50cc hà nội"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
+quick_answer: "Xe máy dưới 50cc là nhóm bao trùm, gồm cả xe số như Cub 50cc lẫn xe ga dưới 50cc. Cub mang trải nghiệm cổ điển và cần thao tác số bằng chân, còn xe ga nhỏ dễ lái nhất, có khoang đồ dưới yên. Khi đặt, hãy hỏi rõ mẫu cụ thể và chạy thử trước khi ký."
+qa:
+  - q: "Xe gắn máy có phải là xe dưới 50cc không?"
+    a: "Theo bài viết, xe máy dưới 50cc còn được gọi là xe gắn máy, gồm cả xe số lẫn xe ga kiểu dáng nhỏ, nhẹ và tốc độ tối đa khiêm tốn. Cách phân loại pháp lý cụ thể và điều kiện người lái thì nên kiểm tra quy định hiện hành."
+  - q: "Đặt thuê chỉ nói xe 50cc chung chung có sao không?"
+    a: "Có thể nhận chiếc khác với hình dung, vì mỗi cửa hàng hiểu cụm từ xe 50cc theo một kiểu. Nên hỏi rõ mẫu cụ thể, dung tích xi lanh và xem khối lượng thực tế của xe trước khi đặt."
+  - q: "Xe ga dưới 50cc có nhược điểm gì?"
+    a: "Xe nhẹ nên dễ bị gió và xe tải lớn tác động khi chạy chung đường, và một số mẫu cũ hao điện bình ắc quy nhanh. Khi nhận, nên kiểm tra đèn, còi, đề điện, bình ắc quy và thử khoang dưới yên."
+  - q: "Khách nước ngoài muốn trải nghiệm Hà Nội xưa nên thuê xe nào?"
+    a: "Xe Cub 50cc thường được khách nước ngoài ưa chuộng vì kiểu dáng gợi không khí Hà Nội xưa, nhưng cần thao tác số bằng chân nên hãy chạy thử trước. Người nước ngoài thuê xe ở Motoopen cần hộ chiếu và bằng lái quốc tế hợp lệ."
 ---
 Tìm kiếm dòng xe nhỏ để đi lại ở Hà Nội, bạn sẽ gặp ba cụm từ dễ nhầm lẫn: xe Cub 50cc, xe ga dưới 50cc và xe máy dưới 50cc. Ba loại này đều thuộc nhóm xe nhỏ nhưng khác nhau về kiểu dáng, cảm giác lái và phù hợp từng nhu cầu. Nhầm lẫn khi đặt xe có thể khiến bạn nhận một chiếc hoàn toàn khác với hình dung. Bài viết này phân biệt từng loại và gợi ý cách chọn khi thuê xe 50cc ở Hà Nội.
 
@@ -34,6 +45,8 @@ Giá thuê giữa các dòng xe nhỏ thường chênh không nhiều, so sánh 
 ## Kiểm tra khi nhận xe theo từng dòng
 
 Với xe Cub, kiểm tra cần số, dây ga và phanh cơ cấu kiểu cũ, vì đây là các điểm hay hao mòn nhất. Với xe ga nhỏ, kiểm tra hệ thống điện: đèn, còi, đề điện và bình ắc quy, kèm thử khoang dưới yên. Cả hai đều cần thử phanh và chạy thử vòng ngắn. Chụp lại tình trạng xe khi nhận là thói quen nên giữ với mọi dòng xe, chi tiết hơn đã có trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}). Khi cần hỏi trước, thông tin liên hệ nằm ở trang liên hệ.
+
+Trước khi chốt giữa Cub và xe ga nhỏ, có thể xem [bảng giá các dòng xe]({{ '/banggia.html' | relative_url }}) để đối chiếu mức thuê theo ngày hoặc theo tháng.
 
 ## Kết luận
 

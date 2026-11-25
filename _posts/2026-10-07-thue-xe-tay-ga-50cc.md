@@ -8,6 +8,19 @@ matrix_id: 61
 primary_keyword: "thuê xe tay ga 50cc"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
+quick_answer: "Trước khi đi xe tay ga 50cc thuê, hãy kiểm tra đủ bảy tiêu chí: động cơ và độ nhạy ga, bình ắc quy và hệ thống điện, phanh trước sau, lốp và vành, khung xe và giảm xóc, khoang đồ dưới yên, cùng giấy tờ kèm xe. Chụp lại vết trầy sẵn có trước khi rời cửa hàng."
+qa:
+  - q: "Ga xe tay ga bị giật hoặc hụt khi vặn là dấu hiệu gì?"
+    a: "Thường là bộ chế hòa khí hoặc dây ga có vấn đề. Ga tốt sẽ lên đều khi vặn và về chế độ không tải mượt khi thả; nếu thấy giật hoặc hụt, nên đề nghị đổi chiếc khác hoặc nhờ cửa hàng chỉnh trước khi nhận."
+  - q: "Làm sao biết bình ắc quy xe ga thuê còn khỏe?"
+    a: "Thử đề máy vài lần liên tiếp xem đề có nhanh không, kiểm tra đèn pha, đèn hậu, còi và đồng hồ. Hỏi thêm bình đã thay bao lâu, vì bình yếu có thể bỏ bạn giữa chừng sau khi để xe lâu không nổ máy."
+  - q: "Kiểm tra vành xe tay ga có bị cong bằng cách nào?"
+    a: "Dựng xe thẳng rồi nhìn từ phía trước xem bánh có lệch không. Vành xe ga nhỏ dễ cong nếu từng va chạm; quan sát thêm hoa lốp còn sâu không, có mòn lệch một bên hay nứt lão hóa không."
+  - q: "Thử giảm xóc trước của xe thuê như thế nào?"
+    a: "Dùng tay ấn nhún phần đầu xe xuống rồi thả: xe nảy lên đều là tốt. Sau đó ngồi lên xoay tay lái sang hai bên xem có kẹt hoặc lỏng không, và quan sát khung xe có vết nứt, mối hàn lại hay gỉ sâu không."
+  - q: "Có nên mang theo giấy tờ xe khi đi xe thuê trong thành phố?"
+    a: "Nên. Hỏi nơi thuê có giao kèm giấy đăng ký bản photo hoặc thẻ xe không, vì mang theo khi đi trong thành phố là điều nên làm. Giấy tờ cụ thể Motoopen giao kèm xe nên hỏi rõ khi nhận."
 ---
 Xe tay ga 50cc nghe là dòng dễ lái nhất trong các loại xe cho thuê, nhưng chính vì dễ nên nhiều khách nhận xe rất nhanh, bỏ qua khâu kiểm tra rồi gặp rắc rối giữa chuyến. Với xe ga nhỏ đã qua sử dụng, có bảy tiêu chí đáng kiểm tra trước khi lăn bánh. Bài viết này đi qua từng tiêu chí, kèm cách kiểm tra nhanh tại cửa hàng.
 
@@ -34,6 +47,8 @@ Bóp thử giảm xóc trước bằng tay đẩy nhún xuống: xe nảy lên �
 ## Tiêu chí sáu và bảy: khoang đồ và giấy tờ kèm xe
 
 Kiểm tra khóa yên và khoang dưới yên: mở được, khóa còn chắc không, để vừa mũ hoặc túi nhỏ. Hỏi giấy tờ kèm xe: giấy đăng ký bản photo hoặc thẻ xe có được giao cùng không, vì việc mang theo khi đi vòng quanh thành phố là điều nên làm. Chụp lại hình ảnh các vết trầy sẵn có trên thân xe trước khi rời cửa hàng. Với khách lần đầu, khung tổng quan các bước nhận xe nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
+
+Nếu chiếc được giao chưa đạt vài tiêu chí, bạn có thể xem [danh sách dòng xe cho thuê]({{ '/loaixe.html' | relative_url }}) để chọn mẫu khác trước khi ký.
 
 ## Sau khi kiểm tra: hỏi và chốt
 

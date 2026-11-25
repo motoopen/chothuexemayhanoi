@@ -8,6 +8,19 @@ matrix_id: 86
 primary_keyword: "xe ga 50cc cho người thấp"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
+quick_answer: "Người thấp nên chọn xe ga 50cc bằng cách ngồi thử: gót chân chạm đất khi dừng là yên hợp, dắt qua mép vỉa hè và dựng chân chống không phải ghì cả người là độ nặng vừa sức. Nên ưu tiên chiếc yên thấp, nhẹ, ga và phanh nhẹ tay hơn chiếc đẹp hơn."
+qa:
+  - q: "Chỉ chạm được mũi chân khi ngồi xe ga 50cc có ổn không?"
+    a: "Không lý tưởng. Chỉ mũi chân chạm đất nghĩa là yên hơi cao với bạn, mỗi lần dừng đèn đỏ phải nhón chân dễ mỏi và kém vững. Nên xin thử chiếc khác có yên thấp hoặc lún hơn trước khi nhận."
+  - q: "Vì sao người thấp nên thử độ nặng của ga và phanh?"
+    a: "Người thấp thường có bàn tay nhỏ, nên ga nặng dễ làm xe giật khi vặn, còn phanh cứng khó bóp trong tình huống gấp. Thử vặn ga tại chỗ và bóp phanh vài lần để chọn chiếc thao tác nhẹ, chính xác."
+  - q: "Người thấp dừng đèn đỏ và đỗ xe thế nào cho vững?"
+    a: "Khi dừng, có thể chọn làn gần mép phải để đặt chân ở chỗ thuận lợi hơn nếu có; khi đỗ, chọn chỗ phẳng thay vì lề dốc nghiêng. Nếu chở người, dặn họ xuống trước rồi bạn mới dựng chân chống."
+  - q: "Ngồi thử thấy không vừa dáng thì có đổi xe được không?"
+    a: "Thường có thể đề nghị đổi ngay tại điểm nhận nếu còn chiếc khác cùng dòng. Chính sách đổi xe sau khi đã nhận ở Motoopen nên hỏi rõ khi đặt, kèm nói thẳng chiều cao của bạn để được gợi ý chiếc phù hợp."
+  - q: "Bình xăng đầy có làm xe ga 50cc nặng hơn đáng kể không?"
+    a: "Có cộng thêm một chút. Bình xăng đầy và đồ trong hộc làm xe nặng thêm vài ký, người thấp sẽ cảm nhận rõ khi dắt lên vỉa hè hoặc dựng chân chống, nên thử dắt xe đúng tình trạng thực tế sẽ đi."
 ---
 Với người thấp, hai yếu tố quyết định an toàn trên xe ga 50cc là chiều cao yên và độ nặng chiếc xe. May là dòng 50cc vốn nhẹ và yên thấp, nhưng giữa các chiếc vẫn có khác nhau. Bài này chỉ cách kiểm tra để chọn được chiếc hợp dáng người mình.
 

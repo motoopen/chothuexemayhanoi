@@ -13,7 +13,7 @@
 
       if (callA) {
         callA.href = 'tel:' + phone;
-        callA.setAttribute('aria-label', 'Gọi ' + phone);
+        callA.setAttribute('aria-label', (callA.textContent.trim() || 'Gọi') + ' ' + phone);
       }
       if (zaloA) {
         zaloA.href = zalo;

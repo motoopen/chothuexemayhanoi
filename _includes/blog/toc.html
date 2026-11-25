@@ -1,0 +1,19 @@
+{% comment %}
+Server-rendered table of contents built from the article's H2 ids (kramdown auto ids).
+Closed by default (mobile-first); assets/js/site.js opens it on wide screens.
+{% endcomment %}
+{% assign toc_parts = content | split: '<h2 id="' %}
+{% if toc_parts.size > 3 %}
+<details class="article-toc" id="article-toc">
+  <summary><i class="fa-solid fa-list-ul" aria-hidden="true"></i> Mục lục bài viết <span class="article-toc-count">{{ toc_parts.size | minus: 1 }} mục</span></summary>
+  <ol>
+    {% for part in toc_parts offset: 1 %}
+      {% assign toc_id = part | split: '"' | first %}
+      {% assign toc_rest = part | split: '</h2>' | first %}
+      {% assign toc_text = toc_rest | split: '>' | last | strip_html | strip %}
+      <li><a href="#{{ toc_id }}">{{ toc_text }}</a></li>
+    {% endfor %}
+    {% if page.qa and page.qa.size > 0 %}<li><a href="#cau-hoi-thuong-gap">Câu hỏi thường gặp</a></li>{% endif %}
+  </ol>
+</details>
+{% endif %}

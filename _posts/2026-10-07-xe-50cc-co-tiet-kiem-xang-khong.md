@@ -8,6 +8,19 @@ matrix_id: 79
 primary_keyword: "xe 50cc có tiết kiệm xăng không"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
+quick_answer: "Có, xe 50cc thuộc nhóm tiết kiệm xăng nhất, nhất là khi đi quãng ngắn trong phố với tốc độ đều. Để biết chi phí thực tế, hãy nhân tổng quãng dự kiến của kỳ thuê với mức tiêu hao thật của chiếc xe được giao, rồi hỏi rõ chính sách mức xăng khi trả."
+qa:
+  - q: "Nhận xe với mức xăng nào thì phải trả lại mức đó không?"
+    a: "Tùy chính sách từng nơi, nên hỏi trước khi cọc: trả đúng mức lúc nhận hay được thấp hơn và phần thiếu tính theo giá nào. Chụp đồng hồ xăng lúc nhận làm bằng chứng; với Motoopen, điểm này nên hỏi rõ khi đặt."
+  - q: "Vì sao nên tự đổ xăng trước khi trả xe thuê?"
+    a: "Vì phần xăng thiếu nếu bị tính theo giá tại điểm trả thường cao hơn tự đổ. Chủ động đổ đúng mức trước khi trả, nhất là với kỳ thuê dài, giúp tiết kiệm thật và tránh tranh luận lúc bàn giao."
+  - q: "Thói quen nào làm xe 50cc hao xăng hơn bình thường?"
+    a: "Rú ga rồi thả liên tục giữa các đèn đỏ, để bánh non hơi và để máy nổ lâu khi dừng chờ. Đi đều ga, kiểm tra căng bánh lúc nhận và tắt máy khi dừng trên một phút giúp giữ mức tiêu hao thấp."
+  - q: "Đi nhiều chặng dài thì xe 50cc còn lợi về xăng không?"
+    a: "Vẫn tiết kiệm nhưng phần lợi thu hẹp, vì quãng đường nhân lên và xe nhỏ phải làm việc nhiều hơn. Lúc đó nên so tổng chi phí cả kỳ, gồm giá thuê và xăng, giữa dòng 50cc và dòng vừa."
+  - q: "Muốn so tổng chi phí, giá thuê tháng các dòng xe ở Motoopen khoảng bao nhiêu?"
+    a: "Theo bảng giá đang công bố, thuê tháng khoảng 1–2 triệu tùy dòng: Wave khoảng 1.200k, Click/Mio 1.000k–1.200k, Air Blade khoảng 1.400k, Vision 1.800k–2.000k. Giá dòng 50cc nên hỏi khi đặt, vì giá có thể thay đổi và được chốt khi liên hệ."
 ---
 Tiết kiệm xăng là lý do lớn khiến khách chọn dòng 50cc, nhưng tiết kiệm bao nhiêu thì phải ước theo quãng đường thật của mình. Bài này cho cách tính nhanh để bạn biết khoản xăng của cả kỳ thuê trước khi nhận xe.
 
@@ -29,11 +42,13 @@ Tình huống một: khách thuê tuần, mỗi ngày trong phố tám cây số
 
 ## Ba thói quen giữ mức tiêu hao thấp
 
-Thói quen một: đi đều ga, không rú lên thả xuống giữa đèn đỏ, giữ đà từ xa khi thấy đèn sắp đỏ. Thói quen hai: kiểm tra căng bánh lúc nhận, bánh non làm xe nặng và tiêu hao tăng. Thói năng ba: không để máy nổ lâu khi dừng chờ, dòng nhỏ khởi động nhẹ nên tắt máy khi dừng trên một phút. Ba thói quen này không tốn công sức nhưng giữ khoản xăng của dòng nhỏ luôn ở mức thấp nhất trong suốt kỳ thuê.
+Thói quen một: đi đều ga, không rú lên thả xuống giữa đèn đỏ, giữ đà từ xa khi thấy đèn sắp đỏ. Thói quen hai: kiểm tra căng bánh lúc nhận, bánh non làm xe nặng và tiêu hao tăng. Thói quen ba: không để máy nổ lâu khi dừng chờ, dòng nhỏ khởi động nhẹ nên tắt máy khi dừng trên một phút. Ba thói quen này không tốn công sức nhưng giữ khoản xăng của dòng nhỏ luôn ở mức thấp nhất trong suốt kỳ thuê.
 
 ## Hỏi nơi thuê về xăng trước khi cọc
 
 Ba câu nên hỏi ngay lúc chốt gói. Câu một: chiếc xe định giao tiêu hao thật khoảng bao nhiêu trong phố, nơi cho thuê biết xe của mình rõ hơn bảng thông số. Câu hai: nhận xe với mức xăng bao nhiêu và trả xe cần mức đó không, mức thiếu tính theo giá nào. Câu ba: quanh điểm lưu trú có trạm xăng nào gần, hỏi luôn nếu bạn lạ địa hình. Ba câu trả lời cho bạn cả kế hoạch đổ và con số ước tổng, và chỉ mất một tin nhắn hỏi trước, xong bạn có căn cứ đối chiếu lúc trả xe thay vì cãi theo trí nhớ.
+
+Nếu lịch của bạn nhiều chặng dài khiến phần tiết kiệm xăng thu hẹp, có thể xem [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}) để cân nhắc dòng vừa trước khi chốt.
 
 ## Kết luận
 

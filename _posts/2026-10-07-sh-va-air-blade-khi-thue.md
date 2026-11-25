@@ -8,6 +8,20 @@ matrix_id: 164
 primary_keyword: "sh và air blade khi thuê"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-tay-ga
+quick_answer: "Trọng lượng và kích thước quan trọng khi bạn thấp, chưa quen xe lớn, ở ngõ hẹp hoặc hay phanh gấp trên đường ướt: lúc đó Air Blade nhẹ và dễ kiểm soát hơn. SH chỉ đáng phần chênh khi đường trường chiếm phần lớn kỳ thuê và bạn đã quen xe ga lớn."
+qa:
+  - q: "Muốn đi đường trường mà không thuê được SH thì Air Blade có thay được không?"
+    a: "Được với đường trường ngắn. Air Blade có phanh đĩa và máy đầm, lại nằm trong bảng giá Motoopen đang công bố cùng Vision và Click/Mio. Nếu cần đúng SH, nên hỏi trực tiếp qua 0857 255 868 trước khi lên kế hoạch."
+  - q: "SH nặng đến mức nào so với Air Blade?"
+    a: "SH nặng gần 130 ký và yên cao, trong khi Air Blade nhẹ hơn hẳn và yên thấp hơn. Phần chênh lộ rõ nhất khi dừng đèn đỏ liên tục, dắt xe trong ngõ hoặc kéo xe vào chỗ đỗ chật."
+  - q: "Ở nhà trọ trong ngõ nhỏ có nên thuê SH không?"
+    a: "Không nên. SH dài và rộng hơn Air Blade một khoảng cảm nhận được, nên lách và quay đầu trong ngõ chỉ vừa một xe tốn thêm nhiều động tác. Chỗ đỗ chật như sảnh chung cư hay vỉa hè đông thì Air Blade gọn hơn."
+  - q: "Đi cao tốc và đại lộ nhiều thì chọn SH hay Air Blade?"
+    a: "SH phát huy tốt hơn trên đường rộng: máy đầm, êm, giữ tốc và che gió tốt, trọng lượng ít lộ ra. Nếu chặng xa chỉ chiếm một phần nhỏ kỳ thuê, Air Blade vẫn hợp lý hơn về giá và độ gọn."
+  - q: "Hợp đồng thuê xe ga lớn cần chú ý điều khoản nào nhất?"
+    a: "Mức khấu trừ khi trầy xước, vì sơn và phụ tùng dòng lớn đắt. Chụp thân xe kỹ khi nhận, đọc rõ trách nhiệm hỏng hóc và mức cọc trước khi ký, đồng thời hỏi tồn kho sớm nếu thuê quanh dịp lễ."
+blog_notice: "<strong>Cập nhật pháp lý:</strong> Theo Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (hiệu lực từ 01/01/2025), giấy phép lái xe hạng A1 cấp mới dùng cho xe mô tô hai bánh đến 125 cm³ (hoặc động cơ điện đến 11 kW); xe trên 125 cm³ cần hạng A. Bằng A1 cấp trước 01/01/2025 vẫn được điều khiển xe từ 50 cm³ đến dưới 175 cm³. Một số nội dung có thể được soạn theo quy định cũ, vì vậy hãy kiểm tra quy định hiện hành và hạng bằng của bạn trước khi thuê."
 ---
 SH đẳng cấp hơn Air Blade nhưng cũng nặng và to hơn, và có những tình huống trọng lượng với kích thước quan trọng hơn mọi tiện nghi. Bài này chỉ đúng các tình huống đó để bạn chọn không tiếc.
 
@@ -26,6 +40,8 @@ Cả hai đều có phanh đĩa tốt, nhưng xe nặng dừng dài hơn: phanh 
 ## Khi đường trường là chặng chính
 
 Đây là vùng SH mạnh: máy đầm, êm và giữ tốc đường trường trọn vẹn, hợp liên tỉnh và dài ngày. Air Blade làm tốt đường trường ngắn, xem bài thuê xe máy đi đường dài từ Hà Nội cho khung lựa chọn. Nếu kỳ thuê của bạn phần lớn là cao tốc và đại lộ, SH đáng phần chênh giá và trọng lượng. Cân nhắc thêm dòng khác cho cùng nhu cầu trong bài [thuê Air Blade hay Vision]({{ '/blog/air-blade-va-vision-khi-thue/' | relative_url }}).
+
+Nếu muốn đặt Air Blade cạnh các dòng ga khác trước khi quyết, bạn có thể xem [trang các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}) để chọn theo chiều cao, chỗ đỗ và quãng đường của mình.
 
 ## Giá, cọc và điều khoản
 

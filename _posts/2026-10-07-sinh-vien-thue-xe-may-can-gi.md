@@ -8,6 +8,19 @@ matrix_id: 231
 primary_keyword: "sinh viên thuê xe máy cần gì"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: sinh-vien
+quick_answer: "Sinh viên thuê xe máy cần CCCD hoặc giấy tờ tùy thân hợp lệ, bằng lái phù hợp dòng xe, một khoản tiền cọc và ngân sách rõ ràng. Chưa có bằng A1 thì được tư vấn xe 50cc hoặc xe điện; nếu đi học hằng ngày, gói tuần hoặc tháng thường rẻ hơn thuê lẻ."
+qa:
+  - q: "Sinh viên chưa đủ mười tám tuổi có thuê được xe máy không?"
+    a: "Tùy nơi thuê và quy định hiện hành. Nếu chưa đủ tuổi thành niên, hãy hỏi trước nơi thuê nhận giấy tờ nào và có cần người giám hộ ký cùng không; độ tuổi được điều khiển từng loại xe cũng cần kiểm tra theo quy định hiện hành."
+  - q: "Sinh viên thuê xe máy tháng ở Motoopen hết khoảng bao nhiêu?"
+    a: "Theo bảng giá tham khảo, thuê tháng khoảng 1–2 triệu tùy dòng xe, ví dụ Click/Mio 1.000k–1.200k, Wave khoảng 1.200k. Cộng thêm xăng, phí gửi xe ở trường hoặc phòng trọ và tiền cọc theo dòng xe; giá chốt khi liên hệ."
+  - q: "Motoopen có ưu đãi riêng cho sinh viên không?"
+    a: "Chính sách ưu đãi cho sinh viên nên hỏi rõ khi đặt. Cách tiết kiệm chắc chắn hơn là chọn gói tháng nếu đi học hằng ngày và tự nhận xe tại cửa hàng để không mất phí giao."
+  - q: "Thuê xe dịp cuối học kỳ có cần đặt trước không?"
+    a: "Nên đặt trước vài ngày, vì cuối học kỳ nhu cầu thuê thường tăng mạnh. Đặt sớm giúp bạn giữ được dòng xe vừa túi tiền và có thời gian hỏi rõ cọc, giờ trả trước lịch thi."
+  - q: "Có nên ghi số km lúc nhận xe khi thuê dài hạn?"
+    a: "Nên. Chụp số công tơ mét lúc nhận và ghi vào hợp đồng giúp phần bảo dưỡng giữa kỳ không bị tranh cãi về số km đã đi, nhất là khi thuê theo tháng."
 ---
 Sinh viên là nhóm khách thuê xe máy đông đảo nhất ở Hà Nội, nhưng lần đầu thuê thường băn khoăn cần mang gì và làm sao để tiết kiệm. Bài này gom checklist giấy tờ, ngân sách và cách chọn xe cho sinh viên.
 
@@ -32,6 +45,8 @@ Sinh viên chưa có bằng lái thì chọn dòng không yêu cầu giấy phé
 Chia xe với bạn cùng phòng: thuê hai chiếc thay vì ba giúp chia đôi tiền thuê và xăng. Nhận xe gần ký túc xá hoặc trường để đỡ mất giờ và phí đi lại, kiểm xe kỹ theo checklist trong bài [checklist nhận xe 50cc]({{ '/blog/checklist-nhan-xe-50cc/' | relative_url }}) ngay lúc nhận để khỏi bị quy vết xước cũ. Trả đúng giờ cũng giúp tránh phí trễ, và hỏi trước mức phạt giờ trễ để cân lịch thi cuối kỳ.
 
 Một mẹo nữa là hỏi chính sách ưu đãi sinh viên: một số nơi giảm giá cho khách mang thẻ sinh viên hoặc thuê theo nhóm ba chiếc trở lên, nên hỏi thẳng khi liên hệ. Cuối học kỳ, nhu cầu thuê tăng mạnh, nên đặt trước vài ngày thay vì đến tận nơi mới hỏi. Nếu bạn thuê dài hạn, chụp số đồng hồ công tơ mét xe lúc nhận và ghi vào hợp đồng, để phần bảo dưỡng giữa kỳ không tranh cãi về km đi được.
+
+Nếu lịch học cần xe suốt học kỳ, bạn có thể tham khảo [gói thuê xe máy theo tháng]({{ '/' | relative_url }}) để so với việc thuê lẻ từng tuần.
 
 ## Kết luận
 

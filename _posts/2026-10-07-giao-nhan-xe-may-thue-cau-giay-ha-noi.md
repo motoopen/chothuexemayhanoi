@@ -8,6 +8,7 @@ matrix_id: 176
 primary_keyword: "giao nhận xe máy thuê cầu giấy hà nội"
 hub_parent: khu-vuc
 hub_category: ha-noi-theo-khu-vuc
+seo_hub: khu-vuc
 ---
 Cầu Giấy là khu rộng với nhiều khách sạn và chung cư, và bạn có ba cách nhận xe thuê: tại khách sạn, tại điểm hẹn, hoặc tại cửa hàng. Bài này giúp bạn chọn cách phù hợp cho hành trình ở Cầu Giấy.
 

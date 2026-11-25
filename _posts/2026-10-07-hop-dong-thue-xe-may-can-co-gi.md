@@ -8,6 +8,19 @@ matrix_id: 223
 primary_keyword: "hợp đồng thuê xe máy cần có gì"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: thu-tuc-hop-dong
+quick_answer: "Hợp đồng thuê xe máy nên có thông tin hai bên, mô tả tình trạng xe lúc giao gồm biển số, km, mức xăng và vết xước có sẵn, danh sách phụ kiện, giá thuê, tiền cọc cùng điều kiện hoàn cọc, và trách nhiệm khi hư hỏng hoặc mất xe."
+qa:
+  - q: "Hợp đồng thuê xe nên ghi gì về tiền cọc để tránh tranh chấp?"
+    a: "Nên ghi rõ số tiền cọc, điều kiện hoàn cọc, khoản nào có thể bị trừ như mất mũ, hết xăng, trả trễ và khoản nào bên cho thuê không được tự ý giữ. Tại Motoopen, mức cọc tùy dòng xe, xem bảng giá hoặc hỏi khi đặt."
+  - q: "Thuê xe cho người khác đi thì hợp đồng ghi tên ai?"
+    a: "Nên ghi cả tên người thực sự cầm xe, không chỉ người trả tiền. Khi có sự cố, bên cho thuê đối chiếu theo đúng người được ghi trong hợp đồng, nên thiếu tên người lái dễ gây rắc rối về trách nhiệm."
+  - q: "Có cần ghi điều khoản gia hạn và trả xe sớm vào hợp đồng không?"
+    a: "Nên có. Một dòng ghi sẵn giá ngày gia hạn và cách xử lý phần tiền chưa dùng khi trả sớm giúp tránh thương lượng giữa chừng, đặc biệt với kỳ thuê theo tuần hoặc theo tháng."
+  - q: "Hợp đồng chỉ ghi chung chung về bồi thường thì có nên ký không?"
+    a: "Nên hỏi lại trước khi ký. Hãy đề nghị ghi cụ thể hỏng nhỏ do hao mòn ai trả, hỏng do tai nạn xử lý ra sao và mất xe bồi thường theo giá nào; với xe điện, hỏi thêm phần hư hỏng pin."
+  - q: "Sau khi ký hợp đồng thuê xe cần giữ lại những gì?"
+    a: "Giữ một bản hợp đồng hoặc chụp lại toàn bộ các trang, kèm ảnh tình trạng xe lúc nhận. Khi trả xe, đối chiếu đúng các mục đã ký như km, xăng, phụ kiện và vết xước; khoản nào không có trong hợp đồng thì bạn có căn cứ để hỏi lại."
 ---
 Hợp đồng là căn cứ để đối chiếu khi nhận và trả xe, nên một bản hợp đồng thuê xe máy rõ ràng giúp bạn tránh tranh chấp về tiền cọc, xăng hay vết xước. Bài này điểm qua các mục nên có trong hợp đồng trước khi bạn ký.
 
@@ -37,6 +50,8 @@ Mục này nên quy định rõ: hỏng nhỏ do mòn tự nhiên thì ai trả,
 Ký xong, bạn nên giữ một bản hoặc chụp lại toàn bộ hợp đồng, cùng ảnh tình trạng xe lúc nhận. Khi trả xe, đối chiếu theo đúng các mục đã ký: km, xăng, phụ kiện, vết xước. Nếu bên cho thuê yêu cầu thêm khoản không có trong hợp đồng, bạn có văn bản để phản đối. Gọi trước qua trang [liên hệ]({{ '/lienhe.html' | relative_url }}) nếu cần hỏi lại bất kỳ mục nào trước ngày trả xe.
 
 Một điều nữa nên ghi trong hợp đồng là phần gia hạn hoặc trả sớm: nếu bạn muốn giữ xe thêm ngày, mức giá ngày gia hạn tính ra sao, và nếu trả sớm thì phần tiền chưa dùng được hoàn không. Với kỳ thuê theo tuần hoặc tháng, phần gia hạn dễ phát sinh nhất, nên ghi sẵn một dòng sẽ đỡ phải thương lượng giữa chừng. Cuối cùng, hợp đồng nên nêu rõ người liên hệ khi xe hỏng giữa đường, kèm số điện thoại hỗ trợ, để bạn biết gọi cho ai thay vì loay hoay tìm cách tự xử.
+
+Nếu muốn xem trước giấy tờ và các bước cần làm trước khi ký, trang [quy trình thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}) của Motoopen tóm tắt các yêu cầu chính để bạn chuẩn bị đủ.
 
 ## Kết luận
 

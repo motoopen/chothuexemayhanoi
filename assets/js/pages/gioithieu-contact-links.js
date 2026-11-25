@@ -10,7 +10,7 @@
   const sCall = document.getElementById('mapp-sticky-call');
   const sZalo = document.getElementById('mapp-sticky-zalo');
 
-  if(callA){ callA.href = 'tel:'+phone; callA.setAttribute('aria-label','Gọi '+phone); }
+  if(callA){ callA.href = 'tel:'+phone; callA.setAttribute('aria-label',(callA.textContent.trim()||'Gọi')+' '+phone); }
   if(zaloA){ zaloA.href = zalo; }
   if(mapA){ mapA.href = map; }
 

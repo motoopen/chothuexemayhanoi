@@ -8,6 +8,19 @@ matrix_id: 137
 primary_keyword: "thuê xe số hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-so
+quick_answer: "Nên chọn xe số khi bạn đã quen cài số, thường đi đường xấu, ổ gà hoặc dốc ngõ, hoặc muốn chi phí thuê và xăng thấp. Nếu lần đầu lái, chỉ quen tay ga hay phải dừng đèn đỏ liên tục trong phố, xe ga sẽ dễ chịu hơn."
+qa:
+  - q: "Giá thuê xe số ở Motoopen khoảng bao nhiêu?"
+    a: "Theo bảng giá tham khảo, xe số thuê ngày từ khoảng 150k, còn thuê tháng Honda Wave khoảng 1.200k. Giá có thể thay đổi theo thời điểm và dòng xe, nên chốt lại khi liên hệ đặt xe."
+  - q: "Kiểm tra bộ số xe thuê như thế nào?"
+    a: "Cài thử số khi xe đứng yên, các nấc phải vào rõ, không rít và không văng nấc khi về số. Khi chạy thử, nghe ly hợp không trượt ở tốc độ cao, rồi xem cáp ga và cáp ly hợp không sứt vỏ."
+  - q: "Xe số có tiết kiệm hơn xe ga khi đi trong phố không?"
+    a: "Thường có về giá thuê và xăng, nhưng bù lại phải cài số liên tục khi kẹt xe nên dễ mỏi. Với chặng ngắn nội thành, xe số là lựa chọn tiết kiệm; nếu ưu tiên nhàn tay, xe ga hợp hơn."
+  - q: "Thuê xe số dài ngày nên xin thêm thông tin gì từ cửa hàng?"
+    a: "Nên xin số điện thoại hỗ trợ và địa chỉ tiệm sửa quen của nơi thuê, vì xe số dù bền vẫn có thể hỏng vặt giữa kỳ. Xe của Motoopen được bảo dưỡng định kỳ, liên hệ qua 0857 255 868; các hỗ trợ khác nên hỏi rõ khi đặt."
+  - q: "Xe số Wave hay RSX cần bằng lái hạng gì?"
+    a: "Wave và RSX là xe số từ 50cc trở lên nên cần bằng lái phù hợp, thường là A1; khách chưa có A1 được Motoopen tư vấn xe 50cc hoặc xe điện. Nên kiểm tra quy định hiện hành nếu chưa chắc về hạng bằng."
 ---
 Xe số từng là xe phổ thông nhất Việt Nam, và khi thuê ở Hà Nội nó vẫn có chỗ đứng riêng. Bài này chỉ các tình huống xe số thắng xe ga, và những mục cần kiểm trước khi nhận một chiếc số.
 
@@ -30,6 +43,8 @@ Hỏi nơi thuê giao mức xăng và quy định khi trả, chụp đồng hồ
 ## Giấy tờ khi thuê xe số
 
 Xe số dưới 50 phân khối không cần bằng lái, trên 50 cần A1, chi tiết trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Ký hợp đồng ghi giá, cọc, giờ trả, và xin đăng ký bản photo. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài thuê xe 50cc cho người nước ngoài. Hỏi tồn kho xe số qua trang liên hệ trước ngày nhận vì số ít được dự trữ hơn ga.
+
+Nếu bạn ở Hà Nội cả tháng để đi làm hay đi học, xe số là phương án tiết kiệm đáng cân nhắc khi tìm hiểu [thuê xe máy tháng Hà Nội]({{ '/' | relative_url }}).
 
 ## Kết luận
 

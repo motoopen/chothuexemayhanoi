@@ -1,0 +1,112 @@
+# SEO Hub / Silo architecture (single source of truth).
+# Homepage -> Pillar (money page) -> SEO Hub -> Silo (category) -> Supporting posts.
+# Each post declares `seo_hub: <key>` in front matter. Templates read this file to
+# render the hub box, so editing a hub here updates every post that belongs to it.
+# Hub/pillar URLs are existing pages only: no new competing pages are created.
+# The main target URL for the "thuê xe máy tháng Hà Nội" keyword group is the homepage.
+monthly_pillar:
+  url: "/"
+  label: "Thuê xe máy tháng Hà Nội"
+  anchors:
+    - "Thuê xe máy tháng Hà Nội"
+    - "Dịch vụ thuê xe máy theo tháng"
+    - "Gói thuê xe tháng của Motoopen"
+    - "Thuê xe máy dài hạn tại Hà Nội"
+
+hubs:
+  - key: thue-xe-thang
+    label: "Thuê xe máy theo tháng"
+    icon: "fa-solid fa-calendar-days"
+    pillar_url: "/"
+    pillar_label: "Thuê xe máy tháng Hà Nội"
+    silo_url: "/blog/danh-muc/thue-xe/gia-thoi-gian/"
+    silo_label: "Giá & thời gian thuê"
+    summary: "Gói thuê tháng, so sánh với thuê ngày/tuần, điều khoản và cách chọn xe cho cả tháng."
+  - key: gia-coc
+    label: "Giá thuê xe & tiền đặt cọc"
+    icon: "fa-solid fa-tags"
+    pillar_url: "/banggia.html"
+    pillar_label: "Bảng giá thuê xe máy Hà Nội"
+    silo_url: "/blog/danh-muc/thue-xe/gia-thoi-gian/"
+    silo_label: "Giá & thời gian thuê"
+    summary: "Cách đọc bảng giá, các khoản phí, tiền cọc và điều kiện hoàn cọc."
+  - key: di-lam-dai-han
+    label: "Thuê xe đi làm, công tác & ở dài hạn"
+    icon: "fa-solid fa-briefcase"
+    pillar_url: "/"
+    pillar_label: "Thuê xe máy tháng Hà Nội"
+    silo_url: "/blog/danh-muc/thue-xe/bat-dau-thue/"
+    silo_label: "Bắt đầu thuê"
+    summary: "Thuê xe máy đi làm, đi công tác, người nước ngoài và người mới chuyển đến Hà Nội cần xe ổn định nhiều tuần, nhiều tháng."
+  - key: sinh-vien
+    label: "Thuê xe cho sinh viên"
+    icon: "fa-solid fa-graduation-cap"
+    pillar_url: "/"
+    pillar_label: "Thuê xe máy tháng Hà Nội"
+    silo_url: "/blog/danh-muc/thue-xe/bat-dau-thue/"
+    silo_label: "Bắt đầu thuê"
+    summary: "Sinh viên thuê xe theo tháng: chọn xe tiết kiệm, giấy tờ, ngân sách và lưu ý an toàn."
+  - key: xe-so
+    label: "Thuê xe số"
+    icon: "fa-solid fa-gauge"
+    pillar_url: "/loaixe.html"
+    pillar_label: "Các loại xe cho thuê"
+    silo_url: "/blog/danh-muc/loai-xe/cac-loai-xe/"
+    silo_label: "Các loại xe"
+    summary: "Xe số (Wave, Sirius, Cub...) cho thuê ngày, tuần, tháng: tiết kiệm xăng, bền, dễ sửa."
+  - key: xe-tay-ga
+    label: "Thuê xe tay ga"
+    icon: "fa-solid fa-motorcycle"
+    pillar_url: "/loaixe.html"
+    pillar_label: "Các loại xe cho thuê"
+    silo_url: "/blog/danh-muc/loai-xe/cac-loai-xe/"
+    silo_label: "Các loại xe"
+    summary: "Xe tay ga (Vision, Air Blade, Lead...) cho người đi phố, đi làm và khách du lịch."
+  - key: xe-50cc
+    label: "Thuê xe 50cc"
+    icon: "fa-solid fa-gauge"
+    pillar_url: "/loaixe.html"
+    pillar_label: "Các loại xe cho thuê"
+    silo_url: "/blog/danh-muc/loai-xe/xe-50cc/"
+    silo_label: "Xe 50cc"
+    summary: "Xe 50cc (Cub 50, xe ga 50cc) cho học sinh, sinh viên và người cần xe nhẹ."
+  - key: xe-dien
+    label: "Thuê xe điện"
+    icon: "fa-solid fa-bolt"
+    pillar_url: "/loaixe.html"
+    pillar_label: "Các loại xe cho thuê"
+    silo_url: "/blog/danh-muc/loai-xe/xe-dien/"
+    silo_label: "Xe điện"
+    summary: "Xe máy điện, xe đạp điện: pin, sạc, quãng đường và quy định người lái."
+  - key: khu-vuc
+    label: "Thuê xe theo khu vực Hà Nội"
+    icon: "fa-solid fa-map-location-dot"
+    pillar_url: "/lienhe.html"
+    pillar_label: "Liên hệ & địa chỉ Motoopen"
+    silo_url: "/blog/danh-muc/khu-vuc/ha-noi-theo-khu-vuc/"
+    silo_label: "Hà Nội theo khu vực"
+    summary: "Nhận, giao và trả xe theo quận/phường: Long Biên, Hoàn Kiếm, Cầu Giấy, Mỹ Đình..."
+  - key: thu-tuc-hop-dong
+    label: "Thủ tục & hợp đồng"
+    icon: "fa-solid fa-file-signature"
+    pillar_url: "/thutuc.html"
+    pillar_label: "Thủ tục thuê xe máy"
+    silo_url: "/blog/danh-muc/huong-dan/thu-tuc-phap-ly/"
+    silo_label: "Thủ tục & pháp lý"
+    summary: "Giấy tờ, bằng lái, hợp đồng, đặt cọc và quy định cần kiểm tra trước khi ký."
+  - key: kinh-nghiem
+    label: "Hướng dẫn sử dụng & kinh nghiệm thuê"
+    icon: "fa-solid fa-lightbulb"
+    pillar_url: "/huongdan.html"
+    pillar_label: "Hướng dẫn thuê xe máy"
+    silo_url: "/blog/danh-muc/huong-dan/an-toan-su-co/"
+    silo_label: "An toàn & sự cố"
+    summary: "Bắt đầu thuê, nhận xe, trả xe, an toàn, xử lý sự cố và so sánh cách thuê xe ở Hà Nội."
+  - key: hanh-trinh
+    label: "Lịch trình & hành trình bằng xe máy"
+    icon: "fa-solid fa-route"
+    pillar_url: "/kinhnghiem.html"
+    pillar_label: "Kinh nghiệm thuê và đi xe máy"
+    silo_url: "/blog/danh-muc/kinh-nghiem/hanh-trinh/"
+    silo_label: "Hành trình"
+    summary: "Lịch trình trong nội thành và các chuyến đi từ Hà Nội: chọn xe, chuẩn bị và lưu ý đường đi."

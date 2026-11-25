@@ -8,6 +8,19 @@ matrix_id: 5
 primary_keyword: "thuê xe máy hà nội cho người nước ngoài"
 hub_parent: thue-xe
 hub_category: bat-dau-thue
+seo_hub: di-lam-dai-han
+quick_answer: "Khách nước ngoài thuê xe máy ở Hà Nội cần giấy tờ tùy thân có ảnh như hộ chiếu, cùng giấy phép lái quốc tế được công nhận hoặc giấy phép do Việt Nam cấp, nên kiểm tra quy định hiện hành. Trước khi cọc, hỏi về hợp đồng tiếng Anh, hoàn cọc, hỗ trợ khi hỏng và giao xe."
+qa:
+  - q: "Bảo hiểm du lịch có chi trả khi đi xe máy thuê ở Việt Nam không?"
+    a: "Không chắc. Nhiều gói bảo hiểm du lịch có thể không chi trả tai nạn khi tự lái xe máy, nên đọc kỹ điều khoản hoặc hỏi công ty bảo hiểm trước khi thuê. Về bảo hiểm của chính chiếc xe thuê, nên hỏi rõ nơi thuê khi đặt."
+  - q: "Hợp đồng thuê xe có bản tiếng Anh không?"
+    a: "Tùy nơi thuê, nên hỏi trước khi đặt cọc. Nếu không có bản tiếng Anh, hãy yêu cầu giải thích kỹ từng điều khoản về cọc, hư hỏng và giờ trả, hoặc nhờ người dịch trước khi ký."
+  - q: "Ở khách sạn trong phố thì gửi xe máy thuê ở đâu?"
+    a: "Hỏi khách sạn hoặc bên cho thuê điểm gửi xe gần nhất, vì Hà Nội quản lý điểm đỗ và lề đường khá chặt. Giữ vé gửi cẩn thận và không để đồ có giá trị trong cốp khi đỗ nơi công cộng."
+  - q: "Ngày nhận xe, khách quốc tế cần kiểm tra những gì?"
+    a: "Mang giấy tờ gốc để đối chiếu, đọc hợp đồng trước khi ký, rồi kiểm tra đèn, còi, phanh, lốp và chụp ảnh các vết xước có sẵn. Yêu cầu ghi các vết xước vào biên bản để tránh tranh chấp khi hoàn cọc."
+  - q: "Chưa quen đổ xăng ở Việt Nam thì nên hỏi gì?"
+    a: "Hỏi bên cho thuê xe dùng loại nhiên liệu nào và trạm xăng nào nằm gần tuyến bạn hay đi. Hỏi luôn mức xăng lúc giao và cách tính khi trả để không bị bất ngờ cuối kỳ."
 ---
 Khách quốc tế đến Hà Nội thường muốn tự lái xe máy để chủ động lịch trình, nhưng vòng thuê xe cho người nước ngoài có vài điểm khác biệt so với khách nội địa. Bài này tóm gọn giấy tờ nên chuẩn bị và những câu hỏi nên hỏi trước khi nhận xe.
 
@@ -26,6 +39,8 @@ Trước khi đặt cọc, người nước ngoài nên hỏi rõ năm điểm s
 Giao thông Hà Nội đông, mật độ xe cao và luật giao thông được áp dụng nghiêm, kể cả với xe máy dưới 50cc. Khách quốc tế nên đội mũ bảo hiểm chuẩn, không dùng điện thoại khi lái, giữ đúng làn và giảm tốc tại các ngã tư đông. Nếu bạn chưa quen đổ xăng tại Việt Nam, hỏi bên cho thuê loại nhiên liệu xe dùng và trạm xăng gần tuyến của bạn. Khi trời mưa hoặc giờ cao điểm, nên chủ động dừng nghỉ thay vì cố di chuyển. Bảo hiểm du lịch của bạn có thể không chi trả cho tai nạn khi điều khiển xe máy, nên kiểm tra điều khoản trước khi thuê.
 
 Về việc đỗ xe, Hà Nội quy định điểm gửi và lề đường khá chặt; nên hỏi bên cho thuê về nơi gửi xe gần khách sạn và giữ vé gửi cẩn thận. Không để đồ dễ thấy trong cốp khi đỗ xe nơi công cộng. Tổng quan dịch vụ và loại xe có trên [trang chủ]({{ '/' | relative_url }}).
+
+Khi đã chọn được loại xe, bạn có thể xem [bảng giá thuê xe]({{ '/banggia.html' | relative_url }}) để ước tổng chi phí theo số ngày lưu trú trước khi đặt cọc.
 
 ## Quy trình nhận xe cho khách quốc tế
 

@@ -8,6 +8,7 @@ matrix_id: 274
 primary_keyword: "đi xe máy hà nội với vali"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
+seo_hub: hanh-trinh
 ---
 Vali là món hành lý duy nhất khiến xe máy trở nên khó xử, vì nó cồng và cứng, không gập được như ba lô. Bài này giúp chọn giữa ba phương án thay vì cố nhét vali lên yên.
 

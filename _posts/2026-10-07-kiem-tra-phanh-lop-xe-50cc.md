@@ -8,6 +8,19 @@ matrix_id: 82
 primary_keyword: "kiểm tra phanh lốp xe 50cc"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
+quick_answer: "Kiểm tra phanh bằng cách bóp thử từng bánh khi đẩy xe và khi chạy chậm, nghe xem có rít hay lục cục; kiểm tra lốp qua độ sâu rãnh, mặt lốp và độ căng. Phanh rít, ăn lệch, lốp mòn hoặc bánh bơm không lên là dấu hiệu nên xin đổi xe ngay."
+qa:
+  - q: "Phanh xe 50cc kêu rít có nguy hiểm không?"
+    a: "Có thể. Tiếng rít thường là lá phanh mòn hoặc dính bẩn, còn tiếng lục cục là cơ cấu lỏng. Nếu phanh vẫn rít sau khi đẩy thử, đó là hư hỏng cần sửa thật, nên xin đổi chiếc khác ngay tại điểm nhận."
+  - q: "Vì sao lốp mòn trên xe 50cc đáng lo hơn trên xe lớn?"
+    a: "Vì bánh xe 50cc nhỏ, phần tiếp xúc với mặt đường nhỏ, nên lốp mòn ảnh hưởng độ bám rõ hơn. Bánh non còn làm xe nặng, phanh kém và tốn xăng, nên hỏi nơi thuê bơm lại trước khi đi."
+  - q: "Thuê dài ngày có nên tự kiểm tra lại phanh lốp giữa kỳ không?"
+    a: "Có. Thời điểm hợp lý là sau tuần đầu, khi các điểm mòn bắt đầu lộ ra: bóp thử phanh, xem rãnh lốp và độ căng như lúc nhận. Thấy khác thường thì chụp ảnh và báo nơi thuê sớm, sửa nhỏ luôn đỡ hơn để thành hỏng lớn."
+  - q: "Làm sao để phanh và lốp xe 50cc ít hao trong kỳ thuê?"
+    a: "Phanh nhịp, bóp thả thay vì ghì một lần để lá phanh không nóng; tránh lội nước sâu và đường đá sỏi to vì hại lốp nhỏ; nghe tiếng lạ phát triển dần thì báo nơi thuê sớm, vì xử nhỏ luôn rẻ hơn xử lớn."
+  - q: "Nơi thuê không chịu đổi xe phanh yếu thì nên làm gì?"
+    a: "Nên cân nhắc lại cả quyết định thuê. Nơi cho thuê nghiêm túc sẽ đổi xe thay vì để khách đi xe thiếu an toàn, nên việc từ chối đổi là thông tin đáng giá; hãy yêu cầu đổi trước khi ký nhận xe."
 ---
 Phanh và lốp là hai bộ phận giữ an toàn nhất trên xe, cũng là hai điểm hay bị bỏ qua khi nhận xe thuê. Với dòng 50cc nhẹ, kiểm tra hai bộ này chỉ mất vài phút. Bài này chỉ cách kiểm tra đúng và dấu hiệu nào là nên xin đổi chiếc khác.
 
@@ -34,6 +47,8 @@ Tình huống một: khách bóp thử hai phanh, thấy phanh trước ăn mu�
 ## Giữa kỳ nên tự kiểm tra lại khi nào
 
 Với gói dài, một lần rà lại giữa kỳ là đáng: bóp thử phanh, xem rãnh lốp và căng bánh như lúc nhận. Thời điểm hợp lý là sau tuần đầu, vì các điểm mòn phát triển dần và tuần đầu là lúc chúng lộ ra. Nếu nghe tiếng lạ mới xuất hiện, xem ngay bánh có dính gì và phanh có rít không. Ghi lại các điểm thấy khác thường và báo nơi thuê kèm ảnh, cách này biến sửa nhỏ thành sửa nhỏ, thay vì để tích thành hỏng lớn giữa lịch bận. Kinh nghiệm giữa kỳ này hợp với mọi dòng xe cho thuê dài ngày của nơi thuê.
+
+Với khách chọn [thuê xe máy theo tháng]({{ '/' | relative_url }}), lần tự rà phanh và lốp sau tuần đầu nên trở thành thói quen, vì chiếc xe đi cùng bạn mỗi ngày trong cả kỳ.
 
 ## Kết luận
 

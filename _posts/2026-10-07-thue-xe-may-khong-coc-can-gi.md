@@ -8,6 +8,17 @@ matrix_id: 232
 primary_keyword: "thuê xe máy không cọc cần gì"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: gia-coc
+quick_answer: "Khi không lấy cọc, bên cho thuê thường yêu cầu hình thức bảo đảm khác như giữ bản photo hoặc ghi số giấy tờ tùy thân, trả trước toàn bộ tiền thuê, hợp đồng chặt hơn hoặc chỉ áp dụng cho dòng xe giá trị thấp. Hãy hỏi rõ điều kiện thay thế trước khi đặt."
+qa:
+  - q: "Thuê không cọc có phải để lại CCCD bản gốc không?"
+    a: "Không nhất thiết. Theo thông lệ, bản gốc nên được trả lại ngay sau khi xác minh, nơi thuê chỉ giữ bản photo hoặc ghi lại số giấy tờ. Nếu họ yêu cầu giữ bản gốc suốt kỳ, hỏi rõ thời gian trả lại và ghi vào hợp đồng."
+  - q: "Dòng xe nào dễ được thuê không cọc nhất?"
+    a: "Theo bài, nhóm xe giá trị thấp như 50cc hoặc xe điện mini, nhất là nhóm không cần bằng lái, là nơi dễ gặp chính sách không cọc nhất. Dòng lớn hơn thường vẫn phải đặt cọc."
+  - q: "Trả trước toàn bộ tiền thuê thay cọc có lợi không?"
+    a: "Còn tùy tổng số tiền. Hãy đối chiếu phần trả trước với bảng giá để chắc nó không cao hơn mức cọc vốn phải bỏ ra. Một nơi cọc thấp nhưng giá ngày cao có thể đắt hơn nơi cọc cao mà giá ngày rẻ."
+  - q: "Lần đầu thuê ở nơi mới có nên chuẩn bị tiền cọc dự phòng không?"
+    a: "Nên. Nhiều nơi chỉ áp dụng không cọc cho khách quen, khách có địa chỉ rõ ràng hoặc thuê ngắn một ngày, còn khách mới hay kỳ thuê dài vẫn phải đặt cọc. Tại Motoopen, mức cọc tùy dòng xe, xem bảng giá hoặc hỏi khi đặt."
 ---
 Nhiều nơi quảng cáo thuê xe không cần đặt cọc, nhưng không cọc không có nghĩa là không điều kiện: bên cho thuê thường yêu cầu một hình thức bảo đảm khác. Bài này giúp bạn biết có thể bị yêu cầu gì thay thế và chuẩn bị thế nào.
 
@@ -32,6 +43,8 @@ Một số nơi áp không cọc chỉ cho nhóm xe phổ thông như 50cc hoặ
 Hỏi trước bốn điều: điều kiện thay thế là gì, mức bồi thường tối đa nếu mất xe, phí trễ giờ tính ra sao, và hợp đồng ghi rõ các khoản này chưa. Kiểm xe kỹ theo checklist trong bài [checklist nhận xe 50cc]({{ '/blog/checklist-nhan-xe-50cc/' | relative_url }}) và chụp lại tình trạng xe lúc nhận, vì không có cọc, bằng chứng tình trạng xe là thứ bảo vệ bạn khi trả. Đối chiếu giá trước ở trang bảng giá để chắc phần trả trước không cao hơn mức cọc vốn phải mất.
 
 Một điều nữa đáng hỏi là phạm vi chính sách không cọc: nhiều nơi áp không cọc cho khách quen, khách địa chỉ rõ ràng hoặc thuê ngắn một ngày, còn khách lạ hoặc kỳ thuê dài vẫn phải đặt cọc. Nếu lần đầu thuê ở nơi mới, chuẩn bị sẵn mức cọc dự phòng để không phải bỏ cuộc giữa chừng. Cuối cùng, so sánh tổng chi phí giữa nơi có cọc và không cọc: một nơi cọc thấp nhưng giá ngày cao có thể đắt hơn nơi cọc cao mà giá ngày rẻ.
+
+Nếu muốn so với một nơi có cọc rõ ràng, bạn có thể xem mức theo từng dòng xe trên [bảng giá theo dòng xe]({{ '/banggia.html' | relative_url }}) rồi hỏi lại điều kiện cọc khi đặt.
 
 ## Kết luận
 

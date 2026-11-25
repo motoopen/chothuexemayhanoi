@@ -1,0 +1,14 @@
+{% comment %} Related-guides box for static pages. Data: _data/page_guides.yml (max 3 links). {% endcomment %}
+{% assign g = site.data.page_guides[include.key] %}
+{% if g %}
+<aside class="page-guides" aria-label="{{ g.title }}">
+  <div class="page-guides-head">
+    <p class="blog-component-kicker">Cẩm nang</p>
+    <h2 class="page-guides-title">{{ g.title }}</h2>
+    <p>{{ g.intro }}</p>
+  </div>
+  <ul class="page-guides-list">
+    {% for l in g.links limit: 3 %}<li><a href="{{ l.url | relative_url }}"><span>{{ l.label }}</span><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></li>{% endfor %}
+  </ul>
+</aside>
+{% endif %}

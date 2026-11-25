@@ -8,6 +8,7 @@ matrix_id: 108
 primary_keyword: "thuê xe máy điện không cần bằng lái"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Nhóm xe máy điện không cần bằng lái hấp dẫn người chưa có giấy phép, nhưng không phải mẫu nào được quảng cáo "không cần bằng" cũng cho trải nghiệm như bạn nghĩ. Ba chỉ số đáng kiểm tra nhất khi chọn xe trong nhóm này là công suất, tốc độ thiết kế và sự phù hợp với quy định hiện hành. Bài viết này hướng dẫn kiểm tra từng chỉ số và cách hỏi cửa hàng cho đúng.
 

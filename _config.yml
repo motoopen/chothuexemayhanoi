@@ -6,7 +6,7 @@ lang: "vi"
 author: "Motoopen"
 timezone: "Asia/Ho_Chi_Minh"
 
-fa_css: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+fa_css: "/assets/vendor/fontawesome/icons.css"  # self-hosted subset (scripts/build_icon_subset.py)
 logo: "https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg"
 social_image: "https://i.postimg.cc/brsmsj5N/IMG-5215.jpg"
 
@@ -20,6 +20,16 @@ exclude:
   - scripts
   - seo-optimization-matrix.json
   - seo-optimization-matrix.md
+  - qa
+  - AGENTS.md
+  - MASTER-SEO-MATRIX.csv
+  - KEYWORD-MATRIX.csv
+  - INTERNAL-LINK-MAP.csv
+  - SEO-HUB-ARCHITECTURE.md
+  - AEO-GEO-AUDIT.md
+  - TECHNICAL-SEO-AUDIT.md
+  - QA-REPORT.md
+  - CHECKPOINT.md
   # Third-party chatbot dataset (another brand's NAP/policy): OWNER_REVIEW before re-publishing
   - du-lieu/huongdanthue.txt
 

@@ -8,6 +8,19 @@ matrix_id: 162
 primary_keyword: "xe wave và sirius khi thuê"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-so
+quick_answer: "Chọn Wave nếu tay bạn quen Honda, thích ga nhẹ, máy êm và lịch có chặng liên tỉnh gần; chọn Sirius nếu thích ga đậm và đi phố nhiều. Hai dòng cùng nhóm 110 nên giá và xăng gần như nhau, vì vậy hãy chạy thử cả hai trước khi ký."
+qa:
+  - q: "Người cao nên thuê Wave hay Sirius?"
+    a: "Sirius thường thoáng hơn với người cao nhờ yên nhỉnh hơn một chút và ghi đông rộng, còn Wave yên thấp, tư thế gọn hợp người thấp. Ngồi thử cả hai với tư thế thật, đội cả mũ, trước khi quyết."
+  - q: "Thuê lần đầu chưa quen dòng nào thì nên chọn Wave hay Sirius?"
+    a: "Wave nhỉnh hơn ở chỗ phụ tùng và thợ ven đường phổ biến, nên hỏng vặt giữa kỳ xử lý gọn hơn; Sirius bù lại cảm giác chắc khi mở ga. Nếu từng sở hữu một trong hai dòng, hãy chọn đúng dòng đó."
+  - q: "Có nên hỏi năm sản xuất khi thuê xe số không?"
+    a: "Nên hỏi. Xe thuê thường đã qua sử dụng nhiều nên đời máy và lịch bảo dưỡng quan trọng hơn nhãn hiệu; hỏi luôn chiếc nào vừa thay nhớt, chỉnh dây vì xe vừa bảo dưỡng chạy ăn khớp hơn hẳn."
+  - q: "Motoopen có cho thuê xe Wave không?"
+    a: "Có, Motoopen cho thuê xe số Honda Wave và RSX theo ngày, tuần, tháng; giá tham khảo thuê tháng Wave khoảng 1.200k, thuê ngày từ 150k. Các dòng khác như Sirius nên hỏi tồn kho qua 0857 255 868 trước ngày nhận."
+  - q: "Wave và Sirius tốn xăng có khác nhau nhiều không?"
+    a: "Không đáng kể. Wave và Sirius cùng nhóm 110 nên mức tiêu hao xăng và giá thuê gần như trùng nhau; khác biệt thực sự nằm ở cảm giác ga, tư thế ngồi và sự quen tay."
 ---
 Wave và Sirius là hai dòng xe số gọn được thuê nhiều, và khác biệt của chúng không nằm ở thông số mà ở cảm giác quen thuộc với tay lái của bạn. Bài này so đúng phần cảm nhận để bạn chọn nhanh.
 
@@ -30,6 +43,8 @@ Wave đầm và chịu liên tỉnh gần hơn, xem bài [thuê xe Wave Hà Nộ
 ## Giá, xăng và giấy tờ
 
 Hai dòng giá thuê gần như trùng và tốn xăng như nhau, cách so thật trong bài [thuê xe máy tiết kiệm xăng Hà Nội]({{ '/blog/thue-xe-may-tiet-kiem-xang-ha-noi/' | relative_url }}). Cả hai bản phổ biến 110 nên cần bằng lái A1, nhóm 50cc không cần, phân biệt trong bài xe 50cc có cần bằng lái không. Hợp đồng ghi giá, cọc, giờ trả, mức xăng và trách nhiệm bộ số. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài thuê xe 50cc cho người nước ngoài.
+
+Muốn xem trước các nhóm xe đang cho thuê trước khi đến chạy thử, bạn có thể mở trang [danh sách xe số và xe ga]({{ '/loaixe.html' | relative_url }}) của Motoopen.
 
 ## Kết luận
 

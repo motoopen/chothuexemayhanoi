@@ -8,6 +8,7 @@ matrix_id: 166
 primary_keyword: "xe máy điện và xe ga xăng"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-dien
 ---
 Tranh luận xe điện hay xe ga xăng thường dừng ở cảm giác, trong khi quyết định thật chỉ cần ba tiêu chí đo được: chỗ sạc, tổng quãng đường và thao tác bạn quen. Bài này đi theo đúng ba tiêu chí đó.
 

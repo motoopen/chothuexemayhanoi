@@ -8,6 +8,19 @@ matrix_id: 244
 primary_keyword: "thuê xe máy có bảo hiểm không"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: thu-tuc-hop-dong
+quick_answer: "Xe máy lưu hành hợp pháp phải có bảo hiểm trách nhiệm dân sự bắt buộc, nhưng loại này chỉ bồi thường cho bên thứ ba, không sửa chiếc xe bạn đang thuê. Các khoản hỗ trợ khác là chính sách riêng của nơi cho thuê, cần hỏi rõ và ghi vào hợp đồng."
+qa:
+  - q: "Bảo hiểm bắt buộc có chi trả khi xe thuê bị trầy xước hoặc đổ xe không?"
+    a: "Không. Bảo hiểm trách nhiệm dân sự bắt buộc bồi thường thiệt hại cho người và tài sản của bên thứ ba, không che hư hỏng của chính chiếc xe như xước, đổ xe hay hỏng máy; phần này thường do người thuê tự chịu theo hợp đồng."
+  - q: "Thuê xe ở Motoopen có kèm bảo hiểm không?"
+    a: "Chính sách bảo hiểm và hỗ trợ hư hỏng của Motoopen nên hỏi rõ khi đặt, qua điện thoại hoặc Zalo 0857 255 868. Khi nhận xe, hãy yêu cầu xem chứng nhận bảo hiểm bắt buộc còn hiệu lực và ghi phần trách nhiệm vào hợp đồng."
+  - q: "Kiểm tra chứng nhận bảo hiểm của xe thuê cần xem những gì?"
+    a: "Xem tên chủ xe có trùng đăng ký không, thời hạn còn hiệu lực trong suốt kỳ thuê và tên công ty bảo hiểm. Chụp lại chứng nhận cùng đăng ký xe để có bản lưu khi cần."
+  - q: "Thuê dòng xe giá trị cao có nên hỏi bảo hiểm thân xe không?"
+    a: "Nên hỏi thẳng. Bảo hiểm thân xe là loại tự nguyện và chỉ số ít nơi mua; nếu có, yêu cầu ghi rõ trong hợp đồng phần được che và mức khấu trừ để biết mình còn tự chịu bao nhiêu."
+  - q: "Ba câu nào nên hỏi để rõ trách nhiệm khi xe thuê hư hỏng?"
+    a: "Hỏi chứng nhận bảo hiểm bắt buộc còn hiệu lực không, hỏng nhỏ ai trả và sửa ở đâu, hỏng lớn tính theo giá nào. Nơi thuê nghiêm túc sẽ trả lời rõ cả ba, và bạn nên ghi đáp án vào hợp đồng."
 ---
 Câu hỏi "thuê xe có bảo hiểm không" có hai lớp nghĩa khác nhau: bảo hiểm pháp lý gắn với chiếc xe, và chính sách hỗ trợ riêng của nơi cho thuê. Nhầm lẫn hai lớp này khiến nhiều người tin mình được đền mọi thiệt hại rồi bị bất ngờ lúc sự việc xảy ra.
 
@@ -34,6 +47,8 @@ Một số nơi cho thuê xe ga hoặc xe tay ga đời mới có mua thêm bả
 ## Câu hỏi nên hỏi nơi thuê
 
 Ba câu gói lại toàn bộ: chứng nhận bảo hiểm bắt buộc còn hiệu lực không, hỏng nhỏ ai trả tiền sửa và ở đâu sửa, hỏng lớn tính theo giá nào. Ghi đáp án vào hợp đồng, và lưu số liên hệ lúc cần qua trang liên hệ. Nơi thuê nghiêm túc trả lời rõ ràng cả ba câu; nơi trả lấp lửng thì nên chọn nơi khác, tiêu chí chọn nơi uy tín đã nêu trong bài [thuê xe máy Hà Nội uy tín]({{ '/blog/thue-xe-may-ha-noi-uy-tin/' | relative_url }}).
+
+Trước khi nhận xe, bạn có thể xem trang [thủ tục và giấy tờ thuê xe]({{ '/thutuc.html' | relative_url }}) để chuẩn bị đủ hồ sơ, rồi hỏi thêm về bảo hiểm và trách nhiệm hư hỏng khi đặt.
 
 ## Kết luận
 

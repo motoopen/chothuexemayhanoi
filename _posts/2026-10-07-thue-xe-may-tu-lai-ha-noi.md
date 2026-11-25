@@ -8,6 +8,19 @@ matrix_id: 9
 primary_keyword: "thuê xe máy tự lái hà nội"
 hub_parent: thue-xe
 hub_category: bat-dau-thue
+seo_hub: kinh-nghiem
+quick_answer: "Trước khi ký nhận xe tự lái, hãy đọc kỹ trách nhiệm trong hợp đồng, kiểm tra xe theo trình tự ngoại quan, điện, phanh và ga, lốp, nhiên liệu, phụ kiện, rồi chụp ảnh hiện trạng kèm công tơ mét và gửi bên cho thuê xác nhận qua tin nhắn."
+qa:
+  - q: "Thuê xe tự lái thì người thuê chịu trách nhiệm những gì?"
+    a: "Trong thời gian giữ xe, bạn chịu trách nhiệm giữ xe an toàn, khóa cổ khi đỗ, không cho người khác dùng khi chưa được đồng ý và trả đúng giờ, đúng mức xăng thỏa thuận. Các khoản phát sinh thường liên quan va chạm, mất xe, mất khóa hoặc trả trễ."
+  - q: "Có được cho bạn mượn xe thuê để đi không?"
+    a: "Không nên khi chưa được bên cho thuê đồng ý, vì trách nhiệm với xe thuộc về người ký hợp đồng. Nếu cần người khác lái, hãy hỏi trước và đảm bảo người đó có giấy phép lái phù hợp loại xe."
+  - q: "Phát hiện phanh kêu khi đang thuê thì nên làm gì?"
+    a: "Ghi chú lại và báo ngay cho bên cho thuê thay vì chờ đến lúc trả xe, vì lỗi nhỏ xử lý sớm thường rẻ hơn nhiều so với để hỏng nặng. Với Motoopen, có thể nhắn kèm ảnh hoặc video qua Zalo 0857 255 868."
+  - q: "Thuê xe tự lái nhiều ngày có cần tự kiểm tra lốp và dầu không?"
+    a: "Nên kiểm tra lại áp suất lốp và dầu máy theo hướng dẫn của bên cho thuê để xe luôn ở trạng thái tốt. Motoopen bảo dưỡng xe định kỳ; khi thuê dài ngày, lịch thay dầu cụ thể nên hỏi rõ khi đặt."
+  - q: "Nên về trả xe sớm hơn giờ hẹn bao lâu?"
+    a: "Nên về sớm khoảng mười lăm phút để có thời gian đối chiếu hiện trạng cùng bên cho thuê, chụp ảnh lần cuối và nhận lại tiền cọc theo thỏa thuận. Đến sát giờ thường khiến bước kiểm tra bị vội và dễ phát sinh tranh luận."
 ---
 Thuê xe máy tự lái cho bạn toàn quyền chủ động, đồng thời chuyển phần lớn trách nhiệm vận hành sang phía bạn. Vì vậy, checklist trước khi ký nhận xe không chỉ để bảo vệ tiền cọc, mà còn để bạn hiểu rõ phạm vi trách nhiệm của mình trong suốt vòng thuê.
 
@@ -35,6 +48,8 @@ Chụp ảnh hiện trạng xe ở nơi đủ sáng, bao gồm cả công tơ m�
 Trong thời gian giữ xe, nên ghi chú lại những bất thường nhỏ: tiếng kêu từ phanh, đèn nhấp nháy, xe khó khởi động. Báo ngay cho bên cho thuê thay vì chờ tới lúc trả xe, vì nhiều lỗi nhỏ chỉnh sớm rẻ hơn nhiều so với để hỏng nặng. Khi xe chết máy giữa đường, ưu tiên an toàn: đẩy xe lệch làn, dựng giá chống, gọi hỗ trợ theo số ghi trong hợp đồng. Kênh liên hệ chính thức được cập nhật tại trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
 
 Về nhiên liệu và chỗ đỗ, hỏi trước loại xăng xe dùng để tránh nhầm trạm, và ưu tiên gửi xe ở bãi có người trông giữ thay vì lề đường vắng. Nếu bạn thuê xe liên tục nhiều ngày, nên kiểm tra lại áp suất lốp và dầu máy theo hướng dẫn của bên cho thuê để giữ xe luôn ở trạng thái tốt nhất. Cuối vòng thuê, về sớm hơn khung giờ dự kiến mười lăm phút để có thời gian đối chiếu hiện trạng xe cùng bên cho thuê, chụp ảnh lần cuối và nhận lại tiền cọc theo đúng thỏa thuận.
+
+Các bước tương tự cũng được tóm tắt trong [hướng dẫn chọn xe, đặt cọc và nhận xe]({{ '/huongdan.html' | relative_url }}) của Motoopen, tiện xem lại trước ngày ký nhận.
 
 ## Chuẩn bị cho vòng thuê suôn sẻ
 

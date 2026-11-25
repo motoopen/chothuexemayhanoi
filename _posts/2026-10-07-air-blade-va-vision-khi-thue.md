@@ -8,6 +8,19 @@ matrix_id: 163
 primary_keyword: "air blade và vision khi thuê"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-tay-ga
+quick_answer: "Air Blade đầm hơn, ga có lực và phanh đĩa trước ăn chắc khi đường ướt, hợp lịch có đường trường hoặc người lái cao; Vision nhẹ, ga mềm, yên thấp và gọn, hợp lịch phố thuần và người thấp. Nên ngồi thử và chạy thử cả hai vài phút trước khi chọn."
+qa:
+  - q: "Thuê Air Blade và Vision ở Motoopen giá chênh nhau thế nào?"
+    a: "Theo bảng giá Motoopen đang công bố, thuê ngày Vision và Air Blade cùng khoảng 200k. Thuê tháng Air Blade khoảng 1.400k, Vision khoảng 1.800k–2.000k. Giá có thể thay đổi theo thời điểm, nên xác nhận lại khi liên hệ đặt xe."
+  - q: "Người cao trên một mét bảy nên thuê Air Blade hay Vision?"
+    a: "Thường nên chọn Air Blade. Ghi đông cao hơn chút giúp người cao, chân dài ngồi thoáng hơn, còn Vision thân thon và yên thấp hợp người nhỏ người. Dù vậy vẫn nên ngồi thử cả hai vì tư thế mỗi người một khác."
+  - q: "Kỳ thuê có mưa dầm nên chọn Air Blade hay Vision?"
+    a: "Nên ưu tiên Air Blade, vì phanh đĩa trước ăn chắc hơn khi đường ướt hoặc qua đèo. Vision nhiều bản phanh cơ, vẫn đủ cho phố nhưng cần phanh sớm hơn. Xe nào cũng nên được thử phanh và soi lốp trước khi nhận."
+  - q: "Cốp Air Blade và Vision có khác nhau nhiều không?"
+    a: "Không nhiều. Cốp hai dòng gần như nhau, vừa một mũ và vài vật nhỏ. Nếu cần chở đồ hằng ngày nhiều hơn mức đó, nên tính dòng cốp lớn ngay từ lúc đặt để khỏi phải đổi xe giữa kỳ."
+  - q: "Khi nhận Air Blade hoặc Vision nên thử gì để biết máy còn khỏe?"
+    a: "Đề máy nghe tiếng có đều không, rồi thử ga ở dải thấp trước khi ký. Hai dấu hiệu này nói lên sức khỏe máy nhanh hơn mọi lời kể; nên hỏi thêm đời xe vì chênh đời máy là chênh độ êm và mức tiêu hao."
 ---
 Air Blade và Vision cùng nhà Honda nhưng phục vụ hai cảm giác khác nhau: một dòng đầm thể thao nhẹ, một dòng gọn tiện dụng. Bài này tách cảm giác điều khiển để bạn chọn đúng.
 
@@ -26,6 +39,8 @@ Vision thân thon yên thấp, hợp người thấp, xem bài [thuê xe máy y�
 ## Cốp và đồ đạc
 
 Hai cốp gần như nhau tầm vừa: một mũ và vài vật nhỏ. Ai cần cốp lớn thật thì Lead hơn hẳn cả hai, so trong bài [thuê Vision hay Lead]({{ '/blog/xe-vision-va-lead-khi-thue/' | relative_url }}) và cách xếp trong bài xe 50cc mang hành lý. Đi nhẹ thì cốp không là yếu tố phân biệt giữa hai dòng này.
+
+Nếu muốn đặt Air Blade và Vision cạnh những lựa chọn khác trước khi quyết, bạn có thể xem [các dòng xe ga đang cho thuê]({{ '/loaixe.html' | relative_url }}) rồi chọn hai mẫu để chạy thử.
 
 ## Giá thuê, giấy tờ và đặt trước
 

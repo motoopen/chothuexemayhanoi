@@ -8,6 +8,7 @@ matrix_id: 105
 primary_keyword: "thuê xe máy điện vinfast tự lái hà nội"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Thuê xe tự lái cho bạn toàn quyền điều khiển chiếc xe, nhưng đồng nghĩa bạn tự đối mặt với mọi giới hạn của nó. Với xe máy điện, hai giới hạn cần đánh giá đúng là pin và phạm vi sử dụng. Đánh giá sai một trong hai, bạn có thể dừng giữa đường vì hết điện. Bài viết này hướng dẫn cách đánh giá cả hai trước khi và ngay khi nhận xe.
 

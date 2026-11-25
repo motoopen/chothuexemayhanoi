@@ -8,6 +8,19 @@ matrix_id: 88
 primary_keyword: "thuê xe 50cc gần nội bài"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
+quick_answer: "Với đa số lịch, nên nhận xe 50cc trong thành phố sau khi đã về nơi ở bằng xe lớn, vì Nội Bài cách trung tâm khoảng ba mươi cây số đường nhanh, quá tầm của xe 50cc. Chỉ nên nhận gần sân bay khi lịch của bạn gọn quanh khu vực đó."
+qa:
+  - q: "Có nên chạy xe 50cc từ Nội Bài vào trung tâm không?"
+    a: "Không nên. Chặng cao tốc khoảng ba mươi cây số là quá tầm với 50cc: tốc độ tối đa thấp, gió và xe lớn lùa liên tục, thêm hành lý càng mệt. Bài viết khuyên đi xe lớn vào phố rồi mới nhận 50cc."
+  - q: "Motoopen có giao xe ra sân bay Nội Bài không?"
+    a: "Motoopen công bố giao xe tận nơi khu vực nội thành, phí khoảng 20k–50k tùy quãng đường; nhận xe ở sân bay có được hỗ trợ không thì nên hỏi rõ khi đặt. Phương án gọn là nhận xe trong thành phố sau khi đã về tới nơi ở."
+  - q: "Máy bay đáp trễ thì nên chốt khung nhận xe thế nào?"
+    a: "Đặt xe trong thành phố với khung nhận dự phòng, tính dư thời gian lấy hành lý và đi vào phố. Khi biết giờ đáp thật, kể cả trễ, báo ngay cho nơi thuê để dời khung mà không mất chỗ."
+  - q: "Ngày bay về nên trả xe 50cc ở đâu?"
+    a: "Nên trả xe tại điểm đã nhận trong thành phố rồi ra sân bay bằng xe lớn, hoặc trả sớm trước giờ bay với thời gian dư dả. Cách chia này giữ mỗi chặng đúng phương tiện: xe lớn cho cao tốc, 50cc cho phố."
+  - q: "Chỉ mang balo nhẹ thì nhận xe 50cc ở sân bay có được không?"
+    a: "Khả thi hơn, vì khi chỉ có balo nhẹ, hai phương án đều dùng được và lịch chi tiết sẽ quyết định. Tuy vậy, nếu phải chạy chặng cao tốc dài vào phố, nhận xe trong thành phố vẫn an toàn và đỡ mệt hơn."
 ---
 Nội Bài cách trung tâm Hà Nội khoảng ba mươi cây số, và câu hỏi nhận xe 50cc ở sân bay hay trong thành phố không có đáp án chung, mà phụ thuộc quãng, loại đường và lịch của bạn. Bài này so hai phương án theo từng tiêu chí.
 
@@ -34,6 +47,8 @@ Tình huống một: khách đáp Nội Bài sáng, lấy xe lớn về phố, n
 ## Chuyến bay về nên chốt xe như thế nào
 
 Với lịch đáp máy bay về rồi ở lại Hà Nội vài ngày, trình tự gọn là: đặt 50cc trong thành phố trước với khung nhận dự phòng theo giờ đáp dư thời gian lấy hành lý, và đi từ sân bay về nơi ở bằng xe lớn. Báo giờ đáp thật cho nơi thuê khi biết, kể cả trễ, để dời khung nhận không mất chỗ. Với ngày ra về, hỏi khung trả tại điểm nhận rồi mới ra sân bay bằng xe lớn, hoặc trả trước giờ bay dư rộng rải. Cách chia hai phương tiện này giữ mỗi chặng đúng công cụ: xe lớn cho cao tốc, 50cc cho phố, và không chặng nào ép xe làm việc ngoài tầm.
+
+Để nhận xe nhanh sau khi về tới nơi ở, nên xem trước [thủ tục và giấy tờ thuê xe]({{ '/thutuc.html' | relative_url }}) từ lúc còn ở sân bay.
 
 ## Kết luận
 

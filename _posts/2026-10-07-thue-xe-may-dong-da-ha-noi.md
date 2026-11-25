@@ -8,6 +8,7 @@ matrix_id: 179
 primary_keyword: "thuê xe máy đống đa hà nội"
 hub_parent: khu-vuc
 hub_category: ha-noi-theo-khu-vuc
+seo_hub: khu-vuc
 ---
 Đống Đa là khu đông dân với nhiều con dốc nhỏ và phố một chiều, nên chỗ nhận xe thuê ảnh hưởng nhiều đến buổi đầu tiên của bạn. Bài này giúp bạn chọn điểm nhận xe hợp với hành trình quanh Đống Đa.
 

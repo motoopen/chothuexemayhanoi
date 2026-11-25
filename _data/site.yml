@@ -16,24 +16,43 @@ contact:
   map_url: "https://maps.app.goo.gl/2icTBTxAToyvKTE78"
   zalo_url: "https://zalo.me/0857255868"
 
+  # Delivery areas exactly as published in the homepage FAQ / bảng giá (owner-published facts).
+  service_areas: ["Long Biên", "Gia Lâm", "Phố Cổ", "Hoàn Kiếm", "Ba Đình", "Tây Hồ", "Hai Bà Trưng", "Cầu Giấy", "Hoàng Mai"]
+  delivery_fee: "20k – 50k tùy quãng đường và điểm hẹn"
+
 social:
   facebook: "https://m.facebook.com/motoopenvn/"
   instagram: "https://www.instagram.com/motoopen/"
   app: "https://motoopen.github.io/appthuexemay/"
 
 cta:
+  # Shared conversion box under every post (_includes/blog/cta.html). Prices quoted here
+  # must match the published table on /banggia.html (owner-verified figures only).
   rental:
-    title: "Cần thuê xe tại Hà Nội?"
-    text: "Xem thông tin đang được công bố trên website hoặc liên hệ Motoopen để kiểm tra xe phù hợp."
+    title: "Cần xe máy dùng cả tháng ở Hà Nội?"
+    text: "Motoopen cho thuê xe số, xe ga, 50cc theo ngày, tuần và tháng. Giá thuê tháng tham khảo 1–2 triệu tùy dòng xe, cọc theo dòng xe; giá chốt khi gọi hoặc nhắn Zalo."
     primary_label: "Gọi ngay"
     secondary_label: "Xem bảng giá"
     secondary_url: "/banggia.html"
+    monthly_label: "Thuê xe theo tháng"
+    monthly_url: "/"
   guide:
     title: "Cần kiểm tra thêm trước khi đi?"
-    text: "Xem hướng dẫn, thủ tục hoặc liên hệ Motoopen nếu bạn cần đối chiếu thông tin."
+    text: "Xem hướng dẫn, thủ tục hoặc liên hệ Motoopen nếu bạn cần đối chiếu thông tin. Nếu ở Hà Nội lâu ngày, gói thuê tháng thường tiết kiệm hơn thuê lẻ từng ngày."
     primary_label: "Liên hệ"
     secondary_label: "Xem hướng dẫn"
     secondary_url: "/huongdan.html"
+    monthly_label: "Thuê xe theo tháng"
+    monthly_url: "/"
+  quick_facts:
+    - icon: "fa-solid fa-calendar-days"
+      label: "Ngày · tuần · tháng"
+    - icon: "fa-solid fa-truck-fast"
+      label: "Giao xe nội thành"
+    - icon: "fa-solid fa-file-signature"
+      label: "Hợp đồng rõ ràng"
+    - icon: "fa-solid fa-clock"
+      label: "09:00 – 21:00 hằng ngày"
 
 features:
   post_cta: true

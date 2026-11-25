@@ -8,6 +8,19 @@ matrix_id: 149
 primary_keyword: "thuê xe cub hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-so
+quick_answer: "Chọn Cub 50cc nếu chưa có bằng lái hoặc chỉ đi nội thành ngắn, vì giấy tờ gọn và giá rẻ hơn. Chọn Cub phổ thông nếu đã có bằng A1 và cần chạy đường trường, chở nặng hơn. Với cả hai, hãy kiểm tay lái, khung và đặt trước vì Cub hiếm."
+qa:
+  - q: "Cub 50cc có đủ sức chạy ra ngoại thành không?"
+    a: "Chỉ hợp quãng ngắn. Quãng xa hơn 50 cây số mỗi ngày hoặc phải lên dốc dài thì Cub 50cc sẽ căng, nên chọn bản phổ thông mạnh hơn cho các chặng đường trường."
+  - q: "Cub 50cc có phù hợp người chưa có bằng lái không?"
+    a: "Có, Cub 50cc thuộc nhóm dưới 50 phân khối không cần bằng lái, hợp người chưa có bằng đi nội thành. Ở Motoopen, khách chưa có bằng A1 được tư vấn xe 50cc hoặc xe điện; nên kiểm tra quy định hiện hành trước khi lái."
+  - q: "Vì sao cần lắc thử tay lái khi nhận xe Cub?"
+    a: "Vì Cub đời cũ dễ bị hờ cổ lái và khung sau nhiều năm sử dụng. Lắc thử tay lái không thấy đong đưa, kiểm thêm ga số rõ nấc và phanh không rít; có dấu hiệu hờ khung thì nên xin xe khác."
+  - q: "Đi Cub cổ điển về khuya cần chuẩn bị gì?"
+    a: "Xe cổ điển nhiều khi đèn yếu hơn xe mới, nên bật thử đèn, bấm còi và chỉnh gương trước khi xuất phát. Biết trước độ sáng của đèn giúp bạn chủ động tốc độ trên các chặng về khuya."
+  - q: "Đặt Cub cần hỏi gì để không nhận nhầm bản?"
+    a: "Hỏi rõ chiếc Cub hiện có là bản 50cc hay bản phổ thông, vì giá và yêu cầu bằng lái khác nhau. Cub thường ít xe và hay kẹt dịp lễ, nên hỏi tồn kho trước ngày nhận."
 ---
 Honda Cub có hai mặt khi thuê ở Hà Nội: Cub phổ thông bản số máy lớn, và Cub 50cc nhóm nhỏ không cần bằng lái. Hai dòng trông giống nhau nhưng phục vụ nhu cầu khác nhau. Bài này chỉ cách chọn đúng, kèm kiểm tra cho cả hai.
 
@@ -30,6 +43,8 @@ Cub là xe số nên ga số thử, các nấc rõ, không văng, chạy thử l
 ## Giấy tờ, giá và điều khoản
 
 Cub 50cc không cần bằng lái, bản phổ thông cần A1, phân biệt rõ trong bài xe 50cc có cần bằng lái không. Hợp đồng ghi giá, cọc, giờ trả và mức xăng giao. Xin đăng ký bản photo và lưu số hỗ trợ. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). So giá hai bản ở trang bảng giá và hỏi tồn kho qua trang liên hệ trước ngày nhận, Cub thường ít xe và kẹt dịp lễ.
+
+Nếu muốn có phương án dự phòng khi Cub hết xe, trang [các nhóm xe đang cho thuê]({{ '/loaixe.html' | relative_url }}) giới thiệu nhóm xe số phổ thông và xe 50cc để bạn so sánh.
 
 ## Kết luận
 

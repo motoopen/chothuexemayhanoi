@@ -8,6 +8,7 @@ matrix_id: 271
 primary_keyword: "đi xe máy hà nội buổi tối"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
+seo_hub: hanh-trinh
 ---
 Hà Nội buổi tối đổi sắc hoàn toàn, và xe máy là cách rẻ nhất để thấy phố đèn. Nhưng ban đêm có bộ luật riêng của nó: tầm nhìn, đèn xe, và chỗ gửi xe đóng cửa.
 

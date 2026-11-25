@@ -8,6 +8,7 @@ matrix_id: 247
 primary_keyword: "thuê xe máy hà nội đi ninh bình"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
+seo_hub: hanh-trinh
 ---
 Ninh Bình cách Hà Nội khoảng chừng một trăm kilômét, quãng đường vừa đủ cho một ngày hoặc hai ngày trở lại, và đi xe máy cho cảm giác khác hẳn đi ô tô. Bài này giúp bạn chọn xe và chuẩn bị để chuyến đi không bị chiếc xe cản trở.
 

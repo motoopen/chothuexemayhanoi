@@ -8,6 +8,19 @@ matrix_id: 76
 primary_keyword: "cub 50cc và xe ga 50cc"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
+quick_answer: "Với người hoàn toàn mới, xe ga 50cc dễ làm quen hơn vì không có số, chỉ vặn ga và thả ga, lại có hộc đựng đồ dưới yên. Cub 50cc hợp hơn với người từng đi xe số như Cub hoặc Wave và thích dòng cổ điển bền."
+qa:
+  - q: "Người chưa từng đi xe số mất bao lâu để quen Cub 50cc?"
+    a: "Bài viết ước tính người chưa từng đi xe số cần vài buổi làm quen thao tác số, nhất là lúc dừng đèn đỏ và khởi động lại giữa dòng xe đông. Ai từng đi Cub hoặc Wave thì thao tác gần như phản xạ sẵn."
+  - q: "Hộc dưới yên xe ga 50cc đựng được những gì?"
+    a: "Vừa áo mưa, mũ và vài món lặt vặt, tiện khi phải xuống xe nhiều lần giữa phố. Cub thường cốp nhỏ hoặc không có, nên balo vẫn phải đeo lưng và đồ để trên yên khi bước vào quán luôn có rủi ro."
+  - q: "Người thấp chân nên chọn Cub hay xe ga 50cc?"
+    a: "Xe ga 50cc có lợi hơn một chút vì yên rộng, yên thấp, đặt chân thoải mái khi dừng. Cả hai dòng đều nhẹ, dễ dắt và dễ đỗ, nên hãy ngồi thử đặt chân xuống đất trước khi chọn chiếc cụ thể."
+  - q: "Chạy thử Cub hoặc xe ga 50cc khi nhận nên thử những thao tác nào?"
+    a: "Nên thử đúng thao tác sẽ dùng thật: dừng giữa dốc nhẹ, khởi động lại giữa dòng, và mở khóa hộc nếu chọn xe ga. Với Cub, thử đủ các số lên xuống và nghe tiếng máy; những thao tác đó quan trọng hơn mọi thông số trên giấy."
+  - q: "Đi làm hằng ngày trong phố nên chọn Cub hay xe ga 50cc?"
+    a: "Nếu hay xuống xe giữa phố và cần chỗ cất mũ, áo mưa, xe ga 50cc tiện hơn nhờ hộc dưới yên. Nếu đã quen xe số và lịch toàn chặng ngắn, Cub vẫn là lựa chọn bền và hợp."
 ---
 Giữa hai dòng 50cc quen thuộc, Cub và xe ga, câu hỏi được hỏi nhiều nhất là cái nào dễ làm quen hơn cho người mới. Cả hai đều nhẹ và dễ chịu, nhưng thao tác khác nhau ở một điểm cốt lõi: số. Bài này so sánh để bạn chọn nhanh theo kinh nghiệm của mình.
 
@@ -36,6 +49,8 @@ Với Cub, thử đủ các số lên xuống, nghe tiếng côn, kiểm tra ch�
 Tình huống một: khách chưa từng đi xe máy, chọn xe ga, làm quen trong một buổi rồi đi lại được trong phố. Tình huống hai: khách từng đi Cub của ông bà từ nhỏ, chọn Cub thấy tay chân tự nhiên hơn hẳn, trong khi bạn cùng đi chọn xe ga lại thấy gò. Đáp án của mỗi người nằm ở kinh nghiệm sẵn có, nên trung thực với mức quen tay của mình là cách chọn nhanh nhất.
 
 Với khách cân nhắc thêm dòng Wave, bài so Cub và Wave nằm trong [so Cub 50cc và Wave 50cc]({{ '/blog/cub-50cc-va-wave-50cc/' | relative_url }}), giúp bạn rút ngắn thêm bước chọn giữa ba dòng số và ga quen thuộc. Khi chạy thử tại điểm nhận, hãy thử đúng thao tác sẽ dùng thật: dừng giữa dốc nhẹ, khởi động lại giữa dòng, và mở khóa hộc nếu chọn xe ga, vì các thao tác đó mới là phần dùng suốt kỳ thuê, quan trọng hơn mọi thông số ghi trên giấy.
+
+Với khách đi làm hoặc đi học cần xe mỗi ngày, sau khi chọn được dòng hợp tay, có thể tham khảo [dịch vụ thuê xe theo tháng]({{ '/' | relative_url }}) để không phải tính lại từng ngày.
 
 ## Kết luận
 

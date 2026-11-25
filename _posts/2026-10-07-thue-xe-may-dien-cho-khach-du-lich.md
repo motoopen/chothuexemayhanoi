@@ -8,6 +8,17 @@ matrix_id: 113
 primary_keyword: "thuê xe máy điện cho khách du lịch"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
+quick_answer: "Khách du lịch nên thuê xe máy điện khi lưu trú trong nội đô, các điểm muốn đến đều quanh phố và hồ, và khách sạn cho cắm sạc qua đêm. Nếu lịch có chặng dài ra làng nghề hay điểm ven đô trong một ngày, xe xăng tiện hơn vì không phải lo tầm pin."
+qa:
+  - q: "Khách sạn ở Hà Nội có cho cắm sạc xe máy điện qua đêm không?"
+    a: "Hầu hết khách sạn cho cắm sạc qua đêm, nhưng nên hỏi lễ tân trước khi đặt cọc xe vì một số nơi tính phí nhỏ. Đồng thời hỏi nơi thuê xe có giao kèm bộ sạc hay không."
+  - q: "Có thể thuê xe điện vài ngày rồi ghép thêm một ngày xe xăng không?"
+    a: "Nên hỏi nơi thuê có cho ghép không, ví dụ gói điện cho các ngày đi phố và mượn thêm xe xăng cho ngày đi điểm ven. Cách này thường rẻ hơn lấy xe xăng cả kỳ và đỡ lo pin hơn ép xe điện chạy xa."
+  - q: "Khách lần đầu chạy xe ở Hà Nội nên làm quen giao thông thế nào?"
+    a: "Ngày đầu nên đi khung giờ vắng, giữ tốc độ vừa và để ý làn đường; còi ở Hà Nội chủ yếu dùng để báo hiệu. Người chưa từng đi xe hai bánh ở châu Á nên tập một buổi trên đoạn vắng trước giờ cao điểm."
+  - q: "Khách nước ngoài thuê xe ở Motoopen cần giấy tờ gì?"
+    a: "Theo trang Thủ tục của Motoopen, khách nước ngoài cần hộ chiếu và bằng lái quốc tế hợp lệ. Mức cọc tùy dòng xe, nên xem bảng giá hoặc hỏi khi đặt qua điện thoại hoặc Zalo 0857 255 868."
 ---
 Với khách du lịch ở Hà Nội vài ngày, chọn giữa xe máy điện và xe xăng không phải câu hỏi sở thích mà là câu hỏi lịch trình. Bài này so hai lựa chọn theo từng tiêu chí để bạn chốt nhanh.
 
@@ -34,6 +45,8 @@ Tình huống một: cặp khách ở phố cổ ba đêm, mỗi ngày quanh h�
 ## Khi nào nên thuê điện kèm một ngày xăng
 
 Có một dạng lịch lai khá phổ biến với khách du lịch: vài ngày quanh phố cộng một ngày đi điểm ven. Với dạng này, hỏi nơi thuê có thể ghép không, ví dụ gói điện bốn ngày và mượn thêm dòng xăng riêng cho ngày ven, tính theo ngày lẻ. Cách ghép này rẻ hơn lấy nguyên dòng xăng cả kỳ vì phần lớn kỳ vẫn dùng điện chi thấp, và tiện hơn ép điện chạy xa vì khỏi lo pin. Nhiều nơi cho ghép thoải mái với lý do rõ, chỉ cần hỏi trước để biết cách tính. Đây là một trong những câu hỏi đáng giá nhất với khách du lịch có lịch trộn chặng gần và xa.
+
+Trước khi đặt xe, nên đọc qua [giấy tờ cần chuẩn bị khi thuê xe]({{ '/thutuc.html' | relative_url }}) để tránh mất thời gian ở điểm nhận.
 
 ## Kết luận
 

@@ -8,6 +8,19 @@ matrix_id: 148
 primary_keyword: "thuê xe future hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-so
+quick_answer: "Future hợp nhất khi lịch trộn nội thành và ngoại thành khoảng 40 đến 80 cây số mỗi ngày, mang hành lý vừa phải. Quãng nội thành ngắn thì xe số nhỏ rẻ hơn là đủ, còn nhiều đồ hoặc chặng rất dài thì nên cân xe ga cốp rộng."
+qa:
+  - q: "Cốp xe Future đựng được những gì?"
+    a: "Cốp Future nhỏ hơn xe ga nhưng đựng được mũ hoặc vài vật nhỏ, và chắn chân trước giúp túi không dính bụi đường. Nên thử cốp với chính chiếc mũ hoặc túi đồ của bạn ngay tại quầy thay vì ước lượng."
+  - q: "Future có chở hai người tốt không?"
+    a: "Tốt hơn các dòng xe số nhỏ. Nếu chở hai người hoặc nhiều chặng đường trường, hãy báo nơi thuê để chọn chiếc mạnh nhất hiện có, vì độ bốc giữa các đời máy Future khác nhau."
+  - q: "Thuê Future cần bằng lái hạng nào?"
+    a: "Future bản phổ biến 125 cần bằng lái A1, khác với nhóm 50cc không cần bằng. Nên kiểm tra quy định hiện hành về phân hạng và mang bằng gốc cùng giấy tờ tùy thân khi nhận xe."
+  - q: "Xe Future cũ hay lỏng bộ phận nào cần để ý khi nhận?"
+    a: "Tấm chắn chân là chỗ xe cũ hay hờ, nên lắc thử xem có chắc không, kèm kiểm khóa cốp êm và cốp không ẩm. Phần máy cần kiểm số rõ nấc, đề nhanh, phanh ăn và đèn còi đủ."
+  - q: "Đi công tác vài ngày ở Hà Nội có nên thuê Future không?"
+    a: "Hợp lý nếu lịch có cả phố và đường trường, vì Future đầm mà vẫn lọt phố. Nên đặt trước khi kỳ thuê rơi vào đầu tuần, và so giá theo ngày, theo tuần trên bảng giá của cửa hàng."
 ---
 Honda Future nằm giữa xe số nhỏ và xe ga lớn: đầm, chắc và có chút cốp, nên quyết định thuê Future gắn với hai câu hỏi về quãng đường và hành lý. Bài này trả lời cả hai.
 
@@ -30,6 +43,8 @@ Mở cốp thử khóa êm, sạch, không ẩm. Kiểm tấm chắn chân chắ
 ## Giấy tờ, giá và điều khoản
 
 Future bản phổ biến 125 nên cần bằng lái A1, nhóm 50cc không cần, phân biệt trong bài xe 50cc có cần bằng lái không. Hợp đồng ghi giá, cọc, giờ trả và mức xăng. Xin đăng ký bản photo, chụp đồng hồ xăng lúc nhận. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). So giá theo ngày và tuần ở trang bảng giá, hỏi tồn kho qua trang liên hệ trước ngày nhận.
+
+Nếu muốn so Future với các dòng xe số và xe ga khác, trang [các loại xe máy cho thuê]({{ '/loaixe.html' | relative_url }}) mô tả từng nhóm để bạn chọn theo quãng đường và hành lý.
 
 ## Kết luận
 

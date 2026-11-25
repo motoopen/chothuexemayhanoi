@@ -8,6 +8,19 @@ matrix_id: 169
 primary_keyword: "chọn trọng lượng xe thuê"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-tay-ga
+quick_answer: "Thử trọng lượng xe tại quầy bằng ba động tác: dắt xe khi tắt máy, quay đầu trong lối hẹp và nhấc dựng chống. Nếu phải ghì lấy đà, chống chân giữa chừng khi quay đầu hoặc thấy nặng khi dựng chống, nên chọn nhóm nhẹ hơn như 50cc hay xe điện mini."
+qa:
+  - q: "Vision, Air Blade và Lead nặng khoảng bao nhiêu?"
+    a: "Ba dòng này nằm ở nhóm khoảng 100 đến 110 ký, cân bằng giữa gọn và chắc. Nhóm 50cc và xe điện mini nhẹ hơn, dưới 100 ký, còn SH cùng các dòng ga lớn và thể thao trên 120 ký."
+  - q: "Người lớn tuổi nên thuê xe nặng hay xe nhẹ?"
+    a: "Nên chọn xe nhẹ. Với khách lớn tuổi hoặc đang hồi sức sau chấn thương, nhóm xe điện nhẹ và êm là lựa chọn đáng cân nhất. Motoopen có xe 50cc và xe đạp điện, nên hỏi trực tiếp mẫu nào hợp thể lực khi đặt."
+  - q: "Xe nặng có an toàn hơn khi phanh gấp không?"
+    a: "Không hẳn. Xe nặng đầm khi chạy nhanh nhưng phanh gấp cần lực bóp lớn hơn và quãng dừng dài hơn, nhất là khi chở hai người hoặc đường ướt. Nếu phần lớn lịch là chặng chậm dưới 40 cây số mỗi giờ, độ đầm ít dùng tới."
+  - q: "Vì sao nên thử dắt xe lên dốc khi chọn xe thuê?"
+    a: "Vì dốc làm lộ phần chênh trọng lượng nhanh hơn đường phẳng. Hà Nội có hầm vượt, cầu vượt và lối dắt vào ngõ, nên nếu dắt lên một dốc nhỏ mà phải ghì lấy đà hay đổi tay giữa chừng, xe đó có thể quá nặng với bạn."
+  - q: "Chở người thường xuyên thì thử trọng lượng xe thế nào?"
+    a: "Nên thử cùng người ngồi sau nếu có thể. Tổng trọng lượng tăng khiến mọi động tác dắt, quay đầu và chống chân nặng thêm, nên chiếc xe vừa sức khi đi một mình có thể quá sức khi chở đôi."
 ---
 Trọng lượng xe không ghi trên quảng cáo nhưng quyết định mỗi lần bạn dắt, đẩy và chống chân. Bài này cho cách thử trọng lượng tại quầy trong ba động tác, và khối xe gợi ý theo thể lực.
 
@@ -26,6 +39,8 @@ Nhấc xe khỏi chống, dựng lại, và giữ xe nghiêng nhẹ vài giây: 
 ## Khối xe gợi ý theo từng dòng
 
 Dưới 100 ký: nhóm 50cc, xe điện mini, dễ nhất cho người mới và người thấp, hướng dẫn trong bài thuê xe máy cho người mới lái Hà Nội. Khoảng 100 đến 110 ký: Vision, Air Blade, Lead, cân bằng gọn và chắc, so dòng trong bài [thuê Vision hay Lead]({{ '/blog/xe-vision-va-lead-khi-thue/' | relative_url }}). Trên 120 ký: SH, dòng ga lớn và thể thao, chỉ nên chọn khi thể lực và kinh nghiệm đủ, cân trong bài thuê SH hay Air Blade.
+
+Để so khối xe trước khi đến thử, bạn có thể xem [các mẫu xe đang cho thuê]({{ '/loaixe.html' | relative_url }}) và báo rõ nhu cầu xe nhẹ khi đặt.
 
 ## Trọng lượng và an toàn
 

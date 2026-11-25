@@ -8,6 +8,7 @@ matrix_id: 211
 primary_keyword: "thuê xe máy đường láng hà nội"
 hub_parent: khu-vuc
 hub_category: ha-noi-theo-khu-vuc
+seo_hub: khu-vuc
 ---
 Đường Láng là trục dài qua nhiều khu đông dân, nên chỗ nhận xe thuê ảnh hưởng nhiều đến buổi đầu tiên của bạn. Bài này giúp bạn chọn điểm nhận xe hợp với hành trình quanh Đường Láng.
 

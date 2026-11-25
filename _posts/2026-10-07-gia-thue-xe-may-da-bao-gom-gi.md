@@ -8,6 +8,17 @@ matrix_id: 50
 primary_keyword: "giá thuê xe máy đã bao gồm gì"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+seo_hub: gia-coc
+quick_answer: "Giá niêm yết thường gồm tiền thuê xe, bảo dưỡng định kỳ và phần giấy tờ, bảo hiểm bắt buộc của xe. Xăng, phí giao nhận xe, phụ phí ngoài giờ, phụ phí trễ và cọc thường tính riêng, nên hỏi từng khoản trước khi đặt cọc."
+qa:
+  - q: "Giá thuê tháng ở Motoopen đã gồm mũ bảo hiểm và áo mưa chưa?"
+    a: "Nên hỏi rõ khi đặt. Giá tháng tham khảo trên bảng giá khoảng 1–2 triệu tùy dòng xe, còn những thứ đi kèm như mũ bảo hiểm, áo mưa nên được xác nhận cùng lúc với giá chốt để tránh hiểu nhầm."
+  - q: "Giao xe tận nơi có nằm trong giá niêm yết không?"
+    a: "Thường là không, phí giao và nhận lại tại địa chỉ hay được tính theo khoảng cách. Ở Motoopen, giao xe nội thành có phí khoảng 20k–50k tùy quãng đường, còn nhận xe tại cửa hàng thì không mất phí giao."
+  - q: "Các khoản ngoài giá có thể cộng lên bao nhiêu trong một ngày thuê?"
+    a: "Theo ví dụ trong bài, nếu không hỏi trước, phí giao hai đầu cộng phần xăng thiếu khi trả có khi lên gần một nửa giá thuê. Hỏi trước các khoản này thì tổng được ước đúng ngay từ sáng."
+  - q: "Thuê dài ngày thì khoản nào nhỏ dần, khoản nào tăng lên?"
+    a: "Phí giao chia đều ra số ngày nên nhỏ dần, trong khi các phụ phí theo tình huống như trễ giờ hay vượt phạm vi lại có thể tăng theo số ngày. Vì vậy lịch càng dài càng cần một bảng ước tổng."
 ---
 Mức giá niêm yết chỉ là một phần của tổng chi phí thuê xe. Biết rõ giá đã bao gồm gì và chưa bao gồm gì giúp bạn so gói đúng và tránh các khoản phát sinh lúc trả xe. Bài này tách mức giá thành các nhóm khoản để bạn kiểm tra trọn trước khi cọc.
 
@@ -34,6 +45,8 @@ Câu một: giá này đã gồm xăng chưa, nếu chưa thì trả xe cần m�
 ## Ví dụ tổng của một ngày thuê
 
 Một khách thuê xe một ngày trong phố: giá niêm yết, cộng phí giao tận khách sạn hai đầu, và mức xăng chêch nhỏ khi trả. Nếu ba khoản hỏi trước, tổng được ước đúng từ sáng. Nếu không, từng khoản nhỏ cộng lại có khi lên gần một nửa giá thuê. Với gói dài ngày, phần phí giao chia đều ra số ngày nên nhỏ dần, trong khi các phụ phí theo tình huống lại tăng theo số ngày, nên lịch càng dài càng cần bảng ước tổng. Kinh nghiệm gói dài ngày nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}).
+
+Nếu bạn ở Hà Nội từ vài tuần trở lên, hãy dùng năm câu hỏi trên khi tìm hiểu [gói thuê tháng của Motoopen]({{ '/' | relative_url }}), vì các khoản đi kèm của gói dài có thể khác gói ngày.
 
 ## Kết luận
 

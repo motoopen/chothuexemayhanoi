@@ -8,6 +8,17 @@ matrix_id: 47
 primary_keyword: "chi phí ẩn khi thuê xe máy"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+seo_hub: gia-coc
+quick_answer: "Bảy chi phí dễ bỏ sót gồm phí giao và nhận xe hai đầu, phí gửi xe, tiền xăng theo chính sách gói, phụ phí ngoài giờ, phụ phí trả trễ, phí vượt phạm vi và khấu trừ hư hỏng. Hỏi trọn các khoản này trước khi đặt cọc."
+qa:
+  - q: "Thuê xe nhiều tuần có nên tính cả tiền gửi xe không?"
+    a: "Có. Nếu khu ở hoặc nơi làm việc thiếu chỗ để xe an toàn, phí gửi cộng dồn theo ngày khá đáng kể. Nên ước theo tuần và cân nhắc thương lượng gói gửi tháng với bãi gần nhà."
+  - q: "Phụ phí vượt phạm vi khu vực phát sinh khi nào?"
+    a: "Khi gói thuê giới hạn khu vực mà lịch của bạn có chặng ven hoặc đi xa hơn phạm vi cho phép. Hãy hỏi phạm vi trước khi ký để biết có cần thỏa thuận riêng hay không, thay vì đoán."
+  - q: "Làm sao biết một khoản phụ phí có tránh được hay không?"
+    a: "Hỏi xem từng khoản chốt được mức cụ thể hay tính theo tình huống, và ngưỡng nào thì phát sinh. Các khoản như phụ phí ngoài giờ hay trả trễ thường tránh được bằng cách chọn khung nhận trả đúng giờ và chốt khung dư thời gian."
+  - q: "Khoản khấu trừ hư hỏng có phải là chi phí ẩn không?"
+    a: "Có thể, nếu bạn không đọc điều khoản. Phần khấu trừ tại cọc phụ thuộc hợp đồng, nên rà trước khi ký và chụp hiện trạng xe kỹ ở đầu kỳ để có bằng chứng đối chiếu khi trả."
 ---
 Tổng chi phí thuê xe máy không dừng ở mức giá ngày, và bảy khoản dưới đây là những cái dễ bị bỏ sót nhất, khiến hóa đơn cuối vượt dự tính của nhiều người.
 
@@ -40,6 +51,8 @@ Với lịch dài nhiều tuần, bảy khoản này không chỉ cần hỏi m�
 
 
 Trước khi đặt cọc, tự hỏi ba câu. Câu một: ngoài giá thuê, tôi sẽ còn trả những khoản nào, ghi ra đủ cả bảy nhóm trên. Câu hai: mỗi khoản đó chốt được mức cụ thể hay tính theo tình huống, và ngưỡng nào thì phát sinh. Câu ba: khoản nào có cách tránh được, như chọn khung nhận trả đúng giờ, chọn gói có xăng hoặc giao xe gần. Ba câu này biến danh sách bảy khoản từ kiến thức thành công cụ dùng được ngay trong cuộc trao đổi đầu tiên với nơi thuê, và trả lời xong là bạn đã có bảng chi phí gần đúng cho cả kỳ thuê.
+
+Nếu lịch của bạn kéo dài nhiều tuần, hãy đặt bảy khoản này cạnh báo giá [thuê xe máy dài hạn tại Hà Nội]({{ '/' | relative_url }}) để so tổng chi phí cả kỳ thay vì cộng từng ngày lẻ.
 
 ## Kết luận
 

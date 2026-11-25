@@ -8,6 +8,7 @@ matrix_id: 118
 primary_keyword: "thuê xe máy điện tây hồ"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Tây Hồ với đường quanh hồ dài và các phố ven yên tĩnh là khu hợp với xe máy điện kiểu riêng: chặng vừa, đường thoáng và phong cảnh cho đi chậm. Bài này chỉ những hành trình ngắn hợp nhất quanh Tây Hồ và cách lo phần pin.
 

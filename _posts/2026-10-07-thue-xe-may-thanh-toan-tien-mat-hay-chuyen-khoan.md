@@ -8,6 +8,17 @@ matrix_id: 233
 primary_keyword: "thuê xe máy thanh toán tiền mặt hay chuyển khoản"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: gia-coc
+quick_answer: "Tiền mặt nhanh và nơi nào cũng nhận nhưng cần biên nhận ghi rõ số tiền, ngày, nội dung và chữ ký; chuyển khoản tự lưu lịch sử giao dịch nhưng không phải nơi nào cũng nhận. Dù chọn cách nào, hãy lưu biên nhận, hợp đồng và ảnh xe khi nhận, khi trả."
+qa:
+  - q: "Chuyển khoản tiền thuê xe nên ghi nội dung gì?"
+    a: "Ghi tên bạn và kỳ thuê vào nội dung chuyển khoản để nơi thuê đối chiếu nhanh. Nếu chuyển hộ người khác, ghi rõ tên người thuê để không bị nhầm giữa các hợp đồng cùng ngày."
+  - q: "Khách nước ngoài thanh toán tiền thuê xe thế nào cho tiện?"
+    a: "Nên hỏi trước nơi thuê có nhận thanh toán quốc tế không, vì nhiều nơi chỉ nhận tiền mặt Việt Nam; nếu cần thì đổi sẵn. Khi thuê ở Motoopen, khách nước ngoài cần hộ chiếu và bằng lái quốc tế hợp lệ, hình thức thanh toán nên hỏi rõ khi đặt."
+  - q: "Nhận lại cọc bằng tiền mặt cần lưu ý gì?"
+    a: "Đếm tiền ngay trước khi rời cửa hàng, vì sau khi đã đi, khoản thiếu rất khó truy lại. Ghi lại ngày giờ trả xe và người nhận, giữ biên nhận hoàn cọc hoặc tin nhắn xác nhận đã nhận tiền."
+  - q: "Có nên mang theo tiền lẻ khi đi trả xe không?"
+    a: "Nên. Các khoản phát sinh như phụ phí trễ giờ hay đền mũ thường là số lẻ, nên có sẵn tiền lẻ giúp trả gọn trong một lần và lấy biên nhận ngay."
 ---
 Cả tiền mặt và chuyển khoản đều phổ biến khi thuê xe máy, và mỗi cách có cái giá riêng về bằng chứng. Bài này giúp bạn chọn cách thanh toán và lưu bằng chứng để đối chiếu khi trả xe.
 
@@ -34,6 +45,8 @@ Khách nước ngoài nên hỏi trước về thanh toán quốc tế: nhiều 
 Một điều nữa nên chuẩn bị là tiền lẻ khi trả xe: phí phát sinh như phạt giờ trễ hay đền mũ thường là số lẻ, và cầm sẵn tiền lẻ giúp bạn trả gọn trong một lần. Với cọc nhận lại bằng tiền mặt, đếm tiền trước khi rời cửa hàng, vì sau khi đã đi, mọi khoản thiếu đều khó truy lại. Ghi lại ngày giờ trả xe kèm người nhận, và bạn đã có đủ bằng chứng cho mọi tình huống.
 
 Với hình thức thanh toán, cũng nên hỏi trước về việc đặt cọc qua chuyển khoản: một số nơi cho cọc online nhưng hoàn cọc lại bằng tiền mặt, hoặc ngược lại, nên biết trước để chuẩn bị tài khoản nhận tiền. Nếu bạn thuê hộ người khác thanh toán, ghi rõ tên người chuyển vào nội dung lệnh chuyển kèm, để nơi thuê đối chiếu không nhầm giữa các hợp đồng thuê cùng ngày.
+
+Trước khi chuyển tiền, hãy đối chiếu số tiền được báo với mức niêm yết trên [trang bảng giá Motoopen]({{ '/banggia.html' | relative_url }}) để tách rõ khoản nào là tiền thuê, khoản nào là cọc hay phụ phí.
 
 ## Kết luận
 

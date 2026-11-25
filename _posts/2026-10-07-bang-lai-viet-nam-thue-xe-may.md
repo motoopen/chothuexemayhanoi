@@ -8,6 +8,20 @@ matrix_id: 227
 primary_keyword: "bằng lái việt nam thuê xe máy"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: thu-tuc-hop-dong
+quick_answer: "Xe máy từ 50cc trở lên cần bằng lái đúng hạng với dung tích, với dòng phổ thông như Wave hay Vision thường là bằng A1. Chưa có bằng phù hợp thì nên chọn xe 50cc hoặc xe điện, và hỏi cửa hàng chiếc xe định thuê thuộc nhóm nào trước khi đặt."
+qa:
+  - q: "Có bằng A1 thì có đủ để thuê xe số Wave hoặc xe ga Vision không?"
+    a: "Thông thường là đủ, vì đây là các dòng xe phổ thông. Với xe tay côn hoặc xe dung tích lớn hơn, hãy hỏi cửa hàng chiếc xe thuộc nhóm nào và nên kiểm tra quy định hiện hành về phân hạng bằng lái."
+  - q: "Có được mượn bằng lái của người khác để đứng tên thuê xe không?"
+    a: "Không nên. Hợp đồng ghi đúng người thuê, và khi có sự cố, trách nhiệm quy về người đã ký; lái xe bằng bằng của người khác hoặc bằng chưa đúng hạng vừa có thể bị xử phạt, vừa dễ mất quyền lợi bảo hiểm."
+  - q: "Khi nhận xe có cần mang bằng lái bản gốc không?"
+    a: "Có. Nên mang bằng lái gốc cùng CCCD hoặc hộ chiếu, vì bên cho thuê ghi số bằng vào hợp đồng để xác minh. Nếu người thân cũng sẽ lái, hãy ghi tên người đó vào hợp đồng ngay từ đầu."
+  - q: "Bằng lái đang chờ đổi hoặc làm lại thì nên thuê xe gì?"
+    a: "Nên chọn dòng xe không yêu cầu bằng lái cho đến khi có bằng mới, như xe 50cc hoặc xe điện theo tư vấn của cửa hàng. Điều kiện cụ thể với từng loại xe nên kiểm tra quy định hiện hành."
+  - q: "Người mới có bằng nên làm gì trong những ngày đầu chạy xe thuê ở Hà Nội?"
+    a: "Nên chạy thử quanh khu ít xe, chọn giờ vắng cho những chuyến đầu và hỏi nơi thuê về các đoạn đường một chiều quanh chỗ ở. Sau vài chuyến ngắn đã quen xe và quen đường, hãy tăng dần phạm vi đi xa."
+blog_notice: "<strong>Cập nhật pháp lý:</strong> Theo Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (hiệu lực từ 01/01/2025), giấy phép lái xe hạng A1 cấp mới dùng cho xe mô tô hai bánh đến 125 cm³ (hoặc động cơ điện đến 11 kW); xe trên 125 cm³ cần hạng A. Bằng A1 cấp trước 01/01/2025 vẫn được điều khiển xe từ 50 cm³ đến dưới 175 cm³. Một số nội dung có thể được soạn theo quy định cũ, vì vậy hãy kiểm tra quy định hiện hành và hạng bằng của bạn trước khi thuê."
 ---
 Người có giấy phép lái Việt Nam cũng cần kiểm tra hạng bằng trước khi thuê xe máy, vì nhóm xe từ 50cc trở lên yêu cầu hạng phù hợp theo dung tích. Bài này giúp bạn khớp hạng bằng với loại xe định thuê.
 
@@ -35,6 +49,8 @@ Khi đến nhận xe, mang theo bằng lái gốc cùng giấy tờ tùy thân: 
 Với người mới có bằng và chưa quen đường Hà Nội, nên thêm bước chạy thử quanh khu ít xe trước khi lăn ra đường lớn, và chọn giờ vắng để những chuyến đầu. Hỏi nơi thuê về bản đồ tuyến quen hoặc các đoạn một chiều quanh khu bạn ở, vì phạt rẽ sai đường một chiều là lỗi phổ biến nhất với người mới. Qua vài chuyến ngắn, bạn quen dòng xe và đường, rồi mới tăng dần phạm vi đi xa trong kỳ thuê.
 
 Nếu bạn định thuê dài ngày, hỏi trước cả chính sách đổi xe giữa kỳ để nếu chiếc ban đầu không hợp, bạn đổi được mẫu khác mà không phải hủy hợp đồng.
+
+Danh sách giấy tờ cần mang khi nhận xe, gồm CCCD hoặc hộ chiếu và bằng lái phù hợp, được tóm tắt trên trang [hướng dẫn thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}) để bạn rà lại trước khi đến cửa hàng.
 
 ## Kết luận
 

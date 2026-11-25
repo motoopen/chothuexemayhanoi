@@ -8,6 +8,17 @@ matrix_id: 32
 primary_keyword: "thuê xe máy hà nội 4 giờ"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+seo_hub: gia-coc
+quick_answer: "Trước khi thuê 4 giờ, hãy phác số chặng và thời gian ở mỗi điểm, cộng dư nếu đi giờ cao điểm, rồi so với ngưỡng nửa ngày hoặc trọn ngày. Nếu chỉ dùng khoảng hai tiếng rưỡi thì so với giá hai giờ, nếu sát khung thì cân nhắc nửa ngày."
+qa:
+  - q: "Bốn giờ vào giờ cao điểm có đủ cho nhiều việc không?"
+    a: "Thường không bằng bốn giờ giữa trưa, vì mỗi chặng mất thêm thời gian chờ đèn và dòng xe. Nếu khung rơi vào sáng sớm hoặc cuối chiều, hãy tính dư thời gian di chuyển hoặc chọn nửa ngày."
+  - q: "Nên nhận xe lúc mấy giờ để khung bốn giờ hiệu quả nhất?"
+    a: "Theo gợi ý của bài, nhận khoảng chín giờ rưỡi sáng, sau giờ cao điểm, thì hạn trả rơi vào đầu giờ chiều, tránh được cả trưa nắng và chiều đông. Gom các việc cùng khu vực vào một khung để đỡ chạy tản mạn."
+  - q: "Cần chuẩn bị gì để không mất thời gian lúc nhận xe?"
+    a: "Mang sẵn giấy tờ tùy thân và giấy phép lái phù hợp để ký nhanh; tại Motoopen là CCCD hoặc hộ chiếu cùng bằng lái phù hợp loại xe. Kiểm tra nhanh ga, phanh, đèn còi và chụp hiện trạng trước khi đi."
+  - q: "Tuần nào cũng cần xe vài giờ thì có gói nào hợp hơn không?"
+    a: "Nên hỏi gói linh hoạt hoặc ưu đãi khách quen thay vì cộng dồn phí giờ từng lần. Nếu gần như ngày nào cũng cần xe để đi làm hay đi học, hãy so thêm với giá tháng tham khảo khoảng 1–2 triệu tùy dòng xe."
 ---
 Bốn giờ là khung mờ nhất trong các gói thuê: đủ dài cho nhiều việc, đủ ngắn để dễ tính hớ nếu nhu cầu thực không khớp. Bài này giúp bạn tính nhu cầu thật trước khi chốt gói bốn giờ ở Hà Nội.
 
@@ -34,6 +45,8 @@ Tình huống một: bạn cần đi chợ, ghé hai cửa hàng rồi về tron
 ## Kỹ thuật chốt khung bốn giờ tiết kiệm nhất
 
 Khung bốn giờ mở ra nhiều nhất khi bạn dịch mốc nhận vào lúc đường thoáng. Ví dụ nhận lúc chín giờ rưỡi sáng, sau giờ cao điểm, hạn trả là giờ rưỡi chiều, tránh được cả khung trưa nắng và chiều đông. Nếu các điểm cần đi mở cửa muộn, nhận lúc mười giờ và trả lúc hai giờ chiều vẫn kịp vòng phố mà giá một khung không đổi. Một mẹo nữa là gom các việc cùng khu vực về một khung, chừa khung thuê sau cho khu vực khác nếu cần thuê tiếp, thay vì để khung bốn giờ tản mạn nửa thành phố. Trước khi ký, hỏi mốc tính giờ lấy từ lúc ký hay lúc rời điểm, vì hai mốc này cách nhau mười lăm phút đủ để lịch sát khung bị trễ.
+
+Khi các khung ngắn lặp lại gần như mỗi ngày, hãy cộng tổng cả tháng rồi so với [thuê xe máy theo tháng ở Hà Nội]({{ '/' | relative_url }}) trước khi quyết định.
 
 ## Kết luận
 

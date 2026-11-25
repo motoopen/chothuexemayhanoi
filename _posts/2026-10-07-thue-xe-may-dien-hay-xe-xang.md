@@ -8,6 +8,7 @@ matrix_id: 295
 primary_keyword: "thuê xe máy điện hay xe xăng"
 hub_parent: kinh-nghiem
 hub_category: so-sanh-lua-chon
+seo_hub: xe-dien
 ---
 Giữa xe máy điện và xe xăng, câu hỏi không phải là loại nào tốt hơn, mà là loại nào khớp với hành trình của bạn. Một chiếc xe điện êm, rẻ tiền chạy mỗi ki lô mét, nhưng phụ thuộc trạm sạc. Một chiếc xe xăng chạy được cả trăm cây số liên tục, nhưng ồn hơn và tốn xăng hơn. Bài này so sánh hai lựa chọn theo đúng cách bạn sẽ dùng xe khi thuê ở Hà Nội.
 

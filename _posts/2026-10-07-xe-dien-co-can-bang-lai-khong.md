@@ -8,6 +8,7 @@ matrix_id: 110
 primary_keyword: "xe điện có cần bằng lái không"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Câu hỏi xe điện có cần bằng lái không không có một đáp án cho mọi chiếc, vì các loại xe điện được xếp khác nhau: xe đạp điện, xe máy điện và ô tô điện thuộc nhóm khác nhau về giấy tờ người lái. Bài này giúp bạn phân biệt và tra đúng trường hợp của mình.
 

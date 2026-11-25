@@ -8,6 +8,19 @@ matrix_id: 84
 primary_keyword: "thuê xe 50cc ban đêm"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
+quick_answer: "Trước khi đi xe 50cc ban đêm, bật thử đèn pha cả chế độ gần xa, đèn hậu, đèn báo và còi ngay tại điểm nhận, kiểm tra phản quang trên xe và chuẩn bị áo phản quang. Trên đường, dùng đèn gần trong phố, đi chậm hơn ban ngày và tránh trục lớn sau chín giờ tối."
+qa:
+  - q: "Đèn hậu xe 50cc bị cháy thì có nên đi đêm không?"
+    a: "Không nên. Đèn hậu giúp xe phía sau thấy bạn; cháy đèn hậu thì xe sau phản ứng chậm và một lần phanh gấp có thể thành sự cố. Hãy xin xử lý hoặc đổi xe trước khi đi, việc bật thử chỉ mất khoảng hai phút."
+  - q: "Đi xe máy ban đêm có nên dùng kính mũ màu khói không?"
+    a: "Không nên. Kính mũ màu khói làm giảm thị lực rõ vào ban đêm, nên thay kính trong hoặc nhấc kính lên. Đồng thời tránh nhìn thẳng vào đèn pha xe đối diện, hãy nhìn lệch về mép đường bên phải."
+  - q: "Khung giờ nào đi xe 50cc ban đêm rủi ro nhất?"
+    a: "Theo bài viết, rủi ro nhất là sau chín giờ tối trên các trục lớn, khi xe chạy nhanh và nhiều xe container. Nếu lịch cho phép, hãy chọn tuyến phố nhỏ có đèn, đông người và tốc độ chậm thay vì trục nhanh vắng."
+  - q: "Mới thuê xe mà phải đi đêm ngay thì nên làm gì?"
+    a: "Chọn tuyến quen mà bạn đã đi ban ngày nhiều lần, biết trước chỗ ổ gà và đoạn thiếu đèn. Chạy chậm hơn ban ngày một chút, thấy mệt hoặc mắt mờ thì dừng nghỉ năm phút, vì buồn ngủ khi lái là rủi ro lớn nhất trên đường đêm."
+  - q: "Cửa hàng Motoopen mở đến mấy giờ để nhận hoặc trả xe buổi tối?"
+    a: "Cửa hàng Motoopen ở 114 Nguyễn Văn Cừ, Long Biên mở cửa 09:00–21:00 hằng ngày. Nếu cần nhận, trả ngoài khung này hoặc muốn giao xe buổi tối, nên hỏi rõ khi đặt qua số 0857 255 868."
 ---
 Đi xe ban đêm khác đi ban ngày ở một điểm: xe khác thấy bạn nhờ đèn, bạn thấy đường nhờ đèn. Với dòng 50cc nhẹ, việc được thấy sớm lại càng quan trọng. Bài này chỉ cách kiểm tra đèn và phản quang trước khi lên đường đêm.
 
@@ -34,6 +47,8 @@ Tình huống một: khách kiểm tra đèn đủ, mang áo phản quang, đi t
 ## Chuyến đêm đầu tiên nên đi đoạn quen
 
 Nếu bạn mới thuê xe và phải đi đêm ngay, chọn tuyến quen thuộc cho chuyến đầu: đoạn đường bạn từng đi ban ngày nhiều lần, biết trước chỗ ổ gà và chỗ đèn hụt. Trên tuyến quen, não giải phóng phần quan sát đường và để lại nhiều hơn cho việc quan sát xe khác, điều quan trọng nhất lúc đêm. Chạy chậm hơn tốc ban ngày cùng chặng một chút, và nếu thấy mệt hoặc mắt kèm nhèm, dừng nghỉ năm phút, buồn ngủ khi lái là rủi ro lớn hơn mọi chuyện khác trên đường đêm. Chuyến đêm đầu êm là chuyến đêm đầu đi đúng cách.
+
+Nếu lịch của bạn có nhiều chuyến đêm, có thể xem trước [các dòng xe cho thuê]({{ '/loaixe.html' | relative_url }}) rồi nhờ nơi thuê chọn chiếc có đèn pha sáng tốt ngay từ lúc đặt.
 
 ## Kết luận
 

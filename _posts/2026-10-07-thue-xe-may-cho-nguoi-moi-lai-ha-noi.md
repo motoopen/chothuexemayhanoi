@@ -8,6 +8,19 @@ matrix_id: 159
 primary_keyword: "thuê xe máy cho người mới lái hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-tay-ga
+quick_answer: "Người mới lái nên thuê xe ga nhỏ hoặc xe điện mini vì dễ điều khiển, yên thấp và nhẹ; nếu chưa có bằng, nhóm 50cc gọn nhất về giấy tờ. Tránh côn tay và dòng ga lớn, làm quen ở giờ vắng trước khi vào phố đông và kiểm xe theo danh sách trước khi nhận."
+qa:
+  - q: "Chưa từng lái xe máy có nên thuê xe đi ngay ở Hà Nội không?"
+    a: "Không nên lao ra đường đông ngay. Nếu hoàn toàn chưa nắm tay lái, nên học vài giờ với người quen trước khi thuê, sau đó tập ở khu vắng như ven hồ Tây hoặc khu đô thị mới đến khi quen ga, phanh và dừng chống chân."
+  - q: "Người mới chưa có bằng A1 có thuê được xe ở Motoopen không?"
+    a: "Có, Motoopen tư vấn xe 50cc hoặc xe điện cho khách chưa có A1, kèm CCCD hoặc hộ chiếu. Xe trên 50 phân khối như Vision, Air Blade cần bằng A1; nên kiểm tra quy định hiện hành về bằng lái trước khi tự lái."
+  - q: "Người mới có nên thuê xe số Wave không?"
+    a: "Chỉ nên nếu bạn từng đi xe số. Wave và Sirius nhẹ, nhưng thao tác số thêm một việc phải lo khi còn chưa quen ga và phanh; người hoàn toàn mới thường làm quen với xe ga tự động dễ hơn."
+  - q: "Người mới lái nên đọc kỹ phần nào trong hợp đồng thuê xe?"
+    a: "Phần trách nhiệm hư hỏng và mức khấu trừ khi trầy xước, vì người mới dễ quệt nhẹ khi len kẹt xe. Hỏi rõ trước khi ký và chụp thân xe lúc nhận để làm bằng chứng."
+  - q: "Lỗi nào trên xe thuê người mới không nên nhận dù được hứa sửa?"
+    a: "Đề máy yếu, ga giật và phanh ăn lệch. Đây là ba lỗi ảnh hưởng trực tiếp đến an toàn, nên xin đổi xe khác ngay tại quầy thay vì nhận về chờ sửa."
 ---
 Người mới lái cần chiếc xe tha thứ, không cần chiếc xe mạnh. Bài này chỉ nhóm xe hợp người mới nhất và cách làm quen an toàn buổi đầu tiên ở Hà Nội.
 
@@ -18,6 +31,8 @@ Ba tiêu chí đứng đầu: dễ điều khiển, yên thấp và nhẹ. Xe ga
 ## Nhóm xe gợi ý cụ thể
 
 Vision và Lead dễ lái và cốp rộng, so hai dòng trong bài thuê Vision hay Lead. Wave và Sirius là xe số nhẹ, chỉ hợp nếu bạn từng đi số, xem [thuê Wave hay Sirius]({{ '/blog/xe-wave-va-sirius-khi-thue/' | relative_url }}). Nhóm 50cc không cần bằng lái là lựa chọn gọn nhất về giấy tờ cho người mới, quy định trong bài xe 50cc có cần bằng lái không. Nếu hoàn toàn chưa từng nắm tay lái, cân học vài giờ với người quen trên xe của họ trước khi thuê.
+
+Để biết dòng nào yên thấp và nhẹ trước khi đến cửa hàng, bạn có thể xem [danh sách loại xe cho thuê]({{ '/loaixe.html' | relative_url }}) và hỏi tư vấn theo kinh nghiệm lái của mình.
 
 ## Làm quen buổi đầu an toàn
 

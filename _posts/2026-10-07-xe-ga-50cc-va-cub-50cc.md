@@ -8,6 +8,19 @@ matrix_id: 78
 primary_keyword: "xe ga 50cc và cub 50cc"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
+quick_answer: "Chọn xe ga 50cc nếu bạn mới lái, cần hộc đựng đồ và lịch có nhiều lần dừng giữa phố; chọn Cub 50cc nếu bạn đã quen xe số, ít đồ và thích dòng bền kiểu cổ. Nếu tuyến có nhiều dốc dài hoặc chở thêm người, nên chạy thử cả hai trước khi chốt."
+qa:
+  - q: "Lên dốc dài thì Cub 50cc hay xe ga 50cc giữ đà tốt hơn?"
+    a: "Cub thường giữ đà tốt hơn một chút nhờ có số, còn xe ga phải đè ga cao nên máy dễ nóng. Với tuyến nhiều dốc, nên chạy thử cả hai dòng trước khi chốt, hoặc cân nhắc dòng lớn hơn nếu chở thêm người."
+  - q: "Chở thêm một người thì xe ga hay Cub ngồi thoải mái hơn?"
+    a: "Xe ga 50cc thường có yên dài và rộng chỗ ngồi hơn, nên người ngồi sau đỡ chật. Tuy vậy, dòng 50cc nào cũng yếu đi khi chở hai người, nên chỉ phù hợp chặng ngắn và đường phẳng."
+  - q: "Vì sao nên ghi biển số xe vào hợp đồng thuê?"
+    a: "Ghi rõ dòng xe và biển số hoặc mã chiếc trong hợp đồng giúp bạn không phải nhận dòng khác giữa kỳ. Motoopen có hợp đồng thuê rõ ràng, nên khi đặt có thể đề nghị ghi cụ thể chiếc xe đã chọn."
+  - q: "Thuê xe ga hoặc Cub theo tháng để đi làm thì nên chọn chiếc thế nào?"
+    a: "Với lịch đi làm hằng ngày, nên hỏi giá gói tháng trước khi tính lẻ. Nếu chọn Cub, ưu tiên chiếc vừa bảo dưỡng gần nhất; Motoopen có thuê theo tháng với giá tham khảo khoảng 1–2 triệu tùy dòng, giá dòng 50cc nên hỏi khi đặt."
+  - q: "Khi nhận xe ga và Cub cần kiểm tra điểm nào khác nhau?"
+    a: "Xe ga cần thử ga đều, hai phanh và khóa hộc yên; Cub cần thử đủ các số, nghe tiếng côn và kiểm tra chân chống. Với cả hai, chụp hiện trạng kể cả vết xước sẵn có và chụp đồng hồ xăng."
 ---
 Xe ga 50cc và Cub 50cc đều nhỏ nhẹ đi phố tốt, nhưng chọn sai dòng khiến cả kỳ thuê thiếu thoải mái ở đúng chỗ mình cần. Bài này gom ba tiêu chí quyết định, thao tác, cốp xe và hành trình, để bạn chốt trong vài phút.
 
@@ -34,6 +47,8 @@ Xe ga kiểm tra ga đều, phanh hai bánh và khóa hộc. Cub kiểm tra đ�
 ## Gói thuê nên lấy cho từng dòng
 
 Với xe ga 50cc, gói hợp lý thường là theo ngày hoặc tuần cho lịch trong phố, vì dòng này ít hỏng vặt và chi phí bảo trì thấp. Với Cub, nếu nơi thuê cho chọn chiếc cụ thể, nên chọn chiếc mới bảo dưỡng gần nhất rồi lấy gói dài, dòng số nhỏ bền chạy cả tháng ít gián đoạn. Với cả hai dòng, hỏi mức gói tháng trước khi tính lẻ, vì lịch đi hằng ngày là dạng được giá nhất của gói dài. Ghi rõ dòng xe cụ thể trong hợp đồng, kể cả biển số hoặc mã chiếc, để giữa kỳ không phải nhận dòng khác không như đã chốt.
+
+Sau khi trả lời ba câu tự vấn, bạn có thể xem [các dòng xe Motoopen đang cho thuê]({{ '/loaixe.html' | relative_url }}) để biết các lựa chọn xe ga, xe số và 50cc trước khi hỏi đặt.
 
 ## Kết luận
 

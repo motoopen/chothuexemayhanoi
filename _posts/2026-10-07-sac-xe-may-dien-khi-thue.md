@@ -8,6 +8,19 @@ matrix_id: 121
 primary_keyword: "sạc xe máy điện khi thuê"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
+quick_answer: "Trước khi nhận xe máy điện, hãy hỏi bốn điều: xe có kèm bộ sạc đúng model không, chỗ ở có ổ cắm an toàn để sạc qua đêm không, sạc đầy mất bao lâu, và mức pin khi giao cùng mức tối thiểu khi trả. Lúc nhận xe, cắm thử bộ sạc ngay tại điểm bàn giao."
+qa:
+  - q: "Có thể dùng bộ sạc của xe điện khác cho chiếc xe đang thuê không?"
+    a: "Không nên. Mỗi dòng xe điện dùng bộ sạc khác nhau, sạc không đúng loại vừa chậm vừa hại pin. Hãy hỏi xe giao có kèm bộ sạc đúng model, loại chính hãng hoặc tương đương hay không."
+  - q: "Trước khi nhận xe, nên hỏi gì về ổ cắm ở chỗ lưu trú?"
+    a: "Hỏi ba điều: chỗ ở có ổ cắm an toàn để sạc qua đêm không, ổ nằm ở đâu trong khuôn viên, và cắm lâu vài tiếng có ảnh hưởng gì với chủ nhà không. Trả lời được câu này là xong nửa kế hoạch sạc."
+  - q: "Cần biết những con số nào về sạc trước khi nhận xe điện?"
+    a: "Ba con số: một lần sạc đầy mất bao lâu, xe giao với bao nhiêu phần trăm pin, và khi trả cần mức tối thiểu nào. Biết trước giúp bạn chọn giờ cắm và khỏi đứng chờ sạc phút chót trước giờ trả."
+  - q: "Nên chụp những gì lúc nhận xe máy điện để làm bằng chứng?"
+    a: "Chụp hiện trạng xe kể cả vết xước sẵn có, màn hình pin đúng mức đã chốt và bộ sạc được giao. Nếu điểm nào không đạt, xử lý ngay tại bàn giao thay vì hẹn giải quyết sau."
+  - q: "Ở Hà Nội lâu ngày và đã có chỗ sạc ổn định thì nên thuê theo ngày hay theo tháng?"
+    a: "Nếu ở lâu và đi lại đều đặn, thuê theo tháng thường gọn hơn gia hạn lẻ từng ngày. Motoopen nhận thuê theo ngày, tuần và tháng; giá tham khảo từng dòng xe có trên trang Bảng giá và được chốt khi liên hệ."
 ---
 Kế hoạch sạc là phần quyết định trải nghiệm của kỳ thuê xe máy điện, và cả kế hoạch bắt đầu từ vài câu hỏi trước khi nhận xe. Bài này liệt kê trọn các câu nên hỏi về sạc, bộ sạc và nơi sạc.
 
@@ -30,6 +43,8 @@ Lúc nhận xe, cắm thử bộ sạc vào xe và ổ tại điểm, đèn báo
 ## Ví dụ hai kỳ thuê khác một câu hỏi
 
 Tình huống một: khách hỏi trước bộ sạc và chỗ cắm, nhận xe cắm thử đạt, cả tuần cắm đêm ở khách sạn, không một lần nghĩ tới pin. Tình huống hai: khách không hỏi, nhận xe không kèm sạc, tối về mới phát hiện, phải gọi xin sạc thêm giữa tuần và chờ ai đó ghé qua, mất một buổi. Cùng loại xe, khác nhau ở một câu hỏi lúc đặt. Kinh nghiệm cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
+
+Nếu ở Hà Nội nhiều tuần và đã có chỗ cắm sạc ổn định, có thể cân nhắc [thuê xe máy theo tháng]({{ '/' | relative_url }}) thay vì gia hạn từng ngày.
 
 ## Kết luận
 

@@ -8,6 +8,19 @@ matrix_id: 56
 primary_keyword: "thuê xe cub 50cc"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
+quick_answer: "Xe Cub 50cc đi trong thành phố có ưu điểm nhẹ, len lỏi tốt, tiết kiệm xăng và kết cấu cơ khí đơn giản; nhược điểm là tốc độ thấp, phanh và giảm xóc kiểu cũ, phải sang số bằng chân và khó chở hai người. Cub hợp nhất với người đi một mình, quãng ngắn, đường phẳng."
+qa:
+  - q: "Vì sao nhiều khách nước ngoài thích thuê xe Cub ở Hà Nội?"
+    a: "Vì kiểu dáng cổ điển của Cub gắn với hình ảnh phố phường Hà Nội, nhiều khách tìm đúng dòng này để có trải nghiệm riêng. Người nước ngoài thuê xe cần hộ chiếu và bằng lái quốc tế hợp lệ, và nên kiểm tra quy định hiện hành về loại bằng phù hợp."
+  - q: "Phanh xe Cub có kém hơn phanh xe ga hiện đại không?"
+    a: "Có, phanh và giảm xóc kiểu cũ của Cub không nhạy bằng xe hiện đại nên quãng phanh dài hơn. Khi đi Cub, hãy giữ khoảng cách lớn hơn với xe phía trước và phanh sớm hơn thường lệ."
+  - q: "Có nên chạy thử Cub trước khi ký hợp đồng thuê?"
+    a: "Nên. Vài phút chạy thử tại cửa hàng cho bạn biết mình có quen cần số, giò lái kiểu cũ và tư thế ngồi hay không. Nếu thấy không hợp, chọn xe ga hoặc xe số phổ thông ngay từ đầu sẽ đỡ mất thời gian."
+  - q: "Xe Cub được giữ đẹp thì tiền cọc có cao hơn không?"
+    a: "Có thể. Một số chiếc Cub được bảo quản kỹ có giá trị cao hơn mặt bằng dòng nhỏ nên cọc có thể nhỉnh hơn. Tại Motoopen, mức cọc tùy dòng xe, nên xem bảng giá hoặc hỏi khi đặt."
+  - q: "Xe Cub đời cũ hay hao mòn ở bộ phận nào?"
+    a: "Những chỗ hao mòn thường gặp là cần số, dây ga, phanh cơ và hệ thống điện nhỏ, kèm lốp mòn ở xe đời cũ. Khi nhận, hãy thử chuyển số, bóp hai phanh, thử đèn còi và chụp lại các vết trầy trên chi tiết trang trí."
 ---
 Xe Cub 50cc là dòng xe số cổ điển có kiểu dáng đặc trưng không lẫn vào đâu được, và với nhiều khách du lịch, hình ảnh chiếc Cub rẽ qua phố cổ Hà Nội chính là trải nghiệm họ tìm kiếm. Nhưng trải nghiệm ấy đi kèm những đánh đổi thực tế mà không phải ai cũng hình dung trước khi đặt xe. Bài viết này phân tích ưu và nhược điểm của xe Cub khi đi trong thành phố, giúp bạn quyết định sáng suốt hơn.
 
@@ -30,6 +43,8 @@ Với xe Cub, bốn điểm hao mòn nhất là cần số, dây ga, phanh cơ c
 ## Giá, giấy tờ và điều kiện thuê
 
 Giá thuê Cub thường ở phân khúc dễ chịu, so sánh trực tiếp trên [bảng giá]({{ '/banggia.html' | relative_url }}). Chú ý mức cọc: một số chiếc Cub được bảo quản kỹ có giá trị cao hơn mặt bằng dòng nhỏ, cọc có thể nhỉnh hơn xe ga cùng phân khúc, nên hỏi trước. Thủ tục giấy tờ theo quy định chung, tóm tắt tại trang thủ tục thuê xe. Hỏi thêm về phạm vi di chuyển cho phép và quy trình hỗ trợ khi hỏng giữa đường, thông tin liên hệ nằm ở trang liên hệ.
+
+Giấy tờ cần mang khi đến nhận Cub, như CCCD hoặc hộ chiếu và bằng lái phù hợp, được tóm tắt tại trang [hướng dẫn thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}).
 
 ## Kết luận
 

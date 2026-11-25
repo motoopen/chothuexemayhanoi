@@ -8,6 +8,19 @@ matrix_id: 122
 primary_keyword: "thời gian sạc xe máy điện thuê"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
+quick_answer: "Không có một thời gian sạc chung cho mọi xe máy điện thuê: con số phụ thuộc dung tích pin, công suất bộ sạc và tình trạng pin của chính chiếc xe. Vì vậy hãy hỏi theo đúng model được giao, kiểm tra bộ sạc khớp với xe và cắm thử ngay khi nhận."
+qa:
+  - q: "Vì sao hai xe điện trông giống nhau lại có thời gian sạc chênh nhau?"
+    a: "Do ba yếu tố: pin lớn sạc lâu hơn pin nhỏ, bộ sạc nhanh nạp nhanh hơn sạc thường, và pin đã qua nhiều chu kỳ có thể đầy chậm hơn pin mới. Vì thế con số quảng cáo trung bình không áp dụng cho chiếc cụ thể bạn thuê."
+  - q: "Nên hỏi nơi thuê những gì để biết thời gian sạc thật của xe?"
+    a: "Hỏi bộ bốn: model xe định giao, loại và dung tích pin, bộ sạc đi kèm sạc đầy mất bao lâu, và pin đã dùng được bao lâu. Khi nhận xe, hỏi thêm sạc từ mức hiện tại lên đầy mất bao lâu theo kinh nghiệm với chính chiếc đó."
+  - q: "Cắm sạc qua đêm có chắc sáng hôm sau đầy pin không?"
+    a: "Không phải xe nào cũng vậy. Xe sạc đầy khoảng bốn tiếng thì cắm lúc về chiều là sáng mai đầy; xe sạc lâu hơn hoặc giao bộ sạc chậm thì nên cắm sớm hơn, hoặc cắm khi còn khoảng nửa pin thay vì đợi cạn."
+  - q: "Thuê xe điện trên một tuần có nên ghi thời gian sạc vào hợp đồng?"
+    a: "Nên. Xin nơi thuê ghi thời gian sạc tham khảo của chính chiếc xe vào hợp đồng để có căn cứ nếu bộ sạc giao không đúng loại. Cuối kỳ, nếu pin cận ngưỡng, cắm trước giờ trả vài tiếng để khỏi phí và khỏi chờ."
+  - q: "Bộ sạc được giao không khớp với model xe thì làm gì?"
+    a: "Xin đổi ngay tại chỗ. Kiểm tra tem và đầu cắm có khớp model xe, cắm thử xem đèn báo có lên, rồi chụp màn hình pin và bộ sạc làm bằng chứng trước khi rời điểm nhận."
 ---
 Thời gian sạc của xe máy điện không có con số chung cho mọi xe: nó phụ thuộc model xe, loại pin và bộ sạc đi kèm. Vì vậy khi thuê, phải hỏi theo đúng chiếc xe được giao. Bài này giải thích vì sao và cách hỏi.
 
@@ -30,6 +43,8 @@ Có con số thời gian đầy thật, kế hoạch sạc dựng dễ: nếu s�
 ## Ví dụ hai chiếc xe khác thời gian sạc
 
 Tình huống một: khách thuê chiếc pin nhỏ, sạc đầy khoảng ba tiếng, mỗi tối cắm sau khi về là sáng đầy, suốt tuần không chuyện gì. Tình huống hai: khách thuê chiếc pin lớn hơn nhưng không hỏi thời gian, tưởng sạc qua đêm là đủ như mọi xe, trong khi chiếc này cần lâu hơn và chiếc lại giao sạc loại chậm, hai hôm liền sáng ra pin chưa đầy, lịch bị co. Cùng là xe điện, khác nhau ở một câu hỏi. So gói các dòng ở trang [bảng giá]({{ '/banggia.html' | relative_url }}), và điều khoản ở trang thủ tục thuê xe.
+
+Với kỳ thuê dài, nên đọc trước [các bước thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}) để chuẩn bị giấy tờ trước khi ký hợp đồng.
 
 ## Kết luận
 

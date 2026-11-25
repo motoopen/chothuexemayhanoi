@@ -8,6 +8,19 @@ matrix_id: 165
 primary_keyword: "cub và wave khi thuê"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-so
+quick_answer: "Đi phố ngắn thì cả Cub và Wave đều gọn; chọn Cub nếu muốn phong cách cổ điển để dạo phố, chụp ảnh, chọn Wave nếu muốn giá rẻ, phụ tùng dễ tìm và ít lo hỏng vặt. Cub hiếm hơn nên cần đặt trước, còn Wave gần như lúc nào cũng có."
+qa:
+  - q: "Cub hay Wave chở hai người đi phố thoải mái hơn?"
+    a: "Wave nhỉnh hơn một chút nhờ yên đầm và khung chắc khi chở hai người. Cub lại có chắn chân che bớt bụi mưa và chỗ để túi phía sau, hợp khi đi một mình với ít đồ."
+  - q: "Thuê Cub có đắt hơn thuê Wave không?"
+    a: "Thường có. Cub giá nhỉnh hơn vì ít xe và mang tính phong cách, phụ tùng phải đúng loại nên thợ ít quen hơn; Wave rẻ, phụ tùng có khắp nơi nên hỏng vặt giữa kỳ sửa nhanh."
+  - q: "Cub 50cc và Wave 110 cần bằng lái gì?"
+    a: "Cub 50cc thuộc nhóm không cần bằng lái, còn Cub bản phổ thông và Wave 110 cần bằng A1. Quy định phân hạng có thể thay đổi, nên kiểm tra quy định hiện hành và hỏi cửa hàng nếu chưa chắc."
+  - q: "Nhận Cub đời cũ cần kiểm tra thêm gì so với Wave?"
+    a: "Ngoài ga số, phanh và lốp như mọi xe số, hãy lắc thử tay lái xem khung còn chắc không, vì Cub cho thuê thường đã qua nhiều đời chủ. Khi đặt, hỏi luôn đời xe và tình trạng để tránh nhận chiếc ít được chăm sóc."
+  - q: "Thuê dài ngày thì nên chọn Cub hay Wave?"
+    a: "Nên nghiêng về Wave. Với kỳ dài, giá thuê thấp hơn và khả năng sửa vặt dễ của Wave cộng lại đáng cân, còn Cub hợp kỳ ngắn mang tính trải nghiệm. Tại Motoopen, thuê tháng Wave tham khảo khoảng 1.200k, giá chốt khi liên hệ."
 ---
 Cub và Wave đều là xe số nhỏ bền, nhưng Cub mang phong cách cổ điển còn Wave là chọn phổ thông. Với lịch đi phố ngắn quanh Hà Nội, khác biệt nằm ở vài điểm rất cụ thể. Bài này so từng điểm.
 
@@ -30,6 +43,8 @@ Wave rẻ hơn, phụ tùng có khắp nơi, hỏng vặt giữa kỳ sửa nhan
 ## Giấy tờ và đặt trước
 
 Cub 50cc không cần bằng lái, bản phổ thông cần A1, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Wave bản 110 cần A1. Hợp đồng ghi giá, cọc, giờ trả, mức xăng. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài thuê xe 50cc cho người nước ngoài. Cub hiếm hơn hẳn nên gọi trước qua trang liên hệ đặt sớm, Wave thì gần như lúc nào cũng có.
+
+Nếu muốn xem trước các nhóm xe trước khi gọi đặt, trang [các dòng xe số và xe ga cho thuê]({{ '/loaixe.html' | relative_url }}) mô tả từng nhóm xe để bạn so nhanh.
 
 ## Kết luận
 

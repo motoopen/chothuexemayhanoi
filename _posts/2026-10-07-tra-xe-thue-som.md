@@ -8,6 +8,19 @@ matrix_id: 241
 primary_keyword: "trả xe thuê sớm"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: thu-tuc-hop-dong
+quick_answer: "Trước khi mang xe đến, hãy hỏi chính sách với những ngày chưa dùng và đọc lại hợp đồng, vì mỗi nơi hoàn tiền khác nhau. Nếu không được hoàn cả gói, đề nghị tính lại theo giá ngày thực dùng, rồi chụp tình trạng xe và nhận đủ biên nhận, cọc, giấy tờ."
+qa:
+  - q: "Trả xe sớm có được hoàn tiền những ngày chưa dùng không?"
+    a: "Tùy chính sách từng nơi: có nơi hoàn toàn bộ, có nơi giữ một phần hoặc không hoàn. Rất ít nơi ghi rõ điều này trong bảng giá, nên hãy gọi hỏi trước và đối chiếu điều khoản hợp đồng; với Motoopen, nên hỏi rõ khi đặt."
+  - q: "Thuê gói tuần mà chỉ dùng vài ngày thì nên thương lượng thế nào?"
+    a: "Đề nghị quy lại theo giá ngày thực dùng, phần chênh có thể giữ làm tín dụng lần sau hoặc trừ vào cọc. Khi tính lại theo giá ngày lẻ, hãy đối chiếu bảng giá công bố; ở Motoopen, giá ngày tham khảo từ 150k đến 200k tùy dòng xe."
+  - q: "Đã trả phí giao xe thì trả sớm có được hoàn phí giao không?"
+    a: "Nên hỏi trực tiếp, vì phí giao gắn với một chuyến giao cụ thể. Ở Motoopen, phí giao nội thành khoảng 20k–50k tùy quãng đường, nhận xe tại cửa hàng thì không mất phí giao; việc hoàn phí khi trả sớm nên hỏi rõ khi đặt."
+  - q: "Tiền cọc được hoàn khi nào sau khi trả xe sớm?"
+    a: "Tùy nơi; nhiều chỗ hoàn qua chuyển khoản trong một đến vài ngày. Hãy yêu cầu biên nhận ghi rõ ngày giờ trả, số tiền hoàn và phương thức hoàn, đồng thời giữ số tham chiếu giao dịch."
+  - q: "Có nên đòi lại bản photo giấy tờ khi kết thúc hợp đồng sớm?"
+    a: "Nên. Kiểm tra và nhận lại đủ giấy tờ đã giao lúc thuê; nếu nơi thuê giữ bản photo, có thể đề nghị trả lại hoặc hủy, vì giấy tờ tùy thân không nên để lại sau khi hợp đồng đã khép."
 ---
 Kế hoạch đổi bất ngờ và bạn muốn trả xe sớm hơn ngày đã thuê. Trả sớm làm đúng cách vẫn giúp bạn giữ lại phần tiền hợp lý và khép hồ sơ sạch, thay vì chấp nhận mất cả gói.
 
@@ -34,6 +47,8 @@ Yêu cầu biên nhận ghi rõ ngày giờ trả, số tiền hoàn cọc và p
 ## Nhận lại giấy tờ đã giao
 
 Kiểm tra lại bản photo căn cước hay giấy tờ khác đã giao lúc thuê, nhận đủ trước khi về. Nếu nơi thuê giữ lại bản photo, yêu cầu xé bỏ hoặc trả, vì giấy tờ tùy thân không nên để lại sau khi hợp đồng đã khép. Phân biệt rõ giấy tờ của bạn và giấy tờ của xe theo hướng dẫn trong bài [mất giấy tờ xe thuê]({{ '/blog/mat-giay-to-xe-thue/' | relative_url }}).
+
+Nếu lịch ở Hà Nội của bạn hay thay đổi, hãy hỏi kỹ điều khoản trả sớm trước khi chọn [gói thuê xe máy theo tháng]({{ '/' | relative_url }}), để biết phần ngày chưa dùng được xử lý ra sao.
 
 ## Kết luận
 

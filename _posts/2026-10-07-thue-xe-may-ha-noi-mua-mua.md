@@ -8,6 +8,19 @@ matrix_id: 11
 primary_keyword: "thuê xe máy hà nội mùa mưa"
 hub_parent: thue-xe
 hub_category: bat-dau-thue
+seo_hub: kinh-nghiem
+quick_answer: "Mùa mưa nên chọn xe nguyên bản, bánh bám đường tốt, chuẩn bị áo mưa bộ, bao tay và túi chống nước cho giấy tờ, điện thoại, theo dõi dự báo trước mỗi chặng, thử phanh kỹ hơn khi nhận, giữ xe nơi có mái che và lau sạch xe trước khi trả."
+qa:
+  - q: "Áo mưa bộ hay áo mưa cánh dơi tốt hơn khi đi xe thuê?"
+    a: "Áo mưa bộ dài thường tốt hơn áo cánh vì ít bị gió thổi tung và che chân tốt hơn. Kèm theo bao tay, túi chống nước cho điện thoại, giấy tờ và một khăn lau trong cốp. Áo mưa có kèm xe hay không nên hỏi rõ khi đặt."
+  - q: "Đang chạy gặp mưa to thì nên làm gì?"
+    a: "Dừng vào nơi có mái che và chờ cơn mưa giảm rồi mới đi tiếp, đừng cố chạy khi tầm nhìn và độ bám đường giảm mạnh. Sau mưa, đường còn ngập cục bộ nên đi chậm và tránh sát lề."
+  - q: "Qua vũng ngập sâu bằng xe thuê cần lưu ý gì?"
+    a: "Đi vào giữa làn theo vệt xe trước, giảm tốc đều và không tắt máy giữa vũng vì nước vào ống xả dễ làm chết máy. Không dò được đáy thì quay đầu tìm tuyến khác; xe gặp sự cố vì nước thì gọi ngay số hỗ trợ của cửa hàng."
+  - q: "Trả xe sau mấy ngày mưa có cần rửa xe không?"
+    a: "Nên lau sạch ở mức cơ bản, kể cả bùn quanh bánh và yên, trước khi trình diện trả xe. Hiện trạng sạch giúp đối chiếu nhanh và nhận lại cọc sớm hơn; có cần rửa kỹ hay không thì làm theo thỏa thuận trong hợp đồng."
+  - q: "Thuê xe điện trong mùa mưa có ổn không?"
+    a: "Vẫn dùng được nhưng nên hỏi kỹ về pin và mức nước an toàn trước khi nhận, đồng thời tránh các đoạn ngập sâu. Mưa nhiều ngày cũng làm kém cảm biến và dây điện, nên để xe ở chỗ có mái che qua đêm."
 ---
 Mùa mưa ở Hà Nội kéo dài nhiều tháng, cơn mưa tới bất chợt và đường ngập cục bộ. Thuê xe máy trong mùa này cần chuẩn bị khác với mùa khô, từ dòng xe đến đồ mang theo. Bài này gom các lưu ý để chuyến đi mùa mưa không biến thành vất vả.
 
@@ -30,6 +43,8 @@ Tìm chỗ gửi có mái che cho xe qua đêm, vì mưa nhiều ngày làm kém
 ## Kiểm tra xe kỹ hơn mùa khô
 
 Trước khi rời điểm nhận, chạy thử vòng dài hơn thường lệ trên mặt đường ướt nếu có thể, kiểm tra phanh ăn ngay ở tốc độ thấp vì phanh ướt nhạy khác. Bật thử đèn và còi, vì mưa làm giảm tầm nhìn. Chụp hiện trạng xe kể cả vết bùn sẵn có để đối chiếu lúc trả. Kinh nghiệm đầy đủ cho người mới thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
+
+Trước những ngày mưa dài, bạn có thể xem lại [các bước xử lý khi xe gặp sự cố]({{ '/huongdan.html' | relative_url }}) trong hướng dẫn thuê xe của Motoopen để biết cần liên hệ và chuẩn bị gì.
 
 ## Kết luận
 

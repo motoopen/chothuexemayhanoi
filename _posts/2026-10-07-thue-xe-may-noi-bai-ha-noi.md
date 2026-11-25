@@ -8,6 +8,7 @@ matrix_id: 207
 primary_keyword: "thuê xe máy nội bài hà nội"
 hub_parent: khu-vuc
 hub_category: ha-noi-theo-khu-vuc
+seo_hub: khu-vuc
 ---
 Nội Bài là khu sân bay cách trung tâm khá xa với đường cao tốc, nên chỗ nhận xe thuê ảnh hưởng nhiều đến buổi đầu tiên của bạn. Bài này giúp bạn chọn điểm nhận xe hợp với hành trình quanh Nội Bài.
 

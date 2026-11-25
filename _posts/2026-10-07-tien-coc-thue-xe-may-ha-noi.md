@@ -8,6 +8,17 @@ matrix_id: 38
 primary_keyword: "tiền cọc thuê xe máy hà nội"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+seo_hub: gia-coc
+quick_answer: "Trước khi chuyển cọc, hỏi rõ hình thức giữ cọc, mức cọc theo dòng xe, thời gian hoàn trả và điều kiện khấu trừ. Tại Motoopen, mức cọc tùy dòng xe, xem bảng giá hoặc hỏi khi đặt; chụp hiện trạng xe khi nhận và khi trả để làm bằng chứng."
+qa:
+  - q: "Người thân có nhận xe và chuyển cọc hộ được không?"
+    a: "Nên hỏi trước, vì nhiều nơi yêu cầu người đứng tên trên giấy tờ mới được ký hợp đồng và chuyển cọc. Ở Motoopen, người thuê cần CCCD hoặc hộ chiếu và bằng lái phù hợp loại xe, trường hợp nhận hộ nên hỏi rõ khi đặt."
+  - q: "Gia hạn thuê xe có phải đóng thêm cọc không?"
+    a: "Có thể, vì một số nơi giữ cọc cao hơn khi thời gian thuê vượt ngưỡng ban đầu. Hãy hỏi phương án gia hạn ngay khi lịch có dấu hiệu kéo dài để không bị bất ngờ."
+  - q: "Trả xe tối cuối tuần thì bao giờ nhận lại cọc?"
+    a: "Tùy hình thức giữ: tiền mặt thường hoàn ngay khi trả xe, còn giữ trên tài khoản có thời gian xử lý. Nếu trả vào buổi tối cuối tuần, hãy chốt rõ thời điểm nhận lại tiền thay vì nhận lời hứa chung chung."
+  - q: "Cọc giữ bằng tiền mặt hay qua tài khoản thì tốt hơn?"
+    a: "Không có cách nào tốt hơn tuyệt đối. Tiền mặt hợp với người cần nhận lại ngay để đi tiếp, giữ qua tài khoản tiện cho người thuê dài ngày không muốn mang nhiều tiền mặt. Nếu chuyển khoản, lưu lệnh chuyển và mã giao dịch."
 ---
 Chuyển tiền cọc là bước khiến nhiều người băn khoăn nhất khi thuê xe máy, vì khoản này thường lớn hơn tiền thuê và liên quan tới việc hoàn trả sau. Bài này liệt kê trọn các câu nên hỏi trước khi chuyển cọc ở Hà Nội.
 
@@ -21,11 +32,13 @@ Mức cọc thường tỷ lệ với giá trị xe, nên dòng số phổ thôn
 
 ## Hỏi điều kiện khấu trừ
 
-Câu quan trọng nhất: trường hợp nào thì cọc bị khấu trừ và mức tính ra sao. Trầy xước nhỏ do va chạm thường ngày có bị tính không, hay chỉ những hư hỏng rõ mới trừ. Xe mất cắm hoặc hư hỏng lớn thì xử lý theo điều khoản nào trong hợp đồng. Hiểu trước các trường hợp giúp bạn quyết định nên mua thêm phương án bảo vệ nếu cửa hàng có, hoặc chọn dòng xe có mức rủi ro hợp lý.
+Câu quan trọng nhất: trường hợp nào thì cọc bị khấu trừ và mức tính ra sao. Trầy xước nhỏ do va chạm thường ngày có bị tính không, hay chỉ những hư hỏng rõ mới trừ. Xe mất cắp hoặc hư hỏng lớn thì xử lý theo điều khoản nào trong hợp đồng. Hiểu trước các trường hợp giúp bạn quyết định nên mua thêm phương án bảo vệ nếu cửa hàng có, hoặc chọn dòng xe có mức rủi ro hợp lý.
 
 ## Tự bảo vệ mình bằng bằng chứng
 
 Bất kể cửa hàng nói gì, hãy chụp hiện trạng xe chi tiết khi nhận: toàn thân, hai bên, vỏ bánh, đèn, kể cả vết xước sẵn có. Lưu ảnh có mốc thời gian trong điện thoại. Khi trả xe, chụp lại tình trạng xe lần nữa và nhờ người nhận xác nhận trên biên bản hoặc tin nhắn. Hai bộ ảnh này là bằng chứng tốt nhất nếu có tranh luận về cọc sau này. Kinh nghiệm đầy đủ cho lần đầu thuê nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
+
+Nếu bạn định ở Hà Nội vài tháng, hãy hỏi về cọc ngay khi tham khảo [gói thuê xe theo tháng]({{ '/' | relative_url }}), vì mức giữ cho gói dài có thể khác thuê ngày.
 
 ## Kết luận
 

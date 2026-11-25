@@ -8,6 +8,21 @@ matrix_id: 282
 primary_keyword: "mũ bảo hiểm khi thuê xe máy"
 hub_parent: huong-dan
 hub_category: an-toan-su-co
+seo_hub: kinh-nghiem
+quick_answer: "Kiểm tra mũ kèm xe thuê qua ba bước: giật thử quai và then khóa, nhấc đệm xem lõi xốp còn nguyên và đàn hồi, rồi đội thử để mũ ôm đầu mà không đau. Mũ lỏng khóa, nứt vỏ hay lõi vụn thì đề nghị đổi; đầu không cỡ trung nên mang mũ riêng."
+qa:
+  - q: "Làm sao biết mũ bảo hiểm kèm xe thuê từng bị va chạm?"
+    a: "Quai sờn chỉ ở một bên, vết nứt trên vỏ ngoài hoặc lõi xốp bên trong bị vụn, móp đều là dấu mũ từng chịu va chạm hoặc đã hết tuổi. Gặp các dấu này thì đề nghị đổi mũ khác."
+  - q: "Đội mũ bảo hiểm thế nào là vừa đầu?"
+    a: "Mũ vừa là mũ ôm đầu mà không gây đau sau khoảng mười giây đội thử. Lắc đầu thấy mũ lỏng ra hai bên là to, còn ghì trán gây đau là nhỏ."
+  - q: "Đi xe thuê cùng trẻ em có cần mũ riêng cho bé không?"
+    a: "Có. Trẻ em đi cùng cần mũ chuẩn dành cho trẻ em, không dùng tạm mũ người lớn. Nên hỏi nơi thuê trước, và nếu không có thì chuẩn bị mũ riêng cho bé."
+  - q: "Làm mất mũ đi kèm xe thuê thì có bị tính tiền không?"
+    a: "Thường có, mất mũ kèm xe hay bị tính theo giá niêm yết của nơi thuê. Khi đỗ, hãy buộc chặt mũ và không treo trên gương; nên hỏi trước mức tính khi nhận xe."
+  - q: "Nơi thuê không có mũ đạt chuẩn để thay thì nên làm gì?"
+    a: "Nên cân nhắc mua một chiếc mũ đạt chuẩn giá rẻ cho chuyến đi, vì chi phí mũ thấp hơn rủi ro chấn thương và khoản phạt có thể có khi đội mũ không đạt chuẩn."
+  - q: "Thuê một xe đi hai người thì chuẩn bị mũ thế nào?"
+    a: "Cần đủ hai mũ đạt chuẩn và nên hỏi nơi thuê trước khi nhận xe. Kiểm tra cả hai mũ theo cùng các bước quai khóa, lõi đệm, độ vừa, rồi chụp ảnh mũ kèm bộ ảnh xe."
 ---
 Mũ bảo hiểm kèm xe thuê thường được coi là đồ cho không, nhưng nó là thiết bị an toàn duy nhất chạm đầu bạn. Kiểm tra mũ trước khi nhận xe đáng ba phút của nó.
 
@@ -36,6 +51,8 @@ Chụp mũ hai bên kèm sáu góc ảnh xe theo trình tự trong bài chụp �
 Mất mũ kèm xe thường bị tính theo giá niêm yết của nơi thuê, nên xiết chặt mũ khi đỗ và không treo trên gương, tình huống mất chìa và đồ kèm đã nêu trong bài [mất chìa khóa xe thuê]({{ '/blog/mat-chia-khoa-xe-thue/' | relative_url }}). Trả xe với mũ đủ và nguyên trạng giúp khép hợp đồng sạch, nguyên tắc đối chiếu cọc nằm trong bài tiền cọc thuê xe máy Hà Nội, còn trễ giờ thì khung tính trong bài phí trả xe muộn thuê xe máy.
 
 Trường hợp nơi thuê không có mũ đạt chuẩn thay thế, cân nhắc mua một mũ rẻ đạt chuẩn cho chuyến, vì giá mũ luôn thấp hơn mọi rủi ro và khoản phạt có thể có, phần các khoản nên hỏi trước nằm trong bài [giá thuê xe máy đã bao gồm gì]({{ '/blog/gia-thue-xe-may-da-bao-gom-gi/' | relative_url }}).
+
+Khi nhận xe, việc kiểm mũ nên làm cùng lúc với kiểm phanh, lốp, đèn và chụp ảnh tình trạng xe theo [các bước nhận xe của Motoopen]({{ '/huongdan.html' | relative_url }}).
 
 ## Kết luận
 

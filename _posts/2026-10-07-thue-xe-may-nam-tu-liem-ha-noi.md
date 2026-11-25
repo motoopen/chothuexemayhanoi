@@ -8,6 +8,7 @@ matrix_id: 191
 primary_keyword: "thuê xe máy nam từ liêm hà nội"
 hub_parent: khu-vuc
 hub_category: ha-noi-theo-khu-vuc
+seo_hub: khu-vuc
 ---
 Nam Từ Liêm là khu phía tây với nhiều tòa văn phòng và khu đô thị mới, nên chỗ nhận xe thuê ảnh hưởng nhiều đến buổi đầu tiên của bạn. Bài này giúp bạn chọn điểm nhận xe hợp với hành trình quanh Nam Từ Liêm.
 

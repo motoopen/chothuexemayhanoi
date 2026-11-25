@@ -8,6 +8,19 @@ matrix_id: 292
 primary_keyword: "thuê xe máy hay gọi xe công nghệ"
 hub_parent: kinh-nghiem
 hub_category: so-sanh-lua-chon
+seo_hub: kinh-nghiem
+quick_answer: "Nếu mỗi ngày bạn đi trên ba chuyến rời rạc, thuê xe máy trọn ngày gần như luôn rẻ và chủ động hơn; chỉ đi một hai chuyến, đi sân bay, không tự tin lái hoặc thiếu giấy phép lái phù hợp thì gọi xe công nghệ gọn và an toàn hơn."
+qa:
+  - q: "Thuê xe máy một ngày ở Hà Nội tốn khoảng bao nhiêu so với gọi xe?"
+    a: "Bảng giá Motoopen hiện công bố thuê ngày từ 150k với xe số, Click/Mio đến 200k với Vision, Air Blade, cộng thêm xăng tự đổ và tiền gửi xe. Chi phí gọi xe thì hiện trên ứng dụng theo từng chuyến và có thể phụ thu giờ cao điểm."
+  - q: "Không có bằng lái thì nên thuê xe máy hay gọi xe?"
+    a: "Nếu không có giấy phép lái phù hợp, gọi xe công nghệ an toàn hơn hẳn. Riêng khách chưa có bằng A1, Motoopen có tư vấn xe 50cc hoặc xe điện; trước khi tự lái, nên kiểm tra quy định hiện hành."
+  - q: "Chỉ đi sân bay rồi về thì nên gọi xe hay thuê xe máy?"
+    a: "Hai chuyến xe công nghệ gọn hơn, khỏi lo gửi xe, giấy tờ và việc trả xe về nơi nhận. Thuê xe máy chỉ đáng khi trong ngày còn nhiều điểm khác cần ghé."
+  - q: "Có nên kết hợp cả xe thuê và gọi xe trong một chuyến đi không?"
+    a: "Có. Nếu lịch có nhiều đoạn một chiều, dùng xe công nghệ cho các tuyến đó và thuê xe máy cho những ngày di chuyển dày đặc. Mưa to, mệt hoặc phải chở đồ dễ vỡ cũng là lúc nên gọi xe."
+  - q: "Gia đình ba bốn người thì thuê nhiều xe máy có rẻ hơn gọi xe lớn không?"
+    a: "Nhiều khi có. Hãy so tổng tiền thuê vài xe máy theo ngày với tiền gọi xe van nhỏ cho từng ngày; xe máy thường linh hoạt hơn nhưng đòi hỏi mỗi người lái có giấy phép phù hợp."
 ---
 Khi cần di chuyển trong Hà Nội, hai phương án tiện nhất là thuê nguyên chiếc xe máy theo ngày và gọi xe ô tô công nghệ theo từng chuyến. Nhiều khách du lịch và cả người đi làm hay đứng giữa hai lựa chọn này. Câu trả lời phụ thuộc vào một biến số chính: số chuyến bạn đi mỗi ngày và thời gian mỗi chuyến. Bài này tính cụ thể cho từng tình huống.
 
@@ -28,6 +41,8 @@ Một khoản ẩn nữa là tuyến một chiều. Gọi xe tiện cho hành tr
 Thuê xe máy đòi hỏi giấy phép lái hợp lệ và việc bạn tự điều khiển trong giao thông Hà Nội; nếu bạn không tự tin lái hoặc không có giấy tờ phù hợp, gọi xe công nghệ an toàn hơn hẳn. Mưa to, sức khỏe không tốt, cần chở nhiều đồ dễ vỡ cũng là lúc nên gọi xe. Ngược lại, muốn chủ động giờ giấc, dừng chụp ảnh bất cứ đâu, đi các con ngõ nhỏ mà ô tô không vào được thì xe máy không có đối thủ. Cân nhắc giữa tự lái và ngồi sau phụ thuộc hoàn toàn vào điều này chứ không phải giá.
 
 Nếu bạn chọn thuê xe máy lần đầu, đọc bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}) để chuẩn bị giấy tờ và các bước nhận xe. Nếu cả nhà đi ba bốn người, so sánh thêm giá thuê nhiều xe máy với tiền gọi xe van nhỏ cho từng ngày; nhiều khi thuê ba xe máy vẫn rẻ và linh hoạt hơn một chuyến ô tô lớn.
+
+Nếu bạn ở Hà Nội nhiều tuần và ngày nào cũng cần đi lại, hãy so thêm phương án [thuê xe máy tháng Hà Nội]({{ '/' | relative_url }}) trước khi quyết định gọi xe từng chuyến.
 
 ## Nguồn
 

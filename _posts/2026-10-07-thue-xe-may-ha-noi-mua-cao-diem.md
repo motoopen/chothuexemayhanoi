@@ -8,6 +8,17 @@ matrix_id: 44
 primary_keyword: "thuê xe máy hà nội mùa cao điểm"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+seo_hub: gia-coc
+quick_answer: "Mùa cao điểm nên đặt xe sớm, hỏi rõ giá và phụ phí có điều chỉnh theo mùa không, kiểm tra tình trạng từng chiếc kỹ hơn ngày thường khi nhận, và chốt khung trả dư thời gian. Ghi lại mức đã chốt để đối chiếu khi ký hợp đồng."
+qa:
+  - q: "Nên đặt xe trước bao lâu vào dịp lễ tết?"
+    a: "Càng sớm càng tốt, ngay khi biết lịch. Trong ví dụ của bài, người đặt từ hai tuần trước giữ được dòng xe và mức giá đã chốt, còn người gọi sát ngày lễ phải chọn dòng khác hoặc chờ khung khác."
+  - q: "Dòng xe đã đặt bị hết vào mùa cao điểm thì sao?"
+    a: "Hỏi trước khi cọc xem nơi thuê có phương án thay thế nào và tính giá theo dòng gốc hay dòng thay. Câu trả lời nên được ghi lại để tránh tranh luận khi nhận xe."
+  - q: "Giá thuê xe ở Motoopen có đổi vào mùa cao điểm không?"
+    a: "Giá trên bảng giá là giá tham khảo, có thể thay đổi và được chốt khi liên hệ. Vì vậy vào dịp lễ, hãy hỏi rõ mức áp dụng cho đúng ngày nhận và xin xác nhận lại sát ngày đi."
+  - q: "Đi nhóm đông trong mùa lễ cần hỏi thêm gì?"
+    a: "Hỏi việc nhận nhiều xe cùng lúc tại một điểm, vì vào cao điểm có nơi giới hạn số xe giao trong một khung. Biết trước giúp cả nhóm phân bổ người nhận xe thay vì đứng chờ."
 ---
 Mùa cao điểm ở Hà Nội, mùa lễ tết và dịp hội họp đông khách, là lúc xe tốt mau hết và giá các khoản dễ thay đổi theo nhu cầu. Chốt gói trong mùa này cần vài bước kiểm tra kỹ hơn ngày thường.
 
@@ -34,6 +45,8 @@ Tình huống một: bạn biết lịch từ hai tuần trước, đặt ngay d
 ## Ba câu nên hỏi trước khi cọc trong mùa cao điểm
 
 Câu thứ nhất: mức giá này giữ đến ngày nhận hay chỉ là mức tham khảo hôm nay. Câu thứ hai: nếu dòng xe đã đặt hết, nơi thuê có phương án thay thế nào và tính giá theo dòng gốc hay dòng thay. Câu thứ ba: khung nhận và trả có phụ phí cao điểm không, và ngưỡng trễ được ân hạn bao lâu. Ba câu này chiếm chưa đến năm phút nhưng che phần lớn rủi ro phát sinh giữa mùa đông khách, vì hầu hết tranh chấp sau này đều rơi vào ba điểm giá, dòng xe và khung giờ. Khách đi theo nhóm đông nên hỏi thêm về việc nhận nhiều xe cùng lúc tại một điểm, vì cao điểm có nơi giới hạn số xe giao trong một khung, và biết trước giúp cả nhóm chủ động phân bổ người nhận xe thay vì đứng chờ.
+
+Trước khi gọi hỏi giá mùa lễ, bạn có thể ghi lại mức của dòng xe định thuê trên [bảng giá tham khảo]({{ '/banggia.html' | relative_url }}) để biết mức được báo có khác ngày thường hay không.
 
 ## Kết luận
 

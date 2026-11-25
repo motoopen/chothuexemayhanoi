@@ -8,6 +8,19 @@ matrix_id: 62
 primary_keyword: "thuê xe tay ga 50cc hà nội"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
+quick_answer: "Có, xe tay ga 50cc khá thuận tiện khi đi phố Hà Nội nhờ không cần chuyển số, nhẹ, yên thấp và có hộc đựng áo mưa. Tuy vậy, xe không hợp với cầu vượt dài, chặng ven đô, đường nhanh hoặc chở thêm một người lớn; khi đó nên chọn dòng lớn hơn."
+qa:
+  - q: "Xe tay ga 50cc có bị chao khi xe lớn chạy sát qua không?"
+    a: "Có thể. Xe nhẹ dễ điều khiển nhưng cũng dễ chệnh choạng khi gặp gió hoặc xe lớn lướt sát qua. Người mới nên giữ tay lái chắc, đi đúng làn và giữ khoảng cách với xe tải, xe khách."
+  - q: "Đi làm vài cây số mỗi ngày trong phố có nên chọn tay ga 50cc?"
+    a: "Có. Với quãng ngắn toàn đường phố, tay ga 50cc gọn nhẹ, chi phí thấp và đủ sức cho các trục nội đô. Hộc dưới yên đựng vừa áo mưa và vài đồ lặt vặt, nên đi làm không cần thêm balo lớn."
+  - q: "Đang thuê 50cc mà lịch phát sinh chặng dài thì có đổi lên dòng lớn được không?"
+    a: "Tùy nơi thuê. Có nơi cho nâng lên dòng lớn và tính lại phần chênh từ ngày đổi, có nơi tính thêm phí. Tại Motoopen, chính sách đổi dòng giữa kỳ nên hỏi rõ khi đặt."
+  - q: "Nghe tiếng máy tay ga 50cc thế nào để nhận ra xe đã mòn?"
+    a: "Nghe máy cả lúc đứng yên và lúc vặn ga; tiếng lạ hoặc ga lên không đều thường là dấu hiệu mòn. Nếu thấy bất thường, nên yêu cầu đổi chiếc khác trước khi ký nhận."
+  - q: "Ngoài giá thuê, chọn tay ga 50cc còn tốn những khoản nào?"
+    a: "Chủ yếu là xăng, tiền cọc và phí giao xe. Xăng gần như không đáng kể nếu chỉ chạy trong phố; mức cọc tại Motoopen tùy dòng xe, còn phí giao nội thành khoảng 20k–50k, nhận tại cửa hàng thì không mất phí."
 ---
 Xe tay ga 50cc gộp hai ưu điểm quen thuộc: không cần chuyển số và nhẹ dễ điều khiển. Nhưng đi phố Hà Nội có thuận tiện thật không còn tùy vào khung đường, tải và kỹ năng của bạn. Bài này phân tích hai mặt để bạn chọn đúng dòng trước khi cọc.
 
@@ -34,6 +47,8 @@ Tình huống một: khách ở gần nơi làm, mỗi ngày đi về khoảng b
 ## Chi phí đi kèm khi chọn dòng 50cc
 
 Giá thuê dòng 50cc thường nằm ở nhóm thấp nhất trong bảng giá, nhưng nên ước kèm các khoản quanh nó. Xăng tiêu hao rất ít nếu chỉ chạy trong phố, phần này gần như bỏ qua được. Cọc theo giá trị xe nên cũng thấp, hỏi rõ mức giữ và điều kiện hoàn. Phí giao xe vẫn tính theo khoảng cách, nên nếu điểm nhận xa chỗ ở, cân nhắc nhận tại chỗ và đi bộ đoạn ngắn. Nhân viên nơi thuê cũng nên được hỏi về chính sách đổi dòng giữa kỳ, vì có nơi cho nâng lên dòng lớn với phần chêch tính lại từ ngày đổi, hữu ích khi giữa kỳ lịch của bạn bất ngờ có chặng dài.
+
+Nếu tay ga 50cc là xe đi làm hằng ngày của bạn trong nhiều tuần, có thể tham khảo [thuê xe máy theo tháng]({{ '/' | relative_url }}) để so với thuê lẻ.
 
 ## Kết luận
 

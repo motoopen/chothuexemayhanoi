@@ -8,6 +8,19 @@ matrix_id: 239
 primary_keyword: "mất giấy tờ xe thuê"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: thu-tuc-hop-dong
+quick_answer: "Hãy lục lại theo lộ trình ngược; nếu không thấy, báo ngay cho nơi cho thuê vì đăng ký xe là giấy tờ của họ, và khai báo với công an gần nhất nếu nghi bị lấy cắp. Lưu biên bản, tin nhắn và hóa đơn phát sinh để đối chiếu khi trả xe."
+qa:
+  - q: "Mất đăng ký xe thuê có tự đi làm lại được không?"
+    a: "Không nên tự làm. Đăng ký xe là giấy tờ pháp lý của bên cho thuê nên mọi thủ tục phải qua họ; việc của bạn là báo sớm và cung cấp biên bản khai báo nếu có."
+  - q: "Khi nào cần ra công an trình báo mất giấy tờ xe?"
+    a: "Khi giấy tờ bị lấy cùng ví hoặc ba lô, hoặc bạn nghi bị trộm. Biên bản khai báo giúp nơi thuê làm lại giấy tờ nhanh hơn và giúp bạn tránh trách nhiệm nếu giấy tờ bị dùng sai; nhớ chụp lại biên bản và số tiếp nhận."
+  - q: "Mất CCCD hoặc hộ chiếu khi đang thuê xe có khác mất giấy tờ xe không?"
+    a: "Có. CCCD hay hộ chiếu là giấy tờ của bạn, còn đăng ký và giấy bảo hiểm là của bên cho thuê. Mất giấy tờ cá nhân thì bạn tự làm thủ tục cấp lại, đồng thời báo nơi thuê nếu hợp đồng có liên quan."
+  - q: "Bản photo đăng ký xe có dùng thay bản gốc được không?"
+    a: "Chưa chắc. Một số nơi giao kèm bản photo có công chứng để dùng tạm, nhưng bạn nên hỏi rõ giá trị pháp lý của bản đó với nơi thuê và kiểm tra quy định hiện hành để không bị động khi bị kiểm tra."
+  - q: "Làm sao để không làm mất giấy tờ xe trong kỳ thuê?"
+    a: "Ngay ngày nhận xe, chụp lại đăng ký, bảo hiểm và túi đựng để có bản sao điện tử. Khi di chuyển, để giấy tờ xe ở một chỗ cố định trên người, không chung túi với tiền lẻ, và rà lại mỗi tối trước khi gửi xe."
 ---
 Giấy tờ xe thuê gồm đăng ký và bảo hiểm đi kèm xe, và để quên hoặc làm mất chúng gây rắc rối lớn hơn mất chìa. Bài này giúp bạn biết cần báo cho ai và lưu thông tin gì.
 
@@ -36,6 +49,8 @@ Gom toàn bộ hồ sơ sự việc: biên bản khai báo, tin nhắn với nơ
 Ngày đầu nhận xe, chụp toàn bộ giấy tờ đi kèm xe: đăng ký, bảo hiểm, và túi đựng, để có bản sao điện tử khi cần. Khi di chuyển, để giấy tờ xe đúng một chỗ cố định trên người, không chung túi với vé hoặc tiền lẻ, vì đó là lúc dễ rơi nhất. Cuối mỗi ngày, rà một lượt giấy tờ còn đủ trước khi gửi xe qua đêm.
 
 Một điều nữa nên hỏi nơi thuê là các bản photo đăng ký họ để sẵn: nhiều nơi giao kèm xe một bản photo đăng ký có công chứng để dùng tạm khi bản gốc bị mất hoặc đang làm lại. Nếu xe bạn thuê có bản này, hỏi rõ giá trị pháp lý của nó để tránh bị dừng giữa đường mà không biết bản photo có được chấp nhận không. Cuối cùng, đừng tự làm lại giấy tờ mà không báo nơi thuê, vì đăng ký xe là tài sản pháp lý của họ và mọi thủ tục phải qua họ.
+
+Danh sách giấy tờ người thuê cần mang và cách cửa hàng xác minh được tóm lại ở trang [giấy tờ cần mang khi thuê xe]({{ '/thutuc.html' | relative_url }}), giúp bạn phân biệt rõ đâu là giấy tờ của mình ngay từ đầu.
 
 ## Kết luận
 

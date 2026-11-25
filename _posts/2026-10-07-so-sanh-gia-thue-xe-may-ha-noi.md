@@ -8,6 +8,17 @@ matrix_id: 46
 primary_keyword: "so sánh giá thuê xe máy hà nội"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+seo_hub: gia-coc
+quick_answer: "So sánh giá thuê xe máy Hà Nội dễ nhất bằng checklist tám dòng: giá ngày, giá gói dài, cọc, phụ phí, dòng xe sẵn có, tình trạng xe, dịch vụ và tổng ước tính. Điền cùng một khung lịch cho mọi nơi rồi so cột tổng."
+qa:
+  - q: "Hai nơi có tổng chi phí gần bằng nhau thì chọn nơi nào?"
+    a: "Chọn nơi có đúng dòng xe sẵn có vào ngày bạn cần và tình trạng xe tốt hơn. Khi tổng đã gần nhau, phần chênh nhỏ không đáng để đánh đổi bằng rủi ro nhận xe kém."
+  - q: "Vì sao nên hỏi mọi nơi cùng một bộ câu hỏi?"
+    a: "Để các nơi trả lời theo cùng một bài toán và so được với nhau. Hỏi tất cả trong một lượt, ghi ngay câu trả lời vào ô tương ứng, kể cả mức chưa chắc, rồi cập nhật lại ô còn thiếu sau."
+  - q: "Nên lấy mốc giá nào của Motoopen để điền vào checklist?"
+    a: "Lấy giá ngày và giá tháng tham khảo trên trang bảng giá: ngày từ 150k đến 200k tùy dòng, tháng khoảng 1–2 triệu tùy dòng xe. Giá có thể thay đổi, mức chốt là khi bạn liên hệ để hỏi đúng lịch của mình."
+  - q: "Kết quả so sánh có đổi khi thuê một ngày và thuê một tuần không?"
+    a: "Có. Với lịch một ngày, nơi có phí giao gần thường lợi hơn; với gói tuần, phí giao chia đều bảy ngày nên cột tổng có khi đảo chiều. Vì vậy hãy thử lại checklist cho từng kiểu lịch."
 ---
 So giá thuê xe máy giữa các nơi dễ rối vì mỗi nơi niêm yết theo cách riêng. Bài này đưa một checklist tám dòng, bạn chỉ cần điền theo từng nơi rồi so, kết quả ra ngay gói nào hợp nhất.
 
@@ -37,6 +48,8 @@ Giả sử nơi một giá ngày nhỉnh hơn nhưng phí giao gần, nơi hai g
 
 
 Nếu sau khi điền, hai nơi chêch nhau rất ít trên cột tổng, đừng kéo dài việc so thêm. Hãy nhìn lại dòng năm và sáu: nơi nào có đúng dòng xe sẵn có ngày bạn cần và tình trạng xe tốt hơn thì chọn nơi đó, vì phần chêch nhỏ không đáng để đánh đổi bằng rủi ro nhận xe kém. Một cách khác là hỏi cả hai nơi xem có khoản nào điều chỉnh được không, ví dụ gộp phí giao hoặc nâng dòng xe giữ nguyên tổng, nơi nào linh hoạt hơn thường cũng hỗ trợ giữa kỳ tốt hơn. Nguyên tắc là khi tổng đã gần nhau, các yếu tố ngoài giá trở thành yếu tố quyết định.
+
+Nếu kỳ thuê của bạn kéo dài nhiều tuần, hãy thêm một cột cho [thuê xe máy tháng Hà Nội]({{ '/' | relative_url }}) vào checklist để so trực tiếp với cách cộng giá ngày.
 
 ## Kết luận
 

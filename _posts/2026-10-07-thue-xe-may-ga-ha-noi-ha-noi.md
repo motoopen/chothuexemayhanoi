@@ -8,6 +8,7 @@ matrix_id: 205
 primary_keyword: "thuê xe máy ga hà nội hà nội"
 hub_parent: khu-vuc
 hub_category: ha-noi-theo-khu-vuc
+seo_hub: khu-vuc
 ---
 Ga Hà Nội là đầu mối giao thông đông đúc nhất nội thành, nên chỗ nhận xe thuê ảnh hưởng nhiều đến buổi đầu tiên của bạn. Bài này giúp bạn chọn điểm nhận xe hợp với hành trình quanh Ga Hà Nội.
 

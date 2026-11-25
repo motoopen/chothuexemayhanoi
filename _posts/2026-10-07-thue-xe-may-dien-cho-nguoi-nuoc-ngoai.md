@@ -8,6 +8,19 @@ matrix_id: 111
 primary_keyword: "thuê xe máy điện cho người nước ngoài"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: di-lam-dai-han
+quick_answer: "Người nước ngoài thuê xe máy điện ở Hà Nội vẫn cần giấy phép lái được công nhận theo quy định hiện hành nếu xe thuộc nhóm xe máy, cùng hộ chiếu còn hạn và thị thực hoặc tạm trú. Trước khi cọc, hỏi rõ pin, chỗ sạc, hỗ trợ khi hỏng và phí giao nhận."
+qa:
+  - q: "Xe máy điện thuê một lần sạc đi được bao xa trong phố?"
+    a: "Tùy dòng xe và tình trạng pin, nên hỏi nơi thuê tầm chạy thực tế trong phố khi pin đầy và xác nhận xe được giao với pin đầy. Nếu định đi các điểm ven xa, hãy tính trước chỗ sạc hoặc chọn dòng xe xăng."
+  - q: "Đi xe điện trong phố đông cần lưu ý gì khác xe xăng?"
+    a: "Xe điện gần như không có tiếng máy nên người xung quanh khó nhận ra bạn; hãy bật đèn cả ban ngày và giữ khoảng cách. Một số dòng tự hãm khi nhả ga, nên chạy thử vài phút trên đoạn vắng để quen."
+  - q: "Hoàn cọc thế nào khi khách nước ngoài sắp về nước?"
+    a: "Hỏi trước khi ký: cọc được hoàn bằng hình thức nào và trong bao lâu sau khi trả xe, nhất là khi bạn bay ngay sau đó. Ở Motoopen, mức cọc tùy dòng xe, xem bảng giá hoặc hỏi khi đặt."
+  - q: "Motoopen có xe điện cho khách nước ngoài thuê không?"
+    a: "Motoopen có nhóm xe đạp điện bên cạnh xe số, xe ga và xe 50cc; khách nước ngoài làm thủ tục với hộ chiếu và bằng lái quốc tế hợp lệ. Dòng xe điện cụ thể đang có và yêu cầu giấy phép cho từng loại nên hỏi rõ khi đặt."
+  - q: "Một tuần đi quanh nội đô có nên chọn xe điện không?"
+    a: "Hợp lý nếu lịch chủ yếu là các chặng ngắn trong nội đô, vì xe êm, không số và chi phí năng lượng thấp. Hãy hỏi chỗ sạc gần nơi lưu trú và đặt giao xe tới khách sạn để tiết kiệm thời gian."
 ---
 Người nước ngoài chọn xe máy điện để đi lại Hà Nội ngày càng nhiều vì xe êm và dễ lái, nhưng giấy tờ và quy định cho người nước ngoài có phần riêng cần kiểm tra. Bài này liệt kê các khoản nên rà trước khi đặt cọc.
 
@@ -30,6 +43,8 @@ Hỏi một: pin giao đầy không và tầm thật trong phố khoảng bao nh
 ## Ví dụ hai khách nước ngoài
 
 Tình huống một: khách tra giấy phép trước, thấy công nhận, đặt xe điện giao tận khách sạn, cả tuần đi quanh nội đô êm và rẻ. Tình huống hai: khách không tra, thuê rồi bị dừng kiểm tra, mất buổi xử lý thủ tục, kỳ nghỉ xáo trộn. Hai khách cùng lịch đẹp, khác nhau ở mười phút chuẩn bị. Với khách muốn so giữa xe điện và dòng xăng nhỏ, bài [thuê xe máy điện theo ngày Hà Nội]({{ '/blog/thue-xe-may-dien-theo-ngay-ha-noi/' | relative_url }}) cho góc nhìn chi tiết theo từng dạng chuyến.
+
+Nếu kỳ lưu trú kéo dài nhiều tuần vì công việc, bạn có thể so thêm với [thuê xe máy dài hạn tại Hà Nội]({{ '/' | relative_url }}) để chọn giữa xe điện và xe xăng cho cả tháng.
 
 ## Nguồn
 

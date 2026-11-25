@@ -8,6 +8,17 @@ matrix_id: 81
 primary_keyword: "checklist nhận xe 50cc"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
+quick_answer: "Khi nhận xe 50cc, hãy đi một vòng mười hai điểm trong khoảng mười phút: giấy tờ xe, hợp đồng, số hỗ trợ, ga, số, chạy thử, chân chống, hai phanh, lốp, đèn còi, ảnh hiện trạng và khung trả xe. Điểm nào bất ổn thì xin đổi xe hoặc sửa ngay trước khi rời điểm nhận."
+qa:
+  - q: "Mười phút có thật sự đủ để kiểm tra xe 50cc khi nhận không?"
+    a: "Đủ, nếu đi theo một vòng cố định: tay lái và còi, ga và số, đèn, hai bánh, phanh, chân chống, cốp, cuối cùng là chụp ảnh. Lần đầu có thể mở checklist ra đọc theo, vài lần sau sẽ thuộc và làm nhanh hơn."
+  - q: "Phát hiện phanh yếu lúc nhận xe 50cc thì nên làm gì?"
+    a: "Nên xin đổi chiếc khác hoặc yêu cầu sửa trước khi nhận, không nhận rồi để đó. Phanh, lốp và đèn còi là nhóm an toàn không nên thỏa hiệp; đổi ngay lúc nhận nhanh hơn nhiều so với mang xe đi chỉnh giữa tuần bận."
+  - q: "Có cần chụp ảnh xe 50cc trước khi rời điểm nhận không?"
+    a: "Có. Chụp vòng quanh xe, kể cả vết xước sẵn có và đồng hồ xăng, vì ảnh có dấu thời gian là bằng chứng tốt nhất khi trả xe. Việc này mất chưa đến hai phút nhưng xử được phần tranh chấp hay gặp nhất lúc đối chiếu."
+  - q: "Vì sao nên lưu số hỗ trợ ngay tại điểm nhận xe?"
+    a: "Để khi xe có vấn đề giữa kỳ, bạn gọi được ngay thay vì đi tìm số giữa đường. Với Motoopen, số điện thoại và Zalo là 0857 255 868, cửa hàng mở cửa 09:00–21:00 hằng ngày."
 ---
 Mười phút kiểm tra khi nhận xe giúp cả kỳ thuê yên ổn, nhưng chỉ khi bạn biết kiểm tra gì. Bài này gom mười hai điểm theo trình tự, đi vòng xe một lượt là xong, không bỏ sót và không kéo dài.
 
@@ -34,6 +45,8 @@ Tình huống một: khách đi trọn mười hai điểm trong mười phút, 
 ## Trình tự đi vòng xe trong mười phút
 
 Để không bỏ sót, đi theo vòng: bắt đầu từ tay lái, thử còi và chìa khóa, rồi ga và số, tiếp đèn pha hậu, xuống xem bánh trước sau, phanh hai bánh, chân chống, gác và cốp, cuối là chụp hiện trạng vòng quanh và đồng hồ xăng. Mỗi điểm một động tác cụ thể, cả vòng hoàn thành trong khoảng mười phút kể cả chạy thử. Lần đầu có thể mang theo bài này đọc theo, vài lần sau là thuộc. Thói quen mười phút này là khác biệt giữa khách cả kỳ êm và khách gọi giữa kỳ vì sự cố nhỏ đáng lẽ thấy ngay từ đầu.
+
+Với khách thuê dài ngày, mười phút kiểm tra lúc nhận càng đáng giá vì chiếc xe sẽ đi cùng bạn mỗi ngày, nên hãy áp dụng đủ checklist này khi nhận xe theo [gói thuê xe máy theo tháng]({{ '/' | relative_url }}).
 
 ## Kết luận
 

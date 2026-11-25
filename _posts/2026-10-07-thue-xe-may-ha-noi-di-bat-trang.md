@@ -8,6 +8,7 @@ matrix_id: 255
 primary_keyword: "thuê xe máy hà nội đi bát tràng"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
+seo_hub: hanh-trinh
 ---
 Bát Tràng cách trung tâm Hà Nội khoảng mười lăm ki lômét, là chuyến ngoại thành ngắn nhất trong nhóm điểm quanh phố. Với chuyến kiểu này, câu hỏi không phải xe có đủ khỏe không, mà là xe nào gọn, dễ đỗ, và thuê theo khung giờ nào rẻ.
 

@@ -1,0 +1,52 @@
+---
+layout: null
+permalink: /du-lieu/motoopen-business.json
+---
+{% assign c = site.data.site.contact %}{% assign s = site.data.site.social %}{
+  "_note": "Plain business facts for AI/search agents, copied from the public pages of this website. Not structured-data markup. Prices are the reference figures published on banggia.html and may change; confirm by phone/Zalo.",
+  "updated": "{{ site.time | date: '%Y-%m-%d' }}",
+  "name": {{ site.data.site.brand.name | jsonify }},
+  "tagline": {{ site.data.site.brand.tagline | jsonify }},
+  "website": {{ '/' | absolute_url | jsonify }},
+  "contact": {
+    "address": {{ c.address | jsonify }},
+    "city": "Hà Nội",
+    "country": "VN",
+    "phone": {{ c.phone_display | jsonify }},
+    "phone_e164": "+84857255868",
+    "zalo": {{ c.zalo_url | jsonify }},
+    "email": {{ c.email | jsonify }},
+    "hours": {{ c.hours | jsonify }},
+    "map": {{ c.map_url | jsonify }}
+  },
+  "social": {
+    "facebook": {{ s.facebook | jsonify }},
+    "instagram": {{ s.instagram | jsonify }}
+  },
+  "services": ["Thuê xe máy theo tháng", "Thuê xe máy theo tuần", "Thuê xe máy theo ngày", "Giao xe tận nơi nội thành Hà Nội"],
+  "vehicle_types": ["Xe số (Honda Wave/RSX)", "Xe ga (Honda Vision, Air Blade, Click/Mio)", "Xe 50cc", "Xe đạp điện", "Xe tay côn"],
+  "reference_prices_vnd": {
+    "source": {{ '/banggia.html' | absolute_url | jsonify }},
+    "note": "Giá có thể thay đổi theo thời điểm/mẫu xe.",
+    "rows": [
+      {"model": "Xe số Honda Wave", "day": "150k", "week": "600k - 700k", "month": "1.200k", "deposit": "2 - 3 triệu"},
+      {"model": "Xe ga Honda Vision", "day": "200k", "week": "800k - 1.000k", "month": "1.800k - 2.000k", "deposit": "4 - 5 triệu"},
+      {"model": "Xe ga Air Blade", "day": "200k", "week": "800k", "month": "1.400k", "deposit": "3 triệu"},
+      {"model": "Xe ga giá rẻ (Click / Mio)", "day": "150k", "week": "600k - 700k", "month": "1.000k - 1.200k", "deposit": "2 triệu"}
+    ],
+    "delivery_fee": "20k – 50k tùy quãng đường/điểm hẹn"
+  },
+  "documents": {
+    "source": {{ '/thutuc.html' | absolute_url | jsonify }},
+    "summary": "CCCD hoặc hộ chiếu, giấy phép lái xe phù hợp loại xe (người nước ngoài: hộ chiếu và bằng lái quốc tế hợp lệ), tiền đặt cọc theo dòng xe và hợp đồng thuê."
+  },
+  "key_pages": {
+    "monthly_rental": {{ '/' | absolute_url | jsonify }},
+    "pricing": {{ '/banggia.html' | absolute_url | jsonify }},
+    "procedures": {{ '/thutuc.html' | absolute_url | jsonify }},
+    "vehicles": {{ '/loaixe.html' | absolute_url | jsonify }},
+    "faq": {{ '/faq.html' | absolute_url | jsonify }},
+    "contact": {{ '/lienhe.html' | absolute_url | jsonify }},
+    "llms": {{ '/llms.txt' | absolute_url | jsonify }}
+  }
+}

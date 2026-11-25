@@ -8,6 +8,21 @@ matrix_id: 281
 primary_keyword: "chụp vết xước xe thuê"
 hub_parent: huong-dan
 hub_category: an-toan-su-co
+seo_hub: kinh-nghiem
+quick_answer: "Nên chụp sáu góc chuẩn: hai bên hông, mốp trước và đầu xe, đuôi xe và cốp, hai bánh cùng phần che bánh, đồng hồ kèm giấy tờ xe. Chụp ngay lúc nhận và chụp lại đúng sáu góc lúc trả để so trực tiếp; vết có trong ảnh gốc là vết cũ."
+qa:
+  - q: "Chụp đủ bộ ảnh xe thuê mất bao lâu?"
+    a: "Khoảng ba phút cho bộ sáu góc nếu làm theo trình tự cố định. Ba phút ở mỗi đầu, lúc nhận và lúc trả, giúp tranh chấp về vết xước khép lại bằng ảnh thay vì bằng tranh cãi."
+  - q: "Xe thuê có sẵn nhiều vết cũ thì ghi nhận thế nào cho rõ?"
+    a: "Chụp cận riêng từng vết. Nếu xe có từ ba vết cũ trở lên, ghi số thứ tự vết lên một tờ giấy đặt cạnh xe trong ảnh cận để hai bên đọc cùng một số thay vì mô tả chênh nhau."
+  - q: "Vùng nào trên xe dễ bị quy là vết xước mới nhất?"
+    a: "Phần che gần bánh xe, nơi đá bắn tạo vết nhiều, nên ảnh gốc vùng này là quý nhất. Mốp trước cũng là vùng hay xước vì mỗi lần đổ xe là một lần cấn."
+  - q: "Nhận xe lúc trời chập choạng thì chụp vết xước thế nào?"
+    a: "Bật đèn pha hoặc đưa xe ra chỗ đủ sáng để chụp, vì ảnh thiếu sáng không hiện được vết xước khi cần đối chiếu. Sau đó gửi bộ ảnh cho nơi thuê qua tin nhắn để cả hai bên cùng giữ bản gốc."
+  - q: "Xe được giao tận nơi thì nên chụp ảnh vào lúc nào?"
+    a: "Chụp trước khi người giao rời đi; còn nhận tại điểm thuê thì chụp ngay tại điểm trước khi di chuyển. Như vậy mọi vết có sẵn đều được hai bên cùng chứng kiến."
+  - q: "Lúc trả xe phát hiện vết xước mới thật thì làm gì?"
+    a: "Chụp cận vết đó và lập biên bản ngay tại điểm trả, đừng rời đi khi chưa có ghi nhận. Phần bồi thường và đối chiếu cọc nên dựa trên biên bản này cùng thỏa thuận trong hợp đồng."
 ---
 Bộ ảnh sáu góc là bằng chứng mạnh nhất khi tranh chấp vết xước, nhưng chụp kiểu lung tung thì lúc cần vẫn thiếu đúng góc bị hỏi. Bài này định nghĩa sáu góc chuẩn, chụp trong ba phút.
 
@@ -38,6 +53,8 @@ Chụp đồng hồ công tơ mét, kim nhiên liệu, và toàn bộ giấy t�
 Trước khi giao xe, chụp lại đủ sáu góc và so với bộ gốc ngay trên điện thoại: vết có trong ảnh gốc là vết cũ, cách đối chiếu đã trình bày trong bài chụp ảnh xe trước khi thuê. Có vết mới thật thì chụp cận và lập biên bản tại chỗ, phần thỏa thuận bồi thường đã phân trong bài [chi phí hư hỏng khi thuê xe máy]({{ '/blog/chi-phi-hu-hong-khi-thue-xe-may/' | relative_url }}), và đừng rời điểm trả khi chưa có ghi nhận, khung đối chiếu cọc nằm trong bài tiền cọc thuê xe máy Hà Nội.
 
 Trường hợp trời chập choạng khi nhận xe, bật đèn pha để chụp các góc, vì ảnh thiếu sáng không hiện được vết xước khi cần đối chiếu, phần kinh nghiệm chụp theo khung giờ đã nêu trong bài thuê xe máy Hà Nội ban đêm, và nên gửi bộ ảnh cho nơi thuê qua tin nhắn để cả hai bên cùng có bản gốc. Khi thuê dài ngày, chụp lại bộ sáu góc vào giữa kỳ, vì vết xuất hiện trong khoảng này dễ gắn với đúng ngày thay vì để dồn đến cuối chuyến. Xe nhận tại điểm thì chụp ngay tại điểm trước khi di chuyển, còn xe giao tận nơi thì chụp trước khi người giao rời đi, phần thủ tục nhận xe đã trình bày trong bài [thuê xe máy Hà Nội giao tận nơi]({{ '/blog/thue-xe-may-ha-noi-giao-tan-noi/' | relative_url }}).
+
+Với người [thuê xe máy dài hạn tại Hà Nội]({{ '/' | relative_url }}), bộ sáu góc ảnh chụp lúc nhận, giữa kỳ và lúc trả là cách gọn nhất để giữ lịch sử tình trạng xe suốt thời gian sử dụng.
 
 ## Kết luận
 

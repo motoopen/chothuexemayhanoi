@@ -8,6 +8,19 @@ matrix_id: 90
 primary_keyword: "thuê xe 50cc hà nội giao tận nơi"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
+quick_answer: "Khi xe 50cc được giao tận nơi, hãy chốt trước địa chỉ và khung giờ cụ thể, kiểm tra ga, phanh, đèn còi, lốp trong khoảng năm phút trước mặt người giao, nhận đủ giấy tờ, hợp đồng và chụp hiện trạng xe. Điểm và cách trả xe cũng nên chốt ngay từ lúc đặt."
+qa:
+  - q: "Phí giao xe 50cc tận nơi ở Motoopen khoảng bao nhiêu?"
+    a: "Motoopen giao xe tận nơi khu vực nội thành với phí khoảng 20k–50k tùy quãng đường và điểm hẹn; nhận tại cửa hàng 114 Nguyễn Văn Cừ, Long Biên thì không mất phí giao. Nên chốt mức cụ thể theo địa chỉ khi đặt."
+  - q: "Thấy xe giao đến có lỗi thì nên làm gì?"
+    a: "Nói ngay với người giao để đổi xe hoặc hẹn xử lý trong ngày, đừng nhận rồi mới báo sau. Khi đã nhận xe, rất khó chứng minh tình trạng lúc giao, nhất là khi không có ảnh bàn giao."
+  - q: "Ở ngõ nhỏ xe không vào được thì nhận xe giao tận nơi thế nào?"
+    a: "Chốt hẹn ở đầu ngõ và ra nhận, đồng thời báo điều này ngay từ lúc đặt để người giao tính đúng thời gian. Lưu sẵn số điện thoại liên hệ khi giao đến để hai bên gặp nhau nhanh."
+  - q: "Chuyển khoản tiền cọc khi nhận xe tại nhà cần lưu ý gì?"
+    a: "Chỉ chuyển tới người hoặc tài khoản đã ghi trong hợp đồng hay giấy nhận xe, và giữ lại biên lai chuyển khoản. Ở Motoopen, mức cọc tùy dòng xe, xem bảng giá hoặc hỏi khi đặt."
+  - q: "Nhận xe ở khách sạn có nên nhờ lễ tân nhận giúp không?"
+    a: "Không nên. Hãy chốt điểm giao là sảnh hay trước cửa và ghi người nhận là chính bạn, để tự kiểm tra xe, ký giấy tờ và chụp hiện trạng ngay lúc bàn giao."
 ---
 Giao xe tận nơi là dịch vụ tiện, nhưng bàn giao tại cửa nhà hay khách sạn khác nhận xe tại điểm: không có mặt bằng để thử, mọi thứ phải làm gọn tại chỗ. Bài này là checklist bàn giao khi xe được giao tận nơi.
 
@@ -37,6 +50,8 @@ Tình huống một: khách chốt khung rõ, kiểm tra năm phút trước m�
 
 
 Tình huống một: khách ở ngõ nhỏ xe không vào được, chốt hẹn ở đầu ngõ và ra nhận, cách này nên báo trước từ lúc đặt để người giao tính đúng thời gian. Tình huống hai: khách ở khách sạn có bãi giữ riêng, hỏi trước giữ xe qua đêm ở bãi khách sạn có được tính phí thế nào, với 50cc thường là mục phí nhỏ nhưng đáng biết. Tình huống ba: khách muốn nhận tại điểm này trả tại điểm khác, hỏi phí chặng chuyển từ sớm vì có nơi gộp được vào gói dài. Nắm trước ba tình huống giúp lần giao tận nơi đầu tiên của bạn trôi suốt, không có bất ngờ tại cửa.
+
+Khi đặt giao tận nơi, chọn sẵn chiếc cụ thể trong [danh sách xe cho thuê]({{ '/loaixe.html' | relative_url }}) giúp người giao mang đúng dòng bạn cần ngay lần đầu.
 
 ## Kết luận
 

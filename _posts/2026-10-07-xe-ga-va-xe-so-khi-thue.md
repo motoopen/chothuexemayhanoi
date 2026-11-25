@@ -8,6 +8,19 @@ matrix_id: 160
 primary_keyword: "xe ga và xe số khi thuê"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-so
+quick_answer: "Xe ga chỉ cần vặn ga và phanh nên hợp phố đông, đèn đỏ liên tục; xe số phải cài số nhưng rẻ hơn, chịu đường xấu tốt và dễ sửa. Lịch trộn và hay mang đồ thì cốp xe ga đáng phần chênh; hãy chạy thử cả hai vài phút trước khi chọn."
+qa:
+  - q: "Người quen xe ga chuyển sang xe số có khó không?"
+    a: "Có chút bỡ ngỡ: người quen ga thường lúng túng khi cài số hoặc chết máy vài lần đầu. Hãy chạy thử khoảng năm phút tại quầy; nếu vẫn chưa tự tin, chọn xe ga sẽ an toàn hơn trong phố đông."
+  - q: "Xe số hay xe ga dễ sửa hơn khi hỏng giữa đường?"
+    a: "Xe số thường dễ sửa hơn, tiệm ven đường quen máy và phụ tùng phổ biến; xe ga đôi khi cần thợ chuyên hơn. Với lịch liên tỉnh hoặc kỳ thuê dài, độ dễ sửa của xe số là điểm cộng đáng tính."
+  - q: "Chở hai người thì xe ga hay xe số thoải mái hơn?"
+    a: "Xe ga yên dài thường dễ chịu hơn khi chở hai người, lại có cốp cất mũ và đồ. Xe số gọn và rẻ hơn nhưng hầu như không có cốp, đồ phải xếp sau chắn chân hoặc móc."
+  - q: "Ở Hà Nội cả tháng có nên thử cả xe ga lẫn xe số không?"
+    a: "Có thể hỏi. Một số nơi cho khách quen đổi loại giữa kỳ, còn ở Motoopen việc đổi xe giữa kỳ nên hỏi rõ khi đặt. Giá tháng tham khảo: Wave khoảng 1.200k, Click/Mio 1.000k–1.200k, Vision 1.800k–2.000k."
+  - q: "So chi phí thuê xe ga và xe số thế nào cho đúng?"
+    a: "Nên tính chi phí trọn kỳ, gồm giá thuê, xăng và khả năng sửa vặt, chứ đừng chỉ nhìn giá niêm yết ngày đầu. Ở Motoopen, giá ngày tham khảo từ 150k với xe số đến 200k với Vision, Air Blade."
 ---
 Xe ga và xe số phục vụ hai phong cách di chuyển khác nhau, và chọn sai làm kỳ thuê thêm mỏi tay chứ không thêm tiện. Bài này so thao tác và từng tình huống để bạn chốt nhanh.
 
@@ -30,6 +43,8 @@ Xe số rẻ hơn rõ về giá thuê và tốn xăng ít, xem cách so thật t
 ## Cốp, mũ và đồ đạc
 
 Xe ga gần như luôn có cốp, mũ cất vào được. Xe số hầu như không có, đồ xếp sau chắn chân hoặc móc, cách an toàn trong bài xe 50cc mang hành lý. Nếu bạn mang đồ thường xuyên, cốp là ưu tiên thật chứ không phải tiện nghi. Chở hai người thì ga yên dài dễ chịu hơn, xem tải trong bài [xe 50cc cho 2 người]({{ '/blog/xe-50cc-cho-2-nguoi/' | relative_url }}).
+
+Nếu bạn ở Hà Nội cả tháng và muốn chọn hẳn một loại xe cho việc đi lại hằng ngày, có thể tham khảo [thuê xe máy theo tháng]({{ '/' | relative_url }}) sau khi đã chạy thử cả hai.
 
 ## Kết luận
 

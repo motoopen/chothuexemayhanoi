@@ -8,6 +8,21 @@ matrix_id: 279
 primary_keyword: "kiểm tra đèn còi xi nhan xe thuê"
 hub_parent: huong-dan
 hub_category: an-toan-su-co
+seo_hub: kinh-nghiem
+quick_answer: "Khi nhận xe thuê, hãy thử trong khoảng một phút: đèn pha sáng đều, đèn hậu, xi nhan trái phải ở cả trước và sau, còi kêu rõ và đèn phanh sáng khi bóp phanh. Lỗi nào phát hiện tại điểm nhận thì đề nghị đổi xe ngay và chụp ảnh ghi nhận."
+qa:
+  - q: "Nhận xe một mình thì kiểm tra đèn hậu và đèn phanh bằng cách nào?"
+    a: "Nhờ người ở điểm nhận đứng phía sau, hoặc quay đuôi xe về phía tường để thấy ánh đèn hắt lại khi bật đèn và bóp phanh. Đèn phanh phải sáng mỗi lần bóp vì đó là tín hiệu cho xe phía sau."
+  - q: "Đèn pha xe thuê ngả vàng đục có đáng lo không?"
+    a: "Có, đó thường là dấu bóng đèn đã chai, khiến tầm nhìn thực tế ngắn hơn bạn tưởng. Với chuyến đường dài nhiều ngày, nên đề nghị nơi thuê cho đổi xe ngay trong ngày đầu nếu đèn pha đã ngả vàng."
+  - q: "Xi nhan hỏng giữa đường thì có nên đi tiếp không?"
+    a: "Nên giảm tốc, ra hiệu bằng tay khi rẽ và ghé điểm dừng an toàn, rồi gọi nơi thuê để được hướng dẫn. Thiếu xi nhan hoạt động khi chuyển hướng là vi phạm theo quy định hiện hành, nên đừng cố đi xa với xi nhan hỏng."
+  - q: "Xe số cũ và xe điện cần chú ý gì riêng về đèn, xi nhan?"
+    a: "Xe số cũ dễ bị ốm công tắc xi nhan, nên gạt vài lần để nghe tiếng và xem đèn nháy đều. Với xe điện, hãy thử đèn ở đủ hai chế độ vì mạch đèn gọn dễ cháy."
+  - q: "Nhận xe tối hôm trước để sáng sớm đi thì cần lưu ý gì về đèn?"
+    a: "Thử đèn ngay tại điểm nhận buổi tối, đừng đợi sáng, vì khi trời đã sáng rất khó đánh giá độ sáng của đèn. Nếu định đi nhiều đêm liên tiếp, mang theo một cuộn băng chống nước nhỏ phòng giắc đèn lỏng khi mưa."
+  - q: "Còi xe thuê thế nào thì được coi là đạt?"
+    a: "Còi phải kêu rõ, giòn và không bị khàn. Bóp thử ngay khi nhận xe cùng lúc với kiểm đèn và xi nhan; còi yếu là lỗi nên báo để đổi xe hoặc ghi nhận trước khi đi."
 ---
 Đèn, còi và xi-nhan là bộ phận khiến người khác biết bạn ở đâu, và trên xe thuê chúng hỏng lẻ tẻ hơn mọi thứ khác. Thử đủ từng cái trước khi rời điểm nhận chỉ mất một phút.
 
@@ -36,6 +51,8 @@ Xe điện đèn gọn dễ cháy mạch, thử đủ hai chế độ, phần đ
 Đèn hoặc xi nhan hỏng giữa đường thì giảm tốc, ra hiệu bằng tay khi rẽ, và ghé điểm dừng an toàn. Gọi nơi thuê qua trang liên hệ theo trình tự trong bài [xe thuê bị hỏng giữa đường]({{ '/blog/xe-thue-bi-hong-giua-duong/' | relative_url }}), phần chi phí đã phân trong bài chi phí hư hỏng khi thuê xe máy. Trả đúng giờ, khung phụ phí nằm trong bài phí trả xe muộn thuê xe máy.
 
 Trường hợp nhận xe vào buổi tối hôm trước cho sáng sớm đi, hãy thử đèn ngay tại điểm nhận chứ đừng đợi sáng, vì đèn là thứ duy nhất bạn không thử được khi trời đã sáng, phần kinh nghiệm nhận xe sớm đã trình bày trong bài [thuê xe máy Hà Nội nhận xe sớm]({{ '/blog/thue-xe-may-ha-noi-nhan-xe-som/' | relative_url }}), và các dòng xe điện cần kiểm thêm đèn pha tự động. Nếu định đi nhiều đêm liên tiếp, mang theo một cuộn băng chống nước nhỏ, vì mưa đêm là nguyên nhân phổ biến khiến giắc đèn lỏng và đèn chớp tắt giữa chừng. Với xe chạy đường dài nhiều ngày, nên đề nghị nơi thuê cho đổi xe ngay trong ngày đầu nếu đèn pha đã ngả vàng, vì ánh ngả vàng làm tầm nhìn thực tế ngắn hơn thấy.
+
+Ngoài đèn và còi, phần kiểm tra phanh, lốp cùng việc chụp ảnh tình trạng xe lúc bàn giao được gom lại trong [quy trình nhận xe và ký hợp đồng]({{ '/huongdan.html' | relative_url }}) mà bạn có thể xem trước.
 
 ## Kết luận
 

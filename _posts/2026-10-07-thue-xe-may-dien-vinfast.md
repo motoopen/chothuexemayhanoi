@@ -8,6 +8,7 @@ matrix_id: 95
 primary_keyword: "thuê xe máy điện vinfast"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Xe máy điện VinFast là dòng xe được nhiều khách hỏi đến khi tìm thuê xe ở Hà Nội vì thương hiệu quen thuộc và mạng lưới hỗ trợ rộng. Nhưng chính vì được hỏi nhiều, cái tên VinFast đôi khi được dùng chung chung cho nhiều mẫu khác nhau, khiến khách đặt xe này rồi nhận xe kia. Bài viết này liệt kê những gì cần xác minh trước khi thuê, từ mẫu xe cụ thể đến chính sách hỗ trợ.
 

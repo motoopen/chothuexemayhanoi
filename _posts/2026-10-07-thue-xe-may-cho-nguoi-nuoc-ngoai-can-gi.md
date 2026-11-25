@@ -8,6 +8,19 @@ matrix_id: 225
 primary_keyword: "thuê xe máy cho người nước ngoài cần gì"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: di-lam-dai-han
+quick_answer: "Người nước ngoài thuê xe máy ở Hà Nội cần chuẩn bị hộ chiếu còn hiệu lực kèm thị thực hợp lệ, giấy phép lái phù hợp theo quy định Việt Nam, phương án đặt cọc và thanh toán, và nên đặt trước kèm địa chỉ khách sạn để được giao xe tận nơi."
+qa:
+  - q: "Có cần mang bản gốc hộ chiếu khi ký hợp đồng thuê xe không?"
+    a: "Có. Nên photo sẵn trang thông tin hộ chiếu để trình nhanh, nhưng vẫn mang bản gốc khi ký, vì bên cho thuê ghi thông tin hộ chiếu và thị thực vào hợp đồng trước khi giao xe."
+  - q: "Không mang tiền Việt thì thanh toán tiền thuê xe thế nào?"
+    a: "Nên hỏi trước nơi thuê có nhận thanh toán quốc tế không, hoặc có điểm đổi tiền gần đó không. Với Motoopen, hình thức thanh toán nên hỏi rõ khi đặt qua điện thoại hoặc Zalo 0857 255 868."
+  - q: "Khách nước ngoài chưa có bằng lái phù hợp thì có lựa chọn nào?"
+    a: "Có thể cân nhắc nhóm xe 50cc hoặc xe điện nếu quy định cho phép với trường hợp của bạn, hoặc đi xe có tài xế để khỏi lo bằng lái. Nên kiểm tra quy định hiện hành và hỏi nơi thuê trước khi đặt."
+  - q: "Gửi địa chỉ thế nào để được giao xe đúng chỗ?"
+    a: "Gửi địa chỉ khách sạn bằng tiếng Việt khi đặt trước, kèm loại xe, ngày nhận và ngày trả, để nơi thuê chuẩn bị đủ và giao tận sảnh. Nếu chưa quen giao thông, hẹn nhận xe buổi sáng vắng để chạy thử quanh khu."
+  - q: "Xe hỏng giữa đường thì khách nước ngoài nên làm gì?"
+    a: "Gọi ngay số hỗ trợ của nơi thuê đã lưu từ trước, và đưa sẵn địa chỉ bằng tiếng Việt như khách sạn, điểm trả xe để người hỗ trợ tìm nhanh. Cách tính các sửa chữa nhỏ nên được hỏi và ghi vào hợp đồng từ lúc thuê."
 ---
 Khách nước ngoài hoàn toàn thuê được xe máy ở Hà Nội, nhưng cần chuẩn bị sớm vài thứ: giấy tờ tùy thân, giấy phép lái đúng quy định, và cách thanh toán. Bài này giúp bạn có đủ thứ trước ngày nhận xe.
 
@@ -32,6 +45,8 @@ Khách nước ngoài thường đặt cọc bằng tiền mặt hoặc giữ ng
 Với khách nước ngoài, đặt trước là cách tốt nhất: gửi địa chỉ khách sạn bằng tiếng Việt qua trang liên hệ, nêu rõ loại xe, ngày nhận và ngày trả, để nơi thuê chuẩn bị đầy đủ và giao tận sảnh. Nhận tại khách sạn giúp bạn khỏi mô tả địa điểm qua điện thoại, và nếu chưa quen giao thông Hà Nội, hãy nhận xe vào buổi sáng vắng để chạy thử quanh khu trước khi lăn ra đường lớn.
 
 Một điều nữa đáng chuẩn bị là ứng phó khi hỏng xe giữa đường: hỏi trước số điện thoại hỗ trợ của nơi thuê, và nhờ họ ghi sẵn trong hợp đồng phần sửa nhỏ như vá lỗ hay thay mũ được tính thế nào. Với khách mới đến, nên chép sẵn vài địa chỉ quen bằng tiếng Việt như khách sạn và điểm trả xe, để trình cho người hỗ trợ nhanh hơn. Chuẩn bị trước các phần này giúp kỳ thuê của bạn tránh được những vòng đi lại không đáng có giữa phố lạ.
+
+Nếu bạn sang Hà Nội làm việc hoặc học tập nhiều tháng, hãy tìm hiểu [thuê xe máy theo tháng ở Hà Nội]({{ '/' | relative_url }}) để khỏi làm lại thủ tục sau mỗi lần gia hạn.
 
 ## Kết luận
 

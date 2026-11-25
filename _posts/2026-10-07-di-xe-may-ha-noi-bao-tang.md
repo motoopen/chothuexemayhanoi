@@ -8,6 +8,7 @@ matrix_id: 265
 primary_keyword: "đi xe máy hà nội bảo tàng"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
+seo_hub: hanh-trinh
 ---
 Hà Nội có nhóm bảo tàng nằm rải từ phố cổ tới vành đai, và xe máy là phương tiện hợp để chạy hội lộ trong một ngày. Nhưng bảo tàng khác quán cà phê: giờ mở cửa khép lịch, và mỗi điểm cần một hai tiếng bên trong.
 

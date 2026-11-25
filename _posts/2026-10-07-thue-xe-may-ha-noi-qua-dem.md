@@ -8,12 +8,25 @@ matrix_id: 33
 primary_keyword: "thuê xe máy hà nội qua đêm"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+seo_hub: gia-coc
+quick_answer: "Thuê qua đêm có thể bị tính trọn một ngày theo khung 24 giờ từ lúc nhận, hoặc theo mức nửa ngày hay mức qua đêm riêng nếu cửa hàng có. Hãy hỏi rõ khung tính từ giờ nào tới giờ nào, giờ mở cửa hai đầu và trách nhiệm giữ xe qua đêm."
+qa:
+  - q: "Nhận xe buổi tối ở Motoopen muộn nhất lúc mấy giờ?"
+    a: "Cửa hàng Motoopen tại 114 Nguyễn Văn Cừ, Long Biên mở cửa 09:00–21:00 hằng ngày, nên nhận xe tại cửa hàng cần trước giờ đóng cửa. Nếu muốn nhận hoặc trả ngoài khung này, hãy hỏi rõ khi đặt."
+  - q: "Để xe thuê qua đêm ở đâu cho an toàn?"
+    a: "Tốt nhất là trong sân có khóa của nơi bạn ở hoặc bãi gửi có người trông. Trước đó, hỏi rõ trách nhiệm nếu xe bị mất cắp hay hư hỏng qua đêm, kể cả mức khấu trừ theo hợp đồng."
+  - q: "Tối chỉ đi một chuyến ngắn thì có nên nhận xe từ tối hôm trước không?"
+    a: "Thường không đáng. Nếu tối đó bạn chỉ đi một chuyến ngắn, cân nhắc thuê từ sáng hôm sau để khung rơi trọn vào ngày dùng nhiều. Chỉ nên nhận tối hôm trước khi lịch hôm sau bắt đầu rất sớm."
+  - q: "Làm ca tối thường xuyên thì thuê lẻ qua đêm hay thuê tháng?"
+    a: "Nên hỏi gói dài ngày. Thuê lẻ từng khung qua đêm cộng dồn nhanh chóng vượt giá gói tuần hoặc tháng; tại Motoopen, giá tháng tham khảo khoảng 1–2 triệu tùy dòng xe và được chốt khi liên hệ."
+  - q: "Thuê xe điện qua đêm cần hỏi gì về pin?"
+    a: "Hỏi mức pin khi nhận, điểm sạc gần chỗ ở và cách giữ pin qua đêm, vì nhiệt độ thấp và thời gian để lâu có thể ảnh hưởng mức hiển thị. Nếu chặng sáng hôm sau dài, nên sạc trước khi đi."
 ---
 Nhu cầu thuê xe qua đêm, nhận buổi tối hôm trước và trả sáng hôm sau, là khung rất hay gặp nhưng dễ bị tính hớ nếu không hiểu cách cửa hàng tính thời gian. Bài này giúp bạn nắm rõ cơ chế trước khi ký.
 
 ## Khung qua đêm tính thế nào
 
-Tùy cửa hàng, khung qua đêm có thể tính trọn một ngày theo khung hai mứ tư giờ từ lúc nhận, hoặc tính theo mức riêng cho khung ngắn ngủn. Nghĩa là nhận lúc tám giờ tối và trả lúc chín giờ sáng hôm sau, khoảng mười ba tiếng, có nơi tính trọn một ngày, có nơi tính mức nửa ngày hoặc mức qua đêm riêng nếu có. Cách chắc nhất là hỏi rõ hai câu: khung của tôi tính từ giờ nào tới giờ nào, và khung ngắn như vậy có mức tính riêng không. Mức giá các gói nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Tùy cửa hàng, khung qua đêm có thể tính trọn một ngày theo khung hai mươi tư giờ từ lúc nhận, hoặc tính theo mức riêng cho khung ngắn ngủn. Nghĩa là nhận lúc tám giờ tối và trả lúc chín giờ sáng hôm sau, khoảng mười ba tiếng, có nơi tính trọn một ngày, có nơi tính mức nửa ngày hoặc mức qua đêm riêng nếu có. Cách chắc nhất là hỏi rõ hai câu: khung của tôi tính từ giờ nào tới giờ nào, và khung ngắn như vậy có mức tính riêng không. Mức giá các gói nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
 
 ## Hỏi trước về nhận tối và trả sớm
 
@@ -30,6 +43,8 @@ Nhận bảy giờ tối, trả tám giờ sáng hôm sau: nếu tính trọn m�
 ## Kinh nghiệm cho khách hay thuê qua đêm thường xuyên
 
 Với nhóm khách hay cần xe qua đêm, ví dụ làm ca tối về muộn đều đặn trong tuần, thuê lẻ từng khung qua đêm cộng dồn nhanh chóng vượt giá gói tuần hoặc tháng. Trong trường hợp này, hỏi luôn gói dài ngày cho dòng xe đang dùng, vì giá quy đổi mỗi đêm giảm rõ kể cả khi ban ngày xe chỉ để ở nhà. Với khách chọn xe điện cho ca tối, hỏi cửa hàng về biện pháp pin qua đêm, vì nhiệt độ thấp và thời gian để dài ảnh hưởng mức hiển thị, kinh nghiệm chi tiết nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}). Quen một điểm nhận cố định cũng giúp mọi khung qua đêm đều nhận trả nhanh, không phải làm thủ tục lại từ đầu.
+
+Với khách cần xe qua đêm đều đặn trong tuần, [thuê xe máy tháng Hà Nội]({{ '/' | relative_url }}) giúp khỏi phải chốt lại khung nhận trả mỗi tối.
 
 ## Kết luận
 

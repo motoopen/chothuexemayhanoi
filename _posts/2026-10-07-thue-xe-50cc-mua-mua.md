@@ -8,6 +8,21 @@ matrix_id: 83
 primary_keyword: "thuê xe 50cc mùa mưa"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
+quick_answer: "Khi thuê xe 50cc mùa mưa, cần ưu tiên ba điểm: lốp còn rãnh sâu và đủ căng, phanh ăn đều để bóp nhịp sớm trên đường ướt, và tầm nhìn sạch với kính mũ được lau, đèn bật cả ban ngày. Nên mang theo áo mưa hai mảnh, túi nilon và lên lịch dư thời gian."
+qa:
+  - q: "Làm sao biết lốp xe 50cc còn đủ an toàn để đi mưa?"
+    a: "Nhìn rãnh lốp khi nhận xe: rãnh còn sâu thì thoát nước tốt, rãnh đã mòn thì dễ trượt trên đường ướt. Kiểm tra thêm căng bánh, vì bánh non làm giảm độ bám. Nếu lốp mòn rõ, nên đề nghị đổi chiếc khác trước khi đi."
+  - q: "Đi xe 50cc ngày mưa nên mặc áo mưa loại nào?"
+    a: "Nên chọn áo mưa hai mảnh. Áo mưa trùm một mảnh dễ bị gió thổi bay lên, che tầm nhìn và vướng tay lái. Áo hai mảnh gấp gọn còn vừa hộc nhỏ của xe 50cc, tiện mang theo suốt mùa mưa."
+  - q: "Có nên chạy xe qua vũng nước lớn khi trời mưa không?"
+    a: "Nếu buộc phải qua, hãy đi thẳng và chậm, không bẻ lái giữa vũng vì bên dưới có thể có ổ gà. Qua xong, bóp nhẹ phanh vài nhịp để lá phanh ráo nước trước khi cần phanh thật."
+  - q: "Phanh xe thuê kêu rít khi trời mưa thì nên làm gì?"
+    a: "Nên báo nơi thuê sớm. Tiếng rít khi phanh vào mùa mưa thường nặng hơn và rủi ro hơn ngày nắng, vì phanh ướt vốn đã ăn kém. Khách thuê ở Motoopen có thể báo qua điện thoại hoặc Zalo 0857 255 868."
+  - q: "Đang chạy gặp mưa to, có nên vừa đi vừa mặc áo mưa?"
+    a: "Không nên. Hãy giảm tốc, tìm mái che, dừng hẳn vào vỉa hè rồi mới mặc áo mưa. Nếu mưa kèm gió lớn, chờ khoảng mười lăm phút thường an toàn hơn cố đi tiếp khi tầm nhìn kém."
+  - q: "Thuê xe 50cc cả mùa mưa để đi làm cần chuẩn bị gì thêm?"
+    a: "Nên để sẵn trong hộc xe áo mưa gấp gọn, túi nilon bọc điện thoại và giấy tờ, khăn lau kính mũ. Nếu thuê theo tháng, hãy hỏi rõ khi đặt về lịch bảo dưỡng và cách báo khi phanh, lốp có dấu hiệu bất thường giữa kỳ."
 ---
 Mùa mưa ở Hà Nội kéo dài và mưa đến bất chợt, nên thuê xe 50cc trong mùa này cần chuẩn bị hơn ngày nắng. Ba điểm ảnh hưởng an toàn nhất là lốp, phanh và tầm nhìn. Bài này chỉ cách rà từng điểm và chuẩn bị cho ngày mưa.
 
@@ -34,6 +49,8 @@ Tình huống một: khách có áo mưa sẵn trong hộc, mưa tới mặc và
 ## Mưa to bất chợt giữa chặng nên làm gì
 
 Khi mưa ập tới giữa đường, thứ nhất giảm tốc ngay nhưng không phanh gấp, tìm mái che gần nhất và dứt xe vào vỉa hè hẳn hoi. Thứ hai mặc áo mưa sau khi dừng hẳn, không vừa đi vừa kéo, thao tác giữa đường đông là tự đặt mình vào rủi ro. Thứ ba, nếu mưa quá to kèm gió, chờ mười lăm phút, hầu hết cơn mưa Hà Nội ngớt nhanh, và chờ dưới mái luôn nhanh hơn đi trong mưa tầm nhìn kém. Gửi tin báo trễ khung trả cho nơi thuê ngay khi biết mình sẽ chậm, vì báo trước là tin nhắn, báo sau là phụ phí.
+
+Nếu cần xe đi lại suốt mùa mưa, bạn có thể xem [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}) để so dòng 50cc có hộc đựng áo mưa với các dòng khác trước khi chốt.
 
 ## Kết luận
 

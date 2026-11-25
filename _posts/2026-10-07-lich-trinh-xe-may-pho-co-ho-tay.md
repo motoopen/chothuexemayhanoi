@@ -8,6 +8,7 @@ matrix_id: 258
 primary_keyword: "lịch trình xe máy phố cổ hồ tây"
 hub_parent: kinh-nghiem
 hub_category: hanh-trinh
+seo_hub: hanh-trinh
 ---
 Đi từ Phố Cổ ra Hồ Tay chỉ chừng mười ki lômét, nhưng ai cứ điểm theo danh sách tham quan đều kết thúc buổi với cảm giác chạy vòng cả buổi. Bài này giúp xếp các điểm thành một trục để đi một chiều, không chạy qua lại.
 

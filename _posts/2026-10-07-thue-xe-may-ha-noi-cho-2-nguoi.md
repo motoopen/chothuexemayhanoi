@@ -8,6 +8,19 @@ matrix_id: 17
 primary_keyword: "thuê xe máy hà nội cho 2 người"
 hub_parent: thue-xe
 hub_category: bat-dau-thue
+seo_hub: kinh-nghiem
+quick_answer: "Đi hai người nên chọn dòng xe ga phổ thông có khung vững, phanh chắc và sàn để rộng, báo trước khi đặt rằng bạn đi hai người, chuẩn bị đủ hai mũ đạt chuẩn và chia chặng lái để giữ sức; kiểm tra phanh, lốp kỹ hơn vì tải nặng."
+qa:
+  - q: "Dòng xe nào ở Motoopen hợp chở hai người đi chặng dài?"
+    a: "Nên chọn một dòng xe ga phổ thông như Honda Vision hoặc Air Blade thay vì dòng nhỏ gọn vốn hợp đi một mình, rồi nhờ cửa hàng tư vấn thêm theo tải thực tế. Nếu chỉ đi phố ngắn, dòng nhỏ hơn vẫn dùng được."
+  - q: "Có nên hỏi thêm mũ bảo hiểm cho người ngồi sau khi đặt xe không?"
+    a: "Có. Người ngồi sau cũng cần mũ đạt chuẩn và vừa đầu như người lái, nên khi đặt xe hãy hỏi kèm mũ thứ hai, lý tưởng là đúng cỡ. Việc có sẵn mũ dự phòng hay không và có tính phí không nên hỏi rõ khi đặt."
+  - q: "Hai người có thể thay nhau lái một xe thuê không?"
+    a: "Có thể chia chặng lái nếu cả hai đều có giấy phép lái phù hợp và quen dòng xe, nhưng nên báo trước và được nơi thuê đồng ý. Người đổi lái cũng cần nắm rõ trách nhiệm ghi trong hợp đồng thuê."
+  - q: "Người ngồi sau nên mặc gì khi đi xe máy thuê?"
+    a: "Nên đi giày kín, tránh váy hoặc đầm dài dễ cuốn vào bánh, và chuẩn bị găng tay, áo mưa khi trời lạnh hoặc mưa vì người ngồi sau thường chịu gió nhiều hơn. Ngồi chắc, bám tay nắm và không đung đưa khi xe vào cua."
+  - q: "Chở thêm một người thì nên thử những gì trước khi rời điểm nhận?"
+    a: "Tải nặng làm phanh và giảm xóc làm việc nhiều hơn, nên hãy thử phanh trước sau ở tốc độ thấp, nhờ cửa hàng xác nhận áp suất lốp, kiểm tra đèn, còi, gương và chụp ảnh hiện trạng xe kể cả vết xước trước khi đi."
 ---
 Đi hai người trên một xe máy thuê là tình huống phổ biến, từ cặp đôi dạo phố đến hai bạn cùng đi làm. Nhưng chọn sai dòng xe hoặc sắp sai chỗ ngồi sẽ mỏi cả hai và khó xử lý trên đường. Bài này giúp bạn chọn xe theo tải và hành trình khi đi cùng nhau.
 
@@ -30,6 +43,8 @@ Tải nặng làm phanh và giảm xóc làm việc nhiều hơn, nên khi nhậ
 ## Hành trình dài và gói thuê phù hợp
 
 Với cặp đôi định chạy ven Hà Nội hoặc đi nhiều ngày, chọn dòng xe êm và cân nhắc gói tuần thay vì tính ngày lẻ. Kinh nghiệm các khoản ngoài giá thuê nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}). Gửi xe qua đêm ở bãi có người trông thay vì để ngoài đường, vì hai người thường mang nhiều đồ hơn. Chốt trước các điểm dừng nghỉ có chỗ để xe rộng, vì hai người kèm hành lý cần chỗ đỗ rộng hơn một mình.
+
+Nếu hai bạn dùng chung một xe để đi làm hằng ngày trong nhiều tuần, có thể so sánh thêm với [gói thuê xe máy theo tháng]({{ '/' | relative_url }}) thay vì gia hạn theo từng ngày.
 
 ## Kết luận
 

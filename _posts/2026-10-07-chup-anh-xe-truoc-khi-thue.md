@@ -8,6 +8,19 @@ matrix_id: 234
 primary_keyword: "chụp ảnh xe trước khi thuê"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: thu-tuc-hop-dong
+quick_answer: "Nên chụp, vì ảnh có thời gian trong máy là bằng chứng khách quan nhất khi hai bên nhớ khác nhau về vết xước hay phụ kiện. Chỉ mất khoảng hai phút: bốn góc toàn thân, cận các điểm dễ va, biển số, đồng hồ km, mức xăng và phụ kiện đi kèm."
+qa:
+  - q: "Cần chụp bao nhiêu ảnh khi nhận xe thuê là đủ?"
+    a: "Khoảng mười ảnh là đủ cho phần lớn trường hợp: bốn góc toàn thân đứng cách xe khoảng hai bước, cận hai bên hông, tay lái, gương, biển số, rồi đồng hồ km, mức xăng và phụ kiện."
+  - q: "Có nên quay video thay vì chỉ chụp ảnh xe không?"
+    a: "Nên quay thêm, nhất là với xe điện. Một video ngắn quay vòng quanh xe ghi được cả đèn và màn hình đang hoạt động, bổ sung cho bộ ảnh tĩnh khi cần đối chiếu lúc trả xe."
+  - q: "Chụp ảnh xe xong có cần gửi cho cửa hàng không?"
+    a: "Có. Gửi vài ảnh quan trọng qua tin nhắn ngay lúc nhận giúp hai bên cùng giữ bản và có dấu thời gian đúng ngày bàn giao. Với Motoopen, bạn có thể gửi qua Zalo theo số 0857 255 868."
+  - q: "Xe có sẵn vết xước thì nên xử lý thế nào trước khi ký?"
+    a: "Chụp riêng từng vết và nhờ người giao xe xác nhận cùng lúc, tốt nhất là ghi các vết có sẵn vào hợp đồng. Như vậy khi trả xe, vết cũ không bị tính vào trách nhiệm của bạn."
+  - q: "Lúc trả xe cần chụp lại những gì?"
+    a: "Chụp lại một bộ giống lúc nhận: toàn thân, biển số, đồng hồ và phụ kiện. Đối chiếu hai bộ ảnh trước khi ký biên nhận trả xe, chỉ ký khi mọi khoản khớp và giữ lại tin nhắn xác nhận trả xe."
 ---
 Mười bức ảnh lúc nhận xe có thể cứu bạn vài trăm nghìn lúc trả xe, vì ảnh là bằng chứng khách quan nhất khi hai bên nhớ khác nhau về vết xước. Bài này cho bạn checklist góc chụp gọn trong hai phút.
 
@@ -36,6 +49,8 @@ Chụp xong, gửi vài ảnh quan trọng nhất cho nơi thuê qua tin nhắn 
 Trả xe cũng chụp lại một bộ tương tự: toàn thân, biển số, đồng hồ, phụ kiện, đúng như lúc nhận. Đối chiếu hai bộ ảnh trước khi ký biên nhận trả xe, và chỉ ký khi mọi khoản khớp. Kiểm xe trả theo checklist trong bài checklist nhận xe 50cc hoặc bài [checklist nhận xe máy điện]({{ '/blog/checklist-nhan-xe-may-dien/' | relative_url }}) tùy dòng xe, và giữ tin nhắn xác nhận trả xe của nơi thuê.
 
 Một thói quen nhỏ nữa giúp ảnh phát huy tác dụng tối đa: chụp ảnh ngay tại nơi nhận xe, với xe đứng cạnh người giao xe nếu có thể, thay vì chụp sau khi đã đi vắng. Nhờ vậy, thời gian và bối cảnh trong ảnh khớp đúng khoảnh khắc bàn giao, không ai tranh cãi được rằng ảnh chụp muộn hơn. Với xe điện, thêm một video ngắn quay vòng quanh xe cũng rất đáng làm, vì video ghi được cả đèn và màn hình đang hoạt động.
+
+Với kỳ thuê kéo dài cả tháng, chẳng hạn khi chọn [gói thuê xe máy theo tháng]({{ '/' | relative_url }}), bộ ảnh ngày nhận càng quan trọng vì xe trải qua nhiều lần gửi giữ trước khi trả.
 
 ## Kết luận
 

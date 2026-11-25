@@ -8,6 +8,19 @@ matrix_id: 154
 primary_keyword: "thuê xe máy cho 2 người hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-tay-ga
+quick_answer: "Chở hai người nên chọn xe đủ tải, yên dài phẳng và cốp đủ cho hai mũ, thường là dòng ga trung trở lên như Air Blade. Ngồi thử cả hai người tại quầy, kiểm phanh và áp suất lốp kỹ hơn thường lệ, rồi lái chậm, phanh sớm hơn khi đi một mình."
+qa:
+  - q: "Khi đặt xe để chở đôi nên báo những thông tin gì?"
+    a: "Nên nói rõ hai người đi, cân nặng tổng gần đúng và khối hành lý để nơi thuê chọn đúng dòng. Với Motoopen, có thể báo qua điện thoại hoặc Zalo 0857 255 868 trước ngày nhận xe."
+  - q: "Vì sao lốp non nguy hiểm khi chở hai người?"
+    a: "Vì tải nặng làm lốp non dễ xệ và nóng nhanh, xe phản ứng chậm và khó kiểm soát hơn. Nên bóp thử hoặc nhờ kiểm áp suất theo mức ghi trên tem xe trước khi chở đôi."
+  - q: "Người ngồi sau cao thì nên chọn xe thế nào?"
+    a: "Nên chọn dòng yên dài hơn. Nếu người sau cao mà yên ngắn, tư thế gò và hai người chen khớp gối, đi lâu rất mỏi; hãy ngồi thử cả hai tại quầy và đổi dòng lớn hơn thay vì chịu đựng."
+  - q: "Đi hai người mà mang nhiều hành lý thì xử lý sao?"
+    a: "Nên gửi vali về khách sạn trước rồi hai người đi xe nhẹ. Đồ không vừa cốp thì treo chịu lực hoặc đeo người, không để lỏng giữa hai người vì dễ mất thăng bằng."
+  - q: "Chở hai người có nên đi vào giờ cao điểm không?"
+    a: "Nên tránh nếu có thể. Kẹt xe kéo dài khiến người sau mỏi và xe tải nặng tốn xăng rõ hơn; dồn các chặng chính vào giờ vắng giúp hành trình đôi nhẹ nhàng hơn."
 ---
 Chở hai người đổi hẳn yêu cầu với xe thuê: tải, yên và cốp đều phải tính. Bài này chỉ cách chọn đúng theo cả ba, và nguyên tắc lái an toàn cho hành trình đôi.
 
@@ -22,6 +35,8 @@ Yên hẹp khiến người sau trượt về trước mỗi lần phanh, mỏi 
 ## Chọn theo cốp và hành lý
 
 Hai người nghĩa là hai mũ và đồ đôi, cốp phải rộng. Dòng Lead mạnh về cốp như bài [thuê xe Lead Hà Nội]({{ '/blog/thue-xe-lead-ha-noi/' | relative_url }}), cách xếp đồ trong cốp nằm trong bài xe 50cc mang hành lý. Đồ không cho vào cốp thì treo chịu lực hoặc đeo người, không để lỏng giữa hai người. Nếu hành lý nhiều, cân thêm dịch vụ đưa vali về khách sạn trước rồi hai người đi xe nhẹ, an toàn hơn chở quá tải.
+
+Nếu muốn xem trước dòng nào yên dài và đủ tải cho hai người, bạn có thể tham khảo [các dòng xe đang cho thuê]({{ '/loaixe.html' | relative_url }}) rồi ngồi thử cùng người đi chung tại quầy.
 
 ## Kiểm tra kỹ hơn khi chở đôi
 

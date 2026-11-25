@@ -8,6 +8,7 @@ matrix_id: 120
 primary_keyword: "thuê xe máy điện gần ga hà nội"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Ga Hà Nội nằm giữa khu phố, quanh ga nhiều nơi cho thuê xe, và khách tàu đến thường cần xe đi tiếp. Với xe máy điện, trình tự nhận xe quanh ga và xử lý hành lý có vài điểm đáng tính. Bài này chỉ cách làm gọn.
 

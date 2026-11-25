@@ -8,6 +8,19 @@ matrix_id: 243
 primary_keyword: "xe thuê bị trầy xước"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: thu-tuc-hop-dong
+quick_answer: "Hãy mở ảnh chụp ngày nhận xe và đối chiếu đúng vị trí từng vết: vết đã có trong ảnh là vết cũ. Với vết mới, phân biệt hao mòn thông thường với hỏng hóc, thỏa thuận bồi thường theo giá sửa thật và lập biên bản ngay tại điểm trả."
+qa:
+  - q: "Làm sao phân biệt vết xước cũ và vết mới trên xe thuê?"
+    a: "So theo vị trí với ảnh ngày nhận, không theo cảm nhận. Vết ma sát khi đổ xe thường có sơn bong và vệt trượt, khác vết cũ đã phủ bụi; chụp thêm ảnh cận lúc trả để so màu, độ dài và hướng vết."
+  - q: "Vết xước nhỏ do sử dụng bình thường có phải đền không?"
+    a: "Thường không. Vết nhỏ như vết kê xe hay cát bắn thường nằm trong mức hao mòn chấp nhận được; nhóm cần thỏa thuận bồi thường là móp, nứt, vỡ hoặc trầy sâu tới kim loại, tùy điều khoản hợp đồng."
+  - q: "Nơi thuê đòi mức phạt cố định cho vết xước thì có nên đồng ý ngay?"
+    a: "Chưa nên. Bạn có thể đề nghị bồi thường theo chi phí sửa thật, ví dụ hỏi giá sơn lại ở tiệm gần đó, và yêu cầu hóa đơn hoặc ảnh sau khi sửa để biết khoản giữ từ cọc được dùng đúng chỗ."
+  - q: "Ngày nhận xe quên chụp ảnh thì còn cách nào bảo vệ mình không?"
+    a: "Khó hơn nhiều, vì việc đối chiếu mất một nửa giá trị. Hãy dựa vào mục tình trạng xe ghi trong hợp đồng nếu có, yêu cầu lập biên bản khi trả, và từ lần sau chụp đủ góc ngay lúc nhận."
+  - q: "Nơi thuê từ chối lập biên bản lúc trả xe thì làm gì?"
+    a: "Tự quay video toàn bộ xe và buổi trả, có hiển thị thời gian, rồi lưu lại tin nhắn trao đổi. Không rời điểm trả khi tình trạng xe chỉ được thống nhất bằng lời nói, vì khiếu nại sau đó sẽ thiếu căn cứ."
 ---
 Phát hiện vết xước trên xe thuê lúc trả là tình huống căng nhất trong mọi lần thuê, vì bên cho thuê nói mới, bạn nói cũ. Bài này trình bày cách đối chiếu để kết luận được dựa trên bằng chứng chứ không phải tranh cãi.
 
@@ -34,6 +47,8 @@ Dù hai bên đồng thuận hay chưa, yêu cầu một biên bản ghi tình t
 ## Phòng tránh cho các lần thuê sau
 
 Ba thói quen để không dính vào tranh chấp: chụp ảnh đủ góc ngày nhận, không đỗ xe sát tường hay gốc cây gồ ghề, và báo ngay trong tin nhắn khi có sự va chạm nhỏ thay vì để đến lúc trả. Với các dòng xe hay được thuê, mức kiểm tra tương tự đã nêu trong bài [thuê xe Future Hà Nội]({{ '/blog/thue-xe-future-ha-noi/' | relative_url }}) về rà tình trạng trước khi nhận.
+
+Khi đặt xe, hãy hỏi cách ghi các vết có sẵn vào hợp đồng, đồng thời xem trước giấy tờ cần mang trên trang [hướng dẫn giấy tờ thuê xe]({{ '/thutuc.html' | relative_url }}).
 
 ## Kết luận
 

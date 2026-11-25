@@ -8,6 +8,19 @@ matrix_id: 27
 primary_keyword: "thuê xe máy hà nội 1 tháng"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+seo_hub: thue-xe-thang
+quick_answer: "Thuê xe máy một tháng ở Hà Nội nên yêu cầu báo giá trọn gói gồm giá tháng theo loại xe, tiền cọc và điều kiện hoàn, phí giao nhận hai đầu, nhiên liệu và các khoản phát sinh, rồi hỏi rõ bảo dưỡng, thời gian đổi xe khi hỏng và cách tính khi kết thúc sớm."
+qa:
+  - q: "Thuê xe máy một tháng ở Motoopen giá tham khảo bao nhiêu?"
+    a: "Theo bảng giá đang công bố, thuê tháng khoảng 1–2 triệu tùy dòng xe: Click/Mio 1.000k–1.200k, Wave khoảng 1.200k, Air Blade khoảng 1.400k, Vision 1.800k–2.000k. Giá có thể thay đổi và được chốt khi liên hệ."
+  - q: "Phí giao xe đầu kỳ và nhận xe cuối kỳ có tính riêng không?"
+    a: "Ở một số nơi có, hoặc chỉ miễn phí trong bán kính giới hạn. Hãy hỏi rõ phí cho cả hai đầu và phạm vi áp dụng. Với Motoopen, tự nhận xe tại cửa hàng thì không mất phí giao, còn phí nhận lại xe cuối kỳ nên hỏi khi đặt."
+  - q: "Có được cho người khác mượn xe thuê theo tháng không?"
+    a: "Không nên tự ý. Việc cho người khác dùng xe cần được bên cho thuê đồng ý và ghi trong hợp đồng, vì người đứng tên hợp đồng chịu trách nhiệm với xe. Người lái thay cũng cần bằng lái phù hợp với loại xe."
+  - q: "Thuê cả tháng nên chọn xe số hay xe ga?"
+    a: "Đi chủ yếu trong nội đô thì xe số hoặc xe ga nhỏ gọn là đủ, dễ luồn lách và ít tốn xăng. Nếu cuối tuần hay đi đường trường, nên ưu tiên xe đủ công suất, tư thế ngồi thoải mái; với một tháng, độ bền quan trọng hơn vẻ ngoài."
+  - q: "Có nên ghi lại chi phí xăng trong tháng thuê không?"
+    a: "Nên. Ghi chi phí xăng và gửi xe theo tuần giúp bạn phát hiện sớm bất thường, chẳng hạn xe tốn xăng hơn bình thường, để kịp báo bên cho thuê kiểm tra trước khi hết hợp đồng."
 ---
 Thuê xe máy trọn một tháng ở Hà Nội thường phục vụ người ở dài hạn: đi làm, học, công tác dài ngày hoặc đang chờ xe riêng. Với thời gian một tháng, chi phí không nằm ở giá niêm yết mà ở tổng các khoản và chất lượng điều khoản. Bài này là checklist để bạn hỏi đủ trước khi ký hợp đồng tháng.
 
@@ -26,6 +39,8 @@ Câu trả lời cho sáu câu hỏi này cũng là thước đo độ chuyên n
 ## Chọn loại xe cho thuê tháng
 
 Với một tháng sử dụng, độ bền và tiết kiệm nhiên liệu quan hơn vẻ ngoài. Nếu lịch trình chủ yếu trong nội đô, xe số hoặc xe ga nhỏ gọn dễ luồn lách và đổ xăng ít. Nếu có chặng đường trường cuối tuần, ưu tiên xe đủ công suất và tư thế ngồi thoải mái. Xe điện cũng là lựa chọn cho quãng đường ngắn đều đặn, nhưng cần bàn rõ về pin và điểm sạc với bên cho thuê; so sánh các loại xe tại loại xe. Với người mới thuê, các bước chuẩn bị chung nằm trong bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}).
+
+Để hình dung một gói tháng được tổ chức thế nào trước khi hỏi giá, bạn có thể đọc trang [thuê xe máy tháng Hà Nội]({{ '/' | relative_url }}) của Motoopen.
 
 ## Trong suốt tháng thuê
 

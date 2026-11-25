@@ -1,4 +1,5 @@
 ---
+css_in_head: true
 ---
 <!doctype html>
 <html lang="vi">
@@ -22,13 +23,11 @@
 
   <link rel="canonical" href="https://motoopen.github.io/chothuexemayhanoi/banggia.html">
 
-  <link rel="icon" href="https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg" sizes="32x32">
-  <link rel="apple-touch-icon" href="https://i.postimg.cc/PrKmHvJX/IMG-5272.jpg">
+  <link rel="icon" href="/chothuexemayhanoi/assets/images/brand/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="/chothuexemayhanoi/assets/images/brand/apple-touch-icon-180.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link id="fa-css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="preload" href="/chothuexemayhanoi/assets/vendor/fontawesome/fa-solid-900-subset.woff2" as="font" type="font/woff2" crossorigin>
+  <link id="fa-css" rel="stylesheet" href="/chothuexemayhanoi/assets/vendor/fontawesome/icons.css">
 
 
   <meta property="og:locale" content="vi_VN">
@@ -50,6 +49,8 @@
 
   
   <link rel="stylesheet" href="/chothuexemayhanoi/assets/css/pages/banggia.css">
+  <link rel="stylesheet" href="/chothuexemayhanoi/assets/css/shared-shell.css">
+  <link rel="stylesheet" href="/chothuexemayhanoi/assets/css/apple.css">
   {% include schema/static-page.html name="Bảng giá thuê xe máy" %}
 </head>
 
@@ -165,10 +166,10 @@
           <p class="sx-desc">Thuê xe máy Hà Nội: xe số, xe ga, 50cc và xe điện — ảnh thật, giá rõ ràng, giao nhanh nội
             thành.</p>
 
-          <div class="sx-grid" role="list">
-            <article class="sx-card" role="listitem">
+          <div class="sx-grid">
+            <article class="sx-card">
               <figure class="sx-thumb">
-                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5418.jpeg" alt="Xe số Honda/Yamaha cho thuê theo ngày, tuần, tháng tại Hà Nội" loading="lazy" decoding="async" width="800" height="800">
+                <picture><source type="image/webp" srcset="/chothuexemayhanoi/assets/images/vehicles/IMG_5418-320.webp 320w, /chothuexemayhanoi/assets/images/vehicles/IMG_5418-600.webp 600w" sizes="(max-width: 640px) 46vw, 300px"><img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5418.jpeg" alt="Xe số Honda/Yamaha cho thuê theo ngày, tuần, tháng tại Hà Nội" loading="lazy" decoding="async" width="600" height="600"></picture>
                 <span class="sx-badge">Từ 150k/ngày</span>
               </figure>
               <div class="sx-body">
@@ -180,9 +181,9 @@
               </div>
             </article>
 
-            <article class="sx-card" role="listitem">
+            <article class="sx-card">
               <figure class="sx-thumb">
-                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5421.jpeg" alt="Xe ga Air Blade cho thuê, phù hợp đi phố và đi xa, giao tận nơi" loading="lazy" decoding="async" width="800" height="800">
+                <picture><source type="image/webp" srcset="/chothuexemayhanoi/assets/images/vehicles/IMG_5421-320.webp 320w, /chothuexemayhanoi/assets/images/vehicles/IMG_5421-600.webp 600w" sizes="(max-width: 640px) 46vw, 300px"><img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5421.jpeg" alt="Xe ga Air Blade cho thuê, phù hợp đi phố và đi xa, giao tận nơi" loading="lazy" decoding="async" width="600" height="600"></picture>
                 <span class="sx-badge">200k/ngày</span>
               </figure>
               <div class="sx-body">
@@ -194,9 +195,9 @@
               </div>
             </article>
 
-            <article class="sx-card" role="listitem">
+            <article class="sx-card">
               <figure class="sx-thumb">
-                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5419.jpeg" alt="Xe ga Honda Vision cho thuê tại Hà Nội, giao nhanh Phố Cổ, Hoàn Kiếm" loading="lazy" decoding="async" width="800" height="800">
+                <picture><source type="image/webp" srcset="/chothuexemayhanoi/assets/images/vehicles/IMG_5419-320.webp 320w, /chothuexemayhanoi/assets/images/vehicles/IMG_5419-600.webp 600w" sizes="(max-width: 640px) 46vw, 300px"><img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5419.jpeg" alt="Xe ga Honda Vision cho thuê tại Hà Nội, giao nhanh Phố Cổ, Hoàn Kiếm" loading="lazy" decoding="async" width="600" height="600"></picture>
                 <span class="sx-badge">200k/ngày</span>
               </figure>
               <div class="sx-body">
@@ -208,9 +209,9 @@
               </div>
             </article>
 
-            <article class="sx-card" role="listitem">
+            <article class="sx-card">
               <figure class="sx-thumb">
-                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5426.jpeg" alt="Xe máy 50cc không cần bằng lái cho thuê tại Hà Nội" loading="lazy" decoding="async" width="800" height="800">
+                <picture><source type="image/webp" srcset="/chothuexemayhanoi/assets/images/vehicles/IMG_5426-320.webp 320w, /chothuexemayhanoi/assets/images/vehicles/IMG_5426-600.webp 600w" sizes="(max-width: 640px) 46vw, 300px"><img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5426.jpeg" alt="Xe máy 50cc không cần bằng lái cho thuê tại Hà Nội" loading="lazy" decoding="async" width="600" height="600"></picture>
                 <span class="sx-badge">Giá như Vision</span>
               </figure>
               <div class="sx-body">
@@ -222,9 +223,9 @@
               </div>
             </article>
 
-            <article class="sx-card" role="listitem">
+            <article class="sx-card">
               <figure class="sx-thumb">
-                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5420.jpeg" alt="Xe đạp điện cho thuê, tiện lợi đi lại trong phố Hà Nội" loading="lazy" decoding="async" width="800" height="800">
+                <picture><source type="image/webp" srcset="/chothuexemayhanoi/assets/images/vehicles/IMG_5420-320.webp 320w, /chothuexemayhanoi/assets/images/vehicles/IMG_5420-600.webp 600w" sizes="(max-width: 640px) 46vw, 300px"><img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5420.jpeg" alt="Xe đạp điện cho thuê, tiện lợi đi lại trong phố Hà Nội" loading="lazy" decoding="async" width="600" height="600"></picture>
                 <span class="sx-badge">Giá như Vision</span>
               </figure>
               <div class="sx-body">
@@ -236,9 +237,9 @@
               </div>
             </article>
 
-            <article class="sx-card" role="listitem">
+            <article class="sx-card">
               <figure class="sx-thumb">
-                <img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5431.jpeg" alt="Xe tay côn cho thuê đi phượt tại Hà Nội, máy khoẻ" loading="lazy" decoding="async" width="800" height="800">
+                <picture><source type="image/webp" srcset="/chothuexemayhanoi/assets/images/vehicles/IMG_5431-320.webp 320w, /chothuexemayhanoi/assets/images/vehicles/IMG_5431-600.webp 600w" sizes="(max-width: 640px) 46vw, 300px"><img src="/chothuexemayhanoi/assets/images/vehicles/IMG_5431.jpeg" alt="Xe tay côn cho thuê đi phượt tại Hà Nội, máy khoẻ" loading="lazy" decoding="async" width="600" height="600"></picture>
                 <span class="sx-badge">350k/ngày</span>
               </figure>
               <div class="sx-body">
@@ -258,7 +259,7 @@
         </section>
         <section id="mapp-banggia">
           <h2 class="mapp-h2">Bảng giá thuê xe máy</h2>
-          <div class="mapp-table-wrap" role="table" aria-label="Bảng giá thuê xe máy">
+          <div class="mapp-table-wrap" role="region" tabindex="0" aria-label="Bảng giá thuê xe máy">
             <table class="mapp-table">
               <thead>
                 <tr>
@@ -371,6 +372,7 @@
     </section>
 
 
+    {% include page-guides.html key="banggia" %}
   </main>
 
   <div id="miniApp" style="position:fixed; right: max(16px, env(safe-area-inset-right)); bottom:92px; z-index:var(--z-fab);">
@@ -405,7 +407,6 @@
 
   <script src="/chothuexemayhanoi/assets/js/pages/banggia-contact-links.js"></script>
 
-  <script src="/chothuexemayhanoi/assets/js/pages/banggia-fontawesome-fallback.js"></script>
   <script src="/chothuexemayhanoi/assets/js/pwa.js"></script>
     <script defer src="https://motoopen.github.io/chothuexemayhanoi/motoai_v39_modelfirst_nomarkdown_nolink.js"></script>
 </body>

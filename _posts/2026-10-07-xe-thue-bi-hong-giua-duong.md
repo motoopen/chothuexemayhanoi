@@ -8,6 +8,19 @@ matrix_id: 237
 primary_keyword: "xe thuê bị hỏng giữa đường"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
+seo_hub: thu-tuc-hop-dong
+quick_answer: "Hãy đưa xe vào lề an toàn, tự kiểm nhanh các lỗi nhỏ như công tắc, xăng hoặc pin, rồi gọi nơi cho thuê trước khi tự sửa. Chỉ sửa ở nơi được đồng ý, chụp ảnh tình trạng xe cùng hóa đơn và chốt mọi thỏa thuận bằng tin nhắn."
+qa:
+  - q: "Tự sửa xe thuê ở tiệm bên ngoài có được hoàn tiền không?"
+    a: "Chưa chắc. Nếu không gọi trước mà tự khắc phục, khoản chi có thể không được hoàn vì hợp đồng thường ghi điều kiện sửa chữa; hãy hỏi nơi thuê khoản nào họ chi trả, sửa ở đâu được công nhận và có cần hóa đơn không."
+  - q: "Xe thuê chết máy thì nên tự kiểm tra những gì trước?"
+    a: "Xem khóa và công tắc nguồn có bị tắt nhầm không, còn xăng hoặc pin không, rồi thử đề lại vài lần với nút gió đúng vị trí. Với xe điện, kiểm khóa điện và màn hình báo lỗi; nhiều lỗi chỉ mất vài giây để xử lý."
+  - q: "Khi gọi báo hỏng nên mô tả thế nào để được hỗ trợ nhanh?"
+    a: "Mô tả hiện tượng cụ thể thay vì nói chung là xe hỏng, ví dụ đề không nổ, xe chết khi vặn ga hay đèn báo sáng nhưng xe không chạy. Nếu được yêu cầu, quay một video ngắn hiện trường để nơi thuê chẩn đoán từ xa."
+  - q: "Xe hỏng nặng giữa kỳ thuê thì phần tiền thuê còn lại xử lý ra sao?"
+    a: "Hỏi nơi thuê phương án: cử người lấy xe và tính lại phần chưa dùng, hoặc đổi xe khác. Chốt thỏa thuận bằng tin nhắn có thời gian, giữ hóa đơn đi lại phát sinh, và không bỏ xe ở chỗ vắng mà không báo ai."
+  - q: "Hỏng do xe đến hạn bảo dưỡng thì người thuê có phải chịu không?"
+    a: "Cần phân định rõ. Ghi lại biểu hiện ngay khi xảy ra và hỏi xe đã chạy bao lâu từ lần bảo dưỡng gần nhất để tách phần mòn tự nhiên với phần hỏng do sử dụng; xe của Motoopen được bảo dưỡng định kỳ, trách nhiệm cụ thể đối chiếu theo hợp đồng."
 ---
 Xe chết máy giữa phố là chuyện thường gặp với xe thuê, nhưng xử sai một bước có thể biến hỏng nhỏ thành khoản đền lớn. Bài này cho bạn checklist xử lý theo đúng thứ tự.
 
@@ -34,6 +47,8 @@ Nếu xe hỏng nặng không sửa nhanh được, hỏi nơi thuê về cách 
 Một mẹo nhỏ nữa: khi gọi nơi thuê, mô tả hiện tượng cụ thể thay vì nói chung xe hỏng, ví dụ đề không nổ, xe chết khi bóp tay ga, hay đèn báo sáng nhưng xe không chạy. Mô tả rõ giúp họ đoán đúng lỗi và hướng dẫn nhanh hơn, đôi khi chỉ là bạn gạt nhầm công tắc hoặc hết xăng. Nếu nơi thuê yêu cầu gửi video hiện trường, quay ngắn mười giây cũng đủ để họ chẩn đoán từ xa.
 
 Một lưu ý cuối về bảo dưỡng: hỏng nhỏ như săng mềm hay xiềng lỏng nhiều khi là dấu hiệu xe sắp đến hạn bảo dưỡng chứ không phải lỗi của bạn. Ghi lại biểu hiện ngay khi xảy ra và hỏi nơi thuê xem xe đã chạy bao nhiêu km từ lần bảo dưỡng gần nhất, vì thông tin này giúp phân định rõ phần mòn tự nhiên với phần hỏng do sử dụng, và cọc của bạn được xử lý công bằng hơn.
+
+Ngoài giấy tờ ghi trên trang [quy trình thuê xe tại Motoopen]({{ '/thutuc.html' | relative_url }}), bạn nên hỏi thêm số hỗ trợ và cách xử lý khi xe hỏng ngay từ lúc ký hợp đồng.
 
 ## Kết luận
 

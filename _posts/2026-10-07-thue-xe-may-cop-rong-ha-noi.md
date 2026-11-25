@@ -8,6 +8,19 @@ matrix_id: 152
 primary_keyword: "thuê xe máy cốp rộng hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-tay-ga
+quick_answer: "Muốn cốp rộng, hãy đếm khối đồ trước rồi mới chọn dòng: Lead dẫn đầu nhóm ga nhỏ về cốp, tiếp theo là các dòng ga lớn, còn xe số gần như không có cốp. Khi dùng, đặt đồ nặng dưới, đồ mềm trên và mang đồ giá trị theo người."
+qa:
+  - q: "Xe số có cốp để đồ không?"
+    a: "Gần như không. Xe số chỉ có phần chắn chân để túi nhỏ, nên ai mang nhiều đồ nên chọn xe ga có cốp dưới yên. Túi để ở chắn chân cần giữ chắc để khỏi xô lệch khi qua ổ gà."
+  - q: "Motoopen có dòng xe ga nào để chọn theo cốp?"
+    a: "Bảng giá Motoopen đang công bố có xe ga Vision, Air Blade và Click/Mio. Mỗi dòng và đời xe cốp khác nhau, nên báo khối hành lý khi đặt và mang mũ, túi thật của bạn thử vào cốp tại cửa hàng trước khi nhận."
+  - q: "Để hộ chiếu trong cốp xe khi đỗ có an toàn không?"
+    a: "Không nên. Đồ giá trị như hộ chiếu, máy ảnh nên đeo theo người hoặc để trong két khách sạn khi đỗ xe lâu. Cốp chỉ nên chứa mũ, áo mưa và những đồ ít giá trị."
+  - q: "Cốp như thế nào thì nên từ chối nhận xe?"
+    a: "Khi khóa kẹt hoặc đóng không kín, cánh cốp hờ không tự giữ mở, bên trong ẩm mốc hay bản lề lỏng. Những lỗi này khó sửa tại chỗ, nên xin xe khác ngay tại quầy thay vì nhận về."
+  - q: "Biết trước sẽ mua sắm nhiều thì có nên đổi xe cốp lớn giữa kỳ?"
+    a: "Nên chọn ngay dòng cốp lớn từ đầu. Đổi xe giữa kỳ tốn thời gian và đôi khi mất khung giá cũ; nếu biết trước sẽ mua sắm nhiều, hãy báo khi đặt để được giữ đúng dòng."
 ---
 Cốp rộng là ưu tiên số một nếu bạn thuê xe kèm hành lý, và chọn sai cốp là lỗi hay gặp nhất. Bài này chỉ cách chọn theo khối đồ, dòng xe cốp lớn nhất, và cách dùng cốp cho an toàn.
 
@@ -18,6 +31,8 @@ Cốp rộng là ưu tiên số một nếu bạn thuê xe kèm hành lý, và c
 ## Dòng xe cốp rộng nhất khi thuê
 
 Lead dẫn đầu nhóm ga nhỏ về cốp, tiếp theo là các dòng ga lớn như Air Blade và SH, tham khảo bài [thuê xe Air Blade Hà Nội]({{ '/blog/thue-xe-air-blade-ha-noi/' | relative_url }}) và thuê xe ga Hà Nội. Xe số gần như không có cốp, chỉ chắn chân để túi nhỏ, cách xếp an toàn trong bài xe 50cc mang hành lý. Xe máy điện cốp gọn hơn, cân trong bài xe máy điện và xe ga khi thuê nếu đồ của bạn vừa đủ. Khách đi hai người kèm đồ thì cốp lớn gần như bắt buộc.
+
+Muốn đặt các dòng xe ga cạnh nhau trước khi chọn theo cốp, bạn có thể xem [trang các loại xe]({{ '/loaixe.html' | relative_url }}) rồi báo khối hành lý khi gọi đặt.
 
 ## Cách sử dụng cốp an toàn
 

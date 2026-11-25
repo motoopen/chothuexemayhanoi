@@ -8,6 +8,7 @@ matrix_id: 104
 primary_keyword: "thuê xe máy điện tự lái hà nội"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Thuê xe tự lái nghĩa là bạn cầm lái và chịu trách nhiệm trong suốt thời gian thuê, nên giấy tờ và thao tác bàn giao là hai khâu quyết định trải nghiệm. Với dòng xe máy điện ở Hà Nội, khâu bàn giao lại có vài điểm riêng so với xe xăng. Bài viết này tóm tắt giấy tờ cần chuẩn bị và trình tự bàn giao nên tuân theo khi nhận xe tự lái.
 

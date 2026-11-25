@@ -8,6 +8,7 @@ matrix_id: 187
 primary_keyword: "thuê xe máy hoàng mai hà nội"
 hub_parent: khu-vuc
 hub_category: ha-noi-theo-khu-vuc
+seo_hub: khu-vuc
 ---
 Hoàng Mai là quận phía nam Hà Nội, nơi các trục lớn nối trung tâm với các khu phía nam chạy qua, và có các cụm dân cư mới mọc lên dọc trục. Đặc điểm của khu vực là quãng đường trong quận dài, và nhiều cư dân mỗi ngày di chuyển lên nội thành làm việc. Chọn điểm nhận xe đúng vị trí giúp bạn đỡ mất thời gian trên những chặng này.
 

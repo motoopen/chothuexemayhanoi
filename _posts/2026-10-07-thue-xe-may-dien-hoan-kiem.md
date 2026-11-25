@@ -8,6 +8,7 @@ matrix_id: 115
 primary_keyword: "thuê xe máy điện hoàn kiếm"
 hub_parent: loai-xe
 hub_category: xe-dien
+seo_hub: xe-dien
 ---
 Hoàn Kiếm là khu đi lại ngắn chặng nhiều, rất hợp xe máy điện, nhưng để cả ngày không lo pin thì cần lên kế hoạch sạc từ đầu. Bài này cho cách lập kế hoạch cho một ngày đi phố quanh khu Hoàn Kiếm.
 

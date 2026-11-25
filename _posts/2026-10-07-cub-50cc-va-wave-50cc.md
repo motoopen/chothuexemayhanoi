@@ -8,6 +8,19 @@ matrix_id: 77
 primary_keyword: "cub 50cc và wave 50cc"
 hub_parent: loai-xe
 hub_category: xe-50cc
+seo_hub: xe-50cc
+quick_answer: "Cub 50cc hợp người thích dáng cổ điển, ngồi thẳng lưng và máy êm; Wave 50cc nhẹ hơn, vặn ga bốc hơn và có cốp sau rộng, hợp người hay chở đồ. Cả hai đều số chân, yên thấp, nên chạy thử mỗi dòng một vòng trước khi chọn."
+qa:
+  - q: "Đã quen đi Wave thì chuyển sang Cub 50cc có khó không?"
+    a: "Gần như không. Cả hai dòng đều chuyển số bằng chân và phanh sau bằng bàn đạp, nên người quen dòng này có thể sang dòng kia gần như ngay. Khác biệt chủ yếu nằm ở dáng ngồi và cảm giác máy."
+  - q: "Đường nhiều dốc đê nên thuê Cub hay Wave 50cc?"
+    a: "Bài viết cho rằng Wave nhỉnh hơn về độ bốc khi lên dốc dài, còn trên phố bằng phẳng khác biệt nhỏ. Nếu lịch có nhiều dốc đê, nên chạy thử cả hai và chọn chiếc cụ thể có máy khỏe hơn, vì tình trạng từng chiếc cũng quan trọng."
+  - q: "Cần chở hàng nhỏ thường xuyên thì chọn Cub hay Wave?"
+    a: "Nên chọn Wave 50cc. Cốp sau của Wave rộng hơn rõ, dễ buộc thùng hàng hoặc khóa thùng hai bên, còn Cub cốp sau hẹp kiểu cổ chỉ chở được vài món. Với lịch chở đồ định kỳ, đây là yếu tố quyết định hơn phần chênh giá nhỏ."
+  - q: "Người lớn tuổi hoặc người thấp nên chọn Cub hay Wave?"
+    a: "Cả hai đều yên thấp, chân chạm đất chắc nên hợp người thấp và người lớn tuổi. Người quen phanh bàn đạp và thích dáng xưa thường thấy Cub tự nhiên hơn, còn ai quen xe kiểu mới sẽ thấy Wave gần thói quen hơn."
+  - q: "Cub 50cc có bền bằng Wave 50cc không?"
+    a: "Hai dòng đều thuộc nhóm bền của xe số nhỏ và ít hỏng vặt nếu bảo dưỡng đều. Điểm quyết định là tình trạng chiếc cụ thể, nên hỏi năm sử dụng, quãng đã chạy và lần bảo dưỡng gần nhất trước khi nhận."
 ---
 Cub và Wave là hai dòng xe số 50cc quen thuộc của người Việt, cùng nhẹ, bền và quen tay với nhiều khách lớn tuổi. Nhưng trải nghiệm sử dụng của hai dòng khác nhau ở vài điểm đáng kể. Bài này so từng khía cạnh để bạn chọn dòng khớp với thói quen đi xe của mình.
 
@@ -21,7 +34,7 @@ Cả hai đều chuyển số bằng chân và phanh sau bằng bàn đạp, nê
 
 ## Cốp và chở đồ
 
-Wave có cốp sau rộng hơn rõ, dễ buộc thùng hàng hoặc khóa hai thùng hai bên, nên khách đi chợ, chở hàng nhỏ thường chọn Wave. Cub cốp sau hẹp kiểu cổ, chở được vài món nhưng không thư thả như Wave. Nếu lịch của bạn có chở đồ đạc định kỳ, đây là điểm quyết định chứ không phải mức giá chêch nhỏ. Mức giá hai dòng nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
+Wave có cốp sau rộng hơn rõ, dễ buộc thùng hàng hoặc khóa hai thùng hai bên, nên khách đi chợ, chở hàng nhỏ thường chọn Wave. Cub cốp sau hẹp kiểu cổ, chở được vài món nhưng không thư thả như Wave. Nếu lịch của bạn có chở đồ đạc định kỳ, đây là điểm quyết định chứ không phải mức giá chênh lệch nhỏ. Mức giá hai dòng nằm ở trang [bảng giá]({{ '/banggia.html' | relative_url }}).
 
 ## Độ bền và bảo trì giữa kỳ
 
@@ -34,6 +47,8 @@ Tình huống một: khách trung niên đi lại chợ và trường, quen phan
 ## Nên thử cả hai dòng khi nhận
 
 Nhiều nơi cho thuê có sẵn cả Cub và Wave cùng lúc, nên tận dụng: xin chạy thử mỗi dòng một vòng ngắn quanh điểm nhận trước khi chốt. Cảm giác yên, độ côn và tiếng máy nói nhiều hơn mọi mô tả, và chỉ vài phút là bạn biết mình hợp dòng nào. Hỏi thêm năm sử dụng và tình trạng bảo trì của từng chiếc, vì cùng một dòng, chiếc được chăm đều và chiếc để lâu khác nhau rõ khi lên dốc. Chọn chiếc cụ thể khỏe, không chỉ chọn dòng trên giấy, đó là cách khách quen xe hay dùng để cả kỳ thuê đỡ vất.
+
+Nếu bạn định dùng Cub hoặc Wave cho cả kỳ ở Hà Nội lâu ngày, hãy hỏi kèm điều kiện bảo dưỡng giữa kỳ khi tìm hiểu [thuê xe máy dài hạn tại Hà Nội]({{ '/' | relative_url }}).
 
 ## Kết luận
 

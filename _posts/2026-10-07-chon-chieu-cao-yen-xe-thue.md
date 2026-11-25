@@ -8,6 +8,19 @@ matrix_id: 168
 primary_keyword: "chọn chiều cao yên xe thuê"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
+seo_hub: xe-tay-ga
+quick_answer: "Thử chiều cao yên trong khoảng hai phút bằng ba bước: ngồi chống chân, nghiêng xe hai bên và mô phỏng dừng đèn đỏ. Gót chân chạm đất được là đạt; nếu phải ngóc người hoặc trượt sang bên mới chạm đất thì yên quá cao, nên xin chỉnh hoặc đổi xe."
+qa:
+  - q: "Chân chạm đất đến mức nào thì yên xe được coi là vừa?"
+    a: "Ngón chân chạm đất ổn, gót chạm được là đạt, cả bàn chân chạm là trọn vẹn. Nếu phải ngóc người hay trượt mông sang một bên mới chạm đất, hoặc đầu gối cao ngang mặt yên khiến tư thế gò, chiếc xe đó không hợp bạn."
+  - q: "Có nên mang đúng đôi giày định đi khi ngồi thử xe thuê?"
+    a: "Nên. Đế giày dày hay mỏng thay đổi cảm giác chống chân thật, và quần dài rộng đôi khi vướng ghi đông khi lên xe. Thử bằng đúng giày và trang phục bạn sẽ dùng cả kỳ cho kết quả sát nhất."
+  - q: "Định chở thêm người thì cách thử chiều cao yên có khác không?"
+    a: "Có. Khi có người ngồi sau, cách chân chống và cách xe nghiêng thay đổi hoàn toàn, nên để người ấy ngồi sau ngay trong lần thử tại quầy. Nếu chân chống căng hơn hẳn khi chở đôi, nên cân dòng yên thấp hơn."
+  - q: "Khi đặt xe ở Motoopen nên báo gì để được chọn yên hợp?"
+    a: "Nên báo chiều cao, kinh nghiệm lái và việc có chở thêm người hay không qua điện thoại hoặc Zalo 0857 255 868. Motoopen có Vision, Air Blade, Click/Mio, xe 50cc và xe đạp điện, nên có thể gợi ý vài lựa chọn để bạn ngồi thử tại cửa hàng."
+  - q: "Đã chỉnh mà yên vẫn cao thì có nên nhận xe không?"
+    a: "Không nên, hãy đổi xe ngay tại quầy. Lót yên hay nới ghi đông chỉ bù được một chút; nếu vẫn căng chân, mỗi lần dừng đèn đỏ là một lần căng lặp lại suốt kỳ thuê, nhất là với người mới lái."
 ---
 Chiều cao yên đúng là ngồi lên là biết, và bài này cho quy trình thử xe trong hai phút để quyết chắc tại quầy thay vì đoán từ thông số.
 
@@ -26,6 +39,8 @@ Tại chỗ, nhấc mông khỏi yên rồi chống chân, giữ vài giây, l�
 ## Nhóm xe theo chiều cao yên
 
 Yên thấp nhất: 50cc và xe điện mini, tham khảo bài xe máy điện và xe 50cc khi thuê. Vừa phải: Vision, Air Blade, xem so sánh trong bài [thuê Air Blade hay Vision]({{ '/blog/air-blade-va-vision-khi-thue/' | relative_url }}). Cao: SH và dòng ga lớn, cân trong bài thuê SH hay Air Blade. Xe côn thể thao yên cao kèm trọng lượng, chỉ hợp người quen, xem thuê xe côn Hà Nội.
+
+Muốn biết trước dòng nào thuộc nhóm yên thấp hay vừa phải, bạn có thể xem [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}) rồi chọn sẵn hai ba mẫu để ngồi thử khi đến quầy.
 
 ## Chỉnh được gì sau khi thử
 

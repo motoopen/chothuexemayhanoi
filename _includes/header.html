@@ -1,10 +1,13 @@
-<link rel="stylesheet" href="{{ '/assets/css/shared-shell.css' | relative_url }}">
+{% unless page.css_in_head or layout.css_in_head %}<link rel="stylesheet" href="{{ '/assets/css/shared-shell.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/apple.css' | relative_url }}">{% endunless %}
+<script>try{var d=localStorage.getItem('darkModeEnabled');if(d===null)d=window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'true':'false';if(d==='true')document.body.classList.add('dark')}catch(e){if(window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches)document.body.classList.add('dark')}</script>
+<a class="skip-link" href="#main">Bỏ qua đến nội dung chính</a>
 {% assign sitecfg = site.data.site %}{% comment %} Homepage output is frozen by owner rule (original logo URL, no new attributes); other pages get the 5 KB local logo with explicit size. {% endcomment %}{% if page.url == "/" %}{% assign brand_logo = sitecfg.brand.logo %}{% assign logo_top_attrs = "" %}{% assign logo_drawer_attrs = "" %}{% else %}{% assign brand_logo = sitecfg.brand.logo_small | default: sitecfg.brand.logo | relative_url %}{% assign logo_top_attrs = ' width="38" height="38" decoding="async"' %}{% assign logo_drawer_attrs = ' width="52" height="52" loading="lazy" decoding="async"' %}{% endif %}
 <header class="topbar" id="topbar" role="banner">
-  <div class="brand">
-    <img src="{{ brand_logo }}" alt="{{ sitecfg.brand.name }}"{{ logo_top_attrs }}>
-    <h3>{{ sitecfg.brand.name }}</h3>
-  </div>
+  <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ sitecfg.brand.name }} – Trang chủ">
+    <img src="{{ brand_logo }}" alt="Logo Motoopen"{{ logo_top_attrs }}>
+    <span class="brand-name">{{ sitecfg.brand.name }}</span>
+  </a>
 
   <nav class="nav-links" role="navigation" aria-label="Main">
     {% for item in site.data.navigation.primary %}

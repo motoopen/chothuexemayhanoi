@@ -8,6 +8,19 @@ matrix_id: 48
 primary_keyword: "gia hạn thuê xe máy hà nội"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
+seo_hub: thue-xe-thang
+quick_answer: "Khi gia hạn thuê xe máy ở Hà Nội, hãy hỏi rõ giá mỗi ngày thêm và có ngưỡng nào chuyển sang gói tuần hoặc tháng rẻ hơn không, rồi chốt giờ trả mới, mức giá gia hạn và phụ phí trễ bằng tin nhắn hoặc ghi thêm vào hợp đồng."
+qa:
+  - q: "Giá gia hạn có bằng giá thuê ban đầu không?"
+    a: "Không phải lúc nào cũng bằng. Gói bạn đang giữ có thể là mức ưu đãi theo khung, còn phần gia hạn có khi tính theo giá ngày thường, nên hỏi lại giá mỗi ngày gia hạn trước khi đồng ý giữ xe thêm."
+  - q: "Nhắn một câu xin giữ xe thêm có đủ để gia hạn không?"
+    a: "Chưa đủ. Tin nhắn nên ghi rõ giờ trả mới, mức giá gia hạn và phụ phí nếu trễ tiếp, đồng thời được bên cho thuê xác nhận lại. Chụp màn hình và lưu cùng hợp đồng ban đầu để làm bằng chứng khi trả xe."
+  - q: "Đổi sang dòng xe khác lúc gia hạn thì tính thế nào?"
+    a: "Nên hỏi rõ điều kiện trước, vì có nơi coi việc đổi dòng là kết thúc hợp đồng cũ và mở hợp đồng mới, với cọc và thủ tục tính lại từ đầu. Hỏi luôn giá của dòng xe mới được tính từ ngày nào."
+  - q: "Chỉ cần thêm nửa ngày thì có cách tính riêng không?"
+    a: "Có thể có, tùy nơi. Nếu chỉ cần thêm nửa ngày, hãy hỏi mức tính theo nửa ngày trước khi gia hạn trọn ngày, vì một số nơi có khung tính linh hoạt hơn. Với Motoopen, cách tính phần lẻ nên hỏi rõ khi liên hệ."
+  - q: "Muốn gia hạn thuê xe ở Motoopen thì liên hệ thế nào?"
+    a: "Gọi hoặc nhắn Zalo 0857 255 868 ngay khi biết cần giữ xe thêm; cửa hàng ở 114 Nguyễn Văn Cừ, Long Biên mở cửa 09:00–21:00 hằng ngày. Báo sớm giúp giữ được xe, vì khung bạn muốn có thể đã có khách xếp lịch."
 ---
 Gia hạn giữa kỳ là nhu cầu thường gặp, nhưng nhiều người chỉ nhắn một câu giữ thêm rồi bất ngờ khi hóa đơn khác dự tính. Bài này nói cách hỏi lại giá và mốc thời gian khi gia hạn ở Hà Nội.
 
@@ -37,6 +50,8 @@ Một lần gia hạn gọn gồm ba bước nhanh. Bước một, gọi hoặc 
 
 
 Tình huống một: bạn cần thêm nửa ngày để kịp chạy việc sáng, lúc này nên hỏi mức tính theo nửa ngày nếu có, vì một số nơi có khung tính linh hoạt hơn giá ngày trọn. Tình huống hai: lịch của bạn có khả năng kéo dài nhưng chưa chắc, nên hỏi trước cách tính nếu phải giữ thêm, và ghi lại mức được báo hôm nay làm tham chiếu, vì mức gọi sau đó có thể khác. Tình huống ba: bạn muốn đổi sang dòng xe khác lúc gia hạn, lúc này nên hỏi rõ điều kiện, vì có nơi coi đây là kết thúc hợp đồng cũ và mở hợp đồng mới với cọc và thủ tục tính lại từ đầu. Nắm trước ba tình huống giúp bạn không bị bất ngờ với cách tính của từng nơi.
+
+Khi biết chắc lịch còn kéo dài, đọc qua cách [thuê xe máy theo tháng]({{ '/' | relative_url }}) giúp bạn chốt một lần thay vì gia hạn nhiều đoạn nhỏ.
 
 ## Kết luận
 
