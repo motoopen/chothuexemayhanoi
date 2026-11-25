@@ -9,6 +9,20 @@ primary_keyword: "thuê xe côn hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
 seo_hub: xe-so
+quick_answer: "Chỉ nên thuê xe côn khi bạn đã thuần thục lai côn trong đường đông, giữ xe trên dốc, phối ga số mượt và lấy côn theo phản xạ khi phanh gấp. Nếu chưa từng đi côn, đừng học trên xe thuê giữa phố Hà Nội; chọn xe ga sẽ an toàn hơn."
+qa:
+  - q: "Xe côn tay có hợp đi trong nội thành Hà Nội không?"
+    a: "Không hợp lắm. Đèn đỏ dày và nút giao chen chúc khiến lai côn liên tục rất mỏi, chỉ sai vài giây là chết máy giữa dòng xe; xe côn phát huy hơn trên đường trường và các tuyến đèo quanh Hà Nội."
+  - q: "Kiểm tra côn xe thuê bằng cách nào cho nhanh?"
+    a: "Vào số, giữ phanh rồi thả côn từ từ: xe phải tiến dần, không vọt và không trượt côn. Sau đó xem cáp côn không sứt, độ rơ hợp lý, rồi chạy thử lên xuống vài nấc số; số trễ hay văng nấc là lý do đổi xe."
+  - q: "Thuê xe côn cần bằng lái hạng nào?"
+    a: "Cần bằng lái đúng hạng với dung tích xe, vì xe côn hầu hết trên 50cc. Phân hạng theo dung tích có thể thay đổi theo luật mới, nên kiểm tra quy định hiện hành và hỏi cửa hàng chiếc xe thuộc nhóm nào trước khi đặt."
+  - q: "Hợp đồng thuê xe côn nên lưu ý điều khoản gì?"
+    a: "Nên ghi rõ trách nhiệm khi hư bộ số và côn, vì chi phí sửa các bộ phận này cao, đồng thời chụp tình trạng xe lúc nhận. Với Motoopen, mức cọc tùy dòng xe, xem bảng giá hoặc hỏi khi đặt."
+  - q: "Motoopen có cho thuê xe tay côn không?"
+    a: "Có, Motoopen có nhóm xe tay côn bên cạnh xe số, xe ga, xe 50cc và xe đạp điện. Mẫu cụ thể và tình trạng còn xe nên hỏi trước qua điện thoại hoặc Zalo 0857 255 868, nhất là khi thuê dịp cuối tuần."
+  - q: "Có nên nói thật trình độ lái khi đặt xe côn không?"
+    a: "Có. Nói thẳng trình độ giúp nơi thuê tư vấn đúng loại xe; nếu chưa chắc tay, hãy tập lai côn ở bãi trống trên xe của người quen trước, rẻ hơn nhiều so với một cú ngã giữa đường."
 ---
 Xe côn cho cảm giác lái thật nhất trong các loại xe thuê, nhưng cũng đòi hỏi thao tác nhiều nhất. Bài này liệt kê các kỹ năng bạn cần có trước khi thuê xe côn ở Hà Nội, và cách kiểm chiếc xe trước khi nhận.
 
@@ -31,6 +45,8 @@ Kiểm lai côn không trượt bằng cách vào số, giữ phanh và thả t�
 ## Giấy tờ và điều khoản
 
 Xe côn hầu hết trên 50 phân khối nên bắt buộc bằng lái A1, khác với nhóm 50cc không cần như bài xe 50cc có cần bằng lái không. Hợp đồng côn nên ghi rõ trách nhiệm hư bộ số và côn vì chi phí sửa cao. Khách quốc tế mang hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). Hỏi tồn kho trước qua trang liên hệ vì côn ít và thường kẹt cuối tuần.
+
+Nếu chưa chắc mình hợp xe côn hay nên quay về xe ga, trang [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}) mô tả riêng nhóm xe côn tay, xe số và xe ga để bạn so trước khi gọi đặt.
 
 ## Kết luận
 

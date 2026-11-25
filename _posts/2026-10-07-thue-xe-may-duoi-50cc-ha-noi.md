@@ -9,6 +9,18 @@ primary_keyword: "thuê xe máy dưới 50cc hà nội"
 hub_parent: loai-xe
 hub_category: xe-50cc
 seo_hub: xe-50cc
+quick_answer: "Để xác định đúng xe dưới 50cc, hãy hỏi cửa hàng dung tích xi lanh ghi trong giấy tờ xe ngay khi đặt, rồi đối chiếu với tốc độ tối đa thấp và khối lượng nhẹ khi ngồi thử. Xác định đúng giúp bạn chuẩn bị giấy tờ phù hợp và chọn xe khớp lộ trình."
+qa:
+  - q: "Xe gắn máy và xe máy khác nhau thế nào khi đi thuê?"
+    a: "Trên giấy tờ, nhóm xe dung tích dưới 50cc thường được xếp vào loại xe gắn máy, khác với xe máy dung tích lớn hơn. Phân loại này ảnh hưởng đến giấy tờ người lái cần có, nên kiểm tra quy định hiện hành trước khi thuê."
+  - q: "Đặt xe máy chung chung có thể bị giao nhầm loại không?"
+    a: "Có thể. Nhiều khách đặt xe máy chung chung rồi nhận xe dưới 50cc mà không biết, hoặc ngược lại. Cách đơn giản là hỏi rõ dung tích và nhóm xe ngay lúc đặt, rồi xem lại giấy tờ xe khi nhận."
+  - q: "Xe dưới 50cc có hợp với người mới tập lái không?"
+    a: "Khá hợp, vì xe nhẹ, yên thấp và dễ điều khiển ở tốc độ chậm. Tuy vậy, người mới vẫn phải đáp ứng điều kiện người lái theo loại xe, nên kiểm tra quy định hiện hành và tập ở đường vắng trước khi ra phố đông."
+  - q: "Hợp đồng thuê xe dưới 50cc cần đọc kỹ điều khoản nào?"
+    a: "Ba điều khoản nên đọc kỹ là phạm vi di chuyển cho phép, trách nhiệm khi hỏng hóc và điều kiện hoàn cọc. Mọi thỏa thuận nên được ghi bằng văn bản hoặc tin nhắn có xác nhận của cả hai bên."
+  - q: "Xe dưới 50cc có hợp để chạy xa ra ngoại thành không?"
+    a: "Không phải lựa chọn tốt. Xe dưới 50cc hợp lộ trình ngắn, phẳng và ít tải; chạy xa quá khả năng của xe làm tăng rủi ro hỏng giữa đường và ì xe trên dốc. Hành trình xa hoặc chở hai người lớn nên chọn dòng phổ thông."
 ---
 Trên giấy tờ pháp lý ở Việt Nam, nhóm xe có dung tích xi lanh dưới 50cc thường được xếp vào loại xe gắn máy, khác với xe máy có dung tích lớn hơn. Phân biệt này nghe như kiến thức chuyên ngành, nhưng lại ảnh hưởng trực tiếp đến việc bạn cần giấy tờ gì khi thuê và đi lại thế nào cho đúng quy định. Bài viết này hướng dẫn cách xác định đúng loại xe dưới 50cc trước khi thuê ở Hà Nội, kèm các điểm kiểm tra thực tế.
 
@@ -31,6 +43,8 @@ Với xe dưới 50cc đã qua sử dụng, bốn điểm cần soi kỹ là pha
 ## Giá thuê và điều kiện hợp đồng
 
 Xe dưới 50cc thường nằm ở mức giá thấp trong bảng giá các dòng xe, so sánh trực tiếp tại trang bảng giá. Khi ký hợp đồng, chú ý ba điều khoản: phạm vi di chuyển cho phép, trách nhiệm khi hỏng hóc, và điều kiện hoàn cọc. Nếu bạn muốn ràng buộc nhẹ về tiền cọc, đọc thêm các điều kiện trong bài [thuê xe máy Hà Nội không cọc]({{ '/blog/thue-xe-may-ha-noi-khong-coc/' | relative_url }}) để biết cách gói ưu đãi này vận hành. Mọi thỏa thuận nên được ghi lại bằng văn bản hoặc tin nhắn được cả hai bên xác nhận.
+
+Nếu bạn cần xe dưới 50cc để đi lại gần nơi ở trong nhiều tuần, có thể tham khảo [gói thuê xe máy theo tháng]({{ '/' | relative_url }}) trước khi chốt hợp đồng.
 
 ## Kết luận
 

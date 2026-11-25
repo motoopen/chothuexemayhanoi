@@ -9,6 +9,18 @@ primary_keyword: "thuê xe máy bị phạt giao thông"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
 seo_hub: thu-tuc-hop-dong
+quick_answer: "Người điều khiển là người bị phạt, kể cả khi đi xe thuê. Hãy hợp tác, chụp lại toàn bộ lệnh phạt, phân biệt lỗi người lái với lỗi do tình trạng xe, báo cho nơi cho thuê ngay trong ngày và nộp phạt đúng thời hạn ghi trên lệnh."
+qa:
+  - q: "Lỗi do xe hỏng đèn, gương thì người thuê có phải nộp phạt không?"
+    a: "Chưa chắc. Lỗi về tình trạng xe có thể quy về bên cho thuê nếu xe không đạt tiêu chuẩn lưu thông khi giao, nên hãy gọi họ ngay để thống nhất ai nộp, rồi đối chiếu với ảnh chụp xe lúc nhận và điều khoản hợp đồng."
+  - q: "Có nên giấu nơi cho thuê việc bị phạt khi đi xe thuê không?"
+    a: "Không nên. Hãy báo trong ngày, kể cả khi lỗi hoàn toàn của bạn, vì một số thông báo vi phạm có thể liên quan đến xe; báo muộn dễ biến khoản phạt nhỏ thành tranh chấp lớn hơn khi trả xe."
+  - q: "Nộp phạt xong cần giữ giấy tờ gì để hoàn cọc suôn sẻ?"
+    a: "Giữ biên lai nộp phạt, ảnh lệnh phạt và tin nhắn trao đổi với nơi thuê. Gửi ảnh biên lai cho nơi thuê để đóng hồ sơ, rồi đối chiếu lại khi tất toán và hoàn cọc."
+  - q: "Nếu cho rằng lệnh phạt sai thì người thuê xe nên làm gì?"
+    a: "Làm thủ tục khiếu nại theo hướng dẫn ghi trên lệnh và trong thời hạn quy định, thay vì cãi tại chỗ hoặc bỏ qua. Mức phạt và thủ tục có thể thay đổi, nên kiểm tra quy định hiện hành."
+  - q: "Những lỗi nào người đi xe thuê nên đặc biệt tránh?"
+    a: "Bốn lỗi hay gặp là không đội mũ bảo hiểm, vượt đèn đỏ, đi ngược chiều và chở quá số người cho phép. Nếu thuê xe cho người khác đi, hãy dặn kỹ các lỗi này và ghi rõ người lái vào hợp đồng."
 ---
 Xe thuê bị dừng và xử phạt giao thông là tình huống dễ hoảng, nhưng nếu bạn xử theo thứ tự đúng thì không đến mức phạt kép. Bài này giúp bạn biết thứ tự việc cần làm và thông tin cần lưu.
 
@@ -33,6 +45,8 @@ Gọi cho nơi thuê ngay trong ngày, kể cả khi lỗi hoàn toàn của b�
 Lệnh phạt luôn ghi thời hạn nộp tiền, thường là mười ngày kể từ ngày ra lệnh nếu bạn không có ý kiến gì: nộp trễ phát sinh thêm khoản phạt chậm. Nộp qua ngân hàng hoặc kho bạc theo hướng dẫn trong lệnh, giữ hóa đơn nộp làm bằng chứng, và chụp gửi cho nơi thuê để đóng hồ sơ. Nếu bạn cho rằng lệnh phạt sai, làm thủ tục khiếu nại theo hướng dẫn trên lệnh trong thời hạn, đừng tự ý bỏ qua.
 
 Một điều nữa đáng nhớ là các lỗi bị dừng phổ biến nhất khi thuê xe: thiếu mũ, vượt đèn, đi ngược chiều và chở quá số người cho phép. Tránh được bốn lỗi này, phần lớn khả năng bạn không bao giờ cần dùng tới hướng dẫn xử phạt. Nếu bạn thuê xe cho người khác đi, dặn họ kỹ các lỗi này và ghi rõ người lái vào hợp đồng, vì khi bị dừng, trách nhiệm quy về người điều khiển chứ không phải người thuê đứng tên.
+
+Để biết trước những giấy tờ người lái cần mang theo khi đi xe thuê, bạn có thể xem trang [thủ tục thuê xe máy Motoopen]({{ '/thutuc.html' | relative_url }}) trước ngày nhận xe.
 
 ## Kết luận
 

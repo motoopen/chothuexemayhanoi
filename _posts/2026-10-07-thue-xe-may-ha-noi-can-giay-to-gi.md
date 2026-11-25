@@ -9,6 +9,18 @@ primary_keyword: "thuê xe máy hà nội cần giấy tờ gì"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
 seo_hub: thu-tuc-hop-dong
+quick_answer: "Cần mang giấy tờ tùy thân gốc còn hiệu lực như CCCD hoặc hộ chiếu, bằng lái phù hợp loại xe nếu tự lái, cùng tiền thuê và tiền cọc theo hình thức đã thỏa thuận. Nên hỏi trước cửa hàng giữ bản gốc hay chụp bản sao để không bất ngờ."
+qa:
+  - q: "Mang bản photo CCCD đi thuê xe có được không?"
+    a: "Thường là không đủ. Bản photo hay không được chấp nhận cho mục đích xác minh, nên hãy mang bản gốc còn hiệu lực; tùy chính sách, cửa hàng có thể chụp bản sao làm hồ sơ hoặc giữ bản gốc trong thời gian thuê."
+  - q: "Giấy tờ tùy thân sắp hết hạn có thuê xe được không?"
+    a: "Có thể bị từ chối ký hợp đồng. Nếu giấy tờ sắp hết hạn, hãy hỏi cửa hàng trước khi đến và chuẩn bị giấy tờ thay thế còn hạn, ví dụ hộ chiếu."
+  - q: "Đến nhận xe nên chuẩn bị tiền cọc thế nào?"
+    a: "Nên hỏi trước mức cọc với dòng xe định thuê, hình thức nhận cọc là tiền mặt hay chuyển khoản và thời gian hoàn trả. Ở Motoopen, mức cọc tùy dòng xe, xem bảng giá hoặc hỏi khi đặt."
+  - q: "Quên giấy tờ ở nhà thì còn thuê xe được không?"
+    a: "Tùy cửa hàng. Một số nơi hỗ trợ giao xe tận nơi kèm xác nhận giấy tờ tại chỗ; Motoopen giao xe nội thành với phí khoảng 20k–50k tùy quãng đường, còn cách xác minh khi giao nên hỏi rõ khi đặt."
+  - q: "Thuê hộ cho người khác đi có cần thêm giấy tờ gì không?"
+    a: "Có thể. Người thuê hộ có thể bị yêu cầu thêm xác nhận, và nhiều nơi muốn người trực tiếp đi xe có mặt ký hợp đồng. Hãy hỏi trước để chuẩn bị giấy tờ của cả hai người."
 ---
 Đến điểm nhận xe mà thiếu giấy tờ là cách nhanh nhất để chuyến đi bị hoãn. Bài này gom lại checklist những gì nên chuẩn bị trước khi đến nhận xe thuê ở Hà Nội, để bạn chỉ cần ký hợp đồng và lăn bánh.
 
@@ -31,6 +43,8 @@ Trước khi đi, rà lại danh mục sau: giấy tờ tùy thân gốc còn hi
 ## Những tình huống hay gặp khi xuất trình giấy tờ
 
 Một số tình huống thực tế đáng lường trước: giấy tờ tùy thân sắp hết hạn có thể bị từ chối ký hợp đồng; khách quốc tế nên mang hộ chiếu và giấy phép lái phù hợp; người thuê hộ cho người khác đi có thể bị yêu cầu thêm xác nhận. Nếu bạn để quên giấy tờ, một số điểm hỗ trợ giao xe tận nhà kèm xác nhận tại chỗ, tùy chính sách từng cửa hàng. Hỏi sớm để chọn phương án phù hợp thay vì đến rồi phải quay về, mất cả khung giờ định đi.
+
+Nếu chưa có bằng A1, bạn có thể xem [danh sách các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}) để tham khảo nhóm xe 50cc và xe điện trước khi hỏi cửa hàng.
 
 ## Kết luận
 

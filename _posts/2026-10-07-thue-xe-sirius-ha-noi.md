@@ -9,6 +9,18 @@ primary_keyword: "thuê xe sirius hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
 seo_hub: xe-so
+quick_answer: "Sirius hợp khi bạn cần xe số nhẹ, rẻ cho lịch nội thành và liên tỉnh gần, đặc biệt với người thấp nhỏ vì yên và trọng tâm thấp. Xe kém hơn khi chở hai người lớn hoặc mang nhiều đồ, do gần như không có cốp."
+qa:
+  - q: "Sirius có hợp người thấp nhỏ không?"
+    a: "Có. Sirius yên thấp, trọng tâm thấp và nhẹ nên chân chạm đất trọn vẹn, dễ chống xe khi dừng đèn đỏ hay quay đầu trong ngõ. Vẫn nên ngồi thử trước khi nhận để chắc tư thế vừa với bạn."
+  - q: "Sirius chạy liên tỉnh được bao xa mỗi ngày?"
+    a: "Sirius làm tốt các chặng liên tỉnh gần dưới 60 cây số mỗi ngày; lộ trình trên 80 cây số mỗi ngày thì nên cân dòng xe ga lớn hơn. Nên nghỉ giữa chặng và mang đồ gọn vì xe gần như không có cốp."
+  - q: "So với xe điện, thuê Sirius có lợi gì?"
+    a: "Lợi thế lớn nhất là sự tự do: đổ xăng vài phút là đi tiếp, không lo tìm chỗ sạc qua đêm hay ngại đường trũng. Xe điện êm và rẻ nhiên liệu hơn, nhưng phụ thuộc chỗ cắm sạc nơi bạn ở."
+  - q: "Thuê xe số vài ngày có nên hỏi giá theo tuần không?"
+    a: "Nên. Nếu thuê từ ba ngày trở lên, hãy hỏi ngay giá gói tuần vì chênh lệch cộng lại đáng kể; ở Motoopen, giá ngày xe số tham khảo từ 150k và có gói tuần, tháng, giá chốt khi liên hệ."
+  - q: "Không tìm được Sirius thì có dòng xe số nào tương tự?"
+    a: "Honda Wave là lựa chọn gần nhất về độ nhẹ, tiết kiệm và dễ sửa. Motoopen có xe số Honda Wave và RSX; mẫu cụ thể còn trống nên hỏi qua điện thoại hoặc Zalo 0857 255 868 trước ngày nhận."
 ---
 Yamaha Sirius là dòng xe số gọn nhẹ, rẻ và rất bền, và khi thuê ở Hà Nội nó hợp một nhóm người rất rõ ràng. Bài này chỉ các tình huống Sirius là lựa chọn hợp lý nhất, và những mục cần kiểm trước khi nhận.
 
@@ -31,6 +43,8 @@ Làm tốt: nội thành, ngõ nhỏ, đường xấu vừa, và cả liên tỉ
 ## Giấy tờ và giá
 
 Sirius phổ biến bản 110 nên cần bằng lái A1, nhóm 50cc không cần như bài xe 50cc có cần bằng lái không. Hợp đồng ghi giá, cọc, giờ trả, mức xăng giao. Xin đăng ký bản photo, lưu số hỗ trợ. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). So giá theo kỳ ở trang bảng giá và hỏi tồn kho qua trang liên hệ trước ngày nhận.
+
+Nếu bạn đang cân giữa Sirius và các dòng xe số khác, trang [dòng xe số cho thuê]({{ '/loaixe.html' | relative_url }}) tóm tắt nhóm xe số và đối tượng phù hợp với từng loại.
 
 ## Kết luận
 

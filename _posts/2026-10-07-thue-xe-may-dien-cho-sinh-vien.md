@@ -9,6 +9,18 @@ primary_keyword: "thuê xe máy điện cho sinh viên"
 hub_parent: loai-xe
 hub_category: xe-dien
 seo_hub: sinh-vien
+quick_answer: "Sinh viên nên chọn xe máy điện khi tổng quãng đi mỗi ngày dưới khoảng hai mươi cây số trong phố và có chỗ sạc chắc chắn ở ký túc xá hoặc phòng trọ. Nếu quãng dài hoặc khó sạc, dòng xăng nhỏ thường tiện hơn; gói tháng giúp giảm chi phí."
+qa:
+  - q: "Phòng trọ không cho cắm sạc thì sinh viên nên làm gì?"
+    a: "Hỏi chỗ sạc chung gần nơi ở hoặc chọn phương án có điểm đổi pin. Nếu ngày nào cũng phải chạy ra tiệm sạc, xe xăng nhỏ thường tiện hơn và đỡ mất thời gian học."
+  - q: "Sạc pin xe điện trong phòng mất bao lâu?"
+    a: "Thường mất vài tiếng tùy loại pin, nên thói quen tốt là sạc qua đêm. Cần ổ cắm an toàn, và hỏi trước nơi thuê có giao kèm bộ sạc không, pin có tháo mang lên phòng được không."
+  - q: "Trời lạnh có làm xe điện đi được ít hơn không?"
+    a: "Có, tầm pin thường giảm nhẹ khi trời lạnh. Vào những ngày rét, nên sạc đầy từ tối hôm trước và chừa dư quãng đường cho lịch học, làm thêm."
+  - q: "Trả xe điện thuê có cần sạc đầy pin không?"
+    a: "Không phải nơi nào cũng yêu cầu đầy; nhiều nơi chỉ cần pin ở mức giữa trở lên. Hãy hỏi mức pin khi trả ngay lúc nhận xe để khỏi phải sạc thêm vội vàng vào ngày trả."
+  - q: "Chi phí sạc xe điện mỗi tháng có đáng kể không?"
+    a: "Với quãng đi học trong phố và sạc tại phòng, chi phí năng lượng gần như không đáng kể. Khoản cần tính kỹ hơn là tiền thuê gói, phí gửi xe ở trường hoặc phòng trọ và thời gian đi sạc nếu không sạc được tại chỗ ở."
 ---
 Với sinh viên ở Hà Nội, xe máy điện là lựa chọn được hỏi nhiều sau dòng 50cc, vì chi năng lượng rẻ và xe êm dễ lái. Nhưng chọn đúng cần so theo quãng đường, chỗ sạc và tổng ngân sách. Bài này chỉ cách chọn cho từng hoàn cảnh.
 
@@ -35,6 +47,8 @@ Tình huống một: bạn ở ký túc xá có ổ cắm dùng chung, thuê xe 
 ## Ba thói quen giữ pin suốt kỳ thuê
 
 Thói quen một: sạc qua đêm đều đặn, đừng đợi gần kiệt mới cắm, pin kiệt giữa lịch là dạng gián đoạn phiền nhất. Thói quen hai: hỏi nơi thuê mức pin trả xe thế nào, nhiều nơi chỉ cần về mức giữa trở lên, biết trước để khỏi lo đổ thêm. Thói quen ba: khi trời lạnh, tầm pin giảm nhẹ, nên lịch ngày lạnh chừa dư tầm. Ba thói quen này biến pin từ rủi ro thành việc nền, bạn chỉ nhớ cắm mỗi tối và quên đi suốt ngày, và đó là trạng thái lý tưởng để một sinh viên bận học tận hưởng trọn kỳ thuê xe.
+
+Với lịch đi học cả học kỳ, hãy đặt tổng chi phí của xe điện cạnh các lựa chọn [thuê xe máy theo tháng ở Hà Nội]({{ '/' | relative_url }}) trước khi chốt dòng xe.
 
 ## Kết luận
 

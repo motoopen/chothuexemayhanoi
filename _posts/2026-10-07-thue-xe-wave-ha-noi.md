@@ -9,6 +9,18 @@ primary_keyword: "thuê xe wave hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
 seo_hub: xe-so
+quick_answer: "Wave hợp nhất với hành trình nội thành ngắn ngày, ngõ xấu và đường trũng sau mưa, cùng các chuyến đi tỉnh lân cận trong ngày, với chi phí thấp. Với lộ trình trên 100 cây số hoặc khi cần cốp đựng đồ, nên cân nhắc xe ga."
+qa:
+  - q: "Wave có đi được Bắc Ninh, Hưng Yên trong ngày không?"
+    a: "Được. Wave đầm hơn cỡ nhỏ của nó và chạy đường trường ổn, hợp chuyến đi tỉnh lân cận trong ngày; chỉ cần nghỉ giữa chặng vì yên khá cứng và mang đồ gọn do xe không có cốp."
+  - q: "Vì sao Wave hợp ngõ xấu hơn xe ga?"
+    a: "Wave có khung chắc, giảm xóc cứng chịu sốc và gầm cao nên ít bị cạ gầm trên ngõ xấu, đường trũng hay ổ gà. Xe ga và xe điện gầm thấp dễ chạm gầm trên cùng loại đường."
+  - q: "Thuê Wave theo tháng để đi làm có hợp lý không?"
+    a: "Hợp lý nếu bạn đi lại hằng ngày trong nội thành, vì Wave nhẹ, lọt ngõ và tốn ít xăng. Tại Motoopen, giá tham khảo thuê tháng Wave khoảng 1.200k, thuê ngày từ 150k; giá có thể thay đổi và chốt khi liên hệ."
+  - q: "Mang máy ảnh hoặc túi nặng trên Wave thế nào cho an toàn?"
+    a: "Nên dùng móc chịu lực hoặc đeo chéo người thay vì treo lủng lẳng ở tay lái, vì vật nặng lắc lư trên đường trường rất nguy hiểm. Wave không có cốp nên hãy chuẩn bị đồ gọn trước chuyến đi."
+  - q: "Muốn gia hạn thuê Wave thì nên báo khi nào?"
+    a: "Nên báo càng sớm càng tốt, vì nhiều nơi giữ giá gốc cho khách báo sớm thay vì tính giá mới cho kỳ nối. Với Motoopen, điều kiện gia hạn nên hỏi rõ khi đặt."
 ---
 Honda Wave là mẫu xe số nhỏ bền bỉ, và khi thuê ở Hà Nội nó phục vụ được nhiều loại hành trình hơn tưởng tượng. Bài này chỉ đúng nhóm hành trình Wave hợp nhất, và cách kiểm chiếc Wave trước khi nhận.
 
@@ -31,6 +43,8 @@ Kiểm bộ số: ga số rõ nấc, không văng số, nghe bộ máy không r�
 ## Giấy tờ, mũ và điều khoản
 
 Wave phổ biến ở bản 110 nên cần bằng lái A1, nhóm 50cc thì không cần, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Ký hợp đồng ghi giá, cọc, giờ trả, và xin đăng ký bản photo. Đếm mũ cho từng người, kính sạch. Khách quốc tế mang hộ chiếu theo hướng dẫn trong bài thuê xe 50cc cho người nước ngoài. Hỏi tồn kho qua trang liên hệ trước ngày nhận vì Wave được chọn nhiều cuối tuần.
+
+Nếu bạn cần xe đi làm hằng ngày trong nhiều tuần, Wave là lựa chọn kinh tế khi chuyển sang [dịch vụ thuê xe theo tháng]({{ '/' | relative_url }}) thay vì gia hạn từng ngày.
 
 ## Kết luận
 

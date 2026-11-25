@@ -9,6 +9,18 @@ primary_keyword: "bằng lái quốc tế thuê xe máy việt nam"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
 seo_hub: thu-tuc-hop-dong
+quick_answer: "Kiểm tra ba điểm trước khi đặt xe: giấy phép lái quốc tế có ghi hạng xe hai bánh, còn hạn suốt kỳ thuê và tên trùng hộ chiếu. Nếu giấy phép chỉ có hạng ô tô thì không được lái xe máy, nên chọn xe không cần bằng hoặc thuê kèm tài xế."
+qa:
+  - q: "Giấy phép lái quốc tế chỉ có hạng ô tô thì có lái xe máy ở Việt Nam được không?"
+    a: "Không. Hạng ghi trong giấy phép phải cho phép điều khiển xe hai bánh; nếu chỉ ghi hạng ô tô thì bạn không được lái xe máy dù đã nhập cảnh hợp lệ. Khi đó nên cân nhắc dòng xe không yêu cầu bằng lái hoặc thuê xe kèm tài xế."
+  - q: "Người nước ngoài thuê xe ở Motoopen cần mang những giấy tờ gì?"
+    a: "Cần hộ chiếu và bằng lái quốc tế hợp lệ, theo trang Thủ tục của Motoopen. Nên mang bản gốc cả hai, vì bên cho thuê sẽ đối chiếu tên trên giấy phép với hộ chiếu, xem ngày hết hạn và hạng xe trước khi ghi vào hợp đồng."
+  - q: "Giấy phép quốc tế sắp hết hạn giữa kỳ thuê thì nên làm gì?"
+    a: "Nên báo trước để nơi thuê ghi rõ vào hợp đồng và tính kỳ thuê sao cho bạn không phải lái xe sau ngày giấy phép hết hiệu lực. Nếu ở Việt Nam lâu, hãy tìm hiểu thủ tục đổi sang giấy phép lái Việt Nam."
+  - q: "Có nên gửi ảnh giấy phép lái quốc tế cho cửa hàng trước khi đặt xe không?"
+    a: "Có. Gửi ảnh giấy phép kèm câu hỏi về hạng xe giúp nơi thuê báo trước chiếc xe nào khớp với giấy phép của bạn. Với Motoopen, bạn có thể hỏi qua điện thoại hoặc Zalo 0857 255 868 trước ngày nhận xe."
+  - q: "Lái xe máy khi giấy phép quốc tế không hợp lệ có rủi ro gì?"
+    a: "Bạn vừa có thể bị xử lý khi bị kiểm tra, vừa có nguy cơ mất quyền lợi bảo hiểm nếu xảy ra sự cố. Quy định về công nhận giấy phép lái quốc tế có thể thay đổi, nên kiểm tra quy định hiện hành trước chuyến đi."
 ---
 Giấy phép lái quốc tế giúp khách nước ngoài lái xe ở Việt Nam trong một số trường hợp, nhưng hiệu lực của nó phụ thuộc loại giấy phép và loại xe. Bài này giúp bạn kiểm tra đúng trước khi đặt xe.
 
@@ -34,6 +46,8 @@ u, kiểm tra ngày hết hạn và hạng ghi trong giấy phép, rồi ghi th�
 Khớp giấy phép xong, chọn xe khớp kinh nghiệm: khách mới lái ở Hà Nội nên chọn dòng nhẹ, tham khảo bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}), và kiểm xe kỹ theo checklist trong bài checklist nhận xe 50cc. Với kỳ thuê dài, cân phần đặt cọc và hoàn cọc trong bài tiền cọc thuê xe máy Hà Nội, và đối chiếu giá trước ở trang bảng giá.
 
 Một phần nữa đáng hỏi trước là bảo hiểm và trách nhiệm khi có tai nạn: giấy phép hợp lệ giúp bạn giữ quyền lợi bảo hiểm, nhưng mức tự trả và cách xử lý tại chỗ nên được ghi rõ vào hợp đồng trước khi nhận xe. Hỏi kèm cả phần giao xe ướt nếu bạn thuê trong mùa mưa, và phần kiểm xe giữa kỳ nếu kỳ thuê kéo dài nhiều ngày, để mọi thứ được bàn trước thay vì phải thương lượng giữa chừng.
+
+Trước khi đặt xe, bạn có thể đối chiếu giấy tờ dành cho khách nước ngoài trên trang [thủ tục thuê xe máy]({{ '/thutuc.html' | relative_url }}), rồi gửi ảnh giấy phép để cửa hàng xác nhận dòng xe phù hợp.
 
 ## Kết luận
 

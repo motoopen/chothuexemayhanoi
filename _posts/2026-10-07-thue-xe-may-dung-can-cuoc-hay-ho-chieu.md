@@ -9,6 +9,18 @@ primary_keyword: "thuê xe máy dùng căn cước hay hộ chiếu"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
 seo_hub: thu-tuc-hop-dong
+quick_answer: "Người Việt Nam nên dùng CCCD, khách nước ngoài dùng hộ chiếu gốc kèm thị thực hoặc giấy tờ nhập cảnh còn hiệu lực. Trước khi ký, hãy kiểm tra tên và số giấy tờ trên hợp đồng, và hỏi rõ bên cho thuê giữ bản gốc hay chỉ ghi lại thông tin."
+qa:
+  - q: "Người Việt quên CCCD có dùng hộ chiếu để thuê xe được không?"
+    a: "Thường là được. Hộ chiếu Việt Nam dùng được khi bạn không mang căn cước, và trang Thủ tục của Motoopen cũng nhận CCCD hoặc hộ chiếu; nên báo trước khi đặt để cửa hàng chuẩn bị."
+  - q: "Cửa hàng giữ bản gốc CCCD hoặc hộ chiếu suốt kỳ thuê có bình thường không?"
+    a: "Tùy nơi. Có chỗ chỉ ghi thông tin hoặc giữ bản sao rồi trả bản gốc ngay; nếu nơi thuê muốn giữ bản gốc, hãy hỏi rõ thời điểm trả lại và yêu cầu ghi vào hợp đồng. Với Motoopen, cách giữ giấy tờ nên hỏi rõ khi đặt."
+  - q: "Có giấy tờ tùy thân rồi thì có cần bằng lái nữa không?"
+    a: "Có, nếu bạn tự lái xe từ 50cc trở lên. Giấy tờ tùy thân dùng để xác minh người thuê, còn bằng lái phù hợp loại xe, thường là A1, mới cho phép bạn điều khiển xe; chưa có A1 có thể hỏi tư vấn xe 50cc hoặc xe điện."
+  - q: "Khách nước ngoài có cần mang bản dịch tiếng Việt của hộ chiếu không?"
+    a: "Thường không cần, vì phần lớn nơi thuê ở Hà Nội đọc được hộ chiếu tiếng Anh, nhưng bản dịch là phương án dự phòng tốt khi thuê ở nơi nhỏ. Giấy phép lái quốc tế đã có sẵn phần dịch nên không cần dịch thêm."
+  - q: "Đi nhóm thuê nhiều xe thì mỗi người có phải tự ký hợp đồng không?"
+    a: "Nên vậy. Mỗi người tự ký hợp đồng riêng thay vì một người ký cho cả nhóm, vì khi có trục trặc, trách nhiệm quy theo đúng người đã ký tên."
 ---
 Khi thuê xe máy, giấy tờ tùy thân bạn dùng để thuê phụ vào việc bạn là công dân Việt Nam hay khách nước ngoài, và bên cho thuê luôn giữ lại một bản xác minh. Bài này giúp bạn chuẩn bị đúng loại giấy tờ và biết cần xác minh gì với bên cho thuê.
 
@@ -38,6 +50,8 @@ Nhiều người nhầm giấy tờ thuê và giấy phép lái xe là một, nh
 Trước khi ký, rà lại một lượt: tên trên hợp đồng khớp đúng tên trên giấy tờ, số giấy tờ ghi đủ, và thời hạn thuê ghi rõ ngày bắt đầu cùng ngày trả. Nếu đi nhóm, mỗi người tự ký hợp đồng riêng thay vì gộp một người ký cho cả nhóm, vì khi có trục trặc, trách nhiệm quy theo đúng người ký. Cuối cùng, đối chiếu giá trong hợp đồng với trang [bảng giá]({{ '/banggia.html' | relative_url }}) để tránh phát sinh.
 
 Về phần bản dịch, nếu giấy tờ của bạn là hộ chiếu nước ngoài kèm thị thực tiếng Anh, phần lớn nơi thuê cho thuê ở Hà Nội đọc được trực tiếp, nhưng mang theo bản dịch tiếng Việt của giấy tờ liên quan vẫn là cách dự phòng tốt khi thuê ở nơi nhỏ. Với giấy phép lái quốc tế, phần dịch đã có sẵn trong chính giấy phép, nên bạn không cần dịch thêm. Gom cả giấy tờ tùy thân, bằng lái và bản dịch vào một túi riêng để khi ký hợp đồng, bạn trình một lần cho gọn.
+
+Danh sách giấy tờ Motoopen yêu cầu cho khách Việt Nam và khách nước ngoài được ghi trên trang [giấy tờ và thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), bạn có thể đối chiếu trước khi đến ký hợp đồng.
 
 ## Kết luận
 

@@ -9,6 +9,20 @@ primary_keyword: "checklist nhận xe máy điện"
 hub_parent: loai-xe
 hub_category: xe-dien
 seo_hub: xe-dien
+quick_answer: "Khi nhận xe máy điện thuê, hãy rà sáu mục trong khoảng năm phút: mức pin, bộ sạc cắm thử, phanh lốp đèn, mũ và phụ kiện, giấy tờ cùng số hỗ trợ, rồi chạy thử một vòng. Chụp ảnh mức pin làm bằng chứng và yêu cầu đổi xe ngay nếu phát hiện lỗi."
+qa:
+  - q: "Nên nhận xe máy điện thuê với mức pin bao nhiêu là ổn?"
+    a: "Đa số nơi giao xe với pin trên 80 phần trăm. Hãy chụp lại mức pin lúc nhận, hỏi rõ mức tối thiểu khi trả, và nếu nhận dưới mức đã hứa thì yêu cầu cắm thêm hoặc đổi xe trước khi đi."
+  - q: "Làm sao biết bộ sạc đi kèm xe điện còn dùng tốt?"
+    a: "Cắm thử ngay tại điểm bàn giao. Bộ sạc phải đúng model xe, dây không rách, đèn báo sạc sáng đều là đạt; nếu đèn chập chờn thì yêu cầu đổi bộ khác trước khi ký nhận."
+  - q: "Phát hiện phanh hoặc lốp có vấn đề lúc nhận xe điện thì có nên nhận tạm không?"
+    a: "Không nên. Lỗi ở phanh, lốp hay đèn cần được đổi xe ngay, đừng chấp nhận lời hứa sửa sau, vì lỗi phát hiện giữa đường tốn ít nhất một buổi và khó phân định trách nhiệm hơn nhiều."
+  - q: "Lúc ký nhận xe điện, hợp đồng nên ghi rõ những mục nào?"
+    a: "Nên ghi rõ giá thuê, tiền cọc, mức pin tối thiểu khi trả và giờ trả xe. Đồng thời chụp giấy đăng ký xe hoặc bản photo được giao, ghi lại tên người bàn giao và lưu số điện thoại hỗ trợ khi xe lỗi giữa đường."
+  - q: "Khi trả xe điện thuê có cần một checklist riêng không?"
+    a: "Có. Nên làm checklist ngược: lấy hết đồ trong cốp, đếm đủ mũ, soi lại vết trầy so với ảnh chụp lúc nhận. Mọi thứ khớp thì ký trả và nhận lại tiền cọc trọn vẹn."
+  - q: "Đến nhận xe ở Motoopen cần mang theo giấy tờ gì?"
+    a: "Theo trang Thủ tục của Motoopen, cần CCCD hoặc hộ chiếu, kèm bằng lái phù hợp loại xe; khách chưa có bằng A1 được tư vấn xe 50cc hoặc xe điện. Mức cọc tùy dòng xe, xem bảng giá hoặc hỏi khi đặt."
 ---
 Nhận xe máy điện thuê chỉ mất năm phút nếu bạn rà theo danh sách. Bài này là checklist đầy đủ từ pin đến giấy tờ, để bạn không phải quay lại vì lỗi đáng lẽ thấy ngay.
 
@@ -35,6 +49,8 @@ Chụp giấy đăng ký xe hoặc bản photo nơi thuê giao, và lưu số đ
 ## Chạy thử một vòng quanh điểm
 
 Cuối cùng, chạy thử một vòng ngắn quanh khu bàn giao: ga lên đều, phanh ăn, không có tiếng kêu lạ, màn hình không chập chờn. Cảm giác bất thường nào cũng là lý do hợp lệ để đổi xe. Xong vòng thử thì chốt nhận, và lưu các bước này cho lần sau trong bài [checklist nhận xe 50cc]({{ '/blog/checklist-nhan-xe-50cc/' | relative_url }}) nếu bạn đổi sang nhóm xăng.
+
+Trước khi đến nhận, có thể xem [các dòng xe đang cho thuê]({{ '/loaixe.html' | relative_url }}) để biết loại xe mình sắp nhận và chuẩn bị checklist cho đúng loại đó.
 
 ## Kết luận
 

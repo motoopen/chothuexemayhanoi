@@ -9,6 +9,18 @@ primary_keyword: "thuê xe máy cho người thấp hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
 seo_hub: xe-tay-ga
+quick_answer: "Người thấp nên kiểm chiều cao yên bằng cách ngồi thử ngay tại điểm thuê: hai chân chống đất, gót chạm được là đạt, rồi nghiêng xe hai bên và mô phỏng dừng đèn đỏ vài lần. Nhóm 50cc, Vision và xe điện mini thường thấp nhất; còn căng thì xin chỉnh yên hoặc đổi xe."
+qa:
+  - q: "Cao dưới một mét sáu nên tránh những dòng xe nào?"
+    a: "Nên tránh dòng ga lớn như SH và xe côn thể thao, vì yên cao và nặng khiến chân chống xa, dễ chao khi dừng. Nhóm 50cc, Wave, Vision và xe điện mini dễ chống chân hơn."
+  - q: "Người thấp chưa có bằng lái có lựa chọn nào?"
+    a: "Có. Nhóm 50cc không cần bằng lái và thường thấp yên, nên người thấp chưa có bằng vẫn có lựa chọn. Motoopen tư vấn xe 50cc hoặc xe điện cho khách chưa có A1; nên kiểm tra quy định hiện hành trước khi lái."
+  - q: "Chọn xe yên thấp có cần lo máy yếu không?"
+    a: "Có, nếu lịch có chặng dài. Yên thấp nhưng máy yếu sẽ mệt trên đường xa, nên cân đối cả chiều cao yên lẫn quãng đường dự kiến khi gọi đặt, thay vì chỉ chọn chiếc nhỏ nhất."
+  - q: "Người thấp chở thêm người cần lưu ý gì?"
+    a: "Chở thêm người làm chân chống căng hơn, nhất là khi dừng đèn đỏ. Nên ngồi thử có người phía sau tại quầy, và trên đường ướt phải phanh sớm hơn vì chống chân khi xe trượt khó hơn với người thấp."
+  - q: "Có thể nhờ Motoopen chuẩn bị sẵn xe yên thấp không?"
+    a: "Nên gọi trước nói rõ chiều cao và nhu cầu xe yên thấp. Liên hệ 0857 255 868 trong giờ 09:00–21:00 để được gợi ý vài lựa chọn, rồi đến cửa hàng ngồi thử và chọn chiếc ưng nhất."
 ---
 Chiều cao yên quyết định tự tin lái hơn mọi thông số khác nếu bạn thấp dưới một mét sáu. Bài này chỉ cách kiểm chiều cao yên đúng tại điểm thuê, và nhóm xe gợi ý cho người thấp.
 
@@ -19,6 +31,8 @@ Ngồi lên xe tại quầy, hai chân chống đất: ngón chân chạm ổn, 
 ## Nhóm xe gợi ý cho người thấp
 
 Nhóm 50cc và xe ga nhỏ có yên thấp nhất: Wave, Vision, xe điện mini, Cub 50cc, xem so sánh trong bài so sánh Cub 50cc và Wave 50cc và so sánh Cub 50cc và xe ga 50cc. Xe máy điện nhiều loại yên thấp và trọng tâm đổ về sàn, hợp người thấp, tham khảo bài xe máy điện và xe 50cc khi thuê. Tránh dòng ga lớn như SH và côn thể thao vì yên cao và nặng, chi tiết cân nhắc đã có trong bài [thuê xe SH Hà Nội]({{ '/blog/thue-xe-sh-ha-noi/' | relative_url }}).
+
+Nếu muốn xem trước các dòng xe số, xe ga và 50cc đang có, bạn có thể tham khảo [các mẫu xe cho thuê tại Motoopen]({{ '/loaixe.html' | relative_url }}) rồi chọn vài mẫu để ngồi thử.
 
 ## Chỉnh yên và ghế lót tại điểm thuê
 

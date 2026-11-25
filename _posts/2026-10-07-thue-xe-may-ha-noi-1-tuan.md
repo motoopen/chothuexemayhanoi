@@ -9,6 +9,18 @@ primary_keyword: "thuê xe máy hà nội 1 tuần"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
 seo_hub: thue-xe-thang
+quick_answer: "Để tính tổng chi phí thuê xe máy một tuần ở Hà Nội, hãy quy giá gói tuần ra một ngày để so với giá ngày, rồi cộng tiền xăng, phí gửi xe, phí giao nhận nếu dùng và tính đến tiền cọc. Gói tuần chỉ thật sự lợi khi bạn dùng xe gần đủ bảy ngày."
+qa:
+  - q: "Giá thuê xe theo ngày ở Motoopen là bao nhiêu để quy đổi?"
+    a: "Theo bảng giá tham khảo, thuê ngày từ 150k với xe số hoặc Click/Mio đến 200k với Vision, Air Blade. Lấy giá gói tuần chia bảy rồi so với các mức này để thấy phần tiết kiệm thật; giá chốt khi liên hệ."
+  - q: "Chỉ cần xe bốn ngày thì có nên lấy gói tuần không?"
+    a: "Chưa chắc. Hãy so giá gói tuần với giá ngày nhân bốn; nếu gói tuần cao hơn, thuê theo ngày hợp lý hơn. Hỏi thêm nơi thuê có phương án linh hoạt cho số ngày lẻ không trước khi đặt."
+  - q: "Phí gửi xe có làm gói tuần mất lợi thế không?"
+    a: "Có thể. Nếu bạn chỉ dùng xe một buổi mỗi ngày nhưng phải gửi xe có phí cả tuần quanh chỗ ở và nơi làm, khoản gửi xe có khi bào mòn phần tiết kiệm của gói tuần. Hãy ước khoản này theo lịch thật trước khi chốt."
+  - q: "Thuê xe máy một tuần cần mang giấy tờ gì?"
+    a: "Ở Motoopen, bạn cần CCCD hoặc hộ chiếu và bằng lái phù hợp loại xe, như A1; khách chưa có bằng A1 được tư vấn xe 50cc hoặc xe điện. Mức cọc tùy dòng xe, xem bảng giá hoặc hỏi khi đặt."
+  - q: "Trả xe trễ khi đang thuê gói tuần có bị tính thêm không?"
+    a: "Có thể bị tính, và với gói dài, trễ khung giao trả có khi bị tính thêm nhiều hơn gói ngày. Nên cài nhắc giờ trả, báo sớm nếu lịch đổi và hỏi trước cách tính phụ phí trễ khi đặt."
 ---
 Thuê xe máy trọn một tuần là ngưỡng mà gói tuần rõ rệt rẻ hơn tính lẻ theo ngày, nhưng tổng chi phí thực không chỉ là giá niêm yết. Bài này giúp bạn tính trọn các khoản trước khi đặt cọc cho bảy ngày ở Hà Nội.
 
@@ -35,6 +47,8 @@ Giả sử gói tuần niêm yết một mức, cộng ước tính xăng bảy 
 ## Kỹ thuật dùng trọn bảy ngày không lãng phí
 
 Gói tuần có một quy luật: tiền trả trọn, nên ngày nào không dùng xe cũng là ngày lãng phí. Vì vậy khi chốt gói tuần, hãy xếp lịch để bảy ngày đều có việc cho xe, kể cả những chặng nhỏ như đi chợ đầu ngõ hoặc chạy việc gần. Nếu trong tuần có ngày bạn vắng Hà Nội, hỏi trước phương án tạm ngưng một ngày giữa gói, vì một số nơi cho phép với điều kiện báo trước. Khách hay quên lịch nên cài nhắc khung giao trả xe vào cuối tuần, vì trễ khung giữa gói dài dễ bị tính thêm lớn hơn gói ngày. Cuối gói, đối chiếu lại biên nhận cọc và hợp đồng trước khi trình diện trả xe để mọi khoản đều rõ ràng.
+
+Nếu một tuần có khả năng kéo dài thành vài tuần, hãy hỏi luôn [gói thuê xe máy theo tháng]({{ '/' | relative_url }}) để so trước khi gia hạn từng tuần.
 
 ## Kết luận
 

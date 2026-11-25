@@ -9,6 +9,20 @@ primary_keyword: "thuê xe sh hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
 seo_hub: xe-tay-ga
+quick_answer: "Chỉ nên thuê SH khi bạn đã quen xe ga cỡ lớn, chấp nhận chi phí thuê và tiền cọc cao hơn, và lịch có chặng đường trường. SH nặng gần 130 ký nên người thấp, người mới hoặc lịch thuần trong phố hợp dòng ga nhỏ hơn."
+qa:
+  - q: "Có thể thuê SH tại Motoopen không?"
+    a: "Bảng giá Motoopen đang công bố liệt kê xe ga Vision, Air Blade và Click/Mio, không có mục riêng cho SH. Nếu cần đúng SH, hãy hỏi trực tiếp qua 0857 255 868 trước khi lên kế hoạch; nếu chỉ cần xe ga đầm có phanh đĩa, Air Blade là phương án nên so."
+  - q: "Thuê SH đắt hơn xe ga phổ thông bao nhiêu?"
+    a: "Thường gấp rưỡi đến gấp đôi dòng ga phổ thông, chưa kể cọc cao hơn và trách nhiệm hỏng hóc lớn vì phụ tùng đắt. Để so, Vision và Air Blade tại Motoopen tham khảo khoảng 200k mỗi ngày theo bảng giá công bố."
+  - q: "Khi nhận SH cần kiểm thêm những gì so với xe ga nhỏ?"
+    a: "Ngoài máy, phanh đĩa, lốp, đèn và còi, nên kiểm gương điện nếu bản có, khóa từ và yên điện. Chạy thử một vòng đủ dài để cảm trọng lượng khi rẽ, thấy bất ổn là xin đổi xe."
+  - q: "Có nên thuê SH cả kỳ dài ngay lần đầu?"
+    a: "Không nên. Nếu lý do muốn SH chủ yếu là nghe danh, hãy thử thuê một ngày trước khi cam kết cả kỳ; chi phí thử một ngày rẻ và cho câu trả lời chính xác hơn mọi lời kể."
+  - q: "Khách nước ngoài quen scooter châu Âu có hợp SH không?"
+    a: "Thường hợp, vì tư thế và trọng lượng SH khá giống scooter châu Âu. Người nước ngoài cần hộ chiếu và bằng lái quốc tế hợp lệ; nên kiểm tra quy định hiện hành về loại bằng trước khi lái."
+  - q: "SH có tốn xăng hơn dòng ga nhỏ không?"
+    a: "Có. SH hút xăng hơn dòng nhỏ, nên tính thêm chi phí nhiên liệu vào ngân sách kỳ thuê, nhất là khi lịch có nhiều chặng đường trường."
 ---
 Honda SH là dòng ga lớn sang nhất trong nhóm xe cho thuê ở Hà Nội, và cũng là dòng đòi cân nhắc nhất về cân nặng, chi phí và kinh nghiệm. Bài này đi qua từng yếu tố để bạn quyết nhanh có nên thuê SH hay không.
 
@@ -19,6 +33,8 @@ SH nặng gần 130 ký, hơn hẳn dòng ga nhỏ và gần gấp đôi xe 50cc
 ## Chi phí thuê cao hơn rõ
 
 Giá thuê SH thường gấp rưỡi đến gấp đôi dòng ga phổ thông, cộng tiền cọc cao hơn và trách nhiệm hỏng hóc lớn hơn vì phụ tùng đắt. Nếu nhu cầu của bạn chỉ là di chuyển, dòng ga nhỏ đủ dùng với giá vừa, xem bài [thuê xe Vision Hà Nội]({{ '/blog/thue-xe-vision-ha-noi/' | relative_url }}). SH đáng tiền khi bạn cần sự êm trên đường trường, tải nặng, hoặc đơn giản muốn trải nghiệm dòng xe đẳng cao. So khung giá trước ở trang bảng giá.
+
+Nếu thấy SH chưa hợp kinh nghiệm hoặc ngân sách, bạn có thể tham khảo [các dòng xe ga khác đang cho thuê]({{ '/loaixe.html' | relative_url }}) để có phương án nhẹ và vừa giá hơn.
 
 ## Kinh nghiệm lái cần thiết
 

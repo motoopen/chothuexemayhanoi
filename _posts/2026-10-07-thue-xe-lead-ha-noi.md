@@ -9,6 +9,18 @@ primary_keyword: "thuê xe lead hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
 seo_hub: xe-tay-ga
+quick_answer: "Lead phù hợp nếu cốp và tiện dụng đứng đầu danh sách của bạn: cốp đựng được hai mũ hoặc mũ cùng đồ mua sắm, xe gọn, yên thấp, hợp nội thành. Nếu đi nhẹ chỉ một mũ hoặc cần bứt tốc trên đường trường, dòng khác hợp hơn."
+qa:
+  - q: "Motoopen có xe Lead cho thuê không?"
+    a: "Bảng giá Motoopen đang công bố liệt kê xe ga Vision, Air Blade và Click/Mio. Nếu bạn cần đúng Lead, nên hỏi rõ qua 0857 255 868 trước khi đến; còn nếu chỉ cần xe ga dễ lái với cốp vừa, Vision hoặc Air Blade là phương án nên so."
+  - q: "Cốp Lead chứa được những gì?"
+    a: "Cốp Lead đựng được hai mũ kèm túi nhỏ, hoặc một mũ và đồ mua sắm cả buổi. Tuy vậy mỗi đời xe cốp khác nhau, nên mang mũ của bạn thử vào cốp ngay tại quầy trước khi nhận."
+  - q: "Đường nhiều ổ gà có nên thuê Lead không?"
+    a: "Không lý tưởng. Lead hướng tiện dụng trong phố; nếu lịch đi nhiều đường xấu, xe số chịu sốc tốt hơn. Motoopen có xe số Honda Wave/RSX, giá thuê ngày từ khoảng 150k theo bảng giá công bố."
+  - q: "Lead có hợp người nhỏ người không?"
+    a: "Khá hợp. Lead tay ga nhẹ, yên thấp và chân chạm đất dễ, nên người nhỏ người và khách mới đến Hà Nội đều làm quen nhanh. Dù vậy vẫn nên ngồi thử chống chân tại quầy trước khi nhận."
+  - q: "Đi công tác đầu tuần thì nên đặt xe cốp rộng trước bao lâu?"
+    a: "Nên gọi trước vài ngày, nhất là khi kỳ thuê bắt đầu vào thứ Hai hoặc sau dịp nghỉ, vì dòng cốp rộng hay được khách công tác đặt. Khi trả, dọn cốp sạch và chụp lại tình trạng cốp lẫn thân xe để đối chiếu."
 ---
 Honda Lead nổi tiếng nhất vì cái cốp rộng nhất trong nhóm xe ga nhỏ, và khi thuê ở Hà Nội đúng là ưu tiên cốp và tiện dụng quyết định bạn có nên chọn nó hay không. Bài này giúp bạn trả lời nhanh, kèm cách kiểm xe.
 
@@ -31,6 +43,8 @@ Kiểm Lead thì bắt đầu từ cốp: mở thử khóa êm, cánh cốp khô
 ## Giấy tờ, giá và điều khoản
 
 Lead trên 50 phân khối cần bằng lái A1, nhóm 50cc không cần như bài xe 50cc có cần bằng lái không. Hợp đồng ghi giá, cọc, giờ trả và mức xăng giao. Xin đăng ký bản photo, lưu số hỗ trợ giữa kỳ. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). So giá theo kỳ ở trang bảng giá và hỏi tồn kho qua trang liên hệ trước khi đến. Trời mưa gần thì xem nhóm nguyên tắc đường ướt trong bài thuê xe máy điện mùa mưa.
+
+Với khách công tác ở Hà Nội vài tuần trở lên, có thể so thêm [dịch vụ thuê xe theo tháng]({{ '/' | relative_url }}) cho một dòng xe ga tiện dụng thay vì thuê từng ngày.
 
 ## Kết luận
 

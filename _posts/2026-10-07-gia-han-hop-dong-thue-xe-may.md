@@ -9,6 +9,18 @@ primary_keyword: "gia hạn hợp đồng thuê xe máy"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
 seo_hub: thue-xe-thang
+quick_answer: "Khi gia hạn hợp đồng thuê xe máy, nên xác nhận lại sáu điều và ghi thành văn bản: giá cho phần thuê thêm, tình trạng xe, giờ trả mới, tiền cọc, giấy tờ đang gửi và cách quy đổi khoản đã trả trước. Nếu đổi sang xe khác, hỏi thêm phần chênh giá."
+qa:
+  - q: "Gia hạn thêm vài ngày có phải làm hợp đồng mới không?"
+    a: "Không nhất thiết nếu vẫn giữ nguyên xe, nhưng phần gia hạn nên được ghi thành văn bản hoặc tin nhắn xác nhận, gồm giá, giờ trả mới và tình trạng xe. Nếu đổi sang loại xe khác, phần chênh giá và cọc nên được ghi thành điều khoản mới."
+  - q: "Khi gia hạn có phải đóng thêm tiền cọc không?"
+    a: "Tùy nơi thuê. Cọc ban đầu thường được giữ nguyên, nhưng nên hỏi rõ có phải nộp thêm cho thời gian thuê dài hơn không và cọc cũ có được khấu trừ vào khoản cuối không. Ở Motoopen, mức cọc tùy dòng xe, xem bảng giá hoặc hỏi khi đặt."
+  - q: "Gia hạn từng ngày lẻ hay chuyển sang gói dài thì lợi hơn?"
+    a: "Nếu cần thêm từ ba ngày trở lên, nên hỏi giá gói dài hơn trước khi gia hạn lẻ, vì gia hạn từng ngày rời rạc thường đắt hơn một lần chuyển gói. Ở Motoopen, giá tham khảo thuê tháng khoảng 1–2 triệu tùy dòng xe và được chốt khi liên hệ."
+  - q: "Vì sao nên kiểm tra lại xe trước khi ký phần gia hạn?"
+    a: "Vì xe đã chạy vài ngày, những hỏng nhỏ ở đèn, còi, phanh hay lốp có thể đã xuất hiện. Ghi các lỗi có sẵn vào phần gia hạn giúp bạn không bị quy trách nhiệm khi trả xe; với xe điện, hỏi thêm chính sách sạc."
+  - q: "Có cần ghi giờ trả xe mới vào văn bản gia hạn không?"
+    a: "Có. Giờ trả mới là mốc để tính phụ phí trễ sau này, nên ghi vào văn bản gia hạn hoặc tin nhắn xác nhận thay vì chỉ nói miệng. Nếu lịch thay đổi, báo sớm cho nơi thuê vì báo trước luôn dễ thương lượng hơn."
 ---
 Thuê theo ngày mà cần dùng thêm vài ngày là tình huống rất phổ biến, và gia hạn đúng cách giúp bạn không phải trả giá cao hơn ban đầu. Bài này liệt kê điều nên xác nhận lại trước khi ký phần gia hạn.
 
@@ -39,6 +51,8 @@ Hợp đồng gia hạn nên ghi lại giấy tờ mà bạn đã giao cho nơi 
 ## Bồi hoàn phần đã trả trước
 
 Nếu bạn đã trả trước cho gói ban đầu, hỏi cách quy đổi: số ngày còn lại được cộng vào gói mới như thế nào, và chênh lệch tính theo giá ngày nào. Nhiều tranh chấp phát sinh chỉ vì hai bên hiểu hai cách quy đổi khác nhau, nên yêu cầu một dòng ghi rõ trong gia hạn. Thông tin về các khoản phí nên hỏi trước khi thuê nằm trong bài [giá thuê xe máy đã bao gồm gì]({{ '/blog/gia-thue-xe-may-da-bao-gom-gi/' | relative_url }}).
+
+Nếu sau vài lần gia hạn bạn thấy mình còn ở Hà Nội thêm nhiều tuần, hãy so tổng tiền đang trả với [gói thuê xe máy theo tháng]({{ '/' | relative_url }}) thay vì tiếp tục cộng dồn từng ngày.
 
 ## Kết luận
 

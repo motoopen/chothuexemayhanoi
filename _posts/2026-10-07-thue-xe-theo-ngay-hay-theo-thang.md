@@ -9,6 +9,18 @@ primary_keyword: "thuê xe theo ngày hay theo tháng"
 hub_parent: kinh-nghiem
 hub_category: so-sanh-lua-chon
 seo_hub: thue-xe-thang
+quick_answer: "Điểm hòa vốn bằng giá tháng chia cho giá ngày của cùng dòng xe. Nếu số ngày chắc chắn dùng xe trong tháng vượt con số này, gói tháng rẻ hơn; nếu lịch linh hoạt hoặc dùng dưới khoảng 10 ngày, thuê theo ngày thường hợp lý hơn."
+qa:
+  - q: "Với giá Motoopen, dùng bao nhiêu ngày thì thuê tháng có lợi?"
+    a: "Theo giá tham khảo, Wave khoảng 1.200k/tháng so với 150k/ngày, tức 1.200k chia 150k là khoảng 8 ngày đã hòa vốn; Vision 1.800k–2.000k/tháng so với 200k/ngày thì khoảng 9–10 ngày. Giá có thể thay đổi, nên chốt khi liên hệ."
+  - q: "Đi làm năm ngày một tuần thì nên thuê ngày hay tháng?"
+    a: "Nên thuê tháng. Đi làm năm ngày một tuần, bốn tuần là khoảng 20 ngày dùng xe mỗi tháng, vượt xa điểm hòa vốn. Hãy đếm số ngày chắc chắn dùng, không phải số ngày có mặt ở Hà Nội."
+  - q: "Gói tháng có những điều khoản nào mà thuê ngày không cần quan tâm?"
+    a: "Gói tháng cần đọc thêm giới hạn quãng đường nếu có, ai lo bảo dưỡng định kỳ, thời gian đổi xe khi hỏng, hoàn tiền khi chấm dứt sớm và cách tính hao mòn tự nhiên. Thuê ngày chủ yếu chỉ cần chú ý giờ trả và phụ phí trễ."
+  - q: "Thuê xe theo tháng có cần hợp đồng giấy không?"
+    a: "Nên có. Với gói tháng, hợp đồng bằng văn bản có chữ ký hai bên, ghi rõ bảo dưỡng, đổi xe, chấm dứt sớm và hao mòn, giúp tránh tranh chấp; thuê ngày thường chỉ cần phiếu thuê ngắn. Motoopen làm hợp đồng thuê rõ ràng cho khách."
+  - q: "Du khách ở dưới mười ngày có nên lấy gói tháng không?"
+    a: "Thường không cần. Ở dưới mười ngày thì thuê theo ngày linh hoạt hơn khi đổi lịch trình. Tuy vậy, nếu bạn dùng xe kín cả thời gian lưu trú, hãy so thử tổng tiền thuê ngày với gói tháng trước khi chốt."
 ---
 Giữa thuê xe máy theo ngày và theo tháng, lựa chọn đúng có thể chênh nhau cả triệu đồng mỗi tháng. Quy tắc chung ai cũng biết: thuê dài thì rẻ hơn tính trên mỗi ngày. Nhưng điểm hòa vốn nằm ở đâu, và gói tháng kèm theo điều kiện gì, thì không phải ai cũng tính. Bài này đưa ra cách tính cụ thể.
 
@@ -29,6 +41,8 @@ Về xăng và gửi xe, hai chu kỳ giống nhau: đều do khách chịu. Nh�
 Sinh viên và người đi làm ổn định một nơi gần như luôn hợp với gói tháng. Người công tác theo dự án vài tuần nên hỏi gói tuần hoặc tháng ngắn trước khi lấy ngày lẻ. Du khách ở dưới mười ngày giữ thuê ngày cho linh hoạt đổi lịch trình. Với khách cần xe đón rời rác vài buổi một tuần, đôi khi kết hợp thuê ngày cuối tuần với đi taxi ngày thường lại rẻ hơn gói tháng nguyên; hãy tính tổng chi tiêu theo tuần thực tế của bạn. Cân nhắc thêm giữa các dòng xe tại trang [loại xe]({{ '/loaixe.html' | relative_url }}) trước khi chốt hợp đồng, vì điểm hòa vốn thay đổi theo giá trị xe.
 
 Chốt lại: lấy gói tháng khi số ngày chắc chắn dùng vượt điểm hòa vốn và bạn đã đọc kỹ điều khoản; lấy thuê ngày khi lịch trình linh hoạt hoặc thời gian ở Hà Nội ngắn. Tính trước hai dòng số này, bạn không bao giờ trả thừa cho chiếc xe mình thuê.
+
+Sau khi tính xong điểm hòa vốn cho lịch của mình, bạn có thể xem chi tiết dịch vụ [thuê xe máy theo tháng]({{ '/' | relative_url }}) để chọn dòng xe phù hợp.
 
 ## Nguồn
 

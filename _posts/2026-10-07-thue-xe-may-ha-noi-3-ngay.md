@@ -9,6 +9,16 @@ primary_keyword: "thuê xe máy hà nội 3 ngày"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
 seo_hub: gia-coc
+quick_answer: "Với 3 ngày, lấy giá ngày nhân ba làm chuẩn rồi hỏi gói riêng hoặc gói tuần; nên chọn gói khi cần xe liên tục, lịch có nguy cơ kéo dài hoặc định thuê lại trong tháng. Gói tuần có khi chỉ nhỉnh hơn ba ngày lẻ."
+qa:
+  - q: "Gói linh hoạt ba ngày trong một tuần dành cho ai?"
+    a: "Hợp với người có lịch rời rạc hoặc lịch công tác dễ đảo, vì cho phép dùng ba ngày rải theo lịch thật thay vì liền nhau. Không phải nơi nào cũng có gói này, nên hỏi rõ khi đặt."
+  - q: "Lấn sang ngày thứ tư thì tính thêm thế nào?"
+    a: "Tùy cửa hàng, nên hỏi sẵn khi ký cả mức tính thêm nếu lấn sang ngày thứ tư và mức trừ nếu trả sớm nửa ngày. Biết trước hai con số này, mọi thay đổi chỉ còn là lựa chọn thay vì bị động."
+  - q: "Cần lưu giấy tờ gì sau khi thuê xe ba ngày?"
+    a: "Chụp lại biên nhận cọc và hợp đồng, ghi khung đã chốt, mốc phụ phí trễ và lưu số hotline. Motoopen làm hợp đồng thuê rõ ràng, nên giữ bản ảnh để đối chiếu khi trả xe và hoàn cọc."
+  - q: "Trả xe theo giờ đóng cửa có khác tính theo khung 24 giờ không?"
+    a: "Có thể khác. Ba ngày thường tính theo khung 24 giờ nhân ba từ lúc nhận, nhưng một số nơi khớp hạn trả với giờ đóng cửa. Motoopen mở cửa 09:00–21:00, nên xác nhận mốc trả cụ thể khi đặt."
 ---
 Ba ngày là thời gian vừa đủ cho một lịch trình đầy ở Hà Nội, đi phố, đi ven và chừa ngày trả dư. Ở ngưỡng này, cách tính của gói ảnh hưởng đáng kể tới tổng chi phí, nên bài này giúp bạn quyết định giữa giá ngày lẻ và gói riêng.
 
@@ -27,6 +37,8 @@ Ba ngày tính theo khung hai mứ tư giờ nhân ba từ lúc nhận, nhưng m
 ## Chọn dòng xe và các khoản rà trước khi ký
 
 Ba ngày thường gồm chặng ven, nên dòng xe ga phổ thông êm là lựa chọn cân bằng, hoặc dòng số nhỏ gọn nếu lịch toàn nội thành. Danh sách dòng xe hiện có nằm ở trang các loại xe cho thuê, nhóm xe điện với kế hoạch sạc nằm trong bài [cho thuê xe máy điện Hà Nội]({{ '/blog/cho-thue-xe-may-dien-ha-noi/' | relative_url }}). Rà trước: phí giao xe tận nơi hai đầu, chính sách xăng về đúng mức, phạm vi cho phép có tuyến ven dự kiến, và điều khoản hoàn cọc. Kinh nghiệm cho người mới thuê nằm trong bài thuê xe máy Hà Nội lần đầu.
+
+Nếu lịch ba ngày có khả năng kéo thành vài tuần, hỏi thêm [gói thuê xe máy theo tháng]({{ '/' | relative_url }}) ngay từ đầu thường gọn hơn gia hạn nhiều lần.
 
 ## Kết luận
 

@@ -9,6 +9,18 @@ primary_keyword: "thuê xe 50cc đi đường dài"
 hub_parent: loai-xe
 hub_category: xe-50cc
 seo_hub: xe-50cc
+quick_answer: "Trước khi lấy xe 50cc đi đường dài, hãy rà chín yếu tố: quãng đường, loại đường, thời gian, số người, đồ mang theo, sức người lái, điểm đổ xăng, điểm nghỉ và hỗ trợ giữa đường. Nếu quá nửa yếu tố rơi vào nhóm nặng, nên đổi sang dòng xe lớn hơn."
+qa:
+  - q: "Chặng một chiều bao xa thì không nên đi xe 50cc nữa?"
+    a: "Theo bài viết, dưới mười lăm cây số đường chậm thì dòng 50cc còn gánh được, còn trên hai mươi cây số nên đổi dòng. Loại đường cũng quan trọng: đường tỉnh nhanh nhiều xe tải kém an toàn hơn hẳn đường làng vắng."
+  - q: "Đi đường dài bằng 50cc bao lâu nên dừng nghỉ một lần?"
+    a: "Bài viết khuyên cứ mỗi một hai tiếng nên dừng nghỉ, uống nước, kể cả khi xe chưa có dấu hiệu mệt. Trên tuyến vắng, nên biết trước trạm xăng ở đâu vì không phải đoạn nào cũng dễ tìm chỗ đổ."
+  - q: "Hai người lớn đi xa bằng xe 50cc có ổn không?"
+    a: "Không nên. Hai người lớn trên xe 50cc đường dài là chặng vất vả cho cả xe lẫn người, nhất là khi có thêm đồ buộc sau yên làm lệch tay lái trên đoạn nhanh. Trường hợp này dòng vừa hoặc lớn hơn gần như luôn đáng phần chênh giá."
+  - q: "Chuyến đi trên ba ngày nên thuê gói ngày hay gói tuần?"
+    a: "Nên hỏi mức gói tuần trước khi tính lẻ, vì theo bài viết gói ngày tính lẻ thường đắt hơn gói tuần cho lịch trên ba ngày. Motoopen có thuê theo ngày, tuần và tháng; việc đưa xe ra tỉnh nên hỏi rõ khi đặt."
+  - q: "Người mới lái có nên đi đường dài bằng 50cc không?"
+    a: "Không nên. Chạy đường dài cần tay lái chắc, và bài viết khuyên người mới không dùng chặng xa để tập. Hãy làm quen trong phố trước, khi tự tin hơn mới tính đến chuyến dài với dòng xe phù hợp."
 ---
 Dùng xe 50cc cho chuyến đường dài là quyết định cần cân nhắc kỹ, vì dòng nhỏ sinh ra cho phố, không phải cho hành trình hàng chục cây số. Bài này gom chín yếu tố nên rà trước khi chốt dòng xe cho chuyến xa.
 
@@ -35,6 +47,8 @@ Tình huống một: khách đi cơm cưới cách mười hai cây số đườ
 ## Gói thuê cho chuyến dài nên chọn thế nào
 
 Với chuyến dài, loại gói ảnh hưởng không kém dòng xe. Gói ngày tính lẻ mỗi ngày thường đắt hơn gói tuần cho lịch trên ba ngày, nên hỏi mức gói tuần trước khi tính lẻ. Hỏi thêm phạm vi của gói có giới hạn khu vực không, vì nhiều gói ngày chỉ tính trong nội đô, đưa xe ra tỉnh tính thêm hoặc không được phép. Với chuyến khứ hồi trong ngày, chốt khung nhận sớm và trả tối cùng địa điểm để tránh phụ phí ngoài giờ. Ghi rõ các mức đã chốt bằng văn bản, kể cả mức xăng trả xe, để cuối chuyến không phải đối chiếu theo trí nhớ.
+
+Nếu chuyến xa chỉ là một phần trong thời gian bạn ở Hà Nội nhiều tuần, hãy so thêm [gói thuê xe máy theo tháng]({{ '/' | relative_url }}) với cách tính lẻ từng ngày trước khi chốt.
 
 ## Kết luận
 

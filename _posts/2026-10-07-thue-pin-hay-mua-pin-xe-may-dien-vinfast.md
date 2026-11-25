@@ -9,6 +9,18 @@ primary_keyword: "thuê pin hay mua pin xe máy điện vinfast"
 hub_parent: loai-xe
 hub_category: xe-dien
 seo_hub: xe-dien
+quick_answer: "Với khách thuê vài ngày hoặc vài tuần, thuê cả chiếc xe gần như luôn là lựa chọn gọn nhất: nơi cho thuê lo cả xe lẫn pin, bạn chỉ việc sạc và đi. Thuê pin rời hay mua pin là bài toán của người đã có thân xe hoặc đi hằng ngày trong nhiều năm."
+qa:
+  - q: "Thuê pin rời khác thuê cả chiếc xe điện ở trách nhiệm thế nào?"
+    a: "Thuê cả xe là hợp đồng một gói, trục trặc xe và pin đều do nơi cho thuê xử lý. Thuê pin rời thì thân xe là của bạn, pin là của bên cho thuê, nên khi sự cố phải xác định lỗi thuộc bên nào và dễ tranh luận nếu điều khoản không rõ."
+  - q: "Khi nào mua pin xe máy điện hợp lý hơn thuê?"
+    a: "Khi bạn đi hằng ngày trong nhiều năm và muốn khỏi lo chuyện thuê. Mua pin là khoản lớn trả một lần, nên hãy nhân chi phí thuê theo thời gian định dùng rồi so với giá mua trước khi quyết định."
+  - q: "Khách du lịch có cần quan tâm đến mô hình thuê pin rời không?"
+    a: "Thường là không. Khách du lịch hoặc người mới đến chỉ cần thuê cả chiếc: nhận xe pin đầy, cắm sạc ở khách sạn, trả xe là hết trách nhiệm. Chọn hình thức phức tạp hơn nhu cầu chỉ thêm một lớp việc phải lo."
+  - q: "So chi phí thuê cả xe với mua pin như thế nào cho nhanh?"
+    a: "Nhân giá thuê một ngày với số ngày định dùng, rồi so với giá mua pin; với kỳ ngắn, con số tự cho thấy thuê rẻ hơn nhiều. Giá thuê tham khảo của từng dòng xe nên xem trên trang bảng giá của nơi thuê."
+  - q: "Đi công tác Hà Nội khoảng mười ngày nên thuê xe điện theo phương án nào?"
+    a: "Nên thuê cả chiếc xe theo gói dài ngày. Chi phí chỉ bằng một phần nhỏ giá pin, không phải lo phân định trách nhiệm phần pin, và hết kỳ trả xe là xong."
 ---
 Với dòng xe máy điện dùng pin rời, có một câu hỏi đặc trưng: thuê cả chiếc xe, thuê riêng pin, hay mua hẳn pin. Bài này so ba phương án theo trách nhiệm, chi phí và hoàn cảnh sử dụng.
 
@@ -31,6 +43,8 @@ Khách du lịch, người mới đến hoặc người chỉ cần vài ngày t
 ## Ví dụ hai người hai bài toán pin
 
 Tình huống một: khách công tác ở Hà Nội mười ngày, thuê cả chiếc xe điện gói dài, chi bằng một phần nhỏ giá pin, hết kỳ trả xe là xong. Tình huống hai: người đi làm hằng ngày đã có thân xe, cân nhắc thuê pin theo tháng so mua pin, sau khi nhân chi phí hai năm thì quyết mua vì tần suất dùng cao. Hai bài toán đều có đáp án đúng, chỉ khác hoàn cảnh. Bài này giúp bạn nhận ra mình đang ở bài toán nào, và chọn đúng dạng thuê tương ứng.
+
+Nếu đã xác định thuê cả chiếc là phương án hợp với mình, xem [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}) để chọn dòng xe theo lịch trình trước khi hỏi giá.
 
 ## Nguồn
 

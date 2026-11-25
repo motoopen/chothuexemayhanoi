@@ -9,6 +9,18 @@ primary_keyword: "thuê xe 50cc gần ga hà nội"
 hub_parent: loai-xe
 hub_category: xe-50cc
 seo_hub: xe-50cc
+quick_answer: "Gần Ga Hà Nội, nên đặt xe 50cc trước và chốt một điểm nhận cụ thể cách ga vài phút đi bộ, hoặc hỏi phí giao xe tới điểm chờ, khách sạn, thay vì kéo vali đi tìm nơi thuê. Chọn khung nhận lệch giờ tàu lớn đến và kiểm tra xe đủ trước khi rời đi."
+qa:
+  - q: "Tàu đến sớm hoặc trễ thì lịch nhận xe xử lý thế nào?"
+    a: "Báo ngay cho nơi thuê khi biết giờ tàu thay đổi để dời khung nhận. Báo trước luôn dễ xử lý hơn đến lệch giờ rồi mới thương lượng; với Motoopen, liên hệ qua số điện thoại hoặc Zalo 0857 255 868."
+  - q: "Mang vali to từ ga có nên thuê xe 50cc ngay không?"
+    a: "Không thuận tiện. Vali to buộc lên yên sau làm trọng tâm cao, dễ ngả khi qua ổ gà. Có thể gửi bớt đồ ở khách sạn, chọn dòng xe có chỗ lớn hơn, hoặc đi taxi chặng vali rồi thuê 50cc cho các ngày sau."
+  - q: "Motoopen có giao xe tới khu vực quanh Ga Hà Nội không?"
+    a: "Motoopen giao xe tận nơi khu vực nội thành, phí khoảng 20k–50k tùy quãng đường và điểm hẹn; điểm hẹn cụ thể quanh ga nên chốt khi đặt. Nếu nhận tại cửa hàng 114 Nguyễn Văn Cừ, Long Biên thì không mất phí giao."
+  - q: "Đi tàu đêm thì một ngày thuê xe được tính thế nào?"
+    a: "Tùy nơi thuê, nên hỏi ngay khi đặt xem một ngày tính theo hai mươi tư giờ hay theo đêm, vì hai cách tính cho tổng tiền khác nhau rõ với lịch tới và trả lệch ngày. Chốt luôn phụ phí trả muộn nếu tàu trễ."
+  - q: "Nhận xe vội ở gần ga có cần kiểm tra kỹ không?"
+    a: "Có. Dù xung quanh ga ai cũng vội, vẫn nên bóp hai phanh, bật đèn còi, vặn ga nghe máy, chụp hiện trạng kể cả đồng hồ xăng và lưu số hỗ trợ. Năm phút kiểm tra giúp tránh cảnh giữa đường phanh kêu phải quay lại."
 ---
 Tàu đến Ga Hà Nội, việc đầu tiên nhiều khách nghĩ tới là thuê xe đi tiếp, và câu hỏi là nhận xe ở đâu cho đỡ mang hành lý xa. Bài này chỉ cách chọn điểm nhận quanh ga và chốt các khoản liên quan.
 
@@ -35,6 +47,8 @@ Tình huống một: khách đặt trước, nhận xe cách ga vài phút đi b
 ## Trả xe quanh ga khi kết thúc chuyến
 
 Nhận xe quanh ga thì thường cũng trả xe quanh ga, nên hỏi trước từ lúc đặt: điểm trả có thể là ga hoặc ga khác không, khung trả muộn vì trễ tàu thì phụ phí tính thế nào, và nếu muốn trả luôn tại ga mà bay chuyến sớm, có khung mở trước giờ cao điểm không. Với khách tàu chặng đêm, hỏi cách tính một ngày thuê là theo hai mươi tư giờ hay theo đêm qua, vì hai cách tính cho tổng khác nhau rõ với lịch dạng tới trả lệch ngày. Chốt các khoản này ngay từ đầu giúp khung trả gọn như khung nhận, không phải trả vội vì sợ phụ phí trễ.
+
+Trước khi xuống tàu, bạn có thể xem [giá thuê xe theo ngày]({{ '/banggia.html' | relative_url }}) để biết trước khoản cần chuẩn bị và chốt gói ngay khi đặt.
 
 ## Kết luận
 

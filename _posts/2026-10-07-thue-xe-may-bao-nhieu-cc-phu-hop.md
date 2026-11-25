@@ -9,6 +9,18 @@ primary_keyword: "thuê xe máy bao nhiêu cc phù hợp"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
 seo_hub: xe-tay-ga
+quick_answer: "Người mới và lịch phố ngắn hợp 50cc; lịch trộn phố với ngoại thành gần hợp nhóm 110 như Vision, Wave; đường trường hoặc chở nặng mới cần 125 trở lên. Lấy kinh nghiệm tay lái làm trần và đừng thuê máy thừa so với nhu cầu."
+qa:
+  - q: "Xe 50cc có chở hai người được không?"
+    a: "Được nhưng hạn chế. Xe 50cc lên khoảng 40 cây số mỗi giờ đã căng và chở hai người thì máy yếu dần, nên chỉ hợp chặng phố ngắn. Thường xuyên chở đôi hoặc đi xa thì nhóm 110 trở lên phù hợp hơn."
+  - q: "Đi dưới 60 cây số mỗi ngày có cần thuê xe 125 không?"
+    a: "Không cần. Dưới 60 cây số mỗi ngày, phần máy thừa của nhóm 125 đổi lấy xe nặng hơn, tốn xăng hơn và giá cao hơn. Nhóm 110 đã đủ cho phố và ngoại thành gần."
+  - q: "Exciter, Winner có hợp người mới tập lái không?"
+    a: "Không. Xe côn thể thao như Exciter, Winner trên ngưỡng 125 và đòi kỹ năng côn tay; người mới nên bắt đầu từ 50cc hoặc xe điện mini, quen tay rồi mới lên nhóm cao hơn."
+  - q: "Định thuê xe 125 mà nơi thuê hết xe thì nên làm gì?"
+    a: "Hỏi luôn phương án nhóm thấp hơn ngay khi gọi đặt. Xe 110 vẫn làm được phần lớn lịch trình nếu không có nhiều chặng đường trường dài hay chở nặng."
+  - q: "Mùa lạnh thuê xe 50cc cần thử gì trước khi nhận?"
+    a: "Nên đề thử kỹ tại quầy. Máy nhỏ khởi động yếu hơn chút khi trời lạnh, và chiếc 50cc đề khó vào mùa lạnh có thể báo hiệu ắc quy hoặc bugi cần xem; khi đó nên xin xe khác."
 ---
 Số cc trên tem xe không nói lên chất lượng kỳ thuê, mà chỉ nói lên một điều: mức đủ hay thừa cho lịch của bạn. Bài này quy các nhóm cc về đúng hai câu hỏi kinh nghiệm và hành trình.
 
@@ -23,6 +35,8 @@ Số cc trên tem xe không nói lên chất lượng kỳ thuê, mà chỉ nói
 ## Nhóm 125 trở lên: cho đường trường
 
 125 cho đầm và giữ tốc đường trường, hợp kỳ có liên tỉnh hoặc chở nặng. SH và dòng ga lớn thuộc đây, cân trọng lượng trong bài [thuê SH hay Air Blade]({{ '/blog/sh-va-air-blade-khi-thue/' | relative_url }}). Xe côn thể thao Exciter, Winner cũng trên ngưỡng này nhưng đòi kỹ năng, xem thuê xe côn Hà Nội. Chọn nhóm cao chỉ khi hành trình thật cần: dưới 60 cây số mỗi ngày, phần máy thừa đổi lấy xe nặng hơn và giá cao hơn, không đáng.
+
+Để xem mỗi nhóm cc tương ứng với những dòng xe nào trước khi gọi đặt, bạn có thể tham khảo [các nhóm xe cho thuê]({{ '/loaixe.html' | relative_url }}).
 
 ## Chọn theo kinh nghiệm lái
 

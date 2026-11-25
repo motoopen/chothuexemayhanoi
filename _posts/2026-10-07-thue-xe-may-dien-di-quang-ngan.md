@@ -9,6 +9,18 @@ primary_keyword: "thuê xe máy điện đi quãng ngắn"
 hub_parent: loai-xe
 hub_category: xe-dien
 seo_hub: xe-dien
+quick_answer: "Xe máy điện là lựa chọn hợp lý nhất cho quãng ngắn khi bạn ở trong nội thành, có chỗ cắm sạc qua đêm và dừng nhiều điểm trong ngày, vì rẻ, êm, gọn và không lo nhiên liệu. Nếu mưa to kéo dài, chở nặng hoặc đường dốc xấu thì xe ga hay xe số phù hợp hơn."
+qa:
+  - q: "Đi dưới 30 cây số mỗi ngày thì thuê xe điện có rẻ hơn xe xăng không?"
+    a: "Gần như luôn rẻ hơn. Giá thuê xe điện theo ngày thường bằng hoặc thấp hơn xe xăng, còn tiền điện cho cả ngày chạy ngắn chỉ vài nghìn đồng."
+  - q: "Đi quãng ngắn có cần lập kế hoạch pin không?"
+    a: "Không cần phức tạp, nhưng vẫn nên nhận xe với pin trên 80 phần trăm và hỏi mức tối thiểu khi trả. Cắm qua đêm ở chỗ lưu trú một lần thường đủ cho cả ngày hôm sau."
+  - q: "Làm sao biết lịch của mình thuộc nhóm quãng ngắn?"
+    a: "Có ba dấu hiệu: tổng lộ trình mỗi ngày dưới 30 cây số, dừng nhiều hơn ba điểm, và hầu hết di chuyển trong nội thành. Đủ cả ba thì xe máy điện là đáp án rõ ràng."
+  - q: "Chỉ cần xe điện trong vài giờ thì nên lưu ý gì?"
+    a: "Nên chọn nơi giao xe pin đầy sẵn để khỏi chờ sạc, và hỏi trước mức pin tối thiểu khi trả cùng giờ trả xe. Ghi các con số này vào điện thoại kèm số hỗ trợ của nơi thuê."
+  - q: "Có nên thuê xe điện gói cao cấp để đi quãng ngắn không?"
+    a: "Không cần. Thuê gói cao cấp cho quãng ngắn dễ phí tiền vì không dùng hết tính năng; một chiếc xe điện phổ thông đã đủ cho các chặng vài cây số quanh phố."
 ---
 Quãng ngắn là lĩnh vực xe máy điện mạnh nhất khi thuê ở Hà Nội. Bài này chỉ rõ những tình huống thuê xe điện cho lộ trình ngắn là lựa chọn hợp lý nhất, và cách tính để không mất tiền.
 
@@ -31,6 +43,8 @@ Quãng ngắn không cần kế hoạch pin phức tạp, nhưng vẫn nên nh�
 ## Khi nào quãng ngắn không nên dùng xe điện
 
 Trời mưa to nhiều giờ liên tục, xe điện ướt pin và phanh kém an toàn hơn, xem hướng dẫn trong bài thuê xe máy điện mùa mưa. Chở theo người lớn kèm đồ nặng cũng làm pin tụ nhanh, tham khảo bài [xe máy điện chở 2 người]({{ '/blog/xe-may-dien-cho-2-nguoi-khi-thue/' | relative_url }}). Nếu quãng ngắn nhưng dốc nhiều hoặc đường xấu, xe ga hoặc xe số bền hơn.
+
+Nếu quãng ngắn là lịch đi làm hằng ngày kéo dài nhiều tuần, có thể so thêm [gói thuê xe máy theo tháng]({{ '/' | relative_url }}) thay vì thuê lẻ từng ngày.
 
 ## Kết luận
 

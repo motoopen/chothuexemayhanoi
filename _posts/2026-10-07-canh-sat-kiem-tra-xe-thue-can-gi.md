@@ -9,6 +9,18 @@ primary_keyword: "cảnh sát kiểm tra xe thuê cần gì"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
 seo_hub: thu-tuc-hop-dong
+quick_answer: "Người lái cần xuất trình bằng lái phù hợp, CCCD hoặc hộ chiếu, kèm đăng ký xe và chứng nhận bảo hiểm bắt buộc do nơi cho thuê giao. Hãy kiểm tra đủ bộ giấy tờ xe ngay lúc nhận và lưu số điện thoại nơi thuê để gọi khi cần xác nhận."
+qa:
+  - q: "Giấy tờ xe thuê thường gồm những gì và do ai giao?"
+    a: "Thường gồm đăng ký xe và chứng nhận bảo hiểm bắt buộc còn hiệu lực, do nơi cho thuê giao kèm xe. Khi nhận, bạn nên kiểm tra và chụp lại toàn bộ nhóm giấy tờ này trước khi ký hợp đồng."
+  - q: "Giấy xác nhận xe đang cho thuê có cần thiết không?"
+    a: "Không bắt buộc, nhưng nên hỏi xin khi thuê dài ngày hoặc đi tỉnh. Giấy xác nhận xe được cho thuê kèm tên người thuê giúp bạn giải trình nhanh mối quan hệ với chiếc xe; với Motoopen, việc này nên hỏi rõ khi đặt."
+  - q: "Nếu bị lỗi do giấy tờ xe thiếu thì người thuê nên làm gì tại chỗ?"
+    a: "Giữ bình tĩnh, xuất trình những gì đang có và gọi ngay cho nơi thuê để làm rõ trách nhiệm. Đừng tranh luận trên đường; mọi bất đồng nên giải quyết theo trình tự pháp lý và đối chiếu với hợp đồng thuê."
+  - q: "Nên cất giấy tờ thế nào để khỏi lục tìm khi bị dừng xe?"
+    a: "Gom giấy tờ người và giấy tờ xe vào một túi chống thấm, để ở một túi áo cố định và rà lại mỗi sáng. Không nên để trong cốp rồi quên, vì mở cốp giữa đường vừa mất thời gian vừa dễ rơi vãi."
+  - q: "Có cần kiểm tra mũ bảo hiểm được giao kèm xe thuê không?"
+    a: "Có. Mũ bảo hiểm đạt chuẩn là thứ bắt buộc khi lưu thông, nên hãy xem mũ giao kèm còn tốt, quai cài chắc và đội đúng cách trên mọi quãng đường, kể cả chặng rất ngắn."
 ---
 Bị cảnh sát giao thông làm hiệu lệnh dừng xe khi đang đi xe thuê khiến nhiều người lo hơn đi xe của mình, vì không biết giấy tờ nào phải có và phần nào do bên cho thuê lo. Thực tế trình tự rất gọn nếu bạn chuẩn bị đủ từ đầu.
 
@@ -35,6 +47,8 @@ Xe điện có quy định riêng về giấy tờ và mũ bảo hiểm theo ti�
 ## Phòng bị bằng cách nào
 
 Trước mỗi chuyến, gom giấy tờ người và giấy tờ xe vào một túi chống thờ, để đúng một túi áo, và rà lại mỗi sáng. Luôn đội mũ bảo hiểm đạt chuẩn, vì đây là lỗi bị dừng phổ biến nhất theo Nghị định 168/2024. Không để giấy tờ trong cốp rồi quên, vì mở cốp giữa đường vừa mất thời gian vừa dễ rơi vãi.
+
+Bộ giấy tờ người thuê cần mang được liệt kê trên trang [các giấy tờ cần chuẩn bị khi thuê xe]({{ '/thutuc.html' | relative_url }}), bạn nên rà lại một lượt trước ngày nhận xe.
 
 ## Kết luận
 

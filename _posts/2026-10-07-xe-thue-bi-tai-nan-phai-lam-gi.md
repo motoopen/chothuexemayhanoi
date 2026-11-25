@@ -9,6 +9,18 @@ primary_keyword: "xe thuê bị tai nạn phải làm gì"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
 seo_hub: thu-tuc-hop-dong
+quick_answer: "Ưu tiên an toàn người trước: rời khỏi làn đường nếu có thể, bật đèn khẩn cấp và gọi cấp cứu khi có người bị thương. Sau đó chụp hiện trường, báo ngay cho nơi cho thuê, gọi cảnh sát lập biên bản khi có thương tích hoặc tranh chấp lỗi, và giữ đủ bằng chứng."
+qa:
+  - q: "Có nên tự thỏa thuận tại chỗ khi va chạm bằng xe thuê không?"
+    a: "Không nên khi có thương tích, hư hỏng xe người khác hoặc hai bên không thống nhất lỗi. Khi đó nên gọi cảnh sát giao thông lập biên bản, vì biên bản là căn cứ cho bảo hiểm và trách nhiệm pháp lý, kể cả khi đi xe thuê."
+  - q: "Gặp tai nạn khi đi xe thuê có nên rời hiện trường không?"
+    a: "Không. Rời hiện trường có thể biến người không có lỗi thành người phải chịu trách nhiệm. Hãy ở lại, giữ an toàn, chụp ảnh và chờ hướng dẫn của nơi thuê hoặc cơ quan chức năng."
+  - q: "Cần chụp những gì ở hiện trường vụ tai nạn?"
+    a: "Chụp vị trí các xe, vết lốp, phần hư hỏng, biển số và cảnh quanh đoạn đường. Nếu có người làm chứng, xin số điện thoại của họ; các bằng chứng này giúp phân định lỗi và áp dụng đúng điều khoản hợp đồng."
+  - q: "Ai chịu chi phí sửa xe thuê sau tai nạn?"
+    a: "Phụ thuộc vào lỗi và điều khoản trách nhiệm trong hợp đồng đã ký. Hãy đối chiếu biên bản và hợp đồng khi trả xe, yêu cầu biên nhận ghi rõ các khoản; với Motoopen, phần trách nhiệm khi tai nạn nên hỏi rõ khi đặt."
+  - q: "Sau tai nạn vài ngày còn nên làm gì để bảo vệ quyền lợi?"
+    a: "Viết lại diễn biến theo thứ tự thời gian khi trí nhớ còn mới: tốc độ, hướng đi, thời tiết, vị trí và lời hai bên trao đổi. Giữ mọi hóa đơn sửa chữa, y tế và đi lại phát sinh để đối chiếu khi giải quyết bồi thường."
 ---
 Tai nạn giữa kỳ thuê là tình huống không ai muốn, nhưng thứ tự xử lý đúng giúp bạn bảo vệ an toàn, quyền lợi và tránh tranh chấp về trách nhiệm. Bài này liệt kê thứ tự việc cần làm.
 
@@ -37,6 +49,8 @@ Gom lại toàn bộ: ảnh hiện trường, biên bản nếu có, tin nhắn 
 Khi trả xe sau tai nạn, đối chiếu mọi chi tiết với biên bản và hợp đồng, và yêu cầu biên nhận ghi rõ tình trạng xe nhận lại cùng các khoản đã tất toán. Phần cọc trừ hay hoàn, xem mức thường gặp trong bài [tiền cọc thuê xe máy Hà Nội]({{ '/blog/tien-coc-thue-xe-may-ha-noi/' | relative_url }}), nên được thể hiện bằng văn bản để không phát sinh nhắc lại sau này.
 
 Một điều nữa nên làm ngay hôm sau tai nạn là viết lại toàn bộ diễn biến theo thứ tự thời gian, khi trí nhớ còn mới: tốc độ, hướng đi, thời tiết, vị trí, và lời hai bên trao đổi. Bản ghi này đắt giá hơn bạn nghĩ nếu vụ việc kéo dài hoặc bảo hiểm cần làm rõ. Kèm theo đó, giữ mọi hóa đơn sửa chữa và đi lại phát sinh, vì các khoản này thường nằm trong phần yêu cầu bồi thường.
+
+Trước khi nhận xe, bạn có thể đọc trang [thủ tục thuê xe máy Hà Nội]({{ '/thutuc.html' | relative_url }}) rồi hỏi thêm phần trách nhiệm khi xảy ra tai nạn, để khi có sự cố đã biết hợp đồng quy định gì.
 
 ## Kết luận
 

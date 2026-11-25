@@ -9,6 +9,18 @@ primary_keyword: "thuê xe ga hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
 seo_hub: xe-tay-ga
+quick_answer: "Xe ga hợp người lần đầu đến Hà Nội, khách đi nội thành quãng trung bình và người cần cốp đựng mũ cùng đồ. Trước khi nhận, kiểm máy và ga, phanh, xăng, lốp, đèn, còi, rồi đọc hợp đồng và đếm mũ; lỗi nào thấy tại quầy cũng nên đổi xe ngay."
+qa:
+  - q: "Motoopen có những dòng xe ga nào cho thuê?"
+    a: "Motoopen cho thuê xe ga Honda Vision, Air Blade và Click/Mio, bên cạnh xe số Wave/RSX, xe 50cc, xe đạp điện và xe tay côn. Có thể thuê theo ngày, tuần hoặc tháng; dòng còn xe vào ngày bạn cần nên hỏi qua 0857 255 868."
+  - q: "Thuê xe ga theo ngày ở Hà Nội tốn khoảng bao nhiêu?"
+    a: "Theo bảng giá Motoopen đang công bố, Click/Mio từ khoảng 150k mỗi ngày, Vision và Air Blade khoảng 200k mỗi ngày. Giá có thể thay đổi theo thời điểm và được chốt khi liên hệ; mức cọc tùy dòng xe."
+  - q: "Khách mới đến Hà Nội nên thuê xe ga hay xe số?"
+    a: "Xe ga dễ làm quen hơn vì tay ga không số, không đạp, ngồi thoải mái. Đổi lại xe ga nặng hơn xe số cùng cỡ và giá thuê nhỉnh hơn chút; ai chỉ chạy quãng rất ngắn trong ngõ có thể cân nhắc xe nhẹ hơn."
+  - q: "Trả xe ga muộn giờ có bị tính thêm tiền không?"
+    a: "Nhiều nơi tính phụ phí khi trả muộn, nên lưu giờ trả vào lịch điện thoại và đặt nhắc trước một tiếng. Cách tính trả muộn hoặc gia hạn cụ thể ở Motoopen nên hỏi rõ khi đặt và xem trong hợp đồng."
+  - q: "Nhận xe ga xong cần hỏi gì về xăng?"
+    a: "Nên hỏi nơi thuê giao bao nhiêu xăng và quy định trả xăng thế nào, rồi chụp đồng hồ xăng lúc nhận. Trả xe đúng mức xăng đã thỏa thuận giúp tránh phải bù tiền và tranh cãi."
 ---
 Xe ga là lựa chọn phổ biến nhất khi thuê xe ở Hà Nội vì dễ lái và phổ thông, nhưng không phải ai cũng cần, và không phải chiếc ga nào cũng nên nhận. Bài này chỉ rõ nhóm người hợp xe ga và những mục cần kiểm tra trước khi nhận.
 
@@ -19,6 +31,8 @@ Xe ga hợp ba nhóm: người lần đầu đến Hà Nội cần xe dễ làm 
 ## Chọn đúng dòng ga theo hành trình
 
 Ga 50cc loại nhỏ gọn hợp nội thành ngắn ngày, ga 100 đến 125 phân khối hợp lộ trình xen kẽ ngoại thành vì đầm và bốc hơn. Đi xa hoặc chở hai người thì chọn đời cao có phanh đĩa. Hỏi nơi thuê hiện có dòng nào qua trang liên hệ và nói rõ tổng quãng dự kiến để họ tư vấn đúng. Với hành trình dài, đọc cách lập kế hoạch trong bài [thuê xe máy điện đi đường dài]({{ '/blog/thue-xe-may-dien-di-duong-dai/' | relative_url }}) nếu bạn cân nhắc điện, còn xăng thì xe ga 110 trở lên là đủ.
+
+Nếu chưa chắc nên lấy ga nhỏ hay ga 125, bạn có thể xem [các loại xe cho thuê]({{ '/loaixe.html' | relative_url }}) để so trước khi gọi đặt.
 
 ## Kiểm tra máy và ga
 

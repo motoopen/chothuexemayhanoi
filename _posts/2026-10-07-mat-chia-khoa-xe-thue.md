@@ -9,6 +9,18 @@ primary_keyword: "mất chìa khóa xe thuê"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
 seo_hub: thu-tuc-hop-dong
+quick_answer: "Trước hết hãy lục kỹ lại các nơi vừa đi qua để chắc là mất chứ không phải để quên, rồi báo ngay cho nơi cho thuê thay vì tự gọi thợ. Đừng tự đục khóa hay kéo xe khi chưa được đồng ý, và lưu lại tin nhắn cùng hóa đơn phát sinh."
+qa:
+  - q: "Mất chìa khóa xe thuê có phải đền tiền không?"
+    a: "Có thể có, tùy hợp đồng và cách xử lý. Khoản phát sinh thường liên quan chìa dự phòng, thợ hoặc ổ khóa; hãy để nơi thuê báo trước chi phí và phần nào tính vào cọc, với Motoopen nên hỏi rõ khi đặt hoặc khi báo sự cố."
+  - q: "Vì sao không nên tự gọi thợ phá khóa xe thuê?"
+    a: "Vì tự đục khóa có thể làm hỏng cả ổ khóa, biến một chiếc chìa bị mất thành cả bộ khóa phải thay. Xe là tài sản của bên cho thuê, nên mọi can thiệp vào ổ khóa cần họ đồng ý trước."
+  - q: "Chờ chìa dự phòng quá lâu mà cần đi gấp thì làm sao?"
+    a: "Hỏi nơi thuê phương án di chuyển tạm và ai chi trả, rồi chốt bằng tin nhắn trước khi chi tiền. Giữ hóa đơn taxi hoặc các khoản phát sinh để đối chiếu khi tất toán."
+  - q: "Nhận chìa dự phòng rồi cần lưu ý gì khi trả xe?"
+    a: "Nên ký nhận chìa dự phòng và hỏi rõ có phải trả lại chìa đó khi tất toán không. Làm rõ ngay từ lúc nhận giúp bạn tránh khoản trừ cọc bất ngờ vào ngày trả xe."
+  - q: "Đi theo nhóm thì giữ chìa xe thuê thế nào cho an toàn?"
+    a: "Phân công ngay từ đầu ai giữ chìa chính, ai giữ chìa dự phòng, và cất hai bộ ở hai chỗ khác nhau để khi một người tách nhóm, chìa không đi theo người đó. Dùng móc chìa dây cuộn gắn vào ba lô cũng giảm nguy cơ rơi."
 ---
 Mất chìa khóa xe thuê dễ hốt hoảng hơn mức cần, vì phần lớn nơi thuê có chìa dự phòng và quy trình sẵn cho tình huống này. Bài này cho bạn thứ tự việc cần làm trước khi gọi thợ hay di chuyển xe.
 
@@ -35,6 +47,8 @@ Ngay khi nhận xe, đeo chìa vào móc khóa hoặc dây đeo cổ, và tránh
 Một điểm nữa đáng hỏi ngay khi báo mất chìa là thời gian chờ: nếu chìa dự phòng có trong vài giờ, bạn nên đợi thay vì thuê phương án đi lại tốn kém. Nếu chờ quá lâu và bạn cần di chuyển gấp, hỏi mức chi trả cho taxi hoặc thuê xe tạm của nơi cho thuê, và chốt bằng tin nhắn trước khi chi. Cuối cùng, khi nhận chìa dự phòng, ký nhận lại và hỏi có cần trả chìa mới khi hoàn tất tất toán không, để không phát sinh khoản trừ lúc trả xe.
 
 Một thói quen nhỏ phòng tránh nữa: dùng móc chìa loại có dây cuộn gắn vào ba lô khi đi xa, và cất cả hai bộ chìa ở hai chỗ khác nhau thay vì cùng một túi. Nếu bạn thuê theo nhóm, phân ngay từ đầu ai giữ chìa chính ai giữ chìa dự phòng, để khi một người tách nhóm, chìa không nằm chung theo người. Chuẩn bị trước kiểu này gần như loại trừ hoàn toàn tình huống mất chìa giữa kỳ.
+
+Ngay lúc ký hợp đồng, bạn có thể hỏi cách xử lý khi mất chìa cùng các mục khác trên [trang thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}), để khi có sự cố đã biết trước cần gọi ai.
 
 ## Kết luận
 

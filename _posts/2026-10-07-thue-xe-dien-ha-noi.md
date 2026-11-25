@@ -9,6 +9,18 @@ primary_keyword: "thuê xe điện hà nội"
 hub_parent: loai-xe
 hub_category: xe-dien
 seo_hub: xe-dien
+quick_answer: "Đi một hoặc hai người, hành lý gọn, lộ trình ngắn nhiều điểm dừng trong nội thành thì nên chọn xe máy điện vì cơ động và tiết kiệm. Đi nhóm từ ba người, mang vali lớn, đi xa hoặc cần đúng giờ và kín mưa nắng thì dịch vụ ô tô điện phù hợp hơn."
+qa:
+  - q: "Gia đình có trẻ nhỏ ở Hà Nội nên thuê xe máy điện hay ô tô điện?"
+    a: "Nên chọn ô tô điện. Ô tô cho phép lắp ghế an toàn cho trẻ và có không gian kín, điều xe hai bánh không đáp ứng được, nhất là khi gia đình mang theo nhiều hành lý."
+  - q: "Mùa mưa Hà Nội có nên thuê xe máy điện không?"
+    a: "Vẫn được nếu lịch thoáng, nhưng cần áo mưa và đi chậm. Nếu chuyến đi rơi vào mùa mưa mà lịch trình kín, ô tô điện không bị thời tiết ảnh hưởng nên là khoản đáng cân nhắc."
+  - q: "Thuê xe máy điện theo ngày, ngoài đơn giá cần tính thêm gì?"
+    a: "Cần tính quy định về pin khi nhận và khi trả, vì mỗi nơi có điều khoản riêng về mức pin. Hỏi luôn xe có kèm bộ sạc không và chỗ ở có cắm được không, để không phải lo thêm chi phí sạc bên ngoài."
+  - q: "Đi phố cổ và các ngõ nhỏ thì loại xe điện nào tiện hơn?"
+    a: "Xe máy điện tiện hơn. Xe hai bánh cơ động trong ngõ hẹp, đỗ dễ và hợp lịch nhiều điểm dừng như phố cổ, chợ hay quán quen, còn ô tô điện hợp hành trình ít điểm dừng nhưng quãng dài."
+  - q: "Giấy tờ thuê xe máy điện và ô tô điện khác nhau thế nào?"
+    a: "Thuê xe máy điện thường cần giấy tờ tùy thân và đặt cọc theo quy định cửa hàng; thuê ô tô điện cần giấy phép lái hợp lệ cho loại xe đó, hợp đồng chặt hơn và cách tính cọc khác rõ rệt."
 ---
 Xe điện hiện diện ngày càng nhiều trên đường Hà Nội, và nhu cầu thuê cũng theo đó mà phong phú. Nhưng trước khi so sánh giá hay mẫu xe, câu hỏi đầu tiên bạn cần trả lời là: mình cần xe máy điện hay dịch vụ ô tô điện? Đây là hai loại hình phục vụ hai nhóm nhu cầu khác hẳn nhau, và chọn đúng từ đầu giúp bạn tiết kiệm thời gian tìm kiếm cũng như tránh so sánh lệch giá. Bài viết này phân tích theo từng tiêu chí thực tế.
 
@@ -31,6 +43,8 @@ Về chi phí, hai loại hình không cùng cấp: thuê xe máy điện theo n
 ## Thủ tục và giấy tờ cần chuẩn bị
 
 Thuê xe máy điện cần giấy tờ tùy thân và đặt cọc theo quy định cửa hàng, chi tiết tại trang [thủ tục thuê xe]({{ '/thutuc.html' | relative_url }}). Thuê ô tô điện cần giấy phép lái xe hợp lệ cho loại xe đó và các điều khoản hợp đồng chặt hơn, vì giá trị tài sản lớn. Hai loại hình cũng có cách tính cọc khác nhau rõ rệt. Khi gọi hỏi trước qua trang liên hệ, nói rõ loại dịch vụ mình cần để nhận tư vấn đúng ngay từ đầu.
+
+Khi đã chọn xe hai bánh, mở [bảng giá cho thuê xe]({{ '/banggia.html' | relative_url }}) để ước tổng chi phí theo số ngày định dùng trước khi gọi đặt.
 
 ## Kết luận
 

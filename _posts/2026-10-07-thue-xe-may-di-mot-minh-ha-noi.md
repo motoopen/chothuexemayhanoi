@@ -9,6 +9,18 @@ primary_keyword: "thuê xe máy đi một mình hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
 seo_hub: xe-tay-ga
+quick_answer: "Đi một mình quanh phố với balo nhỏ thì xe nhẹ tiện hơn vì dễ dắt, quay đầu trong ngõ và đỗ gọn. Mang nhiều đồ hoặc lịch trộn nhiều loại chặng thì xe cốp lớn thiệt thòi ít nhất. Cân thêm nơi bạn đỗ xe hằng ngày trước khi chốt."
+qa:
+  - q: "Ở khách sạn trong phố cổ nên thuê xe nhẹ hay xe cốp lớn?"
+    a: "Nếu phải đỗ trong ngõ hoặc khu phố cổ đông, xe nhẹ dễ đẩy và xoay hơn nhiều, nhất là cuối ngày khi về muộn và mệt. Khách sạn có bãi rộng thì xe cốp lớn không gây phiền."
+  - q: "Hay để đồ trên xe khi đỗ thì nên chọn cốp hay móc treo?"
+    a: "Nên chọn xe có cốp khóa kín. Cốp giữ đồ an toàn hơn móc treo ngoài, nên ai hay để mũ, áo mưa hay đồ mua sắm trên xe khi đỗ nên ưu tiên dòng có cốp."
+  - q: "Ở Hà Nội cả tuần với lịch mỗi ngày một khác nên thuê xe thế nào?"
+    a: "Có thể cân việc thuê hai loại xe ngắn kỳ thay vì một xe suốt tuần, ví dụ xe nhỏ cho ngày lẻ tẻ trong phố và xe ga lớn hơn cho ngày đi ngoại thành. Việc đổi loại giữa kỳ hay gộp giá nên hỏi rõ khi đặt."
+  - q: "Đi một mình khi trời mưa cần chú ý gì?"
+    a: "Nên phanh sớm hơn bình thường vì không có người ngồi sau nhắc nhở, và giữ khoảng cách rộng trên đường ướt. Nếu dự báo có mưa, kiểm lốp còn gai và phanh ăn tốt trước khi nhận xe."
+  - q: "Xe điện có hợp người đi một mình trong phố không?"
+    a: "Khá hợp nếu lịch nội thành lẻ tẻ: nhẹ, êm, rẻ nhiên liệu và dễ dắt trong ngõ. Motoopen có xe đạp điện trong danh sách cho thuê; quãng đi được mỗi lần sạc nên hỏi rõ khi đặt."
 ---
 Đi một mình nghe đơn giản nhưng chọn sai loại xe vẫn làm kỳ thuê mất thoải mái: xe nhẹ nhanh gọn, xe cốp lớn tiện đồ. Bài này cân hai phía theo từng yếu tố để bạn chốt nhanh.
 
@@ -31,6 +43,8 @@ Kỳ nội thành ngắn và đồ vừa thì xe nhẹ gọn hơn hẳn. Kỳ c�
 ## Giấy tờ và kiểm tra cơ bản
 
 Một người lái thì mọi nhóm giấy tờ đều mở: 50cc không cần bằng, trên 50 cần A1, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Kiểm cơ bản không đổi: phanh lốp đèn theo chuẩn trong bài kiểm tra phanh lốp xe 50cc, và chạy thử vòng quầy. Trời mưa gần thì thêm nguyên tắc đường ướt trong bài thuê xe máy điện mùa mưa, đi một mình càng nên phanh sớm vì không người sau nhắc nhở.
+
+Nếu bạn ở Hà Nội một mình vài tuần để đi làm hay đi học, có thể xem thêm [thuê xe máy tháng Hà Nội]({{ '/' | relative_url }}) thay vì gia hạn từng ngày.
 
 ## Kết luận
 

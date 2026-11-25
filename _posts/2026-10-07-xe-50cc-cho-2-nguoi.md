@@ -9,6 +9,18 @@ primary_keyword: "xe 50cc chở 2 người"
 hub_parent: loai-xe
 hub_category: xe-50cc
 seo_hub: xe-50cc
+quick_answer: "Xe 50cc chở được hai người với chặng ngắn, phố phẳng và đi chậm, nhưng không nên dùng cho dốc dài, đường nhanh hay quãng xa vì tải gần gấp đôi khiến xe yếu, phanh dài và nóng máy. Trước chuyến, nên kiểm tra quy định hiện hành về chở người và kiểm tra kỹ phanh, máy."
+qa:
+  - q: "Người ngồi sau xe 50cc cần lưu ý gì để an toàn?"
+    a: "Ngồi giữa yên, chân đặt chắc lên gác chân, không xoay người làm xe lệch. Khi vào cua nghiêng theo người lái, không đặt chân xuống khi xe chưa dừng hẳn và không giật mình khi gặp đoạn đông."
+  - q: "Chở hai người bằng xe 50cc có tốn xăng hơn không?"
+    a: "Có. Tải nặng làm mức tiêu hao tăng rõ so với đi một mình, nên hỏi nơi thuê lượng xăng lúc nhận xe và đổ sớm hơn thường lệ. Nếu đi chặng ven, đánh dấu sẵn các điểm nghỉ trên bản đồ."
+  - q: "Tra quy định chở người trên xe máy ở đâu cho chính xác?"
+    a: "Nên tra trên trang thông tin chính thức của lực lượng cảnh sát giao thông, đọc theo văn bản mới nhất và phần hỏi đáp về chở người. Quy định được sửa theo từng đợt, vì vậy nên kiểm tra quy định hiện hành ngay trước chuyến đi."
+  - q: "Chắc chắn đi hai người thì nên chọn chiếc 50cc nào?"
+    a: "Hỏi nơi thuê chiếc 50cc máy khỏe nhất đang sẵn có và xin chạy thử với đủ hai người. Nếu tuyến có dốc đê hoặc quãng xa, nên đổi sang dòng vừa ngay từ đầu thay vì cố giữ dòng nhỏ."
+  - q: "Nhận xe cho chuyến hai người nên chụp kỹ chỗ nào?"
+    a: "Ngoài toàn bộ hiện trạng, nên chụp kỹ phần sau yên và gác chân sau, vì đây là chỗ dễ va quệt khi người ngồi sau lên xuống. Ảnh chụp lúc nhận giúp đối chiếu nhanh khi trả xe."
 ---
 Nhiều khách hỏi xe 50cc chở được hai người không, và câu trả lời không chỉ là được hay không, mà là nên hay không tùy tải, quãng đường và quy định. Bài này giúp bạn kiểm tra trọn trước khi lên chuyến hai người.
 
@@ -31,6 +43,8 @@ Hỏi một: dòng 50cc sẵn có chiếc nào máy khỏe nhất cho chuyến h
 ## Ví dụ hai chuyến hai người
 
 Tình huống một: đôi bạn đi ăn cách năm cây số toàn phố phẳng, 50cc chở hai người chậm rãi vẫn ổn. Tình huống hai: cặp vợ chồng định đi đám giỗ cách hai mươi cây số có dốc đê, 50cc hai người vất cả đường, đổi dòng vừa xong xuôi. Cùng tải hai người, quãng và địa hình quyết định. Trước khi cọc, kể đúng tuyến cho nơi thuê để được tư vấn dòng phù hợp, thay vì tự chọn theo thói quen.
+
+Khi đã biết tuyến và tải của chuyến hai người, bạn có thể xem [các dòng xe đang cho thuê]({{ '/loaixe.html' | relative_url }}) để chọn giữa 50cc và dòng lớn hơn.
 
 ## Nguồn
 

@@ -9,6 +9,18 @@ primary_keyword: "thuê xe máy điện cầu giấy"
 hub_parent: loai-xe
 hub_category: xe-dien
 seo_hub: xe-dien
+quick_answer: "Thuê xe máy điện ở Cầu Giấy nên chọn điểm nhận gần chỗ ở hoặc trục đi lại chính, hỏi trước chỗ ở có cắm sạc qua đêm được không, và tính tầm pin theo quãng đi việc mỗi ngày, thường hai mươi đến ba mươi cây số, rồi chừa dư khoảng một phần tư."
+qa:
+  - q: "Ở Cầu Giấy nên chọn điểm nhận xe điện ở đâu cho tiện?"
+    a: "Nên nhận gần chỗ ở hoặc gần trục đi lại chính, tránh nhận đầu này rồi mỗi ngày ngược hai đầu. Khách ở chung cư có thể chốt nhận tại sảnh hoặc một điểm quen ở tầng trệt."
+  - q: "Ở Cầu Giấy có thể nhờ Motoopen giao xe tận nơi không?"
+    a: "Có thể hỏi khi đặt: Motoopen giao xe tận nơi khu vực nội thành, phí khoảng 20k–50k tùy quãng đường và điểm hẹn. Nhận tại cửa hàng 114 Nguyễn Văn Cừ, Long Biên thì không mất phí giao."
+  - q: "Lịch đi việc trên ba mươi cây số mỗi ngày có nên thuê xe điện?"
+    a: "Cần cân nhắc kỹ. Với mức đó, hãy hỏi dòng pin lớn hơn nếu nơi thuê có, hoặc tính phương án ghép một ngày xe xăng; tầm thật phải hỏi theo dòng cụ thể và vẫn chừa dư một phần tư."
+  - q: "Đi trục đường lớn quanh Cầu Giấy cần kiểm tra gì kỹ hơn khi nhận xe?"
+    a: "Phanh và độ đầm tay lái quan trọng hơn so với đi phố nhỏ. Thử phanh từ tốc độ vừa trên đoạn vắng, kiểm tra ga lên đều, đèn còi, rồi chụp hiện trạng và nhận đủ bản photo đăng ký xe."
+  - q: "Chủ nhà ở Cầu Giấy không cho cắm sạc thì làm thế nào?"
+    a: "Hỏi nơi thuê về gói pin rời sạc tại điểm hoặc đổi pin để thay cho sạc tại nhà. Tốt nhất là hỏi chủ nhà hoặc ban quản lý trước cả khi đặt xe, tránh cảnh phải mang pin lên tầng mỗi tối."
 ---
 Cầu Giấy là khu rộng gồm cả phố đông và các khu ở, trục lớn nhiều và quãng đi việc thường dài hơn khu phố cổ. Thuê xe máy điện ở đây cần chọn điểm nhận hợp và kế hoạch sạc theo trục đường. Bài này chỉ cách làm cả hai.
 
@@ -35,6 +47,8 @@ Tình huống một: khách ở chung cư có ổ cắm tầng trệt cho phép,
 ## Ba câu hỏi đáng giá trước khi cọc
 
 Câu một: chỗ ở của tôi cắm sạc qua đêm được không, hỏi chủ nhà hoặc ban quản lý trước cả khi đặt xe. Câu hai: chiếc xe được giao tầm thật trong phố khoảng bao nhiêu, kể cả Cầu Giấy có trục dài. Câu ba: nếu lịch một ngày vượt tầm, có phương án đổi pin giữa ngày hoặc mượn dòng khác không. Ba câu này phủ trọn ba rủi ro lớn nhất của thuê điện ở khu đường dài: không chỗ sạc, tầm hụt, và không lối thoát. Trả lời được cả ba là bạn an toàn đặt cọc, và phần còn lại của kỳ thuê chỉ là việc đi lại bình thường.
+
+Nếu bạn ở Cầu Giấy để đi làm hoặc đi học nhiều tháng, có thể so thêm phương án [thuê xe máy dài hạn tại Hà Nội]({{ '/' | relative_url }}) trước khi chốt kỳ thuê.
 
 ## Kết luận
 

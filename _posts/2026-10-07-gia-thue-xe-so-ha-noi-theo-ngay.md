@@ -9,6 +9,16 @@ primary_keyword: "giá thuê xe số hà nội theo ngày"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
 seo_hub: gia-coc
+quick_answer: "Tổng chi phí thuê xe số theo ngày khác nhau chủ yếu do dòng xe, thời gian thuê, mức cọc và các phụ phí như giao xe, ngoài giờ, xăng. Ở Motoopen, xe số Wave/RSX có giá ngày tham khảo từ 150k, nhưng nên so tổng thay vì chỉ nhìn giá niêm yết."
+qa:
+  - q: "Thuê xe số cả tuần có nên cộng giá ngày không?"
+    a: "Không nên. Giá ngày quy đổi cao hơn gói tuần rõ rệt, nên nếu cần nhiều ngày hãy hỏi luôn gói dài thay vì cộng lẻ. Với gói tuần, phí giao chia đều ra bảy ngày nên phần giá thuê mới là chính."
+  - q: "Xe số phù hợp với kiểu lịch trình nào?"
+    a: "Xe số hợp nhất với quãng ngắn, đi một mình, quanh khu ở hoặc nội thành. Nếu đi chặng dài hoặc chở thêm người, nên cân nhắc xe ga êm hơn; quãng ngắn muốn bớt tiền xăng thì xem thêm xe điện."
+  - q: "Thuê xe Wave theo tháng ở Motoopen khoảng bao nhiêu?"
+    a: "Theo bảng giá đang công bố, Wave khoảng 1.200k một tháng, giá có thể thay đổi và được chốt khi liên hệ. Nếu ở Hà Nội lâu để đi làm hay đi học, mức này rẻ hơn nhiều so với cộng dồn giá ngày."
+  - q: "Với xe số giá rẻ, phụ phí có thể làm đảo thứ hạng giữa các nơi không?"
+    a: "Có. Với dòng xe rẻ, phí giao xe theo khoảng cách, phụ phí ngoài giờ và chính sách xăng có khi lấn át phần chênh giá giữa các nơi. Vì vậy luôn hỏi trọn ba khoản này trước khi so giá."
 ---
 Xe số phổ thông là dòng rẻ nhất khi thuê xe máy ở Hà Nội, nhưng tổng chi phí giữa các nơi và các gói vẫn khác nhau đáng kể. Bài này nói các yếu tố làm giá thuê xe số theo ngày khác nhau và cách so để chọn được gói hợp lý.
 
@@ -35,6 +45,8 @@ Giả sử hai nơi niêm yết mức chênh nhau chút cho cùng dòng xe số.
 ## Kinh nghiệm dùng xe số tiết kiệm trong ngày dài
 
 Xe số phổ thông ít hao xăng nhất trong các dòng, nhưng vẫn có cách để chi phí xuống thấp nữa. Giữ vòng tua đều, tránh tăng ga rồi phanh gấp liên tục trên phố, vì kiểu chạy nhát gừng làm hao xăng thấy rõ trên quãng dày. Tắt máy khi dừng chờ quá một phút ở đèn dài, kể cả đèn đỏ các trục lớn vào giờ vắng. Kiểm tra áp suất lốp hợp lý khi nhận xe, vì lốp non làm xe nặng và ăn xăng hơn trên quãng dài. Với khách thuê nhiều ngày, ghi lại mức xăng sau mỗi ngày để ước chi phí thật thay vì ước chung chung, con số thật giúp bạn quyết định chuyển gói hoặc đổi dòng ở lần thuê sau.
+
+Trước khi gọi hỏi, bạn có thể mở [bảng giá thuê xe theo ngày và tháng]({{ '/banggia.html' | relative_url }}) để ghi sẵn mức của dòng xe số định thuê, rồi cộng thêm phụ phí để ra tổng.
 
 ## Kết luận
 

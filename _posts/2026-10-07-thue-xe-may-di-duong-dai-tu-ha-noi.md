@@ -9,6 +9,18 @@ primary_keyword: "thuê xe máy đi đường dài từ hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
 seo_hub: xe-tay-ga
+quick_answer: "Đi đường dài nên chọn xe trước hết theo tư thế: xe ga lớn thẳng lưng hợp đa số, xe thể thao chỉ hợp người quen, còn 50cc chỉ hợp chặng dưới 50 cây số. Trên 60 cây số mỗi ngày nên chọn máy trên 110 phân khối, phanh đĩa trước và lên lịch nghỉ giữa chặng."
+qa:
+  - q: "Đi xe máy đường dài bao nhiêu cây số thì nên dừng nghỉ?"
+    a: "Mỗi 60 đến 80 cây số nên dừng xuôi chân, uống nước và kiểm nhanh lốp, phanh. Chia chặng theo các điểm có quán, xóm thay vì chạy nối liền giúp cả người lẫn xe đỡ mệt."
+  - q: "Có nên chạy xe máy thuê vào ban đêm trên đường trường?"
+    a: "Không nên. Đèn xe máy yếu và nhiều đoạn đường trường không có đèn, nên hạn chế chạy khuya. Trước khi xuất phát, báo người nhà lộ trình và giờ dự kiến về."
+  - q: "Motoopen có xe nào hợp chuyến đi xa từ Hà Nội?"
+    a: "Trong danh sách công bố có Air Blade với máy đầm và phanh đĩa, cùng xe tay côn cho người đã quen côn tay. Nên nói rõ lộ trình khi gọi 0857 255 868; điều kiện đi tỉnh hay giới hạn quãng đường nên hỏi rõ khi đặt."
+  - q: "Thuê xe đi đường dài cần kiểm gì thêm so với đi phố?"
+    a: "Ngoài phanh, lốp, đèn, nên soi dây xích và nhớt nếu thuê nhiều ngày, đồng thời hỏi lịch bảo dưỡng của chính chiếc xe. Motoopen bảo dưỡng xe định kỳ, nhưng bạn vẫn nên tự kiểm trước khi xuất phát."
+  - q: "Xe máy điện có đi đường dài từ Hà Nội được không?"
+    a: "Chỉ nên khi có kế hoạch pin chi tiết, biết rõ điểm sạc và quãng đi được mỗi lần sạc. Nếu không chắc, xe xăng trên 110 phân khối là lựa chọn an toàn hơn cho chuyến xa."
 ---
 Đường dài từ Hà Nội phạt cả loại xe và người lái, nên chọn sai xe là mỏi lưng giữa chặng. Bài này chỉ cách chọn theo tư thế và quãng đường trước khi đặt.
 
@@ -19,6 +31,8 @@ Tư thế quyết định bạn về đến đích hay dừng mỗi hai chục c
 ## Chọn theo tổng quãng đường
 
 Dưới 60 cây số mỗi ngày: hầu hết xe làm được, ưu tiên gọn và rẻ. Trên 60 đến 120 cây số: dòng ga trung trở lên, máy đầm và phanh đĩa, tham khảo thuê xe ga Hà Nội. Liên tỉnh dài nhiều ngày: ga lớn hoặc côn tay thể thao nếu bạn đủ quen, cân trong bài [thuê xe côn Hà Nội]({{ '/blog/thue-xe-con-ha-noi/' | relative_url }}). Ai muốn dùng xe điện đường dài thì bắt buộc kế hoạch pin chi tiết trong bài thuê xe máy điện đi đường dài, không nên làm bừa.
+
+Trước khi chốt lộ trình, bạn có thể xem [các dòng xe ga, xe số và xe côn cho thuê]({{ '/loaixe.html' | relative_url }}) để chọn theo tư thế lái của mình.
 
 ## Máy và phanh cho chặng xa
 

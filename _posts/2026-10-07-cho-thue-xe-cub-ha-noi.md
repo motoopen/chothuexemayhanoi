@@ -9,6 +9,18 @@ primary_keyword: "cho thuê xe cub hà nội"
 hub_parent: loai-xe
 hub_category: xe-50cc
 seo_hub: xe-50cc
+quick_answer: "Khi thuê xe Cub ở Hà Nội, hãy chọn chiếc cụ thể ngay từ lúc đặt, rồi tự kiểm tra cần số, dây ga, phanh, điện và lốp tại cửa hàng. Vì Cub cho thuê thường là xe đã dùng lâu năm, nên hỏi thêm tuổi xe, lịch bảo dưỡng và điều kiện cọc trước khi nhận."
+qa:
+  - q: "Vì sao thuê xe Cub cần chọn kỹ hơn các dòng xe khác?"
+    a: "Vì hầu hết xe Cub cho thuê đã qua sử dụng lâu năm, nên chất lượng từng chiếc khác nhau đáng kể dù cùng dòng. Chiếc được bảo dưỡng đều chạy êm, chiếc bị bỏ bữa dễ hắt xăng hoặc trượt số, nên chọn chiếc cụ thể quan trọng hơn chọn tên dòng."
+  - q: "Làm sao biết xe Cub thuê có bị trượt số không?"
+    a: "Thử chuyển số tại chỗ nhiều lần, lên rồi xuống, nghe có tiếng kêu lạ hay cảm giác trượt không, sau đó chạy thử một vòng quanh khu phố. Phát hiện trượt số ngay tại cửa hàng luôn tốt hơn gặp sự cố giữa phố đông."
+  - q: "Phanh xe Cub có kém hơn xe đời mới không?"
+    a: "Phanh Cub là cơ cấu kiểu cũ nên quãng phanh thường dài hơn xe hiện đại. Hãy bóp thử phanh trước và sau để đánh giá độ căng còn lại; phanh càng mềm thì càng phải giữ khoảng cách xa hơn khi chạy trong phố."
+  - q: "Thuê xe Cub có phải đặt cọc cao hơn không?"
+    a: "Tùy từng chiếc và từng nơi. Bài viết lưu ý một số chiếc Cub bảo quản đẹp có giá trị cao hơn mặt bằng dòng nhỏ, nên hãy hỏi riêng mức cọc và điều kiện hoàn cọc. Ở Motoopen, mức cọc tùy dòng xe, xem bảng giá hoặc hỏi khi đặt."
+  - q: "Nên hỏi gì về bảo dưỡng trước khi nhận xe Cub?"
+    a: "Hỏi xe có được bảo dưỡng định kỳ không, lần gần nhất thay nhớt và bugi khi nào, và có sẵn phụ tùng thay thế không. Cửa hàng chăm xe kỹ sẽ trả lời rõ ràng; câu trả lời mơ hồ là tín hiệu nên cân nhắc chiếc khác."
 ---
 Xe Cub là dòng xe số cổ điển được nhiều khách tìm đến đúng vì kiểu dáng riêng, nhưng cũng là dòng đòi hỏi chọn kỹ hơn trước khi nhận. Vì hầu hết xe Cub cho thuê là xe đã qua sử dụng lâu năm, chất lượng từng chiếc khác nhau đáng kể. Bài viết này đưa ra checklist chọn xe Cub khi thuê ở Hà Nội, giúp bạn nhận được chiếc xe chạy ổn trong suốt chuyến đi.
 
@@ -31,6 +43,8 @@ Xe Cub cho thuê thường có tuổi đời cao, và tuổi tác ảnh hưởng
 ## Giá thuê, cọc và điều kiện hợp đồng
 
 Giá thuê xe Cub thường ở phân khúc dễ chịu, so sánh trực tiếp trên [bảng giá]({{ '/banggia.html' | relative_url }}). Điểm cần hỏi riêng với Cub là mức cọc, vì một số chiếc được bảo quản đẹp có giá trị cao hơn mặt bằng dòng nhỏ. Hỏi rõ điều kiện hoàn cọc và trách nhiệm với hư hỏng trong hợp đồng. Thủ tục giấy tờ theo quy định chung nằm ở trang thủ tục thuê xe. Khi cần hỏi trước về các chiếc Cub còn sẵn, thông tin liên hệ nằm ở trang liên hệ.
+
+Trước khi ra cửa hàng xem xe Cub, bạn có thể đọc trước [thủ tục thuê xe máy]({{ '/thutuc.html' | relative_url }}) để chuẩn bị đủ giấy tờ và biết những khoản nào trong hợp đồng cần đọc kỹ.
 
 ## Kết luận
 

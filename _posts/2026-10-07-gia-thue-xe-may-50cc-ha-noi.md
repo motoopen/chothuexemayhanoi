@@ -9,6 +9,16 @@ primary_keyword: "giá thuê xe máy 50cc hà nội"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
 seo_hub: gia-coc
+quick_answer: "So đúng nhóm 50cc là khớp loại xe với giấy phép lái theo quy định hiện hành trước, rồi chọn giữa Cub, xe ga nhỏ và xe điện theo độ quen tay lái và lịch trình. Mức giá các nhóm thường chênh nhẹ, nên đừng chọn chỉ theo mốc giá."
+qa:
+  - q: "Người chưa quen xe số nên thuê Cub hay xe ga nhỏ?"
+    a: "Nên chọn xe ga nhỏ. Xe ga vận hành tự động, không cần thao tác côn nên nhẹ tay hơn cho người mới. Cub bền và tiết kiệm, hợp hơn với khách đã quen xe số và quãng ngắn quanh khu ở."
+  - q: "Xe máy điện có rẻ hơn xe 50cc chạy xăng khi đi phố không?"
+    a: "Với quãng ngắn quanh khu ở, xe điện thường là phương án rẻ nhất về tổng chi phí vì gần như không tốn xăng, chỉ có chi phí sạc nhỏ. Cần hỏi mức pin theo khung thuê và các điểm sạc quanh khu định đi."
+  - q: "Lâu không đi xe thì nên làm quen xe nhỏ thế nào?"
+    a: "Dành khoảng nửa tiếng chạy thử vài vòng ở con hẻm vắng gần điểm nhận, tập phanh trước sau ở tốc độ thấp vì xe nhẹ khá nhạy phanh trên đường ướt. Khi tay lái đã ổn mới chở người hoặc mang hành lý."
+  - q: "Thuê xe nhỏ nhiều ngày thì nên so giá thế nào?"
+    a: "So gói tuần giữa các dòng thay vì so giá ngày, vì phần chênh giữa các dòng bị gói dài làm mờ đi. Nếu ở Hà Nội lâu hơn để đi học hay đi làm, hãy hỏi thêm giá tháng khi liên hệ."
 ---
 Nhóm xe 50cc và dưới 50cc là lựa chọn cho người muốn xe nhẹ, dễ điều khiển và không yêu cầu giấy phép lái nặng. Nhưng mức giá giữa dòng Cub, xe ga nhỏ và các dòng dưới 50cc khác nhau, và cách so cũng khác. Bài này hướng dẫn so đúng nhóm xe nhỏ này ở Hà Nội.
 
@@ -31,6 +41,8 @@ Với nhóm xe nhỏ, rà trọn: mức cọc thường thấp hơn xe ga lớn 
 ## Ví dụ so theo ba kiểu lịch trình
 
 Lịch chỉ quanh khu ở, một mình, quãng ngắn: dòng dưới 50cc hoặc xe điện rẻ nhất tổng chi phí. Lịch có chặng qua các quận xa hơn: dòng Cub bền hơn trên chặng dài chút, đáng phần chênh giá nhỏ. Lịch dày nhiều ngày: so gói tuần giữa các dòng thay vì giá ngày, vì phần chêch giữa các dòng bị gói dài làm mờ đi. So đúng kiểu lịch trình của mình giúp nhóm xe nhỏ phát huy đúng lợi thế rẻ và nhẹ.
+
+Mức giá theo ngày và gói dài của từng nhóm xe được niêm yết trên [bảng giá cho thuê xe]({{ '/banggia.html' | relative_url }}), nên mở song song khi so ba kiểu lịch trình ở trên.
 
 ## Kết luận
 

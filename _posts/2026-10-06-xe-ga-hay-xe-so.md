@@ -7,6 +7,18 @@ categories: [kinh-nghiem, loaixe]
 hub_parent: kinh-nghiem
 hub_category: so-sanh-lua-chon
 seo_hub: xe-so
+quick_answer: "Hãy chọn loại bạn đã quen và điều khiển tự tin nhất: quen xe ga thì chọn xe ga, quen xe số thì chọn xe số. Nếu chưa chắc, ngồi thử chống hai chân, dắt xe một đoạn và chạy thử chậm trước khi quyết định, đừng chọn chỉ vì giá hay ngoại hình."
+qa:
+  - q: "Chưa từng đi xe số thì có nên thuê xe số khi du lịch Hà Nội không?"
+    a: "Không nên. Đi du lịch hoặc đang vội không phải lúc lý tưởng để học một kiểu điều khiển mới; nếu chỉ quen xe ga, hãy chọn xe ga để thao tác tự tin ngay từ những phút đầu."
+  - q: "Hay mang đồ cá nhân thì nên thuê xe ga hay xe số?"
+    a: "Xe ga thường có lợi thế nhờ cốp chứa đồ trên nhiều mẫu, còn xe số thì tùy mẫu. Dù vậy, hãy kiểm tra chỗ để đồ thực tế của chiếc xe cụ thể thay vì đoán theo loại xe."
+  - q: "Giá thuê xe số và xe ga ở Motoopen chênh nhau thế nào?"
+    a: "Theo bảng giá tham khảo, thuê ngày từ khoảng 150k với xe số và Click/Mio đến 200k với Vision, Air Blade; thuê tháng Wave khoảng 1.200k, Vision 1.800k–2.000k. Giá có thể thay đổi và được chốt khi liên hệ."
+  - q: "Làm sao biết một chiếc xe có hợp với mình trước khi thuê?"
+    a: "Thử ba việc: ngồi lên xe chống hai chân xuống đất, dắt xe tiến lùi một đoạn ngắn và chạy thử chậm để cảm nhận phanh, tay lái. Nếu cả ba đều tự nhiên, đó là dấu hiệu tốt hơn việc chọn theo hình ảnh."
+  - q: "Lịch trình dừng đỗ nhiều điểm thì nên ưu tiên điều gì khi chọn xe?"
+    a: "Ưu tiên chiếc xe giúp bạn dựng xe và khởi hành lại thoải mái nhất, vì thao tác này lặp lại nhiều lần trong ngày. Kích thước, trọng lượng và chiều cao yên khác nhau giữa từng mẫu nên hãy thử trực tiếp."
 ---
 
 Khi thuê xe máy, câu hỏi thường gặp nhất không phải “xe nào tốt nhất?” mà là **“xe nào hợp với cách mình sẽ sử dụng?”**. Xe ga và xe số đều có ưu điểm riêng; chọn đúng loại sẽ giúp chuyến đi thoải mái hơn nhiều.
@@ -66,6 +78,8 @@ Nếu cả ba thao tác đều tự nhiên, đó là dấu hiệu tốt hơn nhi
 Nếu lịch trình có nhiều điểm dừng, hãy ưu tiên chiếc xe khiến bạn thao tác thoải mái khi dựng xe và khởi hành lại. Nếu mang nhiều đồ, hãy kiểm tra chỗ để đồ thực tế thay vì đoán theo loại xe.
 
 Bạn có thể xem danh sách và mô tả hiện có tại trang Loại xe, sau đó đối chiếu với [Bảng giá]({{ '/banggia.html' | relative_url }}) và Thủ tục.
+
+Nếu muốn so trước khi đến cửa hàng, trang [danh sách dòng xe cho thuê]({{ '/loaixe.html' | relative_url }}) mô tả riêng nhóm xe số, xe ga và xe côn tay để bạn khoanh vùng loại phù hợp.
 
 ## Quy tắc chọn nhanh
 

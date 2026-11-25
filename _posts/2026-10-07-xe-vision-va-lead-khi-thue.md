@@ -9,6 +9,16 @@ primary_keyword: "xe vision và lead khi thuê"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
 seo_hub: xe-tay-ga
+quick_answer: "Chọn Vision nếu bạn thấp người và lịch lắt nhắt trong ngõ, vì xe gọn, nhẹ, yên thấp; chọn Lead nếu mang nhiều đồ hoặc người cao, vì cốp rộng nhất nhóm ga nhỏ và thân đầy đặn. Hai dòng cùng khung máy 110, nên ngồi thử cả hai rồi chọn."
+qa:
+  - q: "Vision và Lead xe nào tốn xăng hơn?"
+    a: "Gần như ngang nhau, vì hai dòng cùng khung máy 110. Chênh lệch thực tế đến từ đời máy và tình trạng từng chiếc, nên hỏi năm sản xuất khi đặt xe."
+  - q: "Đi làm văn phòng hằng ngày nên chọn Vision hay Lead?"
+    a: "Lead tiện hơn nếu bạn mang áo vest, tài liệu hay đồ công việc, vì cốp rộng giữ đồ phẳng hơn. Nếu đi nhẹ một mũ, Vision gọn và đủ dùng; Motoopen có Vision thuê tháng khoảng 1.800k–2.000k theo bảng giá công bố, còn Lead nên hỏi rõ khi đặt."
+  - q: "Đi chụp ảnh phố cổ nên chọn Vision hay Lead?"
+    a: "Vision gọn hơn chút nên dễ vào khung hình phố cổ và dễ dắt qua ngõ đông. Nếu bạn mang theo nhiều thiết bị chụp ảnh, cốp Lead lại tiện hơn để cất đồ."
+  - q: "Mang túi nặng thì Vision hay Lead để đồ an toàn hơn?"
+    a: "Lead nhỉnh hơn nhờ chắn chân rộng, túi để sau chắn ít văng hơn treo ở tay lái. Dù chọn dòng nào, đồ nặng không nên treo lủng lẳng vì dễ làm lệch tay lái khi rẽ."
 ---
 Vision và Lead là hai dòng ga nhỏ được thuê nhiều nhất, và khác biệt của chúng nằm ở đúng ba thứ: độ gọn, cốp và chiều cao người ngồi. Bài này so từng thứ để bạn chốt trong một lần đọc.
 
@@ -31,6 +41,8 @@ Hai dòng cùng khung máy 110 nên mức tiêu hao gần như nhau, xem cách s
 ## Giá thuê và giấy tờ
 
 Giá hai dòng chênh nhau nhỏ, Lead đôi lúc nhỉnh vì cốp được ưa. Cả hai trên 50 phân khối nên cần bằng lái A1, khác nhóm 50cc, phân biệt trong bài [xe 50cc có cần bằng lái không]({{ '/blog/xe-50cc-co-can-bang-lai-khong/' | relative_url }}). Hợp đồng ghi giá, cọc, giờ trả và mức xăng. Khách quốc tế chuẩn bị hộ chiếu theo hướng dẫn trong bài thuê xe 50cc cho người nước ngoài. So khung giá theo kỳ ở trang bảng giá và hỏi tồn kho hai dòng qua trang liên hệ.
+
+Nếu bạn đi lại khách sạn và văn phòng mỗi ngày trong vài tuần, có thể tham khảo [gói thuê xe theo tháng]({{ '/' | relative_url }}) thay vì thuê lẻ từng ngày.
 
 ## Kết luận
 

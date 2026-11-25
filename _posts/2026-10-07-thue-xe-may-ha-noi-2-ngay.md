@@ -9,6 +9,16 @@ primary_keyword: "thuê xe máy hà nội 2 ngày"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
 seo_hub: gia-coc
+quick_answer: "Với 2 ngày, lấy giá ngày nhân đôi làm chuẩn rồi hỏi có gói riêng hai ngày hoặc gói cuối tuần không, chốt khung nhận trả theo cách tính của cửa hàng, và hỏi trọn phí giao, xăng, phạm vi trước khi đặt cọc."
+qa:
+  - q: "Thuê xe 2 ngày ở Motoopen hết khoảng bao nhiêu?"
+    a: "Lấy giá ngày tham khảo nhân đôi: khoảng 150k mỗi ngày cho xe số hoặc Click/Mio, 200k cho Vision, Air Blade, chưa tính phí giao nếu có. Giá có thể thay đổi, nên hỏi mức chốt khi liên hệ."
+  - q: "Nhận xe tối hôm trước có được tính chung vào hai ngày không?"
+    a: "Có thể, tùy cách tính của từng nơi. Nhận tối hôm trước và trả khuya hôm sau nhiều khi vẫn nằm trong hai ngày theo khung, nhưng phải xác nhận trước và ghi lại mốc phát sinh phụ phí nếu trễ."
+  - q: "Lịch hai ngày có chặng ven thì nên thuê xe gì?"
+    a: "Xe ga phổ thông êm là lựa chọn cân bằng, đủ sức cho quãng dài mà vẫn thoải mái trong phố. Nếu chỉ quanh nội thành, xe số nhỏ gọn rẻ hơn rõ; chọn xe điện thì cần kế hoạch sạc giữa hai ngày."
+  - q: "Ngày thứ hai chỉ cần xe buổi sáng thì có nên trả sớm không?"
+    a: "Nên hỏi phương án trả trưa với mức trừ nhẹ thay vì giữ xe tới tối. Không phải nơi nào cũng trừ, nên hỏi ngay khi chốt khung và ghi lại điều đã thỏa thuận."
 ---
 Hai ngày là thời gian đủ để vừa đi phố vừa ghé các điểm ven Hà Nội, nhưng cũng là ngưỡng mà nhiều người băn khoăn nên thuê lẻ theo ngày hay hỏi gói riêng. Bài này giúp bạn so sánh đúng để hai ngày thuê không trả hớ.
 
@@ -27,6 +37,8 @@ Hai ngày thường gồm cả chặng ven, nên dòng xe ga phổ thông êm l�
 ## Các khoản hỏi trước khi chốt hai ngày
 
 Rà đủ danh mục: phí giao xe tận nơi cho cả hai khung nhận trả, chính sách xăng về đúng mức khi nhận, phạm vi cho phép có gồm tuyến ven dự kiến không, và điều khoản hoàn cọc khi xe hư hỏng giữa hai ngày. Kinh nghiệm các khoản ngoài giá thuê nằm trong bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}). Kinh nghiệm chuẩn bị đầy đủ cho người mới thuê nằm trong bài thuê xe máy Hà Nội lần đầu.
+
+Nếu hai ngày này chỉ là phần đầu của một kỳ ở Hà Nội dài hơn, hãy hỏi luôn về [thuê xe dài ngày theo tháng]({{ '/' | relative_url }}) để khỏi phải gia hạn từng đoạn.
 
 ## Kết luận
 

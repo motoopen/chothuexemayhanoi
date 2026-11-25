@@ -9,6 +9,18 @@ primary_keyword: "bao nhiêu tuổi được thuê xe máy"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
 seo_hub: thu-tuc-hop-dong
+quick_answer: "Theo quy định hiện hành, người đủ mười sáu tuổi được lái xe dưới 50cc, đủ mười tám tuổi được lái xe từ 50cc trở lên. Còn tuổi được ký hợp đồng thuê do từng cửa hàng tự đặt và có thể khắt khe hơn, nên hỏi trước khi đặt xe."
+qa:
+  - q: "Mười sáu tuổi có tự đứng tên hợp đồng thuê xe máy được không?"
+    a: "Tùy cửa hàng. Nhiều nơi chỉ giao xe cho khách đủ mười tám tuổi vì hợp đồng và trách nhiệm dân sự quy về người đã thành niên; nếu nhận, họ có thể yêu cầu người giám hộ ký kèm. Với Motoopen, độ tuổi tối thiểu nên hỏi rõ khi đặt."
+  - q: "Từ mười sáu đến dưới mười tám tuổi được lái loại xe nào khi thuê?"
+    a: "Chỉ nên lái nhóm xe dưới 50cc, gồm xe 50cc và xe điện công suất nhỏ. Nhóm này nhẹ và dễ điều khiển; tuy vậy vẫn nên kiểm tra quy định hiện hành vì điều kiện với từng loại xe có thể thay đổi."
+  - q: "Đi nhóm bạn có người chưa đủ tuổi thì ai nên đứng tên hợp đồng?"
+    a: "Người đủ tuổi và đủ giấy tờ nên đứng tên. Tuy nhiên, đừng đứng tên thuê rồi giao xe từ 50cc trở lên cho người chưa đủ tuổi, vì khi có sự cố, trách nhiệm quy về cả người lái lẫn người ký hợp đồng."
+  - q: "Khách dưới mười tám tuổi cần chuẩn bị giấy tờ gì khi thuê xe?"
+    a: "Nên mang giấy tờ tùy thân đang có và đi cùng người giám hộ mang giấy tờ của họ, vì hợp đồng có thể phải ký qua người đại diện. Người từ mười tám tuổi trở lên dùng CCCD hoặc hộ chiếu như yêu cầu chung."
+  - q: "Nên xác nhận gì về độ tuổi với cửa hàng trước khi đến nhận xe?"
+    a: "Nên chốt bằng tin nhắn ba điều: tuổi của người lái chính, dòng xe thuộc nhóm nào và ai sẽ ký hợp đồng. Làm vậy giúp tránh bị từ chối hoặc hủy giữa chừng khi đã đến cửa hàng."
 ---
 Độ tuổi để thuê xe và để điều khiển xe máy là hai ngưỡng khác nhau, và nhiều cửa hàng còn có chính sách riêng cao hơn quy định tối thiểu. Bài này giúp bạn phân biệt rõ để chuẩn bị đúng.
 
@@ -33,6 +45,8 @@ Người mười tám tuổi trở lên mang thẻ căn cước công dân để
 Trước khi đến nhận xe, chốt bằng văn bản qua trang liên hệ: tuổi của người lái chính, dòng xe thuộc nhóm nào, và ai ký hợp đồng. Nhóm bạn bè đi chung nên để người đủ tuổi và đủ giấy tờ đứng tên hợp đồng, vì khi có sự cố, trách nhiệm quy về đúng người ký. Đối chiếu giá theo trang bảng giá trước, và hỏi cả phần đặt cọc trong bài [tiền cọc thuê xe máy Hà Nội]({{ '/blog/tien-coc-thue-xe-may-ha-noi/' | relative_url }}) để chuẩn bị đủ tiền mặt.
 
 Một điểm nữa nên nhớ là trách nhiệm khi chưa đủ tuổi lái xe sai nhóm: nếu người dưới mười tám tuổi điều khiển xe từ 50cc trở lên, lỗi quy về cả người lái và người đứng tên hợp đồng thuê. Vì vậy, đừng đứng tên thuê cho em hoặc bạn chưa đủ tuổi rồi giao xe, vì khi có sự cố, hợp đồng và trách nhiệm pháp lý đều quy về người ký. Chọn đúng dòng xe theo tuổi từ đầu giúp cả nhóm khỏi rủi ro kép này.
+
+Nếu bạn đủ tuổi nhưng chưa có bằng A1, trang [thủ tục thuê xe tại Motoopen]({{ '/thutuc.html' | relative_url }}) có ghi phương án tư vấn xe 50cc hoặc xe điện cùng danh sách giấy tờ cần mang.
 
 ## Kết luận
 

@@ -9,6 +9,18 @@ primary_keyword: "thuê xe air blade hà nội"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
 seo_hub: xe-tay-ga
+quick_answer: "Nên thuê Air Blade khi bạn cần một xe ga cân bằng: phanh đĩa trước cho đường ướt, cốp đựng được mũ cùng đồ và máy đầm cho lịch vừa nội thành vừa ngoại thành. Nếu chỉ đi quanh vài ngõ nội thành, dòng nhỏ nhẹ và rẻ hơn là đủ."
+qa:
+  - q: "Giá thuê Air Blade ở Motoopen là bao nhiêu?"
+    a: "Theo bảng giá đang công bố, thuê Air Blade theo ngày khoảng 200k và theo tháng khoảng 1.400k. Mức cọc tùy dòng xe, xem bảng giá hoặc hỏi khi đặt; giá có thể thay đổi và được chốt khi liên hệ."
+  - q: "Người nước ngoài thuê Air Blade cần chuẩn bị gì?"
+    a: "Cần hộ chiếu và bằng lái quốc tế hợp lệ, vì Air Blade trên 50 phân khối phải có bằng phù hợp loại xe. Nên kiểm tra quy định hiện hành về bằng lái quốc tế trước chuyến đi và mang theo bản gốc khi nhận xe."
+  - q: "Có thể nhận Air Blade tại khách sạn thay vì đến cửa hàng không?"
+    a: "Có thể, nếu bạn ở nội thành. Motoopen giao xe tận nơi với phí khoảng 20k–50k tùy quãng đường và điểm hẹn; nhận tại cửa hàng 114 Nguyễn Văn Cừ, Long Biên thì không mất phí giao."
+  - q: "Khi nhận Air Blade nên chụp ảnh những gì?"
+    a: "Nên chụp đồng hồ xăng và các vết trầy có sẵn quanh thân xe ngay lúc bàn giao. Ảnh này giúp đối chiếu mức xăng và tình trạng xe khi trả, tránh tranh cãi về sau."
+  - q: "Air Blade có chở hai người thoải mái không?"
+    a: "Có, Air Blade chịu tải hai người tốt, nhưng vẫn nên kiểm phanh, áp suất lốp và đủ mũ đạt chuẩn cho cả hai trước khi đi. Khi chở đôi, phanh sớm hơn vì quãng dừng dài thêm."
 ---
 Honda Air Blade nằm ở khung ga trung bình, đầm hơn Wave và gọn hơn SH, và khi thuê ở Hà Nội nó phục vụ nhóm nhu cầu rất rõ ràng. Bài này chỉ đúng những gì Air Blade làm tốt nhất và cách kiểm chiếc xe trước khi nhận.
 
@@ -35,6 +47,8 @@ Mở cốp thử khóa êm, dung tích đủ mũ và vài vật nhỏ, thảm s�
 ## Giấy tờ, giá và giờ trả
 
 Air Blade trên 50 phân khối nên cần bằng lái A1, khác nhóm 50cc không cần như bài xe 50cc có cần bằng lái không. Ký hợp đồng ghi giá, cọc, giờ trả, mức xăng giao và trách nhiệm hỏng. Khách quốc tế mang hộ chiếu theo hướng dẫn trong bài [thuê xe 50cc cho người nước ngoài]({{ '/blog/thue-xe-50cc-cho-nguoi-nuoc-ngoai/' | relative_url }}). So giá theo ngày và tuần ở trang bảng giá, và hỏi tồn kho qua trang liên hệ trước ngày nhận. Chụp đồng hồ xăng và thân xe có sẵn vết trầy lúc bàn giao.
+
+Nếu cần Air Blade cho cả tháng để đi làm hoặc ở Hà Nội lâu ngày, bạn có thể tham khảo [thuê xe máy dài hạn tại Hà Nội]({{ '/' | relative_url }}) để so với cách tính theo ngày.
 
 ## Kết luận
 

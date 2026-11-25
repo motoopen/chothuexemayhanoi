@@ -9,6 +9,18 @@ primary_keyword: "thuê xe máy hà nội theo tháng"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
 seo_hub: thue-xe-thang
+quick_answer: "Để so sánh gói thuê xe máy theo tháng ở Hà Nội, hãy đặt cạnh nhau đủ bốn thành phần: giá trọn tháng, tiền cọc và điều kiện hoàn, cam kết bảo dưỡng, quy định đổi xe khi hỏng. Gói tháng có lợi khi bạn dùng xe đủ hoặc gần đủ cả tháng."
+qa:
+  - q: "Giá thuê tháng có bao gồm mũ bảo hiểm và áo mưa không?"
+    a: "Tùy nơi, nên hỏi rõ trước khi so giá. Mũ bảo hiểm, áo mưa và phí giao nhận đầu, cuối kỳ là khoản nhỏ nhưng cộng dồn đáng kể trong một tháng; với Motoopen, phụ kiện đi kèm gói tháng nên hỏi khi đặt."
+  - q: "Gói tháng rẻ hơn vài trăm nghìn có chắc là lợi hơn không?"
+    a: "Không chắc. Gói rẻ hơn vài trăm nghìn nhưng không kèm bảo dưỡng hoặc yêu cầu cọc cao hơn nhiều có thể đắt hơn trên tổng thể, nên luôn so cả giá, cọc, bảo dưỡng và chính sách đổi xe."
+  - q: "Chỉ chắc chắn ở Hà Nội hai tuần thì có nên lấy gói tháng không?"
+    a: "Chưa nên vội. Nếu lịch chỉ chắc hai tuần đầu, hãy hỏi gói tuần trước, vì gói dài giữ giá tốt nhưng thường kém linh hoạt và có thể không hoàn phần còn lại khi trả xe sớm."
+  - q: "Thuê theo tháng thì bao lâu xe được thay dầu một lần?"
+    a: "Mỗi nơi một lịch, nên hỏi cụ thể sau bao nhiêu km hoặc bao lâu thì thay dầu, và ai chủ động đưa xe đi bảo trì. Motoopen có bảo dưỡng xe định kỳ; lịch cụ thể trong kỳ thuê tháng nên hỏi rõ khi ký."
+  - q: "Nên đọc đánh giá khách cũ thế nào khi chọn nơi thuê tháng?"
+    a: "Đọc các đánh giá nói về tình huống cụ thể như báo hỏng, đổi xe và xử lý khoản phát sinh, thay vì chỉ nhìn điểm trung bình. Khi gắn bó cả tháng, tốc độ phản hồi và thái độ lúc có sự cố quan trọng hơn."
 ---
 Thuê xe máy theo tháng tại Hà Nội phù hợp với người ở dài hạn: đi làm, học, công tác hoặc chăm người thân. So với thuê từng ngày, gói tháng đổi bài toán từ giá mỗi ngày sang tổng chi phí và điều khoản. Bài này hướng dẫn cách so sánh các gói dài hạn để chọn được phương án thực sự tiết kiệm.
 
@@ -27,6 +39,8 @@ Một câu hỏi đáng giá: nếu bạn trả xe sớm hơn thỏa thuận, ph
 ## Bốn điều khoản cần đọc kỹ trong hợp đồng tháng
 
 Một, trách nhiệm hư hỏng: những hỏng nhỏ trong một tháng sử dụng bình thường như mòn phanh, yếu acquy do xử lý thế nào và ai trả tiền. Hai, bảo dưỡng giữa kỳ: sau bao nhiêu km hoặc bao lâu xe được thay dầu, kiểm tra; bên cho thuê chủ động nhận xe đi bảo trì hay bạn phải mang tới. Ba, đổi xe: nếu máy trục trặc nặng, thời gian đổi xe tối đa là bao lâu để không gián đoạn lịch trình của bạn. Bốn, hoàn cọc: thời điểm hoàn và hình thức, đặc biệt quan trọng nếu bạn chuẩn bị rời Hà Nội cuối tháng thuê. Kênh hỗ trợ khi phát sinh vấn đề được cập nhật tại trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
+
+Để có mốc so sánh cụ thể cho bốn điều khoản trên, bạn có thể đối chiếu với trang [thuê xe máy dài hạn tại Hà Nội]({{ '/' | relative_url }}) của Motoopen trước khi chốt hợp đồng.
 
 ## Đánh giá bên cho thuê cho gói dài hạn
 

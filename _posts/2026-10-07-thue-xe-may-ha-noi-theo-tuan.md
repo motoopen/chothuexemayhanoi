@@ -9,6 +9,18 @@ primary_keyword: "thuê xe máy hà nội theo tuần"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
 seo_hub: thue-xe-thang
+quick_answer: "Gói tuần thường rẻ hơn giá ngày nhân bảy, nhưng chỉ thật sự có lợi khi bạn dùng xe đều cả bảy ngày, ngày trả khớp chu kỳ tuần và không định rời Hà Nội giữa chừng. Hãy so tổng chi phí theo lịch thật thay vì nhìn giá niêm yết."
+qa:
+  - q: "Trả xe lệch vài ngày so với chu kỳ tuần thì tính thế nào?"
+    a: "Phần kéo dài thường được tính theo ngày lẻ hoặc quy đổi sang tuần mới, tùy nơi. Ba đến bốn ngày lẻ cộng thêm có khi xấp xỉ một gói tuần, nên nếu lịch có thể lệch, hãy hỏi cách tính trước khi đặt."
+  - q: "Rời Hà Nội giữa tuần thì gói tuần có hoàn tiền không?"
+    a: "Nhiều gói tuần không hoàn phần còn lại, nên nếu có khả năng rời Hà Nội giữa tuần, hãy hỏi chính sách trả sớm trước khi đặt. Với Motoopen, điều kiện trả xe sớm nên hỏi rõ khi đặt và ghi vào hợp đồng."
+  - q: "Xăng khi trả xe sau một tuần được tính thế nào?"
+    a: "Hỏi ngay lúc nhận xe: xe được giao với mức xăng bao nhiêu và khi trả cần để lại mức nào. Chụp đồng hồ xăng lúc nhận để đối chiếu, tránh tranh luận về khoản nhiên liệu khi trả xe sau bảy ngày."
+  - q: "Thuê tuần liên tiếp nhiều lần có được giá tốt hơn không?"
+    a: "Có thể, tùy nơi. Nếu dự định thuê nhiều tuần liền, hãy hỏi thẳng mức cho khách quay lại hoặc so luôn với gói tháng. Ở Motoopen, ưu đãi kiểu này nên hỏi rõ khi đặt."
+  - q: "Thuê gói tuần có phải đặt cọc không?"
+    a: "Thường có. Ở Motoopen, mức cọc tùy dòng xe, xem bảng giá hoặc hỏi khi đặt; nên hỏi luôn hình thức hoàn và thời gian hoàn cọc sau khi trả xe đúng hạn."
 ---
 Với lịch sử dụng bảy ngày trở lên, gói tuần của các bên cho thuê xe máy Hà Nội thường rẻ hơn so với giá ngày nhân bảy. Nhưng thường rẻ không có nghĩa là luôn rẻ cho trường hợp của bạn. Bài này giúp bạn tính đúng và hỏi đúng trước khi chọn gói tuần.
 
@@ -29,6 +41,8 @@ Ngược lại, nếu trong tuần của bạn có ba ngày không cần xe, thu
 Bốn câu hỏi đáng giá nhất: một, nếu xe hỏng giữa tuần, bên cho thuê đổi xe trong bao lâu và ai chịu chi phí vận chuyển. Hai, bảo dưỡng giữa kỳ như thay dầu hay vá lốp được xử lý thế nào trong gói tuần. Ba, mức xăng giao và cách tính mức xăng khi trả sau bảy ngày sử dụng. Bốn, hoàn cọc diễn ra trong bao lâu sau khi trả xe đúng hạn. Kênh hỗ trợ khi cần tra cứu tại trang [liên hệ]({{ '/lienhe.html' | relative_url }}).
 
 Với hợp đồng tuần, bạn gắn bó với bên cho thuê đủ lâu để chất lượng hỗ trợ bộc lộ, nên đọc đánh giá của khách cũ về các tình huống đổi xe và hoàn cọc trước khi đặt. Người mới thuê nên tham khảo bài [thuê xe máy Hà Nội lần đầu]({{ '/blog/thue-xe-may-ha-noi-lan-dau/' | relative_url }}) cho các bước chuẩn bị chung.
+
+Nếu tính ra bạn sẽ thuê nối nhiều tuần liền, đáng xem thêm phương án [thuê xe máy theo tháng]({{ '/' | relative_url }}) trước khi chốt từng gói tuần.
 
 ## Tính tổng chi phí trước khi ký
 

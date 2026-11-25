@@ -9,6 +9,18 @@ primary_keyword: "trả xe thuê muộn"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
 seo_hub: thu-tuc-hop-dong
+quick_answer: "Hãy báo cho nơi thuê ngay khi biết mình trễ, kèm giờ dự kiến trả, rồi hỏi rõ phụ phí tính theo giờ hay theo ngày dựa trên hợp đồng. Khi giao xe, chụp lại tình trạng xe và yêu cầu biên nhận ghi tách bạch tiền thuê, phụ phí trễ và tiền cọc hoàn."
+qa:
+  - q: "Trả xe muộn vài giờ có bị tính thêm cả ngày không?"
+    a: "Tùy nơi. Có chỗ tính nửa ngày cho vài giờ đầu, có chỗ chuyển hẳn sang giá ngày mới; hãy hỏi khung miễn phí nếu có, đơn giá giờ trễ và mức trần. Với Motoopen, cách tính phụ phí trễ nên hỏi rõ khi đặt."
+  - q: "Cửa hàng Motoopen mở cửa đến mấy giờ để trả xe?"
+    a: "Cửa hàng Motoopen tại 114 Nguyễn Văn Cừ, Long Biên mở cửa 09:00–21:00 hằng ngày. Nếu biết mình sẽ đến sau giờ đóng cửa, nên gọi hoặc nhắn Zalo 0857 255 868 trước để hẹn lại thời điểm trả xe."
+  - q: "Báo trễ sớm có giúp giảm phụ phí không?"
+    a: "Thường có lợi. Báo trước giúp nơi thuê chủ động lịch giao xe cho khách tiếp theo, và nhiều nơi giảm phụ phí khi khách chủ động thông tin; im lặng đến trả muộn dễ bị tính theo khung trễ cao nhất."
+  - q: "Trễ sang đêm thì nên gia hạn thêm hay trả phụ phí?"
+    a: "Nên so sánh cả hai. Gói qua đêm hoặc gia hạn thêm một ngày đôi khi rẻ hơn phụ phí trễ; hãy hỏi nơi thuê và chốt phương án bằng tin nhắn trước khi quyết định."
+  - q: "Làm sao để lần sau không trả xe muộn?"
+    a: "Đặt giờ trả như đặt chuyến bay: cộng thêm thời gian di chuyển và giờ kẹt xe, hẹn sớm hơn nếu lịch chưa chắc. Nếu kế hoạch hay thay đổi, chọn thuê linh hoạt theo ngày để dễ điều chỉnh."
 ---
 Kẹt việc đến vài giờ hoặc cả một ngày, và giờ trả xe thuê đã qua. Trả muộn không đáng lo nếu bạn xử đúng trình tự: báo sớm, hỏi phụ phí trước, và khép hồ sơ rõ ràng.
 
@@ -39,6 +51,8 @@ Nếu trễ sang lúc điểm đã đóng cửa, gọi hỏi xem có điểm kh�
 ## Phòng cho lần sau
 
 Đặt giờ trả giống đặt chuyến bay: cộng thêm thời gian di chuyển và thời điểm kẹt xe, rồi hẹn sớm hơn nửa ngày nếu lịch mờ đục. Nếu hay thay đổi kế hoạch, thuê theo gói linh hoạt theo ngày, phần so sánh các gói nằm trong bài [giá thuê xe ga Hà Nội theo ngày]({{ '/blog/gia-thue-xe-ga-ha-noi-theo-ngay/' | relative_url }}).
+
+Các bước thuê và nhận xe được tóm tắt trên trang [các bước thuê xe tại Motoopen]({{ '/thutuc.html' | relative_url }}), nên xem lại để biết cần mang gì khi đến tất toán.
 
 ## Kết luận
 

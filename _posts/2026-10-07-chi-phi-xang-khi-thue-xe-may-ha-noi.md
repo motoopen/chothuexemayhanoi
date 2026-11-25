@@ -9,6 +9,18 @@ primary_keyword: "chi phí xăng khi thuê xe máy hà nội"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
 seo_hub: gia-coc
+quick_answer: "Ước chi phí xăng bằng cách cộng quãng đường từng chặng theo lịch trình thật, chừa thêm khoảng một phần năm cho đường vòng, rồi quy đổi theo mức tiêu hao của dòng xe và giá xăng lúc đi. Đồng thời hỏi rõ chính sách xăng của gói thuê."
+qa:
+  - q: "Dòng xe nào tốn ít xăng nhất khi đi trong phố?"
+    a: "Theo bài, xe số phổ thông tiết kiệm nhất, xe ga nhỉnh hơn chút, còn xe điện gần như không tốn xăng mà thay bằng chi phí sạc nhỏ. Với quãng ngắn quanh khu ở, nhóm xe điện gần như bỏ hẳn khoản xăng."
+  - q: "Xe thuê giao gần hết xăng thì khi trả có phải đổ đầy không?"
+    a: "Tùy chính sách từng nơi: có nơi nhận mức nào trả mức đó, có nơi yêu cầu đổ đầy khi trả. Hãy hỏi rõ khi ký, hỏi luôn trạm xăng gần điểm trả và giữ hóa đơn đổ xăng cuối ngày làm bằng chứng."
+  - q: "Đi chặng ven xa có tốn xăng hơn chạy vòng trong phố không?"
+    a: "Không hẳn. Chặng ven khứ hồi có quãng dài hơn nhưng chạy đường trường êm, ít dừng nên mức xăng thường thấp hơn tưởng. Quãng đường và kiểu đường mới quyết định chi phí xăng, không phải thời gian thuê."
+  - q: "Làm sao chạy xe thuê đỡ hao xăng trên phố nhiều đèn đỏ?"
+    a: "Giữ vòng tua đều, tăng ga nhẹ, tắt máy khi dừng chờ lâu và giữ khoảng cách với xe trước để đỡ phanh gấp. Kiểm tra lốp khi nhận xe, vì lốp non làm xe nặng và ăn xăng hơn."
+  - q: "Đi làm hằng ngày bằng xe thuê tháng thì ước tiền xăng thế nào?"
+    a: "Ước quãng đi làm khứ hồi của một ngày, nhân với số ngày đi trong tháng, rồi quy đổi theo mức tiêu hao của dòng xe. Nếu cột xăng lớn, cân nhắc dòng xe số tiết kiệm hơn hoặc xe điện cho quãng ngắn trong phố."
 ---
 Chi phí xăng là khoản biến động nhất trong tổng tiền thuê xe máy, và ước sai là cách nhanh nhất để ngân sách chuyến đi lệch. Bài này hướng dẫn cách ước chi phí xăng theo hành trình cụ thể thay vì theo cảm tính.
 
@@ -32,6 +44,8 @@ Trên phố dày đèn đỏ, cách chạy quyết định mức hao xăng rõ: 
 
 Lịch một: vòng quanh nội thành cả ngày, tổng quãng nhiều chục cây số, ước theo dòng số cho ra mức xăng khiêm tốn so với tiền thuê. Lịch hai: một chặng ven xa khứ hồi, quãng lớn hơn nhưng chạy đường trường êm, mức xăng vẫn thấp hơn tưởng vì xe ít dừng. Hai ví dụ cho thấy quãng và kiểu đường, chứ không phải thời gian thuê, quyết định chi phí xăng. Ước theo từng lịch như vậy giúp bạn chọn đúng dòng xe và gói trước khi cầm xe.
 
+
+Nếu bạn ở Hà Nội dài ngày và đi lại hằng ngày, có thể cộng khoản xăng ước được với giá [thuê xe máy tháng Hà Nội]({{ '/' | relative_url }}) để thấy chi phí đi lại cả tháng.
 
 ## Kết luận
 

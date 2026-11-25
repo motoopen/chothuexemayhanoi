@@ -9,6 +9,16 @@ primary_keyword: "thuê xe 50cc hà nội theo tuần"
 hub_parent: loai-xe
 hub_category: xe-50cc
 seo_hub: thue-xe-thang
+quick_answer: "Gói tuần xe 50cc hợp với người đi lại đều trong bảy đến mười ngày ở Hà Nội, như khách công tác, người mới chuyển đến hay khách ở lại lâu. Trước khi chốt, hỏi rõ xe thay khi bảo dưỡng, thời gian xử lý hỏng vặt, chính sách tạm ngưng và đổi dòng."
+qa:
+  - q: "Xe 50cc có đủ sức chạy cả tuần trong nội thành Hà Nội không?"
+    a: "Đủ với lịch trong nội đô. Dòng 50cc tiết kiệm xăng và hợp các chặng phố; nếu mỗi ngày có nhiều chặng ven hoặc đường lớn, nên cân nhắc dòng xe lớn hơn và so giá trước khi chọn."
+  - q: "Xe vào bảo dưỡng giữa gói tuần thì có xe thay không?"
+    a: "Nên hỏi trước khi chốt. Nơi làm nghiêm túc thường có quy trình đổi xe tạm trong khoảng nửa ngày để lịch đi lại không bị gián đoạn. Motoopen có bảo dưỡng xe định kỳ, còn phương án xe thay trong kỳ thuê nên hỏi rõ khi đặt."
+  - q: "Vắng hai ngày cuối tuần thì gói tuần có còn đáng không?"
+    a: "Còn tùy chính sách tạm ngưng. Nếu nơi thuê cho bù ngày hoặc tính lại khi bạn vắng, gói tuần vẫn có lợi; nếu chính sách cứng, hãy so thêm phương án thuê lẻ hoặc gói ngắn cho những ngày thật sự dùng xe."
+  - q: "Có nên kiểm tra lại xe 50cc giữa tuần không?"
+    a: "Nên. Ngoài lần kiểm tra kỹ lúc nhận, một lần rà nhanh sau ba bốn ngày là đủ: nghe tiếng máy, thử phanh, nhìn lốp và đèn. Thấy tiếng lạ thì báo nơi thuê sớm để xử lý trước khi hỏng nặng."
 ---
 Gói tuần là lựa chọn giữa tính lẻ ngày và gói tháng, hợp với khách đi lại đều trong bảy đến mười ngày. Bài này cho biết gói tuần phù hợp ai và các câu nên hỏi về bảo dưỡng để cả tuần không gián đoạn.
 
@@ -35,6 +45,8 @@ Tình huống một: khách công tác hỏi trước xe thay bảo dưỡng và
 ## Cuối tuần của gói tuần nên tính thế nào
 
 Nhiều lịch công tác vắng cuối tuần, và đây là lúc câu hỏi tạm ngưng có giá thật. Nếu nơi thuê cho bù ngày hoặc tính lại sáu ngày cho gói bảy ngày khi bạn vắng hai ngày cuối tuần, phần tiết kiệm đáng kể. Nếu chính sách cứng, cân nhắc chia gói: năm ngày trong tuần tính lẻ hoặc gói ngắn, hai ngày cuối thuê theo ngày, nhiều khi tổng rẻ hơn gói tuần nguyên. Hỏi cả hai cách tính và so trước khi chốt, vì cùng một nơi, cùng lịch, hai cách tính cho tổng khác nhau vài chục phần trăm với lịch nhiều ngày vắng.
+
+Nếu lịch công tác hoặc tìm nhà kéo dài quá mười ngày, bạn có thể tham khảo [thuê xe máy tháng Hà Nội]({{ '/' | relative_url }}) để so với việc lấy nối nhiều gói tuần.
 
 ## Kết luận
 

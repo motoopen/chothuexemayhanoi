@@ -9,6 +9,18 @@ primary_keyword: "chọn cốp xe máy thuê"
 hub_parent: loai-xe
 hub_category: cac-loai-xe
 seo_hub: xe-tay-ga
+quick_answer: "Cốp cần lớn đến đâu tùy hành lý: chỉ balo nhẹ thì cốp nhỏ khoảng 15 lít là đủ, mũ thêm túi xách cần khoảng 18 lít trở lên, còn hai mũ và đồ đôi hoặc vali nhỏ cần trên 30 lít. Định lượng đồ thật và thử cốp ngay tại quầy."
+qa:
+  - q: "Vali lớn có nên chở bằng xe máy thuê không?"
+    a: "Không nên. Vali thật lớn nên gửi khách sạn trước rồi đi xe nhẹ, an toàn hơn chở quá tải. Vali nhỏ thì cần cốp trên 30 lít hoặc dòng cốp rộng, và tuyệt đối không để lỏng giữa người lái với người ngồi sau."
+  - q: "Làm sao biết cốp xe thuê có bị thấm nước?"
+    a: "Soi mép gioăng và thảm lót bên trong cốp xem có vết ẩm hay mốc không, đồng thời hỏi nơi thuê xe đó có hay đi mưa không. Dù cốp lớn hay nhỏ, khi trời sắp mưa vẫn nên bọc đồ trong túi nilon trước khi cất."
+  - q: "Thuê dòng xe cốp lớn có đắt hơn không?"
+    a: "Thường nhỉnh hơn chút. Ở Motoopen, bảng giá đang công bố cho thuê ngày từ khoảng 150k với xe số, Click/Mio đến 200k với Vision, Air Blade; giá có thể thay đổi và chốt khi liên hệ. Không dùng tới cốp lớn thì phần chênh là tiền thừa."
+  - q: "Hỏng khóa cốp trong kỳ thuê thì xử lý thế nào?"
+    a: "Tùy điều khoản trong hợp đồng, nên đọc phần trách nhiệm khi hỏng khóa cốp trước khi ký và chụp ảnh tình trạng cốp lúc nhận. Motoopen làm hợp đồng thuê rõ ràng; mức xử lý cụ thể nên hỏi rõ khi đặt xe."
+  - q: "Mua sắm nhiều trong một buổi thì có nên ép hết vào cốp?"
+    a: "Không nên. Cốp quá tải làm bản lề hờ nhanh và cánh đóng không khít, nên chia đồ thành hai lần về. Đóng cốp nghe tiếng cạch chắc rồi mới rời xe để khóa bền suốt kỳ."
 ---
 Cốp lớn không phải lúc nào cũng đáng, và cốp nhỏ nhiều khi đủ. Bài này quy các mức cốp theo đúng loại hành lý bạn mang, để chọn vừa mà khỏi trả thừa.
 
@@ -23,6 +35,8 @@ Túi xách, máy ảnh, vài vật mua sắm mỗi ngày: cần cốp tầm 18 l
 ## Mức ba: hai mũ và đồ đôi, hoặc vali nhỏ
 
 Hai người với hai mũ và đồ đôi, hoặc bạn mang vali nhỏ: cần cốp trên 30 lít, Lead dẫn đầu nhóm nhỏ, xem bài thuê xe Lead Hà Nội. Dòng ga lớn cốp cũng rộng nhưng nặng và đắt hơn, cân trong bài [thuê SH hay Air Blade]({{ '/blog/sh-va-air-blade-khi-thue/' | relative_url }}). Chở hai người thì cốp phải còn chừa mũ người sau, tải trong bài xe 50cc cho 2 người. Vali thật lớn thì gửi khách sạn trước rồi đi xe nhẹ, an toàn hơn chở quá tải.
+
+Nếu chưa rõ dòng nào thuộc mức cốp nào, bạn có thể xem [danh sách các dòng xe cho thuê]({{ '/loaixe.html' | relative_url }}) rồi báo khối đồ khi gọi đặt để được giữ đúng xe.
 
 ## Kiểm cốp trước khi nhận
 

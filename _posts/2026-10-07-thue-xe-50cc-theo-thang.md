@@ -9,6 +9,18 @@ primary_keyword: "thuê xe 50cc theo tháng"
 hub_parent: loai-xe
 hub_category: xe-50cc
 seo_hub: thue-xe-thang
+quick_answer: "Thuê xe 50cc theo tháng đáng chọn khi bạn hỏi rõ từ đầu: ai lo bảo dưỡng giữa kỳ và có xe thay không, sự cố được xử lý trong bao lâu, có tạm ngưng hoặc đổi dòng được không, cùng cách giữ cọc và phạm vi đi lại."
+qa:
+  - q: "Thuê xe 50cc theo tháng giá khoảng bao nhiêu?"
+    a: "Bảng giá Motoopen đang công bố giá thuê tháng tham khảo khoảng 1–2 triệu tùy dòng xe; mức riêng cho xe 50cc nên xem trực tiếp trên bảng giá hoặc hỏi khi đặt, vì giá có thể thay đổi và được chốt khi liên hệ."
+  - q: "Những ngày xe nằm bảo dưỡng có bị tính tiền thuê không?"
+    a: "Thường vẫn tính, vì tiền thuê tháng chạy liên tục. Vì vậy nên hỏi trước xe được bảo dưỡng ở đâu, mất bao lâu và có xe thay trong lúc chờ không; nếu không có xe thay, đó là những ngày bạn trả tiền mà không có xe dùng."
+  - q: "Về quê vài ngày cuối tháng có được tạm ngưng gói không?"
+    a: "Tùy nơi thuê, nên hỏi trước khi ký: có tạm ngưng vài ngày không, cách tính lại thế nào và có bù ngày vào kỳ sau không. Với Motoopen, chính sách tạm ngưng nên được hỏi rõ khi đặt và ghi vào hợp đồng."
+  - q: "Đi xe thuê dài ngày có cần mang theo giấy tờ xe không?"
+    a: "Nên hỏi nơi thuê có cấp bản photo đăng ký xe để mang theo không, vì giấy tờ xe cần thiết khi bị dừng kiểm tra. Loại giấy tờ được chấp nhận nên kiểm tra theo quy định hiện hành."
+  - q: "Làm sao biết nơi cho thuê có đáng tin cho cả tháng?"
+    a: "Thử nhắn hỏi trước và xem ba điều: trả lời có nhanh không, câu trả lời về bảo dưỡng, xe thay, tạm ngưng có cụ thể không, và họ có thoải mái cho chạy thử, đổi chiếc khác không. Lưu lại các trao đổi này để đối chiếu giữa kỳ."
 ---
 Gói tháng với dòng 50cc là lựa chọn của khách đi lại hằng ngày, nhưng thuê dài khác thuê ngày ở một điểm: xe phải bền giữa kỳ và điều khoản phải rõ từ đầu. Bài này liệt kê các câu nên hỏi trước khi chốt gói tháng.
 
@@ -35,6 +47,8 @@ Tình huống một: khách đi làm hỏi trước bảo dưỡng và được 
 ## Đánh giá nơi thuê qua ba chỉ số
 
 Với gói tháng, ba chỉ số nói lên chất lượng hơn mức giá niêm yết. Chỉ số một là thời gian phản hồi: nhắn hỏi lúc tám giờ tối, nếu được trả lời gọn trong buổi thì giữa kỳ cũng vậy. Chỉ số hai là độ cụ thể trong câu trả lời, nơi trả được mức bảo dưỡng, xe thay, tạm ngưng rõ ràng là nơi đã có quy trình, không phải hứa suông. Chỉ số ba là cách họ nhận xe khi bạn hỏi chạy thử: nơi thoải mái cho thử và đổi chiếc khác là nơi tin được dòng xe của họ. Ghi lại các trao đổi ban đầu, vì đây là bằng chứng tham chiếu tốt nhất khi cần đối chiếu điều khoản giữa kỳ.
+
+Khi đã có câu trả lời cho các câu hỏi trên, bạn có thể đối chiếu với [các gói thuê xe theo tháng của Motoopen]({{ '/' | relative_url }}) để chọn dòng xe và điều khoản hợp lịch đi lại của mình.
 
 ## Kết luận
 

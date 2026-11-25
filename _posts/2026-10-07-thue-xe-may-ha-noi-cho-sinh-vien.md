@@ -9,6 +9,18 @@ primary_keyword: "thuê xe máy hà nội cho sinh viên"
 hub_parent: thue-xe
 hub_category: bat-dau-thue
 seo_hub: sinh-vien
+quick_answer: "Sinh viên nên chọn dòng xe nhỏ gọn cho quãng đi học, thuê theo ngày nếu chỉ cần vài buổi mỗi tuần, và chuyển sang gói tuần hoặc tháng khi dùng xe hằng ngày. Hỏi rõ hình thức cọc trước khi ký, và đừng lấy gói dài khi lịch còn chưa chắc."
+qa:
+  - q: "Thuê xe chung theo nhóm bạn thì ai chịu trách nhiệm?"
+    a: "Người đứng tên hợp đồng chịu trách nhiệm với xe và phần hoàn cọc. Nhóm nên thống nhất trước ai giữ xe nào, ai ký hợp đồng nào, và đặt trước nhiều xe cùng lúc để chắc có xe trong mùa cao điểm."
+  - q: "Với sinh viên, thuê xe máy có rẻ hơn mua xe không?"
+    a: "Thường rẻ hơn trong thời gian ngắn và trung bình vì không phải bỏ vốn mua xe, nhưng chọn sai gói, ví dụ thuê lẻ từng ngày suốt thời gian dài, có khi còn tốn hơn. Hãy chọn gói theo số ngày dùng thực tế."
+  - q: "Gửi xe quanh ký túc xá thế nào cho an toàn?"
+    a: "Nên gửi ở bãi có người trông gần nhất thay vì để ngoài lề đường, nhất là khi vắng cả ngày. Khóa thêm khóa phụ và không để đồ đắt tiền trong cốp xe."
+  - q: "Thuê xe đi học ở Motoopen cần giấy tờ gì?"
+    a: "Bạn cần CCCD hoặc hộ chiếu và bằng lái phù hợp loại xe, như A1; nếu chưa có bằng A1, Motoopen tư vấn xe 50cc hoặc xe điện. Mức cọc tùy dòng xe, xem bảng giá hoặc hỏi khi đặt."
+  - q: "Mùa thi ít đi lại có nên giữ gói thuê không?"
+    a: "Nếu những tuần thi bạn gần như chỉ ở phòng hoặc ký túc xá, không nên thuê thêm xe cho giai đoạn đó. Hãy xem lại số ngày thực sự cần xe và hỏi trước chính sách tạm ngưng nếu đang giữ gói dài."
 ---
 Với sinh viên ở Hà Nội, xe máy thuê là phương án trung gian giữa đi xe buýt mệt mỏi và mua xe tốn kém. Nhưng chọn sai gói thuê có khi còn tốn hơn mua xe. Bài này nói cách chọn gói thuê hợp ngân sách sinh viên.
 
@@ -35,6 +47,8 @@ Chỗ để xe quanh ký túc xá và trường thường kín giờ cao điểm
 ## Kinh nghiệm tiết kiệm thêm trong mùa học
 
 Ngoài việc chọn đúng gói, sinh viên còn tiết kiệm được từ vài thói quen nhỏ. Nhóm bạn ở cùng tòa luân phiên đổ xăng chung cho chuyến đi xa cuối tuần, chia đều chi phí một cách minh bạch. Theo dõi các đợt giảm giá theo mùa mà một số điểm đưa ra quanh mùa tựu trường hoặc dịp lễ, hỏi trước qua kênh liên hệ thay vì chờ đến lúc nhận xe. Tránh thuê thêm xe cho những tuần thi cử bận rộn nhưng ít di chuyển, vì tổng chi phí cộng dồn không đáng. Ghi lại chi phí xăng mỗi tuần để ước lượng thật chính xác trước khi quyết định chuyển gói, vì con số thực tế luôn khác ước tính ban đầu.
+
+Nếu cả nhóm đều đi học hằng ngày, bạn có thể tham khảo [dịch vụ thuê xe theo tháng]({{ '/' | relative_url }}) để ước chi phí cho cả học kỳ trước khi chia tiền trong nhóm.
 
 ## Kết luận
 

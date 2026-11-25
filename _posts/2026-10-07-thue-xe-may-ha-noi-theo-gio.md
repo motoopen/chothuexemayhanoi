@@ -9,6 +9,16 @@ primary_keyword: "thuê xe máy hà nội theo giờ"
 hub_parent: thue-xe
 hub_category: gia-thoi-gian
 seo_hub: gia-coc
+quick_answer: "Thuê theo giờ hợp lý hơn thuê cả ngày khi lịch trình ngắn, rõ ràng, trong bán kính gần và thường dưới bốn giờ. Nếu lịch có thể kéo qua trưa, chọn gói ngày an toàn hơn; quy tắc nhanh là hòa vốn khi tiền giờ cộng dồn đạt khoảng ba phần tư giá ngày."
+qa:
+  - q: "Trễ mười lăm phút khi thuê theo giờ có bị tính thêm một giờ không?"
+    a: "Tùy nơi. Có nơi làm tròn lên từng giờ tiếp theo, có nơi chỉ tính khi trễ quá nửa giờ, và có nơi trễ lâu thì chuyển thẳng sang giá ngày. Hãy hỏi cụ thể trước khi nhận xe và hỏi luôn mức trần nếu có."
+  - q: "Motoopen có cho thuê xe theo giờ không?"
+    a: "Các gói Motoopen đang công bố là theo ngày, tuần và tháng, với giá ngày tham khảo từ 150k. Nếu bạn chỉ cần xe vài giờ, hãy gọi 0857 255 868 và hỏi rõ khi đặt để biết phương án phù hợp."
+  - q: "Gói thuê theo giờ có được miễn phí giao xe không?"
+    a: "Không chắc. Nhiều nơi chỉ miễn phí giao cho gói ngày, nên gói giờ dễ phát sinh phí giao. Ngoài ra cần hỏi phụ phí giờ cao điểm hoặc giờ đêm và phụ phí nhiên liệu nếu trả xe cạn xăng hơn lúc nhận."
+  - q: "Thuê xe vài giờ có cần đặt cọc không?"
+    a: "Thường vẫn cần, kèm căn cước công dân hợp lệ, dù cọc của gói giờ đôi khi thấp hơn vì thời gian rủi ro ngắn. Nếu không muốn đóng cọc, hãy đọc kỹ điều kiện của gói không cọc trước khi quyết định."
 ---
 Không phải lúc nào thuê xe cả ngày cũng rẻ hơn. Nếu bạn chỉ cần di chuyển trong hai hoặc ba giờ, chẳng hạn đi chợ sớm, gặp đối tác trong nội thành rồi về, thì gói thuê xe máy Hà Nội theo giờ thường kinh tế hơn hẳn so với gói cả ngày. Ngược lại, nếu lịch trình kéo dài qua trưa và bạn chưa chắc chắn thời điểm trả xe, thuê theo giờ có thể khiến chi phí vượt mức giá ngày. Bài viết này giúp bạn xác định đúng tình huống nên chọn gói giờ, cùng những câu hỏi cần đưa ra trước khi đặt cọc.
 
@@ -35,6 +45,8 @@ Thuê giờ đồng nghĩa với việc bạn nhận xe nhanh và dùng gấp, n
 ## Những khoản phụ phí hay gặp với gói giờ
 
 Một số phụ phí có thể xuất hiện ngoài giá niêm yết theo giờ. Thứ nhất, phụ phí giao xe tận nơi, vì nhiều nơi chỉ miễn phí giao cho gói ngày. Thứ hai, phụ phí giờ cao điểm hoặc giờ đêm, áp dụng khi bạn nhận xe rất sớm hoặc trả rất khuya. Thứ ba, phụ phí nhiên liệu nếu bạn trả xe cạn xăng hơn mức nhận. Khi cần liên hệ nhanh để hỏi gói giờ còn xe hay không, dùng thông tin trên trang [liên hệ]({{ '/lienhe.html' | relative_url }}) để gọi trước, tránh đến nơi rồi hết xe đúng khung giờ cao điểm.
+
+Nếu bạn cần xe gần như mỗi ngày để đi làm hoặc đi học, hãy so tổng tiền thuê giờ với [thuê xe máy theo tháng]({{ '/' | relative_url }}), vì giá tháng tính ra mỗi ngày thường thấp hơn nhiều.
 
 ## Kết luận
 

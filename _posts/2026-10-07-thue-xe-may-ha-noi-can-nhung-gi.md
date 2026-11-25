@@ -9,6 +9,18 @@ primary_keyword: "thuê xe máy hà nội cần những gì"
 hub_parent: huong-dan
 hub_category: thu-tuc-phap-ly
 seo_hub: thu-tuc-hop-dong
+quick_answer: "Cần ba nhóm: giấy tờ tùy thân gốc còn hiệu lực, bằng lái phù hợp loại xe nếu tự lái, và tiền thuê cùng tiền cọc theo hình thức đã thỏa thuận. Trước khi đến, nên hỏi cửa hàng về xe còn trống, giá, cọc, giờ mở cửa và phạm vi đi lại cho phép."
+qa:
+  - q: "Nên liên hệ hỏi cửa hàng những gì trước khi đến nhận xe?"
+    a: "Nên hỏi dòng xe còn trống đúng ngày cần, giá và gói thuê, khoản cọc, giờ mở cửa và phạm vi di chuyển cho phép. Motoopen mở cửa 09:00–21:00 hằng ngày tại 114 Nguyễn Văn Cừ, Long Biên; phạm vi đi lại nên hỏi rõ khi đặt."
+  - q: "Thuê xe máy ở Hà Nội có cần đặt trước không?"
+    a: "Nên đặt trước, nhất là khi cần giao xe tận nơi, để cửa hàng chủ động sắp lịch và giữ đúng dòng xe. Với Motoopen, bạn có thể liên hệ qua điện thoại hoặc Zalo 0857 255 868; phí giao nội thành khoảng 20k–50k."
+  - q: "Chưa có bằng A1 có nên tự chạy xe ga hay xe số không?"
+    a: "Không nên. Rủi ro pháp lý khi chạy xe không đủ điều kiện thuộc về người lái; khách chưa có bằng A1 được Motoopen tư vấn xe 50cc hoặc xe điện, và nên kiểm tra quy định hiện hành với từng loại xe."
+  - q: "Ở Hà Nội lâu ngày thì nên chuẩn bị gì khác so với thuê vài ngày?"
+    a: "Ngoài giấy tờ và cọc, nên tính cả các khoản ngoài giá thuê và cân nhắc thuê theo tháng. Ở Motoopen, giá tháng tham khảo khoảng 1–2 triệu tùy dòng xe, ví dụ Wave khoảng 1.200k; giá có thể thay đổi và chốt khi liên hệ."
+  - q: "Vì sao nên mang điện thoại đủ pin khi đi nhận xe thuê?"
+    a: "Điện thoại đủ pin giúp bạn liên hệ cửa hàng nếu đến muộn, mở địa chỉ điểm hẹn và chụp ảnh tình trạng xe lúc nhận làm bằng chứng cho phần cọc khi trả xe."
 ---
 Nhiều khách đến điểm nhận xe rồi mới phát hiện thiếu thứ này thiếu thứ kia, làm kế hoạch đi lại bị xô lệch. Bài này liệt kê trọn bộ những gì bạn cần chuẩn bị khi thuê xe máy ở Hà Nội, từ giấy tờ đến thông tin liên hệ với cửa hàng.
 
@@ -31,6 +43,8 @@ Trước khi đến, liên hệ qua trang liên hệ để chốt các điểm s
 ## Checklist cuối trước khi rời nhà
 
 Rà lại danh mục trước khi đi: giấy tờ tùy thân gốc, giấy phép lái phù hợp nếu tự lái, tiền thuê và cọc theo hình thức đã thỏa thuận, điện thoại đủ pin để liên hệ, và địa chỉ điểm nhận đã xác nhận. Nếu cần xe ga tận nơi, đặt trước để cửa hàng chủ động sắp lịch. Khách ở lại Hà Nội lâu nên đọc bài [thuê xe máy dài hạn Hà Nội]({{ '/blog/thue-xe-may-dai-han-ha-noi/' | relative_url }}) để hiểu các khoản ngoài giá thuê.
+
+Nếu bạn ở lại Hà Nội nhiều tuần để làm việc hay học tập, có thể cân nhắc [thuê xe máy dài hạn tại Hà Nội]({{ '/' | relative_url }}) để chuẩn bị giấy tờ và cọc một lần cho cả kỳ.
 
 ## Kết luận
 
