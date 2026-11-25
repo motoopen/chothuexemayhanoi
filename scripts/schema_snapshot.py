@@ -26,7 +26,43 @@ LD_RE = re.compile(
     r"<script[^>]*type=[\"']application/ld\+json[\"'][^>]*>(.*?)</script>",
     re.S | re.I,
 )
-MICRO_RE = re.compile(r"\s(itemscope|itemtype|itemprop|vocab|typeof|property=\"schema:)[=\s>\"']", re.I)
+# Microdata + RDFa attributes, captured WITH their values so any added/changed/removed
+# inline structured data is detected (not just counted).
+MICRO_ATTR_RE = re.compile(
+    r"\s(itemscope|itemtype|itemprop|itemid|itemref|vocab|typeof|resource|prefix|property|rel|rev|about|datatype|content)"
+    r"(?:\s*=\s*(\"[^\"]*\"|'[^']*'|[^\s>]+))?",
+    re.I,
+)
+TAG_RE = re.compile(r"<[a-zA-Z][^<>]*>", re.S)
+# Open Graph / social meta namespaces are not schema.org structured data.
+NON_SCHEMA_PROPERTY = re.compile(r"^(og|article|fb|twitter|book|profile|music|video|product):", re.I)
+RDFA_ONLY = {"rel", "rev", "about", "datatype", "content"}
+
+
+def inline_structured_attrs(html: str):
+    """Return sorted 'tag attr=value' strings for microdata/RDFa found in the page."""
+    found = []
+    for tag in TAG_RE.findall(html):
+        name = tag[1:].split(None, 1)[0].rstrip("/>").lower()
+        if name in ("script", "style"):
+            continue
+        attrs = [(a.lower(), (v or "").strip("\"'")) for a, v in MICRO_ATTR_RE.findall(tag)]
+        keys = {a for a, _ in attrs}
+        rdfa_context = bool(keys & {"vocab", "typeof", "resource", "prefix", "about"})
+        for a, v in attrs:
+            if a == "property":
+                if NON_SCHEMA_PROPERTY.match(v):
+                    continue
+            elif a in RDFA_ONLY:
+                # rel/content/... are ordinary HTML unless the element carries RDFa context
+                if not rdfa_context and not any(k in keys for k in ("itemprop", "property")):
+                    continue
+                if a == "rel" and not rdfa_context:
+                    continue
+                if a == "content" and "property" in keys and all(NON_SCHEMA_PROPERTY.match(vv) for aa, vv in attrs if aa == "property"):
+                    continue
+            found.append(f"{name} {a}={v}")
+    return sorted(found)
 
 
 def page_key(root: Path, path: Path) -> str:
@@ -55,7 +91,8 @@ def extract(html: str):
                 "types": types_of(json.loads(raw_stripped)) if ok else [],
             }
         )
-    micro = len(MICRO_RE.findall(html))
+    attrs = inline_structured_attrs(html)
+    micro = {"count": len(attrs), "sha256": hashlib.sha256("\n".join(attrs).encode("utf-8")).hexdigest()} if attrs else 0
     return blocks, micro
 
 
@@ -112,7 +149,7 @@ def cmd_compare(root: Path, baseline: Path) -> int:
         elif [x["raw_sha256"] for x in b["jsonld"]] != [x["raw_sha256"] for x in c["jsonld"]]:
             raw_only.append(key)
         if b["microdata_attrs"] != c["microdata_attrs"]:
-            problems.append(f"CHANGED microdata attribute count on {key}")
+            problems.append(f"CHANGED microdata/RDFa attributes on {key}: {b['microdata_attrs']} -> {c['microdata_attrs']}")
     total = sum(len(v["jsonld"]) for v in cur.values())
     print(f"compare: {len(cur)} pages / {total} JSON-LD blocks checked against {baseline}")
     if raw_only:

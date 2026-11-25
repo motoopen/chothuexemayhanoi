@@ -1,7 +1,7 @@
 # QA REPORT — SEO Master Autopilot 2026 (Motoopen)
 
 Date: 2026-11-25 · Branch `claude/dreamy-fermi-5dc8r6` · Checkpoint tag `checkpoint-pre-seo-autopilot-2026-11-25`
-PRs: motoopen/chothuexemayhanoi#22 (merged into `main` as `1ea03c0`, Pages deploy success) and the follow-up PR for batches B08–B10, B13 and the final fixes.
+PRs: motoopen/chothuexemayhanoi#22 (merged as `1ea03c0`, Pages deploy #1265 success) and motoopen/chothuexemayhanoi#23 (merged as `daa1314`, main CI #77 PASS, Pages deploy #1266 success).
 
 ## 1. Scope and counts
 | Item | Count |
